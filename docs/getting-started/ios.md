@@ -54,24 +54,25 @@ After granting permissions you’re ready to start collecting documentation. We 
 
 
 
-![alt_text](/img/getting-started/ios/picture.gif "image_tooltip")
+![gif that shows how to take a picture in Tella](/img/getting-started/ios/picture.gif "take a picture in Tella")
      
 
 
-![alt_text](/img/getting-started/ios/recording.gif "image_tooltip")
+![gif that shows how to record audio in Tella](/img/getting-started/ios/recording.gif "record audio in Tella")
 
 
-**Import your files to Tella. **Go to any of the folders inside Tella and tap the + Button > Import from device. Choose the file you’d like to keep inside Tella and a copy of the file will be stored encrypted and hidden on Tella. Keep in mind that the original file on your phone will not be deleted automatically , you will need to manually delete it. Tella will be unlocked while you choose your files for a maximum of 3 minutes.
-![alt_text](/img/getting-started/ios/import-files.gif "image_tooltip")
+**Import your files to Tella.** Go to any of the folders inside Tella and tap the + Button > Import from device. Choose the file you’d like to keep inside Tella and a copy of the file will be stored encrypted and hidden on Tella. Keep in mind that the original file on your phone will not be deleted automatically , you will need to manually delete it. Tella will be unlocked while you choose your files for a maximum of 3 minutes.
+![gif that shows how to import files in Tella](/img/getting-started/ios/import-files.gif "import files in Tella")
 
 
-**Create folders. **To make it easier to find your files, you can organize files into folders. Go to All files > + Button > Create a new folder and type a descriptive name for the folder. Then use the Select multiple button at the top of the screen, choose the files you want to move to the new folder, then click the 3 dots button and Move to a different folder, navigate the file structure to find the folder and then press Move here.
+**Create folders.** To make it easier to find your files, you can organize files into folders. Go to All files > + Button > Create a new folder and type a descriptive name for the folder. Then use the Select multiple button at the top of the screen, choose the files you want to move to the new folder, then click the 3 dots button and Move to a different folder, navigate the file structure to find the folder and then press Move here.
 
-![alt_text](/img/getting-started/ios/folders.gif "image_tooltip")
+![gif that shows how to organize evidence in folders in Tella](/img/getting-started/ios/folders.gif "folders in Tella")
 You can also take pictures, videos and audios and import files directly into the folders by using the + Button.
 
-**Rename files:** Another way to keep your data organized is to rename files to be more descriptive. By default files receive an auto-generated name. You can change it by clicking on the 3 dots that are next to each filename and then click Rename**.**
-![alt_text](/img/getting-started/ios/rename.gif "image_tooltip")
+**Rename files:** Another way to keep your data organized is to rename files to be more descriptive. By default files receive an auto-generated name. You can change it by clicking on the 3 dots that are next to each filename and then click Rename.
+
+![gif that shows how to rename files in Tella](/img/getting-started/ios/rename.gif "rename files in Tella")
 
 
 ## Share your information
@@ -82,7 +83,7 @@ Take into account that Tella will share the files unencrypted, so make sure to u
 
 It is not yet possible to connect to servers on Tella iOS.
 
-![alt_text](/img/getting-started/ios/share.gif "image_tooltip")
+![gif that shows how share information in Tella](/img/getting-started/ios/share.gif "share information in Tella")
 
 
 ## Go Further
