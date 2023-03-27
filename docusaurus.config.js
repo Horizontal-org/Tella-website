@@ -66,9 +66,9 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'getting-started/getting-started',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Getting Started',
           },
           {
             href: 'https://tella-app.org/',
@@ -84,8 +84,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Getting started',
+                to: '/docs/getting-started',
               },
             ],
           },
