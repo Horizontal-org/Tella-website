@@ -11,5 +11,5 @@ sidebar_position: 2
 In this guide, we’ll show you how to quickly get started on Tella to protect your files and data:
 
 Please choose your mobile platform:
-[iOS](/docs/getting-started-ios) 
-[Android](/docs/getting-started-android) 
+[iOS](/getting-started-ios) 
+[Android](/getting-started-android) 
