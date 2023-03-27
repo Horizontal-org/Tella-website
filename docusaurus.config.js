@@ -68,7 +68,25 @@ const config = {
             type: 'doc',
             docId: 'getting-started/getting-started',
             position: 'left',
-            label: 'Getting Started',
+            label: 'Docs and Tutorials',
+          },
+          {
+            type: 'doc',
+            docId: 'tella-features',
+            position: 'left',
+            label: 'Features',
+          },
+          {
+            type: 'doc',
+            docId: 'community',
+            position: 'left',
+            label: 'Community and Contributing',
+          },
+          {
+            type: 'doc',
+            docId: 'user-stories',
+            position: 'left',
+            label: 'User Stories',
           },
           {
             href: 'https://tella-app.org/',
@@ -80,15 +98,6 @@ const config = {
       footer: {
         style: 'light',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Getting started',
-                to: '/docs/getting-started',
-              },
-            ],
-          },
           {
             title: 'Contact',
             items: [

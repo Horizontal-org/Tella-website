@@ -11,17 +11,18 @@ sidebar_position: 7
 
 ## CLEEN Foundation - Nigeria
 
-
-    _CLEEN foundation used Tella for election monitoring in Nigeria. They received 7,800 reports from election observers that helped them identify cases of police violence and electoral fraud in real-time. The reports included photos, videos, and audio evidence, in addition to text descriptions. CLEEN foundation was able to receive, analyze and publish the results of the election monitoring process the day after the election and a report with recommendations to the Nigerian government to improve security in upcoming elections, reduce violence, and prevent fraud._
-
-
-    👥 +1000 users
+:::note
+CLEEN foundation used Tella for election monitoring in Nigeria. They received 7,800 reports from election observers that helped them identify cases of police violence and electoral fraud in real-time. The reports included photos, videos, and audio evidence, in addition to text descriptions. CLEEN foundation was able to receive, analyze and publish the results of the election monitoring process the day after the election and a report with recommendations to the Nigerian government to improve security in upcoming elections, reduce violence, and prevent fraud.
 
 
-    📲 7800 reports including images, audio and videos
+👥 +1000 users
 
 
-    🗄️ Connection: ODK (Kobotoolbox)
+📲 7800 reports including images, audio and videos
+
+
+🗄️ Connection: ODK (Kobotoolbox)
+:::
 
 The[CLEEN Foundation](https://cleen.org/)is a non-governmental organization established in 1998 in Nigeria with the mission of promoting public safety, security and accessible justice through empirical research, legislative advocacy, demonstration programs and publications, in partnership with government, civil society and the private sector.
 
@@ -47,8 +48,10 @@ Following the success of this first deployment, CLEEN deployed Tella to investig
 
 ## Not1More - Brazil
 
+:::note
+Not1More (N1M) used Tella to document violations of environmental and land rights in the Brazilian Amazon. In Brazil frontline environmental defenders have been suffering attacks and persecution and indigenous communities have faced attacks on their cultures, territories, and way of life. Tella is a safe way to report violations while prioritizing safety for reporters. With the results, N1M along with researchers and communities developed a map that's used as an advocacy tool for enviromental justice.
+:::
 
-    _Not1More (N1M) used Tella to document violations of environmental and land rights in the Brazilian Amazon. In Brazil frontline environmental defenders have been suffering attacks and persecution and indigenous communities have faced attacks on their cultures, territories, and way of life. Tella is a safe way to report violations while prioritizing safety for reporters. With the results, N1M along with researchers and communities developed a map that's used as an advocacy tool for enviromental justice._
 
 [Not1More (N1M)](https://not1more.org/) is an environmental campaign group that supports frontline environmental defenders and investigates the root causes of environmental conflict. N1M supports those at the frontline of environmental protection, investigates environmental conflict and crime, working closely with at-risk defenders and communities in Cambodia, West Africa and Brazil.
 
@@ -65,17 +68,17 @@ With the data collected, indigenous students and researchers at the Federal Univ
 
 ## Election monitoring - Belarus
 
+:::note
+In the 2020 presidential elections in Belarus, civil society organizations  deployed Tella to monitor the elections and document evidence of violations of electoral laws and procedures, as well as human rights abuses. Horizontal developed a custom version of Tella with a simplified user interface and default connection to the servers of the monitoring organizations. The app was translated to Belarusian and Russian. Over 250 users submitted a total of 1091 reports, despite the severe internet disruptions and the complete shutdown of mobile internet before, during, and after the election.
 
-    _In the 2020 presidential elections in Belarus, civil society organizations  deployed Tella to monitor the elections and document evidence of violations of electoral laws and procedures, as well as human rights abuses. Horizontal developed a custom version of Tella with a simplified user interface and default connection to the servers of the monitoring organizations. The app was translated to Belarusian and Russian. Over 250 users submitted a total of 1091 reports, despite the severe internet disruptions and the complete shutdown of mobile internet before, during, and after the election._
-
-
-    👥_ 250 users_
-
-
-    📲_ +1000 reports (photos, videos and form data)_
+👥_ 250 users_
 
 
-    🗄️_ _Connection: ODK (Kobotoolbox)
+📲_ +1000 reports (photos, videos and form data)_
+
+
+🗄️_ Connection: ODK (Kobotoolbox)_
+:::note
 
 In Belarus, the autocratic regime of Alexander Lukashenko has long stifled fundamental rights and repressed the political opposition. Elections are neither free nor fair. For the first time in decades, however, the presidential elections of 2020 offered a potential avenue for change, with credible opposition candidates and a civil society reenergized by government incompetence in the face of the Covid-19 pandemic.  
 
