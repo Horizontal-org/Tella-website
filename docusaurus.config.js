@@ -106,7 +106,7 @@ const config = {
                 href: 'mailto: contact@wearehorizontal.org',
               },
               {
-                label: 'Mas(https://todo.com)n',
+                label: 'Mastodon',
                 href: 'https://infosec.exchange/@tella',
               },
               {

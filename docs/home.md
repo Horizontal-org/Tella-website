@@ -13,13 +13,13 @@ title: Tella
 
 [Overview - A look at Tella features, security safeguards, and how to get started](/features)
 
-[FAQ - Answers to the most frequently asked questions]((https://todo.com))
+[FAQ - Answers to the most frequently asked questions](https://todo.com)
 
 # Servers
 
-[Collections -A overview of the ODK features and questions types supported in Tella.]((https://todo.com))
+[Collections -A overview of the ODK features and questions types supported in Tella.](https://todo.com)
 
-[Instructions to test the Tella-Kobotoolbox integration]((https://todo.com))
+[Instructions to test the Tella-Kobotoolbox integration](https://todo.com)
 
 # Legal
 
