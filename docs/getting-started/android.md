@@ -11,7 +11,7 @@ You have several options to download Tella:
 - Follow [this link](https://play.google.com/store/apps/details?id=org.hzontal.tella&hl=en&gl=US&pli=1) to find Tella on the Google Play Store or open the Google Play Store and search for “Tella”.
 - Download and install it manually as an .apk file [in this folder](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ) or our Telegram channel: https://t.me/tellaapp. 
 
-If you need to help to install the app manually, you can [follow this guide](https://todo.change) or contact us at contact@tella-app.org.
+If you need to help to install the app manually, you can [follow this guide](https://(https://todo.com).change) or contact us at contact@tella-app.org.
 
 ![gif that shows how to download Tella from the Play Store](/img/getting-started/android/find-tella.gif "find and download gif")
 
@@ -125,9 +125,9 @@ If you are using Kobotoolbox, [first create an account here](https://kf.kobotool
 
 
 ## Read more about Tella
-- [Features and security:](https://todo.change.com) Learn more about how Tella can keep you safe and the threats that Tella does not protect you from.
-- [Connections:](https://todo.change.com) Learn about how you can connect to a server to collect data or backup files.
-- [Privacy policy](https://todo.change.com): We only collect the minimum amount of data necessary and never collect any personally identifiable information. Read the full privacy policy here.
+- [Features and security:](https://(https://todo.com).change.com) Learn more about how Tella can keep you safe and the threats that Tella does not protect you from.
+- [Connections:](https://(https://todo.com).change.com) Learn about how you can connect to a server to collect data or backup files.
+- [Privacy policy](https://(https://todo.com).change.com): We only collect the minimum amount of data necessary and never collect any personally identifiable information. Read the full privacy policy here.
 
 ### Contact us if you need help
 If you need help to understand Tella’s technical details and security considerations to decide if it’s right for you and your team, we are here to help. Just reach out via email at contact@tella-app.org so we can answer your questions or plan to host a training or a live Q&A session for your team.

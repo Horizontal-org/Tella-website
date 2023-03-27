@@ -4,7 +4,6 @@ title: Tella features
 description: A detailed description of Tella features.
 slug: /features
 sidebar_position: 3
-
 ---
 
 # Tella features
