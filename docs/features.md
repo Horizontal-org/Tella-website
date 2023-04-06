@@ -167,7 +167,7 @@ When installing Tella, the user has to select a lock to encrypt and decrypt the 
 
 
 * On Android, the user can select a pattern, PIN, or password.
-* On iPhone, the user can select a PIN or password.
+* On iOS, the user can select a PIN or password.
 
 Without this lock, it is not possible to open Tella.
 
@@ -253,7 +253,7 @@ On Tella Android, it is possible to camouflage Tella in two ways:
 
 
 1. Users can change the name and icon of the app, to make it look like another app like a game or weather app.
-2. Users can hide Tella behind a fully functional calculator. In order to open Tella, the user must their PIN into the calculator followed by **=** . The Calculator camouflage is only possible if the user uses a PIN lock. It is not possible to camouflage Tella as a Calculator if pattern or password is used.
+2. Users can hide Tella behind a fully functional calculator. In order to open Tella, the user must input their PIN into the calculator followed by **=** . The Calculator camouflage is only possible if the user uses a PIN lock. It is not possible to camouflage Tella as a Calculator if pattern or password is used.
 
 At this time, due to restrictions on the Apple App Store, Tella for iOS does not support the camouflaging features that are available on Tella Android.
 
@@ -265,7 +265,7 @@ The name "Tella" and its icon will remain visible in the Android settings. This 
 
 ## Homescreen customization
 
-By default Tella's home screen organizes files by type: images, videos, audio, documents and other files. It also provides an All files sections where all files can be accessed. For more information see File Management section.
+By default Tella's home screen organizes files by type: images, videos, audio, documents and other files. It also provides an All files section where all files can be accessed. For more information see File Management section.
 
 For convenience and ease of access, it is also possible to customize the home screen to also show shortcuts to one or more of the following:
 
@@ -285,7 +285,7 @@ A Quick Delete button allows users, in just a few seconds, to delete sensitive d
 
 
 * Delete vault: Deletes all files stored in Tella.
-* Delete draft and submitted forms: Deletes drafts and submitted form in all Open Data Kit (ODK) connected servers.
+* Delete draft and submitted forms: Deletes drafts and submitted forms in all Open Data Kit (ODK) connected servers.
 * Delete server settings: Deletes all server connections and all the forms or templates associated with them.
 * Delete Tella: Deletes the app and all the data it contains. It triggers a message asking if the user wants to uninstall Tella as well.
 
@@ -354,7 +354,7 @@ Currently the servers that can be connected to Tella are:
 
 ## Camera (photos and videos)
 
-Tella offers a built-in camera where you can take photos and videos. All media collected inside Tella will not be available outside of it, as all files get encrypted as soon as they are taken. Files can only be accessed inside Tella, using the lock to open the app. Photos and videos won’t appear on the phone Gallery. In Tella, photos and videos will have a default name, but userscan rename those using the Rename button. Files  can also be organized in folders.
+Tella offers a built-in camera where you can take photos and videos. All media collected inside Tella will not be available outside of it, as all files get encrypted as soon as they are taken. Files can only be accessed inside Tella, using the lock to open the app. Photos and videos won’t appear on the phone Gallery. In Tella, photos and videos will have a default name, but users can rename those using the Rename button. Files can also be organized in folders.
 
 The camera offers the possibility to change the resolution of videos before recording in order to save space: the lower the resolution, the less space the video takes, but also the lower the quality of the video.
 

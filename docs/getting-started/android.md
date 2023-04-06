@@ -9,9 +9,9 @@ slug: /getting-started-android
 
 You have several options to download Tella:
 - Follow [this link](https://play.google.com/store/apps/details?id=org.hzontal.tella&hl=en&gl=US&pli=1) to find Tella on the Google Play Store or open the Google Play Store and search for “Tella”.
-- Download and install it manually as an .apk file [in this folder](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ) or our Telegram channel: https://t.me/tellaapp. 
+- Download and install it manually as an .apk file [in this folder](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ) or from our Telegram channel: https://t.me/tellaapp. 
 
-If you need to help to install the app manually, you can [follow this guide](https://todo.com) or contact us at contact@tella-app.org.
+If you need help to install the app manually, you can [follow this guide](https://todo.com) or contact us at contact@tella-app.org.
 
 ![gif that shows how to download Tella from the Play Store](/img/getting-started/android/find-tella.gif "find and download gif")
 
@@ -20,12 +20,12 @@ If you need to help to install the app manually, you can [follow this guide](htt
 
 The first time you open Tella you’ll see a guided tour of the app functionalities: Camera, Recorder and Encrypted files & folders. You’ll also be asked to choose how you will lock Tella. Without this lock, it is not possible to open Tella and access any of the files stored in Tella. 
 - Password: an alphanumeric password is the most secure way to lock your App.
-- PIN: a numeric sequence of more than 6 digits.
-- Pattern: a numeric pattern of at least 6 dots.
+- PIN: a numeric sequence of more than six (6) digits.
+- Pattern: a numeric pattern of at least six(6) dots.
 
 Avoid using your name, date of birth, or anything that is easy to guess (like “Password”, “123456”, or “000000”).
 
-Keep in mind that if you forget this lock, there is no way to access the Tella or its content.
+Keep in mind that if you forget this lock, there is no way to access the app or its content.
  
 
 
@@ -39,7 +39,9 @@ Keep in mind that if you forget this lock, there is no way to access the Tella o
 The first time you use each functionality, you will be asked to grant Tella some permissions:
 - To take photos, record videos, or record audio, you will need to grant permission to access your phone’s camera and microphone.
 - To import files into Tella or export files from Tella to your phone, you will need to grant access to your device file system.
-- To use “verification mode” or send your location, you will need to grant access to your device location.If you decline granting Tella these permissions, you can grant permissions later by going to your Android settings and navigating to Settings > Apps > Tella > App permissions.
+- To use “verification mode” or send your location, you will need to grant access to your device location. You can do this by going into Tella’s settings and then General > Verification Mode.
+
+If you decline granting Tella these permissions, you can grant permissions later by going to your Android settings and navigating to Settings > Apps > Tella > App permissions.
 
 ![gif that shows how to grant Tella permissions](/img/getting-started/android/permissions.gif "grating permission gif")
 
@@ -49,7 +51,7 @@ The first time you use each functionality, you will be asked to grant Tella some
 
 
 ## Protect your files
-After granting permissions you’re ready to start collecting documentation. We recommend you to explore the following feature:
+After granting permissions, you’re ready to start collecting documentation. We recommend you to explore the following features:
 
 **Use the Camera to take pictures or videos and the Audio Recorder to record audio.** All media taken by Tella will be encrypted instantly, which means that the file will not be accessible outside of Tella. All media collected inside Tella will not show on your phone gallery or phone files. There is no particular storage limit for Tella, the available space will depend on the space available on your device. 
 
@@ -61,7 +63,7 @@ After granting permissions you’re ready to start collecting documentation. We 
 
 
 
-**Import your files to Tella.** Go to any of the folders inside Tella and tap the + Button > Import from device. Choose the file you’d like to keep inside Tella and a copy of the file will be stored encrypted and hidden on Tella. Keep in mind that the original file on your phone will not be deleted automatically, you will need to manually delete it. Tella will be unlocked while you choose your files for a maximum of 3 minutes.
+**Import your files to Tella.** Go to any of the folders inside Tella and tap the + Button > Import from device. Choose the file you’d like to keep inside Tella and a copy of the file will be stored encrypted and hidden on Tella. Keep in mind that the original file on your phone will not be deleted automatically, you will need to manually delete it. Tella will be unlocked while you choose your files for a maximum of three (3) minutes.
 
 ![gif that shows how to import files in Tella](/img/getting-started/android/import.gif "import files in Tella")
 
@@ -69,7 +71,7 @@ After granting permissions you’re ready to start collecting documentation. We 
 
 
 
-**Create folders.** To make it easier to find your files, you can organize files into folders. Go to All files > + Button > Create a new folder and type a descriptive name for the folder. Then use the Select multiple button at the top of the screen, choose the files you want to move to the new folder, then click the 3 dots button and Move to a different folder, navigate the file structure to find the folder and then press Move here. 
+**Create folders.** To make it easier to find your files, you can organize files into folders. Go to All files > + Button > Create a new folder and type a descriptive name for the folder. Then use the Select multiple button at the top of the screen, choose the files you want to move to the new folder, then click the three (3) dots button and Move to a different folder, navigate the file structure to find the folder and then press Move here. 
 
 ![gif that shows how to organize your info in Tella](/img/getting-started/android/folders-rename.gif "organize files in Tella")
 

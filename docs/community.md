@@ -25,7 +25,6 @@ Each month, Horizontal hosts a community call with users, partners, or anyone in
 
 Community calls are held on the first Wednesday of each month at 3pm GMT.
 
-[Click here](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MDM1Z252cjVkamRkMWVpb2VyNDRvOTV2NGpfMjAyMzAzMDFUMTUwMDAwWiBjXzFjYjEwYjUxMmFkNjI4ZjlkNzlkYjc1YzcyZTRiNGU3NjcyMDY1MzAyMmVjZWU4YTNiZTFjZjYyNWU2MDVkNjdAZw&tmsrc=c_1cb10b512ad628f9d79db75c72e4b4e76720653022ecee8a3be1cf625e605d67%40group.calendar.google.com&scp=ALL) to add the community meetings to your Google Calendar.
 
 ### Where
 
@@ -47,9 +46,9 @@ We may collect general information about the call (number of participants and th
 
 The security and privacy of Tella users is at the core of our mission. It is therefore natural for the application's code to be entirely open-source. This means that it is publicly available for review: anyone can audit our code to verify that we don't misuse user data, that we actually do what we say, and that our code is robust.
 
-Tella's code for both Android and iOS can be accessed[ here on our GitHub repository](https://github.com/horizontal-org). Rather than blindly trust us, you can audit the code yourself or ask someone you trust to do it, or read the reports that independent security firms wrote after auditing Tella’s code [add link].
+Tella's code for both Android and iOS can be accessed [here on our GitHub repository](https://github.com/horizontal-org). Rather than blindly trust us, you can audit the code yourself or ask someone you trust to do it, or read the reports that independent security firms wrote after auditing Tella’s code [add link].
 
-We also publish and maintain a fully Free and Open Source version of Tella for Android that doesn't contain any closed-source or proprietary library or dependency, and that is free from any trackers. You can find the code for that version of Tella [here on Github] and [download it from F-Droid].
+We also publish and maintain a fully Free and Open Source version of Tella for Android that doesn't contain any closed-source or proprietary library or dependency, and that is free from any trackers. You can find the code for that version of Tella [here on Github](https://github.com/Horizontal-org/).
 
 
 ## Translating Tella
