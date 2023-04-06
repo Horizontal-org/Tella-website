@@ -1,6 +1,6 @@
 ---
 id: community
-title: Community & Contributing
+title: Community
 description: Details about how to get involved in Tella development and participating in our community.
 slug: /community
 sidebar_position: 5

@@ -1,9 +1,11 @@
 ---
 id: getting-started-android
-title: Getting Started Android
+title: Android
 description: Quick start guide for Tella users on Android
 slug: /getting-started-android
 ---
+
+# Getting started on Tella on Android
 
 ## Download and install Tella
 

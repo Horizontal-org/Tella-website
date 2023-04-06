@@ -1,6 +1,6 @@
 ---
 id: tella-features
-title: Tella features
+title: Features
 description: A detailed description of Tella features.
 slug: /features
 sidebar_position: 3

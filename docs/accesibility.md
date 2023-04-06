@@ -1,12 +1,12 @@
 ---
 id: accesibility
-title: Tella accessibility
+title: Accessibility
 description: A detailed description of Tella accessibility considerations.
 slug: /accessibility
 sidebar_position: 4
 ---
 
-# Accessibility
+# Accessibility on Tella
 
 Making Tella accessible is a top priority for us. When we say accessible, we mean that we do our best to ensure that disabled users and users with limited literacy or tech literacy can use Tella.
 

@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Tella Documentation',
+  title: 'Tella Docs',
   tagline: 'Document & protect',
   favicon: 'img/favicon.ico',
 
@@ -57,37 +57,13 @@ const config = {
     ({
       image: 'img/tella.png',
       navbar: {
-        title: 'Tella Documentation',
+        title: 'Tella Docs',
         logo: {
           alt: 'Tella Logo',
           src: 'img/logo.svg',
           srcDark: 'img/logo_dark.svg',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'getting-started/getting-started',
-            position: 'left',
-            label: 'Docs and Tutorials',
-          },
-          {
-            type: 'doc',
-            docId: 'tella-features',
-            position: 'left',
-            label: 'Features',
-          },
-          {
-            type: 'doc',
-            docId: 'community',
-            position: 'left',
-            label: 'Community and Contributing',
-          },
-          {
-            type: 'doc',
-            docId: 'user-stories',
-            position: 'left',
-            label: 'User Stories',
-          },
           {
             href: 'https://tella-app.org/',
             label: 'Tella website',

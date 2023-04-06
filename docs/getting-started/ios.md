@@ -1,6 +1,6 @@
 ---
 id: getting-started-ios
-title: Getting Started iOS
+title: iOS
 description: Quick start guide for Tella users on iOS
 slug: /getting-started-ios
 ---

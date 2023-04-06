@@ -1,6 +1,6 @@
 ---
 id: user-stories
-title: Tella User Stories
+title: User Stories
 description: Experince of Tella users and deployments
 slug: /user-stories
 sidebar_position: 7

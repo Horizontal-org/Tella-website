@@ -2,12 +2,12 @@
 id: documentation-homepage
 slug: /
 sidebar_position: 1
-title: Tella
+title: Welcome
 
 ---
 
 
-# Tella
+# Welcome to Tella
 
 # Getting started with Tella
 
@@ -17,7 +17,7 @@ title: Tella
 
 # Servers
 
-[Collections -A overview of the ODK features and questions types supported in Tella.](https://todo.com)
+[Collections - A overview of the ODK features and questions types supported in Tella.](https://todo.com)
 
 [Instructions to test the Tella-Kobotoolbox integration](https://todo.com)
 
