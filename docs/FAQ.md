@@ -51,7 +51,7 @@ For more details about each feature see [Overview](https://slite.com/api/public/
 As of November 2022, we are in the process of developing Tella Web, a web app that acts as a repository to store reports submitted by Tella users, include photos, videos, and audio, and the verification information attached to those. We expect to release Tella Web in January 2023. In following versions, it will also be possible to use Tella Web to manage Tella users and customize how Tella looks on Android and iOS devices.
 
 :::note
-Note that it is not possible to encrypt and hide files or create reports on Tella Web. These features are only available on the mobile apps. Tella Web will be one of the options available to collect data from Tella [see connections](https://todo.com)
+Note that it is not possible to encrypt and hide files or create reports on Tella Web. These features are only available on the mobile apps. Tella Web will be one of the options available to collect data from Tella [see connections](/features#connecting-to-servers)
 :::
 
 ## Where can I get Tella?

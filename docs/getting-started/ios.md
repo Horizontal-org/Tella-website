@@ -89,8 +89,8 @@ It is not yet possible to connect to servers on Tella iOS.
 ### Read more about Tella
 
 
-* [Features and security](https://(https://todo.com).change.link): Learn more about how Tella can keep you safe and the threats that Tella does _not_ protect you from.
-* [Privacy policy](https://(https://todo.com).change.link): We only collect the minimum amount of data necessary and never collect any personally identifiable information.
+* [Features and security](/security-and-privacy): Learn more about how Tella can keep you safe and the threats that Tella does _not_ protect you from.
+* [Privacy policy](https://docs.tella-app.org/p/U-EOn57whEMiwr/Tella-Privacy-Policy): We only collect the minimum amount of data necessary and never collect any personally identifiable information.
 
 
 ### Contact us if you need help

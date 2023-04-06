@@ -13,7 +13,7 @@ title: Tella
 
 [Overview - A look at Tella features, security safeguards, and how to get started](/features)
 
-[FAQ - Answers to the most frequently asked questions](https://todo.com)
+[FAQ - Answers to the most frequently asked questions](/FAQ)
 
 # Servers
 
