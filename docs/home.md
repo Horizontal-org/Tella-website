@@ -9,7 +9,7 @@ title: Welcome
 
 # Welcome to Tella
 
-# What's Tella - Document & protect
+## What's Tella - Document & protect
 In challenging environments, with limited or no internet connectivity or in the face of repression, Tella makes it easier and safer to document human rights violations and collect data.
 
 
