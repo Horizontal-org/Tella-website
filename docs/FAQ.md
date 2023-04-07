@@ -1,5 +1,9 @@
 ---
+id: faq
 title: FAQ
+description: Frequently asked questions about Tella
+slug: /faq
+sidebar_position: 7
 ---
 
 # FAQ

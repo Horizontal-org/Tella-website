@@ -30,10 +30,10 @@ If you are an activist, journalist, human rights defender, or anyone who engages
 <a href='https://play.google.com/store/apps/details?id=org.hzontal.tella'><img width="50%" height="100" alt='Get Tella on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
 
 
-<a href="https://apps.apple.com/us/app/tella-document-protect/id1598152580?itsct=apps_box_badge&amp;itscg=30200"><img width="50%" height="400" src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us&amp;releaseDate=1661817600" alt="Download Tella on the App Store"></img></a>
+<a href="https://apps.apple.com/us/app/tella-document-protect/id1598152580?itsct=apps_box_badge&amp;itscg=30200"><img width="50%" height="00" src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us&amp;releaseDate=1661817600" alt="Download Tella on the App Store"></img></a>
 
 
 
 ## Legal
 
-[Tella's official privacy policy](https://slite.com/api/public/notes/U-EOn57whEMiwr/redirect)
+[Tella's official privacy policy](/privacy-policy)
