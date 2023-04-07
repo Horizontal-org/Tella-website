@@ -5,159 +5,14 @@ description: A detailed description of Tella features.
 slug: /features
 sidebar_position: 3
 ---
+import FeaturesTable from './_features-table.mdx';
+
 
 # Tella features
 
 All of the following features are available to all users as soon as they download Tella. They do not require any connection to a server or any special set up. 
 
-
-<table>
-  <tr>
-   <td><strong>Feature</strong>
-   </td>
-   <td><strong>Android</strong>
-   </td>
-   <td><strong>iOS</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>App Lock
-   </td>
-   <td>Password, PIN, Pattern
-   </td>
-   <td>Password, PIN
-   </td>
-  </tr>
-  <tr>
-   <td>Lock timeout configuration
-   </td>
-   <td>✔️
-   </td>
-   <td>✔️
-   </td>
-  </tr>
-  <tr>
-   <td>Camera silent mode
-   </td>
-   <td>✔️
-   </td>
-   <td>Not yet
-   </td>
-  </tr>
-  <tr>
-   <td>Screen security
-   </td>
-   <td>✔️
-   </td>
-   <td>Not yet
-   </td>
-  </tr>
-  <tr>
-   <td>Encryption
-   </td>
-   <td>✔️
-   </td>
-   <td>✔️
-   </td>
-  </tr>
-  <tr>
-   <td>Encrypted file management
-   </td>
-   <td>✔️
-   </td>
-   <td>✔️
-   </td>
-  </tr>
-  <tr>
-   <td>Import files from device
-   </td>
-   <td>✔️
-   </td>
-   <td>✔️
-   </td>
-  </tr>
-  <tr>
-   <td>Camouflage
-   </td>
-   <td>✔️
-   </td>
-   <td>Not yet
-   </td>
-  </tr>
-  <tr>
-   <td>Homescreen customization
-   </td>
-   <td>✔️
-   </td>
-   <td>✔️
-   </td>
-  </tr>
-  <tr>
-   <td>Camera (photos and videos)
-   </td>
-   <td>✔️
-   </td>
-   <td>✔️
-   </td>
-  </tr>
-  <tr>
-   <td>Audio Recorder
-   </td>
-   <td>✔️
-   </td>
-   <td>✔️
-   </td>
-  </tr>
-  <tr>
-   <td>Verification mode
-   </td>
-   <td>✔️
-   </td>
-   <td>Not yet
-   </td>
-  </tr>
-  <tr>
-   <td>Quick delete
-   </td>
-   <td>✔️
-   </td>
-   <td>Not yet
-   </td>
-  </tr>
-  <tr>
-   <td>Quick exit
-   </td>
-   <td>✔️
-   </td>
-   <td>✔️
-   </td>
-  </tr>
-  <tr>
-   <td>Connections to collect data and send files
-   </td>
-   <td>
-<ul>
-<li>Uwazi</li>
-<li>Open Data Kit (Forms)</li>
-<li>Tella Web</li>
-</ul>
-   </td>
-   <td>
-<ul>
-<li>Tella Web</li>
-</ul>
-   </td>
-  </tr>
-  <tr>
-   <td>Offline data collection
-   </td>
-   <td>✔️
-   </td>
-   <td>✔️
-   </td>
-  </tr>
-</table>
-
+<FeaturesTable/>
 
 
 ## App lock
@@ -242,8 +97,10 @@ Importing files from the device file system into Tella makes a copy of the files
 ## Import files from device
 
 The user can import files into Tella to keep them secured by using the import feature. They can import files by going to the **Add ( + )** button on either All files, Images, Video, Audio or Documents depending on the type of file they wish to import and then **Import from device**. The files will be kept secured at Tella, but to make sure the files cannot be found outside of Tella, the user will need to manually delete those from your device.
- 
-Currently only images, videos and audios can be visualized inside Tella. Other files, like PDFs, must be exported to be opened.
+
+## Open files in Tella
+
+On Tella Android only images, videos and audios can be visualized inside Tella. Other files, like PDFs, must be exported to be opened. For iOS it is possible to visualize images, videos, audios and PDF files.
 
 
 ## Camouflage
@@ -288,8 +145,6 @@ A Quick Delete button allows users, in just a few seconds, to delete sensitive d
 * Delete draft and submitted forms: Deletes drafts and submitted forms in all Open Data Kit (ODK) connected servers.
 * Delete server settings: Deletes all server connections and all the forms or templates associated with them.
 * Delete Tella: Deletes the app and all the data it contains. It triggers a message asking if the user wants to uninstall Tella as well.
-
-At this time, Quick Delete is only available on Tella Android.
 
 
 ## Quick exit
@@ -361,8 +216,8 @@ The camera offers the possibility to change the resolution of videos before reco
 
 ## Audio Recorder
 
-Tella has a built-in audio recorder.  All audio recorded inside Tella will not be available outside of it, as all files get encrypted as soon as they are taken. Audio files can only be accessed inside Tella, using the lock to open the app. Recordings will not appear on the phone’s Voice Recording app or file system. In Tella, audio files will have a default name, but users can rename those using the Rename button. Audio recordings can also be organized in folders. \
- \
+Tella has a built-in audio recorder.  All audio recorded inside Tella will not be available outside of it, as all files get encrypted as soon as they are taken. Audio files can only be accessed inside Tella, using the lock to open the app. Recordings will not appear on the phone’s Voice Recording app or file system. In Tella, audio files will have a default name, but users can rename those using the Rename button. Audio recordings can also be organized in folders. 
+
 The audio recorder allows users to pause the recording and restart it as needed, keeping all the information on the same file. Users  see how much space they have available while recording, to ensure they will not be out of space while recording.
 
 
