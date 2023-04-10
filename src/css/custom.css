@@ -6,13 +6,13 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2c275a;
-  --ifm-color-primary-dark: #282351;
-  --ifm-color-primary-darker: #25214d;
-  --ifm-color-primary-darkest: #1f1b3f;
-  --ifm-color-primary-light: #302b63;
-  --ifm-color-primary-lighter: #332d67;
-  --ifm-color-primary-lightest: #393375;
+  --ifm-color-primary: #2c6c97;
+  --ifm-color-primary-dark: #286188;
+  --ifm-color-primary-darker: #255c80;
+  --ifm-color-primary-darkest: #1f4c6a;
+  --ifm-color-primary-light: #3077a6;
+  --ifm-color-primary-lighter: #337cae;
+  --ifm-color-primary-lightest: #398cc4;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
@@ -26,6 +26,12 @@
   --ifm-color-primary-light: #db9f52;
   --ifm-color-primary-lighter: #dda65d;
   --ifm-color-primary-lightest: #e4b87f;
-  --ifm-background-color: #071013;
+  --ifm-background-color: #000000;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+::root {
+  font-family: 'Open Sans';
+}
+
+
