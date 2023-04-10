@@ -4,7 +4,10 @@ title: iOS
 description: Quick start guide for Tella users on iOS
 slug: /getting-started-ios
 ---
+import styles from '../../src/css/guides.module.css';
 
+
+# Getting started on Tella on iOS
 
 ## Download and install Tella
 Follow [this link](https://apps.apple.com/us/app/tella-document-protect/id1598152580) to find Tella on the App Store or open the App Store and search for “Tella document and protect”.

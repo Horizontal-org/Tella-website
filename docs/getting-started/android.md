@@ -4,6 +4,8 @@ title: Android
 description: Quick start guide for Tella users on Android
 slug: /getting-started-android
 ---
+import styles from '../../src/css/guides.module.css';
+
 
 # Getting started on Tella on Android
 

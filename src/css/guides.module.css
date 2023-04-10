@@ -1,0 +1,9 @@
+p img {
+    height: 500px !important;
+    width: auto;
+}
+
+p:has(img) {
+    margin: 5px;
+    display: inline-block;
+}
