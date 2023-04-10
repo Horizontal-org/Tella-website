@@ -156,7 +156,11 @@ By clicking the exit button on the Tella’s home screen right top corner, users
 
 In the Tella settings, users can activate "Verification Mode". 
 
-When activated, every time a user takes a photo or a video, or records audio, Tella automatically captures verification information (file metadata). This verification information can be used to corroborate evidence, cross-check with other facts known about the event or about the area where it was captured. The verification information will be included as a separated file when saving the file to the device or when sharing it through third-party apps.
+When activated, every time a user takes a photo or a video, or records audio, Tella automatically captures verification information (file metadata). This verification information can be used to corroborate evidence, cross-check with other facts known about the event or about the area where it was captured. The verification information will be included as a separated file when saving the file to the device or when sharing it through third-party apps.The file format is .CSV with the metadata information included in columns. This file can be open with any spreadsheets app (like Excel, Google Spreadsheets, or OpenOffice). 
+
+:::info
+If you need help to better understand Verification Mode, feel free to contact us
+:::
 
 Below is a list of each piece of metadata captured by Tella:
 
