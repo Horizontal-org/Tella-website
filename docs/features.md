@@ -7,7 +7,6 @@ sidebar_position: 3
 ---
 import FeaturesTable from './_features-table.md';
 
-
 # Tella features
 
 All of the following features are available to all users as soon as they download Tella. They do not require any connection to a server or any special set up. 
@@ -20,7 +19,6 @@ All of the following features are available to all users as soon as they downloa
 When installing Tella, the user has to select a lock to encrypt and decrypt the content of the app.
 
 
-
 * On Android, the user can select a pattern, PIN, or password.
 * On iOS, the user can select a PIN or password.
 
@@ -28,6 +26,10 @@ Without this lock, it is not possible to open Tella.
 
 :::danger
 If the user loses their lock, it is not possible to regain access to Tella and the files stored inside the app. The user has to uninstall and reinstall Tella, and all files will be lost.
+:::
+
+:::tip
+Learn more about Tella Locks in our [video tutorial](/video-tutorials#tella-locks)
 :::
 
 ## Lock timeout configuration
@@ -45,17 +47,28 @@ Please use this feature carefully as if Tella is unlocked the data would be unpr
 When the camera or the audio recorder are open, Tella won’t lock
 :::
 
+:::tip
+Learn more about Tella Additional Security Features in our [video tutorial](/video-tutorials#additional-security-features)
+:::
+
 
 
 ## Camera silent mode
 
 By default Tella has camera silent mode disabled. By going to **Settings ⚙️** > **Security** > **Camera silent mode**, it is possible to  turn off the camera shutter sound to draw less attention when taking photos. 
 
+:::tip
+Learn more about Tella Additional Security Features in our [video tutorial](/video-tutorials#additional-security-features)
+:::
+
 
 ## Screen security
 
 By default Tella blocks screenshots, screen recordings inside Tella and hides the screen preview in the list of recent apps. It is possible to  disable this security feature if the users need to take screenshots or screen recordings, or to mirror Tella to a computer for a presentation, by going to **Settings** ⚙️ > **Security** > **Screen security**.
 
+:::tip
+Learn more about Tella Additional Security Features in our [video tutorial](/video-tutorials#additional-security-features)
+:::
 
 ## Encryption
 
@@ -73,13 +86,15 @@ If the user’s lock is too weak, an adversary may be able to guess it and open 
 If the user forgets their lock, there is no way of gaining access to the app and retrieving its content
 :::
 
+:::tip
+Learn more about Locks and Encryption in our [video tutorial](/video-tutorials#tella-locks)
+:::
 
 ## File management
 
 Tella allows users to manage files and folders in a similar way they would do on a computer. All files and folders are **encrypted and only accessible within Tella**.
 
 In Tella, users can:
-
 
 
 * Store any file, including photos, videos, audio files, and documents.
@@ -92,7 +107,9 @@ In Tella, users can:
 Importing files from the device file system into Tella makes a copy of the files into Tella. This means that the original files are still present on the device, outside of Tella and unencrypted. To import the files into Tella without leaving a copy on the device file system, users must first import the files into Tella and then manually delete the original files in the device file system.
 :::
 
-
+:::tip
+Learn more about [Collecting Evidence](video-tutorials#collecting-evidence) and [Sharing data](/video-tutorials#sharing-data-with-other-apps) in our video tutorials.
+:::
 
 ## Import files from device
 
@@ -118,7 +135,9 @@ At this time, due to restrictions on the Apple App Store, Tella for iOS does not
 The name "Tella" and its icon will remain visible in the Android settings. This means that camouflage will not protect against an individual _actively_ looking for Tella on the phone or conducting an in-depth analysis of the device.
 :::
 
-
+:::tip
+Learn more about [Camouflaging Tella](/video-tutorials#camouflaging-tella) in our video tutorial.
+:::
 
 ## Homescreen customization
 
@@ -209,6 +228,10 @@ Currently the servers that can be connected to Tella are:
 
 * Open Data Kit (ODK)
 * Uwazi
+
+:::tip
+Learn more about [Connecting to Servers](/video-tutorials#server-connections) in our video tutorials.
+:::
 
 
 ## Camera (photos and videos)

@@ -39,7 +39,6 @@
   --ifm-link-decoration: underline;  
 }
 
-/* resizing badges based on this https://stackoverflow.com/questions/47590571/increase-margin-on-app-store-badge-to-match-size-of-google-play-store-badge */
 .badges {
   display: flex;
   align-items: center;
@@ -59,18 +58,6 @@
   height: 100%;
 }
 
-/*.badges img {
-  max-width: 100%;
-  height: auto;
+.video-tutorials iframe {
+  height: 500px;
 }
-
-.badges #app-store-badge {
-  margin: 6%;
-  width: 88%;
-}
-
-.badges .store-badge {
-  width: 300px;
-} 
-
-*/
