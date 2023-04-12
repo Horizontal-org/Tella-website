@@ -69,6 +69,11 @@ const config = {
             label: 'Tella website',
             position: 'right',
           },
+          {
+            href: '/contact-us',
+            label: 'Contact Us',
+            position: 'right',
+          },
         ],
       },
       footer: {
