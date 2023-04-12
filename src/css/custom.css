@@ -30,7 +30,47 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-::root {
+@font-face {
   font-family: 'Open Sans';
 }
 
+/* making links underline (only on the main page) for accesibility */
+.markdown a {
+  --ifm-link-decoration: underline;  
+}
+
+/* resizing badges based on this https://stackoverflow.com/questions/47590571/increase-margin-on-app-store-badge-to-match-size-of-google-play-store-badge */
+.badges {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.badges a {
+  height: 70px;
+}
+
+.badges .apple-store-badge {
+  /* compensate for built-in padding in android store badge */
+  padding: 11px 0;
+}
+
+.badges img {
+  height: 100%;
+}
+
+/*.badges img {
+  max-width: 100%;
+  height: auto;
+}
+
+.badges #app-store-badge {
+  margin: 6%;
+  width: 88%;
+}
+
+.badges .store-badge {
+  width: 300px;
+} 
+
+*/
