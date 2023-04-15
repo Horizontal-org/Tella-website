@@ -30,7 +30,8 @@ You can join the call using this link: <https://meet.jit.si/moderated/72928f9f16
 
 ### Safety and privacy
 
-!! To ensure safety of all participant, anyone joining the Tella community calls agrees to abide by [Horizontal's Code of Conduct](https://horizontal-org.slite.com/app/docs/E33mV5cWaJhd8x/Horizontal-Code-of-Conduct). Please take some time to get familiar with it.
+:::warning To ensure the safety of all participants, anyone joining the Tella community calls agrees to abide by [Horizontal's Code of Conduct](https://horizontal-org.slite.com/app/docs/E33mV5cWaJhd8x/Horizontal-Code-of-Conduct). Please take some time to get familiar with it.
+:::
 
 Tella community calls are hosted on Jitsi Meet’s public instance. Jitsi does not require sign up and does not collect and retain data about users. However, <u>**the link to the meeting is shared publicly and broadly**</u>. Please take precautions to keep your identity hided if that is important for your safety (for example, you can use a pseudonym) and avoid sharing any sensitive information during the call.
 

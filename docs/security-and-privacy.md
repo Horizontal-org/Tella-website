@@ -17,14 +17,12 @@ We only collect the minimum amount of data that is necessary to fulfill the purp
 
 Through using our app, users may send data to servers managed by individuals or organizations they're working with. We encourage users to ask these individuals or organizations about their data privacy policies, as they may differ from ours. We provide the same standard of privacy protection to all our users no matter where you are in the world.
 
-You can read Tella's full Privacy Policy here [add link].
+You can read Tella's full [Privacy Policy](/privacy-policy).
 
 
 ### Tella Android
 
 Tella Android, as available on the Google Play Store, includes two trackers, [Google CrashLytics](https://firebase.google.com/docs/crashlytics) and [Google Firebase Analytics](https://firebase.google.com/docs/analytics), which help us detect bugs and crashes. This is critical to keep the app secure and performant for at-risk users. 
-
-If you’d like to use a trackers-free and Google-free version of Tella Android you can download it from the F-droid store [add link].
 
 
 ### Tella iOS

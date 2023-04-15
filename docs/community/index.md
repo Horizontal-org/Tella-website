@@ -12,5 +12,5 @@ See details about Tella Community Meetings [here](/community-meetings)
 
 Tella is Open Source. You can find more information [here](/open-source)
 
-Do you want to help translating tella? [find how to get involved](/translating-tella)
+Do you want to help translating Tella? [find out how to get involved](/translating-tella)
 

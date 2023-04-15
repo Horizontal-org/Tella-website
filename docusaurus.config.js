@@ -65,15 +65,16 @@ const config = {
         },
         items: [
           {
-            href: 'https://tella-app.org/',
-            label: 'Tella website',
-            position: 'right',
-          },
-          {
             href: '/contact-us',
             label: 'Contact Us',
             position: 'right',
           },
+          {
+            href: 'https://tella-app.org/',
+            label: 'Tella website',
+            position: 'right',
+          },
+
         ],
       },
       footer: {

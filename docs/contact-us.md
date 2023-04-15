@@ -12,7 +12,7 @@ sidebar_class_name: hidden
 * Do you have ideas to improve the app?
 
 Get in touch:
-* Write to us to contact@wearehorizontal.org
+* Write to us to contact@tella-app.org
 * Schedule a call directly [here](https://calendly.com/d/grp-5v7-rjf/tella-meeting).
 * Our join our next [Community Meeting](/community-meetings).
 

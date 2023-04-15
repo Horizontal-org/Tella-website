@@ -4,15 +4,16 @@ title: iOS
 description: Quick start guide for Tella users on iOS
 slug: /getting-started-ios
 ---
-import styles from '../../src/css/guides.module.css';
-
 
 # Getting started on Tella on iOS
 
 ## Download and install Tella
 Follow [this link](https://apps.apple.com/us/app/tella-document-protect/id1598152580) to find Tella on the App Store or open the App Store and search for “Tella document and protect”.
 
-![gif that shows how to download Tella from the App Store](/img/getting-started/ios/find-and-download.gif "find and download gif")
+
+<div class="gifs">
+    <img src="/img/getting-started/ios/find-and-download.gif" alt="gif that shows how to download Tella from the App Store" title="find and download gif" />
+</div>
 
 
 
@@ -38,13 +39,17 @@ The first time you use each functionality, you will be asked to grant Tella some
 * To take photos, record videos, or record audio, you will need to grant permission to access your phone’s camera and microphone.
 
 
+<div class="gifs">
+    <img src="/img/getting-started/ios/granting-permissions.gif" alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
+</div>
 
-![gif that shows how to grant Tella permissions](/img/getting-started/ios/granting-permissions.gif "grating permission gif")
 
 
 If you do not grant Tella these permissions, you can do it later by going to your iPhone settings and navigating to **Settings > Tella > Allow Tella to access to Camera, microphone and files.**
 
-![gif that shows how to take a picture in Tella (with a permissions dialog)](/img/getting-started/ios/taking-picture-permissions.gif "taking picture on Tella")
+<div class="gifs">
+    <img src="/img/getting-started/ios/taking-picture-permissions.gif" alt="gif that shows how to take a picture in Tella the first time (grant permission)" title="Tella will ask you to grant permissions the first time you open the camera" />
+</div>
 
 
 
@@ -54,26 +59,33 @@ After granting permissions, you’re ready to start collecting documentation. We
 **Use the Camera to take pictures or videos and the Audio Recorder to record audio.** All media taken by Tella will be encrypted instantly, which means that the file will not be accessible outside of Tella. All media collected inside Tella will not show on your phone gallery or phone files. There is no particular storage limit for Tella, the available space will depend on the space available on your device. 
 
 
+<div class="gifs">
+    <img src="/img/getting-started/ios/picture.gif" alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
+    <img src="/img/getting-started/ios/recording.gif" alt="gif that shows how to record audio in Tella" title="record audio in Tella" />
+</div> 
 
-![gif that shows how to take a picture in Tella](/img/getting-started/ios/picture.gif "take a picture in Tella")
-     
-
-
-![gif that shows how to record audio in Tella](/img/getting-started/ios/recording.gif "record audio in Tella")
 
 
 **Import your files to Tella.** Go to any of the folders inside Tella and tap the + Button > Import from device. Choose the file you’d like to keep inside Tella and a copy of the file will be stored encrypted and hidden on Tella. Keep in mind that the original file on your phone will not be deleted automatically , you will need to manually delete it. Tella will be unlocked while you choose your files for a maximum of three (3) minutes.
-![gif that shows how to import files in Tella](/img/getting-started/ios/import-files.gif "import files in Tella")
+
+<div class="gifs">
+    <img src="/img/getting-started/ios/import-files.gif" alt="gif that shows how to import files in Tella" title="import files in Tella" />
+</div> 
 
 
 **Create folders.** To make it easier to find your files, you can organize files into folders. Go to All files > + Button > Create a new folder and type a descriptive name for the folder. Then use the Select multiple button at the top of the screen, choose the files you want to move to the new folder, then click the three (3) dots button and Move to a different folder, navigate the file structure to find the folder and then press Move here.
 
-![gif that shows how to organize evidence in folders in Tella](/img/getting-started/ios/folders.gif "folders in Tella")
+<div class="gifs">
+    <img src="/img/getting-started/ios/folders.gif" alt="gif that shows how to organize evidence in folders in Tella" title="folders in Tella" />
+</div> 
+
 You can also take pictures, videos and audios and import files directly into the folders by using the + Button.
 
 **Rename files:** Another way to keep your data organized is to rename files to be more descriptive. By default files receive an auto-generated name. You can change it by clicking on the three (3) dots that are next to each filename and then click Rename.
 
-![gif that shows how to rename files in Tella](/img/getting-started/ios/rename.gif "rename files in Tella")
+<div class="gifs">
+    <img src="/img/getting-started/ios/rename.gif" alt="gif that shows how to rename files in Tella" title="rename files in Tella" />
+</div> 
 
 
 ## Share your information
@@ -84,7 +96,10 @@ Take into account that Tella will share the files unencrypted, so make sure to u
 
 It is not yet possible to connect to servers on Tella iOS.
 
-![gif that shows how share information in Tella](/img/getting-started/ios/share.gif "share information in Tella")
+<div class="gifs">
+    <img src="/img/getting-started/ios/share.gif" alt="gif that shows how share information in Tella" title="share information in Tella" />
+</div> 
+
 
 
 ## Go Further
@@ -93,7 +108,7 @@ It is not yet possible to connect to servers on Tella iOS.
 
 
 * [Features and security](/security-and-privacy): Learn more about how Tella can keep you safe and the threats that Tella does _not_ protect you from.
-* [Privacy policy](https://docs.tella-app.org/p/U-EOn57whEMiwr/Tella-Privacy-Policy): We only collect the minimum amount of data necessary and never collect any personally identifiable information.
+* [Privacy policy](/privacy-policy): We only collect the minimum amount of data necessary and never collect any personally identifiable information.
 
 
 ### Contact us if you need help

@@ -26,9 +26,10 @@
   --ifm-color-primary-light: #db9f52;
   --ifm-color-primary-lighter: #dda65d;
   --ifm-color-primary-lightest: #e4b87f;
-  --ifm-background-color: #000000;
+  --ifm-background-color: #071013;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
 
 @font-face {
   font-family: 'Open Sans';
@@ -58,10 +59,28 @@
   height: 100%;
 }
 
+.video-tutorials {
+  justify-content: center;
+  display: flex;
+}
+
 .video-tutorials iframe {
-  height: 500px;
+  height: 600px;
 }
 
 .hidden {
   display: none !important;
+}
+
+.gifs {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gifs img {
+    height: 600px !important;
+    width: auto;
+      /*margin: auto;*/
 }
