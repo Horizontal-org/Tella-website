@@ -1,9 +1,8 @@
 ---
-id: security
+id: security-and-privacy
 title: Security and privacy
 description: Details about Tella security and privacy.
 slug: /security-and-privacy
-sidebar_position: 6
 ---
 
 # Security and privacy
@@ -62,7 +61,7 @@ There is no such thing as an app that is 100% "secure". Security is dependent on
 
 ## Security audits
 
-We regularly ask independent security firms to audit our code to ensure it is robust and secure. You can see the full reports from these audits on this page [add link]. This is the summary from the latest audit:
+We regularly ask independent security firms to audit our code to ensure it is robust and secure. You can see the full reports from these audits [on this page](/security-and-privacy#security-audits). This is the summary from the latest audit:
 
 
 <table>

@@ -3,7 +3,6 @@ id: user-stories
 title: User Stories
 description: Experince of Tella users and deployments
 slug: /user-stories
-sidebar_position: 8
 ---
 
 # Tella user stories
@@ -24,7 +23,7 @@ CLEEN foundation used Tella for election monitoring in Nigeria. They received 7,
 🗄️ Connection: ODK (Kobotoolbox)
 :::
 
-The[CLEEN Foundation](https://cleen.org/)is a non-governmental organization established in 1998 in Nigeria with the mission of promoting public safety, security and accessible justice through empirical research, legislative advocacy, demonstration programs and publications, in partnership with government, civil society and the private sector.
+The [CLEEN Foundation](https://cleen.org/)is a non-governmental organization established in 1998 in Nigeria with the mission of promoting public safety, security and accessible justice through empirical research, legislative advocacy, demonstration programs and publications, in partnership with government, civil society and the private sector.
 
 CLEEN first deployed Tella in February and March 2019 to monitor the behavior of Nigerian security forces during the country’s General Elections. With [predictions of militarization and violence of the electoral process](https://www.nytimes.com/2019/02/26/world/africa/nigeria-election-results.html), monitoring was critical. Using Tella, CLEEN was able to:
 

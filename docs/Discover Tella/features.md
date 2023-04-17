@@ -1,11 +1,10 @@
 ---
-id: tella-features
+id: features
 title: Features
 description: A detailed description of Tella features.
 slug: /features
-sidebar_position: 3
 ---
-import FeaturesTable from './_features-table.md';
+import FeaturesTable from '.././_features-table.md';
 
 # Tella features
 

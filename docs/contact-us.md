@@ -1,6 +1,6 @@
 ---
-title: Contact Us
-description: Contact Us
+title: Contact 
+description: How to contact the Tella team for comments and questions
 slug: /contact-us
 sidebar_class_name: hidden
 ---

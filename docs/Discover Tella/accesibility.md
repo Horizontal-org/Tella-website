@@ -3,9 +3,8 @@ id: accesibility
 title: Accessibility
 description: A detailed description of Tella accessibility considerations.
 slug: /accessibility
-sidebar_position: 4
 ---
-import TellaLanguages from './_tella-languages.md';
+import TellaLanguages from '.././_tella-languages.md';
 
 
 # Accessibility on Tella
