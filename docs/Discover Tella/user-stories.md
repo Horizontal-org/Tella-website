@@ -10,7 +10,7 @@ slug: /user-stories
 
 ## CLEEN Foundation - Nigeria
 
-:::summary
+:::note Summary
 CLEEN foundation used Tella for election monitoring in Nigeria. They received 7,800 reports from election observers that helped them identify cases of police violence and electoral fraud in real-time. The reports included photos, videos, and audio evidence, in addition to text descriptions. CLEEN foundation was able to receive, analyze and publish the results of the election monitoring process the day after the election and a report with recommendations to the Nigerian government to improve security in upcoming elections, reduce violence, and prevent fraud.
 
 
@@ -47,7 +47,7 @@ Following the success of this first deployment, CLEEN deployed Tella to investig
 
 ## Not1More - Brazil
 
-:::summary
+:::note Summary
 Not1More (N1M) used Tella to document violations of environmental and land rights in the Brazilian Amazon. In Brazil frontline environmental defenders have been suffering attacks and persecution and indigenous communities have faced attacks on their cultures, territories, and way of life. Tella is a safe way to report violations while prioritizing safety for reporters. With the results, N1M along with researchers and communities developed a map that's used as an advocacy tool for environmental justice.
 :::
 
@@ -67,7 +67,7 @@ With the data collected, indigenous students and researchers at the Federal Univ
 
 ## Election monitoring - Belarus
 
-:::summary
+:::note Summary
 In the 2020 presidential elections in Belarus, civil society organizations  deployed Tella to monitor the elections and document evidence of violations of electoral laws and procedures, as well as human rights abuses. Horizontal developed a custom version of Tella with a simplified user interface and default connection to the servers of the monitoring organizations. The app was translated to Belarusian and Russian. Over 250 users submitted a total of 1091 reports, despite the severe internet disruptions and the complete shutdown of mobile internet before, during, and after the election.
 
 👥_ 250 users_
