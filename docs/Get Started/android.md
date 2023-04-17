@@ -134,7 +134,7 @@ If you are using Kobotoolbox, [first create an account here](https://kf.kobotool
 
 ## Read more about Tella
 - [Features and security](/security-and-privacy): Learn more about how Tella can keep you safe and the threats that Tella does not protect you from.
-- [Connections](/getting-started-android#connect-to-a-server): Learn about how you can connect to a server to collect data or backup files.
+- [Connections](/get-started-android#connect-to-a-server): Learn about how you can connect to a server to collect data or backup files.
 - [Privacy policy](/privacy-policy): We only collect the minimum amount of data necessary and never collect any personally identifiable information. Read the full privacy policy here.
 
 ### Contact us if you need help
