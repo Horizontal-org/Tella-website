@@ -85,8 +85,8 @@ const config = {
             title: 'Contact',
             items: [
               {
-                label: 'contact@wearehorizontal.org ',
-                href: 'mailto: contact@wearehorizontal.org',
+                label: 'contact@tella-app.org ',
+                href: 'mailto: contact@tella-app.org',
               },
               {
                 label: 'Mastodon',
