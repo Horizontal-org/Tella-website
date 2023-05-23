@@ -21,6 +21,7 @@ const sidebars = {
  generalSidebar: [
     'welcome',
     {'Discover Tella': ['Discover Tella/features', 'Discover Tella/security-and-privacy', 'Discover Tella/accesibility', 'Discover Tella/user-stories']},
+    {'For organizations':['For organizations/overview', 'For organizations/tella-web']},
     {
       type: 'category',
       label: 'Get Started',
