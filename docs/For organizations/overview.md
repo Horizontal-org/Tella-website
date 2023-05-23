@@ -22,6 +22,10 @@ Currently, Tella can be connected to the following servers:
 
 You can watch a video discussing which server connection could work best for each scenario [here](/video-tutorials#connections-full-video).
 
+:::info
+If you need support choosing the best deployment setup or would like to discuss the possibility of integrating another server, [contact us!](/contact-us)
+:::
+
 
 ### Tella Web
 
@@ -31,30 +35,31 @@ It is not a web version of the mobile app; rather, it is a tool specifically des
 
 Tella Web is developed internally by our team at Horizontal, the same team responsible for developing Tella's mobile app. It is a reliable and user-friendly solution for managing reports in a safe and private manner. We provide support for the installation and configuration of a Tella Web server, but we recommend having someone within your organization who can maintain the server and perform all administrative tasks.
 
-Learn more about Tella Web [here](/tella-web)
+Tella Web integration works for both Android and iOS apps. Learn more about Tella Web [here](/tella-web)
 
 
 ### Uwazi
 
-Uwazi is HURIDOCS’ flagship documentation tool. It is a flexible web-based database application designed for human rights defenders to manage their collections of information, including documents, evidence, cases and complaints. 
-
-Organizations who use Uwazi as a database tool, can connect Tella to one or more of their databases to upload data. All that is required to connect Tella to an Uwazi instance is the Uwazi database url, and the username and password. The Uwazi database should already have one or more templates configured, which can be downloaded into Tella. Once successfully downloaded, users can easily navigate between their templates to enter details for each new record, even when there is no internet connection. When the data entry is complete, it can be saved as a draft in the Tella app or immediately uploaded to the connected Uwazi database. This enables users who work offline to collect data, add it to the submission forms, save it and upload the information when it is convenient. In addition to the protection and encryption features, working in offline mode is a huge benefit for those who collect information in risky environments and areas with limited or no connectivity. 
+[Uwazi](https://uwazi.io/) is an open-source app made by HURIDOCS with powerful features to collect, organize, and visualize human rights data. Uwazi must be installed on a server. Uwazi does not have a user facing public instance, but you can try Uwazi functionality using the [Uwazi Demo server](https://demo.uwazi.io/). If you decide to use Uwazi and need help to deploy your instance, please contact us contact@tella-app.org. 
 
 You can watch a video demoing the Uwazi integration [here](/video-tutorials#uwazi), or read [this blogpost from the Uwazi team](https://huridocs.org/2022/07/the-new-tella-app-lets-uwazi-users-document-violations-safely-and-while-offline/) about the integration.
+
+:::info
+For the moment, Uwazi server integration is [only available on Android](/features). 
+:::
 
 
 ### Open Data Kit (ODK)
 
-Open Data Kit (ODK) is a free and open-source suite of tools designed for mobile data collection. If you need advanced data collection capabilities (structured data, by giving reporters Forms to fill) choosing the ODK connection could be beneficial for your organization or project.
+The [Open Data Kit (ODK)](https://getodk.org/) is an open standard used to create custom forms and collect data. Because ODK is an open standard, Tella can be used with any of the tools that are ODK-compliant, like [Ona](https://ona.io/home/) or [KoboToolbox](https://www.kobotoolbox.org/), to create forms with custom questions, manage users, and aggregate the data submitted by users. We recommend using [KoboToolbox](https://www.kobotoolbox.org/) because it is open-source and is user-friendly. Kobotoolbox has a free, publicly available server [here](https://kf.kobotoolbox.org/) or it can be self-hosted. [Here you can read more about Kobotoolbox and the features we support](https://tella.slite.com/app/docs/r7vxebjDQ3TAWE).
 
-Read about the features we support for the ODK integration [here](/video-tutorials#open-data-kit). 
+If you are using Kobotoolbox, [first create an account here](https://kf.kobotoolbox.org/accounts/login/), and then create and deploy a Form. In Tella go to Settings > Servers > Add Server > Open Data Kit (ODK). Give your server a name and type kc.kobotoolbox.org as the server URL field.  Enter your username and password on the Advanced section in order to load your Forms.
 
-You can also watch a video demoing the ODK Server integration [here](https://vimeo.com/manage/videos/817030533).
-
-
-
-:::tip
-Keeep in mind there are other data collection tools available. We shared an overview of them [here:](/faq/#how-is-tella-different-from-other-documentation-apps)
+:::info
+For the moment, ODK server integration is [only available on Android](/features). 
 :::
 
-If you need support choosing the best deployment setup or would like to discuss the possibility of integrating another server, [contact us!](/contact-us)
+:::tip
+You can also watch a video demoing the ODK Server integration [here](/video-tutorials#open-data-kit).
+:::
+

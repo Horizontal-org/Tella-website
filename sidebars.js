@@ -21,13 +21,13 @@ const sidebars = {
  generalSidebar: [
     'welcome',
     {'Discover Tella': ['Discover Tella/features', 'Discover Tella/security-and-privacy', 'Discover Tella/accesibility', 'Discover Tella/user-stories']},
-    {'For organizations':['For organizations/overview', 'For organizations/tella-web']},
     {
       type: 'category',
       label: 'Get Started',
       link: {type: 'doc', id: 'Get Started/get-started'},
       items: ['Get Started/get-started-android', 'Get Started/get-started-ios', 'Get Started/video-tutorials']
     },
+    {'For organizations':['For organizations/overview', 'For organizations/tella-web']},
     {'Community': ['Community/community-meetings', 'Community/open-source', 'Community/translating-tella']},
     'faq',
     'privacy-policy'
