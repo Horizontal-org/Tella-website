@@ -64,7 +64,7 @@ After granting permissions, you’re ready to start collecting documentation. We
 
 
 
-**Import your files to Tella.** Go to any of the folders inside Tella and tap the + Button > Import from device. Choose the file you’d like to keep inside Tella and a copy of the file will be stored encrypted and hidden on Tella. Keep in mind that the original file on your phone will not be deleted automatically, you will need to manually delete it. Tella will be unlocked while you choose your files for a maximum of three (3) minutes.
+**Import your files to Tella.** Go to any of the folders inside Tella and tap the + Button > Import from device. Choose the file you’d like to keep inside Tella and a copy of the file will be stored encrypted and hidden on Tella. You will be asked to  chose if you want to delete or keep the original file from your device. Tella will be unlocked while you choose your files for a maximum of three (3) minutes.
 
 <div class="gifs">
     <img src="/img/getting-started/android/import.gif" alt="gif that shows how to import files in Tella" title="import files in Tella" />

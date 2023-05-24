@@ -106,7 +106,7 @@ In Tella, users can:
 * Import files from their device. Files are automatically encrypted when imported into Tella. 
 
 :::danger
-Importing files from the device file system into Tella makes a copy of the files into Tella. This means that the original files are still present on the device, outside of Tella and unencrypted. To import the files into Tella without leaving a copy on the device file system, users must first import the files into Tella and then manually delete the original files in the device file system. 🔒
+Importing files from the device file system into Tella makes a copy of the files into Tella. Tella will ask if you want to keep or delete the original file from your phone when importing. If you choose to keep the original file, they will be present on the device, outside of Tella and unencrypted.  🔒
 :::
 
 ## Import files from device 
