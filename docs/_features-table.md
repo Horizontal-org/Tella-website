@@ -3,13 +3,14 @@
 |[App Lock](/features#app-lock)| Password, PIN, Pattern|Password, PIN |
 |[Lock timeout configuration](/features#lock-timeout-configuration)| ✔️| ✔️|
 |[Camera silent mode](/features#camera-silent-mode)| ✔️| Not yet|
-| [Screen Security](/features#screen-security)| ✔️| ✔️|
+| [Screen Security](/features#screen-security)| - screenshots <br />- screen recordings <br />- app preview| - screen recordings <br />- app preview|
 | [Encryption](/features#encryption)| ✔️| ✔️|
 | [Encrypted file management](/features#file-management)| ✔️ | ✔️ |
 | [Import files from device](/features#import-files-from-device)| ✔️ | ✔️ |
 | [Camouflage](/features#camouflage) | ✔️ | Not possible in iOS |
 | [Homescreen customization](/features#homescreen-customization) | ✔️ | ✔️ |
 | [Camera (photos and videos)](/features#camera-photos-and-videos) | ✔️ | ✔️ |
+| [Select video resolution](/features#select-video-resolution) | ✔️ | Not yet |
 | [Audio Recorder](/features#audio-recorder)| ✔️ | ✔️ |
 | [Open files in Tella](/features#open-files-in-tella)| Photos, videos, audio | Photos, videos, audio, PDF |
 | [Verification mode](/features#verification-mode)| ✔️ | Not yet |

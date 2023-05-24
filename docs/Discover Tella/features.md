@@ -66,6 +66,9 @@ Learn more about Tella Additional Security Features in our [video tutorial](/vid
 
 By default Tella blocks screenshots, screen recordings inside Tella and hides the screen preview in the list of recent apps 📱🔒. It is possible to  disable this security feature if the users need to take screenshots or screen recordings, or to mirror Tella to a computer for a presentation, by going to **Settings** ⚙️ > **Security** > **Screen security**.
 
+On iOS screen security only blocks screen recordings inside Tella and blocks the screen in the list of recent apps, but it’s not possible to disable screenshots or screen recordings.
+
+
 :::tip Video  tutorial 🎥
 Learn more about Tella Additional Security Features in our [video tutorial](/video-tutorials#additional-security-features)
 :::
@@ -103,7 +106,7 @@ In Tella, users can:
 * Import files from their device. Files are automatically encrypted when imported into Tella. 
 
 :::danger
-Importing files from the device file system into Tella makes a copy of the files into Tella. This means that the original files are still present on the device, outside of Tella and unencrypted. To import the files into Tella without leaving a copy on the device file system, users must first import the files into Tella and then manually delete the original files in the device file system. 🔒
+Importing files from the device file system into Tella makes a copy of the files into Tella. Tella will ask if you want to keep or delete the original file from your phone when importing. If you choose to keep the original file, they will be present on the device, outside of Tella and unencrypted.  🔒
 :::
 
 ## Import files from device 
@@ -223,6 +226,18 @@ Learn more about [Connecting to Servers](/video-tutorials#server-connections) in
 Tella offers a built-in camera where you can take photos and videos. All media collected inside Tella will not be available outside of it, as all files get encrypted as soon as they are taken. Files can only be accessed inside Tella, using the lock to open the app. Photos and videos won’t appear on the phone Gallery. In Tella, photos and videos will have a default name, but users can rename those using the Rename button. Files can also be organized in folders. 📷
 
 The camera offers the possibility to change the resolution of videos before recording in order to save space: the lower the resolution, the less space the video takes, but also the lower the quality of the video. 🎥 💾
+
+
+## Select video resolution
+You can easily choose your desired video resolution on Tella by accessing the video recording screen and tapping on the Settings button. The available options include:
+- Highest possible resolution
+- High resolution (1080p)
+- Medium resolution (720p)
+- Low resolution (420p)
+
+Video resolution refers to the number of pixels in each frame of the video. Higher resolutions, such as 1080p or 720p, result in sharper and more detailed videos. However, keep in mind that higher resolution videos also have larger file sizes, which may require more storage space on your device.
+
+It's important to note that selecting video resolution is currently only supported on Android devices.
 
 
 ## Audio Recorder
