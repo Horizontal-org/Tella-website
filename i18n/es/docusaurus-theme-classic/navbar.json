@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "ES - Tella Docs",
+    "description": "The title in the navbar"
+  },
+  "item.label.Contact Us": {
+    "message": "ES - Contact Us",
+    "description": "Navbar item with label Contact Us"
+  },
+  "item.label.Tella website": {
+    "message": "ES - Tella website",
+    "description": "Navbar item with label Tella website"
+  }
+}
