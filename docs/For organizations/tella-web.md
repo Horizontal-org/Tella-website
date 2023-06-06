@@ -1,25 +1,24 @@
 ---
 id: tella-web
-title: Tella Web & Reports
+title: Tella Web
 description: The Reports feature empowers users to conveniently upload photos, videos, and audio recordings to their organization's Tella Web server
 slug: /tella-web
 ---
 
-# Tella Web & Reports
+# Tella Web 
 
-The Reports feature empowers users to conveniently upload photos, videos, and audio recordings to their organization's Tella Web server. Its primary objective is to enhance the security of files collected on Tella by offering a simple method to back them up on a remote server. By having a copy of their files stored on the server, organizations ensure the preservation of important information even in the event of device seizure or destruction. For users on the ground, it can also be safer to have their data backed up to Tella Web, because they can remove the information from their phone as soon as they get confirmation of that it was successfully submitted to Tella Web.
-
+Tella’s Reports feature empowers users to conveniently upload photos, videos, and audio recordings to their organization's Tella Web server. Its primary objective is to enhance the security of files collected on Tella by offering a simple method to back them up on a remote server. By having a copy of their files stored on the server, organizations ensure the preservation of important information even in the event of device seizure or destruction, and can organize it to use for research, advocacy, or accountability processes. For users on the ground, backing up their data to Tella Web means that they can delete the information from their phone and avoid potential repression.
 Implementing Tella Web involves three essential steps, which are thoroughly discussed in this section:
 
 
-* **Install the server**: This step entails installing the Tella Web server and configuring the domain name to ensure its proper functioning.
-* **Set up your project on your server**: In this step, the project is set up on Tella Web, user accounts are created for reporters, data analysts, and other relevant roles. Additionally, a secure configuration is established for the reporters' Tella apps, depending on their context and situation, and necessary trainings are conducted. Any questions or concerns are addressed during this phase.
-* **Get people on the ground ready to start submitting reports**: Reporters install Tella on their phones, whether it's an Android or iPhone device. They then connect to the Tella Web project and start collecting information, ensuring a smooth and efficient reporting process.
+* **Install Tella Web**: This step entails installing the Tella Web server and configuring the domain name to ensure its proper functioning.
+* **Set up your project on your server**: In this step, admins decide how to organize themselves to collect data, create “projects”, and set roles and permissions for their users.
+* **Get people on the ground ready to start submitting reports**: Users install Tella on their phones, whether it's an Android or iPhone device. They then connect to the Tella Web project and start collecting information, ensuring a smooth and efficient reporting process.
 
 
 ## Install the server
 
-This step consists of installing and configuring the Server your organization will be using. This step needs to be completed by the person who is going to be responsible for the system administration (a developer or a system administrator). Technical instructions can be found on [our Github](https://github.com/Horizontal-org/tellaweb).
+This step consists of installing and configuring Tella Web on the server your organization will be using. This step needs to be completed by the person who is going to be responsible for the system administration (a developer or a system administrator). Technical instructions can be found on [our Github](https://github.com/Horizontal-org/tellaweb).
 
 
 
@@ -135,7 +134,7 @@ The steps outlined below apply to both the Android and iOS versions of the Tella
 * Tella Android v2.1.0 (152)
 * Tella iOS v1.1.0 (43) 
 
-To ensure you have access to the reporting feature, please verify that your Tella app version is either of these versions or a more recent one.
+To ensure that users have access to the reporting feature, please verify that your Tella app version is either of these versions or a more recent one.
 
 
 
