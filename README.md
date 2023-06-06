@@ -31,7 +31,7 @@ Tella is an open-source project, which means that anyone can contribute to its d
 
 Here are a few ways you can contribute to Tella:
 
-- **Code contribution:** If you're a developer, you can contribute code to Tella. Check out our GitHub repositories for [Android](https://github.com/Horizontal-org/Tella-Android), [iOS](https://github.com/Horizontal-org/Tella-iOS) and [Tella Web]() to see what we're working on and how you can help.
+- **Code contribution:** If you're a developer, you can contribute code to Tella. Check out our GitHub repositories for [Android](https://github.com/Horizontal-org/Tella-Android), [iOS](https://github.com/Horizontal-org/Tella-iOS) and [Tella Web](https://github.com/Horizontal-org/tellaweb) to see what we're working on and how you can help.
 - **Bug reports and feature requests:** If you use Tella and find a bug, or if you have an idea for a new feature, you can let us [here](https://docs.tella-app.org/contact-us).
 - **Translations:** Tella is available in many languages, but we're always looking for help translating the app into more languages. If you're fluent in a language other than English, we'd love your help! You can also contribute in translating this documentation. More guidance on how to do it [here](https://docs.tella-app.org/translating-tella).
 - **Testing and feedback:** We're always looking for people to test Tella and give us feedback on how we can improve the app. If you're interested in testing Tella and providing feedback, please [let us know](https://docs.tella-app.org/contact-us).

@@ -213,6 +213,7 @@ Users can collect data directly in Tella, keep the data protected within the app
 
 Currently the servers that can be connected to Tella are:
 
+* [Tella Web](/tella-web)
 * Open Data Kit (ODK) 
 * Uwazi 
 

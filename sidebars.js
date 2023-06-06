@@ -27,6 +27,7 @@ const sidebars = {
       link: {type: 'doc', id: 'Get Started/get-started'},
       items: ['Get Started/get-started-android', 'Get Started/get-started-ios', 'Get Started/video-tutorials']
     },
+    {'For organizations':['For organizations/overview', 'For organizations/tella-web']},
     {'Community': ['Community/community-meetings', 'Community/open-source', 'Community/translating-tella']},
     'faq',
     'privacy-policy'
