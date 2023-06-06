@@ -59,13 +59,18 @@
   height: 100%;
 }
 
-.video-tutorials {
+.video-tutorial {
   justify-content: center;
   display: flex;
 }
 
-.video-tutorials iframe {
+.video-tutorial-vertical iframe {
   height: 600px;
+}
+
+.video-tutorial-landscape iframe {
+  height: 300px;
+  width: 100%;
 }
 
 .hidden {
