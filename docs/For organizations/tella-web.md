@@ -104,24 +104,33 @@ The project URL is automatically generated when the project is created. To edit 
 
 ### Managing Users
 
-Only the server’s Admins have access to the "Users" screen on the left bar. This screen displays all the users who have access to this server. Each user on the server can have only one role:
+#### Roles
+
+Only the server’s Admins have access to the "Users" screen on the left bar. This screen displays all the users who have access to this server. Go to the “Manage Access” section of a Project Screen to assign viewers to projects. Each user on the server can have only one role:
 
 
 | Role | Description |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Admins | Admins have access to all projects in the server and can also manage users.|
-| Editors | Editors have view and edit access to certain projects (for example, deleting reports from projects). Go to the “Manage Access” section of a Project Screen to assign editors to projects|
-| Viewers | Viewers have view-only access to certain projects (they cannot delete reports). Go to the “Manage Access” section of a Project Screen to assign viewers to projects |
-| Reporters | Reporters don’t have access to Tella Web. They can only submit reports through the apps. Give reporters access to projects on the “Manage Access” section of a Project Screen.|
+| Admins | an Admin has all permissions and can perform all actions on Reports and Users |
+| Editors | an Editor can perform all actions related to Reports but no action related to Users
+| Viewers | a Viewer has permission to log in Tella Web but can only view Reports. They cannot perform any editing or deleting. 
+| Reporters | a Reporter is a Tella user who has permission to submit Reports to the Tella Web server. A Reporter cannot log in Tella Web.|
 
 
-| |Report                                                                 |Project                                                                                |User                                                                             |Configuration                                                                                      |
-|--------|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
-|Notes   |Reports can only be read, edited, deleted on Tella Web (never on Tella)|All actions performed on Projects have to be performed from Tella Web (never on Tella)|All actions performed on Users have to be performed from Tella Web (never on Tella)|All actions performed on Configurations have to be performed from Tella Web (never on Tella)|
-|Reporter|Read: ❌ Create: ✅ Edit: ❌ Delete: ❌                                    |Read: ❌ Create: ❌ Edit: ❌ Delete: ❌                                                   |Read: ❌ Create: ❌ Edit: ❌ Delete: ❌                                                |Read: ✅ Create: ❌ Edit: ❌ Delete: ❌                                                         |
-|Viewer  |Read: ✅ Create: ✅ Edit: ❌ Delete: ❌                                    |Read: ✅ Create: ❌ Edit: ❌ Delete: ❌                                                   |Read: ❌ Create: ❌ Edit: ❌ Delete: ❌                                                |Read: ✅ Create: ❌ Edit: ❌ Delete: ❌                                                         |
-|Editor  |Read: ✅ Create: ✅ Edit: ✅ Delete: ✅                                    |Read: ✅ Create: ✅ Edit: ✅ Delete: ✅                                                   |Read: ❌ Create: ❌ Edit: ❌ Delete: ❌                                                |Read: ✅ Create: ❌ Edit: ❌ Delete: ❌                                                         |
-|Admin   |Read: ✅ Create: ✅ Edit: ✅ Delete: ✅                                    |Read: ✅ Create: ✅ Edit: ✅ Delete: ✅                                                   |Read: ✅ Create: ✅ Edit: ✅ Delete: ✅                                                |Read: ✅ Create: ✅ Edit: ✅ Delete: ✅                                                         |
+#### Entities
+There are 3 entities for which permissions must be assigned:
+* Report
+* Project
+* User
+
+
+| |Report                                                                 |Project                                                                                |User                                                                             |
+|--------|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|Notes   |Reports can only be read, edited, deleted on Tella Web (never on Tella)|All actions performed on Projects have to be performed from Tella Web (never on Tella)|All actions performed on Users have to be performed from Tella Web (never on Tella)|
+|Reporter|Read: ❌ Create: ✅ Edit: ❌ Delete: ❌                                    |Read: ❌ Create: ❌ Edit: ❌ Delete: ❌                                                   |Read: ❌ Create: ❌ Edit: ❌ Delete: ❌                                                |                                                        |
+|Viewer  |Read: ✅ Create: ✅ Edit: ❌ Delete: ❌                                    |Read: ✅ Create: ❌ Edit: ❌ Delete: ❌                                                   |Read: ❌ Create: ❌ Edit: ❌ Delete: ❌                                                |                                                      |
+|Editor  |Read: ✅ Create: ✅ Edit: ✅ Delete: ✅                                    |Read: ✅ Create: ✅ Edit: ✅ Delete: ✅                                                   |Read: ❌ Create: ❌ Edit: ❌ Delete: ❌                                                |                                                       |
+|Admin   |Read: ✅ Create: ✅ Edit: ✅ Delete: ✅                                    |Read: ✅ Create: ✅ Edit: ✅ Delete: ✅                                                   |Read: ✅ Create: ✅ Edit: ✅ Delete: ✅                                                |                                                      |
 
 
 
