@@ -115,6 +115,16 @@ Only the server’s Admins have access to the "Users" screen on the left bar. Th
 | Reporters | Reporters don’t have access to Tella Web. They can only submit reports through the apps. Give reporters access to projects on the “Manage Access” section of a Project Screen.|
 
 
+| |Report                                                                 |Project                                                                                |User                                                                             |Configuration                                                                                      |
+|--------|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+|Notes   |Reports can only be read, edited, deleted on Tella Web (never on Tella)|All actions performed on Projects have to be performed from Tella Web (never on Tella)|All actions performed on Users have to be performed from Tella Web (never on Tella)|All actions performed on Configurations have to be performed from Tella Web (never on Tella)|
+|Reporter|Read: ❌ Create: ✅ Edit: ❌ Delete: ❌                                    |Read: ❌ Create: ❌ Edit: ❌ Delete: ❌                                                   |Read: ❌ Create: ❌ Edit: ❌ Delete: ❌                                                |Read: ✅ Create: ❌ Edit: ❌ Delete: ❌                                                         |
+|Viewer  |Read: ✅ Create: ✅ Edit: ❌ Delete: ❌                                    |Read: ✅ Create: ❌ Edit: ❌ Delete: ❌                                                   |Read: ❌ Create: ❌ Edit: ❌ Delete: ❌                                                |Read: ✅ Create: ❌ Edit: ❌ Delete: ❌                                                         |
+|Editor  |Read: ✅ Create: ✅ Edit: ✅ Delete: ✅                                    |Read: ✅ Create: ✅ Edit: ✅ Delete: ✅                                                   |Read: ❌ Create: ❌ Edit: ❌ Delete: ❌                                                |Read: ✅ Create: ❌ Edit: ❌ Delete: ❌                                                         |
+|Admin   |Read: ✅ Create: ✅ Edit: ✅ Delete: ✅                                    |Read: ✅ Create: ✅ Edit: ✅ Delete: ✅                                                   |Read: ✅ Create: ✅ Edit: ✅ Delete: ✅                                                |Read: ✅ Create: ✅ Edit: ✅ Delete: ✅                                                         |
+
+
+
 #### Managing Access and User Roles
 
 In the "Manage access" section of the "Project settings" screen, admins can assign existing users to the project. Click the "Add users" field. A dropdown menu will display all the users on the server. Scroll through the list or type to search for a user by username. Click on a user to add them as a pill in the "Add users" field. To remove a user from the list, click on the cross icon next to their pill. \
@@ -126,7 +136,7 @@ Click the "Add" button to save the changes and grant access to the project to th
 The full list of users who can submit reports to the project includes the users listed on this section plus all the server administrators
 :::
 
-### Get people on the ground ready to start submitting reports
+## Get people on the ground ready to start submitting reports
 
  
 The steps outlined below apply to both the Android and iOS versions of the Tella app. The reporting feature has been introduced in the following versions:
