@@ -157,8 +157,6 @@ To ensure that users have access to the reporting feature, please verify that yo
 
 
 
-
-
 :::info
 You can watch [this video](/video-tutorials#tella-web) on how to configure and use Reports on the apps .
 :::
@@ -172,6 +170,7 @@ You can watch [this video](/video-tutorials#tella-web) on how to configure and u
 * Enter the login information (generated and provided by admins)
     * Project URL of your organization’s Tella Web server
     * Your Username and Password
+* Enable or disable advance features based on your use-case: [auto-report](#auto-report), [auto-delete](#auto-delete) and [background submission](#background-submission).
 
 
 ####  Manage Tella Web Projects
@@ -180,9 +179,10 @@ You can watch [this video](/video-tutorials#tella-web) on how to configure and u
 * In Settings ⚙️ > Servers >  [Project name] > 3-dots you have the option to:
     * Edit: Opens an "edit server" screen where you can view the project's name, URL, and your username.
     * Delete: Deletes the server's URL, user credentials, and removes it from the Settings menu. All draft and submitted reports stored in your Tella app will also be deleted. This won’t delete any data that’s already submitted to the server.
+    * Enable or disable auto-report, auto-delete and background submission.
 
 
-#### Create a Report
+#### Create a Manual Report
 
 
 * Once connected to at least one Tella Web project, a "Reports" card will appear in the "Connections" section of the home screen. Tap on this card to start creating reports.
@@ -243,3 +243,33 @@ The Outbox contains reports that have been saved for submission. This could be:
 :::info
 If the internet connection is interrupted, reports will go to the outbox tab and you'll need to manually resume them.
 :::
+
+
+### Advanced features
+
+#### Auto-report
+
+If auto-report is enabled, Tella will create and upload reports automatically whenever you take a photo, record a video, or capture an audio recording within the app. This ensures that your reports are seamlessly uploaded without the need for manual intervention. Files get upladed to the same auto-report if they are collected within the lapse of 30 minutes, which is specially useful on specific circumpstances, such as a demonstration.
+
+Auto-report can be eabled from the Edit Connection screen.
+
+:::info
+auto-report can be enabled for only one project at the time
+:::
+
+### #Auto-delete
+
+Tella offers an additional feature called auto-delete. When auto-report is enabled, you can enable auto-delete, which automatically removes reports and their associated files from your device after they have been successfully uploaded to the connected Tella Web project. This helps you manage your device's storage space and ensures that sensitive data is not unintentionally retained.
+
+The auto-delete toggle button will appear below the auto-report toggle on the Edit Connection screen for the desired project.
+
+#### Background Submission
+
+Background submission allows you to continue the report submission process even if you switch to other tasks within the app or exit the Tella app entirely. This feature ensures that your reports are uploaded in the background, providing uninterrupted progress.  Backround submission can work in combination to both Manual and Auto-reports, and can be ebabled  on the Edit Connection screen for the desired project.
+
+Once background submission is enabled, you can initiate the report submission process by tapping the "Submit" button in the "New report" screen or the "Resume" button in the summary screen.  Regardless of your activities within Tella or whether you close the app, the upload process will continue without interruption. It will also work if auto-reports is enabled and you close the app after collecting the infromation.
+
+During background submission, Tella extends the lock timeout to be able to transmit your data to Tella Web. To manually stop a background submission, tap the "Quick Exit" button on the Tella app's home screen.
+
+If the submission is disrupted due to a weak internet connection or other factors, Tella will automatically retry the upload. The system attempts to upload the report again after short interval and subsequently reties until the upload is successful.
+
