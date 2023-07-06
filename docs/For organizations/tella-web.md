@@ -257,7 +257,7 @@ Auto-report can be eabled from the Edit Connection screen.
 auto-report can be enabled for only one project at the time
 :::
 
-### #Auto-delete
+#### Auto-delete
 
 Tella offers an additional feature called auto-delete. When auto-report is enabled, you can enable auto-delete, which automatically removes reports and their associated files from your device after they have been successfully uploaded to the connected Tella Web project. This helps you manage your device's storage space and ensures that sensitive data is not unintentionally retained.
 
