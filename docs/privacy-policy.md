@@ -73,7 +73,7 @@ Tella also collects information about your mobile device and internet connection
 
 Tella also collects information that helps identify the location of the device when a file was captured. This includes location (including latitude, longitude, accuracy, and altitude), location provider, location speed, and cell towers that your device is connected to. Collectively, this data is known as “Location Metadata”.
 
-File, device and location metadata are only collected if you opt-in by turning on Verification Mode in your App settings.  If you do not want Tella to collect this information, do not activate Verification Mode.
+File, device and location metadata are only collected if you opt-in by turning on Verification Mode in your App settings. If you do not want Tella to collect this information, do not activate Verification Mode.
 
 ### Information Collection Technologies
 
