@@ -11,6 +11,7 @@ slug: /get-started-android
 
 You have several options to download Tella:
 - Follow [this link](https://play.google.com/store/apps/details?id=org.hzontal.tella&hl=en&gl=US&pli=1) to find Tella on the Google Play Store or open the Google Play Store and search for “Tella”.
+- Download it from the [F-droid store](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
 - Download and install it manually as an .apk file [in this folder](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ) or from our Telegram channel: https://t.me/tellaapp. 
 
 If you need help to install the app manually, you can [follow this guide](/video-tutorials#manual-installation-of-tella) or contact us at contact@tella-app.org.
@@ -64,7 +65,7 @@ After granting permissions, you’re ready to start collecting documentation. We
 
 
 
-**Import your files to Tella.** Go to any of the folders inside Tella and tap the + Button > Import from device. Choose the file you’d like to keep inside Tella and a copy of the file will be stored encrypted and hidden on Tella. Keep in mind that the original file on your phone will not be deleted automatically, you will need to manually delete it. Tella will be unlocked while you choose your files for a maximum of three (3) minutes.
+**Import your files to Tella.** Go to any of the folders inside Tella and tap the + Button > Import from device. Choose the file you’d like to keep inside Tella and a copy of the file will be stored encrypted and hidden on Tella. You will be asked if you want to delete or keep the original file on your phone after it is imported. Tella will be unlocked while you choose your files for a maximum of three (3) minutes.
 
 <div class="gifs">
     <img src="/img/getting-started/android/import.gif" alt="gif that shows how to import files in Tella" title="import files in Tella" />
@@ -127,6 +128,15 @@ If you are using Kobotoolbox, [first create an account here](https://kf.kobotool
 <div class="gifs">
     <img src="/img/getting-started/android/uwazi.gif" alt="gif that shows Uwazi connection" title="Uwazi connection" />
 </div>
+
+### Tella Web
+Tella Web is an open-source tool that enables individuals and organizations to centralize and manage reports sent by Tella users, including photos, videos, and audio files. 
+
+It is not a web version of the mobile app; rather, it is a tool specifically designed for centralizing and managing reports sent through Tella in the simplest way possible. With Tella Web, you can create projects, which function like folders where people can submit reports. For instance, you can create projects for specific geographic areas or themes such as police violence, gender-based violence, and environmental abuse. On Tella Web, you can also manage users who have the ability to upload reports to each project, assign different roles, and set permissions.
+
+Tella Web is developed internally by our team at Horizontal, the same team responsible for developing Tella's mobile app. It is a user-friendly solution for managing reports in a safe and private manner. We can provide support for the installation and configuration of a Tella Web serverif you don't have someone within your organization who can maintain the server.
+
+Read more about Tella Web [here](/tella-web) or watch a [video tutorial](/video-tutorials#tella-web).
 
 
 

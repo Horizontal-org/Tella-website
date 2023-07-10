@@ -35,7 +35,7 @@ It is not a web version of the mobile app; rather, it is a tool specifically des
 
 Tella Web is developed internally by our team at Horizontal, the same team responsible for developing Tella's mobile app. It is a user-friendly solution for managing reports in a safe and private manner. We can provide support for the installation and configuration of a Tella Web serverif you don't have someone within your organization who can maintain the server.
 
-Tella Web integration works for both Android and iOS apps. Learn more about Tella Web [here](/tella-web)
+Tella Web integration works for both Android and iOS apps, but it's not available yet on the FOSS version of Tella. Learn more about Tella Web [here](/tella-web)
 
 
 ### Uwazi

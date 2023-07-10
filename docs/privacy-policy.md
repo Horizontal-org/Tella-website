@@ -9,7 +9,7 @@ slug: /privacy-policy
 # Tella - Privacy Policy
 
 :::note
-Last updated on 1 August 2019
+Last updated on July 10 2023
 :::
 
 ## The short version
@@ -73,7 +73,7 @@ Tella also collects information about your mobile device and internet connection
 
 Tella also collects information that helps identify the location of the device when a file was captured. This includes location (including latitude, longitude, accuracy, and altitude), location provider, location speed, and cell towers that your device is connected to. Collectively, this data is known as “Location Metadata”.
 
-File, device and location metadata are only collected if you opt-in by turning on Verification Mode in your App settings. If you do not want Tella to collect this information, do not activate Verification Mode.
+File, device and location metadata are only collected if you opt-in by turning on Verification Mode in your App settings.  If you do not want Tella to collect this information, do not activate Verification Mode.
 
 ### Information Collection Technologies
 
@@ -111,6 +111,8 @@ We do not control these third parties’ tracking technologies or how they may b
 
 If you do not want to download the App through the Google Play store, you can [download an APK directly on this link](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ).
 
+A fully Free and Open Source version of Tella for Android that doesn't contain any closed-source or proprietary library or dependency, and that is free from any trackers can be found on [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
+
 ## 5. How We Use Your Information
 
 We will not pass on any of the information we collect from your usage of the app to any third parties not owned or affiliated with Horizontal without your prior consent. We do not use any information collected through your use of the app to make automated decisions.
@@ -133,6 +135,8 @@ Through the settings menu of the App, you can opt out of:
 
 -   Bug reports and usage analytics
 -   Metadata collection either in whole or in part by disabling “Verification Mode” in your app settings.
+
+The FOSS version of Tella available on [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/) does not have any trackers for bug reports or usage analytics.
 
 ## 7. Accessing and Correcting Your Personal Information
 

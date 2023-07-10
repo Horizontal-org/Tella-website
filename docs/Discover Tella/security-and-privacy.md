@@ -23,6 +23,10 @@ You can read Tella's full [Privacy Policy](/privacy-policy).
 
 Tella Android, as available on the Google Play Store, includes two trackers, [Google CrashLytics](https://firebase.google.com/docs/crashlytics) and [Google Firebase Analytics](https://firebase.google.com/docs/analytics), which help us detect bugs and crashes. This is critical to keep the app secure and performant for at-risk users. 
 
+### Tella FOSS
+
+The Tella FOSS version published on the [F-droid store](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/) does not contain any trackers.
+
 
 ### Tella iOS
 

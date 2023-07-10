@@ -211,8 +211,8 @@ Users can collect data directly in Tella, keep the data protected within the app
 Currently the servers that can be connected to Tella are:
 
 * [Tella Web](/tella-web)
-* Open Data Kit (ODK) 
-* Uwazi 
+* [Open Data Kit (ODK)](/for-organizations#open-data-kit-odk)
+* [Uwazi](/for-organizations#uwazi)
 
 :::tip Video tutorial 🎥
 Learn more about [Connecting to Servers](/video-tutorials#server-connections) in our video tutorials. 
@@ -224,6 +224,8 @@ Learn more about [Connecting to Servers](/video-tutorials#server-connections) in
 Tella offers a built-in camera where you can take photos and videos. All media collected inside Tella will not be available outside of it, as all files get encrypted as soon as they are taken. Files can only be accessed inside Tella, using the lock to open the app. Photos and videos won’t appear on the phone Gallery. In Tella, photos and videos will have a default name, but users can rename those using the Rename button. Files can also be organized in folders. 📷
 
 The camera offers the possibility to change the resolution of videos before recording in order to save space: the lower the resolution, the less space the video takes, but also the lower the quality of the video. 🎥 💾
+
+For the [F-droid version of Tella Android](/open-source) we use the CameraX library, which is a fully open source library, some of the Camera’s features (zoom, flip camera, enable flash, enable grid, change video resolution) are missing.
 
 
 ## Audio Recorder
