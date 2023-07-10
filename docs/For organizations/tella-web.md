@@ -147,7 +147,7 @@ The steps outlined below apply to both the Android and iOS versions of the Tella
 * Tella Android v2.1.0 (152)
 * Tella iOS v1.1.0 (43) 
 
-To ensure that users have access to the reporting feature, please verify that your Tella app version is either of these versions or a more recent one.
+To ensure that users have access to the reporting feature, please verify that your Tella app version is either of these versions or a more recent one. Reports is not available on the FOSS version yet.
 
 
 
