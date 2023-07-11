@@ -41,4 +41,3 @@ The information we cannot restore is: File name and file location.
 
 - We added a step in our internal testing (both on the development side and on the product management side) to ensure that files are maintained after an upgrade.
 - As a longer-term step, we are planning to dedicate time to migrate from saving file information in a file to saving it in a database. This way, the information will be stored securely, with built-in recovery mechanisms.
-- Test the app in the App Store when a new iOS is released.
