@@ -228,7 +228,7 @@ Tella offers a built-in camera where you can take photos and videos. All media c
 
 The camera offers the possibility to change the resolution of videos before recording in order to save space: the lower the resolution, the less space the video takes, but also the lower the quality of the video. 🎥 💾
 
-For the [F-droid version of Tella Android](/open-source) we use the CameraX library, which is a fully open source library, some of the Camera’s features (zoom, flip camera, enable flash, enable grid, change video resolution) are missing.
+In [Tella-FOSS](/faq#is-tella-available-on-f-droid), where we use the fully open-source CameraX library, some of the Camera’s features (zoom, flip camera, enable flash, enable grid, change video resolution) are missing.
 
 
 ## Select video resolution

@@ -103,10 +103,6 @@ It is not yet possible to connect to servers on Tella iOS.
 ## Connect to Tella Web
 Tella Web is an open-source tool that enables individuals and organizations to centralize and manage reports sent by Tella users, including photos, videos, and audio files. 
 
-It is not a web version of the mobile app; rather, it is a tool specifically designed for centralizing and managing reports sent through Tella in the simplest way possible. With Tella Web, you can create projects, which function like folders where people can submit reports. For instance, you can create projects for specific geographic areas or themes such as police violence, gender-based violence, and environmental abuse. On Tella Web, you can also manage users who have the ability to upload reports to each project, assign different roles, and set permissions.
-
-Tella Web is developed internally by our team at Horizontal, the same team responsible for developing Tella's mobile app. It is a user-friendly solution for managing reports in a safe and private manner. We can provide support for the installation and configuration of a Tella Web serverif you don't have someone within your organization who can maintain the server.
-
 Read more about Tella Web [here](/tella-web) or watch a [video tutorial](/video-tutorials#tella-web).
 
 

@@ -9,7 +9,7 @@ slug: /privacy-policy
 # Tella - Privacy Policy
 
 :::note
-Last updated on July 10 2023
+Last updated on 10 July 2023
 :::
 
 ## The short version
