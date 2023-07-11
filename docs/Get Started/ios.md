@@ -100,6 +100,11 @@ It is not yet possible to connect to servers on Tella iOS.
     <img src="/img/getting-started/ios/share.gif" alt="gif that shows how share information in Tella" title="share information in Tella" />
 </div> 
 
+## Connect to Tella Web
+Tella Web is an open-source tool that enables individuals and organizations to centralize and manage reports sent by Tella users, including photos, videos, and audio files. 
+
+Read more about Tella Web [here](/tella-web) or watch a [video tutorial](/video-tutorials#tella-web).
+
 
 
 ## Go Further

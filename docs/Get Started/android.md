@@ -11,6 +11,7 @@ slug: /get-started-android
 
 You have several options to download Tella:
 - Follow [this link](https://play.google.com/store/apps/details?id=org.hzontal.tella&hl=en&gl=US&pli=1) to find Tella on the Google Play Store or open the Google Play Store and search for “Tella”.
+- Download it from the [F-droid store](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
 - Download and install it manually as an .apk file [in this folder](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ) or from our Telegram channel: https://t.me/tellaapp. 
 
 If you need help to install the app manually, you can [follow this guide](/video-tutorials#manual-installation-of-tella) or contact us at contact@tella-app.org.
@@ -127,6 +128,11 @@ If you are using Kobotoolbox, [first create an account here](https://kf.kobotool
 <div class="gifs">
     <img src="/img/getting-started/android/uwazi.gif" alt="gif that shows Uwazi connection" title="Uwazi connection" />
 </div>
+
+### Tella Web
+Tella Web is an open-source tool that enables individuals and organizations to centralize and manage reports sent by Tella users, including photos, videos, and audio files. 
+
+Read more about Tella Web [here](/tella-web) or watch a [video tutorial](/video-tutorials#tella-web).
 
 
 

@@ -27,4 +27,5 @@ Tella iOS is available in:
 
 ### WCAG accessibility
 
-You can see here an [accessibility audit ](https://drive.google.com/file/d/1iK8jpc14JAcAqJI2tbQeTRlp2W2n3vvx/view?usp=sharing)conducted on Tella in 2022. 
+You can see here an [accessibility audit](https://drive.google.com/file/d/1iK8jpc14JAcAqJI2tbQeTRlp2W2n3vvx/view?usp=sharing)conducted on Tella Android in 2022. 
+
