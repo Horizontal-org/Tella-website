@@ -116,7 +116,7 @@ On the top bar, above the list of users, server's admin can click on the "Create
 | Viewers | Viewers have view-only access to certain projects (they cannot delete reports). Go to the “Manage Access” section of a Project Screen to assign viewers to projects |
 | Reporters | Reporters don’t have access to Tella Web. They can only submit reports through the apps. Give reporters access to projects on the “Manage Access” section of a Project Screen.|
 
-On the password field, we added a password-security-meter to help admis and users to select secure passwors. We estimate password complexity using the [zxcvbn](https://github.com/dropbox/zxcvbn) library which considers:
+On the password field, we added a password-security-meter to help admins and users to select secure passwords. We estimate password complexity using the [zxcvbn](https://github.com/dropbox/zxcvbn) library which considers:
 - Characters (more than 10)
 - Complexity (lowercase, uppercase, numbers, symbols)
 - No common patterns like dates, repeats (aaa), sequences (abcd), keyboard patterns (qwertyuiop)
