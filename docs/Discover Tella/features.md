@@ -113,9 +113,14 @@ Importing files from the device file system into Tella makes a copy of the files
 
 The user can import files into Tella to keep them secured by using the import feature. They can import files by going to the **Add ( + )** button on either All files, Images, Video, Audio or Documents depending on the type of file they wish to import and then **Import from device** 📥. The files will be kept secured at Tella, but to make sure the files cannot be found outside of Tella, the user will need to manually delete those from your device. 
 
+
 :::tip Video  tutorial 🎥
 Learn more about [Collecting Evidence](video-tutorials#collecting-evidence) and [Sharing data](/video-tutorials#sharing-data-with-other-apps) in our video tutorials.
 :::
+
+## Preserve metadata when importing
+
+On **Settings** > **Security** users have the option to Preserve or delete the file's metadata when importing Photos and Videos to Tella. EXIF metadata of files migth include data about when the file was created, camara settings or location of the device.
 
 ## Open files in Tella 
 

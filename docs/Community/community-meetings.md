@@ -22,6 +22,7 @@ Each month, Horizontal hosts a community call with users, partners, or anyone in
 Community calls are held on the first Wednesday of each month at 3pm GMT.
 
 
+
 ### Where
 
 Our community calls take place on Jitsi, a privacy-friendly, open-source video calling platform.
