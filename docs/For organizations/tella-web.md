@@ -103,11 +103,11 @@ The project URL is automatically generated when the project is created. To edit 
 
 
 ### Managing Users
+Only the server’s Admins have access to the "Users" screen on the left bar. This screen displays all the users who have access to this server.
 
-#### Roles
+#### Creating users
 
-Only the server’s Admins have access to the "Users" screen on the left bar. This screen displays all the users who have access to this server. Go to the “Manage Access” section of a Project Screen to assign viewers to projects. Each user on the server can have only one role:
-
+On the top bar, above the list of users, server's admin can click on the "Create user" button to create a new user in the server. Email, password, password-confirmation and role are required in order to create users.
 
 | Role | Description |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -133,8 +133,19 @@ There are 3 entities for which permissions must be assigned:
 |Admin   |Read: ✅ Create: ✅ Edit: ✅ Delete: ✅                                    |Read: ✅ Create: ✅ Edit: ✅ Delete: ✅                                                   |Read: ✅ Create: ✅ Edit: ✅ Delete: ✅                                                |                                                      |
 
 
+On the password field, we added a password-security-meter to help admins and users to select secure passwords. We estimate password complexity using the [zxcvbn](https://github.com/dropbox/zxcvbn) library which considers:
+- Characters (more than 10)
+- Complexity (lowercase, uppercase, numbers, symbols)
+- No common patterns like dates, repeats (aaa), sequences (abcd), keyboard patterns (qwertyuiop)
+- No common passwords like names, cities, etc.
 
-#### Managing Access and User Roles
+:::info
+Only passwords rated as " Very strong" are allowed on Tella Web.
+::: 
+
+
+#### Managing access to projects 
+
 
 In the "Manage access" section of the "Project settings" screen, admins can assign existing users to the project. Click the "Add users" field. A dropdown menu will display all the users on the server. Scroll through the list or type to search for a user by username. Click on a user to add them as a pill in the "Add users" field. To remove a user from the list, click on the cross icon next to their pill. \
 Click the "Add" button to save the changes and grant access to the project to the selected users. \
@@ -153,7 +164,10 @@ The steps outlined below apply to both the Android and iOS versions of the Tella
 * Tella Android v2.1.0 (152)
 * Tella iOS v1.1.0 (43) 
 
-To ensure that users have access to the reporting feature, please verify that your Tella app version is either of these versions or a more recent one.
+To ensure that users have access to the reporting feature, please verify that your Tella app version is either of these versions or a more recent one. 
+
+Reports are not yet available on [Tella-FOSS](/faq#is-tella-available-on-f-droid).
+
 
 
 

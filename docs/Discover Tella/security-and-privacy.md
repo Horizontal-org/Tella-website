@@ -23,6 +23,10 @@ You can read Tella's full [Privacy Policy](/privacy-policy).
 
 Tella Android, as available on the Google Play Store, includes two trackers, [Google CrashLytics](https://firebase.google.com/docs/crashlytics) and [Google Firebase Analytics](https://firebase.google.com/docs/analytics), which help us detect bugs and crashes. This is critical to keep the app secure and performant for at-risk users. 
 
+### Tella-FOSS
+
+[Tella-FOSS](/faq#is-tella-available-on-f-droid), published on the [F-droid store](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/), does not contain any trackers.
+
 
 ### Tella iOS
 
@@ -56,12 +60,12 @@ There is no such thing as an app that is 100% "secure". Security is dependent on
 * File management:
     * Files that are exported out of Tella to the device file system are no longer encrypted. This means that anyone with access to the device who browses the file system or gallery may be able to find those files.
     * Files that are shared through third-party apps may be visible to those apps and saved unencrypted on the device’s file system, and someone searching these apps may be able to find the files. For example: a photo stored inside Tella and shared on WhatsApp will be visible inside WhatsApp, and will also be visible in the file system, where WhatsApp photos are stored. This happens because in order to share with third-party apps the file needs to be saved on the phone file system, which is not encrypted. This is why we recommend manually deleting the file from the device’s file system after sharing it.
-    * Importing a file creates a copy of this file, and then imports and encrypts it into Tella. _It does not delete the original file_. This means that after importing a file from the device’s file system to Tella, the original file is still present on the device, unencrypted. We recommend manually deleting the original file and cleaning the trash bin, if your phone has one it could be (My files > Trash) after importing to Tella. If this is a risk, you may also want to delete the file from any automatic backup services you have enabled on your phone (Google Photos, Dropbox, etc).
+    * Importing a file creates a copy of this file, and then imports and encrypts it into Tella. On version 1.1(iOS) and 2.1(Android) we developed a feature for users to select if they want to keep or delete the original file when importing to Tella. However, we recomend to verify the original file is not present on the Trash bin (My files > Trash) and to delete the file from any automatic backup services you have enabled on your phone (Google Photos, Dropbox, etc).
 
 
 ## Security audits
 
-We regularly ask independent security firms to audit our code to ensure it is robust and secure. You can see the full reports from these audits [on this page](/security-and-privacy#security-audits). This is the summary from the latest audit:
+We regularly ask independent security firms to audit our code to ensure it is robust and secure. You can see the full reports from these audits [on this page](https://drive.google.com/file/d/11mPB2KZLHb6blmNuk_qyXYcn4BSVYNFT/view?usp=sharing). This is the summary from the latest audit:
 
 
 <table>
