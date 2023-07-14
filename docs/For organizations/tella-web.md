@@ -271,5 +271,4 @@ Once background submission is enabled, you can initiate the report submission pr
 
 During background submission, Tella extends the lock timeout to be able to transmit your data to Tella Web. To manually stop a background submission, tap the "Quick Exit" button on the Tella app's home screen.
 
-If the submission is disrupted due to a weak internet connection or other factors, Tella will automatically retry the upload. The system attempts to upload the report again after short interval and subsequently reties until the upload is successful.
-
+If the submission is disrupted due to a weak internet connection or other factors, Tella will send the report to the Outbox tab and automatically restart the upload as soon as the phone regain an stable internet connection. 
