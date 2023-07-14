@@ -11,11 +11,13 @@ import TellaLanguages from '.././_tella-languages.md';
 
 Language accessibility is one of our priorities, so we work hard to make Tella available in languages spoken by communities who express the need for Tella.
 
-Currently, Tella is available (partially or in full) in:
+Currently, Tella Android and iOS are available (partially or in full) in:
 
 
 <TellaLanguages/>
 
+
+[Video Tutorials](/video-tutorials) have subtitles in Spanish, Arabic, Swahili and French.
 
 Unfortunately, we don't always have the capacity or resources to keep all translations up to date and would love your support!
 

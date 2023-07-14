@@ -11,3 +11,5 @@
 11. Russian
 12. Spanish (Latin America)
 13. Tamil
+14. Kurdish
+15. Persian
