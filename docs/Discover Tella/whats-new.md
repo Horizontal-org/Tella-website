@@ -47,7 +47,7 @@ Also in this update:
 - New camouflage options (calculator themes and icons).
 - The possibility to delete the original file from the phone's file system after importing it into Tella.
 
-### iOS 1.1(43) - June 20, 2023
+### iOS 1.1(43) - May 17, 2023
 
 Launched Reports, a quick way to back-up media files to your organization's server (if you work with an organization):
 - Connect to a Tella Web project in Settings > Servers
