@@ -111,7 +111,7 @@ Importing files from the device file system into Tella makes a copy of the files
 
 ## Import files from device 
 
-The user can import files into Tella to keep them secured by using the import feature. They can import files by going to the **Add ( + )** button on either All files, Images, Video, Audio or Documents depending on the type of file they wish to import and then **Import from device** 📥. The files will be kept secured at Tella, but to make sure the files cannot be found outside of Tella, the user will need to manually delete those from your device. 
+The user can import files into Tella to keep them secured by using the import feature. They can import files by going to the **Add ( + )** button on either All files, Images, Video, Audio or Documents depending on the type of file they wish to import and then **Import from device** 📥. A prompt will appear asking the user if they would like to keep or delete the original file from their phone memory. The imported files will be kept secured at Tella.
 
 
 :::tip Video  tutorial 🎥
