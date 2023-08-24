@@ -7,6 +7,9 @@ slug: /releases
 
 # What's new
 
+## Newsletter
+Suscribe to our newsletter [here](https://blog.wearehorizontal.org/tag/tella/)
+
 ## Latest Versions
 
 ### Android 2.2.1(156) - July 14, 2023
