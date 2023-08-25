@@ -19,7 +19,7 @@ const sidebars = {
   // But you can create a sidebar manually
 
  generalSidebar: [
-    'welcome',
+    'docs',
     {'Discover Tella': ['Discover Tella/features', 'Discover Tella/security-and-privacy', 'Discover Tella/accesibility', 'Discover Tella/user-stories', 'Discover Tella/releases']},
     {
       type: 'category',

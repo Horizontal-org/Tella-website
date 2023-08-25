@@ -66,6 +66,12 @@ const config = {
         },
         items: [
           {
+            href: '/docs',
+            label: 'Documentation',
+            position: 'left',
+          },
+
+          {
             href: '/contact-us',
             label: 'Contact Us',
             position: 'right',
