@@ -20,7 +20,7 @@ import './tella-home.css';
         
     </div>
     <div className="intro-column" id="intro-column2">
-        <img className="screen" src="../../img/home-black.png"></img>
+        <img className="screen" src="img/home-black.png"></img>
     </div>
 
 </div>

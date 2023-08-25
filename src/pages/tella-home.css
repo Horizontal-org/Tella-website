@@ -73,7 +73,7 @@ main {
  h1 {
     font-size: 50px;
     font-weight: 600; 
-    color: #5d6063;
+    /*color: #5d6063;*/
 }
 
 h2 {
@@ -89,9 +89,9 @@ h3 {
 }
 
 p, ul, ol {
-    color: #071013;
+    /*color: #071013;*/
     font-weight: 200;
-    text-align: justify;
+    /*text-align: justify;*/
 }
 
 ul, ol {
@@ -111,10 +111,10 @@ ul, ol {
 }
 
 .link {
-    color: #071013;
+    /*color: #071013;*/
     text-decoration: underline;
     text-decoration-style: dotted;
-    text-decoration-color: darkgray;
+    /*text-decoration-color: darkgray;*/
     text-underline-offset: 1.5px;
 }
 
@@ -236,31 +236,31 @@ nav {
 
 /* FEATURES PAGE */
 
-@media only screen and (max-width: 550px) {
+/*@media only screen and (max-width: 550px) {
     #talk p {
         text-align: center;
     }
     
-  }
+  }*/
 
 /* GET IN TOUCH PAGE */
 
 @media only screen and (max-width: 550px) {
-    #talk p {
+    #get-in-touch p {
         text-align: center;
     }
     
-  }
+}
 
 .contact {
     height: calc(100vh - 40px);
 }
 
-#get-in-touch {
+/*#get-in-touch {
     height: 100;
     display: flex;
     align-items: center;
-}
+}*/
 
 /* PRIVACY POLICY */
 
