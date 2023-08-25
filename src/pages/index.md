@@ -1,5 +1,3 @@
-import './tella-home.css';
-
 <div className="section" id="intro">
     <div className="intro-column" id="intro-column1">
         <h1>Tella</h1>

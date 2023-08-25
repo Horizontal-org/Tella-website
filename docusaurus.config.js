@@ -66,6 +66,11 @@ const config = {
         },
         items: [
           {
+            href: '/features-overview',
+            label: 'Features Overview',
+            position: 'left',
+          },
+          {
             href: '/docs',
             label: 'Documentation',
             position: 'left',
