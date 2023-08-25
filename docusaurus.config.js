@@ -96,6 +96,10 @@ const config = {
                 label: 'Twitter',
                 href: 'https://twitter.com/Tella_app',
               },
+              {
+                label: 'Blog',
+                href: 'https://blog.wearehorizontal.org/tag/tella/',
+              },
             ],
           },
           {
