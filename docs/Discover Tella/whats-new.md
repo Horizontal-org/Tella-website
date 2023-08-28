@@ -14,11 +14,11 @@ To receive monthly updates on new features and improvements to Tella, suscribe t
 
 ## Tella - Latest Versions
 
-### Android 2.3 (158) - August , 2023
+### Android 2.3.0 (158) - August, 2023
 - Added the ability to erase all content in Tella after a custom number of unlocking attempts. We added a security setting that allows user to choose the  number of failed unlocking attempts and whether Tella shows a visual indicator of the remaining unlocking attempts or not.
 - Bugfixes for the Uwazi connection on Date and Geolocation fields.
 
-### iOS 1.3
+### iOS 1.3.0 - August, 2023
 - Added the ability to erase all content in Tella after a custom number of unlocking attempts. We added a security setting that allows user to choose the  number of failed unlocking attempts and whether Tella shows a visual indicator of the remaining unlocking attempts or not.
 - Added the possibility to preserve metadata when importing files into Tella
 - Fixed a bug that prevented videos from being deleted from the device when imported into Tella. 
