@@ -14,7 +14,7 @@
                 <ul>
                     <li> Write to us to <a href="mailto:contact@tella-app.org">contact@tella-app.org</a></li>
                     <li> Schedule a call directly <a href="https://calendly.com/d/grp-5v7-rjf/tella-meeting">here</a>.</li>
-                    <li> Our join our next <a href="/community-meetings">Community Meeting</a>.</li>
+                    <li> Join our next <a href="/community-meetings">Community Meeting</a>.</li>
                 </ul>
             </p> 
             <p>We are looking forward to hearing from you!</p>
