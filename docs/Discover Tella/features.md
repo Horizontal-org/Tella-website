@@ -73,6 +73,16 @@ On iOS screen security only blocks screen recordings inside Tella and blocks the
 Learn more about Tella Additional Security Features in our [video tutorial](/video-tutorials#additional-security-features)
 :::
 
+### Restrict unlocking attempts
+By going to **Settings ⚙️** > **Security** > **Delete after Failed Unlock**, the user can decide how many failed unlock attempts are allowed before everything inside Tella is deleted.
+
+By default, this setting is Off, which means unlock attempts are not restricted and data won't be deleted. The user can choose to restrict unlocking attempts to 5, 10, or 20. If they choose any of these options, they can also select whether to display a visual indicator on the unlock screen 3 attempts before the specified number (3 attempts remaining, 2 attempts remaining, etc.), or to show no visual indicator at all.
+
+After the specified number of failed attempts, all files, connections, and everything in Tella get deleted, and the user will go back to the "freshly installed" app state.
+
+:::danger
+While this security setting prevents brute force unlocking attempts to enter Tella, it should be used with caution, as there is no way to restore the content of Tella once the maximum number of failed unlocking attempts is reached.
+:::
 ## Encryption 
 
 All files stored inside Tella are encrypted. Without the app lock, it is impossible to decrypt and access any of the files stored in Tella. 🔒🔐
@@ -111,7 +121,7 @@ Importing files from the device file system into Tella makes a copy of the files
 
 ## Import files from device 
 
-The user can import files into Tella to keep them secured by using the import feature. They can import files by going to the **Add ( + )** button on either All files, Images, Video, Audio or Documents depending on the type of file they wish to import and then **Import from device** 📥. The files will be kept secured at Tella, but to make sure the files cannot be found outside of Tella, the user will need to manually delete those from your device. 
+The user can import files into Tella to keep them secured by using the import feature. They can import files by going to the **Add ( + )** button on either All files, Images, Video, Audio or Documents depending on the type of file they wish to import and then **Import from device** 📥. A prompt will appear asking the user if they would like to keep or delete the original file from their phone memory. The imported files will be kept secured at Tella.
 
 
 :::tip Video  tutorial 🎥
