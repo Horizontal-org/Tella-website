@@ -14,11 +14,16 @@ To receive monthly updates on new features and improvements to Tella and stay up
 
 ## Tella - Latest Versions 
 
-### Andoid: Tella 2.3.0 (158) - released on September 20, 2023
-- Added the ability to erase all content in Tella after a custom number of unlocking attempts. We added a security setting that allows user to choose the  number of failed unlocking attempts and whether Tella shows a visual indicator of the remaining unlocking attempts or not.
-- Bugfixes for the Uwazi connection on Date and Geolocation fields.
+### Android: Tella 1.4.0 (162) - released on XX
+- Technical Improvements: 
+    - We refactored Tella's architecture to MVVM (mainly by refactoring the Vault, ODK Forms modules and the Photo, Video and Audio activities).
+    - We also unified the code's programming language to Kotlin and added documentation and unit testing to the code base to improve the app sustainability and simplify maintenance. 
+- Accesibility Improvements:
+    - We ensured that when users navigate sequentially through content, they encounter information in an order that is consistent with the meaning of the content and can be operated from the keyboard.
+    - Make sure all validation errors and messages to users are announced by screen readers.
+- Bug fixes: Fixed % bug on Calculator Camouflage, crashes and navigation issues.     
 
-### iOS: Tella 1.3.0 (54) - released on  Septemeber 18, 2023
+### iOS: Tella 1.3.0 (54) - released on Septemeber 18, 2023
 - Added the ability to erase all content in Tella after a custom number of unlocking attempts. We added a security setting that allows user to choose the  number of failed unlocking attempts and whether Tella shows a visual indicator of the remaining unlocking attempts or not.
 - Added the possibility to preserve metadata when importing files into Tella
 - Fixed a bug that prevented videos from being deleted from the device when imported into Tella. 
@@ -31,6 +36,10 @@ A version of Tella included for the first time on the F-droid store. This a 100%
 
 
 ## Previous versions
+
+### Andoid: Tella 2.3.0 (158) - released on September 20, 2023
+- Added the ability to erase all content in Tella after a custom number of unlocking attempts. We added a security setting that allows user to choose the  number of failed unlocking attempts and whether Tella shows a visual indicator of the remaining unlocking attempts or not.
+- Bugfixes for the Uwazi connection on Date and Geolocation fields.
 
 ### Android 2.2.1(156) - July 14, 2023
 - New languages: Kurdish and Persian
