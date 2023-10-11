@@ -14,7 +14,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 
 ## Tella - Latest Versions 
 
-### Android: Tella 1.4.0 (162) - released on XX
+### Android: Tella 2.4.0 (162) - released on XX
 - Technical Improvements: 
     - We refactored Tella's architecture to MVVM (mainly by refactoring the Vault, ODK Forms modules and the Photo, Video and Audio activities).
     - We also unified the code's programming language to Kotlin and added documentation and unit testing to the code base to improve the app sustainability and simplify maintenance. 
