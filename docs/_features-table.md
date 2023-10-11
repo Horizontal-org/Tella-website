@@ -6,6 +6,7 @@
 |[Camera silent mode](/features#camera-silent-mode)| ✔️| Not yet| ✔️ |
 | [Screen Security](/features#screen-security)| ✔️| ✔️| ✔️ |
 | [Restrict unlocking attempts](features#restrict-unlocking-attempts)| ✔️| ✔️| Not yet |
+| [Edit media](features#edit-media)| ✔️| Not yet | Not yet |
 | [Encryption](/features#encryption)| ✔️| ✔️| ✔️ |
 | [Encrypted file management](/features#file-management)| ✔️ | ✔️ | ✔️ |
 | [Import files from device](/features#import-files-from-device)| ✔️ | ✔️ | Yes but missing delete original file |
