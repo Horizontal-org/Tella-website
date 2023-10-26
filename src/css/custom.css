@@ -40,6 +40,10 @@
   --ifm-link-decoration: underline;  
 }
 
+.markdown a.card {
+  --ifm-link-decoration: none;  
+}
+
 .badges {
   display: flex;
   align-items: center;

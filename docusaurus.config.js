@@ -91,6 +91,10 @@ const config = {
             position: 'left',
           },
           {
+            type: 'search',
+            position: 'right',
+          },
+          {
             href: '/contact-us',
             label: 'Contact Us',
             position: 'right',
