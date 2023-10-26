@@ -178,7 +178,7 @@ const config = {
               },
               {
                 label: 'Accesibility details',
-                href: '/accesibility',
+                href: '/accessibility',
               },
             ],
           },
