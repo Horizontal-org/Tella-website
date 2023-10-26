@@ -85,7 +85,7 @@
 }
 
 .gifs img {
-    height: 600px !important;
+    height: 450px !important;
     width: auto;
       /*margin: auto;*/
 }
@@ -334,6 +334,12 @@ nav {
     }
     
   }
+
+#section-column2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /* GET IN TOUCH PAGE */
 

@@ -6,10 +6,10 @@
 6. Jingpho
 7. Kannada
 8. Karen Sgaw
-9. Malayalam
-10. Portuguese
-11. Russian
-12. Spanish (Latin America)
-13. Tamil
-14. Kurdish
-15. Persian
+9. Kurdish
+10. Malayalam
+11. Persian
+12. Portuguese
+13. Russian
+14. Spanish (Latin America)
+15. Tamil

@@ -32,6 +32,7 @@ const config = {
     locales: ['en'],
   },
 
+
   presets: [
     [
       'classic',
@@ -40,11 +41,10 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          sidebarCollapsible: false,
+          sidebarCollapsible: true,
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          //editUrl:
-            //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl:
+            "https://github.com/Horizontal-org/Tella-Docs/tree/main/",
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -67,15 +67,29 @@ const config = {
         items: [
           {
             href: '/features-overview',
-            label: 'Features Overview',
+            label: 'Features',
+            position: 'left',
+          },
+          {
+            href: '/get-started',
+            label: 'Get Started',
             position: 'left',
           },
           {
             href: '/docs',
-            label: 'Documentation',
+            label: 'Docs',
             position: 'left',
           },
-
+          {
+            href: '/faq',
+            label: 'FAQ',
+            position: 'left',
+          },
+          {
+            href: 'https://blog.wearehorizontal.org/',
+            label: 'Blog',
+            position: 'left',
+          },
           {
             href: '/contact-us',
             label: 'Contact Us',
@@ -87,37 +101,89 @@ const config = {
         style: 'light',
         links: [
           {
-            title: 'Contact',
+            title: 'Learn',
             items: [
               {
-                label: 'Contact us',
+                label: 'Get started guide for Android',
+                href: '/get-started-android',
+              },
+              {
+                label: 'Get started guide for iOS',
+                href: '/get-started-ios',
+              },
+              {
+                label: 'Video Tutorials',
+                href: '/video-tutorials',
+              },
+              {
+                label: 'Tella for Organizations',
+                href: '/for-organizations',
+              },
+
+
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Help and Contact us',
                 href: '/contact-us',
+              },
+              {
+                label: 'Community Meetings',
+                href: '/community-meetings',
               },
               {
                 label: 'Mastodon',
                 href: 'https://infosec.exchange/@tella',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/Tella_app',
+                label: 'X (Twitter)',
+                href: 'https://x.com/Tella_app',
+              },
+              {
+                label: 'Donate to Tella',
+                href: 'https://wearehorizontal.org/donate',
               },
             ],
           },
           {
-            title: 'About us',
+            title: 'Latest news',
             items: [
               {
-                label: 'Horizontal',
-                href: 'https://wearehorizontal.org/',
+                label: 'Changelog',
+                href: '/releases',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/Horizontal-org/',
+                label: 'Subscribe to our newsletter',
+                href: 'https://blog.wearehorizontal.org/',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'About us',
+                href: 'https://wearehorizontal.org/about',
+              },
+              {
+                label: 'Privacy policy',
+                href: '/privacy-policy',
+              },
+              {
+                label: 'Open Source',
+                href: '/open-source',
+              },
+              {
+                label: 'Accesibility details',
+                href: '/accesibility',
               },
             ],
           },
         ],
-        copyright: `Tella is a project by Horizontal.`,
+        copyright: `<div> Tella is a project by <a href="https://wearehorizontal.org/">Horizontal</a>, a registered 501(c)(3) nonprofit – EIN: 83-1782268. </br> This website is licensed under a Creative Commons 4.0 Attribution International License. </div>`,
       },
       prism: {
         theme: lightCodeTheme,

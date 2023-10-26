@@ -18,7 +18,7 @@
         
     </div>
     <div className="intro-column" id="intro-column2">
-        <img className="screen" src="img/home-black.png"></img>
+        <img className="screen" src="img/home-black.svg"></img>
     </div>
 
 </div>

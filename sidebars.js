@@ -18,16 +18,25 @@ const sidebars = {
 
   // But you can create a sidebar manually
 
- generalSidebar: [
-    'docs',
-    {'Discover Tella': ['Discover Tella/features', 'Discover Tella/security-and-privacy', 'Discover Tella/accesibility', 'Discover Tella/user-stories', 'Discover Tella/releases']},
+generalSidebar: [
+    {
+      type: 'category',
+      label: 'Discover Tella',
+      link: {type: 'generated-index'},
+      items: ['Discover Tella/docs', 'Discover Tella/features', 'Discover Tella/security-and-privacy', 'Discover Tella/accesibility', 'Discover Tella/user-stories', 'Discover Tella/releases'],
+    },
     {
       type: 'category',
       label: 'Get Started',
       link: {type: 'doc', id: 'Get Started/get-started'},
       items: ['Get Started/get-started-android', 'Get Started/get-started-ios', 'Get Started/video-tutorials']
     },
-    {'For organizations':['For organizations/overview', 'For organizations/tella-web']},
+    {
+      type: 'category',
+      label: 'For organizations',
+      link: {type: 'generated-index'},
+      items: ['For organizations/overview', 'For organizations/tella-web'],
+    },
     {'Community': ['Community/community-meetings', 'Community/open-source', 'Community/translating-tella']},
     'faq',
     'privacy-policy'
