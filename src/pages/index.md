@@ -18,7 +18,7 @@
         
     </div>
     <div className="intro-column" id="intro-column2">
-        <img className="screen" src="img/home-black.svg"></img>
+        <img className="screen" src="img/home-black.svg" alt="Screenshot of the Tella app on Android. Showing Connections to Tella Web Uwazi and the folder structure showing that within Tella users can record and save Images, Videos and Audios securely and encripted."></img>
     </div>
 
 </div>
