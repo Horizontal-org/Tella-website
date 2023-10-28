@@ -31,9 +31,5 @@
         <li><span className="emphasis">Protect the data you collect</span> from censorship, tampering, interception, and destruction.</li>
         <li><span className="emphasis">Easily produce high quality documentation</span> that can be used for research, advocacy, or transitional justice.</li>
     </ul>
-<div className="section">
-    <h2>Legal</h2>
-    <a href="/privacy-policy">Tella's official privacy policy</a>
-</div>
     
 </div>
