@@ -85,13 +85,13 @@ const config = {
             position: 'left',
           },
           {
-            href: '/docs',
-            label: 'Docs',
+            href: '/faq',
+            label: 'FAQ',
             position: 'left',
           },
           {
-            href: '/faq',
-            label: 'FAQ',
+            href: '/docs',
+            label: 'Docs',
             position: 'left',
           },
           {
@@ -99,13 +99,13 @@ const config = {
             label: 'Blog',
             position: 'left',
           },
-          {
-            type: 'search',
-            position: 'right',
-          },
-          {
+           {
             href: '/contact-us',
             label: 'Contact Us',
+            position: 'left',
+          },
+          {
+            type: 'search',
             position: 'right',
           },
         ],
