@@ -25,7 +25,7 @@
 
 <div className="section">
     <h2>Why Tella?</h2>
-    <p>If you are an activist, journalist, human rights defender, or anyone who engages in documentation of injustice, you can use Tella to:</p>
+    <p>If you are an activist, journalist, human rights defender, or anyone who documents injustice, you can use Tella to:</p>
     <ul>
         <li><span className="emphasis">Protect yourself</span> from physical and digital repression while collecting and storing sensitive information.</li>
         <li><span className="emphasis">Protect the data you collect</span> from censorship, tampering, interception, and destruction.</li>
