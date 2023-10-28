@@ -117,11 +117,11 @@ const config = {
             title: 'Learn',
             items: [
               {
-                label: 'Get started guide for Android',
+                label: 'Get started on Android',
                 href: '/get-started-android',
               },
               {
-                label: 'Get started guide for iOS',
+                label: 'Get started on iOS',
                 href: '/get-started-ios',
               },
               {
@@ -140,7 +140,7 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Help and Contact us',
+                label: 'Help & Contact',
                 href: '/contact-us',
               },
               {
@@ -169,8 +169,12 @@ const config = {
                 href: '/releases',
               },
               {
-                label: 'Subscribe to our newsletter',
+                label: 'Blog',
                 href: 'https://blog.wearehorizontal.org/',
+              },
+              {
+                label: 'Newsletter',
+                href: 'https://blog.wearehorizontal.org/#/portal/',
               },
             ],
           },
@@ -190,7 +194,7 @@ const config = {
                 href: '/open-source',
               },
               {
-                label: 'Accesibility details',
+                label: 'Accessibility',
                 href: '/accessibility',
               },
             ],
