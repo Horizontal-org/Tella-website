@@ -75,11 +75,6 @@ const config = {
         },
         items: [
           {
-            href: '/features-overview',
-            label: 'Features',
-            position: 'left',
-          },
-          {
             href: '/get-started',
             label: 'Get Started',
             position: 'left',
