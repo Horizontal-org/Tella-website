@@ -322,17 +322,23 @@ nav {
     .screen {
         margin-top: 30px;
     }
-  }
+}
 
-  @media only screen and (max-width: 550px) {
-    .columns {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-  }
+@media only screen and (max-width: 550px) {
+  .columns {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+  }  
+}
+
+
+.home-illustrations {
+  height: 200px !important;
+}
+
+
 
 /* FEATURES PAGE */
 

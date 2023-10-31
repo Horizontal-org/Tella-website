@@ -1,3 +1,5 @@
+import ThemedImage from '@theme/ThemedImage';
+
 <div id="intro">
     <div className="intro-column" id="intro-column1">
         <h1>Tella</h1>
@@ -16,9 +18,14 @@
         </div>
     </div>
     <div className="intro-column" id="intro-column2">
-        <img className="screen" src="img/home-black.svg" alt="Screenshot of the Tella app on Android. Showing Connections to Tella Web Uwazi and the folder structure showing that within Tella users can record and save Images, Videos and Audios securely and encripted."></img>
+        <ThemedImage
+            alt="Screenshot of the Tella app on Android. Showing Connections to Tella Web Uwazi and the folder structure showing that within Tella users can record and save Images, Videos and Audios securely and encripted."
+            className="screen"
+            sources={{
+                light: 'img/home-black.svg',
+                dark: 'img/home-white.svg',
+              }}/>
     </div>
-
 </div>
 
 <div className="section">
@@ -36,7 +43,7 @@
     <h2>Protect your data</h2>
     <div className="columns">
         <div className="column" id="section-column1">
-            <img className="vault" src="img/vault.svg" alt="Vault illustration" />
+            <img className="home-illustrations" src="img/vault.svg" alt="Vault illustration" />
         </div>
         <div className="column" id="section-column2">
             <ul>
@@ -61,7 +68,7 @@
             </ul>
         </div>
         <div className="column" id="section-column1">
-            <img src="img/data.svg" alt="Notepad illustration"/>
+            <img className="home-illustrations" src="img/data.svg" alt="Notepad illustration"/>
         </div>
     </div> 
     <a type="button" href="/user-stories" className="clean-btn center button button--primary"> Read  how organizations are using Tella </a>    
