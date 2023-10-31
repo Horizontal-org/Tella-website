@@ -5,10 +5,12 @@
 |[Lock timeout configuration](/features#lock-timeout-configuration)| ✔️| ✔️| ✔️ |
 |[Camera silent mode](/features#camera-silent-mode)| ✔️| Not yet| ✔️ |
 | [Screen Security](/features#screen-security)| ✔️| ✔️| ✔️ |
+| [Restrict unlocking attempts](features#restrict-unlocking-attempts)| ✔️| ✔️| Not yet |
+| [Edit Media](/features#edit-media)| Crop and Rotate Photos| Not yet| Not yet |
 | [Encryption](/features#encryption)| ✔️| ✔️| ✔️ |
 | [Encrypted file management](/features#file-management)| ✔️ | ✔️ | ✔️ |
-| [Import files from device](/features#import-files-from-device)| ✔️ | ✔️ | Missing delete original file |
-| [Preserve metadata when importing](/features#preserve-metadata-when-importing)| ✔️ | Not yet | Not yet |
+| [Import files from device](/features#import-files-from-device)| ✔️ | ✔️ | Yes but missing delete original file |
+| [Preserve metadata when importing](/features#preserve-metadata-when-importing)| ✔️ | ✔️ | Not yet |
 | [Camouflage](/features#camouflage) | ✔️ | Not possible in iOS | ✔️ |
 | [Homescreen customization](/features#homescreen-customization) | ✔️ | ✔️ | ✔️ |
 | [Camera (photos and videos)](/features#camera-photos-and-videos) | ✔️ | ✔️ | Yes but missing  zoom, flip camera, enable flash and enable grid |

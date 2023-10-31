@@ -154,6 +154,10 @@ const config = {
                 label: 'Donate to Tella',
                 href: 'https://wearehorizontal.org/donate',
               },
+              {
+                label: 'Blog',
+                href: 'https://blog.wearehorizontal.org/tag/tella/',
+              },
             ],
           },
           {

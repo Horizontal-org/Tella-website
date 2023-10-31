@@ -17,6 +17,7 @@
                     <li> Join our next <a href="/community-meetings">Community Meeting</a>.</li>
                 </ul>
             </p> 
+            <p> Or suscribe to our newsletter: <a href="https://blog.wearehorizontal.org/tag/tella/">here</a>. </p>
             <p>We are looking forward to hearing from you!</p>
         </div>           
     </div>
