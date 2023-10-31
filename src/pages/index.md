@@ -1,4 +1,4 @@
-<div className="section" id="intro">
+<div id="intro">
     <div className="intro-column" id="intro-column1">
         <h1>Tella</h1>
         <h2>Document & protect</h2>
@@ -14,8 +14,6 @@
                 <img className="badge" src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get Tella on F-Droid" />
             </a>
         </div>
-        
-        
     </div>
     <div className="intro-column" id="intro-column2">
         <img className="screen" src="img/home-black.svg" alt="Screenshot of the Tella app on Android. Showing Connections to Tella Web Uwazi and the folder structure showing that within Tella users can record and save Images, Videos and Audios securely and encripted."></img>
@@ -38,7 +36,7 @@
     <h2>Protect your data</h2>
     <div className="columns">
         <div className="column" id="section-column1">
-            <img className="vault" src="img/vault.svg"/>
+            <img className="vault" src="img/vault.svg" alt="Vault illustration" />
         </div>
         <div className="column" id="section-column2">
             <ul>
@@ -47,9 +45,9 @@
                 <li><span className="emphasis">Lock your files:</span> set a PIN or password to protect your files. Entering the correct lock is the only way to decrypt the files stored in Tella.</li>
                 <li><span className="emphasis">Mask the app: </span> change the look of Tella to hide it from people searching your phone.</li>
             </ul>
-            <a type="button" href="/features" className="clean-btn center button button--primary"> Learn about Tella features </a>
         </div>
-    </div>            
+    </div>
+    <a type="button" href="/features" className="clean-btn center button button--primary"> Learn about Tella features </a>  
 </div>
 
 <div className="section">
@@ -61,12 +59,12 @@
                 <li><span className="emphasis">Tella integrates</span> with <a href="/for-organizations#uwazi">Uwazi</a>, <a href="/for-organizations#open-data-kit-odk">Kobotoolbox</a> and <a href="/for-organizations#tella-web">Tella Web</a>. Pick the platform that best suits your need and collect data directly in Tella.</li>
                 <li><span className="emphasis">Offline mode:</span> in areas with limited or no internet connection, you can save your data and submit it when you reach a reliable internet connection.</li>
             </ul>
-            <a type="button" href="/user-stories" className="clean-btn center button button--primary"> Read  how organizations are using Tella </a>
         </div>
         <div className="column" id="section-column1">
-            <img src="img/data.svg"/>
+            <img src="img/data.svg" alt="Notepad illustration"/>
         </div>
-    </div>          
+    </div> 
+    <a type="button" href="/user-stories" className="clean-btn center button button--primary"> Read  how organizations are using Tella </a>    
 </div>
 
 <div className="section">

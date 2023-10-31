@@ -152,6 +152,9 @@ main {
     padding-top: 20px;
     padding-bottom: 20px;
     line-height: 1.7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .columns {
@@ -261,6 +264,7 @@ nav {
 #intro {
     margin-top: 30px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -379,7 +383,7 @@ nav {
 }
 
 .footer__copyright {
-    font-family: 'open-sans'; 
+    font-family: 'open-sans';
     src: url("../../static/fonts/OpenSans-Regular.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
