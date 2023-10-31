@@ -23,7 +23,7 @@ generalSidebar: [
       type: 'category',
       label: 'Discover Tella',
       link: {type: 'generated-index'},
-      items: ['Discover Tella/docs', 'Discover Tella/features', 'Discover Tella/security-and-privacy', 'Discover Tella/accesibility', 'Discover Tella/user-stories', 'Discover Tella/releases'],
+      items: ['Discover Tella/docs', 'Discover Tella/features', 'Discover Tella/security-and-privacy', 'Discover Tella/accesibility', 'Discover Tella/user-stories'],
     },
     {
       type: 'category',
@@ -39,7 +39,8 @@ generalSidebar: [
     },
     {'Community': ['Community/community-meetings', 'Community/open-source', 'Community/translating-tella']},
     'faq',
-    'privacy-policy'
+    'privacy-policy',
+    'releases'
   ],
 };
 

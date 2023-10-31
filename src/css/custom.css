@@ -122,7 +122,7 @@
     src: url("../../static/fonts/OpenSans-Light.ttf") format("truetype");
     font-weight: 200;
     font-style: normal;
-}
+} 
 
 
 /* * {
@@ -368,24 +368,21 @@ nav {
 
 
 
-/* FOOTER 
+/* FOOTER */
 
-footer {
-    max-width: 700px;
-    width: 100%;
-    font-size: 14px;
-    padding-top: 30px;
+.footer  ul {
+    margin-left: 0px;
 }
 
-footer p {
-    text-align: center;
-}
-
-.solid {
-    width: 100%;
-    border: 0;
-    border-top: 1px solid #071013;
+.footer__bottom {
     margin-top: 20px;
-    margin-bottom: 20px;
+}
 
-}*/
+.footer__copyright {
+    font-family: 'open-sans'; 
+    src: url("../../static/fonts/OpenSans-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
