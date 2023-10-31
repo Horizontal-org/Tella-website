@@ -1,10 +1,11 @@
 ---
 id: features
-title: Features
+title: Feature descriptions
 description: A detailed description of Tella features.
 slug: /features
 ---
 import FeaturesTable from '.././_features-table.md';
+
 
 # Tella features
 
@@ -83,6 +84,13 @@ After the specified number of failed attempts, all files, connections, and every
 :::danger
 While this security setting prevents brute force unlocking attempts to enter Tella, it should be used with caution, as there is no way to restore the content of Tella once the maximum number of failed unlocking attempts is reached.
 :::
+
+## Edit Media
+We are in the process of adding ability to edit encrypted files directly within Tella. Soon users won't need to export their files outside Tella for editing. Tella 2.4.0 for Android kick things off with photo editing capabilities (crop and rotate). On the next releases for Android and iOS we will also add audio and video editing functionalities.
+
+Users can edit a picture by going to **More** > **Edit** from the **Images** or **All files** folder or by taping the **Edit** button on the top right while viewing image you have on Tella. On the Edit Image screen users can use the **Rotate** button on the bottom of the screen to rotate the image counter-clock wise or pinch and expand or contracts your fingers to move the white canvas to crop the picture. When edits are done, users can press the orange check on the top right of the edit screen.
+
+
 ## Encryption 
 
 All files stored inside Tella are encrypted. Without the app lock, it is impossible to decrypt and access any of the files stored in Tella. 🔒🔐

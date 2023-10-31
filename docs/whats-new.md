@@ -1,6 +1,6 @@
 ---
 id: releases
-title: What's new
+title: What's new (changelog)
 description: Tella changelogs
 slug: /releases
 ---
