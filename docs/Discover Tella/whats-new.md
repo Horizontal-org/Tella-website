@@ -38,7 +38,7 @@ A version of Tella included for the first time on the F-droid store. This a 100%
 
 ## Previous versions
 
-### Andoid: Tella 2.3.0 (158) - released on September 20, 2023
+### Android: Tella 2.3.0 (158) - released on September 20, 2023
 - Added the ability to erase all content in Tella after a custom number of unlocking attempts. We added a security setting that allows user to choose the  number of failed unlocking attempts and whether Tella shows a visual indicator of the remaining unlocking attempts or not.
 - Bugfixes for the Uwazi connection on Date and Geolocation fields.
 

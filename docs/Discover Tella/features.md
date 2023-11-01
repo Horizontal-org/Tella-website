@@ -85,7 +85,7 @@ While this security setting prevents brute force unlocking attempts to enter Tel
 :::
 
 ## Edit Media
-We are in the process of adding ability to edit encrypted files directly within Tella. Soon users won't need to export their files outside Tella for editing. Tella 2.4.0 for Android kick things off with photo editing capabilities (crop and rotate). On the next releases for Android and iOS we will also add audio and video editing functionalities.
+We are in the process of adding the ability to edit media files directly within Tella. Soon, users will no longer need to export their files outside Tella for editing. Tella 2.4.0 for Android kick things off with photo editing capabilities (crop and rotate). On the next releases for Android and iOS we will also add audio and video editing functionalities.
 
 Users can edit a picture by going to **More** > **Edit** from the **Images** folder or by taping the **Edit** button on the top right while viewing image you have on Tella. On the Edit Image screen users can use the **Rotate** button on the bottom of the screen to rotate the image counter-clock wise or pinch and expand or contracts your fingers to move the white canvas to crop the picture. When edits are done, users can press the orange check on the top right of the edit screen.
 
