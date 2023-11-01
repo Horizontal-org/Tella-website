@@ -182,6 +182,9 @@ A Quick Delete button allows users, in just a few seconds, to delete sensitive d
 * Delete server settings: Deletes all server connections and all the forms or templates associated with them 📋
 * Delete Tella: Deletes the app and all the data it contains. It triggers a message asking if the user wants to uninstall Tella as well ❌
 
+:::info Delete Tella
+The Delete Tella option might not be available on some phones due to technical details. We are working on a fix for this issue. 
+:::
 
 ## Quick exit
 
