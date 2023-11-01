@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Tella Docs',
+  title: 'Tella',
   tagline: 'Document & protect',
   favicon: 'img/favicon.ico',
 
@@ -32,6 +32,7 @@ const config = {
     locales: ['en'],
   },
 
+
   presets: [
     [
       'classic',
@@ -40,11 +41,10 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          sidebarCollapsible: false,
+          sidebarCollapsible: true,
           // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          //editUrl:
-            //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl:
+            "https://github.com/Horizontal-org/Tella-Docs/tree/main/",
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -56,9 +56,18 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {name: 'keywords', content: 'security, privacy, human rights, encryption, documentation, tool, open source'},
+        {name: 'twitter:card', content: 'img/feature.png'},
+        {name: 'og:title', content: "Tella Document & Protect"},
+        {name: 'og:description', content: "Tella is a secure documentation platform designed for individuals facing challenging environments (repression and survailance) and limited internet connectivity. Tella simplifies the process to document human rights violations and collect crucial data, ensuring your information is shielded from both physical and digital threats. Whether you're an activist, journalist, or human rights defender, Tella enables you to create high-quality, censorship-resistant documentation vital for research, advocacy, and transitional justice. "},
+        {name: 'og:url', content: process.env.PRODUCTION_URL},
+        {name: 'og:type', content: "website, app, documentation"},
+        {name: 'og:image', content:  'img/feature.png'},
+      ],
       image: 'img/tella.png',
       navbar: {
-        title: 'Tella Docs',
+        title: 'Tella',
         logo: {
           alt: 'Tella Logo',
           src: 'img/logo.svg',
@@ -66,35 +75,84 @@ const config = {
         },
         items: [
           {
-            href: '/contact-us',
-            label: 'Contact Us',
-            position: 'right',
+            href: '/get-started',
+            label: 'Get Started',
+            position: 'left',
           },
           {
-            href: 'https://tella-app.org/',
-            label: 'Tella website',
+            href: '/faq',
+            label: 'FAQ',
+            position: 'left',
+          },
+          {
+            href: '/docs',
+            label: 'Docs',
+            position: 'left',
+          },
+          {
+            href: 'https://blog.wearehorizontal.org/',
+            label: 'Blog',
+            position: 'left',
+          },
+           {
+            href: '/contact-us',
+            label: 'Contact Us',
+            position: 'left',
+          },
+          {
+            type: 'search',
             position: 'right',
           },
-
         ],
       },
       footer: {
         style: 'light',
         links: [
           {
-            title: 'Contact',
+            title: 'Learn',
             items: [
               {
-                label: 'contact@tella-app.org ',
-                href: 'mailto: contact@tella-app.org',
+                label: 'Get started on Android',
+                href: '/get-started-android',
+              },
+              {
+                label: 'Get started on iOS',
+                href: '/get-started-ios',
+              },
+              {
+                label: 'Video Tutorials',
+                href: '/video-tutorials',
+              },
+              {
+                label: 'Tella for Organizations',
+                href: '/for-organizations',
+              },
+
+
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Help & Contact',
+                href: '/contact-us',
+              },
+              {
+                label: 'Community Meetings',
+                href: '/community-meetings',
               },
               {
                 label: 'Mastodon',
                 href: 'https://infosec.exchange/@tella',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/Tella_app',
+                label: 'X (Twitter)',
+                href: 'https://x.com/Tella_app',
+              },
+              {
+                label: 'Donate to Tella',
+                href: 'https://wearehorizontal.org/donate',
               },
               {
                 label: 'Blog',
@@ -103,26 +161,102 @@ const config = {
             ],
           },
           {
-            title: 'About us',
+            title: 'Latest news',
             items: [
               {
-                label: 'Horizontal',
-                href: 'https://wearehorizontal.org/',
+                label: 'Changelog',
+                href: '/releases',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/Horizontal-org/',
+                label: 'Blog',
+                href: 'https://blog.wearehorizontal.org/',
+              },
+              {
+                label: 'Newsletter',
+                href: 'https://blog.wearehorizontal.org/#/portal/',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'About us',
+                href: 'https://wearehorizontal.org/about',
+              },
+              {
+                label: 'Privacy policy',
+                href: '/privacy-policy',
+              },
+              {
+                label: 'Open Source',
+                href: '/open-source',
+              },
+              {
+                label: 'Accessibility',
+                href: '/accessibility',
               },
             ],
           },
         ],
-        copyright: `Tella is a project by Horizontal.`,
+        copyright: `Tella is a project by <a href="https://wearehorizontal.org/">Horizontal</a>, a registered 501(c)(3) nonprofit – EIN: 83-1782268. </br> This website is licensed under a Creative Commons 4.0 Attribution International License.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),
+
+
+    themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        indexPages: true,
+        highlightSearchTermsOnTargetPage: true,
+        searchResultLimits: 12,
+        searchBarShortcutHint: false,
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        // language: ["en", "zh"],
+        // ```
+      }),
+    ],
+  ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        debug: true,
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/img/logo.svg',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/manifest.json', // your PWA manifest
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: '#2c6c97',
+          },
+        ],
+      },
+    ],
+  ],
 };
 
 
