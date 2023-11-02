@@ -16,7 +16,7 @@ We only collect the minimum amount of data that is necessary to fulfill the purp
 
 Through using our app, users may send data to servers managed by individuals or organizations they're working with. We encourage users to ask these individuals or organizations about their data privacy policies, as they may differ from ours. We provide the same standard of privacy protection to all our users no matter where you are in the world.
 
-You can read Tella's full [Privacy Policy](/privacy-policy).
+You can read Tella's full [Privacy Policy](/privacy).
 
 
 ### Tella Android
