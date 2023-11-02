@@ -186,7 +186,7 @@ const config = {
               },
               {
                 label: 'Privacy policy',
-                href: '/privacy-policy',
+                href: '/privacy',
               },
               {
                 label: 'Open Source',
