@@ -2,7 +2,7 @@
 id: privacy-policy
 title: Privacy Policy
 description: Tella Privacy Policy
-slug: /privacy-policy
+slug: /privacy
 ---
 
 

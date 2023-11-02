@@ -113,7 +113,7 @@ Read more about Tella Web [here](/tella-web) or watch a [video tutorial](/video-
 
 
 * [Features and security](/security-and-privacy): Learn more about how Tella can keep you safe and the threats that Tella does _not_ protect you from.
-* [Privacy policy](/privacy-policy): We only collect the minimum amount of data necessary and never collect any personally identifiable information.
+* [Privacy policy](/privacy): We only collect the minimum amount of data necessary and never collect any personally identifiable information.
 
 
 ### Contact us if you need help
