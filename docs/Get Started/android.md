@@ -141,7 +141,7 @@ Read more about Tella Web [here](/tella-web) or watch a [video tutorial](/video-
 ## Read more about Tella
 - [Features and security](/security-and-privacy): Learn more about how Tella can keep you safe and the threats that Tella does not protect you from.
 - [Connections](/get-started-android#connect-to-a-server): Learn about how you can connect to a server to collect data or backup files.
-- [Privacy policy](/privacy-policy): We only collect the minimum amount of data necessary and never collect any personally identifiable information. Read the full privacy policy here.
+- [Privacy policy](/privacy): We only collect the minimum amount of data necessary and never collect any personally identifiable information. Read the full privacy policy here.
 
 ### Contact us if you need help
 If you need help to understand Tella’s technical details and security considerations to decide if it’s right for you and your team, we are here to help. Just reach out via email at contact@tella-app.org so we can answer your questions or plan to host a training or a live Q&A session for your team.
