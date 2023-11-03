@@ -43,8 +43,8 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           sidebarCollapsible: true,
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/Horizontal-org/Tella-Docs/tree/main/",
+          //editUrl:
+            //"https://github.com/Horizontal-org/Tella-Docs/tree/main/",
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
