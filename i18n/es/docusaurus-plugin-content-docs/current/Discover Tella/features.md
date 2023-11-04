@@ -7,9 +7,9 @@ slug: /features
 import FeaturesTable from '.././_features-table.md';
 
 
-# Tella features
+# ES - Tella features
 
-All of the following features are available to all users as soon as they download Tella. They do not require any connection to a server or any special set up. 
+ES - All of the following features are available to all users as soon as they download Tella. They do not require any connection to a server or any special set up. 
 
 <FeaturesTable/>
 
