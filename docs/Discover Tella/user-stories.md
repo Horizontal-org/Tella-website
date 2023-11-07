@@ -8,7 +8,7 @@ slug: /user-stories
 # Tella user stories
 
 
-## CLEEN Foundation - Nigeria {#cleen-foundation---nigeria}
+## CLEEN Foundation - Nigeria
 
 :::note Summary
 CLEEN foundation used Tella for election monitoring in Nigeria. They received 7,800 reports from election observers that helped them identify cases of police violence and electoral fraud in real-time. The reports included photos, videos, and audio evidence, in addition to text descriptions. CLEEN foundation was able to receive, analyze and publish the results of the election monitoring process the day after the election and a report with recommendations to the Nigerian government to improve security in upcoming elections, reduce violence, and prevent fraud.
@@ -45,7 +45,7 @@ Throughout the electoral process, CLEEN received a total of 7,800 reports: 6,300
 Following the success of this first deployment, CLEEN deployed Tella to investigate human trafficking in Nigeria, better understand its causes, and identify potential remedies.
 
 
-## Not1More - Brazil {#not1more---brazil}
+## Not1More - Brazil
 
 :::note Summary
 Not1More (N1M) used Tella to document violations of environmental and land rights in the Brazilian Amazon. In Brazil frontline environmental defenders have been suffering attacks and persecution and indigenous communities have faced attacks on their cultures, territories, and way of life. Tella is a safe way to report violations while prioritizing safety for reporters. With the results, N1M along with researchers and communities developed a map that's used as an advocacy tool for environmental justice.
@@ -65,7 +65,7 @@ In November 2019, during the [Forest Defenders Conference](https://not1more.org/
 With the data collected, indigenous students and researchers at the Federal University of Bahia, Federal University of Recôncavo of Bahia, and State University of Bahia, created a website with a map that depicts evidence of the indigenous rights violations, collected with the use of Tella:[ https://umoutroceu.ufba.br](https://umoutroceu.ufba.br/). APOINME (the Association of Indigenous Peoples and Organizations of the Northeast, Mina's Gerais and Espírito Santo) used it as a tool to raise awareness about attacks on indigenous communities and advocate for better protection.
 
 
-## Election monitoring - Belarus {#election-monitoring---belarus}
+## Election monitoring - Belarus
 
 :::note Summary
 In the 2020 presidential elections in Belarus, civil society organizations  deployed Tella to monitor the elections and document evidence of violations of electoral laws and procedures, as well as human rights abuses. Horizontal developed a custom version of Tella with a simplified user interface and default connection to the servers of the monitoring organizations. The app was translated to Belarusian and Russian. Over 250 users submitted a total of 1091 reports, despite the severe internet disruptions and the complete shutdown of mobile internet before, during, and after the election.

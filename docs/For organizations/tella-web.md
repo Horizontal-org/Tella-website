@@ -16,7 +16,7 @@ Implementing Tella Web involves three essential steps, which are thoroughly disc
 * **Get people on the ground ready to start submitting reports**: Users install Tella on their phones, whether it's an Android or iPhone device. They then connect to the Tella Web project and start collecting information, ensuring a smooth and efficient reporting process.
 
 
-## Install the server {#install-the-server}
+## Install the server
 
 This step consists of installing and configuring Tella Web on the server your organization will be using. This step needs to be completed by the person who is going to be responsible for the system administration (a developer or a system administrator). Technical instructions can be found on [our Github](https://github.com/Horizontal-org/tellaweb).
 
@@ -31,7 +31,7 @@ We offer a test server that you can use to test Tella Web before installing your
 :::
 
 
-## Set up your project on your server {#set-up-your-project-on-your-server}
+## Set up your project on your server
 
 After you have your server installed and the first administrator user created, it’s time to set up the project or projects that the team on the field will share information to.
 
@@ -42,24 +42,24 @@ Take a look at [this video tutorial](/video-tutorials#connections-full-video) fo
 :::
 
 
-### Managing Projects {#managing-projects}
+### Managing Projects
 
 Tella Web allows you to create and manage projects, ensuring your reports are organized and accessible.
 
 
-#### View all available projects {#view-all-available-projects}
+#### View all available projects
 
 Click on the "Projects" button in the left navigation menu to access the "Projects" screen.
 
 The "Projects" screen displays each existing project as a card.
 
 
-#### Create a New Project {#create-a-new-project}
+#### Create a New Project
 
 On the "Projects" screen, click the "Create project" button. A modal will appear, prompting you to name the new project. Enter the desired name for the project and click "Create." You will be redirected to the "Project settings" screen for the newly created project.
 
 
-#### Open a Project {#open-a-project}
+#### Open a Project
 
 Open the "Projects" screen and click on the desired project card.
 
@@ -68,7 +68,7 @@ This will open the project, where you can access all the reports submitted to th
 You can open, delete, or download reports based on your permissions within the project.
 
 
-#### Configure projects’ settings {#configure-projects-settings}
+#### Configure projects’ settings
 
 In the "Project settings" screen, you can customize various aspects of the project.
 
@@ -86,7 +86,7 @@ User roles are general for the whole server. There are 4 roles: Admin, Editor, V
 :::
 
 
-#### Delete a Project {#delete-a-project}
+#### Delete a Project
 
 In the "Project settings" screen, scroll down to the "Danger zone" section.
 
@@ -97,15 +97,15 @@ A modal will appear, warning you about the permanent deletion of the project and
 Once confirmed, the project and all its associated reports will be permanently deleted.
 
 
-#### Configure the project URL {#configure-the-project-url}
+#### Configure the project URL
 
 The project URL is automatically generated when the project is created. To edit the project URL, go to the "General" section in the "Project settings" screen and modify it accordingly. This URL is the one that reporters will use to connect to the project from their apps.
 
 
-### Managing Users {#managing-users}
+### Managing Users
 Only the server’s Admins have access to the "Users" screen on the left bar. This screen displays all the users who have access to this server.
 
-#### Creating users {#creating-users}
+#### Creating users
 
 On the top bar, above the list of users, server's admin can click on the "Create user" button to create a new user in the server. Email, password, password-confirmation and role are required in order to create users.
 
@@ -117,7 +117,7 @@ On the top bar, above the list of users, server's admin can click on the "Create
 | Reporters | a Reporter is a Tella user who has permission to submit Reports to the Tella Web server. A Reporter cannot log in Tella Web.|
 
 
-#### Entities {#entities}
+#### Entities
 There are 3 entities for which permissions must be assigned:
 * Report
 * Project
@@ -144,7 +144,7 @@ Only passwords rated as " Very strong" are allowed on Tella Web.
 ::: 
 
 
-#### Managing access to projects {#managing-access-to-projects}
+#### Managing access to projects 
 
 
 In the "Manage access" section of the "Project settings" screen, admins can assign existing users to the project. Click the "Add users" field. A dropdown menu will display all the users on the server. Scroll through the list or type to search for a user by username. Click on a user to add them as a pill in the "Add users" field. To remove a user from the list, click on the cross icon next to their pill. \
@@ -156,7 +156,7 @@ Click the "Add" button to save the changes and grant access to the project to th
 The full list of users who can submit reports to the project includes the users listed on this section plus all the server administrators
 :::
 
-## Get people on the ground ready to start submitting reports {#get-people-on-the-ground-ready-to-start-submitting-reports}
+## Get people on the ground ready to start submitting reports
 
  
 The steps outlined below apply to both the Android and iOS versions of the Tella app. The reporting feature has been introduced in the following versions:
@@ -176,7 +176,7 @@ You can watch [this video](/video-tutorials#tella-web) on how to configure and u
 :::
 
 
-#### Connect to Tella Web Projects {#connect-to-tella-web-projects}
+#### Connect to Tella Web Projects
 
 
 * Navigate to Settings ⚙️ > Servers > Add a server
@@ -187,7 +187,7 @@ You can watch [this video](/video-tutorials#tella-web) on how to configure and u
 * Enable or disable advance features based on your use-case: [auto-report](#auto-report), [auto-delete](#auto-delete) and [background submission](#background-submission).
 
 
-####  Manage Tella Web Projects {#manage-tella-web-projects}
+####  Manage Tella Web Projects
 
 
 * In Settings ⚙️ > Servers >  [Project name] > 3-dots you have the option to:
@@ -196,7 +196,7 @@ You can watch [this video](/video-tutorials#tella-web) on how to configure and u
     * Enable or disable auto-report, auto-delete and background submission.
 
 
-#### Create a Manual Report {#create-a-manual-report}
+#### Create a Manual Report
 
 
 * Once connected to at least one Tella Web project, a "Reports" card will appear in the "Connections" section of the home screen. Tap on this card to start creating reports.
@@ -214,7 +214,7 @@ You can watch [this video](/video-tutorials#tella-web) on how to configure and u
     * If the report is submitted correctly, it goes to the “Submitted” tab
 
 
-####  Draft Reports {#draft-reports}
+####  Draft Reports
 
 
 * On the "New report" screen, tap the "Save draft" button to save the report as a draft.
@@ -224,7 +224,7 @@ You can watch [this video](/video-tutorials#tella-web) on how to configure and u
 * You can delete a draft report by going to More > Delete or by entering the report and tapping the Delete button.
 
 
-#### Submit a Report {#submit-a-report}
+#### Submit a Report
 
 * In a report, tap "Submit" to initiate the submission process.
 * You will be redirected to a summary screen displaying the upload progress for each element in the report (title, description, attachments).
@@ -241,7 +241,7 @@ Deleting a report in the middle of submission will cancel the upload of the file
 :::
 
 
-#### Outbox {#outbox}
+#### Outbox
 
 The Outbox contains reports that have been saved for submission. This could be:
 
@@ -249,7 +249,7 @@ The Outbox contains reports that have been saved for submission. This could be:
 * Reports whose upload has been interrupted due to connectivity issues.
 
 
-#### Submitted Reports {#submitted-reports}
+#### Submitted Reports
 
 - The Submitted tab displays reports that have been successfully submitted to the Tella Web server.
 - In the Submitted tab, you can view and review the submitted reports.
@@ -259,9 +259,9 @@ If the internet connection is interrupted, reports will go to the outbox tab and
 :::
 
 
-### Advanced features {#advanced-features}
+### Advanced features
 
-#### Auto-report {#auto-report}
+#### Auto-report
 
 If auto-report is enabled, Tella will create and upload reports automatically whenever you take a photo, record a video, or capture an audio recording within the app. This ensures that your reports are seamlessly uploaded without the need for manual intervention. Files get upladed to the same auto-report if they are collected within the lapse of 30 minutes, which is specially useful on specific circumpstances, such as a demonstration.
 
@@ -271,13 +271,13 @@ Auto-report can be eabled from the Edit Connection screen.
 auto-report can be enabled for only one project at the time
 :::
 
-#### Auto-delete {#auto-delete}
+#### Auto-delete
 
 Tella offers an additional feature called auto-delete. When auto-report is enabled, you can enable auto-delete, which automatically removes reports and their associated files from your device after they have been successfully uploaded to the connected Tella Web project. This helps you manage your device's storage space and ensures that sensitive data is not unintentionally retained.
 
 The auto-delete toggle button will appear below the auto-report toggle on the Edit Connection screen for the desired project.
 
-#### Background Submission {#background-submission}
+#### Background Submission
 
 Background submission allows you to continue the report submission process even if you switch to other tasks within the app or exit the Tella app entirely. This feature ensures that your reports are uploaded in the background, providing uninterrupted progress.  Backround submission can work in combination to both Manual and Auto-reports, and can be ebabled  on the Edit Connection screen for the desired project.
 

@@ -12,7 +12,7 @@ slug: /privacy
 Last updated on 10 July 2023
 :::
 
-## The short version {#the-short-version}
+## The short version
 
 We only collect the minimum amount of data that is necessary to fulfill the purpose of Tella.
 
@@ -23,7 +23,7 @@ Through using our app, you may send data to servers managed by individuals or or
 
 Please read the full Privacy Policy below for more details
 
-## 1. Introduction {#1-introduction}
+## 1. Introduction
 
 Horizontal (“Company” or “We”) respect your privacy and are committed to protecting it through our compliance with this policy. This policy describes:
 
@@ -39,18 +39,18 @@ Our other websites and apps, these other third parties, or Deploying Organizatio
 
 Please read this policy carefully to understand our policies and practices regarding your information and how we will treat it. If you do not agree with our policies and practices, do not download, register with, or use this App. By downloading, registering with, or using this App, you agree to this privacy policy. This policy may change from time to time (see Changes to Our Privacy Policy). Your continued use of this App after we revise this policy means you accept those changes, so please check the policy periodically for updates.
 
-## 2. Children Under the Age of 16 {#2-children-under-the-age-of-16}
+## 2. Children Under the Age of 16
 
 The App is not intended for children under 16 years of age, and we do not knowingly collect personal information from children under 16. If we learn we have collected or received personal information from a child under 16 without verification of parental consent, we will delete that information. If you believe we might have any information from or about a child under 16, please contact us at [contact@tella-app.org](mailto:contact@tella-app.org).
 
-## 3. Information Tella Collects and How It Is Collected {#3-information-tella-collects-and-how-it-is-collected}
+## 3. Information Tella Collects and How It Is Collected
 
 By downloading and using the App, you consent to the collection and storage of data. Tella collects information from and about users of the App:
 
 -   Directly from you when you provide it (see “information and data you provide” below).
 -   Automatically when you use the App (see “automatic information collection” below).
 
-### Information And Data You Provide {#information-and-data-you-provide}
+### Information And Data You Provide
 
 When you download, register with, or use this App, we may ask you to provide information by which you may be personally identified, such as name and email address (“personal information”). This information includes:
 
@@ -59,11 +59,11 @@ When you download, register with, or use this App, we may ask you to provide inf
 
 You may use this app to take or store photos, videos, audio recordings, and other types of files. This data is stored locally on your device and is not accessible by the Company or any third party, including Deploying Organizations, until you choose to transmit it to the Deploying Organization by submitting your data to their servers (see Third-Party Information Collection).
 
-### Automatic Information Collection {#automatic-information-collection}
+### Automatic Information Collection
 
 When you download or use this App, it may collect information that is about you but does not identify you individually, such as analytics and bug reports. User are free to disable this automatic information collection (see Your Choices About Our Collection, Use, and Disclosure of Your Information).
 
-### File, device, and location metadata {#file-device-and-location-metadata}
+### File, device, and location metadata
 
 When you access and use the App while Verification Mode is activated, Tella automatically collects certain information.
 
@@ -75,7 +75,7 @@ Tella also collects information that helps identify the location of the device w
 
 File, device and location metadata are only collected if you opt-in by turning on Verification Mode in your App settings. If you do not want Tella to collect this information, do not activate Verification Mode.
 
-### Information Collection Technologies {#information-collection-technologies}
+### Information Collection Technologies
 
 The technologies we use for automatic information collection may include:
 
@@ -87,7 +87,7 @@ The technologies we use for automatic information collection may include:
 -   Device light-sensor.
 -   Device barometer.
 
-## 4. Information you send through the App {#4-information-you-send-through-the-app}
+## 4. Information you send through the App
 
 When you use the App to transmit data, you connect to the server of a Deploying Organization that is overseeing the documentation or data-collection process to send photos, videos, audio recordings, and other files, metadata, and text data (collectively, “User Contributions”).
 
@@ -113,11 +113,11 @@ If you do not want to download the App through the Google Play store, you can [d
 
 A fully Free and Open Source version of Tella for Android that doesn't contain any closed-source or proprietary library or dependency, and that is free from any trackers can be found on [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
 
-## 5. How We Use Your Information {#5-how-we-use-your-information}
+## 5. How We Use Your Information
 
 We will not pass on any of the information we collect from your usage of the app to any third parties not owned or affiliated with Horizontal without your prior consent. We do not use any information collected through your use of the app to make automated decisions.
 
-### Disclosure of Your Information {#disclosure-of-your-information}
+### Disclosure of Your Information
 
 We may disclose aggregated information about App users, and information that does not identify any individual or device, without restriction. We will not disclose any information about users that identifies any individual or device to any third party unless required by law.
 
@@ -129,7 +129,7 @@ We may disclose personal information and data that we collect or you provide:
 -   To comply with any court order, law, or legal process, including to respond to any government or regulatory request.
 -   To enforce our rights arising from any contracts entered into between you and us, including the App’s Terms of Use.
 
-## 6. Your Choices About Our Collection, Use, and Disclosure of Your Information {#6-your-choices-about-our-collection-use-and-disclosure-of-your-information}
+## 6. Your Choices About Our Collection, Use, and Disclosure of Your Information
 
 Through the settings menu of the App, you can opt out of:
 
@@ -138,7 +138,7 @@ Through the settings menu of the App, you can opt out of:
 
 The FOSS version of Tella available on [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/) does not have any trackers for bug reports or usage analytics.
 
-## 7. Accessing and Correcting Your Personal Information {#7-accessing-and-correcting-your-personal-information}
+## 7. Accessing and Correcting Your Personal Information
 
 You are entitled to submit a Subject Access Request (SAR) free of charge, after which we will provide you with:
 
@@ -151,11 +151,11 @@ To submit a SAR, please contact [contact@wearehorizontal.org](mailto:contact@wea
 
 You may also send us an email at [contact@horizontal.org](mailto:contact@horizontal.org) to request access to, correct, or delete any personal information that you have provided to us. We may not accommodate a request to change information if we believe the change would violate any law or legal requirement or cause the information to be incorrect.
 
-## 8. Your California Privacy Rights {#8-your-california-privacy-rights}
+## 8. Your California Privacy Rights
 
 If you are a California resident, California law may provide you with additional rights regarding our use of your personal information, To learn more about your California privacy rights, visit <https://www.oag.ca.gov/privacy/ccpa>.
 
-## 9. Data Security {#9-data-security}
+## 9. Data Security
 
 We have implemented measures designed to secure your personal information from accidental loss and from unauthorized access, use, alteration, and disclosure. All information you provide to us is encrypted inside the app and securely transferred to our servers behind firewalls.
 
@@ -163,12 +163,12 @@ The safety and security of your information also depends on you. Where we have g
 
 Unfortunately, the transmission of information via the internet and mobile platforms is not completely secure. Although we do our best to protect your personal information, we cannot guarantee the security of your personal information transmitted through our App. Any transmission of personal information is at your own risk. We are not responsible for circumvention of any privacy settings or security measures we provide.
 
-## 10. Changes to Our Privacy Policy {#10-changes-to-our-privacy-policy}
+## 10. Changes to Our Privacy Policy
 
 We may update or privacy policy from time to time. If we make material changes to how we treat our users’ personal information, we will post the new privacy policy on this page with a notice that the privacy policy has been updated.
 
 The date the privacy policy was last revised is identified at the top of the page. You are responsible for periodically visiting this privacy policy to check for any changes.
 
-## 11. Contact Information {#11-contact-information}
+## 11. Contact Information
 
 To ask questions or comment about this privacy policy and our privacy practices, contact us at [contact@wearehorizontal.org](mailto:contact@wearehorizontal.org).

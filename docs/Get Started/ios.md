@@ -7,7 +7,7 @@ slug: /get-started-ios
 
 # Getting started on Tella on iOS
 
-## Download and install Tella {#download-and-install-tella}
+## Download and install Tella
 Follow [this link](https://apps.apple.com/us/app/tella-document-protect/id1598152580) to find Tella on the App Store or open the App Store and search for “Tella document and protect”.
 
 
@@ -17,7 +17,7 @@ Follow [this link](https://apps.apple.com/us/app/tella-document-protect/id159815
 
 
 
-## Create your lock {#create-your-lock}
+## Create your lock
 When you open Tella for the first time, you’ll be asked to choose how you will lock Tella. Without this lock, it is not possible to open Tella and access any of the files stored in Tella. 
 
 
@@ -31,7 +31,7 @@ Keep in mind that if you forget this lock, there is no way to access the app or 
 
 
 
-## Grant permissions to Tella {#grant-permissions-to-tella}
+## Grant permissions to Tella
 The first time you use each functionality, you will be asked to grant Tella some permissions:
 
 
@@ -53,7 +53,7 @@ If you do not grant Tella these permissions, you can do it later by going to you
 
 
 
-## Protect your files {#protect-your-files}
+## Protect your files
 After granting permissions, you’re ready to start collecting documentation. We recommend you to explore the following features:
 
 **Use the Camera to take pictures or videos and the Audio Recorder to record audio.** All media taken by Tella will be encrypted instantly, which means that the file will not be accessible outside of Tella. All media collected inside Tella will not show on your phone gallery or phone files. There is no particular storage limit for Tella, the available space will depend on the space available on your device. 
@@ -88,7 +88,7 @@ You can also take pictures, videos and audios and import files directly into the
 </div> 
 
 
-## Share your information {#share-your-information}
+## Share your information
 To share information using Tella you can use the Share button. Just select the file or files you want to share, press Share and choose the app you want to share the files with. 
 
 Take into account that Tella will share the files unencrypted, so make sure to use disappearing messages (for example on WhatsApp or Signal) or delete the messages after the other person receives them.
@@ -100,23 +100,23 @@ It is not yet possible to connect to servers on Tella iOS.
     <img src="/img/getting-started/ios/share.gif" alt="gif that shows how share information in Tella" title="share information in Tella" />
 </div> 
 
-## Connect to Tella Web {#connect-to-tella-web}
+## Connect to Tella Web
 Tella Web is an open-source tool that enables individuals and organizations to centralize and manage reports sent by Tella users, including photos, videos, and audio files. 
 
 Read more about Tella Web [here](/tella-web) or watch a [video tutorial](/video-tutorials#tella-web).
 
 
 
-## Go Further {#go-further}
+## Go Further
 
-### Read more about Tella {#read-more-about-tella}
+### Read more about Tella
 
 
 * [Features and security](/security-and-privacy): Learn more about how Tella can keep you safe and the threats that Tella does _not_ protect you from.
 * [Privacy policy](/privacy): We only collect the minimum amount of data necessary and never collect any personally identifiable information.
 
 
-### Contact us if you need help {#contact-us-if-you-need-help}
+### Contact us if you need help
 
 If you need help to understand Tella’s technical details and security considerations to decide if it’s right for you and your team, we are here to help. Just reach out via email at [contact@tella-app.org](mailto:contact@tella-app.org) so we can answer your questions or plan to host a training or a live Q&A session for your team.
 
