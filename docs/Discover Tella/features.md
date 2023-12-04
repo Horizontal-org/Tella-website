@@ -181,15 +181,17 @@ A Quick Delete button allows users, in just a few seconds, to delete sensitive d
 * Delete vault: Deletes all files stored in Tella 🗑️
 * Delete draft and submitted forms: Deletes drafts and submitted forms in all Open Data Kit (ODK) connected servers 📝
 * Delete server settings: Deletes all server connections and all the forms or templates associated with them 📋
-* Delete Tella: Deletes the app and all the data it contains. It triggers a message asking if the user wants to uninstall Tella as well ❌
+* Delete Tella: Deletes the app and all the data it contains. It triggers a message asking if the user wants to uninstall Tella as well ❌. 
 
 :::info Delete Tella
-The Delete Tella option might not be available on some phones due to technical details. We are working on a fix for this issue. 
+The Delete Tella option might not be available on some Android phones due to technical limitations. We are working on a fix for this issue. For iOS it is not possible to programmatically delete an app. 
 :::
 
 ## Quick exit
 
-By clicking the exit button on Tella’s home screen right top corner, users can quickly close and lock the app in case of emergency. While having the lock timeout set to “immediately” means that the app already locks when the user exits, using the Quick Exit button adds an extra layer of security and assurance that the app will be fully closed and locked 🔒
+By clicking the exit button on Tella’s home screen right top corner, Android users can quickly close and lock the app in case of emergency. While having the lock timeout set to “immediately” means that the app already locks when the user exits, using the Quick Exit button adds an extra layer of security and assurance that the app will be fully closed and locked 🔒
+
+On the iOS platform it is not possible to close the existing app programatically. Tapping ont he quick exit button will only lock Tella.
 
 
 ## Verification mode
