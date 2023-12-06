@@ -126,6 +126,13 @@ In Tella, users can:
 Importing files from the device file system into Tella makes a copy of the files into Tella. Tella will ask if you want to keep or delete the original file from your phone when importing. If you choose to keep the original file, they will be present on the device, outside of Tella and unencrypted.  🔒
 :::
 
+## Feedback
+
+There are several options for Tella users to [contact the Tella team](/contact-us) in order to suggest improvements, report bugs and issues and request support. On  **Settings** > **About and Help** > **Contac us** users can find our contact information whitin the app.
+
+We also provide a private in-app form for users to share feedback with the Tella team anonymously. On **Settings** > **Feedback** users can opt-in to enable Anonymous Feedback Sharing. Only the 
+
+
 ## Import files from device 
 
 The user can import files into Tella to keep them secured by using the import feature. They can import files by going to the **Add ( + )** button on either All files, Images, Video, Audio or Documents depending on the type of file they wish to import and then **Import from device** 📥. A prompt will appear asking the user if they would like to keep or delete the original file from their phone memory. The imported files will be kept secured at Tella.
