@@ -6,13 +6,13 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2c6c97;
-  --ifm-color-primary-dark: #286188;
-  --ifm-color-primary-darker: #255c80;
-  --ifm-color-primary-darkest: #1f4c6a;
-  --ifm-color-primary-light: #3077a6;
-  --ifm-color-primary-lighter: #337cae;
-  --ifm-color-primary-lightest: #398cc4;
+  --ifm-color-primary: #443990;
+  --ifm-color-primary-dark: #3d3382;
+  --ifm-color-primary-darker: #3a307a;
+  --ifm-color-primary-darkest: #302865;
+  --ifm-color-primary-light: #4b3f9e;
+  --ifm-color-primary-lighter: #4e42a6;
+  --ifm-color-primary-lightest: #5a4db8;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
@@ -150,7 +150,7 @@ main {
 
 .section {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     line-height: 1.7;
     display: flex;
     flex-direction: column;
@@ -177,8 +177,7 @@ main {
 
 h2 {
     text-align: center;
-    margin-bottom: 1em;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 h3 {
@@ -335,7 +334,9 @@ nav {
 
 
 .home-illustrations {
-  height: 200px !important;
+    height: 166px !important;
+    width: 166px !important;
+    max-width: none;
 }
 
 
