@@ -191,8 +191,7 @@ The Delete Tella option might not be available on some Android phones due to tec
 
 By clicking the exit button on Tella’s home screen right top corner, Android users can quickly close and lock the app in case of emergency. While having the lock timeout set to “immediately” means that the app already locks when the user exits, using the Quick Exit button adds an extra layer of security and assurance that the app will be fully closed and locked 🔒
 
-On the iOS platform it is not possible to close the existing app programatically. Tapping ont he quick exit button will only lock Tella.
-
+On iOS, it is not possible to shut down an app from inside the app itself. Tapping the quick exit button instead locks the app.
 
 ## Verification mode
 
