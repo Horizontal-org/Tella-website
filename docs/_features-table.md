@@ -18,7 +18,7 @@
 | [Audio Recorder](/features#audio-recorder)| ✔️ | ✔️ | ✔️ |
 | [Open files in Tella](/features#open-files-in-tella)| Photos, videos, audio | Photos, videos, audio, PDF | Photos, videos, audio |
 | [Verification mode](/features#verification-mode)| ✔️ | Not yet | ✔️ |
-| [Quick delete](/features#quick-delete)| ✔️ | Yes but only files and connections  | ✔️ |
-| [Quick exit](/features#quick-exit)| ✔️ | Only lock (not close) | ✔️ |
+| [Quick delete](/features#quick-delete)| ✔️ | Deletes files and connections  | ✔️ |
+| [Quick exit](/features#quick-exit)| Locks and shuts down | Locks Tella | ✔️ |
 | [Connections to collect data and send files](/features#connecting-to-servers) | - Tella Web <br />- Uwazi <br />- Open Data Kit (Forms) | - Tella Web  | - Uwazi <br />- Open Data Kit (Forms)  |
 | [Offline data collection](/features#offline-data-collection) | ✔️ | ✔️ |  ✔️ |
