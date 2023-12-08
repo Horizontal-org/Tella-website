@@ -130,7 +130,15 @@ Importing files from the device file system into Tella makes a copy of the files
 
 There are several options for Tella users to [contact the Tella team](/contact-us) in order to suggest improvements, report bugs and issues and request support. On  **Settings** > **About and Help** > **Contac us** users can find our contact information whitin the app.
 
-We also provide a private in-app form for users to share feedback with the Tella team anonymously. On **Settings** > **Feedback** users can opt-in to enable Anonymous Feedback Sharing. Only the 
+We also provide a private in-app box for users to share feedback with the Tella team anonymously. On **Settings** > **Feedback** users can opt-in to enable Anonymous Feedback Sharing. If enabled, Tella will send the content of the Feedback box and the platform (Android or iOS) to a mircroservice hosted by the Tella team through and HTTP request. Because of the nature of the HTTP protocol, this server will receive this information about the user: 
+- IP adress(from whitch location might be inferred).
+- date and time.
+- XXXX (please help me complete this!).
+The Tella Feedback microservices delete all logs and user-received data mentioned above once every day and do not share this information with anyone. This microservices sends and email from a general user-feedback account to the contact@tella-app.org 
+
+:::info 
+The only information that Tella will share with us is what users specifially add on the feedback box. If users are requesting support or need us to follow up with them, they should provide a secure way for us to contact us.
+:::
 
 
 ## Import files from device 

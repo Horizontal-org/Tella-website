@@ -14,19 +14,14 @@ To receive monthly updates on new features and improvements to Tella and stay up
 
 ## Tella - Latest Versions 
 
-### Android: Tella 2.4.0 (164) - released on November 2, 2023
-- Accesibility Improvements: Users can navigate sequentially through content, and all validation errors and messages to users are announced by screen readers.
-- Edit media: Users can crop and rotate images whithin Tella's encrypted container. [Read more.](/features#edit-media)
-- Bug fixes: Fixed % bug on Calculator Camouflage, crashes and navigation issues.
-- Technical Improvements: We refactored Tella's architecture and unified the code's programming language to Kotlin, we added documentation and unit testing to the code base to improve the app sustainability and simplify maintenance.
 
-Tella 2.4.0 hides the Delete Tella option on the Quick Delete settings for phones that do not support it. We will be working on a fix for this issue on the next release.   
+### Android: Tella 2.4.1 (165) - released on December X, 2023
+- Fixed a bug that rested user settings when changing the language. 
   
 
-### iOS: Tella 1.3.0 (54) - released on Septemeber 18, 2023
-- Added the ability to erase all content in Tella after a custom number of unlocking attempts. We added a security setting that allows user to choose the  number of failed unlocking attempts and whether Tella shows a visual indicator of the remaining unlocking attempts or not.
-- Added the possibility to preserve metadata when importing files into Tella
-- Fixed a bug that prevented videos from being deleted from the device when imported into Tella. 
+### iOS: Tella 1.4.0 (57) - released on December X, 2023
+- Annonymous in-app [feedback method](/features#feedback) for users to send a message to the Tella team if they cannot [contact-us](/contact-us) using the other channels.
+- Technical improvements: added a local database on the phone to manage the file structure and folders. This is the long term fix for the [incident for hidden files on iOS](/incident-ios-files) we faced in May 2023.
 
 
 ### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - released on July 10, 2023
@@ -36,6 +31,20 @@ A version of Tella included for the first time on the F-droid store. This a 100%
 
 
 ## Previous versions
+
+### Android: Tella 2.4.0 (164) - released on November 2, 2023
+- Accesibility Improvements: Users can navigate sequentially through content, and all validation errors and messages to users are announced by screen readers.
+- Edit media: Users can crop and rotate images whithin Tella's encrypted container. [Read more.](/features#edit-media)
+- Bug fixes: Fixed % bug on Calculator Camouflage, crashes and navigation issues.
+- Technical Improvements: We refactored Tella's architecture and unified the code's programming language to Kotlin, we added documentation and unit testing to the code base to improve the app sustainability and simplify maintenance.
+
+Tella 2.4.0 hides the Delete Tella option on the Quick Delete settings for phones that do not support it. We will be working on a fix for this issue on the next release. 
+
+### iOS: Tella 1.3.0 (54) - released on Septemeber 18, 2023
+- Added the ability to erase all content in Tella after a custom number of unlocking attempts. We added a security setting that allows user to choose the  number of failed unlocking attempts and whether Tella shows a visual indicator of the remaining unlocking attempts or not.
+- Added the possibility to preserve metadata when importing files into Tella
+- Fixed a bug that prevented videos from being deleted from the device when imported into Tella. 
+
 
 ### Android: Tella 2.3.0 (158) - released on September 20, 2023
 - Added the ability to erase all content in Tella after a custom number of unlocking attempts. We added a security setting that allows user to choose the  number of failed unlocking attempts and whether Tella shows a visual indicator of the remaining unlocking attempts or not.
