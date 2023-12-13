@@ -130,13 +130,20 @@ Importing files from the device file system into Tella makes a copy of the files
 
 There are several options for Tella users to [contact the Tella team](/contact-us) in order to suggest improvements, report bugs and issues and request support. Inside Tella there are 2 alternatives: 
 
-1. In  **Settings** > **About and Help** > **Contact us** users can find our email address and email us using their preferred app.
+1. **Email:**
+   - Navigate to **Settings** > **About and Help** > **Contact us** to find the email address.
+   - Users can email the Tella team using their preferred email app.
 
-2. In **Settings** > **Feedback**, users can enable an in-app feedback form to share feedback with the Tella team *anonymously*. When enabled, users can send messages to the Tella team as often as their wish. 
+2. **In-App Feedback Form:**
+   - Go to **Settings** > **Feedback** to enable an in-app feedback form.
+   - This allows users to share feedback with the Tella team anonymously.
+   - Users can send messages as frequently as they wish.
+ 
 
-To preserve user privacy and anonymity, the only data arrives to our Feedback server (besides the content of the feedback form) is the one required by the communication protocol we use (an HTTPS POST request). We delete logs that might contain information about the user (IP address, date and time, and user-agent) automatically once a week. 
+To ensure user privacy and anonymity, only essential data is transmitted to our Feedback server through HTTPS POST requests. Logs containing user information (IP address, date and time, and user-agent) are automatically deleted weekly.
 
-On the Feedback server database we keep a copy of the data that users provided on the feedback form and the plaftom they are using (Android or iOS). This database is secured with a password and there is no way to access it from outside the server.  
+On the Feedback server database, a copy of user-provided data and the platform used (Android or iOS) is securely stored. Access to this database is restricted with a password.
+
 
 :::info 
 The only information that we will receive is the content that users specifially add on the feedback form. If users are requesting support or want us to follow up with them, they should provide a secure way for us to contact them.

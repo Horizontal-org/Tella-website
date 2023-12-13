@@ -15,14 +15,26 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions 
 
 
-### Android: Tella 2.5.0 (X) - released on December X, 2023
-- Accesibility improvements: new settings for enable/disable text justification and line spacing within the app. Updated colors to ensure Tella has sufficient contrast, following WCAG AAA guidelines.
-- Annonymous in-app [feedback method](/features#feedback) for users to send a message to the Tella team if they cannot [contact-us](/contact-us) using the other channels.
-- General bugfixing including fixing a crash on the audio recorder and navigation issues for the back button.
+### Android: Tella 2.5.0 (X) - Released on December X, 2023
+- **Accessibility Improvements:**
+  - Added new settings to enable/disable text justification and adjust line spacing within the app.
+  - Updated colors to ensure Tella complies with WCAG AAA guidelines for sufficient contrast.
+
+- **Anonymous In-App Feedback:**
+  - Introduced an anonymous [feedback method](/features#feedback) for users. This feature allows users to send messages to the Tella team when they are unable to [contact us](/contact-us) through other channels.
+
+- **General Bugfixes:**
+  - Addressed a crash issue on the audio recorder.
+  - Resolved navigation issues related to the back button.
+
 
 ### iOS: Tella 1.4.0 (57) - released on December X, 2023
-- Annonymous in-app [feedback method](/features#feedback) for users to send a message to the Tella team if they cannot [contact-us](/contact-us) using the other channels.
-- Technical improvements: added a local database on the phone to manage the file structure and folders. This is the long term fix for the [incident for hidden files on iOS](/incident-ios-files) we faced in May 2023.
+- **Anonymous In-App Feedback:**
+  - Introduced an anonymous [feedback method](/features#feedback) for users. This feature allows users to send messages to the Tella team when they are unable to [contact us](/contact-us) through other channels.
+
+- **Technical Improvements:**
+  - Added a local database on the phone to manage the file structure and folders. This update serves as a long-term solution to the [incident involving hidden files on iOS](/incident-ios-files) that occurred in May 2023.
+
 
 
 ### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - released on July 10, 2023
