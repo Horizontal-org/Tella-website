@@ -137,7 +137,6 @@ There are several options for Tella users to [contact the Tella team](/contact-u
 2. **In-App Feedback Form:**
    - Go to **Settings** > **Feedback** to enable an in-app feedback form.
    - This allows users to share feedback with the Tella team anonymously.
-   - Users can send messages as frequently as they wish.
  
 
 To ensure user privacy and anonymity, only essential data is transmitted to our Feedback server through HTTPS POST requests. Logs containing user information (IP address, date and time, and user-agent) are automatically deleted weekly.
