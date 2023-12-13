@@ -9,7 +9,7 @@
 | [Edit Media](/features#edit-media)| Crop and Rotate Photos| Not yet| Not yet |
 | [Encryption](/features#encryption)| ✔️| ✔️| ✔️ |
 | [Encrypted file management](/features#file-management)| ✔️ | ✔️ | ✔️ |
-| [Feedback](/features#feedback) | Not yet | ✔️ | Not yet |
+| [Feedback](/features#feedback) | ✔️ | ✔️ | Not yet |
 | [Import files from device](/features#import-files-from-device)| ✔️ | ✔️ | Yes but missing delete original file |
 | [Preserve metadata when importing](/features#preserve-metadata-when-importing)| ✔️ | ✔️ | Not yet |
 | [Camouflage](/features#camouflage) | ✔️ | Not possible in iOS | ✔️ |
