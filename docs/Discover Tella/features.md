@@ -128,13 +128,15 @@ Importing files from the device file system into Tella makes a copy of the files
 
 ## Feedback
 
-There are several options for Tella users to [contact the Tella team](/contact-us) in order to suggest improvements, report bugs and issues and request support. 
+There are several options for Tella users to [contact the Tella team](/contact-us) in order to suggest improvements, report bugs and issues and request support. Inside Tella there are 2 alternatives: 
 
-1. Inside Tella, in  **Settings** > **About and Help** > **Contact us** users can find our email address and email us using their preferred email app.
+1. In  **Settings** > **About and Help** > **Contact us** users can find our email address and email us using their preferred app.
 
-2. Inside Tella, in **Settings** > **Feedback**, users can enable an in-app feedback form to share feedback with the Tella team *anonymously*. When enabled, users can send feedback to the Tella team as often as their wish. 
+2. In **Settings** > **Feedback**, users can enable an in-app feedback form to share feedback with the Tella team *anonymously*. When enabled, users can send messages to the Tella team as often as their wish. 
 
-To preserve user privacy and anonymity, we collect the smallest possible amount of data about the user (IP address, date and time the feedback was shared, and XXXXX). We delete this data from our servers every XXXX. 
+To preserve user privacy and anonymity, the only data arrives to our Feedback server (besides the content of the feedback form) is the one required by the communication protocol we use (an HTTPS POST request). We delete logs that might contain information about the user (IP address, date and time, and user-agent) automatically once a week. 
+
+On the Feedback server database we keep a copy of the data that users provided on the feedback form and the plaftom they are using (Android or iOS). This database is secured with a password and there is no way to access it from outside the server.  
 
 :::info 
 The only information that we will receive is the content that users specifially add on the feedback form. If users are requesting support or want us to follow up with them, they should provide a secure way for us to contact them.
