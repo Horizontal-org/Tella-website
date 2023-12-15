@@ -141,7 +141,7 @@ There are several options for Tella users to [contact the Tella team](/contact-u
 
 To ensure user privacy and anonymity, only essential data is transmitted to our Feedback server through HTTPS POST requests. Logs containing user information (IP address, date and time, and user-agent) are automatically deleted weekly.
 
-On the Feedback server database, a copy of user-provided data and the platform used (Android or iOS) is securely stored. Access to this database is restricted with a password.
+On the Feedback server database, we only store a copy of the text sent by users in the feedback form and which platform it came from (Android or iOS).
 
 
 :::info 
