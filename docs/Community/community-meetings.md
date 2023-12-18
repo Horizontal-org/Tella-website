@@ -7,7 +7,7 @@ slug: /community-meetings
 
 # Tella community meetings
 
-### What
+### What {#what}
 
 Each month, Horizontal hosts a community call with users, partners, or anyone interested in Tella. During these calls, we:
 
@@ -17,19 +17,19 @@ Each month, Horizontal hosts a community call with users, partners, or anyone in
 -   listen to feedback feature requests so we can incorporate them into our planning
 -   host guest speakers who share about their own use and experience with Tella and their learnings
 
-### When
+### When {#when}
 
 Community calls are held on the first Wednesday of each month at 3pm GMT.
 
 
 
-### Where
+### Where {#where}
 
 Our community calls take place on Jitsi, a privacy-friendly, open-source video calling platform.
 
 You can join the call using this link: <https://meet.jit.si/moderated/72928f9f16445dfc04dfbba14cb65fecd979f68cb053ddae3cc936192063471f>
 
-### Safety and privacy
+### Safety and privacy {#safety-and-privacy}
 
 :::warning Important
 To ensure the safety of all participants, anyone joining the Tella community calls agrees to abide by [Horizontal's Code of Conduct](https://horizontal-org.slite.com/app/docs/E33mV5cWaJhd8x/Horizontal-Code-of-Conduct). Please take some time to get familiar with it.

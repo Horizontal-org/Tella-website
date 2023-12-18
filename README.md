@@ -6,11 +6,11 @@ You can access Tella Docs here: https://tella-app.org/
 
 # About Tella
 
-## What's Tella - Document & protect
+## What's Tella - Document & protect {#whats-tella---document--protect}
 
 In challenging environments, with limited or no internet connectivity or in the face of repression, Tella makes it easier and safer to document human rights violations and collect data.
 
-## Why Tella
+## Why Tella {#why-tella}
 
 If you are an activist, journalist, human rights defender, or anyone who engages in documentation of injustice, you can use Tella to:
 
@@ -20,7 +20,7 @@ If you are an activist, journalist, human rights defender, or anyone who engages
 
 * Easily produce high quality documentation that can be used for research, advocacy, or transitional justice.
 
-## Get Tella
+## Get Tella {#get-tella}
 
 Tella is available for **Android** and can be downloaded directly [from the Google Play Store ](https://play.google.com/store/apps/details?id=org.hzontal.tella&gl=US) or [from this folder](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ), as an APK, to be installed manually. More guidance on our [FAQs](https://tella-app.org/faq#is-tella-available-on-android).
 Tella is also available **iOS** and can be downloaded [from the App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580).
@@ -35,15 +35,15 @@ Here are a few ways you can contribute to Tella:
 - **Bug reports and feature requests:** If you use Tella and find a bug, or if you have an idea for a new feature, you can let us [here](https://tella-app.org/contact-us).
 - **Translations:** Tella is available in many languages, but we're always looking for help translating the app into more languages. If you're fluent in a language other than English, we'd love your help! You can also contribute in translating this documentation. More guidance on how to do it [here](https://tella-app.org/translating-tella).
 
-## This repository
+## This repository {#this-repository}
 
-### Installation
+### Installation {#installation}
 
 ```
 $ yarn
 ```
 
-### Local Development
+### Local Development {#local-development}
 
 ```
 $ yarn start
@@ -51,7 +51,7 @@ $ yarn start
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-### Build
+### Build {#build}
 
 ```
 $ yarn build
