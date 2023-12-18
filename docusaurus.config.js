@@ -214,12 +214,6 @@ const config = {
       /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
       ({
         indexPages: true,
-        highlightSearchTermsOnTargetPage: true,
-        searchResultLimits: 12,
-        searchBarShortcutHint: false,
-        explicitSearchResultPath: true,
-        // `hashed` is recommended as long-term-cache of index file is possible.
-        hashed: false,
         // For Docs using Chinese, The `language` is recommended to set to:
         // ```
         // language: ["en", "zh"],
