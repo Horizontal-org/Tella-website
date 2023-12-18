@@ -215,7 +215,6 @@ const config = {
       ({
         indexPages: true,
         highlightSearchTermsOnTargetPage: true,
-        indexDocSidebarParentCategories: 4,
         searchResultLimits: 12,
         searchBarShortcutHint: false,
         // `hashed` is recommended as long-term-cache of index file is possible.
