@@ -15,7 +15,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions 
 
 
-### Android: Tella 2.5.0 (X) - Released on December X, 2023
+### Android: Tella 2.5.0 (168) - Released on January 10, 2024
 - **Accessibility Improvements:**
   - Added new settings to enable/disable text justification and adjust line spacing within the app.
   - Updated colors to ensure Tella complies with WCAG AAA guidelines for sufficient contrast.
@@ -28,7 +28,8 @@ To receive monthly updates on new features and improvements to Tella and stay up
   - Resolved navigation issues related to the back button.
 
 
-### iOS: Tella 1.4.0 (59) - released on January 10, 2024
+
+### iOS: Tella 1.4.0 (59) - released on January 9, 2024
 - **Anonymous In-App Feedback:**
   - Introduced an anonymous [feedback method](/features#feedback) for users. This feature allows users to send messages to the Tella team when they are unable to [contact us](/contact-us) through other channels.
 
