@@ -28,12 +28,15 @@ To receive monthly updates on new features and improvements to Tella and stay up
   - Resolved navigation issues related to the back button.
 
 
-### iOS: Tella 1.4.0 (57) - released on December X, 2023
+### iOS: Tella 1.4.0 (59) - released on January 10, 2024
 - **Anonymous In-App Feedback:**
   - Introduced an anonymous [feedback method](/features#feedback) for users. This feature allows users to send messages to the Tella team when they are unable to [contact us](/contact-us) through other channels.
 
 - **Technical Improvements:**
   - Added a local database on the phone to manage the file structure and folders. This update serves as a long-term solution to the [incident involving hidden files on iOS](/incident-ios-files) that occurred in May 2023.
+
+- **Bug fixes:** 
+  - Fixed issue with the lock timeout and some visual bugs.
 
 
 
