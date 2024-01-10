@@ -24,6 +24,7 @@ The severity of this incident is high because there is no way to restore the fil
 | May 25, 2023  | Published version 1.1.1, fixing the bug                                                               |
 | June 20, 2023 | Published version 1.1.2 with a restore functionality for affected users to be able to restore their lost files |
 | July 6, 2023  | Published this incident report                                                                       |
+| December X, 2023  | Published version 1.4.0, adding a local database for file management  |
 
 ## Root cause {#root-cause}
 

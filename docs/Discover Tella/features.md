@@ -126,6 +126,29 @@ In Tella, users can:
 Importing files from the device file system into Tella makes a copy of the files into Tella. Tella will ask if you want to keep or delete the original file from your phone when importing. If you choose to keep the original file, they will be present on the device, outside of Tella and unencrypted.  🔒
 :::
 
+## Feedback {#feedback}
+
+There are several options for Tella users to [contact the Tella team](/contact-us) in order to suggest improvements, report bugs and issues and request support. Inside Tella there are 2 alternatives: 
+
+1. **Email:**
+   - Navigate to **Settings** > **About and Help** > **Contact us** to find the email address.
+   - Users can email the Tella team using their preferred email app.
+
+2. **In-App Feedback Form:**
+   - Go to **Settings** > **Feedback** to enable an in-app feedback form.
+   - This allows users to share feedback with the Tella team anonymously.
+ 
+
+To ensure user privacy and anonymity, only essential data is transmitted to our Feedback server through HTTPS POST requests. Logs containing user information (IP address, date and time, and user-agent) are automatically deleted weekly.
+
+On the Feedback server database, we only store a copy of the text sent by users in the feedback form and which platform it came from (Android or iOS).
+
+
+:::info 
+The only information that we will receive is the content that users specifially add on the feedback form. If users are requesting support or want us to follow up with them, they should provide a secure way for us to contact them.
+:::
+
+
 ## Import files from device {#import-files-from-device}
 
 The user can import files into Tella to keep them secured by using the import feature. They can import files by going to the **Add ( + )** button on either All files, Images, Video, Audio or Documents depending on the type of file they wish to import and then **Import from device** 📥. A prompt will appear asking the user if they would like to keep or delete the original file from their phone memory. The imported files will be kept secured at Tella.
