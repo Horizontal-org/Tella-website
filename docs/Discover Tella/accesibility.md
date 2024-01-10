@@ -12,7 +12,7 @@ import TellaLanguages from '.././_tella-languages.md';
 Making Tella accessible is a top priority for us. When we say accessible, we mean that we do our best to ensure that disabled users and users with limited literacy or tech literacy can use Tella.
 
 
-### Language accessibility
+### Language accessibility {#language-accessibility}
 
 We work hard to make Tella available in languages spoken by communities who express the need for Tella. Unfortunately, we don't always have the capacity or resources to keep all translations up to date. If you wish to contribute to the translation of Tella, [join us here](https://app.lokalise.com/public/9394139661a3d89da6fa91.77098206/). If you want us to add a new language, [email us](mailto:contact@tella-app.org), and we'll do our best to add it. Currently Tella Android and iOS are available in:
 <TellaLanguages/>
@@ -21,7 +21,7 @@ We work hard to make Tella available in languages spoken by communities who expr
 
 
 
-### WCAG accessibility
+### WCAG accessibility {#wcag-accessibility}
 
 You can see here an [accessibility audit](https://drive.google.com/file/d/1iK8jpc14JAcAqJI2tbQeTRlp2W2n3vvx/view?usp=sharing) conducted on Tella Android in 2022. We are currently working on solving all the A Level accesibility bugs detected in Tella Android.
 

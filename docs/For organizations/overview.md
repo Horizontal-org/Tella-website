@@ -27,7 +27,7 @@ If you need support choosing the best deployment setup or would like to discuss 
 :::
 
 
-### Tella Web
+### Tella Web {#tella-web}
 
 Tella Web is an open-source tool that enables individuals and organizations to centralize and manage reports sent by Tella users, including photos, videos, and audio files. 
 
@@ -40,7 +40,7 @@ Tella Web integration works for both Android and iOS apps, but it's not availabl
 Learn more about Tella Web [here](/tella-web)
 
 
-### Uwazi
+### Uwazi {#uwazi}
 
 [Uwazi](https://uwazi.io/) is an open-source documentation tool developed by HURIDOCS. It is a flexible, web-based database application designed for human rights defenders to manage their collections of information, including documents, evidence, cases and complaints. 
 
@@ -58,7 +58,7 @@ For the moment, Uwazi server integration is [only available on Android](/feature
 :::
 
 
-### Open Data Kit (ODK)
+### Open Data Kit (ODK) {#open-data-kit-odk}
 
 The [Open Data Kit (ODK)](https://getodk.org/) is an open standard used to create custom forms and collect data. Because ODK is an open standard, Tella can be used with any of the tools that are ODK-compliant, like [Ona](https://ona.io/home/) or [KoboToolbox](https://www.kobotoolbox.org/), to create forms with custom questions, manage users, and aggregate the data submitted by users. We recommend using [KoboToolbox](https://www.kobotoolbox.org/) because it is open-source and is user-friendly. Kobotoolbox has a free, publicly available server [here](https://kf.kobotoolbox.org/) or it can be self-hosted. [Here you can read more about Kobotoolbox and the features we support](https://tella.slite.com/app/docs/r7vxebjDQ3TAWE).
 

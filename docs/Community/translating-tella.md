@@ -41,7 +41,7 @@ Please introduce yourself and ask any questions you may have after following the
 - Post a message or chat in the [Localization Lab Public Channel on Mattermost, hosted by the Internet Freedom Festival](https://community.internetfreedomfestival.org/community/channels/localization-lab-chat).
 - [Read the Lokalise quick start guide by Localization Lab](https://docs.google.com/document/d/1h3Fa9FbVAzHXKgS_H28LmycY3ujjCgQl-oOwVuIy2IA/edit) or read the [Lokalise documentation](https://docs.lokalise.com/en/)
 
-## Where can I interact with other contributors or make a request? 
+## Where can I interact with other contributors or make a request? {#where-can-i-interact-with-other-contributors-or-make-a-request}
 
 Join us on Tella's [Monthly community meetings](/community-meetings).
 
