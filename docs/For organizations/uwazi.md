@@ -64,6 +64,7 @@ In order to connect to an Uwazi server, users would need to:
     *  **Log In:**  if a username and password were provided by admins.
     *  **Public Access:**  if the server is configured to accept anonymous submissions.
 * Enter the 2FA code provided by admins, in case that the server is configured to require two-factor authentication.
+* Choose the **Language** you want your connection to use.
 
 :::info
 You can watch [this video](/video-tutorials#uwazi) on how to connect to an Uwazi server from the Tella.
