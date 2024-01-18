@@ -29,6 +29,19 @@ To receive monthly updates on new features and improvements to Tella and stay up
 
 
 
+### iOS: Tella 1.5.0 (X) - released on January X, 2024 {#ios-tella-150-C---released-on-january-X-2024}
+- **Uwazi server connection**: We added the possibility for users to connect to an Uwazi server to send the data they collect using Tella. We include Text, Date, Rich Text, Media and Select fields. 
+
+
+
+### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - released on July 10, 2023
+
+A version of Tella included for the first time on the F-droid store. This a 100% Free and Open-Source Software (FOSS) version of Tella Android. We removed all trackers, changed map and location provider and also changed the Camera library to CameraX, removed crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We removed completely all Google Play Services dependencies.
+
+
+
+## Previous versions {#previous-versions}
+
 ### iOS: Tella 1.4.0 (59) - released on January 9, 2024 {#ios-tella-140-59---released-on-january-9-2024}
 - **Anonymous In-App Feedback:**
   - Introduced an anonymous [feedback method](/features#feedback) for users. This feature allows users to send messages to the Tella team when they are unable to [contact us](/contact-us) through other channels.
@@ -40,15 +53,6 @@ To receive monthly updates on new features and improvements to Tella and stay up
   - Fixed issue with the lock timeout and some visual bugs.
   - Loaded new translations.
 
-
-
-### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - released on July 10, 2023
-
-A version of Tella included for the first time on the F-droid store. This a 100% Free and Open-Source Software (FOSS) version of Tella Android. We removed all trackers, changed map and location provider and also changed the Camera library to CameraX, removed crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We removed completely all Google Play Services dependencies.
-
-
-
-## Previous versions {#previous-versions}
 
 ### Android: Tella 2.4.1 (165) - released on December 12, 2023  {#android-tella-241-165---released-on-december-12-2023}
 - Fixed a bug that rested user settings when changing the language. 

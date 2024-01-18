@@ -46,16 +46,14 @@ Learn more about Tella Web [here](/tella-web)
 
 Organizations who use Uwazi as a database can connect Tella to one or more of their databases to upload data. All that is required to connect Tella to Uwazi is the Uwazi database URL, and a username and password. The Uwazi database should already have one or more templates configured, which can be downloaded into Tella. Once successfully downloaded, users can easily navigate between their templates to enter details for each new record, even when there is no internet connection. When the data entry is complete, it can be saved as a draft in the Tella app or immediately uploaded to the connected Uwazi database. This enables users who work offline to collect data and upload the information when it is convenient. 
 
-Uwazi does not have a user facing public instance, but you can try Uwazi functionality using the [Uwazi Demo server](https://demo.uwazi.io/). If you decide to use Uwazi and need help to deploy your instance, please contact us contact@tella-app.org. 
+Uwazi does not have a user facing public instance, but you can try Uwazi functionality using the [Uwazi Demo server](https://demo.uwazi.io/). If you are considering  to use Uwazi and need help to deploy your instance, you will find more information [here](/uwazi) or you can [contact us](contact-us) to help you decide. 
 
 Resources to learn more about Uwazi:
 * video demoing the Uwazi integration[here](/video-tutorials#uwazi).
+* [More information about Tella and Uwazi](/uwazi).
 * [blogpost from the Uwazi team](https://huridocs.org/2022/07/the-new-tella-app-lets-uwazi-users-document-violations-safely-and-while-offline/) about the integration.
-* [Uwazi](https://uwazi.io/) website and [support page](https://uwazi.io/en/page/9852italrtk/support).
+* Uwazi [website](https://uwazi.io/) and [documentation](https://uwazi.readthedocs.io/en/latest/).
 
-:::info 
-For the moment, Uwazi server integration is [only available on Android](/features). 
-:::
 
 
 ### Open Data Kit (ODK) {#open-data-kit-odk}

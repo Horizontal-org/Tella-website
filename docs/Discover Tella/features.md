@@ -264,7 +264,7 @@ Currently the servers that can be connected to Tella are:
 
 * [Tella Web](/tella-web)
 * [Open Data Kit (ODK)](/for-organizations#open-data-kit-odk)
-* [Uwazi](/for-organizations#uwazi)
+* [Uwazi](/uwazi)
 
 :::tip Video tutorial 🎥
 Learn more about [Connecting to Servers](/video-tutorials#server-connections) in our video tutorials. 
