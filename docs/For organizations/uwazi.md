@@ -51,7 +51,7 @@ If Tella users download a template that has properties that are not supported in
 |------|------|-----|-----| 
 | Primary and Supporting Documents | Yes | Yes | Yes |
 | Plain Text | Yes | Yes | Yes |
-| Numeric | Yes | No | Yes |
+| Numeric | Yes | Yes | Yes |
 | Single Select  | ? | Yes | ? | 
 | Multiple Select  | Yes | No | Yes | 
 | Relationship | Soon! | Soon! | Soon! |
