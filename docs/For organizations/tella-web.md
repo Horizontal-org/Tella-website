@@ -178,8 +178,9 @@ You can watch [this video](/video-tutorials#tella-web) on how to configure and u
 
 #### Connect to Tella Web Projects {#connect-to-tella-web-projects}
 
+In order to connect to a Tella Web server, users need to:
 
-* Navigate to Settings ⚙️ > Servers > Add a server
+* Navigate to **Settings ⚙️** > **Servers** > **+**
 * Select "Tella Web" from the list of available server types.
 * Enter the login information (generated and provided by admins)
     * Project URL of your organization’s Tella Web server
@@ -190,7 +191,7 @@ You can watch [this video](/video-tutorials#tella-web) on how to configure and u
 ####  Manage Tella Web Projects {#manage-tella-web-projects}
 
 
-* In Settings ⚙️ > Servers >  [Project name] > 3-dots you have the option to:
+* In **Settings ⚙️** > **Servers** >  **[Project name]** > 3-dots you have the option to:
     * Edit: Opens an "edit server" screen where you can view the project's name, URL, and your username.
     * Delete: Deletes the server's URL, user credentials, and removes it from the Settings menu. All draft and submitted reports stored in your Tella app will also be deleted. This won’t delete any data that’s already submitted to the server.
     * Enable or disable auto-report, auto-delete and background submission.
