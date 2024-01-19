@@ -79,6 +79,7 @@ After granting permissions, you’re ready to start collecting documentation. We
     <img src="/img/getting-started/android/folders-rename.gif" alt="gif that shows how to organize your info in Tella" title="organize files in Tella" />
 </div>
 
+**Rename files:** Another way to keep your data organized is to rename files to be more descriptive. By default files receive an auto-generated name. You can change it by clicking on the **three (3) dots** that are next to each filename and then tap **Rename**.
 
 
 
@@ -97,7 +98,7 @@ Read more about Camouflage [here](/features#camouflage).
 
 
 ## Share your information. {#share-your-information}
-To share information using Tella you can use the **Share** button. Just select the file or files you want to share, press Share and choose the app you want to share the files with. 
+To share information using Tella you can use the **Share** button. Just select the file or files you want to share, press **Share** and choose the app you want to share the files with. 
 
 Take into account that Tella will share the files unencrypted, so make sure to use disappearing messages (for example on WhatsApp or Signal) or delete the messages after the other person receives them.
 
@@ -109,40 +110,41 @@ Take into account that Tella will share the files unencrypted, so make sure to u
 
 ## Go Further {#go-further}
 ### Connect to a server {#connect-to-a-server}
-Tella can be connected to a variety of back-end services. This is used by organizations to allow their members or partners to submit data and files to a secure remote location. If you are considering connecting to a server and have doubts about what server to choose or how to connect to it [we are here to help](/contact-us).
+Tella can be connected to a variety of back-end services. This is used by organizations to allow their members or partners to submit data and files to a secure remote location. If you are considering connecting to a server and have doubts about what server to choose or how to connect to please look at [our documentation for organizations](/for-organizations) or [contact us](/contact-us), we are here to help!
 
 
 
-### Open Data Kit {#open-data-kit}
+#### Open Data Kit {#open-data-kit}
 
-The [Open Data Kit (ODK)](https://getodk.org/) is an open standard used to create custom forms and collect data. Because ODK is an open standard, Tella can be used with any of the tools that are ODK-compliant, like [Ona](https://ona.io/home/) or [KoboToolbox](https://www.kobotoolbox.org/), to create forms with custom questions, manage users, and aggregate the data submitted by users. We recommend using [KoboToolbox](https://www.kobotoolbox.org/) because it is open-source and is user-friendly. Kobotoolbox has a free, publicly available server [here](https://kf.kobotoolbox.org/) or it can be self-hosted. [Here you can read more about Kobotoolbox and the features we support](https://tella.slite.com/app/docs/r7vxebjDQ3TAWE).
+The [Open Data Kit (ODK)](https://getodk.org/) is an open standard used to create custom forms and collect data. Because ODK is an open standard, Tella can be used with any of the tools that are ODK-compliant, like [Ona](https://ona.io/home/) or [KoboToolbox](https://www.kobotoolbox.org/), to create forms with custom questions, manage users, and aggregate the data submitted by users. 
 
-If you are using Kobotoolbox, [first create an account here](https://kf.kobotoolbox.org/accounts/login/), and then create and deploy a Form. In Tella go to Settings > Servers > Add Server > Open Data Kit (ODK). Give your server a name and type kc.kobotoolbox.org as the server URL field.  Enter your username and password on the Advanced section in order to load your Forms.
+We wrote documentation about how to connect to an Open Data Kit server and we recommend you to read [this page](/for-organizations#open-data-kit-odk) to get started.
+
 
 <div class="gifs">
     <img src="/img/getting-started/android/kobo.gif" alt="gif that shows ODK connection" title="ODK connection" />
 </div>
 
-### Uwazi {#uwazi}
-[Uwazi](https://uwazi.io/) is an open-source app made by HURIDOCS with powerful features to collect, organize, and visualize human rights data. Uwazi must be installed on a server. Uwazi does not have a user facing public instance, but you can try Uwazi functionality using the [Uwazi Demo server](https://demo.uwazi.io/). If you decide to use Uwazi and need help to deploy your instance, please contact us contact@tella-app.org.
+#### Uwazi {#uwazi}
+[Uwazi](https://uwazi.io/) is an open-source app made by HURIDOCS with powerful features to collect, organize, and visualize human rights data.
+
+We wrote documentation about how to connect to an Open Data Kit server and we recommend you to read [this page](/uwazi) to get started.
 
 <div class="gifs">
     <img src="/img/getting-started/android/uwazi.gif" alt="gif that shows Uwazi connection" title="Uwazi connection" />
 </div>
 
-### Tella Web {#tella-web}
+#### Tella Web {#tella-web}
 Tella Web is an open-source tool that enables individuals and organizations to centralize and manage reports sent by Tella users, including photos, videos, and audio files. 
 
 Read more about Tella Web [here](/tella-web) or watch a [video tutorial](/video-tutorials#tella-web).
 
 
 
+### Read more about Tella {#read-more-about-tella}
+- [Features](/features): Learn more about how Tella can keep you safe and the threats that Tella does _not_ protect you from.
+- [Connections](/for-organizations): Learn about how you can connect to a server to collect data or backup files.
+- [Security and privacy](/security-and-privacy): We only collect the minimum amount of data necessary and never collect any personally identifiable information. Read the full privacy policy [here](/privacy).
 
-
-## Read more about Tella {#read-more-about-tella}
-- [Features and security](/security-and-privacy): Learn more about how Tella can keep you safe and the threats that Tella does not protect you from.
-- [Connections](/get-started-android#connect-to-a-server): Learn about how you can connect to a server to collect data or backup files.
-- [Privacy policy](/privacy): We only collect the minimum amount of data necessary and never collect any personally identifiable information. Read the full privacy policy here.
-
-### Contact us if you need help {#contact-us-if-you-need-help}
-If you need help to understand Tella’s technical details and security considerations to decide if it’s right for you and your team, we are here to help. Just reach out via email at contact@tella-app.org so we can answer your questions or plan to host a training or a live Q&A session for your team.
+#### Contact us if you need help {#contact-us-if-you-need-help}
+If you need help to understand Tella’s technical details and security considerations to decide if it’s right for you and your team, we are here to help. Just [reach out to us](/contact-us) so we can answer your questions or plan to host a training or a live Q&A session for your team.
