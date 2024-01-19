@@ -14,7 +14,7 @@ You have several options to download Tella:
 - Download it from the [F-droid store](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
 - Download and install it manually as an .apk file [in this folder](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ) or from our Telegram channel: https://t.me/tellaapp. 
 
-If you need help to install the app manually, you can [follow this guide](/video-tutorials#manual-installation-of-tella) or contact us at contact@tella-app.org.
+If you need help to install the app manually, you can [follow this guide](/video-tutorials#manual-installation-of-tella) or [contact us](/contact-us).
 
 <div class="gifs">
     <img src="/img/getting-started/android/find-tella.gif" alt="gif that shows how to download Tella from the Play Store" title="find and download gif" />
@@ -65,7 +65,7 @@ After granting permissions, you’re ready to start collecting documentation. We
 
 
 
-**Import your files to Tella.** Go to any of the folders inside Tella and tap the + Button > Import from device. Choose the file you’d like to keep inside Tella and a copy of the file will be stored encrypted and hidden on Tella. You will be asked to  chose if you want to delete or keep the original file from your device. Tella will be unlocked while you choose your files for a maximum of three (3) minutes.
+**Import your files to Tella.** Go to any of the folders inside Tella and tap the **+** Button > **Import from device**. Choose the file you’d like to keep inside Tella and a copy of the file will be stored encrypted and hidden on Tella. You will be asked to  chose if you want to delete or keep the original file from your device. Tella will be unlocked while you choose your files for a maximum of three (3) minutes.
 
 <div class="gifs">
     <img src="/img/getting-started/android/import.gif" alt="gif that shows how to import files in Tella" title="import files in Tella" />
@@ -73,7 +73,7 @@ After granting permissions, you’re ready to start collecting documentation. We
 
 
 
-**Create folders.** To make it easier to find your files, you can organize files into folders. Go to All files > + Button > Create a new folder and type a descriptive name for the folder. Then use the Select multiple button at the top of the screen, choose the files you want to move to the new folder, then click the three (3) dots button and Move to a different folder, navigate the file structure to find the folder and then press Move here. 
+**Create folders.** To make it easier to find your files, you can organize files into folders. Go to **All files** > **+** > **Create a new folder** and type a descriptive name for the folder. Then use the Select multiple button at the top of the screen, choose the files you want to move to the new folder, then click the three (3) dots button and Move to a different folder, navigate the file structure to find the folder and then press Move here. 
 
 <div class="gifs">
     <img src="/img/getting-started/android/folders-rename.gif" alt="gif that shows how to organize your info in Tella" title="organize files in Tella" />
@@ -86,7 +86,8 @@ After granting permissions, you’re ready to start collecting documentation. We
 ## Camouflage Tella {#camouflage-tella}
 It is possible to camouflage Tella to hide it on your device in two ways:
 - You can change the name and icon of the app, to make it look like another app (like a game or weather app). There are 28 names and icons available to hide Tella.
-- You can hide Tella behind a fully functional calculator. We developed 4 different themes to match your phone's default and help hiding Tella. In order to open Tella, the user must input their PIN into the calculator followed by =. The Calculator camouflage is only possible if the user uses a PIN lock. It is not possible to camouflage Tella as a Calculator if pattern or password is used.
+- You can hide Tella behind a fully functional calculator. We developed 4 different themes to match your phone's default and help hiding Tella. In order to open Tella, the user must input their PIN into the calculator followed by **=**. The Calculator camouflage is only possible if the user uses a PIN lock. It is not possible to camouflage Tella as a Calculator if pattern or password is used.
+Read more about Camouflage [here](/features#camouflage).
 
 <div class="gifs">
     <img src="/img/getting-started/android/camouflage-icon.gif" alt="gif that shows how camouflage Tella by changing its name and icon" title="camouflage Tella changing its icon" />
@@ -96,7 +97,7 @@ It is possible to camouflage Tella to hide it on your device in two ways:
 
 
 ## Share your information. {#share-your-information}
-To share information using Tella you can use the Share button. Just select the file or files you want to share, press Share and choose the app you want to share the files with. 
+To share information using Tella you can use the **Share** button. Just select the file or files you want to share, press Share and choose the app you want to share the files with. 
 
 Take into account that Tella will share the files unencrypted, so make sure to use disappearing messages (for example on WhatsApp or Signal) or delete the messages after the other person receives them.
 
@@ -108,7 +109,7 @@ Take into account that Tella will share the files unencrypted, so make sure to u
 
 ## Go Further {#go-further}
 ### Connect to a server {#connect-to-a-server}
-Tella can be connected to a variety of back-end services. This is used by organizations to allow their members or partners to submit data and files to a secure remote location. If you are considering connecting to a server and have doubts about what server to choose or how to connect to it we are here to help: please write to contact@tella-app.org.
+Tella can be connected to a variety of back-end services. This is used by organizations to allow their members or partners to submit data and files to a secure remote location. If you are considering connecting to a server and have doubts about what server to choose or how to connect to it [we are here to help](/contact-us).
 
 
 
