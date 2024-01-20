@@ -286,3 +286,9 @@ Once background submission is enabled, you can initiate the report submission pr
 During background submission, Tella extends the lock timeout to be able to transmit your data to Tella Web. To manually stop a background submission, tap the "Quick Exit" button on the Tella app's home screen.
 
 If the submission is disrupted due to a weak internet connection or other factors, Tella will send the report to the Outbox tab and automatically restart the upload as soon as the phone regain an stable internet connection. 
+
+## Tella Web privacy{#tella-web-privacy}
+Tella Web is a self-hosted application. As such, it can be configured to minimize the data about users that can pose a risk to the users or the organization if the server is compromised. 
+
+By default, user IPs and user-agent are stored in nginx logs. These can be deleted or disabled in nginx configurion.
+To identify and block suspicious login attempts, Tella Web relies on [IPinfo.io](https://ipinfo.io/) to determine the location of users when they attempt to log in. This means that user IPs are momentarily shared with this service. If this is a risk to your organization's privacy, we are working on adding an option to disable this feature.
