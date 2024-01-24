@@ -245,8 +245,8 @@ Deleting a report in the middle of submission will cancel the upload of the file
 
 The Outbox contains reports that have been saved for submission. This could be:
 
-* Paused reports
-* Reports whose upload has been interrupted due to connectivity issues.
+* Report submissions that were manually paused by the user.
+* Reports which the upload has been interrupted due to connectivity issues.
 
 
 #### Submitted Reports {#submitted-reports}
