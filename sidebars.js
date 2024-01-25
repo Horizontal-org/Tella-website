@@ -35,7 +35,7 @@ generalSidebar: [
       type: 'category',
       label: 'For organizations',
       link: {type: 'generated-index'},
-      items: ['For organizations/overview', 'For organizations/tella-web'],
+      items: ['For organizations/overview', 'For organizations/tella-web', 'For organizations/odk'],
     },
     {'Community': ['Community/community-meetings', 'Community/open-source', 'Community/translating-tella']},
     'faq',
