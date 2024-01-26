@@ -51,10 +51,10 @@ If Tella users download a template that has properties that are not supported in
 |------|------|-----|-----| 
 | Primary and Supporting Documents | ✔️ | ✔️ | ✔️ |
 | Plain Text | ✔️ | ✔️ | ✔️ |
-| Numeric | ✔️ | No | ✔️ |
+| Numeric | ✔️ | ✔️ | ✔️ |
 | Single Select  | ✔️ | ✔️ | ✔️ | 
 | Multiple Select  | ✔️ | No | ✔️ | 
-| Relationship | Soon! | Soon! | Soon! |
+| Relationship | No | No | No |
 | Single Date | ✔️ | ✔️ | ✔️ |
 | Multiple Date | ✔️ | No | ✔️ |
 | External Link | ✔️ | No | ✔️ |

@@ -14,7 +14,8 @@ Making Tella accessible is a top priority for us. When we say accessible, we mea
 
 ### Language accessibility {#language-accessibility}
 
-We work hard to make Tella available in languages spoken by communities who express the need for Tella. Unfortunately, we don't always have the capacity or resources to keep all translations up to date. If you wish to contribute to the translation of Tella, [join us here](https://app.lokalise.com/public/9394139661a3d89da6fa91.77098206/). If you want us to add a new language, [email us](mailto:contact@tella-app.org), and we'll do our best to add it. Currently Tella Android and iOS are available in:
+We work hard to make Tella available in languages spoken by communities who express the need for Tella. Unfortunately, we don't always have the capacity or resources to keep all translations up to date. If you wish to contribute to the translation of Tella, [join us here](/translating-tella). If you want us to add a new language, [contact us](/contact-us), and we'll do our best to add it. Currently Tella Android and iOS are available in:
+
 <TellaLanguages/>
 
 [Video Tutorials](/video-tutorials) have subtitles in Spanish, Arabic, Swahili and French.
@@ -23,5 +24,13 @@ We work hard to make Tella available in languages spoken by communities who expr
 
 ### WCAG accessibility {#wcag-accessibility}
 
-You can see here an [accessibility audit](https://drive.google.com/file/d/1iK8jpc14JAcAqJI2tbQeTRlp2W2n3vvx/view?usp=sharing) conducted on Tella Android in 2022. We are currently working on solving all the A Level accesibility bugs detected in Tella Android.
+On this table you can access our latest accesibility reports by platform. 
+
+| **Platform** | **Date**| **Link** | 
+| Tella Android | November 2023| [Link](https://docs.google.com/document/d/1QtcWrSNvVtskUf5zNmOlgH0ue_O2ksdi/edit?usp=drive_link&ouid=112797073966673154794&rtpof=true&sd=true) | 
+| Tella iOS | November 2023| [Link](https://docs.google.com/document/d/1-_dx-Ut98FpiasqgW98gxoFbwVx01R39/edit) | 
+
+We are currently working on solving all the A Level accesibility bugs detected in Tella Android.
+
+
 

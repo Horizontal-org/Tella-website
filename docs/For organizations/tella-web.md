@@ -110,7 +110,11 @@ Once confirmed, the project and all its associated reports will be permanently d
 
 #### Configure the project URL {#configure-the-project-url}
 
-The project URL is automatically generated when the project is created. To edit the project URL, go to the "General" section in the "Project settings" screen and modify it accordingly. This URL is the one that reporters will use to connect to the project from their apps.
+The project URL is automatically generated when the project is created. To edit the project URL, go to the "General" section in the "Project settings" screen and modify it accordingly. This URL is the one that reporters will use to connect to the project from their apps. 
+
+:::info
+The URL that you'll need to send to the users should look like this `https://your.server.name/p/your-project-name`
+:::
 
 
 ### Managing Users {#managing-users}
@@ -194,7 +198,7 @@ In order to connect to a Tella Web server, users need to:
 * Navigate to **Settings ⚙️** > **Servers** > **+**
 * Select "Tella Web" from the list of available server types.
 * Enter the login information (generated and provided by admins)
-    * Project URL of your organization’s Tella Web server
+    * Project URL of your organization’s Tella Web server. The URL should look like this `https://your.server.name/p/your-project-name`
     * Your Username and Password
 * Enable or disable advance features based on your use-case: [auto-report](#auto-report), [auto-delete](#auto-delete) and [background submission](#background-submission).
 
@@ -245,7 +249,7 @@ In order to connect to a Tella Web server, users need to:
 * Exiting a report doesn’t affect the upload status. If the report is actively uploading, the process continues. 
 
 :::info
-Once something has been uploaded to Tella Web there is no way to delete a report on the server from the app. Deleting a submitted report will only delete the local version of it, not the information on the server. \
+Once something has been uploaded to Tella Web there is no way to delete a report on the server from the app. Deleting a submitted report will only delete the local version of it, not the information on the server. 
 :::
 
 :::info
