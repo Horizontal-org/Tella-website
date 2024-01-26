@@ -9,7 +9,7 @@ slug: /for-organizations
 
 In addition to keeping the data protected within the app, users can also connect to a server to securely back up their data. This is typically  a server managed by organizations, where they can centralize the data collected by volunteers or activists on the ground. These individuals gather information using Tella on their phones and then send it to their organizations.
 
-Previous Tella deployments, where on-the-ground users collected data and sent it to an organization's server, have ranged from 1 to 2,000 users. 📲 📡. You can read user stories here, or you can contact us so that we can assist you in finding the best way to use Tella for your organization.
+Previous Tella deployments, where on-the-ground users collected data and sent it to an organization's server, have ranged from 1 to 2,000 users. 📲 📡. You can read user stories [here](/user-stories), or you can contact us so that we can assist you in finding the best way to use Tella for your organization.
 
 Currently, Tella can be connected to the following servers:
 
@@ -20,11 +20,29 @@ Currently, Tella can be connected to the following servers:
 These are called [Connections](/features#connecting-to-servers) in Tella.
 
 
+## How to choose {#how-to-choose}
+
+In here we offer a very basic (non comprehensive) decision making graph:
+
+```mermaid
+graph TD;
+    id1(What data would user send to the server?) --> id2("Structured data (forms) with Media attachments");
+    id1 --> id3("Just the media they collect in Tella") ;
+    id2 --> id4("What features do you need in your forms?");
+    id3 --> id5("Tella Web");
+    id4 --> id6("Questions with different types (text, geo, date, etc)")
+    id4 --> id7("Questions with different types (text, geo, date, etc) AND logic")
+    id6 --> id8("Uwazi")
+    id7 --> id9("Open Data Kit (ODK)")
+```
+
 You can watch a video discussing which server connection could work best for each scenario [here](/video-tutorials#connections-full-video).
 
 :::info
 If you need support choosing the best deployment setup or would like to discuss the possibility of integrating another server, [contact us!](/contact-us)
 :::
+
+
 
 
 ### Tella Web {#tella-web}
@@ -33,7 +51,7 @@ Tella Web is an open-source tool that enables individuals and organizations to c
 
 It is not the web equivalent of the mobile app; rather, it is a tool specifically designed for centralizing and managing reports sent through Tella in the simplest way possible. With Tella Web, you can create projects, which function like folders where Tella users can submit reports. For instance, you can create projects for specific geographic areas or themes such as police violence, gender-based violence, and environmental abuse. On Tella Web, you can also manage users who have the ability to upload reports to each project, assign different roles, and set permissions.
 
-Tella Web is developed internally by our team at Horizontal, the same team responsible for developing Tella's mobile apps. It is a user-friendly solution for managing reports in a safe and private manner. We can provide support for the installation and configuration of a Tella Web serverif you don't have someone within your organization who can maintain the server.
+Tella Web is developed internally by our team at Horizontal, the same team responsible for developing Tella's mobile apps. It is a user-friendly solution for managing reports in a safe and private manner. We can provide support for the installation and configuration of a Tella Web server if you don't have someone within your organization who can maintain it.
 
 The Tella Web integration is available on Tella Android and Tella iOS, but not yet on [Tella-FOSS](/faq#is-tella-available-on-f-droid). 
 

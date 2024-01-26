@@ -7,7 +7,18 @@ slug: /tella-web
 
 # Tella Web 
 
-Tella’s Reports feature empowers users to conveniently upload photos, videos, and audio recordings to their organization's Tella Web server. Its primary objective is to enhance the security of files collected on Tella by offering a simple method to back them up on a remote server. By having a copy of their files stored on the server, organizations ensure the preservation of important information even in the event of device seizure or destruction, and can organize it to use for research, advocacy, or accountability processes. For users on the ground, backing up their data to Tella Web means that they can delete the information from their phone and avoid potential repression.
+Tella Web is an open-source tool that enables individuals and organizations to centralize and manage reports sent by Tella users, including photos, videos, and audio files. 
+
+Tella Web is developed internally by our team at Horizontal, the same team responsible for developing Tella's mobile apps. It is a user-friendly solution for managing reports in a safe and private manner. We can provide support for the installation and configuration of a Tella Web server if you don't have someone within your organization who can maintain it.
+
+Similarly to all other server connections([Uwazi](/uwazi) and [Open Data Kit](/odk), connecting to Tella Web enhances the security of data collected on Tella by:
+1. Allowing users to collect data directly inside Tella's encrypted container.
+2. Ensuring that data is sent directly from Tella to Uwazi, without having to rely on a third-party tool or app.
+3. Allowing users to back up their data on a remote server, to lower the risk that data is discovered on their mobile device.
+4. Ensuring that organizations can preserve important information even in the event of device seizure or destruction, and can organize it to use for research, advocacy, or accountability processes.
+
+Tella Web is is a great alternative if you don't need structured data collection (like forms).
+
 Implementing Tella Web involves three essential steps, which are thoroughly discussed in this section:
 
 

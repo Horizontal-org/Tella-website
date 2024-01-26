@@ -11,7 +11,7 @@ slug: /uwazi
 
 Uwazi allows organizations to aggregate, in a central repository, data collected by their members or partners. Tella users connect to their organization's Uwazi instance, download forms (called Templates), fill templates as many times as they need (even if they don't have internet connectivity), and upload the data. Organizations can then curate, organize, and publish their data directly from Uwazi. 
 
-Similarly to Tella Web, connecting to Uwazi enhances the security of data collected on Tella by:
+Similarly to all other server connections([Tella Web](/tella-web) and [Open Data Kit](/odk), connecting to Uwazi enhances the security of data collected on Tella by:
 1. Allowing users to collect data directly inside Tella's encrypted container
 2. Ensuring that data is sent directly from Tella to Uwazi, without having to rely on a third-party tool or app
 3. Allowing users to back up their data on a remote server, to lower the risk that data is discovered on their mobile device
@@ -49,20 +49,20 @@ If Tella users download a template that has properties that are not supported in
 
 | **Property or Feature** | **Tella Android**| **Tella iOS** | **Tella Android FOSS** |
 |------|------|-----|-----| 
-| Primary and Supporting Documents | Yes | Yes | Yes |
-| Plain Text | Yes | Yes | Yes |
-| Numeric | Yes | No | Yes |
-| Single Select  | ? | Yes | ? | 
-| Multiple Select  | Yes | No | Yes | 
+| Primary and Supporting Documents | ✔️ | ✔️ | ✔️ |
+| Plain Text | ✔️ | ✔️ | ✔️ |
+| Numeric | ✔️ | No | ✔️ |
+| Single Select  | ✔️ | ✔️ | ✔️ | 
+| Multiple Select  | ✔️ | No | ✔️ | 
 | Relationship | Soon! | Soon! | Soon! |
-| Single Date | Yes| Yes | Yes |
-| Multiple Date | ?| No | ? |
-| External Link | Yes| No | Yes |
-| Rich Text | No?| Yes | No? |
-| Single and Multiple Date Range | No?| No | No? |
-| Attach Media (Image, Video, or Audio) | Yes| Yes | Yes |
-| Geolocation | Yes | No | Yes |
-| Generated ID  | No | No | No |
+| Single Date | ✔️ | ✔️ | ✔️ |
+| Multiple Date | ✔️ | No | ✔️ |
+| External Link | ✔️ | No | ✔️ |
+| Rich Text | ✔️ | ✔️ | ✔️ |
+| Single and Multiple Date Range | ✔️ | No | ✔️ |
+| Attach Media (Image, Video, or Audio) | ✔️| ✔️ | ✔️ |
+| Geolocation | ✔️ | No | ✔️ |
+| Generated ID  | ✔️ | No | ✔️ |
 
 
 ## Get People on the Ground Ready to Start Submitting Data {#get-people-on-the-ground-ready-to-start-submitting-data}
