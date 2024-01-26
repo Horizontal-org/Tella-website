@@ -92,9 +92,18 @@ To download a Template, tap the **+** button at the bottom of the screen. You wi
 
 Then go back to the Uwazi main screen and tap the template you want to use to create an entity.
 
-You can use the **Save** button to save your entity as a draft or the **Submit Later** button if you are not ready to send your entity or the **Submit** button to send your entity to the server now.
 
-:::info
-For the moment, Tella iOS does not support the option to Submit Later or the Outbox tab that are available in Tella Android.
-:::
+#### Data Submission Alternatives {#data-submission-alternatives}
+
+| **Feature** | **Details**| **Tella Android** | **Tella iOS** | 
+|------|------|------|------|
+| Submit | Send the filled form to the connected server. | Yes | Yes |
+| Save as draft | Save a form that's not completed.  | Yes | No |
+| Submit later | Mark a form as ready and send it to the Outbox tab,  | Yes | No |
+| Drafts Tab | A tab with all drafts. Drafts can be edited or deleted.  | Yes | No |
+| Outbox Tab | A tab with forms ready to submit. Forms on the outbox tab can be edited or deleted.  | Yes | No |
+| Submitted Tab | A tab with all forms that have been successfully sent to the server. Submitted forms can be deleted.  | Yes | No |
+| Pause/Resume submission | Users can manually pause a submission and resume it when ready.  | Yes | No |
+| Automatically pause submission when offline | Submissions will be sent to the Outbox tab if submission fails due to connectivity issues.  | Yes | No |
+
 

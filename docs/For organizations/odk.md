@@ -48,8 +48,8 @@ The ODK server connection is not available for Tella iOS.
 
 ### Connect to an ODK Server{#connect-to-an-odk-server}
 After creating and deploying a Form using any ODK-compliant server, in Tella, go to **Settings** > **Servers** > **+** > **Open Data Kit (ODK)**. Fill the following fields:
-- **Name**: A descriptive name for your server in Tella.
-- **URL**: Your server URL. For example, `kc.kobotoolbox.org` if you are using the KoboToolbox public server.
+- **Server Name**: A descriptive name for your server in Tella.
+- **Server URL**: Your server URL. For example, `kc.kobotoolbox.org` if you are using the KoboToolbox public server.
 If your server requires user authentication, tap the **Advanced** button and enter your **Username** and **Password**. Your server's administrator should provide all this information to you.
 
 Once you are in the **Forms**, you will be able to see all the Forms that have been made available to you on this server instance.
@@ -105,7 +105,17 @@ Below is an overview of the ODK features that are supported in Tella Android. If
 | [Filtering options in select questions](https://docs.getodk.org/form-logic/#filtering-options-in-select-questions) | ✔️ |
 | [Generating select ones from repeats](https://docs.getodk.org/form-logic/#generating-select-ones-from-repeats) | ❌ |
 
-### Data Collection Alternatives with Tella{#data-collection-alternatives}
+### Send Your Information{#send-your-information}
+
+Once you successfully connected to an Open Data Kit instance, you'll see a new card with the label "Forms" in the **Connections** sections of your Tella homescreen.
+
+Once you enter to the **Forms** section you will see a list of cards representing the Forms that are available to you on the server (or servers) that you are connected to. Using the **Download** button you can donwload this form to your Tella, so you are able to fill it, even if you are not connected to the internet.
+
+You can tap on each form to start filling it.
+
+
+
+#### Data Submission Alternatives {#data-submission-alternatives}
 
 | **Feature** | **Details**| **Tella Android** | 
 |------|------|------|
