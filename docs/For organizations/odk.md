@@ -67,7 +67,7 @@ Below is an overview of the ODK question types that are supported in Tella Andro
 | Time | ✔️ |
 | Date & time | No  |
 | Point (calculate my current location) | ✔️ |
-| Point (show my location on map) | ✔️ |
+| Point (show my location on a map) | ✔️ |
 | Point (let me choose my location on a map) | ✔️ |
 | Line | No |
 | Area | No |
