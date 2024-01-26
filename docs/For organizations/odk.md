@@ -79,9 +79,9 @@ Below is an overview of the ODK question types that are supported in Tella Andro
 | Note | ✔️ |
 | Barcode / QR Code | No |
 | Acknowledge | ✔️ |
-| Rating | No |
+| Rating | ✔️ |
 | Question Matrix | No |
-| Ranking | No |
+| Ranking | ✔️ |
 | Calculate | No |
 | Hidden | No |
 | Range | No |
