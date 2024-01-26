@@ -56,12 +56,13 @@ Resources to learn more about Uwazi:
 
 ### Open Data Kit (ODK) {#open-data-kit-odk}
 
-The [Open Data Kit (ODK)](https://getodk.org/) is an open standard used to create custom forms and collect data. Because ODK is an open standard, Tella can be used with any of the tools that are ODK-compliant, like [Ona](https://ona.io/home/) or [KoboToolbox](https://www.kobotoolbox.org/), to create forms with custom questions, manage users, and aggregate the data submitted by users. We recommend using [KoboToolbox](https://www.kobotoolbox.org/) because it is open-source and is user-friendly. Kobotoolbox has a free, publicly available server [here](https://kf.kobotoolbox.org/) or it can be self-hosted. [Here you can read more about Kobotoolbox and the features we support](https://tella.slite.com/app/docs/r7vxebjDQ3TAWE).
+The [Open Data Kit (ODK)](https://getodk.org/) is an open standard used to create custom forms and collect data. In order to connect a Open Data Kit server, first you need to create forms with different questions types (text, date, geolocation, media, etc) using any  of the tools that are ODK-compliant.
 
-If you are using Kobotoolbox, [first create an account here](https://kf.kobotoolbox.org/accounts/login/), and then create and deploy a Form. In Tella go to Settings > Servers > Add Server > Open Data Kit (ODK). Give your server a name and type kc.kobotoolbox.org as the server URL field.  Enter your username and password on the Advanced section in order to load your Forms.
+On our [Open Data Kit server connection page](/odk) we explain how to create an account, where to find information about creating forms and how to connect to the server from Tella. If you are considering using Open Data Kit or you need help to [deploy](/faq#deploying-tella) your instance, please [contact us](/contact-us). 
+
 
 :::info
-For the moment, ODK server integration is [only available on Android](/features). 
+ODK server integration is [only available on Android](/features). 
 :::
 
 :::tip
