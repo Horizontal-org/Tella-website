@@ -62,22 +62,30 @@ Below is an overview of the ODK question types that are supported in Tella Andro
 | Select One | ✔️ |
 | Select Many | ✔️ |
 | Text | ✔️ |
-| Number | ✔️ |
-| Decimal | ✔️ |
+| Number / Decimal | ✔️ |
 | Date | ✔️ |
 | Time | ✔️ |
-| Date & time | ? |
-| Point | ? |
-| Note | ? |
-| Barcode / QR Code | ❌ |
+| Date & time | No  |
+| Point | ✔️ |
+| Point - map | ✔️ |
+| Point - map placement | ✔️ |
+| Line | No |
+| Area | No |
+| Photo | ✔️ |
+| Photo signature | ✔️ |
+| Audio | ✔️ |
+| Video | ✔️ |
+| File | No |
+| Note | ✔️ |
+| Barcode / QR Code | No |
 | Acknowledge | ✔️ |
-| Area | ❌ |
-| Rating | ❌ |
-| Question Matrix | ❌ |
-| Ranking | ❌ |
-| Calculate | ❌ |
-| File | ? |
-| Range | ❌ |
+| Rating | No |
+| Question Matrix | No |
+| Ranking | No |
+| Calculate | No |
+| Hidden | No |
+| Range | No |
+| External XML | No |
 
 ### Supported Features{#supported-features}
 
