@@ -66,13 +66,13 @@ Below is an overview of the ODK question types that are supported in Tella Andro
 | Date | ✔️ |
 | Time | ✔️ |
 | Date & time | No  |
-| Point | ✔️ |
-| Point - map | ✔️ |
-| Point - map placement | ✔️ |
+| Point (calculate my current location) | ✔️ |
+| Point (show my location on map) | ✔️ |
+| Point (let me choose my location on a map) | ✔️ |
 | Line | No |
 | Area | No |
 | Photo | ✔️ |
-| Photo signature | ✔️ |
+| Photo signature (handwrite my signature) | ✔️ |
 | Audio | ✔️ |
 | Video | ✔️ |
 | File | No |
