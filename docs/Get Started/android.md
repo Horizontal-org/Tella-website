@@ -118,7 +118,7 @@ Tella can be connected to a variety of back-end services. This is used by organi
 
 The [Open Data Kit (ODK)](https://getodk.org/) is an open standard used to create custom forms and collect data. Because ODK is an open standard, Tella can be used with any of the tools that are ODK-compliant, like [Ona](https://ona.io/home/) or [KoboToolbox](https://www.kobotoolbox.org/), to create forms with custom questions, manage users, and aggregate the data submitted by users. 
 
-We wrote documentation about how to connect to an Open Data Kit server and we recommend you to read [this page](/for-organizations#open-data-kit-odk) to get started.
+We wrote documentation about how to connect to an Open Data Kit server and we recommend you to read [this page](/odk) to get started.
 
 
 <div class="gifs">

@@ -45,9 +45,13 @@ Tella integrates various security measures in place to achieve an acceptable lev
 4. **Lock timeout:** Users can also configure a [lock timeout](/features#lock-timeout-configuration), to choose how quick Tella will lock when not in use. By default, the lock timeout is set to ‘immediately’, so as soon as the user exits Tella, the app locks and all of the data is encrypted. 
 5. **Camouflage**: On Tella Android, there are currently [two camouflage](features#camouflage) modes for Tella: a fully functional calculator and the possibility to change the app name and icon to make it harder to find on the phone. Due to iOS restrictions, it is not possible to camouflage Tella for iOS.
 6. **Quick Delete button**: Users can enable a **[quick delete](features#quick-delete)** sliding button to quickly wipe data from Tella in an emergency situation. Users can choose, in the Tella settings, to delete all the files stored in Tella, draft and submitted forms, server settings and the app itself when that button is triggered. When the Quick Delete button is triggered, a 5-second countdown is displayed to the user. During the countdown, the user can cancel the Quick Delete action by tapping anywhere on the screen. When the countdown reaches 0, the delete action set by the user is applied. If the user had selected the ‘delete Tella’ options, Android will ask them to confirm the app’s deletion. 
-7. **Camera silent mode**:  Users can choose to turn off the camera shutter sound to draw less attention when taking photos.
-8. **Screen security**: By default, Tella blocks screenshots and screen recordings inside Tella and hides the screen preview in the list of recent apps. This setting can be disabled, for example to record tutorials inside Tella or mirror the app to a computer for a presentation.
+7. **Camera silent mode**:  Users can choose to [turn off the camera shutter sound](/features#camera-silent-mode) to draw less attention when taking photos.
+8. **Screen security**: By default, Tella blocks screenshots and screen recordings inside Tella and hides the screen preview in the list of recent apps. [This setting](/features#screen-security) can be disabled, for example to record tutorials inside Tella or mirror the app to a computer for a presentation.
 9. **Restrict unlocking attempts**: Users can decide how many failed [unlock attempts](features#restrict-unlocking-attempts) are allowed before everything inside Tella is deleted and whether a visual indicator with the remaining unlocking attempts will be visible on the unlock screen or not.
+
+:::tip Video tutorial 🎥
+Learn more about Security Features in our [video tutorial](/video-tutorials#additional-security-features)
+:::
 
 
 ## Security limitations {#security-limitations}
