@@ -9,7 +9,11 @@ slug: /privacy
 # Tella - Privacy Policy
 
 :::note
-Last updated on 10 July 2023
+Last updated on 10 July 2023.
+:::
+
+:::info
+You can read details about Tella's technical details and security audits on our [Security and Privacy page](/security-and-privacy).
 :::
 
 ## The short version {#the-short-version}
