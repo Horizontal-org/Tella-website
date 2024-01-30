@@ -1,7 +1,7 @@
 ---
 id: uwazi
 title: Uwazi
-description: The Uwazi server connection is available for organizations looking to collect structured data using a database.
+description: The Uwazi server connection is available for organizations looking to collect structured data.
 slug: /uwazi
 ---
 
