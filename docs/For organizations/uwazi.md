@@ -17,11 +17,11 @@ Similarly to all other server connections([Tella Web](/tella-web) and [Open Data
 3. Allowing users to back up their data on a remote server, to lower the risk that data is discovered on their mobile device
 4. Ensuring that organizations can preserve important information even in the event of device seizure or destruction, and can organize it to use for research, advocacy, or accountability processes
 
-### Testing Uwazi
+### Testing Uwazi {#testing-uwazi}
 
 Uwazi does not have a public instance, but you can test Uwazi using [this Demo instance](https://demo.uwazi.io/).
 
-### When to use Uwazi
+### When to use Uwazi {#when-to-use-uwazi}
 
 We recommend Uwazi to organizations that need on-the-ground users to collect data in a structured manner. 
 
@@ -31,11 +31,11 @@ Uwazi does not have an official mobile app, so by integrating Uwazi and Tella, y
 
 You can learn more about Uwazi on [Uwazi's official documentation](https://uwazi.readthedocs.io/en/latest/). HURIDOCS is a great friend of Horizontal, so if you have questions about Uwazi or would like us to connect you to the HURIDOCS team, [contact-us](contact-us).
 
-## Install Uwazi on a server{#install-an-uwazi-server}
+## Install Uwazi on a server {#install-uwazi-on-a-server}
 
 The HURIDOCS team created a comprehensive administrator guide with step-by-step instructions to install Uwazi on your server, configure backups, and set up advanced features. We recommend you share [this guide](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html) with your system administrator.
 
-## Model Your Data{#model-your-data}
+## Model Your Data {#model-your-data}
 
 An Uwazi collection is made up of Entities. An entity has Properties which are the fields that Tella users will fill to collect data. Entities can hold Primary Documents and/or Supporting Files and some properties that are defined by administrators on the Uwazi server when they create Templates. A Template is an empty form that can be filled as many times as needed; once a Template is filled, it becomes an Entity. 
 
@@ -45,7 +45,7 @@ An Uwazi collection is made up of Entities. An entity has Properties which are t
 If Tella users download a template that has properties that are not supported in Tella, those properties won't be shown in the app. However, users will still be able to submit the entities, and admins will be able to access these entities, including all the properties that were filled, without any problems.
 :::
 
-### Available Properties{#available-properties}
+### Available Properties {#available-properties}
 
 | **Property or Feature** | **Tella Android**| **Tella iOS** | **Tella Android FOSS** |
 |------|------|-----|-----| 
@@ -67,7 +67,7 @@ If Tella users download a template that has properties that are not supported in
 
 ## Get People on the Ground Ready to Start Submitting Data {#get-people-on-the-ground-ready-to-start-submitting-data}
 
-### Connect to the Server{#connect-to-the-server}
+### Connect to the Server {#connect-to-the-server}
 
 In order to connect to an Uwazi server:
 
@@ -84,7 +84,7 @@ In order to connect to an Uwazi server:
 You can watch [this video](/video-tutorials#uwazi) on how to connect to an Uwazi server from the Tella.
 :::
 
-### Send Your Information{#send-your-information}
+### Send Your Information {#send-your-information}
 
 Once you successfully connected to an Uwazi instance, you'll see a new card with the label "Uwazi" in the **Connections** sections of your Tella homescreen.
 

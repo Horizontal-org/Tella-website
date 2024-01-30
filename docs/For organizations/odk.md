@@ -18,7 +18,7 @@ Similarly to any other server connection (like [Tella Web](/tella-web) or [Uwazi
 3. Allowing users to back up their data on a remote server, to lower the risk that data is discovered on their mobile device.
 4. Ensuring that organizations can preserve important information even in the event of device seizure or destruction, and can organize it for research, advocacy, or accountability processes.
 
-### Choosing and Installing Your ODK Central Server{#install-your-odk-server}
+### Choosing and Installing Your ODK Central Server {#choosing-and-installing-your-odk-central-server}
 
 Because ODK is an open standard, Tella can be used with any of the tools that are ODK-compliant.
 
@@ -28,17 +28,17 @@ For civil society organizations and human rights defenders, we recommend using [
 
 There are other ODK-compliant servers available, like the [Ona server](https://ona.io/home/). Tella will work with any of these. If you need help, [contact us](contact-us) so we can help you choose the best server for your use case.
 
-### When to Use ODK{#when-to-use-odk}
+### When to Use ODK {#when-to-use-odk}
 
 We recommend ODK to organizations that need on-the-ground users to collect data in a structured manner. We also recommend it to organizations that don't have the technical capacity to install and maintain a server and want to use a cloud instance that's reliable and fast. Remember that if you use a cloud instance, we recommend you understand where your data will be hosted and whether that's safe for your use case.
 
 ODK and KoboToolbox are widely used, well-documented, and easy to use. There are guides available, and they offer support to non-profit organizations on how to structure and maintain their data.
 
-## Model Your Data{#model-your-data}
+## Model Your Data {#model-your-data}
 
 KoboToolbox offers a detailed guide on how to create your project and add questions to your forms, and how to deploy them to make them available to on-the-ground users [here](https://support.kobotoolbox.org/overview_of_creating_a_project.html).
 
-## Connect to an ODK Server to Collect Data{#collect-data}
+## Connect to an ODK Server to Collect Data {#connect-to-an-odk-server-to-collect-data}
 
 In this documentation, we focus on how to collect data using Tella. There are other alternatives, including the ODK Collect Android App. You can check the alternatives [here](/faq#how-is-tella-different-from-other-documentation-apps).
 
@@ -46,7 +46,7 @@ In this documentation, we focus on how to collect data using Tella. There are ot
 The ODK server connection is not available for Tella iOS.
 :::
 
-### Connect to an ODK Server{#connect-to-an-odk-server}
+### Connect to an ODK Server {#connect-to-an-odk-server}
 After creating and deploying a Form using any ODK-compliant server, in Tella, go to **Settings** > **Servers** > **+** > **Open Data Kit (ODK)**. Fill the following fields:
 - **Server Name**: A descriptive name for your server in Tella.
 - **Server URL**: Your server URL. For example, `kc.kobotoolbox.org` if you are using the KoboToolbox public server.
@@ -54,7 +54,7 @@ If your server requires user authentication, tap the **Advanced** button and ent
 
 Once you are in the **Forms**, you will be able to see all the Forms that have been made available to you on this server instance.
 
-### Supported Question Types{#supported-question-types}
+### Supported Question Types {#supported-question-types}
 Below is an overview of the ODK question types that are supported in Tella Android. If there is a question type that isn't supported in Tella and that is critical to your workflow, please [contact us](/contact-us).
 
 | **Question type** | **Tella Android** | 
@@ -87,7 +87,7 @@ Below is an overview of the ODK question types that are supported in Tella Andro
 | Range | No |
 | External XML | No |
 
-### Supported Features{#supported-features}
+### Supported Features {#supported-features}
 
 Below is an overview of the ODK features that are supported in Tella Android. If there is a feature that isn't supported in Tella and that is critical to your workflow, please [contact us](/contact-us).
     
@@ -105,7 +105,7 @@ Below is an overview of the ODK features that are supported in Tella Android. If
 | [Filtering options in select questions](https://docs.getodk.org/form-logic/#filtering-options-in-select-questions) | ✔️ |
 | [Generating select ones from repeats](https://docs.getodk.org/form-logic/#generating-select-ones-from-repeats) | ❌ |
 
-### Send Your Information{#send-your-information}
+### Send Your Information {#send-your-information}
 
 Once you successfully connected to an Open Data Kit instance, you'll see a new card with the label "Forms" in the **Connections** sections of your Tella homescreen.
 
