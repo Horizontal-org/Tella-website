@@ -3,7 +3,7 @@ id: docs
 slug: /docs
 title: Tella Documentation
 ---
-import DocCardList from '@theme/DocCardList';
+import DocCard from '../src/components/DocCard.js';
 
 # Tella Documentation
 
@@ -14,19 +14,26 @@ Welcome to the Tella Documentation! Tella is an app designed for human rights do
 ## Getting Started {#getting-started}
 
 To start using Tella, explore our guides:
-- [Android Guide](/android)
-- [iOS Guide](/ios)
+
+<div class="doc-card-list">
+    <DocCard title="Android Guide" description="Quick start guide for Tella users on Android" link="/get-started-android" />
+    <DocCard title="iOS Guide" description="Quick start guide for Tella users on iPhone" link="/get-started-ios" />
+</div>
 
 You can also watch our [video tutorials](/video-tutorials) for visual instructions.
 
 ## Explore Tella {#explore-tella}
 
-- **[Features:](/features)** Discover detailed descriptions of Tella's features.
-- **[Security and Privacy](/security-and-privacy)** Learn about our security features and independent audits.
-- **[Accessibility:](/accesibility)** Explore languages supported by Tella and our accessibility efforts.
-- **[User Stories:](/user-stories)** Understand real-world use cases and deployments.
-- **[FAQs:](/faq)** Find answers to common questions.
-- **[Contact Us:](/contact-us)** Reach out for support or inquiries.
+<div class="doc-card-list">
+    <DocCard title="Features" description="Discover detailed descriptions of Tella's features." link="/features" />
+    <DocCard title="Security and Privacy" description="Learn about our security features and independent audits." link="/security-and-privacy" />
+    <DocCard title="Accessibility" description="Explore languages supported by Tella and our accessibility efforts." link="/accessibility" />
+    <DocCard title="User Stories" description="Understand real-world use cases and deployments." link="/user-stories" />
+    <DocCard title="FAQs" description="Find answers to common questions." link="/faq" />
+    <DocCard title="Contact Us" description="Reach out for support or inquiries." link="/contact-us" />
+</div>
+
+
 
 ## Join the Community {#join-the-community}
 
@@ -37,10 +44,12 @@ You can also watch our [video tutorials](/video-tutorials) for visual instructio
 
 ## For Organizations {#for-organizations}
 
-If you're deploying Tella for an organization or specific projects:
-- Check out our recommended server connections:
-  - [Tella Web](/tella-web)
-  - [Uwazi](/uwazi)
-  - [Open Data Kit (ODK)](/odk)
+If you are trying to [deploy Tella](/faq#what-does-it-mean-to-deploy-tella) for group of people, use it on an organization or for a specific data collection project, we recomed you to check the [For organizations](for-organizations) sections and the available server connections:
+
+<div class="doc-card-list">
+    <DocCard title="Tella Web" description="The Reports feature empowers users to conveniently upload photos, videos, and audio recordings to their server." link="/tella-web" />
+    <DocCard title="Uwazi" description="The Uwazi server connection is available for organizations looking to collect structured data." />
+    <DocCard title="Open Data Kit (ODK)" description="The Open Data Kit server connection is available for organizations looking to collect structured data using forms." link="/odk" />
+</div>
 
 Ready to start collecting and sharing information using Tella? 

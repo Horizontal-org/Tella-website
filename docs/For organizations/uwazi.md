@@ -1,7 +1,7 @@
 ---
 id: uwazi
 title: Uwazi
-description: The Uwazi server connection is available for organizations looking to collect structured data using a relational database.
+description: The Uwazi server connection is available for organizations looking to collect structured data using a database.
 slug: /uwazi
 ---
 
@@ -25,7 +25,7 @@ Uwazi does not have a public instance, but you can test Uwazi using [this Demo i
 
 We recommend Uwazi to organizations that need on-the-ground users to collect data in a structured manner. 
 
-Uwazi also allows project managers to easily organize, analyze, visualize, and publish the collected data. It is especially powerful because of its relational database, which helps connect data points (such as incidents, perpetrators, and victims) to emerge patterns Uwazi is also great to collect data in many different languages and to facilitate collaboration between teams.
+Uwazi also allows project managers to easily organize, analyze, visualize, and publish the collected data. It is especially powerful because of its database allows making relationships between entities, which helps connect data points (such as incidents, perpetrators, and victims) to emerge patterns Uwazi is also great to collect data in many different languages and to facilitate collaboration between teams.
 
 Uwazi does not have an official mobile app, so by integrating Uwazi and Tella, you can leverage Tella's encryption and offline capabilities and take full advantage of Uwazi's abilities to organize, search, download, visualize, and publish information. 
 
