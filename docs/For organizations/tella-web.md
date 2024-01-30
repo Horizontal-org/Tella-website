@@ -113,7 +113,7 @@ Once confirmed, the project and all its associated reports will be permanently d
 The project URL is automatically generated when the project is created. To edit the project URL, go to the "General" section in the "Project settings" screen and modify it accordingly. This URL is the one that reporters will use to connect to the project from their apps. 
 
 :::info
-The URL that you'll need to send to the users should look like this `https://your.server.name/p/your-project-name`
+The URL that you'll need to send to the users should look like this `https://your-domain.com/p/your-project-name`
 :::
 
 
