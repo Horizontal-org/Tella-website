@@ -73,56 +73,10 @@ There is no such thing as an app that is 100% "secure". Security is dependent on
 We regularly ask independent security firms to audit our code to ensure it is robust and secure. You can see the full reports from these audits [on this page](https://drive.google.com/file/d/11mPB2KZLHb6blmNuk_qyXYcn4BSVYNFT/view?usp=sharing). This is the summary from the latest audit and the current implementation status:
 
 
-<table>
-  <tr>
-   <td><strong>Title</strong>
-   </td>
-   <td><strong>Severity</strong>
-   </td>
-   <td><strong>Status</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Unrestricted Unlock Attempts
-   </td>
-   <td>Medium
-   </td>
-   <td>Implemented
-   </td>
-  </tr>
-  <tr>
-   <td>Android Cipher Stream I/O Key PBKDF2 Iterations
-   </td>
-   <td>Low
-   </td>
-   <td>Resolved
-   </td>
-  </tr>
-  <tr>
-   <td>Tella iOS Cleartext Audio Data may Persist Longer than Required
-   </td>
-   <td>Low
-   </td>
-   <td>Resolved
-   </td>
-  </tr>
-  <tr>
-   <td>Tella Android Outdated Retrofit2 Dependency 
-   </td>
-   <td>Low
-   </td>
-   <td>Resolved
-   </td>
-  </tr>
-  <tr>
-   <td>Tella Android Deprecated Dependency: Butterknife 
-   </td>
-   <td>Informational
-   </td>
-   <td>In Progress
-   </td>
-  </tr>
-</table>
-
-
-
+| Title                                               | Severity    | Status      |
+|-----------------------------------------------------|-------------|-------------|
+| Unrestricted Unlock Attempts                        | Medium      | Implemented |
+| Android Cipher Stream I/O Key PBKDF2 Iterations     | Low         | Resolved    |
+| Tella iOS Cleartext Audio Data may Persist Longer  | Low         | Resolved    |
+| Tella Android Outdated Retrofit2 Dependency         | Low         | Resolved    |
+| Tella Android Deprecated Dependency: Butterknife    | Informational| In Progress |

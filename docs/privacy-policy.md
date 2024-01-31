@@ -157,7 +157,7 @@ You may also send us an email at [contact@horizontal.org](mailto:contact@horizon
 
 ## 8. Your California Privacy Rights {#8-your-california-privacy-rights}
 
-If you are a California resident, California law may provide you with additional rights regarding our use of your personal information, To learn more about your California privacy rights, visit <https://www.oag.ca.gov/privacy/ccpa>.
+If you are a California resident, California law may provide you with additional rights regarding our use of your personal information, To learn more about your California privacy rights, visit [https://www.oag.ca.gov/privacy/ccpa](https://www.oag.ca.gov/privacy/ccpa).
 
 ## 9. Data Security {#9-data-security}
 
