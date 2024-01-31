@@ -221,8 +221,10 @@ const config = {
       ({
         indexPages: true,
         searchResultLimits: 8,
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
         // `hashed` is recommended as long-term-cache of index file is possible.
-        hashed: true,
+        hashed: false,
         // For Docs using Chinese, The `language` is recommended to set to:
         // ```
         // language: ["en", "zh"],
