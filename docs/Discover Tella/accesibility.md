@@ -26,9 +26,10 @@ We work hard to make Tella available in languages spoken by communities who expr
 
 On this table you can access our latest accesibility reports by platform. 
 
-| **Platform** | **Date**| **Link** | 
-| Tella Android | November 2023| [Link](https://docs.google.com/document/d/1QtcWrSNvVtskUf5zNmOlgH0ue_O2ksdi/edit?usp=drive_link&ouid=112797073966673154794&rtpof=true&sd=true) | 
-| Tella iOS | November 2023| [Link](https://docs.google.com/document/d/1-_dx-Ut98FpiasqgW98gxoFbwVx01R39/edit) | 
+| **Platform** | **Date** | **Link** |
+| -----|-----|------ |  
+| Tella Android | November 2023 | [Link](https://docs.google.com/document/d/1QtcWrSNvVtskUf5zNmOlgH0ue_O2ksdi/edit) | 
+| Tella iOS | November 2023 | [Link](https://docs.google.com/document/d/1-_dx-Ut98FpiasqgW98gxoFbwVx01R39/edit) | 
 
 We are currently working on solving all the A Level accesibility bugs detected in Tella Android.
 
