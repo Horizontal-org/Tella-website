@@ -1,13 +1,13 @@
 ---
 id: accesibility
-title: Accessibility
+title: Language and accessibility
 description: A detailed description of Tella accessibility considerations.
 slug: /accessibility
 ---
 import TellaLanguages from '.././_tella-languages.md';
 
 
-# Accessibility on Tella
+# Language and Accessibility on Tella
 
 Making Tella accessible is a top priority for us. When we say accessible, we mean that we do our best to ensure that disabled users and users with limited literacy or tech literacy can use Tella.
 
