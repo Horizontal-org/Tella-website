@@ -198,7 +198,7 @@ In order to connect to a Tella Web server, users need to:
 * Navigate to **Settings ⚙️** > **Servers** > **+**
 * Select "Tella Web" from the list of available server types.
 * Enter the login information (generated and provided by admins)
-    * Project URL of your organization’s Tella Web server. The URL should look like this `https://your.server.name/p/your-project-name`
+    * Project URL of your organization’s Tella Web server. The URL should look like this `https://your-domain.com/p/your-project-name`
     * Your Username and Password
 * Enable or disable advance features based on your use-case: [auto-report](#auto-report), [auto-delete](#auto-delete) and [background submission](#background-submission).
 
