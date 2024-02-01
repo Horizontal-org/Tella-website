@@ -52,6 +52,7 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        blog: false,
       }),
     ],
   ],
@@ -225,6 +226,7 @@ const config = {
         explicitSearchResultPath: true,
         // `hashed` is recommended as long-term-cache of index file is possible.
         hashed: false,
+        docsRouteBasePath: '/',
         // For Docs using Chinese, The `language` is recommended to set to:
         // ```
         // language: ["en", "zh"],
