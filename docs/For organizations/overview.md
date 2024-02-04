@@ -11,7 +11,7 @@ In addition to keeping the data protected within the app, users can also connect
 
 Previous Tella deployments, where on-the-ground users collected data and sent it to an organization's server, have ranged from 1 to 2,000 users. 📲 📡. You can read user stories [here](/user-stories), or you can contact us so that we can assist you in finding the best way to use Tella for your organization.
 
-Currently, Tella can be connected to the following servers:
+Currently, Tella can be connected to the following types of servers:
 
 * [Open Data Kit (ODK)](#open-data-kit-odk)
 * [Uwazi](#uwazi)
@@ -20,30 +20,21 @@ Currently, Tella can be connected to the following servers:
 These are called [Connections](/features#connecting-to-servers) in Tella.
 
 
-## How to choose {#how-to-choose}
+## Selecting the right type of server {#how-to-choose}
 
-In here we offer a very basic (non comprehensive) decision making graph:
+The following is a basic, non-comprehensive graph to help determine which of the three server types is best suited to different needs. This is a good starting point, but you can also [this video](/video-tutorials#connections-full-video) where we present each server type. If you need help deciding or would like to request integrating another server, [contact us!](/contact-us)
 
 ```mermaid
 graph TD;
-    id1(What data would user send to the server?) --> id2("Structured data (forms) with Media attachments");
-    id1 --> id3("Just the media they collect in Tella") ;
-    id2 --> id4("What features do you need in your forms?");
+    id1(What type of data do users need to send?) --> id2("Mostly structured data (forms), with media attachments");
+    id1 --> id3("Mostly media files, with some text") ;
+    id2 --> id4("What additional features do you need?");
     id3 --> id5("Tella Web");
-    id4 --> id6("Questions with different types (text, geo, date, etc)")
-    id4 --> id7("Questions with different types (text, geo, date, etc) AND logic")
+    id4 --> id6("Establish relationships between data points, publish to a website")
+    id4 --> id7("Add logic to forms, collect high numbers for forms, create reports to visualize results")
     id6 --> id8("Uwazi")
     id7 --> id9("Open Data Kit (ODK)")
 ```
-
-You can watch a video discussing which server connection could work best for each scenario [here](/video-tutorials#connections-full-video).
-
-:::info
-If you need support choosing the best deployment setup or would like to discuss the possibility of integrating another server, [contact us!](/contact-us)
-:::
-
-
-
 
 ### Tella Web {#tella-web}
 
@@ -65,7 +56,7 @@ Learn more about Tella Web [here](/tella-web)
 Organizations who use Uwazi as a database can connect Tella to one or more of their databases to upload data. All that is required to connect Tella to Uwazi is the Uwazi database URL, and a username and password. The Uwazi database should already have one or more templates configured, which can be downloaded into Tella. Once successfully downloaded, users can easily navigate between their templates to enter details for each new record, even when there is no internet connection. When the data entry is complete, it can be saved as a draft in the Tella app or immediately uploaded to the connected Uwazi database. This enables users who work offline to collect data and upload the information when it is convenient. 
 
 Resources to learn more about Uwazi:
-* video demoing the Uwazi integration[here](/video-tutorials#uwazi).
+* video demoing the Uwazi integration [here](/video-tutorials#uwazi).
 * [More information about how to use Tella with Uwazi](/uwazi).
 * [blogpost from the Uwazi team](https://huridocs.org/2022/07/the-new-tella-app-lets-uwazi-users-document-violations-safely-and-while-offline/) about the integration.
 * Uwazi [website](https://uwazi.io/) and [documentation](https://uwazi.readthedocs.io/en/latest/).
@@ -80,10 +71,10 @@ On our [Open Data Kit server connection page](/odk) we explain how to create an 
 
 
 :::info
-ODK server integration is [only available on Android](/features). 
+The ODK connection is [only available on Android](/features). 
 :::
 
 :::tip
-You can also watch a video demoing the ODK Server integration [here](/video-tutorials#open-data-kit).
+You can also watch a demonstration of the ODK connection [here](/video-tutorials#open-data-kit).
 :::
 
