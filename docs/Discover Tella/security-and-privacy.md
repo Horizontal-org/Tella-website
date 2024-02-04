@@ -75,7 +75,7 @@ We regularly ask independent security firms to audit our code to ensure it is ro
 
 | Title                                               | Severity    | Status      |
 |-----------------------------------------------------|-------------|-------------|
-| Unrestricted Unlock Attempts                        | Medium      | Implemented |
+| Unrestricted Unlock Attempts                        | Medium      | Resolved |
 | Android Cipher Stream I/O Key PBKDF2 Iterations     | Low         | Resolved    |
 | Tella iOS Cleartext Audio Data may Persist Longer  | Low         | Resolved    |
 | Tella Android Outdated Retrofit2 Dependency         | Low         | Resolved    |
