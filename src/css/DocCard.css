@@ -11,6 +11,7 @@
 .doc-card {
   flex-basis: 45%;
   border-radius: 8px;
+  min-height: 150px;
   border: solid;
   border-color: #2c275a;
   overflow: hidden;
@@ -27,4 +28,5 @@
 
 .doc-card-content {
   padding: 10px;
+  align-items: center;
 }

@@ -110,6 +110,10 @@ If the user forgets their lock, there is no way of gaining access to the app and
 Learn more about Locks and Encryption in our [video tutorial](/video-tutorials#tella-locks)
 :::
 
+:::info 
+Technnical details about encryption can be found on the [Security and Privacy](/security-and-privacy) section.
+:::
+
 ## File management {#file-management}
 
 Tella allows users to manage files and folders in a similar way they would do on a computer. All files and folders are **encrypted and only accessible within Tella**. 📂📝
