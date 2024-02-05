@@ -1,7 +1,7 @@
 ---
 id: community-meetings
 title: Community Meetings
-description: Details about monthly Tella community calls.
+description: Details about monthly Tella community calls
 slug: /community-meetings
 ---
 
