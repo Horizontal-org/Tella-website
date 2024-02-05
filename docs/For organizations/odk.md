@@ -111,7 +111,7 @@ Below is an overview of the ODK features that are supported in Tella Android. If
     
 | **Feature** | **Tella Android** | 
 |------|------|
-| [Offline data collection](/odk#data-submission-alternatives) | ✔️ |
+| [Offline data collection](/odk#submit-forms) | ✔️ |
 | [Form logic](https://docs.getodk.org/form-logic/) | ❌ |
 | [Requiring responses](https://docs.getodk.org/form-logic/#requiring-responses) | ✔️ |
 | [Setting default responses](https://docs.getodk.org/form-logic/#setting-default-responses) | ❌ |
