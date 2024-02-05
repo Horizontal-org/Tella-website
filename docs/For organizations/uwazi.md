@@ -19,11 +19,11 @@ Similarly to all other server connections([Tella Web](/tella-web) and [Open Data
 
 ### Testing Uwazi {#testing-uwazi}
 
-Uwazi does not have a public instance, but you can test Uwazi using [this Demo instance](https://demo.uwazi.io/).
+You can test Uwazi using [this Demo instance](https://demo.uwazi.io/).
 
 ### When to use Uwazi {#when-to-use-uwazi}
 
-We recommend Uwazi to organizations that need on-the-ground users to collect data in a structured manner. 
+We recommend Uwazi to organizations that need on-the-ground users to collect data in a structured manner through forms. 
 
 Uwazi also allows project managers to easily organize, analyze, visualize, and publish the collected data. It is especially powerful because of its database allows making relationships between entities, which helps connect data points (such as incidents, perpetrators, and victims) to emerge patterns Uwazi is also great to collect data in many different languages and to facilitate collaboration between teams.
 
