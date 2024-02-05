@@ -21,10 +21,7 @@ const sidebars = {
 generalSidebar: [
     'docs',
     {
-      type: 'category',
-      label: 'Discover Tella',
-      link: {type: 'generated-index'},
-      items: ['Discover Tella/features', 'Discover Tella/security-and-privacy', 'Discover Tella/accesibility', 'Discover Tella/user-stories'],
+      'Discover Tella': ['Discover Tella/features', 'Discover Tella/security-and-privacy', 'Discover Tella/accesibility', 'Discover Tella/user-stories'],
     },
     {
       type: 'category',
@@ -35,8 +32,8 @@ generalSidebar: [
     {
       type: 'category',
       label: 'For organizations',
-      link: {type: 'generated-index'},
-      items: ['For organizations/overview', 'For organizations/tella-web', 'For organizations/uwazi', 'For organizations/odk'],
+      link: {type: 'doc', id: 'For organizations/overview'},
+      items: ['For organizations/tella-web', 'For organizations/uwazi', 'For organizations/odk'],
     },
     {'Community': ['Community/community-meetings', 'Community/open-source', 'Community/translating-tella']},
     'faq',
