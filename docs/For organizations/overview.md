@@ -22,7 +22,7 @@ These are called [Connections](/features#connecting-to-servers) in Tella.
 
 ## Selecting the right type of server {#how-to-choose}
 
-The following is a basic, non-comprehensive graph to help determine which of the three server types is best suited to different needs. This is a good starting point, but you can also [this video](/video-tutorials#connections-full-video) where we present each server type. If you need help deciding or would like to request integrating another server, [contact us!](/contact-us)
+The following is a basic, non-comprehensive graph to help determine which of the three server types is best suited to different needs. This is a good starting point, but you can also [this video](/video-tutorials#connections-full-video) where we present each server type. If you need help deciding or would like to request a new Connection (an integration to a new server type), [contact us!](/contact-us)
 
 ```mermaid
 graph TD;
@@ -44,7 +44,7 @@ It is not the web equivalent of the mobile app; rather, it is a tool specificall
 
 Tella Web is developed internally by our team at Horizontal, the same team responsible for developing Tella's mobile apps. It is a user-friendly solution for managing reports in a safe and private manner. We can provide support for the installation and configuration of a Tella Web server if you don't have someone within your organization who can maintain it.
 
-The Tella Web integration is available on Tella Android and Tella iOS, but not yet on [Tella-FOSS](/faq#is-tella-available-on-f-droid). 
+The Tella Web connection is available on Tella Android and Tella iOS, but not yet on [Tella-FOSS](/faq#is-tella-available-on-f-droid). 
 
 Learn more about Tella Web [here](/tella-web)
 
@@ -56,9 +56,9 @@ Learn more about Tella Web [here](/tella-web)
 Organizations who use Uwazi as a database can connect Tella to one or more of their databases to upload data. All that is required to connect Tella to Uwazi is the Uwazi database URL, and a username and password. The Uwazi database should already have one or more templates configured, which can be downloaded into Tella. Once successfully downloaded, users can easily navigate between their templates to enter details for each new record, even when there is no internet connection. When the data entry is complete, it can be saved as a draft in the Tella app or immediately uploaded to the connected Uwazi database. This enables users who work offline to collect data and upload the information when it is convenient. 
 
 Resources to learn more about Uwazi:
-* video demoing the Uwazi integration [here](/video-tutorials#uwazi).
+* video demoing the Uwazi connection [here](/video-tutorials#uwazi).
 * [More information about how to use Tella with Uwazi](/uwazi).
-* [blogpost from the Uwazi team](https://huridocs.org/2022/07/the-new-tella-app-lets-uwazi-users-document-violations-safely-and-while-offline/) about the integration.
+* [blogpost from the Uwazi team](https://huridocs.org/2022/07/the-new-tella-app-lets-uwazi-users-document-violations-safely-and-while-offline/) about the connection.
 * Uwazi [website](https://uwazi.io/) and [documentation](https://uwazi.readthedocs.io/en/latest/).
 
 
