@@ -1,7 +1,7 @@
 ---
 id: overview
 title: Overview
-description: Learn how organziations can connect servers to Tella.
+description: Learn how organizations can use Tella for research, advocacy, or accountability processes
 slug: /for-organizations
 ---
 
