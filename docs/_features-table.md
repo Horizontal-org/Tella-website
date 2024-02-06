@@ -17,7 +17,7 @@
 | [Camera (photos and videos)](/features#camera-photos-and-videos) | ✔️ | ✔️ | Yes but missing  zoom, flip camera, enable flash and enable grid |
 | [Select video resolution](/features#select-video-resolution) | ✔️ | Not yet | Not yet |
 | [Audio Recorder](/features#audio-recorder)| ✔️ | ✔️ | ✔️ |
-| [Open files in Tella](/features#open-files-in-tella)| Photos, videos, audio | Photos, videos, audio, PDF | Photos, videos, audio |
+| [Open files in Tella](/features#open-files-in-tella)| ✔️ | ✔️ | Photos, videos, audio (not PDF) |
 | [Verification mode](/features#verification-mode)| ✔️ | Not yet | ✔️ |
 | [Quick delete](/features#quick-delete)| Files, Connections and Tella | Files and Connections  | Files, Connections and Tella |
 | [Quick exit](/features#quick-exit)| Locks and close | Locks  | Locks and close  |
