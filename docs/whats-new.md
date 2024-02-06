@@ -14,18 +14,14 @@ To receive monthly updates on new features and improvements to Tella and stay up
 
 ## Tella - Latest Versions {#tella---latest-versions}
 
-### Android: Tella 2.5.0 (170) - Released on January 10, 2024 {#android-tella-250-179---released-on-january-10-2024}
-- **Accessibility Improvements:**
-  - Added new settings to enable/disable text justification and adjust line spacing within the app.
-  - Updated colors to ensure Tella complies with WCAG AAA guidelines for sufficient contrast.
-
-- **Anonymous In-App Feedback:**
-  - Introduced an anonymous [feedback method](/features#feedback) for users. This feature allows users to send messages to the Tella team when they are unable to [contact us](/contact-us) through other channels.
-
-- **Bug fixes and maintenance:**
-  - Addressed a crash issue on the audio recorder.
-  - Resolved navigation issues related to the back button.
-  - Loaded new translations.
+### Android: Tella 2.6.0 (X) - Released on February X, 2024 
+- Added support for PDF files in Tella vault.
+- Bugfixes:
+  - Editing a file inside a folder now saves the copy in the same location.
+  - Fixed crash on back button on the camoufladge menu.
+  - Streamline the flow for renaming an audio recording.
+  - Added alt text on a back button.
+  - Upgraded project dependencies.
 
 
 
@@ -49,6 +45,19 @@ A version of Tella included for the first time on the F-droid store. This a 100%
 
 
 ## Previous versions {#previous-versions}
+
+### Android: Tella 2.5.0 (170) - Released on January 10, 2024 {#android-tella-250-179---released-on-january-10-2024}
+- **Accessibility Improvements:**
+  - Added new settings to enable/disable text justification and adjust line spacing within the app.
+  - Updated colors to ensure Tella complies with WCAG AAA guidelines for sufficient contrast.
+
+- **Anonymous In-App Feedback:**
+  - Introduced an anonymous [feedback method](/features#feedback) for users. This feature allows users to send messages to the Tella team when they are unable to [contact us](/contact-us) through other channels.
+
+- **Bug fixes and maintenance:**
+  - Addressed a crash issue on the audio recorder.
+  - Resolved navigation issues related to the back button.
+  - Loaded new translations.
 
 ### Android: Tella 2.4.1 (165) - released on December 12, 2023  {#android-tella-241-165---released-on-december-12-2023}
 - Fixed a bug that rested user settings when changing the language. 
