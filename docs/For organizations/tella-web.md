@@ -110,36 +110,34 @@ The URL that you'll need to send to the users should look like this `https://you
 :::
 
 
-### Managing Users {#managing-users}
-Only the server’s Admins have access to the "Users" screen on the left bar. This screen displays all the users who have access to this server.
+### Managing users {#managing-users}
+
+### Understanding user roles
+Users are an important part of using Tella Web. There are for different roles available to users:
+- Reporter: this is a user who can connect to the Tella Web project from a Tella mobile app and upload reports. A reporter needs be assigned to a project in order to be able to upload reports. 
+- Viewer: this is a user who, in addition to uploading reports from Tella, can also log into Tella Web to view (but not edit or delete) reports. A viewer needs to be assigned to a specific project to have access.
+- Editor: this is a user who, like viewers, can upload reports from Tella and log into Tella Web, but who can also edit and delete reports. An editor needs to be assigned to a specific project to have access.
+- Admin: an admin can upload reports from Tella and perform all actions on Tella Web, including managing reports, projects, and users. An admin has access to all projects.
+
+Here is a detailed view of each role's permission:
+
+| |Reporter |Viewer|Editor|Admin |
+|--------|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|--|
+|**On Tella mobile**|
+| Create and upload reports | ✅|✅|✅|✅| 
+|**On Tella Web**| 
+| Log in Tella Web  |❌|✅|✅|✅| 
+| View reports  |❌|✅|✅|✅| 
+| Edit reports (rename) |❌|❌|✅|✅| 
+| Delete reports |❌|❌|✅|✅| 
+| Edit projects (create, rename, edit URL) |❌|❌|✅|✅| 
+| Delete projects |❌|❌|✅|✅| 
+| Manage users (create, edit, delete) |❌|❌|❌|✅| 
+| Assign users to project |❌|❌|❌|✅| 
 
 #### Creating users {#creating-users}
 
 On the top bar, above the list of users, server's admin can click on the "Create user" button to create a new user in the server. Email, password, password-confirmation and role are required in order to create users.
-
-| Role | Description |
-|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Admins | an Admin has all permissions and can perform all actions on Reports and Users |
-| Editors | an Editor can perform all actions related to Reports but no action related to Users
-| Viewers | a Viewer has permission to log in Tella Web but can only view Reports. They cannot perform any editing or deleting. 
-| Reporters | a Reporter is a Tella user who has permission to submit Reports to the Tella Web server. A Reporter cannot log in Tella Web.|
-
-
-#### Entities {#entities}
-There are 3 entities for which permissions must be assigned:
-* Report
-* Project
-* User
-
-
-| |Report                                                                 |Project                                                                                |User                                                                             |
-|--------|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-|Notes   |Reports can only be read, edited, deleted on Tella Web (never on Tella)|All actions performed on Projects have to be performed from Tella Web (never on Tella)|All actions performed on Users have to be performed from Tella Web (never on Tella)|
-|Reporter|Read: ❌ Create: ✅ Edit: ❌ Delete: ❌                                    |Read: ❌ Create: ❌ Edit: ❌ Delete: ❌                                                   |Read: ❌ Create: ❌ Edit: ❌ Delete: ❌                                                |                                                        |
-|Viewer  |Read: ✅ Create: ✅ Edit: ❌ Delete: ❌                                    |Read: ✅ Create: ❌ Edit: ❌ Delete: ❌                                                   |Read: ❌ Create: ❌ Edit: ❌ Delete: ❌                                                |                                                      |
-|Editor  |Read: ✅ Create: ✅ Edit: ✅ Delete: ✅                                    |Read: ✅ Create: ✅ Edit: ✅ Delete: ✅                                                   |Read: ❌ Create: ❌ Edit: ❌ Delete: ❌                                                |                                                       |
-|Admin   |Read: ✅ Create: ✅ Edit: ✅ Delete: ✅                                    |Read: ✅ Create: ✅ Edit: ✅ Delete: ✅                                                   |Read: ✅ Create: ✅ Edit: ✅ Delete: ✅                                                |                                                      |
-
 
 On the password field, a password-security-meter helps admins create secure passwords. We estimate password complexity using the [zxcvbn](https://github.com/dropbox/zxcvbn) library which considers:
 - Characters (more than 10)
