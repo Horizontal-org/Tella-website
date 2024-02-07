@@ -22,7 +22,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
   - Fixed crash on back button on the camoufladge menu.
   - Streamline the flow for renaming an audio recording.
   - Added alt text on a back button.
-  - Upgraded project dependencies.
+  - Upgraded project dependencies. Updated [documentation](/faq#what-phones-support-tella) with Android support information.
 
 
 
