@@ -1,7 +1,7 @@
 ---
 id: tella-web
 title: Tella Web
-description: The Reports feature empowers users to conveniently upload photos, videos, and audio recordings to their organization's Tella Web server
+description: The Reports feature empowers users to conveniently upload photos, videos, pdfs and audio recordings to their organization's Tella Web server
 slug: /tella-web
 ---
 
@@ -17,7 +17,7 @@ Similarly to all other connections([Uwazi](/uwazi) and [Open Data Kit](/odk)), c
 3. Allowing users to back up their data on a remote server, to lower the risk that data is discovered on their mobile device.
 4. Ensuring that organizations can preserve important information even in the event of device seizure or destruction, and can organize it to use for research, advocacy, or accountability processes.
 
-Tella Web is a great option to collect "reports" from users. Reports can include photos, videos, audio recordings, and text.
+Tella Web is a great option to collect "reports" from users. Reports can include photos, videos, audio recordings, pdf documents and text.
 
 Setting up Tella Web involves three steps, which are thoroughly discussed in this section:
 
@@ -194,7 +194,7 @@ In order to connect to a Tella Web server:
 * Once connected to at least one Tella Web project, a "Reports" card will appear in the "Connections" section of the homescreen. Tap on this card to start creating reports.
 * The main reports screen allows navigation between the Drafts, Outbox, and Submitted tabs.
 * Tap the "New report" button at the bottom of the screen to create a new report.
-    * On the "New report" screen you can fill in the report's details, including title, description, and optional attachments of photos, videos, and audio recordings.
+    * On the "New report" screen you can fill in the report's details, including title, description, and optional attachments of photos, videos, pdf documents and audio recordings.
     * If you are connected to multiple Tella Web projects, you will be able to select at the top of the screen which project to submit the report to.
 * Use the "Save draft" button (on the top right of the screen) to save the report as a draft without leaving the "New report" screen. 
     * In order to be able to save as a draft, you need to at least enter the report’s title.
