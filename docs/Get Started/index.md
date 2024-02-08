@@ -4,14 +4,15 @@ title: Get Started
 description: Quick start guide for Tella users on iOS and Android
 slug: /get-started
 ---
-import DocCardList from '@theme/DocCardList';
 
+import DocCard from '../../src/components/DocCard.js';
 
 # Get started with Tella
 
-In this guide, we’ll show you how to quickly get started on Tella to protect your files and data:
 
-Please choose your mobile platform:
-
-<DocCardList/>
+<div class="doc-card-list">
+    <DocCard title="Android Guide" description="Quick start guide for Tella users on Android" link="/get-started-android" />
+    <DocCard title="iOS Guide" description="Quick start guide for Tella users on iPhone" link="/get-started-ios" />
+    <DocCard title="Video Tutorials" description="Video tutorials with information on how to set up Tella" link="/video-tutorials" />
+</div>
 

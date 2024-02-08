@@ -1,7 +1,7 @@
 ---
 id: translating-tella
 title: Translating Tella
-description: Details about how to get involved in Tella's translation.
+description: Information on how to help translating Tella
 slug: /translating-tella
 ---
 import TellaLanguages from '.././_tella-languages.md';
