@@ -20,7 +20,7 @@ Currently, Tella can be connected to the following types of servers:
 These are called [Connections](/features#connecting-to-servers) in Tella.
 
 
-## Selecting the right type of server {#how-to-choose}
+## Selecting the right type of server {#selecting-the-right-type-of-server}
 
 The following is a basic, non-comprehensive graph to help determine which of the three server types is best suited to different needs. This is a good starting point, but you can also [this video](/video-tutorials#connections-full-video) where we present each server type. If you need help deciding or would like to request a new Connection (an integration to a new server type), [contact us!](/contact-us)
 

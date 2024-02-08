@@ -112,7 +112,7 @@ The URL that you'll need to send to the users should look like this `https://you
 
 ### Managing users {#managing-users}
 
-### Understanding user roles
+### Understanding user roles {#understanding-user-roles}
 Users are an important part of using Tella Web. There are for different roles available to users:
 - Reporter: this is a user who can connect to the Tella Web project from a Tella mobile app and upload reports. A reporter needs be assigned to a project in order to be able to upload reports. 
 - Viewer: this is a user who, in addition to uploading reports from Tella, can also log into Tella Web to view (but not edit or delete) reports. A viewer needs to be assigned to a specific project to have access.

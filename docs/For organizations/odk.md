@@ -36,7 +36,7 @@ ODK and KoboToolbox are widely used, well-documented, and easy to use. There are
 
 KoboToolbox offers a detailed guide on how to create your project and add questions to your forms, and how to deploy them to make them available to on-the-ground users [here](https://support.kobotoolbox.org/overview_of_creating_a_project.html).
 
-## Connect Tella to an ODK Instance to Collect Data {#connect-to-an-odk-server-to-collect-data}
+## Connect Tella to an ODK Instance to Collect Data {#connect-tella-to-an-odk-instance-to-collect-data}
 
 In this documentation, we focus on how to collect data using Tella. There are alternative mobile apps that can be used to collect data on ODK, including the ODK Collect Android app. You can see a comparison of these alternatives [here](/faq#how-is-tella-different-from-other-documentation-apps).
 

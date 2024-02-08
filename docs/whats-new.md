@@ -15,19 +15,21 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 2.6.0 (X) - Released on February X, 2024 
-- Added support for PDF files in Tella vault.
+### Android: Tella 2.6.0 (172) - Released on February 8, 2024 {#android-tella-260-172---released-on-february-8-2024}
+- Added support for PDF files in Tella vault and as attachments on Tella Web's Reports.
 - Bugfixes:
   - Editing a file inside a folder now saves the copy in the same location.
-  - Fixed crash on back button on the camoufladge menu.
+  - Fixed crash on back button on the camouflage menu.
   - Streamline the flow for renaming an audio recording.
   - Added alt text on a back button.
   - Upgraded project dependencies. Updated [documentation](/faq#what-phones-support-tella) with Android support information.
 
 
 
-### iOS: Tella 1.5.0 (X) - released on January X, 2024 {#ios-tella-150-x---released-on-january-x-2024}
-- **Uwazi server connection**: We added the possibility for users to connect to an Uwazi server to send the data they collect using Tella. We include Text, Date, Rich Text, Media and Select fields. 
+### iOS: Tella 1.5.0 (62) - released on February 8, 2024 {#ios-tella-150-62---released-on-february-8-2024}
+- **Uwazi server connection**: We added the possibility for users to connect to an Uwazi server to send the data they collect using Tella. We include Text, Numeric, Date, Rich Text, Media and Select fields. You can read more details about the new server connection and the supported features and properties on the [Uwazi documentation page.](/uwazi).
+- Improved the confirmation message when deleting multiple files and folders.
+- Added language support: Portuguese and Russian.
 
 
 
@@ -64,7 +66,7 @@ A version of Tella included for the first time on the F-droid store. This a 100%
   - Loaded new translations.
 
 
-### Android: Tella 2.4.1 (165) - released on December 12, 2023  {#android-tella-241-165---released-on-december-12-2023}
+### Android: Tella 2.4.1 (165) - released on December 12, 2023 {#android-tella-241-165---released-on-december-12-2023}
 - Fixed a bug that rested user settings when changing the language. 
 
 ### Android: Tella 2.4.0 (164) - released on November 2, 2023 {#android-tella-240-164---released-on-november-2-2023}
