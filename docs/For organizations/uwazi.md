@@ -31,9 +31,13 @@ Uwazi does not have an official mobile app, so by integrating Uwazi and Tella, y
 
 You can learn more about Uwazi on [Uwazi's official documentation](https://uwazi.readthedocs.io/en/latest/). HURIDOCS is a great friend of Horizontal, so if you have questions about Uwazi or would like us to connect you to the HURIDOCS team, [contact-us](contact-us).
 
-## Install Uwazi on a server {#install-uwazi-on-a-server}
+## Configure Uwazi on a server {#configure-uwazi-on-a-server}
 
-The HURIDOCS team created a comprehensive administrator guide with step-by-step instructions to install Uwazi on your server, configure backups, and set up advanced features. We recommend you share [this guide](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html) with your system administrator.
+
+The HURIDOCS team offers 2 alternatives on how to set up your uwazi server:
+
+1. Self-hosted: Share this [comprehensive administrator guide](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html) with your system's administrator for step-by-step instructions on how to install Uwazi on your server, configure backups, and set up advanced features. 
+2. Hosted by HURIDOCS: HURIDOCS offer hosting packages as a service. Free hosting services  (up to a storage limit) and a trial version of Uwazi are available for human rights organizations. [Reach out to HURIDOCS](https://huridocs.org/services/) for more details about the service.  
 
 ## Model Your Data {#model-your-data}
 
