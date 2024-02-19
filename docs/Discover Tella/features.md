@@ -1,6 +1,6 @@
 ---
 id: features
-title: Feature descriptions
+title: Tella features
 description: A detailed description of Tella features.
 slug: /features
 ---
@@ -74,7 +74,7 @@ On iOS screen security only blocks screen recordings inside Tella and blocks the
 Learn more about Tella Additional Security Features in our [video tutorial](/video-tutorials#additional-security-features)
 :::
 
-### Restrict unlocking attempts {#restrict-unlocking-attempts}
+## Restrict unlocking attempts {#restrict-unlocking-attempts}
 By going to **Settings ⚙️** > **Security** > **Delete after Failed Unlock**, the user can decide how many failed unlock attempts are allowed before everything inside Tella is deleted.
 
 By default, this setting is Off, which means unlock attempts are not restricted and data won't be deleted. The user can choose to restrict unlocking attempts to 5, 10, or 20. If they choose any of these options, they can also select whether to display a visual indicator on the unlock screen 3 attempts before the specified number (3 attempts remaining, 2 attempts remaining, etc.), or to show no visual indicator at all.
@@ -86,7 +86,7 @@ While this security setting prevents brute force unlocking attempts to enter Tel
 :::
 
 ## Edit Media {#edit-media}
-We are in the process of adding the ability to edit media files directly within Tella. Soon, users will no longer need to export their files outside Tella for editing. Tella 2.4.0 for Android kick things off with photo editing capabilities (crop and rotate). On the next releases for Android and iOS we will also add audio and video editing functionalities.
+We are in the process of adding the ability to edit media files directly within Tella. Soon, users will no longer need to export their files outside Tella for editing. Tella 2.4.0 for Android kick things off with photo editing capabilities (crop and rotate). 
 
 Users can edit a picture by going to **More** > **Edit** from the **Images** folder or by taping the **Edit** button on the top right while viewing image you have on Tella. On the Edit Image screen users can use the **Rotate** button on the bottom of the screen to rotate the image counter-clock wise or pinch and expand or contracts your fingers to move the white canvas to crop the picture. When edits are done, users can press the orange check on the top right of the edit screen.
 
@@ -108,6 +108,10 @@ If the user forgets their lock, there is no way of gaining access to the app and
 
 :::tip Video  tutorial 🎥
 Learn more about Locks and Encryption in our [video tutorial](/video-tutorials#tella-locks)
+:::
+
+:::info 
+Technnical details about encryption can be found on the [Security and Privacy](/security-and-privacy) section.
 :::
 
 ## File management {#file-management}
@@ -163,8 +167,9 @@ Learn more about [Collecting Evidence](video-tutorials#collecting-evidence) and 
 On **Settings** > **Security** users have the option to Preserve or delete the file's metadata when importing Photos and Videos to Tella. EXIF metadata of files migth include data about when the file was created, camara settings or location of the device.
 
 ## Open files in Tella {#open-files-in-tella}
+Images, videos, PDFs and audios can be visualized inside Tella. 📱📄
 
-On Tella Android only images, videos and audios can be visualized inside Tella. Other files, like PDFs, must be exported to be opened. For iOS it is possible to visualize images, videos, audios and PDF files. 📱📄
+On Tella FOSS, PDFs must be exported to be opened. 
 
 ## Camouflage {#camouflage}
 
@@ -264,7 +269,7 @@ Currently the servers that can be connected to Tella are:
 
 * [Tella Web](/tella-web)
 * [Open Data Kit (ODK)](/for-organizations#open-data-kit-odk)
-* [Uwazi](/for-organizations#uwazi)
+* [Uwazi](/uwazi)
 
 :::tip Video tutorial 🎥
 Learn more about [Connecting to Servers](/video-tutorials#server-connections) in our video tutorials. 

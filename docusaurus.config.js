@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 require('dotenv').config();
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer').themes.github;
+const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Tella', // Usually your GitHub org/user name.
-  projectName: 'tella-docusaurus ', // Usually your repo name.
+  projectName: 'Tella website', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
@@ -32,6 +32,9 @@ const config = {
     locales: ['en'],
   },
 
+  markdown: {
+    mermaid: true,
+  },
 
   presets: [
     [
@@ -42,13 +45,11 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           sidebarCollapsible: true,
-          // Please change this to your repo.
-          //editUrl:
-            //"https://github.com/Horizontal-org/Tella-Docs/tree/main/",
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        blog: false,
       }),
     ],
   ],
@@ -210,16 +211,19 @@ const config = {
 
     themes: [
     [
+      '@docusaurus/theme-mermaid',({})
+    ],
+    [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
       ({
         indexPages: true,
+        searchResultLimits: 8,
         highlightSearchTermsOnTargetPage: true,
-        searchResultLimits: 12,
-        searchBarShortcutHint: false,
         explicitSearchResultPath: true,
         // `hashed` is recommended as long-term-cache of index file is possible.
-        hashed: true,
+        hashed: false,
+        docsRouteBasePath: '/',
         // For Docs using Chinese, The `language` is recommended to set to:
         // ```
         // language: ["en", "zh"],

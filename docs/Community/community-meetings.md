@@ -1,7 +1,7 @@
 ---
 id: community-meetings
 title: Community Meetings
-description: Details about monthly Tella community calls.
+description: Details about monthly Tella community calls
 slug: /community-meetings
 ---
 
@@ -27,7 +27,7 @@ Community calls are held on the first Wednesday of each month at 3pm GMT.
 
 Our community calls take place on Jitsi, a privacy-friendly, open-source video calling platform.
 
-You can join the call using this link: <https://meet.jit.si/moderated/72928f9f16445dfc04dfbba14cb65fecd979f68cb053ddae3cc936192063471f>
+You can join the call using this link: [https://meet.jit.si/moderated/72928f9f16445dfc04dfbba14cb65fecd979f68cb053ddae3cc936192063471f](https://meet.jit.si/moderated/72928f9f16445dfc04dfbba14cb65fecd979f68cb053ddae3cc936192063471f)
 
 ### Safety and privacy {#safety-and-privacy}
 

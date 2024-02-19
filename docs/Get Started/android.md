@@ -14,7 +14,7 @@ You have several options to download Tella:
 - Download it from the [F-droid store](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
 - Download and install it manually as an .apk file [in this folder](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ) or from our Telegram channel: https://t.me/tellaapp. 
 
-If you need help to install the app manually, you can [follow this guide](/video-tutorials#manual-installation-of-tella) or contact us at contact@tella-app.org.
+If you need help to install the app manually, you can [follow this guide](/video-tutorials#manual-installation-of-tella) or [contact us](/contact-us).
 
 <div class="gifs">
     <img src="/img/getting-started/android/find-tella.gif" alt="gif that shows how to download Tella from the Play Store" title="find and download gif" />
@@ -65,7 +65,7 @@ After granting permissions, you’re ready to start collecting documentation. We
 
 
 
-**Import your files to Tella.** Go to any of the folders inside Tella and tap the + Button > Import from device. Choose the file you’d like to keep inside Tella and a copy of the file will be stored encrypted and hidden on Tella. You will be asked to  chose if you want to delete or keep the original file from your device. Tella will be unlocked while you choose your files for a maximum of three (3) minutes.
+**Import your files to Tella.** Go to any of the folders inside Tella and tap the **+** Button > **Import from device**. Choose the file you’d like to keep inside Tella and a copy of the file will be stored encrypted and hidden on Tella. You will be asked to  chose if you want to delete or keep the original file from your device. Tella will be unlocked while you choose your files for a maximum of three (3) minutes.
 
 <div class="gifs">
     <img src="/img/getting-started/android/import.gif" alt="gif that shows how to import files in Tella" title="import files in Tella" />
@@ -73,12 +73,13 @@ After granting permissions, you’re ready to start collecting documentation. We
 
 
 
-**Create folders.** To make it easier to find your files, you can organize files into folders. Go to All files > + Button > Create a new folder and type a descriptive name for the folder. Then use the Select multiple button at the top of the screen, choose the files you want to move to the new folder, then click the three (3) dots button and Move to a different folder, navigate the file structure to find the folder and then press Move here. 
+**Create folders.** To make it easier to find your files, you can organize files into folders. Go to **All files** > **+** > **Create a new folder** and type a descriptive name for the folder. Then use the Select multiple button at the top of the screen, choose the files you want to move to the new folder, then click the three (3) dots button and Move to a different folder, navigate the file structure to find the folder and then press Move here. 
 
 <div class="gifs">
     <img src="/img/getting-started/android/folders-rename.gif" alt="gif that shows how to organize your info in Tella" title="organize files in Tella" />
 </div>
 
+**Rename files:** Another way to keep your data organized is to rename files to be more descriptive. By default files receive an auto-generated name. You can change it by clicking on the **three (3) dots** that are next to each filename and then tap **Rename**.
 
 
 
@@ -86,7 +87,8 @@ After granting permissions, you’re ready to start collecting documentation. We
 ## Camouflage Tella {#camouflage-tella}
 It is possible to camouflage Tella to hide it on your device in two ways:
 - You can change the name and icon of the app, to make it look like another app (like a game or weather app). There are 28 names and icons available to hide Tella.
-- You can hide Tella behind a fully functional calculator. We developed 4 different themes to match your phone's default and help hiding Tella. In order to open Tella, the user must input their PIN into the calculator followed by =. The Calculator camouflage is only possible if the user uses a PIN lock. It is not possible to camouflage Tella as a Calculator if pattern or password is used.
+- You can hide Tella behind a fully functional calculator. We developed 4 different themes to match your phone's default and help hiding Tella. In order to open Tella, the user must input their PIN into the calculator followed by **=**. The Calculator camouflage is only possible if the user uses a PIN lock. It is not possible to camouflage Tella as a Calculator if pattern or password is used.
+Read more about Camouflage [here](/features#camouflage).
 
 <div class="gifs">
     <img src="/img/getting-started/android/camouflage-icon.gif" alt="gif that shows how camouflage Tella by changing its name and icon" title="camouflage Tella changing its icon" />
@@ -96,7 +98,7 @@ It is possible to camouflage Tella to hide it on your device in two ways:
 
 
 ## Share your information. {#share-your-information}
-To share information using Tella you can use the Share button. Just select the file or files you want to share, press Share and choose the app you want to share the files with. 
+To share information using Tella you can use the **Share** button. Just select the file or files you want to share, press **Share** and choose the app you want to share the files with. 
 
 Take into account that Tella will share the files unencrypted, so make sure to use disappearing messages (for example on WhatsApp or Signal) or delete the messages after the other person receives them.
 
@@ -108,40 +110,41 @@ Take into account that Tella will share the files unencrypted, so make sure to u
 
 ## Go Further {#go-further}
 ### Connect to a server {#connect-to-a-server}
-Tella can be connected to a variety of back-end services. This is used by organizations to allow their members or partners to submit data and files to a secure remote location. If you are considering connecting to a server and have doubts about what server to choose or how to connect to it we are here to help: please write to contact@tella-app.org.
+Tella can be connected to a variety of back-end services. This is used by organizations to allow their members or partners to submit data and files to a secure remote location. If you are considering connecting to a server and have doubts about what server to choose or how to connect to please look at [our documentation for organizations](/for-organizations) or [contact us](/contact-us), we are here to help!
 
 
 
-### Open Data Kit {#open-data-kit}
+#### Open Data Kit {#open-data-kit}
 
-The [Open Data Kit (ODK)](https://getodk.org/) is an open standard used to create custom forms and collect data. Because ODK is an open standard, Tella can be used with any of the tools that are ODK-compliant, like [Ona](https://ona.io/home/) or [KoboToolbox](https://www.kobotoolbox.org/), to create forms with custom questions, manage users, and aggregate the data submitted by users. We recommend using [KoboToolbox](https://www.kobotoolbox.org/) because it is open-source and is user-friendly. Kobotoolbox has a free, publicly available server [here](https://kf.kobotoolbox.org/) or it can be self-hosted. [Here you can read more about Kobotoolbox and the features we support](https://tella.slite.com/app/docs/r7vxebjDQ3TAWE).
+The [Open Data Kit (ODK)](https://getodk.org/) is an open standard used to create custom forms and collect data. Because ODK is an open standard, Tella can be used with any of the tools that are ODK-compliant, like [Ona](https://ona.io/home/) or [KoboToolbox](https://www.kobotoolbox.org/), to create forms with custom questions, manage users, and aggregate the data submitted by users. 
 
-If you are using Kobotoolbox, [first create an account here](https://kf.kobotoolbox.org/accounts/login/), and then create and deploy a Form. In Tella go to Settings > Servers > Add Server > Open Data Kit (ODK). Give your server a name and type kc.kobotoolbox.org as the server URL field.  Enter your username and password on the Advanced section in order to load your Forms.
+We wrote documentation about how to connect to an Open Data Kit server and we recommend you to read [this page](/odk) to get started.
+
 
 <div class="gifs">
     <img src="/img/getting-started/android/kobo.gif" alt="gif that shows ODK connection" title="ODK connection" />
 </div>
 
-### Uwazi {#uwazi}
-[Uwazi](https://uwazi.io/) is an open-source app made by HURIDOCS with powerful features to collect, organize, and visualize human rights data. Uwazi must be installed on a server. Uwazi does not have a user facing public instance, but you can try Uwazi functionality using the [Uwazi Demo server](https://demo.uwazi.io/). If you decide to use Uwazi and need help to deploy your instance, please contact us contact@tella-app.org.
+#### Uwazi {#uwazi}
+[Uwazi](https://uwazi.io/) is an open-source app made by HURIDOCS with powerful features to collect, organize, and visualize human rights data.
+
+We wrote documentation about how to connect to an Open Data Kit server and we recommend you to read [this page](/uwazi) to get started.
 
 <div class="gifs">
     <img src="/img/getting-started/android/uwazi.gif" alt="gif that shows Uwazi connection" title="Uwazi connection" />
 </div>
 
-### Tella Web {#tella-web}
+#### Tella Web {#tella-web}
 Tella Web is an open-source tool that enables individuals and organizations to centralize and manage reports sent by Tella users, including photos, videos, and audio files. 
 
 Read more about Tella Web [here](/tella-web) or watch a [video tutorial](/video-tutorials#tella-web).
 
 
 
+### Read more about Tella {#read-more-about-tella}
+- [Features](/features): Learn more about how Tella can keep you safe and the threats that Tella does _not_ protect you from.
+- [Connections](/for-organizations): Learn about how you can connect to a server to collect data or backup files.
+- [Security and privacy](/security-and-privacy): We only collect the minimum amount of data necessary and never collect any personally identifiable information. Read the full privacy policy [here](/privacy).
 
-
-## Read more about Tella {#read-more-about-tella}
-- [Features and security](/security-and-privacy): Learn more about how Tella can keep you safe and the threats that Tella does not protect you from.
-- [Connections](/get-started-android#connect-to-a-server): Learn about how you can connect to a server to collect data or backup files.
-- [Privacy policy](/privacy): We only collect the minimum amount of data necessary and never collect any personally identifiable information. Read the full privacy policy here.
-
-### Contact us if you need help {#contact-us-if-you-need-help}
-If you need help to understand Tella’s technical details and security considerations to decide if it’s right for you and your team, we are here to help. Just reach out via email at contact@tella-app.org so we can answer your questions or plan to host a training or a live Q&A session for your team.
+#### Contact us if you need help {#contact-us-if-you-need-help}
+If you need help to understand Tella’s technical details and security considerations to decide if it’s right for you and your team, we are here to help. Just [reach out to us](/contact-us) so we can answer your questions or plan to host a training or a live Q&A session for your team.
