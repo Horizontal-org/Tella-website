@@ -32,8 +32,10 @@ graph TD;
     id3 --> id5("Tella Web");
     id4 --> id6("Establish relationships between data points, publish to a website")
     id4 --> id7("Add logic to forms, collect high numbers for forms, create reports to visualize results")
+    id4 --> id10("Send guides from the server to users")
     id6 --> id8("Uwazi")
     id7 --> id9("Open Data Kit (ODK)")
+    id10 -->id5
 ```
 
 ### Tella Web {#tella-web}
@@ -43,6 +45,8 @@ Tella Web is an open-source tool that enables individuals and organizations to c
 It is not the web equivalent of the mobile app; rather, it is a tool specifically designed for centralizing and managing reports sent through Tella in the simplest way possible. With Tella Web, you can create projects, which function like folders where Tella users can submit reports. For instance, you can create projects for specific geographic areas or themes such as police violence, gender-based violence, and environmental abuse. On Tella Web, you can also manage users who have the ability to upload reports to each project, assign different roles, and set permissions.
 
 Tella Web is developed internally by our team at Horizontal, the same team responsible for developing Tella's mobile apps. It is a user-friendly solution for managing reports in a safe and private manner. We can provide support for the installation and configuration of a Tella Web server if you don't have someone within your organization who can maintain it.
+
+The Tella Web server connection also allows users to securely dowload guides, resources and information from the server directly to Tella's encrypted container.
 
 The Tella Web connection is available on Tella Android and Tella iOS, but not yet on [Tella-FOSS](/faq#is-tella-available-on-f-droid). 
 

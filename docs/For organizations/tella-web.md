@@ -9,7 +9,9 @@ slug: /tella-web
 
 Tella Web is an open-source tool that enables individuals and organizations to centralize and manage reports sent by Tella users, including photos, videos, and audio files. 
 
-Tella Web is developed internally by our team at Horizontal, the same team responsible for developing Tella's mobile apps. It is a user-friendly solution for backing up media files to a remote server in a safe and private manner. We can provide support for the installation, configuration, and maintenance of a Tella Web instance if you don't have someone within your organization who can do it.
+Tella Web is developed internally by our team at Horizontal, the same team responsible for developing Tella's mobile apps. It is a user-friendly solution for backing up media files to a remote server in a safe and private manner. Using a Tella Web server also allows users to pull data (guides, instructions, important messages etc) from the server directly to their Tella 
+
+We can provide support for the installation, configuration, and maintenance of a Tella Web instance if you don't have someone within your organization who can do it.
 
 Similarly to all other connections([Uwazi](/uwazi) and [Open Data Kit](/odk)), connecting to Tella Web enhances the security of data collected on Tella by:
 1. Allowing users to collect data directly inside Tella's encrypted container.
@@ -17,13 +19,14 @@ Similarly to all other connections([Uwazi](/uwazi) and [Open Data Kit](/odk)), c
 3. Allowing users to back up their data on a remote server, to lower the risk that data is discovered on their mobile device.
 4. Ensuring that organizations can preserve important information even in the event of device seizure or destruction, and can organize it to use for research, advocacy, or accountability processes.
 
-Tella Web is a great option to collect "reports" from users. Reports can include photos, videos, audio recordings, pdf documents and text.
+Tella Web is a great option to collect "reports" from users. Reports can include photos, videos, audio recordings, pdf documents and text. Organizations can also upload PDFs to each Tella Web project and users can access these resources directly from their Tella vault.
 
 Setting up Tella Web involves three steps, which are thoroughly discussed in this section:
 
 * **Install Tella Web**: This step entails installing the Tella Web server and configuring the domain name to ensure its proper functioning.
-* **Set up your project(s) on your server**: In this step, admins decide how to organize themselves to collect data, create “projects”, and set roles and permissions for their users.
+* **Set up your project(s) on your server**: In this step, admins decide how to organize themselves to collect data, create "projects", add "resources" for users to download on their devices and and set roles and permissions for users.
 * **Get people on the ground ready to start submitting reports**: Users install Tella on their Android or iPhone device. They then connect to the Tella Web project and start collecting information.
+
 
 
 ## Install the server {#install-the-server}
@@ -117,7 +120,7 @@ Users are an important part of using Tella Web. There are for different roles av
 - Reporter: this is a user who can connect to the Tella Web project from a Tella mobile app and upload reports. A reporter needs be assigned to a project in order to be able to upload reports. 
 - Viewer: this is a user who, in addition to uploading reports from Tella, can also log into Tella Web to view (but not edit or delete) reports. A viewer needs to be assigned to a specific project to have access.
 - Editor: this is a user who, like viewers, can upload reports from Tella and log into Tella Web, but who can also edit and delete reports. An editor needs to be assigned to a specific project to have access.
-- Admin: an admin can upload reports from Tella and perform all actions on Tella Web, including managing reports, projects, and users. An admin has access to all projects.
+- Admin: an admin can upload reports from Tella and perform all actions on Tella Web, including managing reports, projects, resources and users. An admin has access to all projects.
 
 Here is a detailed view of each role's permission:
 
@@ -134,6 +137,12 @@ Here is a detailed view of each role's permission:
 | Delete projects |❌|❌|✅|✅| 
 | Manage users (create, edit, delete) |❌|❌|❌|✅| 
 | Assign users to project |❌|❌|❌|✅| 
+| Create resources to the space |❌|❌|❌|✅| 
+| Add/remove resources to project  |❌|❌|✅|✅| 
+| View resources assigned a project   |❌|✅|✅|✅| 
+
+
+
 
 #### Creating users {#creating-users}
 
@@ -155,6 +164,40 @@ After selecting the users to add to the project, click the "Add" button to save 
 :::info
 The full list of users who can submit reports to the project includes the users listed on this section plus all the server administrators
 :::
+
+### Managing resources {#managing-resources}
+
+Tella Web allow organizations to securely disseminate resources and materials to their
+users directly within Tella’s encrypted container. Resources can be used to submit instructions for data collection, messages or guides on how to collect data. 
+
+#### Creating resources to the space {#creating-resources-to-the-space}
+
+Admins can create resources to the space by navigating to the **Resources** left hand sidebar. For the moment resources can be created by uploading PDFs. We recommend keeping those smaller than 20MB to make sure users can download those even if internet is slow.
+
+Resources are shared within the space. Keep in mind that resources are only available to users after adding those to specific projects. 
+
+On the same screen, space admins can manage resources. The following options are available
+- Dowload resources individually or dowloading multiple resources.
+- Open each resource to view it.
+- Find out on which projects each resource is added to by tapping on Preview
+- Delete a resource from the space.
+
+:::info
+If your organization need other type of Resources or if you experience problems with the format or size limits please [contact us](/contact-us).
+:::
+
+#### Adding resources to projects {#adding-resources-to-projects}
+
+Admins and editors can add resources available on the space to projects they have access to. There are two shortcuts to do so:
+1. By navigating to the **Manage Access** on the **Settings** section of each project.
+2. By tapping the **Resources** icon on each project's card on the Homescreen of Tella Web.
+
+To add resourcs to projects tap on the **Add resources** button and search available resources by name. One or many resources can be added to the project at the same time.
+
+All users that connets to this project from their Tella apps will see a Resources card available and they can dowload this Resource to their encrypted container.
+
+Tella Web does not keep track of any information about resources downloads.
+
 
 ## Get people on the ground ready to start submitting reports {#get-people-on-the-ground-ready-to-start-submitting-reports}
 
@@ -188,6 +231,16 @@ In order to connect to a Tella Web server:
 * In **Settings ⚙️** > **Servers** >  **[Project name]** > 3-dots, you can:
     * Edit: Opens an "edit server" screen where you can view the project's name, URL, and your username, and edit advanced features.
     * Delete: Deletes the connection, including all server information and all draft and submitted reports stored in Tella. This will not affect any report that was already submitted to the server.
+
+#### Pull Resources from your space {#pull-resources-from-your-space}
+
+Once connected to at least one Tella Web project, a **Resources** card will appear in the "Connections" section of the homescreen. Tap on this card to view and download any guides, instructions or messages your organization admins have made available to you in any of the projects you are connected to.
+
+On the **Available for download** section of the Resources screen you will see a card for each of the resources that have been shared with you. Tap on the **Download icon** (📥) to pull this resource from your organization's space and be able to access those on the **Downloaded** section, even offline. You can **View** each PDF by tapping on the card and you can **Remove from downloads** if you want to free up space on you Tella vault. You can always re-download those when needed.
+
+Use the **Refresh** button on the top right to pull new resouces from your organization space. 
+
+Once you disconnect from a Tella Web project all asociated resouces will be removed from your Resouces screen.
 
 #### Create a Manual Report {#create-a-manual-report}
 
