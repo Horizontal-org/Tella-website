@@ -24,7 +24,7 @@ Tella Web is a great option to collect "reports" from users. Reports can include
 Setting up Tella Web involves three steps, which are thoroughly discussed in this section:
 
 * **Install Tella Web**: This step entails installing the Tella Web server and configuring the domain name to ensure its proper functioning.
-* **Set up your project(s) on your server**: In this step, admins decide how to organize themselves to collect data, create "projects", add "resources" for users to download on their devices and and set roles and permissions for users.
+* **Set up your project(s) on your server**: In this step, admins decide how to organize themselves to collect data, create "projects", add "resources" for users to download on their devices and set roles and permissions for users.
 * **Get people on the ground ready to start submitting reports**: Users install Tella on their Android or iPhone device. They then connect to the Tella Web project and start collecting information.
 
 
@@ -177,7 +177,7 @@ Admins can create resources to the space by navigating to the **Resources** left
 Resources are shared within the space. Keep in mind that resources are only available to users after adding those to specific projects. 
 
 On the same screen, space admins can manage resources. The following options are available
-- Dowload resources individually or dowloading multiple resources.
+- Download resources individually or downloading multiple resources.
 - Open each resource to view it.
 - Find out on which projects each resource is added to by tapping on Preview
 - Delete a resource from the space.
@@ -194,7 +194,7 @@ Admins and editors can add resources available on the space to projects they hav
 
 To add resourcs to projects tap on the **Add resources** button and search available resources by name. One or many resources can be added to the project at the same time.
 
-All users that connets to this project from their Tella apps will see a Resources card available and they can dowload this Resource to their encrypted container.
+All users that connets to this project from their Tella apps will see a Resources card available and they can download this Resource to their encrypted container.
 
 Tella Web does not keep track of any information about resources downloads.
 

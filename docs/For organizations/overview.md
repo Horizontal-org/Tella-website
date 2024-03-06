@@ -46,7 +46,7 @@ It is not the web equivalent of the mobile app; rather, it is a tool specificall
 
 Tella Web is developed internally by our team at Horizontal, the same team responsible for developing Tella's mobile apps. It is a user-friendly solution for managing reports in a safe and private manner. We can provide support for the installation and configuration of a Tella Web server if you don't have someone within your organization who can maintain it.
 
-The Tella Web server connection also allows users to securely dowload guides, resources and information from the server directly to Tella's encrypted container.
+The Tella Web server connection also allows users to securely download guides, resources and information from the server directly to Tella's encrypted container.
 
 The Tella Web connection is available on Tella Android and Tella iOS, but not yet on [Tella-FOSS](/faq#is-tella-available-on-f-droid). 
 
