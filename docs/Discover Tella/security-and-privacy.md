@@ -70,7 +70,7 @@ There is no such thing as an app that is 100% "secure". Security is dependent on
 
 ## Security audits {#security-audits}
 
-We regularly ask independent security firms to audit our code to ensure it is robust and secure. You can see the full reports from these audits [on this page](https://drive.google.com/file/d/11mPB2KZLHb6blmNuk_qyXYcn4BSVYNFT/view?usp=sharing). This is the summary from the latest audit and the current implementation status:
+We regularly ask independent security firms to audit our code to ensure it is robust and secure. You can see the full reports from these audits [on this page](<./../assets/2023.05 - Tella security audit - Final report.pdf>). This is the summary from the latest audit and the current implementation status:
 
 
 | Title                                               | Severity    | Status      |
