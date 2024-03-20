@@ -32,6 +32,28 @@ If the user loses their lock, it is not possible to regain access to Tella and t
 Learn more about Tella Locks in our [video tutorial](/video-tutorials#tella-locks) 
 :::
 
+## Background encryption {#background-encryption}
+
+Tella [encrypts](#encryption) files in the background so that users can continue performing actions (take more photos or videos, import more files, etc) inside Tella. 
+
+To let users know about background activities, we added a Background Tray that's accesible on the Tella homescreen, by tapping on the "bell" icon on the top left. We moved the Setting to the bottom navigation bar.
+
+While files are being encrypted, Tella displays an orange marker on the bell icon. If the user taps on that icon tray while encryption is ongoing they will see the list of files in the queue.
+
+QUESTION: do tella remains unlocked while encryption is in progress? (for example if the screeen goes to sleep?)
+
+QUESTION: if users minimize tella while an encryption is in progress, do they loose the file?)
+
+
+:::danger
+If the user hard exit Tella (for example by using [Quick Exit](/quick-exit)) while files are being encrypted in the background, those might be lost.
+:::
+
+:::info
+Background encryption is not available yet on Tella Android or Tella FOSS.
+:::
+
+
 ## Lock timeout configuration {#lock-timeout-configuration}
 
 By default Tella will lock immediately every time the user exits the app or your phone’s screen turns off. If you’d like to change this setting, the user  can do so by going to 
