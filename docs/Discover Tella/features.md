@@ -34,11 +34,9 @@ Learn more about Tella Locks in our [video tutorial](/video-tutorials#tella-lock
 
 ## Background encryption {#background-encryption}
 
-Tella [encrypts](#encryption) files in the background so that users can continue performing actions (take more photos or videos, import more files, etc) inside Tella. 
+Tella [encrypts](#encryption) files in the background so that users can continue performing actions (take more photos or videos, import more files, etc) while the process takes place. To let users know about ongoing activities, we added a **Background tray**that's accesible on the Tella homescreen, by tapping on the "notifications"(🔔) icon on the top left. The "Settings" is now on the bottom navigation bar.
 
-To let users know about background activities, we added a Background Tray that's accesible on the Tella homescreen, by tapping on the "bell" icon on the top left. We moved the Setting to the bottom navigation bar.
-
-While files are being encrypted, Tella displays an orange marker on the bell icon. If the user taps on that icon tray while encryption is ongoing they will see the list of files in the queue.
+While files are being encrypted, Tella displays an orange marker on the notifications icon. If the user taps on that icon tray while encryption is ongoing they will see the list of files in the queue and will be able to check the encryption progress.
 
 QUESTION: do tella remains unlocked while encryption is in progress? (for example if the screeen goes to sleep?)
 

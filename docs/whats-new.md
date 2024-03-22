@@ -25,8 +25,11 @@ To receive monthly updates on new features and improvements to Tella and stay up
   - Upgraded project dependencies. Updated [documentation](/faq#what-phones-support-tella) with Android support information.
 
 
-### iOS: Tella 1.5.1 (63) - released on March 8, 2024 {#ios-tella-151-63---released-on-march-8-2024}
-- Fixed bug on the Uwazi server connection for private Uwazi instances.
+### iOS: Tella 1.6.0 (65) - released on March X, 2024 {#ios-tella-160-65---released-on-march-x-2024}
+- Implemented [background encryption](/features#background-encryption) so users can continue collecting data while the encryption process takes place. 
+  - Added a background activity tray so users can check the progress of file's encryption.
+- Updated the encryption algorithm.
+- Fixed a big that prevented big files (more than 1GB) to be saved into Tella vault.
 
 
 
@@ -38,6 +41,9 @@ A version of Tella included for the first time on the F-droid store. This a 100%
 
 
 ## Previous versions {#previous-versions}
+
+### iOS: Tella 1.5.1 (63) - released on March 8, 2024 {#ios-tella-151-63---released-on-march-8-2024}
+- Fixed bug on the Uwazi server connection for private Uwazi instances.
 
 ### iOS: Tella 1.5.0 (62) - released on February 19, 2024 {#ios-tella-150-62---released-on-february-19-2024}
 - **Uwazi server connection**: We added the possibility for users to connect to an Uwazi server to send the data they collect using Tella. We include Text, Numeric, Date, Rich Text, Media and Select fields. You can read more details about the new server connection and the supported features and properties on the [Uwazi documentation page.](/uwazi).
