@@ -77,7 +77,8 @@ In the 2020 presidential elections in Belarus, civil society organizations  depl
 
 
 🗄️_ Connection: ODK (Kobotoolbox)_
-:::note
+:::
+
 
 In Belarus, the autocratic regime of Alexander Lukashenko has long stifled fundamental rights and repressed the political opposition. Elections are neither free nor fair. For the first time in decades, however, the presidential elections of 2020 offered a potential avenue for change, with credible opposition candidates and a civil society reenergized by government incompetence in the face of the Covid-19 pandemic.  
 
