@@ -28,8 +28,8 @@ In this table you can access our latest accesibility reports for each platform.
 
 | **Platform** | **Date** | **Link** |
 | -----|-----|------ |  
-| Tella Android | November 2023 | [Link](https://docs.google.com/document/d/1QtcWrSNvVtskUf5zNmOlgH0ue_O2ksdi/edit) | 
-| Tella iOS | November 2023 | [Link](https://docs.google.com/document/d/1-_dx-Ut98FpiasqgW98gxoFbwVx01R39/edit) | 
+| Tella Android | November 2023 | [Link](<./../assets/2023.11 - Tella Android accessibility audit.docx.pdf>) | 
+| Tella iOS | November 2023 | [Link](<./../assets/2023.11 - Tella iOS accessibility audit.docx.pdf>) | 
 
 We are currently working on solving all the A Level accesibility issues detected in Tella Android.
 
