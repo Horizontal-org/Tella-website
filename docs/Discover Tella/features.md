@@ -39,7 +39,7 @@ Tella [encrypts](#encryption) files in the background so that users can continue
 While files are being encrypted, Tella displays an orange marker on the notifications icon. If the user taps on that icon tray while encryption is ongoing they will see the list of files in the queue and will be able to check the encryption progress.
 
 :::danger
-If the user hard exit Tella (for example by using [Quick Exit](/quick-exit) or minimizing the app) while files are being encrypted in the background, those will be lost.
+If the user hard exit Tella (for example by using [Quick Exit](#quick-exit) or minimizing the app) while files are being encrypted in the background, those will be lost.
 :::
 
 :::info
