@@ -162,13 +162,17 @@ In the "Manage access" section of the "Project settings" screen, admins can assi
 After selecting the users to add to the project, click the "Add" button to save the changes and grant access to the project.
 
 :::info
-The full list of users who can submit reports to the project includes the users listed on this section plus all the server administrators
+The full list of users who can submit reports to the project includes the users listed on this section plus all the server administrators.
 :::
 
 ### Managing resources {#managing-resources}
 
 Tella Web allow organizations to securely disseminate resources and materials to their
 users directly within Tella’s encrypted container. Resources can be used to submit instructions for data collection, messages or guides on how to collect data. 
+
+:::info
+Resources is not yet available on Tella iOS.
+:::
 
 #### Creating resources to the space {#creating-resources-to-the-space}
 

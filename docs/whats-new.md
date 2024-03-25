@@ -25,7 +25,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 - Implemented [background encryption](/features#background-encryption) so users can continue collecting data while the encryption process takes place. 
   - Added a background activity tray so users can check the progress of file's encryption.
 - Updated the encryption algorithm.
-- Fixed a big that prevented big files (more than 1GB) to be saved into Tella vault.
+- Fixed a bug that prevented big files (more than 1GB) to be saved into Tella vault.
 
 ### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
 
