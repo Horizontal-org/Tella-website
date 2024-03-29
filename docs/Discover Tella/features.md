@@ -34,16 +34,16 @@ Learn more about Tella Locks in our [video tutorial](/video-tutorials#tella-lock
 
 ## Background encryption {#background-encryption}
 
-Tella [encrypts](#encryption) files in the background so that users can continue performing actions (take more photos or videos, import more files, etc) while the process takes place. To let users know about ongoing activities, we added a **Background tray** that's accesible on the Tella homescreen, by tapping on the "notifications"(🔔) icon on the top left. The "Settings" is now on the bottom navigation bar.
+Tella [encrypts](#encryption) files in the background so that users can continue performing actions (take more photos or videos, import more files, etc) while files are being encrypted. Users can see ongoing activities that are taking place in the background in a **Background activity tray** that's accessible from the Tella homescreen, by tapping on the "notifications" icon (🔔) on the top left. 
 
-While files are being encrypted, Tella displays an orange marker on the notifications icon. If the user taps on that icon tray while encryption is ongoing they will see the list of files in the queue and will be able to check the encryption progress.
+While files are being encrypted, Tella displays an orange marker on the notifications icon. If the user opens the background activity tray while some files are being encrypted, they will see the list of files in the queue and the encryption progress.
 
 :::danger
 If the user hard exit Tella (for example by using [Quick Exit](#quick-exit) or minimizing the app) while files are being encrypted in the background, those will be lost.
 :::
 
 :::info
-Background encryption is not available yet on Tella Android or Tella FOSS.
+Background encryption is only available on Tella iOS for now.
 :::
 
 
