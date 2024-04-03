@@ -21,7 +21,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
   - Fixed a bug that caused a crash when using the geolocation service.
   - The navigation within the Tella Web feature has been refactored for better stability and scalability.
 
-### iOS: Tella 1.6.0 (65) - released on March 25, 2024 {#ios-tella-160-65---released-on-march-25-2024}
+### iOS: Tella 1.6.0 (66) - released on April 3, 2024 {#ios-tella-160-66---released-on-april-3-2024}
 - Implemented [background encryption](/features#background-encryption) so users can continue collecting data while the encryption process takes place. 
   - Added a background activity tray so users can check the progress of file's encryption.
   - Moved the settings button to the bottom navigation (top right) to make space for the new notifications button, which opens the background activity tray (top left)
