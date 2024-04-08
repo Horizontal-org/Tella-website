@@ -119,6 +119,16 @@ Unfortunately there is no way of getting into Tella if you forgot your lock. You
 Learn more about [Tella Locks](/video-tutorials#tella-locks) in our video tutorials.
 :::
 
+### How do I migrate Tella to a new phone? {#how-do-i-migrate-tella-to-a-new-phone}
+Unfortunately there is no way to migrate Tella and all it's content automatically to a new phone. It is a known issue that if you use Apple's Migration Assistant your files will be migrated encrypted and there won't be a way to decrypt those.
+
+In order to migrate Tella to a new phone, you'd need to re-install Tella and import the all files to it manually. We recommend you follow this process while in a secure location (trusted wifi-network): 
+  1. Go to All Files folder and use the "Select all" checkbox to select all your files. 
+  2. Use Quick Share (in Android), Airdrop (in iOS) or any other data transfer utility to move your files to the new device. Keep in mind that files exported out of Tella won't be encrypted. 
+  3. Using "Import from device" import all the files back into Tella. You can choose "Delete orginal" in the dialog to make sure the files are only stored safely inside Tella.
+
+
+
 ### How secure is Tella? {#how-secure-is-tella}
 
 There is no such thing as an app that is 100% "secure". Security is dependent on the threats and risks faced by each user. With this in mind, we built Tella to protect users from device searches (at checkpoints, borders, in the street, etc) and to protect sensitive files and data, both on the device and when they send them.
