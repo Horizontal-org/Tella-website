@@ -120,12 +120,14 @@ Learn more about [Tella Locks](/video-tutorials#tella-locks) in our video tutori
 :::
 
 ### How do I migrate Tella to a new phone? {#how-do-i-migrate-tella-to-a-new-phone}
-Unfortunately there is no way to migrate Tella and all it's content automatically to a new phone. It is a known issue that if you use Apple's Migration Assistant your files will be migrated encrypted and there won't be a way to decrypt those.
+Unfortunately there is no way to automatically move your files and data from Tella on an old phone to Tella on a new phone.
 
-In order to migrate Tella to a new phone, you'd need to re-install Tella and import the all files to it manually. We recommend you follow this process while in a secure location (trusted wifi-network): 
-  1. Go to All Files folder and use the "Select all" checkbox to select all your files. 
-  2. Use Quick Share (in Android), Airdrop (in iOS) or any other data transfer utility to move your files to the new device. Keep in mind that files exported out of Tella won't be encrypted. 
-  3. Using "Import from device" import all the files back into Tella. You can choose "Delete orginal" in the dialog to make sure the files are only stored safely inside Tella.
+Using Apple's Migration Assistant will not work: your files will be moved to the new phone encrypted, but not your encryption keys. As a result, you will not be able to decrypt and open these files.
+
+In order to migrate your Tella files to a new phone, you need to install Tella on the new phone, export all files from the old phone, and import all files to the new phone manually. We recommend following these steps while in a secure location (on a trusted WiFi network): 
+  1. On Tella on your old phone, go to the `All Files` folder and use the "Select all" checkbox to select all your files and folders. 
+  2. Use Quick Share (in Android), Airdrop (in iOS) or any other data transfer utility to move your files to the new device. Keep in mind that files may be remain visible, outside of Tella on the old phone, unencrypted after you complete the transfer. 
+  3. On Tella on your new phone, go to the `All Files` folder, tap the `+` button, and tap "Import from device". You can choose "Delete orginal" in the dialog to make sure the files are only stored safely inside Tella. Select the files you had just imported from your old phone. 
 
 
 
