@@ -16,17 +16,17 @@ To receive monthly updates on new features and improvements to Tella and stay up
 
 
 ### Android: Tella 2.7.0 (174) - Released on April 16, 2024 {#android-tella-270-174---released-on-march-16-2024}
-- Added support for a content distribution feature that allow organizations to securely disseminate resources and materials from a Tella Web space to their on-the-ground users directly within Tella’s encrypted container. This includes creating PDFs on Tella Web and sharing training material, guides for data collection, or documents. Resources can be accesed offline after download. More information [here](/tella-web#managing-resources).
-- Technical maintanance tasks:
+- Added support for a content distribution feature that allow organizations to securely disseminate resources and materials from a Tella Web space to their on-the-ground users directly within Tella’s encrypted container. This includes creating PDFs on Tella Web and sharing training material, guides for data collection, or documents. Resources can be accessed offline after download. More information [here](/tella-web#managing-resources).
+- Technical maintenance tasks:
   - Fixed a bug that caused a crash when using the geolocation service.
   - The navigation within the Tella Web feature has been refactored for better stability and scalability.
 
-### iOS: Tella 1.6.0 (66) - released on April 8, 2024 {#ios-tella-160-66---released-on-april-8-2024}
-- Implemented [background encryption](/features#background-encryption) so users can continue collecting data while the encryption process takes place. 
-  - Added a background activity tray so users can check the progress of file's encryption.
-  - Moved the settings button to the bottom navigation (top right) to make space for the new notifications button, which opens the background activity tray (top left)
-- Updated the encryption algorithm.
-- Fixed a bug that prevented big files (more than 1GB) to be saved into Tella vault.
+### iOS: Tella 1.7.0 (X) - released on XX X, 2024 {#ios-tella-170-X---released-on-Xx-x-2024}
+- Added support for a content distribution feature that allow organizations to securely disseminate resources and materials from a Tella Web space to their on-the-ground users directly within Tella’s encrypted container. This includes creating PDFs on Tella Web and sharing training material, guides for data collection, or documents. Resources can be accessed offline after download. More information [here](/tella-web#managing-resources).
+- Technical maintenance tasks and bug-fixing:
+  - Keep Tella on foreground (do not let it go to sleep) while encryption is in progress.
+  - Back button right after connecting to Reports now redirects the user to the Settings screen.
+  - Allow users to select  today's date on the Date field in the Uwazi connection.
 
 ### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
 
@@ -35,6 +35,13 @@ A version of Tella included for the first time on the F-droid store. This a 100%
 
 
 ## Previous versions {#previous-versions}
+
+### iOS: Tella 1.6.0 (66) - released on April 8, 2024 {#ios-tella-160-66---released-on-april-8-2024}
+- Implemented [background encryption](/features#background-encryption) so users can continue collecting data while the encryption process takes place. 
+  - Added a background activity tray so users can check the progress of file's encryption.
+  - Moved the settings button to the bottom navigation (top right) to make space for the new notifications button, which opens the background activity tray (top left)
+- Updated the encryption algorithm.
+- Fixed a bug that prevented big files (more than 1GB) to be saved into Tella vault.
 
 
 ### Android: Tella 2.6.0 (172) - Released on February 19, 2024 {#android-tella-260-172---released-on-february-19-2024}
