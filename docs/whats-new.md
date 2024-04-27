@@ -15,11 +15,9 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 2.7.0 (174) - Released on April 16, 2024 {#android-tella-270-174---released-on-march-16-2024}
-- Added support for a content distribution feature that allow organizations to securely disseminate resources and materials from a Tella Web space to their on-the-ground users directly within Tella’s encrypted container. This includes creating PDFs on Tella Web and sharing training material, guides for data collection, or documents. Resources can be accesed offline after download. More information [here](/tella-web#managing-resources).
-- Technical maintanance tasks:
-  - Fixed a bug that caused a crash when using the geolocation service.
-  - The navigation within the Tella Web feature has been refactored for better stability and scalability.
+### Android: Tella 2.7.1 (175) - Released on April 29, 2024 {#android-tella-271-175---released-on-march-29-2024}
+- Hide top bar to when scrolling a PDF file.
+- Fixed crash when accessing the Audio folder from the Microphone.
 
 ### iOS: Tella 1.6.0 (66) - released on April 8, 2024 {#ios-tella-160-66---released-on-april-8-2024}
 - Implemented [background encryption](/features#background-encryption) so users can continue collecting data while the encryption process takes place. 
@@ -35,6 +33,12 @@ A version of Tella included for the first time on the F-droid store. This a 100%
 
 
 ## Previous versions {#previous-versions}
+
+### Android: Tella 2.7.0 (174) - Released on April 16, 2024 {#android-tella-270-174---released-on-march-16-2024}
+- Added support for a content distribution feature that allow organizations to securely disseminate resources and materials from a Tella Web space to their on-the-ground users directly within Tella’s encrypted container. This includes creating PDFs on Tella Web and sharing training material, guides for data collection, or documents. Resources can be accesed offline after download. More information [here](/tella-web#managing-resources).
+- Technical maintanance tasks:
+  - Fixed a bug that caused a crash when using the geolocation service.
+  - The navigation within the Tella Web feature has been refactored for better stability and scalability.
 
 
 ### Android: Tella 2.6.0 (172) - Released on February 19, 2024 {#android-tella-260-172---released-on-february-19-2024}
