@@ -305,7 +305,7 @@ You can easily choose your desired video resolution on Tella by accessing the vi
 - Highest possible resolution
 - High resolution (1080p)
 - Medium resolution (720p)
-- Low resolution (420p)
+- Low resolution (480p)
 
 Video resolution refers to the number of pixels in each frame of the video. Higher resolutions, such as 1080p or 720p, result in sharper and more detailed videos. However, keep in mind that higher resolution videos also have larger file sizes, which may require more storage space on your device.
 
