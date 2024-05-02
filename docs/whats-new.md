@@ -15,8 +15,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 2.7.1 (175) - Released on April 29, 2024 {#android-tella-271-175---released-on-march-29-2024}
-- Hide top bar to when scrolling a PDF file.
+### Android: Tella 2.7.1 (175) - Released on May 2, 2024 {#android-tella-271-175---released-on-may-2-2024}
 - Fixed crash when accessing the Audio folder from the Microphone.
 
 ### iOS: Tella 1.6.0 (66) - released on April 8, 2024 {#ios-tella-160-66---released-on-april-8-2024}
