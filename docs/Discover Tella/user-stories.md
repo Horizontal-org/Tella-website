@@ -62,7 +62,7 @@ In addition to the app’s security and privacy features, N1M decided to adopt T
 
 In November 2019, during the [Forest Defenders Conference](https://not1more.org/forest-defenders-2019/) in Brazil, Horizontal trained forest defenders on the use of Tella to safely collect data about the rights violations.
 
-With the data collected, indigenous students and researchers at the Federal University of Bahia, Federal University of Recôncavo of Bahia, and State University of Bahia, created a website with a map that depicts evidence of the indigenous rights violations, collected with the use of Tella:[ https://umoutroceu.ufba.br](https://umoutroceu.ufba.br/). APOINME (the Association of Indigenous Peoples and Organizations of the Northeast, Mina's Gerais and Espírito Santo) used it as a tool to raise awareness about attacks on indigenous communities and advocate for better protection.
+With the data collected, indigenous students and researchers at the Federal University of Bahia, Federal University of Recôncavo of Bahia, and State University of Bahia, created a website with a map that depicts evidence of the indigenous rights violations, collected with the use of Tella:[ https://umoutroceu.ufba.br](https://umoutroceu.ufba.br/). APOINME (the Association of Indigenous Peoples and Organizations of the Northeast, Minas Gerais and Espírito Santo) used it as a tool to raise awareness about attacks on indigenous communities and advocate for better protection.
 
 
 ## Election monitoring - Belarus {#election-monitoring---belarus}

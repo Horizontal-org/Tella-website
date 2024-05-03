@@ -170,10 +170,6 @@ The full list of users who can submit reports to the project includes the users 
 Tella Web allow organizations to securely disseminate resources and materials to their
 users directly within Tella’s encrypted container. Resources can be used to submit instructions for data collection, messages or guides on how to collect data. 
 
-:::info
-Resources is not yet available on Tella iOS.
-:::
-
 #### Creating resources to the space {#creating-resources-to-the-space}
 
 Admins can create resources to the space by navigating to the **Resources** left hand sidebar. For the moment resources can be created by uploading PDFs. We recommend keeping those smaller than 20MB to make sure users can download those even if internet is slow.
