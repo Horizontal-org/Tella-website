@@ -128,7 +128,7 @@ We wrote documentation about how to connect to an Open Data Kit server and we re
 #### Uwazi {#uwazi}
 [Uwazi](https://uwazi.io/) is an open-source app made by HURIDOCS with powerful features to collect, organize, and visualize human rights data.
 
-We wrote documentation about how to connect to an Open Data Kit server and we recommend you to read [this page](/uwazi) to get started.
+We wrote documentation about how to connect to an Uwazi server and we recommend you to read [this page](/uwazi) to get started.
 
 <div class="gifs">
     <img src="/img/getting-started/android/uwazi.gif" alt="gif that shows Uwazi connection" title="Uwazi connection" />
