@@ -9,7 +9,7 @@ slug: /uwazi
 
 [Uwazi](https://uwazi.io/) is an open-source documentation tool developed by [HURIDOCS](https://huridocs.org). It is a flexible, web-based database application designed for human rights defenders to manage their collections of information, including documents, evidence, cases, and complaints.
 
-Uwazi allows organizations to aggregate, in a central repository, data collected by their members or partners. Tella users connect to their organization's Uwazi instance, download forms (called Templates), fill templates as many times as they need (even if they don't have internet connectivity), and upload the data. Organizations can then curate, organize, and publish their data directly from Uwazi. 
+Uwazi allows organizations to aggregate, in a central repository, data collected by their members or partners. Tella users connect to their organization's Uwazi instance, download forms (called templates), fill templates as many times as they need (even if they don't have internet connectivity), and upload the data. Organizations can then curate, organize, and publish their data directly from Uwazi. 
 
 Similarly to all other server connections([Tella Web](/tella-web) and [Open Data Kit](/odk), connecting to Uwazi enhances the security of data collected on Tella by:
 1. Allowing users to collect data directly inside Tella's encrypted container
@@ -41,7 +41,7 @@ The HURIDOCS team offers 2 alternatives on how to set up your uwazi server:
 
 ## Model Your Data {#model-your-data}
 
-An Uwazi collection is made up of Entities. An entity has Properties which are the fields that Tella users will fill to collect data. Entities can hold Primary Documents and/or Supporting Files and some properties that are defined by administrators on the Uwazi server when they create Templates. A Template is an empty form that can be filled as many times as needed; once a Template is filled, it becomes an Entity. 
+An Uwazi collection is made up of Entities. An entity has Properties which are the fields that Tella users will fill to collect data. Entities can hold Primary Documents and/or Supporting Files and some properties that are defined by administrators on the Uwazi server when they create templates. A template is an empty form that can be filled as many times as needed; once a template is filled, it becomes an Entity. 
 
 [You can read here](https://uwazi.readthedocs.io/en/latest/admin-docs/building-info-architecture.html#understanding-properties) about the properties that are available on the Uwazi server and how to model your data and create your templates. For the moment we only support properties and functionalities that have been flagged as high priority by Uwazi users. If you need other properties, [contact us](/contact-us).
 
@@ -92,7 +92,7 @@ You can watch [this video](/video-tutorials#uwazi) on how to connect to an Uwazi
 
 Once you successfully connected to an Uwazi instance, you'll see a new card with the label "Uwazi" in the **Connections** sections of your Tella homescreen.
 
-To download a Template, tap the **+** button at the bottom of the screen. You will see a list of templates that are available to you on all the Uwazi instances you are connected to. Tap on the **Download** button to download templates or the **Refresh** button to see if there are updates to the templates available to you on the server.
+To download a template, tap the **+** button at the bottom of the screen. You will see a list of templates that are available to you on all the Uwazi instances you are connected to. Tap on the **Download** button to download templates or the **Refresh** button to see if there are updates to the templates available to you on the server.
 
 Then go back to the Uwazi main screen and tap the template you want to use to create an entity.
 
