@@ -179,7 +179,7 @@ Learn more about [Collecting Evidence](video-tutorials#collecting-evidence) and 
 
 ## Preserve metadata when importing {#preserve-metadata-when-importing}
 
-On **Settings** > **Security** users have the option to Preserve or delete the file's metadata when importing Photos and Videos to Tella. EXIF metadata of files migth include data about when the file was created, camara settings or location of the device.
+On **Settings** > **Security** users have the option to Preserve or delete the file's metadata when importing Photos and Videos to Tella. EXIF metadata of files migth include data about when the file was created, camera settings or location of the device.
 
 ## Open files in Tella {#open-files-in-tella}
 Images, videos, PDFs and audios can be visualized inside Tella. 📱📄
