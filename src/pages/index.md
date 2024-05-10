@@ -80,7 +80,7 @@ import ThemedImage from '@theme/ThemedImage';
             </ul>
         </div>
     </div> 
-    <a type="button" href="/user-stories" className="clean-btn center button button--primary"> Read  how organizations are using Tella </a>    
+    <a type="button" href="/user-stories" className="clean-btn center button button--primary"> Read how organizations are using Tella </a>    
 </div>
 
 <div className="section">

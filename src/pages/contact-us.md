@@ -19,6 +19,6 @@
             </ul>
             <p> Or subscribe to our newsletter: <a href="https://blog.wearehorizontal.org/tag/tella/">here</a>. </p>
             <p>We are looking forward to hearing from you!</p>
-        </div>           
+        </div>
     </div>
 </div>

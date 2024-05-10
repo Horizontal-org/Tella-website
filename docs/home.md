@@ -168,7 +168,7 @@ Below you will find everything you need to understand how Tella works, its secur
       <a href="/releases">
         <div className="doc-card-content">
           <b>What's New</b>
-          <p>Reach out for support or inquiries.</p>
+          <p>Read Tella changelogs and release notes for each version.</p>
         </div>
       </a>
     </div>
