@@ -21,7 +21,7 @@ const sidebars = {
 generalSidebar: [
     'docs',
     {
-      'Discover Tella': ['Discover Tella/features', 'Discover Tella/security-and-privacy', 'Discover Tella/accesibility', 'Discover Tella/user-stories'],
+      'Discover Tella': ['Discover Tella/features', 'Discover Tella/security-and-privacy', 'Discover Tella/accessibility', 'Discover Tella/user-stories'],
     },
     {
       type: 'category',

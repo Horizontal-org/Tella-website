@@ -95,7 +95,7 @@ A version of Tella included for the first time on the F-droid store. This a 100%
 - Fixed a bug that rested user settings when changing the language. 
 
 ### Android: Tella 2.4.0 (164) - Released on November 2, 2023 {#android-tella-240-164---released-on-november-2-2023}
-- Accesibility Improvements: Users can navigate sequentially through content, and all validation errors and messages to users are announced by screen readers.
+- accessibility Improvements: Users can navigate sequentially through content, and all validation errors and messages to users are announced by screen readers.
 - Edit media: Users can crop and rotate images whithin Tella's encrypted container. [Read more.](/features#edit-media)
 - Bug fixes: Fixed % bug on Calculator Camouflage, crashes and navigation issues.
 - Technical Improvements: We refactored Tella's architecture and unified the code's programming language to Kotlin, we added documentation and unit testing to the code base to improve the app sustainability and simplify maintenance.

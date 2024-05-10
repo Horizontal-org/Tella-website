@@ -82,7 +82,7 @@ Language accessibility is one of our priority, so we work hard to make Tella ava
 Currently Tella is available in:
 <TellaLanguages/>
 
-Read more about Language Accesibility in Tella [here](/accessibility).
+Read more about Language accessibility in Tella [here](/accessibility).
 
 ### Does Tella work on tablets? {#does-tella-work-on-tablets}
 
