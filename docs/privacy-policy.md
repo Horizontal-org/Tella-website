@@ -58,8 +58,8 @@ By downloading and using the App, you consent to the collection and storage of d
 
 When you download, register with, or use this App, we may ask you to provide information by which you may be personally identified, such as name and email address (“personal information”). This information includes:
 
--   Records and copies of your correspondences with Horizontal (including email addresses and phone numbers), if you contact us.Y
--   our responses to surveys that we might ask you to complete for research purposes, information when you report a problem with the App or suggest improvements.
+-   Records and copies of your correspondences with Horizontal (including email addresses and phone numbers), if you contact us.
+-   Your responses to surveys that we might ask you to complete for research purposes, information when you report a problem with the App or suggest improvements.
 
 You may use this app to take or store photos, videos, audio recordings, and other types of files. This data is stored locally on your device and is not accessible by the Company or any third party, including Deploying Organizations, until you choose to transmit it to the Deploying Organization by submitting your data to their servers (see Third-Party Information Collection).
 
@@ -157,7 +157,7 @@ You may also send us an email at [contact@horizontal.org](mailto:contact@horizon
 
 ## 8. Your California Privacy Rights {#8-your-california-privacy-rights}
 
-If you are a California resident, California law may provide you with additional rights regarding our use of your personal information, To learn more about your California privacy rights, visit [https://www.oag.ca.gov/privacy/ccpa](https://www.oag.ca.gov/privacy/ccpa).
+If you are a California resident, California law may provide you with additional rights regarding our use of your personal information. To learn more about your California privacy rights, visit [https://www.oag.ca.gov/privacy/ccpa](https://www.oag.ca.gov/privacy/ccpa).
 
 ## 9. Data Security {#9-data-security}
 

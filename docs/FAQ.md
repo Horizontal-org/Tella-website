@@ -77,7 +77,7 @@ Tella is also [Open Source.](/open-source)
 
 ### What languages is Tella available in? {#what-languages-is-tella-available-in}
 
-Language accessibility is one of our priority, so we work hard to make Tella available in languages spoken by communities who express the need for Tella.
+Language accessibility is one of our priorities, so we work hard to make Tella available in languages spoken by communities who express the need for Tella.
 
 Currently Tella is available in:
 <TellaLanguages/>
