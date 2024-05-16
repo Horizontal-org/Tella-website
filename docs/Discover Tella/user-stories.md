@@ -1,7 +1,7 @@
 ---
 id: user-stories
 title: User Stories
-description: Experince of Tella users and deployments
+description: Experience of Tella users and deployments
 slug: /user-stories
 ---
 
@@ -36,7 +36,7 @@ CLEEN first deployed Tella in February and March 2019 to monitor the behavior of
 
 Prior to deploying Tella, the CLEEN Foundation’s documentation efforts centered on WhatsApp: hundreds of observers sent photos, videos, and text to one WhatsApp number to report issues with the electoral process. CLEEN staff would then download the material and attempt to organize it to identify patterns. This was an extremely cumbersome and time-intensive process: it was difficult to keep track of who sent what and to analyze data that came in many different formats. In other cases, CLEEN used Google Forms, which allowed for more structure but didn’t support the sending of multimedia files or offline data collection. 
 
-In February 2019, with the support from Horizontal, CLEEN deployed Tella to observe Nigeria’s 2019 General Elections. Horizontal installed Kobotoolbox, the software that served as back-end repository for the data, on a private server for CLEEN and maintained it over time. Throughout the deployment, Horizontal also provided support and guidance on how to best shape the forms used to collect data  and how to deploy Tella on the ground. CLEEN trained dozens of state coordinators on the app, who in turn trained hundreds of observers in their respective states. Each of those “accredited observers” was given a username and password, so that each dataset could be linked to an observer for follow-up questions and verification. In addition, CLEEN published instructions for anyone to become a “citizen observer” and send data on Tella through a guest account.
+In February 2019, with the support from Horizontal, CLEEN deployed Tella to observe Nigeria’s 2019 General Elections. Horizontal installed Kobotoolbox, the software that served as back-end repository for the data, on a private server for CLEEN and maintained it over time. Throughout the deployment, Horizontal also provided support and guidance on how to best shape the forms used to collect data and how to deploy Tella on the ground. CLEEN trained dozens of state coordinators on the app, who in turn trained hundreds of observers in their respective states. Each of those “accredited observers” was given a username and password, so that each dataset could be linked to an observer for follow-up questions and verification. In addition, CLEEN published instructions for anyone to become a “citizen observer” and send data on Tella through a guest account.
 
 CLEEN created forms to ask observers the specific questions they were interested in–how many security officers were present at the polling station, at what time they arrived, etc– and to report incidents. The incident reports allowed observers to write a description of the incident and to attach photos, videos, and audio evidence.
 
@@ -58,9 +58,9 @@ N1M implemented Tella in Northeastern Brazil where indigenous communities have f
 
 N1M uses Tella to document these attacks and violations against environmental and land rights activists. Mary Menton, a research fellow in Environmental Justice at University of Sussex and a member of the N1M explained that _“In places like Brazil, the government is increasingly spying on non-governmental organizations and people who they see as a threat. It’s really important for activists to be as secure as possible in their data. We always have to make sure that we are not putting people at higher risk as they collect information and evidence”._
 
-In addition to the app’s security and privacy features, N1M decided to adopt Tella because  it allowed the organization to retain full ownership over the information collected and control who has access to it . _“There is so much information collected that we don’t want to share. We really felt that activists should have the option. They should be able to be the ones who decide who has access to their information,”_ added Menton. Language availability in Portuguese was also a big factor in the decision.
+In addition to the app’s security and privacy features, N1M decided to adopt Tella because it allowed the organization to retain full ownership over the information collected and control who has access to it . _“There is so much information collected that we don’t want to share. We really felt that activists should have the option. They should be able to be the ones who decide who has access to their information,”_ added Menton. Language availability in Portuguese was also a big factor in the decision.
 
-In November 2019, during the [Forest Defenders Conference](https://not1more.org/forest-defenders-2019/) in Brazil, Horizontal trained forest defenders on the use of Tella to safely collect data about the rights violations.
+In November 2019, during the Forest Defenders Conference in Brazil, Horizontal trained forest defenders on the use of Tella to safely collect data about the rights violations.
 
 With the data collected, indigenous students and researchers at the Federal University of Bahia, Federal University of Recôncavo of Bahia, and State University of Bahia, created a website with a map that depicts evidence of the indigenous rights violations, collected with the use of Tella:[ https://umoutroceu.ufba.br](https://umoutroceu.ufba.br/). APOINME (the Association of Indigenous Peoples and Organizations of the Northeast, Minas Gerais and Espírito Santo) used it as a tool to raise awareness about attacks on indigenous communities and advocate for better protection.
 

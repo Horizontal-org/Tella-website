@@ -38,7 +38,7 @@
   font-family: 'Open Sans';
 }
 
-/* making links underline (only on the main page) for accesibility */
+/* making links underline (only on the main page) for accessibility */
 .markdown a {
   --ifm-link-decoration: underline;  
 }

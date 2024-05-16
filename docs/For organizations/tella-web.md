@@ -325,10 +325,10 @@ The auto-delete toggle button will appear below the auto-report toggle on the Ed
 
 #### Background Submission {#background-submission}
 
-Background submission allows the report submission process to continue even if you switch to other tasks within Tella or if you exit Tella entirely. Backround submission can work in combination to both Manual and Auto-reports, and can be enabled on the Edit Connection screen for the desired project.
+Background submission allows the report submission process to continue even if you switch to other tasks within Tella or if you exit Tella entirely. Background submission can work in combination to both Manual and Auto-reports, and can be enabled on the Edit Connection screen for the desired project.
 
-When background submission is enabled, regardless of what you do in Tella or whether you close the app, the upload process will continue without interruption. It will also work if auto-reports is enabled and you close the app after collecting the infromation.
+When background submission is enabled, regardless of what you do in Tella or whether you close the app, the upload process will continue without interruption. It will also work if auto-reports is enabled and you close the app after collecting the information.
 
 When uploading reports in the background, Tella remains unlock. This means that if someone opens Tella, they will be able to access your files and reports. To lock Tella when reports are being uploaded in the background, tap the "Quick Exit" button on the top right of the Tella homescreen.
 
-If the submission is disrupted due to a weak internet connection or other factors, Tella will send the report to the Outbox tab and automatically restart the upload as soon as the phone regais a stable internet connection. 
+If the submission is disrupted due to a weak internet connection or other factors, Tella will send the report to the Outbox tab and automatically restart the upload as soon as the phone regains a stable internet connection. 

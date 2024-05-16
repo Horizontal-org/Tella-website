@@ -1,5 +1,5 @@
 ---
-id: accesibility
+id: accessibility
 title: Languages and accessibility
 description: A look at the languages Tella is available in and accessibility considerations.
 slug: /accessibility
@@ -24,14 +24,14 @@ We work hard to make Tella available in languages spoken by communities who expr
 
 ### WCAG accessibility {#wcag-accessibility}
 
-In this table you can access our latest accesibility reports for each platform. 
+In this table you can access our latest accessibility reports for each platform. 
 
 | **Platform** | **Date** | **Link** |
 | -----|-----|------ |  
 | Tella Android | November 2023 | [Link](<./../assets/2023.11 - Tella Android accessibility audit.docx.pdf>) | 
 | Tella iOS | November 2023 | [Link](<./../assets/2023.11 - Tella iOS accessibility audit.docx.pdf>) | 
 
-We are currently working on solving all the A Level accesibility issues detected in Tella Android.
+We are currently working on solving all the A Level accessibility issues detected in Tella Android.
 
 
 

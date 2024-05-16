@@ -204,7 +204,7 @@ const config = {
             title: "About this site",
             items: [
               {
-                html: `<img src="https://app.greenweb.org/api/v3/greencheckimage/tella-app.org?nocache=true" alt="This website runs on green hosting - verified by thegreenwebfoundation.org">`,
+                html: `<a href="https://www.thegreenwebfoundation.org/green-web-check/?url=https%3A%2F%2Ftella-app.org%2F"><img src="https://app.greenweb.org/api/v3/greencheckimage/tella-app.org?nocache=true" alt="This website runs on green hosting - verified by thegreenwebfoundation.org"></a>`,
               }
             ],
           },

@@ -62,7 +62,7 @@ You can tap on each blank form to start filling it.
 
 #### Submit forms {#submit-forms}
 
-As you collect data and fill forms, the following options to you:
+As you collect data and fill forms the following options are available to increase offline support on Tella:
 - Submit: send the filled form to the ODK server.
 - Save as draft: save a form that is not completed so you can continue working on it later.
 - Submit later: mark a form as complete to submit it a later point. Until it is sent, it will be available in the Outbox tab.

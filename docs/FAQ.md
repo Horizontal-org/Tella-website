@@ -77,12 +77,12 @@ Tella is also [Open Source.](/open-source)
 
 ### What languages is Tella available in? {#what-languages-is-tella-available-in}
 
-Language accessibility is one of our priority, so we work hard to make Tella available in languages spoken by communities who express the need for Tella.
+Language accessibility is one of our priorities, so we work hard to make Tella available in languages spoken by communities who express the need for Tella.
 
 Currently Tella is available in:
 <TellaLanguages/>
 
-Read more about Language Accesibility in Tella [here](/accessibility).
+Read more about Language accessibility in Tella [here](/accessibility).
 
 ### Does Tella work on tablets? {#does-tella-work-on-tablets}
 
@@ -136,11 +136,11 @@ In order to migrate your Tella files to a new phone, you need to install Tella o
 
 There is no such thing as an app that is 100% "secure". Security is dependent on the threats and risks faced by each user. With this in mind, we built Tella to protect users from device searches (at checkpoints, borders, in the street, etc) and to protect sensitive files and data, both on the device and when they send them.
 
-To do this, Tella encrypts all data in the user's device, locks using password protections, and can be hidden with a variety of camouflage options. It also encrypts all data that is sent to servers. You can read details about how do we do this, and some risks and limitations on the [Security & privacy section of Tella's](/security-and-privacy)
+To do this, Tella encrypts all data in the user's device, locks using password protections, and can be hidden with a variety of camouflage options. It also encrypts all data that is sent to servers. You can read details about how do we do this, and some risks and limitations on the [Security & privacy section of Tella's](/security-and-privacy).
 
 ### Has Tella undergone security audits? {#has-tella-undergone-security-audits}
 
-Yes! You can see all our security audits [here](/security-and-privacy#security-audits) .
+Yes! You can see all our security audits [here](/security-and-privacy#security-audits).
 
 ## Deploying Tella {#deploying-tella}
 

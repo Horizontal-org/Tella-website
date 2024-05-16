@@ -22,7 +22,7 @@ These are called [Connections](/features#connecting-to-servers) in Tella.
 
 ## Selecting the right type of server {#selecting-the-right-type-of-server}
 
-The following is a basic, non-comprehensive graph to help determine which of the three server types is best suited to different needs. This is a good starting point, but you can also [this video](/video-tutorials#connections-full-video) where we present each server type. If you need help deciding or would like to request a new Connection (an integration to a new server type), [contact us!](/contact-us)
+The following is a basic, non-comprehensive graph to help determine which of the three server types is best suited to different needs. This is a good starting point, but you can also watch [this video](/video-tutorials#connections-full-video) where we present each server type. If you need help deciding or would like to request a new Connection (an integration to a new server type), [contact us!](/contact-us)
 
 ```mermaid
 graph TD;
@@ -69,7 +69,7 @@ Resources to learn more about Uwazi:
 
 ### Open Data Kit (ODK) {#open-data-kit-odk}
 
-The [Open Data Kit (ODK)](https://getodk.org/) is an open standard used to create custom forms and collect data. In order to connect a Open Data Kit server, first you need to create forms with different questions types (text, date, geolocation, media, etc) using any  of the tools that are ODK-compliant.
+The [Open Data Kit (ODK)](https://getodk.org/) is an open standard used to create custom forms and collect data. In order to connect a Open Data Kit server, first you need to create forms with different questions types (text, date, geolocation, media, etc) using any of the tools that are ODK-compliant.
 
 On our [Open Data Kit server connection page](/odk) we explain how to create an account, where to find information about creating forms and how to connect to the server from Tella. If you are considering using Open Data Kit or you need help to [deploy](/faq#deploying-tella) your instance, please [contact us](/contact-us). 
 

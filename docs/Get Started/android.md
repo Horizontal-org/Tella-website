@@ -65,7 +65,7 @@ After granting permissions, you’re ready to start collecting documentation. We
 
 
 
-**Import your files to Tella.** Go to any of the folders inside Tella and tap the **+** Button > **Import from device**. Choose the file you’d like to keep inside Tella and a copy of the file will be stored encrypted and hidden on Tella. You will be asked to  chose if you want to delete or keep the original file from your device. Tella will be unlocked while you choose your files for a maximum of three (3) minutes.
+**Import your files to Tella.** Go to any of the folders inside Tella and tap the **+** Button > **Import from device**. Choose the file you’d like to keep inside Tella and a copy of the file will be stored encrypted and hidden on Tella. You will be asked to chose if you want to delete or keep the original file from your device. Tella will be unlocked while you choose your files for a maximum of three (3) minutes.
 
 <div class="gifs">
     <img src="/img/getting-started/android/import.gif" alt="gif that shows how to import files in Tella" title="import files in Tella" />
@@ -128,7 +128,7 @@ We wrote documentation about how to connect to an Open Data Kit server and we re
 #### Uwazi {#uwazi}
 [Uwazi](https://uwazi.io/) is an open-source app made by HURIDOCS with powerful features to collect, organize, and visualize human rights data.
 
-We wrote documentation about how to connect to an Open Data Kit server and we recommend you to read [this page](/uwazi) to get started.
+We wrote documentation about how to connect to an Uwazi server and we recommend you to read [this page](/uwazi) to get started.
 
 <div class="gifs">
     <img src="/img/getting-started/android/uwazi.gif" alt="gif that shows Uwazi connection" title="Uwazi connection" />

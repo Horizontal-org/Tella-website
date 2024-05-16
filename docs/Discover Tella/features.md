@@ -49,14 +49,14 @@ Background encryption is only available on Tella iOS for now.
 
 ## Lock timeout configuration {#lock-timeout-configuration}
 
-By default Tella will lock immediately every time the user exits the app or your phone’s screen turns off. If you’d like to change this setting, the user  can do so by going to 
+By default Tella will lock immediately every time the user exits the app or your phone’s screen turns off. If you’d like to change this setting, the user can do so by going to 
 
-Settings ⚙️ > Security > Lock Timeout.  
+Settings ⚙️ > Security > Lock Timeout.
 
-The available options are 1 minute, 5 minutes, 30 minutes and 1 hour.  ⏱️
+The available options are 1 minute, 5 minutes, 30 minutes and 1 hour. ⏱️
 
 :::info
-Please use this feature carefully as if Tella is unlocked the data would be unprotected and anyone who enters Tella will be able to see all information there.  
+Please use this feature carefully as if Tella is unlocked the data would be unprotected and anyone who enters Tella will be able to see all information there.
 :::
 
 :::info
@@ -71,7 +71,7 @@ Learn more about Tella Additional Security Features in our [video tutorial](/vid
 
 ## Camera silent mode {#camera-silent-mode}
 
-By default Tella has camera silent mode disabled. By going to **Settings ⚙️** > **Security** > **Camera silent mode**, it is possible to  turn off the camera shutter sound to draw less attention when taking photos. 📷🔇
+By default Tella has camera silent mode disabled. By going to **Settings ⚙️** > **Security** > **Camera silent mode**, it is possible to turn off the camera shutter sound to draw less attention when taking photos. 📷🔇
 
 :::tip Video tutorial 🎥
 Learn more about Tella Additional Security Features in our [video tutorial](/video-tutorials#additional-security-features)
@@ -80,12 +80,12 @@ Learn more about Tella Additional Security Features in our [video tutorial](/vid
 
 ## Screen security {#screen-security}
 
-By default Tella blocks screenshots, screen recordings inside Tella and hides the screen preview in the list of recent apps 📱🔒. It is possible to  disable this security feature if the users need to take screenshots or screen recordings, or to mirror Tella to a computer for a presentation, by going to **Settings** ⚙️ > **Security** > **Screen security**.
+By default Tella blocks screenshots, screen recordings inside Tella and hides the screen preview in the list of recent apps 📱🔒. It is possible to disable this security feature if the users need to take screenshots or screen recordings, or to mirror Tella to a computer for a presentation, by going to **Settings** ⚙️ > **Security** > **Screen security**.
 
 On iOS screen security only blocks screen recordings inside Tella and blocks the screen in the list of recent apps, but it’s not possible to disable screenshots or screen recordings.
 
 
-:::tip Video  tutorial 🎥
+:::tip video tutorial 🎥
 Learn more about Tella Additional Security Features in our [video tutorial](/video-tutorials#additional-security-features)
 :::
 
@@ -121,7 +121,7 @@ If the user’s lock is too weak, an adversary may be able to guess it and open 
 If the user forgets their lock, there is no way of gaining access to the app and retrieving its content
 :::
 
-:::tip Video  tutorial 🎥
+:::tip video tutorial 🎥
 Learn more about Locks and Encryption in our [video tutorial](/video-tutorials#tella-locks)
 :::
 
@@ -142,7 +142,7 @@ In Tella, users can:
 * Import files from their device. Files are automatically encrypted when imported into Tella. 
 
 :::danger
-Importing files from the device file system into Tella makes a copy of the files into Tella. Tella will ask if you want to keep or delete the original file from your phone when importing. If you choose to keep the original file, they will be present on the device, outside of Tella and unencrypted.  🔒
+Importing files from the device file system into Tella makes a copy of the files into Tella. Tella will ask if you want to keep or delete the original file from your phone when importing. If you choose to keep the original file, they will be present on the device, outside of Tella and unencrypted. 🔒
 :::
 
 ## Feedback {#feedback}
@@ -173,13 +173,13 @@ The only information that we will receive is the content that users specifially 
 The user can import files into Tella to keep them secured by using the import feature. They can import files by going to the **Add ( + )** button on either All files, Images, Video, Audio or Documents depending on the type of file they wish to import and then **Import from device** 📥. A prompt will appear asking the user if they would like to keep or delete the original file from their phone memory. The imported files will be kept secured at Tella.
 
 
-:::tip Video  tutorial 🎥
+:::tip video tutorial 🎥
 Learn more about [Collecting Evidence](video-tutorials#collecting-evidence) and [Sharing data](/video-tutorials#sharing-data-with-other-apps) in our video tutorials.
 :::
 
 ## Preserve metadata when importing {#preserve-metadata-when-importing}
 
-On **Settings** > **Security** users have the option to Preserve or delete the file's metadata when importing Photos and Videos to Tella. EXIF metadata of files migth include data about when the file was created, camara settings or location of the device.
+On **Settings** > **Security** users have the option to Preserve or delete the file's metadata when importing Photos and Videos to Tella. EXIF metadata of files migth include data about when the file was created, camera settings or location of the device.
 
 ## Open files in Tella {#open-files-in-tella}
 Images, videos, PDFs and audios can be visualized inside Tella. 📱📄
@@ -199,7 +199,7 @@ At this time, due to restrictions on the Apple App Store, Tella for iOS does not
 The name "Tella" and its icon will remain visible in the Android settings. This means that camouflage will not protect against an individual _actively_ looking for Tella on the phone or conducting an in-depth analysis of the device. 🔒👀
 :::
 
-:::tip Video  tutorial 🎥
+:::tip video tutorial 🎥
 Learn more about [Camouflaging Tella](/video-tutorials#camouflaging-tella) in our video tutorial. 
 :::
 
