@@ -81,7 +81,7 @@ In order to connect to an Uwazi server:
 * Choose between:
     *  **Log In:**  if a username and password were provided by admins.
     *  **Public Access:**  if the server is configured to accept anonymous submissions.
-* If the server is requires two-factor authentication, enter the one-time code.
+* If the server requires two-factor authentication, enter the one-time code.
 * Choose the **Language** in which you want to display templates.
 
 :::info
@@ -103,7 +103,7 @@ Then go back to the Uwazi main screen and tap the template you want to use to cr
 |------|------|------|------|
 | Submit | Send the filled form to the connected server. | Yes | Yes |
 | Save as draft | Save a form that's not completed.  | Yes | No |
-| Submit later | Mark a form as ready and send it to the Outbox tab,  | Yes | No |
+| Submit later | Mark a form as ready and send it to the Outbox tab.  | Yes | No |
 | Drafts Tab | A tab with all drafts. Drafts can be edited or deleted.  | Yes | No |
 | Outbox Tab | A tab with forms ready to submit. Forms on the outbox tab can be edited or deleted.  | Yes | No |
 | Submitted Tab | A tab with all forms that have been successfully sent to the server. Submitted forms can be deleted.  | Yes | No |
