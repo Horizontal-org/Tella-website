@@ -30,6 +30,11 @@ const config = {
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'pt'],
+    localeConfigs: {
+      pt: {
+        htmlLang: 'pt-BR',
+      },
+    },
   },
 
   markdown: {
@@ -99,6 +104,10 @@ const config = {
             href: '/contact-us',
             label: 'Contact Us',
             position: 'left',
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
           },
           {
             type: 'search',
