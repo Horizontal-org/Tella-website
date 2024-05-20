@@ -55,7 +55,7 @@ If your server requires user authentication, tap the **Advanced** button and ent
 
 After you successfully connected to the ODK instance, you'll see a new card called "Forms" in the **Connections** sections of the Tella homescreen.
 
-After you enter the **Forms** section, you will see a list of Forms available to you on the instance(s) that you are connected to. Using the **Download** button you can donwload forms to Tella so that you can fill them, even if you are not connected to the internet.
+After you enter the **Forms** section, you will see a list of Forms available to you on the instance(s) that you are connected to. Using the **Download** button you can download forms to Tella so that you can fill them, even if you are not connected to the internet.
 
 You can tap on each blank form to start filling it.
 

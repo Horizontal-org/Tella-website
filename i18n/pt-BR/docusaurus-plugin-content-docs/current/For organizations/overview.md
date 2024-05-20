@@ -26,12 +26,12 @@ Abaixo está um esquema básico e não abrangente para ajudar a determinar qual 
 
 ```mermaid
 graph TD;
-    id1(What type of data do users need to send?) --> id2("Mostly structured data (forms), with media attachments");
-    id1 --> id3("Mostly media files, with some text") ;
-    id2 --> id4("What additional features do you need?");
+    id1(Que tipo de dados os usuários precisam enviar?) --> id2("Principalmente dados estruturados (formulários), com mídias anexadas");
+    id1 --> id3("Principalmente arquivos de mídia, com algum texto") ;
+    id2 --> id4("De quais funcionalidades adicionais você precisa?");
     id3 --> id5("Tella Web");
-    id4 --> id6("Establish relationships between data points, publish to a website")
-    id4 --> id7("Add logic to forms, collect high numbers for forms, create reports to visualize results")
+    id4 --> id6("Estabelecer relações entre pontos de dados, publicar em um website")
+    id4 --> id7("Adicionar lógica a formulários, coletar um grande número de formulários, criar relatórios para visualizar resultados")
     id6 --> id8("Uwazi")
     id7 --> id9("Open Data Kit (ODK)")
 ```
