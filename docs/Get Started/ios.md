@@ -12,7 +12,7 @@ Follow [this link](https://apps.apple.com/us/app/tella-document-protect/id159815
 
 
 <div class="gifs">
-    <img src="/img/getting-started/ios/find-and-download.gif" alt="gif that shows how to download Tella from the App Store" title="find and download gif" />
+    <img src="img/getting-started/ios/find-and-download.gif" alt="gif that shows how to download Tella from the App Store" title="find and download gif" />
 </div>
 
 
@@ -38,7 +38,7 @@ The first time you use each functionality, you will be asked to grant Tella some
 
 
 <div class="gifs">
-    <img src="/img/getting-started/ios/granting-permissions.gif" alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
+    <img src="img/getting-started/ios/granting-permissions.gif" alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
 </div>
 
 
@@ -46,7 +46,7 @@ The first time you use each functionality, you will be asked to grant Tella some
 If you do not grant Tella these permissions, you can do it later by going to your iPhone settings and navigating to **Settings** > **Tella** > **Allow Tella to access to Camera, microphone and files.**
 
 <div class="gifs">
-    <img src="/img/getting-started/ios/taking-picture-permissions.gif" alt="gif that shows how to take a picture in Tella the first time (grant permission)" title="Tella will ask you to grant permissions the first time you open the camera" />
+    <img src="img/getting-started/ios/taking-picture-permissions.gif" alt="gif that shows how to take a picture in Tella the first time (grant permission)" title="Tella will ask you to grant permissions the first time you open the camera" />
 </div>
 
 
@@ -58,8 +58,8 @@ After granting permissions, you’re ready to start collecting documentation. We
 
 
 <div class="gifs">
-    <img src="/img/getting-started/ios/picture.gif" alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
-    <img src="/img/getting-started/ios/recording.gif" alt="gif that shows how to record audio in Tella" title="record audio in Tella" />
+    <img src="img/getting-started/ios/picture.gif" alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
+    <img src="img/getting-started/ios/recording.gif" alt="gif that shows how to record audio in Tella" title="record audio in Tella" />
 </div> 
 
 
@@ -69,7 +69,7 @@ After granting permissions, you’re ready to start collecting documentation. We
 **Import your files to Tella.** Go to any of the folders inside Tella and tap the **+** Button > **Import from device**. Choose the file you’d like to keep inside Tella and a copy of the file will be stored encrypted and hidden on Tella. You will be asked to chose if you want to delete or keep the original file from your device. Tella will be unlocked while you choose your files for a maximum of three (3) minutes.
 
 <div class="gifs">
-    <img src="/img/getting-started/ios/import-files.gif" alt="gif that shows how to import files in Tella" title="import files in Tella" />
+    <img src="img/getting-started/ios/import-files.gif" alt="gif that shows how to import files in Tella" title="import files in Tella" />
 </div> 
 
 
@@ -77,7 +77,7 @@ After granting permissions, you’re ready to start collecting documentation. We
 
 
 <div class="gifs">
-    <img src="/img/getting-started/ios/folders.gif" alt="gif that shows how to organize evidence in folders in Tella" title="folders in Tella" />
+    <img src="img/getting-started/ios/folders.gif" alt="gif that shows how to organize evidence in folders in Tella" title="folders in Tella" />
 </div> 
 
 
@@ -85,7 +85,7 @@ After granting permissions, you’re ready to start collecting documentation. We
 
 
 <div class="gifs">
-    <img src="/img/getting-started/ios/rename.gif" alt="gif that shows how to rename files in Tella" title="rename files in Tella" />
+    <img src="img/getting-started/ios/rename.gif" alt="gif that shows how to rename files in Tella" title="rename files in Tella" />
 </div> 
 
 
@@ -95,7 +95,7 @@ To share information using Tella you can use the **Share** button. Just select t
 Take into account that Tella will share the files unencrypted, so make sure to use disappearing messages (for example on WhatsApp or Signal) or delete the messages after the other person receives them.
 
 <div class="gifs">
-    <img src="/img/getting-started/ios/share.gif" alt="gif that shows how share information in Tella" title="share information in Tella" />
+    <img src="img/getting-started/ios/share.gif" alt="gif that shows how share information in Tella" title="share information in Tella" />
 </div> 
 
 

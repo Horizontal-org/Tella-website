@@ -1,91 +1,91 @@
 ---
 id: docs
 slug: /docs
-title: Tella Documentation
+title: Documentação do Tella
 ---
 
-# Tella Docs
+# Docs do Tella
 
-Welcome to the Tella Documentation! 
+Boas vindas à documentação do Tella!
 
-Below you will find everything you need to understand how Tella works, its security features and limitations, and how to get started. To stay up-to-date with the latest, subscribe to [our newsletter](https://blog.wearehorizontal.org/#/portal), join our [monthly community meetings](/community-meetings), or [contact us](/contact-us)!
+Abaixo, você encontrará tudo o que precisa para entender como o Tella funciona, suas funcionalidades e limitações de segurança, e como começar. Para ficar a par das atualizações, inscreva-se em [nosso boletim informativo](https://blog.wearehorizontal.org/#/portal), participe de nossas [reuniões mensais da comunidade](/community-meetings), ou [entre em contato conosco](/contact-us)!
 
 
-## Discover Tella {#discover-tella}
+## Explore o Tella {#discover-tella}
 
 
 <div className="doc-card-list">
     <div className="doc-card">
       <a href="features">
         <div className="doc-card-content">
-          <b>Features</b>
-          <p>Discover a list and description of Tellas features.</p>
+          <b>Funcionalidades</b>
+          <p>Explore uma lista e descrição das funcionalidades do Tella.</p>
         </div>
       </a>
     </div>
     <div className="doc-card">
       <a href="security-and-privacy">
         <div className="doc-card-content">
-          <b>Security and Privacy</b>
-          <p>Learn about our security features and security audits.</p>
+          <b>Segurança e Privacidade</b>
+          <p>Saiba mais sobre nossas funcionalidades e auditorias de segurança.</p>
         </div>
       </a>
     </div>
     <div className="doc-card">
       <a href="accessibility">
         <div className="doc-card-content">
-          <b>Languages and Accessibility</b>
-          <p>Explore languages supported by Tella and our accessibility efforts.</p>
+          <b>Idiomas e Acessibilidade</b>
+          <p>Explore os idiomas suportados pelo Tella e nossos esforços de acessibilidade.</p>
         </div>
       </a>
     </div>
     <div className="doc-card">
       <a href="user-stories">
         <div className="doc-card-content">
-          <b>User Stories</b>
-          <p>Read about real-world use cases and deployments.</p>
+          <b>Histórias de Usuários</b>
+          <p>Leia sobre casos de uso e implantações reais.</p>
         </div>
       </a>
     </div>
 </div>
 
-## Getting Started {#getting-started}
+## Começando {#getting-started}
 
 <div className="doc-card-list">
     <div className="doc-card">
       <a href="get-started-android">
         <div className="doc-card-content">
-          <b>Android Guide</b>
-          <p>Quick start guide for Tella users on Android.</p>
+          <b>Guia para Android</b>
+          <p>Guia rápido para usuários do Tella no Android.</p>
         </div>
       </a>
     </div>
     <div className="doc-card">
       <a href="get-started-ios">
         <div className="doc-card-content">
-          <b>iOS Guide</b>
-          <p>Quick start guide for Tella users on iPhone.</p>
+          <b>Guia para iOS</b>
+          <p>Guia rápido para usuários do Tella no iPhone.</p>
         </div>
       </a>
     </div>
     <div className="doc-card">
       <a href="video-tutorials">
         <div className="doc-card-content">
-          <b>Video Tutorials</b>
-          <p>Video guidance on how to get started.</p>
+          <b>Tutoriais em Vídeo</b>
+          <p>Tutoria em vídeo sobre como começar.</p>
         </div>
       </a>
     </div>
 </div>
 
-## For Organizations {#for-organizations}
+## Para Organizações {#for-organizations}
 
 <div className="doc-card-list">
     <div className="doc-card">
       <a href="for-organizations">
         <div className="doc-card-content">
-          <b>Overview</b>
-          <p>Learn how organizations can use Tella for research, advocacy, or accountability processes.</p>
+          <b>Visão Geral</b>
+          <p>Saiba como organizações podem usar o Tella para pesquisa, advocacia pública, ou processos de responsabilização.</p>
         </div>
       </a>
     </div>
@@ -93,7 +93,7 @@ Below you will find everything you need to understand how Tella works, its secur
       <a href="tella-web">
         <div className="doc-card-content">
           <b>Tella Web</b>
-          <p>The Tella Web connection empowers users to conveniently upload photos, videos, audio recordings, and text to their organization's server.</p>
+          <p>A conexão Tella Web empodera usuários a carregar fotos, vídeos, gravações em áudio e texto para o servidor de sua organização de forma conveniente.</p>
         </div>
       </a>
     </div>
@@ -101,7 +101,7 @@ Below you will find everything you need to understand how Tella works, its secur
       <a href="uwazi">
         <div className="doc-card-content">
           <b>Uwazi</b>
-          <p>The Uwazi connection lets organizations collect data from their Tella users and establish relationships between the data.</p>
+          <p>A conexão Uwazi permite às organizações coletar dados de seus usuários Tella e estabelecer relações entre os dados.</p>
         </div>
       </a>
     </div>
@@ -109,74 +109,74 @@ Below you will find everything you need to understand how Tella works, its secur
       <a href="odk">
         <div className="doc-card-content">
           <b>Open Data Kit (ODK)</b>
-          <p>The ODK connection lets organizations collect data using custom forms from Tella.</p>
+          <p>A conexão ODK permite às organizações coletar dados usando formulários personalizados do Tella.</p>
         </div>
       </a>
     </div>
 </div>
 
 
-## Community {#community}
+## Comunidade {#community}
 
 <div className="doc-card-list">
     <div className="doc-card">
       <a href="community-meetings">
         <div className="doc-card-content">
-          <b>Community Meetings</b>
-          <p>Details about monthly Tella community calls.</p>
+          <b>Reuniões da Comunidade</b>
+          <p>Detalhes sobre as videochamadas mensais da comunidade Tella.</p>
         </div>
       </a>
     </div>
     <div className="doc-card">
       <a href="open-source">
         <div className="doc-card-content">
-          <b>Open Source</b>
-          <p>Information on Tella's commitment to Open Source and links to repositories.</p>
+          <b>Código Aberto</b>
+          <p>Informações sobre o compromisso do Tella com o Código Aberto e links para repositórios.</p>
         </div>
       </a>
     </div>
     <div className="doc-card">
       <a href="translating-tella">
         <div className="doc-card-content">
-          <b>Translating Tella</b>
-          <p>Information on how to help translating Tella.</p>
+          <b>Traduzindo o Tella</b>
+          <p>Informações sobre como ajudar a traduzir o Tella.</p>
         </div>
       </a>
     </div>
 </div>
 
-## Go further {#go-further}
+## Vá além {#go-further}
 
 <div className="doc-card-list">
     <div className="doc-card">
       <a href="faq">
         <div className="doc-card-content">
-          <b>FAQs</b>
-          <p>Find answers to common questions.</p>
+          <b>FAQ</b>
+          <p>Encontre respostas para perguntas comuns.</p>
         </div>
       </a>
     </div>
     <div className="doc-card">
       <a href="contact-us">
         <div className="doc-card-content">
-          <b>Contact us</b>
-          <p>Reach out for support or inquiries.</p>
+          <b>Contate-nos</b>
+          <p>Entre em contato para receber suporte ou fazer perguntas.</p>
         </div>
       </a>
     </div>
     <div className="doc-card">
       <a href="releases">
         <div className="doc-card-content">
-          <b>What's New</b>
-          <p>Read Tella changelogs and release notes for each version.</p>
+          <b>Novidades</b>
+          <p>Leia os changelogs do Tella e as notas de cada versão.</p>
         </div>
       </a>
     </div>
     <div className="doc-card">
       <a href="privacy">
         <div className="doc-card-content">
-          <b>Privacy Policy</b>
-          <p>Tella's privacy policy.</p>
+          <b>Política de Privacidade</b>
+          <p>Política de privacidade do Tella.</p>
         </div>
       </a>
     </div>
