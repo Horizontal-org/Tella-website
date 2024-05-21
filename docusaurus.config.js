@@ -29,8 +29,12 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    //locales: ['en', 'es'],
-    locales: ['en'],
+    locales: ['en', 'pt-BR'],
+    localeConfigs: {
+      pt: {
+        htmlLang: 'pt-BR',
+      },
+    },
   },
 
   markdown: {
@@ -100,6 +104,10 @@ const config = {
             href: '/contact-us',
             label: 'Contact Us',
             position: 'left',
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
           },
           {
             type: 'search',
