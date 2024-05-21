@@ -19,7 +19,9 @@ To receive monthly updates on new features and improvements to Tella and stay up
 - Implemented [background encryption](/features#background-encryption) so users can continue collecting data while the encryption process takes place. 
   - Added a background activity tray so users can check the progress of file's encryption.
   - Moved the settings button to the bottom navigation (top right) to make space for the new notifications button, which opens the background activity tray (top left)
-
+- Technical maintenance tasks and bug-fixing:
+  - Removed nav bar from the top when scrolling over a PDF.
+  - Upgraded http protocol (okhttp3 library)
 
 ### iOS: Tella 1.7.0 (67) - Released on May 2, 2024 {#ios-tella-170-67---released-on-may-2-2024}
 - Added support for a content distribution feature that allow organizations to securely disseminate resources and materials from a Tella Web space to their on-the-ground users directly within Tella’s encrypted container. This includes creating PDFs on Tella Web and sharing training material, guides for data collection, or documents. Resources can be accessed offline after download. More information [here](/tella-web#managing-resources).
