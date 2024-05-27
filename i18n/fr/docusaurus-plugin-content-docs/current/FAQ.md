@@ -24,7 +24,7 @@ Tella est conçue et maintenue par [Horizontal](https://wearehorizontal.org), un
 
 ### Tella est-elle disponible sur Android ? {#is-tella-available-on-android}
 
-Oui, Tella est disponible pour Android et peut être téléchargée directement [depuis Google Play Store ](https://play.google.com/store/apps/details?id=org.hzontal.tella&gl=US), depuis notre [ Chaîne Telegram]( https://t.me/tellaapp) ou [depuis ce dossier](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ), sous forme d'APK, à installer manuellement. Si vous avez besoin d'aide pour installer l'application manuellement, vous pouvez [suivre ce guide](https://www.androidauthority.com/how-to-install-apks-31494/) ou [nous contacter](contactez-nous).
+Oui, Tella est disponible pour Android et peut être téléchargée directement [depuis Google Play Store ](https://play.google.com/store/apps/details?id=org.hzontal.tella&gl=US), depuis notre [ Chaîne Telegram]( https://t.me/tellaapp) ou [depuis ce dossier](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ), sous forme d'APK, à installer manuellement. Si vous avez besoin d'aide pour installer l'application manuellement, vous pouvez [suivre ce guide](https://www.androidauthority.com/how-to-install-apks-31494/) ou [nous contacter](/contact-us).
 
 :::tip
 En savoir plus sur [Comment trouver et télécharger Tella depuis Play Store](/video-tutorials#find-and-download-tella-from-the-play-store) et [Comment installer Tella manuellement](/video-tutorials#manual-installation-of-tella) dans nos tutoriels vidéo.
