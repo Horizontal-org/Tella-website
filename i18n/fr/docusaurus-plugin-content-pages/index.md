@@ -62,7 +62,7 @@ import ThemedImage from '@theme/ThemedImage';
             <img className="home-illustrations" src="img/vault.png" alt="Illustration de coffre-fort" />
         </div>
     </div>
-    <a type="button" href="/features" className="clean-btn center button button--primary"> En savoir plus sur les fonctionnalités de Tella </a>  
+    <a type="button" href="features" className="clean-btn center button button--primary"> En savoir plus sur les fonctionnalités de Tella </a>  
 </div>
 
 <div className="section">
@@ -74,12 +74,12 @@ import ThemedImage from '@theme/ThemedImage';
         <div className="column" id="section-column2">
             <ul>
                 <li><span className="emphasis">Caméra et enregistreur intégrés dans Tella :</span> prenez des photos, enregistrez des vidéos et des audios directement dans Tella afin que vos fichiers soient immédiatement cryptés et cachés dans l'application.</li>
-                <li><span className="emphasis">Tella s'intègre</span> avec <a href="/for-organizations#uwazi">Uwazi</a>, <a href="/for-organizations#open-data-kit-odk">Kobotoolbox</a> et <a href="/for-organizations#tella-web">Tella Web</a>. Choisissez la plateforme qui répond le mieux à vos besoins et collectez des données directement dans Tella.</li>
+                <li><span className="emphasis">Tella s'intègre</span> avec <a href="for-organizations#uwazi">Uwazi</a>, <a href="for-organizations#open-data-kit-odk">Kobotoolbox</a> et <a href="for-organizations#tella-web">Tella Web</a>. Choisissez la plateforme qui répond le mieux à vos besoins et collectez des données directement dans Tella.</li>
                 <li><span className="emphasis">Mode hors-ligne :</span> dans les zones avec une connexion Internet limitée ou inexistante, vous pouvez enregistrer vos données et les soumettre lorsque vous atteignez une connexion Internet fiable.</li>
             </ul>
         </div>
     </div> 
-    <a type="button" href="/user-stories" className="clean-btn center button button--primary"> Lisez comment les organisations utilisent Tella </a>    
+    <a type="button" href="user-stories" className="clean-btn center button button--primary"> Lisez comment les organisations utilisent Tella </a>    
 </div>
 
 <div className="section">
@@ -88,8 +88,8 @@ import ThemedImage from '@theme/ThemedImage';
         <div className="column" id="section-column1">
             <ul>
                 <li><span className="emphasis">Gratuit pour toujours :</span> Tella est conçu pour ceux dont la sécurité est en danger. Il est gratuit à télécharger et à utiliser, et le restera pour toujours.</li>
-                <li><span className="emphasis">Choisissez votre langue :</span> Tella est actuellement <a href="/faq#what-languages-is-tella-available-in"> disponible </a> en arabe, biélorusse, birman, anglais, indonésien, jingpho, kannada, karen sgaw, kurde, malayalam, persan, portugais, russe, espagnol (Amérique latine) et tamoul.</li>
-                <li><span className="emphasis">Faites confiance au code :</span> Le code de Tella est open-source et <a href="/open-source">publiquement disponible</a> afin que les chercheurs, analystes en sécurité et développeurs puissent l'auditer et le réutiliser librement.</li>
+                <li><span className="emphasis">Choisissez votre langue :</span> Tella est actuellement <a href="faq#what-languages-is-tella-available-in"> disponible </a> en arabe, biélorusse, birman, anglais, indonésien, jingpho, kannada, karen sgaw, kurde, malayalam, persan, portugais, russe, espagnol (Amérique latine) et tamoul.</li>
+                <li><span className="emphasis">Faites confiance au code :</span> Le code de Tella est open-source et <a href="open-source">publiquement disponible</a> afin que les chercheurs, analystes en sécurité et développeurs puissent l'auditer et le réutiliser librement.</li>
             </ul>
         </div>
         <div className="column" id="section-column2">

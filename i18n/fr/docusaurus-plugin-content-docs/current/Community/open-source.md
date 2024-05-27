@@ -1,7 +1,7 @@
 ---
 id: open-source
 title: Open Source
-description: Information on Tella's commitment to Open Source and links to repositories
+description: Informations sur l'engagement de Tella en faveur de l'Open Source ou code source ouvert et liens vers des référentiels
 slug: /open-source
 ---
 

@@ -1,5 +1,5 @@
 
-| **Fonctionnalité** | **Android**| **iOS** | **Android FOSS** |
+| **Feature** | **Android**| **iOS** | **Android FOSS** |
 |------|------|-----|-----|
 |[Verrouillage d'application](/features#app-lock)| Mot de passe, code PIN, Schéma|Mot de passe, code PIN | Mot de passe, code PIN, Schéma |
 |[Configuration du Délai de verrouillage](/features#lock-timeout-configuration)| ✔️| ✔️| ✔️ |

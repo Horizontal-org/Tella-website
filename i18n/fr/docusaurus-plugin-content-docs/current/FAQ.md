@@ -8,7 +8,7 @@ slug: /faq
 import FeaturesTable from './_features-table.md';
 import TellaLanguages from './_tella-languages.md';
 
-# Foire aux questions concernant Tella
+# Foire aux questions au sujet de Tella
 
 ## Général {#general}
 

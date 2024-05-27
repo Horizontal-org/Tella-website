@@ -16,7 +16,7 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
 
 <div class="doc-card-list">
     <div className="doc-card">
-      <a href="/features">
+      <a href="features">
         <div className="doc-card-content">
           <b>Fonctionnalités</b>
           <p>Découvrez une liste et une description des fonctionnalités de Tellas.</p>
@@ -24,7 +24,7 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
       </a>
     </div>
     <div className="doc-card">
-      <a href="/security-and-privacy">
+      <a href="security-and-privacy">
         <div className="doc-card-content">
           <b>Sécurité et confidentialité</b>
           <p>Découvrez nos fonctionnalités de sécurité et nos audits de sécurité.</p>
@@ -32,7 +32,7 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
       </a>
     </div>
     <div className="doc-card">
-      <a href="/accessibility">
+      <a href="accessibility">
         <div className="doc-card-content">
           <b>Langues et accessibilité</b>
           <p>Explorez les langues prises en charge par Tella et nos efforts d'accessibilité.</p>
@@ -40,7 +40,7 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
       </a>
     </div>
     <div className="doc-card">
-      <a href="/user-stories">
+      <a href="user-stories">
         <div className="doc-card-content">
           <b>Témoignages </b>
           <p>Découvrez les cas d'utilisation et les déploiements réels.</p>
@@ -53,7 +53,7 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
 
 <div class="doc-card-list">
     <div className="doc-card">
-      <a href="/get-started-android">
+      <a href="get-started-android">
         <div className="doc-card-content">
           <b>Guide Android</b>
           <p>Guide de démarrage rapide pour Android.</p>
@@ -61,7 +61,7 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
       </a>
     </div>
     <div className="doc-card">
-      <a href="/get-started-ios">
+      <a href="get-started-ios">
         <div className="doc-card-content">
           <b>iOS Guide</b>
           <p>Guide de démarrage rapide pour iPhone.</p>
@@ -69,7 +69,7 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
       </a>
     </div>
     <div className="doc-card">
-      <a href="/video-tutorials">
+      <a href="video-tutorials">
         <div className="doc-card-content">
           <b>Tutoriels vidéos</b>
           <p>Conseils vidéo pour se lancer</p>
@@ -82,7 +82,7 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
 
 <div class="doc-card-list">
     <div className="doc-card">
-      <a href="/for-organizations">
+      <a href="for-organizations">
         <div className="doc-card-content">
           <b>Aperçu</b>
           <p>Découvrez comment les organisations peuvent utiliser Tella pour des processus de recherche, de plaidoyer ou de responsabilisation.</p>
@@ -90,7 +90,7 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
       </a>
     </div>
     <div className="doc-card">
-      <a href="/tella-web">
+      <a href="tella-web">
         <div className="doc-card-content">
           <b>Tella Web</b>
           <p>La connexion Web Tella aux utilisateurs et utilisatrices de télécharger facilement des photos, des vidéos, des enregistrements audio et du texte sur le serveur de leur organisation.</p>
@@ -98,7 +98,7 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
       </a>
     </div>
     <div className="doc-card">
-      <a href="/uwazi">
+      <a href="uwazi">
         <div className="doc-card-content">
           <b>Uwazi</b>
           <p>La connexion Uwazi permet aux organisations de collecter des données auprès de leurs utilisateurs Tella et d'établir des relations entre les données.</p>
@@ -106,7 +106,7 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
       </a>
     </div>
     <div className="doc-card">
-      <a href="/odk">
+      <a href="odk">
         <div className="doc-card-content">
           <b>Open Data Kit (ODK)</b>
           <p>La connexion ODK permet aux organisations de collecter des données à l'aide de formulaires personnalisés de Tella.</p>
@@ -120,7 +120,7 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
 
 <div class="doc-card-list">
     <div className="doc-card">
-      <a href="/community-meetings">
+      <a href="community-meetings">
         <div className="doc-card-content">
           <b>Réunions communautaires</b>
           <p>Détails sur les appels mensuels de la communauté Tella.</p>
@@ -128,7 +128,7 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
       </a>
     </div>
     <div className="doc-card">
-      <a href="/open-source">
+      <a href="open-source">
         <div className="doc-card-content">
           <b>Open Source</b>
           <p>Informations sur l'engagement de Tella envers l'Open Source et liens vers des référentiels.</p>
@@ -136,7 +136,7 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
       </a>
     </div>
     <div className="doc-card">
-      <a href="/translating-tella">
+      <a href="translating-tella">
         <div className="doc-card-content">
           <b>Traduire Tella</b>
           <p>Comment aider à traduire Tella.</p>
@@ -149,7 +149,7 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
 
 <div class="doc-card-list">
     <div className="doc-card">
-      <a href="/faq">
+      <a href="faq">
         <div className="doc-card-content">
           <b>FAQs</b>
           <p>Trouvez des réponses aux questions courantes.</p>
@@ -157,7 +157,7 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
       </a>
     </div>
     <div className="doc-card">
-      <a href="/contact-us">
+      <a href="contact-us">
         <div className="doc-card-content">
           <b>Contactez-nous</b>
           <p>Contactez-nous pour obtenir de l’aide ou des demandes de renseignements.</p>
@@ -165,7 +165,7 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
       </a>
     </div>
     <div className="doc-card">
-      <a href="/releases">
+      <a href="releases">
         <div className="doc-card-content">
           <b>Quoi de neuf</b>
           <p>Contactez-nous pour obtenir de l’aide ou des demandes de renseignements.</p>
@@ -173,7 +173,7 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
       </a>
     </div>
     <div className="doc-card">
-      <a href="/privacy">
+      <a href="privacy">
         <div className="doc-card-content">
           <b>Politique de confidentialité</b>
           <p>Politique de confidentialité de Tella.</p>

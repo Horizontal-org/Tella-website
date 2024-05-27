@@ -1,7 +1,7 @@
 ---
 id: security-and-privacy
 title: Security and privacy
-description: Details about Tella security and privacy.
+description: Informations sur la sécuritée et la confidentialité dans Tella.
 slug: /security-and-privacy
 ---
 

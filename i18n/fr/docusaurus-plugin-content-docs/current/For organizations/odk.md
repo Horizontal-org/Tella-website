@@ -1,7 +1,7 @@
 ---
 id: odk
 title: Open Data Kit (ODK)
-description: The Open Data Kit server connection is available for organizations looking to collect structured data using forms.
+description: La connexion au serveur Open Data Kit est disponible pour les organisations qui souhaitent recueillir des données structurées au moyen de formulaires.
 slug: /odk
 ---
 
@@ -98,7 +98,7 @@ Vous trouverez ci-dessous un aperçu des types de questions ODK pris en charge d
 | Code-barres / QR Code | Non |
 | Reconnaître | ✔️ |
 | Notation | ✔️ |
-| Matrice de questions | No |
+| Matrice de questions | Non |
 | Classement | ✔️ |
 | Calculer | Non |
 | Caché | Non |

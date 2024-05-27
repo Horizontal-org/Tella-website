@@ -1,7 +1,7 @@
 ---
 id: get-started
 title: Get Started 
-description: Quick start guide for Tella users on iOS and Android
+description: Guide de démarrage rapide pour les utilisateurs de Tella sur Android et iOS
 slug: /get-started
 ---
 # Commencer avez Tella
@@ -9,7 +9,7 @@ slug: /get-started
 
 <div class="doc-card-list">
     <div className="doc-card">
-      <a href="/get-started-android">
+      <a href="get-started-android">
         <div className="doc-card-content">
           <b>Guide Android</b>
           <p>Guide de démarrage rapide pour utiliser Tella sur Android.</p>
@@ -17,7 +17,7 @@ slug: /get-started
       </a>
     </div>
     <div className="doc-card">
-      <a href="/get-started-ios">
+      <a href="get-started-ios">
         <div className="doc-card-content">
           <b>iOS Guide</b>
           <p>Guide de démarrage rapide pour utiliserTella sur iPhone.</p>
@@ -25,7 +25,7 @@ slug: /get-started
       </a>
     </div>
     <div className="doc-card">
-      <a href="/video-tutorials">
+      <a href="video-tutorials">
         <div className="doc-card-content">
           <b>Tutoriels vidéos</b>
           <p>Conseils vidéo pour se lancer.</p>

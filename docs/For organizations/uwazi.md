@@ -11,7 +11,7 @@ slug: /uwazi
 
 Uwazi allows organizations to aggregate, in a central repository, data collected by their members or partners. Tella users connect to their organization's Uwazi instance, download forms (called templates), fill templates as many times as they need (even if they don't have internet connectivity), and upload the data. Organizations can then curate, organize, and publish their data directly from Uwazi. 
 
-Similarly to all other server connections([Tella Web](/tella-web) and [Open Data Kit](/odk), connecting to Uwazi enhances the security of data collected on Tella by:
+Similarly to all other server connections([Tella Web](/tella-web) and [Open Data Kit](/odk)), connecting to Uwazi enhances the security of data collected on Tella by:
 1. Allowing users to collect data directly inside Tella's encrypted container
 2. Ensuring that data is sent directly from Tella to Uwazi, without having to rely on a third-party tool or app
 3. Allowing users to back up their data on a remote server, to lower the risk that data is discovered on their mobile device
@@ -25,7 +25,7 @@ You can test Uwazi using [this Demo instance](https://demo.uwazi.io/).
 
 We recommend Uwazi to organizations that need on-the-ground users to collect data in a structured manner through forms. 
 
-Uwazi also allows project managers to easily organize, analyze, visualize, and publish the collected data. It is especially powerful because of its database allows making relationships between entities, which helps connect data points (such as incidents, perpetrators, and victims) to emerge patterns Uwazi is also great to collect data in many different languages and to facilitate collaboration between teams.
+Uwazi also allows project managers to easily organize, analyze, visualize, and publish the collected data. It is especially powerful because of its database allows making relationships between entities, which helps connect data points (such as incidents, perpetrators, and victims) to emerge patterns. Uwazi is also great to collect data in many different languages and to facilitate collaboration between teams.
 
 Uwazi does not have an official mobile app, so by integrating Uwazi and Tella, you can leverage Tella's encryption and offline capabilities and take full advantage of Uwazi's abilities to organize, search, download, visualize, and publish information. 
 
