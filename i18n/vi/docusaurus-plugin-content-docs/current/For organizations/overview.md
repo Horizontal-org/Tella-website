@@ -2,7 +2,7 @@
 id: overview
 title: Tổng quan
 description: Tìm hiểu cách các tổ chức có thể sử dụng Tella trong quá trình nghiên cứu, vận động hoặc giải trình trách nhiệm
-slug: /for-organizations}
+slug: /for-organizations
 ---
 
 # Tella cho các tổ chức - Tổng quan
