@@ -35,12 +35,12 @@ const config = {
         htmlLang: 'pt-BR',
         label: 'Português'
       },
-      ar : {
+      ar: {
         direction: 'rtl',
       },
-      es-419 : {
+      'es-419': {
         label: 'Español',
-      }
+      },
     },
   },
 
