@@ -1,150 +1,150 @@
 ---
 id: get-started-android
 title: Android
-description: Hướng dẫn nhanh cho người dùng Tella trên Android
+description: دليل البدء السريع لمستخدمي Tella على أندرويد
 slug: /get-started-android
 ---
 
-# Bắt đầu sử dụng Tella trên Android
+# بدء استخدام Tella على أندرويد
 
-## Tải xuống và cài đặt Tella {#download-and-install-tella}
+## تنزيل وتثبيت Tella {#download-and-install-tella}
 
-Bạn có thể tải Tella theo các cách sau:
-- Truy cập [link này](https://play.google.com/store/apps/details?id=org.hzontal.tella&hl=en&gl=US&pli=1) để tìm Tella trên Google Play hoặc mở Google Play và tìm kiếm từ khóa “Tella”.
-- Tải xuống từ [F-droid store](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
-- Tải xuống và cài đặt thủ công dưới dạng tệp .apk [trong thư mục này](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ) hoặc từ kênh Telegram của chúng tôi: https://t.me/tellaapp. 
+لديك عدة خيارات لتنزيل Tella:
+- اتبع [هذا الرابط](https://play.google.com/store/apps/details?id=org.hzontal.tella&hl=en&gl=US&pli=1) للعثور على Tella على متجر Google Play أو فتح متجر Google Play ثم ابحث عن “Tella”.
+- قم بتنزيله من [متجر F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
+- ‫قم بتنزيله وتثبيته يدويا كملف ‎.apk [في هذا المجلد](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ) أو من قناة Telegram الخاصة بنا: https://t.me/tellaapp.
 
-nếu bạn cần trợ giúp để cài đặt ứng dụng thủ công, bạn có thể [làm theo hướng dẫn này](/video-tutorials#manual-installation-of-tella) hoặc [liên hệ với chúng tôi](/contact-us).
+إذا كنت بحاجة إلى المساعدة لتثبيت التطبيق يدويا، يمكنك [اتباع هذا الدليل](/video-tutorials#manual-installation-of-tella) أو [اتصل بنا](/contact-us).
 
 <div class="gifs">
-    <img src="img/getting-started/android/find-tella.gif" alt="gif that shows how to download Tella from the Play Store" title="find and download gif" />
+    <img src="/img/getting-started/android/find-tella.gif" alt="gif that shows how to download Tella from the Play Store" title="find and download gif" />
 </div>
 
 
 
-## Tạo mật khẩu {#create-your-lock}
+## إنشاء قفلك {#create-your-lock}
 
-Khi mở Tella lần đầu, bạn sẽ thấy phần giới thiệu hướng dẫn về các chức năng của ứng dụng: Máy ảnh, Máy ghi âm và Tài liệu & Thư mục mã hóa. Đồng thời, bạn sẽ được yêu cầu chọn cách cài đặt mật khẩu cho Tella. Nếu không có mật khẩu này, bạn không thể mở Tella và truy cập bất kỳ tài liệu nào được lưu trữ trong Tella.
-- Mật khẩu: mật khẩu bao gồm chữ và số là cách an toàn nhất để khóa Ứng dụng.
-- Mã PIN: một dãy số phải có nhiều hơn sáu (6) chữ số.
-- Mẫu khóa hình: một mẫu khóa hình phải có ít nhất sáu (6) điểm.
+عند فتح Tella للمرة الأولى سترى جولة إرشادية لوظائف التطبيق: الكاميرا والمسجل والملفات والمجلدات المُعمّاة. سيُطلَب منك أيضا اختيار كيفية قفل Tella. بدون هذا القفل، لا يمكن فتح Tella والوصول إلى أي من الملفات المُخزَّنة في Tella.
+- كلمة السر: كلمة السر المُكوَّنة من الحروف الأبجدية والأرقام هي الطريقة الأكثر أمنا لقفل تطبيقك.
+- رقم التعريف الشخصي (PIN): تسلسل رقمي يتكون من أكثر من ستة (6) أرقام.
+- النمط: نمط رقمي يتكون من ست (6) نقط على الأقل.
 
-Tránh sử dụng tên, ngày sinh của bạn hoặc bất cứ điều gì dễ đoán như  (“Password”, “123456”, or “000000”).
+تجنب استخدام اسمك أو تاريخ ميلادك أو أي شيء يسهل تخمينه (مثل ”password“ أو ”123456“ أو ”000000“).
 
-Hãy  lưu ý là nếu quên mật khẩu này, bạn sẽ không thể truy cập ứng dụng hoặc nội dung bên trong.
-
-
+ضع في اعتبارك أنه إذا نسيت هذا القفل، فلن تكون هناك طريقة للوصول إلى التطبيق أو محتواه.
 
 
 
-## Cấp quyền cho Tella {#grant-permissions-to-tella}
-Khi lần đầu sử dụng từng chức năng, bạn sẽ được yêu cầu cấp quyền cho Tella:
-- Để chụp ảnh, quay video hoặc ghi âm, bạn cần cấp quyền truy cập vào máy ảnh và micrô của điện thoại.
-- Để nhập tập tin vào Tella hoặc xuất tập tin từ Tella sang điện thoại, bạn cần cấp quyền truy cập vào hệ thống thư mục trên thiết bị.
-- Để sử dụng “chế độ xác minh” hoặc gửi vị trí của bạn, bạn cần cấp quyền truy cập vị trí thiết bị của mình. Bạn có thể thực hiện việc này bằng cách vào phần cài đặt của Tella, sau đó chọn Cài đặt chung > Chế độ xác minh.
 
-Nếu bạn từ chối cấp quyền này cho Tella, bạn có thể cấp quyền cho Tella sau đó bằng cách vào phần cài đặt Android, chọn Cài đặt > Ứng dụng > Tella > Quyền ứng dụng.
+
+## منح التراخيص إلى Tella  {#grant-permissions-to-tella}
+في المرة الأولى التي تستخدم فيها كل وظيفة، سيُطلب منك منح Tella بعض التراخيص:
+- لالتقاط صور أو تسجيل مقاطع فيديو أو تسجيل مقطع صوتي، ستحتاج إلى منح إذن للوصول إلى كاميرا وميكروفون هاتفك.
+- لاستيراد الملفات إلى Tella أو تصدير الملفات من Tella إلى هاتفك، ستحتاج إلى منح حق الوصول إلى نظام ملفات جهازك.
+- لاستخدام "وضع التحقق" أو إرسال موقعك، ستحتاج إلى منح حق الوصول إلى موقع جهازك. يمكنك القيام بذلك عن طريق الدخول إلى إعدادات Tella ثم 'عام' > 'وضع التحقق'.
+
+إذا رفضت منح Tella هذه التراخيص، فيمكنك منحها لاحقا بالانتقال إلى إعدادات أندرويد والانتقال إلى 'إعدادات' > 'التطبيقات' > 'Tella' > 'تراخيص التطبيقات'.
 
 <div class="gifs">
-    <img src="img/getting-started/android/permissions.gif" alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
-    <img src="img/getting-started/android/permissions-change.gif" alt="gif that shows how to chage granted permissions on Tella" title="change the granted permission" />
+    <img src="/img/getting-started/android/permissions.gif" alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
+    <img src="/img/getting-started/android/permissions-change.gif" alt="gif that shows how to chage granted permissions on Tella" title="change the granted permission" />
 </div>
 
 
 
-## Bảo vệ tập tin của bạn {#protect-your-files}
-Sau khi cấp quyền, bạn đã sẵn sàng bắt đầu thu thập tài liệu. Chúng tôi khuyên bạn nên khám phá các tính năng sau:
+## حماية ملفاتك {#protect-your-files}
+بعد منح التراخيص، ستكون جاهزا للبدء في جمع الوثائق. نوصيك باستكشاف الميزات التالية:
 
-**Sử dụng Máy ảnh để chụp ảnh hoặc quay video và Máy ghi âm để thu  âm.** Mọi hình ảnh, video và bản ghi âm được thực hiện qua Tella sẽ được mã hóa ngay lập tức, điều đó có nghĩa là tập tin sẽ không thể truy cập từ bên ngoài Tella . Tất cả dữ liệu thông tin được thu thập bên trong Tella sẽ không hiển thị trên thư viện ảnh hoặc thư mục điện thoại của bạn. Tella không giới hạn dung lượng lưu trữ cụ thể nào, dung lượng khả dụng sẽ phụ thuộc vào không gian còn trống trên thiết bị của bạn.
+**استخدم الكاميرا لالتقاط الصور أو مقاطع الفيديو ومسجل الصوت لتسجيل المقاطع الصوتية.** ستتم تعمية جميع الوسائط التي التقطتها بواسطة Tella على الفور، مما يعني أنه سيتعذر الوصول للملف خارج Tella. ولن تظهر الوسائط التي تم جمعها داخل Tella على معرض أو ملفات هاتفك. لا يوجد حد تخزين معين لـTella، تعتمد المساحة المتوفرة على الحيز المتاح على جهازك.
 
 <div class="gifs">
-  <img src="img/getting-started/android/picture.gif" alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
-  <img src="img/getting-started/android/video.gif" alt="gif that shows how to record a video in Tella" title="video recording in Tella" />
-  <img src="img/getting-started/android/audio.gif" alt="gif that shows how to record audio in Tella" title="audio recording in Tella" />
+  <img src="/img/getting-started/android/picture.gif" alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
+  <img src="/img/getting-started/android/video.gif" alt="gif that shows how to record a video in Tella" title="video recording in Tella" />
+  <img src="/img/getting-started/android/audio.gif" alt="gif that shows how to record audio in Tella" title="audio recording in Tella" />
 </div>
 
 
 
-**Nhập tệp tin của bạn vào Tella.** Truy cập vào bất kỳ thư mục nào trong Tella và bấm Nút **+** > **Nhập từ thiết bị**. Chọn tệp tin bạn muốn lưu giữ bên trong Tella và một bản sao của tệp tin sẽ được lưu trữ dưới dạng mã hóa và ẩn trên Tella. Bạn sẽ được yêu cầu lựa chọn xóa hay giữ tệp tin gốc trên thiết bị của mình. Tella sẽ được mở khóa khi bạn chọn tệp tin của mình trong tối đa ba (3) phút.
+**استيراد ملفاتك إلى Tella.** انتقل إلى أي من المجلدات داخل Tella واضغط على زر **+** > **استيراد من الجهاز**. اختر الملف الذي ترغب في الاحتفاظ به داخل Tella وسيتم تخزين نسخة معمّاة ومخفية للملف في Tella. سيُطلب منك الاختيار بين حذف الملف الأصلي من جهازك وبين الاحتفاظ به. سيبقى Tella مفتوحا أثناء اختيارك لملفاتك لمدة أقصاها ثلاث (3) دقائق.
 
 <div class="gifs">
-    <img src="img/getting-started/android/import.gif" alt="gif that shows how to import files in Tella" title="import files in Tella" />
+    <img src="/img/getting-started/android/import.gif" alt="gif that shows how to import files in Tella" title="import files in Tella" />
 </div>
 
 
 
-**Tạo thư mục.** Để dễ dàng tìm kiếm các tệp tin, bạn có thể sắp xếp nó vào các thư mục. Truy cập vào **Tất cả tệp tin** > **+** > **Tạo thư mục mới** và đặt tên mô tả cho thư mục. Sau đó dùng nút Chọn nhiều ở đầu màn hình, chọn các tệp tin bạn muốn chuyển sang thư mục mới, sau đó bấm nút ba (3) chấm và Di chuyển sang thư mục khác, điều hướng cấu trúc tệp tin để tìm thư mục và sau đó nhấn Di chuyển vào đây.
+**إنشاء المجلدات.** لتسهيل العثور على ملفاتك، يمكنك تنظيم الملفات في مجلدات. انتقل إلى **كافة الملفات** > **+** > **إنشاء مجلد جديد** واكتب اسما لوصف المجلد. ثم استخدم زر 'تحديد عدة ملفات' في الجزء العلوي من الشاشة، واختر الملفات التي تريد نقلها إلى المجلد الجديد، ثم اضغط على زر النقط الثلاثة (3) ثم 'نقل إلى مجلد مختلف'، بعدها انتقل إلى بنية الملف للعثور على المجلد ثم اضغط على 'نقل هنا'.
 
 <div class="gifs">
-    <img src="img/getting-started/android/folders-rename.gif" alt="gif that shows how to organize your info in Tella" title="organize files in Tella" />
+    <img src="/img/getting-started/android/folders-rename.gif" alt="gif that shows how to organize your info in Tella" title="organize files in Tella" />
 </div>
 
-**Đổi tên tệp :** Một cách khác để giữ cho dữ liệu của bạn được ngăn nắp là đặt lại tên các tệp theo hướng mô tả rõ ràng hơn. Theo mặc định, tên tệp tin được tạo tự động. Bạn có thể đổi tên tệp tin bằng cách nhấp vào **ba (3) dấu chấm** bên cạnh mỗi tên tệp tin rồi nhấn vào **Đổi tên**.
+**إعادة تسمية الملفات:** هناك طريقة أخرى للحفاظ على تنظيم بياناتك وهي إعادة تسمية الملفات لتكون أكثر وصفا. بشكل افتراضي، تتلقى الملفات اسما تم توليده تلقائيا. يمكنك تغييره من خلال الضغط على **النقط الثلاثة (3)** الموجودة بجوار كل اسم ملف، ثم الضغط على **إعادة التسمية**.
 
 
 
 
-## Ngụy trang Tella {#camouflage-tella}
-Có thể ngụy trang Tella để ẩn nó trên thiết bị của bạn theo hai cách:
-- Bạn có thể thay đổi tên và biểu tượng của ứng dụng,  để làm cho nó trông giống một ứng dụng khác (như trò chơi hoặc ứng dụng thời tiết). Có 28 tên và biểu tượng khác nhau để ẩn Tella.
-- Bạn có thể ẩn Tella dưới hình thức một cái máy tính thông thường. Chúng tôi đã phát triển 4 chủ đề khác nhau để phù hợp với mặc định của điện thoại và giúp ẩn Tella. Để mở Tella, người dùng phải nhập mã PIN vào máy tính, sau đó nhấn **=**. Việc ngụy trang Máy tính chỉ có thể thực hiện được nếu người dùng sử dụng mã PIN. Không thể ngụy trang Tella giống như Máy tính nếu sử dụng mẫu hình khóa hoặc mật khẩu.
-Đọc thêm về Ngụy trang [tại đây](/features#camouflage).
-
-<div class="gifs">
-    <img src="img/getting-started/android/camouflage-icon.gif" alt="gif that shows how camouflage Tella by changing its name and icon" title="camouflage Tella changing its icon" />
-    <img src="img/getting-started/android/camouflage-calc.gif" alt="gif that shows how camouflage Tella behind a calculator" title="camouflage Tella with a calculator" />
-</div>
-
-
-
-## Chia sẻ thông tin của bạn. {#share-your-information}
-Để chia sẻ thông tin bằng Tella, bạn có thể sử dụng nút **Chia sẻ**. Chỉ cần chọn tệp hoặc các tài liệu bạn muốn chia sẻ, bấm **Chia sẻ** và chọn ứng dụng bạn muốn chia sẻ các tệp đó. 
-
-Hãy lưu ý rằng Tella sẽ chia sẻ các tệp không được mã hóa, vì vậy hãy chắc chắn sử dụng tin nhắn tự xóa (ví dụ như WhatsApp hoặc Signal) hoặc xóa tin nhắn sau khi người kia nhận được chúng.
+## تمويه Tella {#camouflage-tella}
+من الممكن تمويه Tella لإخفائه في جهازك بطريقتين:
+- يمكنك تغيير اسم التطبيق وأيقونته، ليظهر كأي تطبيق معتاد (مثل لعبة أو تطبيق طقس). هناك 28 اسما وأيقونة متاحة لإخفاء Tella.
+- يمكنك إخفاء Tella خلف آلة حاسبة كاملة الوظائف. لقد قمنا بتطوير 4 سمات مختلفة لتتناسب مع الوضع الافتراضي لهاتفك وتساعد في إخفاء Tella. من أجل فتح Tella، يجب على المستخدم إدخال رقم تعريفه الشخصي (PIN) في الآلة الحاسبة متبوعا بـ **=**. لا يمكن استخدام تمويه الحاسبة إلا إذا كان المستخدم يستخدم قفل PIN. ليس من الممكن تمويه Tella كآلة حاسبة إذا تم استخدام النمط أو كلمة سر.
+اقرأ المزيد عن التمويه [هنا](/features#camouflage).
 
 <div class="gifs">
-    <img src="img/getting-started/android/share.gif" alt="gif that shows how to share information" title="share information with third party apps" />
+    <img src="/img/getting-started/android/camouflage-icon.gif" alt="gif that shows how camouflage Tella by changing its name and icon" title="camouflage Tella changing its icon" />
+    <img src="/img/getting-started/android/camouflage-calc.gif" alt="gif that shows how camouflage Tella behind a calculator" title="camouflage Tella with a calculator" />
 </div>
 
 
 
-## Tìm hiểu thêm {#go-further}
-### Kết nối với máy chủ {#connect-to-a-server}
-Tella có thể được kết nối với nhiều dịch vụ back-end. Điều này được các tổ chức sử dụng để cho phép các thành viên hoặc đối tác của họ gửi dữ liệu và tệp tin đến một địa điểm từ xa an toàn. Nếu bạn đang cân nhắc việc kết nối với một máy chủ và có thắc mắc về việc nên chọn máy chủ nào hoặc cách kết nối, vui lòng xem [tài liệu dành cho tổ chức của chúng tôi](/for-organizations) hoặc [liên hệ với chúng tôi](/contact-us), chúng tôi ở đây để giúp đỡ!
+## مشاركة معلوماتك. {#share-your-information}
+لمشاركة المعلومات باستخدام Tella يمكنك استخدام زر **مشاركة**. ما عليك سوى تحديد الملف أو الملفات التي تريد مشاركتها، ثم الضغط على **مشاركة** واختيار التطبيق الذي تريد مشاركة الملفات معه.
+
+ضع في اعتبارك أن Tella ستشارك الملفات دون تعمية، لذا تأكد من استخدام الرسائل المختفية (مثلا، واتساب أو Signal) أو احذف الرسائل بعد أن يستلمها الشخص الآخر.
+
+<div class="gifs">
+    <img src="/img/getting-started/android/share.gif" alt="gif that shows how to share information" title="share information with third party apps" />
+</div>
 
 
 
-#### Bộ Công cụ Dữ liệu mở {#open-data-kit}
+## المضي قدما {#go-further}
+### الاتصال بالخادم {#connect-to-a-server}
+يمكن توصيل Tella بمجموعة متنوعة من الخدمات الخلفية. يتم استخدام هذا من قبل المنظمات للسماح لأعضائها أو شركائها بإرسال البيانات والملفات إلى موقع بعيد آمن. إذا كنت تفكر في الاتصال بخادم وكانت لديك شكوك حول الخادم الذي يجب اختياره أو كيفية الاتصال به، فيرجى الاطلاع على [توثيقاتنا للمنظمات](/for-organizations) أو [اتصل بنا](/contact-us)، فنحن هنا للمساعدة!
 
-[Bộ Công cụ Dữ liệu mở (ODK)](https://getodk.org/) là một tiêu chuẩn mở được sử dụng để tạo các biểu mẫu tùy chỉnh và thu thập dữ liệu. Vì ODK là một tiêu chuẩn mở nên Tella có thể được sử dụng với bất kỳ công cụ nào tương thích với ODK, như [Ona](https://ona.io/home/) or [KoboToolbox](https://www.kobotoolbox.org/), để tạo các biểu mẫu với các câu hỏi tùy chỉnh, quản lý người dùng và tổng hợp dữ liệu do người dùng gửi.
 
-Chúng tôi đã soạn tài liệu về cách kết nối với máy chủ Bộ Công cụ Dữ liệu mở và chúng tôi khuyên bạn nên đọc [trang này](/odk) để bắt đầu.
+
+#### Open Data Kit {#open-data-kit}
+
+تُعد [Open Data Kit (ODK)](https://getodk.org/) معيارا مفتوحا يُستخدم لإنشاء استمارات مخصصة ولجمع البيانات. نظرا لأن ODK معيار مفتوح، يمكن استخدام Tella مع أي من الأدوات المتوافقة مع ODK، مثل [Ona](https://ona.io/home/) أو [KoboToolbox](https://www.kobotoolbox .org/)، لإنشاء استمارات بأسئلة مخصصة، وإدارة المستخدمين، وتجميع البيانات المُرسلَة من قبل المستخدمين.
+
+لقد كتبنا توثيقات حول كيفية الاتصال بخادم Open Data Kit، كما نوصيك بقراءة [هذه الصفحة](/odk) لبدء الاستخدام.
 
 
 <div class="gifs">
-    <img src="img/getting-started/android/kobo.gif" alt="gif that shows ODK connection" title="ODK connection" />
+    <img src="/img/getting-started/android/kobo.gif" alt="gif that shows ODK connection" title="ODK connection" />
 </div>
 
 #### Uwazi {#uwazi}
-[Uwazi](https://uwazi.io/) là một ứng dụng nguồn mở do HURIDOCS tạo ra với các tính năng mạnh mẽ để thu thập, sắp xếp và trực quan hóa dữ liệu về nhân quyền.
+[Uwazi](https://uwazi.io/) هو تطبيق مفتوح المصدر صممته HURIDOCS مع ميزات هائلة لجمع بيانات حقوق الإنسان وتنظيمها وعرضها.
 
-Chúng tôi đã tạo tài liệu về cách kết nối với máy chủ Bộ Công cụ Dữ liệu mở và chúng tôi khuyên bạn nên đọc [trang này](/uwazi) để bắt đầu.
+لقد كتبنا توثيقات حول كيفية الاتصال بخادم Open Data Kit، كما نوصيك بقراءة [هذه الصفحة](/uwazi) للبدء.
 
 <div class="gifs">
-    <img src="img/getting-started/android/uwazi.gif" alt="gif that shows Uwazi connection" title="Uwazi connection" />
+    <img src="/img/getting-started/android/uwazi.gif" alt="gif that shows Uwazi connection" title="Uwazi connection" />
 </div>
 
 #### Tella Web {#tella-web}
-Tella Web là một công cụ nguồn mở cho phép các cá nhân và tổ chức tập trung và quản lý các báo cáo do người dùng Tella gửi, bao gồm hình ảnh, video và tệp âm thanh.
+Tella Web هي أداة مفتوحة المصدر تُمكِّن الأفراد والمنظمات من الإدارة والتجميع المُمركَز للتقارير التي يرسلها مستخدمو Tella، بما في ذلك الصور ومقاطع الفيديو والملفات الصوتية.
 
-Đọc thêm về Tella Web [tại đây](/tella-web) hoặc xem [video hướng dẫn](/video-tutorials#tella-web).
+اقرأ المزيد عن Tella Web [هنا](/tella-web) أو شاهد [الفيديو التعليمي](/video-tutorials#tella-web).
 
 
 
-### Đọc thêm về Tella {#read-more-about-tella}
-- [Tính năng](/features): Tìm hiểu thêm về cách Tella có thể giữ an toàn cho bạn và những mối đe dọa mà Tella không_thể_bảo vệ bạn.
-- [Kết nối](/for-organizations): Tìm hiểu cách bạn có thể kết nối với máy chủ để thu thập dữ liệu hoặc sao lưu tài liệu.
-- [Bảo mật và quyền riêng tư](/security-and-privacy): Chúng tôi chỉ thu thập lượng dữ liệu tối thiểu cần thiết và không bao giờ thu thập bất kỳ thông tin cá nhân nào có thể nhận dạng được. Đọc chính sách bảo mật đầy đủ [tại đây](/privacy).
+### اقرأ المزيد عن Tella {#read-more-about-tella}
+- ‫[الميزات](/features): تعرَّف على المزيد حول كيف يمكن لـ Tella أن يحافظ على سلامتك والتهديدات التي _لا_ يحميك منها Tella.
+- [الاتصالات](/for-organizations): تعرف على كيفية الاتصال بخادم لجمع البيانات أو للنسخ الاحتياطي للملفات.
+- [الأمن والخصوصية](/security-and-privacy): نحن نجمع فقط الحد الأدنى من البيانات اللازمة ولا نجمع أبدا أي معلومات تعريفية شخصية. اقرأ سياسة الخصوصية الكاملة [هنا](/privacy).
 
-#### Liên hệ với chúng tôi nếu bạn cần giúp đỡ {#contact-us-if-you-need-help}
-Nếu bạn cần trợ giúp để hiểu các chi tiết kỹ thuật và các yếu tố về bảo mật của Tella, để quyết định xem nó có phù hợp với bạn và nhóm của bạn hay không, chúng tôi ở đây để giúp đỡ. Chỉ cần [liên hệ với chúng tôi](/contact-us) để chúng tôi giải đáp các câu hỏi hoặc tổ chức một buổi đào tạo hoặc một buổi hỏi-đáp trực tiếp cho nhóm của bạn.
+#### اتصل بنا إذا كنت بحاجة إلى مساعدة {#contact-us-if-you-need-help}
+إذا كنت بحاجة إلى المساعدة لفهم التفاصيل التقنية والاعتبارات الأمنية الخاصة بـ Tella لتحديد مدى ملائمته لك ولفريقك، فنحن هنا لمساعدتك. ما عليك سوى [التواصل معنا](/contact-us) حتى نتمكن من الإجابة على أسئلتك أو التخطيط لاستضافة تدريب أو جلسة أسئلة وأجوبة مباشرة لأجل فريقك.
