@@ -1,6 +1,3 @@
-Here is the translated JSON document with the message items in Vietnamese:
-
-```json
 {
   "theme.ErrorPageContent.title": {
     "message": "Trang này đã gặp sự cố.",
@@ -184,5 +181,5 @@ Here is the translated JSON document with the message items in Vietnamese:
   "theme.CodeBlock.wordWrapToggle": {
     "message": "Chuyển đổi chế độ tự động xuống dòng",
     "description": "The title attribute for toggle word wrapping button of code block lines"
-  },
-  "
+  }
+}
