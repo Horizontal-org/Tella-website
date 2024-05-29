@@ -103,7 +103,8 @@ Nếu mật khẩu của người dùng quá yếu, kẻ xâm nhập có thể �
 :::
 
 :::danger
-Nếu người dùng quên mật khẩu của mình thì không có cách nào để truy cập vào ứng dụng và lấy lại nội dung của nó:::
+Nếu người dùng quên mật khẩu của mình thì không có cách nào để truy cập vào ứng dụng và lấy lại nội dung của nó
+:::
 
 :::tip Video  tutorial 🎥
 Tìm hiểu thêm về Mật khẩu và Mã hóa trong [video hướng dẫn] của chúng tôi (/video-tutorials#tella-locks)
