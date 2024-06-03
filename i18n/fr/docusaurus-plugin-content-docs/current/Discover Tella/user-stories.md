@@ -77,7 +77,7 @@ Lors des élections présidentielles de 2020 en Biélorussie, les organisations 
 
 
 🗄️_Connexion : ODK (Kobotoolbox)_
-:::note
+:::
 
 Au Belarus, le régime autocratique d'Alexandre Loukachenko bâillonne depuis longtemps les droits fondamentaux et réprime l'opposition politique. Les élections ne sont ni libres ni équitables. Pour la première fois depuis des décennies, cependant, les élections présidentielles de 2020 ont offert une possibilité de changement, avec des candidats et des candidates d'opposition crédibles et une société civile revigorée par l'incompétence du gouvernement face à la pandémie de Covid-19. 
 
