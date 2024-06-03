@@ -37,7 +37,7 @@ import ThemedImage from '@theme/ThemedImage';
             <img className="home-illustrations" src="img/why-tella.png" alt="Ilustración de ¿Por qué Tella?" />
         </div>
         <div className="column" id="section-column2">
-            <p>Si eres activista, periodista, trabajas defendiendo los derechos humanos, o eresalguien que documenta injusticias, puedes usar Tella para:</p>
+            <p>Si eres activista, periodista, trabajas defendiendo los derechos humanos, o eres alguien que documenta injusticias, puedes usar Tella para:</p>
             <ul>
                 <li><span className="emphasis">Protegerte</span> de la represión física y digital mientras recopilas y almacenas información sensible.</li>
                 <li><span className="emphasis">Proteger los datos que recopilas</span> de la censura, manipulación, interceptación y destrucción.</li>
