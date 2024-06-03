@@ -40,7 +40,7 @@ Paramètres ⚙️ > Sécurité > Délai de verrouillage.
 
 Les options disponibles sont 1 minute, 5 minutes, 30 minutes et 1 heure. ⏱️
 
-:::info
+:::Info
 Il convient d'utiliser cette fonction avec prudence, car dès que Tella est déverrouillée, les données ne sont plus protégées et toute personne accédant à Tella peut consulter toutes les informations y figurant.
 :::
 
@@ -110,7 +110,7 @@ Si vous oubliez comment dévérouiller Tella, il n'y a aucun moyen d'y accéder 
 Apprenez-en plus sur les modes de verroullages et sur le cryptage  grâce à notre [tutoriel vidéo](/video-tutorials#tella-locks) 
 :::
 
-:::info
+:::Info
 Des informations techniques sur le cryptage sont disponibles dans la section [Sécurité et confidentialité](/security-and-privacy).
 :::
 
@@ -148,7 +148,7 @@ Pour garantir votre confidentialité anonymat, seules les données essentielles 
 Sur la base de données du serveur Feedback, nous stockons uniquement une copie du texte que vous avez envoyé dans le formulaire de commentaires et de quelle plateforme il provient (Android ou iOS).
 
 
-:::info
+:::Info
 La seule information que nous recevrons est le contenu vous ajouterez spécifiquement sur le formulaire de commentaires. Si vous souhaitez demander de l'aide ou un suivi avec vous, vous doivent nous fournir un moyen sécurisé de vous contacter.
 :::
 

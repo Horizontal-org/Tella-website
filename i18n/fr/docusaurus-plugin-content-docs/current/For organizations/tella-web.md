@@ -32,7 +32,7 @@ Cette étape consiste à installer et configurer Tella Web sur le serveur que vo
 
 
 
-:::info
+:::Info
 Notre équipe peut vous assister dans l'installation, la configuration et la maintenance de Tella Web. Si vous avez des questions ou si vous avez besoin d'aide, [contactez-nous](/contact-us/)
 :::
 
