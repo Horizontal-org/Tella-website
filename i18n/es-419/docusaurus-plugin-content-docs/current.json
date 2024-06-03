@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Siguiente",
+    "description": "The label for version current"
+  },
+  "sidebar.generalSidebar.category.Discover Tella": {
+    "message": "Descubre Tella",
+    "description": "The label for category Discover Tella in sidebar generalSidebar"
+  },
+  "sidebar.generalSidebar.category.Get Started": {
+    "message": "Empezar",
+    "description": "The label for category Get Started in sidebar generalSidebar"
+  },
+  "sidebar.generalSidebar.category.For organizations": {
+    "message": "Para organizaciones",
+    "description": "The label for category For organizations in sidebar generalSidebar"
+  },
+  "sidebar.generalSidebar.category.Community": {
+    "message": "Comunidad",
+    "description": "The label for category Community in sidebar generalSidebar"
+  }
+}

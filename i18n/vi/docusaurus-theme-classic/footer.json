@@ -1,0 +1,86 @@
+{
+  "link.title.Learn": {
+    "message": "Tìm hiểu",
+    "description": "The title of the footer links column with title=Learn in the footer"
+  },
+  "link.title.Community": {
+    "message": "Cộng đồng",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.Latest news": {
+    "message": "Tín mới nhất",
+    "description": "The title of the footer links column with title=Latest news in the footer"
+  },
+  "link.title.More": {
+    "message": "Thêm",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Get started on Android": {
+    "message": "Bắt đầu trên Android",
+    "description": "The label of footer link with label=Get started on Android linking to /get-started-android"
+  },
+  "link.item.label.Get started on iOS": {
+    "message": "Bắt đầu trên iOS",
+    "description": "The label of footer link with label=Get started on iOS linking to /get-started-ios"
+  },
+  "link.item.label.Video Tutorials": {
+    "message": "Video Hướng dẫn",
+    "description": "The label of footer link with label=Video Tutorials linking to /video-tutorials"
+  },
+  "link.item.label.Tella for Organizations": {
+    "message": "Tella dành cho tổ chức",
+    "description": "The label of footer link with label=Tella for Organizations linking to /for-organizations"
+  },
+  "link.item.label.Help & Contact": {
+    "message": "Liên hệ và Trợ giúp",
+    "description": "The label of footer link with label=Help & Contact linking to /contact-us"
+  },
+  "link.item.label.Community Meetings": {
+    "message": "Các Cuộc họp Cộng đồng",
+    "description": "The label of footer link with label=Community Meetings linking to /community-meetings"
+  },
+  "link.item.label.Mastodon": {
+    "message": "Mastodon",
+    "description": "The label of footer link with label=Mastodon linking to https://infosec.exchange/@tella"
+  },
+  "link.item.label.X (Twitter)": {
+    "message": "X (Twitter)",
+    "description": "The label of footer link with label=X (Twitter) linking to https://x.com/Tella_app"
+  },
+  "link.item.label.Donate to Tella": {
+    "message": "Tài trợ cho Tella",
+    "description": "The label of footer link with label=Donate to Tella linking to https://wearehorizontal.org/donate"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to https://blog.wearehorizontal.org/"
+  },
+  "link.item.label.Changelog": {
+    "message": "Nhật ký thay đổi",
+    "description": "The label of footer link with label=Changelog linking to /releases"
+  },
+  "link.item.label.Newsletter": {
+    "message": "Bản tin",
+    "description": "The label of footer link with label=Newsletter linking to https://blog.wearehorizontal.org/#/portal/"
+  },
+  "link.item.label.About us": {
+    "message": "Về chúng tôi",
+    "description": "The label of footer link with label=About us linking to https://wearehorizontal.org/about"
+  },
+  "link.item.label.Privacy policy": {
+    "message": "Chính sách Bảo mật",
+    "description": "The label of footer link with label=Privacy policy linking to /privacy"
+  },
+  "link.item.label.Open Source": {
+    "message": "Mã Nguồn Mở",
+    "description": "The label of footer link with label=Open Source linking to /open-source"
+  },
+  "link.item.label.Accessibility": {
+    "message": "Khả năng Tiếp cận",
+    "description": "The label of footer link with label=Accessibility linking to /accessibility"
+  },
+  "copyright": {
+    "message": "Tella là một dự án của<a href=\"https://wearehorizontal.org/\">Horizontal</a>, một tổ chức phi lợi nhuận đã đăng ký theo điều 501(c)(3) – EIN: 83-1782268. </br> Trang web này được cấp phép theo giấy phép Creative Commons 4.0 Ghi nhận quốc tế.",
+    "description": "The footer copyright"
+  }
+}

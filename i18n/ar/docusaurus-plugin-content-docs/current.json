@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "التالي",
+    "description": "The label for version current"
+  },
+  "sidebar.generalSidebar.category.Discover Tella": {
+    "message": "اكتشف Tella",
+    "description": "The label for category Discover Tella in sidebar generalSidebar"
+  },
+  "sidebar.generalSidebar.category.Get Started": {
+    "message": "البدء",
+    "description": "The label for category Get Started in sidebar generalSidebar"
+  },
+  "sidebar.generalSidebar.category.For organizations": {
+    "message": "للمنظمات",
+    "description": "The label for category For organizations in sidebar generalSidebar"
+  },
+  "sidebar.generalSidebar.category.Community": {
+    "message": "المجتمع",
+    "description": "The label for category Community in sidebar generalSidebar"
+  }
+}
