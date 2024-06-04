@@ -41,7 +41,7 @@ import ThemedImage from '@theme/ThemedImage';
             <p>Si vous êtes un ou une activiste, journaliste, défenseur ou défenseuse des droits humains, ou quelqu'un qui documente les injustices, vous pouvez utiliser Tella pour:</p>
             <ul>
                 <li><span className="emphasis">Vous protéger</span> de la répression physique et numérique tout en collectant et sauvegardant des informations sensibles.</li>
-                <li><span className="emphasis">Protéger les données que vous collectez</span> contre leyr censure, falsification, interception et destruction.</li>
+                <li><span className="emphasis">Protéger les données que vous collectez</span> contre leur censure, falsification, interception et destruction.</li>
                 <li><span className="emphasis">Produire facilement une documentation de haute qualité</span> pouvant être utilisée pour la recherche, le plaidoyer ou la justice transitionnelle.</li>
             </ul>
         </div>
