@@ -24,8 +24,8 @@ Celles-ci sont appelées [Connexions](/features#connecting-to-servers) dans Tell
 
 Ce qui suit est un graphique de base, non exhaustif, permettant de déterminer lequel des trois types de serveurs est le mieux adapté aux différents besoins. C'est un bon point de départ, mais vous pouvez également [cette vidéo](/video-tutorials#connections-full-video) où nous présentons chaque type de serveur. Si vous avez besoin d'aide pour décider ou souhaitez demander une nouvelle connexion (une intégration à un nouveau type de serveur), [contactez-nous !](/contact-us)
 
-```sirène
-graphique TD;
+```mermaid
+graph TD;
     id1(Quel type de données les utilisateurs doivent-ils envoyer?) --> id2("Données principalement structurées (formulaires), avec pièces jointes multimédias");
     id1 --> id3("Principalement des fichiers multimédias, avec du texte") ;
     id2 --> id4("De quelles fonctionnalités supplémentaires avez-vous besoin ?");
