@@ -128,7 +128,7 @@ Escribimos documentación sobre cómo conectar a un servidor de Open Data Kit y 
 
 
 ### Contáctanos si necesitas ayuda {#contact-us-if-you-need-help}
-Si necesitas ayuda para entender los detalles técnicos y consideraciones de seguridad de Tella para decidir si es adecuada para ti y tu equipo, estamos aquí para ayudar. Solo [comunícate con nosotra(o)s](/contact-us) para que podamos responder tus preguntas o planificar una capacitación o una sesión de Preguntas y respuestas en vivo para tu equipo.
+Si necesitas ayuda para entender los detalles técnicos y consideraciones de seguridad de Tella para decidir si es adecuada para ti y tu equipo, estamos aquí para ayudar. Solo [comunícate con nosotra(o)s](/contact/us) para que podamos responder tus preguntas o planificar una capacitación o una sesión de Preguntas y respuestas en vivo para tu equipo.
 
 
 

@@ -18,7 +18,7 @@ Trabajamos arduamente para hacer que Tella esté disponible en idiomas hablados 
 
 <TellaLanguages/>
 
-[Video Tutoriales](/video-tutorials) tienen subtítulos disponibles en Español, Árabe, Suajili y Francés.
+[Video Tutoriales](/video-tutoriales) tienen subtítulos disponibles en Español, Árabe, Suajili y Francés.
 
 
 
