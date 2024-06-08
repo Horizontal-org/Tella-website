@@ -11,7 +11,7 @@ Tella Web là một công cụ mã nguồn mở cho phép các cá nhân và t�
 
 Tella Web được phát triển nội bộ bởi đội ngũ của chúng tôi tại Horizontal, đội ngũ này cũng phụ trách việc phát triển ứng dụng di động của Tella. Đây là một giải pháp thân thiện với người dùng để sao lưu các tệp phương tiện lên máy chủ từ xa một cách an toàn và riêng tư. Chúng tôi có thể cung cấp hỗ trợ cho việc cài đặt, cấu hình và bảo trì một phiên bản Tella Web nếu tổ chức của bạn không có ai có thể thực hiện điều này.
 
-Tương tự như tất cả những kết nối khác([Uwazi](/uwazi) và [Bộ Công cụ Dữ liệu mở](/odk)), kết nối với Tella Web tăng cường tính bảo mật của dữ liệu được thu thập trên Tella bằng cách:
+Tương tự như tất cả những kết nối khác ([Uwazi](/uwazi) và [Bộ Công cụ Dữ liệu mở](/odk)), kết nối với Tella Web tăng cường tính bảo mật của dữ liệu được thu thập trên Tella bằng cách:
 1. Cho phép người dùng thu thập dữ liệu trực tiếp trong kho lưu trữ được mã hóa của Tella.
 2. Đảm bảo dữ liệu được gửi trực tiếp từ Tella đến Tella Web mà không cần phải dựa vào công cụ hoặc ứng dụng của bên thứ ba.
 3. Cho phép người dùng sao lưu dữ liệu của họ trên máy chủ từ xa, để giảm nguy cơ dữ liệu bị phát hiện trên thiết bị di động của họ.
@@ -157,7 +157,7 @@ Sau khi chọn người dùng để thêm vào dự án, hãy nhấp vào nút "
 Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
 :::
 
-## Chuẩn bị cho người dùng tại hiện trường sẵn sàng bắt đầu nộp báo cáo {#get-people-on-the-ground-ready-to-start-submitting-reports}
+## Chuẩn bị cho người dùng tại hiện trường sẵn sàng gửi báo cáo {#get-people-on-the-ground-ready-to-start-submitting-reports}
 
 
 Các bước được liệt kê dưới đây áp dụng cho cả phiên bản Android và iOS của ứng dụng Tella. Tính năng báo cáo có sẵn trong:

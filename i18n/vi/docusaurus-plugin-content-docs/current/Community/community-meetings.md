@@ -7,7 +7,7 @@ slug: /community-meetings
 
 # các cuộc họp cộng đồng của Tella
 
-### Cái gì {#what}
+### Về nội dung gì {#what}
 
 Mỗi tháng, Horizontal tổ chức cuộc họp cộng đồng với người dùng, đối tác hoặc bất kỳ ai quan tâm đến Tella.  Trong những cuộc họp này, chúng tôi:
 
@@ -15,7 +15,7 @@ Mỗi tháng, Horizontal tổ chức cuộc họp cộng đồng với người 
 -   chia sẻ lộ trình và những phát triển sắp ra mắt
 -   giải đáp những thắc mắc mà người dùng có thể gặp
 -   lắng nghe những đề xuất tính năng phản hồi để chúng tôi có thể kết hợp chúng vào kế hoạch của mình
--   tổ chức cho những diễn giả khách mời sẽ chia sẻ về các bài học và trải nghiệm sử dụng của họ đối với Tella.  
+-   tổ chức cho những diễn giả khách mời chia sẻ về các bài học và trải nghiệm sử dụng của họ đối với Tella
 
 ### Khi nào {#when}
 
@@ -32,7 +32,7 @@ Bạn có thể tham gia cuộc họp theo đường link này: [https://meet.ji
 ### An toàn và riêng tư {#safety-and-privacy}
 
 :::warning Important
-Để đảm bảo an toàn cho tất cả những người tham gia, bất kỳ ai tham gia cuộc gọi của cộng đồng Tella đều đồng ý tuân theo [Quy tắc ứng xử của Horizontal](https://horizontal-org.slite.com/app/docs/E33mV5cWaJhd8x/Horizontal-Code-of-Conduct). Xin hãy dành chút thời gian để làm quen với nó.
+Để đảm bảo an toàn cho tất cả những người tham gia, bất kỳ ai tham gia cuộc gọi của cộng đồng Tella đều đồng ý tuân thủ [Quy tắc ứng xử của Horizontal](https://horizontal-org.slite.com/app/docs/E33mV5cWaJhd8x/Horizontal-Code-of-Conduct). Xin hãy dành chút thời gian để làm quen với nó.
 :::
 
 Các cuộc họp cộng đồng của Tella được tổ chức trên phiên bản công khai của Jitsi Meet.  Jitsi không yêu cầu đăng ký và không thu thập cũng như lưu giữ dữ liệu về người dùng. Tuy nhiên, <u>**liên kết tới cuộc họp được chia sẻ công khai và rộng rãi**</u>. Xin hãy thận trọng để che dấu danh tính thật nếu điều này quan trọng cho sự an toàn của bạn (ví dụ: bạn có thể sử dụng bí danh) và tránh chia sẻ bất kỳ thông tin nhạy cảm nào trong cuộc họp.

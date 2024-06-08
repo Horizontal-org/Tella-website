@@ -9,7 +9,7 @@ slug: /for-organizations
 
 Ngoài việc bảo vệ dữ liệu trong ứng dụng, người dùng cũng có thể kết nối với máy chủ để sao lưu dữ liệu một cách an toàn. Thông thường, đây là máy chủ do các tổ chức quản lý, nơi họ có thể tập trung dữ liệu do các tình nguyện viên hoặc nhà hoạt động thu thập trên thực địa. Những cá nhân này sử dụng Tella trên điện thoại của họ để thu thập thông tin và sau đó gửi đến tổ chức của họ.
 
-Các lần triển khai Tella trước, nơi người dùng tại thực địa đã thu thập dữ liệu và gửi về máy chủ của tổ chức, đã có từ 1 đến 2,000 người dùng. 📲 📡. Bạn có thể đọc các câu chuyện của người dùng [tại đây](/user-stories), hoặc bạn có thể liên hệ với chúng tôi để chúng tôi có thể giúp bạn tìm cách tốt nhất để sử dụng Tella cho tổ chức của bạn.
+Theo các lần triển khai Tella trước, nơi người dùng tại thực địa đã thu thập dữ liệu và gửi về máy chủ của tổ chức, đã có từ 1 đến 2,000 người dùng. 📲 📡. Bạn có thể đọc các câu chuyện của người dùng [tại đây](/user-stories), hoặc bạn có thể liên hệ với chúng tôi để chúng tôi giúp bạn tìm cách tốt nhất để sử dụng Tella cho tổ chức của bạn.
 
 Hiện tại, Tella có thể kết nối với các loại máy chủ sau:
 
@@ -17,7 +17,7 @@ Hiện tại, Tella có thể kết nối với các loại máy chủ sau:
 * [Uwazi](#uwazi)
 * [Tella Web](#tella-web)
 
-Trong Tella, đây được gọi là [Kết nối](/features#connecting-to-servers)
+Chúng được gọi là [Kết nối](/features#connecting-to-servers) trong Tella.
 
 
 ## Lựa chọn loại máy chủ phù hợp {#selecting-the-right-type-of-server}
@@ -58,7 +58,7 @@ Các tổ chức sử dụng Uwazi như một cơ sở dữ liệu có thể k�
 Nguồn thông tin để tìm hiểu thêm về Uwazi:
 * video hướng dẫn cách kết nối với Uwazi [tại đây](/video-tutorials#uwazi).
 * [Thêm thông tin về cách sử dụng Tella với Uwazi](/uwazi).
-* [bài đăng trên blog của đội ngũ Uwazi](https://huridocs.org/2022/07/the-new-tella-app-lets-uwazi-users-document-violations-safely-and-while-offline/) 
+* [bài đăng trên blog của đội ngũ Uwazi](https://huridocs.org/2022/07/the-new-tella-app-lets-uwazi-users-document-violations-safely-and-while-offline/) về kết nối.
 * Uwazi [website](https://uwazi.io/) và [tài liệu hướng dẫn](https://uwazi.readthedocs.io/en/latest/).
 
 
@@ -70,11 +70,11 @@ Nguồn thông tin để tìm hiểu thêm về Uwazi:
 Trên trang [Kết nối với máy chủ Bộ Công cụ Dữ liệu Mở](/odk), chúng tôi có giải thích cách tạo tài khoản, cách tìm thông tin về việc tạo biểu mẫu và cách kết nối với máy chủ từ Tella. Nếu bạn đang xem xét việc sử dụng Bộ Công cụ Dữ liệu Mở hoặc bạn cần sự trợ giúp để [triển khai](/faq#deploying-tella) phiên bản của mình, xin [liên hệ với chúng tôi](/contact-us). 
 
 
-:::thông tin
+:::info
 Kết nối ODK [chỉ có sẵn trên Android](/features). 
 :::
 
 :::tip
-Bạn cũng có thể xem một bản giới thiệu về kết nối ODK [tại đây](/video-tutorials#open-data-kit).
+Bạn cũng có thể xem bản giới thiệu về kết nối ODK [tại đây](/video-tutorials#open-data-kit).
 :::
 
