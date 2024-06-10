@@ -1,0 +1,185 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "حدث خطأ في هذه الصفحة.",
+    "description": "عنوان صفحة الاسترداد عند تعطل الصفحة"
+  },
+  "theme.NotFound.title": {
+    "message": "الصفحة غير موجودة",
+    "description": "عنوان صفحة 404"
+  },
+  "theme.NotFound.p1": {
+    "message": "لم نتمكن من العثور على ما تبحث عنه.",
+    "description": "الفقرة الأولى من صفحة 404"
+  },
+  "theme.NotFound.p2": {
+    "message": "يرجى التواصل مع مالك الموقع الذي ربطك بالرابط الأصلي وأخبره بأن الرابط معطل.",
+    "description": "الفقرة الثانية من صفحة 404"
+  },
+  "theme.admonition.note": {
+    "message": "ملاحظة",
+    "description": "التسمية الافتراضية المستخدمة لملاحظة التنبيه (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "نصيحة",
+    "description": "التسمية الافتراضية المستخدمة لنصيحة التنبيه (:::tip)"
+  },
+  "theme.admonition.danger": {
+    "message": "خطر",
+    "description": "التسمية الافتراضية المستخدمة لخطر التنبيه (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "معلومات",
+    "description": "التسمية الافتراضية المستخدمة لمعلومات التنبيه (:::info)"
+  },
+  "theme.admonition.caution": {
+    "message": "حذر",
+    "description": "التسمية الافتراضية المستخدمة لحذر التنبيه (:::caution)"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "العودة إلى الأعلى",
+    "description": "تسمية ARIA لزر العودة إلى الأعلى"
+  },
+  "theme.blog.archive.title": {
+    "message": "الأرشيف",
+    "description": "عنوان الصفحة والعنوان الرئيسي لصفحة أرشيف المدونة"
+  },
+  "theme.blog.archive.description": {
+    "message": "الأرشيف",
+    "description": "وصف الصفحة والعنوان الرئيسي لصفحة أرشيف المدونة"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "التنقل عبر صفحة قائمة المدونات",
+    "description": "تسمية ARIA للتنقل عبر صفحات المدونة"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "مقالات أحدث",
+    "description": "التسمية المستخدمة للتنقل إلى صفحة مقالات المدونة الأحدث (الصفحة السابقة)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "مقالات أقدم",
+    "description": "التسمية المستخدمة للتنقل إلى صفحة مقالات المدونة الأقدم (الصفحة التالية)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "شريط التنقل لمشاركات المدونة",
+    "description": "تسمية ARIA للتنقل بين مشاركات المدونة"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "منشور أحدث",
+    "description": "تسمية زر منشور المدونة للتنقل إلى المنشور الأحدث/السابق"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "منشور أقدم",
+    "description": "تسمية زر منشور المدونة للتنقل إلى المنشور الأقدم/التالي"
+  },
+  "theme.blog.post.plurals": {
+    "message": "منشور واحد|{count} منشورات",
+    "description": "تسمية جمع لمنشور|{count} منشورات\". استخدم أشكال الجمع حسب اللغة (انظر https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} موسومة بـ \"{tagName}\"",
+    "description": "عنوان صفحة وسم المدونة"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "عرض جميع الوسوم",
+    "description": "تسمية الرابط المستهدف لقائمة الوسوم"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "التبديل بين الوضع الداكن والفاتح (حاليًا {mode})",
+    "description": "تسمية ARIA لمبدل وضع الألوان في شريط التنقل"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "وضع داكن",
+    "description": "الاسم للوضع الداكن"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "وضع فاتح",
+    "description": "الاسم للوضع الفاتح"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "مسار التنقل",
+    "description": "تسمية ARIA لمسار التنقل"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} مقالات",
+    "description": "الوصف الافتراضي لبطاقة الفئة في الفهرس الذي تم إنشاؤه حول عدد العناصر التي تتضمنها هذه الفئة"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "صفحة الوثائق",
+    "description": "تسمية ARIA لتصفح صفحات الوثائق"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "السابق",
+    "description": "التسمية المستخدمة للتنقل إلى الوثيقة السابقة"
+  },
+  "theme.docs.paginator.next": {
+    "message": "التالي",
+    "description": "التسمية المستخدمة للتنقل إلى الوثيقة التالية"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "وثيقة واحدة موسومة|{count} وثائق موسومة",
+    "description": "تسمية جمع لـ \"{count} وثائق موسومة\". استخدم أشكال الجمع حسب اللغة (انظر https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} بـ \"{tagName}\"",
+    "description": "عنوان صفحة وسم الوثائق"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "الإصدار: {versionLabel}"
+  },
+  "theme.common.editThisPage": {
+    "message": "تحرير هذه الصفحة",
+    "description": "تسمية الرابط لتحرير الصفحة الحالية"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "رابط مباشر إلى {heading}",
+    "description": "عنوان الرابط إلى العنوان"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " في {date}",
+    "description": "الكلمات المستخدمة لوصف تاريخ آخر تحديث للصفحة"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " بواسطة {user}",
+    "description": "الكلمات المستخدمة لوصف من قام بتحديث الصفحة آخر مرة"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "آخر تحديث {atDate} {byUser}",
+    "description": "الجملة المستخدمة لعرض تاريخ آخر تحديث للصفحة ومن قام بذلك"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "هذه هي الوثائق غير المنشورة للإصدار {siteTitle} {versionLabel}.",
+    "description": "التسمية المستخدمة لإخبار المستخدم بأنه يتصفح إصدار وثائق غير منشور"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "هذه هي الوثائق للإصدار {siteTitle} {versionLabel}، التي لم تعد مُصانة بشكل نشط.",
+    "description": "التسمية المستخدمة لإخبار المستخدم بأنه يتصفح إصدار وثائق غير مُصان"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "للحصول على الوثائق المحدثة، انظر {latestVersionLink} ({versionLabel}).",
+    "description": "التسمية المستخدمة لإخبار المستخدم بفحص أحدث إصدار"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "أحدث إصدار",
+    "description": "التسمية المستخدمة لرابط اقتراح أحدث إصدار"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "الإصدارات",
+    "description": "تسمية القائمة المنسدلة للإصدارات في العرض المحمول"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "الوسوم:",
+    "description": "التسمية بجانب قائمة الوسوم"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "إغلاق",
+    "description": "تسمية ARIA لزر إغلاق شريط الإعلان"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "التنقل في المنشورات الحديثة",
+    "description": "تسمية ARIA للمنشورات الحديثة في الشريط الجانبي للمدونة"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "تبديل التفاف الكلمات",
+    "description": "عنوان زر تبديل التفاف الكلمات في كود البلوك"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "link.title.Learn": {
+    "message": "Apprendre",
+    "description": "The title of the footer links column with title=Learn in the footer"
+  },
+  "link.title.Community": {
+    "message": "Communauté",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.Latest news": {
+    "message": "Dernières nouvelles",
+    "description": "The title of the footer links column with title=Latest news in the footer"
+  },
+  "link.title.More": {
+    "message": "Plus",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Get started on Android": {
+    "message": "Commencez sur Android",
+    "description": "The label of footer link with label=Get started on Android linking to /get-started-android"
+  },
+  "link.item.label.Get started on iOS": {
+    "message": "Commencez sur iOS",
+    "description": "The label of footer link with label=Get started on iOS linking to /get-started-ios"
+  },
+  "link.item.label.Video Tutorials": {
+    "message": "Tutoriels vidéos",
+    "description": "The label of footer link with label=Video Tutorials linking to /video-tutorials"
+  },
+  "link.item.label.Tella for Organizations": {
+    "message": "Tella pour les organisations",
+    "description": "The label of footer link with label=Tella for Organizations linking to /for-organizations"
+  },
+  "link.item.label.Help & Contact": {
+    "message": "Aide & Contact",
+    "description": "The label of footer link with label=Help & Contact linking to /contact-us"
+  },
+  "link.item.label.Community Meetings": {
+    "message": "Réunions communautaires",
+    "description": "The label of footer link with label=Community Meetings linking to /community-meetings"
+  },
+  "link.item.label.Mastodon": {
+    "message": "Mastodon",
+    "description": "The label of footer link with label=Mastodon linking to https://infosec.exchange/@tella"
+  },
+  "link.item.label.X (Twitter)": {
+    "message": "X (Twitter)",
+    "description": "The label of footer link with label=X (Twitter) linking to https://x.com/Tella_app"
+  },
+  "link.item.label.Donate to Tella": {
+    "message": "Faire un don à Tella",
+    "description": "The label of footer link with label=Donate to Tella linking to https://wearehorizontal.org/donate"
+  },
+  "link.item.label.Blog": {
+    "message": "Blog",
+    "description": "The label of footer link with label=Blog linking to https://blog.wearehorizontal.org/"
+  },
+  "link.item.label.Changelog": {
+    "message": "Journal des modifications",
+    "description": "The label of footer link with label=Changelog linking to /releases"
+  },
+  "link.item.label.Newsletter": {
+    "message": "Lettre d'information",
+    "description": "The label of footer link with label=Newsletter linking to https://blog.wearehorizontal.org/#/portal/"
+  },
+  "link.item.label.About us": {
+    "message": "À propos",
+    "description": "The label of footer link with label=About us linking to https://wearehorizontal.org/about"
+  },
+  "link.item.label.Privacy policy": {
+    "message": "Politique de confidentialité",
+    "description": "The label of footer link with label=Privacy policy linking to /privacy"
+  },
+  "link.item.label.Open Source": {
+    "message": "Open Source",
+    "description": "The label of footer link with label=Open Source linking to /open-source"
+  },
+  "link.item.label.Accessibility": {
+    "message": "Accessibilité",
+    "description": "The label of footer link with label=Accessibility linking to /accessibility"
+  },
+  "copyright": {
+    "message": "Tella est un projet d' <a href=\"https://wearehorizontal.org/\">Horizontal</a>, une organisation à but non lucratif enregistrée 501(c)(3) – EIN : 83-1782268. </br> Ce site Web est sous licence Creative Commons 4.0 Attribution International.",
+    "description": "The footer copyright"
+  }
+}

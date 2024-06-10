@@ -7,7 +7,7 @@ slug: /get-started
 # Começar com o Tella
 
 
-<div class="doc-card-list">
+<div className="doc-card-list">
     <div className="doc-card">
       <a href="get-started-android">
         <div className="doc-card-content">

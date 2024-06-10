@@ -54,7 +54,7 @@ Not1More (N1M) used Tella to document violations of environmental and land right
 
 [Not1More (N1M)](https://not1more.org/) is an environmental campaign group that supports frontline environmental defenders and investigates the root causes of environmental conflict. N1M supports those at the frontline of environmental protection, investigates environmental conflict and crime, working closely with at-risk defenders and communities in Cambodia, West Africa and Brazil.
 
-N1M implemented Tella in Northeastern Brazil where indigenous communities have faced attacks on their cultures, territories, and way of life._ _ Frontline environmental defenders in this region are being threatened, attacked, jailed or face smear campaigns because of their work. In 2019 alone, 24 land defenders were killed in Brazil. 90% of these murders occurred in the Amazon.
+N1M implemented Tella in Northeastern Brazil where indigenous communities have faced attacks on their cultures, territories, and way of life. Frontline environmental defenders in this region are being threatened, attacked, jailed or face smear campaigns because of their work. In 2019 alone, 24 land defenders were killed in Brazil. 90% of these murders occurred in the Amazon.
 
 N1M uses Tella to document these attacks and violations against environmental and land rights activists. Mary Menton, a research fellow in Environmental Justice at University of Sussex and a member of the N1M explained that _“In places like Brazil, the government is increasingly spying on non-governmental organizations and people who they see as a threat. It’s really important for activists to be as secure as possible in their data. We always have to make sure that we are not putting people at higher risk as they collect information and evidence”._
 
@@ -70,13 +70,13 @@ With the data collected, indigenous students and researchers at the Federal Univ
 :::note Summary
 In the 2020 presidential elections in Belarus, civil society organizations  deployed Tella to monitor the elections and document evidence of violations of electoral laws and procedures, as well as human rights abuses. Horizontal developed a custom version of Tella with a simplified user interface and default connection to the servers of the monitoring organizations. The app was translated to Belarusian and Russian. Over 250 users submitted a total of 1091 reports, despite the severe internet disruptions and the complete shutdown of mobile internet before, during, and after the election.
 
-👥_ 250 users_
+👥 250 users
 
 
-📲_ +1000 reports (photos, videos and form data)_
+📲 +1000 reports (photos, videos and form data)
 
 
-🗄️_ Connection: ODK (Kobotoolbox)_
+🗄️ Connection: ODK (Kobotoolbox)
 :::
 
 

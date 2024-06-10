@@ -1,0 +1,86 @@
+{
+  "link.title.Learn": {
+    "message": "လေ့လာပါ",
+    "description": "The title of the footer links column with title=Learn in the footer"
+  },
+  "link.title.Community": {
+    "message": "အသိုင်းအဝိုင်း",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.Latest news": {
+    "message": "နောက်ဆုံးရ သတင်းများ",
+    "description": "The title of the footer links column with title=Latest news in the footer"
+  },
+  "link.title.More": {
+    "message": "နောက်ထပ်",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Get started on Android": {
+    "message": "Android တွင် စတင်ပါ",
+    "description": "The label of footer link with label=Get started on Android linking to /get-started-android"
+  },
+  "link.item.label.Get started on iOS": {
+    "message": "iOS တွင် စတင်ပါ",
+    "description": "The label of footer link with label=Get started on iOS linking to /get-started-ios"
+  },
+  "link.item.label.Video Tutorials": {
+    "message": "ဗီဒီယို သင်ခန်းစာများ",
+    "description": "The label of footer link with label=Video Tutorials linking to /video-tutorials"
+  },
+  "link.item.label.Tella for Organizations": {
+    "message": "အဖွဲ့အစည်းများအတွက် Tella",
+    "description": "The label of footer link with label=Tella for Organizations linking to /for-organizations"
+  },
+  "link.item.label.Help & Contact": {
+    "message": "အကူအညီနှင့် ဆက်သွယ်ရန်",
+    "description": "The label of footer link with label=Help & Contact linking to /contact-us"
+  },
+  "link.item.label.Community Meetings": {
+    "message": "အသိုင်းအဝိုင်း အစည်းအဝေးများ",
+    "description": "The label of footer link with label=Community Meetings linking to /community-meetings"
+  },
+  "link.item.label.Mastodon": {
+    "message": "Mastodon",
+    "description": "The label of footer link with label=Mastodon linking to https://infosec.exchange/@tella"
+  },
+  "link.item.label.X (Twitter)": {
+    "message": "X (Twitter)",
+    "description": "The label of footer link with label=X (Twitter) linking to https://x.com/Tella_app"
+  },
+  "link.item.label.Donate to Tella": {
+    "message": "Tella သို့ လှူဒါန်းပါ",
+    "description": "The label of footer link with label=Donate to Tella linking to https://wearehorizontal.org/donate"
+  },
+  "link.item.label.Blog": {
+    "message": "ဘလော့",
+    "description": "The label of footer link with label=Blog linking to https://blog.wearehorizontal.org/"
+  },
+  "link.item.label.Changelog": {
+    "message": "ပြောင်းလဲမှုမှတ်တမ်း",
+    "description": "The label of footer link with label=Changelog linking to /releases"
+  },
+  "link.item.label.Newsletter": {
+    "message": "သတင်းလွှာ",
+    "description": "The label of footer link with label=Newsletter linking to https://blog.wearehorizontal.org/#/portal/"
+  },
+  "link.item.label.About us": {
+    "message": "ကျွန်ုပ်တို့အကြောင်း",
+    "description": "The label of footer link with label=About us linking to https://wearehorizontal.org/about"
+  },
+  "link.item.label.Privacy policy": {
+    "message": "ကိုယ်ရေးလုံခြုံမှု မူဝါဒ",
+    "description": "The label of footer link with label=Privacy policy linking to /privacy"
+  },
+  "link.item.label.Open Source": {
+    "message": "ပွင့်လင်းအရင်းအမြစ်",
+    "description": "The label of footer link with label=Open Source linking to /open-source"
+  },
+  "link.item.label.Accessibility": {
+    "message": "သုံးစွဲနိုင်မှု",
+    "description": "The label of footer link with label=Accessibility linking to /accessibility"
+  },
+  "copyright": {
+    "message": "Tella သည် <a href=\"https://wearehorizontal.org/\">1Horizontal</a> မှ မှတ်ပုံတင်ထားသော 501(c)(3) အကျိုးအမြတ်မယူသော – EIN: 83-1782268 မှ စီမံကိန်းတစ်ခု ဖြစ်သည်။</br> ဤဝဘ်ဆိုဒ်ကို Creative Commons 4.0 Attribution International License အောက်တွင် လိုင်စင် ထားရှိသည်။",
+    "description": "The footer copyright"
+  }
+}
