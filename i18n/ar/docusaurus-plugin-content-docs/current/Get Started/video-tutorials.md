@@ -5,7 +5,7 @@ description: الفيديوهات التعليمية لـ Tella
 slug: /video-tutorials
 ---
 
-## البحث عن Tella وتنزيله من Play Store
+## البحث عن Tella وتنزيله من Play Store {#find-and-download-tella-from-the-play-store}
 <div class="video-tutorial video-tutorial-vertical">
     <iframe src="https://player.vimeo.com/video/817029481?h=9a50648a2a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Find and download Tella from the Play Store"></iframe>
 </div>
