@@ -1,6 +1,6 @@
 ---
 id: accessibility
-title: Languages and accessibility
+title: اللغات وإمكانية الوصول في Tella
 description: نظرة على اللغات التي يوفرها Tella واعتبارات إمكانية الوصول.
 slug: /accessibility
 ---
@@ -28,10 +28,10 @@ import TellaLanguages from '.././_tella-languages.md';
 
 | **المنصة** | **التاريخ** | **الرابط** |
 | -----|-----|------ |  
-| Tella لأندرويد | نونبر 2023 | [الرابط](https://docs.google.com/document/d/1QtcWrSNvVtskUf5zNmOlgH0ue_O2ksdi/edit) | 
+| Tella Android | نونبر 2023 | [الرابط](https://docs.google.com/document/d/1QtcWrSNvVtskUf5zNmOlgH0ue_O2ksdi/edit) | 
 | Tella iOS | نونبر 2023 | [الرابط](https://docs.google.com/document/d/1-_dx-Ut98FpiasqgW98gxoFbwVx01R39/edit) | 
 
-إننا نعمل حاليا على حل جميع مشاكل إمكانية الوصول ذات المستوى A التي تم اكتشافها في Tella لنظام أندرويد.
+إننا نعمل حاليا على حل جميع مشاكل إمكانية الوصول ذات المستوى A التي تم اكتشافها في Tella Android
 
 
 
