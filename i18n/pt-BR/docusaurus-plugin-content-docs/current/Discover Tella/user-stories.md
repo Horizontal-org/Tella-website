@@ -54,7 +54,7 @@ Not1More (N1M) usou o Tella para documentar violações de direitos ambientais e
 
 [Not1More (N1M)](https://not1more.org/) é um grupo de propaganda ambientalista que apoia defensores do meio ambiente na linha de frente e investiga as raízes do conflito ambiental. N1M dá suporte àqueles na linha de frente da proteção ambiental, investiga conflitos e crimes contra o meio ambiente e trabalha próximo a defensores e comunidades em risco no Camboja, no Oeste da África e no Brasil.
 
-N1M implementou o Tella no nordeste do Brasil, onde comunidades indígenas vêm enfrentando ataques às suas culturas, territórios e modos de vida._ _ Defensores do meio ambiente na linha de frente nessa região estão sendo ameaçados, atacados, encarcerados ou encaram campanhas de difamação por causa de seu trabalho. Somente em 2019, 24 defensores de território foram assassinados no Brasil. 90% desses asssassinatos ocorreram na Amazônia.
+N1M implementou o Tella no nordeste do Brasil, onde comunidades indígenas vêm enfrentando ataques às suas culturas, territórios e modos de vida. Defensores do meio ambiente na linha de frente nessa região estão sendo ameaçados, atacados, encarcerados ou encaram campanhas de difamação por causa de seu trabalho. Somente em 2019, 24 defensores de território foram assassinados no Brasil. 90% desses asssassinatos ocorreram na Amazônia.
 
 N1M usa o Tella para documentar esses ataques e violações contra ativistas ambientais e de direitos de território. Mary Menton, uma pesquisadora associada de Justiça Ambiental na Universidade de Sussex e membro do N1M explicou que _“Em lugares como o Brasil, o governo está espionando de maneira crescente as organizações não governamentais e pessoas que entende como ameaça. É realmente importante que ativistas estejam os mais confiantes possíveis em seus dados. Sempre tivemos de nos certificar de não estarmos colocando as pessoas em um risco maior conforme elas coletam informação e evidência”._
 
@@ -62,7 +62,7 @@ Além das funcionalidades de segurança e privacidade do aplicativo, N1M decidiu
 
 Em novembro de 2019, durante a  [Conferência dos Defensores da Floresta](https://not1more.org/forest-defenders-2019/) no Brasil, a Horizontal treinou defensores da floresta para usar o Tella na coleta segura de dados sobre as violações de direitos.
 
-Com os dados coletados, estudantes indígenas e pesquisadores nas Universidades Federal da Bahia, Federal do Recôncavo Baiano e Estadual da Bahia, criaram um website com um mapa que retrata evidências de violações dos direitos indígenas, coletados com o uso do Tella: [https://umoutroceu.ufba.br](https://umoutroceu.ufba.br/). APOINME (Articulação dos Povos e Organizações Indígenas do Nodeste, Minas Gerais e Espírito Santo) usaram o mapa como uma ferramenta de sensibilização sobre os ataques a comunidades indígenas e reivindicar melhor proteção.
+Com os dados coletados, estudantes indígenas e pesquisadores nas Universidades Federal da Bahia, Federal do Recôncavo Baiano e Estadual da Bahia, criaram um website com um mapa que retrata evidências de violações dos direitos indígenas, coletados com o uso do Tella: [https://umoutroceu.ufba.br](https://umoutroceu.ufba.br/). APOINME (Articulação dos Povos e Organizações Indígenas do Nordeste, Minas Gerais e Espírito Santo) usaram o mapa como uma ferramenta de sensibilização sobre os ataques a comunidades indígenas e reivindicar melhor proteção.
 
 
 ## Monitoramento da Eleição - Bielorrússia {#election-monitoring---belarus}
@@ -70,13 +70,13 @@ Com os dados coletados, estudantes indígenas e pesquisadores nas Universidades 
 :::note Resumo
 Nas eleições presidenciais de 2020 na Bielorrússia, organizações da sociedade civil implantaram o Tella para monitorar as eleições e documentar evidências de violações das leis e procedimentos eleitorais, bem como abusos nos direitos humanos. A Horizontal desenvolveu uma versão personalizada do Tella, com uma interface de usuário simplificada e conexão com os servidores como padrão para as organizações responsáveis pelo monitoramento. O aplicativo foi traduzido para bielorusso e russo. Mais de 250 usuários submeteram um total de 1.091 relatórios, apesar das severas interrupções da internet e o completo desligamento da internet móvel antes, durante e depois da eleição.
 
-👥_ 250 usuários_
+👥 250 usuários
 
 
-📲_ +1.000 relatórios (fotos, vídeos e dados de formulários)_
+📲 +1.000 relatórios (fotos, vídeos e dados de formulários)
 
 
-🗄️_ Conexão: ODK (Kobotoolbox)_
+🗄️ Conexão: ODK (Kobotoolbox)
 :::
 
 Na Bielorrússia, o regime autocrático de Alexander Lukashenko tem há muito tempo sufocado direitos fundamentais e reprimido a oposição política. As eleições não são nem livres, nem justas. Pela primeira vez em décadas, no entanto, as eleições presidenciais de 2020 ofereceram um potencial caminho para a mudança, com candidatos de oposição confiáveis e uma sociedade civil reenergizada pela incompetência do governo em face da pandemia da COVID-19.
@@ -91,4 +91,4 @@ Apesar das interrupções da internet, 250 observadores usaram o Tella para subm
 
 No período após as eleições, os resultados oficiais [indicavam](https://eng.belta.by/politics/view/belarus-presidential-election-results-finalized-132578-2020/) que Lukashenko estava reeleito para um sexto mandato presidencial com 80% dos votos. Organizações locais e internacionais questionaram a integridade dessa eleição. Os dados coletados por observadores independentes, incluindo os coletados com o Tella, revelaram violações amplamente difundidas das leis e procedimentos eleitorais, bem como um extensivo abuso dos direitos humanos.
 
-Em seu relatório pós-eleição, a Organização pela Segurança e Cooperação na Europa (OSCE) em seu relatório recente [escreveu](https://www.osce.org/files/f/documents/2/b/469539.pdf) que os abusos de direitos humanos _“revelaram-se massivos e sistemáticos e foram provados sem sombra de dúvidas”._ Entre as inontáveis violações, os observadores documentaram a intimidação e a perseguição de ativistas, detenção de candidatos em potencial, fraude na eleição, restrição de acesso à informação, espancamentos e violência sexual. Os próprios observadores foram ameaçados, detidos e barrados dos locais de votação. De acordo com a OSCE, _“a votação não foi transparente, livre ou justa”_. O servidor foi desligado alguns meses após a eleição, logo que os dados foram baixados e processados pela organização.
+Em seu relatório pós-eleição, a Organização pela Segurança e Cooperação na Europa (OSCE) em seu relatório recente [escreveu](https://www.osce.org/files/f/documents/2/b/469539.pdf) que os abusos de direitos humanos _“revelaram-se massivos e sistemáticos e foram provados sem sombra de dúvidas”._ Entre as incontáveis violações, os observadores documentaram a intimidação e a perseguição de ativistas, detenção de candidatos em potencial, fraude na eleição, restrição de acesso à informação, espancamentos e violência sexual. Os próprios observadores foram ameaçados, detidos e barrados dos locais de votação. De acordo com a OSCE, _“a votação não foi transparente, livre ou justa”_. O servidor foi desligado alguns meses após a eleição, logo que os dados foram baixados e processados pela organização.
