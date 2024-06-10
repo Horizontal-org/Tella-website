@@ -27,7 +27,7 @@ Antes de traducir, por favor lee la página del Proyecto Tella en la [Wiki de Lo
 ## Comunidad de Localization Lab {#localization-lab-community}
 Para comunicarte con otra(o)s traductora(e)s, por favor únete a la comunidad de Localization Lab, donde organizamos traducciones, tomamos decisiones, informamos de errores en los textos fuente, etc.  
 
-1. Por favor llena el [Formulario de Bienvenida para Colaborador(a)] de Localization Lab (https://docs.google.com/forms/d/e/1FAIpQLSfgXL7UbC6eVk7YMg_gidFnBre3a6liYSnAuhiPmtSybubNWA/viewform) y lee los Roles & Guías de Colaborador(a). Esto ayudará a Localization Lab a conocerte mejor y garantizar que tus colaboraciones estén alineadas con nuestro proyecto y comunidad.
+1. Por favor llena el [Formulario de Bienvenida para Colaborador(a) de Localization Lab](https://docs.google.com/forms/d/e/1FAIpQLSfgXL7UbC6eVk7YMg_gidFnBre3a6liYSnAuhiPmtSybubNWA/viewform) y lee los Roles & Guías de Colaborador(a). Esto ayudará a Localization Lab a conocerte mejor y garantizar que tus colaboraciones estén alineadas con nuestro proyecto y comunidad.
 
 2. Localization Lab es una gran comunidad que valora la comunicación y el aprendizaje. Únete a sus plataformas de comunicación de la comunidad para hacer preguntas, iniciar discusiones, or solicitar asistencia relacionada a la localización de Tella:
 

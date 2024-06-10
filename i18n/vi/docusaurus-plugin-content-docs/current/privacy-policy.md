@@ -41,11 +41,11 @@ Chính sách này chỉ áp dụng cho thông tin chúng tôi thu thập trong �
 
 Các trang web và ứng dụng khác của chúng tôi, cũng như các bên thứ ba khác hoặc Tổ chức Triển khai có thể có chính sách bảo mật của riêng họ. Chúng tôi khuyến khích bạn tìm hiểu hoặc đọc kỹ trước khi cung cấp thông tin trên qua chúng.
 
-Vui lòng đọc kỹ chính sách này để hiểu các chính sách và thực hành của chúng tôi liên quan đến thông tin của bạn cũng như cách chúng tôi sẽ xử lý nó. Nếu bạn không đồng ý với các chính sách và thực hành của chúng tôi, vui lòng không tải xuống, đăng ký hoặc sử dụng Ứng dụng. Bằng cách tải xuống, đăng ký hoặc sử dụng Ứng dụng này, bạn đồng ý với chính sách bảo mật của chúng tôi.  Chính sách này có thể thay đổi theo thời gian (xem Thay đổi Chính sách Bảo mật của chúng tôi).  Việc bạn tiếp tục sử dụng ứng dụng này sau khi chúng tôi sửa đổi chính sách có nghĩa là bạn chấp nhận những thay đổi đó, vì vậy vui lòng kiểm tra chính sách định kỳ để cập nhật.
+Vui lòng đọc kỹ chính sách này để hiểu các chính sách và thực hành của chúng tôi liên quan đến thông tin của bạn cũng như cách chúng tôi sẽ xử lý nó. Nếu bạn không đồng ý với các chính sách và hoạt động của chúng tôi, vui lòng không tải xuống, đăng ký hoặc sử dụng Ứng dụng. Bằng cách tải xuống, đăng ký hoặc sử dụng Ứng dụng này, bạn đồng ý với chính sách bảo mật của chúng tôi.  Chính sách này có thể thay đổi theo thời gian (xem Thay đổi Chính sách Bảo mật của chúng tôi).  Việc bạn tiếp tục sử dụng ứng dụng này sau khi chúng tôi sửa đổi chính sách có nghĩa là bạn chấp nhận những thay đổi đó, vì vậy vui lòng kiểm tra chính sách định kỳ để cập nhật.
 
 ## 2. Trẻ Em Dưới 16 Tuổi {#2-children-under-the-age-of-16}
 
-Ứng dụng này không dành cho trẻ em dưới 16 tuổi, và chúng tôi không cố ý thu thập thông tin cá nhân từ trẻ em dưới 16 tuổi. Nếu chúng tôi phát hiện đã thu thập hoặc nhận được thông tin cá nhân từ một đứa trẻ dưới 16 tuổi mà không có sự xác nhận về sự đồng ý của phụ huynh, chúng tôi sẽ xóa thông tin đó. Nếu bạn tin rằng chúng tôi có thể có bất kỳ thông tin nào từ hoặc về một đứa trẻ dưới 16 tuổi, vui lòng liên hệ với chúng tôi tại[contact@tella-app.org](mailto:contact@tella-app.org).
+Ứng dụng này không dành cho trẻ em dưới 16 tuổi, và chúng tôi không cố ý thu thập thông tin cá nhân của trẻ em dưới 16 tuổi. Nếu chúng tôi phát hiện đã thu thập hoặc nhận được thông tin cá nhân từ trẻ em dưới 16 tuổi mà người giám hộ chưa đồng ý, chúng tôi sẽ xóa thông tin đó. Nếu bạn tin rằng chúng tôi có thể có bất kỳ thông tin nào từ hoặc của một trẻ em dưới 16 tuổi, vui lòng liên hệ với chúng tôi tại [contact@tella-app.org](mailto:contact@tella-app.org).
 
 ## 3. Thông Tin Tella Thu Thập và Cách Thức Thu Thập {#3-information-tella-collects-and-how-it-is-collected}
 
@@ -115,7 +115,7 @@ Chúng tôi không kiểm soát công nghệ theo dõi của các bên thứ ba 
 
 Nếu bạn không muốn tải xuống Ứng dụng thông qua cửa hàng Google Play, bạn có thể [tải xuống APK trực tiếp từ liên kết này](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ).
 
-Phiên bản hoàn toàn miễn phí và mã nguồn mở của Tella dành cho Android, không chứa bất kỳ thư viện hoặc phụ thuộc nào có mã nguồn đóng hoặc độc quyền, và không có bất kỳ trình theo dõi nào, có thể được tìm thấy trên  [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
+Phiên bản hoàn toàn miễn phí và mã nguồn mở của Tella dành cho Android, không chứa bất kỳ thư viện phần mềm hoặc phụ thuộc nào có mã nguồn đóng hoặc độc quyền, và không có bất kỳ trình theo dõi nào, có thể được tìm thấy trên [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
 
 ## 5. Cách Chúng Tôi Sử Dụng Thông Tin Của Bạn {#5-how-we-use-your-information}
 
@@ -157,7 +157,7 @@ Bạn cũng có thể gửi email cho chúng tôi theo địa chỉ [contact@hor
 
 ## 8. Quyền Riêng Tư của Bạn tại California  {#8-your-california-privacy-rights}
 
-Nếu bạn là cư dân California, luật California có thể cung cấp cho bạn các quyền bổ sung liên quan đến việc chúng tôi sử dụng thông tin cá nhân của bạn. Để tìm hiểu thêm về quyền riêng tư của bạn tại California, hãy truy cập [https://www.oag.ca.gov/privacy/ccpa](https://www.oag.ca.gov/privacy/ccpa).
+Nếu bạn là cư dân California, luật pháp California có thể cung cấp cho bạn các quyền bổ sung liên quan đến việc chúng tôi sử dụng thông tin cá nhân của bạn. Để tìm hiểu thêm về quyền riêng tư của bạn tại California, hãy truy cập [https://www.oag.ca.gov/privacy/ccpa](https://www.oag.ca.gov/privacy/ccpa).
 
 ## 9. Bảo Mật Dữ Liệu {#9-data-security}
 

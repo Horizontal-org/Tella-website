@@ -1,13 +1,13 @@
 ---
 id: features
-title: các tính năng của Tella
+title: Các tính năng của Tella
 description: Mô tả chi tiết về các tính năng của Tella.
 slug: /features
 ---
 import FeaturesTable from '.././_features-table.md';
 
 
-# các tính năng của Tella
+# Các tính năng của Tella
 
 Tất cả các tính năng sau đây đều có sẵn cho tất cả người dùng ngay khi họ tải xuống Tella.. Chúng không yêu cầu bất kỳ kết nối nào với máy chủ hoặc bất kỳ thiết lập đặc biệt nào.
 
@@ -16,7 +16,7 @@ Tất cả các tính năng sau đây đều có sẵn cho tất cả người d
 
 ## Khóa ứng dụng {#app-lock}
 
-Khi cài đặt Tella, người dùng phải chọn khóa 🔒 để mã hóa và giải mã nội dung của ứng dụng.
+Khi cài đặt Tella, người dùng phải chọn khóa 🔒 để mã hóa và giải mã nội dung bên trong ứng dụng.
 
 
 * Đối với Android, người dùng có thể lựa chọn một mẫu hình khóa, mã PIN, hoặc mật khẩu.
@@ -29,7 +29,7 @@ Nếu người dùng quên mật khẩu, sẽ không thể vào lại được T
 :::
 
 :::tip Video tutorial 🎥
-Tìm hiểu về khóa Tella trong [video hướng dẫn] của chúng tôi (/video-tutorials#tella-locks) 
+Tìm hiểu về khóa Tella trong [video hướng dẫn của chúng tôi](/video-tutorials#tella-locks) 
 :::
 
 ## Cài đặt thời gian khóa tự động {#lock-timeout-configuration}
@@ -41,7 +41,7 @@ Cài đặt ⚙️ > Bảo mật > Tự động khóa.
 Các tùy chọn có sẵn là 1 phút, 5 phút, 30 phút và 1 tiếng.  ⏱️
 
 :::info
-Xin sử dụng tính năng này một cách cẩn thận vì nếu Tella được mở khóa, thì dữ liệu sẽ không được bảo vệ và bất kỳ ai vào Tella cũng có thể xem tất cả thông tin ở đó.  
+Hãy sử dụng tính năng này một cách cẩn thận vì nếu Tella được mở khóa, thì dữ liệu sẽ không được bảo vệ và bất kỳ ai cũng có thể xem tất cả thông tin bên trong Tella. 
 :::
 
 :::info
@@ -49,7 +49,7 @@ Khi camera hoặc máy ghi âm được mở, Tella sẽ không khóa
 :::
 
 :::tip Video tutorial 🎥
-Tìm hiểu thêm về các Tính Năng Bảo Mật Bổ Sung của Tella trong [video hướng dẫn] của chúng tôi (/video-tutorials#additional-security-features)
+Tìm hiểu thêm về các Tính Năng Bảo Mật Bổ Sung của Tella trong [video hướng dẫn của chúng tôi](/video-tutorials#additional-security-features)
 :::
 
 
@@ -59,7 +59,7 @@ Tìm hiểu thêm về các Tính Năng Bảo Mật Bổ Sung của Tella trong 
 Theo mặc định, Tella không bật chế độ im lặng của máy ảnh. Bạn có thể tắt âm thanh khi chụp hình để giảm sự chú ý bằng cách vào **Cài đặt ⚙️** > **Bảo mật** > **Chế độ im lặng của máy ảnh** 📷🔇
 
 :::tip Video tutorial 🎥
-Tìm hiểu thêm về các Tính Năng Bảo Mật Bổ Sung của Tella trong [video hướng dẫn] của chúng tôi (/video-tutorials#additional-security-features)
+Tìm hiểu thêm về các Tính Năng Bảo Mật Bổ Sung của Tella trong [video hướng dẫn của chúng tôi](/video-tutorials#additional-security-features)
 :::
 
 
@@ -71,7 +71,7 @@ Trên iOS, bảo mật màn hình chỉ chặn việc ghi màn hình bên trong 
 
 
 :::tip Video tutorial 🎥
-Tìm hiểu thêm về các Tính Năng Bảo Mật Bổ Sung của Tella trong [video hướng dẫn] của chúng tôi (/video-tutorials#additional-security-features)
+Tìm hiểu thêm về các Tính Năng Bảo Mật Bổ Sung của Tella trong [video hướng dẫn của chúng tôi](/video-tutorials#additional-security-features)
 :::
 
 ## Giới hạn số lần mở khóa {#restrict-unlocking-attempts}
@@ -82,11 +82,11 @@ Theo mặc định, cài đặt này được Tắt, có nghĩa là không hạn
 Sau số lần thử mở khóa thất bại đã chỉ định, tất cả các tệp tin, kết nối và mọi thứ trong Tella sẽ bị xóa và người dùng sẽ quay lại trạng thái ứng dụng " vừa mới được cài đặt".
 
 :::danger
-Mặc dù cài đặt bảo mật này ngăn chặn các nỗ lực phá khóa để xâm nhập vào Tella, nhưng nó nên được sử dụng một cách thận trọng vì không có cách nào để khôi phục được nội dung của Tella một khi đã chạm đến số lần thử mở khóa thất bại tối đa.
+Mặc dù cài đặt bảo mật này ngăn chặn các nỗ lực phá khóa để xâm nhập vào Tella, nhưng nó nên được sử dụng một cách thận trọng vì không có cách nào để khôi phục được nội dung của Tella một khi mở khóa thất bại số lần cho phép tối đa.
 :::
 
 ## Chỉnh sửa Phương tiện {#edit-media}
-Chúng tôi đang trong quá trình bổ sung khả năng chỉnh sửa tệp phương tiện trực tiếp trong Tella. Sắp tới, người dùng sẽ không cần xuất tệp tin ra ngoài Tella để chỉnh sửa nữa. Tella 2.4.0 dành cho Android sẽ bắt đầu với các tính năng chỉnh sửa ảnh (cắt và xoay). 
+Chúng tôi đang trong quá trình bổ sung khả năng chỉnh sửa tệp tin trực tiếp bên trong Tella. Sắp tới, người dùng không cần xuất tệp tin ra ngoài Tella để chỉnh sửa. Tella 2.4.0 dành cho Android sẽ bắt đầu với các tính năng chỉnh sửa ảnh (cắt và xoay). 
 
 Người dùng có thể chỉnh sửa ảnh bằng cách vào phần **Thêm** > **Chỉnh sửa** từ thư mục **Hình ảnh** hoặc bằng cách nhấn vào nút **Chỉnh sửa** ở góc phải trên cùng khi xem hình ảnh bạn có trong Tella. Trên màn hình Chỉnh sửa hình ảnh, người dùng có thể sử dụng nút **Xoay** ở cuối màn hình để xoay ảnh ngược chiều kim đồng hồ hoặc sử dụng các ngón tay để kéo giãn hoặc thu nhỏ và di chuyển khung trắng để cắt ảnh. Khi chỉnh sửa xong, người dùng có thể nhấn nút kiểm tra màu cam ở phía trên góc phải của màn hình chỉnh sửa.
 
@@ -107,7 +107,7 @@ Nếu người dùng quên mật khẩu của mình thì không có cách nào �
 :::
 
 :::tip Video  tutorial 🎥
-Tìm hiểu thêm về Mật khẩu và Mã hóa trong [video hướng dẫn] của chúng tôi (/video-tutorials#tella-locks)
+Tìm hiểu thêm về Mật khẩu và Mã hóa trong [video hướng dẫn của chúng tôi](/video-tutorials#tella-locks)
 :::
 
 :::info 
@@ -127,7 +127,7 @@ Trong Tella, người dùng có thể:
 * Nhập tệp tin từ thiết bị. Các tệp tin được tự động mã hóa khi nhập vào Tella.
 
 :::danger
-Việc nhập tài liệu từ hệ thống dữ liệu của thiết bị vào Tella sẽ tạo một bản sao của tệp tin đó vào Tella. Tella sẽ hỏi bạn muốn giữ hay xóa tệp tin gốc khỏi điện thoại khi nhập không. Nếu bạn chọn giữ lại tệp gốc, chúng sẽ tồn tại trên thiết bị, nằm bên ngoài Tella và không được mã hóa.  🔒
+Việc nhập tài liệu từ hệ thống dữ liệu của thiết bị vào Tella sẽ tạo một bản sao của tệp tin đó vào Tella. Tella sẽ hỏi bạn muốn giữ hay xóa tệp tin gốc khỏi điện thoại khi nhập. Nếu bạn chọn giữ lại tệp tin gốc, chúng sẽ tồn tại trên thiết bị, nằm bên ngoài Tella và không được mã hóa.  🔒
 :::
 
 ## Góp ý {#feedback}
@@ -176,7 +176,7 @@ Trên Tella FOSS, các tệp PDF phải được xuất để mở.
 Trên Tella Android, có thể ngụy trang Tella theo hai cách:
 
 1. Người dùng có thể thay đổi tên và biểu tượng của ứng dụng để làm cho nó nhìn giống một ứng dụng khác như một ứng dụng trò chơi hoặc thời tiết. 🎮🌦️
-2. Người dùng có thể ẩn Tella dưới hình thức một cái máy tính thông thường. Khi mở Tella, người dùng phải nhập mã PIN vào máy tính, sau đó nhấn **=**. Việc ngụy trang Máy tính chỉ có thể thực hiện được nếu người dùng sử dụng mã PIN. Hình thức ngụy trang này không áp dụng được đối với mẫu hình khóa hoặc mật khẩu.
+2. Người dùng có thể ẩn Tella dưới hình thức một cái máy tính thông thường. Khi mở Tella, người dùng phải nhập mã PIN vào máy tính, sau đó nhấn **=**. Việc ngụy trang Máy tính chỉ có thể thực hiện được nếu người dùng sử dụng mã PIN. Hình thức ngụy trang này không áp dụng được đối với mẫu hình khóa hoặc mật khẩu. 🔢🔒
 
 Ở thời điểm hiện tại, Tella trên hệ điều hành iOS không hỗ trợ những tính năng ngụy trang có sẵn như trên Android vì còn sự hạn chế trên kho ứng dụng của Apple. 
 
@@ -185,7 +185,7 @@ Tên "Tella" và biểu tượng của nó sẽ vẫn hiển thị trong cài đ
 :::
 
 :::tip Video  tutorial 🎥
-Tìm hiểu thêm về [Ngụy trang Tella](/video-tutorials#camouflaging-tella) trong video hướng dẫn của chúng tôi. 
+Tìm hiểu thêm về [Ngụy trang Tella](/video-tutorials#camouflaging-tella) trong video hướng dẫn của chúng tôi.
 :::
 
 
@@ -212,7 +212,7 @@ Nút Xóa Nhanh cho phép người dùng xóa dữ liệu nhạy cảm trong Tel
 * Xóa Tella: Xóa ứng dụng và tất cả dữ liệu bên trong. Điều này kích hoạt một thông báo hỏi xem người dùng có muốn gỡ cài đặt Tella không ❌. 
 
 :::info Delete Tella
-Tùy chọn Xóa Tella có thể không khả dụng trên một số điện thoại Android do hạn chế về mặt kỹ thuật. Chúng tôi đang tìm cách khắc phục sự cố này. Còn đối với iOS, không thể xóa ứng dụng bằng các lệnh lập trình. 
+Tùy chọn Xóa Tella có thể không khả dụng trên một số điện thoại Android do hạn chế về mặt kỹ thuật. Chúng tôi đang tìm cách khắc phục sự cố này. Còn đối với iOS, không thể xóa ứng dụng bằng các lệnh lập trình.
 :::
 
 ## Thoát nhanh {#quick-exit}

@@ -116,7 +116,6 @@ Espaços de armazenamento externo (como cartões SD) não são atualmente usados
 Infelizmente não há como entrar no Tella se você esqueceu seu bloqueio. Você terá de desinstalar o Tella e reinstalá-lo. Não há como recuperar os arquivos que estavam armazenados no Tella.
 
 :::tip
-
 Saiba mais sobre [Bloqueios do Tella](/video-tutorials#tella-locks) em nossos tutoriais em vídeo.
 :::
 

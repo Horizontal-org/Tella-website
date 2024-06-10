@@ -80,7 +80,7 @@
     "description": "The label of footer link with label=Accessibility linking to /accessibility"
   },
   "copyright": {
-    "message": "Tella es un proyecto por <a href=\"https://wearehorizontal.org/\">Horizontal</a>, una organización sin fines de lucro registrada 501(c)(3) – EIN: 83-1782268.</br> Este sitio web tiene una licencia Creative Commons 4.0 Attribution International.",
+    "message": "Tella es un proyecto por<a href=\"https://wearehorizontal.org/\">Horizontal</a>, una organización sin fines de lucro registrada 501(c)(3) – EIN: 83-1782268.</br> Este sitio web tiene una licencia Creative Commons 4.0 Attribution International.",
     "description": "The footer copyright"
   }
 }

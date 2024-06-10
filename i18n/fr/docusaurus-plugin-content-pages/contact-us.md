@@ -2,7 +2,7 @@
     <h1>Parlons-en</h1>
     <div className="columns">
         <div className="column">
-            <img className="home-illustrations" src="img/contact.png" alt="Image with a hand clicking on some"/>
+            <img className="home-illustrations" src="img/contact.png" alt="Image with a hand clicking on a button"/>
         </div>
         <div className="column">
             <p>
@@ -13,11 +13,11 @@
             <h2>Contactez nous</h2>
             <ul>
                 <li> Écrivez-nous à <a href="mailto:contact@tella-app.org">contact@tella-app.org</a></li>
-                <li> Rejoignez notre prochaine <a href="https://calendly.com/d/grp-5v7-rjf/tella-meeting">ici</a>.</li>
+                <li> Planifier un appel directement <a href="https://calendly.com/d/grp-5v7-rjf/tella-meeting">ici</a>.</li>
                 <li> Rejoignez notre prochaine <a href="community-meetings">réunion communautaire</a>.</li>
                 <li> Utilisez le formulaire de rétroaction anonyme dans les paramètres de Tella.</li>
             </ul>
-            <p> Ou inscrivez-vous à notre lettre d'information: <a href="https://blog.wearehorizontal.org/tag/tella/">ici</a>. </p>
+            <p> Ou inscrivez-vous à notre lettre d'information: <a href="https://blog.wearehorizontal.org/tag/tella/">ici</a>.</p>
             <p>Nous avons hâte de vous lire !</p>
         </div>
     </div>

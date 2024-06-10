@@ -17,7 +17,7 @@ slug: /get-started-android
 إذا كنت بحاجة إلى المساعدة لتثبيت التطبيق يدويا، يمكنك [اتباع هذا الدليل](/video-tutorials#manual-installation-of-tella) أو [اتصل بنا](/contact-us).
 
 <div class="gifs">
-    <img src="/img/getting-started/android/find-tella.gif" alt="gif that shows how to download Tella from the Play Store" title="find and download gif" />
+    <img src="img/getting-started/android/find-tella.gif" alt="gif that shows how to download Tella from the Play Store" title="find and download gif" />
 </div>
 
 
@@ -46,8 +46,8 @@ slug: /get-started-android
 إذا رفضت منح Tella هذه التراخيص، فيمكنك منحها لاحقا بالانتقال إلى إعدادات أندرويد والانتقال إلى 'إعدادات' > 'التطبيقات' > 'Tella' > 'تراخيص التطبيقات'.
 
 <div class="gifs">
-    <img src="/img/getting-started/android/permissions.gif" alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
-    <img src="/img/getting-started/android/permissions-change.gif" alt="gif that shows how to chage granted permissions on Tella" title="change the granted permission" />
+    <img src="img/getting-started/android/permissions.gif" alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
+    <img src="img/getting-started/android/permissions-change.gif" alt="gif that shows how to chage granted permissions on Tella" title="change the granted permission" />
 </div>
 
 
@@ -58,9 +58,9 @@ slug: /get-started-android
 **استخدم الكاميرا لالتقاط الصور أو مقاطع الفيديو ومسجل الصوت لتسجيل المقاطع الصوتية.** ستتم تعمية جميع الوسائط التي التقطتها بواسطة Tella على الفور، مما يعني أنه سيتعذر الوصول للملف خارج Tella. ولن تظهر الوسائط التي تم جمعها داخل Tella على معرض أو ملفات هاتفك. لا يوجد حد تخزين معين لـTella، تعتمد المساحة المتوفرة على الحيز المتاح على جهازك.
 
 <div class="gifs">
-  <img src="/img/getting-started/android/picture.gif" alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
-  <img src="/img/getting-started/android/video.gif" alt="gif that shows how to record a video in Tella" title="video recording in Tella" />
-  <img src="/img/getting-started/android/audio.gif" alt="gif that shows how to record audio in Tella" title="audio recording in Tella" />
+  <img src="img/getting-started/android/picture.gif" alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
+  <img src="img/getting-started/android/video.gif" alt="gif that shows how to record a video in Tella" title="video recording in Tella" />
+  <img src="img/getting-started/android/audio.gif" alt="gif that shows how to record audio in Tella" title="audio recording in Tella" />
 </div>
 
 
@@ -68,7 +68,7 @@ slug: /get-started-android
 **استيراد ملفاتك إلى Tella.** انتقل إلى أي من المجلدات داخل Tella واضغط على زر **+** > **استيراد من الجهاز**. اختر الملف الذي ترغب في الاحتفاظ به داخل Tella وسيتم تخزين نسخة معمّاة ومخفية للملف في Tella. سيُطلب منك الاختيار بين حذف الملف الأصلي من جهازك وبين الاحتفاظ به. سيبقى Tella مفتوحا أثناء اختيارك لملفاتك لمدة أقصاها ثلاث (3) دقائق.
 
 <div class="gifs">
-    <img src="/img/getting-started/android/import.gif" alt="gif that shows how to import files in Tella" title="import files in Tella" />
+    <img src="img/getting-started/android/import.gif" alt="gif that shows how to import files in Tella" title="import files in Tella" />
 </div>
 
 
@@ -76,7 +76,7 @@ slug: /get-started-android
 **إنشاء المجلدات.** لتسهيل العثور على ملفاتك، يمكنك تنظيم الملفات في مجلدات. انتقل إلى **كافة الملفات** > **+** > **إنشاء مجلد جديد** واكتب اسما لوصف المجلد. ثم استخدم زر 'تحديد عدة ملفات' في الجزء العلوي من الشاشة، واختر الملفات التي تريد نقلها إلى المجلد الجديد، ثم اضغط على زر النقط الثلاثة (3) ثم 'نقل إلى مجلد مختلف'، بعدها انتقل إلى بنية الملف للعثور على المجلد ثم اضغط على 'نقل هنا'.
 
 <div class="gifs">
-    <img src="/img/getting-started/android/folders-rename.gif" alt="gif that shows how to organize your info in Tella" title="organize files in Tella" />
+    <img src="img/getting-started/android/folders-rename.gif" alt="gif that shows how to organize your info in Tella" title="organize files in Tella" />
 </div>
 
 **إعادة تسمية الملفات:** هناك طريقة أخرى للحفاظ على تنظيم بياناتك وهي إعادة تسمية الملفات لتكون أكثر وصفا. بشكل افتراضي، تتلقى الملفات اسما تم توليده تلقائيا. يمكنك تغييره من خلال الضغط على **النقط الثلاثة (3)** الموجودة بجوار كل اسم ملف، ثم الضغط على **إعادة التسمية**.
@@ -91,8 +91,8 @@ slug: /get-started-android
 اقرأ المزيد عن التمويه [هنا](/features#camouflage).
 
 <div class="gifs">
-    <img src="/img/getting-started/android/camouflage-icon.gif" alt="gif that shows how camouflage Tella by changing its name and icon" title="camouflage Tella changing its icon" />
-    <img src="/img/getting-started/android/camouflage-calc.gif" alt="gif that shows how camouflage Tella behind a calculator" title="camouflage Tella with a calculator" />
+    <img src="img/getting-started/android/camouflage-icon.gif" alt="gif that shows how camouflage Tella by changing its name and icon" title="camouflage Tella changing its icon" />
+    <img src="img/getting-started/android/camouflage-calc.gif" alt="gif that shows how camouflage Tella behind a calculator" title="camouflage Tella with a calculator" />
 </div>
 
 
@@ -103,7 +103,7 @@ slug: /get-started-android
 ضع في اعتبارك أن Tella ستشارك الملفات دون تعمية، لذا تأكد من استخدام الرسائل المختفية (مثلا، واتساب أو Signal) أو احذف الرسائل بعد أن يستلمها الشخص الآخر.
 
 <div class="gifs">
-    <img src="/img/getting-started/android/share.gif" alt="gif that shows how to share information" title="share information with third party apps" />
+    <img src="img/getting-started/android/share.gif" alt="gif that shows how to share information" title="share information with third party apps" />
 </div>
 
 
@@ -122,7 +122,7 @@ slug: /get-started-android
 
 
 <div class="gifs">
-    <img src="/img/getting-started/android/kobo.gif" alt="gif that shows ODK connection" title="ODK connection" />
+    <img src="img/getting-started/android/kobo.gif" alt="gif that shows ODK connection" title="ODK connection" />
 </div>
 
 #### Uwazi {#uwazi}
@@ -131,7 +131,7 @@ slug: /get-started-android
 لقد كتبنا توثيقات حول كيفية الاتصال بخادم Open Data Kit، كما نوصيك بقراءة [هذه الصفحة](/uwazi) للبدء.
 
 <div class="gifs">
-    <img src="/img/getting-started/android/uwazi.gif" alt="gif that shows Uwazi connection" title="Uwazi connection" />
+    <img src="img/getting-started/android/uwazi.gif" alt="gif that shows Uwazi connection" title="Uwazi connection" />
 </div>
 
 #### Tella Web {#tella-web}

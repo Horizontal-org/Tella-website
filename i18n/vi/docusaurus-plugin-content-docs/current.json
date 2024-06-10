@@ -8,11 +8,11 @@
     "description": "The label for category Discover Tella in sidebar generalSidebar"
   },
   "sidebar.generalSidebar.category.Get Started": {
-    "message": "Bắt đầu",
+    "message": "Bắt Đầu",
     "description": "The label for category Get Started in sidebar generalSidebar"
   },
   "sidebar.generalSidebar.category.For organizations": {
-    "message": "Dành cho các tổ chức",
+    "message": "Cho các tổ chức",
     "description": "The label for category For organizations in sidebar generalSidebar"
   },
   "sidebar.generalSidebar.category.Community": {

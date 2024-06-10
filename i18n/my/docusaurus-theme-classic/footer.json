@@ -80,7 +80,7 @@
     "description": "The label of footer link with label=Accessibility linking to /accessibility"
   },
   "copyright": {
-    "message": "Tella သည် မှတ်ပုံတင်ထားသော 501(c)(3) အကျိုးအမြတ်မယူသော - EIN: 83-1782268 ရှိ  <a href=\"https://wearehorizontal.org/\">Horizontal</a> မှ စီမံကိန်းတစ်ခု ဖြစ်သည်။</br> ဤဝဘ်ဆိုဒ်ကို Creative Commons 4.0 Attribution International License အောက်တွင် လိုင်စင် ထားရှိသည်။",
+    "message": "Tella သည် <a href=\"https://wearehorizontal.org/\">1Horizontal</a> မှ မှတ်ပုံတင်ထားသော 501(c)(3) အကျိုးအမြတ်မယူသော – EIN: 83-1782268 မှ စီမံကိန်းတစ်ခု ဖြစ်သည်။</br> ဤဝဘ်ဆိုဒ်ကို Creative Commons 4.0 Attribution International License အောက်တွင် လိုင်စင် ထားရှိသည်။",
     "description": "The footer copyright"
   }
 }

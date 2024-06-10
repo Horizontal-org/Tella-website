@@ -1,6 +1,6 @@
 ---
 id: translating-tella
-title: Translating Tella
+title: Traduire Tella
 description: Informations sur la manière de contribuer à la traduction de Tella
 slug: /translating-tella
 ---

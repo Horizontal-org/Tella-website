@@ -10,7 +10,7 @@ slug: /user-stories
 
 ## CLEEN Foundation - Nigeria {#cleen-foundation---nigeria}
 
-:::nota Resumen
+:::note Resumen
 La fundación CLEEN utilizó Tella para monitoreo de las elecciones en Nigeria. Recibieron 7,800 informes de la(o)s observadora(e)s electorales que ayudaron a identificar casos de violencia policial y fraude electoral en tiempo real. Los informes incluían evidencia en fotos, videos, y audio, en adición a descripciones de texto. La fundación CLEEN pudo recibir, analizar y publicar los resultados del proceso de monitoreo de las elecciones el día después de las elecciones y un informe con recomendaciones al gobierno nigeriano para mejorar la seguridad en próximas elecciones, reducir la violencia, y prevenir el fraude.
 
 
@@ -70,13 +70,14 @@ Con los datos recopilados, estudiantes indígenas e investigadora(e)s de la Univ
 :::note Resumen
 En las elecciones presidenciales de Bielorrusia en 2020, organizaciones de la sociedad civil implementaron Tella para monitorear las elecciones y documentar evidencia de violaciones a las leyes y procedimientos electorales, como también abusos de derechos humanos. Horizontal desarrolló una versión personalizada de Tella con una interfaz de usuaria(o) simplificada y una conexión por defecto al servidor de las organizaciones monitoras. La app fue traducida a Bielorruso y Ruso. Más de 250 usuaria(o)s enviaron un total de 1091 informes, a pesar de las disrupciones severas del internet y apagón total del internet móvil antes, durante y después de las elecciones.
 
-👥_ 250 usuaria(o)s_
+👥 250 usuaria(o)s
 
 
-📲_ +1000 informes (fotos, videos y datos de formularios)_
+📲 +1000 informes (fotos, videos y datos de formularios)
 
 
-🗄️_ Conexión: ODK (Kobotoolbox)_
+🗄️ Conexión: ODK (Kobotoolbox)
+:::
 
 
 En Bielorrusia, el régimen autocrático de Alexander Lukashenko lleva mucho tiempo sofocando los derechos fundamentales y reprimiendo la oposición política. Las elecciones no son libres ni justas. Por primera vez en décadas, sin embargo, las elecciones presidenciales de 2020 ofrecieron una vía potencial para el cambio, con candidata(o)s de oposición creíbles y una sociedad civil revitalizada por la impotencia del gobierno frente a la pandemia de Covid-19.
