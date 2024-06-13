@@ -12,7 +12,7 @@ Tella ကို App Store တွင် ရှာရန် [ဤလင့်ခ်
 
 
 <div class="gifs">
-    <img src="/img/getting-started/ios/find-and-download.gif" alt="gif that shows how to download Tella from the App Store" title="find and download gif" />
+    <img src="./img/getting-started/ios/find-and-download.gif" alt="gif that shows how to download Tella from the App Store" title="find and download gif" />
 </div>
 
 
@@ -38,7 +38,7 @@ Tella ကို ပထမဆုံးအကြိမ် ဖွင့်သော
 
 
 <div class="gifs">
-    <img src="/img/getting-started/ios/granting-permissions.gif" alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
+    <img src="./img/getting-started/ios/granting-permissions.gif" alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
 </div>
 
 
@@ -46,7 +46,7 @@ Tella ကို ပထမဆုံးအကြိမ် ဖွင့်သော
 ဤခွင့်ပြုချက်များကို Tella အား မပေးပါက နောက်မှ သင်၏ iPhone ဆက်တင်များသို့သွားပြီး **ဆက်တင်များ**> **Tella** > **Tella အား ကင်မရာ၊ မိုက်ခရိုဖုန်းနှင့် ဖိုင်များကို ဝင်ရောက်ကြည့်ရှုခွင့်ပေးပါ** သို့သွား၍ ခွင့်ပြုချက်များ ပေးနိုင်ပါသည်။
 
 <div class="gifs">
-    <img src="/img/getting-started/ios/taking-picture-permissions.gif" alt="gif that shows how to take a picture in Tella the first time (grant permission)" title="Tella will ask you to grant permissions the first time you open the camera" />
+    <img src="./img/getting-started/ios/taking-picture-permissions.gif" alt="gif that shows how to take a picture in Tella the first time (grant permission)" title="Tella will ask you to grant permissions the first time you open the camera" />
 </div>
 
 
@@ -58,8 +58,8 @@ Tella ကို ပထမဆုံးအကြိမ် ဖွင့်သော
 
 
 <div class="gifs">
-    <img src="/img/getting-started/ios/picture.gif" alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
-    <img src="/img/getting-started/ios/recording.gif" alt="gif that shows how to record audio in Tella" title="record audio in Tella" />
+    <img src="./img/getting-started/ios/picture.gif" alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
+    <img src="./img/getting-started/ios/recording.gif" alt="gif that shows how to record audio in Tella" title="record audio in Tella" />
 </div> 
 
 
@@ -69,7 +69,7 @@ Tella ကို ပထမဆုံးအကြိမ် ဖွင့်သော
 **သင့်ဖိုင်များကို Tella သို့ တင်သွင်းပါ။** Tella အတွင်းရှိ ဖိုင်တွဲများမှတစ်ခုသို့ သွား၍ **+** ခလုတ် > **စက်ပစ္စည်းမှ တင်သွင်းမည်** ကို နှိပ်ပါ။ Tella တွင် သင်သိမ်းဆည်းလိုသောဖိုင်ကို ရွေးချယ်ပြီးနောက် ဖိုင်၏မိတ္တူကို Tella တွင် ကုဒ်ဝှက်ပြီး ဝှက်၍သိမ်းထားပါမည်။ မူရင်းဖိုင်ကို သင့်စက်မှ ဖျက်ရန် သို့မဟုတ် သိမ်းထားရန် ရွေးချယ်ခိုင်းပါမည်။ သင့်ဖိုင်များကို ရွေးချယ်နေစဉ် အများဆုံး (၃) မိနစ်အထိ Tella ကို သော့ဖွင့်ထားပါမည်။
 
 <div class="gifs">
-    <img src="/img/getting-started/ios/import-files.gif" alt="gif that shows how to import files in Tella" title="import files in Tella" />
+    <img src="./img/getting-started/ios/import-files.gif" alt="gif that shows how to import files in Tella" title="import files in Tella" />
 </div> 
 
 
@@ -77,7 +77,7 @@ Tella ကို ပထမဆုံးအကြိမ် ဖွင့်သော
 
 
 <div class="gifs">
-    <img src="/img/getting-started/ios/folders.gif" alt="gif that shows how to organize evidence in folders in Tella" title="folders in Tella" />
+    <img src="./img/getting-started/ios/folders.gif" alt="gif that shows how to organize evidence in folders in Tella" title="folders in Tella" />
 </div> 
 
 
@@ -85,7 +85,7 @@ Tella ကို ပထမဆုံးအကြိမ် ဖွင့်သော
 
 
 <div class="gifs">
-    <img src="/img/getting-started/ios/rename.gif" alt="gif that shows how to rename files in Tella" title="rename files in Tella" />
+    <img src="./img/getting-started/ios/rename.gif" alt="gif that shows how to rename files in Tella" title="rename files in Tella" />
 </div> 
 
 
@@ -95,7 +95,7 @@ Tella ကိုအသုံးပြု၍ အချက်အလက်မျှ�
 ကုဒ်ဝှက်မထားသော ဖိုင်များအား Tella က မျှဝေမည်ကို ထည့်သွင်းစဉ်းစားပါ၊ ထို့ကြောင့် (ဥပမာ- WhatsApp သို့မဟုတ် Signal တို့တွင်) မက်ဆေ့ချ်များပျောက်သွားစေရန် ပြုလုပ်ပါ သို့မဟုတ် တစ်ဖက်လူက လက်ခံရရှိပြီးနောက် မက်ဆေ့ဂျ်များကို ဖျက်ပါ။
 
 <div class="gifs">
-    <img src="/img/getting-started/ios/share.gif" alt="gif that shows how share information in Tella" title="share information in Tella" />
+    <img src="./img/getting-started/ios/share.gif" alt="gif that shows how share information in Tella" title="share information in Tella" />
 </div> 
 
 

@@ -17,7 +17,7 @@ Bạn có thể tải Tella theo các cách sau:
 nếu bạn cần trợ giúp để cài đặt ứng dụng thủ công, bạn có thể [làm theo hướng dẫn này](/video-tutorials#manual-installation-of-tella) hoặc [liên hệ với chúng tôi](/contact-us).
 
 <div class="gifs">
-    <img src="img/getting-started/android/find-tella.gif" alt="gif that shows how to download Tella from the Play Store" title="find and download gif" />
+    <img src="./img/getting-started/android/find-tella.gif" alt="gif that shows how to download Tella from the Play Store" title="find and download gif" />
 </div>
 
 
@@ -46,8 +46,8 @@ Khi lần đầu sử dụng từng chức năng, bạn sẽ được yêu cầu
 Nếu bạn từ chối cấp quyền này cho Tella, bạn có thể cấp quyền cho Tella sau đó bằng cách vào phần cài đặt Android, chọn Cài đặt > Ứng dụng > Tella > Quyền ứng dụng.
 
 <div class="gifs">
-    <img src="img/getting-started/android/permissions.gif" alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
-    <img src="img/getting-started/android/permissions-change.gif" alt="gif that shows how to chage granted permissions on Tella" title="change the granted permission" />
+    <img src="./img/getting-started/android/permissions.gif" alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
+    <img src="./img/getting-started/android/permissions-change.gif" alt="gif that shows how to chage granted permissions on Tella" title="change the granted permission" />
 </div>
 
 
@@ -58,9 +58,9 @@ Sau khi cấp quyền, bạn đã sẵn sàng bắt đầu thu thập tài liệ
 **Sử dụng Máy ảnh để chụp ảnh hoặc quay video và Máy ghi âm để thu  âm.** Mọi hình ảnh, video và bản ghi âm được thực hiện qua Tella sẽ được mã hóa ngay lập tức, điều đó có nghĩa là tập tin sẽ không thể truy cập từ bên ngoài Tella . Tất cả dữ liệu thông tin được thu thập bên trong Tella sẽ không hiển thị trên thư viện ảnh hoặc thư mục điện thoại của bạn. Tella không giới hạn dung lượng lưu trữ cụ thể nào, dung lượng khả dụng sẽ phụ thuộc vào không gian còn trống trên thiết bị của bạn.
 
 <div class="gifs">
-  <img src="img/getting-started/android/picture.gif" alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
-  <img src="img/getting-started/android/video.gif" alt="gif that shows how to record a video in Tella" title="video recording in Tella" />
-  <img src="img/getting-started/android/audio.gif" alt="gif that shows how to record audio in Tella" title="audio recording in Tella" />
+  <img src="./img/getting-started/android/picture.gif" alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
+  <img src="./img/getting-started/android/video.gif" alt="gif that shows how to record a video in Tella" title="video recording in Tella" />
+  <img src="./img/getting-started/android/audio.gif" alt="gif that shows how to record audio in Tella" title="audio recording in Tella" />
 </div>
 
 
@@ -68,7 +68,7 @@ Sau khi cấp quyền, bạn đã sẵn sàng bắt đầu thu thập tài liệ
 **Nhập tệp tin của bạn vào Tella.** Truy cập vào bất kỳ thư mục nào trong Tella và bấm Nút **+** > **Nhập từ thiết bị**. Chọn tệp tin bạn muốn lưu giữ bên trong Tella và một bản sao của tệp tin sẽ được lưu trữ dưới dạng mã hóa và ẩn trên Tella. Bạn sẽ được yêu cầu lựa chọn xóa hay giữ tệp tin gốc trên thiết bị của mình. Tella sẽ được mở khóa khi bạn chọn tệp tin của mình trong tối đa ba (3) phút.
 
 <div class="gifs">
-    <img src="img/getting-started/android/import.gif" alt="gif that shows how to import files in Tella" title="import files in Tella" />
+    <img src="./img/getting-started/android/import.gif" alt="gif that shows how to import files in Tella" title="import files in Tella" />
 </div>
 
 
@@ -76,7 +76,7 @@ Sau khi cấp quyền, bạn đã sẵn sàng bắt đầu thu thập tài liệ
 **Tạo thư mục.** Để dễ dàng tìm kiếm các tệp tin, bạn có thể sắp xếp nó vào các thư mục. Truy cập vào **Tất cả tệp tin** > **+** > **Tạo thư mục mới** và đặt tên mô tả cho thư mục. Sau đó dùng nút Chọn nhiều ở đầu màn hình, chọn các tệp tin bạn muốn chuyển sang thư mục mới, sau đó bấm nút ba (3) chấm và Di chuyển sang thư mục khác, điều hướng cấu trúc tệp tin để tìm thư mục và sau đó nhấn Di chuyển vào đây.
 
 <div class="gifs">
-    <img src="img/getting-started/android/folders-rename.gif" alt="gif that shows how to organize your info in Tella" title="organize files in Tella" />
+    <img src="./img/getting-started/android/folders-rename.gif" alt="gif that shows how to organize your info in Tella" title="organize files in Tella" />
 </div>
 
 **Đổi tên tệp :** Một cách khác để giữ cho dữ liệu của bạn được ngăn nắp là đặt lại tên các tệp theo hướng mô tả rõ ràng hơn. Theo mặc định, tên tệp tin được tạo tự động. Bạn có thể đổi tên tệp tin bằng cách nhấp vào **ba (3) dấu chấm** bên cạnh mỗi tên tệp tin rồi nhấn vào **Đổi tên**.
@@ -91,8 +91,8 @@ Có thể ngụy trang Tella để ẩn nó trên thiết bị của bạn theo 
 Đọc thêm về Ngụy trang [tại đây](/features#camouflage).
 
 <div class="gifs">
-    <img src="img/getting-started/android/camouflage-icon.gif" alt="gif that shows how camouflage Tella by changing its name and icon" title="camouflage Tella changing its icon" />
-    <img src="img/getting-started/android/camouflage-calc.gif" alt="gif that shows how camouflage Tella behind a calculator" title="camouflage Tella with a calculator" />
+    <img src="./img/getting-started/android/camouflage-icon.gif" alt="gif that shows how camouflage Tella by changing its name and icon" title="camouflage Tella changing its icon" />
+    <img src="./img/getting-started/android/camouflage-calc.gif" alt="gif that shows how camouflage Tella behind a calculator" title="camouflage Tella with a calculator" />
 </div>
 
 
@@ -103,7 +103,7 @@ Có thể ngụy trang Tella để ẩn nó trên thiết bị của bạn theo 
 Hãy lưu ý rằng Tella sẽ chia sẻ các tệp không được mã hóa, vì vậy hãy chắc chắn sử dụng tin nhắn tự xóa (ví dụ như WhatsApp hoặc Signal) hoặc xóa tin nhắn sau khi người kia nhận được chúng.
 
 <div class="gifs">
-    <img src="img/getting-started/android/share.gif" alt="gif that shows how to share information" title="share information with third party apps" />
+    <img src="./img/getting-started/android/share.gif" alt="gif that shows how to share information" title="share information with third party apps" />
 </div>
 
 
@@ -122,7 +122,7 @@ Chúng tôi đã soạn tài liệu về cách kết nối với máy chủ Bộ
 
 
 <div class="gifs">
-    <img src="img/getting-started/android/kobo.gif" alt="gif that shows ODK connection" title="ODK connection" />
+    <img src="./img/getting-started/android/kobo.gif" alt="gif that shows ODK connection" title="ODK connection" />
 </div>
 
 #### Uwazi {#uwazi}
@@ -131,7 +131,7 @@ Chúng tôi đã soạn tài liệu về cách kết nối với máy chủ Bộ
 Chúng tôi đã tạo tài liệu về cách kết nối với máy chủ Bộ Công cụ Dữ liệu mở và chúng tôi khuyên bạn nên đọc [trang này](/uwazi) để bắt đầu.
 
 <div class="gifs">
-    <img src="img/getting-started/android/uwazi.gif" alt="gif that shows Uwazi connection" title="Uwazi connection" />
+    <img src="./img/getting-started/android/uwazi.gif" alt="gif that shows Uwazi connection" title="Uwazi connection" />
 </div>
 
 #### Tella Web {#tella-web}
