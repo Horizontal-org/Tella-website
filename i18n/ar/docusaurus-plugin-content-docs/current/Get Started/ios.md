@@ -12,7 +12,7 @@ slug: /get-started-ios
 
 
 <div class="gifs">
-    <img src="./img/getting-started/ios/find-and-download.gif" alt="gif that shows how to download Tella from the App Store" title="find and download gif" />
+    <img src={require("@site/static/img/getting-started/ios/find-and-download.gif").default} alt="gif that shows how to download Tella from the App Store" title="find and download gif" />
 </div>
 
 
@@ -38,7 +38,7 @@ slug: /get-started-ios
 
 
 <div class="gifs">
-    <img src="./img/getting-started/ios/granting-permissions.gif" alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
+    <img src={require("@site/static/img/getting-started/ios/granting-permissions.gif").default} alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
 </div>
 
 
@@ -46,7 +46,7 @@ slug: /get-started-ios
 ‫إذا لم تمنح Tella هذه التراخيص، فيمكنك القيام بذلك لاحقا بالانتقال إلى إعدادات اﻵيفون والانتقال إلى **إعدادات** > **Tella** > **السماح لـ Tella بالوصول إلى الكاميرا والميكروفون والملفات.**
 
 <div class="gifs">
-    <img src="./img/getting-started/ios/taking-picture-permissions.gif" alt="gif that shows how to take a picture in Tella the first time (grant permission)" title="Tella will ask you to grant permissions the first time you open the camera" />
+    <img src={require("@site/static/img/getting-started/ios/taking-picture-permissions.gif").default} alt="gif that shows how to take a picture in Tella the first time (grant permission)" title="Tella will ask you to grant permissions the first time you open the camera" />
 </div>
 
 
@@ -58,8 +58,8 @@ slug: /get-started-ios
 
 
 <div class="gifs">
-    <img src="./img/getting-started/ios/picture.gif" alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
-    <img src="./img/getting-started/ios/recording.gif" alt="gif that shows how to record audio in Tella" title="record audio in Tella" />
+    <img src={require("@site/static/img/getting-started/ios/picture.gif").default} alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
+    <img src={require("@site/static/img/getting-started/ios/recording.gif").default} alt="gif that shows how to record audio in Tella" title="record audio in Tella" />
 </div> 
 
 
@@ -69,7 +69,7 @@ slug: /get-started-ios
 ‫**استيراد ملفاتك إلى Tella.** انتقل إلى أي من المجلدات داخل Tella واضغط على زر **+** > **استيراد من الجهاز**. اختر الملف الذي ترغب في الاحتفاظ به داخل Tella، سيتم تخزين نسخة مُعمّاة ومخفية للملف في Tella. سيُطلَب منك الاختيار بين حذف الملف الأصلي من جهازك وبين الاحتفاظ به. سيبقى Tella مفتوحا أثناء اختيارك لملفاتك لمدة أقصاها ثلاث (3) دقائق.
 
 <div class="gifs">
-    <img src="./img/getting-started/ios/import-files.gif" alt="gif that shows how to import files in Tella" title="import files in Tella" />
+    <img src={require("@site/static/img/getting-started/ios/import-files.gif").default} alt="gif that shows how to import files in Tella" title="import files in Tella" />
 </div> 
 
 
@@ -77,7 +77,7 @@ slug: /get-started-ios
 
 
 <div class="gifs">
-    <img src="./img/getting-started/ios/folders.gif" alt="gif that shows how to organize evidence in folders in Tella" title="folders in Tella" />
+    <img src={require("@site/static/img/getting-started/ios/folders.gif").default} alt="gif that shows how to organize evidence in folders in Tella" title="folders in Tella" />
 </div> 
 
 
@@ -85,7 +85,7 @@ slug: /get-started-ios
 
 
 <div class="gifs">
-    <img src="./img/getting-started/ios/rename.gif" alt="gif that shows how to rename files in Tella" title="rename files in Tella" />
+    <img src={require("@site/static/img/getting-started/ios/rename.gif").default} alt="gif that shows how to rename files in Tella" title="rename files in Tella" />
 </div> 
 
 
@@ -95,7 +95,7 @@ slug: /get-started-ios
 ضع في اعتبارك أن Tella ستشارك الملفات دون تعمية، لذا تأكد من استخدام الرسائل المختفية (مثلا، على واتساب أو Signal) أو قم بحذف الرسائل بعد أن يستلمها الشخص الآخر.
 
 <div class="gifs">
-    <img src="./img/getting-started/ios/share.gif" alt="gif that shows how share information in Tella" title="share information in Tella" />
+    <img src={require("@site/static/img/getting-started/ios/share.gif").default} alt="gif that shows how share information in Tella" title="share information in Tella" />
 </div> 
 
 
