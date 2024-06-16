@@ -12,7 +12,7 @@ Truy cập [đường dẫn này](https://apps.apple.com/us/app/tella-document-p
 
 
 <div class="gifs">
-    <img src="img/getting-started/ios/find-and-download.gif" alt="gif that shows how to download Tella from the App Store" title="find and download gif" />
+    <img src={require("@site/static/img/getting-started/ios/find-and-download.gif").default} alt="gif that shows how to download Tella from the App Store" title="find and download gif" />
 </div>
 
 
@@ -38,7 +38,7 @@ Lần đầu tiên sử dụng mỗi tính năng, bạn sẽ được yêu cầu
 
 
 <div class="gifs">
-    <img src="img/getting-started/ios/granting-permissions.gif" alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
+    <img src={require("@site/static/img/getting-started/ios/granting-permissions.gif").default} alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
 </div>
 
 
@@ -46,7 +46,7 @@ Lần đầu tiên sử dụng mỗi tính năng, bạn sẽ được yêu cầu
 Nếu bạn không cấp những quyền này cho Tella, bạn có thể thực hiện lúc khác bằng cách vào cài đặt iphone và thao tác **Cài đặt** > **Tella** > **Cho phép Tella truy cập máy ảnh, micro và tệp tin.**
 
 <div class="gifs">
-    <img src="img/getting-started/ios/taking-picture-permissions.gif" alt="gif that shows how to take a picture in Tella the first time (grant permission)" title="Tella will ask you to grant permissions the first time you open the camera" />
+    <img src={require("@site/static/img/getting-started/ios/taking-picture-permissions.gif").default} alt="gif that shows how to take a picture in Tella the first time (grant permission)" title="Tella will ask you to grant permissions the first time you open the camera" />
 </div>
 
 
@@ -58,8 +58,8 @@ Sau khi cấp quyền, bạn đã sẵn sàng để bắt đầu thu thập tài
 
 
 <div class="gifs">
-    <img src="img/getting-started/ios/picture.gif" alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
-    <img src="img/getting-started/ios/recording.gif" alt="gif that shows how to record audio in Tella" title="record audio in Tella" />
+    <img src={require("@site/static/img/getting-started/ios/picture.gif").default} alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
+    <img src={require("@site/static/img/getting-started/ios/recording.gif").default} alt="gif that shows how to record audio in Tella" title="record audio in Tella" />
 </div> 
 
 
@@ -69,7 +69,7 @@ Sau khi cấp quyền, bạn đã sẵn sàng để bắt đầu thu thập tài
 **Nhập tệp tin của bạn vào Tella.** Truy cập vào bất kỳ thư mục nào trong Tella và bấm Nút **+** > **Nhập từ thiết bị**. Chọn tệp tin bạn muốn lưu giữ bên trong Tella và một bản sao của tệp tin sẽ được lưu trữ dưới dạng mã hóa và ẩn trên Tella. Bạn sẽ được yêu cầu chọn giữa việc xóa hay giữ tệp tin gốc trên thiết bị của mình. Tella sẽ được mở khóa khi bạn chọn tệp tin của mình trong tối đa ba (3) phút.
 
 <div class="gifs">
-    <img src="img/getting-started/ios/import-files.gif" alt="gif that shows how to import files in Tella" title="import files in Tella" />
+    <img src={require("@site/static/img/getting-started/ios/import-files.gif").default} alt="gif that shows how to import files in Tella" title="import files in Tella" />
 </div> 
 
 
@@ -77,7 +77,7 @@ Sau khi cấp quyền, bạn đã sẵn sàng để bắt đầu thu thập tài
 
 
 <div class="gifs">
-    <img src="img/getting-started/ios/folders.gif" alt="gif that shows how to organize evidence in folders in Tella" title="folders in Tella" />
+    <img src={require("@site/static/img/getting-started/ios/folders.gif").default} alt="gif that shows how to organize evidence in folders in Tella" title="folders in Tella" />
 </div> 
 
 
@@ -85,7 +85,7 @@ Sau khi cấp quyền, bạn đã sẵn sàng để bắt đầu thu thập tài
 
 
 <div class="gifs">
-    <img src="img/getting-started/ios/rename.gif" alt="gif that shows how to rename files in Tella" title="rename files in Tella" />
+    <img src={require("@site/static/img/getting-started/ios/rename.gif").default} alt="gif that shows how to rename files in Tella" title="rename files in Tella" />
 </div> 
 
 
@@ -95,7 +95,7 @@ Sau khi cấp quyền, bạn đã sẵn sàng để bắt đầu thu thập tài
 Lưu ý rằng Tella sẽ chia sẻ các tệp mà không mã hóa, vì vậy, để an toàn bạn hãy sử dụng tin nhắn tự xóa (ví dụ như WhatsApp hoặc Signal) hoặc xóa tin nhắn sau khi người kia nhận được chúng.
 
 <div class="gifs">
-    <img src="img/getting-started/ios/share.gif" alt="gif that shows how share information in Tella" title="share information in Tella" />
+    <img src={require("@site/static/img/getting-started/ios/share.gif").default} alt="gif that shows how share information in Tella" title="share information in Tella" />
 </div> 
 
 

@@ -17,7 +17,7 @@ Tella ကို ဒေါင်းလုဒ်လုပ်ရန် သင့်
 အက်ပ်ကို ကိုယ်တိုင်ထည့်သွင်းရန် အကူအညီ လိုအပ်ပါက သင်သည် [ဤလမ်းညွှန်ချက်ကို လိုက်နာနိုင်သည်](/video-tutorials#manual-installation-of-tella) သို့မဟုတ် [ကျွန်ုပ်တို့ထံ ဆက်သွယ်နိုင်သည်](/contact-us)။
 
 <div class="gifs">
-    <img src="img/getting-started/android/find-tella.gif" alt="gif that shows how to download Tella from the Play Store" title="find and download gif" />
+    <img src={require("@site/static/img/getting-started/android/find-tella.gif").default} alt="gif that shows how to download Tella from the Play Store" title="find and download gif" />
 </div>
 
 
@@ -46,8 +46,8 @@ Tella ကို သင်ပထမဆုံးဖွင့်လိုက်သ�
 ဤခွင့်ပြုချက်များကို Tella အား ပေးအပ်ရန် သင်ငြင်းဆိုပါက သင်၏ Android ဆက်တင်များသို့ သွားကာ ဆက်တင်များ > အက်ပ်များ > Tella > အက်ပ်ခွင့်ပြုချက်များသို့ အဆင့်ဆင့် ဝင်ရောက်၍ နောက်ပိုင်းတွင် ခွင့်ပြုချက်ပေးနိုင်ပါသည်။
 
 <div class="gifs">
-    <img src="img/getting-started/android/permissions.gif" alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
-    <img src="img/getting-started/android/permissions-change.gif" alt="gif that shows how to chage granted permissions on Tella" title="change the granted permission" />
+    <img src={require("@site/static/img/getting-started/android/permissions.gif").default} alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
+    <img src={require("@site/static/img/getting-started/android/permissions-change.gif").default} alt="gif that shows how to chage granted permissions on Tella" title="change the granted permission" />
 </div>
 
 
@@ -58,9 +58,9 @@ Tella ကို သင်ပထမဆုံးဖွင့်လိုက်သ�
 **ရုပ်ပုံများ သို့မဟုတ် ဗီဒီယိုများကို ရိုက်ယူရန် ကင်မရာနှင့် အသံဖမ်းယူရန် အသံဖမ်းစက်တို့ကို အသုံးပြုပါ။** Tella ဖြင့် ရိုက်ကူးထားသော မီဒီယာအားလုံးကို  ချက်ချင်း ကုဒ်ဝှက်မည်ဖြစ်သောကြောင့် ၎င်းဖိုင်ကို Tella ပြင်ပတွင် အသုံးပြုနိုင်မည်မဟုတ်ပါ။ Tella အတွင်းရှိ စုဆောင်းထားသော မီဒီယာအားလုံးကို သင့်ဖုန်းပြခန်း သို့မဟုတ် ဖုန်းဖိုင်များတွင် ပြသမည် မဟုတ်ပါ။ Tella အတွက် သီးသန့်သိုလှောင်မှု ကန့်သတ်ချက် မရှိပါ၊ ရရှိနိုင်သောနေရာသည် သင့်စက်ပေါ်ရှိ နေရာလွတ်ပေါ်တွင် မူတည်ပါမည်။
 
 <div class="gifs">
-  <img src="img/getting-started/android/picture.gif" alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
-  <img src="img/getting-started/android/video.gif" alt="gif that shows how to record a video in Tella" title="video recording in Tella" />
-  <img src="img/getting-started/android/audio.gif" alt="gif that shows how to record audio in Tella" title="audio recording in Tella" />
+  <img src={require("@site/static/img/getting-started/android/picture.gif").default} alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
+  <img src={require("@site/static/img/getting-started/android/video.gif").default} alt="gif that shows how to record a video in Tella" title="video recording in Tella" />
+  <img src={require("@site/static/img/getting-started/android/audio.gif").default} alt="gif that shows how to record audio in Tella" title="audio recording in Tella" />
 </div>
 
 
@@ -68,7 +68,7 @@ Tella ကို သင်ပထမဆုံးဖွင့်လိုက်သ�
 **သင့်ဖိုင်များကို Tella သို့ ပေးပို့ပါ။** Tella အတွင်းရှိ ဖိုင်တွဲများမှတစ်ခုသို့ သွား၍ **+** ခလုတ် > **စက်ပစ္စည်းမှ ပေးပို့မည်** ကို နှိပ်ပါ။ Tella တွင် သင်သိမ်းဆည်းလိုသော ဖိုင်ကို ရွေးချယ်ပြီးနောက် ဖိုင်၏မိတ္တူကို Tella တွင် ကုဒ်ဝှက်ပြီး ဝှက်၍သိမ်းထားပါမည်။ မူရင်းဖိုင်ကို သင့်စက်မှ ဖျက်ရန် သို့မဟုတ် သိမ်းထားရန် ရွေးချယ်ခိုင်းပါမည်။ သင့်ဖိုင်များကို ရွေးချယ်နေစဉ် အများဆုံး (၃) မိနစ်အထိ Tella ကို သော့ဖွင့်ထားပါမည်။
 
 <div class="gifs">
-    <img src="img/getting-started/android/import.gif" alt="gif that shows how to import files in Tella" title="import files in Tella" />
+    <img src={require("@site/static/img/static/getting-started/android/import.gif").default} alt="gif that shows how to import files in Tella" title="import files in Tella" />
 </div>
 
 
@@ -76,7 +76,7 @@ Tella ကို သင်ပထမဆုံးဖွင့်လိုက်သ�
 **ဖိုင်တွဲများကို ဖန်တီးပါ။** သင့်ဖိုင်များကို ရှာဖွေရာ၌ ပိုမိုလွယ်ကူစေရန် ဖိုင်များကို ဖိုင်တွဲများအဖြစ် စုစည်းနိုင်ပါသည်။ **ဖိုင်အားလုံး** > **+** > **ဖိုင်တွဲအသစ်တစ်ခုကို ဖန်တီးပါ** သို့သွားကာ ဖိုင်တွဲအတွက် ဖော်ပြချက်အမည်ကို ရိုက်ထည့်ပါ။ ထို့နောက် စခရင်၏ ထိပ်ရှိ တစ်ခုမက ရွေးရန် ခလုတ်ကို အသုံးပြု၍ ဖိုင်တွဲအသစ်သို့ ရွှေ့လိုသော ဖိုင်များကို ရွေးချယ်ပါ၊ ထို့နောက် အစက် (၃) စက်ခလုတ်ကို နှိပ်ပြီး အခြားဖိုင်တွဲတစ်ခုသို့ ရွှေ့ပါ၊ ဖိုင်တွဲကို ရှာတွေ့ရန် ဖိုင်တည်ဆောက်ပုံ လမ်းကြောင်းရှာပါ။ ထို့နောက် ဤနေရာသို့ ရွှေ့ရန် ကို နှိပ်ပါ။
 
 <div class="gifs">
-    <img src="img/getting-started/android/folders-rename.gif" alt="gif that shows how to organize your info in Tella" title="organize files in Tella" />
+    <img src={require("@site/static/img/getting-started/android/folders-rename.gif").default} alt="gif that shows how to organize your info in Tella" title="organize files in Tella" />
 </div>
 
 **ဖိုင်များကို အမည်ပြောင်းပါ-** သင့်ဒေတာများကို စနစ်တကျထားရှိရန် အခြားနည်းလမ်းမှာ ပိုမိုသိသာထင်ရှားစေရန် ဖိုင်များကို အမည်ပြောင်းလဲခြင်း ဖြစ်သည်။ ပုံမှန်အားဖြင့် ဖိုင်များကို အလိုအလျောက် ထုတ်ပေးသော အမည်ပေးထားပါမည်။ ဖိုင်အမည်တစ်ခုစီ၏ ဘေးတွင် ရှိသော **အစက် (၃) စက်** ကို နှိပ်ပြီး **အမည်ပြောင်းရန်** ကို နှိပ်၍ ၎င်းကို ပြောင်းလဲနိုင်သည်။ 
@@ -91,8 +91,8 @@ Tella ကို သင်ပထမဆုံးဖွင့်လိုက်သ�
 [ဤနေရာ](/features#camouflage) တွင် အသွင်ပြောင်းခြင်း အကြောင်း ပိုမိုဖတ်ရှုပါ။
 
 <div class="gifs">
-    <img src="img/getting-started/android/camouflage-icon.gif" alt="gif that shows how camouflage Tella by changing its name and icon" title="camouflage Tella changing its icon" />
-    <img src="img/getting-started/android/camouflage-calc.gif" alt="gif that shows how camouflage Tella behind a calculator" title="camouflage Tella with a calculator" />
+    <img src={require("@site/static/img/getting-started/android/camouflage-icon.gif").default} alt="gif that shows how camouflage Tella by changing its name and icon" title="camouflage Tella changing its icon" />
+    <img src={require("@site/static/img/getting-started/android/camouflage-calc.gif").default} alt="gif that shows how camouflage Tella behind a calculator" title="camouflage Tella with a calculator" />
 </div>
 
 
@@ -103,7 +103,7 @@ Tella ကိုအသုံးပြု၍ အချက်အလက်မျှ�
 ကုဒ်ဝှက်မထားသော ဖိုင်များအား Tella က မျှဝေမည်ကို ထည့်သွင်းစဉ်းစားပါ၊ ထို့ကြောင့် (ဥပမာ- WhatsApp သို့မဟုတ် Signal တို့တွင်) မက်ဆေ့ချ်များ ပျောက်သွားစေရန် ပြုလုပ်ပါ သို့မဟုတ် တစ်ဖက်လူက လက်ခံရရှိပြီးနောက် မက်ဆေ့ဂျ်များကို ဖျက်ပါ။
 
 <div class="gifs">
-    <img src="img/getting-started/android/share.gif" alt="gif that shows how to share information" title="share information with third party apps" />
+    <img src={require("@site/static/img/getting-started/android/share.gif").default} alt="gif that shows how to share information" title="share information with third party apps" />
 </div>
 
 
@@ -122,7 +122,7 @@ Open Data Kit ဆာဗာသို့ ချိတ်ဆက်ပုံနှ�
 
 
 <div class="gifs">
-    <img src="img/getting-started/android/kobo.gif" alt="gif that shows ODK connection" title="ODK connection" />
+    <img src={require("@site/static/img/getting-started/android/kobo.gif").default} alt="gif that shows ODK connection" title="ODK connection" />
 </div>
 
 #### Uwazi {#uwazi}
@@ -131,7 +131,7 @@ Open Data Kit ဆာဗာသို့ ချိတ်ဆက်ပုံနှ�
 Open Data Kit ဆာဗာသို့ ချိတ်ဆက်ပုံနှင့်ပတ်သက်သည့် စာရွက်စာတမ်းများကို ကျွန်ုပ်တို့ ရေးသားခဲ့ပြီး စတင်ရန်အတွက် [ဤစာမျက်နှာ](/uwazi) ကို ဖတ်ရှုရန် အကြံပြုအပ်ပါသည်။
 
 <div class="gifs">
-    <img src="img/getting-started/android/uwazi.gif" alt="gif that shows Uwazi connection" title="Uwazi connection" />
+  <img src={require("@site/static/img/getting-started/android/uwazi.gif").default} alt="gif that shows Uwazi connection" title="Uwazi connection" />
 </div>
 
 #### Tella ဝဘ် {#tella-web}
