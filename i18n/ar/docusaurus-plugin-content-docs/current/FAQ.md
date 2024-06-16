@@ -31,7 +31,7 @@ import TellaLanguages from './_tella-languages.md';
 :::
 
 ### هل Tella متاح على F-Droid؟ {#is-tella-available-on-f-droid}
-نعم، قمنا بنشر نسخة من Tella Android [على F-Droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/)، والذي نسميه Tella-FOSS. في هذا الإصدار، تتوفر جميع الميزات باستثناء:
+نعم، لقد قمنا بنشر إصدار Tella Android [على F-Droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/)، والذي نسميه Tella-FOSS. في هذا الإصدار، تتوفر جميع الميزات باستثناء:
 - اتصالات Tella Web
 - خيار حذف الملف الأصلي عند الاستيراد
 - بعض ميزات الكاميرا (التكبير والتصغير وقلب الكاميرا وتفعيل الفلاش وتفعيل الشبكة وتغيير دقة الفيديو)
@@ -43,7 +43,7 @@ import TellaLanguages from './_tella-languages.md';
 
 ### هل Tella متاح على iOS؟ {#is-tella-available-on-ios}
 
-‫نعم، يمكن تنزيل Tella لنظام iOS [من App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580). Tella لنظام iOS مازال في مرحلة التطوير الأولية، لذا لا تتوفر جميع الميزات بعد. ومع ذلك، فهو مستقر وتم إخضاعه لتدقيق أمني.
+‫نعم، يمكن تنزيل Tella iOS [من App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580). Tella iOS مازال في مرحلة التطوير الأولية، لذا لا تتوفر جميع الميزات بعد. ومع ذلك، فهو مستقر وتم إخضاعه لتدقيق أمني.
 
 لمعرفة التفاصيل حول الميزات المتاحة لنظام iOS، اطلع على الميزات المتاحة على كل منصة.
 

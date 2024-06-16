@@ -8,7 +8,7 @@ slug: /get-started-ios
 # Bắt đầu sử dụng Tella trên iOS
 
 ## Tải xuống và cài đặt Tella {#download-and-install-tella}
-Truy cập [đường dẫn này](https://apps.apple.com/us/app/tella-document-protect/id1598152580) để tìm Tella trên App Store hoặc mở App Store rồi tìm theo tên “Tella document and protect”.
+Truy cập [đường dẫn này](https://apps.apple.com/us/app/tella-document-protect/id1598152580) để tìm Tella trên App Store hoặc mở App Store rồi tìm theo từ khóa “Tella document and protect”.
 
 
 <div class="gifs">
@@ -18,7 +18,7 @@ Truy cập [đường dẫn này](https://apps.apple.com/us/app/tella-document-p
 
 
 ## Tạo mã khóa của bạn {#create-your-lock}
-Khi lần đầu mở Tella, bạn sẽ được yêu cầu chọn cách khóa cho Tella. Nếu không có mã khóa này, bạn không thể mở Tella và truy cập bất kỳ tệp nào được lưu trữ bên trong Tella.
+Khi lần đầu mở Tella, bạn sẽ được yêu cầu chọn cách khóa cho Tella. Nếu không có mã khóa này, bạn không thể mở Tella và truy cập bất kỳ tài liệu nào được lưu trữ bên trong Tella.
 
 * Mật khẩu: mật khẩu gồm chữ và số là cách an toàn nhất để khóa Ứng dụng.
 * Mã PIN: một dãy số có nhiều hơn sáu (6) chữ số.
@@ -114,7 +114,7 @@ Tella Web là một công cụ mã nguồn mở cho phép các cá nhân và t�
 Đọc thêm về Tella Web [tại đây](/tella-web) hoặc xem [video hướng dẫn](/video-tutorials#tella-web).
 
 #### Uwazi {#uwazi}
-[Uwazi](https://uwazi.io/) là một ứng dụng nguồn mở do HURIDOCS tạo ra với các tính năng mạnh mẽ để thu thập, sắp xếp và trực quan hóa dữ liệu nhân quyền.
+[Uwazi](https://uwazi.io/) là một ứng dụng nguồn mở do HURIDOCS tạo ra với các tính năng mạnh mẽ để thu thập, sắp xếp và trực quan hóa dữ liệu về nhân quyền.
 
 Chúng tôi đã tạo tài liệu về cách kết nối với máy chủ Bộ Công cụ Dữ liệu mở và chúng tôi khuyên bạn nên đọc [trang này](/uwazi) để bắt đầu.
 
@@ -123,7 +123,7 @@ Chúng tôi đã tạo tài liệu về cách kết nối với máy chủ Bộ 
 ### Đọc thêm về Tella {#read-more-about-tella}
 - [Các tính năng](/features): Tìm hiểu thêm về cách Tella có thể giữ an toàn cho bạn và những mối đe dọa mà Tella không_thể_bảo vệ bạn.
 - [Kết nối](/for-organizations): Tìm hiểu cách bạn có thể kết nối với máy chủ để thu thập dữ liệu hoặc sao lưu tài liệu.
-- [Bảo mật và quyền riêng tư](/security-and-privacy): Chúng tôi chỉ thu thập lượng dữ liệu tối thiểu cần thiết và không bao giờ thu thập bất kỳ thông tin cá nhân nào có thể nhận dạng được. Đọc chính sách bảo mật đầy đủ [tại đây](/privacy).
+- [Bảo mật và quyền riêng tư](/security-and-privacy): Chúng tôi chỉ thu thập lượng dữ liệu tối thiểu cần thiết và không bao giờ thu thập bất kỳ thông tin cá nhân nào có thể nhận dạng được. Đọc toàn bộ chính sách bảo mật [tại đây](/privacy).
 
 
 

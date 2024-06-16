@@ -115,7 +115,7 @@ slug: /privacy
 
 إذا كنت لا ترغب في تنزيل التطبيق من خلال متجر Google Play، يمكنك [تنزيل الملف APK مباشرة عبر هذا الرابط](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ).
 
-يمكن العثور على نسخة مجانية بالكامل ومفتوحة المصدر من Tella لنظام أندرويد، والتي لا تحتوي على أي مكتبات برمجية مُقيَّدة بحقوق النشر، وخالية من أي أدوات للتعقب على [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
+يمكن العثور على نسخة مجانية بالكامل ومفتوحة المصدر من Tella Android، والتي لا تحتوي على أي مكتبات برمجية مُقيَّدة بحقوق النشر، وخالية من أي أدوات للتعقب على [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
 
 ## 5. كيف نستخدم معلوماتك {#5-how-we-use-your-information}
 

@@ -11,7 +11,7 @@ slug: /get-started
     <div className="doc-card">
       <a href="get-started-android">
         <div className="doc-card-content">
-          <b>دليل أندرود </b>
+          <b>دليل أندرويد </b>
           <p>دليل البدء السريع لمستخدمي Tella على أندرويد.</p>
         </div>
       </a>

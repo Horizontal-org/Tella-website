@@ -82,7 +82,6 @@ Por padrão, essa configuração está desativada, ou seja, as tentativas de des
 Após o número especificado de tentativas falhas, todos os arquivos, conexões e todo o conteúdo dentro do Tella é excluído e o usuário retornará ao estado "recém-instalado" do aplicativo.
 
 :::danger
-
 Mesmo que essa configuração de segurança previna tentativas de desbloqueio do Tella por força bruta, ela deve ser usada com cautela, pois não há maneira de restaurar o conteúdo do Tella uma vez que o número máximo de falhas nas tentativas de desbloqueio for atingido.
 :::
 
@@ -100,7 +99,6 @@ Ao instalar o aplicativo, o usuário decide qual método de bloqueio gostaria de
 Mesmo que o dispositivo esteja ligado a um computador e todos os dados do dispositivo forem extraídos para serem analisados, todo o conteúdo e os dados do Tella vão parecer sem sentido e serão inúteis. Desbloquear o aplicativo pela inserção do bloqueio correto é a única forma de decifrar e, portanto, ler o conteúdo armazenado no Tella.
 
 :::danger
-
 Se o bloqueio do usuário for muito fraco, um adversário pode ser capaz de adivinhá-lo e abrir o aplicativo no telefone; ou os dados poderiam ser extraídos e um computador poderia descobrir a chave de criptografia por força bruta e decifrar os dados.
 :::
 
@@ -129,7 +127,6 @@ No Tella, usuários podem:
 * Importar arquivos de seus dispositivos. Os arquivos são automaticamente criptografados quando importados para o Tella.
 
 :::danger
-
 Importar os arquivos do sistema de arquivo do dispositivo para o Tella cria uma cópia dos arquivos dentro do Tella. O Tella perguntará se você deseja manter ou excluir o arquivo original do seu telefone quando realizar a importação. Se você escolher manter o arquivo original, ele estará presente no dispositivo, fora do Tella e sem criptografia. 🔒
 :::
 
@@ -184,7 +181,6 @@ No Tella para Android, é possível camuflar o Tella de duas maneiras:
 Neste momento, devido a restrições na App Store da Apple, o Tella para iOS não dá suporte às configurações de camuflagem disponíveis no Tella para Android.
 
 :::danger
-
 O nome "Tella" e seu ícone permanecerão visíveis nas configurações do Android. Isso significa que a camuflagem não protegerá contra um indivíduo _ativamente_ procurando pelo Tella no telefone ou conduzindo uma análise em profundidade do dispositivo. 🔒👀
 :::
 
@@ -231,7 +227,7 @@ Nas configurações do Tella, usuários podem ativar o "Modo de Verificação" �
 
 Quando ativado, todas as vezes que um usuário capturar uma foto ou vídeo ou gravar um áudio, o Tella automaticamente guarda informações de verificação (metadados do arquivo). Essas informações de verificação podem ser usadas para corroborar evidências, fazer verificação cruzada com outros fatos conhecidos sobre o evento ou sobre a área em que foram capturadas. As informações da verificação serão incluídas como um arquivo separado ao salvar o arquivo no dispositivo ou ao compartilhá-lo por meio de aplicativos de terceiros. O formato do arquivo é .CSV com informações de metadados incluídas nas colunas. Esse arquivo pode ser aberto com qualquer aplicativo de planilha (como Excel, Google Spreadsheets ou OpenOffice).
 
-:::informação Contate-nos
+:::info Contate-nos
 Se você precisa de ajuda para entender melhor o Modo de Verificação, sinta-se à vontade para entrar em contato conosco 😊
 :::
 

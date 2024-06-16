@@ -17,7 +17,7 @@ slug: /get-started-android
 إذا كنت بحاجة إلى المساعدة لتثبيت التطبيق يدويا، يمكنك [اتباع هذا الدليل](/video-tutorials#manual-installation-of-tella) أو [اتصل بنا](/contact-us).
 
 <div class="gifs">
-    <img src={require("@site/static/img/getting-started/android/find-tella.gif").default} alt="gif that shows how to download Tella from the Play Store" title="find and download gif" />
+  <img src={require("@site/static/img/getting-started/android/find-tella.gif").default} alt="gif that shows how to download Tella from the Play Store" title="find and download gif" />
 </div>
 
 

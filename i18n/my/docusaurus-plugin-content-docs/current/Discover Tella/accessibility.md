@@ -1,6 +1,6 @@
 ---
 id: accessibility
-title: ဘာသာစကားများနှင့် သုံးစွဲနိုင်မှု
+title: Languages and accessibility
 description: Tella တွင် ရရှိနိုင်သော ဘာသာစကားများကို ကြည့်ရှုခြင်းနှင့် သုံးစွဲနိုင်မှုကို ထည့်သွင်းစဉ်းစားမှုများ။
 slug: /accessibility
 ---

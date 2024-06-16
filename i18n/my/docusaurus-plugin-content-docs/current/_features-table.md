@@ -5,7 +5,7 @@
 |[လော့ခ်ကျရန် ကြာချိန် သတ်မှတ်ပေးခြင်း](/features#lock-timeout-configuration)| ✔️| ✔️| ✔️ |
 |[ကင်မရာ အသံတိတ်မုဒ်](/features#camera-silent-mode)| ✔️| မရသေး| ✔️ |
 | [စခရင် လုံခြုံရေး](/features#screen-security)| ✔️| ✔️| ✔️ |
-| [သော့ဖွင့်ရန် ကြိုးပမ်းမှုများကို ကန့်သတ်ပါ](features#restrict-unlocking-attempts)| ✔️| ✔️| မရသေး |
+| [သော့ဖွင့်ရန် ကြိုးပမ်းမှုများကို ကန့်သတ်ပေးခြင်း](features#restrict-unlocking-attempts)| ✔️| ✔️| မရသေး |
 | [မီဒီယာကို တည်းဖြတ်ပါ](/features#edit-media)| ဓာတ်ပုံများကို ဖြတ်တောက်ပြီး လှည့်မည်| မရသေး| မရသေး |
 | [ကုဒ်ဝှက်ခြင်း](/features#encryption)| ✔️| ✔️| ✔️ |
 | [ကုဒ်ဝှက်ထားသော ဖိုင်စီမံခန့်ခွဲမှု](/features#file-management)| ✔️ | ✔️ | ✔️ |

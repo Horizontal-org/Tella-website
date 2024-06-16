@@ -8,7 +8,7 @@ slug: /get-started-ios
 # Começando no Tella para iOS
 
 ## Baixe e instale o Tella {#download-and-install-tella}
-Siga [este link](https://apps.apple.com/us/app/tella-document-protect/id1598152580) para encontrar o Tella na App Store ou abrir a App Store e procurar por “Tella document and protect”.
+Siga [este link](https://apps.apple.com/br/app/tella-document-protect/id1598152580) para encontrar o Tella na App Store ou procure por “Tella” na App Store.
 
 
 <div class="gifs">

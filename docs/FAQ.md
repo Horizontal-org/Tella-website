@@ -51,7 +51,7 @@ For details about which features are available for iOS, see What features are av
 
 <FeaturesTable/>
 
-For more details about each feature see [Features](/features) .
+For more details about each feature see [Features](/features).
 
 ### Is Tella available on desktop? {#is-tella-available-on-desktop}
 

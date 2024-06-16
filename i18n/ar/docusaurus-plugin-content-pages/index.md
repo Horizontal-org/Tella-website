@@ -3,8 +3,8 @@ import ThemedImage from '@theme/ThemedImage';
 <div id="intro">
     <div className="intro-column" id="intro-column1">
         <h1>Tella</h1>
-        <h2>توثيق وحماية</h2>
-        <p>في البيئات الصعبة، مع اتصال محدود أو معدوم بالإنترنت أو في وجه القمع، تجعل Tella من الأسهل والأكثر أمانًا توثيق انتهاكات حقوق الإنسان وجمع البيانات.</p>
+        <h2>التوثيق والحماية</h2>
+        <p>في البيئات الصعبة حيث يكون الاتصال بالانترنت محدودا أو معدوما، أو في ظل القمع، يُعد تطبيق Tella وسيلة أسهل وأكثر أمنا لتوثيق انتهاكات حقوق الإنسان وجمع البيانات.</p>
         <div className="download">
             <a href="https://play.google.com/store/apps/details?id=org.hzontal.tella" target="_blank">
                 <img className="badge" src="img/google-play-badge.png" alt="احصل على Tella على جوجل بلاي"/>
@@ -37,11 +37,11 @@ import ThemedImage from '@theme/ThemedImage';
             <img className="home-illustrations" src="img/why-tella.png" alt="توضيح لماذا Tella" />
         </div>
         <div className="column" id="section-column2">
-            <p>إذا كنت ناشطًا، صحفيًا، مدافعًا عن حقوق الإنسان، أو أي شخص يوثق الظلم، يمكنك استخدام Tella للقيام بما يلي:</p>
+            <p>إذا كنت ناشطا أو صحفيا أو مدافعا عن حقوق الإنسان، أو كنت أي شخص يُوثِّق ما يحدث من الظلم، يمكنك استخدام Tella للقيام بما يلي لـ:</p>
             <ul>
-                <li><span className="emphasis">حماية نفسك</span> من القمع الجسدي والرقمي أثناء جمع وتخزين المعلومات الحساسة.</li>
-                <li><span className="emphasis">حماية البيانات التي تجمعها</span> من الرقابة، والتلاعب، والتجسس، والتدمير.</li>
-                <li><span className="emphasis">إنتاج توثيق عالي الجودة بسهولة</span> يمكن استخدامه في البحث، أو المناصرة، أو العدالة الانتقالية.</li>
+                <li><span classname="emphasis">حماية نفسك</span> من القمع الجسدي والرقمي أثناء جمع وتخزين المعلومات الحساسة.</li>
+                <li><span classname="emphasis">حماية البيانات التي تجمعها</span> من الرقابة عليها، والتلاعب بها، والتجسس عليها، وتدميرها.</li>
+                <li><span classname="emphasis">إنتاج توثيقات عالية الجودة بسهولة</span>، حيث يمكن استخدامها للبحث أو للمناصرة، أو للعدالة الانتقالية.</li>
             </ul>
         </div>
     </div>
@@ -52,10 +52,10 @@ import ThemedImage from '@theme/ThemedImage';
     <div className="columns">
         <div className="column" id="section-column1">
             <ul>
-                <li><span className="emphasis">تشفير ملفاتك:</span> يقوم Tella بتشفير الصور والفيديوهات والتسجيلات الصوتية تلقائيًا فور التقاطها.</li>
-                <li><span className="emphasis">إخفاء ملفاتك في الجهاز:</span> تكون ملفاتك غير متاحة من معرض الهاتف العادي أو مستعرض الملفات. يمكنك الوصول إليها فقط في التطبيق.</li>
-                <li><span className="emphasis">قفل ملفاتك:</span> تعيين رقم تعريف شخصي أو كلمة مرور لحماية ملفاتك. يعتبر إدخال القفل الصحيح هو الطريقة الوحيدة لفك تشفير الملفات المخزنة في Tella.</li>
-                <li><span className="emphasis">إخفاء التطبيق:</span> تغيير مظهر Tella لإخفائه عن الأشخاص الذين يبحثون في هاتفك.</li>
+                <li><span classname="emphasis">تعمية ملفاتك:</span> يقوم Tella بتعمية الصور والفيديوهات والتسجيلات الصوتية تلقائيا فور التقاطها.</li>
+                <li><span classname="emphasis">إخفاء ملفاتك في الجهاز:</span> تكون ملفاتك غير متاحة من خلال معرض الصور المعتاد للهاتف وغير متاحة أيضا من خلال مدير الملفات. يمكنك الوصول إليها فقط في التطبيق.</li>
+                <li><span classname="emphasis">قفل ملفاتك:</span> تعيين رقم التعريف الشخصي أو كلمة السر لحماية ملفاتك. يُعد إدخال القفل الصحيح هو الطريقة الوحيدة لفك تعمية الملفات المُخزَّنة في Tella.</li>
+                <li><span classname="emphasis">إخفاء التطبيق:</span> تغيير مظهر Tella لإخفائه عن الأشخاص الذين يبحثون في هاتفك.</li>
             </ul>
         </div>
         <div className="column" id="section-column2">
@@ -66,16 +66,16 @@ import ThemedImage from '@theme/ThemedImage';
 </div>
 
 <div className="section">
-    <h3>2. جمع الأدلة على انتهاكات حقوق الإنسان</h3>
+    <h3>2. جمع الأدلة حول  انتهاكات حقوق الإنسان</h3>
     <div className="columns">
         <div className="column" id="section-column1">
             <img className="home-illustrations" src="img/data.png" alt="توضيح دفتر الملاحظات"/>
         </div>
         <div className="column" id="section-column2">
             <ul>
-                <li><span className="emphasis">كاميرا ومسجل داخل Tella:</span> التقط الصور، وسجل الفيديوهات والصوتيات مباشرة في Tella بحيث يتم تشفير ملفاتك وإخفاؤها فورًا في التطبيق.</li>
-                <li><span className="emphasis">يتكامل Tella</span> مع <a href="for-organizations#uwazi">أوازي</a>، <a href="for-organizations#open-data-kit-odk">كوبوتولبوكس</a> و <a href="for-organizations#tella-web">تيللا ويب</a>. اختر المنصة التي تناسب احتياجاتك واجمع البيانات مباشرة في Tella.</li>
-                <li><span className="emphasis">وضع غير متصل بالإنترنت:</span> في المناطق ذات الاتصال المحدود أو المعدوم بالإنترنت، يمكنك حفظ بياناتك وإرسالها عند وصولك إلى اتصال إنترنت موثوق.</li>
+                <li><span classname="emphasis">الكاميرا ومُسجِّل الصوت من داخل Tella:</span> التقط الصور، وسجِّل الفيديوهات والأصوات مباشرة داخل Tella لكي تتم تعمية ملفاتك ولأجل إخفائها فورا في التطبيق.</li>
+                <li>‫<span classname="emphasis">يتكامل Tella</span> مع <a href="for-organizations#uwazi">Uwazi</a>، <a href="for-organizations#open-data-kit-odk">Kobotoolbox</a>و <a href="for-organizations#tella-web">Tella Web</a>. اختر المنصة التي تناسب احتياجاتك ثم اجمع البيانات مباشرة في Tella.</li>
+                <li><span classname="emphasis">وضع قطع الاتصال بالانترنت:</span> في المناطق ذات الاتصال المحدود أو التي ينعدم فيها الاتصال بالانترنت، يمكنك حفظ بياناتك وإرسالها عند وصولك إلى مكان يتوفر على اتصال موثوق بالانترنت.</li>
             </ul>
         </div>
     </div> 
@@ -87,9 +87,9 @@ import ThemedImage from '@theme/ThemedImage';
     <div className="columns">
         <div className="column" id="section-column1">
             <ul>
-                <li><span className="emphasis">مجاني للأبد:</span> تم تصميم Tella لأولئك الذين تكون سلامتهم معرضة للخطر. هو مجاني للتنزيل والاستخدام، وسيظل مجانيًا إلى الأبد.</li>
-                <li><span className="emphasis">اختر لغتك:</span> يتوفر Tella حاليًا <a href="faq#what-languages-is-tella-available-in"> بعدة لغات </a> بما في ذلك العربية، البيلاروسية، البورمية، الإنجليزية، الإندونيسية، جينغفو، الكانادا، الكارين سغاو، الكردية، المالايالامية، الفارسية، البرتغالية، الروسية، الإسبانية (أمريكا اللاتينية) والتاميلية.</li>
-                <li><span className="emphasis">ثق بالكود:</span> الكود الخاص بـ Tella مفتوح المصدر و <a href="open-source">متاح علنًا</a> بحيث يمكن للباحثين، والمحللين الأمنيين، والمطورين تدقيقه وإعادة استخدامه بحرية.</li>
+                <li><span classname="emphasis">مجاني للأبد:</span> تم تصميم Tella لأولئك الذين تكون سلامتهم مُعرَّضة للخطر. إن تنزيله واستخدامه مجاني، وسيظل مجانيا إلى الأبد.</li>
+                <li><span classname="emphasis">اختر لغتك:</span> إن Tella متاح حاليا <a href="faq#what-languages-is-tella-available-in">بعدة لغات</a> بما في ذلك العربية، البيلاروسية، البورمية، الإنجليزية، الإندونيسية، جينغفو، الكنادية، الكارين سْغاو، الكردية، المالايالامية، الفارسية، البرتغالية، الروسية، الإسبانية (لهجة أمريكا اللاتينية) والتاميلية.</li>
+                <li><span classname="emphasis">ثق بالنص البرمجي:</span> إن النص البرمجي لـ Tella مفتوح المصدر و<a href="open-source">متاح للعموم</a> بحيث يمكن للباحثين، والمحللين الأمنيين، والمطورين التدقيق فيه وإعادة استخدامه بحُرية.</li>
             </ul>
         </div>
         <div className="column" id="section-column2">

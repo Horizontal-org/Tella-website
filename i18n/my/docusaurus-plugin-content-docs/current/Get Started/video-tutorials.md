@@ -1,17 +1,17 @@
 ---
 id: video-tutorials
-title: ဗီဒီယို သင်ခန်းစာများ
+title: Video tutorials
 description: Tella ဗီဒီယို သင်ခန်းစာများ
 slug: /video-tutorials
 ---
 
-## Play Store မှ Tella ကိုရှာပြီး ဒေါင်းလုဒ် လုပ်ပါ {#find-and-download-tella-from-the-play-store} 
+## Play Store မှ Tella ကို ရှာပြီး ဒေါင်းလုဒ်လုပ်ပါ {#find-and-download-tella-from-the-play-store} 
 <div class="video-tutorial video-tutorial-vertical">
     <iframe src="https://player.vimeo.com/video/817029481?h=9a50648a2a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Find and download Tella from the Play Store"></iframe>
 </div>
 
 
-## Tella {#manual-installation-of-tella} ကို ကိုယ်တိုင် တပ်ဆင်ခြင်း
+## Tella ကို ကိုယ်တိုင်ထည့်သွင်းခြင်း {#manual-installation-of-tella}
 
 <div class="video-tutorial video-tutorial-vertical">
     <iframe src="https://player.vimeo.com/video/817029578?h=43ad169035&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Manual installation of Tella"></iframe>
@@ -41,7 +41,7 @@ slug: /video-tutorials
     <iframe src="https://player.vimeo.com/video/817029855?h=577e373adb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Camouflaging Tella"></iframe>
 </div>
 
-## ဖြည့်စွက် လုံခြုံရေးအင်္ဂါရပ်များ {#additional-security-features}
+## ထပ်ဆောင်း လုံခြုံရေးအင်္ဂါရပ်များ {#additional-security-features}
 
 <div class="video-tutorial video-tutorial-vertical">
     <iframe src="https://player.vimeo.com/video/817030618?h=5f2269c6af&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Additional security features"></iframe>
@@ -55,7 +55,7 @@ slug: /video-tutorials
 </div>
 
 
-### Open Data အစုံ {#open-data-kit}
+### Open Data Kit {#open-data-kit}
 <div class="video-tutorial video-tutorial-vertical">
     <iframe src="https://player.vimeo.com/video/817030533?h=8e0cfee806&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Server connections - Open Data Kit"></iframe>
 </div>

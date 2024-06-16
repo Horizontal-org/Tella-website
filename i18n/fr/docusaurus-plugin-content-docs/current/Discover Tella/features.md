@@ -1,6 +1,6 @@
 ---
 id: features
-title: Tella features
+title: Fonctionnalités de Tella
 description: Une description détaillée des caractéristiques de Tella.
 slug: /features
 ---

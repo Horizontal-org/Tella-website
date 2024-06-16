@@ -10,7 +10,7 @@ slug: /get-started-android
 ## Tải xuống và cài đặt Tella {#download-and-install-tella}
 
 Bạn có thể tải Tella theo các cách sau:
-- Truy cập [link này](https://play.google.com/store/apps/details?id=org.hzontal.tella&hl=en&gl=US&pli=1) để tìm Tella trên Google Play hoặc mở Google Play và tìm kiếm từ khóa “Tella”.
+- Truy cập [đường dẫn này](https://play.google.com/store/apps/details?id=org.hzontal.tella&hl=en&gl=US&pli=1) để tìm Tella trên Google Play hoặc mở Google Play và tìm kiếm từ khóa “Tella”.
 - Tải xuống từ [F-droid store](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
 - Tải xuống và cài đặt thủ công dưới dạng tệp .apk [trong thư mục này](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ) hoặc từ kênh Telegram của chúng tôi: https://t.me/tellaapp. 
 
@@ -24,14 +24,14 @@ nếu bạn cần trợ giúp để cài đặt ứng dụng thủ công, bạn 
 
 ## Tạo mật khẩu {#create-your-lock}
 
-Khi mở Tella lần đầu, bạn sẽ thấy phần giới thiệu hướng dẫn về các chức năng của ứng dụng: Máy ảnh, Máy ghi âm và Tài liệu & Thư mục mã hóa. Đồng thời, bạn sẽ được yêu cầu chọn cách cài đặt mật khẩu cho Tella. Nếu không có mật khẩu này, bạn không thể mở Tella và truy cập bất kỳ tài liệu nào được lưu trữ trong Tella.
+Khi mở Tella lần đầu, bạn sẽ thấy phần giới thiệu hướng dẫn về các chức năng của ứng dụng: Máy ảnh, Máy ghi âm và Tài liệu & Thư mục mã hóa. Đồng thời, bạn sẽ được yêu cầu chọn cách cài đặt mật khẩu cho Tella. Nếu không có mật khẩu này, bạn không thể mở Tella và truy cập bất kỳ tài liệu nào được lưu trữ bên trong Tella.
 - Mật khẩu: mật khẩu bao gồm chữ và số là cách an toàn nhất để khóa Ứng dụng.
 - Mã PIN: một dãy số phải có nhiều hơn sáu (6) chữ số.
 - Mẫu khóa hình: một mẫu khóa hình phải có ít nhất sáu (6) điểm.
 
 Tránh sử dụng tên, ngày sinh của bạn hoặc bất cứ điều gì dễ đoán như  (“Password”, “123456”, or “000000”).
 
-Hãy  lưu ý là nếu quên mật khẩu này, bạn sẽ không thể truy cập ứng dụng hoặc nội dung bên trong.
+Hãy lưu ý rằng nếu quên mật khẩu này, bạn sẽ không thể truy cập ứng dụng hoặc nội dung bên trong ứng dụng.
 
 
 
@@ -40,10 +40,10 @@ Hãy  lưu ý là nếu quên mật khẩu này, bạn sẽ không thể truy c�
 ## Cấp quyền cho Tella {#grant-permissions-to-tella}
 Khi lần đầu sử dụng từng chức năng, bạn sẽ được yêu cầu cấp quyền cho Tella:
 - Để chụp ảnh, quay video hoặc ghi âm, bạn cần cấp quyền truy cập vào máy ảnh và micrô của điện thoại.
-- Để nhập tập tin vào Tella hoặc xuất tập tin từ Tella sang điện thoại, bạn cần cấp quyền truy cập vào hệ thống thư mục trên thiết bị.
+- Để nhập tệp tin vào Tella hoặc xuất tệp tin từ Tella sang điện thoại, bạn cần cấp quyền truy cập vào hệ thống thư mục trên thiết bị.
 - Để sử dụng “chế độ xác minh” hoặc gửi vị trí của bạn, bạn cần cấp quyền truy cập vị trí thiết bị của mình. Bạn có thể thực hiện việc này bằng cách vào phần cài đặt của Tella, sau đó chọn Cài đặt chung > Chế độ xác minh.
 
-Nếu bạn từ chối cấp quyền này cho Tella, bạn có thể cấp quyền cho Tella sau đó bằng cách vào phần cài đặt Android, chọn Cài đặt > Ứng dụng > Tella > Quyền ứng dụng.
+Nếu bạn từ chối cấp quyền này cho Tella, bạn có thể cấp quyền cho Tella lúc khác bằng cách vào phần cài đặt Android, chọn Cài đặt > Ứng dụng > Tella > Quyền ứng dụng.
 
 <div class="gifs">
     <img src={require("@site/static/img/getting-started/android/permissions.gif").default} alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
@@ -55,7 +55,7 @@ Nếu bạn từ chối cấp quyền này cho Tella, bạn có thể cấp quy�
 ## Bảo vệ tập tin của bạn {#protect-your-files}
 Sau khi cấp quyền, bạn đã sẵn sàng bắt đầu thu thập tài liệu. Chúng tôi khuyên bạn nên khám phá các tính năng sau:
 
-**Sử dụng Máy ảnh để chụp ảnh hoặc quay video và Máy ghi âm để thu  âm.** Mọi hình ảnh, video và bản ghi âm được thực hiện qua Tella sẽ được mã hóa ngay lập tức, điều đó có nghĩa là tập tin sẽ không thể truy cập từ bên ngoài Tella . Tất cả dữ liệu thông tin được thu thập bên trong Tella sẽ không hiển thị trên thư viện ảnh hoặc thư mục điện thoại của bạn. Tella không giới hạn dung lượng lưu trữ cụ thể nào, dung lượng khả dụng sẽ phụ thuộc vào không gian còn trống trên thiết bị của bạn.
+**Sử dụng Máy ảnh để chụp ảnh hoặc quay video và Máy ghi âm để thu  âm.** Mọi hình ảnh, video và bản ghi âm được thực hiện qua Tella sẽ được mã hóa ngay lập tức, điều đó có nghĩa là tệp tin sẽ không thể truy cập từ bên ngoài Tella . Tất cả dữ liệu thông tin được thu thập bên trong Tella sẽ không hiển thị trên thư viện ảnh hoặc thư mục điện thoại của bạn. Tella không có giới hạn dung lượng lưu trữ cụ thể nào, dung lượng khả dụng sẽ phụ thuộc vào không gian còn trống trên thiết bị của bạn.
 
 <div class="gifs">
   <img src={require("@site/static/img/getting-started/android/picture.gif").default} alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
@@ -86,8 +86,8 @@ Sau khi cấp quyền, bạn đã sẵn sàng bắt đầu thu thập tài liệ
 
 ## Ngụy trang Tella {#camouflage-tella}
 Có thể ngụy trang Tella để ẩn nó trên thiết bị của bạn theo hai cách:
-- Bạn có thể thay đổi tên và biểu tượng của ứng dụng,  để làm cho nó trông giống một ứng dụng khác (như trò chơi hoặc ứng dụng thời tiết). Có 28 tên và biểu tượng khác nhau để ẩn Tella.
-- Bạn có thể ẩn Tella dưới hình thức một cái máy tính thông thường. Chúng tôi đã phát triển 4 chủ đề khác nhau để phù hợp với mặc định của điện thoại và giúp ẩn Tella. Để mở Tella, người dùng phải nhập mã PIN vào máy tính, sau đó nhấn **=**. Việc ngụy trang Máy tính chỉ có thể thực hiện được nếu người dùng sử dụng mã PIN. Không thể ngụy trang Tella giống như Máy tính nếu sử dụng mẫu hình khóa hoặc mật khẩu.
+- Bạn có thể thay đổi tên và biểu tượng của ứng dụng,  để làm cho nó trông giống một ứng dụng khác (như trò chơi hoặc ứng dụng thời tiết). Có 28 tên và biểu tượng khác nhau để ngụy trang Tella.
+- Bạn có thể ngụy trang Tella dưới hình thức một cái máy tính thông thường. Chúng tôi đã phát triển 4 chủ đề khác nhau để phù hợp với mặc định của điện thoại và giúp ẩn Tella. Để mở Tella, người dùng phải nhập mã PIN vào máy tính, sau đó nhấn **=**. Việc ngụy trang Máy tính chỉ có thể thực hiện được nếu người dùng sử dụng mã PIN. Không thể ngụy trang Tella giống như Máy tính nếu sử dụng mẫu hình khóa hoặc mật khẩu.
 Đọc thêm về Ngụy trang [tại đây](/features#camouflage).
 
 <div class="gifs">
@@ -98,9 +98,9 @@ Có thể ngụy trang Tella để ẩn nó trên thiết bị của bạn theo 
 
 
 ## Chia sẻ thông tin của bạn. {#share-your-information}
-Để chia sẻ thông tin bằng Tella, bạn có thể sử dụng nút **Chia sẻ**. Chỉ cần chọn tệp hoặc các tài liệu bạn muốn chia sẻ, bấm **Chia sẻ** và chọn ứng dụng bạn muốn chia sẻ các tệp đó. 
+Để chia sẻ thông tin bằng Tella, bạn có thể sử dụng nút **Chia sẻ**. Chỉ cần chọn tệp tin hoặc các tài liệu bạn muốn chia sẻ, bấm **Chia sẻ** và chọn ứng dụng bạn muốn chia sẻ các tệp đó. 
 
-Hãy lưu ý rằng Tella sẽ chia sẻ các tệp không được mã hóa, vì vậy hãy chắc chắn sử dụng tin nhắn tự xóa (ví dụ như WhatsApp hoặc Signal) hoặc xóa tin nhắn sau khi người kia nhận được chúng.
+Hãy lưu ý rằng Tella sẽ chia sẻ các tệp tin không được mã hóa, vì vậy hãy chắc chắn sử dụng tin nhắn tự xóa (ví dụ như WhatsApp hoặc Signal) hoặc xóa tin nhắn sau khi người kia nhận được chúng.
 
 <div class="gifs">
     <img src={require("@site/static/img/getting-started/android/share.gif").default} alt="gif that shows how to share information" title="share information with third party apps" />

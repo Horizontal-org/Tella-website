@@ -7,13 +7,13 @@ slug: /uwazi
 
 # Uwazi
 
-[Uwazi](https://uwazi.io/) là một công cụ tài liệu mã nguồn mở được phát triển bởi [HURIDOCS](https://huridocs.org). Đây là một ứng dụng cơ sở dữ liệu trên nền tảng web được thiết kế linh hoạt dành cho nhà bảo vệ nhân quyền trong việc quản lý bộ sưu tập thông tin của mình, bao gồm tài liệu, bằng chứng, các vụ án và những khiếu nại. 
+[Uwazi](https://uwazi.io/) là một công cụ tài liệu mã nguồn mở được phát triển bởi [HURIDOCS](https://huridocs.org). Đây là một ứng dụng cơ sở dữ liệu trên nền tảng web được thiết kế linh hoạt dành cho nhà bảo vệ nhân quyền trong việc quản lý bộ sưu tập thông tin, bao gồm tài liệu, bằng chứng, các vụ án và những khiếu nại. 
 
 Uwazi cho phép các tổ chức tập hợp dữ liệu do các thành viên hoặc đối tác của họ thu thập vào một kho lưu trữ trung tâm. Người dùng Tella kết nối với phiên bản Uwazi của tổ chức mình, tải xuống các biểu mẫu (gọi là Mẫu), điền các mẫu này nhiều lần khi cần (ngay cả khi không có kết nối internet) và tải dữ liệu lên. Các tổ chức sau đó có thể chọn lọc, tổ chức và công bố dữ liệu của họ trực tiếp từ Uwazi.
 
-Tương tự như các kết nối khác([Tella Web](/tella-web) và [Bộ Công cụ Dữ liệu mở](/odk), kết nối với Uwazi nâng cao bảo mật cho dữ liệu thu thập trên Tella bằng cách:
-1. Cho phép người dùng thu thập dữ liệu trực tiếp ngay bên trong không gian được mã hóa của Tella
-2. Đảm bảo dữ liệu được gửi trực tiếp từ Tella đến Uwazi mà không cần phải dựa vào công cụ hoặc ứng dụng của bên thứ ba
+Tương tự như các kết nối khác ([Tella Web](/tella-web) và [Bộ Công cụ Dữ liệu mở](/odk), kết nối với Uwazi nâng cao bảo mật cho dữ liệu thu thập trên Tella bằng cách:
+1. Cho phép người dùng thu thập dữ liệu trực tiếp ngay bên trong không gian được mã hóa của Tella.
+2. Đảm bảo dữ liệu được gửi trực tiếp từ Tella đến Uwazi mà không cần phải dựa vào công cụ hoặc ứng dụng của bên thứ ba.
 3. Cho phép người dùng sao lưu dữ liệu của họ trên máy chủ từ xa, giảm thiểu rủi ro dữ liệu bị phát hiện trên thiết bị di động của họ.
 4. Đảm bảo rằng các tổ chức có thể lưu giữ thông tin quan trọng ngay cả trong trường hợp thiết bị bị tịch thu hoặc phá hủy, và có thể tổ chức thông tin này để sử dụng cho nghiên cứu, vận động hoặc các quy trình chịu trách nhiệm.
 
@@ -23,7 +23,7 @@ Bạn có thể thử nghiệm Uwazi bằng cách sử dụng [phiên bản Demo
 
 ### Khi nào nên sử dụng Uwazi {#when-to-use-uwazi}
 
-Chúng tôi khuyến nghị sử dụng Uwazi cho các tổ chức cần người dùng tại chỗ thu thập dữ liệu một cách có cấu trúc thông qua các biểu mẫu.
+Chúng tôi khuyến nghị sử dụng Uwazi cho các tổ chức cần người dùng tại hiện trường thu thập dữ liệu một cách có cấu trúc thông qua các biểu mẫu.
 
 Uwazi cũng cho phép các quản lý dự án dễ dàng tổ chức, phân tích, trực quan hóa và công bố dữ liệu đã thu thập. Sức mạnh đặc biệt của Uwazi nằm ở khả năng tạo mối quan hệ giữa các thực thể trong cơ sở dữ liệu, giúp kết nối các điểm dữ liệu (như sự cố, thủ phạm và nạn nhân) để phát hiện các mẫu hình. Uwazi cũng rất tốt trong việc thu thập dữ liệu bằng nhiều ngôn ngữ khác nhau và tạo điều kiện cho sự hợp tác giữa các nhóm.
 

@@ -1,6 +1,6 @@
 ---
 id: privacy-policy
-title: Privacy Policy
+title: Politique de confidentialité
 description: Politique de confidentialité de Tella
 slug: /privacy
 ---

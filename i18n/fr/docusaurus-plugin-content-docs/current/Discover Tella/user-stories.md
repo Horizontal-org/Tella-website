@@ -1,6 +1,6 @@
 ---
 id: user-stories
-title: User Stories
+title: Témoignages d'utilisateurs
 description: Expérience des utilisateurs de Tella et des déploiements
 slug: /user-stories
 ---
@@ -40,7 +40,7 @@ En février 2019, avec le soutien d’Horizontal, CLEEN a déployé Tella pour o
 
 CLEEN a créé des formulaires pour poser aux observateurs les questions spécifiques qui les intéressaient – combien d'agents de sécurité étaient présents au bureau de vote, à quelle heure ils sont arrivés, etc. – et pour signaler les incidents. Les rapports d'incidents permettaient aux observateurs de rédiger une description de l'incident et de joindre des photos, des vidéos et des preuves audio.
 
-Tout au long du processus électoral, CLEEN a reçu un total de 7800 rapports : 6300 de la part d'observateurs et observatrices accrédités et 1500 provenant d'observateurs et observatrices citoyens. Ces rapports sont arrivés en temps réel ou quasi réel, permettant au CLEEN de publier plusieurs rapports les jours d'élection: un à midi et un après la fermeture de tous les bureaux de vote. Vous pouvez [voir ici](https://cleen.org/2019/02/24/cleen-foundations-post-election-statement-on-the-2019-presidential-and-national-assembly-elections/) l'un des ces rapports, publiés au lendemain des élections,[ et un autre](https://cleen.org/2019/10/23/public-presentation-of-the-report-of-2019-general-elections-in-nigeria/) publication présentant les principales conclusions et recommandations adressées au gouvernement nigérian pour améliorer la sécurité lors des prochaines élections, réduire la violence et prévenir la fraude.
+Tout au long du processus électoral, CLEEN a reçu un total de 7800 rapports : 6300 de la part d'observateurs et observatrices accrédités et 1500 provenant d'observateurs et observatrices citoyens. Ces rapports sont arrivés en temps réel ou quasi réel, permettant au CLEEN de publier plusieurs rapports les jours d'élection: un à midi et un après la fermeture de tous les bureaux de vote. Vous pouvez [voir ici](https://cleen.org/2019/02/24/cleen-foundations-post-election-statement-on-the-2019-presidential-and-national-assembly-elections/) l'un des ces rapports, publiés au lendemain des élections, [et un autre](https://cleen.org/2019/10/23/public-presentation-of-the-report-of-2019-general-elections-in-nigeria/) publication présentant les principales conclusions et recommandations adressées au gouvernement nigérian pour améliorer la sécurité lors des prochaines élections, réduire la violence et prévenir la fraude.
 
 Suite au succès de ce premier déploiement, CLEEN a déployé Tella pour enquêter sur la traite des êtres humains au Nigeria, mieux comprendre ses causes et identifier les éventuelles solutions.
 
@@ -52,9 +52,9 @@ Not1More (N1M) a utilisé Tella pour documenter les violations des droits enviro
 :::
 
 
-[Not1More (N1M)] (https://not1more.org/) est un groupe militant pour l'environnement qui soutient les défenseurs et les défenseuses de l'environnement en première ligne et qui enquête sur les causes profondes des conflits environnementaux. N1M soutient ceux et celles qui sont aux avant-postes de la protection de l'environnement, enquête sur les conflits et les crimes environnementaux et travaille en étroite collaboration avec les défenseurs et les communautés en danger au Cambodge, en Afrique de l'Ouest et au Brésil.
+[Not1More (N1M)](https://not1more.org/) est un groupe militant pour l'environnement qui soutient les défenseurs et les défenseuses de l'environnement en première ligne et qui enquête sur les causes profondes des conflits environnementaux. N1M soutient ceux et celles qui sont aux avant-postes de la protection de l'environnement, enquête sur les conflits et les crimes environnementaux et travaille en étroite collaboration avec les défenseurs et les communautés en danger au Cambodge, en Afrique de l'Ouest et au Brésil.
 
-N1M a mis en œuvre Tella dans le nord-est du Brésil, où les communautés autochtones se heurtent à des attaques contre leurs cultures, leurs territoires et leur mode de vie._ _ Les défenseurs et défenseuses de l'environnement de première ligne dans cette région sont menacés, attaqués, emprisonnés ou font l'objet de campagnes de diffamation en raison de leur travail. Rien qu'en 2019, 24 défenseurs et défenseuses de la terre ont été tués au Brésil. 90 % de ces meurtres ont eu lieu en Amazonie.
+N1M a mis en œuvre Tella dans le nord-est du Brésil, où les communautés autochtones se heurtent à des attaques contre leurs cultures, leurs territoires et leur mode de vie. Les défenseurs et défenseuses de l'environnement de première ligne dans cette région sont menacés, attaqués, emprisonnés ou font l'objet de campagnes de diffamation en raison de leur travail. Rien qu'en 2019, 24 défenseurs et défenseuses de la terre ont été tués au Brésil. 90 % de ces meurtres ont eu lieu en Amazonie.
 
 N1M utilise Tella pour documenter ces attaques et violations contre les militants des droits environnementaux et fonciers. Mary Menton, chercheuse en justice environnementale à l'Université du Sussex et membre du N1M, a expliqué que _“Dans des endroits comme le Brésil, le gouvernement espionne de plus en plus les organisations non gouvernementales et les personnes qu'il considère comme une menace. Il est vraiment important que les militants et militantes soient aussi sécurisés que possible dans leurs données. Nous devons toujours nous assurer que nous ne faisons pas courir de risques plus élevés aux personnes qui collectent des informations et des preuves”._
 
@@ -70,14 +70,14 @@ Avec les données collectées, des étudiants et étudiantes et des chercheurs e
 :::note Résumé
 Lors des élections présidentielles de 2020 en Biélorussie, les organisations de la société civile ont déployé Tella pour surveiller les élections et recueillir des preuves que les lois et procédures électorales ont été enfreintes et que les droits de l'homme ont été bafoués. Horizontal a développé une version personnalisée de Tella avec une interface utilisateur simplifiée et une connexion par défaut aux serveurs des organisations de surveillance. L'application a été traduite en biélorusse et en russe. Plus de 250 utilisateurs et utilisatrices ont soumis un total de 1091 rapports, et ce en dépit des graves perturbations de l'internet et de la fermeture complète de l'internet mobile avant, pendant et après l'élection.
 
-👥_ 250 utilisateurs et utilisatrices_
+👥 250 utilisateurs et utilisatrices
 
 
-📲_ +1000 rapports (photos, vidéos et données de formulaire)_
+📲 +1000 rapports (photos, vidéos et données de formulaire)
 
 
-🗄️_Connexion : ODK (Kobotoolbox)_
-:::note
+🗄️ Connexion : ODK (Kobotoolbox)
+:::
 
 Au Belarus, le régime autocratique d'Alexandre Loukachenko bâillonne depuis longtemps les droits fondamentaux et réprime l'opposition politique. Les élections ne sont ni libres ni équitables. Pour la première fois depuis des décennies, cependant, les élections présidentielles de 2020 ont offert une possibilité de changement, avec des candidats et des candidates d'opposition crédibles et une société civile revigorée par l'incompétence du gouvernement face à la pandémie de Covid-19. 
 
@@ -89,6 +89,6 @@ Lors du vote anticipé et le jour du scrutin, les observateurs et observatrices 
 
 Malgré les perturbations du réseau Internet, 250 observateurs et observatrices ont utilisé Tella pour soumettre un total de 1091 rapports. 
 
-Au lendemain des élections, les résultats officiels [ont affirmé] (https://eng.belta.by/politics/view/belarus-presidential-election-results-finalized-132578-2020/) que Loukachenko avait été réélu pour un sixième mandat avec 80 % des voix. Des organisations locales et internationales ont mis en doute l'intégrité de cette élection. Les données recueillies par des observateurs et observatrices indépendants, y inclus celles collectées avec Tella, ont révélé des violations généralisées des lois et procédures électorales, ainsi que d'importantes violations des droits de l'homme. 
+Au lendemain des élections, les résultats officiels [ont affirmé](https://eng.belta.by/politics/view/belarus-presidential-election-results-finalized-132578-2020/) que Loukachenko avait été réélu pour un sixième mandat avec 80 % des voix. Des organisations locales et internationales ont mis en doute l'intégrité de cette élection. Les données recueillies par des observateurs et observatrices indépendants, y inclus celles collectées avec Tella, ont révélé des violations généralisées des lois et procédures électorales, ainsi que d'importantes violations des droits de l'homme. 
 
 Dans son rapport post-électoral, l'Organisation pour la sécurité et la coopération en Europe (OSCE) dans son récent rapport[ a écrit](https://www.osce.org/files/f/documents/2/b/469539.pdf) que les violations des droits de l'homme _“se sont avérées massives et systématiques et ont été prouvées sans aucun doute”._ Parmi d'innombrables violations, les observateurs et observatrices ont documenté l'intimidation et la persécution des militants, la détention de candidats potentiels, la fraude électorale, la restriction de l'accès à l'information, les passages à tabac, et les violences sexuelles. Les observateurs eux-mêmes ont été menacés, arrêtés et exclus des bureaux de vote. Selon l'OSCE, _“le vote n'a pas été transparent, libre ou équitable”_. Le serveur a été fermé quelques mois après les élections, une fois toutes les données téléchargées et traitées par l'organisation.

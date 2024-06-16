@@ -14,17 +14,17 @@ import TellaLanguages from './_tella-languages.md';
 
 ### Tella là gì? {#what-is-tella}
 
-Trong những môi trường khó khăn như không có internet, kết nối bị hạn chế, hoặc đang đối diện với sự đàn áp, Tella là ứng dụng giúp việc thu thập dữ liệu và ghi lại các vi phạm nhân quyền trở nên dễ dàng và an toàn hơn.
+Trong hoàn cảnh khó khăn như thiếu kết nối internet hoặc bị đàn áp, Tella giúp ghi lại vi phạm nhân quyền và thu thập dữ liệu dễ dàng và an toàn hơn.
 
 Để biết thêm thông tin về cách sử dụng Tella, hãy truy cập hướng dẫn [Bắt đầu](/get-started).
 
 ### Ai là người phát triển Tella? {#who-makes-tella}
 
-Tella được phát triển và duy trì bởi [Horizontal](https://wearehorizontal.org),một ở chức phi lợi nhuận về nhân quyền. Bên cạnh việc phát triển Tella, Horizontal còn phát triển các công cụ khác về bảo mật và quyền riêng tư, và đào tạo các nhà hoạt động, nhà báo và người bảo vệ nhân quyền về an toàn kỹ thuật số.
+Tella được phát triển và duy trì bởi [Horizontal](https://wearehorizontal.org), một tổ chức phi lợi nhuận về nhân quyền. Bên cạnh việc phát triển Tella, Horizontal còn phát triển các công cụ khác về bảo mật và quyền riêng tư, và đào tạo các nhà hoạt động, nhà báo và người bảo vệ nhân quyền về an toàn kỹ thuật số.
 
 ### Tella có sẵn trên Android không? {#is-tella-available-on-android}
 
-Có, Tella có sẵn cho hệ điều hành Android và có thể tải trực tiếp  [từ Google Play Store ](https://play.google.com/store/apps/details?id=org.hzontal.tella&gl=US), từ [kênh Telegram] của chúng tôi ( https://t.me/tellaapp) hoặc [từ thư mục này](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ) dưới dạng tệp APK để cài đặt thủ công. Nếu bạn cần giúp đỡ khi cài đặt ứng dụng thủ công, bạn có thể [xem hướng dẫn này](https://www.androidauthority.com/how-to-install-apks-31494/) hoặc [liên hệ với chúng tôi](contact-us).
+Có, Tella có sẵn cho hệ điều hành Android và có thể tải trực tiếp [từ Google Play Store ](https://play.google.com/store/apps/details?id=org.hzontal.tella&gl=US), từ [kênh Telegram] của chúng tôi ( https://t.me/tellaapp) hoặc [từ thư mục này](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ) dưới dạng tệp APK để cài đặt thủ công. Nếu bạn cần giúp đỡ khi cài đặt ứng dụng thủ công, bạn có thể [xem hướng dẫn này ](https://www.androidauthority.com/how-to-install-apks-31494/) hoặc [liên hệ với chúng tôi](contact-us).
 
 :::tip
 Tìm hiểu thêm về [Cách tìm kiếm và tải Tella từ Play Store](/video-tutorials#find-and-download-tella-from-the-play-store) và [Cách cài đặt Tella thủ công](/video-tutorials#manual-installation-of-tella) trong video hướng dẫn của chúng tôi.
@@ -71,7 +71,7 @@ Tella tương thích với các thiết bị có hệ điều hành Android 5.0 
 
 ### Tella có miễn phí không? {#is-tella-free}
 
-Có, Tella được tải xuống và sử dụng miễn phí. Và điều này là mãi mãi.
+Có, Tella được tải xuống và sử dụng miễn phí. Điều này là mãi mãi.
 
 Tella cũng là [Mã nguồn Mở.](/open-source)
 
@@ -86,7 +86,7 @@ Hiện tại, Tella có sẵn trong:
 
 ### Tella có hoạt động trên máy tính bảng không? {#does-tella-work-on-tablets}
 
-Tella hoạt động trên các máy tính bảng Android nhưng hiện tại nó chưa có sẵn trên iPad.  Vui lòng [liên hệ với chúng tôi](contact-us)  nếu bạn thấy việc sử dụng trên iPad là quan trọng để chúng tôi có thể ưu tiên xử lý.
+Tella hoạt động trên các máy tính bảng Android nhưng hiện tại nó chưa có sẵn trên iPad.  Vui lòng [liên hệ với chúng tôi](contact-us) nếu bạn thấy việc sử dụng trên iPad là quan trọng để chúng tôi có thể ưu tiên phát triển.
 
 ### Tôi có thể gửi những đề xuất cải thiện Tella ở đâu? {#where-can-i-send-my-suggestions-to-improve-tella}
 
@@ -127,7 +127,7 @@ Không có ứng dụng nào được coi là "an toàn 100%".  Bảo mật ph�
 
 ### Tella đã được đánh giá bảo mật chưa? {#has-tella-undergone-security-audits}
 
-Rồi!  Bạn có thể xem tất cả các cuộc đánh giá bảo mật của chúng tôi [tại đây](/security-and-privacy#security-audits) .
+Rồi! Bạn có thể xem tất cả các cuộc đánh giá bảo mật của chúng tôi [tại đây](/security-and-privacy#security-audits) .
 
 ## Triển khai Tella {#deploying-tella}
 
@@ -145,7 +145,7 @@ Vui lòng truy cập mục [Dành cho Các Tổ Chức](/for-organizations) đ�
 
 ### Bạn có thể giúp tôi triển khai Tella không? {#can-you-help-me-deploy-tella}
 
-Có, chúng tôi rất sẵn sàng!  Hãy cho chúng tôi biết bạn muốn sử dụng Tella vào mục đích gì và sử dụng nó trong bối cảnh nào [liên hệ với chúng tôi](/contact-us) và chúng tôi sẽ liên hệ lại với bạn.
+Có, chúng tôi rất sẵn sàng! Hãy cho chúng tôi biết bạn muốn sử dụng Tella vào mục đích gì và sử dụng nó trong bối cảnh nào [liên hệ với chúng tôi](/contact-us) và chúng tôi sẽ liên hệ lại với bạn.
 
 ### Tella khác biệt với những ứng dụng tài liệu khác như thế nào? {#how-is-tella-different-from-other-documentation-apps}
 
@@ -169,7 +169,6 @@ Chúng tôi đã tạo bảng so sánh này để giúp bạn hiểu sự khác 
 Một số nghiên cứu và nhận xét về Tella--và quá trình lưu giữ tài liệu nhân quyền nói chung--có thể tìm thấy tại đây:
 
 -   [Tôi có nên sử dụng ứng dụng tài liệu này không?](https://blog.witness.org/2020/02/use-documentation-app/) by WITNESS.
--   Hiệp hội Chính sách và Công pháp Quốc tế (PILPG), hợp tác với The Engine Room và HURIDOCS, đã xuất bản một [báo cáo đánh giá nhu cầu rộng lớn cho những người ghi chép về nhân quyền, những nhà hoạt động công lý chuyển tiếp và các nhà phát triển công cụ.]
-(https://www.publicinternationallawandpolicygroup.org/hrds-phase-i-report-launch) [trang web con này](https://documentation-tools.theengineroom.org/) do The Engine Room trình bày một số kết quả của báo cáo.
+-   Hiệp hội Chính sách và Công pháp Quốc tế (PILPG), hợp tác với The Engine Room và HURIDOCS, đã xuất bản một [báo cáo đánh giá nhu cầu rộng lớn cho những người ghi chép về nhân quyền, những nhà hoạt động công lý chuyển tiếp và các nhà phát triển công cụ.](https://www.publicinternationallawandpolicygroup.org/hrds-phase-i-report-launch) [trang web con này](https://documentation-tools.theengineroom.org/) do The Engine Room trình bày một số kết quả của báo cáo.
 -   Engine Room đã đánh giá một số công cụ công nghệ dành cho người ghi chép về nhân quyền [tại đây.](https://docs.google.com/spreadsheets/d/1DbUDYRqJwi1Yz0PGTWqj6Y9SVBiMP9ak2l7j85hRYVw/edit#gid=0)
 
