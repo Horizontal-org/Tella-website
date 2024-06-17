@@ -22,8 +22,8 @@ import ThemedImage from '@theme/ThemedImage';
             alt="Screenshot of the Tella app on Android. Showing Connections to Tella Web Uwazi and the folder structure showing that within Tella users can record and save Images, Videos and Audios securely and encripted."
             className="screen"
             sources={{
-                light: 'img/home-black.png',
-                dark: 'img/home-white.png',
+                light: 'img/home-black.svg',
+                dark: 'img/home-white.svg',
               }}/>
     </div>
 </div>

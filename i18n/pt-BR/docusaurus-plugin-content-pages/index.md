@@ -22,8 +22,8 @@ import ThemedImage from '@theme/ThemedImage';
             alt="Captura de tela do aplicativo Tella no Android. Mostra as conexões com o Tella Web Uwazi e a estrutura de pastas que mostra que, dentro do Tella, os usuários podem gravar e salvar imagens, vídeos e áudios de forma segura e criptografada."
             className="screen"
             sources={{
-                light: 'img/home-black.png',
-                dark: 'img/home-white.png',
+                light: 'img/home-black.svg',
+                dark: 'img/home-white.svg',
               }}/>
     </div>
 </div>
