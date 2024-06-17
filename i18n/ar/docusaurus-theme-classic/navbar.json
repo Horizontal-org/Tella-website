@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "Tella",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "شعار Tella",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Get Started": {
+    "message": "بدء الاستخدام",
+    "description": "Navbar item with label Get Started"
+  },
+  "item.label.FAQ": {
+    "message": "الأسئلة الشائعة",
+    "description": "Navbar item with label FAQ"
+  },
+  "item.label.Docs": {
+    "message": "المستندات",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.Blog": {
+    "message": "المدونة",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Contact Us": {
+    "message": "اتصل بنا",
+    "description": "Navbar item with label Contact Us"
+  }
+}

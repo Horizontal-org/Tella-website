@@ -1,0 +1,22 @@
+{
+  "version.label": {
+    "message": "Tiếp theo",
+    "description": "The label for version current"
+  },
+  "sidebar.generalSidebar.category.Discover Tella": {
+    "message": "Khám phá Tella",
+    "description": "The label for category Discover Tella in sidebar generalSidebar"
+  },
+  "sidebar.generalSidebar.category.Get Started": {
+    "message": "Bắt Đầu",
+    "description": "The label for category Get Started in sidebar generalSidebar"
+  },
+  "sidebar.generalSidebar.category.For organizations": {
+    "message": "Cho các tổ chức",
+    "description": "The label for category For organizations in sidebar generalSidebar"
+  },
+  "sidebar.generalSidebar.category.Community": {
+    "message": "Cộng đồng",
+    "description": "The label for category Community in sidebar generalSidebar"
+  }
+}
