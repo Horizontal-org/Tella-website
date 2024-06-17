@@ -15,10 +15,12 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 2.8.0 (X) - Released on May X, 2024 {#android-tella-280-c---released-on-may-X-2024}
+### Android: Tella 2.8.0 (178) - Released on June 17, 2024 {#android-tella-280-178---released-on-jun-17-2024}
 - Implemented [background encryption](/features#background-encryption) so users can continue collecting data while the encryption process takes place. 
   - Added a background activity tray so users can check the progress of file's encryption.
-  - Moved the settings button to the bottom navigation (top right) to make space for the new notifications button, which opens the background activity tray (top left)
+- In preparation to the next release (where we upgrade the library that Tella uses to save information encrypted in the database) we added a message warning the user to backup sensitive files outside Tella, in case the migration fails and the file becomes non-accesible. Here are some alternatives to do so:
+  - In order to export files outside Tella and save those (unencrypted) in your phone: Go to **All files** (or any folder where you have your files you want to backup) > Check the top square to go to select mode > Check the files you want to export or check that same square again to **select all** > **3-dots** > **Save to device** and select the destination folder. [Here](/features#file-management)  there is more info about saving to device.
+  - In order to share files with another app:  Go to **All files** (or any folder where you have your files you want to backup) > Check the top square to go to select mode > Check the files you want to export or check that same square again to **select all** > **3-dots** > **Share** and select the app you want to use. We recommend using Encrypted Email, Signal or any other tool that's safe for you. [Here](/android##share-your-information) there is more info about sharing your information.
 - Technical maintenance tasks and bug-fixing:
   - Removed nav bar from the top when scrolling over a PDF.
   - Upgraded http protocol (okhttp3 library)
@@ -28,7 +30,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 - Technical maintenance tasks and bug-fixing:
   - Keep Tella on foreground (do not let it go to sleep) while encryption is in progress.
   - Back button right after connecting to Reports now redirects the user to the Settings screen.
-  - Allow users to select  today's date on the Date field in the Uwazi connection.
+  - Allow users to select today's date on the Date field in the Uwazi connection.
 
 ### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
 
