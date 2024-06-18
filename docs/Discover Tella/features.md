@@ -43,7 +43,7 @@ If the user hard exit Tella (for example by using [Quick Exit](#quick-exit) or m
 :::
 
 :::info
-Background encryption is only available on Tella iOS for now.
+If [verification mode](/features#verification-mode) is turned on, then background encryption will be disabled, to make sure all file metadata is captured at the same time as the photo, video, or audio file is saved.  
 :::
 
 
