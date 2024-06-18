@@ -43,7 +43,7 @@ If the user hard exit Tella (for example by using [Quick Exit](#quick-exit) or m
 :::
 
 :::info
-If [verification mode](/features#verification-mode) is turned on, then the background encryption feature will be disabled, to make sure all the file metada is captured on the spot. 
+If [verification mode](/features#verification-mode) is turned on, then background encryption will be disabled, to make sure all file metadata is captured at the same time as the photo, video, or audio file is saved.  
 :::
 
 
