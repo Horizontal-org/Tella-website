@@ -15,8 +15,33 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 2.7.1 (175) - Released on May 2, 2024 {#android-tella-271-175---released-on-may-2-2024}
-- Fixed crash when accessing the Audio folder from the Microphone.
+### Android: Tella 2.8.0 (178) - Released on June 21, 2024 {#android-tella-280-178---released-on-jun-17-2024}
+- Implemented [background encryption](/features#background-encryption) so users can continue collecting data, taking photos, videos, and audio, and importing files while the encryption process takes place. 
+- Added a background activity tray so users can check the progress of file encryption.
+- Ahead of major changes in the next release, we added a warning to advise users to back-up sensitive files outside Tella, in case the migration fails and some of the files become non-accessible. See below for more information on the upcoming changes and guidance on how to back-up files.
+- The top bar now automatically hides when scrolling a PDF for easier reading.
+- Upgraded http protocol (okhttp3 library).
+ 
+#### Upcoming changes and guidance to back-up files 
+The next release of Tella Android will include an update to the library used to save encrypted information encrypted in the database (SQLcipher). While we are doing our best to ensure the update to the new version happens smoothly, there is a small risk that some files are lost in the process. For users who are storing sensitive files in Tella, we strongly suggest to back-up these files to a location outside of Tella. This way, if something happens when updating Tella, those files will not be lost. 
+
+To export files outside of Tella and save them on your phone:
+1. Go to **All files** (or any folder where there  are files you want to backup)
+2. Tap on ☑️ in the top right of the screen to enable "select mode"
+3. Tap on ☐ in the top right to select all files, or tap ☐ next to each specific file you wish to export 
+4. Tap on **⫶** in the top right to open the context menu
+5. Tap on **Save to device**
+6. Select the destination folder to save your files. You can read more about sharing data from Tella through other apps [here](/get-started-android#share-your-information).
+
+If you prefer sharing your files through another app:
+1. Go to **All files** (or any folder where there  are files you want to backup)
+2. Tap on ☑️ in the top right of the screen to enable "select mode"
+3. Tap on ☐ in the top right to select all files, or tap ☐ next to each specific file you wish to export 
+4. Tap on **⫶** in the top right to open the context menu
+5. Tap on **Share**
+6. Select the app you want to use to share your files. We recommend using an encrypted email, Signal or any other tool with robust privacy. You can read more about sharing data from Tella through other apps [here](/get-started-android#share-your-information).
+
+If you have questions or need additional support, don't hesitate to reach out at contact@tella-app.org
 
 
 ### iOS: Tella 1.8.0 (70) - Released on June 3, 2024 {#ios-tella-180-70---released-on-june-3-2024}
@@ -35,6 +60,10 @@ A version of Tella included for the first time on the F-droid store. This a 100%
 
 
 ## Previous versions {#previous-versions}
+
+### Android: Tella 2.7.1 (175) - Released on May 2, 2024 {#android-tella-271-175---released-on-may-2-2024}
+- Fixed crash when accessing the Audio folder from the Microphone.
+
 
 ### iOS: Tella 1.7.0 (67) - Released on May 2, 2024 {#ios-tella-170-67---released-on-may-2-2024}
 - Added support for a content distribution feature that allow organizations to securely disseminate resources and materials from a Tella Web space to their on-the-ground users directly within Tella’s encrypted container. This includes creating PDFs on Tella Web and sharing training material, guides for data collection, or documents. Resources can be accessed offline after download. More information [here](/tella-web#managing-resources).
