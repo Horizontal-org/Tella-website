@@ -31,7 +31,7 @@ To export files outside of Tella and save them on your phone:
 3. Tap on ☐ in the top right to select all files, or tap ☐ next to each specific file you wish to export 
 4. Tap on **⫶** in the top right to open the context menu
 5. Tap on **Save to device**
-6. Select the destination folder to save your files. You can read more about sharing data from Tella through other apps [here](/android##share-your-information).
+6. Select the destination folder to save your files. You can read more about sharing data from Tella through other apps [here](/get-started-android#share-your-information).
 
 If you prefer sharing your files through another app:
 1. Go to **All files** (or any folder where there  are files you want to backup)
@@ -39,7 +39,7 @@ If you prefer sharing your files through another app:
 3. Tap on ☐ in the top right to select all files, or tap ☐ next to each specific file you wish to export 
 4. Tap on **⫶** in the top right to open the context menu
 5. Tap on **Share**
-6. Select the app you want to use to share your files. We recommend using an encrypted email, Signal or any other tool with robust privacy. You can read more about sharing data from Tella through other apps [here](/android##share-your-information).
+6. Select the app you want to use to share your files. We recommend using an encrypted email, Signal or any other tool with robust privacy. You can read more about sharing data from Tella through other apps [here](/get-started-android#share-your-information).
 
 If you have questions or need additional support, don't hesitate to reach out at contact@tella-app.org
 

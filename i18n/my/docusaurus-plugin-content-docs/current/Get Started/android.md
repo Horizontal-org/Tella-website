@@ -68,7 +68,7 @@ Tella ကို သင်ပထမဆုံးဖွင့်လိုက်သ�
 **သင့်ဖိုင်များကို Tella သို့ ပေးပို့ပါ။** Tella အတွင်းရှိ ဖိုင်တွဲများမှတစ်ခုသို့ သွား၍ **+** ခလုတ် > **စက်ပစ္စည်းမှ ပေးပို့မည်** ကို နှိပ်ပါ။ Tella တွင် သင်သိမ်းဆည်းလိုသော ဖိုင်ကို ရွေးချယ်ပြီးနောက် ဖိုင်၏မိတ္တူကို Tella တွင် ကုဒ်ဝှက်ပြီး ဝှက်၍သိမ်းထားပါမည်။ မူရင်းဖိုင်ကို သင့်စက်မှ ဖျက်ရန် သို့မဟုတ် သိမ်းထားရန် ရွေးချယ်ခိုင်းပါမည်။ သင့်ဖိုင်များကို ရွေးချယ်နေစဉ် အများဆုံး (၃) မိနစ်အထိ Tella ကို သော့ဖွင့်ထားပါမည်။
 
 <div class="gifs">
-    <img src={require("@site/static/img/static/getting-started/android/import.gif").default} alt="gif that shows how to import files in Tella" title="import files in Tella" />
+    <img src={require("@site/static/img/getting-started/android/import.gif").default} alt="gif that shows how to import files in Tella" title="import files in Tella" />
 </div>
 
 
