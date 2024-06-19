@@ -43,12 +43,15 @@ If you prefer sharing your files through another app:
 
 If you have questions or need additional support, don't hesitate to reach out at contact@tella-app.org
 
-### iOS: Tella 1.7.0 (67) - Released on May 2, 2024 {#ios-tella-170-67---released-on-may-2-2024}
-- Added support for a content distribution feature that allow organizations to securely disseminate resources and materials from a Tella Web space to their on-the-ground users directly within Tella’s encrypted container. This includes creating PDFs on Tella Web and sharing training material, guides for data collection, or documents. Resources can be accessed offline after download. More information [here](/tella-web#managing-resources).
-- Technical maintenance tasks and bug-fixing:
-  - Keep Tella on foreground (do not let it go to sleep) while encryption is in progress.
-  - Back button right after connecting to Reports now redirects the user to the Settings screen.
-  - Allow users to select today's date on the Date field in the Uwazi connection.
+
+### iOS: Tella 1.8.0 (70) - Released on June 3, 2024 {#ios-tella-180-70---released-on-june-3-2024}
+-  Edit media: Users can crop and rotate images within Tella's encrypted container. [Read more](/features#edit-media).
+- Bug fixes:
+  - Placeholder with current name missing from rename file while recording.
+  - Rename folder shows the label "Rename" instead of "Rename File".
+  - Show attempts selected on the "Delete after failed unlock" and a handle longer languages.
+  - Solved UI issue in the label when creating PIN when installing Tella (only in iOS 14).
+
 
 ### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
 
@@ -60,6 +63,15 @@ A version of Tella included for the first time on the F-droid store. This a 100%
 
 ### Android: Tella 2.7.1 (175) - Released on May 2, 2024 {#android-tella-271-175---released-on-may-2-2024}
 - Fixed crash when accessing the Audio folder from the Microphone.
+
+
+### iOS: Tella 1.7.0 (67) - Released on May 2, 2024 {#ios-tella-170-67---released-on-may-2-2024}
+- Added support for a content distribution feature that allow organizations to securely disseminate resources and materials from a Tella Web space to their on-the-ground users directly within Tella’s encrypted container. This includes creating PDFs on Tella Web and sharing training material, guides for data collection, or documents. Resources can be accessed offline after download. More information [here](/tella-web#managing-resources).
+- Technical maintenance tasks and bug-fixing:
+  - Keep Tella on foreground (do not let it go to sleep) while encryption is in progress.
+  - Back button right after connecting to Reports now redirects the user to the Settings screen.
+  - Allow users to select  today's date on the Date field in the Uwazi connection.
+
 
 ### Android: Tella 2.7.0 (174) - Released on April 16, 2024 {#android-tella-270-174---released-on-march-16-2024}
 - Added support for a content distribution feature that allow organizations to securely disseminate resources and materials from a Tella Web space to their on-the-ground users directly within Tella’s encrypted container. This includes creating PDFs on Tella Web and sharing training material, guides for data collection, or documents. Resources can be accesed offline after download. More information [here](/tella-web#managing-resources).
