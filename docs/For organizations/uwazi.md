@@ -58,7 +58,7 @@ If Tella users download a template that has properties that are not supported in
 | Numeric | ✔️ | ✔️ | ✔️ |
 | Single Select  | ✔️ | ✔️ | ✔️ | 
 | Multiple Select  | ✔️ | No | ✔️ | 
-| Relationship | No | No | No |
+| Relationship | No | ✔️ | No |
 | Single Date | ✔️ | ✔️ | ✔️ |
 | Multiple Date | ✔️ | No | ✔️ |
 | External Link | ✔️ | No | ✔️ |
@@ -102,12 +102,12 @@ Then go back to the Uwazi main screen and tap the template you want to use to cr
 | **Feature** | **Details**| **Tella Android** | **Tella iOS** | 
 |------|------|------|------|
 | Submit | Send the filled form to the connected server. | Yes | Yes |
-| Save as draft | Save a form that's not completed.  | Yes | No |
-| Submit later | Mark a form as ready and send it to the Outbox tab.  | Yes | No |
-| Drafts Tab | A tab with all drafts. Drafts can be edited or deleted.  | Yes | No |
-| Outbox Tab | A tab with forms ready to submit. Forms on the outbox tab can be edited or deleted.  | Yes | No |
-| Submitted Tab | A tab with all forms that have been successfully sent to the server. Submitted forms can be deleted.  | Yes | No |
+| Save as draft | Save a form that's not completed.  | Yes | Yes |
+| Submit later | Mark a form as ready and send it to the Outbox tab.  | Yes | Yes |
+| Drafts Tab | A tab with all drafts. Drafts can be edited or deleted.  | Yes | Yes |
+| Outbox Tab | A tab with forms ready to submit. Forms on the outbox tab can be edited or deleted.  | Yes | Yes |
+| Submitted Tab | A tab with all forms that have been successfully sent to the server. Submitted forms can be deleted.  | Yes | Yes |
 | Pause/Resume submission | Users can manually pause a submission and resume it when ready.  | Yes | No |
-| Automatically pause submission when offline | Submissions will be sent to the Outbox tab if submission fails due to connectivity issues.  | Yes | No |
+| Automatically pause submission when offline | Submissions will be sent to the Outbox tab if submission fails due to connectivity issues.  | Yes | Yes |
 
 

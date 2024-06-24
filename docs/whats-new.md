@@ -44,13 +44,17 @@ If you prefer sharing your files through another app:
 If you have questions or need additional support, don't hesitate to reach out at contact@tella-app.org
 
 
-### iOS: Tella 1.8.0 (70) - Released on June 3, 2024 {#ios-tella-180-70---released-on-june-3-2024}
--  Edit media: Users can crop and rotate images within Tella's encrypted container. [Read more](/features#edit-media).
-- Bug fixes:
-  - Placeholder with current name missing from rename file while recording.
-  - Rename folder shows the label "Rename" instead of "Rename File".
-  - Show attempts selected on the "Delete after failed unlock" and a handle longer languages.
-  - Solved UI issue in the label when creating PIN when installing Tella (only in iOS 14).
+### iOS: Tella 1.9.0 (74) - Released on June 25, 2024 {#ios-tella-190-74---released-on-june-25-2024}
+- Added support for the relationship property type in the Uwazi connection.
+- Added offline support for the Uwazi server connection (Drafts, Outbox and Submitted tabs). More details [here](/uwazi)
+-  Bug fixing and small improvements:
+  - Run all remaining database migrations on every update. This bug was causing an inconsistent database state for users who don't use Tella often.
+  - Fix the strip EXIF metadata feature that had been broken since the last database migration.
+  - Show a warning if the users tries to delete a file that's being used in server connection that's not submitted.
+  - Hide password field in a new Tella Web server connection.
+  - Make the select field on Uwazi connections scrollable.
+  - Fix back button issues on the onboarding flow.
+  - Fix the import functionality when no permissions has been granted
 
 
 ### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
@@ -60,6 +64,14 @@ A version of Tella included for the first time on the F-droid store. This a 100%
 
 
 ## Previous versions {#previous-versions}
+
+### iOS: Tella 1.8.0 (70) - Released on June 3, 2024 {#ios-tella-180-70---released-on-june-3-2024}
+-  Edit media: Users can crop and rotate images within Tella's encrypted container. [Read more](/features#edit-media).
+- Bug fixes:
+  - Placeholder with current name missing from rename file while recording.
+  - Rename folder shows the label "Rename" instead of "Rename File".
+  - Show attempts selected on the "Delete after failed unlock" and a handle longer languages.
+  - Solved UI issue in the label when creating PIN when installing Tella (only in iOS 14).
 
 ### Android: Tella 2.7.1 (175) - Released on May 2, 2024 {#android-tella-271-175---released-on-may-2-2024}
 - Fixed crash when accessing the Audio folder from the Microphone.
