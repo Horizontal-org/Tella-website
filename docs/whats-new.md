@@ -46,7 +46,7 @@ If you have questions or need additional support, don't hesitate to reach out at
 
 ### iOS: Tella 1.9.0 (74) - Released on June 25, 2024 {#ios-tella-190-74---released-on-june-25-2024}
 - Added support for the relationship property type in the Uwazi connection.
-- Added offline support for the Uwazi server connection (Drafts, Outbox and Submitted tabs). More details [here](/uwazi)
+- Added offline support for the Uwazi server connection (Drafts, Outbox and Submitted tabs). More details [here](/uwazi).
 -  Bug fixing and small improvements:
   - Run all remaining database migrations on every update. This bug was causing an inconsistent database state for users who don't use Tella often.
   - Fix the strip EXIF metadata feature that had been broken since the last database migration.
@@ -54,7 +54,7 @@ If you have questions or need additional support, don't hesitate to reach out at
   - Hide password field in a new Tella Web server connection.
   - Make the select field on Uwazi connections scrollable.
   - Fix back button issues on the onboarding flow.
-  - Fix the import functionality when no permissions has been granted
+  - Fix the import functionality when no permissions has been granted.
 
 
 ### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
