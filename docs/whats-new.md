@@ -44,7 +44,7 @@ If you prefer sharing your files through another app:
 If you have questions or need additional support, don't hesitate to reach out at contact@tella-app.org
 
 
-### iOS: Tella 1.9.0 (74) - Released on June 25, 2024 {#ios-tella-190-74---released-on-june-25-2024}
+### iOS: Tella 1.9.0 (75) - Released on June 25, 2024 {#ios-tella-190-75---released-on-june-25-2024}
 - Added support for the relationship property type in the Uwazi connection.
 - Added offline support for the Uwazi server connection (Drafts, Outbox and Submitted tabs). More details [here](/uwazi).
 -  Bug fixing and small improvements:
@@ -55,6 +55,7 @@ If you have questions or need additional support, don't hesitate to reach out at
   - Make the select field on Uwazi connections scrollable.
   - Fix back button issues on the onboarding flow.
   - Fix the import functionality when no permissions has been granted.
+  - Keyboard was over text fields when renaming audio, folders or files.
 
 
 ### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
