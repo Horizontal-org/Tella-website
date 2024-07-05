@@ -116,7 +116,7 @@ Read more about Tella Web [here](/tella-web) or watch a [video tutorial](/video-
 #### Uwazi {#uwazi}
 [Uwazi](https://uwazi.io/) is an open-source app made by HURIDOCS with powerful features to collect, organize, and visualize human rights data.
 
-We wrote documentation about how to connect to an Open Data Kit server and we recommend you to read [this page](/uwazi) to get started.
+We wrote documentation about how to connect to an Uwazi server and we recommend you to read [this page](/uwazi) to get started.
 
 
 
