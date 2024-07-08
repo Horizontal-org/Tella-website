@@ -15,10 +15,16 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 2.9.0 (181) - Released on July 5, 2024 {#android-tella-290-181---released-on-jul-5-2024}
-- Database Migration from SQLCipher 3 to SQLCipher 4.6.0. This migration enhances the security, performance, and compatibility of our database system. 
-- Added a backup mechanism in case the data migration fails. All the information inside Tella should be correctly migrated, but if you are facing any issues please [contact us](/contact-us).
-- Improved encryption algorithm for enhanced security.
+### Android: Tella 2.9.0 (181) - Released on July 8, 2024 {#android-tella-290-181---released-on-jul-8-2024}
+
+- **Database Migration from SQLCipher 3 to SQLCipher 4.6.0**: This migration enhances the security, performance, and compatibility of our database system.
+  - **KDF Algorithm**: Upgraded from PBKDF2-HMAC-SHA1 with 4,000 iterations to PBKDF2-HMAC-SHA512 with 256,000 iterations.
+  - **Page Size**: Increased from 1024 bytes to 4096 bytes.
+  - **HMAC Algorithm**: Switched from HMAC-SHA1 to HMAC-SHA512.
+  - **Cipher Algorithm**: Continued use of AES-256 in CBC mode with stronger key derivation and HMAC.
+  - **Salt and IV Generation**: Improved randomness and security.
+  - **Compatibility and Performance**: Enhanced performance and compatibility with the latest SQLite versions.
+- **Added a Backup Mechanism**: In case the data migration fails. All the information inside Tella should be correctly migrated, but if you are facing any issues, please [contact us](/contact-us).
 
 
 ### iOS: Tella 1.9.0 (75) - Released on June 25, 2024 {#ios-tella-190-75---released-on-june-25-2024}
