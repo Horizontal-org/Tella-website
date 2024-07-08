@@ -15,6 +15,40 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
+### Android: Tella 2.9.0 (181) - Released on July 8, 2024 {#android-tella-290-181---released-on-jul-8-2024}
+
+- **Database Migration from SQLCipher 3 to SQLCipher 4.6.0**: This migration enhances the security, performance, and compatibility of our database system.
+  - **KDF Algorithm**: Upgraded from PBKDF2-HMAC-SHA1 with 4,000 iterations to PBKDF2-HMAC-SHA512 with 256,000 iterations.
+  - **Page Size**: Increased from 1024 bytes to 4096 bytes.
+  - **HMAC Algorithm**: Switched from HMAC-SHA1 to HMAC-SHA512.
+  - **Cipher Algorithm**: Continued use of AES-256 in CBC mode with stronger key derivation and HMAC.
+  - **Salt and IV Generation**: Improved randomness and security.
+  - **Compatibility and Performance**: Enhanced performance and compatibility with the latest SQLite versions.
+- **Added a Backup Mechanism**: In case the data migration fails. All the information inside Tella should be correctly migrated, but if you are facing any issues, please [contact us](/contact-us).
+
+
+### iOS: Tella 1.9.0 (75) - Released on June 25, 2024 {#ios-tella-190-75---released-on-june-25-2024}
+- Added support for the relationship property type in the Uwazi connection.
+- Added offline support for the Uwazi server connection (Drafts, Outbox and Submitted tabs). More details [here](/uwazi).
+-  Bug fixing and small improvements:
+  - Run all remaining database migrations on every update. This bug was causing an inconsistent database state for users who don't use Tella often.
+  - Fix the strip EXIF metadata feature that had been broken since the last database migration.
+  - Show a warning if the users tries to delete a file that's being used in server connection that's not submitted.
+  - Hide password field in a new Tella Web server connection.
+  - Make the select field on Uwazi connections scrollable.
+  - Fix back button issues on the onboarding flow.
+  - Fix the import functionality when no permissions has been granted.
+  - Keyboard was over text fields when renaming audio, folders or files.
+
+
+### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
+
+A version of Tella included for the first time on the F-droid store. This a 100% Free and Open-Source Software (FOSS) version of Tella Android. We removed all trackers, changed map and location provider and also changed the Camera library to CameraX, removed crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We removed completely all Google Play Services dependencies.
+
+
+
+## Previous versions {#previous-versions}
+
 ### Android: Tella 2.8.0 (178) - Released on June 21, 2024 {#android-tella-280-178---released-on-jun-17-2024}
 - Implemented [background encryption](/features#background-encryption) so users can continue collecting data, taking photos, videos, and audio, and importing files while the encryption process takes place. 
 - Added a background activity tray so users can check the progress of file encryption.
@@ -43,28 +77,6 @@ If you prefer sharing your files through another app:
 
 If you have questions or need additional support, don't hesitate to reach out at contact@tella-app.org
 
-
-### iOS: Tella 1.9.0 (75) - Released on June 25, 2024 {#ios-tella-190-75---released-on-june-25-2024}
-- Added support for the relationship property type in the Uwazi connection.
-- Added offline support for the Uwazi server connection (Drafts, Outbox and Submitted tabs). More details [here](/uwazi).
--  Bug fixing and small improvements:
-  - Run all remaining database migrations on every update. This bug was causing an inconsistent database state for users who don't use Tella often.
-  - Fix the strip EXIF metadata feature that had been broken since the last database migration.
-  - Show a warning if the users tries to delete a file that's being used in server connection that's not submitted.
-  - Hide password field in a new Tella Web server connection.
-  - Make the select field on Uwazi connections scrollable.
-  - Fix back button issues on the onboarding flow.
-  - Fix the import functionality when no permissions has been granted.
-  - Keyboard was over text fields when renaming audio, folders or files.
-
-
-### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
-
-A version of Tella included for the first time on the F-droid store. This a 100% Free and Open-Source Software (FOSS) version of Tella Android. We removed all trackers, changed map and location provider and also changed the Camera library to CameraX, removed crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We removed completely all Google Play Services dependencies.
-
-
-
-## Previous versions {#previous-versions}
 
 ### iOS: Tella 1.8.0 (70) - Released on June 3, 2024 {#ios-tella-180-70---released-on-june-3-2024}
 -  Edit media: Users can crop and rotate images within Tella's encrypted container. [Read more](/features#edit-media).
