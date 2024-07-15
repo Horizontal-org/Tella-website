@@ -15,7 +15,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 2.9.0 (182) - Released on July 15, 2024 {#android-tella-290-182---released-on-jul-15-2024}
+### Android: Tella 2.9.0 (183) - Released on July 15, 2024 {#android-tella-290-183---released-on-jul-15-2024}
 
 - **Database Migration from SQLCipher 3 to SQLCipher 4.6.0**: This migration enhances the security, performance, and compatibility of our database system.
   - **KDF Algorithm**: Upgraded from PBKDF2-HMAC-SHA1 with 4,000 iterations to PBKDF2-HMAC-SHA512 with 256,000 iterations.
