@@ -181,6 +181,9 @@ Learn more about [Collecting Evidence](video-tutorials#collecting-evidence) and 
 
 On **Settings** > **Security** users have the option to Preserve or delete the file's metadata when importing Photos and Videos to Tella. EXIF metadata of files migth include data about when the file was created, camera settings or location of the device.
 
+## Privacy preserving analytics (opt-in) {#privacy-preserving-analytics-opt-in}
+Android users can opt-in to share analytics to improve Tella. All information is anonymous, agregated and can never be linked to individual usres. For technical information about what system do we use and what metrics to we collect, visit the [Analytics section on our Security and Privacy page](/security-and-privacy#analytics).
+
 ## Open files in Tella {#open-files-in-tella}
 Images, videos, PDFs and audios can be visualized inside Tella. 📱📄
 

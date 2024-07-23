@@ -15,16 +15,24 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 2.9.0 (183) - Released on July 15, 2024 {#android-tella-290-183---released-on-jul-15-2024}
-
-- **Database Migration from SQLCipher 3 to SQLCipher 4.6.0**: This migration enhances the security, performance, and compatibility of our database system.
-  - **KDF Algorithm**: Upgraded from PBKDF2-HMAC-SHA1 with 4,000 iterations to PBKDF2-HMAC-SHA512 with 256,000 iterations.
-  - **Page Size**: Increased from 1024 bytes to 4096 bytes.
-  - **HMAC Algorithm**: Switched from HMAC-SHA1 to HMAC-SHA512.
-  - **Cipher Algorithm**: Continued use of AES-256 in CBC mode with stronger key derivation and HMAC.
-  - **Salt and IV Generation**: Improved randomness and security.
-  - **Compatibility and Performance**: Enhanced performance and compatibility with the latest SQLite versions.
-- **Added a Backup Mechanism**: In case the data migration fails. All the information inside Tella should be correctly migrated, but if you are facing any issues, please [contact us](/contact-us).
+### Android: Tella 2.10.0 (184) - Released on July X, 2024 {#android-tella-2100-184---released-on-jul-X-2024}
+- Added support for the relationship property type in the Uwazi connection.
+- Added Vietnamese language support and loaded more translations.
+- Added support for privacy preserving analytics (opt-in). And the "number of successful unlocks metric". More info [here](/security-and-privacy#analytics)
+-  Bug fixing and small improvements:
+  - Fixedcontact  us button. Now redirects to email.
+  - Cancel button for delete files is now working.
+  - Cancel button for saving files to device is now working.
+  - Recording audio from Tella Web reports page now works.
+  - Solved navigation issues:
+      - Refactored the Uwazi section, which solved crashes on back button on 2FA screen and summary screen.
+      - In the onboarding flow.
+  - Solved visual issues 
+    - Section names are now vertically aligned on the Settings screen.
+    - Digit in Quick Delete countdown is now centered.
+  - In vault, the reorder bottom sheet now shows the selected option.
+  - Fixed a crash on when using the ODK geolocation.
+  - Verification information csv file restored when sharing a file including verification information.
 
 
 ### iOS: Tella 1.9.0 (75) - Released on June 25, 2024 {#ios-tella-190-75---released-on-june-25-2024}
@@ -48,6 +56,17 @@ A version of Tella included for the first time on the F-droid store. This a 100%
 
 
 ## Previous versions {#previous-versions}
+
+### Android: Tella 2.9.0 (183) - Released on July 15, 2024 {#android-tella-290-183---released-on-jul-15-2024}
+
+- **Database Migration from SQLCipher 3 to SQLCipher 4.6.0**: This migration enhances the security, performance, and compatibility of our database system.
+  - **KDF Algorithm**: Upgraded from PBKDF2-HMAC-SHA1 with 4,000 iterations to PBKDF2-HMAC-SHA512 with 256,000 iterations.
+  - **Page Size**: Increased from 1024 bytes to 4096 bytes.
+  - **HMAC Algorithm**: Switched from HMAC-SHA1 to HMAC-SHA512.
+  - **Cipher Algorithm**: Continued use of AES-256 in CBC mode with stronger key derivation and HMAC.
+  - **Salt and IV Generation**: Improved randomness and security.
+  - **Compatibility and Performance**: Enhanced performance and compatibility with the latest SQLite versions.
+- **Added a Backup Mechanism**: In case the data migration fails. All the information inside Tella should be correctly migrated, but if you are facing any issues, please [contact us](/contact-us).
 
 ### Android: Tella 2.8.0 (178) - Released on June 21, 2024 {#android-tella-280-178---released-on-jun-17-2024}
 - Implemented [background encryption](/features#background-encryption) so users can continue collecting data, taking photos, videos, and audio, and importing files while the encryption process takes place. 

@@ -30,7 +30,28 @@ Tella Android, as available on the Google Play Store, includes two trackers, [Go
 
 ### Tella iOS {#tella-ios}
 
-[Tella for iOS ](https://apps.apple.com/us/app/tella-document-protect/id1598152580)does not include any trackers. As a result of Apple’s strict iOS app policies, Tella for iOS is currently not available on alternative app stores or for manual install.
+[Tella for iOS](https://apps.apple.com/us/app/tella-document-protect/id1598152580)does not include any trackers. As a result of Apple’s strict iOS app policies, Tella for iOS is currently not available on alternative app stores or for manual install.
+
+## Analytics {#analytics}
+
+Tella Android and [Tella Web](/tella-web) include an opt-in analytics settings where users can choose to share analytics to improve Tella. This data helps us understand how do people use Tella and which features are important to them. All data is anonymous and can never be linked to them.
+
+We use [Divvi Up](https://divviup.org/), a privacy-respecting system for analytics. Divvi Up is implemented by the [Internet Security Research Group (ISRG)](https://www.abetterinternet.org/), which mantains the [Let’s Encrypt](https://letsencrypt.org/) project. 
+
+All data is anonymous and aggregated. Divvi Up library splits the data into two anonymized and encrypted shares (one hosted by the Divvi Up team and one hosted by us) and upload each share to different data share processors that do not share data with each other. This way only minimal information about the original data is revealed to either processor and it's not possible to construct the whole data with only one share. Each processor then aggregates its data shares into a partial sum. The partial sums can then be combined into a final aggregation, permitting useful statistics over the whole body of data while revealing minimal information about individual participants. Extensive technical documentation about how Divvi Up works can be found [here](https://docs.divviup.org/).
+
+We collect as little data as possible. Concretely, on the latest version of Tella we collect only the following events (and nothing more):
+
+**Tella Android**
+- Number of successful unlock events.
+
+**Tella Web**
+- Number of visits (triggered every time someone enters any Tella Web instance).
+- Number of File uploads (triggers every time someone uploads a file to any tellaweb instance).
+- Number of Reports (triggers every time someone uploads a report to any tellaweb instance).
+
+
+For more information about what metics were added in each release, check out our [release notes](/releases).
 
 
 ## Security features {#security-features}

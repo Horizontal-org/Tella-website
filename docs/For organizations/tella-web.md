@@ -33,6 +33,7 @@ Setting up Tella Web involves three steps, which are thoroughly discussed in thi
 
 This step consists of installing and configuring Tella Web on the server your organization will be using. This step needs to be completed by the person who is going to be responsible for the system administration (a developer or a system administrator). Technical instructions can be found on [our Github](https://github.com/Horizontal-org/tellaweb).
 
+You can check Tella Web release notes [here](https://github.com/Horizontal-org/TellaWeb-FrontEnd/releases).
 
 
 :::info
@@ -53,6 +54,11 @@ Once Tella Web is installed and the first "admin" user created, it’s time to s
 :::info
 Take a look at [this video tutorial](/video-tutorials#connections-full-video) for a demo of how to set up Tella Web.
 :::
+
+### Admin center {#admin-center}
+
+Admins of the Tella Web space can change system wide settings:
+- [Opt-in to share analytics with Tella team](/security-and-privacy#analytics).
 
 
 ### Managing Projects {#managing-projects}
@@ -197,6 +203,8 @@ To add resourcs to projects tap on the **Add resources** button and search avail
 All users that connets to this project from their Tella apps will see a Resources card available and they can download this Resource to their encrypted container.
 
 Tella Web does not keep track of any information about resources downloads.
+
+
 
 
 ## Get people on the ground ready to start submitting reports {#get-people-on-the-ground-ready-to-start-submitting-reports}

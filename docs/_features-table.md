@@ -13,6 +13,7 @@
 | [Feedback](/features#feedback) | ✔️ | ✔️ | Not yet |
 | [Import files from device](/features#import-files-from-device)| ✔️ | ✔️ | Yes but missing delete original file |
 | [Preserve metadata when importing](/features#preserve-metadata-when-importing)| ✔️ | ✔️ | Not yet |
+| [Privacy preserving analytics (opt-in)](/features#privacy-preserving-analytics)| ✔️ | Not yet | Not yet |
 | [Camouflage](/features#camouflage) | ✔️ | Not possible in iOS | ✔️ |
 | [Homescreen customization](/features#homescreen-customization) | ✔️ | ✔️ | ✔️ |
 | [Camera (photos and videos)](/features#camera-photos-and-videos) | ✔️ | ✔️ | Yes but missing  zoom, flip camera, enable flash and enable grid |
