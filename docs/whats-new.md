@@ -20,33 +20,33 @@ To receive monthly updates on new features and improvements to Tella and stay up
 - Added Vietnamese language support and loaded more translations.
 - Added support for privacy preserving analytics (opt-in). And the "number of successful unlocks metric". More info [here](/security-and-privacy#analytics)
 -  Bug fixing and small improvements:
-  - Fixedcontact  us button. Now redirects to email.
-  - Cancel button for delete files is now working.
-  - Cancel button for saving files to device is now working.
-  - Recording audio from Tella Web reports page now works.
-  - Solved navigation issues:
-      - Refactored the Uwazi section, which solved crashes on back button on 2FA screen and summary screen.
-      - In the onboarding flow.
-  - Solved visual issues 
-    - Section names are now vertically aligned on the Settings screen.
-    - Digit in Quick Delete countdown is now centered.
-  - In vault, the reorder bottom sheet now shows the selected option.
-  - Fixed a crash on when using the ODK geolocation.
-  - Verification information csv file restored when sharing a file including verification information.
+    - Fixed contact us button. Now redirects to email.
+    - Cancel button for delete files is now working.
+    - Cancel button for saving files to device is now working.
+    - Recording audio from Tella Web reports page now works.
+    - Solved navigation issues:
+        - Refactored the Uwazi section, which solved crashes on back button on 2FA screen and summary screen.
+        - In the onboarding flow.
+    - Solved visual issues 
+        - Section names are now vertically aligned on the Settings screen.
+        - Digit in Quick Delete countdown is now centered.
+    - In vault, the reorder bottom sheet now shows the selected option.
+    - Fixed a crash on when using the ODK geolocation.
+    - Verification information csv file restored when sharing a file including verification information.
 
 
 ### iOS: Tella 1.9.0 (75) - Released on June 25, 2024 {#ios-tella-190-75---released-on-june-25-2024}
 - Added support for the relationship property type in the Uwazi connection.
 - Added offline support for the Uwazi server connection (Drafts, Outbox and Submitted tabs). More details [here](/uwazi).
 -  Bug fixing and small improvements:
-  - Run all remaining database migrations on every update. This bug was causing an inconsistent database state for users who don't use Tella often.
-  - Fix the strip EXIF metadata feature that had been broken since the last database migration.
-  - Show a warning if the users tries to delete a file that's being used in server connection that's not submitted.
-  - Hide password field in a new Tella Web server connection.
-  - Make the select field on Uwazi connections scrollable.
-  - Fix back button issues on the onboarding flow.
-  - Fix the import functionality when no permissions has been granted.
-  - Keyboard was over text fields when renaming audio, folders or files.
+    - Run all remaining database migrations on every update. This bug was causing an inconsistent database state for users who don't use Tella often.
+    - Fix the strip EXIF metadata feature that had been broken since the last database migration.
+    - Show a warning if the users tries to delete a file that's being used in server connection that's not submitted.
+    - Hide password field in a new Tella Web server connection.
+    - Make the select field on Uwazi connections scrollable.
+    - Fix back button issues on the onboarding flow.
+    - Fix the import functionality when no permissions has been granted.
+    - Keyboard was over text fields when renaming audio, folders or files.
 
 
 ### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
