@@ -15,23 +15,25 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 2.10.0 (184) - Released on July X, 2024 {#android-tella-2100-184---released-on-jul-X-2024}
+### Android: Tella 2.10.0 (184) - Released on July 25, 2024 {#android-tella-2100-184---released-on-jul-25-2024}
 - Added support for the relationship property type in the Uwazi connection.
-- Added Vietnamese language support and loaded more translations.
-- Added support for privacy preserving analytics (opt-in). And the "number of successful unlocks metric". More info [here](/security-and-privacy#analytics)
+- Added Vietnamese language support and updated other languages' translations.
+- Added support for [privacy preserving analytics (opt-in)](/features#preserve-metadata-when-importing). 
+    - Added the "number of successful unlock attempts metric". 
+    - More info about how analytics works read [here](/security-and-privacy#analytics).
 -  Bug fixing and small improvements:
     - Fixed contact us button. Now redirects to email.
     - Cancel button for delete files is now working.
     - Cancel button for saving files to device is now working.
-    - Recording audio from Tella Web reports page now works.
+    - Fixed a crash when recording audio directly from Tella Web reports.
     - Solved navigation issues:
-        - Refactored the Uwazi section, which solved crashes on back button on 2FA screen and summary screen.
-        - In the onboarding flow.
-    - Solved visual issues 
-        - Section names are now vertically aligned on the Settings screen.
+        - Refactored the Uwazi section and solved crashes on back button on 2FA screen and summary screen that were related to navigation.
+        - Solved back button issues related to navigation in the Tella on-boarding flow.
+    - Solved visual issues :
+        - Section names are now vertically aligned in the Settings screen.
         - Digit in Quick Delete countdown is now centered.
     - In vault, the reorder bottom sheet now shows the selected option.
-    - Fixed a crash on when using the ODK geolocation.
+    - Fixed a crash when using the ODK geolocation.
     - Verification information csv file restored when sharing a file including verification information.
 
 
