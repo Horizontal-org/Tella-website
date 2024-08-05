@@ -18,7 +18,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ### Android: Tella 2.10.0 (184) - Released on July 25, 2024 {#android-tella-2100-184---released-on-jul-25-2024}
 - Added support for the relationship property type in the Uwazi connection.
 - Added Vietnamese language support and updated other languages' translations.
-- Added support for [privacy preserving analytics (opt-in)](/features#preserve-metadata-when-importing). 
+- Added support for [privacy preserving analytics (opt-in)](/features#privacy-preserving-analytics). 
     - Added the "number of successful unlock attempts" metric. 
     - More info about how analytics works read [here](/security-and-privacy#analytics).
 -  Bug-fixing and small improvements:
