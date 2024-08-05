@@ -29,6 +29,16 @@ Uwazi also allows project managers to easily organize, analyze, visualize, and p
 
 Uwazi does not have an official mobile app, so by integrating Uwazi and Tella, you can leverage Tella's encryption and offline capabilities and take full advantage of Uwazi's abilities to organize, search, download, visualize, and publish information. 
 
+Here there are some pointers on Uwazi may be particularly suitable to your use case:
+- You need to make the data collected publicly accessible on a website.
+- You need to establish relationships between data points.
+- Data must be contained in structured database registers.
+- You need to clean up, edit, organise and curate the collected data.
+- You need to quickly search, find and analyse data.
+- You work in a multilingual environment.
+- You work in a collaborative environment with multiple users and different profiles.
+- You need to preserve information in a secure way over the long term.
+
 You can learn more about Uwazi on [Uwazi's official documentation](https://uwazi.readthedocs.io/en/latest/). HURIDOCS is a great friend of Horizontal, so if you have questions about Uwazi or would like us to connect you to the HURIDOCS team, [contact-us](contact-us).
 
 ## Configure Uwazi on a server {#configure-uwazi-on-a-server}
@@ -58,7 +68,7 @@ If Tella users download a template that has properties that are not supported in
 | Numeric | ✔️ | ✔️ | ✔️ |
 | Single Select  | ✔️ | ✔️ | ✔️ | 
 | Multiple Select  | ✔️ | No | ✔️ | 
-| Relationship | No | ✔️ | No |
+| Relationship | ✔️ | ✔️ | No |
 | Single Date | ✔️ | ✔️ | ✔️ |
 | Multiple Date | ✔️ | No | ✔️ |
 | External Link | ✔️ | No | ✔️ |
