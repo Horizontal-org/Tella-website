@@ -19,22 +19,22 @@ To receive monthly updates on new features and improvements to Tella and stay up
 - Added support for the relationship property type in the Uwazi connection.
 - Added Vietnamese language support and updated other languages' translations.
 - Added support for [privacy preserving analytics (opt-in)](/features#preserve-metadata-when-importing). 
-    - Added the "number of successful unlock attempts metric". 
+    - Added the "number of successful unlock attempts" metric. 
     - More info about how analytics works read [here](/security-and-privacy#analytics).
--  Bug fixing and small improvements:
-    - Fixed contact us button. Now redirects to email.
-    - Cancel button for delete files is now working.
-    - Cancel button for saving files to device is now working.
-    - Fixed a crash when recording audio directly from Tella Web reports.
+-  Bug-fixing and small improvements:
+    - Fixed the "Contact Us" button, which now redirects to email.
+    - The "Cancel" button when deleting files is now working properly.
+    - The "Cancel" button for saving files to the device is now working properly.
+    - Fixed a crash when recording audio directly from within a Tella Web report.
     - Solved navigation issues:
-        - Refactored the Uwazi section and solved crashes on back button on 2FA screen and summary screen that were related to navigation.
-        - Solved back button issues related to navigation in the Tella on-boarding flow.
-    - Solved visual issues :
+        - Refactored the Uwazi section and solved crashes on the "Back" button on the 2FA and summary screens.
+        - Solved issues with the "Back" button in the Tella onboarding flow.
+    - Solved visual issues:
         - Section names are now vertically aligned in the Settings screen.
-        - Digit in Quick Delete countdown is now centered.
+        - The digit in the Quick Delete countdown is now centered.
     - In vault, the reorder bottom sheet now shows the selected option.
     - Fixed a crash when using the ODK geolocation.
-    - Verification information csv file restored when sharing a file including verification information.
+    - The Verification Information CSV file is now properly attached when sharing a file that includes Verification Information.
 
 
 ### iOS: Tella 1.9.0 (75) - Released on June 25, 2024 {#ios-tella-190-75---released-on-june-25-2024}
