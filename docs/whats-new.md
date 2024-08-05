@@ -15,7 +15,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 2.10.0 (184) - Released on Agust 5, 2024 {#android-tella-2100-184---released-on-aug-5-2024}
+### Android: Tella 2.10.0 (185) - Released on Agust 5, 2024 {#android-tella-2100-185---released-on-aug-5-2024}
 - Added support for the relationship property type in the Uwazi connection.
 - Added Vietnamese language support and updated other languages' translations.
 - Added support for [privacy preserving analytics (opt-in)](/features#privacy-preserving-analytics). 
