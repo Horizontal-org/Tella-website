@@ -14,3 +14,4 @@
 14. Russian
 15. Spanish (Latin America)
 16. Tamil
+17. Vietnamese
