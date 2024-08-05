@@ -30,18 +30,21 @@ Tella Android, as available on the Google Play Store, includes two trackers, [Go
 
 ### Tella iOS {#tella-ios}
 
-[Tella for iOS](https://apps.apple.com/us/app/tella-document-protect/id1598152580)does not include any trackers. As a result of Apple’s strict iOS app policies, Tella for iOS is currently not available on alternative app stores or for manual install.
+[Tella for iOS](https://apps.apple.com/us/app/tella-document-protect/id1598152580) does not include any trackers. 
+
+As a result of Apple’s strict iOS app policies, Tella for iOS is currently not available on alternative app stores or for manual install.
 
 ## Analytics {#analytics}
 
-Tella Android and [Tella Web](/tella-web) include an opt-in analytics settings where users can choose to share analytics to improve Tella. This data helps us understand how do people use Tella and which features are important to them.
+In Tella Android and [Tella Web](/tella-web), users can choose to share analytics to improve Tella. This data helps us understand how people use Tella and which features are important to them. ***Analytics data is only collected if users opt-in in the app's settings***
 
-Here are some considerations about our privacy-preserving analytics approach:
+We use [Divvi Up](https://divviup.org/), a privacy-respecting system for analytics. Divvi Up is implemented by the [Internet Security Research Group (ISRG)](https://www.abetterinternet.org/), which also maintains the [Let’s Encrypt](https://letsencrypt.org/) project. 
 
-1. **All data is anonymous and can never be linked to users**: We use [Divvi Up](https://divviup.org/), a privacy-respecting system for analytics. Divvi Up is implemented by the [Internet Security Research Group (ISRG)](https://www.abetterinternet.org/), which mantains the [Let’s Encrypt](https://letsencrypt.org/) project. 
-2. **All data is anonymous and aggregated**: Divvi Up library splits the data into two anonymized and encrypted shares (one hosted by the Divvi Up team and one hosted by us) and upload each share to different data share processors that do not share data with each other. This way only minimal information about the original data is revealed to either processor.
-3. **Even if we wanted to, we couldn't get the whole data**: It's not possible to construct the whole data with only one share. Each processor aggregates its data shares into a partial sum. The partial sums can then be combined into a final aggregation, permitting useful statistics over the whole body of data while revealing minimal information about individual participants. Extensive technical documentation about how Divvi Up works can be found [here](https://docs.divviup.org/).
-4. **We collect as little data as possible**: Concretely, on the latest version of Tella we collect only the following events (and nothing more):
+Here are some information about our privacy-preserving analytics approach:
+
+1. **All data is anonymous and aggregated**: the Divvi Up library splits the data into two anonymized and encrypted shares and uploads each share to different data share processors (one hosted by ISRG and one hosted by us) that do not share data with each other. This way, only partial information about the original data is revealed to either processor.
+2. **Even if we wanted to, we couldn't get the whole data**: It's not possible to construct the whole data with only one share. Each processor aggregates its data shares into a partial sum. The partial sums can then be combined into a final aggregation, permitting useful statistics over the whole body of data while revealing minimal information about individual participants. Extensive technical documentation about how Divvi Up works can be found [here](https://docs.divviup.org/).
+3. **We collect as little data as possible**: Even though all data is anonymized, we always minimize the amount of data we collect. As of the latest versions of Tella, we only collect data about the following events (and nothing more):
 
     **Tella Android**
     - Number of successful unlock events.
@@ -52,7 +55,7 @@ Here are some considerations about our privacy-preserving analytics approach:
     - Number of Reports (triggers every time someone uploads a report to any tellaweb instance).
 
 
-    For more information about what metics were added in each release, check out our [release notes](/releases).
+   For more information about the metrics we add to our apps, check out our [release notes](/releases).
 
 
 ## Security features {#security-features}
