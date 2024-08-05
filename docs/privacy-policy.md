@@ -9,7 +9,7 @@ slug: /privacy
 # Tella - Privacy Policy
 
 :::note
-Last updated on 10 July 2023.
+Last updated on 23 July 2024.
 :::
 
 :::info
@@ -60,6 +60,7 @@ When you download, register with, or use this App, we may ask you to provide inf
 
 -   Records and copies of your correspondences with Horizontal (including email addresses and phone numbers), if you contact us.
 -   Your responses to surveys that we might ask you to complete for research purposes, information when you report a problem with the App or suggest improvements.
+-   Analytics usage data that you opt-in to share.    
 
 You may use this app to take or store photos, videos, audio recordings, and other types of files. This data is stored locally on your device and is not accessible by the Company or any third party, including Deploying Organizations, until you choose to transmit it to the Deploying Organization by submitting your data to their servers (see Third-Party Information Collection).
 
@@ -77,7 +78,8 @@ Tella also collects information about your mobile device and internet connection
 
 Tella also collects information that helps identify the location of the device when a file was captured. This includes location (including latitude, longitude, accuracy, and altitude), location provider, location speed, and cell towers that your device is connected to. Collectively, this data is known as “Location Metadata”.
 
-File, device and location metadata are only collected if you opt-in by turning on Verification Mode in your App settings. If you do not want Tella to collect this information, do not activate Verification Mode.
+File, device and location metadata are only collected if you opt-in by turning on Verification Mode or Import EXIF Metadata in your App settings. If you do not want Tella to collect this information, do not activate Verification Mode nor Import EXIF Metadata.
+
 
 ### Information Collection Technologies {#information-collection-technologies}
 
@@ -135,10 +137,14 @@ We may disclose personal information and data that we collect or you provide:
 
 ## 6. Your Choices About Our Collection, Use, and Disclosure of Your Information {#6-your-choices-about-our-collection-use-and-disclosure-of-your-information}
 
-Through the settings menu of the App, you can opt out of:
+Through the settings menu of the App, you can opt-out of:
 
--   Bug reports and usage analytics
+-   Bug reports and default usage analytics.
 -   Metadata collection either in whole or in part by disabling “Verification Mode” in your app settings.
+
+Through the settings menu of the App, you can opt-in to:
+- Share usage analytics using our privacy-preserving system [Divvi Up](/security-and-privacy#analytics).
+
 
 The FOSS version of Tella available on [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/) does not have any trackers for bug reports or usage analytics.
 
