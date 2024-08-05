@@ -57,7 +57,7 @@ Take a look at [this video tutorial](/video-tutorials#connections-full-video) fo
 
 ### Admin center {#admin-center}
 
-Admins of the Tella Web space can change system wide settings:
+Admins of the Tella Web space can change system-wide settings:
 - [Opt-in to share analytics with Tella team](/security-and-privacy#analytics).
 
 
