@@ -65,6 +65,12 @@ Note that it is not possible to encrypt and hide files or create reports on Tell
 
 Please refer to the [Is Tella available on Android?](#is-tella-available-on-android)or to the [Is Tella available on iOS?](#is-tella-available-on-ios) questions depending on the device you own.
 
+### How do I become a beta tester for Tella? {#how-do-i-become-a-beta-tester-for-tella}
+
+- Android: Sign up on the Google Play Store using [this link](https://play.google.com/store/apps/details?id=org.hzontal.tella) from your Android device [or this link](https://play.google.com/apps/testing/org.hzontal.tella) from your web browser.
+- iOS: Sign up on the App Store [opening this link](https://testflight.apple.com/join/d8r2QRWh) from your iPhone.
+
+
 ### What phones support Tella? {#what-phones-support-tella}
 
 Tella is compatible with devices running Android 5.0 or later and iOS 14.0 or later.
