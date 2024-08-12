@@ -1,8 +1,8 @@
-# About Tella Website + Documentation 
+# About the Tella website and documentation 
 
 This repository is the home of all Tella documentation: including videos, step-by-step guides, turorials and detailed description of Tella's features. This website is built using [Docusaurus](https://docusaurus.io/).
 
-You can access Tella Website here: https://tella-app.org/
+You can access the Tella website here: https://tella-app.org/
 
 # About Tella
 
@@ -28,11 +28,9 @@ If you are an activist, journalist, human rights defender, or anyone who engages
 
 
 
-# Join us in creating Tella!
+# Join us in building Tella!
 
-Tella is an open-source project, which means that anyone can contribute to its development. Whether you're a developer, a designer, a security expert, or just someone who wants to help, there are many ways you can get involved.
-
-Here are a few ways you can contribute to Tella:
+Whether you're a developer, a designer, a security expert, or just someone who wants to help, there are many ways you can get involved. Here are a few ways you can contribute to Tella:
 
 - **Code contribution:** If you're a developer, you can contribute code to Tella. Check out our GitHub repositories for [Android](https://github.com/Horizontal-org/Tella-Android), [iOS](https://github.com/Horizontal-org/Tella-iOS) and [Tella Web](https://github.com/Horizontal-org/tellaweb) to see what we're working on and how you can help.
 - **Bug reports and feature requests:** If you use Tella and find a bug, or if you have an idea for a new feature, you can let us [here](https://tella-app.org/contact-us).
