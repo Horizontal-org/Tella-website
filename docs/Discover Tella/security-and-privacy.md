@@ -95,7 +95,15 @@ There is no such thing as an app that is 100% "secure". Security is dependent on
 
 ## Security audits {#security-audits}
 
-We regularly ask independent security firms to audit our code to ensure it is robust and secure. You can see the full reports from these audits [on this page](<./../assets/2023.05 - Tella security audit - Final report.pdf>). This is the summary from the latest audit and the current implementation status:
+We regularly ask independent security firms to audit our code to ensure it is robust and secure.
+
+| Date | Audited by | Platforms audited    | Link      |
+| -----|----------|----|-----------|
+| May 2024 | Subgraph Technologies, Inc. |  Android, iOS, Tella Web |[View report](<./../assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
+| May 2023 | Subgraph Technologies, Inc. | Android, iOS, Tella Web |[View report](<./../assets/2023.05 - Tella security audit - Final report.pdf>)|
+
+
+ This is the summary from the latest audit and the status of the vulnerabilities identified:
 
 
 | Title                                               | Severity    | Status      |
@@ -104,4 +112,4 @@ We regularly ask independent security firms to audit our code to ensure it is ro
 | Android Cipher Stream I/O Key PBKDF2 Iterations     | Low         | Resolved    |
 | Tella iOS Cleartext Audio Data may Persist Longer  | Low         | Resolved    |
 | Tella Android Outdated Retrofit2 Dependency         | Low         | Resolved    |
-| Tella Android Deprecated Dependency: Butterknife    | Informational| In Progress |
+| Tella Android Deprecated Dependency: Butterknife    | Informational| Resolved |
