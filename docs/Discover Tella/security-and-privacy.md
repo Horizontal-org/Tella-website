@@ -38,7 +38,7 @@ As a result of Apple’s strict iOS app policies, Tella for iOS is currently not
 
 In Tella Android and [Tella Web](/tella-web), users can choose to share analytics to improve Tella. This data helps us understand how people use Tella and which features are important to them. ***Analytics data is only collected if users opt-in in the app's settings***
 
-We use [Divvi Up](https://divviup.org/), a privacy-respecting system for analytics. Divvi Up is implemented by the [Internet Security Research Group (ISRG)](https://www.abetterinternet.org/), which also maintains the [Let’s Encrypt](https://letsencrypt.org/) project. 
+We use [Divvi Up](https://divviup.org/), a privacy-respecting telemetry service. Divvi Up is implemented by the [Internet Security Research Group (ISRG)](https://www.abetterinternet.org/), a nonprofit organization that also maintains the [Let’s Encrypt](https://letsencrypt.org/) project. 
 
 Here are some information about our privacy-preserving analytics approach:
 
