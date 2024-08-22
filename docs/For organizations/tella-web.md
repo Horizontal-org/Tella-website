@@ -57,8 +57,14 @@ Take a look at [this video tutorial](/video-tutorials#connections-full-video) fo
 
 ### Admin center {#admin-center}
 
-Admins of the Tella Web space can change system-wide settings:
+Admins of the Tella Web space can enable or disable system-wide settings:
 - [Opt-in to share analytics with Tella team](/security-and-privacy#analytics).
+- Supicious login detection: 
+    - If enabled Tella Web will record location for each login IP and approximate location based on IP. If the user is connecting from an unusual location Tella Web will block the login attempt to prevent any unauthorized sing-in and send an email to the user to confirm if was a legitimate login attempt. 
+    - Tella Web requires an SMTP server to be properly configured and working for this feature to work.
+- Feedback:
+    - When enabled, Tella Web show a feedback box that send an anonymous note to the Tella team on any feedback request or bug reports that the user might find. It doesn't contain any information about the user or the Tella Web instance, but it does require an an SMTP server to be properly configured and working for this feature to work. 
+
 
 
 ### Managing Projects {#managing-projects}
