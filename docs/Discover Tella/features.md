@@ -119,8 +119,7 @@ Users can edit a picture by going to **More** > **Edit** from the **Images** fol
 - **Rotate**:  Use the Rotate button on the bottom of the screen to rotate the image counter-clock wise. 
 - **Crop**: Pinch and expand or contracts your fingers to move the white canvas to crop the picture. 
 - **Zoom**: The image will auto zoom depending on the selected canvas, to avoid loosing image quality as much as possible.
-- **Flip**: Use the Flip horizontal or Flip vertical buttons to change the orientation of the photo.
-
+- **Flip**: Use the Flip horizontal to mirror-reversal the image horizontally or Flip vertical button to flip it upside-down.
 
 When edits are done, users can press the orange check on the top right of the edit screen. The edited file will be saved as a copy of the original file in the same folder.
 
