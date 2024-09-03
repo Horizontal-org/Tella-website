@@ -62,7 +62,8 @@ Admins of the Tella Web space can enable or disable system-wide settings dependi
 - Suspicious login detection: 
     - If enabled Tella Web will record location for each login IP and approximate location based on IP. If the user is connecting from an unusual location Tella Web will block the login attempt to prevent any unauthorized sing-in and send an email to the user to confirm if was a legitimate login attempt. 
     - IPs and location will not be shared with the Tella team and will only be stored in the server where Tella Web is installed.
-    - Tella Web requires an SMTP server to be properly configured and working for this feature to work.
+    - Tella Web requires an SMTP server to be properly configured and working for this feature to work. 
+    - If disabled Tella Web won't store the IP, won't calculate location nor ping any third party service.
 - Feedback:
     - When enabled, Tella Web shows a feedback box that allow users to send an anonymous note to the Tella team on any feedback request or bug reports that they might find. It doesn't contain any information about the user or the Tella Web instance.
     - To ensure user privacy and anonymity, only essential data is transmitted to our Feedback server through HTTPS POST requests. Logs containing user information (IP address, date and time, and user-agent) are automatically deleted weekly.
