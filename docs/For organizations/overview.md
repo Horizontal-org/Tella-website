@@ -16,6 +16,7 @@ Currently, Tella can be connected to the following types of servers:
 * [Open Data Kit (ODK)](#open-data-kit-odk)
 * [Uwazi](#uwazi)
 * [Tella Web](#tella-web)
+* [Google Drive](#g-drive)
 
 These are called [Connections](/features#connecting-to-servers) in Tella.
 
@@ -31,6 +32,7 @@ graph TD;
     id1 --> id3("Mostly media files, with some text") ;
     id2 --> id4("What additional features do you need?");
     id3 --> id5("Tella Web");
+    id3 --> id11("Google Drive");
     id4 --> id6("Establish relationships between data points, publish to a website")
     id4 --> id7("Add logic to forms, collect high numbers for forms, create reports to visualize results")
     id4 --> id10("Send guides from the server to users")
@@ -85,5 +87,17 @@ The ODK connection is [only available on Android](/features).
 
 :::tip
 Learn more about Open Data Kit [here](/odk).
+:::
+
+### Google Drive {#g-drive}
+Tella users can sign in directly to their Google account using the Tella connections. If the user is part of an organization that uses Shared Drives, they can also submit the media files directly to a Shared Drive they have access to. Information will be saved into a folder, with a name and a description that the users can select from Tella.
+
+Offline support (Draft, Outbox tab and Submit Later) is available for the Google Drive server connection, like for all the other server connections available in Tella. 
+
+Learn more about the Google Drive integration [here](/g-drive),
+
+
+:::info
+The Google Drive connection is [only available on iOS](/features). We are currently working for adding it to Tella Android as well.
 :::
 

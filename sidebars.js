@@ -33,7 +33,7 @@ generalSidebar: [
       type: 'category',
       label: 'For organizations',
       link: {type: 'doc', id: 'For organizations/overview'},
-      items: ['For organizations/tella-web', 'For organizations/uwazi', 'For organizations/odk'],
+      items: ['For organizations/tella-web', 'For organizations/uwazi', 'For organizations/odk', 'For organizations/g-drive'],
     },
     {'Community': ['Community/community-meetings', 'Community/open-source', 'Community/translating-tella']},
     'faq',
