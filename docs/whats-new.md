@@ -17,6 +17,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ### Android: Tella 2.11.0 (186) - Released on August 30, 2024 {#android-tella-2110-186---released-on-aug-30-2024}
 - Added new options to edit photos within Tella's encrypted container: [Zoom and Flip](/features#edit-media).
 - Bug-fixing and small improvements:
+    - Disabled clear-text trafic in the manifest.
     - Added missing field name into Uwazi relationship property selector's header.
     - Disable button for saving a folder or file if its name is blank.
     - Fixed bug that made the sorting of files reverse order.
