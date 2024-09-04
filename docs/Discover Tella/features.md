@@ -108,6 +108,7 @@ While this security setting prevents brute force unlocking attempts to enter Tel
 We are in the process of adding the ability to edit media files directly within Tella's encrypted container, so users don't longer need to export their files outside Tella for editing those.
 
 | **Media Type** | **Feature** | **Tella Android** | **Tella iOS** | **Tella FOSS** |
+|----------------|-------------|-------------------|---------------|----------------|
 | Image          | Crop        | ✔️                | ✔️            | Not yet        |
 | Image          | Rotate      | ✔️                | ✔️            | Not yet        |
 | Image          | Flip        | ✔️                | Not yet       | Not yet        |
