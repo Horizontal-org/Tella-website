@@ -33,7 +33,7 @@ Setting up Tella Web involves three steps, which are thoroughly discussed in thi
 
 This step consists of installing and configuring Tella Web on the server your organization will be using. This step needs to be completed by the person who is going to be responsible for the system administration (a developer or a system administrator). Technical instructions can be found on [our Github](https://github.com/Horizontal-org/tellaweb).
 
-You can check Tella Web release notes [here](https://github.com/Horizontal-org/TellaWeb-FrontEnd/releases).
+You can check Tella Web release notes [here](https://github.com/Horizontal-org/tellaweb/releases).
 
 
 :::info
@@ -57,8 +57,18 @@ Take a look at [this video tutorial](/video-tutorials#connections-full-video) fo
 
 ### Admin center {#admin-center}
 
-Admins of the Tella Web space can change system-wide settings:
+Admins of the Tella Web space can enable or disable system-wide settings depending on their own risk assessment and privacy consideration:
 - [Opt-in to share analytics with Tella team](/security-and-privacy#analytics).
+- Suspicious login detection: 
+    - If enabled Tella Web will record location for each login IP and approximate location based on IP. If the user is connecting from an unusual location Tella Web will block the login attempt to prevent any unauthorized sing-in and send an email to the user to confirm if was a legitimate login attempt. 
+    - We use a [third party server](https://ipinfo.io/) to calculate the country of the IP. 
+    - Tella Web requires an SMTP server to be properly configured and working for this feature to work. 
+    - If disabled Tella Web won't store the IP, won't calculate location nor ping any third party service.
+- Feedback:
+    - When enabled, Tella Web shows a feedback box that allow users to send an anonymous note to the Tella team on any feedback request or bug reports that they might find. It doesn't contain any information about the user or the Tella Web instance.
+    - To ensure user privacy and anonymity, only essential data is transmitted to our Feedback server through HTTPS POST requests. Logs containing user information (IP address, date and time, and user-agent) are automatically deleted weekly.
+    - On the Feedback server database, we only store a copy of the text sent by users in the feedback form and which platform it came from (in this case from "Tella Web" without specifying which server installation). 
+
 
 
 ### Managing Projects {#managing-projects}
