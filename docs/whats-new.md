@@ -18,6 +18,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 - Added new options to edit photos within Tella's encrypted container: [Zoom and Flip](/features#edit-media).
 - Bug-fixing and small improvements:
     - Added missing field name into Uwazi relationship property selector's header.
+    - Disabled clear-text traffic in manifest.
     - Disable button for saving a folder or file if its name is blank.
     - Fixed bug that made the sorting of files reverse order.
     - Fixed crash when pressing back from the Uwazi template summary screen before submission.
@@ -27,6 +28,20 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Solved visual bug on the report status screen for report upload progress.
 
 
+### iOS: Tella 1.10.0 (78) - Released on September 3, 2024 {#ios-tella-1100-78---released-on-september-3-2024}
+- Implemented the Google Drive server connection that allows Tella users to upload the data they collect directly to either their personal Google Drive folder or to any organizational shared drives they are connected to. [Read here more about the integration](/gdrive).
+- Added support for Vietnamese.
+
+
+
+
+### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
+
+A version of Tella included for the first time on the F-droid store. This a 100% Free and Open-Source Software (FOSS) version of Tella Android. We removed all trackers, changed map and location provider and also changed the Camera library to CameraX, removed crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We removed completely all Google Play Services dependencies.
+
+
+
+## Previous versions {#previous-versions}
 
 ### iOS: Tella 1.9.0 (75) - Released on June 25, 2024 {#ios-tella-190-75---released-on-june-25-2024}
 - Added support for the relationship property type in the Uwazi connection.
@@ -41,14 +56,6 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Fix the import functionality when no permissions has been granted.
     - Keyboard was over text fields when renaming audio, folders or files.
 
-
-### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
-
-A version of Tella included for the first time on the F-droid store. This a 100% Free and Open-Source Software (FOSS) version of Tella Android. We removed all trackers, changed map and location provider and also changed the Camera library to CameraX, removed crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We removed completely all Google Play Services dependencies.
-
-
-
-## Previous versions {#previous-versions}
 
 ### Android: Tella 2.10.0 (185) - Released on Agust 5, 2024 {#android-tella-2100-185---released-on-aug-5-2024}
 - Added support for the relationship property type in the Uwazi connection.
