@@ -36,6 +36,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
     
 
 
+
 ### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
 
 A version of Tella included for the first time on the F-droid store. This a 100% Free and Open-Source Software (FOSS) version of Tella Android. We removed all trackers, changed map and location provider and also changed the Camera library to CameraX, removed crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We removed completely all Google Play Services dependencies.
@@ -50,8 +51,6 @@ A version of Tella included for the first time on the F-droid store. This a 100%
 - Bug-fixing and small improvements:
     - Fixed issue with primary files submission in Uwazi.
     - Fixed issue when deleting submitted entities in Uwazi (name was changed).
-    - Fixed issue with submitting primary docs to Uwazi.
-
 
 ### iOS: Tella 1.9.0 (75) - Released on June 25, 2024 {#ios-tella-190-75---released-on-june-25-2024}
 - Added support for the relationship property type in the Uwazi connection.
