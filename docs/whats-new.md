@@ -29,7 +29,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Solved visual bug on the report status screen for report upload progress.
 
 
-### iOS: Tella 1.10.0 (79) - Released on September 3, 2024 {#ios-tella-1100-78---released-on-september-3-2024}
+### iOS: Tella 1.10.0 (79) - Released on September 11, 2024 {#ios-tella-1100-79---released-on-september-11-2024}
 - Implemented the Google Drive server connection that allows Tella users to upload the data they collect directly to either their personal Google Drive folder or to any organizational shared drives they are connected to. [Read here more about the integration](/g-drive).
 - Added support for Vietnamese.
 - Bug-fixing and small improvements:
