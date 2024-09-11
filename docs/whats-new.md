@@ -35,7 +35,6 @@ To receive monthly updates on new features and improvements to Tella and stay up
 - Bug-fixing and small improvements:
     - Fixed issue with primary files submission in Uwazi.
     - Fixed issue when deleting submitted entities in Uwazi (name was changed).
-    - Fixed issue with submitting primary docs to Uwazi.
 
 
 
