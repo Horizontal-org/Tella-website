@@ -7,7 +7,7 @@
 |[Camera silent mode](/features#camera-silent-mode)| ✔️| Not yet| ✔️ |
 | [Screen Security](/features#screen-security)| ✔️| ✔️| ✔️ |
 | [Restrict unlocking attempts](features#restrict-unlocking-attempts)| ✔️| ✔️| Not yet |
-| [Edit Media](/features#edit-media)| Crop and Rotate Photos| Crop and Rotate Photos| Not yet |
+| [Edit Media](/features#edit-media)| Crop, Rotate Flip and Zoom Photos| Crop and Rotate Photos| Not yet |
 | [Encryption](/features#encryption)| ✔️| ✔️| ✔️ |
 | [Encrypted file management](/features#file-management)| ✔️ | ✔️ | ✔️ |
 | [Feedback](/features#feedback) | ✔️ | ✔️ | Not yet |
@@ -23,5 +23,5 @@
 | [Verification mode](/features#verification-mode)| ✔️ | Not yet | ✔️ |
 | [Quick delete](/features#quick-delete)| Files, Connections and Tella | Files and Connections  | Files, Connections and Tella |
 | [Quick exit](/features#quick-exit)| Locks and close | Locks  | Locks and close  |
-| [Connections to collect data and send files](/features#connecting-to-servers) | - Tella Web <br />- Uwazi <br />- Open Data Kit (Forms) | - Tella Web <br />- Uwazi  | - Uwazi <br />- Open Data Kit (Forms)  |
+| [Connections to collect data and send files](/features#connecting-to-servers) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Open Data Kit (Forms)](/odk) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) | - [Uwazi](/uwazi) <br />- Open Data Kit (Forms)](/odk)  |
 | [Offline data collection](/features#offline-data-collection) | ✔️ | ✔️ |  ✔️ |

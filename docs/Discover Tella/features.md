@@ -96,14 +96,33 @@ By default, this setting is Off, which means unlock attempts are not restricted 
 
 After the specified number of failed attempts, all files, connections, and everything in Tella get deleted, and the user will go back to the "freshly installed" app state.
 
+:::info
+The Restrict unlocking attempts feature cannot be enabled if Calculator camouflage is enabled.
+:::
+
 :::danger
 While this security setting prevents brute force unlocking attempts to enter Tella, it should be used with caution, as there is no way to restore the content of Tella once the maximum number of failed unlocking attempts is reached.
 :::
 
 ## Edit Media {#edit-media}
-We are in the process of adding the ability to edit media files directly within Tella. Soon, users will no longer need to export their files outside Tella for editing. Tella Android and Tella iOS kick things off with photo editing capabilities (crop and rotate). 
+We are in the process of adding the ability to edit media files directly within Tella's encrypted container, so users don't longer need to export their files outside Tella for editing those.
 
-Users can edit a picture by going to **More** > **Edit** from the **Images** folder or by taping the **Edit** button on the top right while viewing image you have on Tella. On the Edit Image screen users can use the **Rotate** button on the bottom of the screen to rotate the image counter-clock wise or pinch and expand or contracts your fingers to move the white canvas to crop the picture. When edits are done, users can press the orange check on the top right of the edit screen.
+| **Media Type** | **Feature** | **Tella Android** | **Tella iOS** | **Tella FOSS** |
+|----------------|-------------|-------------------|---------------|----------------|
+| Image          | Crop        | ✔️                | ✔️            | Not yet        |
+| Image          | Rotate      | ✔️                | ✔️            | Not yet        |
+| Image          | Flip        | ✔️                | Not yet       | Not yet        |
+| Image          | Zoom        | ✔️                | Not yet       | Not yet        |
+| Video          | Trim and rotate | Not yet       | Soon          | Not yet        |
+| Audio          | Trim        | Not yet           | Soon          | Not yet        |
+
+Users can edit a picture by going to **More** > **Edit** from the **Images** folder or by taping the **Edit** button on the top right while viewing image you have on Tella. 
+- **Rotate**:  Use the Rotate button on the bottom of the screen to rotate the image counter-clock wise. 
+- **Crop**: Pinch and expand or contracts your fingers to move the white canvas to crop the picture. 
+- **Zoom**: The image will auto zoom depending on the selected canvas, to avoid loosing image quality as much as possible.
+- **Flip**: Use the Flip horizontal to mirror-reversal the image horizontally or Flip vertical button to flip it upside-down.
+
+When edits are done, users can press the orange check on the top right of the edit screen. The edited file will be saved as a copy of the original file in the same folder.
 
 ## Encryption {#encryption}
 
@@ -200,6 +219,10 @@ At this time, due to restrictions on the Apple App Store, Tella for iOS does not
 
 :::danger
 The name "Tella" and its icon will remain visible in the Android settings. This means that camouflage will not protect against an individual _actively_ looking for Tella on the phone or conducting an in-depth analysis of the device. 🔒👀
+:::
+
+:::info
+The Calculator camouflage feature cannot be enabled if the Restrict unlock attempts feature is on .
 :::
 
 :::tip video tutorial 🎥
