@@ -19,7 +19,6 @@ To receive monthly updates on new features and improvements to Tella and stay up
 - Bug-fixing and small improvements:
     - Disabled clear-text trafic in the manifest.
     - Added missing field name into Uwazi relationship property selector's header.
-    - Disabled clear-text traffic in manifest.
     - Disable button for saving a folder or file if its name is blank.
     - Fixed bug that made the sorting of files reverse order.
     - Fixed crash when pressing back from the Uwazi template summary screen before submission.
