@@ -14,7 +14,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 
 ## Tella - Latest Versions {#tella---latest-versions}
 
-### Android: Tella 2.11.0 (186) - Released on August 30, 2024 {#android-tella-2110-186---released-on-aug-30-2024}
+### Android: Tella 2.11.0 (186) - Released on September 18, 2024 {#android-tella-2110-186---released-on-september-18-2024}
 - Added new options to edit photos within Tella's encrypted container: [Zoom and Flip](/features#edit-media).
 - Bug-fixing and small improvements:
     - Disabled clear-text trafic in the manifest.
