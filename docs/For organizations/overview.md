@@ -90,9 +90,9 @@ Learn more about Open Data Kit [here](/odk).
 :::
 
 ### Google Drive {#g-drive}
-Tella users can sign in directly to their Google account using the Tella connections. If the user is part of an organization that uses Shared Drives, they can also submit the media files directly to a Shared Drive they have access to. Information will be saved into a folder, with a name and a description that the users can select from Tella.
+Users can sign-in directly to their Google account from within Tella and upload files to a folder in their Drive account. If the user is part of an organization that uses Google Workspace, they can also submit the files directly to a Shared Drive they have access to. Each "report" uploaded will create a new folder in Drive.
 
-Offline support (Draft, Outbox tab and Submit Later) is available for the Google Drive server connection, like for all the other server connections available in Tella. 
+As for all Connections in Tella, users can use most of the Google Drive connection offline through the Draft, Outbox tab and Submit Later tabs. 
 
 Learn more about the Google Drive integration [here](/g-drive),
 
