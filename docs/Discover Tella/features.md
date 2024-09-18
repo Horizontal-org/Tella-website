@@ -118,15 +118,16 @@ We are in the process of adding the ability to edit media files directly within 
 | Image          | Crop        | ✔️                | ✔️            | Not yet        |
 | Image          | Rotate      | ✔️                | ✔️            | Not yet        |
 | Image          | Flip        | ✔️                | Not yet       | Not yet        |
-| Image          | Zoom        | ✔️                | Not yet       | Not yet        |
-| Video          | Trim and rotate | Not yet       | Soon          | Not yet        |
+| Image          | Auto-zoom        | ✔️                | Not yet       | Not yet        |
+| Video          | Trim        | Not yet       | Soon          | Not yet        |
+| Video          | Rotate      | Not yet       | Soon          | Not yet        |
 | Audio          | Trim        | Not yet           | Soon          | Not yet        |
 
 Users can edit a picture by going to **More** > **Edit** from the **Images** folder or by taping the **Edit** button on the top right while viewing image you have on Tella. 
 - **Rotate**:  Use the Rotate button on the bottom of the screen to rotate the image counter-clock wise. 
-- **Crop**: Pinch and expand or contracts your fingers to move the white canvas to crop the picture. 
-- **Zoom**: The image will auto zoom depending on the selected canvas, to avoid loosing image quality as much as possible.
-- **Flip**: Use the Flip horizontal to mirror-reversal the image horizontally or Flip vertical button to flip it upside-down.
+- **Crop**: Drap the corners of the white canvas to crop the picture. 
+- **Auto-zoom**: The image will automatically zoom in and out depending on the selected canvas, to avoid loosing image quality.
+- **Flip**: Use the flip buttons to mirror the image horizontally or vertically.
 
 When edits are done, users can press the orange check on the top right of the edit screen. The edited file will be saved as a copy of the original file in the same folder.
 
