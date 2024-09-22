@@ -4,6 +4,8 @@ title: Overview
 description: Learn how organizations can use Tella for research, advocacy, or accountability processes
 slug: /for-organizations
 ---
+import ConnectionsTable from '.././_connections-table.md';
+
 
 # Tella for organizations - Overview 
 
@@ -17,13 +19,14 @@ Currently, Tella can be connected to the following types of servers:
 * [Uwazi](#uwazi)
 * [Tella Web](#tella-web)
 * [Google Drive](#g-drive)
+* [Nexcloud](#nexcloud)
 
 These are called [Connections](/features#connecting-to-servers) in Tella.
 
 
 ## Selecting the right type of server {#selecting-the-right-type-of-server}
 
-The following is a basic, non-comprehensive graph to help determine which of the three server types is best suited to different needs. This is a good starting point, but you can also watch [this video](/video-tutorials#connections-full-video) where we present each server type. If you need help deciding or would like to request a new Connection (an integration to a new server type), [contact us!](/contact-us).
+The following is a basic, non-comprehensive graph to help determine which server types is best suited to different needs. This is a good starting point, but you can also watch [this video](/video-tutorials#connections-full-video) where we present each server type. If you need help deciding or would like to request a new Connection (an integration to a new server type), [contact us!](/contact-us).
 
 
 ```mermaid
@@ -33,13 +36,17 @@ graph TD;
     id2 --> id4("What additional features do you need?");
     id3 --> id5("Tella Web");
     id3 --> id11("Google Drive");
+    id3 --> id12("Nexcloud");
     id4 --> id6("Establish relationships between data points, publish to a website")
     id4 --> id7("Add logic to forms, collect high numbers for forms, create reports to visualize results")
-    id4 --> id10("Send guides from the server to users")
     id6 --> id8("Uwazi")
     id7 --> id9("Open Data Kit (ODK)")
-    id10 -->id5
 ```
+
+On this table we explain what server types are available on the Tella apps:
+<ConnectionsTable/>
+
+
 
 ### Tella Web {#tella-web}
 
@@ -53,8 +60,9 @@ The Tella Web server connection also allows users to securely download guides, r
 
 The Tella Web connection is available on Tella Android and Tella iOS, but not yet on [Tella-FOSS](/faq#is-tella-available-on-f-droid). 
 
+:::tip
 Learn more about Tella Web [here](/tella-web),
-
+:::
 
 ### Uwazi {#uwazi}
 
@@ -90,14 +98,28 @@ Learn more about Open Data Kit [here](/odk).
 :::
 
 ### Google Drive {#g-drive}
-Tella users can sign in directly to their Google account using the Tella connections. If the user is part of an organization that uses Shared Drives, they can also submit the media files directly to a Shared Drive they have access to. Information will be saved into a folder, with a name and a description that the users can select from Tella.
+Tella users can sign in directly to their Google account using the Tella connections. If the user is part of an organization that uses Shared Drives, they can also submit the media files directly to a Shared Drive they have access to. Information (audios, videos and photos) will be saved into a folder, with a name and a description that the users can select from Tella.
 
 Offline support (Draft, Outbox tab and Submit Later) is available for the Google Drive server connection, like for all the other server connections available in Tella. 
 
-Learn more about the Google Drive integration [here](/g-drive),
-
+:::tip
+Learn more about the Google Drive connection [here](/g-drive),
+:::
 
 :::info
 The Google Drive connection is [only available on iOS](/features). We are currently working for adding it to Tella Android as well.
+:::
+
+### Nexcloud {#nexcloud}
+Tella users can sign in directly to their Nexcloud from their Tella in the form of a Report. Information (audios, videos and photos) will be saved into a folder, with a name and a description that the users can select from Tella.
+
+Offline support (Draft, Outbox tab and Submit Later) is available for the Nexcloud server connection, like for all the other server connections available in Tella. 
+
+:::tip
+Learn more about the Nexcloud connection [here](/nexcloud),
+:::
+
+:::info
+The Nexcloud connection is [only available on iOS](/features). We are currently working for adding it to Tella Android as well.
 :::
 
