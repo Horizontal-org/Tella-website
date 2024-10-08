@@ -28,12 +28,16 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Solved visual bug on the report status screen for report upload progress.
 
 
-### iOS: Tella 1.11.0 (X) - Released on September 23, 2024 {#ios-tella-1110-x---released-on-september-23-2024}
+### iOS: Tella 1.11.0 (81) - Released on October 8, 2024 {#ios-tella-1110-81---released-on-october-8-2024}
 - Implemented the Nexcloud server connection that allows Tella users to upload the data they collect directly to either Nexcloud. [Read here more about the connection](/nexcloud).
 - Bug-fixing and small improvements:
-    - To be decided by devs (see the email i sent)
-    
-
+    - Fixed progress view for large files and cancel action in Tella Web reports view.
+    - Hide "use shared drive" button if not using an organizational account.
+    - Unified required/optional fields in all server connections.
+    - Fix UI for labels on the Servers view when there is an existing connection.
+    - Fix visual bugs on entities and delete entities cards for Uwazi connections.
+    - Fix edit connection title.
+    - Delete unused WebView class that was flagged in the security audit.
 
 
 ### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
