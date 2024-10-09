@@ -111,16 +111,16 @@ Learn more about the Google Drive connection [here](/g-drive),
 The Google Drive connection is [only available on iOS](/features). We are currently working for adding it to Tella Android as well.
 :::
 
-### Nexcloud {#nexcloud}
-Tella users can sign in directly to their Nexcloud from their Tella in the form of a Report. Information (audios, videos and photos) will be saved into a folder, with a name and a description that the users can select from Tella.
+### Nextcloud {#nextcloud}
+Users can sign-in directly to their NextCloud account from within Tella and upload files to a folder in their NextCloud account. Each "report" uploaded will create a new folder in NextCloud.
 
-Offline support (Draft, Outbox tab and Submit Later) is available for the Nexcloud server connection, like for all the other server connections available in Tella. 
+As for all Connections in Tella, users can use most of the NextCloud connection offline through the Draft, Outbox tab and Submit Later tabs. 
 
 :::tip
 Learn more about the Nexcloud connection [here](/nexcloud),
 :::
 
 :::info
-The Nexcloud connection is [only available on iOS](/features). We are currently working for adding it to Tella Android as well.
+The Nextcloud connection is [only available on iOS](/features). We are currently working for adding it to Tella Android as well.
 :::
 
