@@ -5,7 +5,7 @@ description: The Reports feature empowers users to conveniently upload photos, v
 slug: /tella-web
 ---
 
-# Tella Web 
+# Tella Web Connection
 
 Tella Web is an open-source tool that enables individuals and organizations to centralize and manage reports sent by Tella users, including photos, videos, and audio files. 
 
@@ -13,7 +13,7 @@ Tella Web is developed internally by our team at Horizontal, the same team respo
 
 We can provide support for the installation, configuration, and maintenance of a Tella Web instance if you don't have someone within your organization who can do it.
 
-Similarly to all other connections([Uwazi](/uwazi) and [Open Data Kit](/odk)), connecting to Tella Web enhances the security of data collected on Tella by:
+Similarly to all other connections([Uwazi](/uwazi), [Google Drive](/g-drive), [Nexcloud](/nexcloud) and [Open Data Kit](/odk)), connecting to Tella Web enhances the security of data collected on Tella by:
 1. Allowing users to collect data directly inside Tella's encrypted container.
 2. Ensuring that data is sent directly from Tella to Tella Web, without having to rely on a third-party tool or app.
 3. Allowing users to back up their data on a remote server, to lower the risk that data is discovered on their mobile device.
@@ -27,6 +27,17 @@ Setting up Tella Web involves three steps, which are thoroughly discussed in thi
 * **Set up your project(s) on your server**: In this step, admins decide how to organize themselves to collect data, create "projects", add "resources" for users to download on their devices and set roles and permissions for users.
 * **Get people on the ground ready to start submitting reports**: Users install Tella on their Android or iPhone device. They then connect to the Tella Web project and start collecting information.
 
+## When to Use Tella Web {#when-to-use-tella-web}
+
+The Tella Web could be a good alternative if:
+- You have the capacity to self-host Tella Web.
+- People on the ground will be sending mostly media files, with some text and don't need structured data collection (forms).
+- You will be partnering with Horizontal and you want the same organization to help you with installation, configuration, and maintenance of your Tella Web instance and the Tella apps.
+
+
+:::tip
+If you need help figuring out if Tella Web is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
+:::
 
 
 ## Install the server {#install-the-server}
@@ -61,7 +72,7 @@ Admins of the Tella Web space can enable or disable system-wide settings dependi
 - [Opt-in to share analytics with Tella team](/security-and-privacy#analytics).
 - Suspicious login detection: 
     - If enabled Tella Web will record location for each login IP and approximate location based on IP. If the user is connecting from an unusual location Tella Web will block the login attempt to prevent any unauthorized sing-in and send an email to the user to confirm if was a legitimate login attempt. 
-    - We use a [third party server](https://ipinfo.io/) to calculate the country of the IP. 
+    - We use a [third party service](https://ipinfo.io/) to calculate the country of the IP. 
     - Tella Web requires an SMTP server to be properly configured and working for this feature to work. 
     - If disabled Tella Web won't store the IP, won't calculate location nor ping any third party service.
 - Feedback:

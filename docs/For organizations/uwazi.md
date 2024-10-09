@@ -5,13 +5,13 @@ description: The Uwazi server connection is available for organizations looking 
 slug: /uwazi
 ---
 
-# Uwazi
+# Uwazi Connection
 
 [Uwazi](https://uwazi.io/) is an open-source documentation tool developed by [HURIDOCS](https://huridocs.org). It is a flexible, web-based database application designed for human rights defenders to manage their collections of information, including documents, evidence, cases, and complaints.
 
 Uwazi allows organizations to aggregate, in a central repository, data collected by their members or partners. Tella users connect to their organization's Uwazi instance, download forms (called templates), fill templates as many times as they need (even if they don't have internet connectivity), and upload the data. Organizations can then curate, organize, and publish their data directly from Uwazi. 
 
-Similarly to all other server connections([Tella Web](/tella-web) and [Open Data Kit](/odk)), connecting to Uwazi enhances the security of data collected on Tella by:
+Similarly to all other server connections([Tella Web](/tella-web), [Google Drive](/g-drive), [Nexcloud](/nexcloud) and [Open Data Kit](/odk)), connecting to Uwazi enhances the security of data collected on Tella by:
 1. Allowing users to collect data directly inside Tella's encrypted container
 2. Ensuring that data is sent directly from Tella to Uwazi, without having to rely on a third-party tool or app
 3. Allowing users to back up their data on a remote server, to lower the risk that data is discovered on their mobile device
@@ -40,6 +40,10 @@ Here there are some pointers on Uwazi may be particularly suitable to your use c
 - You need to preserve information in a secure way over the long term.
 
 You can learn more about Uwazi on [Uwazi's official documentation](https://uwazi.readthedocs.io/en/latest/). HURIDOCS is a great friend of Horizontal, so if you have questions about Uwazi or would like us to connect you to the HURIDOCS team, [contact-us](contact-us).
+
+:::tip
+If you need help figuring out if Uwazi is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
+:::
 
 ## Configure Uwazi on a server {#configure-uwazi-on-a-server}
 

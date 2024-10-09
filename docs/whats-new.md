@@ -14,12 +14,11 @@ To receive monthly updates on new features and improvements to Tella and stay up
 
 ## Tella - Latest Versions {#tella---latest-versions}
 
-### Android: Tella 2.11.0 (186) - Released on August 30, 2024 {#android-tella-2110-186---released-on-aug-30-2024}
+### Android: Tella 2.11.0 (186) - Released on September 18, 2024 {#android-tella-2110-186---released-on-september-18-2024}
 - Added new options to edit photos within Tella's encrypted container: [Zoom and Flip](/features#edit-media).
 - Bug-fixing and small improvements:
     - Disabled clear-text trafic in the manifest.
     - Added missing field name into Uwazi relationship property selector's header.
-    - Disabled clear-text traffic in manifest.
     - Disable button for saving a folder or file if its name is blank.
     - Fixed bug that made the sorting of files reverse order.
     - Fixed crash when pressing back from the Uwazi template summary screen before submission.
@@ -29,14 +28,16 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Solved visual bug on the report status screen for report upload progress.
 
 
-### iOS: Tella 1.10.0 (79) - Released on September 3, 2024 {#ios-tella-1100-78---released-on-september-3-2024}
-- Implemented the Google Drive server connection that allows Tella users to upload the data they collect directly to either their personal Google Drive folder or to any organizational shared drives they are connected to. [Read here more about the integration](/g-drive).
-- Added support for Vietnamese.
+### iOS: Tella 1.11.0 (81) - Released on October 8, 2024 {#ios-tella-1110-81---released-on-october-8-2024}
+- Implemented the Nexcloud server connection that allows Tella users to upload the data they collect directly to either Nexcloud. [Read here more about the connection](/nexcloud).
 - Bug-fixing and small improvements:
-    - Fixed issue with primary files submission in Uwazi.
-    - Fixed issue when deleting submitted entities in Uwazi (name was changed).
-    - Fixed issue with submitting primary docs to Uwazi.
-
+    - Fixed progress view and cancel action for large files in the report view in all servers connections.
+    - Hide "use shared drive" button if not using an organizational account.
+    - Unified required/optional fields in all server connections.
+    - Fix UI for labels on the Servers view when there is an existing connection.
+    - Fix visual bugs on entities and delete entities cards for Uwazi connections.
+    - Fix edit connection title.
+    - Delete unused WebView class that was flagged in the security audit.
 
 
 ### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
@@ -46,6 +47,13 @@ A version of Tella included for the first time on the F-droid store. This a 100%
 
 
 ## Previous versions {#previous-versions}
+
+### iOS: Tella 1.10.0 (79) - Released on September 3, 2024 {#ios-tella-1100-78---released-on-september-3-2024}
+- Implemented the Google Drive server connection that allows Tella users to upload the data they collect directly to either their personal Google Drive folder or to any organizational shared drives they are connected to. [Read here more about the connection](/g-drive).
+- Added support for Vietnamese.
+- Bug-fixing and small improvements:
+    - Fixed issue with primary files submission in Uwazi.
+    - Fixed issue when deleting submitted entities in Uwazi (name was changed).
 
 ### iOS: Tella 1.9.0 (75) - Released on June 25, 2024 {#ios-tella-190-75---released-on-june-25-2024}
 - Added support for the relationship property type in the Uwazi connection.
