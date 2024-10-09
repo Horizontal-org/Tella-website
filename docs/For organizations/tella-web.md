@@ -221,7 +221,7 @@ Admins and editors can add resources available on the space to projects they hav
 
 To add resourcs to projects tap on the **Add resources** button and search available resources by name. One or many resources can be added to the project at the same time.
 
-All users that connets to this project from their Tella apps will see a Resources card available and they can download this Resource to their encrypted container.
+All users that connects to this project from their Tella apps will see a Resources card available and they can download this Resource to their encrypted container.
 
 Tella Web does not keep track of any information about resources downloads.
 

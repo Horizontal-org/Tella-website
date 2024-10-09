@@ -1,6 +1,6 @@
 ---
 id: open-source
-title: Open Source
+title: Tella مفتوح المصدر
 description: معلومات عن التزام Tella بسياسة البرامج مفتوحة المصدر والروابط للمستودعات
 slug: /open-source
 ---

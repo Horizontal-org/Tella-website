@@ -1,6 +1,6 @@
 ---
 id: get-started-ios
-title: iOS
+title: iOS တွင် Tella စတင်နည်း
 description: iOS ဖြင့် Tella အသုံးပြုသူများအတွက် အမြန်စတင်နည်း လမ်းညွှန်
 slug: /get-started-ios
 ---
@@ -12,8 +12,9 @@ Tella ကို App Store တွင် ရှာရန် [ဤလင့်ခ်
 
 
 <div class="gifs">
-    <img src={require("@site/static/img/getting-started/ios/find-and-download.gif").default} alt="gif that shows how to download Tella from the App Store" title="find and download gif" />
+    <img src={require('@site/static/img/getting-started/ios/find-and-download.gif').default} alt="gif that shows how to download Tella from the App Store" title="find and download gif" />
 </div>
+
 
 
 
@@ -38,7 +39,7 @@ Tella ကို ပထမဆုံးအကြိမ် ဖွင့်သော
 
 
 <div class="gifs">
-    <img src="img/getting-started/ios/granting-permissions.gif" alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
+    <img src={require('@site/static/img/getting-started/ios/granting-permissions.gif').default} alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
 </div>
 
 
@@ -46,8 +47,9 @@ Tella ကို ပထမဆုံးအကြိမ် ဖွင့်သော
 ဤခွင့်ပြုချက်များကို Tella အား မပေးပါက နောက်မှ သင်၏ iPhone ဆက်တင်များသို့သွားပြီး **ဆက်တင်များ** > **Tella** > **Tella အား ကင်မရာ၊ မိုက်ခရိုဖုန်းနှင့် ဖိုင်များကို ဝင်ရောက်ကြည့်ရှုခွင့်ပေးပါ** သို့သွား၍ ခွင့်ပြုချက်များ ပေးနိုင်ပါသည်။
 
 <div class="gifs">
-    <img src={require("@site/static/img/getting-started/ios/taking-picture-permissions.gif").default} alt="gif that shows how to take a picture in Tella the first time (grant permission)" title="Tella will ask you to grant permissions the first time you open the camera" />
+   <img src={require("@site/static/img/getting-started/ios/taking-picture-permissions.gif").default} alt="gif that shows how to take a picture in Tella the first time (grant permission)" title="Tella will ask you to grant permissions the first time you open the camera" />
 </div>
+
 
 
 
@@ -58,19 +60,21 @@ Tella ကို ပထမဆုံးအကြိမ် ဖွင့်သော
 
 
 <div class="gifs">
-    <img src={require("@site/static/img/getting-started/ios/picture.gif").default} alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
-    <img src={require("@site/static/img/getting-started/ios/recording.gif").default} alt="gif that shows how to record audio in Tella" title="record audio in Tella" />
-</div> 
+   <img src={require("@site/static/img/getting-started/ios/picture.gif").default} alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
+   <img src={require("@site/static/img/getting-started/ios/recording.gif").default} alt="gif that shows how to record audio in Tella" title="record audio in Tella" />
+</div>
 
 
 
 
 
-**သင့်ဖိုင်များကို Tella သို့ တင်သွင်းပါ။** Tella အတွင်းရှိ ဖိုင်တွဲများမှတစ်ခုသို့ သွား၍ **+** ခလုတ် > **စက်ပစ္စည်းမှ တင်သွင်းမည်** ကို နှိပ်ပါ။ Tella တွင် သင်သိမ်းဆည်းလိုသောဖိုင်ကို ရွေးချယ်ပြီးနောက် ဖိုင်၏မိတ္တူကို Tella တွင် ကုဒ်ဝှက်ပြီး ဝှက်၍သိမ်းထားပါမည်။ မူရင်းဖိုင်ကို သင့်စက်မှ ဖျက်ရန် သို့မဟုတ် သိမ်းထားရန် ရွေးချယ်ခိုင်းပါမည်။ သင့်ဖိုင်များကို ရွေးချယ်နေစဉ် အများဆုံး (၃) မိနစ်အထိ Tella ကို သော့ဖွင့်ထားပါမည်။
+
+**သင့်ဖိုင်များကို Tella သို့ ပေးပို့ပါ။** Tella အတွင်းရှိ ဖိုင်တွဲများမှတစ်ခုသို့ သွား၍ **+** ခလုတ် > **စက်ပစ္စည်းမှ ပေးပို့မည်** ကို နှိပ်ပါ။ Tella တွင် သင်သိမ်းဆည်းလိုသော ဖိုင်ကို ရွေးချယ်ပြီးနောက် ဖိုင်၏မိတ္တူကို Tella တွင် ကုဒ်ဝှက်ပြီး ဝှက်၍သိမ်းထားပါမည်။ မူရင်းဖိုင်ကို သင့်စက်မှ ဖျက်ရန် သို့မဟုတ် သိမ်းထားရန် ရွေးချယ်ခိုင်းပါမည်။ သင့်ဖိုင်များကို ရွေးချယ်နေစဉ် အများဆုံး (၃) မိနစ်အထိ Tella ကို သော့ဖွင့်ထားပါမည်။
 
 <div class="gifs">
     <img src={require("@site/static/img/getting-started/ios/import-files.gif").default} alt="gif that shows how to import files in Tella" title="import files in Tella" />
-</div> 
+</div>
+
 
 
 **ဖိုင်တွဲများကို ဖန်တီးပါ။** သင့်ဖိုင်များကို ရှာဖွေရာ၌ ပိုမိုလွယ်ကူစေရန် ဖိုင်များကို ဖိုင်တွဲများအဖြစ် စုစည်းနိုင်ပါသည်။ **ဖိုင်အားလုံး** > **+** > **ဖိုင်တွဲအသစ်တစ်ခုကို ဖန်တီးပါ** သို့သွားကာ ဖိုင်တွဲအတွက် ဖော်ပြချက်အမည်ကို ရိုက်ထည့်ပါ။ ထို့နောက် စခရင်ထိပ်ရှိ တစ်ခုမက ရွေးရန် ခလုတ်ကို အသုံးပြု၍ ဖိုင်တွဲအသစ်သို့ ရွှေ့လိုသော ဖိုင်များကို ရွေးချယ်ပါ၊ ထို့နောက် အစက် (၃) စက်ခလုတ်ကို နှိပ်ပြီး အခြားဖိုင်တွဲတစ်ခုသို့ ရွှေ့ပါ၊ ဖိုင်တွဲကို ရှာတွေ့ရန် ဖိုင်တည်ဆောက်ပုံ လမ်းကြောင်းရှာပါ။ ထို့နောက် ဤနေရာသို့ ရွှေ့ရန် ကို နှိပ်ပါ။
@@ -78,7 +82,8 @@ Tella ကို ပထမဆုံးအကြိမ် ဖွင့်သော
 
 <div class="gifs">
     <img src={require("@site/static/img/getting-started/ios/folders.gif").default} alt="gif that shows how to organize evidence in folders in Tella" title="folders in Tella" />
-</div> 
+</div>
+
 
 
 **ဖိုင်များကို အမည်ပြောင်းပါ-** သင့်ဒေတာများကို စနစ်တကျထားရှိရန် အခြားနည်းလမ်းမှာ ပိုမိုသိသာထင်ရှားစေရန် ဖိုင်များကို အမည်ပြောင်းလဲခြင်း ဖြစ်သည်။ ပုံမှန်အားဖြင့် ဖိုင်များကို အလိုအလျောက် ထုတ်ပေးသော အမည်ပေးထားပါမည်။ ဖိုင်အမည်တစ်ခုစီ၏ ဘေးတွင် ရှိသော **အစက် (၃) စက်** ကို နှိပ်ပြီး **အမည်ပြောင်းရန်** ကို နှိပ်၍ ၎င်းကို ပြောင်းလဲနိုင်သည်။ 
@@ -86,7 +91,8 @@ Tella ကို ပထမဆုံးအကြိမ် ဖွင့်သော
 
 <div class="gifs">
     <img src={require("@site/static/img/getting-started/ios/rename.gif").default} alt="gif that shows how to rename files in Tella" title="rename files in Tella" />
-</div> 
+</div>
+
 
 
 ## သင့်အချက်အလက်များကို မျှဝေပါ {#share-your-information}
@@ -96,7 +102,8 @@ Tella ကိုအသုံးပြု၍ အချက်အလက်မျှ�
 
 <div class="gifs">
     <img src={require("@site/static/img/getting-started/ios/share.gif").default} alt="gif that shows how share information in Tella" title="share information in Tella" />
-</div> 
+</div>
+
 
 
 
@@ -116,7 +123,7 @@ Tella ဝဘ်အကြောင်း [ဤနေရာ](/tella-web) တွင�
 #### Uwazi {#uwazi}
 [Uwazi](https://uwazi.io/) သည် HURIDOCS မှ ဖန်တီးထားသော ပွင့်လင်းအရင်းအမြစ် အက်ပ်တစ်ခု ဖြစ်ပြီး လူ့အခွင့်အရေးဆိုင်ရာ အချက်အလက်များကို စုဆောင်းရန်၊ စုစည်းရန်နှင့် ရုပ်ပုံဖြင့်ဖော်ပြနိုင်ရန် အစွမ်းထက်သော အင်္ဂါရပ်များ ပါဝင်သည်။
 
-Open Data Kit ဆာဗာသို့ ချိတ်ဆက်ပုံနှင့်ပတ်သက်သည့် စာရွက်စာတမ်းများကို ကျွန်ုပ်တို့ ရေးသားခဲ့ပြီး စတင်ရန်အတွက် [ဤစာမျက်နှာ](/uwazi) ကို ဖတ်ရှုရန် အကြံပြုအပ်ပါသည်။
+Uwazi ဆာဗာသို့ ချိတ်ဆက်ပုံနှင့်ပတ်သက်သည့် စာရွက်စာတမ်းများကို ကျွန်ုပ်တို့ ရေးသားခဲ့ပြီး စတင်ရန်အတွက် [ဤစာမျက်နှာ](/uwazi) ကို ဖတ်ရှုရန် အကြံပြုအပ်ပါသည်။
 
 
 

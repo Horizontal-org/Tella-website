@@ -1,6 +1,6 @@
 ---
 id: get-started-android
-title: Android
+title: بدء استخدام Tella على أندرويد
 description: دليل البدء السريع لمستخدمي Tella على أندرويد
 slug: /get-started-android
 ---
@@ -16,8 +16,8 @@ slug: /get-started-android
 
 إذا كنت بحاجة إلى المساعدة لتثبيت التطبيق يدويا، يمكنك [اتباع هذا الدليل](/video-tutorials#manual-installation-of-tella) أو [اتصل بنا](/contact-us).
 
-<div class="gifs">
-  <img src={require("@site/static/img/getting-started/android/find-tella.gif").default} alt="gif that shows how to download Tella from the Play Store" title="find and download gif" />
+<div className="gifs">
+    <img src={require('@site/static/img/getting-started/android/find-tella.gif').default} alt="gif that shows how to download Tella from the Play Store" title="find and download gif" />
 </div>
 
 
@@ -45,7 +45,7 @@ slug: /get-started-android
 
 إذا رفضت منح Tella هذه التراخيص، فيمكنك منحها لاحقا بالانتقال إلى إعدادات أندرويد والانتقال إلى 'إعدادات' > 'التطبيقات' > 'Tella' > 'تراخيص التطبيقات'.
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/android/permissions.gif").default} alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
     <img src={require("@site/static/img/getting-started/android/permissions-change.gif").default} alt="gif that shows how to chage granted permissions on Tella" title="change the granted permission" />
 </div>
@@ -57,7 +57,7 @@ slug: /get-started-android
 
 **استخدم الكاميرا لالتقاط الصور أو مقاطع الفيديو ومسجل الصوت لتسجيل المقاطع الصوتية.** ستتم تعمية جميع الوسائط التي التقطتها بواسطة Tella على الفور، مما يعني أنه سيتعذر الوصول للملف خارج Tella. ولن تظهر الوسائط التي تم جمعها داخل Tella على معرض أو ملفات هاتفك. لا يوجد حد تخزين معين لـTella، تعتمد المساحة المتوفرة على الحيز المتاح على جهازك.
 
-<div class="gifs">
+<div className="gifs">
   <img src={require("@site/static/img/getting-started/android/picture.gif").default} alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
   <img src={require("@site/static/img/getting-started/android/video.gif").default} alt="gif that shows how to record a video in Tella" title="video recording in Tella" />
   <img src={require("@site/static/img/getting-started/android/audio.gif").default} alt="gif that shows how to record audio in Tella" title="audio recording in Tella" />
@@ -67,7 +67,7 @@ slug: /get-started-android
 
 **استيراد ملفاتك إلى Tella.** انتقل إلى أي من المجلدات داخل Tella واضغط على زر **+** > **استيراد من الجهاز**. اختر الملف الذي ترغب في الاحتفاظ به داخل Tella وسيتم تخزين نسخة معمّاة ومخفية للملف في Tella. سيُطلب منك الاختيار بين حذف الملف الأصلي من جهازك وبين الاحتفاظ به. سيبقى Tella مفتوحا أثناء اختيارك لملفاتك لمدة أقصاها ثلاث (3) دقائق.
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/android/import.gif").default} alt="gif that shows how to import files in Tella" title="import files in Tella" />
 </div>
 
@@ -75,7 +75,7 @@ slug: /get-started-android
 
 **إنشاء المجلدات.** لتسهيل العثور على ملفاتك، يمكنك تنظيم الملفات في مجلدات. انتقل إلى **كافة الملفات** > **+** > **إنشاء مجلد جديد** واكتب اسما لوصف المجلد. ثم استخدم زر 'تحديد عدة ملفات' في الجزء العلوي من الشاشة، واختر الملفات التي تريد نقلها إلى المجلد الجديد، ثم اضغط على زر النقط الثلاثة (3) ثم 'نقل إلى مجلد مختلف'، بعدها انتقل إلى بنية الملف للعثور على المجلد ثم اضغط على 'نقل هنا'.
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/android/folders-rename.gif").default} alt="gif that shows how to organize your info in Tella" title="organize files in Tella" />
 </div>
 
@@ -90,7 +90,7 @@ slug: /get-started-android
 - يمكنك إخفاء Tella خلف آلة حاسبة كاملة الوظائف. لقد قمنا بتطوير 4 سمات مختلفة لتتناسب مع الوضع الافتراضي لهاتفك وتساعد في إخفاء Tella. من أجل فتح Tella، يجب على المستخدم إدخال رقم تعريفه الشخصي (PIN) في الآلة الحاسبة متبوعا بـ **=**. لا يمكن استخدام تمويه الحاسبة إلا إذا كان المستخدم يستخدم قفل PIN. ليس من الممكن تمويه Tella كآلة حاسبة إذا تم استخدام النمط أو كلمة سر.
 اقرأ المزيد عن التمويه [هنا](/features#camouflage).
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/android/camouflage-icon.gif").default} alt="gif that shows how camouflage Tella by changing its name and icon" title="camouflage Tella changing its icon" />
     <img src={require("@site/static/img/getting-started/android/camouflage-calc.gif").default} alt="gif that shows how camouflage Tella behind a calculator" title="camouflage Tella with a calculator" />
 </div>
@@ -102,7 +102,7 @@ slug: /get-started-android
 
 ضع في اعتبارك أن Tella ستشارك الملفات دون تعمية، لذا تأكد من استخدام الرسائل المختفية (مثلا، واتساب أو Signal) أو احذف الرسائل بعد أن يستلمها الشخص الآخر.
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/android/share.gif").default} alt="gif that shows how to share information" title="share information with third party apps" />
 </div>
 
@@ -121,16 +121,16 @@ slug: /get-started-android
 لقد كتبنا توثيقات حول كيفية الاتصال بخادم Open Data Kit، كما نوصيك بقراءة [هذه الصفحة](/odk) لبدء الاستخدام.
 
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/android/kobo.gif").default} alt="gif that shows ODK connection" title="ODK connection" />
 </div>
 
 #### Uwazi {#uwazi}
 [Uwazi](https://uwazi.io/) هو تطبيق مفتوح المصدر صممته HURIDOCS مع ميزات هائلة لجمع بيانات حقوق الإنسان وتنظيمها وعرضها.
 
-لقد كتبنا توثيقات حول كيفية الاتصال بخادم Open Data Kit، كما نوصيك بقراءة [هذه الصفحة](/uwazi) للبدء.
+لقد كتبنا توثيقات حول كيفية الاتصال بخادم Uwazi، كما نوصيك أن تبدأ بقراءة [هذه الصفحة](/uwazi).
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/android/uwazi.gif").default} alt="gif that shows Uwazi connection" title="Uwazi connection" />
 </div>
 

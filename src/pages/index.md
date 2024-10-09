@@ -19,12 +19,7 @@ import ThemedImage from '@theme/ThemedImage';
     </div>
     <div className="intro-column" id="intro-column2">
         <ThemedImage
-            alt="Screenshot of the Tella app on Android. Sh
-
-
-
-
-            owing Connections to Tella Web Uwazi and the folder structure showing that within Tella users can record and save Images, Videos and Audios securely and encripted."
+            alt="Screenshot of the Tella app on Android. Showing Connections to Tella Web Uwazi and the folder structure showing that within Tella users can record and save Images, Videos and Audios securely and encripted."
             className="screen"
             sources={{
                 light: 'img/home-black.svg',
