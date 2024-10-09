@@ -31,7 +31,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ### iOS: Tella 1.11.0 (81) - Released on October 8, 2024 {#ios-tella-1110-81---released-on-october-8-2024}
 - Implemented the Nexcloud server connection that allows Tella users to upload the data they collect directly to either Nexcloud. [Read here more about the connection](/nexcloud).
 - Bug-fixing and small improvements:
-    - Fixed progress view for large files and cancel action in Tella Web reports view.
+    - Fixed progress view and cancel action for large files in the report view in all servers connections.
     - Hide "use shared drive" button if not using an organizational account.
     - Unified required/optional fields in all server connections.
     - Fix UI for labels on the Servers view when there is an existing connection.
