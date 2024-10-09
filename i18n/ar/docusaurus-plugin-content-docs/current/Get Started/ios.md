@@ -1,6 +1,6 @@
 ---
 id: get-started-ios
-title: iOS
+title: الشروع في العمل على Tella على iOS
 description: دليل البدء السريع لمستخدمي Tella على iOS
 slug: /get-started-ios
 ---
@@ -12,7 +12,7 @@ slug: /get-started-ios
 
 
 <div class="gifs">
-    <img src={require("@site/static/img/getting-started/ios/find-and-download.gif").default} alt="gif that shows how to download Tella from the App Store" title="find and download gif" />
+    <img src={require('@site/static/img/getting-started/ios/find-and-download.gif').default} alt="gif that shows how to download Tella from the App Store" title="find and download gif" />
 </div>
 
 
@@ -38,7 +38,7 @@ slug: /get-started-ios
 
 
 <div class="gifs">
-    <img src={require("@site/static/img/getting-started/ios/granting-permissions.gif").default} alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
+    <img src={require('@site/static/img/getting-started/ios/granting-permissions.gif').default} alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
 </div>
 
 
@@ -66,7 +66,7 @@ slug: /get-started-ios
 
 
 
-‫**استيراد ملفاتك إلى Tella.** انتقل إلى أي من المجلدات داخل Tella واضغط على زر **+** > **استيراد من الجهاز**. اختر الملف الذي ترغب في الاحتفاظ به داخل Tella، سيتم تخزين نسخة مُعمّاة ومخفية للملف في Tella. سيُطلَب منك الاختيار بين حذف الملف الأصلي من جهازك وبين الاحتفاظ به. سيبقى Tella مفتوحا أثناء اختيارك لملفاتك لمدة أقصاها ثلاث (3) دقائق.
+**استيراد ملفاتك إلى Tella.** انتقل إلى أي من المجلدات داخل Tella واضغط على زر **+** > **استيراد من الجهاز**. اختر الملف الذي ترغب في الاحتفاظ به داخل Tella وسيتم تخزين نسخة معمّاة ومخفية للملف في Tella. سيُطلب منك الاختيار بين حذف الملف الأصلي من جهازك وبين الاحتفاظ به. سيبقى Tella مفتوحا أثناء اختيارك لملفاتك لمدة أقصاها ثلاث (3) دقائق.
 
 <div class="gifs">
     <img src={require("@site/static/img/getting-started/ios/import-files.gif").default} alt="gif that shows how to import files in Tella" title="import files in Tella" />
@@ -116,7 +116,7 @@ slug: /get-started-ios
 #### Uwazi {#uwazi}
 ‫[Uwazi](https://uwazi.io/) هو تطبيق مفتوح المصدر صممته HURIDOCS مع ميزات قوية لجمع بيانات حقوق الإنسان وتنظيمها وعرضها.
 
-لقد كتبنا توثيقات حول كيفية الاتصال بخادم Open Data Kit ونوصيك بقراءة [هذه الصفحة](/uwazi) للبدء.
+لقد كتبنا توثيقات حول كيفية الاتصال بخادم Uwazi، كما نوصيك أن تبدأ بقراءة [هذه الصفحة](/uwazi).
 
 
 

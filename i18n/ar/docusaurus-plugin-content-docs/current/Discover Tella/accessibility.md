@@ -28,8 +28,8 @@ import TellaLanguages from '.././_tella-languages.md';
 
 | **المنصة** | **التاريخ** | **الرابط** |
 | -----|-----|------ |  
-| Tella Android | نونبر 2023 | [الرابط](https://docs.google.com/document/d/1QtcWrSNvVtskUf5zNmOlgH0ue_O2ksdi/edit) | 
-| Tella iOS | نونبر 2023 | [الرابط](https://docs.google.com/document/d/1-_dx-Ut98FpiasqgW98gxoFbwVx01R39/edit) | 
+| Tella Android | نونبر 2023 | [الرابط](<./../assets/2023.11 - Tella Android accessibility audit.docx.pdf>) | 
+| Tella iOS | نونبر 2023 | [الرابط](<./../assets/2023.11 - Tella iOS accessibility audit.docx.pdf>) | 
 
 إننا نعمل حاليا على حل جميع مشاكل إمكانية الوصول ذات المستوى A التي تم اكتشافها في Tella Android
 
