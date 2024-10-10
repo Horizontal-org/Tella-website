@@ -19,7 +19,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 - Implemented the Google Drive server connection that allows Tella users to upload the data they collect directly to either their personal Google Drive folder or to any organizational shared drives they are connected to. [Read here more about the connection](/g-drive).
 - Added more metrics to our [opt-in privacy preserving analytics](/ecurity-and-privacy#analytics) Tella's use patterns.
 - Bug-fixing and small improvements:
-    - Fixed problems with homescreen (shows up empty sometimes and has duplicated elements other times)
+    - Fixed problems with homescreen (shows up empty sometimes and has duplicated elements other times).
     - Implement count indicators in reports' Draft, Outbox and Submitted tabs.
     - Solved bug that made the connections cards appear in different order and sometimes disappear.
     - Solved unexpected error in Uwazi server submission when the template had related to multi-select fields.
