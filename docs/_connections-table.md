@@ -4,5 +4,5 @@
 |Tella Web|✔️|✔️| Soon |
 |Open Data Kit (ODK)|✔️|❌|✔️|
 |Google Drive | Soon |✔️| Soon|
-|Nexcloud | Soon |✔️| Soon|
+|Nextcloud | Soon |✔️| Soon|
 |Dropbox | Soon | Soon | Soon|

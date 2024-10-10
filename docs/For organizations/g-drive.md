@@ -9,7 +9,7 @@ slug: /g-drive
 
 Tella allows users to sign in to their Google account directly from Tella and to upload files directly to Google Drive.
 
-Similarly to other server connections (like [Tella Web](/tella-web), [Uwazi](/uwazi), [Nexcloud](/nexcloud) or [Open Data Kit](/odk)), connecting to a Google Drive server enhances the security of data collected on Tella by:
+Similarly to other server connections (like [Tella Web](/tella-web), [Uwazi](/uwazi), [Nextcloud](/nextcloud) or [Open Data Kit](/odk)), connecting to a Google Drive server enhances the security of data collected on Tella by:
 
 1. Allowing users to collect data directly inside Tella's encrypted container.
 2. Ensuring that data is sent directly from Tella to Google Drive, without needing to install the Google Drive app on the device or sending the data through a third-party app.

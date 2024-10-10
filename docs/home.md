@@ -125,10 +125,10 @@ Below you will find everything you need to understand how Tella works, its secur
       </Link>
     </div>
     <div className="doc-card">
-      <Link to="/nexcloud">
+      <Link to="/nextcloud">
         <div className="doc-card-content">
-          <b>Nexcloud Connection</b>
-          <p>Tella allows users to conveniently upload photos, videos, pdfs and audio recordings to Nexcloud.</p>
+          <b>Nextcloud Connection</b>
+          <p>Tella allows users to conveniently upload photos, videos, pdfs and audio recordings to Nextcloud.</p>
         </div>
       </Link>
     </div>

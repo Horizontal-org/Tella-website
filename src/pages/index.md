@@ -75,7 +75,7 @@ import ThemedImage from '@theme/ThemedImage';
         <div className="column" id="section-column2">
             <ul>
                 <li><span className="emphasis">Camera and recorder inside Tella:</span> take photos, record videos and audio directly in Tella so that your files are immediately encrypted and hidden in the app.</li>
-                <li><span className="emphasis">Tella integrates</span> with <a href="/uwazi">Uwazi</a>, <a href="/odk">Open Data Kit</a>, <a href="/tella-web">Tella Web</a>, <a href="/g-drive">Google Drive</a> and <a href="/nexcloud">Nexcloud</a>. Pick the platform that best suits your need and collect data directly in Tella.</li>
+                <li><span className="emphasis">Tella integrates</span> with <a href="/uwazi">Uwazi</a>, <a href="/odk">Open Data Kit</a>, <a href="/tella-web">Tella Web</a>, <a href="/g-drive">Google Drive</a> and <a href="/nextcloud">Nextcloud</a>. Pick the platform that best suits your need and collect data directly in Tella.</li>
                 <li><span className="emphasis">Offline mode:</span> in areas with limited or no internet connection, you can save your data and submit it when you reach a reliable internet connection.</li>
             </ul>
         </div>
