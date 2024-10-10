@@ -48,11 +48,17 @@ Here are some information about our privacy-preserving analytics approach:
 
     **Tella Android**
     - Number of successful unlock events.
+    - Number of media files recorded (number of audios, videos and photos taken).
+    - Number of files imported.
+    - Number of a security feature is activated (number of times that the a camouflage option is enabled, number of times that the quick delete action is triggered).
+    - Number of installs.
+    - Number of reports sent (number of reports sent to any server connected: Tella Web, Uwazi, ODK)
+    - Time spend on Tella. 
 
     **Tella Web**
     - Number of visits (triggered every time someone enters any Tella Web instance).
-    - Number of File uploads (triggers every time someone uploads a file to any tellaweb instance).
-    - Number of Reports (triggers every time someone uploads a report to any tellaweb instance).
+    - Number of File uploads (triggers every time someone uploads a file to any Tella Web instance).
+    - Number of Reports (triggers every time someone uploads a report to any Tella Web instance).
 
 
    For more information about the metrics we add to our apps, check out our [release notes](/releases).
