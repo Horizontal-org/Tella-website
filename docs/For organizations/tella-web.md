@@ -13,7 +13,7 @@ Tella Web is developed internally by our team at Horizontal, the same team respo
 
 We can provide support for the installation, configuration, and maintenance of a Tella Web instance if you don't have someone within your organization who can do it.
 
-Similarly to all other connections([Uwazi](/uwazi), [Google Drive](/g-drive), [Nexcloud](/nexcloud) and [Open Data Kit](/odk)), connecting to Tella Web enhances the security of data collected on Tella by:
+Similarly to all other connections([Uwazi](/uwazi), [Google Drive](/g-drive), [Nextcloud](/nextcloud) and [Open Data Kit](/odk)), connecting to Tella Web enhances the security of data collected on Tella by:
 1. Allowing users to collect data directly inside Tella's encrypted container.
 2. Ensuring that data is sent directly from Tella to Tella Web, without having to rely on a third-party tool or app.
 3. Allowing users to back up their data on a remote server, to lower the risk that data is discovered on their mobile device.

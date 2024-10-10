@@ -118,12 +118,12 @@ Read more about Tella Web [here](/tella-web) or watch a [video tutorial](/video-
 
 We wrote documentation about how to connect to an Uwazi server and we recommend you to read [this page](/uwazi) to get started.
 
-#### Nexcloud and Google Drive {#nexcloud-and-google-drive}
-Users can also connect to their Google or Nexcloud organizational or personal accounts in order to submit reports (audio, photos, videos and text) directly from Tella. They won't need the Google Drive or Nexcloud apps on their phones and won't need to use any third party apps.
+#### Nextcloud and Google Drive {#nextcloud-and-google-drive}
+Users can also connect to their Google or Nextcloud organizational or personal accounts in order to submit reports (audio, photos, videos and text) directly from Tella. They won't need the Google Drive or Nextcloud apps on their phones and won't need to use any third party apps.
 
 Read more:
 - [Google Drive Connection](/g-drive).
-- [Nexcloud Connection](/nexcloud).
+- [Nextcloud Connection](/nextcloud).
 
 
 

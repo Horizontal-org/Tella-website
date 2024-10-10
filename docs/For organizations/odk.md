@@ -11,7 +11,7 @@ The [Open Data Kit (ODK)](https://getodk.org/) is an open standard used to creat
 
 An Open Data Kit server allows organizations to aggregate, in a central repository, data collected by their members or partners. Tella users connect to their organization's ODK instance, fill forms as many times as they need (even if they don't have internet connectivity), and upload the data. Organizations can download the data from the server or analyze it on the server, depending on the chosen server alternatives.
 
-Similarly to any other server connection (like [Tella Web](/tella-web), [Google Drive](/g-drive), [Nexcloud](/nexcloud) or [Uwazi](/uwazi)), connecting to the ODK server enhances the security of data collected on Tella by:
+Similarly to any other server connection (like [Tella Web](/tella-web), [Google Drive](/g-drive), [Nextcloud](/nextcloud) or [Uwazi](/uwazi)), connecting to the ODK server enhances the security of data collected on Tella by:
 
 1. Allowing users to collect data directly inside Tella's encrypted container.
 2. Ensuring that data is sent directly from Tella to the ODK server, without relying on a third-party tool or app.

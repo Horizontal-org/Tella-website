@@ -19,7 +19,7 @@ Currently, Tella can be connected to the following types of servers:
 * [Uwazi](#uwazi)
 * [Tella Web](#tella-web)
 * [Google Drive](#g-drive)
-* [Nexcloud](#nexcloud)
+* [Nextcloud](#nextcloud)
 
 These are called [Connections](/features#connecting-to-servers) in Tella.
 
@@ -36,7 +36,7 @@ graph TD;
     id2 --> id4("What additional features do you need?");
     id3 --> id5("Tella Web");
     id3 --> id11("Google Drive");
-    id3 --> id12("Nexcloud");
+    id3 --> id12("Nextcloud");
     id4 --> id6("Establish relationships between data points, publish to a website")
     id4 --> id7("Add logic to forms, collect high numbers for forms, create reports to visualize results")
     id6 --> id8("Uwazi")
@@ -117,7 +117,7 @@ Users can sign-in directly to their NextCloud account from within Tella and uplo
 As for all Connections in Tella, users can use most of the NextCloud connection offline through the Draft, Outbox tab and Submit Later tabs. 
 
 :::tip
-Learn more about the Nexcloud connection [here](/nexcloud),
+Learn more about the Nextcloud connection [here](/nextcloud),
 :::
 
 :::info

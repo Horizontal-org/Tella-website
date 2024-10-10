@@ -1,8 +1,8 @@
 ---
-id: nexcloud
+id: nextcloud
 title: Nextcloud 
 description: Tella allows users to conveniently upload photos, videos, pdfs and audio recordings to Nextcloud.
-slug: /Nextcloud
+slug: /nextcloud
 ---
 
 # Nextcloud Connection
