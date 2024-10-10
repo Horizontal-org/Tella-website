@@ -107,9 +107,6 @@ As for all Connections in Tella, users can use most of the Google Drive connecti
 Learn more about the Google Drive connection [here](/g-drive),
 :::
 
-:::info
-The Google Drive connection is [only available on iOS](/features). We are currently working for adding it to Tella Android as well.
-:::
 
 ### Nextcloud {#nextcloud}
 Users can sign-in directly to their NextCloud account from within Tella and upload files to a folder in their NextCloud account. Each "report" uploaded will create a new folder in NextCloud.

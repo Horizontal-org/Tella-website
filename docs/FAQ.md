@@ -31,21 +31,16 @@ Learn more about [How to find and download Tella from the Play Store](/video-tut
 :::
 
 ### Is Tella available on F-Droid? {#is-tella-available-on-f-droid}
-Yes, we published a version of Tella Android [on F-Droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/), which we call Tella-FOSS. On this version, all features are available except for:
-- Tella Web Connection
-- Option to delete original file when importing
-- Some of the Camera’s features (zoom, flip camera, enable flash, enable grid, change video resolution)
+Yes, we published a version of Tella Android [on F-Droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/), which we call Tella-FOSS. On this version, not all features are available. For details about which features are available for the F-Droid version of tella, see [what features are available on each platform](/features) and our [release notes page](/releases).
 
-This version is fully open source, which means that all code of Tella and the code of all libraries that Tella uses are fully free and open source. 
-
-This version does not contain any trackers, not even the ones which help us detect bugs and crashes on Android.
+This version is fully open source, which means that all code of Tella and the code of all libraries that Tella uses are fully free and open source. This version does not contain any trackers, not even the ones which help us detect bugs and crashes on Android.
 
 
 ### Is Tella available on iOS? {#is-tella-available-on-ios}
 
-Yes, Tella for iOS can be downloaded [from the App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580). Tella for iOS is in an earlier stage of development, so not all features are available yet. However, it is stable and has undergone a security audit.
+Yes, Tella for iOS can be downloaded [from the App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580).
 
-For details about which features are available for iOS, see What features are available on each platform.
+For details about which features are available for iOS, see [What features are available on each platform](/features).
 
 ### What features are available on each platform? {#what-features-are-available-on-each-platform}
 
