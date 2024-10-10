@@ -99,8 +99,8 @@ slug: /security-and-privacy
 
 | تاريخ | دُقق بواسطة | المنصات المدققة    | الرابط      |
 | -----|----------|----|-----------|
-| ماي 2024 |  شركة Subgraph Technologies. |  Android و iOS و Tella Web |[عرض التقرير](<./../assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
-| ماي 2023 |  شركة Subgraph Technologies. | Android و iOS و Tella Web |[عرض التقرير](<./../assets/2023.05 - Tella security audit - Final report.pdf>)|
+| ماي 2024 |  شركة Subgraph Technologies. |  Android و iOS و Tella Web |[عرض التقرير](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
+| ماي 2023 |  شركة Subgraph Technologies. | Android و iOS و Tella Web |[عرض التقرير](</assets/2023.05 - Tella security audit - Final report.pdf>)|
 
 
 هذا هو الملخص من أحدث مراجعة والحالة المتعلقة بالثغرات التي تم تحديدها:

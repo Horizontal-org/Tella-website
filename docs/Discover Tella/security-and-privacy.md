@@ -99,8 +99,8 @@ We regularly ask independent security firms to audit our code to ensure it is ro
 
 | Date | Audited by | Platforms audited    | Link      |
 | -----|----------|----|-----------|
-| May 2024 | Subgraph Technologies, Inc. |  Android, iOS, Tella Web |[View report](<./../assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
-| May 2023 | Subgraph Technologies, Inc. | Android, iOS, Tella Web |[View report](<./../assets/2023.05 - Tella security audit - Final report.pdf>)|
+| May 2024 | Subgraph Technologies, Inc. |  Android, iOS, Tella Web |[View report](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
+| May 2023 | Subgraph Technologies, Inc. | Android, iOS, Tella Web |[View report](</assets/2023.05 - Tella security audit - Final report.pdf>)|
 
 
  This is the summary from the latest audit and the status of the vulnerabilities identified:

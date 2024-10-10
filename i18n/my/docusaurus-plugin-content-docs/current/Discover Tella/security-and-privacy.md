@@ -99,8 +99,8 @@ Tella Android နှင့် [Tella ဝဘ်](/tella-web) တွင် အသ�
 
 | နေ့စွဲ | စစ်ဆေးသူ | စစ်ဆေးပြီး ပလက်ဖောင်းများ    | လင့်ခ်ယူရန်      |
 | -----|----------|----|-----------|
-| မေ ၂၀၂၄ | Subgraph Technologies, Inc. |  Android၊ iOS၊ Tella ဝဘ် |[အစီရင်ခံစာ ကြည့်ရန်](<./../assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
-| မေ ၂၀၂၃ | Subgraph Technologies, Inc. | Android၊ iOS၊ Tella ဝဘ် |[အစီရင်ခံစာ ကြည့်ရန်](<./../assets/2023.05 - Tella security audit - Final report.pdf>)|
+| မေ ၂၀၂၄ | Subgraph Technologies, Inc. |  Android၊ iOS၊ Tella ဝဘ် |[အစီရင်ခံစာ ကြည့်ရန်](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
+| မေ ၂၀၂၃ | Subgraph Technologies, Inc. | Android၊ iOS၊ Tella ဝဘ် |[အစီရင်ခံစာ ကြည့်ရန်](</assets/2023.05 - Tella security audit - Final report.pdf>)|
 
 
  ၎င်းမှာ နောက်ဆုံးစစ်ဆေးမှုမှ အကျဉ်းချုပ်နှင့် ရှာဖွေတွေ့ရှိသော အားနည်းချက်များ၏ အခြေအနေ ဖြစ်ပါသည်-
