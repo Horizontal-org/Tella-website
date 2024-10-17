@@ -128,7 +128,7 @@ Using Apple's Migration Assistant will not work: your files will be moved to the
 In order to migrate your Tella files to a new phone, you need to install Tella on the new device, export all files out of Tella, and import those to the new phone manually. We recommend following these steps: 
   1. On your old phone go to the "All Files" folder and use the "Select all" checkbox to select all your files and folders. Keep in mind that the files will remain visible -unencrypted-, on the phone galery. 
   2. Use Quick Share (in Android), Airdrop (in iOS) or any other data transfer utility to move your files to the new device. Files will be tranfered unencrypted.
-  3. On your new phone open Tella and go to the "All Files" folder, tap the "+"" button, and select "Import from device". You can choose "Delete orginal" in the dialog to make sure the files are only stored safely inside Tella. Select the files you had just exported from your old phone to import them to Tella. 
+  3. On your new phone open Tella and go to the "All Files" folder, tap the "+"" button, and select "Import from device". You can choose "Delete original" in the dialog to make sure the files are only stored safely inside Tella. Select the files you had just exported from your old phone to import them to Tella. 
   4. Make sure you delete the files that are not secured in Tella's encrypted vault from both your phones' galeries.
 
 
