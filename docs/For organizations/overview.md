@@ -4,6 +4,8 @@ title: Overview
 description: Learn how organizations can use Tella for research, advocacy, or accountability processes
 slug: /for-organizations
 ---
+import ConnectionsTable from '.././_connections-table.md';
+
 
 # Tella for organizations - Overview 
 
@@ -17,13 +19,14 @@ Currently, Tella can be connected to the following types of servers:
 * [Uwazi](#uwazi)
 * [Tella Web](#tella-web)
 * [Google Drive](#g-drive)
+* [Nextcloud](#nextcloud)
 
 These are called [Connections](/features#connecting-to-servers) in Tella.
 
 
 ## Selecting the right type of server {#selecting-the-right-type-of-server}
 
-The following is a basic, non-comprehensive graph to help determine which of the three server types is best suited to different needs. This is a good starting point, but you can also watch [this video](/video-tutorials#connections-full-video) where we present each server type. If you need help deciding or would like to request a new Connection (an integration to a new server type), [contact us!](/contact-us).
+The following is a basic, non-comprehensive graph to help determine which server types is best suited to different needs. This is a good starting point, but you can also watch [this video](/video-tutorials#connections-full-video) where we present each server type. If you need help deciding or would like to request a new Connection (an integration to a new server type), [contact us!](/contact-us).
 
 
 ```mermaid
@@ -33,13 +36,17 @@ graph TD;
     id2 --> id4("What additional features do you need?");
     id3 --> id5("Tella Web");
     id3 --> id11("Google Drive");
+    id3 --> id12("Nextcloud");
     id4 --> id6("Establish relationships between data points, publish to a website")
     id4 --> id7("Add logic to forms, collect high numbers for forms, create reports to visualize results")
-    id4 --> id10("Send guides from the server to users")
     id6 --> id8("Uwazi")
     id7 --> id9("Open Data Kit (ODK)")
-    id10 -->id5
 ```
+
+On this table we explain what server types are available on the Tella apps:
+<ConnectionsTable/>
+
+
 
 ### Tella Web {#tella-web}
 
@@ -53,8 +60,9 @@ The Tella Web server connection also allows users to securely download guides, r
 
 The Tella Web connection is available on Tella Android and Tella iOS, but not yet on [Tella-FOSS](/faq#is-tella-available-on-f-droid). 
 
+:::tip
 Learn more about Tella Web [here](/tella-web),
-
+:::
 
 ### Uwazi {#uwazi}
 
@@ -90,14 +98,27 @@ Learn more about Open Data Kit [here](/odk).
 :::
 
 ### Google Drive {#g-drive}
+
 Users can sign-in directly to their Google account from within Tella and upload files to a folder in their Drive account. If the user is part of an organization that uses Google Workspace, they can also submit the files directly to a Shared Drive they have access to. Each "report" uploaded will create a new folder in Drive.
+
 
 As for all Connections in Tella, users can use most of the Google Drive connection offline through the Draft, Outbox tab and Submit Later tabs. 
 
-Learn more about the Google Drive integration [here](/g-drive),
+:::tip
+Learn more about the Google Drive connection [here](/g-drive),
+:::
 
+
+### Nextcloud {#nextcloud}
+Users can sign-in directly to their NextCloud account from within Tella and upload files to a folder in their NextCloud account. Each "report" uploaded will create a new folder in NextCloud.
+
+As for all Connections in Tella, users can use most of the NextCloud connection offline through the Draft, Outbox tab and Submit Later tabs. 
+
+:::tip
+Learn more about the Nextcloud connection [here](/nextcloud),
+:::
 
 :::info
-The Google Drive connection is [only available on iOS](/features). We are currently working for adding it to Tella Android as well.
+The Nextcloud connection is [only available on iOS](/features). We are currently working for adding it to Tella Android as well.
 :::
 

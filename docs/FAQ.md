@@ -31,21 +31,16 @@ Learn more about [How to find and download Tella from the Play Store](/video-tut
 :::
 
 ### Is Tella available on F-Droid? {#is-tella-available-on-f-droid}
-Yes, we published a version of Tella Android [on F-Droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/), which we call Tella-FOSS. On this version, all features are available except for:
-- Tella Web Connection
-- Option to delete original file when importing
-- Some of the Camera’s features (zoom, flip camera, enable flash, enable grid, change video resolution)
+Yes, we published a version of Tella Android [on F-Droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/), which we call Tella-FOSS. On this version, not all features are available. For details about which features are available for the F-Droid version of tella, see [what features are available on each platform](/features) and our [release notes page](/releases).
 
-This version is fully open source, which means that all code of Tella and the code of all libraries that Tella uses are fully free and open source. 
-
-This version does not contain any trackers, not even the ones which help us detect bugs and crashes on Android.
+This version is fully open source, which means that all code of Tella and the code of all libraries that Tella uses are fully free and open source. This version does not contain any trackers, not even the ones which help us detect bugs and crashes on Android.
 
 
 ### Is Tella available on iOS? {#is-tella-available-on-ios}
 
-Yes, Tella for iOS can be downloaded [from the App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580). Tella for iOS is in an earlier stage of development, so not all features are available yet. However, it is stable and has undergone a security audit.
+Yes, Tella for iOS can be downloaded [from the App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580).
 
-For details about which features are available for iOS, see What features are available on each platform.
+For details about which features are available for iOS, see [What features are available on each platform](/features).
 
 ### What features are available on each platform? {#what-features-are-available-on-each-platform}
 
@@ -131,10 +126,10 @@ Unfortunately there is no way to automatically move your files and data from Tel
 Using Apple's Migration Assistant will not work: your files will be moved to the new phone encrypted, but not your encryption keys. As a result, you will not be able to decrypt and open these files.
 
 In order to migrate your Tella files to a new phone, you need to install Tella on the new device, export all files out of Tella, and import those to the new phone manually. We recommend following these steps: 
-  1. On your old phone go to the "All Files" folder and use the "Select all" checkbox to select all your files and folders. Keep in mind that the files will remain visible -unencrypted-, on the phone galery. 
-  2. Use Quick Share (in Android), Airdrop (in iOS) or any other data transfer utility to move your files to the new device. Files will be tranfered unencrypted.
-  3. On your new phone open Tella and go to the "All Files" folder, tap the "+"" button, and select "Import from device". You can choose "Delete orginal" in the dialog to make sure the files are only stored safely inside Tella. Select the files you had just exported from your old phone to import them to Tella. 
-  4. Make sure you delete the files that are not secured in Tella's encrypted vault from both your phones' galeries.
+  1. On your old phone go to the "All Files" folder and use the "Select all" checkbox to select all your files and folders. Keep in mind that the files will remain visible -unencrypted-, on the phone gallery. 
+  2. Use Quick Share (in Android), Airdrop (in iOS) or any other data transfer utility to move your files to the new device. Files will be transferred unencrypted.
+  3. On your new phone open Tella and go to the "All Files" folder, tap the "+"" button, and select "Import from device". You can choose "Delete original" in the dialog to make sure the files are only stored safely inside Tella. Select the files you had just exported from your old phone to import them to Tella. 
+  4. Make sure you delete the files that are not secured in Tella's encrypted vault from both your phones' galleries.
 
 
 

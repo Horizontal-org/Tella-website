@@ -1,6 +1,6 @@
 ---
 id: translating-tella
-title: Translating Tella
+title: ترجمة Tella
 description: معلومات حول كيفية المساعدة في ترجمة Tella
 slug: /translating-tella
 ---

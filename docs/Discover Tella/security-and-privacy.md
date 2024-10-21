@@ -48,11 +48,17 @@ Here are some information about our privacy-preserving analytics approach:
 
     **Tella Android**
     - Number of successful unlock events.
+    - Number of media files recorded (number of audios, videos and photos taken).
+    - Number of files imported.
+    - Number of a security feature is activated (number of times that the a camouflage option is enabled, number of times that the quick delete action is triggered).
+    - Number of installs.
+    - Number of reports sent (number of reports sent to any server connected: Tella Web, Uwazi, ODK)
+    - Time spend on Tella. 
 
     **Tella Web**
     - Number of visits (triggered every time someone enters any Tella Web instance).
-    - Number of File uploads (triggers every time someone uploads a file to any tellaweb instance).
-    - Number of Reports (triggers every time someone uploads a report to any tellaweb instance).
+    - Number of File uploads (triggers every time someone uploads a file to any Tella Web instance).
+    - Number of Reports (triggers every time someone uploads a report to any Tella Web instance).
 
 
    For more information about the metrics we add to our apps, check out our [release notes](/releases).
@@ -99,8 +105,8 @@ We regularly ask independent security firms to audit our code to ensure it is ro
 
 | Date | Audited by | Platforms audited    | Link      |
 | -----|----------|----|-----------|
-| May 2024 | Subgraph Technologies, Inc. |  Android, iOS, Tella Web |[View report](<./../assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
-| May 2023 | Subgraph Technologies, Inc. | Android, iOS, Tella Web |[View report](<./../assets/2023.05 - Tella security audit - Final report.pdf>)|
+| May 2024 | Subgraph Technologies, Inc. |  Android, iOS, Tella Web |[View report](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
+| May 2023 | Subgraph Technologies, Inc. | Android, iOS, Tella Web |[View report](</assets/2023.05 - Tella security audit - Final report.pdf>)|
 
 
  This is the summary from the latest audit and the status of the vulnerabilities identified:

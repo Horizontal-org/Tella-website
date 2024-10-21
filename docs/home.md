@@ -116,6 +116,22 @@ Below you will find everything you need to understand how Tella works, its secur
         </div>
       </Link>
     </div>
+    <div className="doc-card">
+      <Link to="/g-drive">
+        <div className="doc-card-content">
+          <b>Google Drive Connection</b>
+          <p>Tella allows users to upload photos, videos, pdfs and audio recordings to their personal or organizational Google Drive.</p>
+        </div>
+      </Link>
+    </div>
+    <div className="doc-card">
+      <Link to="/nextcloud">
+        <div className="doc-card-content">
+          <b>Nextcloud Connection</b>
+          <p>Tella allows users to conveniently upload photos, videos, pdfs and audio recordings to Nextcloud.</p>
+        </div>
+      </Link>
+    </div>
 </div>
 
 

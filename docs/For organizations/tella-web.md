@@ -5,7 +5,7 @@ description: The Reports feature empowers users to conveniently upload photos, v
 slug: /tella-web
 ---
 
-# Tella Web 
+# Tella Web Connection
 
 Tella Web is an open-source tool that enables individuals and organizations to centralize and manage reports sent by Tella users, including photos, videos, and audio files. 
 
@@ -13,7 +13,7 @@ Tella Web is developed internally by our team at Horizontal, the same team respo
 
 We can provide support for the installation, configuration, and maintenance of a Tella Web instance if you don't have someone within your organization who can do it.
 
-Similarly to all other connections([Uwazi](/uwazi) and [Open Data Kit](/odk)), connecting to Tella Web enhances the security of data collected on Tella by:
+Similarly to all other connections([Uwazi](/uwazi), [Google Drive](/g-drive), [Nextcloud](/nextcloud) and [Open Data Kit](/odk)), connecting to Tella Web enhances the security of data collected on Tella by:
 1. Allowing users to collect data directly inside Tella's encrypted container.
 2. Ensuring that data is sent directly from Tella to Tella Web, without having to rely on a third-party tool or app.
 3. Allowing users to back up their data on a remote server, to lower the risk that data is discovered on their mobile device.
@@ -27,6 +27,17 @@ Setting up Tella Web involves three steps, which are thoroughly discussed in thi
 * **Set up your project(s) on your server**: In this step, admins decide how to organize themselves to collect data, create "projects", add "resources" for users to download on their devices and set roles and permissions for users.
 * **Get people on the ground ready to start submitting reports**: Users install Tella on their Android or iPhone device. They then connect to the Tella Web project and start collecting information.
 
+## When to Use Tella Web {#when-to-use-tella-web}
+
+The Tella Web could be a good alternative if:
+- You have the capacity to self-host Tella Web.
+- People on the ground will be sending mostly media files, with some text and don't need structured data collection (forms).
+- You will be partnering with Horizontal and you want the same organization to help you with installation, configuration, and maintenance of your Tella Web instance and the Tella apps.
+
+
+:::tip
+If you need help figuring out if Tella Web is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
+:::
 
 
 ## Install the server {#install-the-server}
@@ -174,7 +185,7 @@ On the password field, a password-security-meter helps admins create secure pass
 #### Managing access to projects {#managing-access-to-projects}
 
 
-In the "Manage access" section of the "Project settings" screen, admins can assign existing users to the project. Click the "Add users" field. A dropdown menu will display all the users on the server. Scroll through the list or type to search for a user by username.
+In the "Manage access" section of the "Project settings" screen, admins can assign existing users to the project. Click the "Add users" field. A drop-down menu will display all the users on the server. Scroll through the list or type to search for a user by username.
 After selecting the users to add to the project, click the "Add" button to save the changes and grant access to the project.
 
 :::info
@@ -208,9 +219,9 @@ Admins and editors can add resources available on the space to projects they hav
 1. By navigating to the **Manage Access** on the **Settings** section of each project.
 2. By tapping the **Resources** icon on each project's card on the Homescreen of Tella Web.
 
-To add resourcs to projects tap on the **Add resources** button and search available resources by name. One or many resources can be added to the project at the same time.
+To add resources to projects tap on the **Add resources** button and search available resources by name. One or many resources can be added to the project at the same time.
 
-All users that connets to this project from their Tella apps will see a Resources card available and they can download this Resource to their encrypted container.
+All users that connects to this project from their Tella apps will see a Resources card available and they can download this Resource to their encrypted container.
 
 Tella Web does not keep track of any information about resources downloads.
 
@@ -256,9 +267,9 @@ Once connected to at least one Tella Web project, a **Resources** card will appe
 
 On the **Available for download** section of the Resources screen you will see a card for each of the resources that have been shared with you. Tap on the **Download icon** (📥) to pull this resource from your organization's space and be able to access those on the **Downloaded** section, even offline. You can **View** each PDF by tapping on the card and you can **Remove from downloads** if you want to free up space on you Tella vault. You can always re-download those when needed.
 
-Use the **Refresh** button on the top right to pull new resouces from your organization space. 
+Use the **Refresh** button on the top right to pull new resources from your organization space. 
 
-Once you disconnect from a Tella Web project all asociated resouces will be removed from your Resouces screen.
+Once you disconnect from a Tella Web project all associated resources will be removed from your Resources screen.
 
 #### Create a Manual Report {#create-a-manual-report}
 
@@ -327,7 +338,7 @@ If the internet connection is interrupted, reports will go to the outbox tab and
 
 #### Auto-report {#auto-report}
 
-If auto-report is enabled, Tella will create and upload reports automatically whenever you take a photo, record a video, or capture an audio recording in Tella. This ensures that your reports are seamlessly uploaded without the need for manual work. Files get upladed to the same auto-report if they are collected within the lapse of 30 minutes.
+If auto-report is enabled, Tella will create and upload reports automatically whenever you take a photo, record a video, or capture an audio recording in Tella. This ensures that your reports are seamlessly uploaded without the need for manual work. Files get uploaded to the same auto-report if they are collected within the lapse of 30 minutes.
 
 Auto-report can be enabled from the Edit Connection screen.
 

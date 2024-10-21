@@ -1,6 +1,6 @@
 ---
 id: translating-tella
-title: Translating Tella
+title: Tella ကို ဘာသာပြန်ခြင်း
 description: Tella ကို ဘာသာပြန်ရန် ကူညီခြင်းနှင့် သက်ဆိုင်သော အချက်အလက်များ
 slug: /translating-tella
 ---

@@ -108,7 +108,7 @@ Take into account that Tella will share the files unencrypted, so make sure to u
 ### Connect to a server {#connect-to-a-server}
 Tella can be connected to a variety of back-end services. This is used by organizations to allow their members or partners to submit data and files to a secure remote location. If you are considering connecting to a server and have doubts about what server to choose or how to connect to please look at [our documentation for organizations](/for-organizations) or [contact us](/contact-us), we are here to help!
 
-### Tella Web {#tella-web}
+#### Tella Web {#tella-web}
 Tella Web is an open-source tool that enables individuals and organizations to centralize and manage reports sent by Tella users, including photos, videos, and audio files. 
 
 Read more about Tella Web [here](/tella-web) or watch a [video tutorial](/video-tutorials#tella-web).
@@ -117,6 +117,14 @@ Read more about Tella Web [here](/tella-web) or watch a [video tutorial](/video-
 [Uwazi](https://uwazi.io/) is an open-source app made by HURIDOCS with powerful features to collect, organize, and visualize human rights data.
 
 We wrote documentation about how to connect to an Uwazi server and we recommend you to read [this page](/uwazi) to get started.
+
+#### Nextcloud and Google Drive {#nextcloud-and-google-drive}
+Users can also connect to their Google or Nextcloud organizational or personal accounts in order to submit reports (audio, photos, videos and text) directly from Tella. They won't need the Google Drive or Nextcloud apps on their phones and won't need to use any third party apps.
+
+Read more:
+- [Google Drive Connection](/g-drive).
+- [Nextcloud Connection](/nextcloud).
+
 
 
 

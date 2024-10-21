@@ -5,13 +5,13 @@ description: The Open Data Kit server connection is available for organizations 
 slug: /odk
 ---
 
-# Open Data Kit (ODK)
+# Open Data Kit (ODK) Connection
 
 The [Open Data Kit (ODK)](https://getodk.org/) is an open standard used to create custom forms and collect data. 
 
 An Open Data Kit server allows organizations to aggregate, in a central repository, data collected by their members or partners. Tella users connect to their organization's ODK instance, fill forms as many times as they need (even if they don't have internet connectivity), and upload the data. Organizations can download the data from the server or analyze it on the server, depending on the chosen server alternatives.
 
-Similarly to any other server connection (like [Tella Web](/tella-web) or [Uwazi](/uwazi)), connecting to the ODK server enhances the security of data collected on Tella by:
+Similarly to any other server connection (like [Tella Web](/tella-web), [Google Drive](/g-drive), [Nextcloud](/nextcloud) or [Uwazi](/uwazi)), connecting to the ODK server enhances the security of data collected on Tella by:
 
 1. Allowing users to collect data directly inside Tella's encrypted container.
 2. Ensuring that data is sent directly from Tella to the ODK server, without relying on a third-party tool or app.
@@ -28,9 +28,13 @@ There are other ODK-compliant apps available, like [Ona](https://ona.io/home/) o
 
 ### When to Use ODK {#when-to-use-odk}
 
-We recommend ODK to organizations that need on-the-ground users to collect data in a structured manner like forms. We also recommend it to organizations that don't have the technical capacity to install and maintain a server and want to use a ready-to-use cloud instance. If you use a cloud instance, remember that the organization hosting your ODK instance will be able access your data. This is an important consideration when deciding whether to self-host or use a cloud service. 
+We recommend ODK to organizations that need on-the-ground users to collect data in a structured manner like forms. We also recommend it to organizations that don't have the technical capacity to install and maintain a server and want to use a ready-to-use cloud instance. If you use a cloud instance, remember that the organization hosting your ODK instance will be able to access your data. This is an important consideration when deciding whether to self-host or use a cloud service. 
 
 ODK and KoboToolbox are widely used, well-documented, and easy to use. There are guides available, and they offer support to non-profit organizations on how to structure and maintain their data.
+
+:::tip
+If you need help figuring out if ODK is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
+:::
 
 ## Model Your Data {#model-your-data}
 

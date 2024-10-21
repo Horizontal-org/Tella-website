@@ -1,6 +1,6 @@
 ---
 id: community-meetings
-title: Community Meetings
+title: Tella အသိုင်းအဝိုင်းခေါ်ဆိုမှုများ
 description: လစဉ် Tella အသိုင်းအဝိုင်း ခေါ်ဆိုမှုများအကြောင်း အသေးစိတ်
 slug: /community-meetings
 ---
