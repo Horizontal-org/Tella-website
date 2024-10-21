@@ -101,6 +101,7 @@ Learn more about Open Data Kit [here](/odk).
 
 Users can sign-in directly to their Google account from within Tella and upload files to a folder in their Drive account. If the user is part of an organization that uses Google Workspace, they can also submit the files directly to a Shared Drive they have access to. Each "report" uploaded will create a new folder in Drive.
 
+
 As for all Connections in Tella, users can use most of the Google Drive connection offline through the Draft, Outbox tab and Submit Later tabs. 
 
 :::tip

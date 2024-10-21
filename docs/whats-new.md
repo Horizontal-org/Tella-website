@@ -15,7 +15,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 2.12.0 (188) - Released on October 10, 2024 {#android-tella-2120-188---released-on-october-10-2024}
+### Android: Tella 2.12.0 (188) - Released on October 21, 2024 {#android-tella-2120-188---released-on-october-21-2024}
 - Implemented the Google Drive server connection that allows Tella users to upload the data they collect directly to either their personal Google Drive folder or to any organizational shared drives they are connected to. [Read here more about the connection](/g-drive).
 - Added more metrics to our [opt-in privacy preserving analytics](/security-and-privacy#analytics) Tella's use patterns.
 - Bug-fixing and small improvements:
@@ -26,7 +26,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Solved a bug that prevented Primary Document to be shared to the Uwazi server.
 
 
-### iOS: Tella 1.11.0 (81) - Released on October 8, 2024 {#ios-tella-1110-81---released-on-october-8-2024}
+### iOS: Tella 1.11.0 (81) - Released on October 21, 2024 {#ios-tella-1110-81---released-on-october-21-2024}
 - Implemented the Nextcloud server connection that allows Tella users to upload the data they collect directly to either Nextcloud. [Read here more about the connection](/nextcloud).
 - Bug-fixing and small improvements:
     - Fixed progress view and cancel action for large files in the report view in all servers connections.
@@ -46,6 +46,7 @@ A version of Tella included for the first time on the F-droid store. This a 100%
 
 ## Previous versions {#previous-versions}
 
+
 ### Android: Tella 2.11.0 (186) - Released on September 18, 2024 {#android-tella-2110-186---released-on-september-18-2024}
 - Added new options to edit photos within Tella's encrypted container: [Zoom and Flip](/features#edit-media).
 - Bug-fixing and small improvements:
@@ -59,12 +60,15 @@ A version of Tella included for the first time on the F-droid store. This a 100%
     - Solved visual bug for longer Template names in the Uwazi "Download Template" screen.
     - Solved visual bug on the report status screen for report upload progress.
 
-### iOS: Tella 1.10.0 (79) - Released on September 3, 2024 {#ios-tella-1100-78---released-on-september-3-2024}
-- Implemented the Google Drive server connection that allows Tella users to upload the data they collect directly to either their personal Google Drive folder or to any organizational shared drives they are connected to. [Read here more about the connection](/g-drive).
+
+
+### iOS: Tella 1.10.0 (79) - Released on September 11, 2024 {#ios-tella-1100-79---released-on-september-11-2024}
+- Implemented the Google Drive server connection that allows Tella users to upload the data they collect directly to either their personal Google Drive folder or to any organizational shared drives they are connected to. [Read here more about the integration](/g-drive).
 - Added support for Vietnamese.
 - Bug-fixing and small improvements:
     - Fixed issue with primary files submission in Uwazi.
     - Fixed issue when deleting submitted entities in Uwazi (name was changed).
+
 
 ### iOS: Tella 1.9.0 (75) - Released on June 25, 2024 {#ios-tella-190-75---released-on-june-25-2024}
 - Added support for the relationship property type in the Uwazi connection.

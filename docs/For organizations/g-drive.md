@@ -11,6 +11,7 @@ Tella allows users to sign in to their Google account directly from Tella and to
 
 Similarly to other server connections (like [Tella Web](/tella-web), [Uwazi](/uwazi), [Nextcloud](/nextcloud) or [Open Data Kit](/odk)), connecting to a Google Drive server enhances the security of data collected on Tella by:
 
+
 1. Allowing users to collect data directly inside Tella's encrypted container.
 2. Ensuring that data is sent directly from Tella to Google Drive, without needing to install the Google Drive app on the device or sending the data through a third-party app.
 3. Allowing users to back up their data on a remote location, to lower the risk that data is discovered on their mobile device.
@@ -33,6 +34,7 @@ The Google Drive connection may be particularly well-suited for:
 :::tip
 If you need help figuring out if Google Drive is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
 :::
+
 
 ## Connect to Google Drive {#connect-to-google-drive}
 
