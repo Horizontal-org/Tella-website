@@ -16,8 +16,8 @@ Vous avez plusieurs options pour télécharger Tella :
 
 Si vous avez besoin d'aide pour installer l'application manuellement, vous pouvez [suivre ce guide](/video-tutorials#manual-installation-of-tella) ou [nous contacter](/contact-us).
 
-<div class="gifs">
-    <img src={require("@site/static/img/getting-started/android/find-tella.gif").default}  alt="gif that shows how to download Tella from the Play Store" title="find and download gif" />
+<div className="gifs">
+    <img src={require('@site/static/img/getting-started/android/find-tella.gif').default} alt="gif that shows how to download Tella from the Play Store" title="find and download gif" />
 </div>
 
 
@@ -45,9 +45,9 @@ Lorsque vous utilisez chaque fonctionnalité pour la première fois, il vous est
 
 Si vous refusez d'accorder ces permissions à Tella, vous pourrez le faire ultérieurement en accédant à vos paramètres Android et en naviguant vers Paramètres > Applications > Tella > Permissions de l'application.
 
-<div class="gifs">
-    <img src={require("@site/static/img/getting-started/android/permissions.gif").default}  alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
-    <img src={require("@site/static/img/getting-started/android/permissions-change.gif").default}  alt="gif that shows how to chage granted permissions on Tella" title="change the granted permission" />
+<div className="gifs">
+    <img src={require("@site/static/img/getting-started/android/permissions.gif").default} alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
+    <img src={require("@site/static/img/getting-started/android/permissions-change.gif").default} alt="gif that shows how to chage granted permissions on Tella" title="change the granted permission" />
 </div>
 
 
@@ -57,26 +57,26 @@ Une fois les permissions accordées, vous êtes prêt à vous lancer dans la col
 
 **Utilisez l'appareil photo pour prendre des photos ou des vidéos et l'enregistreur audio pour enregistrer du son.** Tous les médias pris par Tella seront chiffrés instantanément, ce qui signifie que le fichier ne sera pas accessible en dehors de Tella. Tous les médias collectés par Tella n'apparaîtront pas dans la galerie de votre téléphone ou dans les fichiers de votre téléphone. Il n'y a pas de limite de stockage particulière pour Tella, l'espace disponible dépendra de l'espace disponible sur votre appareil.
 
-<div class="gifs">
-  <img src={require("@site/static/img/getting-started/android/picture.gif").default}  alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
-  <img src={require("@site/static/img/getting-started/android/video.gif").default}  alt="gif that shows how to record a video in Tella" title="video recording in Tella" />
-  <img src={require("@site/static/img/getting-started/android/audio.gif").default}  alt="gif that shows how to record audio in Tella" title="audio recording in Tella" />
+<div className="gifs">
+  <img src={require("@site/static/img/getting-started/android/picture.gif").default} alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
+  <img src={require("@site/static/img/getting-started/android/video.gif").default} alt="gif that shows how to record a video in Tella" title="video recording in Tella" />
+  <img src={require("@site/static/img/getting-started/android/audio.gif").default} alt="gif that shows how to record audio in Tella" title="audio recording in Tella" />
 </div>
 
 
 
-**Importez vos fichiers sur Tella.** Allez dans n'importe quel dossier de Tella et appuyez sur le bouton **+** > **Importer depuis l'appareil**. Choisissez le fichier que vous souhaitez conserver dans Tella et une copie du fichier sera stockée de manière chiffrée et cachée sur Tella. Il vous sera demandé de choisir si vous souhaitez supprimer ou conserver le fichier original de votre appareil. Tella sera déverrouillé pendant que vous choisissez vos fichiers pendant un maximum de trois (3) minutes.
+**Importez vos fichiers sur Tella.** Allez dans n'importe quel dossier de Tella et appuyez sur le **+** Bouton> **Importer depuis l'appareil**. Choisissez le fichier que vous souhaitez conserver dans Tella et une copie du fichier sera stockée de manière chiffrée et cachée sur Tella. Il vous sera demandé de choisir si vous souhaitez supprimer ou conserver le fichier original de votre appareil. Tella sera déverrouillé pendant que vous choisissez vos fichiers pendant un maximum de trois (3) minutes.
 
-<div class="gifs">
-    <img src={require("@site/static/img/getting-started/android/import.gif").default}  alt="gif that shows how to import files in Tella" title="import files in Tella" />
+<div className="gifs">
+    <img src={require("@site/static/img/getting-started/android/import.gif").default} alt="gif that shows how to import files in Tella" title="import files in Tella" />
 </div>
 
 
 
 **Créer des dossiers.** Pour faciliter la recherche de vos fichiers, vous pouvez les organiser en dossiers. Allez dans **Tous les fichiers** > **+** > **Créer un nouveau dossier** et tapez un nom descriptif pour le dossier. Utilisez ensuite le bouton Sélectionner plusieurs en haut de l'écran, choisissez les fichiers que vous souhaitez déplacer dans le nouveau dossier, puis cliquez sur le bouton à trois (3) points et Déplacer vers un autre dossier, naviguez dans la structure des fichiers pour trouver le dossier, puis appuyez sur Déplacer ici.
 
-<div class="gifs">
-    <img src={require("@site/static/img/getting-started/android/folders-rename.gif").default}  alt="gif that shows how to organize your info in Tella" title="organize files in Tella" />
+<div className="gifs">
+    <img src={require("@site/static/img/getting-started/android/folders-rename.gif").default} alt="gif that shows how to organize your info in Tella" title="organize files in Tella" />
 </div>
 
 **Renommer les fichiers:** Une autre façon d'organiser vos données consiste à renommer les fichiers pour qu'ils soient plus descriptifs. Par défaut, les fichiers reçoivent un nom généré automatiquement. Vous pouvez le modifier en cliquant sur les **trois (3) points** qui se trouvent à côté de chaque nom de fichier, puis en appuyant sur **Renommer**.
@@ -90,19 +90,19 @@ Il existe deux façons de camoufler Tella pour la masquer sur votre appareil  :
 - Vous pouvez cacher Tella derrière une calculatrice entièrement fonctionnelle. Nous avons développé 4 thèmes différents pour correspondre au thème par défaut de votre téléphone et aider à cacher Tella. Pour ouvrir Tella, l'utilisateur doit saisir son code PIN dans la calculatrice, suivi de **=**. Le camouflage de la calculatrice n'est possible que si l'utilisateur utilise un code PIN. Il n'est pas possible de camoufler Tella en calculatrice si un motif ou un mot de passe est utilisé.
 Pour en savoir plus sur le camouflage, cliquez [ici](/features#camouflage).
 
-<div class="gifs">
-    <img src={require("@site/static/img/getting-started/android/camouflage-icon.gif").default}  alt="gif that shows how camouflage Tella by changing its name and icon" title="camouflage Tella changing its icon" />
-    <img src={require("@site/static/img/getting-started/android/camouflage-calc.gif").default}  alt="gif that shows how camouflage Tella behind a calculator" title="camouflage Tella with a calculator" />
+<div className="gifs">
+    <img src={require("@site/static/img/getting-started/android/camouflage-icon.gif").default} alt="gif that shows how camouflage Tella by changing its name and icon" title="camouflage Tella changing its icon" />
+    <img src={require("@site/static/img/getting-started/android/camouflage-calc.gif").default} alt="gif that shows how camouflage Tella behind a calculator" title="camouflage Tella with a calculator" />
 </div>
 
 
 
-## Partagez vos informations. {#share-your-information}
+## Partager vos informations. {#share-your-information}
 Pour partager des informations via Tella, vous pouvez utiliiser le bouton **Partagez**. Il vous suffit de sélectionner le ou les fichiers que vous souhaitez partager, d'appuyer sur **Partagez** et choisir l'application avec laquelle vous souhaitez partager les fichiers.
 
 Tenez compte du fait que Tella partagera les fichiers non cryptés, alors assurez-vous d'utiliser des messages qui disparaissent (par exemple sur WhatsApp ou Signal) ou supprimez les messages une fois reçus par l'autre personne.
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/android/share.gif").default} alt="gif that shows how to share information" title="share information with third party apps" />
 </div>
 
@@ -121,17 +121,17 @@ L'[Open Data Kit (ODK)] (https://getodk.org/) est une norme ouverte utilisée po
 Nous avons rédigé une documentation sur la manière de se connecter à un serveur Open Data Kit et pour commencer, nous vous recommandons de lire  [cette page](/odk).
 
 
-<div class="gifs">
-    <img src={require("@site/static/img/getting-started/android/kobo.gif").default}  alt="gif that shows ODK connection" title="ODK connection" />
+<div className="gifs">
+    <img src={require("@site/static/img/getting-started/android/kobo.gif").default} alt="gif that shows ODK connection" title="ODK connection" />
 </div>
 
 #### Uwazi {#uwazi}
 [Uwazi](https://uwazi.io/) est une application open-source créée par HURIDOCS avec de puissantes fonctionnalités pour collecter, organiser et visualiser les données relatives aux droits de l'homme.
 
-Nous avons rédigé une documentation sur la manière de se connecter à un serveur Open Data Kit et pour commencer, nous vous recommandons de lire [cette page](/uwazi).
+Nous avons rédigé une documentation sur la manière de se connecter à un serveur Uwazi et pour commencer, nous vous recommandons de lire [cette page](/uwazi).
 
-<div class="gifs">
-    <img src={require("@site/static/img/getting-started/android/uwazi.gif").default}  alt="gif that shows Uwazi connection" title="Uwazi connection" />
+<div className="gifs">
+    <img src={require("@site/static/img/getting-started/android/uwazi.gif").default} alt="gif that shows Uwazi connection" title="Uwazi connection" />
 </div>
 
 #### Tella Web {#tella-web}

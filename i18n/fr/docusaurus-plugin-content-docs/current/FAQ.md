@@ -51,7 +51,7 @@ Pour plus de détails sur les fonctionnalités disponibles pour iOS, consultez l
 
 <FeaturesTable/>
 
-Pour plus de détails sur chaque fonctionnalité, voir [Fonctionnalités](/features) .
+Pour plus de détails sur chaque fonctionnalité, voir [Fonctionnalités](/features).
 
 ### Tella est-elle disponible sur PC ? {#is-tella-available-on-desktop}
 
@@ -65,6 +65,12 @@ Notez qu'il n'est pas possible de chiffrer et de masquer des fichiers ou de cré
 
 En fonction de l'appareil que vous possédez, referez-vous aux questions [Tella est-elle disponible sur Android ?](#is-tella-available-on-android) ou [Tella est-elle disponible sur iOS ?](#is-tella-available-on-ios).
 
+### Comment puis-je devenir bêta-testeur pour Tella? {#how-do-i-become-a-beta-tester-for-tella}
+
+- Android : inscrivez-vous sur le Google Play Store en utilisant [ce lien](https://play.google.com/store/apps/details?id=org.hzontal.tella) depuis votre appareil Android [ou ce lien](https://play.google.com/apps/testing/org.hzontal.tella) depuis votre navigateur Web.
+- iOS : Inscrivez-vous sur l'App Store [en ouvrant ce lien](https://testflight.apple.com/join/d8r2QRWh) depuis votre iPhone.
+
+
 ### Quels sont les téléphones compatibles avec Tella ?{#what-phones-support-tella}
 
 Tella est compatible avec les appareils fonctionnant sous Android 5.0 ou une version ultérieure et avec iOS 14.0 ou une version ultérieure.
@@ -77,12 +83,12 @@ Tella est également [Open Source.](/open-source)
 
 ### Dans quelles langues Tella est-elle disponible? {#what-languages-is-tella-available-in}
 
-L'accessibilité linguistique est l'une de nos priorités, c'est pourquoi nous nous efforçons de rendre Tella disponible dans les langues parlées par les communautés qui manifestent le besoin d'utiliser Tella.
+L'accessibilité linguistique est l'une de nos priorités, c'est pourquoi nous nous efforçons de rendre Tella disponible dans les langues parlées par les communautés qui en expriment le besoin d'en bénéficier.
 
 Actuellement, Tella est disponible en:
 <TellaLanguages/>
 
-Pour plus d'informations sur l'accessibilité linguistique de Tella, cliquiez [ici](/accessibility).
+En savoir plus sur l’accessibilité linguistique dans Tella [ici](/accessibility).
 
 ### Tella fonctionne-t-elle sur des tablettes? {#does-tella-work-on-tablets}
 
@@ -119,15 +125,28 @@ Malheureusement, il n'y a aucun moyen d'accéder à Tella si vous avez oublié v
 Pour en savoir plus sur le  [code de verrouillage de Tella](/video-tutorials#tella-locks) consultez nos tutoriels vidéo.
 :::
 
+### Comment migrer Tella vers un nouveau téléphone? {#how-do-i-migrate-tella-to-a-new-phone}
+Malheureusement, il n'existe aucun moyen de déplacer automatiquement vos fichiers et données de Tella sur un ancien téléphone vers Tella sur un nouveau téléphone.
+
+L'utilisation de l'assistant de migration d'Apple ne fonctionnera pas : vos fichiers seront déplacés vers le nouveau téléphone cryptés, mais pas vos clés de chiffrement. Par conséquent, vous ne pourrez pas décrypter et ouvrir ces fichiers.
+
+Pour migrer vos fichiers Tella vers un nouveau téléphone, vous devez installer Tella sur le nouvel appareil, exporter tous les fichiers depuis Tella et les importer manuellement sur le nouveau téléphone. Nous vous recommandons de suivre ces étapes :
+  1. Sur votre ancien téléphone, accédez au dossier « Tous les fichiers » et utilisez la case à cocher « Sélectionner tout » pour sélectionner tous vos fichiers et dossiers. Gardez à l'esprit que les fichiers resteront visibles, non cryptés, dans la galerie du téléphone.
+  2. Utilisez Quick Share (sur Android), Airdrop (sur iOS) ou tout autre utilitaire de transfert de données pour déplacer vos fichiers vers le nouvel appareil. Les fichiers seront transférés sans cryptage.
+  3. Sur votre nouveau téléphone, ouvrez Tella et accédez au dossier « Tous les fichiers », appuyez sur le bouton « + » et sélectionnez « Importer depuis l'appareil ». Vous pouvez choisir « Supprimer l'original » dans la boîte de dialogue pour vous assurer que les fichiers sont uniquement stockés en toute sécurité dans Tella. Sélectionnez les fichiers que vous venez d'exporter depuis votre ancien téléphone pour les importer dans Tella.
+  4. Assurez-vous de supprimer les fichiers qui ne sont pas sécurisés dans le coffre-fort crypté de Tella des galeries de vos deux téléphones.
+
+
+
 ### Dans quelle mesure Tella est-elle sûre ? {#how-secure-is-tella}
 
 Il n’existe pas d’application 100 % « sécurisée ». La sécurité dépend des menaces et des risques auxquels chaque utilisateur est confronté. Dans cette optique, nous avons conçu Tella pour protéger les utilisateurs des fouilles potentiellement effectuées sur leurs appareils (aux points de contrôle, aux frontières, dans la rue, etc.) et pour protéger les fichiers et données sensibles à la fois sur l'appareil et quand ceux-ci sont envoyés.
 
-Pour ce faire, Tella chiffre toutes les données stockées dans l'appareil de l'utilisateur, les verrouille à l'aide d'un mot de passe et permet de les dissimuler à l'aide d'une variété d'options de camouflage. L'application chiffre également toutes les données transmises aux serveurs. Vous pouvez lire des détails sur la façon dont nous procédons, ainsi que certains risques et limitations sur la [section Sécurité et confidentialité de Tella].(/security-and-privacy)
+Pour ce faire, Tella chiffre toutes les données de l'appareil de l'utilisateur, les verrouille à l'aide de protections par mot de passe et peut être masquée à l'aide de diverses options de camouflage. Il crypte également toutes les données envoyées aux serveurs. Vous pouvez lire les détails sur la manière dont nous procédons, ainsi que certains risques et limitations dans la section [Sécurité et confidentialité de Tella](/security-and-privacy).
 
 ### Tella a-t-elle subi des audits de sécurité? {#has-tella-undergone-security-audits}
 
-Oui, vous pouvez consulter tous nos audits de sécurité [ici](/security-and-privacy#security-audits) .
+Oui! Vous pouvez consulter tous nos audits de sécurité [ici](/security-and-privacy#security-audits).
 
 ## Déploiement de Tella {#deploying-tella}
 
@@ -171,4 +190,5 @@ Quelques recherches et réflexions sur Tella - et sur le processus de documentat
 -   [Est-ce que je dois utiliser cette application de documentation ?](https://blog.witness.org/2020/02/use-documentation-app/) de WITNESS.
 -   Le Public International Law and Policy Group (PILPG), en partenariat avec The Engine Room et HURIDOCS, a publié un [vaste rapport d'évaluation des besoins pour les documentalistes des droits de l'homme, les acteurs de la justice transitionnelle et les développeurs d'outils] (https://www.publicinternationallawandpolicygroup.org/hrds-phase-i-report-launch). Ce [microsite] (https://documentation-tools.theengineroom.org/)  de The Engine Room présente certaines des conclusions du rapport.
 -   The Engine Room a évalué certains des outils technologiques disponibles pour les documentalistes des droits de l'homme [ici].(https://docs.google.com/spreadsheets/d/1DbUDYRqJwi1Yz0PGTWqj6Y9SVBiMP9ak2l7j85hRYVw/edit#gid=0)
+
 

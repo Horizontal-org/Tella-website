@@ -85,7 +85,7 @@ import ThemedImage from '@theme/ThemedImage';
         <div className="column" id="section-column1">
             <ul>
                 <li><span className="emphasis">Gratuite pour toujours : </span>Tella est conçue pour ceux et celles dont la sécurité est en danger. Son téléchargement et son utilisation sont gratuite et le resteront à jamais.</li>
-                <li><span className="emphasis">Choisir votre langue :</span> Tella est actuellement <a href="faq#what-languages-is-tella-available-in">disponible</a>en arabe, biélorusse, birman, anglais, indonésien, jingpho, kannada, karen sgaw, kurde, malayalam, persan, portugais, russe, espagnol (Amérique latine) et en tamoul.</li>
+                <li><span className="emphasis">Choisir votre langue :</span> Tella est actuellement <a href="faq#what-languages-is-tella-available-in">disponible</a>en arabe, biélorusse, birman, anglais, français, indonésien, jingpho, kannada, karen sgaw, kurde, malayalam, persan, portugais, russe, vietnamienne ,espagnol (Amérique latine) et en tamoul.</li>
                 <li><span className="emphasis">Faire confiance au code</span>: Le code de Tella est open-source et <a href="open-source">publiquement disponible</a> afin que les chercheurs et chercheuses, analystes en sécurité et développeurs ou développeuses puissent l'auditer et le réutiliser librement.</li>
             </ul>
         </div>

@@ -2,14 +2,16 @@
 2. biélorusse
 3. birman
 4. anglais
-5. indonésien
-6. jingpho
-7. kannada
-8. karen sgaw
-9. kurde
-10. malayalam
-11. persan
-12. portugais
-13. russe
-14. espagnol (Amérique latine)
-15. tamoul
+5. Français
+6. indonésien
+7. jingpho
+8. kannada
+9. karen sgaw
+10. kurde
+11. malayalam
+12. persan
+13. portugais
+14. russe
+15. espagnol (Amérique latine)
+16. tamoul
+17. Vietnamien

@@ -22,7 +22,7 @@ De la même manière que toute autre connexion au serveur (comme [Tella Web](/te
 
 ODK étant une norme ouverte, Tella peut être utilisée avec n'importe quel outil compatible avec ODK.
 
-Pour les organisations de la société civile et les défenseurs et défenseuses des droits humains, nous recommandons d'utiliser [KoboToolbox](https://www.kobotoolbox.org/) pour créer des formulaires avec des questions personnalisées, gérer les utilisateurs et regrouper les données soumises par les utilisateurs. D'après notre expérience, l'application est conviviale et flexible, et elle est également open source. KoboToolbox propose un [serveur public gratuit](https://kf.kobotoolbox.org/accounts/login/) pour les organisations à but non lucratif et les soutient avec une formation et des conseils sur la façon de structurer les données sur le serveur. Il est également possible [d'utiliser une instance privée de KoboToolbox](https://www.kobotoolbox.org/services/private-servers/) ou de [l'auto-héberger](https://support.kobotoolbox.org/kobo_your_servers.html).
+Pour les organisations de la société civile et les défenseurs des droits de l'homme, nous recommandons d'utiliser [KoboToolbox](https://www.kobotoolbox.org/) pour créer des formulaires avec des questions personnalisées, gérer les utilisateurs et regrouper les données soumises par les utilisateurs. D'après notre expérience, KoboToolbox est convivial et flexible, et il est également open source. KoboToolbox propose un [plan communautaire] gratuit (https://www.kobotoolbox.org/pricing/) pour les organisations à but non lucratif et propose des ressources de formation gratuites et des conseils sur la façon de structurer les données sur le serveur (base d'apprentissage en libre-service et communauté Forum). Il est également possible [d'utiliser une instance privée de KoboToolbox](https://www.kobotoolbox.org/services/private-servers/) ou [de l'héberger soi-même](https://support.kobotoolbox.org/kobo_your_servers.html).
 
 Il existe d'autres applications compatibles avec ODK, comme [Ona] (https://ona.io/home/) ou [ODK Cloud] (https://https://getodk.org/index.html). Tella est compatible avec toutes ces applications. Si vous avez besoin d'aide, [contactez-nous](contact-us) pour que nous vous aidions à sélectionner le serveur le mieux adapté à vos besoins.
 
@@ -55,14 +55,14 @@ Si votre serveur nécessite une authentification utilisateur, appuyez sur le bou
 
 Après que vous vous soyez connecté avec succès à l'instance ODK, vous verrez apparaître dans les sections **Connexions** de l'écran d'accueil de Tella une nouvelle carte appelée "Formulaires".
 
-Une fois dans la rubrique **Formulaires**, vous verrez une liste de formulaires disponibles sur l'instance ou les instances auxquelles vous êtes connecté(e). En utilisant le bouton **Télécharger**, vous pourrez télécharger des formulaires sur Tella afin de pouvoir les remplir, même si vous n'êtes pas connecté à Internet.
+Après avoir accédé à la section **Formulaires**, vous verrez une liste des formulaires disponibles sur les instances auxquelles vous êtes connecté. À l'aide du bouton **Télécharger**, vous pouvez télécharger des formulaires sur Tella afin de pouvoir les remplir, même si vous n'êtes pas connecté à Internet.
 
 Vous pouvez appuyer sur chaque formulaire vierge pour commencer à le remplir.
 
 
 #### Soumettre les formulaires {#submit-forms}
 
-Lorsque vous collectez des données et remplissez des formulaires, les options suivantes s'offrent à vous:
+Au fur et à mesure que vous collectez des données et remplissez des formulaires, les options suivantes sont disponibles pour augmenter le support hors ligne sur Tella:
 - Soumettre : envoyer le formulaire rempli au serveur ODK.
 - Enregistrer comme brouillon: enregistrez un formulaire qui n'est pas complété afin de pouvoir continuer à travailler dessus plus tard.
 - Soumettre plus tard: marquez un formulaire comme complet pour le soumettre ultérieurement. Jusqu'à son envoi, il sera disponible dans l'onglet Boîte d'envoi.

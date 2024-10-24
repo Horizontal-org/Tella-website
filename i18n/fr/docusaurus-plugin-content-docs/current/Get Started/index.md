@@ -1,35 +1,39 @@
 ---
 id: get-started
-title: Get Started 
+title: Se lancer 
 description: Guide de démarrage rapide pour les utilisateurs de Tella sur Android et iOS
 slug: /get-started
 ---
+
+import Link from '@docusaurus/Link'
+
+
 # Commencer avez Tella
 
 
 <div class="doc-card-list">
     <div className="doc-card">
-      <a href="get-started-android">
+      <Link to="/get-started-android">
         <div className="doc-card-content">
           <b>Guide Android</b>
-          <p>Guide de démarrage rapide pour utiliser Tella sur Android.</p>
+          <p>Guide de démarrage rapide pour les utilisateurs de Tella sur Android.</p>
         </div>
-      </a>
+      </Link>
     </div>
     <div className="doc-card">
-      <a href="get-started-ios">
+      <Link to="/get-started-ios">
         <div className="doc-card-content">
-          <b>iOS Guide</b>
-          <p>Guide de démarrage rapide pour utiliserTella sur iPhone.</p>
+          <b>Guide iOS</b>
+          <p>Guide de démarrage rapide pour les utilisateurs de Tella sur iPhone.</p>
         </div>
-      </a>
+      </Link>
     </div>
     <div className="doc-card">
-      <a href="video-tutorials">
+      <Link to="/video-tutorials">
         <div className="doc-card-content">
-          <b>Tutoriels vidéos</b>
-          <p>Conseils vidéo pour se lancer.</p>
+          <b>Tutoriels vidéo</b>
+          <p>Guide vidéo pour commencer.</p>
         </div>
-      </a>
+      </Link>
     </div>
 </div>
