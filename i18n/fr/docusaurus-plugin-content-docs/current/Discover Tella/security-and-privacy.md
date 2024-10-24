@@ -30,7 +30,32 @@ Tella Android, disponible sur le Google Play Store, comprend deux trackers, [Goo
 
 ### Tella iOS {#tella-ios}
 
-[Tella pour iOS](https://apps.apple.com/us/app/tella-document-protect/id1598152580) n'inclut aucun tracker. En raison des politiques strictes d'Apple en matière d'applications iOS, Tella pour iOS n'est actuellement pas disponible sur les magasins d'applications alternatifs ni pour installation manuelle.
+[Tella for iOS](https://apps.apple.com/us/app/tella-document-protect/id1598152580) n'inclut aucun traceur.
+
+En raison des politiques strictes d’Apple concernant les applications iOS, Tella pour iOS n’est actuellement pas disponible sur les magasins d’applications alternatifs ni pour une installation manuelle.
+
+## Analyses {#analytics}
+
+Dans Tella Android et [Tella Web](/tella-web), les utilisateurs peuvent choisir de partager des analyses pour améliorer Tella. Ces données nous aident à comprendre comment les gens utilisent Tella et quelles fonctionnalités sont importantes pour eux. ***Les données d'analyse ne sont collectées que si les utilisateurs choisissent de les accepter dans les paramètres de l'application***
+
+Nous utilisons [Divvi Up](https://divviup.org/), un service de télémétrie respectueux de la vie privée. Divvi Up est mis en œuvre par le [Internet Security Research Group (ISRG)](https://www.abetterinternet.org/), une organisation à but non lucratif qui gère également le projet [Let’s Encrypt](https://letsencrypt.org/).
+
+Voici quelques informations sur notre approche analytique respectueuse de la vie privée:
+
+1. **Toutes les données sont anonymes et agrégées**: la bibliothèque Divvi Up divise les données en deux partages anonymisés et cryptés et télécharge chaque partage vers différents processeurs de partage de données (un hébergé par ISRG et un hébergé par nous) qui ne partagent pas de données entre eux. De cette façon, seules des informations partielles sur les données d'origine sont révélées à l'un ou l'autre des processeurs.
+2. **Même si nous le voulions, nous ne pourrions pas obtenir toutes les données**: Il n'est pas possible de construire toutes les données avec une seule part. Chaque processeur agrège ses parts de données en une somme partielle. Les sommes partielles peuvent ensuite être combinées en une agrégation finale, permettant d'obtenir des statistiques utiles sur l'ensemble des données tout en révélant un minimum d'informations sur les participants individuels. Une documentation technique complète sur le fonctionnement de Divvi Up est disponible [ici](https://docs.divviup.org/).
+3. **Nous collectons le moins de données possible**: Même si toutes les données sont anonymisées, nous minimisons toujours la quantité de données que nous collectons. À partir des dernières versions de Tella, nous collectons uniquement des données sur les événements suivants (et rien de plus):
+
+    **Tella Android**
+    - Nombre d'événements de déverrouillage réussis.
+
+    **Tella Web**
+    - Nombre de visites (déclenché chaque fois que quelqu'un entre dans une instance Tella Web).
+    - Nombre de téléchargements de fichiers (déclenché chaque fois que quelqu'un télécharge un fichier sur une instance tellaweb).
+    - Nombre de rapports (déclenché chaque fois que quelqu'un télécharge un rapport sur une instance tellaweb).
+
+
+Pour plus d'informations sur les métriques que nous ajoutons à nos applications, consultez nos [notes de publication](/releases).
 
 
 ## Fonctionnalités de sécurité {#security-features}
@@ -61,7 +86,7 @@ Il n’existe pas d’application 100 % « sécurisée ». La sécurité dépend
 
 
 * Camouflage:
-    * Sur Android, lorsque Tella est masquée à l'aide de l'une des deux [méthodes de camouflage disponibles], l'application peut toujours être détectée dans les paramètres du système. Cela signifie que quelqu'un qui accède aux paramètres Android > Applications pourra voir qu'il y a une application installée sur l'appareil appelée “Tella”. Il ou elle pourra également voir la taille de l’application. Ainsi, si l’utilisateur ou utilisatrice stocke des fichiers très volumineux, comme des vidéos, l’application peut attirer l’attention.
+    * Sur Android, lorsque Tella est camouflée à l'aide de l'une des deux [méthodes de camouflage disponibles](/features#camouflage), l'application peut toujours être détectée dans les paramètres Android. Cela signifie qu'une personne qui accède aux paramètres Android > Applications pourra voir qu'une application appelée “Tella” est installée sur l'appareil. Elle pourra également voir la taille de l'application. Ainsi, si l'utilisateur stocke des fichiers très volumineux, comme des vidéos, l'application peut attirer l'attention.
 * Gestion des fichiers:
     * Les fichiers exportés depuis Tella vers le système de fichiers de l'appareil ne sont plus cryptés. Cela signifie que toute personne ayant accès à l'appareil et parcourant le système de fichiers ou la galerie peut trouver ces fichiers.
     * Les fichiers partagés par l'intermédiaire d'applications tierces peuvent être visibles par ces applications et enregistrés sous forme non chiffrée dans le système de fichiers de l'appareil, et une personne effectuant une recherche dans ces applications peut être en mesure de trouver les fichiers. Par exemple : une photo stockée dans Tella et partagée sur WhatsApp sera visible dans WhatsApp, ainsi que dans le système de fichiers, où sont stockées les photos WhatsApp. Cela s'explique par le fait que pour être partagé avec des applications tierces, le fichier doit être enregistré dans le système de fichiers du téléphone, qui n'est pas crypté. C'est pourquoi nous recommandons de supprimer manuellement le fichier du système de fichiers de l'appareil après l'avoir partagé.
@@ -70,7 +95,15 @@ Il n’existe pas d’application 100 % « sécurisée ». La sécurité dépend
 
 ## Audits de sécurité {#security-audits}
 
-Nous demandons régulièrement à des sociétés de sécurité indépendantes d'auditer notre code pour garantir qu'il est robuste et sécurisé. Vous pouvez consulter les rapports complets de ces audits [sur cette page](https://drive.google.com/file/d/11mPB2KZLHb6blmNuk_qyXYcn4BSVYNFT/view?usp=sharing). Voici le résumé du dernier audit et l’état actuel de la mise en œuvre:
+Nous demandons régulièrement à des sociétés de sécurité indépendantes d’auditer notre code pour garantir qu’il est robuste et sécurisé.
+
+| Date | Audité par | Les plateformes auditées    | Lien      |
+| -----|----------|----|-----------|
+| Mai 2024 | Subgraph Technologies, Inc. |  Android, iOS, Tella Web |[Voir le rapport](<./../assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
+| Mai 2023 | Subgraph Technologies, Inc. | Android, iOS, Tella Web |[Voir le rapport](<./../assets/2023.05 - Tella security audit - Final report.pdf>)|
+
+
+ Voici le résumé du dernier audit et l'état des vulnérabilités identifiées:
 
 
 | Titre                                               | Sévérité    | Statut      |
@@ -79,4 +112,4 @@ Nous demandons régulièrement à des sociétés de sécurité indépendantes d'
 | Itérations PBKDF2 de la clé d'E/S du flux de chiffrement Android     | Faible         | Résolu    |
 | Les données audio Tella iOS Cleartext peuvent persister plus longtemps  | Faible         | Résolu    |
 | Dépendance obsolète de Tella Android Retrofit2         | Faible         | Résolu    |
-| Dépendance obsolète de Tella Android :  Butterknife    | Informatif| En cours |
+| Dépendance obsolète de Tella Android :  Butterknife    | Informatif| Résolu |

@@ -11,7 +11,7 @@ slug: /uwazi
 
 Uwazi permet aux organisations d'agréger, dans un système central, les données collectées par leurs membres ou partenaires. Les utilisateurs et utilisatrices de Tella se connectent à l'instance Uwazi de leur organisation, téléchargent des formulaires (appelés modèles), remplissent les modèles autant de fois que nécessaire (même s'ils n'ont pas de connexion internet), et téléchargent les données. Les organisations peuvent alors conserver, organiser et publier leurs données directement à partir d'Uwazi. 
 
-De la même manière que toute autre connexion au serveur comme [Tella Web](/tella-web) et [Open Data Kit](/odk), la connexion à Uwazi améliore la sécurité des données collectées sur Tella en :
+De la même manière que toute autre connexion au serveur comme([Tella Web](/tella-web) et [Open Data Kit](/odk)), la connexion à Uwazi améliore la sécurité des données collectées sur Tella en :
 1. Permettant aux utilisateurs et utilisatrices de collecter des données directement dans le conteneur crypté de Tella.
 2. Garantissant que les données sont envoyées directement de Tella à Uwazi, sans recours à un outil ou une application tiers.
 3. Permettant aux utilisateurs et utilisatrices de sauvegarder leurs données sur un serveur externe, pour réduire le risque que leurs données soient découvertes sur leur appareil mobile.
@@ -29,15 +29,29 @@ Uwazi permet également aux chefs et cheffes de projet d'organiser, d'analyser, 
 
 Uwazi n'est pas doté d'une application mobile officielle. En intégrant Uwazi et Tella, vous pouvez tirer parti du cryptage et des capacités hors ligne de Tella et profiter pleinement des capacités d'Uwazi pour organiser, rechercher, télécharger, visualiser et publier des informations. 
 
+Voici quelques conseils sur Uwazi qui peuvent être particulièrement adaptés à votre cas d'utilisation:
+- Vous devez rendre les données collectées accessibles au public sur un site Web.
+- Vous devez établir des relations entre les points de données.
+- Les données doivent être contenues dans des registres de bases de données structurées.
+- Vous devez nettoyer, éditer, organiser et conserver les données collectées.
+- Vous devez rapidement rechercher, trouver et analyser les données.
+- Vous travaillez dans un environnement multilingue.
+- Vous travaillez dans un environnement collaboratif avec plusieurs utilisateurs et profils différents.
+- Vous devez conserver les informations de manière sécurisée sur le long terme.
+
 Vous pouvez en savoir plus sur Uwazi sur [la documentation officielle d'Uwazi](https://uwazi.readthedocs.io/en/latest/). HURIDOCS sont des amis d'Horizontal, donc si vous avez des questions sur Uwazi ou si vous voulez que nous vous mettions en contact avec l'équipe d'HURIDOCS, [contactez-nous](contact-us).
 
-## Installer Uwazi sur un serveur {#install-uwazi-on-a-server}
+## Configurer Uwazi sur un serveur {#configure-uwazi-on-a-server}
 
-L'équipe HURIDOCS a créé un guide d'administrateur complet avec des instructions étape par étape pour installer Uwazi sur votre serveur, configurer les sauvegardes et configurer les fonctionnalités avancées. Nous vous recommandons de partager [ce guide](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html) avec votre administrateur ou administratrice système.
+
+L'équipe HURIDOCS propose 2 alternatives pour configurer votre serveur uwazi:
+
+1. Auto-hébergé : partagez ce [guide d'administrateur complet](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html) avec l'administrateur de votre système pour obtenir des instructions étape par étape sur la façon d'installer Uwazi sur votre serveur, de configurer les sauvegardes et de configurer les fonctionnalités avancées.
+2. Hébergé par HURIDOCS : HURIDOCS propose des forfaits d'hébergement en tant que service. Des services d'hébergement gratuits (jusqu'à une certaine limite de stockage) et une version d'essai d'Uwazi sont disponibles pour les organisations de défense des droits de l'homme. [Contactez HURIDOCS](https://huridocs.org/services/) pour plus de détails sur le service.
 
 ## Modélisez vos données {#model-your-data}
 
-Une collection Uwazi est composée d'entités. Une entité possède des propriétés qui sont les champs que les utilisateurs de Tella rempliront pour collecter des données. Les entités peuvent contenir des documents principaux et/ou des fichiers de support et certaines propriétés définies par les admins sur le serveur Uwazi lorsqu'ils créent des modèles. Un modèle est un formulaire vide qui peut être rempli autant de fois que nécessaire ; une fois qu'un modèle est rempli, il devient une entité.
+Une collection Uwazi est composée d'entités. Une entité possède des propriétés qui sont les champs que les utilisateurs de Tella rempliront pour collecter des données. Les entités peuvent contenir des documents principaux et/ou des fichiers de support et certaines propriétés définies par les administrateurs sur le serveur Uwazi lorsqu'ils créent des modèles. Un modèle est un formulaire vide qui peut être rempli autant de fois que nécessaire ; une fois qu'un modèle est rempli, il devient une entité.
 
 [Vous pouvez consulter ici](https://uwazi.readthedocs.io/en/latest/admin-docs/building-info-architecture.html#understanding-properties) les propriétés disponibles sur le serveur Uwazi et la manière de modéliser vos données et de créer vos modèles. Pour l'instant, nous ne supportons que les propriétés et les fonctionnalités signalées comme prioritaires par les utilisateurs et utilisatrices d'Uwazi. Si vous avez besoin d'autres propriétés, [contactez-nous](/contact-us).
 
@@ -54,7 +68,7 @@ Si les utilisateurs et utilisatrices de Tella téléchargent un modèle dont les
 | Numérique | ✔️ | ✔️ | ✔️ |
 | Sélection unique  | ✔️ | ✔️ | ✔️ | 
 | Sélection multiple  | ✔️ | Non | ✔️ | 
-| Les relations | Non | Non | Non |
+| Les relations | ✔️ | ✔️ | Non |
 | Date unique | ✔️ | ✔️ | ✔️ |
 | Dates multiples | ✔️ | Non | ✔️ |
 | Lien externe | ✔️ | Non | ✔️ |
@@ -95,15 +109,15 @@ Revenez ensuite à l'écran principal d'Uwazi et appuyez sur le modèle que vous
 
 #### Alternatives à la soumission de données {#data-submission-alternatives}
 
-| **Fonctionnalité** | **Détails**| **Tella Android** | **Tella iOS** | 
+| **Feature** | **Détails**| **Tella Android** | **Tella iOS** | 
 |------|------|------|------|
-| Soumettre | Envoyer le formulaire rempli au serveur connecté. | Oui | Oui |
-| Enregistrer comme brouillon | Sauvegarder un formulaire non complété.  | Oui | Non |
-| Soumettre plus tard | Marquer un formulaire comme prêt et envoyez-le vers l'onglet Boîte d'envoi,  | Oui | Non |
-| Onglet Brouillons | Un onglet avec tous les brouillons. Les brouillons peuvent être modifiés ou supprimés.  | Oui | Non |
-| Onglet Boîte d'envoi | Un onglet avec des formulaires prêts à être envoyés. Les formulaires de l'onglet Boîte d'envoi peuvent être modifiés ou supprimés.  | Oui | Non |
-| Onglet Envoyé | Un onglet avec tous les formulaires qui ont été envoyés avec succès au serveur. Les formulaires soumis peuvent être supprimés.  | Oui | Non |
+| Envoyer | Envoyer le formulaire rempli au serveur connecté. | Oui | Oui |
+| Enregistrer comme brouillon | Sauvegarder un formulaire non complété.  | Oui | Oui |
+| Soumettre plus tard | Marquer un formulaire comme prêt et envoyez-le vers l'onglet Boîte d'envoi,  | Oui | Oui |
+| Onglet Brouillons | Un onglet avec tous les brouillons. Les brouillons peuvent être modifiés ou supprimés.  | Oui | Oui |
+| Onglet Boîte d'envoi | Un onglet avec des formulaires prêts à être envoyés. Les formulaires de l'onglet Boîte d'envoi peuvent être modifiés ou supprimés.  | Oui | Oui |
+| Onglet Envoyé | Un onglet avec tous les formulaires qui ont été envoyés avec succès au serveur. Les formulaires soumis peuvent être supprimés.  | Oui | Oui |
 | Suspendre/Reprendre la soumission | Les utilisateurs et utilisatrices peuvent suspendre manuellement une soumission et la reprendre lorsqu'ils sont prêts.  | Oui | Non |
-| Suspendre automatiquement la soumission lorsque vous êtes hors ligne | Les soumissions seront envoyées à l'onglet Boîte d'envoi si la soumission échoue en raison de problèmes de connectivité.  | Oui | Non |
+| Suspendre automatiquement la soumission lorsque vous êtes hors ligne | Les soumissions seront envoyées à l'onglet Boîte d'envoi si la soumission échoue en raison de problèmes de connectivité.  | Oui | Oui |
 
 

@@ -4,11 +4,11 @@
     "description": "The label for version current"
   },
   "sidebar.generalSidebar.category.Discover Tella": {
-    "message": "Découvrez Tella",
+    "message": "Découvrir Tella",
     "description": "The label for category Discover Tella in sidebar generalSidebar"
   },
   "sidebar.generalSidebar.category.Get Started": {
-    "message": "Commencer",
+    "message": "Pour commencer",
     "description": "The label for category Get Started in sidebar generalSidebar"
   },
   "sidebar.generalSidebar.category.For organizations": {

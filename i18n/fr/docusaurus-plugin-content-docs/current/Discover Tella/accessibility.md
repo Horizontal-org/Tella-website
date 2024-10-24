@@ -1,6 +1,6 @@
 ---
 id: accessibility
-title: Langues et accessibilité
+title: Langue et accessibilité
 description: Un aperçu des langues dans lesquelles Tella est disponible et des considérations en matière d’accessibilité.
 slug: /accessibility
 ---
@@ -24,14 +24,14 @@ Les [tutoriels vidéo](/video-tutorials)  sont sous-titrés en espagnol, arabe, 
 
 ### Accessibilité WCAG {#wcag-accessibility}
 
-Dans ce tableau, vous pouvez pour chaque plateforme. accéder à nos derniers rapports d'accessibilité.
+Dans ce tableau, vous pouvez accéder à nos derniers rapports d'accessibilité pour chaque plateforme.
 
 | **Plateforme** | **Date** | **Lien** |
 | -----|-----|------ |  
-| Tella Android | novembre 2023 | [Lien](https://docs.google.com/document/d/1QtcWrSNvVtskUf5zNmOlgH0ue_O2ksdi/edit) | 
-| Tella iOS | novembre 2023 | [Lien](https://docs.google.com/document/d/1-_dx-Ut98FpiasqgW98gxoFbwVx01R39/edit) | 
+| Tella Android | novembre 2023 | [Lien](<./../assets/2023.11 - Tella Android accessibility audit.docx.pdf>) | 
+| Tella iOS | novembre 2023 | [Lien](<./../assets/2023.11 - Tella iOS accessibility audit.docx.pdf>) | 
 
-Nous travaillons actuellement à la résolution de tous les problèmes d'accessibilité au niveau A détectés dans Tella Android.
+Nous travaillons actuellement à résoudre tous les problèmes d'accessibilité de niveau A détectés dans Tella Android.
 
 
 

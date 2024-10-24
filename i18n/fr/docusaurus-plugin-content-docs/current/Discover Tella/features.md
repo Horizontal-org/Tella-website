@@ -32,16 +32,31 @@ Si vous perdez ou oubliez votre moyen de verrouillage, il ne vous sera pas possi
 Apprenez-en plus sur les modes de verroullages de Tella grâce à notre [tutoriel vidéo](/video-tutorials#tella-locks) 
 :::
 
+## Chiffrement en arrière-plan {#background-encryption}
+
+Tella [chiffre](#encryption) les fichiers en arrière-plan afin que les utilisateurs puissent continuer à effectuer des actions (prendre plus de photos ou de vidéos, importer plus de fichiers, etc.) pendant que les fichiers sont chiffrés. Les utilisateurs peuvent voir les activités en cours qui se déroulent en arrière-plan dans une **barre d'activités en arrière-plan** accessible depuis l'écran d'accueil de Tella, en appuyant sur l'icône « notifications » (🔔) en haut à gauche.
+
+Pendant le chiffrement des fichiers, Tella affiche un marqueur orange sur l'icône de notifications. Si l'utilisateur ouvre la barre d'activité en arrière-plan pendant le chiffrement de certains fichiers, il verra la liste des fichiers dans la file d'attente et la progression du chiffrement.
+
+:::danger
+Si l'utilisateur quitte Tella de manière forcée (par exemple en utilisant [Quick Exit](#quick-exit) ou en réduisant l'application) alors que des fichiers sont en cours de chiffrement en arrière-plan, ceux-ci seront perdus.
+:::
+
+:::info
+Si le [mode de vérification](/features#verification-mode) est activé, le chiffrement en arrière-plan sera désactivé pour garantir que toutes les métadonnées du fichier sont capturées en même temps que la photo, la vidéo ou le fichier audio est enregistré. 
+:::
+
+
 ## Configuration du délai du verrouillage {#lock-timeout-configuration}
 
-Par défaut, Tella se verrouille immédiatement chaque fois que vous quittez l'application ou que l'écran de votre téléphone s'éteint. Pour modifier ce réglage, vous pouvez vous  aller à
+Par défaut, Tella se verrouille immédiatement chaque fois que l'utilisateur quitte l'application ou que l'écran de votre téléphone s'éteint. Si vous souhaitez modifier ce paramètre, l'utilisateur peut le faire en accédant à
 
 Paramètres ⚙️ > Sécurité > Délai de verrouillage.
 
 Les options disponibles sont 1 minute, 5 minutes, 30 minutes et 1 heure. ⏱️
 
 :::info
-Il convient d'utiliser cette fonction avec prudence, car dès que Tella est déverrouillée, les données ne sont plus protégées et toute personne accédant à Tella peut consulter toutes les informations y figurant.
+Veuillez utiliser cette fonctionnalité avec précaution car si Tella est déverrouillé, les données ne seront pas protégées et toute personne entrant dans Tella pourra voir toutes les informations qui s'y trouvent.
 :::
 
 :::info
@@ -56,7 +71,7 @@ Apprenez-en plus sur les modes de verroullages de Tella grâce à notre [tutorie
 
 ## Mode silencieux de la caméra {#camera-silent-mode}
 
-Par défaut, le mode silencieux de l'appareil photo de Tella est désactivé. En allant dans **Paramètres ⚙️** > **Sécurité** > **Mode silencieux de l'appareil photo**, il est possible de désactiver le son de l'obturateur de l'appareil photo et ainsi d'attirer moins l'attention lors de la prise de photos.📷🔇
+Par défaut, le mode silencieux de l'appareil photo de Tella est désactivé. En allant dans **Paramètres ⚙️** > **Sécurité** > **Mode silencieux de l'appareil photo**, il est possible de désactiver le son de l'obturateur de l'appareil photo pour attirer moins l'attention lors de la prise de photos. 📷🔇
 
 :::tip Video tutorial 🎥
 Apprenez-en plus sur les modes de verroullages de Tella grâce à notre [tutoriel vidéo](/video-tutorials#additional-security-features) 
@@ -65,13 +80,13 @@ Apprenez-en plus sur les modes de verroullages de Tella grâce à notre [tutorie
 
 ## Sécurité de l'écran {#screen-security}
 
-Tella bloque par défaut les captures d'écran, les enregistrements sur écran et masque du même coup l'aperçu de l'écran dans la liste des applications récentes 📱🔒. Si vous avez besoin de faire des captures d'écran ou des enregistrements d'écran, ou de projeter Tella sur un ordinateur pour une présentation, il vous suffit d'aller dans **Paramètres** ⚙️ > **Sécurité** > **Sécurité de l'écran** pour désactiver cette fonctionnalité.
+Par défaut, Tella bloque les captures d'écran et les enregistrements d'écran dans Tella et masque l'aperçu de l'écran dans la liste des applications récentes 📱🔒. Il est possible de désactiver cette fonctionnalité de sécurité si les utilisateurs ont besoin de prendre des captures d'écran ou des enregistrements d'écran, ou de mettre en miroir Tella sur un ordinateur pour une présentation, en allant dans **Paramètres** ⚙️ > **Sécurité** > **Sécurité de l'écran**.
 
 Sur iOS, le système de sécurité garantit uniquement le blocage des enregistrements d'écran dans Tella même et empêche l'affichage de l'écran dans la liste des applications récentes, sans qu'il soit possible de désactiver les captures ou les enregistrements d'écran.
 
 
-:::tip Video tutorial 🎥
-En savoir plus sur les fonctions supplémentaires du système de sécurité de Tella grâce à notre [tutoriel vidéo](/video-tutorials#additional-security-features) 
+:::tip video tutorial 🎥
+Apprenez-en plus sur les fonctionnalités de sécurité supplémentaires de Tella dans notre [tutoriel vidéo](/video-tutorials#additional-security-features)
 :::
 
 ## Restreindre les tentatives de déverrouillage {#restrict-unlocking-attempts}
@@ -86,7 +101,7 @@ Bien que ce paramètre de sécurité empêche les tentatives forcées de déverr
 :::
 
 ## Modifier le média {#edit-media}
-Nous travaillons actuellement à intégrer la possibilité d'éditer directement des fichiers multimédias dans Tella. Bientôt, il ne sera plus nécessaire d'exporter les fichiers en dehors de Tella pour les éditer. Tella 2.4.0 pour Android propose des fonctionnalités d'édition de photos (recadrage et rotation). 
+Nous sommes en train d'ajouter la possibilité de modifier des fichiers multimédias directement dans Tella. Bientôt, les utilisateurs n'auront plus besoin d'exporter leurs fichiers en dehors de Tella pour les modifier. Tella Android et Tella iOS démarrent avec des fonctionnalités de retouche photo (recadrage et rotation).
 
 Vous pouvez modifier une image en allant dans **Plus** > **Modifier** à partir du dossier **Images** ou en appuyant sur le bouton **Modifier** en haut à droite tout en visualisant l'image que vous avez sur Tella. Sur l'écran Modifier l'image, vous pouvez utiliser le bouton **Rotation** en bas de l'écran pour faire pivoter l'image dans le sens inverse des aiguilles d'une montre ou pincer et agrandir ou contracter vos doigts pour déplacer la toile blanche afin de recadrer l'image. Une fois les modifications terminées, vous pourrez appuyer sur la coche orange en haut à droite de l'écran d'édition.
 
@@ -106,8 +121,8 @@ Si votre méthode de verrouillage est trop faible, quelqu'un pourrait la deviner
 Si vous oubliez comment dévérouiller Tella, il n'y a aucun moyen d'y accéder et donc de récupérer le contenu que vous avez stocké.
 :::
 
-:::tip Video tutorial 🎥
-Apprenez-en plus sur les modes de verroullages et sur le cryptage  grâce à notre [tutoriel vidéo](/video-tutorials#tella-locks) 
+:::tip video tutorial 🎥
+Apprenez-en plus sur les modes de verroullages et sur le cryptage grâce à notre [tutoriel vidéo](/video-tutorials#tella-locks)
 :::
 
 :::info
@@ -158,13 +173,16 @@ La seule information que nous recevrons est le contenu vous ajouterez spécifiqu
 Grâce à la fonction d'importation, il est possible d'importer des fichiers dans Tella afin de les sécuriser. Vous pouvez importer des fichiers en cliquant sur le bouton **Ajouter ( + )** sur Tous les fichiers, Images, Vidéo, Audio ou Documents selon le type de fichier que vous souhaitez importer, puis sur **Importer depuis l'appareil** 📥. Une invite apparaît, vous demandant si vous souhaitez conserver ou supprimer le fichier d'origine de la mémoire de votre téléphone. Les fichiers importés seront conservés en toute sécurité à Tella.
 
 
-:::tip Tutoriel vidéo 🎥
-Plus d'informations sur [Collecte de preuves](video-tutorials#collecting-evidence) et [Partage de données](/video-tutorials#sharing-data-with-other-apps) dans nos tutoriels vidéo
+:::tip video tutorial 🎥
+Apprenez-en plus sur la [collecte de preuves](video-tutorials#collecting-evidence) et le [partage de données](/video-tutorials#sharing-data-with-other-apps) dans nos tutoriels vidéo.
 :::
 
 ## Conserver les métadonnées lors de l'importation {#preserve-metadata-when-importing}
 
-Dans **Paramètres** > **Sécurité**, vous avez la possibilité de conserver ou de supprimer les métadonnées du fichier lorsque vous importez des photos et des vidéos dans Tella. Les métadonnées EXIF des fichiers peuvent inclure des données sur la date de création du fichier, les réglages de l'appareil photo ou l'emplacement de l'appareil.
+Dans **Paramètres** > **Sécurité**, les utilisateurs ont la possibilité de conserver ou de supprimer les métadonnées du fichier lors de l'importation de photos et de vidéos vers Tella. Les métadonnées EXIF ​​des fichiers peuvent inclure des données sur la date de création du fichier, les paramètres de l'appareil photo ou l'emplacement de l'appareil.
+
+## Analyses préservant la confidentialité (avec consentement) {#privacy-preserving-analytics}
+Les utilisateurs d'Android peuvent choisir de partager des analyses pour améliorer Tella. Toutes les informations sont anonymes, agrégées et ne peuvent jamais être liées à des utilisateurs individuels. Pour des informations techniques sur le système que nous utilisons et les mesures que nous collectons, visitez la [section Analyses de la page Sécurité et confidentialité](/security-and-privacy#analytics).
 
 ## Ouvrir des fichiers dans Tella {#open-files-in-tella}
 Les images, vidéos, PDF et audios peuvent être visualisés dans Tella. 📱📄
@@ -184,8 +202,8 @@ Sur Tella Android, il est possible de masquer Tella de deux manières :
 Le nom « Tella » et son icône resteront visibles dans les paramètres Android. Cela signifie que le camouflage ne protégera pas contre un individu recherchant _activement_ Tella sur le téléphone ou effectuant une analyse approfondie de l'appareil. 🔒👀
 :::
 
-:::tip Tutoriel Vidéo 🎥
-Pour en savoir plus sur le [Camouflage de Tella0](/video-tutorials#camouflaging-tella) consultez nos tutoriels vidéo.
+:::tip video tutorial 🎥
+Apprenez-en plus sur [Camouflaging Tella](/video-tutorials#camouflaging-tella) dans notre tutoriel vidéo. 
 :::
 
 
@@ -290,7 +308,7 @@ Vous pouvez facilement choisir la résolution vidéo souhaitée sur Tella en acc
 - Résolution la plus élevée possible
 - Haute résolution (1080p)
 - Moyenne résolution (720p)
-- Basse résolution (420p)
+- Basse résolution (480p)
 
 La résolution vidéo fait référence au nombre de pixels dans chaque image de la vidéo. Des résolutions plus élevées, telles que 1080p ou 720p, permettent d'obtenir des vidéos plus nettes et plus détaillées. Cependant, gardez à l'esprit que les vidéos à haute résolution ont également des fichiers de plus grande taille, ce qui peut nécessiter plus d'espace de stockage sur votre appareil.
 

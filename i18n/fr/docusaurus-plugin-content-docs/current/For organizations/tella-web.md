@@ -9,7 +9,9 @@ slug: /tella-web
 
 Tella Web est un outil open source qui permet aux individus et aux organisations de centraliser et de gérer les rapports transmis par les utilisateurs de Tella, notamment des photos, des vidéos et des fichiers audio.
 
-Tella Web est développé en interne par notre équipe chez Horizontal, cette même équipe qui est responsable du développement des applications mobiles de Tella. Il s'agit d'une solution pratique pour sauvegarder en toute sécurité et en toute confidentialité des fichiers multimédias sur un serveur distant. Si vous n'avez personne au sein de votre organisation pour le faire, nous pouvons vous aider à installer, configurer et maintenir Tella Web.
+Tella Web est développé en interne par notre équipe chez Horizontal, la même équipe responsable du développement des applications mobiles de Tella. Il s'agit d'une solution conviviale pour sauvegarder des fichiers multimédias sur un serveur distant de manière sûre et privée. L'utilisation d'un serveur Web Tella permet également aux utilisateurs d'extraire des données (guides, instructions, messages importants, etc.) du serveur directement vers leur Tella
+
+Nous pouvons fournir une assistance pour l'installation, la configuration et la maintenance d'une instance Tella Web si vous n'avez personne au sein de votre organisation qui puisse le faire.
 
 Comme pour toutes les autres connexions ([Uwazi](/uwazi) et [Open Data Kit](/odk)), la connexion à Tella Web améliore la sécurité des données collectées sur Tella en:
 1. Permettant aux utilisateurs et utilisatrices de collecter des données directement dans le conteneur crypté de Tella.
@@ -17,22 +19,24 @@ Comme pour toutes les autres connexions ([Uwazi](/uwazi) et [Open Data Kit](/odk
 3. Permettant aux utilisateurs et utilisatrices de sauvegarder leurs données sur un serveur externe, pour réduire le risque que leurs données soient découvertes sur leur appareil mobile.
 4. Assurant que les organisations peuvent conserver les informations importantes même en cas de saisie ou de destruction d'appareils, et les organiser à des fins de recherche, de plaidoyer ou de processus de responsabilisation.
 
-Tella Web est une excellente option pour collecter des « rapports » auprès des utilisateurs et utilisatrices. Les rapports peuvent inclure des photos, des vidéos, des enregistrements audio, des documents PDF et du texte.
+Tella Web est une excellente option pour collecter des "rapports" auprès des utilisateurs. Les rapports peuvent inclure des photos, des vidéos, des enregistrements audio, des documents PDF et du texte. Les organisations peuvent également télécharger des fichiers PDF sur chaque projet Tella Web et les utilisateurs peuvent accéder à ces ressources directement depuis leur coffre-fort Tella.
 
 La configuration de Tella Web s'effectue en trois étapes, présentées en détail dans cette section :
 
 * **Installer Tella Web** : Cette étape consiste à installer le serveur Tella Web et à configurer le nom de domaine pour assurer son bon fonctionnement.
-* **Configurez votre (vos) projet(s) sur votre serveur**: au cours de cette étape, les admin décident comment s'organiser pour collecter des données, créer des “projets” et définir les rôles et permissions accordées à leurs utilisateurs ou utilisatrices.
+* **Configurez votre/vos projet(s) sur votre serveur** : Dans cette étape, les administrateurs décident comment s'organiser pour collecter des données, créer des "projets", ajouter des "ressources" que les utilisateurs peuvent télécharger sur leurs appareils et définir des rôles et des autorisations pour les utilisateurs.
 * **Faire en sorte que les personnes sur le terrain soient prêtes à commencer à soumettre des rapports** : Les utilisateurs et utilisatrices installent Tella sur leur appareil Android ou iPhone. Ils ou elles se connectent ensuite au projet Web Tella et commencent à recueillir des informations.
+
 
 
 ## Installer le serveur {#install-the-server}
 
 Cette étape consiste à installer et configurer Tella Web sur le serveur que votre organisation utilisera. Cette étape doit être complétée par la personne qui sera responsable de l'administration du système (un développeur ou un administrateur système). Les instructions techniques sont disponibles sur [notre Github](https://github.com/Horizontal-org/tellaweb).
 
+Vous pouvez consulter les notes de publication de Tella Web [ici](https://github.com/Horizontal-org/TellaWeb-FrontEnd/releases).
 
 
-:::info
+:::Info
 Notre équipe peut vous assister dans l'installation, la configuration et la maintenance de Tella Web. Si vous avez des questions ou si vous avez besoin d'aide, [contactez-nous](/contact-us/)
 :::
 
@@ -50,6 +54,11 @@ Une fois Tella Web installé et le premier utilisateur « admin » créé, il es
 :::info
 Consultez [ce tutoriel vidéo](/video-tutorials#connections-full-video) pour voir comment configurer Tella Web.
 :::
+
+### Centre d'administration {#admin-center}
+
+Les administrateurs de l'espace Web Tella peuvent modifier les paramètres à l'échelle du système:
+- [Acceptez de partager des analyses avec l'équipe Tella](/security-and-privacy#analytics).
 
 
 ### Gestion des projets {#managing-projects}
@@ -134,6 +143,12 @@ Voici une présentation détaillée des permissions attribuées à chaque rôle 
 | Supprimer des projets |❌|❌|✅|✅| 
 | Gérer les utilisateurs (créer, modifier, supprimer) |❌|❌|❌|✅| 
 | Attribuer des utilisateurs au projet |❌|❌|❌|✅| 
+| Créer des ressources pour l'espace |❌|❌|❌|✅| 
+| Ajouter/supprimer des ressources au projet  |❌|❌|✅|✅| 
+| Afficher les ressources attribuées à un projet   |❌|✅|✅|✅| 
+
+
+
 
 #### Création d'utilisateurs {#creating-users}
 
@@ -153,8 +168,43 @@ Dans la section « Gérer l'accès » de l'écran « Paramètres du projet », l
 Après avoir sélectionné les personnes à ajouter au projet, cliquez sur le bouton « Ajouter » pour enregistrer les modifications et leur accorder l'accès au projet.
 
 :::info
-La liste complète des utilisateurs et utilisatrices pouvant soumettre des rapports au projet comprend ceux et celles répertoriés dans cette section ainsi que tous les admins de serveur.
+La liste complète des utilisateurs pouvant soumettre des rapports au projet comprend les utilisateurs répertoriés dans cette section ainsi que tous les administrateurs du serveur.
 :::
+
+### Gestion des ressources {#managing-resources}
+
+Tella Web permet aux organisations de diffuser en toute sécurité des ressources et du matériel à leurs utilisateurs directement dans le conteneur crypté de Tella. Les ressources peuvent être utilisées pour soumettre des instructions de collecte de données, des messages ou des guides sur la façon de collecter des données.
+
+#### Créer des ressources pour l'espace {#creating-resources-to-the-space}
+
+Les administrateurs peuvent créer des ressources pour l'espace en accédant à la barre latérale gauche **Ressources**. Pour le moment, les ressources peuvent être créées en téléchargeant des fichiers PDF. Nous vous recommandons de les conserver en dessous de 20 Mo pour vous assurer que les utilisateurs peuvent les télécharger même si Internet est lent.
+
+Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.
+
+Sur le même écran, les administrateurs d'espace peuvent gérer les ressources. Les options suivantes sont disponibles
+- Téléchargez les ressources individuellement ou téléchargez plusieurs ressources.
+- Ouvrez chaque ressource pour la visualiser.
+- Découvrez sur quels projets chaque ressource est ajoutée en appuyant sur Aperçu
+- Supprimer une ressource de l'espace.
+
+:::info
+Si votre organisation a besoin d'autres types de ressources ou si vous rencontrez des problèmes avec les limites de format ou de taille, veuillez [nous contacter](/contact-us).
+:::
+
+#### Ajouter des ressources aux projets {#adding-resources-to-projects}
+
+Les administrateurs et les éditeurs peuvent ajouter des ressources disponibles sur l'espace aux projets auxquels ils ont accès. Il existe deux raccourcis pour le faire:
+1. En accédant à **Gérer l’accès** dans la section **Paramètres** de chaque projet.
+2. En appuyant sur l’icône **Ressources** sur la carte de chaque projet sur l’écran d’accueil de Tella Web.
+
+Pour ajouter des ressources aux projets, appuyez sur le bouton **Ajouter des ressources** et recherchez les ressources disponibles par nom. Une ou plusieurs ressources peuvent être ajoutées au projet en même temps.
+
+Tous les utilisateurs qui se connectent à ce projet depuis leurs applications Tella verront une carte Ressources disponible et pourront télécharger cette ressource dans leur conteneur crypté.
+
+Tella Web ne conserve aucune information sur les téléchargements de ressources.
+
+
+
 
 ## Préparez les gens sur le terrain à commencer à soumettre des rapports {#get-people-on-the-ground-ready-to-start-submitting-reports}
 
@@ -190,6 +240,16 @@ L'URL du projet Tella Web. L'URL devrait ressembler à ce qui suit : `https://yo
 * Dans **Paramètres ⚙️** > **Serveurs** > **[Nom du projet]** > 3 points, vous pouvez :
     * Modifier : ouvre un écran « Modifier le serveur » où vous pouvez afficher le nom du projet, l'URL et votre nom d'utilisateur, et modifier les fonctionnalités avancées.
     * Supprimer: supprime la connexion, y compris toutes les informations sur le serveur et tous les rapports brouillons et soumis stockés dans Tella. Cela n'affectera aucun rapport déjà soumis au serveur.
+
+#### Extraire des ressources de votre espace {#pull-resources-from-your-space}
+
+Une fois connecté à au moins un projet Tella Web, une carte **Ressources** apparaîtra dans la section "Connexions" de l'écran d'accueil. Appuyez sur cette carte pour afficher et télécharger les guides, instructions ou messages que les administrateurs de votre organisation ont mis à votre disposition dans l'un des projets auxquels vous êtes connecté.
+
+Dans la section **Disponible en téléchargement** de l'écran Ressources, vous verrez une carte pour chacune des ressources qui ont été partagées avec vous. Appuyez sur l'icône **Télécharger** (📥) pour extraire cette ressource de l'espace de votre organisation et pouvoir accéder à celles de la section **Téléchargées**, même hors ligne. Vous pouvez **Afficher** chaque PDF en appuyant sur la carte et vous pouvez **Supprimer des téléchargements** si vous souhaitez libérer de l'espace sur votre coffre-fort Tella. Vous pouvez toujours les retélécharger si nécessaire.
+
+Utilisez le bouton **Actualiser** en haut à droite pour extraire de nouvelles ressources de l’espace de votre organisation.
+
+Une fois que vous vous déconnectez d'un projet Tella Web, toutes les ressources associées seront supprimées de votre écran Ressources.
 
 #### Créer un rapport manuel {#create-a-manual-report}
 
@@ -274,10 +334,10 @@ Le bouton bascule de suppression automatique apparaîtra sous le bouton bascule 
 
 #### Soumission en arrière-plan {#background-submission}
 
-La soumission en arrière-plan permet au processus de soumission du rapport de continuer même si vous passez à d'autres tâches dans Tella ou si vous quittez complètement Tella. La soumission en arrière-plan peut fonctionner en combinaison avec des rapports manuels et automatiques, et peut être activée sur l'écran Modifier la connexion pour le projet souhaité.
+La soumission en arrière-plan permet au processus de soumission du rapport de continuer même si vous passez à d'autres tâches dans Tella ou si vous quittez complètement Tella. La soumission en arrière-plan peut fonctionner en combinaison avec les rapports manuels et automatiques, et peut être activée sur l'écran Modifier la connexion pour le projet souhaité.
 
-Lorsque la soumission en arrière-plan est activée, peu importe ce que vous faites dans Tella ou si vous fermez l'application, le processus de chargement se poursuivra sans interruption. Cela fonctionnera également si les rapports automatiques sont activés et que vous fermez l'application après avoir collecté les informations.
+Lorsque la soumission en arrière-plan est activée, quelle que soit votre activité dans Tella ou la fermeture de l'application, le processus de téléchargement se poursuivra sans interruption. Il fonctionnera également si les rapports automatiques sont activés et que vous fermez l'application après avoir collecté les informations.
 
 Lors du échargement de rapports en arrière-plan, Tella reste déverrouillée. Cela signifie que si quelqu'un ouvre Tella, il ou elle pourra accéder à vos fichiers et rapports. Pour verrouiller Tella lorsque les rapports sont téléchargés en arrière-plan, appuyez sur le bouton « Sortie rapide » en haut à droite de l'écran d'accueil de Tella.
 
-Si la soumission est interrompue en raison d'une connexion Internet faible ou d'autres facteurs, Tella enverra le rapport vers l'onglet Boîte d'envoi et redémarrera automatiquement le chargement dès que le téléphone retrouvera une connexion Internet stable.
+Si la soumission est interrompue en raison d’une connexion Internet faible ou d’autres facteurs, Tella enverra le rapport dans l’onglet Boîte d’envoi et redémarrera automatiquement le téléchargement dès que le téléphone retrouvera une connexion Internet stable.
