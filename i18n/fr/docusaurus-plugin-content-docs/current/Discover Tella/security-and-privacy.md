@@ -99,8 +99,8 @@ Nous demandons régulièrement à des sociétés de sécurité indépendantes d�
 
 | Date | Audité par | Les plateformes auditées    | Lien      |
 | -----|----------|----|-----------|
-| Mai 2024 | Subgraph Technologies, Inc. |  Android, iOS, Tella Web |[Voir le rapport](<./../assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
-| Mai 2023 | Subgraph Technologies, Inc. | Android, iOS, Tella Web |[Voir le rapport](<./../assets/2023.05 - Tella security audit - Final report.pdf>)|
+| Mai 2024 | Subgraph Technologies, Inc. |  Android, iOS, Tella Web |[Voir le rapport](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
+| Mai 2023 | Subgraph Technologies, Inc. | Android, iOS, Tella Web |[Voir le rapport](</assets/2023.05 - Tella security audit - Final report.pdf>)|
 
 
  Voici le résumé du dernier audit et l'état des vulnérabilités identifiées:

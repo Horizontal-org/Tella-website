@@ -36,7 +36,7 @@ Cette étape consiste à installer et configurer Tella Web sur le serveur que vo
 Vous pouvez consulter les notes de publication de Tella Web [ici](https://github.com/Horizontal-org/TellaWeb-FrontEnd/releases).
 
 
-:::Info
+:::info
 Notre équipe peut vous assister dans l'installation, la configuration et la maintenance de Tella Web. Si vous avez des questions ou si vous avez besoin d'aide, [contactez-nous](/contact-us/)
 :::
 
@@ -114,8 +114,9 @@ Une fois confirmé, le projet et tous ses rapports associés seront définitivem
 
 L'URL du projet est automatiquement générée lors de la création du projet. Pour modifier l'URL du projet, rendez-vous dans la section "Général" de l'écran "Paramètres du projet" et modifiez-la en conséquence. Cette URL est celle que les journalistes utiliseront pour se connecter au projet depuis leurs applications.
 
+
 :::info
-L'URL que vous devez envoyer aux utilisateurs ou utilisatrices doit ressembler à ceci : `https://your-domain.com/p/your-project-name`.
+L'URL que vous devez envoyer aux utilisateurs ou utilisatrices doit ressembler à ceci: `https://your-domain.com/p/your-project-name`.
 :::
 
 

@@ -1,6 +1,6 @@
 ---
 id: overview
-title: Aperçu
+title: Pour les organisations
 description: Découvrez comment les organisations peuvent utiliser Tella pour des processus de recherche, de plaidoyer ou de responsabilité.
 slug: /for-organizations
 ---
