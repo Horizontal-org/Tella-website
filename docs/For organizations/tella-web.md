@@ -13,7 +13,7 @@ Tella Web is developed internally by our team at Horizontal, the same team respo
 
 We can provide support for the installation, configuration, and maintenance of a Tella Web instance if you don't have someone within your organization who can do it.
 
-Similarly to all other connections([Uwazi](/uwazi), [Google Drive](/g-drive), [Nextcloud](/nextcloud) and [Open Data Kit](/odk)), connecting to Tella Web enhances the security of data collected on Tella by:
+Similarly to all other connections([Uwazi](/uwazi), [Google Drive](/g-drive), [Nextcloud](/nextcloud), [Dropbox](/dropbox) and [Open Data Kit](/odk)), connecting to Tella Web enhances the security of data collected on Tella by:
 1. Allowing users to collect data directly inside Tella's encrypted container.
 2. Ensuring that data is sent directly from Tella to Tella Web, without having to rely on a third-party tool or app.
 3. Allowing users to back up their data on a remote server, to lower the risk that data is discovered on their mobile device.
@@ -247,7 +247,7 @@ You can watch [this video](/video-tutorials#tella-web) on how to configure and u
 
 In order to connect to a Tella Web server:
 
-* Navigate to **Settings ⚙️** > **Servers** > **+**
+* Navigate to **Settings ⚙️** > **Connections** > **+**
 * Select "Tella Web" from the list of available server types.
 * Enter the login information (generated and provided by admins)
     * The URL of the Tella Web project. The URL should look like this `https://your-domain.com/p/your-project-name`
@@ -257,7 +257,7 @@ In order to connect to a Tella Web server:
 
 ####  Manage Tella Web Projects {#manage-tella-web-projects}
 
-* In **Settings ⚙️** > **Servers** >  **[Project name]** > 3-dots, you can:
+* In **Settings ⚙️** > **Connections** >  **[Project name]** > 3-dots, you can:
     * Edit: Opens an "edit server" screen where you can view the project's name, URL, and your username, and edit advanced features.
     * Delete: Deletes the connection, including all server information and all draft and submitted reports stored in Tella. This will not affect any report that was already submitted to the server.
 

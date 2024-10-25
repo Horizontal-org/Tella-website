@@ -254,9 +254,9 @@ This configuration can be found in **Settings** > **General**.
 
 A Quick Delete button allows users, in just a few seconds, to delete sensitive data within Tella. Quick delete can be configured on **Settings** > **Security** > **Quick delete**, where the user can choose to enable a sliding button on the home screen to quickly delete information from Tella in emergency situations. If enabled, the user can choose exactly what gets deleted when the feature is used. The available options are:
 
-* Delete vault: Deletes all files stored in Tella 🗑️
-* Delete draft and submitted forms: Deletes drafts and submitted forms in all Open Data Kit (ODK) connected servers 📝
-* Delete server settings: Deletes all server connections and all the forms or templates associated with them 📋
+* Delete files: Deletes all files stored in Tella 🗑️
+* Delete draft and submitted forms: Deletes drafts and submitted forms in all connected servers. [Visit the For Organizations page](/for-organizations) to  discover the available server connections 📝
+* Delete server settings: Deletes all server connections and all the forms, templates or reports associated with them 📋
 * Delete Tella: Deletes the app and all the data it contains. It triggers a message asking if the user wants to uninstall Tella as well ❌. 
 
 :::info Delete Tella
@@ -315,9 +315,13 @@ Users can collect data directly in Tella, keep the data protected within the app
 
 Currently the servers that can be connected to Tella are:
 
-* [Tella Web](/tella-web)
-* [Open Data Kit (ODK)](/for-organizations#open-data-kit-odk)
+* [Open Data Kit (ODK)](/odk)
 * [Uwazi](/uwazi)
+* [Tella Web](/tella-web)
+* [Google Drive](/g-drive)
+* [Nextcloud](/nextcloud)
+* [Dropbox](/dropbox)
+
 
 :::tip Video tutorial 🎥
 Learn more about [Connecting to Servers](/video-tutorials#server-connections) in our video tutorials. 

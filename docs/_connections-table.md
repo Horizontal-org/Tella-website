@@ -5,4 +5,4 @@
 |Open Data Kit (ODK)|✔️|❌|✔️|
 |Google Drive | ✔️ |✔️| Soon|
 |Nextcloud | Soon |✔️| Soon|
-|Dropbox | Soon | Soon | Soon|
+|Dropbox | ✔️ | Soon | Soon|
