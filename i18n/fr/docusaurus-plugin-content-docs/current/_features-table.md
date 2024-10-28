@@ -2,16 +2,18 @@
 | **Feature** | **Android**| **iOS** | **Android FOSS** |
 |------|------|-----|-----|
 |[Verrouillage d'application](/features#app-lock)| Mot de passe, code PIN, Schéma|Mot de passe, code PIN | Mot de passe, code PIN, Schéma |
+|[Background encryption](/features#background-encryption) | ✔️ | ✔️| Pas encore |
 |[Configuration du Délai de verrouillage](/features#lock-timeout-configuration)| ✔️| ✔️| ✔️ |
 |[Mode silencieux de la caméra](/features#camera-silent-mode)| ✔️| Pas encore| ✔️ |
 | [Sécurité de l'écran](/features#screen-security)| ✔️| ✔️| ✔️ |
 | [Limiter les tentatives de déverrouillage](features#restrict-unlocking-attempts)| ✔️| ✔️| Pas encore |
-| [Editer le support média](/features#edit-media)| Recadrer et faire pivoter des Photos| Pas encore| Pas encore |
+| [Editer le support média](/features#edit-media)| Recadrer et faire pivoter des Photos| Recadrer et faire pivoter des Photos| Pas encore |
 | [Chiffrement](/features#encryption)| ✔️| ✔️| ✔️ |
 | [Gestion de documents chiffrés](/features#file-management)| ✔️ | ✔️ | ✔️ |
 | [Retour d'information](/features#feedback) | ✔️ | ✔️ | Pas encore |
 | [Import files from device](/features#import-files-from-device)| ✔️ | ✔️ | Oui, mais il manque la suppression du fichier original |
 | [Conserver les métadonnées lors de l'importation](/features#preserve-metadata-when-importing)| ✔️ | ✔️ | Pas encore |
+| [Privacy preserving analytics (opt-in)](/features#privacy-preserving-analytics)| ✔️ | Pas encore | Pas encore |
 | [Camouflage](/features#camouflage) | ✔️ | Pas possible sous iOS | ✔️ |
 | [Personnalisation de l'écran d'accueil](/features#homescreen-customization) | ✔️ | ✔️ | ✔️ |
 | [Caméra (photos et vidéos)](/features#camera-photos-and-videos) | ✔️ | ✔️ | Oui mais il manque le zoom, retournez l'appareil photo, activez le flash et activez la grille |
