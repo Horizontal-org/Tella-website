@@ -9,7 +9,7 @@ slug: /g-drive
 
 Tella allows users to sign in to their Google account directly from Tella and to upload files directly to Google Drive.
 
-Similarly to other server connections (like [Tella Web](/tella-web), [Uwazi](/uwazi), [Nextcloud](/nextcloud) or [Open Data Kit](/odk)), connecting to a Google Drive server enhances the security of data collected on Tella by:
+Similarly to other server connections (like [Tella Web](/tella-web), [Uwazi](/uwazi), [Dropbox](/dropbox), [Nextcloud](/nextcloud) or [Open Data Kit](/odk)), connecting to a Google Drive server enhances the security of data collected on Tella by:
 
 
 1. Allowing users to collect data directly inside Tella's encrypted container.
@@ -19,7 +19,7 @@ Similarly to other server connections (like [Tella Web](/tella-web), [Uwazi](/uw
 
 The Google Drive connection is a an option to collect photos, videos and audios from users in the ground, when there is no technical capacity to install a self-hosted server(like [Tella Web server](/tella-web)) and there is no risk on using a commercial tool like Google. 
 
-Submissions to Google Drive take the form of "reports" which include a title, a text description, and files like photos, videos, audio recordings, and pdf documents. 
+Submissions to Google Drive take the form of "reports" which include a title, a text description, and files like photos, videos and audio recordings.
 
 
 
@@ -40,7 +40,7 @@ If you need help figuring out if Google Drive is best for your use-case, [read o
 
 In order to connect to a Google Drive:
 
-* Navigate to **Settings ⚙️** > **Servers** > **+**
+* Navigate to **Settings ⚙️** > **Connections** > **+**
 * Select "Google Drive" from the list of available server types.
 * Login to your Google account using the Google login flow on the web view. 
 * For now, Google hasn't verified Tella yet, so you'll need to press the "Advanced" button and "Proceed to Tella" in order to connect.
@@ -51,7 +51,7 @@ In order to connect to a Google Drive:
 
 ## Manage the Google Drive connection {#manage-the-google-drive-connection}
 
-* In **Settings ⚙️** > **Servers** >  **Google Drive** > 3-dots, you can:
+* In **Settings ⚙️** > **Connections** >  **Google Drive** > 3-dots, you can:
   - Delete the connection
 
 For now, it is not possible to sign in to multiple Google accounts at the same time. If you want to sign-in to your Google Drive using a different email, delete your Google Drive connection and create a new one.

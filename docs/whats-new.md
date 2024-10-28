@@ -15,15 +15,23 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 2.12.0 (188) - Released on October 21, 2024 {#android-tella-2120-188---released-on-october-21-2024}
-- Implemented the Google Drive server connection that allows Tella users to upload the data they collect directly to either their personal Google Drive folder or to any organizational shared drives they are connected to. [Read here more about the connection](/g-drive).
-- Added more metrics to our [opt-in privacy preserving analytics](/security-and-privacy#analytics) Tella's use patterns.
+### Android: Tella 2.13.0 (190) - Released on October 25, 2024 {#android-tella-2130-190---released-on-october-25-2024}
+- Implemented the Dropbox server connection that allows Tella users to upload the data they collect directly to their Dropbox account. [Read here more about the connection](/dropbox).
 - Bug-fixing and small improvements:
-    - Fixed problems with home-screen (shows up empty sometimes and has duplicated elements other times).
-    - Implement count indicators in reports' Draft, Outbox and Submitted tabs.
-    - Solved bug that made the connections cards appear in different order and sometimes disappear.
-    - Solved unexpected error in Uwazi server submission when the template had related to multi-select fields.
-    - Solved a bug that prevented Primary Document to be shared to the Uwazi server.
+    - "Save to device" sometimes generated duplicated files.
+    - Solved navigation issues: 
+        - Stuck in recorder after recording audio inside a folder.
+        - Stuck in microphone after going back to the audio library.
+    - UI fixes for Tella Web and Google Drive connections.
+    - Updated About and Help page, linking to the Android getting started guide.
+    - Adapted Quick Delete security settings to new server connections (Google drive, Tella Web, Dropbox and new connections).
+    - Solved bugs for the Uwazi connection:
+        - Duplicated results when multiple relationships properties were included in the same template.
+        - Crash in geolocation property.
+    - Solved crash when sending a file with verification activated.
+    - Solved privacy preserving analytics(opt-in) issues: 
+        - Time spent metric now works.
+        - Added privacy preserving analytics metrics to all connections.
 
 
 ### iOS: Tella 1.11.0 (81) - Released on October 21, 2024 {#ios-tella-1110-81---released-on-october-21-2024}
@@ -45,6 +53,17 @@ A version of Tella included for the first time on the F-droid store. This a 100%
 
 
 ## Previous versions {#previous-versions}
+
+### Android: Tella 2.12.0 (188) - Released on October 21, 2024 {#android-tella-2120-188---released-on-october-21-2024}
+- Implemented the Google Drive server connection that allows Tella users to upload the data they collect directly to either their personal Google Drive folder or to any organizational shared drives they are connected to. [Read here more about the connection](/g-drive).
+- Added more metrics to our [opt-in privacy preserving analytics](/security-and-privacy#analytics) Tella's use patterns.
+- Bug-fixing and small improvements:
+    - Fixed problems with home-screen (shows up empty sometimes and has duplicated elements other times).
+    - Implement count indicators in reports' Draft, Outbox and Submitted tabs.
+    - Solved bug that made the connections cards appear in different order and sometimes disappear.
+    - Solved unexpected error in Uwazi server submission when the template had related to multi-select fields.
+    - Solved a bug that prevented Primary Document to be shared to the Uwazi server.
+
 
 
 ### Android: Tella 2.11.0 (186) - Released on September 18, 2024 {#android-tella-2110-186---released-on-september-18-2024}

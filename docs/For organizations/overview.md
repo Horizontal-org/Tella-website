@@ -20,6 +20,7 @@ Currently, Tella can be connected to the following types of servers:
 * [Tella Web](#tella-web)
 * [Google Drive](#g-drive)
 * [Nextcloud](#nextcloud)
+* [Dropbox](#dropbox)
 
 These are called [Connections](/features#connecting-to-servers) in Tella.
 
@@ -37,6 +38,7 @@ graph TD;
     id3 --> id5("Tella Web");
     id3 --> id11("Google Drive");
     id3 --> id12("Nextcloud");
+    id3 --> id13("Dropbox");
     id4 --> id6("Establish relationships between data points, publish to a website")
     id4 --> id7("Add logic to forms, collect high numbers for forms, create reports to visualize results")
     id6 --> id8("Uwazi")
@@ -121,4 +123,19 @@ Learn more about the Nextcloud connection [here](/nextcloud),
 :::info
 The Nextcloud connection is [only available on iOS](/features). We are currently working for adding it to Tella Android as well.
 :::
+
+
+### Dropbox {#dropbox}
+Users can sign-in directly to their Dropbox account from within Tella and upload files to a folder in their account. Each "report" uploaded will create a new folder inside a Tella enclosing folder under the "Applications" folder in Dropbox.
+
+As for all Connections in Tella, users can use most of the Dropbox connection offline through the Draft, Outbox tab and Submit Later tabs. 
+
+:::tip
+Learn more about [the Dropbox connection here](/dropbox),
+:::
+
+:::info
+The Dropbox connection is [only available on Android](/features). We are currently working for adding it to Tella iOS as well.
+:::
+
 
