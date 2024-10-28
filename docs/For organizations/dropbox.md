@@ -2,7 +2,7 @@
 id: dropbox
 title: Dropbox 
 description: Tella allows users to conveniently upload photos, videos and audio recordings to Dropbox.
-slug: /Dropbox
+slug: /dropbox
 ---
 
 # Dropbox Connection
