@@ -7,9 +7,9 @@ slug: /dropbox
 
 # Dropbox Connection
 
-[Dropbox](https://www.dropbox.com/) is commercial file hosting service and it includes free and paid plans. 
+[Dropbox](https://www.dropbox.com/) is commercial file hosting service that offers free and paid plans. 
 
-Tella allows users to sign in to their Dropbox account directly from Tella and upload files directly to it.
+Tella allows users to sign into their Dropbox account directly from Tella and upload files directly to it.
 
 Similarly to other server connections (like [Tella Web](/tella-web), [Google Drive](/g-drive), [Nextcloud](/nextcloud), [Uwazi](/uwazi) or [Open Data Kit](/odk)), connecting to a Dropbox server enhances the security of data collected on Tella by:
 
@@ -21,7 +21,7 @@ Similarly to other server connections (like [Tella Web](/tella-web), [Google Dri
 Submissions to Dropbox take the form of "reports" which include a title, a text description, and files like photos, videos and audio recordings.
 
 :::info
-The Dropbox connection is [only available on Android](/features). We are currently working for adding it to Tella iOS as well.
+The Dropbox connection is [only available on Tella Android](/features). We are currently working on adding it to Tella iOS as well.
 :::
 
 
@@ -30,8 +30,8 @@ The Dropbox connection is [only available on Android](/features). We are current
 The Dropbox connection may be particularly well-suited for:
 - Organizations that already use Dropbox.
 - Organizations that cannot or don't want to self-host an app (like [Tella Web server](/tella-web)) on a server.
-- Users who already have a Dropbox account and want to backup their data on the cloud.
-- Projects where the privacy needs do not preclude the use of a tool like Dropbox.
+- Users who already have a Dropbox account and want to backup their data to the cloud.
+- Projects where the privacy needs do not preclude the use of a cloud or commercial tool like Dropbox.
 - Users who will be sending mostly media files, with some text and don't need structured data collection like forms or surveys.
 
 
@@ -45,8 +45,9 @@ In order to connect to Dropbox:
 
 * Navigate to **Settings ⚙️** > **Connections** > **+**
 * Select "Dropbox" from the list of available server types.
-* Login to your Dropbox account using the Dropbox login flow on the web view. 
-* Grant Tella permissions to modify your Dropbox account(we need this permission to be able to upload files to your drive and create folders in your behalf).
+* A new page will automatically open in your phone's web browser and direct you to Dropbox.
+* Login your Dropbox account in your web browser. 
+* Grant Tella permissions to modify your Dropbox account (we need this permission to be able to upload files to your drive and create folders on your behalf).
 
 
 ## Manage the Dropbox connection {#manage-the-dropbox-connection}
@@ -54,7 +55,7 @@ In order to connect to Dropbox:
 * In **Settings ⚙️** > **Connections** >  **Dropbox** > **⫶** you can:
   - Delete the connection
 
-For the moment it is not possible to sign in to multiple Dropbox accounts at the same time. If you want to sign-in with another account, delete your Dropbox connection and create a new one.
+For the moment it is not possible to sign into multiple Dropbox accounts at the same time. If you want to sign-in with another account, delete your Dropbox connection and create a new one.
 
 
 ## Submit to Dropbox {#submit-to-dropbox}
@@ -67,10 +68,10 @@ For the moment it is not possible to sign in to multiple Dropbox accounts at the
     * In order to be able to save as a draft, you need to at least enter the report’s title.
     * A message will appear on the screen to confirm the draft was saved.
 * The "Submit later" button saves the report to the Outbox for manual submission.
-    * The outbox tab is often used when data collectors don’t have access to the internet or if the connection is not stable.
-* The “Submit” button sends the report to the Dropbox immediately.
+    * The "Outbox" tab is often used when data collectors don’t have access to the internet or if the connection is not stable.
+* The “Submit” button immediately sends the report to Dropbox.
     * If submission fails due to connectivity issues, the report goes to the “Outbox" tab.
-    * If the report is submitted correctly, it goes to the “Submitted” tab and a new folder will be created in Dropbox under **Applications** >> **Tella** with the title you selected. All attachments will be added to the folder and the description will be added as a text file inside the folder.
+    * If the report is submitted correctly, it goes to the “Submitted” tab and a new folder (named after the report title you typed in) will be created in Dropbox under **Applications** >> **Tella**. All attachments will be added to the folder and the description will be added as a text file inside the folder.
 
 
 ## Draft Reports {#draft-reports}
@@ -78,7 +79,7 @@ For the moment it is not possible to sign in to multiple Dropbox accounts at the
 
 * On the "New report" screen, tap the "Save draft" button to save the report as a draft.
     * A message confirmation will be displayed, and you can continue working on the report or exit to come back to it later.
-* If you try to exit a report without saving, you will be asked to confirm whether you are sure to exit without saving the report.
+* If you try to exit a report without saving, you will be asked to confirm whether you are sure you want to exit without saving the report.
 * In the Draft tab, you can view and manage draft reports. Open a draft report to continue working on it and submit it.
 * You can delete a draft report by tapping on **⫶** > **Delete** or by entering the report and tapping the Delete button.
 
@@ -112,7 +113,7 @@ The Outbox contains reports that have been saved for submission. This could be:
 #### Submitted Reports {#submitted-reports}
 
 - The Submitted tab displays reports that have been successfully submitted to the Dropbox server.
-- In the Submitted tab, you can view and review the submitted reports.
+- In the Submitted tab, you can view and deleted the submitted reports.
 
 :::info
 If the internet connection is interrupted, reports will go to the "Outbox" tab and you will need to manually resume the submission.
