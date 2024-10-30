@@ -16,22 +16,18 @@ To receive monthly updates on new features and improvements to Tella and stay up
 
 
 ### Android: Tella 2.13.0 (190) - Released on October 25, 2024 {#android-tella-2130-190---released-on-october-25-2024}
-- Implemented the Dropbox server connection that allows Tella users to upload the data they collect directly to their Dropbox account. [Read here more about the connection](/dropbox).
-- Bug-fixing and small improvements:
-    - "Save to device" sometimes generated duplicated files.
-    - Solved navigation issues: 
-        - Stuck in recorder after recording audio inside a folder.
-        - Stuck in microphone after going back to the audio library.
+- Added support for the Dropbox connection that allows Tella users to upload the data they collect directly to their Dropbox account. [Read here more about the connection](/dropbox).
+- Bug fixes and minor improvements:
+    - Fixed a bug where "Save to device" sometimes generated duplicated files.
+    - Fixed a bug where users sometimes got stuck in the recorder after recording audio inside a folder.
+    - Fixed a bug where users sometimes got stuck in the recorder after going back to the audio library.
     - UI fixes for Tella Web and Google Drive connections.
-    - Updated About and Help page, linking to the Android getting started guide.
-    - Adapted Quick Delete security settings to new server connections (Google drive, Tella Web, Dropbox and new connections).
-    - Solved bugs for the Uwazi connection:
-        - Duplicated results when multiple relationships properties were included in the same template.
-        - Crash in geolocation property.
-    - Solved crash when sending a file with verification activated.
-    - Solved privacy preserving analytics(opt-in) issues: 
-        - Time spent metric now works.
-        - Added privacy preserving analytics metrics to all connections.
+    - Updated the "About & Help" screen, linking to the Android "Get Started" guide.
+    - Updated Quick Delete security settings to cover new Connections (Google drive, Tella Web, Dropbox).
+    - Fixed a bug for the Uwazi Connection where entities would be duplicated when uploaded when multiple relationships properties were included in the same template.
+    - Solved a crash in the geolocation property for the Uwazi Connection.
+    - Solved a crash when sending a file with verification information.
+    - Solved some issues related to the opt-in privacy-preserving analytics to ensure that measuring time spent in Tella works properly and that some metric applies to all Connections.
 
 
 ### iOS: Tella 1.11.0 (81) - Released on October 21, 2024 {#ios-tella-1110-81---released-on-october-21-2024}
