@@ -52,8 +52,9 @@ Here are some information about our privacy-preserving analytics approach:
     - Number of files imported from the device's gallery or file system into Tella.
     - Number of security features activated (number of times that camouflage is enabled, number of times that the quick delete action is triggered).
     - Number of new installations.
-    - Number of reports uploaded to any connection (Tella Web, Uwazi, ODK)
+    - Number of reports uploaded to any connection (Tella Web, Uwazi, ODK, Nexcloud, Google Drive, Dropbox)
     - Time spend in Tella. 
+
 
     **Tella Web**
    The data below is only collected from Tella Web instances that have opted-in to share privacy-preserving analytics with the Tella team.
