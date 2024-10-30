@@ -47,18 +47,19 @@ Here are some information about our privacy-preserving analytics approach:
 3. **We collect as little data as possible**: Even though all data is anonymized, we always minimize the amount of data we collect. As of the latest versions of Tella, we only collect data about the following events (and nothing more):
 
     **Tella Android**
-    - Number of successful unlock events.
-    - Number of media files recorded (number of audios, videos and photos taken).
-    - Number of files imported.
-    - Number of a security feature is activated (number of times that the a camouflage option is enabled, number of times that the quick delete action is triggered).
-    - Number of installs.
-    - Number of reports sent (number of reports sent to any server connected: Tella Web, Uwazi, ODK)
-    - Time spend on Tella. 
+    - Number of times Tella is successfully unlocked.
+    - Number of media files recorded (videos/photos taken and audio recordings captured).
+    - Number of files imported from the device's gallery or file system into Tella.
+    - Number of security features activated (number of times that camouflage is enabled, number of times that the quick delete action is triggered).
+    - Number of new installations.
+    - Number of reports uploaded to any connection (Tella Web, Uwazi, ODK)
+    - Time spend in Tella. 
 
     **Tella Web**
+   The data below is only collected from Tella Web instances that have opted-in to share privacy-preserving analytics with the Tella team.
     - Number of visits (triggered every time someone enters any Tella Web instance).
-    - Number of File uploads (triggers every time someone uploads a file to any Tella Web instance).
-    - Number of Reports (triggers every time someone uploads a report to any Tella Web instance).
+    - Number of file uploads (triggered every time someone uploads a file to any Tella Web instance).
+    - Number of Report uploads (triggers every time someone uploads a report to any Tella Web instance).
 
 
    For more information about the metrics we add to our apps, check out our [release notes](/releases).
