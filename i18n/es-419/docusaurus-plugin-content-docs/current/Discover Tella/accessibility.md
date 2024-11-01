@@ -1,5 +1,5 @@
 ---
-id: accessibility
+id: accesibilidad
 title: Idiomas y accesibilidad
 description: Un vistazo a los idiomas en los que Tella está disponible y consideraciones de accesibilidad.
 slug: /accessibility
@@ -18,7 +18,7 @@ Trabajamos arduamente para hacer que Tella esté disponible en idiomas hablados 
 
 <TellaLanguages/>
 
-[Video Tutoriales](/video-tutorials) tienen subtítulos disponibles en Español, Árabe, Suajili y Francés.
+[Video Tutoriales](/video-tutoriales) tienen subtítulos disponibles en Español, Árabe, Suajili y Francés.
 
 
 
@@ -28,8 +28,8 @@ En esta tabla puedes acceder a nuestros más recientes informes de accesibilidad
 
 | **Plataforma** | **Fecha** | **Enlace** |
 | -----|-----|------ |  
-| Tella Android | Noviembre 2023 | [Enlace](https://docs.google.com/document/d/1QtcWrSNvVtskUf5zNmOlgH0ue_O2ksdi/edit) | 
-| Tella iOS | Noviembre 2023 | [Enlace](https://docs.google.com/document/d/1-_dx-Ut98FpiasqgW98gxoFbwVx01R39/edit) | 
+| Tella Android | Noviembre 2023 | [Link](</assets/2023.11 - Tella Android accessibility audit.docx.pdf>) | 
+| Tella iOS | Noviembre 2023 | [Link](</assets/2023.11 - Tella iOS accessibility audit.docx.pdf>) | 
 
 Actualmente estamos trabajando para resolver todos los problemas de accesibilidad de Nivel A detectados en Tella Android.
 

@@ -9,7 +9,7 @@ slug: /privacy
 # Tella - Política de Privacidad
 
 :::note
-Actualizada por última vez el 10 de julio de 2023.
+Actualizada por última vez el 23 de julio de 2024.
 :::
 
 :::info
@@ -59,7 +59,8 @@ Al descargar y usar la App, das consentimiento a la recopilación y almacenamien
 Cuando te descargas, registras con o utilizas esta App, podemos solicitarte que proporciones información que permita identificarte personalmente, como tu nombre y dirección de correo electrónico ("información personal"). Esta información incluye:
 
 -   Registros y copias de tu correspondencia con Horizontal (incluyendo direcciones de correo electrónico y números de teléfono), si nos contactas.
--   nuestras respuestas a encuestas que podríamos pedirte que completes con fines de investigación, información cuando reportas un problema con la App o sugieres mejoras.
+-   Tus respuestas a encuestas que podríamos pedirte que completes con fines de investigación, información cuando reportas un problema con la App o sugieres mejoras.
+-   Analíticas de uso de datos que optas por compartir.
 
 Puedes utilizar esta app para tomar o almacenar fotos, videos, grabaciones de audio, y otros tipos de archivos. Estos datos son almacenados localmente en tu dispositivo y no son accesibles para la Empresa ni para ninguna tercera parte, incluidas las Organizaciones Implementadoras, hasta que tu decidas transmitirlos a la Organización Implementadora enviando tus datos a sus servidores (ver Recopilación de Información de Terceras Partes). 
 
@@ -77,7 +78,8 @@ Tella también recopila información sobre tu dispositivo móvil y conexión a i
 
 Tella también recopila información que ayuda a identificar la ubicación del dispositivo cuando se captura un archivo. Esto incluye la ubicación (incluyendo latitud, longitud, precisión y altitud), proveedor de ubicación, velocidad de ubicación, y torres de telefonía celular a las que está conectado su dispositivo. Conjuntamente, estos datos se conocen como "Metadatos de Ubicación".
 
-Los metadatos de archivo, dispositivo y ubicación solo son recopilados si optas por activar el Modo Verificación en las configuraciones de tu App. Si no quieres que Tella recopile esta información, no actives el Modo Verificación.
+Los metadatos de archivo, dispositivo y ubicación solo son recopilados si optas por activar el Modo Verificación o Importar Metadatos EXIF en las configuraciones de tu App. Si no quieres que Tella recopile esta información, no actives el Modo Verificación ni Importar Metadatos EXIF.
+
 
 ### Tecnologías de Recopilación de Información {#information-collection-technologies}
 
@@ -91,13 +93,13 @@ Las tecnologías que utilizamos para la recopilación automática de informació
 -   Sensor de luz del dispositivo.
 -   Barómetro del dispositivo.
 
-## 4. Información que tu envías a través de la App {#4-information-you-send-through-the-app}
+## 4. Información que envías a través de la App {#4-information-you-send-through-the-app}
 
 Al utilizar la App para transmitir datos, te conectas al servidor de una Organización Implementadora que supervisa el proceso de documentación o recopilación para enviar fotos, videos, grabaciones de audio, y otros archivos, metadatos y datos de texto (en conjunto, "Contribuciones de la/el Usuaria(o)").
 
 La Organización Implementadora administra y es responsable del servidor en el que se almacenan los datos que enviaste, incluyendo las Contribuciones de el/la Usuaria(o), son almacenados. Es la Organización Implementadora, y no la Empresa, quien es propietaria de esos datos y responsable de su manejo y uso. La Empresa no tiene acceso ni control sobre los datos recopilados por las Organizaciones Implementadoras.
 
-Tus Contribuciones de el/la Usuaria(o) son transmitidas bajo tu propio riesgo. La privacidad y seguridad de tus Contribuciones de el/la Usuaria(o) son muy importantes para nosotra(o)s, y trabajamos arduamente para protegerlas; sin embargo, ninguna medida de seguridad es perfecta o impenetrable, y la Empresa no se hará responsable de ningún daño, pérdida, o acceso no autorizado por parte de terceras partes.
+Tus Contribuciones de Usuaria(o) son transmitidas bajo tu propio riesgo. La privacidad y seguridad de tus Contribuciones de Usuaria(o) son muy importantes para nosotra(o)s, y trabajamos arduamente para protegerlas; sin embargo, ninguna medida de seguridad es perfecta o impenetrable, y la Empresa no se hará responsable de ningún daño, pérdida, o acceso no autorizado por parte de terceras partes.
 
 En caso de que una Organización Implementadora contrate a la Empresa para instalar y administrar el servidor en el que se almacenan los datos de usuaria(o)s, la Empresa tendrá acceso a los datos como socia de la Organización Implementadora. La Empresa podrá ver, controlar, y administrar tus datos, pero no los divulgará a ninguna tercera parte que no sea la Organización Implementadora.
 
@@ -135,10 +137,14 @@ Podemos divulgar información personal y datos que recopilemos o que tu proporci
 
 ## 6. Sus Opciones Sobre Nuestra Recopilación, Uso, y Divulgación de Tu Información {#6-your-choices-about-our-collection-use-and-disclosure-of-your-information}
 
-A través del menú de configuraciones de la App, puedes inhabilitar:
+A través del menú de configuración de la App, puedes inhabilitar:
 
--   Informe de errores y analíticas de uso
+-   Informe de errores y analíticas de uso por defecto.
 -   La recopilación de metadatos ya sea completa o parcial al deshabilitar el "Modo de Verificación" en las configuraciones de tu app.
+
+A través del menú de configuración de la App, puedes habilitar:
+- Compartir analíticas de uso utilizando nuestro sistema de preservación de la privacidad [Divvi Up](/security-and-privacy#analytics).
+
 
 La versión FOSS de Tella disponible en [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/) no tiene ningún rastreador para informes de errores o análisis de uso.
 
@@ -155,7 +161,7 @@ Para presentar una SAR, por favor escribe a [contact@wearehorizontal.org](mailto
 
 También puedes escribirnos a [contact@horizontal.org](mailto:contact@horizontal.org) para solicitar acceso, corregir, or eliminar cualquier información personal que nos hayas proporcionado. Es posible que no podamos atender una solicitud para cambiar información si creemos que el cambio violaría una ley o requisito legal o causaría que la información sea incorrecta.
 
-## 8. Sus Derechos de Privacidad de California {#8-your-california-privacy-rights}
+## 8. Tus Derechos de Privacidad de California {#8-your-california-privacy-rights}
 
 Si eres residente de California, la ley de California puede otorgarte derechos adicionales respecto a nuestro uso de su información personal. Para saber más sobre tus derechos de privacidad de California, visita [https://www.oag.ca.gov/privacy/ccpa](https://www.oag.ca.gov/privacy/ccpa).
 

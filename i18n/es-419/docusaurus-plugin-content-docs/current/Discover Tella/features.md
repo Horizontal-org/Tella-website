@@ -1,11 +1,12 @@
 ---
-id: features
+id: funciones
 title: Funciones de Tella
 description: Una descripción detallada de las funciones de Tella.
-slug: /features
+slug: /funciones
 ---
-import FeaturesTable from '.././_features-table.md';
 
+import FeaturesTable from '.././_features-table.md';
+import ConnectionsTable from '.././_connections-table.md';
 
 # Funciones de Tella
 
@@ -31,6 +32,26 @@ Si la/el usuaria(o) pierde su método de bloqueo, no es posible volver a tener a
 :::tip Video tutorial🎥
 Aprende más sobre Métodos de Bloqueo de Tella en nuesto [video tutorial](/video-tutorials#tella-locks)
 :::
+
+## Cifrado en segundo plano {#background-encryption}
+
+Tella [cifra](#encryption) archivos en segundo plano de manera que los usuarios puedan continuar realizando acciones (tomar más fotos o videos, importar más archivos, etc) mientras los archivos están siendo cifrados. Los usuarios pueden ver las actividades que se están realizando en segundo plano en una **Bandeja de actividad en segundo plano** que es accesible desde la pantalla principal de Tella, al tocar el icono de "notificaciones"  (🔔) en la parte superior izquierda.
+
+Mientras los archivos están siendo cifrados, Tella muestra un marcador naranja el icono de las notificaciones. Si el usuario abre la bandeja de actividad en segundo plano mientras algunos archivos están siendo cifrados, verán la lista de archivos en cola y el progreso del cifrado.
+
+:::danger
+Si el usuario sale de Tella forzadamente (por ejemplo, usando [Salida Rápida](#quick-exit) o minimiza la app) mientras los archivos están siendo cifrados en segundo plano, estos se perderán.
+:::
+
+:::info
+Si el [Modo de Verificación](/features#verification-mode) está activo, el cifrado en segundo plano automáticamente se deshabilita para garantizar que todos los metadatos de archivos son capturados la mismo tiempo que la foto, video o audio son guardados.
+:::
+
+## Respaldar archivos a la nube {#backup-files}
+Estamos en proceso de añadir opciones para que individuos y organizaciones respalden sus datos a diferentes nubes. Por el momento admitimos:
+
+<ConnectionsTable/>
+
 
 ## Configuración de tiempo de espera para bloqueo {#lock-timeout-configuration}
 
@@ -71,7 +92,7 @@ En iOS la seguridad de pantalla solo bloquea la grabación de pantalla dentro de
 
 
 :::tip Video tutorial 🎥
-Aprende más sobre Funciones de Seguridad Adicional de Tella en nuestro [video tutorial](/video-tutorials#additional-security-features)
+Aprende más sobre Función de Seguridad Adicional de Tella en nuestro [video tutorial](/video-tutorials#additional-security-features)
 :::
 
 ## Restringir intentos de desbloqueo{#restrict-unlocking-attempts}
@@ -81,14 +102,34 @@ Por defecto, esta configuración está Deshabilitada, lo que significa que los i
 
 Después del número de intentos fallidos especificados, todos los archivos, conexiones y todo en Tella se elimina, y la/el usuaria(o) volverá al estado "recién instalado" de la app.
 
+:::info
+La función de Restringir Intentos de desbloqueo no se puede habilitar si el camuflaje de Calculadora está habilitado.
+:::
+
 :::danger
 Aunque está configuración de privacidad evita los intentos de desbloqueo por fuerza bruta para ingresar a Tella, debe ser usada con precaución, ya que no hay forma de restaurar el contenido de Tella una que vez el número máximo de intentos fallidos es alcanzado.
 :::
 
 ## Editar Medios {#edit-media}
-Estamos en proceso de añadir la posibilidad de editar archivos de medios directamente dentro de Tella. Pronto, la(o)s usuaria(o)s no necesitarán exportar sus archivos fuera de Tella para edición. Tella 2.4.0 para Android empieza con la capacidad de editar fotos (recortar y rotar).
+Estamos en proceso de añadir la habilidad de editar archivos multimedia directamente dentro del contenedor cifrado de Tella, para que la(o)s usuaria(o)s no necesiten exportar sus archivos fuera de Tella para editarlos.
 
-La(o)s usuaria(o)s pueden editar fotos yendo a **Más** > **Editar** desde la carpeta de **Imagenes** o tocando el botón **Editar** en la parte superior derecha mientas visualizas una imagen en Tella. En la pantalla de Editar Imagen la(o)s usuaria(o)s pueden usar el botón **Rotar** en la parte inferior de la pantalla para rotar la imagen en sentido contra reloj o pellizcar y expandir o contraer tus dedos para mover el lienzo blanco para recortar la imagen. Cuando se realicen las ediciones, la(o)s usuaria(o)s pueden presionar el ícono de verificación naranja en la parte superior derecha de la pantalla de edición. 
+| **Tipo de Medio** | **Función** | **Tella Android** | **Tella iOS** | **Tella FOSS** |
+|----------------|-------------|-------------------|---------------|----------------|
+| Imagen          | Recortar        | ✔️                | ✔️            | Aún no        |
+| Imagen          | Rotar      | ✔️                | ✔️            | Aún no        |
+| Imagen          | Voltear        | ✔️                | Aún no       | Aún no        |
+| Imagen          | Auto-zoom        | ✔️                | Aún no       | Aún no        |
+| Video          | Recortar        | Aún no       | Pronto          | Aún no        |
+| Video          | Rotar      | Aún no       | Pronto          | Aún no        |
+| Audio          | Recortar        | Aún no           | Pronto          | Aún no        |
+
+La(o)s usuaria(o)s pueden editar una imagen yendo a **Más**>**Editar** desde la carpeta de **Imágenes** o tocando el botón **Editar** en la parte superior derecha mientras visualizas la imagen que tienes en Tella.
+- **Rotar**: Usa el botón Rotar en la parte inferior de la pantalla para rotar la imagen en sentido contrario a las agujas del reloj.
+- **Recortar**: Arrastra las esquinas del lienzo blanco para recortar la imagen. 
+- **Auto-zoom**: La imagen acercará o alejará automáticamente dependiendo del lienzo seleccionado para evitar perder calidad de imagen.
+- **Voltear**: Usa los botones de voltear para reflejar la imagen horizontal o verticalmente.
+
+Cuando finaliza la edición, los usuarios pueden presionar el signo de verificación naranja en la parte superior derecha de la pantalla de edición. El archivo editado se guardará como una copia del archivo original en la misma carpeta.
 
 ## Cifrado {#encryption}
 
@@ -135,11 +176,11 @@ Importar archivos desde el sistema de archivos a Tella hace una copia de los arc
 Hay varias opciones para que la(o)s usuaria(o)s de Tella se [contacten con el equipo de Tella](/contact-us) para sugerir mejoras, reportar errores y problemas y solicitar soporte. Dentro de Tella hay 2 alternativas:
 
 1. **Email:**
-   - Navega a **Configuraciones** > **Sobre Nosotra(o)s y Ayuda** > **Contáctanos** para encontrar la dirección de correo electrónico.
+   - Navega a **Configuración** > **Sobre Nosotra(o)s y Ayuda** > **Contáctanos** para encontrar la dirección de correo electrónico.
    - La(o)s usuaria(o)s pueden escribirle al equipo de Tella utilizando su app de email preferida.
 
 2. **Formulario de Comentarios en la App:**
-   - Ve a **Configuraciones** > **Comentarios** para habilitar el formulario de comentarios dentro de la app.
+   - Ve a **Configuración** > **Comentarios** para habilitar el formulario de comentarios dentro de la app.
    - Esto le permite a la(o)s usuaria(o)s compartir comentarios con el equipo de Tella anónimamente.
 
 
@@ -164,7 +205,10 @@ Aprende más sobre [Recopilar Evidencia](video-tutorials#collecting-evidence) y 
 
 ## Conservar metadatos al importar {#preserve-metadata-when-importing}
 
-En **Configuraciones** > **Seguridad** la(o)s usuaria(o)s tienen la opción de Conservar o eliminar los metadatos de los archivos al importar Fotos y Videos a Tella. Los metadatos EXIF de los archivos pueden incluir datos sobre cuándo el archivo fue creado, configuración de la cámara o ubicación del dispositivo.
+En **Configuración** > **Seguridad** la(o)s usuaria(o)s tienen la opción de Conservar o eliminar los metadatos de los archivos al importar Fotos y Videos a Tella. Los metadatos EXIF de los archivos pueden incluir datos sobre cuándo el archivo fue creado, configuración de la cámara o ubicación del dispositivo.
+
+## Analíticas preservando la privacidad (habilitar){#privacy-preserving-analytics}
+Los usuarios de Android pueden optar por compartir analíticas para mejorar Tella. Toda la información es anónima, agregada y nunca puede ser vinculada a usuaria(o)s individuales. Para información técnica sobre que sistemas utilizamos y qué métricas recopilamos, visita la [sección de Analíticas de la página de Seguridad y Privacidad](/security-and-privacy#analytics).
 
 ## Abrir archivos en Tella {#open-files-in-tella}
 Imágenes, videos, PDF y audios pueden ser visualizados dentro de Tella. 📱📄
@@ -184,6 +228,10 @@ Por el momento, debido a las restricciones en la App Store de Apple, Tella para 
 El nombre "Tella" y su ícono permanecen visibles en la configuración de Android. Esto quiere decir que el camuflaje no protegerá contra un individuo _activamente_ buscando Tella en el teléfono o llevando a cabo un análisis profundo del dispositivo.🔒👀
 :::
 
+:::info
+La función de camuflaje de Calculadora no se puede habilitar si la función de Restricción de Intentos de desbloqueo está activa.
+:::
+
 :::tip Video tutorial 🎥
 Aprende más sobre [Camuflar Tella](/video-tutorials#camouflaging-tella) en nuestro video tutorial.
 :::
@@ -199,12 +247,12 @@ Por conveniencia y facilidad de acceso, también es posible personalizar la pant
 * Formularios favoritos, para usuaria(o)s conectada(o)s a un servidor ODK 📝
 * Plantillas favoritas, para usuaria(o)s conectada(o)s a un servidor Uwazi 📋
 
-Esta configuración se puede encontrar en **Configuraciones** > **General**.
+Esta configuración se puede encontrar en **Configuración** > **General**.
 
 
 ## Borrado Rápido {#quick-delete}
 
-Un botón de Borrado Rápido permite a la(o)s usuaria(o)s, en solo unos pocos segundos, eliminar información sensible dentro de Tella. El borrado rápido se puede configurar en **Configuraciones** > **Seguridad** > **Borrado rápido**, donde la/el usuaria(o) puede elegir habilitar un botón deslizable en la pantalla de inicio para eliminar rápidamente información de Tella en situaciones de emergencia. Si se habilita, la/el usuaria(o) puede elegir exactamente qué se elimina cuando esta función es usada. Las opciones disponibles son:
+Un botón de Borrado Rápido permite a la(o)s usuaria(o)s, en solo unos pocos segundos, eliminar información sensible dentro de Tella. El borrado rápido se puede configurar en **Configuración** > **Seguridad** > **Borrado rápido**, donde la/el usuaria(o) puede elegir habilitar un botón deslizable en la pantalla de inicio para eliminar rápidamente información de Tella en situaciones de emergencia. Si se habilita, la/el usuaria(o) puede elegir exactamente qué se elimina cuando esta función es usada. Las opciones disponibles son:
 
 * Eliminar bóveda: Elimina todos los archivos almacenados en Tella 🗑️
 * Eliminar borradores y formularios enviados: Elimina los borradores y formularios enviados en todos los servidores Open Data Kit (ODK) conectados 📝
@@ -286,7 +334,7 @@ En [Tella-FOSS](/faq#is-tella-available-on-f-droid), donde usamos la biblioteca 
 
 
 ## Seleccionar resolución de video {#select-video-resolution}
-Puedes elegir fácilmente tu resolución de video deseada en Tella accediendo a la pantalla de grabación de video y tocando en el botón de Configuraciones. Las opciones disponibles incluyen:
+Puedes elegir fácilmente tu resolución de video deseada en Tella accediendo a la pantalla de grabación de video y tocando en el botón de Configuración. Las opciones disponibles incluyen:
 - Resolución más alta posible
 - Alta resolución (1080p)
 - Resolución media (720p)

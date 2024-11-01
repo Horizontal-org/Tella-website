@@ -5,13 +5,13 @@ description: La conexión a servidor Open Data Kit está disponible para organiz
 slug: /odk
 ---
 
-# Open Data Kit (ODK - Kit de Datos Abiertos)
+# Conexión de Open Data Kit (ODK)
 
 El [Open Data Kit (ODK - Kit de Datos Abiertos)](https://getodk.org/) es un estándar abierto utilizado para crear formularios personalizados y recopilar datos.
 
 Un servidor Open Data Kit permite a las organizaciones agregar, en un repositorio central, datos recopilados por sus miembros o socia(o)s. La(o)s usuaria(o)s de Tella se conectan a la instancia ODK de su organización, rellenan formularios cuantas veces necesiten (incluso si no tienen conexión a internet), y suben los datos. Organizaciones pueden descargar los datos del servidor o analizarla en el servidor, dependiendo de las alternativas del servidor elegido.
 
-De manera similar a todas las demás conexiones de servidor(como [Tella Web](/tella-web) o [Uwazi](/uwazi)), conectar al servidor ODK mejora la seguridad de los datos recopilados en Tella al:
+De manera similar a todas las demás conexiones de servidor(como [Tella Web](/tella-web), [Google Drive](/g-drive), [Nextcloud](/nextcloud) o [Uwazi](/uwazi)), conectar al servidor ODK mejora la seguridad de los datos recopilados en Tella al:
 
 1. Permitir a la(o)s usuaria(o)s a recopilar datos directamente dentro de un contenedor cifrado de Tella.
 2. Garantizar que los datos son enviados directamente de Tella al servidor ODK, sin tener que depender de una herramienta o app de terceras partes.
@@ -22,15 +22,19 @@ De manera similar a todas las demás conexiones de servidor(como [Tella Web](/te
 
 Porque ODK es un estándar abierto, se puede utilizar Tella con cualquier herramienta que cumpla con ODK.
 
-Para organizaciones de la sociedad civil y defensora(e)s de los derechos humanos, recomendamos utilizar [KoboToolbox](https://www.kobotoolbox.org/) para crear formularios con preguntas personalizadas, gestionar usuaria(o)s, y recopilar los datos enviados por usuaria(o)s. Basado en nuestra experiencia, KoboToolbox es amigable y flexible, y también de código abierto. KoboToolbox ofrece un [servidor público gratuito](https://kf.kobotoolbox.org/accounts/login/) para sin fines de lucro y las ayuda con capacitación y orientación sobre cómo estruturar datos en el servidor. También es posible [usar una instancia privada de KoboToolbox](https://www.kobotoolbox.org/services/private-servers/) o [auto hospedarla](https://support.kobotoolbox.org/kobo_your_servers.html).
+Para organizaciones de la sociedad civil y defensora(e)s de los derechos humanos, recomendamos utilizar [KoboToolbox](https://www.kobotoolbox.org/) para crear formularios con preguntas personalizadas, gestionar usuaria(o)s, y recopilar los datos enviados por usuaria(o)s. Basado en nuestra experiencia, KoboToolbox es amigable y flexible, y también de código abierto. KoboToolbox ofrece un [servidor comunitario] gratuito (https://kobotoolbox.org/pricing/) para organizaciones sin fines de lucro y ofrece recursos capacitación y orientación gratuitos sobre cómo estructurar datos en el servidor. (Base de Autoaprendizaje y Foro Comunitario). También es posible [usar una instancia privada de KoboToolbox](https://www.kobotoolbox.org/services/private-servers/) o [auto hospedarla](https://support.kobotoolbox.org/kobo_your_servers.html).
 
 Hay disponibles otras apps que cumplen con ODK, como [Ona](https://ona.io/home/) o [ODK Cloud](https://https://getodk.org/index.html). Tella funciona con cualquiera de estas. Si necesitas ayuda, [contáctanos](contact-us) para que podamos ayudarte a seleccionar el mejor servidor para tu caso de uso.
 
 ### Cuándo Usar ODK {#when-to-use-odk}
 
-Recomendamos ODK a organizaciones que necesitan usuaria(o)s sobre el terreno para recopilar datos de manera estructurada como los formularios. También lo recomendamos a organizaciones que no tienen la capacidad técnica para instalar y mantener un servidor y quieren utilizar una instancia en la nube lista para usar. Si utilizas una instancia en la nube, recuerda que la organización que aloja tu instancia de ODK podrá acceder a tus datos. Esta es una consideración importante al decidir si auto alojar o utilizar un servicio en la nube.
+Recomendamos ODK a organizaciones que necesitan usuaria(o)s sobre el terreno para recopilar datos de manera estructurada como los formularios. También lo recomendamos a organizaciones que no tienen la capacidad técnica para instalar y mantener un servidor y quieren utilizar una instancia en la nube lista para usar. Si utilizas una instancia en la nube, recuerda que la organización que aloja tu instancia de ODK podrá acceder a tus datos. Esta es una consideración importante al decidir si auto hospedar o utilizar un servicio en la nube.
 
 ODK y KoboToolbox son ampliamente utilizadas, bien documentadas, y fáciles de usar. Hay guías disponibles, y estas ofrecen soporte para organizaciones sin fines de lucro sobre cómo estructurar y mantener sus datos.
+
+:::tip
+Si necesitas ayuda para determinar si ODK es la mejor opción para tu caso de uso, [lee nuestra guía](/for-organizations) o [contáctanos](/contact-us)!
+:::
 
 ## Modela Tus Datos {#model-your-data}
 
