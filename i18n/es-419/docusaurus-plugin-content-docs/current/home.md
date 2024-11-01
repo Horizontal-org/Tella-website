@@ -4,7 +4,7 @@ slug: /docs
 title: Documentación de Tella
 ---
 
-importar Enlace de '@docusaurus/Link'
+import Link from '@docusaurus/Link'
 
 
 # Tella Docs

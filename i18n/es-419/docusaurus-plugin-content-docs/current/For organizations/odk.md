@@ -1,6 +1,6 @@
 ---
 id: odk
-title: Open Data Kit (ODK - Kit de Datos Abiertos)
+title: ODK - Kit de Datos Abiertos
 description: La conexión a servidor Open Data Kit está disponible para organizaciones que buscan recopilar datos estructurados utilizando formularios.
 slug: /odk
 ---

@@ -1,9 +1,10 @@
 ---
-id: accesibilidad
+id: accessibility
 title: Idiomas y accesibilidad
 description: Un vistazo a los idiomas en los que Tella está disponible y consideraciones de accesibilidad.
 slug: /accessibility
 ---
+
 import TellaLanguages from '.././_tella-languages.md';
 
 

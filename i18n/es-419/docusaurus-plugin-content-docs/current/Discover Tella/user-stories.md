@@ -10,7 +10,7 @@ slug: /user-stories
 
 ## CLEEN Foundation - Nigeria {#cleen-foundation---nigeria}
 
-:::nota Resumen
+:::note Resumen
 La fundación CLEEN utilizó Tella para monitoreo de las elecciones en Nigeria. Recibieron 7,800 informes de la(o)s observadora(e)s electorales que ayudaron a identificar casos de violencia policial y fraude electoral en tiempo real. Los informes incluían evidencia en fotos, videos, y audio, en adición a descripciones de texto. La fundación CLEEN pudo recibir, analizar y publicar los resultados del proceso de monitoreo de las elecciones el día después de las elecciones y un informe con recomendaciones al gobierno nigeriano para mejorar la seguridad en próximas elecciones, reducir la violencia, y prevenir el fraude.
 
 

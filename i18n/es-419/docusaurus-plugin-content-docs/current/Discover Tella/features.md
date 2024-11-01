@@ -1,8 +1,8 @@
 ---
-id: funciones
+id: features
 title: Funciones de Tella
 description: Una descripción detallada de las funciones de Tella.
-slug: /funciones
+slug: /features
 ---
 
 import FeaturesTable from '.././_features-table.md';

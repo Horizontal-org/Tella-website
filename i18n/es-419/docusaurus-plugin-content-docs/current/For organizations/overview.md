@@ -1,5 +1,5 @@
 ---
-id: vista general
+id: overview
 title: Vista general
 description: Aprende cómo las organizaciones pueden utilizar Tella para procesos de investigación, incidencia, o rendición de cuentas
 slug: /for-organizations
@@ -31,7 +31,7 @@ El siguiente es un gráfico básico, no exhaustivo para ayudar a determinar cual
 
 ```mermaid
 graph TD;
-    id1(¿Qué tipo de archivos necesitan enviar la(o)s usuaria(o)s?) --> id2("Mayormente datos estructurados(formularios), con adjuntos multimedia");
+    id1(¿Qué tipo de archivos necesitan enviar les usuaries?) --> id2("Mayormente datos estructurados-formularios-, con adjuntos multimedia");
     id1 --> id3("Mayormente archivos multimedia, con algo de texto") ;
     id2 --> id4("¿Qué funciones adicionales necesitas?");
     id3 --> id5("Tella Web");
@@ -60,7 +60,7 @@ La conexión a servidor Tella Web también permite a los usuarios descargar de m
 
 La conexión Tella Web está disponible en Tella Android y Tella iOS, pero aún no en [Tella-FOSS](/faq#is-tella-available-on-f-droid).
 
-:::
+:::info
 Aprende más sobre Tella Web [aquí](/tella-web).
 :::
 
@@ -76,7 +76,7 @@ Recursos para aprender más sobre Uwazi:
 * [publicación de blog del equipo de Uwazi](https://huridocs.org/2022/07/the-new-tella-app-lets-uwazi-users-document-violations-safely-and-while-offline/) sobre la conexión.
 * Uwazi [sitio web](https://uwazi.io/) y [documentación](https://uwazi.readthedocs.io/en/latest/).
 
-:::
+:::info
 Aprende más sobre Uwazi [aquí](/uwazi).
 :::
 

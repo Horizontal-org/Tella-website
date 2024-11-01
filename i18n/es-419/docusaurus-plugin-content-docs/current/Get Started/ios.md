@@ -8,10 +8,12 @@ slug: /get-started-ios
 # Empezando con Tella en iOS
 
 ## Descarga e instala Tella {#download-and-install-tella}
-Sigue [este enlace](https://apps.apple.com/us/app/tella-document-protect/id1598152580) para encontrar Tella en la App Store o abre la App Store y busca "Tella documentar y proteger".
+Sigue [este enlace](https://apps.apple.com/us/app/tella-document-protect/id1598152580) para encontrar Tella en la App Store o abre la App Store y busca "Tella document and protect".
 
 
-<div class="gifs"><img src="{require('@site/static/img/getting-started/ios/find-and-download.gif').default}" alt="gif que muestra como descargar Tella de la App Store" title="find and download gif"/></div>
+<div class="gifs">
+    <img src={require("@site/static/img/getting-started/ios/find-and-download.gif").default} alt="gif que muestra como descargar Tella de la App Store" title="find and download gif"/>
+</div>
 
 
 
@@ -36,7 +38,7 @@ La primera vez que uses cada función, se te pedirá conceder algunos permisos a
 
 
 <div class="gifs">
-    <img src="{require('@site/static/img/getting-started/ios/granting-permissions.gif').default}" alt="gif that shows how to grant Tella permissions" title="concediendo permisos"/>
+    <img src={require("@site/static/img/getting-started/ios/granting-permissions.gif").default} alt="gif that shows how to grant Tella permissions" title="concediendo permisos"/>
 </div>
 
 
@@ -44,7 +46,7 @@ La primera vez que uses cada función, se te pedirá conceder algunos permisos a
 Si no concedes estos permisos, puedes hacerlo más tarde yendo a la configuración de tu teléfono y navegando hasta **Configuración**>**Tella**>**Permitir a Tella acceso a la Cámara, micrófono y archivos.**
 
 <div class="gifs">
-    <img src="{require(&quot;@site/static/img/getting-started/ios/taking-picture-permissions.gif&quot;).default}" alt="gif that shows how to take a picture in Tella the first time (grant permission)" title="Tella te solicitará permisos la primera vez que abras la cámara"/>
+    <img src={require("@site/static/img/getting-started/ios/taking-picture-permissions.gif").default} alt="gif that shows how to take a picture in Tella the first time (grant permission)" title="Tella te solicitará permisos la primera vez que abras la cámara"/>
 </div>
 
 
@@ -56,8 +58,8 @@ Después de conceder los permisos, estás lista(o) para empezar a recopilar docu
 
 
 <div class="gifs">
-    <img src="{require(&quot;@site/static/img/getting-started/ios/picture.gif&quot;).default}" alt="gif that shows how to take a picture in Tella" title="tomar una foto en Tella"/>
-    <img src="{require(&quot;@site/static/img/getting-started/ios/recording.gif&quot;).default}" alt="gif that shows how to record audio in Tella" title="grabar audio en Tella"/>
+    <img src={require("@site/static/img/getting-started/ios/picture.gif").default} alt="gif that shows how to take a picture in Tella" title="tomar una foto en Tella"/>
+    <img src={require("@site/static/img/getting-started/ios/recording.gif").default} alt="gif that shows how to record audio in Tella" title="grabar audio en Tella"/>
 </div> 
 
 
@@ -67,7 +69,7 @@ Después de conceder los permisos, estás lista(o) para empezar a recopilar docu
 **Importa tus archivos a Tella.** Ve a cualquier carpeta dentro de Tella y toca el Botón **+** > **Importar desde el dispositivo**. Elige el archivo que te gustaría mantener dentro de Tella y una copia del archivo se almacenará cifrada y oculta en Tella. Se te pedirá elegir si quieres eliminar o mantener el archivo original de tu dispositivo. Tella estará desbloqueada mientras eliges tus archivos por un máximo de tres (3) minutos.
 
 <div class="gifs">
-    <img src="{require(&quot;@site/static/img/getting-started/ios/import-files.gif&quot;).default}" alt="gif that shows how to import files in Tella" title="importar archivos en Tella"/>
+    <img src={require("@site/static/img/getting-started/ios/import-files.gif").default} alt="gif that shows how to import files in Tella" title="importar archivos en Tella"/>
 </div> 
 
 
@@ -75,7 +77,7 @@ Después de conceder los permisos, estás lista(o) para empezar a recopilar docu
 
 
 <div class="gifs">
-    <img src="{require(&quot;@site/static/img/getting-started/ios/folders.gif&quot;).default}" alt="gif that shows how to organize evidence in folders in Tella" title="carpetas en Tella"/>
+    <img src={require("@site/static/img/getting-started/ios/folders.gif").default} alt="gif that shows how to organize evidence in folders in Tella" title="carpetas en Tella"/>
 </div> 
 
 
@@ -83,7 +85,7 @@ Después de conceder los permisos, estás lista(o) para empezar a recopilar docu
 
 
 <div class="gifs">
-    <img src="{require(&quot;@site/static/img/getting-started/ios/rename.gif&quot;).default}" alt="gif that shows how to rename files in Tella" title="renombrar archivos en Tella"/>
+    <img src={require("@site/static/img/getting-started/ios/rename.gif").default} alt="gif that shows how to rename files in Tella" title="renombrar archivos en Tella"/>
 </div> 
 
 
@@ -93,7 +95,7 @@ Para compartir información utilizando Tella puedes usar el botón **Compartir**
 Ten en cuenta que Tella compartirá los archivos sin cifrar, por lo que asegúrate de utilizar mensajes temporales (por ejemplo en WhatsApp o Signal) o de eliminar los mensajes después que la otra persona los reciba.
 
 <div class="gifs">
-    <img src="{require(&quot;@site/static/img/getting-started/ios/share.gif&quot;).default}" alt="gif that shows how share information in Tella" title="compartir información en Tella"/>
+    <img src={require("@site/static/img/getting-started/ios/share.gif").default} alt="gif that shows how share information in Tella" title="compartir información en Tella"/>
 </div> 
 
 
