@@ -15,7 +15,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 2.13.0 (190) - Released on October 25, 2024 {#android-tella-2130-190---released-on-october-25-2024}
+### Android: Tella 2.13.0 (190) - Released on November 4, 2024 {#android-tella-2130-190---released-on-november-4-2024}
 - Added support for the Dropbox connection that allows Tella users to upload the data they collect directly to their Dropbox account. [Read here more about the connection](/dropbox).
 - Bug fixes and minor improvements:
     - Fixed a bug where "Save to device" sometimes generated duplicated files.
