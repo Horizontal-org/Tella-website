@@ -1,46 +1,46 @@
 {
   "link.title.Learn": {
-    "message": "Aprende",
+    "message": "Learn",
     "description": "The title of the footer links column with title=Learn in the footer"
   },
   "link.title.Community": {
-    "message": "Comunidad",
+    "message": "Community",
     "description": "The title of the footer links column with title=Community in the footer"
   },
   "link.title.Latest news": {
-    "message": "Últimas noticias",
+    "message": "Latest news",
     "description": "The title of the footer links column with title=Latest news in the footer"
   },
   "link.title.More": {
-    "message": "Más",
+    "message": "More",
     "description": "The title of the footer links column with title=More in the footer"
   },
   "link.title.About this site": {
-    "message": "Acerca de este sitio",
+    "message": "About this site",
     "description": "The title of the footer links column with title=About this site in the footer"
   },
   "link.item.label.Get started on Android": {
-    "message": "Empieza en Android",
+    "message": "Get started on Android",
     "description": "The label of footer link with label=Get started on Android linking to /get-started-android"
   },
   "link.item.label.Get started on iOS": {
-    "message": "Empieza en iOS",
+    "message": "Get started on iOS",
     "description": "The label of footer link with label=Get started on iOS linking to /get-started-ios"
   },
   "link.item.label.Video Tutorials": {
-    "message": "Video Tutoriales",
+    "message": "Video Tutorials",
     "description": "The label of footer link with label=Video Tutorials linking to /video-tutorials"
   },
   "link.item.label.Tella for Organizations": {
-    "message": "Tella para Organizaciones",
+    "message": "Tella for Organizations",
     "description": "The label of footer link with label=Tella for Organizations linking to /for-organizations"
   },
   "link.item.label.Help & Contact": {
-    "message": "Ayuda y Contacto",
+    "message": "Help & Contact",
     "description": "The label of footer link with label=Help & Contact linking to /contact-us"
   },
   "link.item.label.Community Meetings": {
-    "message": "Reuniones Comunitarias",
+    "message": "Community Meetings",
     "description": "The label of footer link with label=Community Meetings linking to /community-meetings"
   },
   "link.item.label.Mastodon": {
@@ -52,7 +52,7 @@
     "description": "The label of footer link with label=X (Twitter) linking to https://x.com/Tella_app"
   },
   "link.item.label.Donate to Tella": {
-    "message": "Donar a Tella",
+    "message": "Donate to Tella",
     "description": "The label of footer link with label=Donate to Tella linking to https://wearehorizontal.org/donate"
   },
   "link.item.label.Blog": {
@@ -60,19 +60,19 @@
     "description": "The label of footer link with label=Blog linking to https://blog.wearehorizontal.org/"
   },
   "link.item.label.Changelog": {
-    "message": "Registro de cambios",
+    "message": "Changelog",
     "description": "The label of footer link with label=Changelog linking to /releases"
   },
   "link.item.label.Newsletter": {
-    "message": "Boletín",
+    "message": "Newsletter",
     "description": "The label of footer link with label=Newsletter linking to https://blog.wearehorizontal.org/#/portal/"
   },
   "link.item.label.About us": {
-    "message": "Sobre nosotra(o)s",
+    "message": "About us",
     "description": "The label of footer link with label=About us linking to https://wearehorizontal.org/about"
   },
   "link.item.label.Privacy policy": {
-    "message": "Política de privacidad",
+    "message": "Privacy policy",
     "description": "The label of footer link with label=Privacy policy linking to /privacy"
   },
   "link.item.label.Open Source": {
@@ -80,11 +80,11 @@
     "description": "The label of footer link with label=Open Source linking to /open-source"
   },
   "link.item.label.Accessibility": {
-    "message": "Accesibilidad",
+    "message": "Accessibility",
     "description": "The label of footer link with label=Accessibility linking to /accessibility"
   },
   "copyright": {
-    "message": "Tella es un proyecto por<a href=\"https://wearehorizontal.org/\">Horizontal</a>, una organización sin fines de lucro registrada 501(c)(3) – EIN: 83-1782268.</br> Este sitio web tiene una licencia Creative Commons 4.0 Attribution International.",
+    "message": "Tella is a project by <a href=\"https://wearehorizontal.org/\">Horizontal</a>, a registered 501(c)(3) nonprofit – EIN: 83-1782268. </br> This website is licensed under a Creative Commons 4.0 Attribution International License.",
     "description": "The footer copyright"
   }
 }

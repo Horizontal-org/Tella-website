@@ -11,7 +11,7 @@ The [Open Data Kit (ODK)](https://getodk.org/) is an open standard used to creat
 
 An Open Data Kit server allows organizations to aggregate, in a central repository, data collected by their members or partners. Tella users connect to their organization's ODK instance, fill forms as many times as they need (even if they don't have internet connectivity), and upload the data. Organizations can download the data from the server or analyze it on the server, depending on the chosen server alternatives.
 
-Similarly to any other server connection (like [Tella Web](/tella-web), [Google Drive](/g-drive), [Nextcloud](/nextcloud) or [Uwazi](/uwazi)), connecting to the ODK server enhances the security of data collected on Tella by:
+Similarly to any other server connection (like [Tella Web](/tella-web), [Google Drive](/g-drive), [Dropbox](/dropbox), [Nextcloud](/nextcloud) or [Uwazi](/uwazi)), connecting to the ODK server enhances the security of data collected on Tella by:
 
 1. Allowing users to collect data directly inside Tella's encrypted container.
 2. Ensuring that data is sent directly from Tella to the ODK server, without relying on a third-party tool or app.
@@ -49,7 +49,7 @@ The ODK connection is not available for Tella iOS.
 :::
 
 ### Connect to an ODK Server {#connect-to-an-odk-server}
-After creating and deploying a Form using any ODK-compliant server, in Tella, go to **Settings** > **Servers** > **+** > **Open Data Kit (ODK)**. Fill the following fields:
+After creating and deploying a Form using any ODK-compliant server, in Tella, go to **Settings** > **Connections** > **+** > **Open Data Kit (ODK)**. Fill the following fields:
 - **Server Name**: A descriptive name for your server in Tella. The name you select is only visible in the app and does not impact the ODK connection. 
 - **Server URL**: Your server URL. For example, `kc.kobotoolbox.org` if you are using the KoboToolbox public server.
 If your server requires user authentication, tap the **Advanced** button and enter your **Username** and **Password**. Your server's administrator should provide all this information to you.

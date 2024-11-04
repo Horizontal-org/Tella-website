@@ -1,7 +1,7 @@
 ---
 id: video-tutorials
 title: Tutoriels vidéos
-description: Vidéos tutoriels sur Tella
+description: Tutoriels vidéos sur Tella
 slug: /video-tutorials
 ---
 

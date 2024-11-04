@@ -20,6 +20,7 @@ Currently, Tella can be connected to the following types of servers:
 * [Tella Web](#tella-web)
 * [Google Drive](#g-drive)
 * [Nextcloud](#nextcloud)
+* [Dropbox](#dropbox)
 
 These are called [Connections](/features#connecting-to-servers) in Tella.
 
@@ -37,6 +38,7 @@ graph TD;
     id3 --> id5("Tella Web");
     id3 --> id11("Google Drive");
     id3 --> id12("Nextcloud");
+    id3 --> id13("Dropbox");
     id4 --> id6("Establish relationships between data points, publish to a website")
     id4 --> id7("Add logic to forms, collect high numbers for forms, create reports to visualize results")
     id6 --> id8("Uwazi")
@@ -102,7 +104,7 @@ Learn more about Open Data Kit [here](/odk).
 Users can sign-in directly to their Google account from within Tella and upload files to a folder in their Drive account. If the user is part of an organization that uses Google Workspace, they can also submit the files directly to a Shared Drive they have access to. Each "report" uploaded will create a new folder in Drive.
 
 
-As for all Connections in Tella, users can use most of the Google Drive connection offline through the Draft, Outbox tab and Submit Later tabs. 
+As for all Connections in Tella, users can use most of the Google Drive connection offline through the Draft, Outbox and Submit Later tabs. 
 
 :::tip
 Learn more about the Google Drive connection [here](/g-drive),
@@ -112,7 +114,7 @@ Learn more about the Google Drive connection [here](/g-drive),
 ### Nextcloud {#nextcloud}
 Users can sign-in directly to their NextCloud account from within Tella and upload files to a folder in their NextCloud account. Each "report" uploaded will create a new folder in NextCloud.
 
-As for all Connections in Tella, users can use most of the NextCloud connection offline through the Draft, Outbox tab and Submit Later tabs. 
+As for all Connections in Tella, users can use most of the NextCloud connection offline through the Draft, Outbox and Submit Later tabs. 
 
 :::tip
 Learn more about the Nextcloud connection [here](/nextcloud),
@@ -121,4 +123,19 @@ Learn more about the Nextcloud connection [here](/nextcloud),
 :::info
 The Nextcloud connection is [only available on iOS](/features). We are currently working for adding it to Tella Android as well.
 :::
+
+
+### Dropbox {#dropbox}
+Users can sign-in directly to their Dropbox account from within Tella and upload files to a folder in their account. In the "Applications" folder in the user's Dropbox account, a new folder "Tella" will automatically be created. Each Report uploaded from Tella will create a new subfolder inside the "Tella" folder.
+
+As for all Connections in Tella, users can use most of the Dropbox connection offline through the Draft, Outbox and Submit Later tabs. 
+
+:::tip
+Learn more about [the Dropbox connection here](/dropbox),
+:::
+
+:::info
+The Dropbox connection is [only available on Android](/features). We are currently working for adding it to Tella iOS as well.
+:::
+
 

@@ -6,7 +6,7 @@
         </div>
         <div className="column">
             <p>
-                Avez-vous des questions concernant Tella?<br/> 
+                Avez-vous des questions concernant Tella? <br/> 
                 Vous faut-il un soutienou de formation pour la déployer dans votre communauté?<br/>
                 Auriez-vous des idées pour améliorer l'application?<br/>
             </p>

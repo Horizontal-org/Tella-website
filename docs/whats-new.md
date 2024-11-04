@@ -15,15 +15,19 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 2.12.0 (188) - Released on October 21, 2024 {#android-tella-2120-188---released-on-october-21-2024}
-- Implemented the Google Drive server connection that allows Tella users to upload the data they collect directly to either their personal Google Drive folder or to any organizational shared drives they are connected to. [Read here more about the connection](/g-drive).
-- Added more metrics to our [opt-in privacy preserving analytics](/security-and-privacy#analytics) Tella's use patterns.
-- Bug-fixing and small improvements:
-    - Fixed problems with home-screen (shows up empty sometimes and has duplicated elements other times).
-    - Implement count indicators in reports' Draft, Outbox and Submitted tabs.
-    - Solved bug that made the connections cards appear in different order and sometimes disappear.
-    - Solved unexpected error in Uwazi server submission when the template had related to multi-select fields.
-    - Solved a bug that prevented Primary Document to be shared to the Uwazi server.
+### Android: Tella 2.13.0 (190) - Released on October 25, 2024 {#android-tella-2130-190---released-on-october-25-2024}
+- Added support for the Dropbox connection that allows Tella users to upload the data they collect directly to their Dropbox account. [Read here more about the connection](/dropbox).
+- Bug fixes and minor improvements:
+    - Fixed a bug where "Save to device" sometimes generated duplicated files.
+    - Fixed a bug where users sometimes got stuck in the recorder after recording audio inside a folder.
+    - Fixed a bug where users sometimes got stuck in the recorder after going back to the audio library.
+    - UI fixes for Tella Web and Google Drive connections.
+    - Updated the "About & Help" screen, linking to the Android "Get Started" guide.
+    - Updated Quick Delete security settings to cover new Connections (Google drive, Tella Web, Dropbox).
+    - Fixed a bug for the Uwazi Connection where entities would be duplicated when uploaded when multiple relationships properties were included in the same template.
+    - Solved a crash in the geolocation property for the Uwazi Connection.
+    - Solved a crash when sending a file with verification information.
+    - Solved some issues related to the opt-in privacy-preserving analytics to ensure that measuring time spent in Tella works properly and that some metric applies to all Connections.
 
 
 ### iOS: Tella 1.11.0 (81) - Released on October 21, 2024 {#ios-tella-1110-81---released-on-october-21-2024}
@@ -45,6 +49,17 @@ A version of Tella included for the first time on the F-droid store. This a 100%
 
 
 ## Previous versions {#previous-versions}
+
+### Android: Tella 2.12.0 (188) - Released on October 21, 2024 {#android-tella-2120-188---released-on-october-21-2024}
+- Added support for the Google Drive Connection that allows Tella users to upload the data they collect directly to either a personal Google Drive folder or to any organizational Shared Drives they are connected to. [Read more about the Google Drive Connection here](/g-drive).
+- Added more metrics to our [opt-in privacy-preserving analytics](/security-and-privacy#analytics) to better understand usage patterns of Tella.
+- Bug fixes and minor improvements:
+    - Fixed issues with the homescreen (sometimes showed up empty or with duplicated elements other times).
+    - Implemented count indicators in the Draft, Outbox and Submitted tabs of Reports.
+    - Solved a bug that constantly changed the order of the Connections cards on the homescreen, and sometimes disappear completely from the homescreen.
+    - Solved an unexpected error when submitting to Uwazi a template had related multi-select fields.
+    - Solved a bug that prevented Primary Document to be shared to the Uwazi server.
+
 
 
 ### Android: Tella 2.11.0 (186) - Released on September 18, 2024 {#android-tella-2110-186---released-on-september-18-2024}

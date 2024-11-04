@@ -24,5 +24,5 @@
 | [Verification mode](/features#verification-mode)| ✔️ | Not yet | ✔️ |
 | [Quick delete](/features#quick-delete)| Files, Connections and Tella | Files and Connections  | Files, Connections and Tella |
 | [Quick exit](/features#quick-exit)| Locks and close | Locks  | Locks and close  |
-| [Connections to collect data and send files](/features#connecting-to-servers) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Open Data Kit (Forms)](/odk) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Nextcloud](/nextcloud) | - [Uwazi](/uwazi) <br />- [Open Data Kit (Forms)](/odk)  |
+| [Connections to collect data and send files](/features#connecting-to-servers) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Open Data Kit (Forms)](/odk) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Nextcloud](/nextcloud) | - [Uwazi](/uwazi) <br />- [Open Data Kit (Forms)](/odk)  |
 | [Offline data collection](/features#offline-data-collection) | ✔️ | ✔️ |  ✔️ |

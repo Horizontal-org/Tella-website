@@ -11,14 +11,14 @@ slug: /nextcloud
 
 Tella allows users to sign in to their Nextcloud account directly from Tella and upload files directly to it.
 
-Similarly to other server connections (like [Tella Web](/tella-web), [Google Drive](/g-drive), [Uwazi](/uwazi) or [Open Data Kit](/odk)), connecting to a Nextcloud server enhances the security of data collected on Tella by:
+Similarly to other server connections (like [Tella Web](/tella-web), [Google Drive](/g-drive), [Dropbox](/dropbox), [Uwazi](/uwazi) or [Open Data Kit](/odk)), connecting to a Nextcloud server enhances the security of data collected on Tella by:
 
 1. Allowing users to collect data directly inside Tella's encrypted container.
 2. Ensuring that data is sent directly from Tella to Nextcloud, without needing to install the Nextcloud app on the device or sending the data through a third-party app.
 3. Allowing users to back up their data to a remote server, to lower the risk that data is discovered on their mobile device.
 4. Ensuring that organizations can preserve important information even in the event of device seizure or destruction, and can organize it for research, advocacy, or accountability processes.
 
-Submissions to Nextcloud take the form of "reports" which include a title, a text description, and files like photos, videos, audio recordings, and pdf documents.
+Submissions to Nextcloud take the form of "reports" which include a title, a text description, and files like photos, videos and audio recordings.
 
 :::info
 The Nextcloud connection is [only available on iOS](/features). We are currently working for adding it to Tella Android as well.
@@ -42,7 +42,7 @@ If you need help figuring out if Nextcloud is best for your use-case, [check out
 
 In order to connect to Nextcloud:
 
-* Navigate to **Settings ⚙️** > **Servers** > **+**
+* Navigate to **Settings ⚙️** > **Connections** > **+**
 * Select "Nextcloud" from the list of available server types.
 * Type the URL of your Nextcloud server.
 * Enter your Nextcloud username and password.
@@ -51,7 +51,7 @@ In order to connect to Nextcloud:
 
 ## Manage the Nextcloud connection {#manage-the-Nextcloud-connection}
 
-* In **Settings ⚙️** > **Servers** >  **Nextcloud** > **⫶** you can:
+* In **Settings ⚙️** > **Connections** >  **Nextcloud** > **⫶** you can:
   - Delete the connection
 
 For the moment it is not possible to sign in to multiple Nextcloud accounts at the same time. If you want to sign-in to another Nextcloud instance, delete your Nextcloud connection and create a new one.

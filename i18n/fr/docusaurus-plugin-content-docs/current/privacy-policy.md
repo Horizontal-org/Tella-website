@@ -9,7 +9,7 @@ slug: /privacy
 # Tella - Politique de confidentialité
 
 :::note
-Dernière mise à jour le 10 juillet 2023.
+Dernière mise à jour le 23 juillet 2024.
 :::
 
 :::info
@@ -59,7 +59,8 @@ En téléchargeant et en utilisant Tella, vous consentez à la collecte et au st
 Lorsque vous téléchargez Tella, que vous vous y inscrivez ou que vous l'utilisez, il se peut que nous vous demandions de fournir des informations permettant de vous identifier personnellement, telles que votre nom et votre adresse électronique (« informations personnelles »). Ces informations incluent :
 
 -   Les enregistrements et copies de vos correspondances avec Horizontal (y compris les adresses e-mail et les numéros de téléphone), si vous nous contactez.
--   Nos réponses aux enquêtes que nous pourrions vous demander de remplir à des fins de recherche, des informations lorsque vous signalez un problème avec l'Application ou suggérez des améliorations.
+-   Vos réponses aux enquêtes que nous pourrions vous demander de remplir à des fins de recherche, des informations lorsque vous signalez un problème avec l'application ou suggérez des améliorations.
+-   Données d’utilisation analytiques que vous choisissez de partager.
 
 Vous pouvez utiliser Tella pour prendre ou stocker des photos, des vidéos, des enregistrements audio et d'autres types de fichiers. Ces données sont stockées localement sur votre appareil et ne sont pas accessibles par la Société ou par tout tiers, y compris les organisations de déploiement, jusqu'à ce que vous choisissiez de les transmettre à l'organisation de déploiement en soumettant vos données à leurs serveurs (voir Collecte d'informations par des tiers).
 
@@ -77,7 +78,8 @@ Tella collecte également des informations sur votre appareil mobile et votre co
 
 Tella collecte également des informations permettant d'identifier l'emplacement de l'appareil lorsqu'un fichier a été capturé. Cela inclut l'emplacement (y compris la latitude, la longitude, la précision et l'altitude), le fournisseur de localisation, la vitesse de localisation et les tours de téléphonie cellulaire auxquelles votre appareil est connecté. Collectivement, ces données sont connues sous le nom de “métadonnées de localisation”.
 
-Les métadonnées des fichiers, des appareils et des emplacements ne sont collectées que si vous vous inscrivez en activant le mode de vérification dans les paramètres de votre application. Si vous ne souhaitez pas que Tella collecte ces informations, n'activez pas le mode de vérification.
+Les métadonnées des fichiers, des appareils et des emplacements ne sont collectées que si vous acceptez cette collecte en activant le mode de vérification ou l'importation de métadonnées EXIF ​​dans les paramètres de votre application. Si vous ne souhaitez pas que Tella collecte ces informations, n'activez pas le mode de vérification ni l'importation de métadonnées EXIF.
+
 
 ### Technologies de collecte d'informations {#information-collection-technologies}
 
@@ -135,10 +137,14 @@ Nous pouvons divulguer les informations personnelles et les données que nous co
 
 ## 6. Vos choix concernant notre collecte, notre utilisation et notre divulgation de vos informations {#6-your-choices-about-our-collection-use-and-disclosure-of-your-information}
 
-Grâce au menu des paramètres dans l’application, vous pouvez vous désinscrire:
+Via le menu des paramètres de l'application, vous pouvez désactiver :
 
--   Rapports de bogues et analyses d'utilisation
+-   Rapports de bogues et analyses d'utilisation par défaut.
 -   Collecte de métadonnées en totalité ou en partie en désactivant le “Mode de vérification” dans les paramètres de votre application.
+
+Grâce au menu des paramètres de l'application, vous pouvez choisir de:
+- Partagez des analyses d'utilisation à l'aide de notre système de préservation de la confidentialité [Divvi Up](/security-and-privacy#analytics).
+
 
 La version FOSS de Tella disponible sur [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/) ne dispose d'aucun outil de suivi pour les rapports de bogues ou les analyses d'utilisation.
 
@@ -157,8 +163,7 @@ Vous pouvez également nous envoyer un e-mail à [contact@horizontal.org](mailto
 
 ## 8. Vos droits à la vie privée en Californie {#8-your-california-privacy-rights}
 
-Si vous résidez en Californie, la loi californienne peut vous accorder des droits supplémentaires concernant notre utilisation de vos informations personnelles. Pour en savoir plus sur vos droits en matière de confidentialité en Californie, visitez
-[https://www.oag.ca.gov/privacy/ccpa](https://www.oag.ca.gov/privacy/ccpa).
+Si vous résidez en Californie, la loi californienne peut vous accorder des droits supplémentaires concernant notre utilisation de vos informations personnelles. Pour en savoir plus sur vos droits en matière de confidentialité en Californie, consultez le site [https://www.oag.ca.gov/privacy/ccpa](https://www.oag.ca.gov/privacy/ccpa).
 
 ## 9. Sécurité des données {#9-data-security}
 

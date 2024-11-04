@@ -4,32 +4,36 @@ title: Empezar
 description: Guía de inicio rápido para usuaria(o)s de Tella en iOS y Android
 slug: /get-started
 ---
+
+import Link from '@docusaurus/Link'
+
+
 # Empezar con Tella
 
 
 <div class="doc-card-list">
     <div className="doc-card">
-      <a href="get-started-android">
+      <Link to="/get-started-android">
         <div className="doc-card-content">
-          <b>Guía de Android</b>
-          <p>Guía de inicio rápido para usuaria(o)s de Tella en Android.</p>
+          <b>Guía para Android</b>
+          <p>Guía de inicio rápido para usuarios de Tella en Android.</p>
         </div>
-      </a>
+      </Link>
     </div>
     <div className="doc-card">
-      <a href="get-started-ios">
+      <Link to="/get-started-ios">
         <div className="doc-card-content">
-          <b>Guía de iOS</b>
-          <p>Guía de inicio rápido para usuaria(o)s de Tella en iPhone.</p>
+          <b>Guía para iOS</b>
+          <p>Guía de inicio rápido para usuarios de Tella en iPhone.</p>
         </div>
-      </a>
+      </Link>
     </div>
     <div className="doc-card">
-      <a href="video-tutorials">
+      <Link to="/video-tutorials">
         <div className="doc-card-content">
-          <b>Videos Tutoriales</b>
-          <p>Instrucciones en video de cómo empezar.</p>
+          <b>Videotutoriales</b>
+          <p>Guía en video sobre cómo empezar.</p>
         </div>
-      </a>
+      </Link>
     </div>
 </div>

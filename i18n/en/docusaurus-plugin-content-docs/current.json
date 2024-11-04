@@ -1,22 +1,22 @@
 {
   "version.label": {
-    "message": "Suivant",
+    "message": "Next",
     "description": "The label for version current"
   },
   "sidebar.generalSidebar.category.Discover Tella": {
-    "message": "Découvrir Tella",
+    "message": "Discover Tella",
     "description": "The label for category Discover Tella in sidebar generalSidebar"
   },
   "sidebar.generalSidebar.category.Get Started": {
-    "message": "Pour commencer",
+    "message": "Get Started",
     "description": "The label for category Get Started in sidebar generalSidebar"
   },
   "sidebar.generalSidebar.category.For organizations": {
-    "message": "Pour les organisations",
+    "message": "For organizations",
     "description": "The label for category For organizations in sidebar generalSidebar"
   },
   "sidebar.generalSidebar.category.Community": {
-    "message": "Communauté",
+    "message": "Community",
     "description": "The label for category Community in sidebar generalSidebar"
   }
 }
