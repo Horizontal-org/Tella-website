@@ -8,11 +8,11 @@ slug: /get-started-ios
 # Empezando con Tella en iOS
 
 ## Descarga e instala Tella {#download-and-install-tella}
-Sigue [este enlace](https://apps.apple.com/us/app/tella-document-protect/id1598152580) para encontrar Tella en la App Store o abre la App Store y busca "Tella documentar y proteger".
+Sigue [este enlace](https://apps.apple.com/us/app/tella-document-protect/id1598152580) para encontrar Tella en la App Store o abre la App Store y busca "Tella document and protect".
 
 
 <div class="gifs">
-    <img src={require("@site/static/img/getting-started/ios/find-and-download.gif").default} alt="gif that shows how to download Tella from the App Store" title="find and download gif" />
+    <img src={require("@site/static/img/getting-started/ios/find-and-download.gif").default} alt="gif que muestra como descargar Tella de la App Store" title="find and download gif"/>
 </div>
 
 
@@ -38,7 +38,7 @@ La primera vez que uses cada función, se te pedirá conceder algunos permisos a
 
 
 <div class="gifs">
-    <img src={require("@site/static/img/getting-started/ios/granting-permissions.gif").default} alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
+    <img src={require("@site/static/img/getting-started/ios/granting-permissions.gif").default} alt="gif that shows how to grant Tella permissions" title="concediendo permisos"/>
 </div>
 
 
@@ -46,7 +46,7 @@ La primera vez que uses cada función, se te pedirá conceder algunos permisos a
 Si no concedes estos permisos, puedes hacerlo más tarde yendo a la configuración de tu teléfono y navegando hasta **Configuración**>**Tella**>**Permitir a Tella acceso a la Cámara, micrófono y archivos.**
 
 <div class="gifs">
-    <img src={require("@site/static/img/getting-started/ios/taking-picture-permissions.gif").default} alt="gif that shows how to take a picture in Tella the first time (grant permission)" title="Tella will ask you to grant permissions the first time you open the camera" />
+    <img src={require("@site/static/img/getting-started/ios/taking-picture-permissions.gif").default} alt="gif that shows how to take a picture in Tella the first time (grant permission)" title="Tella te solicitará permisos la primera vez que abras la cámara"/>
 </div>
 
 
@@ -58,18 +58,18 @@ Después de conceder los permisos, estás lista(o) para empezar a recopilar docu
 
 
 <div class="gifs">
-    <img src={require("@site/static/img/getting-started/ios/picture.gif").default} alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
-    <img src={require("@site/static/img/getting-started/ios/recording.gif").default} alt="gif that shows how to record audio in Tella" title="record audio in Tella" />
+    <img src={require("@site/static/img/getting-started/ios/picture.gif").default} alt="gif that shows how to take a picture in Tella" title="tomar una foto en Tella"/>
+    <img src={require("@site/static/img/getting-started/ios/recording.gif").default} alt="gif that shows how to record audio in Tella" title="grabar audio en Tella"/>
 </div> 
 
 
 
 
 
-**Importa tus archivos a Tella.** Ve a cualquier carpeta dentro de Tella y toca el Botón **+** > **Importar desde el dispositivo**. Elige el archivo que te gustaría mantener dentro de Tella y una copia del archivo será almacenada sin cifrar y oculta en Tella. Se te pedirá elegir si quieres eliminar o mantener el archivo original de tu dispositivo. Tella estará desbloqueado mientras eliges tus archivos por un máximo de tres (3) minutos.
+**Importa tus archivos a Tella.** Ve a cualquier carpeta dentro de Tella y toca el Botón **+** > **Importar desde el dispositivo**. Elige el archivo que te gustaría mantener dentro de Tella y una copia del archivo se almacenará cifrada y oculta en Tella. Se te pedirá elegir si quieres eliminar o mantener el archivo original de tu dispositivo. Tella estará desbloqueada mientras eliges tus archivos por un máximo de tres (3) minutos.
 
 <div class="gifs">
-    <img src={require("@site/static/img/getting-started/ios/import-files.gif").default} alt="gif that shows how to import files in Tella" title="import files in Tella" />
+    <img src={require("@site/static/img/getting-started/ios/import-files.gif").default} alt="gif that shows how to import files in Tella" title="importar archivos en Tella"/>
 </div> 
 
 
@@ -77,7 +77,7 @@ Después de conceder los permisos, estás lista(o) para empezar a recopilar docu
 
 
 <div class="gifs">
-    <img src={require("@site/static/img/getting-started/ios/folders.gif").default} alt="gif that shows how to organize evidence in folders in Tella" title="folders in Tella" />
+    <img src={require("@site/static/img/getting-started/ios/folders.gif").default} alt="gif that shows how to organize evidence in folders in Tella" title="carpetas en Tella"/>
 </div> 
 
 
@@ -85,7 +85,7 @@ Después de conceder los permisos, estás lista(o) para empezar a recopilar docu
 
 
 <div class="gifs">
-    <img src={require("@site/static/img/getting-started/ios/rename.gif").default} alt="gif that shows how to rename files in Tella" title="rename files in Tella" />
+    <img src={require("@site/static/img/getting-started/ios/rename.gif").default} alt="gif that shows how to rename files in Tella" title="renombrar archivos en Tella"/>
 </div> 
 
 
@@ -95,7 +95,7 @@ Para compartir información utilizando Tella puedes usar el botón **Compartir**
 Ten en cuenta que Tella compartirá los archivos sin cifrar, por lo que asegúrate de utilizar mensajes temporales (por ejemplo en WhatsApp o Signal) o de eliminar los mensajes después que la otra persona los reciba.
 
 <div class="gifs">
-    <img src={require("@site/static/img/getting-started/ios/share.gif").default} alt="gif that shows how share information in Tella" title="share information in Tella" />
+    <img src={require("@site/static/img/getting-started/ios/share.gif").default} alt="gif that shows how share information in Tella" title="compartir información en Tella"/>
 </div> 
 
 
@@ -108,7 +108,7 @@ Ten en cuenta que Tella compartirá los archivos sin cifrar, por lo que asegúra
 ### Conéctate a un servidor {#connect-to-a-server}
 Tella se puede conectar a una variedad de servicios back-end. Esto es utilizado por organizaciones para permiterle a sus miembros o socia(o)s enviar datos y archivos a una ubicación remota segura. Si estás considerando conectarte a un servidor y tienes dudas sobre qué servidor elegir o cómo conectarlo, por favor mira [nuestra documentación para organizaciones](/for-organizations) o [contáctanos](/contact-us), ¡estamos aquí para ayudar!
 
-### Tella Web {#tella-web}
+#### Tella Web {#tella-web}
 Tella Web es una herramienta open-source que permite a individuos y organizaciones centralizar y gestionar informes enviados por la(o)s usuarios de Tella, incluyendo fotos, videos, y archivos de audio.
 
 Lee más sobre Tella Web [aquí](/tella-web) o mira un [video tutorial](/video-tutorials#tella-web).
@@ -116,19 +116,27 @@ Lee más sobre Tella Web [aquí](/tella-web) o mira un [video tutorial](/video-t
 #### Uwazi {#uwazi}
 [Uwazi](https://uwazi.io/) es una aplicación de código abierto hecha por HURIDOCS con funciones poderosas para recopilar, organizar y visualizar datos de derechos humanos.
 
-Escribimos documentación sobre cómo conectar a un servidor de Open Data Kit y recomendamos que leas [esta página](/uwazi) para empezar.
+Escribimos documentación sobre cómo conectar a un servidor Uwazi y te recomendamos que leas [esta página](/uwazi) para empezar.
+
+#### Nextcloud y Google Drive {#nextcloud-and-google-drive}
+Los usuarios también se pueden conectar a sus cuentas organizacionales o personales de Google o Nextcloud para enviar informes (audio, fotos, videos y texto) directamente desde Tella. No necesitan las apps de Google Drive o Nextcloud en sus teléfonos y no necesitarán utilizar apps de terceros.
+
+Leer más:
+- [Conexión de Google Drive](/g-drive).
+- [Conexión de Nextcloud](/nextcloud).
+
 
 
 
 ### Lee más sobre Tella {#read-more-about-tella}
-- [Funciones](/features): Aprende más sobre cómo Tella puede mantenerte segur(a)o y las amenazas de las que Tella _no_ te protege.
-- [Conexiones](/for-organizations):  Aprende más sobre cómo puedes conectarte a un servidor para recopilar datos o respaldar archivos.
-- [Seguridad y privacidad](/security-and-privacy): Solo recopilamos la cantidad mínima de información necesaria y nunca recopilamos información alguna de identificación personal. Lee la política de privacidad completa [aquí](/privacy).
+- [Funciones](/features): Aprende más sobre cómo Tella puede mantenerte segura(o) y las amenazas de las que Tella _no_ te protege.
+- [Conexiones](/for-organizations): Aprende sobre cómo puedes conectarte a un servidor para recopilar datos o respaldar archivos.
+- [Seguridad y privacidad](/security-and-privacy): Solo recopilamos la cantidad mínima de datos necesarios y nunca recopilamos ninguna información de identificación personal. Lee la política de privacidad completa [aquí](/privacy).
 
 
 
 ### Contáctanos si necesitas ayuda {#contact-us-if-you-need-help}
-Si necesitas ayuda para entender los detalles técnicos y consideraciones de seguridad de Tella para decidir si es adecuada para ti y tu equipo, estamos aquí para ayudar. Solo [comunícate con nosotra(o)s](/contact-us) para que podamos responder tus preguntas o planificar una capacitación o una sesión de Preguntas y respuestas en vivo para tu equipo.
+Si necesitas ayuda para entender los detalles técnicos y consideraciones de seguridad de Tella para decidir si es adecuada para ti y tu equipo, estamos aquí para ayudar. Solo [comunícate con nosotra(o)s](/contact/us) para que podamos responder tus preguntas o planificar una capacitación o una sesión de Preguntas y respuestas en vivo para tu equipo.
 
 
 

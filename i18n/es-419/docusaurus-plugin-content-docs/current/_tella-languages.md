@@ -2,14 +2,16 @@
 2. Bielorruso
 3. Birmano
 4. Inglés
-5. Indonesio
-6. Jingpo
-7. Canarés
-8. Karen Sgaw
-9. Kurdo
-10. Malabar
-11. Persa
-12. Portugués
-13. Ruso
-14. Español (América Latina)
-15. Tamil
+5. Francés
+6. Indonesio
+7. Jingpo
+8. Canarés
+9. Karen Sgaw
+10. Kurdo
+11. Malabar
+12. Persa
+13. Portugués
+14. Ruso
+15. Español (América Latina)
+16. Tamil
+17. Vietnamita
