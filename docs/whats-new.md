@@ -30,6 +30,21 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Solved some issues related to the opt-in privacy-preserving analytics to ensure that measuring time spent in Tella works properly and that some metric applies to all Connections.
 
 
+### iOS: Tella 1.12.0 (83) - Released on November 5, 2024 {#ios-tella-1120-83---released-on-november-5-2024}
+- Added support for the Dropbox connection that allows Tella users to upload the data they collect directly to their Dropbox account. [Read here more about the connection](/dropbox).
+- Added the possibility to trim audios directly inside Tella's encrypted container.
+- Bug-fixing and small improvements:
+    - TBD
+
+
+### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
+
+A version of Tella included for the first time on the F-droid store. This a 100% Free and Open-Source Software (FOSS) version of Tella Android. We removed all trackers, changed map and location provider and also changed the Camera library to CameraX, removed crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We removed completely all Google Play Services dependencies.
+
+
+
+## Previous versions {#previous-versions}
+
 ### iOS: Tella 1.11.0 (81) - Released on October 21, 2024 {#ios-tella-1110-81---released-on-october-21-2024}
 - Implemented the Nextcloud server connection that allows Tella users to upload the data they collect directly to either Nextcloud. [Read here more about the connection](/nextcloud).
 - Bug-fixing and small improvements:
@@ -41,14 +56,6 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Fix edit connection title.
     - Delete unused WebView class that was flagged in the security audit.
 
-
-### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
-
-A version of Tella included for the first time on the F-droid store. This a 100% Free and Open-Source Software (FOSS) version of Tella Android. We removed all trackers, changed map and location provider and also changed the Camera library to CameraX, removed crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We removed completely all Google Play Services dependencies.
-
-
-
-## Previous versions {#previous-versions}
 
 ### Android: Tella 2.12.0 (188) - Released on October 21, 2024 {#android-tella-2120-188---released-on-october-21-2024}
 - Added support for the Google Drive Connection that allows Tella users to upload the data they collect directly to either a personal Google Drive folder or to any organizational Shared Drives they are connected to. [Read more about the Google Drive Connection here](/g-drive).
