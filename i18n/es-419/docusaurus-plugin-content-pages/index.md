@@ -7,11 +7,14 @@ import ThemedImage from '@theme/ThemedImage';
         <p>En entornos desafiantes, con conectividad a internet limitada o nula, o frente a contextos represivos, Tella facilita y hace más seguros los procesos de documentación de violaciones a los derechos humanos y la recopilación de datos.</p>
         <div className="download">
             <a href="https://play.google.com/store/apps/details?id=org.hzontal.tella" target="_blank">
-                <img className="badge" src="img/google-play-badge.png" alt="Get Tella on Google Play"/></a>
+                <img className="badge" src="img/google-play-badge.png" alt="Get Tella on Google Play"/>
+            </a>
             <a href="https://apps.apple.com/us/app/tella-document-protect/id1598152580" target="_blank">
-                <img className="badge" src="img/app-store-badge.svg" id="apple-store-badge" alt="Get Tella on App Store"/></a>
+                <img className="badge" src="img/app-store-badge.svg" id="apple-store-badge" alt="Get Tella on App Store"/>
+            </a>
             <a href="https://f-droid.org/packages/org.hzontal.tellaFOSS">
-                <img className="badge" src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get Tella on F-Droid"/></a>
+                <img className="badge" src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get Tella on F-Droid" />
+            </a>
         </div>
     </div>
     <div className="intro-column" id="intro-column2">
@@ -27,18 +30,19 @@ import ThemedImage from '@theme/ThemedImage';
 
 <hr></hr>
 
+
 <div className="section">
     <h2>¿Por qué Tella?</h2>
     <div className="columns">
         <div className="column" id="section-column1">
-            <img className="home-illustrations" src="img/why-tella.png" alt="Ilustración de ¿Por qué Tella?"/>
+            <img className="home-illustrations" src="img/why-tella.png" alt="Why Tella illustration" />
         </div>
         <div className="column" id="section-column2">
             <p>Si eres activista, periodista, trabajas defendiendo los derechos humanos, o eres alguien que documenta injusticias, puedes usar Tella para:</p>
             <ul>
                 <li><span className="emphasis">Protegerte</span> de la represión física y digital mientras recopilas y almacenas información sensible.</li>
-                <li><span className="emphasis">Proteger los datos que recopilas</span> de la censura, manipulación, interceptación y destrucción.</li>
-                <li><span className="emphasis">Producir fácilmente documentación de alta calidad</span> que puede ser utilizada para investigación, defensa o justicia transicional.</li>
+                <li><span classnName="emphasis">Proteger los datos que recopilas</span> de la censura, manipulación, interceptación y destrucción.</li>
+                <li><span classname="emphasis">Producir fácilmente documentación de alta calidad</span> que puede ser utilizada para investigación, defensa o justicia transicional.</li>
             </ul>
         </div>
     </div>
@@ -56,10 +60,10 @@ import ThemedImage from '@theme/ThemedImage';
             </ul>
         </div>
         <div className="column" id="section-column2">
-            <img className="home-illustrations" src="img/vault.png" alt="Vault illustration"/>
+            <img className="home-illustrations" src="img/vault.png" alt="Vault illustration" />
         </div>
     </div>
-    <a type="button" href="features" className="clean-btn center button button--primary"> Conoce las características de Tella </a>  
+    <a type="button" href="features" className="clean-btn center button button--primary">Conoce las características de Tella</a>  
 </div>
 
 <div className="section">
@@ -71,12 +75,12 @@ import ThemedImage from '@theme/ThemedImage';
         <div className="column" id="section-column2">
             <ul>
                 <li><span className="emphasis">Cámara y grabadora dentro de Tella:</span> toma fotos, graba videos y audio directamente en Tella para que tus archivos se encripten y oculten inmediatamente en la app.</li>
-                <li><span className="emphasis">Tella se integra</span> con <a href="for-organizations#uwazi">Uwazi</a>, <a href="for-organizations#open-data-kit-odk">Kobotoolbox</a> y <a href="for-organizations#tella-web">Tella Web</a>. Elige la plataforma que mejor se adapte a tus necesidades y recopila datos directamente en Tella.</li>
+                <li><span className="emphasis">Tella se integra</span> con <a href="uwazi">Uwazi</a>, <a href="odk">Open Data Kit</a>, <a href="tella-web">Tella Web</a>, <a href="g-drive">Google Drive</a> y <a href="nextcloud">Nextcloud</a>. Elige la plataforma que mejor se adapte a tus necesidades y recopila datos directamente en Tella.</li>
                 <li><span className="emphasis">Modo sin conexión:</span> en áreas con conectividad a internet limitada o nula, tu puedes guardar tus datos y enviarlos cuando tengas una conexión a internet confiable.</li>
             </ul>
         </div>
     </div> 
-    <a type="button" href="user-stories" className="clean-btn center button button--primary"> Lee cómo las organizaciones están usando Tella </a>    
+    <a type="button" href="user-stories" className="clean-btn center button button--primary">Lee cómo las organizaciones están usando Tella</a>    
 </div>
 
 <div className="section">
@@ -85,12 +89,12 @@ import ThemedImage from '@theme/ThemedImage';
         <div className="column" id="section-column1">
             <ul>
                 <li><span className="emphasis">Gratis para siempre:</span> Tella está diseñada para quienes su seguridad está en riesgo. Es gratuita para descargar y usar, y seguirá siendo gratuita para siempre.</li>
-                <li><span className="emphasis">Elige tu idioma:</span> Tella está actualmente <a href="faq#what-languages-is-tella-available-in"> disponible </a> en árabe, bielorruso, birmano, inglés, indonesio, jingpho, kannada, karen sgaw, kurdo, malayalam, persa, portugués, ruso, español (Latinoamérica) y tamil.</li>
+                <li><span className="emphasis">Elige tu idioma:</span> Tella está actualmente <a href="faq#what-languages-is-tella-available-in"> disponible </a> en 17 idiomas.</li>
                 <li><span className="emphasis">Confía en el código:</span> El código de Tella es de código abierto <a href="open-source">disponible públicamente </a> para que investigadora(e)s, analistas de seguridad y desarrolladora(e)s puedan auditarlo y reutilizarlo libremente.</li>
             </ul>
         </div>
         <div className="column" id="section-column2">
-            <img className="home-illustrations" src="img/open-source.png" alt="Open source  illustration"/>
+            <img className="home-illustrations" src="img/open-source.png" alt="Open source  illustration" />
         </div>
     </div>
 </div>
