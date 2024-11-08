@@ -20,9 +20,6 @@ Similarly to other server connections (like [Tella Web](/tella-web), [Google Dri
 
 Submissions to Dropbox take the form of "reports" which include a title, a text description, and files like photos, videos and audio recordings.
 
-:::info
-The Dropbox connection is [only available on Tella Android](/features). We are currently working on adding it to Tella iOS as well.
-:::
 
 
 ## When to Use Dropbox {#when-to-use-dropbox}

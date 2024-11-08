@@ -85,18 +85,10 @@ Below you will find everything you need to understand how Tella works, its secur
 
 <div className="doc-card-list">
     <div className="doc-card">
-      <Link to="/for-organizations">
-        <div className="doc-card-content">
-          <b>Overview</b>
-          <p>Learn how organizations can use Tella for research, advocacy, or accountability processes.</p>
-        </div>
-      </Link>
-    </div>
-    <div className="doc-card">
       <Link to="/tella-web">
         <div className="doc-card-content">
           <b>Tella Web</b>
-          <p>The Tella Web connection empowers users to conveniently upload photos, videos, audio recordings, and text to their organization's server.</p>
+          <p>The Tella Web connection empowers users to upload photos, videos, audio recordings, and text to their organization's server.</p>
         </div>
       </Link>
     </div>
@@ -120,7 +112,7 @@ Below you will find everything you need to understand how Tella works, its secur
       <Link to="/g-drive">
         <div className="doc-card-content">
           <b>Google Drive Connection</b>
-          <p>Tella allows users to upload photos, videos, pdfs and audio recordings to their personal or organizational Google Drive.</p>
+          <p>Tella allows users to upload photos, videos, audio recordings and text to their personal or organizational Google Drive.</p>
         </div>
       </Link>
     </div>
@@ -128,10 +120,19 @@ Below you will find everything you need to understand how Tella works, its secur
       <Link to="/nextcloud">
         <div className="doc-card-content">
           <b>Nextcloud Connection</b>
-          <p>Tella allows users to conveniently upload photos, videos, pdfs and audio recordings to Nextcloud.</p>
+          <p>Tella allows users to conveniently upload photos, videos, audio recordings and text to Nextcloud.</p>
         </div>
       </Link>
     </div>
+    <div className="doc-card">
+      <Link to="/dropbox">
+        <div className="doc-card-content">
+          <b>Dropbox Connection</b>
+          <p>Tella allows users to conveniently upload photos, videos, audio recordings and text to Dropbox.</p>
+        </div>
+      </Link>
+    </div>
+
 </div>
 
 
