@@ -30,11 +30,16 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Solved some issues related to the opt-in privacy-preserving analytics to ensure that measuring time spent in Tella works properly and that some metric applies to all Connections.
 
 
-### iOS: Tella 1.12.0 (83) - Released on November 5, 2024 {#ios-tella-1120-83---released-on-november-5-2024}
+### iOS: Tella 1.12.0 (84) - Released on November 5, 2024 {#ios-tella-1120-84---released-on-november-5-2024}
 - Added support for the Dropbox connection that allows Tella users to upload the data they collect directly to their Dropbox account. [Read here more about the connection](/dropbox).
-- Added the possibility to trim audios directly inside Tella's encrypted container.
+- Added the possibility to trim audios directly inside Tella's encrypted container. [Read more about editing media in Tella](/features#edit-media)
 - Bug-fixing and small improvements:
-    - TBD
+    - Fixed bug: Renaming audio while recording takes the name or last edited audio.
+    - Added link to the documentation on the "Connections" screen, for instructions on how to choose a server.
+    - UI fixes for all connections.
+    - Updated the About and Help page linking to FAQs and to "Get started guide for iOS".
+    - Fix navigation issue with Back button on "Connect to server" screens.
+    - Adapted quick delete options to also delete connections data for new connections.
 
 
 ### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}

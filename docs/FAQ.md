@@ -113,9 +113,7 @@ External storage locations (like SD cards) are not currently used by Tella.
 
 ### Can i backup the data I store in Tella? {#can-i-backup-the-data-i-store in-tella?}
 
-Yes, you can. You can connect to different clouds directly from Tella and choose the files you want to send to the cloud. You can read more about the [servers available here](/features#backup-files).
-
-You can also select files from your vault and export those your phone.
+Yes, you can. You can connect to different clouds directly from Tella and choose the files you want to send to the cloud. You can read more about the [servers available here](/features#backup-files). You can also select files from your vault and export those your phone.
 
 All exports outside of Tella's encrypted vault (to a cloud server or to your phone) will be unencrypted.
 
@@ -168,7 +166,7 @@ Please go to the [For Organizations](/for-organizations) section to read more ab
 
 ### Can you help me deploy Tella? {#can-you-help-me-deploy-tella}
 
-Yes, we'd love to! Tell us about what you want to use Tella for and in what context you want to deploy it [contact us](/contact-us) and we'll get in touch. 
+Yes, we'd love to! Tell us about what you want to use Tella for and in what context you want to deploy it [contact us](/contact-us) and we'll get in touch.
 
 ### How is Tella different from other documentation apps? {#how-is-tella-different-from-other-documentation-apps}
 

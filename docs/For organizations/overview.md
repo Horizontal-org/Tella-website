@@ -25,7 +25,7 @@ Currently, Tella can be connected to the following types of servers:
 These are called [Connections](/features#connecting-to-servers) in Tella.
 
 :::danger
-For the moment, the submission to any type of server it is **not** encrypted. People who have access to the server itself are able to see the files, this decision was made as a way to facilitate data collection.
+For the moment, the submission to any type of server it is **not** encrypted. People who have access to the server itself are able to see the files.
 :::
 
 

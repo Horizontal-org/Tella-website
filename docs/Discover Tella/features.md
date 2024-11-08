@@ -50,7 +50,7 @@ If [verification mode](/features#verification-mode) is turned on, background enc
 ## Backup files to a cloud {#backup-files}
 We are in the process of adding options for individuals and organizations to backup their data to different clouds. Backups, for the moment, need to be made manually, by creating reports (using, for example, the date of "today" as the report title) and submitting them to the connected server. Files will be available on the connected server inside a folder with the report title.
 
-For the moment we the following connections. Follow each of the links to find details and step-by-step guides on how to connect and use each of them
+For the moment we the following connections. Follow each of the links to find details and step-by-step guides on how to connect and use each of them:
 * [Open Data Kit (ODK)](/open-data-kit-odk)
 * [Uwazi](/uwazi)
 * [Tella Web](/tella-web)
@@ -63,7 +63,7 @@ On this table we explain what server types are available on the Tella apps:
 
 
 :::danger
-For the moment, the submission to any type of server it is **not** encrypted. People who have access to the server itself are able to see the files, this decision was made as a way to facilitate data collection.
+For the moment, the submission to any type of server it is **not** encrypted. People who have access to the server itself are able to see the files.
 :::
 
 
