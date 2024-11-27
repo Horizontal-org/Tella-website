@@ -18,7 +18,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ### Android: Tella 2.13.1 (191) - Released on November 6, 2024 {#android-tella-2131-191---released-on-november-6-2024}
 - Hotfix for the Dropbox connection. Previous build didn't allow connections to Dropbox.
 
-### iOS: Tella 1.12.0 (84) - Released on November 8, 2024 {#ios-tella-1120-84---released-on-november-8-2024}
+### iOS: Tella 1.12.0 (84) - Released on November 27, 2024 {#ios-tella-1120-84---released-on-november-27-2024}
 - Added support for the Dropbox connection that allows Tella users to upload the data they collect directly to their Dropbox account. [Read here more about the connection](/dropbox).
 - Added the possibility to trim audios directly inside Tella's encrypted container. [Read more about editing media in Tella](/features#edit-media)
 - Bug-fixing and small improvements:
