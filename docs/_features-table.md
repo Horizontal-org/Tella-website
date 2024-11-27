@@ -3,7 +3,7 @@
 |------|------|-----|-----|
 |[App Lock](/features#app-lock)| Password, PIN, Pattern|Password, PIN | Password, PIN, Pattern |
 |[Background encryption](/features#background-encryption) | ✔️ | ✔️| Not yet |
-|[Backup files to cloud](/features#backup-files) | Not yet | - [Google Drive](/g-drive) <br />- [Nextcloud](/nextcloud)| Not yet |
+|[Backup files to cloud](/features#backup-files) | - [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) | - [Google Drive](/g-drive) <br />- [Nextcloud](/nextcloud)<br />- [Dropbox](/dropbox)| Not yet |
 |[Lock timeout configuration](/features#lock-timeout-configuration)| ✔️| ✔️| ✔️ |
 |[Camera silent mode](/features#camera-silent-mode)| ✔️| Not yet| ✔️ |
 | [Screen Security](/features#screen-security)| ✔️| ✔️| ✔️ |
