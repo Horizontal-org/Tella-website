@@ -110,6 +110,13 @@ There is no specific storage limit for Tella, limits will depend on the system s
 
 External storage locations (like SD cards) are not currently used by Tella.
 
+
+### Can i backup the data I store in Tella? {#can-i-backup-the-data-i-store in-tella?}
+
+Yes, you can. You can connect to different clouds directly from Tella and choose the files you want to send to the cloud. You can read more about the [servers available here](/features#backup-files). You can also select files from your vault and export those your phone.
+
+All exports outside of Tella's encrypted vault (to a cloud server or to your phone) will be unencrypted.
+
 ## Security & Privacy {#security--privacy}
 
 ### I can't remember my lock. How can I get into Tella? {#i-cant-remember-my-lock-how-can-i-get-into-tella}

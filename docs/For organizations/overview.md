@@ -15,14 +15,18 @@ Previous Tella deployments, where on-the-ground users collected data and sent it
 
 Currently, Tella can be connected to the following types of servers:
 
-* [Open Data Kit (ODK)](#open-data-kit-odk)
-* [Uwazi](#uwazi)
-* [Tella Web](#tella-web)
-* [Google Drive](#g-drive)
-* [Nextcloud](#nextcloud)
-* [Dropbox](#dropbox)
+* [Open Data Kit (ODK)](/open-data-kit-odk)
+* [Uwazi](/uwazi)
+* [Tella Web](/tella-web)
+* [Google Drive](/g-drive)
+* [Nextcloud](/nextcloud)
+* [Dropbox](/dropbox)
 
 These are called [Connections](/features#connecting-to-servers) in Tella.
+
+:::danger
+For the moment, the submission to any type of server it is **not** encrypted. People who have access to the server itself are able to see the files.
+:::
 
 
 ## Selecting the right type of server {#selecting-the-right-type-of-server}
@@ -134,8 +138,6 @@ As for all Connections in Tella, users can use most of the Dropbox connection of
 Learn more about [the Dropbox connection here](/dropbox),
 :::
 
-:::info
-The Dropbox connection is [only available on Android](/features). We are currently working for adding it to Tella iOS as well.
-:::
+
 
 
