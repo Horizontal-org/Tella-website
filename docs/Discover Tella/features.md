@@ -51,7 +51,7 @@ If [verification mode](/features#verification-mode) is turned on, background enc
 We are in the process of adding options for individuals and organizations to backup their data to different clouds. Backups, for the moment, need to be made manually, by creating reports (using, for example, the date of "today" as the report title) and submitting them to the connected server. Files will be available on the connected server inside a folder with the report title.
 
 For the moment we the following connections. Follow each of the links to find details and step-by-step guides on how to connect and use each of them:
-* [Open Data Kit (ODK)](/open-data-kit-odk)
+* [Open Data Kit (ODK)](/odk)
 * [Uwazi](/uwazi)
 * [Tella Web](/tella-web)
 * [Google Drive](/g-drive)
@@ -134,7 +134,7 @@ We are in the process of adding the ability to edit media files directly within 
 | Image          | Rotate      | ✔️                | ✔️            | Not yet        |
 | Image          | Flip        | ✔️                | Not yet       | Not yet        |
 | Image          | Auto-zoom        | ✔️                | Not yet       | Not yet        |
-| Video          | Trim        | Not yet       | Soon          | Not yet        |
+| Video          | Trim        | Not yet       | ✔️          | Not yet        |
 | Video          | Rotate      | Not yet       | Soon          | Not yet        |
 | Audio          | Trim        | Not yet           |  ✔️          | Not yet        |
 
@@ -147,10 +147,10 @@ Users can edit a picture by going to **More** > **Edit** from the **Images** fol
 When edits are done, users can press the orange check on the top right of the edit screen. The edited file will be saved as a copy of the original file in the same folder.
 
 
-Users can edit an audio by going to **More** > **Edit** from the **Audio** folder or by taping the **Edit** button on the top right while listening to an audio on Tella. 
+Users can edit an audio or videos by going to **More** > **Edit** from the **Audio** or **Video** folders or by taping the **Edit** button on the top right while listening to an audio or watching a video on Tella. 
 - **Trim**: Move the vertical orange lines to select the new start and end point of your audio. Use the Play button on the bottom to listen to the audio or the Cancel button to start over. 
 
-When edit is done, use the orange scissors ✂️ icon on the top right to save the trimmed audio. The edited file will be saved as a copy of the original file in the same folder.
+When edit is done, use the orange scissors ✂️ icon on the top right to save the trimmed audio or video. The edited file will be saved as a copy of the original file in the same folder.
 
 
 ## Encryption {#encryption}

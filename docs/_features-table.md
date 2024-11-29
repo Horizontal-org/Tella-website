@@ -3,12 +3,12 @@
 |------|------|-----|-----|
 |[App Lock](/features#app-lock)| Password, PIN, Pattern|Password, PIN | Password, PIN, Pattern |
 |[Background encryption](/features#background-encryption) | ✔️ | ✔️| Not yet |
-|[Backup files to cloud](/features#backup-files) | Not yet | - [Google Drive](/g-drive) <br />- [Nextcloud](/nextcloud)| Not yet |
+|[Backup files to cloud](/features#backup-files) | - [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) | - [Google Drive](/g-drive) <br />- [Nextcloud](/nextcloud)<br />- [Dropbox](/dropbox)| Not yet |
 |[Lock timeout configuration](/features#lock-timeout-configuration)| ✔️| ✔️| ✔️ |
 |[Camera silent mode](/features#camera-silent-mode)| ✔️| Not yet| ✔️ |
 | [Screen Security](/features#screen-security)| ✔️| ✔️| ✔️ |
 | [Restrict unlocking attempts](features#restrict-unlocking-attempts)| ✔️| ✔️| Not yet |
-| [Edit Media](/features#edit-media)| Crop, Rotate Flip and Zoom Photos| Crop and Rotate Photos| Not yet |
+| [Edit Media](/features#edit-media)| Crop, Rotate, Flip and Zoom Photos| Crop and Rotate Photos, Trim Audios or Videos| Not yet |
 | [Encryption](/features#encryption)| ✔️| ✔️| ✔️ |
 | [Encrypted file management](/features#file-management)| ✔️ | ✔️ | ✔️ |
 | [Feedback](/features#feedback) | ✔️ | ✔️ | Not yet |

@@ -15,7 +15,7 @@ Previous Tella deployments, where on-the-ground users collected data and sent it
 
 Currently, Tella can be connected to the following types of servers:
 
-* [Open Data Kit (ODK)](/open-data-kit-odk)
+* [Open Data Kit (ODK)](/odk)
 * [Uwazi](/uwazi)
 * [Tella Web](/tella-web)
 * [Google Drive](/g-drive)
