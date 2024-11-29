@@ -134,7 +134,7 @@ We are in the process of adding the ability to edit media files directly within 
 | Image          | Rotate      | ✔️                | ✔️            | Not yet        |
 | Image          | Flip        | ✔️                | Not yet       | Not yet        |
 | Image          | Auto-zoom        | ✔️                | Not yet       | Not yet        |
-| Video          | Trim        | Not yet       | Soon          | Not yet        |
+| Video          | Trim        | Not yet       | ✔️          | Not yet        |
 | Video          | Rotate      | Not yet       | Soon          | Not yet        |
 | Audio          | Trim        | Not yet           |  ✔️          | Not yet        |
 
@@ -147,10 +147,10 @@ Users can edit a picture by going to **More** > **Edit** from the **Images** fol
 When edits are done, users can press the orange check on the top right of the edit screen. The edited file will be saved as a copy of the original file in the same folder.
 
 
-Users can edit an audio by going to **More** > **Edit** from the **Audio** folder or by taping the **Edit** button on the top right while listening to an audio on Tella. 
+Users can edit an audio or videos by going to **More** > **Edit** from the **Audio** or **Video** folders or by taping the **Edit** button on the top right while listening to an audio or watching a video on Tella. 
 - **Trim**: Move the vertical orange lines to select the new start and end point of your audio. Use the Play button on the bottom to listen to the audio or the Cancel button to start over. 
 
-When edit is done, use the orange scissors ✂️ icon on the top right to save the trimmed audio. The edited file will be saved as a copy of the original file in the same folder.
+When edit is done, use the orange scissors ✂️ icon on the top right to save the trimmed audio or video. The edited file will be saved as a copy of the original file in the same folder.
 
 
 ## Encryption {#encryption}

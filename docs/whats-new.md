@@ -18,6 +18,21 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ### Android: Tella 2.13.1 (191) - Released on November 6, 2024 {#android-tella-2131-191---released-on-november-6-2024}
 - Hotfix for the Dropbox connection. Previous build didn't allow connections to Dropbox.
 
+### iOS: Tella 1.13.0 (87) - Released on November 29, 2024 {#ios-tella-1130-87---released-on-november-29-2024}
+- Added the possibility to trim videos directly inside Tella's encrypted container. [Read more about editing media in Tella](/features#edit-media)
+- Bug-fixing and small improvements:
+    - Fixed bug: Only allow moving a file to a different folder from the All Files folder.
+    - Fixed typo on the Quick Delete description.
+
+
+### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
+
+A version of Tella included for the first time on the F-droid store. This a 100% Free and Open-Source Software (FOSS) version of Tella Android. We removed all trackers, changed map and location provider and also changed the Camera library to CameraX, removed crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We removed completely all Google Play Services dependencies.
+
+
+
+## Previous versions {#previous-versions}
+
 ### iOS: Tella 1.12.0 (84) - Released on November 27, 2024 {#ios-tella-1120-84---released-on-november-27-2024}
 - Added support for the Dropbox connection that allows Tella users to upload the data they collect directly to their Dropbox account. [Read here more about the connection](/dropbox).
 - Added the possibility to trim audios directly inside Tella's encrypted container. [Read more about editing media in Tella](/features#edit-media)
@@ -29,14 +44,6 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Fix navigation issue with Back button on "Connect to server" screens.
     - Adapted quick delete options to also delete connections data for new connections.
 
-
-### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
-
-A version of Tella included for the first time on the F-droid store. This a 100% Free and Open-Source Software (FOSS) version of Tella Android. We removed all trackers, changed map and location provider and also changed the Camera library to CameraX, removed crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We removed completely all Google Play Services dependencies.
-
-
-
-## Previous versions {#previous-versions}
 
 ### iOS: Tella 1.11.0 (81) - Released on October 21, 2024 {#ios-tella-1110-81---released-on-october-21-2024}
 - Implemented the Nextcloud server connection that allows Tella users to upload the data they collect directly to either Nextcloud. [Read here more about the connection](/nextcloud).
