@@ -34,7 +34,7 @@ A version of Tella included for the first time on the F-droid store. This a 100%
 ## Previous versions {#previous-versions}
 
 ### iOS: Tella 1.12.0 (84) - Released on November 27, 2024 {#ios-tella-1120-84---released-on-november-27-2024}
-- Added support for the Dropbox connection that allows Tella users to upload the data they collect directly to their Dropbox account. [Read here more about the connection](/dropbox).
+- Added support for the Dropbox connection that allows Tella users to upload the data they collect directly to their Dropbox account. [Read more here about the connection](/dropbox).
 - Added the possibility to trim audios directly inside Tella's encrypted container. [Read more about editing media in Tella](/features#edit-media)
 - Bug-fixing and small improvements:
     - Fixed bug: Renaming audio while recording takes the name or last edited audio.
