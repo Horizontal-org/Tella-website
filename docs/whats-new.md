@@ -16,11 +16,11 @@ To receive monthly updates on new features and improvements to Tella and stay up
 
 
 ### Android: Tella 2.14.0 (193) - Released on December 7, 2024 {#android-tella-2140-193---released-on-december-7-2024}
-- Implemented the Nextcloud server connection that allows Tella users to upload the data they collect directly to either Nextcloud. [Read here more about the connection](/nextcloud).
+- Implemented the Nextcloud server connection that allows Tella users to upload the data they collect directly to Nextcloud. [Read here more about the connection](/nextcloud).
 - Bug-fixing and minor improvements:
     - Solved issue that prevented Indonesian translation to load properly.
-    - Now Tella shows an error when user try to rename a photo if the new name is already taken.
-    - User is redirected to the Outbox tab after pressing "submit later" in all new server connections.
+    - Tella now shows an error when a user tries to rename a photo if the new name is already taken.
+    - User is redirected to the Outbox tab after pressing "submit later" in all new Connections.
 
 
 ### iOS: Tella 1.13.0 (87) - Released on November 29, 2024 {#ios-tella-1130-87---released-on-november-29-2024}
@@ -54,15 +54,15 @@ A version of Tella included for the first time on the F-droid store. This a 100%
 
 
 ### iOS: Tella 1.11.0 (81) - Released on October 21, 2024 {#ios-tella-1110-81---released-on-october-21-2024}
-- Implemented the Nextcloud server connection that allows Tella users to upload the data they collect directly to either Nextcloud. [Read here more about the connection](/nextcloud).
+- Implemented the Nextcloud server connection that allows Tella users to upload the data they collect directly to Nextcloud. [Read more about the Connection here](/nextcloud).
 - Bug-fixing and small improvements:
-    - Fixed progress view and cancel action for large files in the report view in all servers connections.
-    - Hide "use shared drive" button if not using an organizational account.
-    - Unified required/optional fields in all server connections.
-    - Fix UI for labels on the Servers view when there is an existing connection.
-    - Fix visual bugs on entities and delete entities cards for Uwazi connections.
-    - Fix edit connection title.
-    - Delete unused WebView class that was flagged in the security audit.
+    - Fixed the progress view and cancel action for large files in the Report view in all Connections.
+    - Hid "use shared drive" button if not using an organizational account.
+    - Unified the required/optional fields in all Connections.
+    - Fixed the UI for labels on the Servers view when there is an existing connection.
+    - Fixed visual bugs on entities and delete entities cards for Uwazi connections.
+    - Fixed edit connection title.
+    - Deleted unused WebView class that was flagged in the latest security audit.
 
 ### Android: Tella 2.13.0 (190) - Released on November 4, 2024 {#android-tella-2130-190---released-on-november-4-2024}
 - Added support for the Dropbox connection that allows Tella users to upload the data they collect directly to their Dropbox account. [Read here more about the connection](/dropbox).
