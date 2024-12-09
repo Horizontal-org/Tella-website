@@ -70,7 +70,7 @@ For the moment it is not possible to sign in to multiple Nextcloud accounts at t
     * If the report is submitted correctly, it goes to the “Submitted” tab and a new folder will be created in Nextcloud with the title you selected. All attachments will be added to the folder and the description will be added as a text file inside the folder.
 
 :::info
-For Android, [there is a known issue that prevents files larger than 20MB to be submitted to the a Nextcloud server from the Android app](https://help.nextcloud.com/t/cant-upload-files-langer-than-20-mb-using-nextcloud-android-app/196434). Because of that, Tella do not allow to attach files that are larger than 20MB to the reports. We will monitor the development of that bug and remove the Tella file-size restriction when that issue is solved.
+For Android, [there is a known issue with Nextcloud that prevents files larger than 20MB to be submitted to the a Nextcloud server from Android](https://help.nextcloud.com/t/cant-upload-files-langer-than-20-mb-using-nextcloud-android-app/196434). For that reason, Tella does not let users attach files that are larger than 20MB to Reports. We will monitor the development of this issue and remove the Tella file-size restriction when it is is solved.
 :::
 
 ##  Draft Reports {#draft-reports}
