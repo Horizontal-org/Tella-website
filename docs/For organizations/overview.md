@@ -124,9 +124,6 @@ As for all Connections in Tella, users can use most of the NextCloud connection 
 Learn more about the Nextcloud connection [here](/nextcloud),
 :::
 
-:::info
-The Nextcloud connection is [only available on iOS](/features). We are currently working for adding it to Tella Android as well.
-:::
 
 
 ### Dropbox {#dropbox}
