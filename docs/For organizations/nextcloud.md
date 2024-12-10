@@ -35,6 +35,11 @@ The Nextcloud connection may be particularly well-suited for:
 If you need help figuring out if Nextcloud is best for your use-case, [check out this guide](/for-organizations#selecting-the-right-type-of-server) or [contact us](/contact-us)!
 :::
 
+:::tip
+For the moment, we don't support 2FA for the Nextcloud connection in Android or iOS. If you really need it please [contact us](/contact-us)!
+:::
+
+
 ## Connect to Nextcloud {#connect-to-Nextcloud}
 
 In order to connect to Nextcloud:
