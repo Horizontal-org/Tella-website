@@ -18,13 +18,18 @@ Similarly to any other server connection (like [Tella Web](/tella-web), [Google 
 3. Allowing users to back up their data on a remote server, to lower the risk that data is discovered on their mobile device.
 4. Ensuring that organizations can preserve important information even in the event of device seizure or destruction, and can organize it for research, advocacy, or accountability processes.
 
-### Choosing and Installing Your ODK Central Server {#choosing-and-installing-your-odk-central-server}
+### Choosing and Installing Your ODK Server {#choosing-and-installing-your-odk-server}
 
 Because ODK is an open standard, Tella can be used with any of the tools that are ODK-compliant.
 
-For civil society organizations and human rights defenders, we recommend using [KoboToolbox](https://www.kobotoolbox.org/) to create forms with custom questions, manage users, and aggregate the data submitted by users. Based on our experience, KoboToolbox is user-friendly and flexible, and it is also open source. KoboToolbox offers a free [community plan](https://www.kobotoolbox.org/pricing/) for non-profits and offer free training resources and guidance on how to structure the data on the server (Self-serve learning base and Community Forum). It is also possible [to use a private instance of KoboToolbox](https://www.kobotoolbox.org/services/private-servers/) or [self-host it](https://support.kobotoolbox.org/kobo_your_servers.html).
+For civil society organizations and human rights defenders, we recommend using [KoboToolbox](https://www.kobotoolbox.org/) to create forms with custom questions, manage users, and aggregate the data submitted by users. Based on our experience, KoboToolbox is user-friendly and flexible, and it is also open source. KoboToolbox offers a [community plan for non-profits](https://www.kobotoolbox.org/pricing/) and offer free training resources and guidance on how to structure the data on the server (Self-serve learning base and Community Forum). It is also possible [to use a private instance of KoboToolbox](https://www.kobotoolbox.org/services/private-servers/) or [self-host it](https://support.kobotoolbox.org/kobo_your_servers.html).
 
-There are other ODK-compliant apps available, like [Ona](https://ona.io/home/) or [ODK Cloud](https://https://getodk.org/index.html). Tella works with any of these. If you need help, [contact us](contact-us) so we can help you select the best server for your use case.
+:::tip
+If you are interested in using the Tella+KoboToolbox integration, we could set up a meeting between the Tella and KoboToolbox teams to discuss the best hosting plan for your use case. Please [contact us](/contact-us) if you need support.
+:::
+
+There are other ODK-compliant apps available, like [Ona](https://ona.io/home/) or [ODK Cloud](https://https://getodk.org/index.html). Tella works with any of these. 
+
 
 ### When to Use ODK {#when-to-use-odk}
 
