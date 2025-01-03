@@ -15,16 +15,18 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 2.14.0 (193) - Released on December 7, 2024 {#android-tella-2140-193---released-on-december-7-2024}
+### Android: Tella 2.14.0 (194) - Released on January 10, 2024 {#android-tella-2140-194---released-on-january-10-2024}
 - Implemented the Nextcloud server connection that allows Tella users to upload the data they collect directly to Nextcloud. [Read more here about the connection](/nextcloud).
+- Added Bengali language support. [See language accessibility](/accessibility).
 - Bug-fixing and minor improvements:
     - Solved issue that prevented Indonesian translation to load properly.
     - Tella now shows an error when a user tries to rename a photo if the new name is already taken.
     - User is redirected to the Outbox tab after pressing "submit later" in all new Connections.
 
 
-### iOS: Tella 1.13.0 (87) - Released on November 29, 2024 {#ios-tella-1130-87---released-on-november-29-2024}
-- Added the possibility to trim videos directly inside Tella's encrypted container. [Read more about editing media in Tella](/features#edit-media)
+### iOS: Tella 1.13.0 (88) - Released on Junuary 6, 2024 {#ios-tella-1130-88---released-on-juanuary-6-2024}
+- Added the possibility to trim videos directly inside Tella's encrypted container. [Read more about editing media in Tella](/features#edit-media).
+- Added Bengali language support. [See language accessibility](/accessibility).
 - Bug-fixing and minor improvements:
     - Fixed bug: Tella now only allows moving a file to a different folder from the All Files folder.
     - Fixed typo in the Quick Delete description.
