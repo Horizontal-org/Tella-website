@@ -15,13 +15,16 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 2.14.0 (194) - Released on January 10, 2024 {#android-tella-2140-194---released-on-january-10-2024}
+### Android: Tella 2.14.0 (195) - Released on January 13, 2024 {#android-tella-2140-195---released-on-january-13-2024}
 - Implemented the Nextcloud server connection that allows Tella users to upload the data they collect directly to Nextcloud. [Read more here about the connection](/nextcloud).
 - Added Bengali language support. [See language accessibility](/accessibility).
 - Bug-fixing and minor improvements:
     - Solved issue that prevented Indonesian translation to load properly.
     - Tella now shows an error when a user tries to rename a photo if the new name is already taken.
     - User is redirected to the Outbox tab after pressing "submit later" in all new Connections.
+    - Added counter to Draft tab for all server connections.
+    - Fixed incorrect confirmation text for deleting a report in the outbox in any of the connections.
+    - Added confirmation message after a report is successfully submitted to any connections.
 
 
 ### iOS: Tella 1.13.0 (88) - Released on Junuary 6, 2024 {#ios-tella-1130-88---released-on-juanuary-6-2024}
