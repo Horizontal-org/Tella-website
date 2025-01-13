@@ -36,7 +36,7 @@ If you need help figuring out if Nextcloud is best for your use-case, [check out
 :::
 
 :::tip
-For the moment, we don't support 2FA for the Nextcloud connection in Android or iOS. If you really need it please [contact us](/contact-us)!
+For now, we don't support two-factor authentication (2FA) for Nextcloud connections on Tella Android and iOS. If this is a pressing need of yours, please [let us know](/contact-us)!
 :::
 
 
@@ -75,7 +75,7 @@ For the moment it is not possible to sign in to multiple Nextcloud accounts at t
     * If the report is submitted correctly, it goes to the “Submitted” tab and a new folder will be created in Nextcloud with the title you selected. All attachments will be added to the folder and the description will be added as a text file inside the folder.
 
 :::info
-For Android, [there is a known issue with Nextcloud that prevents files larger than 20MB to be submitted to the a Nextcloud server](https://help.nextcloud.com/t/cant-upload-files-langer-than-20-mb-using-nextcloud-android-app/196434). For that reason, Tella does not let users attach files that are larger than 20MB to Reports. We will monitor the development of this issue and remove the Tella file-size restriction when it is solved.
+On Android, [a known Nextcloud issue](https://help.nextcloud.com/t/cant-upload-files-langer-than-20-mb-using-nextcloud-android-app/196434) prevents files larger than 20MB from being submitted to a Nextcloud server. For that reason, Tella users cannot attach files larger than 20MB to Reports uploaded to a Nextcloud connection. We are monitoring the status of this issue and will remove Tella's file-size restriction as soon as it is solved by Nextcloud.
 :::
 
 ##  Draft Reports {#draft-reports}
