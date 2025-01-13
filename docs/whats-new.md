@@ -15,7 +15,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 2.14.0 (194) - Released on January 10, 2024 {#android-tella-2140-194---released-on-january-10-2024}
+### Android: Tella 2.14.0 (195) - Released on January 13, 2024 {#android-tella-2140-195---released-on-january-13-2024}
 - Implemented the Nextcloud server connection that allows Tella users to upload the data they collect directly to Nextcloud. [Read more here about the connection](/nextcloud).
 - Added Bengali language support. [See language accessibility](/accessibility).
 - Bug-fixing and minor improvements:
