@@ -15,9 +15,9 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 2.14.0 (196) - Released on January 13, 2024 {#android-tella-2140-196---released-on-january-13-2024}
+### Android: Tella 2.14.0 (196) - Released on January 16, 2024 {#android-tella-2140196---released-on-january-16-2024}
 - Implemented the Nextcloud server connection that allows Tella users to upload the data they collect directly to Nextcloud. [Read more here about the connection](/nextcloud).
-- Added Bengali language support. [See language accessibility](/accessibility).
+- Added Bengali language support. [See language accessibility](/accessibility)
 - Bug-fixing and minor improvements:
     - Solved issue that prevented Indonesian translation to load properly.
     - Tella now shows an error when a user tries to rename a photo if the new name is already taken.
@@ -40,8 +40,8 @@ To receive monthly updates on new features and improvements to Tella and stay up
 A version of Tella included for the first time on the F-droid store. This a 100% Free and Open-Source Software (FOSS) version of Tella Android. We removed all trackers, changed map and location provider and also changed the Camera library to CameraX, removed crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We removed completely all Google Play Services dependencies.
 
 
-
 ## Previous versions {#previous-versions}
+
 
 ### Android: Tella 2.13.1 (191) - Released on November 6, 2024 {#android-tella-2131-191---released-on-november-6-2024}
 - Hotfix for the Dropbox connection. Previous build didn't allow connections to Dropbox.
