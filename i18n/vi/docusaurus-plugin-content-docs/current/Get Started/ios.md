@@ -12,7 +12,7 @@ Truy cập [đường dẫn này](https://apps.apple.com/us/app/tella-document-p
 
 
 <div class="gifs">
-    <img src={require("@site/static/img/getting-started/ios/find-and-download.gif").default} alt="gif that shows how to download Tella from the App Store" title="find and download gif" />
+    <img src={require('@site/static/img/getting-started/ios/find-and-download.gif').default} alt="gif that shows how to download Tella from the App Store" title="find and download gif" />
 </div>
 
 
@@ -25,7 +25,7 @@ Khi lần đầu mở Tella, bạn sẽ được yêu cầu chọn cách khóa c
 
 Tránh sử dụng tên, ngày sinh của bạn hoặc bất cứ điều gì dễ đoán (like “Password”, “123456”, or “000000”).
 
-Lưu ý là nếu quên mã khóa này, bạn sẽ không thể truy cập ứng dụng hoặc nội dung bên trong.
+Hãy lưu ý rằng nếu quên mật khẩu này, bạn sẽ không thể truy cập ứng dụng hoặc nội dung bên trong ứng dụng.
 
 
 
@@ -38,7 +38,7 @@ Lần đầu tiên sử dụng mỗi tính năng, bạn sẽ được yêu cầu
 
 
 <div class="gifs">
-    <img src={require("@site/static/img/getting-started/ios/granting-permissions.gif").default} alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
+    <img src={require('@site/static/img/getting-started/ios/granting-permissions.gif').default} alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
 </div>
 
 
@@ -54,7 +54,7 @@ Nếu bạn không cấp những quyền này cho Tella, bạn có thể thực 
 ## Bảo vệ tập tin của bạn {#protect-your-files}
 Sau khi cấp quyền, bạn đã sẵn sàng để bắt đầu thu thập tài liệu. Chúng tôi khuyên bạn nên khám phá các tính năng sau:
 
-**Sử dụng Máy ảnh để chụp ảnh hoặc quay video và Máy ghi âm để thu âm.** Mọi hình ảnh, video và bản ghi âm được thực hiện qua Tella sẽ được mã hóa ngay lập tức, điều đó có nghĩa là tập tin sẽ không thể truy cập từ bên ngoài Tella . Tất cả dữ liệu được thu thập trong Tella sẽ không hiển thị trên thư viện ảnh hoặc thư mục điện thoại của bạn. Tella không giới hạn dung lượng lưu trữ cụ thể nào, dung lượng khả dụng sẽ phụ thuộc vào không gian còn trống trên thiết bị của bạn.
+**Sử dụng Máy ảnh để chụp ảnh hoặc quay video và Máy ghi âm để thu  âm.** Mọi hình ảnh, video và bản ghi âm được thực hiện qua Tella sẽ được mã hóa ngay lập tức, điều đó có nghĩa là tệp tin sẽ không thể truy cập từ bên ngoài Tella . Tất cả dữ liệu thông tin được thu thập bên trong Tella sẽ không hiển thị trên thư viện ảnh hoặc thư mục điện thoại của bạn. Tella không có giới hạn dung lượng lưu trữ cụ thể nào, dung lượng khả dụng sẽ phụ thuộc vào không gian còn trống trên thiết bị của bạn.
 
 
 <div class="gifs">
@@ -66,7 +66,7 @@ Sau khi cấp quyền, bạn đã sẵn sàng để bắt đầu thu thập tài
 
 
 
-**Nhập tệp tin của bạn vào Tella.** Truy cập vào bất kỳ thư mục nào trong Tella và bấm Nút **+** > **Nhập từ thiết bị**. Chọn tệp tin bạn muốn lưu giữ bên trong Tella và một bản sao của tệp tin sẽ được lưu trữ dưới dạng mã hóa và ẩn trên Tella. Bạn sẽ được yêu cầu chọn giữa việc xóa hay giữ tệp tin gốc trên thiết bị của mình. Tella sẽ được mở khóa khi bạn chọn tệp tin của mình trong tối đa ba (3) phút.
+**Import your files to Tella.** Go to any of the folders inside Tella and tap the **+** Button > **Import from device**. Choose the file you’d like to keep inside Tella and a copy of the file will be stored encrypted and hidden on Tella. You will be asked to chose if you want to delete or keep the original file from your device. Tella will be unlocked while you choose your files for a maximum of three (3) minutes.
 
 <div class="gifs">
     <img src={require("@site/static/img/getting-started/ios/import-files.gif").default} alt="gif that shows how to import files in Tella" title="import files in Tella" />
@@ -90,9 +90,9 @@ Sau khi cấp quyền, bạn đã sẵn sàng để bắt đầu thu thập tài
 
 
 ## Chia sẻ thông tin của bạn {#share-your-information}
-Để chia sẻ thông tin bằng Tella, bạn có thể sử dụng nút **Chia sẻ**. Chỉ cần chọn tệp hoặc các tài liệu bạn muốn chia sẻ, bấm **Chia sẻ** và chọn ứng dụng bạn muốn chia sẻ các tệp đó. 
+Để chia sẻ thông tin bằng Tella, bạn có thể sử dụng nút **Chia sẻ**. Chỉ cần chọn tệp tin hoặc các tài liệu bạn muốn chia sẻ, bấm **Chia sẻ** và chọn ứng dụng bạn muốn chia sẻ các tệp đó. 
 
-Lưu ý rằng Tella sẽ chia sẻ các tệp mà không mã hóa, vì vậy, để an toàn bạn hãy sử dụng tin nhắn tự xóa (ví dụ như WhatsApp hoặc Signal) hoặc xóa tin nhắn sau khi người kia nhận được chúng.
+Hãy lưu ý rằng Tella sẽ chia sẻ các tệp tin không được mã hóa, vì vậy hãy chắc chắn sử dụng tin nhắn tự xóa (ví dụ như WhatsApp hoặc Signal) hoặc xóa tin nhắn sau khi người kia nhận được chúng.
 
 <div class="gifs">
     <img src={require("@site/static/img/getting-started/ios/share.gif").default} alt="gif that shows how share information in Tella" title="share information in Tella" />
@@ -108,7 +108,7 @@ Lưu ý rằng Tella sẽ chia sẻ các tệp mà không mã hóa, vì vậy, �
 ### Kết nối với máy chủ {#connect-to-a-server}
 Tella có thể được kết nối với nhiều dịch vụ back-end. Điều này được các tổ chức sử dụng để cho phép các thành viên hoặc đối tác của họ gửi dữ liệu và tệp tin đến một địa điểm từ xa an toàn. Nếu bạn đang cân nhắc việc kết nối với một máy chủ và có thắc mắc về việc nên chọn máy chủ nào hoặc cách kết nối, vui lòng xem [tài liệu dành cho tổ chức của chúng tôi](/for-organizations) hoặc [liên hệ với chúng tôi](/contact-us), chúng tôi sẵn sàng hỗ trợ!
 
-### Tella Web {#tella-web}
+#### Tella Web {#tella-web}
 Tella Web là một công cụ mã nguồn mở cho phép các cá nhân và tổ chức tổng hợp và quản lý các báo cáo do người dùng Tella gửi, bao gồm ảnh, video, tài liệu pdf và tệp âm thanh.
 
 Đọc thêm về Tella Web [tại đây](/tella-web) hoặc xem [video hướng dẫn](/video-tutorials#tella-web).
@@ -116,7 +116,15 @@ Tella Web là một công cụ mã nguồn mở cho phép các cá nhân và t�
 #### Uwazi {#uwazi}
 [Uwazi](https://uwazi.io/) là một ứng dụng nguồn mở do HURIDOCS tạo ra với các tính năng mạnh mẽ để thu thập, sắp xếp và trực quan hóa dữ liệu về nhân quyền.
 
-Chúng tôi đã tạo tài liệu về cách kết nối với máy chủ Bộ Công cụ Dữ liệu mở và chúng tôi khuyên bạn nên đọc [trang này](/uwazi) để bắt đầu.
+We wrote documentation about how to connect to an Uwazi server and we recommend you to read [this page](/uwazi) to get started.
+
+#### Nextcloud, Dropbox and Google Drive {#nextcloud-dropbox-and-google-drive}
+Users can also connect to their Google, Dropbox or Nextcloud organizational or personal accounts in order to submit reports (audio, photos, videos and text) directly from Tella. They won't need the Dropbox, Google Drive or Nextcloud apps on their phones and won't need to use any third party apps.
+
+Read more:
+- [Google Drive Connection](/g-drive).
+- [Nextcloud Connection](/nextcloud).
+- [Dropbox Connection](/dropbox).
 
 
 
