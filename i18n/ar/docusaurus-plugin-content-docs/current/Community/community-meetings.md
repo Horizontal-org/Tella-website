@@ -1,6 +1,6 @@
 ---
 id: community-meetings
-title: اجتماعات مجتمع Tella
+title: Community Meetings
 description: تفاصيل حول المكالمات الشهرية لمجتمع Tella
 slug: /community-meetings
 ---
