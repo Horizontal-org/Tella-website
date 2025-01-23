@@ -1,6 +1,6 @@
 ---
 id: video-tutorials
-title: Tella ဗီဒီယို သင်ခန်းစာများ
+title: Video tutorials
 description: Tella ဗီဒီယို သင်ခန်းစာများ
 slug: /video-tutorials
 ---
