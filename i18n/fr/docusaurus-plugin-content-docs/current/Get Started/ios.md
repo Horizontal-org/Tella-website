@@ -108,7 +108,7 @@ Tenez compte du fait que Tella partagera les fichiers non cryptés, alors assure
 ### Se connecter à un serveur {#connect-to-a-server}
 Tella peut être connecté à une variété de services d'arrière-plan. Ces services sont utilisés par les organisations pour permettre à leurs membres ou à leurs partenaires de soumettre des données et des fichiers à un emplacement distant sécurisé. Si vous envisagez de vous connecter à un serveur et que vous avez des doutes sur le serveur à choisir ou sur la manière de vous connecter, veuillez consulter [notre documentation pour les organisations](/for-organizations) ou [nous contacter](/contact-us), nous sommes là pour vous aider !
 
-### Tella Web {#tella-web}
+#### Tella Web {#tella-web}
 Tella Web est un outil open source qui permet aux individus et aux organisations de centraliser et de gérer les rapports transmis par les utilisateurs de Tella, notamment des photos, des vidéos et des fichiers audio.
 
 Pour en savoir plus sur Tella Web, cliquez [ici](/tella-web) ou regardez un [tutoriel vidéo](/video-tutorials#tella-web).
@@ -118,12 +118,20 @@ Pour en savoir plus sur Tella Web, cliquez [ici](/tella-web) ou regardez un [tut
 
 Nous avons rédigé une documentation sur la manière de se connecter à un serveur Uwazi et nous vous recommandons de lire [cette page](/uwazi) pour commencer.
 
+#### Pour en savoir plus sur Tella {#read-more-about-tella}
+[Fonctionnalités]( /features) : En savoir plus sur la façon dont Tella peut vous protéger et sur les menaces contre lesquelles Tella ne_vous_protège_pas.
+
+[Connexions](/for-organizations) : Découvrez comment vous pouvez vous connecter à un serveur pour collecter des données ou sauvegarder des fichiers.
+- [Sécurité et confidentialité](/security-and-privacy) : Nous ne recueillons que le minimum de données nécessaires et ne collectons jamais d'informations personnellement identifiables. Lisez la politique de confidentialité complète [ici](/privacy).
+- Contactez-nous si vous avez besoin d'aide {#contact-us-if-you-need-help}
+- Si vous avez besoin d'aide pour comprendre les détails techniques de Tella et les considérations de sécurité afin de décider s'il convient à vous et à votre équipe, nous sommes là pour vous aider. Il vous suffit de [nous contacter](/contact-us) pour que nous puissions répondre à vos questions ou organiser une formation ou une session de questions-réponses en direct pour votre équipe.
+
 
 
 ### Pour en savoir plus sur Tella {#read-more-about-tella}
-- [Fonctionnalités]( /features) : En savoir plus sur la façon dont Tella peut vous protéger et sur les menaces contre lesquelles Tella ne vous_protège_pas.
+- [Fonctionnalités]( /features) : En savoir plus sur la façon dont Tella peut vous protéger et sur les menaces contre lesquelles Tella ne_vous_protège_pas.
 - [Connexions](/for-organizations) : Découvrez comment vous pouvez vous connecter à un serveur pour collecter des données ou sauvegarder des fichiers.
-- [Sécurité et confidentialité](/security-and-privacy) : Nous ne recueillons que le minimum de données nécessaires et ne collectons jamais d'informations personnellement identifiables. Lisez la politique de confidentialité complète [ici](/privacy).
+- [Sécurité et protection des renseignements personnels](/security-and-privacy) : nous ne recueillons que le minimum de données nécessaires et ne jamais de renseignements personnels. Consultez la politique de protection des renseignements personnels complète [ici](/privacy).
 
 
 
