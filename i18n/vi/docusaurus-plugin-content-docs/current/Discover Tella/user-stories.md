@@ -79,6 +79,7 @@ Trong cuộc bầu cử tổng thống năm 2020 ở Belarus, các tổ chức x
 🗄️ Kết nối: ODK (Kobotoolbox)
 :::
 
+
 Ở Belarus, chế độ độc tài của Alexander Lukashenko từ lâu đã bóp nghẹt các quyền cơ bản và đàn áp phe đối lập chính trị.  Các cuộc bầu cử không tự do và không công bằng.  Tuy nhiên, lần đầu tiên sau nhiều thập kỷ, cuộc bầu cử tổng thống vào năm 2020 đã tạo ra tiềm năng cho sự thay đổi với các ứng cử viên đối lập đáng tin cậy và một xã hội dân sự được tiếp thêm sinh lực nhờ sự kém cỏi của chính phủ trước đại dịch Covid-19.
 
 Hợp tác với các nhóm xã hội dân sự địa phương, Horizontal đã phát triển một phiên bản tùy chỉnh của Tella được thiết kế đặc biệt cho nhu cầu của các nhà quan sát Belarus.  Để giảm nhu cầu đào tạo và giúp quá trình làm quen diễn ra suôn sẻ nhất có thể, giao diện người dùng đã được đơn giản hóa và ứng dụng được kết nối mặc định với máy chủ của các tổ chức giám sát.  Ứng dụng này cũng được địa phương hóa sang tiếng Belarus và tiếng Nga.
