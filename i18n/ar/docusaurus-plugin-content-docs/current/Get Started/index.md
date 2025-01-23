@@ -1,6 +1,6 @@
 ---
 id: get-started
-title: بدء استخدام Tella
+title: بدء الاستخدام 
 description: دليل البدء السريع لمستخدمي Tella على iOS وأندرويد
 slug: /get-started
 ---
