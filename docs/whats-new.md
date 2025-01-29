@@ -63,7 +63,7 @@ A version of Tella included for the first time on the F-droid store. This a 100%
     - Fixed incorrect confirmation text for deleting a report in the outbox in any of the connections.
     - Added confirmation message after a report is successfully submitted to any connections.
 
-### iOS: Tella 1.13.0 (88) - Released on Junuary 6, 2025 {#ios-tella-1130-88---released-on-juanuary-6-2024}
+### iOS: Tella 1.13.0 (88) - Released on Junuary 6, 2025 {#ios-tella-1130-88---released-on-juanuary-6-2025}
 - Added the possibility to trim videos directly inside Tella's encrypted container. [Read more about editing media in Tella](/features#edit-media).
 - Added Bengali language support. [See language accessibility](/accessibility).
 - Bug-fixing and minor improvements:
