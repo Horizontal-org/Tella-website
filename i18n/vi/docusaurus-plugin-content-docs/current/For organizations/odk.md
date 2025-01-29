@@ -95,7 +95,9 @@ Gửi: gửi biểu mẫu đã điền đến máy chủ ODK.
 | ✔️ | Âm thanh |
 | ✔️ | Video |
 | ✔️ | Tệp tin |
-| Không | Ghi chú |
+| Không | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: |
 | ✔️ | Mã vạch / Mã QR |
 | Không | Thừa nhận |
 | ✔️ | Đánh giá |
