@@ -20,12 +20,12 @@ To receive monthly updates on new features and improvements to Tella and stay up
 - Multiple improvements to the [ODK Connection](/odk):
     - Added File question type to the [supported questions types](/odk#supported-question-types).
     - Solved a crash that happened when recording audio directly from within an ODK form.
-    - UX improvements to ODK: unify button styles and removed empty spaces
+    - UX improvements to ODK: unify button styles and removed empty spaces.
+    - Implemented refresh button.
 - Bug fixes and minor improvements:
     - Solved an issue with the phone's back button from the Microphone screen.
     - Do not allow recording an audio when a name is already taken.
     - Updated the text in the Quick Delete settings to say "Delete files" instead of "Delete vault".
-    - Implemented refresh button.
 
 
 ### iOS: Tella 1.14.0 (89) - Released on Junuary 29, 2025 {#ios-tella-1140-89---released-on-juanuary-29-2025}
