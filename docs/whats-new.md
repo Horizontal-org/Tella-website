@@ -15,7 +15,44 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 2.14.0 (196) - Released on January 16, 2024 {#android-tella-2140196---released-on-january-16-2024}
+### Android: Tella 2.15.0 (197) - Released on January 29, 2025 {#android-tella-2150197---released-on-january-29-2025}
+- Added the possibility to zoom on images in the Tella vault.
+- [ODK Server connection](/odk) work:
+    - Added File question type to the[supported questions types](/odk#supported-question-types).
+    - Solved crash when recording and audio directly from an ODK form.
+    - UX improvements to ODK: unify button's style and removed empty space
+- Bug-fixing and minor improvements:
+    - Solved issue with the phone's back button from the Microphone screen.
+    - Do not allow recording an audio with a name that's taken.
+    - Change text in Quick Delete to say "Delete files" instead of "Delete vault".
+
+
+### iOS: Tella 1.14.0 (89) - Released on Junuary 29, 2025 {#ios-tella-1140-89---released-on-juanuary-29-2025}
+- Fixed preview of HEIC files.
+- Added Indonesian language support.
+- Implemented limited access to photo gallery.
+- Bug-fixing and minor improvements:
+    - Changed the text of edit media confirmation message to make it explicit that the file is saved as a copy of the original one.
+    - Unable to go back after updating the password/pin in Settings.
+    - On smaller phones (for example iPhone 8) the Quick Delete confirmation screen don't fit in the screen.
+    - Submit screen not scrollable (button inaccessible when many files are attached).
+    - Label for password setup during Onboarding was not fully visible.
+    - When Tella's folders are have many items the + button is not clickable
+    - Change text in Quick Delete to say "Delete files" instead of "Delete vault".
+    - The share/save to device sheets appear only on the second attempt.
+    - Back button not working after viewing a video from the All Files folder.
+   - Make all elements in homescreen scrollable, do not keep connections and recent files fixed on the top.
+   - Make the play button only play the selection (for edit audio and video).
+
+### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
+
+A version of Tella included for the first time on the F-droid store. This a 100% Free and Open-Source Software (FOSS) version of Tella Android. We removed all trackers, changed map and location provider and also changed the Camera library to CameraX, removed crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We removed completely all Google Play Services dependencies.
+
+
+## Previous versions {#previous-versions}
+
+
+### Android: Tella 2.14.0 (196) - Released on January 16, 2025 {#android-tella-2140196---released-on-january-16-2025}
 - Implemented the Nextcloud server connection that allows Tella users to upload the data they collect directly to Nextcloud. [Read more here about the connection](/nextcloud).
 - Added Bengali language support. [See language accessibility](/accessibility)
 - Bug-fixing and minor improvements:
@@ -26,21 +63,13 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Fixed incorrect confirmation text for deleting a report in the outbox in any of the connections.
     - Added confirmation message after a report is successfully submitted to any connections.
 
-
-### iOS: Tella 1.13.0 (88) - Released on Junuary 6, 2024 {#ios-tella-1130-88---released-on-juanuary-6-2024}
+### iOS: Tella 1.13.0 (88) - Released on Junuary 6, 2025 {#ios-tella-1130-88---released-on-juanuary-6-2024}
 - Added the possibility to trim videos directly inside Tella's encrypted container. [Read more about editing media in Tella](/features#edit-media).
 - Added Bengali language support. [See language accessibility](/accessibility).
 - Bug-fixing and minor improvements:
     - Fixed bug: Tella now only allows moving a file to a different folder from the All Files folder.
     - Fixed typo in the Quick Delete description.
 
-
-### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
-
-A version of Tella included for the first time on the F-droid store. This a 100% Free and Open-Source Software (FOSS) version of Tella Android. We removed all trackers, changed map and location provider and also changed the Camera library to CameraX, removed crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We removed completely all Google Play Services dependencies.
-
-
-## Previous versions {#previous-versions}
 
 
 ### Android: Tella 2.13.1 (191) - Released on November 6, 2024 {#android-tella-2131-191---released-on-november-6-2024}
