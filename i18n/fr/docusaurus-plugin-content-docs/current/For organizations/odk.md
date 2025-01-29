@@ -95,7 +95,7 @@ Soumettre : envoyer le formulaire rempli au serveur ODK.
 | ✔️ | Audio |
 | ✔️ | Vidéo |
 | ✔️ | Fichier |
-| Non | Note |
+| Non | ✔️ |
 | ✔️ | Code-barres / QR Code |
 | Non | Reconnaître |
 | ✔️ | Notation |
