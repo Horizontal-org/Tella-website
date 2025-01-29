@@ -17,32 +17,32 @@ To receive monthly updates on new features and improvements to Tella and stay up
 
 ### Android: Tella 2.15.0 (197) - Released on January 29, 2025 {#android-tella-2150197---released-on-january-29-2025}
 - Added the possibility to zoom on images in the Tella vault.
-- [ODK Server connection](/odk) work:
-    - Added File question type to the[supported questions types](/odk#supported-question-types).
-    - Solved crash when recording and audio directly from an ODK form.
-    - UX improvements to ODK: unify button's style and removed empty space
-- Bug-fixing and minor improvements:
-    - Solved issue with the phone's back button from the Microphone screen.
-    - Do not allow recording an audio with a name that's taken.
-    - Change text in Quick Delete to say "Delete files" instead of "Delete vault".
+- Multiple improvements to the [ODK Connection](/odk):
+    - Added File question type to the [supported questions types](/odk#supported-question-types).
+    - Solved a crash that happened when recording audio directly from within an ODK form.
+    - UX improvements to ODK: unify button styles and removed empty spaces
+- Bug fixes and minor improvements:
+    - Solved an issue with the phone's back button from the Microphone screen.
+    - Do not allow recording an audio when a name is already taken.
+    - Updated the text in the Quick Delete settings to say "Delete files" instead of "Delete vault".
 
 
 ### iOS: Tella 1.14.0 (89) - Released on Junuary 29, 2025 {#ios-tella-1140-89---released-on-juanuary-29-2025}
 - Fixed preview of HEIC files.
 - Added Indonesian language support.
 - Implemented limited access to photo gallery.
-- Bug-fixing and minor improvements:
+- Bug fixes and minor improvements:
     - Changed the text of edit media confirmation message to make it explicit that the file is saved as a copy of the original one.
-    - Unable to go back after updating the password/pin in Settings.
-    - On smaller phones (for example iPhone 8) the Quick Delete confirmation screen don't fit in the screen.
-    - Submit screen not scrollable (button inaccessible when many files are attached).
-    - Label for password setup during Onboarding was not fully visible.
-    - When Tella's folders are have many items the + button is not clickable
-    - Change text in Quick Delete to say "Delete files" instead of "Delete vault".
-    - The share/save to device sheets appear only on the second attempt.
-    - Back button not working after viewing a video from the All Files folder.
-   - Make all elements in homescreen scrollable, do not keep connections and recent files fixed on the top.
-   - Make the play button only play the selection (for edit audio and video).
+    - Fixed an issue preventing going back to the previous screen after updating the password/pin in Settings.
+    - Fixed an issue on smaller phones (for example iPhone 8) where the Quick Delete confirmation screen didn't fit in the screen.
+    - Fixed an issue in Reports where the Submit screen was not scrollable and the Submit button was inaccessible when many files were attached.
+    - Fixed an issue where the label for password setup during Onboarding was not fully visible.
+    - Fixed an issue where the + button was not tappable when Tella's folders had too many items
+    - Updated the text in Quick Delete settings to say "Delete files" instead of "Delete vault".
+    - Fixed an issue where the menu with the Share and Save to device options only appeared on the second attempt.
+    - Fixed an issue where the back button was not working after viewing a video from the All Files folder.
+    - Made all elements on the homescreen scrollable, do not keep connections and recent files fixed on the top.
+    - Made the play button only play the selection when editing audio and video.
 
 ### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
 
