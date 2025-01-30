@@ -34,7 +34,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 - Implemented limited access to photo gallery.
 - Bug fixes and minor improvements:
     - Changed the text of edit media confirmation message to make it explicit that the file is saved as a copy of the original one.
-    - Changed the edit media screen so that the play button only plays the selection for Edit Audio and Edit Video
+    - Changed the edit media screen so that the play button only plays the selection for Edit Audio and Edit Video.
     - Fixed an issue preventing going back to the previous screen after updating the password/pin in Settings.
     - Fixed an issue on smaller phones (for example iPhone 8) where the Quick Delete confirmation screen didn't fit in the screen.
     - Fixed an issue in Reports where the Submit screen was not scrollable and the Submit button was inaccessible when many files were attached.
