@@ -15,7 +15,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 2.15.0 (197) - Released on January 29, 2025 {#android-tella-2150197---released-on-january-29-2025}
+### Android: Tella 2.15.0 (198) - Released on January 29, 2025 {#android-tella-2150198---released-on-january-29-2025}
 - Added the possibility to zoom on images in the Tella vault.
 - Multiple improvements to the [ODK Connection](/odk):
     - Added File question type to the [supported questions types](/odk#supported-question-types).
@@ -28,12 +28,13 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Updated the text in the Quick Delete settings to say "Delete files" instead of "Delete vault".
 
 
-### iOS: Tella 1.14.0 (89) - Released on Junuary 29, 2025 {#ios-tella-1140-89---released-on-juanuary-29-2025}
+### iOS: Tella 1.14.0 (90) - Released on Junuary 29, 2025 {#ios-tella-1140-90---released-on-juanuary-29-2025}
 - Fixed preview of HEIC files.
 - Added Indonesian language support.
 - Implemented limited access to photo gallery.
 - Bug fixes and minor improvements:
     - Changed the text of edit media confirmation message to make it explicit that the file is saved as a copy of the original one.
+    - Changed the edit media screen so that the play button only plays the selection for Edit Audio and Edit Video
     - Fixed an issue preventing going back to the previous screen after updating the password/pin in Settings.
     - Fixed an issue on smaller phones (for example iPhone 8) where the Quick Delete confirmation screen didn't fit in the screen.
     - Fixed an issue in Reports where the Submit screen was not scrollable and the Submit button was inaccessible when many files were attached.
