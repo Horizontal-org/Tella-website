@@ -68,6 +68,7 @@ Take a look at [this video tutorial](/video-tutorials#connections-full-video) fo
 
 ### Admin center {#admin-center}
 
+#### Configure spaces’ settings {#configure-spaces-settings}
 Admins of the Tella Web space can enable or disable system-wide settings depending on their own risk assessment and privacy consideration:
 - [Opt-in to share analytics with Tella team](/security-and-privacy#analytics).
 - Suspicious login detection: 
@@ -79,6 +80,12 @@ Admins of the Tella Web space can enable or disable system-wide settings dependi
     - When enabled, Tella Web shows a feedback box that allow users to send an anonymous note to the Tella team on any feedback request or bug reports that they might find. It doesn't contain any information about the user or the Tella Web instance.
     - To ensure user privacy and anonymity, only essential data is transmitted to our Feedback server through HTTPS POST requests. Logs containing user information (IP address, date and time, and user-agent) are automatically deleted weekly.
     - On the Feedback server database, we only store a copy of the text sent by users in the feedback form and which platform it came from (in this case from "Tella Web" without specifying which server installation). 
+
+#### Backup your space {#backup-your-space}
+
+Admins of the Tella Web space can export all data out of the Tella Web by generating a Backup. Backups be used to port the data to another location, including a your computer, a pen-drive, an external disk or the cloud.  The action to generate the backup runs in the background and, if enabled, an email notification will be sent to the person who generated the backup when it is ready to download. However, all backups are accessible on the Admin UI to all admins in the space.
+
+For the moment there is not a UI to import the backup back into a Tella Web instance, but we include a .sql file that can be used to import the data to the database directly. 
 
 
 
