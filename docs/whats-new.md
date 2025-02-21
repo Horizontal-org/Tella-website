@@ -49,7 +49,19 @@ To receive monthly updates on new features and improvements to Tella and stay up
 
 ### Android: Tella FOSS 2.11.0 (based on Android 2.11.0) - Released on February 20, 2025 {#android-tella-foss-2110-based-on-android-2110---released-on-february-20-2025}
 
-A version of Tella included for the first time on the F-droid store. This a 100% Free and Open-Source Software (FOSS) version of Tella Android. We changed map and location provider and also changed the Camera library to CameraX, removed crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We removed completely all Google Play Services dependencies.
+We updated the Tella version published on the F-droid store. This a 100% Free and Open-Source Software (FOSS) version of Tella Android. This version includes map, location provider and Camera libraries that are open source. It don't have crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We removed completely all Google Play Services dependencies.
+
+This version is based on Tella Android 2.11.0 and it includes the following features:
+- Added support for [privacy-preserving analytics](/security-and-privacy#analytics). All analytics are disabled by default and opt-in.
+- PDFs can now be opened and viewed directly inside Tella FOSS.
+- Edit media: users can [edit images](/features#edit-media) within Tella's encrypted container
+- Feedback: users can now share [anonymous feedback](/features#feedback), bug reports, or improvement suggestions with the Tella team directly from inside Tella.
+- Added support for the [Tella Web connection](/tella-web), including the ability to download and view resources uploaded by admins.
+- Implemented background encryption so users can continue collecting data, taking photos, videos, and audio, and importing files while the encryption process takes place.
+- Added new accessibility settings.
+- Fixes to improve performance and security.
+
+A detailed version of features by platform is available on the [Features table](/features).
 
 
 
