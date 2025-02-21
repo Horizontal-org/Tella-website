@@ -28,7 +28,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Updated the text in the Quick Delete settings to say "Delete files" instead of "Delete vault".
 
 
-### iOS: Tella 1.14.0 (90) - Released on Junuary 29, 2025 {#ios-tella-1140-90---released-on-juanuary-29-2025}
+### iOS: Tella 1.14.0 (90) - Released on January 29, 2025 {#ios-tella-1140-90---released-on-juanuary-29-2025}
 - Fixed preview of HEIC files.
 - Added Indonesian language support.
 - Implemented limited access to photo gallery.
@@ -46,12 +46,18 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Made all elements on the homescreen scrollable, do not keep connections and recent files fixed on the top.
     - Made the play button only play the selection when editing audio and video.
 
-### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
 
-A version of Tella included for the first time on the F-droid store. This a 100% Free and Open-Source Software (FOSS) version of Tella Android. We removed all trackers, changed map and location provider and also changed the Camera library to CameraX, removed crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We removed completely all Google Play Services dependencies.
+### Android: Tella FOSS 2.11.0 (based on Android 2.11.0) - Released on February 20, 2025 {#android-tella-foss-2110-based-on-android-2110---released-on-february-20-2025}
+
+A version of Tella included for the first time on the F-droid store. This a 100% Free and Open-Source Software (FOSS) version of Tella Android. We changed map and location provider and also changed the Camera library to CameraX, removed crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We removed completely all Google Play Services dependencies.
+
 
 
 ## Previous versions {#previous-versions}
+
+### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
+
+A version of Tella included for the first time on the F-droid store. This a 100% Free and Open-Source Software (FOSS) version of Tella Android. We removed all trackers, changed map and location provider and also changed the Camera library to CameraX, removed crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We removed completely all Google Play Services dependencies.
 
 
 ### Android: Tella 2.14.0 (196) - Released on January 16, 2025 {#android-tella-2140196---released-on-january-16-2025}

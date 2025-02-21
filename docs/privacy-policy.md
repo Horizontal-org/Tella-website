@@ -117,7 +117,7 @@ We do not control these third parties’ tracking technologies or how they may b
 
 If you do not want to download the App through the Google Play store, you can [download an APK directly on this link](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ).
 
-A fully Free and Open Source version of Tella for Android that doesn't contain any closed-source or proprietary library or dependency, and that is free from any trackers can be found on [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
+A fully Free and Open Source version of Tella for Android that doesn't contain any closed-source or proprietary library or dependency can be found on [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/). 
 
 ## 5. How We Use Your Information {#5-how-we-use-your-information}
 
@@ -137,7 +137,7 @@ We may disclose personal information and data that we collect or you provide:
 
 ## 6. Your Choices About Our Collection, Use, and Disclosure of Your Information {#6-your-choices-about-our-collection-use-and-disclosure-of-your-information}
 
-Through the settings menu of the App, you can opt-out of:
+Through the settings menu of the Tella Android and Tella FOSS App, you can opt-out of:
 
 -   Bug reports and default usage analytics.
 -   Metadata collection either in whole or in part by disabling “Verification Mode” in your app settings.
@@ -145,8 +145,6 @@ Through the settings menu of the App, you can opt-out of:
 Through the settings menu of the App, you can opt-in to:
 - Share usage analytics using our privacy-preserving system [Divvi Up](/security-and-privacy#analytics).
 
-
-The FOSS version of Tella available on [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/) does not have any trackers for bug reports or usage analytics.
 
 ## 7. Accessing and Correcting Your Personal Information {#7-accessing-and-correcting-your-personal-information}
 

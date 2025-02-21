@@ -130,10 +130,10 @@ We are in the process of adding the ability to edit media files directly within 
 
 | **Media Type** | **Feature** | **Tella Android** | **Tella iOS** | **Tella FOSS** |
 |----------------|-------------|-------------------|---------------|----------------|
-| Image          | Crop        | ✔️                | ✔️            | Not yet        |
-| Image          | Rotate      | ✔️                | ✔️            | Not yet        |
-| Image          | Flip        | ✔️                | Not yet       | Not yet        |
-| Image          | Auto-zoom        | ✔️                | Not yet       | Not yet        |
+| Image          | Crop        | ✔️                | ✔️            | ✔️             |
+| Image          | Rotate      | ✔️                | ✔️            | ✔️             |
+| Image          | Flip        | ✔️                | Not yet       | ✔️             |
+| Image          | Auto-zoom        | ✔️                | Not yet       | ✔️        |
 | Video          | Trim        | Not yet       | ✔️          | Not yet        |
 | Video          | Rotate      | Not yet       | Soon          | Not yet        |
 | Audio          | Trim        | Not yet           |  ✔️          | Not yet        |
