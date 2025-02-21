@@ -58,8 +58,12 @@ This version is based on Tella Android 2.11.0 and it includes the following feat
 - Feedback: users can now share [anonymous feedback](/features#feedback), bug reports, or improvement suggestions with the Tella team directly from inside Tella.
 - Added support for the [Tella Web connection](/tella-web), including the ability to download and view resources uploaded by admins.
 - Implemented background encryption so users can continue collecting data, taking photos, videos, and audio, and importing files while the encryption process takes place.
+-  Added the possibility to delete the original file from the phone's file system after importing it into Tella.
+- Added support for the relationship property type in the Uwazi connection.
+- New Languages support: Kurdish, Persian and Vietnamese.
 - Added new accessibility settings.
 - Fixes to improve performance and security.
+
 
 A detailed version of features by platform is available on the [Features table](/features).
 
