@@ -28,11 +28,15 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Updated the text in the Quick Delete settings to say "Delete files" instead of "Delete vault".
 
 
-### iOS: Tella 1.14.0 (90) - Released on Junuary 29, 2025 {#ios-tella-1140-90---released-on-juanuary-29-2025}
+### iOS: Tella 1.14.0 (91) - Released on February 24, 2025 {#ios-tella-1140-91---released-on-february-24-2025}
 - Fixed preview of HEIC files.
-- Added Indonesian language support.
+- Added Indonesian, Tsonga and Portuguese(Mozambique) language support.
 - Implemented limited access to photo gallery.
 - Bug fixes and minor improvements:
+    - Fixed Thumbnails for image in recent files (only after editing a image).
+    - Fixed the delete after a number of failed unlocking attempts (for 10 and 20 attempts). The remaining attempts count was not correct.
+    - Remove button to Edit PDF files (not yet supported).
+    - Solved crash on Edit Video (when exiting without choosing to discard or keep the changes).
     - Changed the text of edit media confirmation message to make it explicit that the file is saved as a copy of the original one.
     - Changed the edit media screen so that the play button only plays the selection for Edit Audio and Edit Video.
     - Fixed an issue preventing going back to the previous screen after updating the password/pin in Settings.
