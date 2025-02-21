@@ -238,8 +238,6 @@ Android users can opt-in to share analytics to improve Tella. All information is
 ## Open files in Tella {#open-files-in-tella}
 Images, videos, PDFs and audios can be visualized inside Tella. 📱📄
 
-On Tella FOSS, PDFs must be exported to be opened. 
-
 ## Camouflage {#camouflage}
 
 On Tella Android, it is possible to camouflage Tella in two ways:
