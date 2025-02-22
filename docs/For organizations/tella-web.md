@@ -83,9 +83,9 @@ Admins of the Tella Web space can enable or disable system-wide settings dependi
 
 #### Backup your space {#backup-your-space}
 
-Admins of the Tella Web space can export all data out of the Tella Web by generating a Backup. Backups be used to port the data to another location, including a your computer, a pen-drive, an external disk or the cloud.  The action to generate the backup runs in the background and, if enabled, an email notification will be sent to the person who generated the backup when it is ready to download. However, all backups are accessible on the Admin UI to all admins in the space.
+Admins of the Tella Web space can export all data out of the Tella Web by generating a backup. Backups can be used to port the data to another location, including to your computer, a USB flash drive, an external disk, or a remote server.  The action to generate the backup runs in the background and, if trigger, an email notification will be sent to the person who generated the backup when it is ready to download. However, all backups are accessible on the Admin Center to all admins in the space.
 
-For the moment there is not a UI to import the backup back into a Tella Web instance, but we include a .sql file that can be used to import the data to the database directly. 
+For now, it is not possible to import the backup back into a Tella Web instance from the Admin Center, but each backup includes an .sql file that advanced users can use to import the data to the database directly. 
 
 
 
