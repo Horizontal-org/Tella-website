@@ -137,7 +137,7 @@ We may disclose personal information and data that we collect or you provide:
 
 ## 6. Your Choices About Our Collection, Use, and Disclosure of Your Information {#6-your-choices-about-our-collection-use-and-disclosure-of-your-information}
 
-Through the settings menu of the Tella Android and Tella FOSS App, you can opt-out of:
+Through the settings menu of Tella Android and Tella FOSS, you can opt-out of:
 
 -   Bug reports and default usage analytics.
 -   Metadata collection either in whole or in part by disabling “Verification Mode” in your app settings.
