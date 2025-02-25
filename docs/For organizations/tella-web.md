@@ -68,8 +68,9 @@ Take a look at [this video tutorial](/video-tutorials#connections-full-video) fo
 
 ### Admin center {#admin-center}
 
-#### Configure space settings {#configure-space-settings}
-Admins of the Tella Web instance can enable or disable system-wide settings depending on their own risk assessment and privacy consideration:
+
+#### Configure spaces’ settings {#configure-spaces-settings}
+Admins of the Tella Web space can enable or disable system-wide settings depending on their own risk assessment and privacy consideration:
 - [Opt-in to share analytics with Tella team](/security-and-privacy#analytics).
 - Suspicious login detection: 
     - If enabled Tella Web will record location for each login IP and approximate location based on IP. If the user is connecting from an unusual location Tella Web will block the login attempt to prevent any unauthorized sing-in and send an email to the user to confirm if was a legitimate login attempt. 
