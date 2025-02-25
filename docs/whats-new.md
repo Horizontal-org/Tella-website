@@ -28,6 +28,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Updated the text in the Quick Delete settings to say "Delete files" instead of "Delete vault".
 
 
+
 ### iOS: Tella 1.14.0 (91) - Released on February 24, 2025 {#ios-tella-1140-91---released-on-february-24-2025}
 - Fixed preview of HEIC files.
 - Added Indonesian, Tsonga and Portuguese (Mozambique) language support.
@@ -50,12 +51,33 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Made all elements on the homescreen scrollable, do not keep connections and recent files fixed on the top.
     - Made the play button only play the selection when editing audio and video.
 
-### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
 
-A version of Tella included for the first time on the F-droid store. This a 100% Free and Open-Source Software (FOSS) version of Tella Android. We removed all trackers, changed map and location provider and also changed the Camera library to CameraX, removed crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We removed completely all Google Play Services dependencies.
+### Android: Tella FOSS 2.11.0 (based on Android 2.11.0) - Released on February 25, 2025 {#android-tella-foss-2110-based-on-android-2110---released-on-february-25-2025}
+
+We updated Tella FOSS, the version of Tella published on F-Droid that is 100% Free and Open-Source Software (FOSS). This updated version includes open-source map, location provider and Camera libraries. It doesn't include crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We completely removed all Google Play Services dependencies.
+
+This version is based on Tella Android 2.11.0 and includes the following features:
+- Added support for [privacy-preserving analytics](/security-and-privacy#analytics). All analytics are disabled by default and opt-in.
+- PDFs can now be opened and viewed directly inside Tella FOSS.
+- Edit media: users can [edit images](/features#edit-media) within Tella's encrypted container
+- Feedback: users can now share [anonymous feedback](/features#feedback), bug reports, or improvement suggestions with the Tella team directly from inside Tella.
+- Added support for the [Tella Web connection](/tella-web), including the ability to download and view resources uploaded by admins.
+- Implemented background encryption so users can continue collecting data, taking photos, videos, and audio, and importing files while the encryption process takes place.
+- Added the possibility to delete the original file from the phone's file system after importing it into Tella.
+- Added support for the relationship property type in the Uwazi connection.
+- New Languages support: Kurdish, Persian and Vietnamese.
+- Added new accessibility settings.
+- Fixes to improve performance and security.
+
+A detailed list of features available on each platform is [available here](/features).
+
 
 
 ## Previous versions {#previous-versions}
+
+### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
+
+A version of Tella included for the first time on the F-droid store. This a 100% Free and Open-Source Software (FOSS) version of Tella Android. We removed all trackers, changed map and location provider and also changed the Camera library to CameraX, removed crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We removed completely all Google Play Services dependencies.
 
 
 ### Android: Tella 2.14.0 (196) - Released on January 16, 2025 {#android-tella-2140196---released-on-january-16-2025}

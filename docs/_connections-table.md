@@ -1,7 +1,7 @@
 | **Connection** | **Android**| **iOS** | **Android FOSS** |
 |------|------|-----|-----|
 |Uwazi|✔️|✔️|✔️|
-|Tella Web|✔️|✔️| Soon |
+|Tella Web|✔️|✔️| ✔️ |
 |Open Data Kit (ODK)|✔️|❌|✔️|
 |Google Drive | ✔️ |✔️| Soon|
 |Nextcloud | ✔️ |✔️| Soon|
