@@ -9,7 +9,7 @@ slug: /privacy
 # Tella - Privacy Policy
 
 :::note
-Last updated on 23 July 2024.
+Last updated on 25 February 2025.
 :::
 
 :::info
@@ -137,12 +137,12 @@ We may disclose personal information and data that we collect or you provide:
 
 ## 6. Your Choices About Our Collection, Use, and Disclosure of Your Information {#6-your-choices-about-our-collection-use-and-disclosure-of-your-information}
 
-Through the settings menu of Tella Android and Tella FOSS, you can opt-out of:
+Through the settings menu of Tella Android you can opt-out of:
 
 -   Bug reports and default usage analytics.
 -   Metadata collection either in whole or in part by disabling “Verification Mode” in your app settings.
 
-Through the settings menu of the App, you can opt-in to:
+Through the settings menu of Tella Android and Tella FOSS, you can opt-in to:
 - Share usage analytics using our privacy-preserving system [Divvi Up](/security-and-privacy#analytics).
 
 

@@ -47,7 +47,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Made the play button only play the selection when editing audio and video.
 
 
-### Android: Tella FOSS 2.11.0 (based on Android 2.11.0) - Released on February 20, 2025 {#android-tella-foss-2110-based-on-android-2110---released-on-february-20-2025}
+### Android: Tella FOSS 2.11.0 (based on Android 2.11.0) - Released on February 25, 2025 {#android-tella-foss-2110-based-on-android-2110---released-on-february-25-2025}
 
 We updated Tella FOSS, the version of Tella published on F-Droid that is 100% Free and Open-Source Software (FOSS). This updated version includes open-source map, location provider and Camera libraries. It doesn't include crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We completely removed all Google Play Services dependencies.
 
