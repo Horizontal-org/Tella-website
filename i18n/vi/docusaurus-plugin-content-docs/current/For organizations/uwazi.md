@@ -70,7 +70,9 @@ Văn bản Không định dạng
 | Mối quan hệ | Không | Không | Không |
 | Chọn Một ngày  | ✔️ | ✔️ | ✔️ | 
 | Chọn Nhiều Ngày  | ✔️ | Không | ✔️ | 
-| Liên kết ngoài | ✔️ | Không | ✔️ |
+| Liên kết ngoài | ✔️ | Không | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: |
 | Văn bản Đa định dạng | ✔️ | ✔️ | ✔️ |
 | Phạm vi Ngày đơn và Nhiều ngày | ✔️ | Không | ✔️ |
 | Đính kèm Phương tiện (Hình ảnh, Video, hoặc Âm thanh) | ✔️ | ✔️ | ✔️ |
