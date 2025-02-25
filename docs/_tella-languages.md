@@ -12,7 +12,9 @@
 12. Malayalam
 13. Persian
 14. Portuguese
-15. Russian
-16. Spanish (Latin America)
-17. Tamil
-18. Vietnamese
+15. Portuguese (Mozambique)
+16. Russian
+17. Spanish (Latin America)
+18. Tamil
+19. Tsonga
+20. Vietnamese

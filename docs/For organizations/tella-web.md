@@ -68,6 +68,7 @@ Take a look at [this video tutorial](/video-tutorials#connections-full-video) fo
 
 ### Admin center {#admin-center}
 
+
 #### Configure spaces’ settings {#configure-spaces-settings}
 Admins of the Tella Web space can enable or disable system-wide settings depending on their own risk assessment and privacy consideration:
 - [Opt-in to share analytics with Tella team](/security-and-privacy#analytics).
@@ -83,10 +84,13 @@ Admins of the Tella Web space can enable or disable system-wide settings dependi
 
 #### Backup your space {#backup-your-space}
 
-Admins of the Tella Web space can export all data out of the Tella Web by generating a Backup. Backups be used to port the data to another location, including a your computer, a pen-drive, an external disk or the cloud.  The action to generate the backup runs in the background and, if enabled, an email notification will be sent to the person who generated the backup when it is ready to download. However, all backups are accessible on the Admin UI to all admins in the space.
+Admins of the Tella Web instance can export all data out of Tella Web by generating a backup. Backups can be used to port the data to another location, including a computer, a USB flash drive, an external disk or a remote server.  The action to generate the backup runs in the background and, if triggered, an email notification will be sent to the person who generated the backup when it is ready to download. However, all backups are accessible in the Admin Center to all users with admin access.
 
-For the moment there is not a UI to import the backup back into a Tella Web instance, but we include a .sql file that can be used to import the data to the database directly. 
+The backup is a full export everything in the space: including all Projects, Reports, Users and Resources, plus all metadata. The export is a zip file including a collection of CSVs and folders with with the uploaded media. For now, there is no way to import the backup back into a Tella Web instance from the Admin Center, but each backup includes a .sql file that advanced users can use to import the data to the database directly. 
 
+:::warning
+The information included in the backup is highly sensitive, it not only contains all the data (unencrypted) but also information about the Tella Web users. Please proceed with caution when generating the backup.
+:::
 
 
 ### Managing Projects {#managing-projects}
