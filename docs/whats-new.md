@@ -15,14 +15,21 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 2.15.0 (198) - Released on January 29, 2025 {#android-tella-2150198---released-on-january-29-2025}
+### Android: Tella 2.15.0 (199) - Released on February 26, 2025 {#android-tella-2150199---released-on-february-26-2025}
 - Added the possibility to zoom on images in the Tella vault.
+- Added Tsonga and Portuguese (Mozambique) language support.
+- Fixed an issue that was preventing the photo and video previews to show at the bottom of the camera.
 - Multiple improvements to the [ODK Connection](/odk):
+    - Solved a bug that prevented multiple favorite Forms to be saved.
+    - Added the possibility to attach all files from the Tella vault using the "select all" button on the file selection process. This applies to Photos, Audio, Files and Video questions types on ODK and Uwazi connections.
     - Added File question type to the [supported questions types](/odk#supported-question-types).
     - Solved a crash that happened when recording audio directly from within an ODK form.
     - UX improvements to ODK: unify button styles and removed empty spaces.
     - Implemented refresh button.
 - Bug fixes and minor improvements:
+    - Corrected the button for "Select files from Tella" in all server connections.
+    - Fixed a layout issue that was causing the grid view to brake after going back from file information.
+    - Corrected submission time of reports when uploading to Nextcloud.- 
     - Solved an issue with the phone's back button from the Microphone screen.
     - Do not allow recording an audio when a name is already taken.
     - Updated the text in the Quick Delete settings to say "Delete files" instead of "Delete vault".
@@ -34,6 +41,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 - Added Indonesian, Tsonga and Portuguese (Mozambique) language support.
 - Implemented limited access to photo gallery.
 - Bug fixes and minor improvements:
+    - Fixed the navigation bar that got stuck on file information screen after watching a video.
     - Fixed thumbnails for recently edited images in recent files.
     - Fixed the count of remaining attempts when a user inputs the wrong lock (when the "delete after failed unlock" feature is enabled).
     - Remove the button to edit PDF files (not yet supported).
