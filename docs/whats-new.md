@@ -15,7 +15,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 2.15.0 (199) - Released on February 26, 2025 {#android-tella-2150199---released-on-february-26-2025}
+### Android: Tella 2.15.0 (200) - Released on February 27, 2025 {#android-tella-2150200---released-on-february-27-2025}
 - Added the possibility to zoom on images in the Tella vault.
 - Added Tsonga and Portuguese (Mozambique) language support.
 - Fixed an issue that was preventing the photo and video previews to show at the bottom of the camera.
@@ -28,8 +28,9 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Implemented refresh button.
 - Bug fixes and minor improvements:
     - Corrected the button for "Select files from Tella" in all server connections.
+    - Fixed a problem that was preventing all reports in the outbox to show.
     - Fixed a layout issue that was causing the grid view to brake after going back from file information.
-    - Corrected submission time of reports when uploading to Nextcloud.- 
+    - Corrected submission time of reports when uploading to Nextcloud. 
     - Solved an issue with the phone's back button from the Microphone screen.
     - Do not allow recording an audio when a name is already taken.
     - Updated the text in the Quick Delete settings to say "Delete files" instead of "Delete vault".
