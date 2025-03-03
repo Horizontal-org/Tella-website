@@ -32,39 +32,38 @@ Chúng tôi khuyến nghị dùng ODK cho những tổ chức cần người dù
 
 ODK và KoboToolbox được sử dụng rộng rãi, có tài liệu hướng dẫn đầy đủ và dễ sử dụng. Có các hướng dẫn sẵn có và họ cung cấp hỗ trợ cho các tổ chức phi lợi nhuận về cách cấu trúc và duy trì dữ liệu của mình.
 
-Mô hình dữ liệu của bạn {#model-your-data}
+## Mô hình dữ liệu của bạn {#model-your-data}
 
-## KoboToolbox cung cấp hướng dẫn chi tiết về cách tạo dự án và thêm câu hỏi vào biểu mẫu của bạn cũng như cách triển khai chúng để người dùng tại thực địa có thể sử dụng [tại đây](https://support.kobotoolbox.org/overview_of_creating_a_project.html).
+KoboToolbox cung cấp hướng dẫn chi tiết về cách tạo dự án và thêm câu hỏi vào biểu mẫu của bạn cũng như cách triển khai chúng để người dùng tại thực địa có thể sử dụng [tại đây](https://support.kobotoolbox.org/overview_of_creating_a_project.html).
 
-Kết nối Tella với phiên bản ODK để Thu thập Dữ liệu {#connect-tella-to-an-odk-instance-to-collect-data}
+## Kết nối Tella với phiên bản ODK để Thu thập Dữ liệu {#connect-tella-to-an-odk-instance-to-collect-data}
 
-## Trong tài liệu này, chúng tôi tập trung vào cách thu thập dữ liệu bằng Tella.  Có những ứng dụng di động thay thế có thể sử dụng để thu thập dữ liệu trên ODK, bao gồm cả ứng dụng ODK Collect Android.  Bạn có thể so sánh các lựa chọn thay thế này [tại đây](/faq#how-is-tella-different-from-other-documentation-apps).
+Trong tài liệu này, chúng tôi tập trung vào cách thu thập dữ liệu bằng Tella.  Có những ứng dụng di động thay thế có thể sử dụng để thu thập dữ liệu trên ODK, bao gồm cả ứng dụng ODK Collect Android.  Bạn có thể so sánh các lựa chọn thay thế này [tại đây](/faq#how-is-tella-different-from-other-documentation-apps).
 
 :::info
 Kết nối ODK không có sẵn cho Tella iOS.
 :::
 
-Kết nối với Máy chủ ODK {#connect-to-an-odk-server}
-
-### Sau khi tạo và triển khai Biểu mẫu bằng  bất kỳ máy chủ nào tương thích với ODK, trong Tella, hãy vào **Cài đặt** > **Máy chủ** > **+** > **Bộ Công cụ Dữ liệu mở (ODK)**.  Điền vào các thông tin sau:
-**Tên máy chủ**: Một cái tên mô tả cho máy chủ của bạn trong Tella. Tên mà bạn lựa chọn chỉ hiển thị trong ứng dụng và không ảnh hưởng đến kết nối ODK.
+### Kết nối với Máy chủ ODK {#connect-to-an-odk-server}
+Sau khi tạo và triển khai Biểu mẫu bằng  bất kỳ máy chủ nào tương thích với ODK, trong Tella, hãy vào **Cài đặt** > **Máy chủ** > **+** > **Bộ Công cụ Dữ liệu mở (ODK)**.  Điền vào các thông tin sau:
+- **Tên máy chủ**: Một cái tên mô tả cho máy chủ của bạn trong Tella. Tên mà bạn lựa chọn chỉ hiển thị trong ứng dụng và không ảnh hưởng đến kết nối ODK.
 - **URL máy chủ**: URL máy chủ của bạn.  Ví dụ, `kc.kobotoolbox.org` nếu bạn đang sử dụng máy chủ công cộng KoboToolbox.
-- Nếu máy chủ của bạn yêu cầu xác thực người dùng, hãy nhấn vào nút **Nâng cao** và nhập **Tên người dùng** và **Mật khẩu** của bạn.  Quản trị viên máy chủ của bạn sẽ cung cấp tất cả thông tin này cho bạn.
-Điền biểu mẫu {#fill-forms}
+Nếu máy chủ của bạn yêu cầu xác thực người dùng, hãy nhấn vào nút **Nâng cao** và nhập **Tên người dùng** và **Mật khẩu** của bạn.  Quản trị viên máy chủ của bạn sẽ cung cấp tất cả thông tin này cho bạn.
 
 
-### Sau khi kết nối thành công với phiên bản ODK, bạn sẽ thấy một thẻ mới có tên "Biểu mẫu" trong phần **Kết nối** trên màn hình chính của Tella.
+### Điền biểu mẫu {#fill-forms}
+
+Sau khi kết nối thành công với phiên bản ODK, bạn sẽ thấy một thẻ mới có tên "Biểu mẫu" trong phần **Kết nối** trên màn hình chính của Tella.
 
 Sau khi vào phần **Biểu mẫu**, bạn sẽ thấy danh sách Biểu mẫu có sẵn trên (các) phiên bản mà bạn đã kết nối.  Sử dụng nút **Tải xuống** để tải các biểu mẫu xuống Tella, điều này giúp bạn có thể điền chúng ngay cả khi không kết nối với Internet.
 
 Bạn có thể nhấn vào mỗi biểu mẫu trống để bắt đầu điền vào.
 
-Gửi biểu mẫu {#submit-forms}
 
+#### Gửi biểu mẫu {#submit-forms}
 
-#### Khi bạn thu thập dữ liệu và điền vào biểu mẫu, bạn sẽ có các tùy chọn sau:
-
-Gửi: gửi biểu mẫu đã điền đến máy chủ ODK.
+Khi bạn thu thập dữ liệu và điền vào biểu mẫu, bạn sẽ có các tùy chọn sau:
+- Gửi: gửi biểu mẫu đã điền đến máy chủ ODK.
 - Lưu dưới dạng bản nháp: lưu một biểu mẫu chưa hoàn thành để bạn có thể làm tiếp vào lúc khác.
 - Nộp sau: đánh dấu biểu mẫu là đã hoàn thành để gửi vào một thời điểm khác. Cho đến khi được gửi, nó sẽ có sẵn trong thanh Hộp thư đi.
 - Tab bản nháp: một tap chứa danh sách tất cả các biểu mẫu nháp. Các bản nháp có thể được chỉnh sửa hoặc xóa.
@@ -72,57 +71,54 @@ Gửi: gửi biểu mẫu đã điền đến máy chủ ODK.
 - Tab đã gửi: một tab chứa danh sách tất cả các biểu mẫu đã được gửi thành công đến máy chủ. Các biểu mẫu đã gửi có thể được xóa.
 - Tạm dừng/Tiếp tục gửi: bạn có thể bấm tạm dừng và tiếp tục gửi khi sẵn sàng.
 - Tự động tạm dừng gửi khi ngoại tuyến: các biểu mẫu sẽ được gửi đến tab Hộp thư đi nếu quá trình gửi không thành công do sự cố kết nối.
-- Các Loại Câu hỏi được Hỗ trợ {#supported-question-types}
 
-### Dưới đây là tổng quan về các loại câu hỏi ODK được hỗ trợ trong Tella Android.  Nếu có loại câu hỏi nào không được Tella hỗ trợ  mà điều đó lại quan trọng đối với quy trình làm việc của bạn, vui lòng [liên hệ với chúng tôi](/contact-us).
-**Question type**
+### Các Loại Câu hỏi được Hỗ trợ {#supported-question-types}
+Dưới đây là tổng quan về các loại câu hỏi ODK được hỗ trợ trong Tella Android.  Nếu có loại câu hỏi nào không được Tella hỗ trợ  mà điều đó lại quan trọng đối với quy trình làm việc của bạn, vui lòng [liên hệ với chúng tôi](/contact-us).
 
-| **Tella Android** | Chọn Một | 
+| **Question type** | **Tella Android** | 
 |------|------|
-| ✔️ | Chọn Nhiều |
-| ✔️ | Văn bản |
-| ✔️ | Số / Thập phân |
-| ✔️ | Ngày |
-| ✔️ | Thời gian |
-| ✔️ | Ngày và giờ |
-| Không | Điểm (ước tính vị trí hiện tại của tôi)  |
-| ✔️ | Điểm (hiển thị vị trí của tôi trên bản đồ) |
-| ✔️ | Điểm (hãy để tôi chọn vị trí của mình trên bản đồ) |
-| ✔️ | Line |
-| Không | Khu vực |
-| Không | Hình ảnh |
-| ✔️ | Chữ ký ảnh (chữ ký viết tay của tôi) |
-| ✔️ | Âm thanh |
-| ✔️ | Video |
-| ✔️ | Tệp tin |
-| Không | :::tip Video  tutorial 🎥
-Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
-::: |
-| ✔️ | Mã vạch / Mã QR |
-| Không | Thừa nhận |
-| ✔️ | Đánh giá |
-| ✔️ | Ma trận câu hỏi |
-| Không | Xếp hạng |
-| ✔️ | Đo lường |
-| Không | Ẩn giấu |
-| Không | Phạm vi |
-| Không | XML Bên ngoài |
-| Không | Các Tính năng được Hỗ trợ {#supported-features} |
+| Chọn Một | ✔️ |
+| Chọn Nhiều | ✔️ |
+| Văn bản | ✔️ |
+| Số / Thập phân | ✔️ |
+| Ngày | ✔️ |
+| Thời gian | ✔️ |
+| Ngày và giờ | Không  |
+| Điểm (ước tính vị trí hiện tại của tôi) | ✔️ |
+| Điểm (hiển thị vị trí của tôi trên bản đồ) | ✔️ |
+| Điểm (hãy để tôi chọn vị trí của mình trên bản đồ) | ✔️ |
+| Line | Không |
+| Khu vực | Không |
+| Hình ảnh | ✔️ |
+| Chữ ký ảnh (chữ ký viết tay của tôi) | ✔️ |
+| Âm thanh | ✔️ |
+| Video | ✔️ |
+| Tệp tin | Không |
+| Ghi chú | ✔️ |
+| Mã vạch / Mã QR | Không |
+| Thừa nhận | ✔️ |
+| Đánh giá | ✔️ |
+| Ma trận câu hỏi | Không |
+| Xếp hạng | ✔️ |
+| Đo lường | Không |
+| Ẩn giấu | Không |
+| Phạm vi | Không |
+| XML Bên ngoài | Không |
 
-### Dưới đây là tổng quan các tính năng ODK được hỗ trợ trong Tella Android. Nếu có một tính năng nào đó quan trọng đối với quy trình làm việc của bạn mà chưa được Tella hỗ trợ, vui lòng [liên hệ với chúng tôi](/contact-us).
+### Các Tính năng được Hỗ trợ {#supported-features}
 
-**Feature**
+Dưới đây là tổng quan các tính năng ODK được hỗ trợ trong Tella Android. Nếu có một tính năng nào đó quan trọng đối với quy trình làm việc của bạn mà chưa được Tella hỗ trợ, vui lòng [liên hệ với chúng tôi](/contact-us).
 
-| **Tella Android** | [Thu thập dữ liệu ngoại tuyến](/odk#submit-forms) | 
+| **Feature** | **Tella Android** | 
 |------|------|
-| ✔️ | [Mẫu logic](https://docs.getodk.org/form-logic/) |
-| ❌ | [Yêu cầu phản hồi](https://docs.getodk.org/form-logic/#requiring-responses) |
-| ✔️ | [Cài đặt phản hồi mặc định](https://docs.getodk.org/form-logic/#setting-default-responses) |
-| ❌ | [Kích hoạt tính toán tự động khi thay đổi số liệu](https://docs.getodk.org/form-logic/#triggering-calculations-on-value-change) |
-| ❌ | [Kiểm tra và giới hạn phản hồi](https://docs.getodk.org/form-logic/#validating-and-restricting-responses) |
-| ❌ | [Hiển thị câu hỏi có điều kiện](https://docs.getodk.org/form-logic/#conditionally-showing-questions) |
-| ✔️ | [Nhóm câu hỏi](https://docs.getodk.org/form-logic/#groups-of-questions) |
-| ✔️ | [Câu hỏi lặp lại](https://docs.getodk.org/form-logic/#repeating-questions) |
-| ✔️ | [Lọc đáp án trong câu hỏi lựa chọn](https://docs.getodk.org/form-logic/#filtering-options-in-select-questions) |
-| ✔️ | [Tạo đáp án từ các câu hỏi lặp lại](https://docs.getodk.org/form-logic/#generating-select-ones-from-repeats) |
-| ❌ | Quản lý quyền truy cập vào dự án {#managing-access-to-projects} |
+| [Thu thập dữ liệu ngoại tuyến](/odk#submit-forms) | ✔️ |
+| [Mẫu logic](https://docs.getodk.org/form-logic/) | ❌ |
+| [Yêu cầu phản hồi](https://docs.getodk.org/form-logic/#requiring-responses) | ✔️ |
+| [Cài đặt phản hồi mặc định](https://docs.getodk.org/form-logic/#setting-default-responses) | ❌ |
+| [Kích hoạt tính toán tự động khi thay đổi số liệu](https://docs.getodk.org/form-logic/#triggering-calculations-on-value-change) | ❌ |
+| [Kiểm tra và giới hạn phản hồi](https://docs.getodk.org/form-logic/#validating-and-restricting-responses) | ❌ |
+| [Hiển thị câu hỏi có điều kiện](https://docs.getodk.org/form-logic/#conditionally-showing-questions) | ✔️ |
+| [Nhóm câu hỏi](https://docs.getodk.org/form-logic/#groups-of-questions) | ✔️ |
+| [Câu hỏi lặp lại](https://docs.getodk.org/form-logic/#repeating-questions) | ✔️ |
+| [Lọc đáp án trong câu hỏi lựa chọn](https://docs.getodk.org/form-logic/#filtering-options-in-select-questions) | ✔️ |
+| [Tạo đáp án từ các câu hỏi lặp lại](https://docs.getodk.org/form-logic/#generating-select-ones-from-repeats) | ❌ |
