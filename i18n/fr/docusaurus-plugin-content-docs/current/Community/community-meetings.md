@@ -35,7 +35,7 @@ Vous pouvez rejoindre l'appel via ce lien:[https://meet.jit.si/moderated/72928f9
 Afin de garantir la sécurité de tous les participants, toute personne rejoignant la communauté Tella s'engage à respecter le [Code de conduite d'Horizontal](https://horizontal-org.slite.com/app/docs/E33mV5cWaJhd8x/Horizontal-Code-of-Conduct). Prenez le temps de vous familiariser avec ce code.
 :::
 
-Les runions communautaires Tella sont hébergeés sur l'instance publique de Jitsi Meet. Jitsi n'exige pas d'inscription et ne collecte ni ne conserve de données sur les utilisateurs. Cependant,*<u>*le lien vers la réunion est partagé publiquement et largement**. </u>Si cela est important pour votre sécurité, prenez des précautions pour ne pas dévoiler votre identité  (par exemple, vous pouvez utiliser un pseudonyme) et pour éviter de partager toute information sensible pendant l'appel.
+Les runions communautaires Tella sont hébergeés sur l'instance publique de Jitsi Meet. Jitsi n'exige pas d'inscription et ne collecte ni ne conserve de données sur les utilisateurs. Cependant,**le lien vers la réunion est partagé publiquement et largement**. Si cela est important pour votre sécurité, prenez des précautions pour ne pas dévoiler votre identité  (par exemple, vous pouvez utiliser un pseudonyme) et pour éviter de partager toute information sensible pendant l'appel.
 
 Bien qu'Horizontal puisse prendre des notes sur les conversations, les questions et les commentaires pendant les réunions communautaires, nous n'enregistrerons ni ne partagerons jamais de données personnelles identifiables sur les participants (nom ou organisation) avec qui que ce soit en dehors d'Horizontal.
 
