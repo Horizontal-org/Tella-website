@@ -15,7 +15,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 2.15.0 (200) - Released on February 27, 2025 {#android-tella-2150200---released-on-february-27-2025}
+### Android: Tella 2.15.0 (200) - Released on March 5, 2025 {#android-tella-2150200---released-on-march-5-2025}
 - Added the possibility to zoom on images in the Tella vault.
 - Added Tsonga and Portuguese (Mozambique) language support.
 - Fixed an issue that was preventing the photo and video previews to show at the bottom of the camera.
