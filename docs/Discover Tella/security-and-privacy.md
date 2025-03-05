@@ -36,7 +36,7 @@ As a result of Apple’s strict iOS app policies, Tella for iOS is currently not
 
 ## Analytics {#analytics}
 
-In Tella Android and [Tella Web](/tella-web), users can choose to share analytics to improve Tella. This data helps us understand how people use Tella and which features are important to them. ***Analytics data is only collected if users opt-in in the app's settings***
+In Tella Android, Tella FOSS and [Tella Web](/tella-web), users can choose to share analytics to improve Tella. This data helps us understand how people use Tella and which features are important to them. ***Analytics data is only collected if users opt-in in the app's settings***
 
 We use [Divvi Up](https://divviup.org/), a privacy-respecting telemetry service. Divvi Up is implemented by the [Internet Security Research Group (ISRG)](https://www.abetterinternet.org/), a nonprofit organization that also maintains the [Let’s Encrypt](https://letsencrypt.org/) project. 
 
@@ -46,7 +46,7 @@ Here are some information about our privacy-preserving analytics approach:
 2. **Even if we wanted to, we couldn't get the whole data**: It's not possible to construct the whole data with only one share. Each processor aggregates its data shares into a partial sum. The partial sums can then be combined into a final aggregation, permitting useful statistics over the whole body of data while revealing minimal information about individual participants. Extensive technical documentation about how Divvi Up works can be found [here](https://docs.divviup.org/).
 3. **We collect as little data as possible**: Even though all data is anonymized, we always minimize the amount of data we collect. As of the latest versions of Tella, we only collect data about the following events (and nothing more):
 
-    **Tella Android**
+    **Tella Android and Tella FOSS**
     - Number of times Tella is successfully unlocked.
     - Number of media files recorded (videos/photos taken and audio recordings captured).
     - Number of files imported from the device's gallery or file system into Tella.

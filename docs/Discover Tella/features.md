@@ -50,7 +50,7 @@ If [verification mode](/features#verification-mode) is turned on, background enc
 ## Backup files to a cloud {#backup-files}
 We are in the process of adding options for individuals and organizations to backup their data to different clouds. Backups, for the moment, need to be made manually, by creating reports (using, for example, the date of "today" as the report title) and submitting them to the connected server. Files will be available on the connected server inside a folder with the report title.
 
-For the moment we the following connections. Follow each of the links to find details and step-by-step guides on how to connect and use each of them:
+For the moment we support the following connections. Follow each of the links to find details and step-by-step guides on how to connect and use each of them:
 * [Open Data Kit (ODK)](/odk)
 * [Uwazi](/uwazi)
 * [Tella Web](/tella-web)
@@ -130,10 +130,10 @@ We are in the process of adding the ability to edit media files directly within 
 
 | **Media Type** | **Feature** | **Tella Android** | **Tella iOS** | **Tella FOSS** |
 |----------------|-------------|-------------------|---------------|----------------|
-| Image          | Crop        | ✔️                | ✔️            | Not yet        |
-| Image          | Rotate      | ✔️                | ✔️            | Not yet        |
-| Image          | Flip        | ✔️                | Not yet       | Not yet        |
-| Image          | Auto-zoom        | ✔️                | Not yet       | Not yet        |
+| Image          | Crop        | ✔️                | ✔️            | ✔️             |
+| Image          | Rotate      | ✔️                | ✔️            | ✔️             |
+| Image          | Flip        | ✔️                | Not yet       | ✔️             |
+| Image          | Auto-zoom        | ✔️                | Not yet       | ✔️        |
 | Video          | Trim        | Not yet       | ✔️          | Not yet        |
 | Video          | Rotate      | Not yet       | Soon          | Not yet        |
 | Audio          | Trim        | Not yet           |  ✔️          | Not yet        |
@@ -237,8 +237,6 @@ Android users can opt-in to share analytics to improve Tella. All information is
 
 ## Open files in Tella {#open-files-in-tella}
 Images, videos, PDFs and audios can be visualized inside Tella. 📱📄
-
-On Tella FOSS, PDFs must be exported to be opened. 
 
 ## Camouflage {#camouflage}
 

@@ -102,7 +102,7 @@ Below is an overview of the ODK question types that are supported in Tella Andro
 | Photo signature (handwrite my signature) | ✔️ |
 | Audio | ✔️ |
 | Video | ✔️ |
-| File | No |
+| File | ✔️ |
 | Note | ✔️ |
 | Barcode / QR Code | No |
 | Acknowledge | ✔️ |
