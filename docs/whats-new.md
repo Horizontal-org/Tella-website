@@ -37,7 +37,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 
 
 
-### iOS: Tella 1.14.0 (91) - Released on February 24, 2025 {#ios-tella-1140-91---released-on-february-24-2025}
+### iOS: Tella 1.14.0 (92) - Released on March 6, 2025 {#ios-tella-1140-92---released-on-march-6-2025}
 - Fixed preview of HEIC files.
 - Added Indonesian, Tsonga and Portuguese (Mozambique) language support.
 - Implemented limited access to photo gallery.

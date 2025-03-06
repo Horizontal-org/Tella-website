@@ -8,7 +8,7 @@ slug: /community-meetings
 # Tella community meetings
 
 :::important
-Unfortunately, due to the [funding challenges Horizontal is facing](https://donorbox.org/towards-sustainability), we need to pause tha Tella community meetings.
+Unfortunately, due to the [funding challenges Horizontal is facing](https://donorbox.org/towards-sustainability), we need to pause the Tella community meetings.
 If you have any questions or need support, please [contact us directly](/contact-us).
 :::
 
