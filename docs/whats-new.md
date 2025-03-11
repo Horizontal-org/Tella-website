@@ -14,27 +14,9 @@ To receive monthly updates on new features and improvements to Tella and stay up
 
 ## Tella - Latest Versions {#tella---latest-versions}
 
-
-### Android: Tella 2.15.0 (200) - Released on March 5, 2025 {#android-tella-2150200---released-on-march-5-2025}
-- Added the possibility to zoom on images in the Tella vault.
-- Added Tsonga and Portuguese (Mozambique) language support.
-- Fixed an issue that was preventing the photo and video previews to show at the bottom of the camera.
-- Multiple improvements to the [ODK Connection](/odk):
-    - Solved a bug that prevented multiple favorite Forms to be saved.
-    - Added the possibility to attach all files from the Tella vault using the "select all" button on the file selection process. This applies to Photos, Audio, Files and Video questions types on ODK and Uwazi connections.
-    - Added File question type to the [supported questions types](/odk#supported-question-types).
-    - Solved a crash that happened when recording audio directly from within an ODK form.
-    - UX improvements to ODK: unify button styles and removed empty spaces.
-    - Implemented refresh button.
-- Bug fixes and minor improvements:
-    - Corrected the button for "Select files from Tella" in all server connections.
-    - Fixed a problem that was preventing all reports in the outbox to show.
-    - Fixed a layout issue that was causing the grid view to brake after going back from file information.
-    - Corrected submission time of reports when uploading to Nextcloud. 
-    - Solved an issue with the phone's back button from the Microphone screen.
-    - Do not allow recording an audio when a name is already taken.
-    - Updated the text in the Quick Delete settings to say "Delete files" instead of "Delete vault".
-
+### Android: Tella 2.15.1 (201) - Released on March 10, 2025 {#android-tella-2151201---released-on-march-10-2025}
+- Fixed a bug that caused imports to stop working across the app when the lock timeout was set to 5 minutes.
+- Fixed the favorite form shortcut on the home screen.
 
 
 ### iOS: Tella 1.14.0 (92) - Released on March 6, 2025 {#ios-tella-1140-92---released-on-march-6-2025}
@@ -83,6 +65,26 @@ A detailed list of features available on each platform is [available here](/feat
 
 
 ## Previous versions {#previous-versions}
+
+### Android: Tella 2.15.0 (200) - Released on March 5, 2025 {#android-tella-2150200---released-on-march-5-2025}
+- Added the possibility to zoom on images in the Tella vault.
+- Added Tsonga and Portuguese (Mozambique) language support.
+- Fixed an issue that was preventing the photo and video previews to show at the bottom of the camera.
+- Multiple improvements to the [ODK Connection](/odk):
+    - Solved a bug that prevented multiple favorite Forms to be saved.
+    - Added the possibility to attach all files from the Tella vault using the "select all" button on the file selection process. This applies to Photos, Audio, Files and Video questions types on ODK and Uwazi connections.
+    - Added File question type to the [supported questions types](/odk#supported-question-types).
+    - Solved a crash that happened when recording audio directly from within an ODK form.
+    - UX improvements to ODK: unify button styles and removed empty spaces.
+    - Implemented refresh button.
+- Bug fixes and minor improvements:
+    - Corrected the button for "Select files from Tella" in all server connections.
+    - Fixed a problem that was preventing all reports in the outbox to show.
+    - Fixed a layout issue that was causing the grid view to brake after going back from file information.
+    - Corrected submission time of reports when uploading to Nextcloud. 
+    - Solved an issue with the phone's back button from the Microphone screen.
+    - Do not allow recording an audio when a name is already taken.
+    - Updated the text in the Quick Delete settings to say "Delete files" instead of "Delete vault".
 
 ### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
 
