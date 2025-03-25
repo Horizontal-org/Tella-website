@@ -14,7 +14,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 
 ## Tella - Latest Versions {#tella---latest-versions}
 
-### Android: Tella 2.15.1 (201) - Released on March 10, 2025 {#android-tella-2151201---released-on-march-10-2025}
+### Android: Tella 2.15.1 (202) - Released on March 25, 2025 {#android-tella-2151202---released-on-march-25-2025}
 - Fixed a bug that caused imports to stop working across the app when the lock timeout was set to 5 minutes.
 - Fixed the favorite form shortcut on the home screen.
 
