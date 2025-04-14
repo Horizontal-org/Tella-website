@@ -228,7 +228,7 @@ const config = {
           },
         ],
 
-        copyright: `Tella is a project by <a href="https://wearehorizontal.org/">Horizontal</a>, a registered 501(c)(3) nonprofit – EIN: 83-1782268. </br> This website is licensed under a Creative Commons 4.0 Attribution International License.`,
+        copyright: `Tella is a project by <a href="https://wearehorizontal.org/">Horizontal</a>, a registered 501(c)(3) nonprofit – EIN: 83-1782268. </br> This website is licensed under a MIT License.`,
       },
       prism: {
         theme: lightCodeTheme,
