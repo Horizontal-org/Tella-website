@@ -105,19 +105,36 @@ There is no such thing as an app that is 100% "secure". Security is dependent on
 
 We regularly ask independent security firms to audit our code to ensure it is robust and secure.
 
+Our latest report was done by Radically Open Security on August 2024. [View full report](</assets/2024.08.30-Penetration-Test-Report-Horizontal.pdf>)
+
+### Findings summary
+This is the summary from the latest audit and the status of the vulnerabilities identified:
+
+#### Tella Android
+| Severity   | Status     | Description     | Impact   | Comment |
+|-----------------|----------|-----------------------|-------------| --- |
+| Moderate   | Planning      | The mobile app enables users to modify security settings, such as adjusting the lock timeout and enabling deletion after failed unlock attempts.            | A malicious user can modify the app's security settings without having access to the PIN.  | Modifying security settings requires the app to be unlocked, meaning the user already has access to the most sensitive data (the vault). Adding an additional layer of protection to these settings could hinder usability without significantly improving security. That said, we are considering whether this warrants prioritization based on broader user needs and threat models. |
+| Unknown      | In progress | Tella Android uses dozens of outdated or deprecated dependencies, some of which contain known vulnerabilities.   | Unknown, vulnerable dependencies might impact Tella app security.    | We are working to map which libraries can be updated while maintaining Tella available for older devices | 
+| Low       | Resolved - Pending re-test | The branch structure, release tags, and readme offered on GitHub are confusing and outdated, making it hard to identify and install the most up-to-date version.                 | Users might install an old version or use old code.  | README, Releases tags and branch structure is now updated on every release. |
+| Low      | In progress        | PBKDF2 has limited brute-force resistance against GPUs, and iteration counts used are below recommendations. | Brute-force difficulty is limited.  | We will solve this in the near future. |
+| Low   | Resolved   | The app manifest explicitly disables a protection mechanism against clear-text traffic.    | The app is not prevented from making unencrypted connections, potentially exposing traffic to interception. | Resolved | 
+
+
+#### Tella iOS
+
+| Severity         | Status     | Description     | Impact   | Comment |
+|---------------------|----------|-----------------------|-------------| --- |
+| Moderate  | Planning      | The mobile app enables users to modify security settings, such as adjusting the lock timeout and enabling deletion after failed unlock attempts.            | A malicious user can modify the app's security settings without having access to the PIN.  |  Modifying security settings requires the app to be unlocked, meaning the user already has access to the most sensitive data (the vault). Adding an additional layer of protection to these settings could hinder usability without significantly improving security. That said, we are considering whether this warrants prioritization based on broader user needs and threat models. |
+| Moderate      | Resolved | The iOS app has a webview implementation, however this implementation can be improved by adding some more security checks and controls. | The WebView's settings expose attack surface unnecessarily. | Resolved |
+
+
+
+
+### Past security reports 
+
 | Date | Audited by | Platforms audited    | Link      |
 | -----|----------|----|-----------|
-| May 2024 | Subgraph Technologies, Inc. |  Android, iOS, Tella Web |[View report](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
+| May 2024 | Subgraph Technologies, Inc. |  Android, iOS, Tella Web |[View updated report confirming fixes has been implemented](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
 | May 2023 | Subgraph Technologies, Inc. | Android, iOS, Tella Web |[View report](</assets/2023.05 - Tella security audit - Final report.pdf>)|
 
 
- This is the summary from the latest audit and the status of the vulnerabilities identified:
-
-
-| Title                                               | Severity    | Status      |
-|-----------------------------------------------------|-------------|-------------|
-| Unrestricted Unlock Attempts                        | Medium      | Resolved |
-| Android Cipher Stream I/O Key PBKDF2 Iterations     | Low         | Resolved    |
-| Tella iOS Cleartext Audio Data may Persist Longer  | Low         | Resolved    |
-| Tella Android Outdated Retrofit2 Dependency         | Low         | Resolved    |
-| Tella Android Deprecated Dependency: Butterknife    | Informational| Resolved |
