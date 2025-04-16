@@ -40,7 +40,6 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Fixed an issue where the menu with the Share and Save to device options only appeared on the second attempt.
     - Fixed an issue where the back button was not working after viewing a video from the All Files folder.
     - Made all elements on the homescreen scrollable, do not keep connections and recent files fixed on the top.
-    - Made the play button only play the selection when editing audio and video.
 
 
 ### Android: Tella FOSS 2.11.0 (based on Android 2.11.0) - Released on February 25, 2025 {#android-tella-foss-2110-based-on-android-2110---released-on-february-25-2025}
