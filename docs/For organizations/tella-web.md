@@ -289,11 +289,11 @@ Once you disconnect from a Tella Web project all associated resources will be re
 * Tap the "New report" button at the bottom of the screen to create a new report.
     * On the "New report" screen you can fill in the report's details, including title, description, and optional attachments of photos, videos, pdf documents and audio recordings.
     * If you are connected to multiple Tella Web projects, you will be able to select at the top of the screen which project to submit the report to.
-* Use the "Save draft" button (on the top right of the screen) to save the report as a draft without leaving the "New report" screen. 
+* Use the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft without leaving the "New report" screen. 
     * In order to be able to save as a draft, you need to at least enter the report’s title.
     * A message will appear on the screen to confirm the draft was saved.
-* The "Submit later" button saves the report to the Outbox for manual submission.
-    * The outbox tab is often used when data collectors don’t have access to the internet or if the connection is not stable.
+* The "Submit later" button ⏱️ saves the report to the Outbox for manual submission.
+    * The "Outbox" tab is often used when data collectors don’t have access to the internet or if the connection is not stable.
 * The “Submit” button sends the report to the Tella Web project immediately.
     * If submission fails due to connectivity issues, the report goes to the “Outbox tab”.
     * If the report is submitted correctly, it goes to the “Submitted” tab.
@@ -301,8 +301,11 @@ Once you disconnect from a Tella Web project all associated resources will be re
 
 ####  Draft Reports {#draft-reports}
 
+A Draft report is a saved but not yet submitted entry. Drafts reports are used to save work in progress and being able to edit those later on.  It allows users to record information offline or over time before finalizing and sending it. This is especially useful in low-connectivity areas or when a user needs to gather information in stages.
 
-* On the "New report" screen, tap the "Save draft" button to save the report as a draft.
+Reports on the draft tab can be edited.
+
+* On the "New report" screen, tap the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft.
     * A message confirmation will be displayed, and you can continue working on the report or exit to come back to it later.
 * If you try to exit a report without saving, you will be asked to confirm whether you are sure to exit without saving the report.
 * In the Draft tab, you can view and manage draft reports. Open a draft report to continue working on it and submit it.
@@ -328,7 +331,13 @@ Deleting a report in the middle of submission will cancel the upload of the file
 
 #### Outbox {#outbox}
 
-The Outbox contains reports that have been saved for submission. This could be:
+The Outbox tab contains reports that have been saved for later submission. The outbox tab holds report that are ready to be submitted once the device reconnects to the internet or the user chooses to send them.
+
+Reports on the outbox tab cannot be edited.
+
+To send a report to the Outbox tab, use the Submit later button (⏱️), at the bottom left of the submit report screen. 
+
+Outbox tab holds:
 
 * Paused submissions
 * Report submissions that were interrupted due to connectivity issues.
