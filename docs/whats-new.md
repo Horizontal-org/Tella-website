@@ -18,17 +18,13 @@ To receive monthly updates on new features and improvements to Tella and stay up
 
 ### Android: Tella 2.16.0 (204) - Released on May 21, 2025 {#android-tella-21160204---released-on-may-21-2025}
 - Multiple visual and accessibility improvements:
-    - Updated the text for the “edit media” confirmation to make it clear that the edited file is saved as a copy.
-    - Fixed an issue where changing the English language did not affect translations. As a result of this, the translated percentage for some languages might decrease, but it will be more accurate.
+    - Updated the text of the “edit media” confirmation to make it clear that the edited file is saved as a copy.
     - Resolved a bug where the password cursor appeared in the middle of the input field.
     - The image editing canvas now expands to full screen.
-    - Fixed a visual bug when listening to audio— the navigation bar no longer overlaps with the audio title.
+    - Fixed a visual bug when listening to audio whereby the navigation bar overlapped with the audio title.
     - Display the verification mode icon for audio files.
     - Fixed an issue where the permission to save files to the Phone Gallery had to be granted twice.
     - Added space at the bottom of the file list so the “+” button remains accessible even when many files are present.
-- Maintenance and technical tasks:
-    - Preparatory work for edge-to-edge UI enforcement.
-    - Fixed multiple app crashes.
 - Uwazi connection improvements:
     - Added a “success” message after submitting to Uwazi.
     - Fixed a bug that required users to log in again to Uwazi after updating Tella.
@@ -42,6 +38,10 @@ To receive monthly updates on new features and improvements to Tella and stay up
 - Improved document support:
     - Added thumbnail placeholders for document files.
     - Display all common document types in the Documents folder (e.g., TXT, ODT, DOC, DOCX, XLS, etc.).
+- Maintenance and technical tasks:
+    - Preparatory work for edge-to-edge UI enforcement.
+    - Fixed multiple app crashes.
+    - Fixed an issue where updating English-language strings didn't update translations. As a result of this fix, the translated percentage for some languages might decrease, but it will be more accurate.
 
 
 ### iOS: Tella 1.15.0 (95) - Released on May 20, 2025 {#ios-tella-1150-95---released-on-may-20-2025}
