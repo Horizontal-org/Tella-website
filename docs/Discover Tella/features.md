@@ -139,7 +139,7 @@ We are in the process of adding the ability to edit media files directly within 
 | Audio          | Trim        | Not yet           |  ✔️          | Not yet        |
 
 Users can edit a picture by going to **More** > **Edit** from the **Images** folder or by tapping the **Edit** button on the top right while viewing image you have on Tella. 
-- **Rotate**:  Use the Rotate button on the bottom of the screen to rotate the image counter-clock wise. 
+- **Rotate**:  Use the Rotate button at the bottom of the screen to rotate the image counter-clock wise. 
 - **Crop**: Drap the corners of the white canvas to crop the picture. 
 - **Auto-zoom**: The image will automatically zoom in and out depending on the selected canvas, to avoid loosing image quality.
 - **Flip**: Use the flip buttons to mirror the image horizontally or vertically.
@@ -155,7 +155,7 @@ Current editing options include:
 - **Trim**: Move the vertical orange lines to select the new start and end point of your audio or video. 
 - **Rotate**: Use the Rotate button on the top right of the screen to rotate the video counter-clock wise.
 
-Use the Play button on the bottom to listen to the audio or the Cancel button to start over. When you are done editing the file, use the orange scissors ✂️ icon on the top right to save the trimmed audio or video. The edited file will be saved as a copy of the original file in the same folder.
+Use the Play button at the bottom of the screen to listen to the audio or the Cancel button to start over. When you are done editing the file, use the orange scissors ✂️ icon in the top-right corner to save the trimmed audio or video. The edited file will be saved as a copy of the original file in the same folder.
 
 
 ## Encryption {#encryption}
