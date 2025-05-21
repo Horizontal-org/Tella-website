@@ -26,7 +26,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Show verification mode icon for audio files.
     - Fixed a problem where permission to save files in the Phone Gallery needed to be granted twice.
     - Add space in the bottom of the file's list so that the + button can be pressed easily even when there are are many files. 
-- Maintance and technical tasks
+- Maintenance and technical tasks
     - Preparation work for edge-to-edge enforcement.
     - Fixed multiple crashes.
 - Uwazi connection improvements:
