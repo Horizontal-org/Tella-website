@@ -16,36 +16,35 @@ To receive monthly updates on new features and improvements to Tella and stay up
 
 
 
-### Android: Tella 2.16.0 (204) - Released on May 12, 2025 {#android-tella-21160204---released-on-may-12-2025}
+### Android: Tella 2.16.0 (204) - Released on May 21, 2025 {#android-tella-21160204---released-on-may-21-2025}
 - Multiple visual and accessibility improvements:
-    - Change text for edit media confirmation to make explicit that the edited file is saved as a copy.
-    - Solved issue with translations (changed english language was not impacting translations).
-    - The cursor for password appeared in the middle of the input.
-    - The editing canvas when editing an image now takes the full screen.
-    - Fixed visual bug when listening to an audio - now navigation bar do not overlap with audio name.
-    - Show verification mode icon for audio files.
-    - Fixed a problem where permission to save files in the Phone Gallery needed to be granted twice.
-    - Add space in the bottom of the file's list so that the + button can be pressed easily even when there are are many files. 
-- Maintenance and technical tasks
-    - Preparation work for edge-to-edge enforcement.
-    - Fixed multiple crashes.
+    - Updated the text for the “edit media” confirmation to make it clear that the edited file is saved as a copy.
+    - Fixed an issue where changing the English language did not affect translations. As a result of this, the translated percentage for some languages might decrease, but it will be more accurate.
+    - Resolved a bug where the password cursor appeared in the middle of the input field.
+    - The image editing canvas now expands to full screen.
+    - Fixed a visual bug when listening to audio— the navigation bar no longer overlaps with the audio title.
+    - Display the verification mode icon for audio files.
+    - Fixed an issue where the permission to save files to the Phone Gallery had to be granted twice.
+    - Added space at the bottom of the file list so the “+” button remains accessible even when many files are present.
+- Maintenance and technical tasks:
+    - Preparatory work for edge-to-edge UI enforcement.
+    - Fixed multiple app crashes.
 - Uwazi connection improvements:
-    - Added "success" message for Uwazi submissions.
-    - Fixed a bug that forced users to re-log in to Uwazi after updating Tella.
-    - Show Favorite Uwazi templates on the Homescreen.
-    - Fixed submission when connected to multiple Uwazi servers at the same time.
+    - Added a “success” message after submitting to Uwazi.
+    - Fixed a bug that required users to log in again to Uwazi after updating Tella.
+    - Display favorite Uwazi templates on the home screen.
+    - Fixed a submission issue when connected to multiple Uwazi servers simultaneously.
 - ODK connection improvements:
-    - Improves error message handling for ODK.
-    - Removed auto-focus on all fields.
-    - Form update button always visible for the ODK connection.
+    - Improved error message handling for ODK.
+    - Removed auto-focus from all fields.
+    - The form update button is now always visible for the ODK connection.
 - New language support: Ndau.
-- Better support for documents:
-    - Added thumbnail placeholder for Document files.
-    - Show all document types in the document folder (txt, odt, doc, docx, xls, etc).
+- Improved document support:
+    - Added thumbnail placeholders for document files.
+    - Display all common document types in the Documents folder (e.g., TXT, ODT, DOC, DOCX, XLS, etc.).
 
 
-
-### iOS: Tella 1.15.0 (94) - Released on May 15, 2025 {#ios-tella-1150-94---released-on-may-15-2025}
+### iOS: Tella 1.15.0 (95) - Released on May 20, 2025 {#ios-tella-1150-95---released-on-may-20-2025}
 - New language support: Ndau.
 - Implemented Rotate Video.
 - Make Play button only play the selection while editing Audio or Video.
