@@ -75,9 +75,9 @@ For now, it is not possible to sign in to multiple Google accounts at the same t
 
 ##  Draft Reports {#draft-reports}
 
-A Draft report is a saved but not yet submitted entry. Drafts reports are used to save work in progress and being able to edit those later on.  It allows users to record information offline or over time before finalizing and sending it. This is especially useful in low-connectivity areas or when a user needs to gather information in stages.
+A Draft report is a report that was created and saved but not yet submitted. Drafts reports are useful to save work in progress that can be editted later on. It allows users to create reports offline or over a long period of time before finalizing and sending them. This is especially useful in low-connectivity areas or when a user needs to gather information in multiple stages.
 
-Reports on the draft tab can be edited.
+Reports in the Draft tab can be edited.
 
 * On the "New report" screen, tap the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft.
     * A message confirmation will be displayed, and you can continue working on the report or exit to come back to it later.
@@ -105,13 +105,13 @@ Deleting a report in the middle of submission will cancel the upload of the file
 
 #### Outbox {#outbox}
 
-The Outbox tab contains reports that have been saved for later submission. The outbox tab holds report that are ready to be submitted once the device reconnects to the internet or the user chooses to send them.
+The Outbox tab contains reports that are finalized and have been saved for later submission. Reports in the Outbox are ready to be submitted once the device reconnects to the internet or when the user chooses to manually send them.
 
-Reports on the outbox tab cannot be edited.
+Reports in the Outbox tab cannot be edited.
 
-To send a report to the Outbox tab, use the Submit later button (⏱️), at the bottom left of the submit report screen. 
+To send a report to the Outbox, use the Submit later button (⏱️), at the bottom left of the Submit Report screen. 
 
-Outbox tab holds:
+The Outbox contains:
 
 * Paused submissions
 * Report submissions that were interrupted due to connectivity issues.
