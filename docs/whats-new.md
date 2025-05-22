@@ -14,10 +14,65 @@ To receive monthly updates on new features and improvements to Tella and stay up
 
 ## Tella - Latest Versions {#tella---latest-versions}
 
-### Android: Tella 2.15.1 (202) - Released on March 25, 2025 {#android-tella-2151202---released-on-march-25-2025}
-- Fixed a bug that caused imports to stop working across the app when the lock timeout was set to 5 minutes.
-- Fixed the favorite form shortcut on the home screen.
 
+
+### Android: Tella 2.16.0 (204) - Released on May 21, 2025 {#android-tella-21160204---released-on-may-21-2025}
+- Multiple visual and accessibility improvements:
+    - Updated the text of the “edit media” confirmation to make it clear that the edited file is saved as a copy.
+    - Resolved a bug where the password cursor appeared in the middle of the input field.
+    - The image editing canvas now expands to full screen.
+    - Fixed a visual bug when listening to audio whereby the navigation bar overlapped with the audio title.
+    - Display the verification mode icon for audio files.
+    - Fixed an issue where the permission to save files to the Phone Gallery had to be granted twice.
+    - Added space at the bottom of the file list so the “+” button remains accessible even when many files are present.
+- Uwazi connection improvements:
+    - Added a “success” message after submitting to Uwazi.
+    - Fixed a bug that required users to log in again to Uwazi after updating Tella.
+    - Display favorite Uwazi templates on the home screen.
+    - Fixed a submission issue when connected to multiple Uwazi servers simultaneously.
+- ODK connection improvements:
+    - Improved error message handling for ODK.
+    - Removed auto-focus from all fields.
+    - The form update button is now always visible for the ODK connection.
+- New language support: Ndau.
+- Improved document support:
+    - Added thumbnail placeholders for document files.
+    - Display all common document types in the Documents folder (e.g., TXT, ODT, DOC, DOCX, XLS, etc.).
+- Maintenance and technical tasks:
+    - Preparatory work for edge-to-edge UI enforcement.
+    - Fixed multiple app crashes.
+    - Fixed an issue where updating English-language strings didn't update translations. As a result of this fix, the translated percentage for some languages might decrease, but it will be more accurate.
+
+
+### iOS: Tella 1.15.0 (95) - Released on May 20, 2025 {#ios-tella-1150-95---released-on-may-20-2025}
+- New language support: Ndau.
+- Implemented Rotate Video.
+- Make Play button only play the selection while editing Audio or Video.
+- Bug fixes and minor improvements:
+    - Removed duplicated navigation bar for documents.
+
+### Android: Tella FOSS 2.11.0 (based on Android 2.11.0) - Released on February 25, 2025 {#android-tella-foss-2110-based-on-android-2110---released-on-february-25-2025}
+
+We updated Tella FOSS, the version of Tella published on F-Droid that is 100% Free and Open-Source Software (FOSS). This updated version includes open-source map, location provider and Camera libraries. It doesn't include crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We completely removed all Google Play Services dependencies.
+
+This version is based on Tella Android 2.11.0 and includes the following features:
+- Added support for [privacy-preserving analytics](/security-and-privacy#analytics). All analytics are disabled by default and opt-in.
+- PDFs can now be opened and viewed directly inside Tella FOSS.
+- Edit media: users can [edit images](/features#edit-media) within Tella's encrypted container
+- Feedback: users can now share [anonymous feedback](/features#feedback), bug reports, or improvement suggestions with the Tella team directly from inside Tella.
+- Added support for the [Tella Web connection](/tella-web), including the ability to download and view resources uploaded by admins.
+- Implemented background encryption so users can continue collecting data, taking photos, videos, and audio, and importing files while the encryption process takes place.
+- Added the possibility to delete the original file from the phone's file system after importing it into Tella.
+- Added support for the relationship property type in the Uwazi connection.
+- New Languages support: Kurdish, Persian and Vietnamese.
+- Added new accessibility settings.
+- Fixes to improve performance and security.
+
+A detailed list of features available on each platform is [available here](/features).
+
+
+
+## Previous versions {#previous-versions}
 
 ### iOS: Tella 1.14.0 (92) - Released on March 6, 2025 {#ios-tella-1140-92---released-on-march-6-2025}
 - Fixed preview of HEIC files.
@@ -43,28 +98,9 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Made the play button only play the selection when editing audio and video.
 
 
-### Android: Tella FOSS 2.11.0 (based on Android 2.11.0) - Released on February 25, 2025 {#android-tella-foss-2110-based-on-android-2110---released-on-february-25-2025}
-
-We updated Tella FOSS, the version of Tella published on F-Droid that is 100% Free and Open-Source Software (FOSS). This updated version includes open-source map, location provider and Camera libraries. It doesn't include crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We completely removed all Google Play Services dependencies.
-
-This version is based on Tella Android 2.11.0 and includes the following features:
-- Added support for [privacy-preserving analytics](/security-and-privacy#analytics). All analytics are disabled by default and opt-in.
-- PDFs can now be opened and viewed directly inside Tella FOSS.
-- Edit media: users can [edit images](/features#edit-media) within Tella's encrypted container
-- Feedback: users can now share [anonymous feedback](/features#feedback), bug reports, or improvement suggestions with the Tella team directly from inside Tella.
-- Added support for the [Tella Web connection](/tella-web), including the ability to download and view resources uploaded by admins.
-- Implemented background encryption so users can continue collecting data, taking photos, videos, and audio, and importing files while the encryption process takes place.
-- Added the possibility to delete the original file from the phone's file system after importing it into Tella.
-- Added support for the relationship property type in the Uwazi connection.
-- New Languages support: Kurdish, Persian and Vietnamese.
-- Added new accessibility settings.
-- Fixes to improve performance and security.
-
-A detailed list of features available on each platform is [available here](/features).
-
-
-
-## Previous versions {#previous-versions}
+### Android: Tella 2.15.1 (202) - Released on March 25, 2025 {#android-tella-2151202---released-on-march-25-2025}
+- Fixed a bug that caused imports to stop working across the app when the lock timeout was set to 5 minutes.
+- Fixed the favorite form shortcut on the home screen.
 
 ### Android: Tella 2.15.0 (200) - Released on March 5, 2025 {#android-tella-2150200---released-on-march-5-2025}
 - Added the possibility to zoom on images in the Tella vault.
