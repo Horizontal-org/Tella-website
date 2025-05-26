@@ -8,7 +8,7 @@
 |[Camera silent mode](/features#camera-silent-mode)| ✔️| Not yet| ✔️ |
 | [Screen Security](/features#screen-security)| ✔️| ✔️| ✔️ |
 | [Restrict unlocking attempts](features#restrict-unlocking-attempts)| ✔️| ✔️|  ✔️ |
-| [Edit Media](/features#edit-media)| Crop, Rotate, Flip and Zoom Photos| Crop and Rotate Photos, Trim Audio and Videos| Crop, Rotate, Flip and Zoom Photos |
+| [Edit Media](/features#edit-media)| Crop, Rotate, Flip and Zoom Photos| Crop and Rotate Photos, Trim Audio and Videos, Rotate Video| Crop, Rotate, Flip and Zoom Photos |
 | [Encryption](/features#encryption)| ✔️| ✔️| ✔️ |
 | [Encrypted file management](/features#file-management)| ✔️ | ✔️ | ✔️ |
 | [Feedback](/features#feedback) | ✔️ | ✔️ | ✔️ |

@@ -10,11 +10,12 @@
 10. Karen Sgaw
 11. Kurdish
 12. Malayalam
-13. Persian
-14. Portuguese
-15. Portuguese (Mozambique)
-16. Russian
-17. Spanish (Latin America)
-18. Tamil
-19. Tsonga
-20. Vietnamese
+13. Ndau
+14. Persian
+15. Portuguese
+16. Portuguese (Mozambique)
+17. Russian
+18. Spanish (Latin America)
+19. Tamil
+20. Tsonga
+21. Vietnamese
