@@ -16,7 +16,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 
 
 
-### Android: Tella 2.16.0 (204) - Released on May 21, 2025 {#android-tella-21160204---released-on-may-21-2025}
+### Android: Tella 2.16.0 (204) - Released on May 26, 2025 {#android-tella-21160204---released-on-may-26-2025}
 - Multiple visual and accessibility improvements:
     - Updated the text of the “edit media” confirmation to make it clear that the edited file is saved as a copy.
     - Resolved a bug where the password cursor appeared in the middle of the input field.
