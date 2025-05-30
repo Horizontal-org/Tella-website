@@ -1,0 +1,119 @@
+{
+  "version": "v1.0.0",
+  "entity": {
+    "type": "organisation",
+    "role": "owner",
+    "name": "Horizontal",
+    "email": "contact@wearehorizontal.org",
+    "description": "Horizontal supports frontline defenders, activists and journalists through digital security and tool development. \n\nWe empower grassroots communities to use technology effectively and to operate safely from surveillance, censorship and repression.\n\nHorizontal is a registered 501(c)(3) nonprofit",
+    "webpageUrl": {
+      "url": "https://wearehorizontal.org/",
+      "wellKnown": "https://tella-app.org/"
+    }
+  },
+  "projects": [
+    {
+      "guid": "tella-android",
+      "name": "Tella Android",
+      "description": "Tella for Android is a secure mobile app built to help activists, journalists, and human rights defenders, and people in general, to safely capture and organize sensitive data in high-risk environments. It includes features like encrypted photo, video, and audio capture, a hidden gallery, camouflage mode to disguise the app, and quick delete for rapid data removal. Users can structure data in folders, and share information with tools like Tella Web, ODK, Uwazi, Google Drive, Nextcloud, or Dropbox, and collect verifiable metadata for documentation integrity. \n\nTella Android has over 22,000 monthly active users in countries like India, Nigeria, Myanmar, and many others. Tella is available in 21 languages.\n\n",
+      "webpageUrl": {
+        "url": "https://tella-app.org/"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/Horizontal-org/Tella-Android"
+      },
+      "licenses": [
+        "Apache-2.0 license"
+      ],
+      "tags": [
+        "app",
+        "android",
+        "mobile",
+        "security",
+        "privacy",
+        "documentation",
+        "communication",
+        "data",
+        "human-rights",
+        "encryption",
+        "privacy",
+        "offline"
+      ]
+    },
+    {
+      "guid": "tella-ios",
+      "name": "Tella iOS",
+      "description": "Tella for iOS offers a seamless way to securely capture, store, and back up sensitive media on Apple devices. It provides encrypted photos, videos, audio, and file imports stored in a hidden vault, with background encryption, media editing, and syncing to services like Google Drive, Uwazi, and Tella Web. The app maintains strong usability and protection standards.",
+      "webpageUrl": {
+        "url": "https://tella-app.org/"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/Horizontal-org/Tella-iOS"
+      },
+      "licenses": [
+        "MIT License"
+      ],
+      "tags": [
+        "app",
+        "ios",
+        "mobile",
+        "security",
+        "privacy",
+        "documentation",
+        "communication",
+        "data",
+        "human-rights",
+        "encryption",
+        "privacy",
+        "offline"
+      ]
+    },
+    {
+      "guid": "tella-foss",
+      "name": "Tella FOSS",
+      "description": "Tella FOSS is the fully Free and Open Source version of Tella for Android that doesn't contain any closed-source or proprietary library or dependency. It includes all core features—secure media capture, encrypted storage, camouflage mode, file organization, and integration with open platforms like ODK and Tella Web. \n\nWe are in the process of merging Tella Android and Tella FOSS into a single codebase.",
+      "webpageUrl": {
+        "url": "https://f-droid.org/packages/org.hzontal.tellaFOSS/"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/Horizontal-org/Tella-Android-FOSS"
+      },
+      "licenses": [
+        "Apache License 2.0"
+      ],
+      "tags": [
+        "android",
+        "mobile",
+        "security",
+        "privacy",
+        "documentation",
+        "cryptography",
+        "communication"
+      ]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "donorbox",
+        "type": "payment-provider",
+        "description": "Over the past 5 years, Horizontal has built tools to support those who are most at-risk of surveillance, censorship, and repression: journalists, activists, human rights defenders, indigenous folks, LGBTQ communities. Now, the Trump administration’s funding freeze is threatening to destroy everything we’ve built: the organization, the tools, the community. As we pivot to new forms of revenue to become a self-sustaining organization, we are looking for support to ensure Horizontal survives and continues to support our community. We are looking for 250 donors to support us with a monthly donation. Join us now! https://donorbox.org/towards-sustainability"
+      }
+    ],
+    "plans": [
+      {
+        "guid": "donorbox",
+        "status": "active",
+        "name": "Support Tella",
+        "description": "If 1000 donors pledge $30 per month, we will be able to go further and develop new security and privacy features to continue make our users ever safer. We will continue providing training and support to those on the front-lines. And we will be able to take the time to develop alternative sources of funding to become self-sufficient.",
+        "amount": 30,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "donorbox"
+        ]
+      }
+    ],
+    "history": []
+  }
+}
