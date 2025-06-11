@@ -7,7 +7,7 @@ slug: /get-started-android
 
 # Começando no Tella para Android
 
-## Baixar e instalar o Tella {#download-and-install-tella}
+## Baixe e instale o Tella {#download-and-install-tella}
 
 Você possui diversas opções para baixar o Tella:
 - Siga [este link](https://play.google.com/store/apps/details?id=org.hzontal.tella&hl=en&gl=US&pli=1) para encontrar o Tella na Google Play Store ou abrir a Google Play Store e buscar por “Tella”.
@@ -16,8 +16,8 @@ Você possui diversas opções para baixar o Tella:
 
 Se você precisa de ajuda para instalar o aplicativo manualmente, pode [seguir este guia](/video-tutorials#manual-installation-of-tella) ou [entrar em contato conosco](/contact-us).
 
-<div class="gifs">
-    <img src={require("@site/static/img/getting-started/android/find-tella.gif").default} alt="gif that shows how to download Tella from the Play Store" title="find and download gif" />
+<div className="gifs">
+    <img src={require('@site/static/img/getting-started/android/find-tella.gif').default} alt="gif that shows how to download Tella from the Play Store" title="find and download gif" />
 </div>
 
 
@@ -45,7 +45,7 @@ Ao usar cada funcionalidade pela primeira vez, será solicitado que você conced
 
 Se você recusar conceder essas permissões ao Tella, pode fazê-lo mais tarde acessando as configuraçĩes do Android e navegando por Configurações > Aplicativos > Tella > Permissões do aplicativo.
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/android/permissions.gif").default} alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
     <img src={require("@site/static/img/getting-started/android/permissions-change.gif").default} alt="gif that shows how to chage granted permissions on Tella" title="change the granted permission" />
 </div>
@@ -57,7 +57,7 @@ Depois de conceder permissões, você está pronto para iniciar a coleta de docu
 
 **Use a Câmera para tirar fotos ou capturar vídeos e o Gravador de Áudio para gravar áudio.** Todas as mídias capturadas pelo Tella serão criptografadas instantaneamente, o que significa que o arquivo não será acessível fora do Tella. Toda a mídia coletada dentro do Tella não será exibida na galeria ou nos arquivos do seu telefone. Não há um limite específico de armazenamento para o Tella, o espaço disponível dependerá do espaço disponível no seu dispositivo.
 
-<div class="gifs">
+<div className="gifs">
   <img src={require("@site/static/img/getting-started/android/picture.gif").default} alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
   <img src={require("@site/static/img/getting-started/android/video.gif").default} alt="gif that shows how to record a video in Tella" title="video recording in Tella" />
   <img src={require("@site/static/img/getting-started/android/audio.gif").default} alt="gif that shows how to record audio in Tella" title="audio recording in Tella" />
@@ -65,9 +65,9 @@ Depois de conceder permissões, você está pronto para iniciar a coleta de docu
 
 
 
-**Importe seus arquivos para o Tella.** Acesse qualquer das pastas dentro do Tella e toque no Botão **+** > **Importar de dispositivo**. Escolha o arquivo que deseja manter dentro do Tella e uma cópia dele será armazenada de forma criptografada e oculta no Tella. Será solicitado que você escolha se quer excluir ou manter o arquivo original do seu dispositivo. O Tella será desbloqueado enquanto você escolhe seus arquivos por um máximo de três (3) minutos.
+**Importe seus arquivos para o Tella.** Acesse qualquer das pastas dentro do Tella e toque no Botão **+** > **Importar de dispositivo**. Escolha o arquivo que deseja manter dentro do Tella e uma cópia dele será armazenada de forma criptografada e oculta no Tella. Será solicitado que você escolha se quer excluir ou manter o arquivo original do seu dispositivo. O Tella ficará desbloqueado enquanto você escolhe seus arquivos por um máximo de três (3) minutos.
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/android/import.gif").default} alt="gif that shows how to import files in Tella" title="import files in Tella" />
 </div>
 
@@ -75,7 +75,7 @@ Depois de conceder permissões, você está pronto para iniciar a coleta de docu
 
 **Crie pastas.** Para tornar mais fácil encontrar seus arquivos, você pode organizá-los em pastas. Acesse **Todos os arquivos** > **+** > **Criar uma nova pasta** e digite um nome descritivo para a pasta. Depois, use o botão Selecionar múltiplos localizado no topo da tela, escolha os arquivos que você deseja mover para a nova pasta e então clique no botão com três (3) pontos e Mover para uma pasta diferente. Navegue a estrutura de arquivos para encontrar a pasta e pressione Mover aqui.
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/android/folders-rename.gif").default} alt="gif that shows how to organize your info in Tella" title="organize files in Tella" />
 </div>
 
@@ -90,7 +90,7 @@ Depois de conceder permissões, você está pronto para iniciar a coleta de docu
 - Você pode ocultar o Tella por trás de uma calculadora totalmente funcional. Nós desenvolvemos 4 temas diferentes para corresponder ao tema padrão do seu telefone e auxiliar a ocultar o Tella. Para conseguir abrir o Tella, o usuário deve inserir seu PIN na calculadora, seguido de **=**. A camuflagem da Calculadora só é possível se o usuário usa um bloqueio com PIN. Não é possível camuflar o Tella como uma Calculadora caso um padrão ou uma senha esteja sendo usada.
 Leia mais sobre Camuflagem [aqui](/features#camouflage).
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/android/camouflage-icon.gif").default} alt="gif that shows how camouflage Tella by changing its name and icon" title="camouflage Tella changing its icon" />
     <img src={require("@site/static/img/getting-started/android/camouflage-calc.gif").default} alt="gif that shows how camouflage Tella behind a calculator" title="camouflage Tella with a calculator" />
 </div>
@@ -102,7 +102,7 @@ Para compartilhar informações usando o Tella, você pode usar o botão **Compa
 
 Leve em consideração que o Tella compartilhará os arquivos de forma não criptografada. Então, certifique-se de usar mensagens temporárias (por exemplo, no Whatsapp ou no Signal) ou apagar as mensagens após a outra pessoa recebê-las.
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/android/share.gif").default} alt="gif that shows how to share information" title="share information with third party apps" />
 </div>
 
@@ -121,7 +121,7 @@ O [Open Data Kit (ODK)](https://getodk.org/) é um padrão aberto usado para cri
 Nós escrevemos uma documentação sobre como se conectar a um servidor Open Data Kit e recomendamos que você leia [esta página](/odk) para começar.
 
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/android/kobo.gif").default} alt="gif that shows ODK connection" title="ODK connection" />
 </div>
 
@@ -130,14 +130,23 @@ Nós escrevemos uma documentação sobre como se conectar a um servidor Open Dat
 
 Nós escrevemos uma documentação sobre como se conectar a um servidor Uwazi e recomendamos que você leia [esta página](/uwazi) para começar.
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/android/uwazi.gif").default} alt="gif that shows Uwazi connection" title="Uwazi connection" />
 </div>
 
 #### Tella Web {#tella-web}
-Tella Web é uma ferramenta de código aberto que permite a indivíduos e organizações centralizar e gerenciar relatórios enviados por usuários do Tella, incluindo fotos, vídeos e arquivos de áudio.
+O Tella Web é uma ferramenta de código aberto que permite a indivíduos e organizações centralizar e gerenciar relatórios enviados por usuários do Tella, incluídos fotos, vídeos e arquivos de áudio.
 
 Leia mais sobre o Tella Web [aqui](/tella-web) ou veja um [tutorial em vídeo](/video-tutorials#tella-web).
+
+#### Nextcloud, Dropbox and Google Drive {#nextcloud-dropbox-and-google-drive}
+Users can also connect to their Google, Dropbox or Nextcloud organizational or personal accounts in order to submit reports (audio, photos, videos and text) directly from Tella. They won't need the Dropbox, Google Drive or Nextcloud apps on their phones and won't need to use any third party apps.
+
+Read more:
+- [Google Drive Connection](/g-drive).
+- [Nextcloud Connection](/nextcloud).
+- [Dropbox Connection](/dropbox).
+
 
 
 
