@@ -5,32 +5,41 @@ description: A conexão do servidor Open Data Kit está disponível para organiz
 slug: /odk
 ---
 
-# Open Data Kit (ODK)
+# Open Data Kit (ODK) Connection
 
 O [Open Data Kit (ODK)](https://getodk.org/) é um padrão aberto usado para criar formulários personalizados e coletar dados.
 
 Um servidor Open Data Kit permite que organizações agreguem, em um repositório central, dados coletados por seus membros ou parceiros. Os usuários do Tella conectam-se à instância ODK de suas organizações, preenchem formulários quantas vezes precisarem (mesmo que não possuam conectividade de internet) e carregam os dados. Organizações podem baixar os dados do servidor ou analisá-los no servidor, a depender das alternativas de servidor escolhidas.
 
-Similarmente a qualquer outra conexão com o servidor (como o [Tella Web](/tella-web) ou o [Uwazi](/uwazi)), conectar-se ao servidor ODK aumenta a segurança dos dados coletados no Tella por:
+Similarly to any other server connection (like [Tella Web](/tella-web), [Google Drive](/g-drive), [Dropbox](/dropbox), [Nextcloud](/nextcloud) or [Uwazi](/uwazi)), connecting to the ODK server enhances the security of data collected on Tella by:
 
-1. Permitir que usuários coletem dados diretamente dentro do contêiner criptografado do Tella.
+1. Permitir aos usuários coletar dados diretamente de dentro do contêiner criptografado do Tella.
 2. Assegurar que os dados sejam enviados diretamente do Tella para o servidor ODK, sem depender de ferramentas ou aplicativos de terceiros.
-3. Permitir que usuários realizem backup de seus dados em um servidor remoto, para diminuir o risco de os dados serem descobertos em seus dispositivos móveis.
+3. Permitir aos usuários realizar backup de seus dados em um servidor remoto, para diminuir o risco de os dados serem descobertos em seus dispositivos móveis. 
 4. Assegurar que as organizações possam preservar informações importantes, mesmo no caso de apreensão ou destruição de dispositivo, e possam organizá-las para uso em processos de pesquisa, advocacia pública ou processos de responsabilização.
 
-### Escolhendo e Instalando o Seu Servidor Central ODK {#choosing-and-installing-your-odk-central-server}
+### Choosing and Installing Your ODK Server {#choosing-and-installing-your-odk-server}
 
 Porque o ODK é um padrão aberto, o Tella pode ser usado com quaisquer ferramentas em conformidade com o ODK.
 
-Para organizações da sociedade civil e defensores dos direitos humanos, recomendamos usar o [KoboToolbox](https://www.kobotoolbox.org/) para criar formulários com perguntas personalizadas, gerenciar usuários e agregar os dados submetidos pelos usuários. Baseado em nossa expriência, o KoboToolbox é amigável ao usuário e flexível, além de ser de código aberto. O KoboToolbox oferece um [servidor público gratuito](https://kf.kobotoolbox.org/accounts/login/) para organizações sem fins governamentais e oferece suporte a elas com treinamento e orientação sobre como estruturar os dados no servidor. Também é possível [usar uma instância privada do KoboToolbox](https://www.kobotoolbox.org/services/private-servers/) ou a [auto-hospedagem](https://support.kobotoolbox.org/kobo_your_servers.html).
+For civil society organizations and human rights defenders, we recommend using [KoboToolbox](https://www.kobotoolbox.org/) to create forms with custom questions, manage users, and aggregate the data submitted by users. Based on our experience, KoboToolbox is user-friendly and flexible, and it is also open source. KoboToolbox offers a [community plan for non-profits](https://www.kobotoolbox.org/pricing/) and offer free training resources and guidance on how to structure the data on the server (Self-serve learning base and Community Forum). It is also possible [to use a private instance of KoboToolbox](https://www.kobotoolbox.org/services/private-servers/) or [self-host it](https://support.kobotoolbox.org/kobo_your_servers.html).
 
-Existem outros aplicativos disponíveis e em conformidade com o ODK, como o [Ona](https://ona.io/home/) ou o [ODK Cloud](https://https://getodk.org/index.html). O Tella funciona com qualquer um desses. Se você precisar de ajuda, [entre em contato conosco](contact-us) para que possamos auxiliar você a selecionar o melhor servidor para o seu caso de uso.
+:::tip
+We are work closely with the Kobotoolbox team. If you are interested in using the Tella-KoboToolbox connection and would like some support or to discuss the best hosting plan for your use case, please [contact us](/contact-us). 
+:::
+
+There are other ODK-compliant apps available, like [Ona](https://ona.io/home/) or [ODK Cloud](https://https://getodk.org/index.html). Tella works with any of these. 
+
 
 ### Quando Usar o ODK {#when-to-use-odk}
 
-Recomendamos o ODK para organizações que precisam que usuários em seus locais de atuação coletem dados de uma maneira estruturada como através de formulários. Também o recomendamos para organizações que não possuem a capacidade técnica para instalar e manter um servidor e desejam uma instância em nuvem pronta para usar. Se você usa uma instância em nuvem, lembre-se de que a organização hospedeira da sua instância ODK terá acesso aos seus dados. Essa é uma consideração importante para quando decidir se deve auto-hospedar ou usar um serviço em nuvem. 
+We recommend ODK to organizations that need on-the-ground users to collect data in a structured manner like forms. We also recommend it to organizations that don't have the technical capacity to install and maintain a server and want to use a ready-to-use cloud instance. If you use a cloud instance, remember that the organization hosting your ODK instance will be able to access your data. This is an important consideration when deciding whether to self-host or use a cloud service. 
 
 ODK e KoboToolbox são amplamente utilizadas, bem documentadas e fáceis de usar. Há guias disponíveis e elas oferecem suporte para organizações sem fins lucrativos sobre como estruturar e manter os dados.
+
+:::tip
+If you need help figuring out if ODK is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
+:::
 
 ## Modele seus Dados {#model-your-data}
 
@@ -45,7 +54,7 @@ A conexão ODK não está disponível no Tella para iOS.
 :::
 
 ### Conecte a um Servidor ODK {#connect-to-an-odk-server}
-Após criar e implantar um formulário usando qualquer servidor em conformidade com o ODK, no Tella, dirija-se para **Configurações** > **Servidores** > **+** > **Open Data Kit (ODK)**. Preencha os seguintes campos:
+After creating and deploying a Form using any ODK-compliant server, in Tella, go to **Settings** > **Connections** > **+** > **Open Data Kit (ODK)**. Fill the following fields:
 - **Nome do Servidor**: Um nome descritivo para o seu servidor no Tella. O nome selecionado por você está apenas visível no aplicativo e não impacta a conexão ODK.
 - **URL do Servidor**: A URL do seu servidor. Por exemplo, `kc.kobotoolbox.org` caso esteja usando o servidor público do KoboToolbox.
 Se o servidor requerer autenticação de usuário, toque no botão **Avançado**  e entre o seu **Nome de usuário** e **Senha**. O administrador do seu servidor deve fornecer todas essas informações para você.
@@ -55,14 +64,14 @@ Se o servidor requerer autenticação de usuário, toque no botão **Avançado**
 
 Após ter se conectado com sucesso à instância ODK, você verá um novo cartão chamado "Formulários" nas seções **Conexões** na tela inicial do Tella.
 
-Após entrar na seção **Formulários**, você verá uma lista de formulários disponíveis para você na(s) instância(s) às quais está conectado. Usando o botão **Baixar**, você pode baixar formulários para o Tella para que possa preenchê-los, mesmo quando não estiver conectado à internet.
+After you enter the **Forms** section, you will see a list of Forms available to you on the instance(s) that you are connected to. Using the **Download** button you can download forms to Tella so that you can fill them, even if you are not connected to the internet.
 
 Você pode tocar em cada formulário em branco para começar a preenchê-lo.
 
 
 #### Submeta formulários {#submit-forms}
 
-Ao coletar dados e preencher formulários, as seguintes opções estão disponíveis para aumentar o suporte offline no Tella:
+As you collect data and fill forms the following options are available to increase offline support on Tella:
 - Submeter: enviar o formulário preenchido para o servidor ODK.
 - Salvar como rascunho: salvar um formulário que não está completo para continuar a trabalhar nele depois.
 - Submeter mais tarde: marque um formulário como completo para submetê-lo posteriormente. Até que seja enviado, estará disponível da aba Caixa de Saída.
@@ -93,7 +102,7 @@ Abaixo está uma visão geral dos tipos de pergunta do ODK que são suportados p
 | Assinatura por foto (escrever minha assinatura à mão) | ✔️ |
 | Áudio | ✔️ |
 | Vídeo | ✔️ |
-| Arquivo | Não |
+| Arquivo | ✔️ |
 | Nota | ✔️ |
 | Código de Barras / QR Code | Não |
 | Confirmação | ✔️ |
@@ -122,3 +131,4 @@ Abaixo está uma visão geral das funcionalidades do ODK que possuem suporte no 
 | [Repetindo perguntas](https://docs.getodk.org/form-logic/#repeating-questions) | ✔️ |
 | [Filtrando opções em perguntas que contém seleção](https://docs.getodk.org/form-logic/#filtering-options-in-select-questions) | ✔️ |
 | [Gerando perguntas do tipo "selecionar um" a partir de repetições](https://docs.getodk.org/form-logic/#generating-select-ones-from-repeats) | ❌ |
+| Automatically collecting form metadata| ❌ |
