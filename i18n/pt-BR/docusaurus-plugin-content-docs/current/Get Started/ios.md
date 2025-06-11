@@ -12,7 +12,7 @@ Siga [este link](https://apps.apple.com/br/app/tella-document-protect/id15981525
 
 
 <div class="gifs">
-    <img src={require("@site/static/img/getting-started/ios/find-and-download.gif").default} alt="gif that shows how to download Tella from the App Store" title="find and download gif" />
+    <img src={require('@site/static/img/getting-started/ios/find-and-download.gif').default} alt="gif that shows how to download Tella from the App Store" title="find and download gif" />
 </div>
 
 
@@ -38,7 +38,7 @@ Ao usar cada funcionalidade pela primeira vez, será solicitado que você conced
 
 
 <div class="gifs">
-    <img src={require("@site/static/img/getting-started/ios/granting-permissions.gif").default} alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
+    <img src={require('@site/static/img/getting-started/ios/granting-permissions.gif').default} alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
 </div>
 
 
@@ -66,7 +66,7 @@ Depois de conceder permissões, você está pronto para iniciar a coleta de docu
 
 
 
-**Importe seus arquivos para o Tella.** Acesse qualquer das pastas dentro do Tella e toque no Botão **+** > **Importar de dispositivo**. Escolha o arquivo que deseja manter dentro do Tella e uma cópia dele será armazenada de forma criptografada e oculta no Tella. Será solicitado que você escolha se quer excluir ou manter o arquivo original do seu dispositivo. O Tella será desbloqueado enquanto você escolhe seus arquivos por um máximo de três (3) minutos.
+**Importe seus arquivos para o Tella.** Acesse qualquer das pastas dentro do Tella e toque no Botão **+** > **Importar de dispositivo**. Escolha o arquivo que deseja manter dentro do Tella e uma cópia dele será armazenada de forma criptografada e oculta no Tella. Será solicitado que você escolha se quer excluir ou manter o arquivo original do seu dispositivo. O Tella ficará desbloqueado enquanto você escolhe seus arquivos por um máximo de três (3) minutos.
 
 <div class="gifs">
     <img src={require("@site/static/img/getting-started/ios/import-files.gif").default} alt="gif that shows how to import files in Tella" title="import files in Tella" />
@@ -108,15 +108,23 @@ Leve em consideração que o Tella compartilhará os arquivos de forma não crip
 ### Conecte-se a um servidor {#connect-to-a-server}
 O Tella pode ser conectado a uma variedade de serviços back-end. Isso é usado por organizações para permitir que seus membros ou parceiros submetam dados e arquivos a uma localização remota segura. Se você está considerando se conectar a um servidor e tem dúvidas sobre qual servidor escolher ou como conectar-se, por favor veja [a nossa documentação para organizações](/for-organizations) ou [entre em contato conosco](/contact-us), estamos aqui para ajudar!
 
-### Tella Web {#tella-web}
-Tella Web é uma ferramenta de código aberto que permite a indivíduos e organizações centralizar e gerenciar relatórios enviados por usuários do Tella, incluindo fotos, vídeos e arquivos de áudio.
+#### Tella Web {#tella-web}
+O Tella Web é uma ferramenta de código aberto que permite a indivíduos e organizações centralizar e gerenciar relatórios enviados por usuários do Tella, incluídos fotos, vídeos e arquivos de áudio.
 
-Leia mais sobre o Tella Web [aqui](/tella-web) ou veja um [vídeo tutorial](/video-tutorials#tella-web).
+Leia mais sobre o Tella Web [aqui](/tella-web) ou veja um [tutorial em vídeo](/video-tutorials#tella-web).
 
 #### Uwazi {#uwazi}
 [Uwazi](https://uwazi.io/) é um aplicativo de código aberto feito pela HURIDOCS com funcionalidades poderosas de coleta, organização e visualização de dados de direitos humanos.
 
 Nós escrevemos uma documentação sobre como se conectar a um servidor Uwazi e recomendamos que você leia [esta página](/uwazi) para começar.
+
+#### Nextcloud, Dropbox and Google Drive {#nextcloud-dropbox-and-google-drive}
+Users can also connect to their Google, Dropbox or Nextcloud organizational or personal accounts in order to submit reports (audio, photos, videos and text) directly from Tella. They won't need the Dropbox, Google Drive or Nextcloud apps on their phones and won't need to use any third party apps.
+
+Read more:
+- [Google Drive Connection](/g-drive).
+- [Nextcloud Connection](/nextcloud).
+- [Dropbox Connection](/dropbox).
 
 
 
