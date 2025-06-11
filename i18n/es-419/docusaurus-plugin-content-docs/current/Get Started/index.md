@@ -5,7 +5,7 @@ description: Guía de inicio rápido para usuaria(o)s de Tella en iOS y Android
 slug: /get-started
 ---
 
-import Link from '@docusaurus/Link'
+importar Enlace de '@docusaurus/Link'
 
 
 # Empezar con Tella
