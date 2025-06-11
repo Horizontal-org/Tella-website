@@ -1,5 +1,5 @@
 ---
-id: accessibility
+id: acessibilidade
 title: Idiomas e acessibilidade
 description: Uma visão sobre os idiomas em que o Tella está disponível e considerações sobre accessibilidade.
 slug: /accessibility
@@ -28,8 +28,8 @@ Nesta tabela, você pode acessar nossos últimos relatórios de acessibilidade p
 
 | **Plataforma** | **Data** | **Link** |
 | -----|-----|------ |  
-| Tella para Android | Novembro de 2023 | [Link](https://docs.google.com/document/d/1QtcWrSNvVtskUf5zNmOlgH0ue_O2ksdi/edit) | 
-| Tella para iOS | Novembro de 2023 | [Link](https://docs.google.com/document/d/1-_dx-Ut98FpiasqgW98gxoFbwVx01R39/edit) | 
+| Tella para Android | Novembro de 2023 | [Link](</assets/2023.11 - Tella Android accessibility audit.docx.pdf>) | 
+| Tella para iOS | Novembro de 2023 | [Link](</assets/2023.11 - Tella iOS accessibility audit.docx.pdf>) | 
 
 Nós estamos atualmente trabalhando para resolver todos os problemas de acessibilidade Nível A detectados no Tella para Android.
 
