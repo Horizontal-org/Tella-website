@@ -60,9 +60,9 @@ N1M usa o Tella para documentar esses ataques e violações contra ativistas amb
 
 Além das funcionalidades de segurança e privacidade do aplicativo, N1M decidiu adotar o Tella porque ele permite à organização deter completa posse sobre a informação coletada e controlar quem tem acesso a ela. _“Há tanta informação coletada que não queremos compartilhar. Realmente sentimos que ativistas deveriam ter essa opção. Eles deveriam ser capazes de serem os que decidem quem tem acesso às informações deles,”_ adicionou Menton. A disponibilidade do idioma português também foi um grande fator na decisão.  
 
-Em novembro de 2019, durante a  [Conferência dos Defensores da Floresta](https://not1more.org/forest-defenders-2019/) no Brasil, a Horizontal treinou defensores da floresta para usar o Tella na coleta segura de dados sobre as violações de direitos.
+Em novembro de 2019, durante a Conferência dos Defensores da Floresta no Brasil, a Horizontal treinou defensores da floresta para usar o Tella na coleta segura de dados sobre as violações de direitos.
 
-Com os dados coletados, estudantes indígenas e pesquisadores nas Universidades Federal da Bahia, Federal do Recôncavo Baiano e Estadual da Bahia, criaram um website com um mapa que retrata evidências de violações dos direitos indígenas, coletados com o uso do Tella: [https://umoutroceu.ufba.br](https://umoutroceu.ufba.br/). APOINME (Articulação dos Povos e Organizações Indígenas do Nordeste, Minas Gerais e Espírito Santo) usaram o mapa como uma ferramenta de sensibilização sobre os ataques a comunidades indígenas e reivindicar melhor proteção.
+Com os dados coletados, estudantes indígenas e pesquisadores nas Universidades Federal da Bahia, Federal do Recôncavo Baiano e Estadual da Bahia, criaram um website com um mapa que retrata evidências de violações dos direitos indígenas, coletados com o uso do Tella: [https://umoutroceu.ufba.br](https://umoutroceu.ufba.br/). A APOINME (Articulação dos Povos e Organizações Indígenas do Nordeste, Minas Gerais e Espírito Santo) usou o mapa como uma ferramenta de sensibilização sobre os ataques a comunidades indígenas e reivindicar melhor proteção.
 
 
 ## Monitoramento da Eleição - Bielorrússia {#election-monitoring---belarus}
@@ -78,6 +78,7 @@ Nas eleições presidenciais de 2020 na Bielorrússia, organizações da socieda
 
 🗄️ Conexão: ODK (Kobotoolbox)
 :::
+
 
 Na Bielorrússia, o regime autocrático de Alexander Lukashenko tem há muito tempo sufocado direitos fundamentais e reprimido a oposição política. As eleições não são nem livres, nem justas. Pela primeira vez em décadas, no entanto, as eleições presidenciais de 2020 ofereceram um potencial caminho para a mudança, com candidatos de oposição confiáveis e uma sociedade civil reenergizada pela incompetência do governo em face da pandemia da COVID-19.
 
