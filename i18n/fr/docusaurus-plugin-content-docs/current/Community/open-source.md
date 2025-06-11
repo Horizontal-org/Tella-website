@@ -13,6 +13,6 @@ La sécurité et la confidentialité des utilisateurs et utilisatrices de Tella 
 Le code de Tella pour Android et iOS est accessible [ici sur notre référentiel GitHub](https://github.com/horizontal-org). Plutôt que de nous faire confiance, vous pouvez auditer le code vous-même ou demander à une personne de confiance de le faire, ou encore lire les [rapports](/security-and-privacy#security-audits) rédigés par des sociétés de sécurité indépendantes après avoir audité le code de Tella.
 
 
-Nous publions et maintenons également une version entièrement gratuite et open source de Tella pour Android qui ne contient aucune bibliothèque ou dépendance fermée ou propriétaire, et qui est exempte de tout tracker. Vous pouvez trouver le code de cette version de Tella [ici sur Github](https://github.com/Horizontal-org/Tella-Android-FOSS) et dans la [F-droid store](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
+We also publish and maintain a fully Free and Open Source version of Tella for Android that doesn't contain any closed-source or proprietary library or dependency. You can find the code for that version of Tella [here on Github](https://github.com/Horizontal-org/Tella-Android-FOSS) and in the [F-droid store](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
 
 
