@@ -1,6 +1,6 @@
 ---
 id: odk
-title: ODK - Kit de Datos Abiertos
+title: Open Data Kit (ODK - Kit de Datos Abiertos)
 description: La conexión a servidor Open Data Kit está disponible para organizaciones que buscan recopilar datos estructurados utilizando formularios.
 slug: /odk
 ---
@@ -11,20 +11,25 @@ El [Open Data Kit (ODK - Kit de Datos Abiertos)](https://getodk.org/) es un est�
 
 Un servidor Open Data Kit permite a las organizaciones agregar, en un repositorio central, datos recopilados por sus miembros o socia(o)s. La(o)s usuaria(o)s de Tella se conectan a la instancia ODK de su organización, rellenan formularios cuantas veces necesiten (incluso si no tienen conexión a internet), y suben los datos. Organizaciones pueden descargar los datos del servidor o analizarla en el servidor, dependiendo de las alternativas del servidor elegido.
 
-De manera similar a todas las demás conexiones de servidor(como [Tella Web](/tella-web), [Google Drive](/g-drive), [Nextcloud](/nextcloud) o [Uwazi](/uwazi)), conectar al servidor ODK mejora la seguridad de los datos recopilados en Tella al:
+Similarly to any other server connection (like [Tella Web](/tella-web), [Google Drive](/g-drive), [Dropbox](/dropbox), [Nextcloud](/nextcloud) or [Uwazi](/uwazi)), connecting to the ODK server enhances the security of data collected on Tella by:
 
 1. Permitir a la(o)s usuaria(o)s a recopilar datos directamente dentro de un contenedor cifrado de Tella.
 2. Garantizar que los datos son enviados directamente de Tella al servidor ODK, sin tener que depender de una herramienta o app de terceras partes.
 3. Permitir que usuaria(o)s respalden sus datos en un servidor remoto, para reducir el riesgo de que los datos sean descubiertos en su dispositivo móvil.
 4. Asegurar que las organizaciones puedan conservar información importante incluso en caso de confiscación o destrucción de dispositivo, y puedan organizarla para procesos de  investigación, incidencia, o rendición de cuentas.
 
-### Eligiendo e Instalando Tu Servidor ODK Central {#choosing-and-installing-your-odk-central-server}
+### Choosing and Installing Your ODK Server {#choosing-and-installing-your-odk-server}
 
 Porque ODK es un estándar abierto, se puede utilizar Tella con cualquier herramienta que cumpla con ODK.
 
-Para organizaciones de la sociedad civil y defensora(e)s de los derechos humanos, recomendamos utilizar [KoboToolbox](https://www.kobotoolbox.org/) para crear formularios con preguntas personalizadas, gestionar usuaria(o)s, y recopilar los datos enviados por usuaria(o)s. Basado en nuestra experiencia, KoboToolbox es amigable y flexible, y también de código abierto. KoboToolbox ofrece un [servidor comunitario] gratuito (https://kobotoolbox.org/pricing/) para organizaciones sin fines de lucro y ofrece recursos capacitación y orientación gratuitos sobre cómo estructurar datos en el servidor. (Base de Autoaprendizaje y Foro Comunitario). También es posible [usar una instancia privada de KoboToolbox](https://www.kobotoolbox.org/services/private-servers/) o [auto hospedarla](https://support.kobotoolbox.org/kobo_your_servers.html).
+For civil society organizations and human rights defenders, we recommend using [KoboToolbox](https://www.kobotoolbox.org/) to create forms with custom questions, manage users, and aggregate the data submitted by users. Based on our experience, KoboToolbox is user-friendly and flexible, and it is also open source. KoboToolbox offers a [community plan for non-profits](https://www.kobotoolbox.org/pricing/) and offer free training resources and guidance on how to structure the data on the server (Self-serve learning base and Community Forum). It is also possible [to use a private instance of KoboToolbox](https://www.kobotoolbox.org/services/private-servers/) or [self-host it](https://support.kobotoolbox.org/kobo_your_servers.html).
 
-Hay disponibles otras apps que cumplen con ODK, como [Ona](https://ona.io/home/) o [ODK Cloud](https://https://getodk.org/index.html). Tella funciona con cualquiera de estas. Si necesitas ayuda, [contáctanos](contact-us) para que podamos ayudarte a seleccionar el mejor servidor para tu caso de uso.
+:::tip
+We are work closely with the Kobotoolbox team. If you are interested in using the Tella-KoboToolbox connection and would like some support or to discuss the best hosting plan for your use case, please [contact us](/contact-us). 
+:::
+
+There are other ODK-compliant apps available, like [Ona](https://ona.io/home/) or [ODK Cloud](https://https://getodk.org/index.html). Tella works with any of these. 
+
 
 ### Cuándo Usar ODK {#when-to-use-odk}
 
@@ -49,7 +54,7 @@ La conexión ODK no está disponible para Tella iOS.
 :::
 
 ### Conectar a un Servidor ODK {#connect-to-an-odk-server}
-Después de crear e implementar un Formulario usando cualquier servidor que cumpla con ODK, en Tella, ve a **Configuración** > **Servidores** > **+** > **Open Data Kit (ODK)**. Llena los siguientes campos:
+After creating and deploying a Form using any ODK-compliant server, in Tella, go to **Settings** > **Connections** > **+** > **Open Data Kit (ODK)**. Fill the following fields:
 - **Nombre de Servidor**: Un nombre descriptivo para tu servidor en Tella. El nombre que selecciones solo es visible en la app y no tiene impacto en la conexión ODK.
 - **URL del Servidor**: URL de tu servidor. Por ejemplo, "kc.kobotoolbox.org" si estas usando el servidor público de KoboToolbox.
 Si tu servidor requiere autenticación de usuaria(o), toca el botón **Avanzada** e introduce tu **Nombre de usuaria(o)** y **Contraseña**. La/el administrador(a) de tu servidor debe proporcionarte toda esta información.
@@ -97,7 +102,7 @@ Debajo una vista general de los tipos de preguntas ODK que son admitidos en Tell
 | Firma de foto (escribir a mano mi firma) | ✔️ |
 | Audio | ✔️ |
 | Video | ✔️ |
-| Archivo | No |
+| Archivo | ✔️ |
 | Nota | ✔️ |
 | Código de barras / Código QR | No |
 | Reconocer | ✔️ |
@@ -126,3 +131,4 @@ Debajo una vista general de los tipos de funciones ODK que son admitidos en Tell
 | [Repetir preguntas](https://docs.getodk.org/form-logic/#repeating-questions) | ✔️ |
 | [Filtrar opciones en preguntas de selección](https://docs.getodk.org/form-logic/#filtering-options-in-select-questions) | ✔️ |
 | [Generar seleccionadas desde repeticiones](https://docs.getodk.org/form-logic/#generating-select-ones-from-repeats) | ❌ |
+| Automatically collecting form metadata| ❌ |

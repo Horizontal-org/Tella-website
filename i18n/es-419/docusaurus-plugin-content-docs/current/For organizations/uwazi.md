@@ -11,7 +11,7 @@ slug: /uwazi
 
 Uwazi permite a las organizaciones agregar, en un repositorio central, los datos recopilados por sus miembros o socia(o)s. La(o)s usuaria(o)s de Tella se conectan a la instancia Uwazi de su organización, descargan formularios (llamados plantillas), rellenan plantillas cuantas veces sea necesario (incluso si no tienen conexión a internet), y suben los datos. Las organizaciones luego pueden curar, organizar, y publicar sus datos directamente desde Uwazi.
 
-De manera similar a todas las demás conexiones de servidor ([Tella Web](/tella-web), [Google Drive](/g-drive), [Nextcloud](/nextcloud) y [Open Data Kit](/odk)), conectar a Uwazi mejora la seguridad de los datos recopilados en Tella al:
+Similarly to all other server connections([Tella Web](/tella-web), [Google Drive](/g-drive), [Nextcloud](/nextcloud), [Dropbox](/dropbox), and [Open Data Kit](/odk)), connecting to Uwazi enhances the security of data collected on Tella by:
 1. Permitir a la(o)s usuaria(o)s a recopilar datos directamente dentro de un contenedor cifrado de Tella.
 2. Asegurar que los datos son enviados directamente de Tella a Uwazi, sin tener que depender de una herramienta de terceras partes o app
 3. Permitir a la(o)s usuaria(o)s a respaldar sus datos en un servidor remoto, para reducir el riesgo de que los datos sean descubiertos en su dispositivo móvil
@@ -72,7 +72,7 @@ Si la(o)s usuaria(o)s de Tella descargan una plantilla que tiene propiedades que
 | Numérico  | ✔️ | ✔️ | ✔️ |
 | Selección Única  | ✔️ | ✔️ | ✔️ | 
 | Selección Múltiple   | ✔️ | No | ✔️ | 
-| Relación | ✔️ | ✔️ | No |
+| Relación | ✔️ | ✔️ | ✔️ |
 | Fecha Única | ✔️ | ✔️ | ✔️ |
 | Fecha Múltiple | ✔️ | No | ✔️ |
 | Enlace Externo | ✔️ | No | ✔️ |
@@ -89,7 +89,7 @@ Si la(o)s usuaria(o)s de Tella descargan una plantilla que tiene propiedades que
 
 Para conectarse a un servidor Uwazi:
 
-* Navega a **Configuración ⚙️** > **Servidores** > **+**
+* Navigate to **Settings ⚙️** > **Connections** > **+**
 * Selecciona "Uwazi" de la lista de tipos de servidores disponibles.
 * Introduce la URL del servidor Uwazi de la organización (generada o proporcionada por la(o)s admins).
 * Elige entre:
