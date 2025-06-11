@@ -18,13 +18,18 @@ De la même manière que toute autre connexion au serveur (comme [Tella Web](/te
 3. Permettant aux utilisateurs et utilisatrices de sauvegarder leurs données sur un serveur externe, pour réduire le risque que leurs données soient découvertes sur leur appareil mobile.
 4. Assurant que les organisations peuvent conserver les informations importantes même en cas de saisie ou de destruction d'appareils, et les organiser à des fins de recherche, de plaidoyer ou de processus de responsabilisation.
 
-### Choisir et installer votre serveur central ODK  {#choosing-and-installing-your-odk-central-server}
+### Choosing and Installing Your ODK Server {#choosing-and-installing-your-odk-server}
 
 ODK étant une norme ouverte, Tella peut être utilisée avec n'importe quel outil compatible avec ODK.
 
-Pour les organisations de la société civile et les défenseurs des droits de l'homme, nous recommandons d'utiliser [KoboToolbox](https://www.kobotoolbox.org/) pour créer des formulaires avec des questions personnalisées, gérer les utilisateurs et regrouper les données soumises par les utilisateurs. D'après notre expérience, KoboToolbox est convivial et flexible, et il est également open source. KoboToolbox propose un [plan communautaire] gratuit (https://www.kobotoolbox.org/pricing/) pour les organisations à but non lucratif et propose des ressources de formation gratuites et des conseils sur la façon de structurer les données sur le serveur (base d'apprentissage en libre-service et communauté Forum). Il est également possible [d'utiliser une instance privée de KoboToolbox](https://www.kobotoolbox.org/services/private-servers/) ou [de l'héberger soi-même](https://support.kobotoolbox.org/kobo_your_servers.html).
+For civil society organizations and human rights defenders, we recommend using [KoboToolbox](https://www.kobotoolbox.org/) to create forms with custom questions, manage users, and aggregate the data submitted by users. Based on our experience, KoboToolbox is user-friendly and flexible, and it is also open source. KoboToolbox offers a [community plan for non-profits](https://www.kobotoolbox.org/pricing/) and offer free training resources and guidance on how to structure the data on the server (Self-serve learning base and Community Forum). It is also possible [to use a private instance of KoboToolbox](https://www.kobotoolbox.org/services/private-servers/) or [self-host it](https://support.kobotoolbox.org/kobo_your_servers.html).
 
-Il existe d'autres applications compatibles avec ODK, comme [Ona] (https://ona.io/home/) ou [ODK Cloud] (https://https://getodk.org/index.html). Tella est compatible avec toutes ces applications. Si vous avez besoin d'aide, [contactez-nous](contact-us) pour que nous vous aidions à sélectionner le serveur le mieux adapté à vos besoins.
+:::tip
+We are work closely with the Kobotoolbox team. If you are interested in using the Tella-KoboToolbox connection and would like some support or to discuss the best hosting plan for your use case, please [contact us](/contact-us). 
+:::
+
+There are other ODK-compliant apps available, like [Ona](https://ona.io/home/) or [ODK Cloud](https://https://getodk.org/index.html). Tella works with any of these. 
+
 
 ### Quand utiliser ODK {#when-to-use-odk}
 
@@ -32,38 +37,39 @@ Nous recommandons ODK aux organisations qui ont besoin d'utilisateurs et utilisa
 
 ODK et KoboToolbox sont largement répandus, bien documentés et faciles à utiliser. Il existe des guides explicatifs et les organisations à but non lucratif peuvent bénéficier d'un soutien pour structurer et gérer leurs données.
 
+Modélisez vos données {#model-your-data}
+
 ## Modélisez vos données {#model-your-data}
 
-KoboToolbox propose un guide détaillé sur comment créer votre projet et ajouter des questions à vos formulaires, ainsi que sur la façon de les déployer pour les rendre accessibles aux utilisateurs et utilisatrices sur le terrain [ici](https://support.kobotoolbox.org/overview_of_creating_a_project.html).
+Connecter Tella à une instance ODK pour collecter des données {#connect-tella-to-an-odk-instance-to-collect-data}
 
-## Connecter Tella à une instance ODK pour collecter des données {#connect-tella-to-an-odk-instance-to-collect-data}
-
-Dans cette documentation, nous nous concentrons sur la façon de collecter des données à l'aide de Tella. Il existe des applications mobiles alternatives qui peuvent être utilisées pour collecter des données sur ODK, notamment Android ODK Collect.  Nous vous proposons une comparaison de ces alternatives [ici] (/faq#how-is-tella-different-from-other-documentation-apps).
+## Dans cette documentation, nous nous concentrons sur la façon de collecter des données à l'aide de Tella. Il existe des applications mobiles alternatives qui peuvent être utilisées pour collecter des données sur ODK, notamment Android ODK Collect.  Nous vous proposons une comparaison de ces alternatives [ici] (/faq#how-is-tella-different-from-other-documentation-apps).
 
 :::info
 La connexion ODK n'est pas disponible pour Tella iOS.
 :::
 
-### Se connecter à un serveur ODK {#connect-to-an-odk-server}
-Après avoir créé et déployé un formulaire à l'aide de n'importe quel serveur compatible ODK, dans Tella, allez dans **Paramètres** > **Serveurs** > **+** > **Open Data Kit (ODK)**. Remplissez les champs suivants:
-- **Nom du serveur**: un nom descriptif pour votre serveur dans Tella. Le nom que vous sélectionnez n'est visible que dans l'application et n'a aucun impact sur la connexion ODK.
+Se connecter à un serveur ODK {#connect-to-an-odk-server}
+
+### Après avoir créé et déployé un formulaire à l'aide de n'importe quel serveur compatible ODK, dans Tella, allez dans **Paramètres** > **Serveurs** > **+** > **Open Data Kit (ODK)**. Remplissez les champs suivants:
+**Nom du serveur**: un nom descriptif pour votre serveur dans Tella. Le nom que vous sélectionnez n'est visible que dans l'application et n'a aucun impact sur la connexion ODK.
 - **URL du serveur** : l'URL de votre serveur. Par exemple, `kc.kobotoolbox.org` si vous utilisez le serveur public KoboToolbox.
-Si votre serveur nécessite une authentification utilisateur, appuyez sur le bouton **Avancé** et saisissez votre **Nom d'utilisateur** et votre **Mot de passe**. L'admin de votre serveur doit vous fournir toutes ces informations.
+- Si votre serveur nécessite une authentification utilisateur, appuyez sur le bouton **Avancé** et saisissez votre **Nom d'utilisateur** et votre **Mot de passe**. L'admin de votre serveur doit vous fournir toutes ces informations.
+Remplir les formulaires {#fill-forms}
 
 
-### Remplir les formulaires {#fill-forms}
-
-Après que vous vous soyez connecté avec succès à l'instance ODK, vous verrez apparaître dans les sections **Connexions** de l'écran d'accueil de Tella une nouvelle carte appelée "Formulaires".
+### Après que vous vous soyez connecté avec succès à l'instance ODK, vous verrez apparaître dans les sections **Connexions** de l'écran d'accueil de Tella une nouvelle carte appelée "Formulaires".
 
 Après avoir accédé à la section **Formulaires**, vous verrez une liste des formulaires disponibles sur les instances auxquelles vous êtes connecté. À l'aide du bouton **Télécharger**, vous pouvez télécharger des formulaires sur Tella afin de pouvoir les remplir, même si vous n'êtes pas connecté à Internet.
 
 Vous pouvez appuyer sur chaque formulaire vierge pour commencer à le remplir.
 
+Soumettre les formulaires {#submit-forms}
 
-#### Soumettre les formulaires {#submit-forms}
 
-Au fur et à mesure que vous collectez des données et remplissez des formulaires, les options suivantes sont disponibles pour augmenter le support hors ligne sur Tella:
-- Soumettre : envoyer le formulaire rempli au serveur ODK.
+#### Au fur et à mesure que vous collectez des données et remplissez des formulaires, les options suivantes sont disponibles pour augmenter le support hors ligne sur Tella:
+
+Soumettre : envoyer le formulaire rempli au serveur ODK.
 - Enregistrer comme brouillon: enregistrez un formulaire qui n'est pas complété afin de pouvoir continuer à travailler dessus plus tard.
 - Soumettre plus tard: marquez un formulaire comme complet pour le soumettre ultérieurement. Jusqu'à son envoi, il sera disponible dans l'onglet Boîte d'envoi.
 - Onglet Brouillons : un onglet avec la liste de tous les brouillons de formulaires. Les brouillons peuvent être modifiés ou supprimés.
@@ -71,54 +77,56 @@ Au fur et à mesure que vous collectez des données et remplissez des formulaire
 - Onglet Soumis: un onglet avec la liste de tous les formulaires qui ont été envoyés avec succès au serveur. Les formulaires soumis peuvent être supprimés.
 - Suspendre/Reprendre la soumission: vous pouvez suspendre manuellement une soumission et la reprendre lorsque vous êtes prêt.
 - Suspendre automatiquement la soumission en mode hors connexion: les formulaires seront envoyés vers l'onglet Boîte d'envoi si la soumission échoue en raison de problèmes de connectivité.
+- Types de questions pris en charge {#supported-question-types}
 
-### Types de questions pris en charge {#supported-question-types}
-Vous trouverez ci-dessous un aperçu des types de questions ODK pris en charge dans Tella Android. S'il existe un type de question qui n'est pas pris en charge dans Tella et qui est essentiel à votre flux de travail,  [contactez-nous](/contact-us).
+### Vous trouverez ci-dessous un aperçu des types de questions ODK pris en charge dans Tella Android. S'il existe un type de question qui n'est pas pris en charge dans Tella et qui est essentiel à votre flux de travail,  [contactez-nous](/contact-us).
+**Type de question**
 
-| **Type de question** | **Tella Android** | 
+| **Tella Android** | **Tella Android** | 
 |------|------|
-| Sélectionnez-en un | ✔️ |
-| Sélectionnez plusieurs | ✔️ |
-| Texte | ✔️ |
-| Nombre / Décimal | ✔️ |
-| Date | ✔️ |
-| Heure | ✔️ |
-| Date et heure | Non  |
-| Point (calculer ma position actuelle) | ✔️ |
-| Point (afficher ma position sur une carte) | ✔️ |
-| Point (laissez-moi choisir ma position sur une carte) | ✔️ |
-| Ligne | Non |
-| Zone | Non |
-| Photo | ✔️ |
-| Signature photo (signature manuscrite) | ✔️ |
-| Audio | ✔️ |
-| Vidéo | ✔️ |
-| Fichier | Non |
-| Note | ✔️ |
-| Code-barres / QR Code | Non |
-| Reconnaître | ✔️ |
-| Notation | ✔️ |
-| Matrice de questions | Non |
-| Classement | ✔️ |
-| Calculer | Non |
-| Caché | Non |
-| Intervalle | Non |
-| XML externe | Non |
+| ✔️ | ✔️ |
+| ✔️ | ✔️ |
+| ✔️ | ✔️ |
+| ✔️ | ✔️ |
+| ✔️ | ✔️ |
+| ✔️ | ✔️ |
+| Non | Non  |
+| ✔️ | ✔️ |
+| ✔️ | ✔️ |
+| ✔️ | ✔️ |
+| Non | Non |
+| Non | Non |
+| ✔️ | ✔️ |
+| ✔️ | ✔️ |
+| Pour plus de commodité et de facilité d'accès, il est également possible de personnaliser l'écran d'accueil pour afficher également des raccourcis vers un ou plusieurs des éléments suivants : | ✔️ |
+| Sur Tella FOSS, les PDF doivent être exportés pour être ouverts. | ✔️ |
+| Non | ✔️ |
+| ✔️ | ✔️ |
+| Non | Non |
+| ✔️ | ✔️ |
+| ✔️ | ✔️ |
+| Non | Non |
+| ✔️ | ✔️ |
+| Non | Non |
+| Non | Non |
+| Non | Non |
+| Non | Non |
 
-### Fonctionnalités supportées {#supported-features}
+### Voici un aperçu des fonctionnalités ODK compatibles avec Tella Android. S'il existe une fonctionnalité non supportée dans Tella et qui est essentielle à votre flux de travail, [contactez-nous](/contact-us).
 
-Voici un aperçu des fonctionnalités ODK compatibles avec Tella Android. S'il existe une fonctionnalité non supportée dans Tella et qui est essentielle à votre flux de travail, [contactez-nous](/contact-us).
+**Fonctionnalité**
 
-| **Fonctionnalité** | **Tella Android** | 
+| **Feature** | **Tella Android** | 
 |------|------|
-| [Collecte de données hors ligne](/odk#submit-forms) | ✔️ |
-| [Logique du formulaire](https://docs.getodk.org/form-logic/) | ❌ |
-| [Réponses requises](https://docs.getodk.org/form-logic/#requiring-responses) | ✔️ |
-| [Définition des réponses par défaut](https://docs.getodk.org/form-logic/#setting-default-responses) | ❌ |
-| [Déclencher des calculs en cas de changement de valeur ](https://docs.getodk.org/form-logic/#triggering-calculations-on-value-change) | ❌ |
-| [Valider et restreindre les réponses] (https://docs.getodk.org/form-logic/#validating-and-restricting-responses) | ❌ |
-| [Affichage conditionnel des questions](https://docs.getodk.org/form-logic/#conditionally-showing-questions) | ✔️ |
-| [Groupes de questions](https://docs.getodk.org/form-logic/#groups-of-questions) | ✔️ |
-| [Questions répétitives](https://docs.getodk.org/form-logic/#repeating-questions) | ✔️ |
-| [Options de filtrage dans certaines questions](https://docs.getodk.org/form-logic/#filtering-options-in-select-questions) | ✔️ |
-| [Générer des sélections à partir de répétitions](https://docs.getodk.org/form-logic/#generating-select-ones-from-repeats) | ❌ |
+| ✔️ | ✔️ |
+| ❌ | Gérer l'accès aux projets {#managing-access-to-projects} |
+| ✔️ | ✔️ |
+| ❌ | Gérer l'accès aux projets {#managing-access-to-projects} |
+| ❌ | Gérer l'accès aux projets {#managing-access-to-projects} |
+| ❌ | Gérer l'accès aux projets {#managing-access-to-projects} |
+| ✔️ | ✔️ |
+| ✔️ | ✔️ |
+| ✔️ | ✔️ |
+| ✔️ | ✔️ |
+| ❌ | Gérer l'accès aux projets {#managing-access-to-projects} |
+| Automatically collecting form metadata| Gérer l'accès aux projets {#managing-access-to-projects} |
