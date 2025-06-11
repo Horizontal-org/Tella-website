@@ -16,8 +16,8 @@ Tienes varias opciones para descargar Tella:
 
 Si necesitas ayuda para instalar la app manualmente, puedes [seguir esta guía](/video-tutorials#manual-installation-of-tella) o [contáctanos](/contact-us).
 
-<div class="gifs">
-    <img src={require("@site/static/img/getting-started/android/find-tella.gif").default} alt="gif that shows how to download Tella from the Play Store" title="find and download gif" />
+<div className="gifs">
+    <img src="{require('@site/static/img/getting-started/android/find-tella.gif').default}" alt="gif that shows how to download Tella from the Play Store" title="gif de buscar y descargar"/>
 </div>
 
 
@@ -45,9 +45,9 @@ La primera vez que uses cada función, se te pedirá conceder algunos permisos a
 
 Si rechazas conceder estos permisos a Tella, puedes conceder permisos luego yendo a tus configuraciones de Android y navegando hasta Configuraciones > Apps > Tella > Permisos de la App.
 
-<div class="gifs">
-    <img src={require("@site/static/img/getting-started/android/permissions.gif").default} alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
-    <img src={require("@site/static/img/getting-started/android/permissions-change.gif").default} alt="gif that shows how to chage granted permissions on Tella" title="change the granted permission" />
+<div className="gifs">
+    <img src="{require(&quot;@site/static/img/getting-started/android/permissions.gif&quot;).default}" alt="gif that shows how to grant Tella permissions" title="gif de conceder permisos"/>
+    <img src="{require(&quot;@site/static/img/getting-started/android/permissions-change.gif&quot;).default}" alt="gif that shows how to chage granted permissions on Tella" title="cambia los permisos concedidos"/>
 </div>
 
 
@@ -57,26 +57,26 @@ Después de conceder los permisos, estás lista(o) para empezar a recopilar docu
 
 **Usa la Cámara para tomar fotos o videos y la Grabadora de Audio para grabar audio.** Todos los medios capturados por Tella serán cifrados instantáneamente, lo que significa que  el archivo no será accesibles fuera de Tella. Todos los medios recopilados dentro de Tella no se mostrarán en la galería ni en los archivos de tu teléfono. No existe un límite de almacenamiento particular para Tella, el espacio disponible dependerá del espacio disponible en tu dispositivo.
 
-<div class="gifs">
-  <img src={require("@site/static/img/getting-started/android/picture.gif").default} alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
-  <img src={require("@site/static/img/getting-started/android/video.gif").default} alt="gif that shows how to record a video in Tella" title="video recording in Tella" />
-  <img src={require("@site/static/img/getting-started/android/audio.gif").default} alt="gif that shows how to record audio in Tella" title="audio recording in Tella" />
+<div className="gifs">
+  <img src="{require(&quot;@site/static/img/getting-started/android/picture.gif&quot;).default}" alt="gif that shows how to take a picture in Tella" title="toma una foto en Tella"/>
+  <img src="{require(&quot;@site/static/img/getting-started/android/video.gif&quot;).default}" alt="gif that shows how to record a video in Tella" title="grabación de video en Tella"/>
+  <img src="{require(&quot;@site/static/img/getting-started/android/audio.gif&quot;).default}" alt="gif that shows how to record audio in Tella" title="grabación de audio en Tella"/>
 </div>
 
 
 
 **Importa tus archivos a Tella.** Ve a cualquier carpeta dentro de Tella y toca el Botón **+** > **Importar desde el dispositivo**. Elige el archivo que te gustaría mantener dentro de Tella y una copia del archivo se almacenará cifrada y oculta en Tella. Se te pedirá elegir si quieres eliminar o mantener el archivo original de tu dispositivo. Tella estará desbloqueada mientras eliges tus archivos por un máximo de tres (3) minutos.
 
-<div class="gifs">
-    <img src={require("@site/static/img/getting-started/android/import.gif").default} alt="gif that shows how to import files in Tella" title="import files in Tella" />
+<div className="gifs">
+    <img src="{require(&quot;@site/static/img/getting-started/android/import.gif&quot;).default}" alt="gif that shows how to import files in Tella" title="importar archivos en Tella"/>
 </div>
 
 
 
 **Crea carpetas.** Para hacer más fácil encontrar tus archivos, puedes organizar archivos en carpetas. Ve a **Todos los archivos** > **+** > **Crear una nueva carpeta** y escribe un nombre descriptivo para la carpeta. Luego utiliza el botón de Selección múltiple en la parte superior de la pantalla, elige los archivos que quieres mover a la nueva carpeta, luego haz clic en el botón de los tres (3) puntos y Mover a carpeta diferente, navega por la estructura de archivos para encontrar la carpeta y luego presiona Mover aquí.
 
-<div class="gifs">
-    <img src={require("@site/static/img/getting-started/android/folders-rename.gif").default} alt="gif that shows how to organize your info in Tella" title="organize files in Tella" />
+<div className="gifs">
+    <img src="{require(&quot;@site/static/img/getting-started/android/folders-rename.gif&quot;).default}" alt="gif that shows how to organize your info in Tella" title="organizar archivos en Tella"/>
 </div>
 
 **Renombra archivos:** Otra manera de mantener tus datos organizados es renombrando archivos para que sean más descriptivos. Por defecto los archivos reciben un nombre autogenerado. Puedes cambiarlo haciendo clic en los **tres (3) puntos** que están junto a cada nombre de archivo y luego presiona **Renombrar**.
@@ -90,9 +90,9 @@ Es posible camuflar Tella para ocultarla en tu dispositivo de dos maneras:
 - Puedes ocultar Tella detrás de una calculadora completamente funcional. Hemos desarrollado 4 temas diferentes para coincidir con el predeterminado de tu teléfono y ayudar a ocultar Tella. Para abrir Tella, la/el usuaria(o) debe introducir su PIN en la calculadora seguido de **=**. El camuflaje de la Calculadora solo es posible si la/el usuaria(o) utiliza PIN como método de bloqueo. No es posible camuflar Tella como una Calculadora si se utiliza un patrón o contraseña.
 Aprende más sobre Camuflaje [aquí](/features#camouflage).
 
-<div class="gifs">
-    <img src={require("@site/static/img/getting-started/android/camouflage-icon.gif").default} alt="gif that shows how camouflage Tella by changing its name and icon" title="camouflage Tella changing its icon" />
-    <img src={require("@site/static/img/getting-started/android/camouflage-calc.gif").default} alt="gif that shows how camouflage Tella behind a calculator" title="camouflage Tella with a calculator" />
+<div className="gifs">
+    <img src="{require(&quot;@site/static/img/getting-started/android/camouflage-icon.gif&quot;).default}" alt="gif that shows how camouflage Tella by changing its name and icon" title="camuflar Tella cambiando su icono"/>
+    <img src="{require(&quot;@site/static/img/getting-started/android/camouflage-calc.gif&quot;).default}" alt="gif that shows how camouflage Tella behind a calculator" title="camuflar Tella con una calculadora"/>
 </div>
 
 
@@ -102,8 +102,8 @@ Para compartir información utilizando Tella puedes usar el botón **Compartir**
 
 Ten en cuenta que Tella compartirá los archivos sin cifrar, por lo que asegúrate de utilizar mensajes temporales (por ejemplo en WhatsApp o Signal) o de eliminar los mensajes después que la otra persona los reciba.
 
-<div class="gifs">
-    <img src={require("@site/static/img/getting-started/android/share.gif").default} alt="gif that shows how to share information" title="share information with third party apps" />
+<div className="gifs">
+    <img src="{require(&quot;@site/static/img/getting-started/android/share.gif&quot;).default}" alt="gif that shows how to share information" title="compartir información con apps de terceros"/>
 </div>
 
 
@@ -121,17 +121,17 @@ El [Open Data Kit (ODK - Kit de Datos Abiertos)](https://getodk.org/) es un est�
 Escribimos documentación sobre cómo conectar a un servidor de Open Data Kit y te recomendamos que leas [esta página](/odk) para empezar.
 
 
-<div class="gifs">
-    <img src={require("@site/static/img/getting-started/android/kobo.gif").default} alt="gif that shows ODK connection" title="ODK connection" />
+<div className="gifs">
+    <img src="{require(&quot;@site/static/img/getting-started/android/kobo.gif&quot;).default}" alt="gif that shows ODK connection" title="Conexión ODK"/>
 </div>
 
 #### Uwazi {#uwazi}
-[Uwazi](https://uwazi.io/) es una aplicación open-source hecha por HURIDOCS con funciones poderosas para recopilar, organizar y visualizar datos de derechos humanos.
+[Uwazi](https://uwazi.io/) es una aplicación de código abierto hecha por HURIDOCS con funciones poderosas para recopilar, organizar y visualizar datos de derechos humanos.
 
-Escribimos documentación sobre cómo conectar a un servidor de Open Data Kit y te recomendamos que leas [esta página](/uwazi) para empezar.
+Escribimos documentación sobre cómo conectar a un servidor Uwazi y te recomendamos que leas [esta página](/uwazi) para empezar.
 
-<div class="gifs">
-    <img src={require("@site/static/img/getting-started/android/uwazi.gif").default} alt="gif that shows Uwazi connection" title="Uwazi connection" />
+<div className="gifs">
+    <img src="{require(&quot;@site/static/img/getting-started/android/uwazi.gif&quot;).default}" alt="gif that shows Uwazi connection" title="Conexión Uwazi"/>
 </div>
 
 #### Tella Web {#tella-web}
@@ -139,12 +139,21 @@ Tella Web es una herramienta de código abierto que permite a individuos y organ
 
 Lee más sobre Tella Web [aquí](/tella-web) o mira un [video tutorial](/video-tutorials#tella-web).
 
+#### Nextcloud, Dropbox and Google Drive {#nextcloud-dropbox-and-google-drive}
+Users can also connect to their Google, Dropbox or Nextcloud organizational or personal accounts in order to submit reports (audio, photos, videos and text) directly from Tella. They won't need the Dropbox, Google Drive or Nextcloud apps on their phones and won't need to use any third party apps.
+
+Leer más:
+- [Conexión de Google Drive](/g-drive).
+- [Conexión de Nextcloud](/nextcloud).
+- [Dropbox Connection](/dropbox).
+
+
 
 
 ### Lee más sobre Tella {#read-more-about-tella}
 - [Funciones](/features): Aprende más sobre cómo Tella puede mantenerte segura(o) y las amenazas de las que Tella _no_ te protege.
-- [Conexiones](/for-organizations):  Aprende sobre cómo puedes conectarte a un servidor para recopilar datos o respaldar archivos.
+- [Conexiones](/for-organizations): Aprende sobre cómo puedes conectarte a un servidor para recopilar datos o respaldar archivos.
 - [Seguridad y privacidad](/security-and-privacy): Solo recopilamos la cantidad mínima de datos necesarios y nunca recopilamos ninguna información de identificación personal. Lee la política de privacidad completa [aquí](/privacy).
 
 #### Contáctanos si necesitas ayuda {#contact-us-if-you-need-help}
-Si necesitas ayuda para entender los detalles técnicos y consideraciones de seguridad de Tella para decidir si es adecuada para ti y tu equipo, estamos aquí para ayudar. Solo [comunícate con nosotra(o)s](/contact-us) para que podamos responder tus preguntas o planificar una capacitación o una sesión de Preguntas y respuestas en vivo para tu equipo.
+Si necesitas ayuda para entender los detalles técnicos y consideraciones de seguridad de Tella para decidir si es adecuada para ti y tu equipo, estamos aquí para ayudar. Solo [comunícate con nosotra(o)s](/contact/us) para que podamos responder tus preguntas o planificar una capacitación o una sesión de Preguntas y respuestas en vivo para tu equipo.
