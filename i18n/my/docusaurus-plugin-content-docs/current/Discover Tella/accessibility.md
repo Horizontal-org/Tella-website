@@ -1,6 +1,6 @@
 ---
-id: accessibility
-title: Tella တွင် ဘာသာစကားနှင့် သုံးစွဲနိုင်မှု
+id: သုံးစွဲနိုင်မှု
+title: Languages and accessibility
 description: Tella တွင် ရရှိနိုင်သော ဘာသာစကားများကို ကြည့်ရှုခြင်းနှင့် သုံးစွဲနိုင်မှုကို ထည့်သွင်းစဉ်းစားမှုများ။
 slug: /accessibility
 ---
@@ -28,8 +28,8 @@ Tella ကို လိုအပ်ကြောင်း ပြောဆိုက
 
 | **ပလက်ဖောင်း** | **ရက်စွဲ** | **လင့်ခ်** |
 | -----|-----|------ |  
-| Tella Android | နိုဝင်ဘာလ ၂၀၂၃ | [လင့်ခ်](</assets/2023.11 - Tella Android accessibility audit.docx.pdf>) | 
-| Tella iOS | နိုဝင်ဘာလ ၂၀၂၃ | [လင့်ခ်](</assets/2023.11 - Tella iOS accessibility audit.docx.pdf>) | 
+| Tella Android | နိုဝင်ဘာလ ၂၀၂၃ | [Link](</assets/2023.11 - Tella Android accessibility audit.docx.pdf>) | 
+| Tella iOS | နိုဝင်ဘာလ ၂၀၂၃ | [Link](</assets/2023.11 - Tella iOS accessibility audit.docx.pdf>) | 
 
 ကျွန်ုပ်တို့သည် Tella Android တွင် တွေ့ရှိရသော  A Level အတွက် သုံးစွဲနိုင်မှုဆိုင်ရာ ပြဿနာအားလုံးကို ဖြေရှင်းရန် လက်ရှိတွင် လုပ်ဆောင်နေပါသည်။ 
 
