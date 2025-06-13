@@ -44,7 +44,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Fixed an issue where updating English-language strings didn't update translations. As a result of this fix, the translated percentage for some languages might decrease, but it will be more accurate.
 
 
-### iOS: Tella 1.15.0 (95) - Released on May 20, 2025 {#ios-tella-1150-95---released-on-may-20-2025}
+### iOS: Tella 1.15.0 (96) - Released on May 20, 2025 {#ios-tella-1150-96---released-on-may-20-2025}
 - New language support: Ndau.
 - Implemented Rotate Video.
 - Make Play button only play the selection while editing Audio or Video.

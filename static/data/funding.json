@@ -5,7 +5,7 @@
     "role": "owner",
     "name": "Horizontal",
     "email": "contact@wearehorizontal.org",
-    "description": "Horizontal supports frontline defenders, activists and journalists through digital security and tool development. \n\nWe empower grassroots communities to use technology effectively and to operate safely from surveillance, censorship and repression.\n\nHorizontal is a registered 501(c)(3) nonprofit",
+    "description": "Horizontal supports frontline defenders, activists, and journalists through digital security and tool development. We empower grassroots communities to use technology effectively and to operate safely from surveillance, censorship, and repression.",
     "webpageUrl": {
       "url": "https://wearehorizontal.org/",
       "wellKnown": "https://tella-app.org/"
@@ -15,15 +15,16 @@
     {
       "guid": "tella-android",
       "name": "Tella Android",
-      "description": "Tella for Android is a secure mobile app built to help activists, journalists, and human rights defenders, and people in general, to safely capture and organize sensitive data in high-risk environments. It includes features like encrypted photo, video, and audio capture, a hidden gallery, camouflage mode to disguise the app, and quick delete for rapid data removal. Users can structure data in folders, and share information with tools like Tella Web, ODK, Uwazi, Google Drive, Nextcloud, or Dropbox, and collect verifiable metadata for documentation integrity. \n\nTella Android has over 22,000 monthly active users in countries like India, Nigeria, Myanmar, and many others. Tella is available in 21 languages.\n\n",
+      "description": "Tella for Android is a mobile app designed to help activists, journalists, human rights defenders (and people in general!) safely capture and organize sensitive data in high-risk environments. It includes features like encrypted photo, video, and audio capture, a hidden gallery, in-app file editing, camouflage mode to disguise the app, and quick delete for rapid data removal. Users can organize data in folders and share information using tools like Tella Web, ODK, Uwazi, Google Drive, Nextcloud, or Dropbox. Tella also collects verifiable metadata to ensure documentation integrity. \n\nTella Android has over 22,000 monthly active users in countries like India, Nigeria, Myanmar, and many others. Tella is available in 21 languages.\n\n",
       "webpageUrl": {
         "url": "https://tella-app.org/"
       },
       "repositoryUrl": {
-        "url": "https://github.com/Horizontal-org/Tella-Android"
+        "url": "https://github.com/Horizontal-org/Tella-Android",
+        "wellKnown": "https://tella-app.org/data/funding.json"
       },
       "licenses": [
-        "Apache-2.0 license"
+        "spdx:MIT"
       ],
       "tags": [
         "app",
@@ -32,26 +33,25 @@
         "security",
         "privacy",
         "documentation",
-        "communication",
         "data",
         "human-rights",
         "encryption",
-        "privacy",
         "offline"
       ]
     },
     {
       "guid": "tella-ios",
       "name": "Tella iOS",
-      "description": "Tella for iOS offers a seamless way to securely capture, store, and back up sensitive media on Apple devices. It provides encrypted photos, videos, audio, and file imports stored in a hidden vault, with background encryption, media editing, and syncing to services like Google Drive, Uwazi, and Tella Web. The app maintains strong usability and protection standards.",
+      "description": "Tella for iOS is a mobile app designed to help activists, journalists, human rights defenders (and people in general!) safely capture and organize sensitive data in high-risk environments. It includes features like encrypted photo, video, and audio capture, a hidden gallery, in-app file editing, and quick delete for rapid data removal. Users can organize data in folders and share information using tools like Tella Web, Uwazi, Google Drive, Nextcloud, or Dropbox.",
       "webpageUrl": {
         "url": "https://tella-app.org/"
       },
       "repositoryUrl": {
-        "url": "https://github.com/Horizontal-org/Tella-iOS"
+        "url": "https://github.com/Horizontal-org/Tella-iOS",
+        "wellKnown": "https://tella-app.org/data/funding.json"
       },
       "licenses": [
-        "MIT License"
+        "spdx:MIT"
       ],
       "tags": [
         "app",
@@ -60,35 +60,37 @@
         "security",
         "privacy",
         "documentation",
-        "communication",
         "data",
         "human-rights",
         "encryption",
-        "privacy",
         "offline"
       ]
     },
     {
       "guid": "tella-foss",
       "name": "Tella FOSS",
-      "description": "Tella FOSS is the fully Free and Open Source version of Tella for Android that doesn't contain any closed-source or proprietary library or dependency. It includes all core features—secure media capture, encrypted storage, camouflage mode, file organization, and integration with open platforms like ODK and Tella Web. \n\nWe are in the process of merging Tella Android and Tella FOSS into a single codebase.",
+      "description": "Tella FOSS is the fully Free and Open Source version of Tella for Android that doesn't contain any closed-source or proprietary library or dependency. It includes all core features—secure media capture, encrypted storage, camouflage mode, file organization, and integration with open platforms like ODK and Tella Web.\n\nWe are in the process of merging Tella Android and Tella FOSS into a single codebase.",
       "webpageUrl": {
-        "url": "https://f-droid.org/packages/org.hzontal.tellaFOSS/"
+        "url": "https://tella-app.org/"
       },
       "repositoryUrl": {
-        "url": "https://github.com/Horizontal-org/Tella-Android-FOSS"
+        "url": "https://github.com/Horizontal-org/Tella-Android-FOSS",
+        "wellKnown": "https://github.com/Horizontal-org/Tella-Android-FOSS/blob/main/.well-known/funding-manifest-urls"
       },
       "licenses": [
-        "Apache License 2.0"
+        "spdx:Apache-2.0"
       ],
       "tags": [
+        "app",
         "android",
         "mobile",
         "security",
         "privacy",
         "documentation",
-        "cryptography",
-        "communication"
+        "data",
+        "human-rights",
+        "encryption",
+        "offline"
       ]
     }
   ],
@@ -97,20 +99,52 @@
       {
         "guid": "donorbox",
         "type": "payment-provider",
-        "description": "Over the past 5 years, Horizontal has built tools to support those who are most at-risk of surveillance, censorship, and repression: journalists, activists, human rights defenders, indigenous folks, LGBTQ communities. Now, the Trump administration’s funding freeze is threatening to destroy everything we’ve built: the organization, the tools, the community. As we pivot to new forms of revenue to become a self-sustaining organization, we are looking for support to ensure Horizontal survives and continues to support our community. We are looking for 250 donors to support us with a monthly donation. Join us now! https://donorbox.org/towards-sustainability"
+        "description": "Over the past 5 years, Horizontal has built tools to support those who are most at risk of surveillance, censorship, and repression: journalists, activists, human rights defenders, Indigenous folks, LGBTQ+ communities. We are pivoting to new forms of revenue to become a self-sustaining organization. Join us here: https://donorbox.org/towards-sustainability",
+        "address": "https://donorbox.org/towards-sustainability"
+      },
+      {
+        "guid": "wire",
+        "type": "bank",
+        "address": "",
+        "description": "Please email us for wire transfer details at contact@tella-app.org"
       }
     ],
     "plans": [
       {
         "guid": "donorbox",
         "status": "active",
-        "name": "Support Tella",
-        "description": "If 1000 donors pledge $30 per month, we will be able to go further and develop new security and privacy features to continue make our users ever safer. We will continue providing training and support to those on the front-lines. And we will be able to take the time to develop alternative sources of funding to become self-sufficient.",
+        "name": "Tella Maintenance",
+        "description": "If 1,000 donors pledge $30 per month, we will be able to continue to develop Tella independently, co-creating and implementing new features with the community we serve. We will continue providing training and support to the community in need, responding to user requests and questions.",
         "amount": 30,
         "currency": "USD",
         "frequency": "monthly",
         "channels": [
           "donorbox"
+        ]
+      },
+      {
+        "guid": "search-sort-feature",
+        "status": "active",
+        "name": "Better support for file organizing, search and sort",
+        "description": "This project will improve the way users manage their files in Tella by adding support for tagging, searching, and improving the current sorting features. Users will be able to assign custom tags to photos, videos, audio files, and documents, making it easier to organize large collections. A new search functionality will allow users to find files by name, tag, or date. We will also introduce a customizable homepage where users can pin specific folders or tag categories for quick access, adapting the experience to their workflows and needs.",
+        "amount": 10000,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": [
+          "donorbox",
+          "wire"
+        ]
+      },
+      {
+        "guid": "new-camouflage",
+        "status": "active",
+        "name": "New camouflage option compatible with strong passwords",
+        "description": "We will implement a new camouflage option for Tella. The current calculator camouflage doesn't support strong passwords, as it only allows numeric input. We're planning to add a functional notes app as a new camouflage option to allow for alphanumeric passphrases.",
+        "amount": 5000,
+        "currency": "USD",
+        "channels": [
+          "donorbox",
+          "wire"
         ]
       }
     ],
