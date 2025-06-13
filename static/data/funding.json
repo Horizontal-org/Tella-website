@@ -5,10 +5,9 @@
     "role": "owner",
     "name": "Horizontal",
     "email": "contact@wearehorizontal.org",
-    "description": "Horizontal supports frontline defenders, activists, and journalists through digital security and tool development. \n\nWe empower grassroots communities to use technology effectively and to operate safely from surveillance, censorship, and repression. \n\nHorizontal is a registered 501(c)(3) nonprofit",
+    "description": "Horizontal supports frontline defenders, activists, and journalists through digital security and tool development. \n\nWe empower grassroots communities to use technology effectively and to operate safely from surveillance, censorship, and repression. We are the developers and maintainers of Tella. \n\nHorizontal is a registered 501(c)(3) nonprofit",
     "webpageUrl": {
-      "url": "https://wearehorizontal.org/",
-      "wellKnown": "https://tella-app.org/"
+      "url": "https://tella-app.org/"
     }
   },
   "projects": [
@@ -126,7 +125,7 @@
         "guid": "search-sort-feature",
         "status": "active",
         "name": "Better support for file organizing, search and sort",
-        "description": "This project will improve the way users manage their files in Tella by adding support for tagging, searching, and improving the current sorting features. Users will be able to assign custom tags to photos, videos, audio files, and documents, making it easier to organize large collections. A new search functionality will allow users to find files by name, tag, or date. We will also introduce a customizable homepage where users can pin specific folders or tag categories for quick access, adapting the experience to their workflows and needs.",
+        "description": "This project will improve file management in Tella by adding tagging, search, and enhanced sorting. Users will be able to tag files, search by name, tag, or date, and customize the homepage to pin folders or tag categories for faster access.",
         "amount": 10000,
         "currency": "USD",
         "frequency": "one-time",
@@ -142,6 +141,7 @@
         "description": "We will implement a new camouflage option for Tella. The current calculator camouflage doesn't support strong passwords, as it only allows numeric input. We're planning to add a functional notes app as a new camouflage option to allow for alphanumeric passphrases.",
         "amount": 5000,
         "currency": "USD",
+        "frequency": "one-time",
         "channels": [
           "donorbox",
           "wire"
