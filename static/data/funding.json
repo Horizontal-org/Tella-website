@@ -5,6 +5,7 @@
     "role": "owner",
     "name": "Horizontal",
     "email": "contact@wearehorizontal.org",
+    "phone": "",
     "description": "Horizontal supports frontline defenders, activists, and journalists through digital security and tool development. \n\nWe empower grassroots communities to use technology effectively and to operate safely from surveillance, censorship, and repression. We are the developers and maintainers of Tella. \n\nHorizontal is a registered 501(c)(3) nonprofit",
     "webpageUrl": {
       "url": "https://tella-app.org/"
@@ -98,8 +99,8 @@
       {
         "guid": "donorbox",
         "type": "payment-provider",
-        "description": "Over the past 5 years, Horizontal has built tools to support those who are most at risk of surveillance, censorship, and repression: journalists, activists, human rights defenders, Indigenous folks, LGBTQ+ communities. We are pivoting to new forms of revenue to become a self-sustaining organization. Join us here: https://donorbox.org/towards-sustainability",
-        "address": "https://donorbox.org/towards-sustainability"
+        "address": "https://donorbox.org/towards-sustainability",
+        "description": "Over the past 5 years, Horizontal has built tools to support those who are most at risk of surveillance, censorship, and repression: journalists, activists, human rights defenders, Indigenous folks, LGBTQ+ communities. We are pivoting to new forms of revenue to become a self-sustaining organization. Join us here: https://donorbox.org/towards-sustainability"
       },
       {
         "guid": "wire",
