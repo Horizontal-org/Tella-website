@@ -21,7 +21,7 @@
       },
       "repositoryUrl": {
         "url": "https://github.com/Horizontal-org/Tella-Android",
-        "wellKnown": "https://tella-app.org/data/funding.json"
+        "wellKnown": "https://github.com/Horizontal-org/Tella-Android/blob/main/.well-known/funding-manifest-urls"
       },
       "licenses": [
         "spdx:MIT"
@@ -48,7 +48,7 @@
       },
       "repositoryUrl": {
         "url": "https://github.com/Horizontal-org/Tella-iOS",
-        "wellKnown": "https://tella-app.org/data/funding.json"
+        "wellKnown": "https://github.com/Horizontal-org/Tella-iOS/blob/main/.well-known/funding-manifest-urls"
       },
       "licenses": [
         "spdx:MIT"
