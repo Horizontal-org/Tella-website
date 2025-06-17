@@ -75,7 +75,7 @@
       },
       "repositoryUrl": {
         "url": "https://github.com/Horizontal-org/Tella-Android-FOSS",
-        "wellKnown": "https://github.com/Horizontal-org/Tella-Android-FOSS/blob/main/.well-known/funding-manifest-urls"
+        "wellKnown": "https://github.com/Horizontal-org/Tella-Android-FOSS/blob/master/.well-known/funding-manifest-urls"
       },
       "licenses": [
         "spdx:Apache-2.0"
