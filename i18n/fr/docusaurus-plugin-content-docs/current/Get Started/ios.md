@@ -131,7 +131,7 @@ Nous avons rédigé une documentation sur la manière de se connecter à un serv
 ### Pour en savoir plus sur Tella {#read-more-about-tella}
 - [Fonctionnalités]( /features) : En savoir plus sur la façon dont Tella peut vous protéger et sur les menaces contre lesquelles Tella ne_vous_protège_pas.
 - [Connexions](/for-organizations) : Découvrez comment vous pouvez vous connecter à un serveur pour collecter des données ou sauvegarder des fichiers.
-- [Sécurité et protection des renseignements personnels](/security-and-privacy) : nous ne recueillons que le minimum de données nécessaires et ne jamais de renseignements personnels. Consultez la politique de protection des renseignements personnels complète [ici](/privacy).
+- [Sécurité et protection des renseignements personnels](/security-and-privacy) : nous ne recueillons que le minimum de données nécessaires et ne jamais de renseignements personnels. Consultez la politique de confidentialité complète [ici](/privacy).
 
 
 
