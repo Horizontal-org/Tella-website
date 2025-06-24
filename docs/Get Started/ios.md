@@ -11,7 +11,7 @@ slug: /get-started-ios
 Follow [this link](https://apps.apple.com/us/app/tella-document-protect/id1598152580) to find Tella on the App Store or open the App Store and search for “Tella document and protect”.
 
 
-<div class="gifs">
+<div className="gifs">
     <img src={require('@site/static/img/getting-started/ios/find-and-download.gif').default} alt="gif that shows how to download Tella from the App Store" title="find and download gif" />
 </div>
 
@@ -37,7 +37,7 @@ The first time you use each functionality, you will be asked to grant Tella some
 * To take photos, record videos, or record audio, you will need to grant permission to access your phone’s camera and microphone.
 
 
-<div class="gifs">
+<div className="gifs">
     <img src={require('@site/static/img/getting-started/ios/granting-permissions.gif').default} alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
 </div>
 
@@ -45,7 +45,7 @@ The first time you use each functionality, you will be asked to grant Tella some
 
 If you do not grant Tella these permissions, you can do it later by going to your iPhone settings and navigating to **Settings** > **Tella** > **Allow Tella to access to Camera, microphone and files.**
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/ios/taking-picture-permissions.gif").default} alt="gif that shows how to take a picture in Tella the first time (grant permission)" title="Tella will ask you to grant permissions the first time you open the camera" />
 </div>
 
@@ -57,7 +57,7 @@ After granting permissions, you’re ready to start collecting documentation. We
 **Use the Camera to take pictures or videos and the Audio Recorder to record audio.** All media taken by Tella will be encrypted instantly, which means that the file will not be accessible outside of Tella. All media collected inside Tella will not show on your phone gallery or phone files. There is no particular storage limit for Tella, the available space will depend on the space available on your device. 
 
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/ios/picture.gif").default} alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
     <img src={require("@site/static/img/getting-started/ios/recording.gif").default} alt="gif that shows how to record audio in Tella" title="record audio in Tella" />
 </div> 
@@ -68,7 +68,7 @@ After granting permissions, you’re ready to start collecting documentation. We
 
 **Import your files to Tella.** Go to any of the folders inside Tella and tap the **+** Button > **Import from device**. Choose the file you’d like to keep inside Tella and a copy of the file will be stored encrypted and hidden on Tella. You will be asked to chose if you want to delete or keep the original file from your device. Tella will be unlocked while you choose your files for a maximum of three (3) minutes.
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/ios/import-files.gif").default} alt="gif that shows how to import files in Tella" title="import files in Tella" />
 </div> 
 
@@ -76,7 +76,7 @@ After granting permissions, you’re ready to start collecting documentation. We
 **Create folders.** To make it easier to find your files, you can organize files into folders. Go to **All files** > **+** > **Create a new folder** and type a descriptive name for the folder. Then use the Select multiple button at the top of the screen, choose the files you want to move to the new folder, then click the three (3) dots button and Move to a different folder, navigate the file structure to find the folder and then press Move here. 
 
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/ios/folders.gif").default} alt="gif that shows how to organize evidence in folders in Tella" title="folders in Tella" />
 </div> 
 
@@ -84,7 +84,7 @@ After granting permissions, you’re ready to start collecting documentation. We
 **Rename files:** Another way to keep your data organized is to rename files to be more descriptive. By default files receive an auto-generated name. You can change it by clicking on the **three (3) dots** that are next to each filename and then tap **Rename**.
 
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/ios/rename.gif").default} alt="gif that shows how to rename files in Tella" title="rename files in Tella" />
 </div> 
 
@@ -94,7 +94,7 @@ To share information using Tella you can use the **Share** button. Just select t
 
 Take into account that Tella will share the files unencrypted, so make sure to use disappearing messages (for example on WhatsApp or Signal) or delete the messages after the other person receives them.
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/ios/share.gif").default} alt="gif that shows how share information in Tella" title="share information in Tella" />
 </div> 
 
