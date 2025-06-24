@@ -22,6 +22,7 @@ Les [tutoriels vidéo](/video-tutorials)  sont sous-titrés en espagnol, arabe, 
 
 
 
+
 ### Accessibilité WCAG {#wcag-accessibility}
 
 Dans ce tableau, vous pouvez accéder à nos derniers rapports d'accessibilité pour chaque plateforme.
