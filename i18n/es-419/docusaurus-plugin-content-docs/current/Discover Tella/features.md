@@ -1,8 +1,8 @@
 ---
-id: funciones
+id: features
 title: Funciones de Tella
 description: Una descripción detallada de las funciones de Tella.
-slug: /funciones
+slug: /features
 ---
 
 import FeaturesTable from '.././_features-table.md';
@@ -13,6 +13,7 @@ import ConnectionsTable from '.././_connections-table.md';
 Todas las siguientes funciones están disponibles para toda(o)s la(o)s usuaria(o)s tan pronto descargan Tella. Estas no requieren ninguna conexión a un servidor ni ninguna configuración especial.
 
 <FeaturesTable/>
+
 
 
 ## Bloqueo de la App {#app-lock}
