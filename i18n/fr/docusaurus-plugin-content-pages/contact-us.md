@@ -1,7 +1,7 @@
 <div classname="section" id="get-in-touch">
     <h1>Parlons-en</h1>
     <div classname="columns">
-        <div classname="column"><img classname="home-illustrations" src="img/contact.png" alt="Image with a hand clicking on a button"></div>
+        <div classname="column"><img classname="home-illustrations" src="img/contact.png" alt="Image with a hand clicking on some"></div>
         <div classname="column">
             <p>Avez-vous des questions concernant Tella? <br> 
                 Vous faut-il un soutienou de formation pour la déployer dans votre communauté?<br>
