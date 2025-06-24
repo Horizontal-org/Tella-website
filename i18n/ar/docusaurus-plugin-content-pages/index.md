@@ -8,11 +8,11 @@ import ThemedImage from '@theme/ThemedImage';
         <p>في البيئات الصعبة حيث يكون الاتصال بالانترنت محدودا أو معدوما، أو في ظل القمع، يُعد تطبيق Tella وسيلة أسهل وأكثر أمنا لتوثيق انتهاكات حقوق الإنسان وجمع البيانات.</p>
         <div classname="download">
 <a href="https://play.google.com/store/apps/details?id=org.hzontal.tella" target="_blank">
-                <img classname="badge" src="img/google-play-badge.png" alt="احصل على Tella على جوجل بلاي"></a>
+                <img classname="badge" src="img/google-play-badge.png" alt="Get Tella on Google Play"></a>
             <a href="https://apps.apple.com/us/app/tella-document-protect/id1598152580" target="_blank">
-                <img classname="badge" src="img/app-store-badge.svg" id="apple-store-badge" alt="احصل على Tella على متجر التطبيقات"></a>
+                <img classname="badge" src="img/app-store-badge.svg" id="apple-store-badge" alt="Get Tella on App Store"></a>
             <a href="https://f-droid.org/packages/org.hzontal.tellaFOSS">
-                <img classname="badge" src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="احصل على Tella على إف-درويد"></a>
+                <img classname="badge" src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get Tella on F-Droid"></a>
 </div>
     </div>
     <div classname="intro-column" id="intro-column2">
@@ -54,7 +54,7 @@ import ThemedImage from '@theme/ThemedImage';
 <span classname="emphasis">إخفاء التطبيق:</span> تغيير مظهر Tella لإخفائه عن الأشخاص الذين يبحثون في هاتفك.</li>
             </ul>
 </div>
-        <div classname="column" id="section-column2"><img classname="home-illustrations" src="img/vault.png" alt="توضيح الخزانة"></div>
+        <div classname="column" id="section-column2"><img classname="home-illustrations" src="img/vault.png" alt="Vault illustration"></div>
     </div>
     <a type="button" href="features" classname="clean-btn center button button--primary"> تعرف على ميزات Tella </a>  
 </div>
@@ -62,7 +62,7 @@ import ThemedImage from '@theme/ThemedImage';
 <div classname="section">
     <h3>2. جمع الأدلة حول  انتهاكات حقوق الإنسان</h3>
     <div classname="columns">
-        <div classname="column" id="section-column1"><img classname="home-illustrations" src="img/data.png" alt="توضيح دفتر الملاحظات"></div>
+        <div classname="column" id="section-column1"><img classname="home-illustrations" src="img/data.png" alt="Notepad illustration"></div>
         <div classname="column" id="section-column2">
             <ul>
 <li>
@@ -89,7 +89,7 @@ import ThemedImage from '@theme/ThemedImage';
 <span classname="emphasis">ثق بالنص البرمجي:</span> إن النص البرمجي لـ Tella مفتوح المصدر و<a href="/open-source">متاح للعموم</a> بحيث يمكن للباحثين، والمحللين الأمنيين، والمطورين التدقيق فيه وإعادة استخدامه بحُرية.</li>
             </ul>
 </div>
-        <div classname="column" id="section-column2"><img classname="home-illustrations" src="img/open-source.png" alt="توضيح مفتوح المصدر"></div>
+        <div classname="column" id="section-column2"><img classname="home-illustrations" src="img/open-source.png" alt="Open source  illustration"></div>
     </div>
 </div>
 </div>
