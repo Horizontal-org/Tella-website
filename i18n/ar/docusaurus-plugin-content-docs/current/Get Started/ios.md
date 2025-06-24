@@ -11,7 +11,7 @@ slug: /get-started-ios
 اتبع [هذا الرابط](https://apps.apple.com/us/app/tella-document-protect/id1598152580) للعثور على Tella في App Store أو افتح App Store وابحث عن ”Tella document and protect“.
 
 
-<div class="gifs">
+<div className="gifs">
     <img src={require('@site/static/img/getting-started/ios/find-and-download.gif').default} alt="gif that shows how to download Tella from the App Store" title="find and download gif" />
 </div>
 
@@ -20,24 +20,24 @@ slug: /get-started-ios
 ## إنشاء قفلك {#create-your-lock}
 عند فتح Tella للمرة الأولى، سيُطلَب منك اختيار كيفية قفل Tella. بدون هذا القفل، لا يمكن فتح Tella والوصول إلى أي من الملفات المُخزَّنة في Tella.
 
-* كلمة السر: كلمة السر المُكوَّنة من الحروف الأبجدية والأرقام هي الطريقة الأكثر أمنا لقفل تطبيقك.
+* كلمة السر: كلمة السر المُكوَّنة من الحروف الأبجدية والأرقام هي الطريقة الأكثر أمنا لقفل تطبيقك.
 * رقم التعريف الشخصي (PIN): تسلسل رقمي يتكون من أكثر من ستة (6) أرقام.
 
 تجنب استخدام اسمك أو تاريخ ميلادك أو أي شيء يسهل تخمينه (مثل ”password“ أو ”123456“ أو ”000000“).
 
-ضع في اعتبارك أنه إذا نسيت هذا القفل، فلن تكون هناك طريقة أخرى للوصول إلى التطبيق أو محتواه.
+ضع في اعتبارك أنه إذا نسيت هذا القفل، فلن تكون هناك طريقة للوصول إلى التطبيق أو محتواه.
 
 
 
-## منح التراخيص إلى Tella {#grant-permissions-to-tella}
-في المرة الأولى التي تستخدم فيها كل وظيفة، سيُطلَب منك منح Tella بعض التراخيص:
+## منح التراخيص إلى Tella  {#grant-permissions-to-tella}
+في المرة الأولى التي تستخدم فيها كل وظيفة، سيُطلب منك منح Tella بعض التراخيص:
 
 
 
-* لالتقاط الصور أو تسجيل مقاطع الفيديو أو تسجيل مقطع صوتي، ستحتاج إلى منح إذن للوصول إلى كاميرا وميكروفون هاتفك.
+* لالتقاط صور أو تسجيل مقاطع فيديو أو تسجيل مقطع صوتي، ستحتاج إلى منح إذن للوصول إلى كاميرا وميكروفون هاتفك.
 
 
-<div class="gifs">
+<div className="gifs">
     <img src={require('@site/static/img/getting-started/ios/granting-permissions.gif').default} alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
 </div>
 
@@ -45,7 +45,7 @@ slug: /get-started-ios
 
 ‫إذا لم تمنح Tella هذه التراخيص، فيمكنك القيام بذلك لاحقا بالانتقال إلى إعدادات اﻵيفون والانتقال إلى **إعدادات** > **Tella** > **السماح لـ Tella بالوصول إلى الكاميرا والميكروفون والملفات.**
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/ios/taking-picture-permissions.gif").default} alt="gif that shows how to take a picture in Tella the first time (grant permission)" title="Tella will ask you to grant permissions the first time you open the camera" />
 </div>
 
@@ -57,7 +57,7 @@ slug: /get-started-ios
 **استخدم الكاميرا لالتقاط الصور أو مقاطع الفيديو ومسجل الصوت لتسجيل المقاطع الصوتية.** ستتم تعمية جميع الوسائط التي التقطتها بواسطة Tella على الفور، مما يعني أنه سيتعذر الوصول للملف خارج Tella. ولن تظهر الوسائط التي تم جمعها داخل Tella على معرض أو ملفات هاتفك. لا يوجد حد تخزين معين لـTella، تعتمد المساحة المتوفرة على الحيز المتاح على جهازك.
 
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/ios/picture.gif").default} alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
     <img src={require("@site/static/img/getting-started/ios/recording.gif").default} alt="gif that shows how to record audio in Tella" title="record audio in Tella" />
 </div> 
@@ -68,7 +68,7 @@ slug: /get-started-ios
 
 **استيراد ملفاتك إلى Tella.** انتقل إلى أي من المجلدات داخل Tella واضغط على زر **+** > **استيراد من الجهاز**. اختر الملف الذي ترغب في الاحتفاظ به داخل Tella وسيتم تخزين نسخة معمّاة ومخفية للملف في Tella. سيُطلب منك الاختيار بين حذف الملف الأصلي من جهازك وبين الاحتفاظ به. سيبقى Tella مفتوحا أثناء اختيارك لملفاتك لمدة أقصاها ثلاث (3) دقائق.
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/ios/import-files.gif").default} alt="gif that shows how to import files in Tella" title="import files in Tella" />
 </div> 
 
@@ -76,7 +76,7 @@ slug: /get-started-ios
 **إنشاء المجلدات.** لتسهيل العثور على ملفاتك، يمكنك تنظيم الملفات في مجلدات. انتقل إلى **كافة الملفات** > **+** > **إنشاء مجلد جديد** واكتب اسما لوصف المجلد. ثم استخدم زر 'تحديد عدة ملفات' في الجزء العلوي من الشاشة، واختر الملفات التي تريد نقلها إلى المجلد الجديد، ثم اضغط على زر النقط الثلاثة (3) ثم 'نقل إلى مجلد مختلف'، بعدها انتقل إلى بنية الملف للعثور على المجلد ثم اضغط على 'نقل هنا'.
 
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/ios/folders.gif").default} alt="gif that shows how to organize evidence in folders in Tella" title="folders in Tella" />
 </div> 
 
@@ -84,7 +84,7 @@ slug: /get-started-ios
 **إعادة تسمية الملفات:** هناك طريقة أخرى للحفاظ على تنظيم بياناتك وهي إعادة تسمية الملفات لتكون أكثر وصفا. بشكل افتراضي، تتلقى الملفات اسما تم توليده تلقائيا. يمكنك تغييره من خلال الضغط على **النقط الثلاثة (3)** الموجودة بجوار كل اسم ملف، ثم الضغط على **إعادة التسمية**.
 
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/ios/rename.gif").default} alt="gif that shows how to rename files in Tella" title="rename files in Tella" />
 </div> 
 
@@ -94,7 +94,7 @@ slug: /get-started-ios
 
 ضع في اعتبارك أن Tella ستشارك الملفات دون تعمية، لذا تأكد من استخدام الرسائل المختفية (مثلا، واتساب أو Signal) أو احذف الرسائل بعد أن يستلمها الشخص الآخر.
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/ios/share.gif").default} alt="gif that shows how share information in Tella" title="share information in Tella" />
 </div> 
 
@@ -109,9 +109,9 @@ slug: /get-started-ios
 يمكن توصيل Tella بمجموعة متنوعة من الخدمات الخلفية. يتم استخدام هذا من قبل المنظمات للسماح لأعضائها أو شركائها بإرسال البيانات والملفات إلى موقع بعيد آمن. إذا كنت تفكر في الاتصال بخادم وكانت لديك شكوك حول الخادم الذي يجب اختياره أو كيفية الاتصال به، فيرجى الاطلاع على [توثيقاتنا للمنظمات](/for-organizations) أو [اتصل بنا](/contact-us)، فنحن هنا للمساعدة!
 
 #### Tella Web {#tella-web}
-Tella Web هي أداة مفتوحة المصدر تُمكِّن الأفراد والمنظمات من الإدارة والتجميع المُمركَز للتقارير التي يرسلها مستخدمو Tella، بما في ذلك الصور ومقاطع الفيديو والملفات الصوتية.
+Tella Web هي أداة مفتوحة المصدر تُمكِّن الأفراد والمنظمات من الإدارة والتجميع المُمركَز للتقارير التي يرسلها مستخدمو Tella، بما في ذلك الصور ومقاطع الفيديو والملفات الصوتية.
 
-‫اقرأ المزيد عن Tella Web [هنا](/tella-web) أو شاهد [الفيديو التعليمي](/video-tutorials#tella-web).
+اقرأ المزيد عن Tella Web [هنا](/tella-web) أو شاهد [الفيديو التعليمي](/video-tutorials#tella-web).
 
 #### Uwazi {#uwazi}
 [Uwazi](https://uwazi.io/) هو تطبيق مفتوح المصدر صممته HURIDOCS مع ميزات هائلة لجمع بيانات حقوق الإنسان وتنظيمها وعرضها.
