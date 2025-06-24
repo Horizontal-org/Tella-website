@@ -11,7 +11,7 @@ slug: /get-started-ios
 Suivez [ce lien](https://apps.apple.com/us/app/tella-document-protect/id1598152580) pour trouver Tella sur l'App Store ou ouvrez l'App Store et recherchez “Tella documente et protège”.
 
 
-<div class="gifs">
+<div className="gifs">
     <img src={require('@site/static/img/getting-started/ios/find-and-download.gif').default} alt="gif that shows how to download Tella from the App Store" title="find and download gif" />
 </div>
 
@@ -30,14 +30,14 @@ Gardez à l'esprit que si vous oubliez ce code d'accès, vous ne pourrez plus ac
 
 
 ## Accorder des permissions à Tella {#grant-permissions-to-tella}
-Lorsque vous utiliisez chaque fonctionnalité pour la première fois, il vous est demandé d'accorder certaines permissions à Tella :
+Lorsque vous utilisez chaque fonctionnalité pour la première fois, il vous est demandé d'accorder certaines permissions à Tella :
 
 
 
 * Pour prendre des photos, enregistrer des vidéos ou du son, vous devez autoriser l'accès à l'appareil photo et au microphone de votre téléphone.
 
 
-<div class="gifs">
+<div className="gifs">
     <img src={require('@site/static/img/getting-started/ios/granting-permissions.gif').default} alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
 </div>
 
@@ -45,7 +45,7 @@ Lorsque vous utiliisez chaque fonctionnalité pour la première fois, il vous es
 
 Si vous n'accordez pas ces autorisations à Tella, vous pourrez le faire plus tard en allant dans les réglages de votre iPhone et en naviguant vers **Réglages** > **Tella** > **Autoriser Tella à accéder à l'appareil photo, au microphone et aux fichiers**.
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/ios/taking-picture-permissions.gif").default} alt="gif that shows how to take a picture in Tella the first time (grant permission)" title="Tella will ask you to grant permissions the first time you open the camera" />
 </div>
 
@@ -57,7 +57,7 @@ Une fois les permissions accordées, vous êtes prêt à vous lancer dans la col
 **Utilisez l'appareil photo pour prendre des photos ou des vidéos et l'enregistreur audio pour enregistrer du son.** Tous les médias pris par Tella seront chiffrés instantanément, ce qui signifie que le fichier ne sera pas accessible en dehors de Tella. Tous les médias collectés par Tella n'apparaîtront pas dans la galerie de votre téléphone ou dans les fichiers de votre téléphone. Il n'y a pas de limite de stockage particulière pour Tella, l'espace disponible dépendra de l'espace disponible sur votre appareil.
 
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/ios/picture.gif").default} alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
     <img src={require("@site/static/img/getting-started/ios/recording.gif").default} alt="gif that shows how to record audio in Tella" title="record audio in Tella" />
 </div> 
@@ -66,9 +66,9 @@ Une fois les permissions accordées, vous êtes prêt à vous lancer dans la col
 
 
 
-**Importez vos fichiers sur Tella.** Allez dans n'importe quel dossier de Tella et appuyez sur le **+** Bouton > **Importer depuis l'appareil**. Choisissez le fichier que vous souhaitez conserver dans Tella et une copie du fichier sera stockée de manière chiffrée et cachée sur Tella. Il vous sera demandé de choisir si vous souhaitez supprimer ou conserver le fichier original de votre appareil. Tella sera déverrouillé pendant que vous choisissez vos fichiers pendant un maximum de trois (3) minutes.
+**Importez vos fichiers sur Tella.** Allez dans n'importe quel dossier de Tella et appuyez sur le **+** Bouton> **Importer depuis l'appareil**. Choisissez le fichier que vous souhaitez conserver dans Tella et une copie du fichier sera stockée de manière chiffrée et cachée sur Tella. Il vous sera demandé de choisir si vous souhaitez supprimer ou conserver le fichier original de votre appareil. Tella sera déverrouillé pendant que vous choisissez vos fichiers pendant un maximum de trois (3) minutes.
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/ios/import-files.gif").default} alt="gif that shows how to import files in Tella" title="import files in Tella" />
 </div> 
 
@@ -76,7 +76,7 @@ Une fois les permissions accordées, vous êtes prêt à vous lancer dans la col
 **Créer des dossiers.** Pour faciliter la recherche de vos fichiers, vous pouvez les organiser en dossiers. Allez dans **Tous les fichiers** > **+** > **Créer un nouveau dossier** et tapez un nom descriptif pour le dossier. Utilisez ensuite le bouton Sélectionner plusieurs en haut de l'écran, choisissez les fichiers que vous souhaitez déplacer dans le nouveau dossier, puis cliquez sur le bouton à trois (3) points et Déplacer vers un autre dossier, naviguez dans la structure des fichiers pour trouver le dossier, puis appuyez sur Déplacer ici.
 
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/ios/folders.gif").default} alt="gif that shows how to organize evidence in folders in Tella" title="folders in Tella" />
 </div> 
 
@@ -84,7 +84,7 @@ Une fois les permissions accordées, vous êtes prêt à vous lancer dans la col
 **Renommer les fichiers:** Une autre façon d'organiser vos données consiste à renommer les fichiers pour qu'ils soient plus descriptifs. Par défaut, les fichiers reçoivent un nom généré automatiquement. Vous pouvez le modifier en cliquant sur les **trois (3) points** qui se trouvent à côté de chaque nom de fichier, puis en appuyant sur **Renommer**.
 
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/ios/rename.gif").default} alt="gif that shows how to rename files in Tella" title="rename files in Tella" />
 </div> 
 
@@ -94,7 +94,7 @@ Pour partager des informations via Tella, vous pouvez utiliiser le bouton **Part
 
 Tenez compte du fait que Tella partagera les fichiers non cryptés, alors assurez-vous d'utiliser des messages qui disparaissent (par exemple sur WhatsApp ou Signal) ou supprimez les messages une fois reçus par l'autre personne.
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/ios/share.gif").default} alt="gif that shows how share information in Tella" title="share information in Tella" />
 </div> 
 
@@ -108,15 +108,15 @@ Tenez compte du fait que Tella partagera les fichiers non cryptés, alors assure
 ### Se connecter à un serveur {#connect-to-a-server}
 Tella peut être connecté à une variété de services d'arrière-plan. Ces services sont utilisés par les organisations pour permettre à leurs membres ou à leurs partenaires de soumettre des données et des fichiers à un emplacement distant sécurisé. Si vous envisagez de vous connecter à un serveur et que vous avez des doutes sur le serveur à choisir ou sur la manière de vous connecter, veuillez consulter [notre documentation pour les organisations](/for-organizations) ou [nous contacter](/contact-us), nous sommes là pour vous aider !
 
-#### Tella Web {#tella-web}
+#### Uwazi {#uwazi}
 Tella Web est un outil open source qui permet aux individus et aux organisations de centraliser et de gérer les rapports transmis par les utilisateurs de Tella, notamment des photos, des vidéos et des fichiers audio.
 
-Pour en savoir plus sur Tella Web, cliquez [ici](/tella-web) ou regardez un [tutoriel vidéo](/video-tutorials#tella-web).
+Pour en savoir plus sur Tella Web [ici](/tella-web) ou regarder un [tutoriel vidéo](/video-tutorials#tella-web).
 
-#### Uwazi {#uwazi}
+#### Uwazi [site Web](https://uwazi.io/) et [documentation](https://uwazi.readthedocs.io/en/latest/).
 [Uwazi](https://uwazi.io/) est une application open-source créée par HURIDOCS avec de puissantes fonctionnalités pour collecter, organiser et visualiser les données relatives aux droits de l'homme.
 
-Nous avons rédigé une documentation sur la manière de se connecter à un serveur Uwazi et nous vous recommandons de lire [cette page](/uwazi) pour commencer.
+Nous avons rédigé une documentation sur la manière de se connecter à un serveur Uwazi et pour commencer, nous vous recommandons de lire [cette page](/uwazi).
 
 #### Pour en savoir plus sur Tella {#read-more-about-tella}
 [Fonctionnalités]( /features) : En savoir plus sur la façon dont Tella peut vous protéger et sur les menaces contre lesquelles Tella ne_vous_protège_pas.
@@ -131,7 +131,7 @@ Nous avons rédigé une documentation sur la manière de se connecter à un serv
 ### Pour en savoir plus sur Tella {#read-more-about-tella}
 - [Fonctionnalités]( /features) : En savoir plus sur la façon dont Tella peut vous protéger et sur les menaces contre lesquelles Tella ne_vous_protège_pas.
 - [Connexions](/for-organizations) : Découvrez comment vous pouvez vous connecter à un serveur pour collecter des données ou sauvegarder des fichiers.
-- [Sécurité et protection des renseignements personnels](/security-and-privacy) : nous ne recueillons que le minimum de données nécessaires et ne jamais de renseignements personnels. Consultez la politique de confidentialité complète [ici](/privacy).
+- [Sécurité et confidentialité](/security-and-privacy) : Nous ne recueillons que le minimum de données nécessaires et ne collectons jamais d'informations personnellement identifiables. Lisez la politique de confidentialité complète [ici](/privacy).
 
 
 
