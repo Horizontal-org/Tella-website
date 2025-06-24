@@ -90,7 +90,7 @@ import ThemedImage from '@theme/ThemedImage';
 <span classname="emphasis">Tin tưởng vào mã nguồn:</span> mã nguồn của Tella là mã nguồn mở và <a href="open-source">công khai</a> để các nhà nghiên cứu, nhà phân tích bảo mật và nhà phát triển có thể tự do kiểm tra và tái sử dụng.</li>
             </ul>
 </div>
-        <div classname="column" id="section-column2"><img classname="home-illustrations" src="img/open-source.png" alt="Open source illustration"></div>
+        <div classname="column" id="section-column2"><img classname="home-illustrations" src="img/open-source.png" alt="Open source  illustration"></div>
     </div>
 </div>
 </div>
