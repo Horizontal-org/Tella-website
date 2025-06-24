@@ -15,6 +15,7 @@ All of the following features are available to all users as soon as they downloa
 <FeaturesTable/>
 
 
+
 ## App lock {#app-lock}
 
 When installing Tella, the user has to select a lock 🔒 to encrypt and decrypt the content of the app.
