@@ -22,6 +22,7 @@ Nós nos empenhamos para disponibilizar o Tella em idiomas falados por comunidad
 
 
 
+
 ### Acessibilidade WCAG {#wcag-accessibility}
 
 Nesta tabela, você pode acessar nossos últimos relatórios de acessibilidade para cada plataforma.
