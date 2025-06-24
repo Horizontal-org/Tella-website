@@ -146,39 +146,37 @@ A través del menú de configuración de la App, puedes habilitar:
 - Compartir analíticas de uso utilizando nuestro sistema de preservación de la privacidad [Divvi Up](/security-and-privacy#analytics).
 
 
-La versión FOSS de Tella disponible en [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/) no tiene ningún rastreador para informes de errores o análisis de uso.
+## La versión FOSS de Tella disponible en [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/) no tiene ningún rastreador para informes de errores o análisis de uso.
 
-## 7. Accediendo y Corrigiendo Tu Información Personal {#7-accessing-and-correcting-your-personal-information}
+7. Accediendo y Corrigiendo Tu Información Personal {#7-accessing-and-correcting-your-personal-information}
 
-Tienes derecho a presentar una Solicitud de Acceso del Sujeto (SAR) libre de cargos, después de la cual te proporcionaremos:
-
+-   Tienes derecho a presentar una Solicitud de Acceso del Sujeto (SAR) libre de cargos, después de la cual te proporcionaremos:
 -   Qué información personal relacionada a ti estamos procesando.
 -   Por qué se está procesando la información.
 -   Quién tiene acceso a tu información personal.
--   Qué procesos están utilizando esta información personal.
+
+Qué procesos están utilizando esta información personal.
 
 Para presentar una SAR, por favor escribe a [contact@wearehorizontal.org](mailto:contact@wearehorizontal.org).
 
-También puedes escribirnos a [contact@horizontal.org](mailto:contact@horizontal.org) para solicitar acceso, corregir, or eliminar cualquier información personal que nos hayas proporcionado. Es posible que no podamos atender una solicitud para cambiar información si creemos que el cambio violaría una ley o requisito legal o causaría que la información sea incorrecta.
+## También puedes escribirnos a [contact@horizontal.org](mailto:contact@horizontal.org) para solicitar acceso, corregir, or eliminar cualquier información personal que nos hayas proporcionado. Es posible que no podamos atender una solicitud para cambiar información si creemos que el cambio violaría una ley o requisito legal o causaría que la información sea incorrecta.
 
-## 8. Tus Derechos de Privacidad de California {#8-your-california-privacy-rights}
+8. Tus Derechos de Privacidad de California {#8-your-california-privacy-rights}
 
-Si eres residente de California, la ley de California puede otorgarte derechos adicionales respecto a nuestro uso de su información personal. Para saber más sobre tus derechos de privacidad de California, visita [https://www.oag.ca.gov/privacy/ccpa](https://www.oag.ca.gov/privacy/ccpa).
+## Si eres residente de California, la ley de California puede otorgarte derechos adicionales respecto a nuestro uso de su información personal. Para saber más sobre tus derechos de privacidad de California, visita [https://www.oag.ca.gov/privacy/ccpa](https://www.oag.ca.gov/privacy/ccpa).
 
-## 9. Seguridad de Datos {#9-data-security}
+9. Seguridad de Datos {#9-data-security}
 
 Hemos implementado medidas diseñadas para proteger tu información personal de pérdida accidental y de acceso, uso, modificación, y divulgación no autorizada. Toda la información que nos proporcionas está cifrada dentro de la app y transferida de manera segura a nuestros servidores detrás de cortafuegos.
 
 La seguridad de tu información también depende de ti. Cuando te hayamos proporcionado (o tu hayas elegido) una contraseña para acceder a ciertas partes de nuestra App, eres responsable de mantener esta contraseña confidencial. Te pedimos que no compartas tu contraseña con nadie.
 
-Desafortunadamente, la transmisión de información por internet y plataformas móviles no es completamente segura. Aunque hacemos lo mejor para proteger tu información personal, no podemos garantizar la seguridad de tu información personal transmitida a través de nuestra App. Cualquier transmisión de información personal corre por tu propio riesgo. No somos responsables de la elusión de ninguna configuración de privacidad o medidas de seguridad que proporcionemos.
+## Desafortunadamente, la transmisión de información por internet y plataformas móviles no es completamente segura. Aunque hacemos lo mejor para proteger tu información personal, no podemos garantizar la seguridad de tu información personal transmitida a través de nuestra App. Cualquier transmisión de información personal corre por tu propio riesgo. No somos responsables de la elusión de ninguna configuración de privacidad o medidas de seguridad que proporcionemos.
 
-## 10. Cambios a Nuestra Política de Privacidad {#10-changes-to-our-privacy-policy}
+10. Cambios a Nuestra Política de Privacidad {#10-changes-to-our-privacy-policy}
 
 Puede que actualicemos nuestra política de privacidad periódicamente. Si realizamos cambios materiales a cómo tratamos la información personal de nuestra(o)s usuaria(o)s, publicaremos una nueva política de privacidad en esta página con un aviso de que la política de privacidad ha sido actualizada.
 
-La fecha de la última revisión de la política de privacidad está identificada en la parte superior de la página. Tu eres responsable de visitar periódicamente esta política de privacidad para verificar cualquier cambio.
+## La fecha de la última revisión de la política de privacidad está identificada en la parte superior de la página. Tu eres responsable de visitar periódicamente esta política de privacidad para verificar cualquier cambio.
 
-## 11. Información de Contacto {#11-contact-information}
-
-Para hacer preguntas o comentarios sobre esta política de privacidad y nuestras prácticas de privacidad, contáctanos en [contact@wearehorizontal.org](mailto:contact@wearehorizontal.org).
+11. Información de Contacto {#11-contact-information}
