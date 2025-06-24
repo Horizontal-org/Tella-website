@@ -22,6 +22,7 @@ import TellaLanguages from '.././_tella-languages.md';
 
 
 
+
 ### المبادئ التوجيهية بشأن إمكانية الوصول (WCAG) {#wcag-accessibility}
 
 في هذا الجدول، يمكنك الوصول إلى أحدث التقارير حول إمكانية الوصول الخاصة بكل منصة.
