@@ -1,5 +1,5 @@
 ---
-id: accessibilité
+id: accessibility
 title: Langues et accessibilité
 description: Un aperçu des langues dans lesquelles Tella est disponible et des considérations en matière d’accessibilité.
 slug: /accessibility
