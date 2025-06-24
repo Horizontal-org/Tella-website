@@ -14,6 +14,7 @@ Tất cả các tính năng sau đây đều có sẵn cho tất cả người d
 <FeaturesTable/>
 
 
+
 ## Khóa ứng dụng {#app-lock}
 
 Khi cài đặt Tella, người dùng phải chọn khóa 🔒 để mã hóa và giải mã nội dung bên trong ứng dụng.
@@ -52,22 +53,28 @@ Tìm hiểu thêm về các Tính Năng Bảo Mật Bổ Sung của Tella trong 
 :::
 
 For the moment we support the following connections. Follow each of the links to find details and step-by-step guides on how to connect and use each of them:
-* Theo mặc định, Tella không bật chế độ im lặng của máy ảnh. Bạn có thể tắt âm thanh khi chụp hình để giảm sự chú ý bằng cách vào **Cài đặt ⚙️** > **Bảo mật** > **Chế độ im lặng của máy ảnh** 📷🔇
-* :::tip Video tutorial 🎥
-Tìm hiểu thêm về các Tính Năng Bảo Mật Bổ Sung của Tella trong [video hướng dẫn của chúng tôi](/video-tutorials#additional-security-features)
-:::
-* Bảo mật màn hình {#screen-security}
-* Theo mặc định, Tella chặn việc chụp màn hình và quay video lại màn hình bên trong Tella cũng như ẩn bản xem trước màn hình trong danh sách các ứng dụng gần đây 📱🔒. Người dùng có thể tắt tính năng bảo mật này nếu cần chụp màn hình hoặc ghi lại màn hình, hay kết nối Tella sang máy tính để thuyết trình bằng cách vào **Cài đặt** ⚙️ > **Bảo mật** > **Bảo mật Màn hình**.
-* Trên iOS, bảo mật màn hình chỉ chặn việc ghi màn hình bên trong Tella và ẩn màn hình trong danh sách các ứng dụng gần đây, nhưng không thể tắt tính năng chụp màn hình hoặc ghi màn hình.
-* :::tip Video tutorial 🎥
-Tìm hiểu thêm về các Tính Năng Bảo Mật Bổ Sung của Tella trong [video hướng dẫn của chúng tôi](/video-tutorials#additional-security-features)
-:::
+* [Uwazi](#uwazi)
+* [Tella Web](#tella-web)
+* Chúng được gọi là [Kết nối](/features#connecting-to-servers) trong Tella.
+* Lựa chọn loại máy chủ phù hợp {#selecting-the-right-type-of-server}
+* Sau đây là biểu đồ cơ bản, không đầy đủ để xác định xem loại nào trong ba loại máy chủ phù hợp nhất với các nhu cầu khác nhau. Đây là điểm bắt đầu tốt, nhưng bạn cũng có thể xem [video này](/video-tutorials#connections-full-video) để tìm hiểu chi tiết về từng loại máy chủ. Nếu bạn cần trợ giúp trong việc lựa chọn hoặc muốn yêu cầu một Kết Nối mới (tích hợp với loại máy chủ mới), [hãy liên hệ với chúng tôi!](/contact-us)
+* ```mermaid
+graph TD;
+    id1(Loại dữ liệu nào mà người dùng cần gửi?) --> id2("Chủ yếu là dữ liệu có cấu trúc (mẫu), kèm theo tập tin đính kèm");
+    id1 --> id3("Chủ yếu là tệp media, kèm theo một số văn bản") ;
+    id2 --> id4("Bạn cần thêm tính năng gì?");
+    id3 --> id5("Tella Web");
+    id4 --> id6("Thiết lập mối quan hệ giữa các điểm dữ liệu, xuất bản tới một trang web")
+    id4 --> id7("Thêm logic vào các biểu mẫu, thu thập số lượng lớn dữ liệu từ các biểu mẫu, tạo báo cáo để trực quan hóa kết quả")
+    id6 --> id8("Uwazi")
+    id7 --> id9("Bộ Dụng cụ Dữ Liệu Mở (ODK)")
+```
 
-Giới hạn số lần mở khóa {#restrict-unlocking-attempts}
+Tìm hiểu thêm Tella Web [tại đây](/tella-web)
 Bằng cách vào **Cài đặt ⚙️** > **Bảo mật** > **Xóa sau khi Mở khóa thất bại**, người dùng có thể quyết định số lần được phép mở khóa không thành trước khi tất cả dữ liệu trong Tella bị xóa.
 
 
-Theo mặc định, cài đặt này được Tắt, có nghĩa là không hạn chế số lần thử mở khóa và dữ liệu sẽ không bị xóa.  Người dùng có thể chọn giới hạn số lần thử mở khóa ở 5, 10 hoặc 20. Nếu chọn một trong những tùy chọn này, người dùng cũng có thể chọn có hiển thị thông báo mở khóa hay không khi còn 3 lần thử trước số lần đã chỉ định (ví dụ còn lại 3 lần, còn 2 lần, v.v.), hoặc không hiển thị thông báo nào cả.
+Tella Web là một công cụ mã nguồn mở cho phép các cá nhân và tổ chức tổng hợp và quản lý các báo cáo do người dùng Tella gửi, bao gồm ảnh, video, tài liệu pdf và tệp âm thanh.
 
 
 
@@ -85,7 +92,9 @@ Người dùng có thể chỉnh sửa ảnh bằng cách vào phần **Thêm** 
 
 Mã hóa {#encryption}
 
-Tất cả các tệp tin được lưu trữ bên trong Tella đều được mã hóa. Nếu không có khóa ứng dụng thì không thể giải mã và truy cập vào bất kỳ tệp nào được lưu trữ trong Tella. 🔒🔐
+:::danger
+Nếu mật khẩu của người dùng quá yếu, kẻ xâm nhập có thể đoán được nó và mở ứng dụng trên điện thoại; hoặc dữ liệu có thể được trích xuất và một máy tính có thể cưỡng phá được khóa mã hóa và giải mã dữ liệu.
+:::
 
 
 
@@ -129,33 +138,41 @@ Xuất tập tin sang thiết bị. Sau khi được lưu trữ bên ngoài Tell
 Việc nhập tài liệu từ hệ thống dữ liệu của thiết bị vào Tella sẽ tạo một bản sao của tệp tin đó vào Tella. Tella sẽ hỏi bạn muốn giữ hay xóa tệp tin gốc khỏi điện thoại khi nhập. Nếu bạn chọn giữ lại tệp tin gốc, chúng sẽ tồn tại trên thiết bị, nằm bên ngoài Tella và không được mã hóa.  🔒
 :::
 
-| Góp ý {#feedback} | Có nhiều lựa chọn để người dùng Tella [Liên hệ với đội ngũ Tella](/contact-us) để đề xuất cải tiến, báo cáo lỗi và sự cố, hoặc yêu cầu hỗ trợ. Trong Tella có 2 tùy chọn: | **Email:** | Đi đến **Cài đặt** > **Giới thiệu và Trợ giúp** > **Liên hệ với chúng tôi** để tìm địa chỉ email. | Người dùng có thể gửi email cho đội ngũ Tella bằng ứng dụng email yêu thích của mình. |
+| Góp ý {#feedback} | **Tính năng** | **Email:** | Đi đến **Cài đặt** > **Giới thiệu và Trợ giúp** > **Liên hệ với chúng tôi** để tìm địa chỉ email. | Người dùng có thể gửi email cho đội ngũ Tella bằng ứng dụng email yêu thích của mình. |
 |----------------|-------------|-------------------|---------------|----------------|
-| **In-App Feedback Form:**          | Đến **Cài đặt** > **Phản hồi** để kích hoạt mẫu phản hồi trong ứng dụng.        | Điều này cho phép người dùng chia sẻ phản hồi với đội ngũ Tella một cách ẩn danh.                | Để đảm bảo quyền riêng tư và ẩn danh của người dùng, chỉ những dữ liệu thiết yếu mới được truyền đến máy chủ Phản hồi của chúng tôi thông qua các yêu cầu HTTPS POST. Nhật ký chứa thông tin người dùng (địa chỉ IP, ngày giờ và tác nhân người dùng) sẽ tự động bị xóa hàng tuần.            | :::tip Video  tutorial 🎥
+| Trong **Cài đặt** > **Bảo mật**, người dùng có thể lựa chọn Bảo toàn hoặc xóa siêu dữ liệu của tệp tin khi nhập Ảnh và Video vào Tella. Siêu dữ liệu EXIF ​​của các tệp có thể bao gồm dữ liệu về thời điểm tạo tệp, cài đặt Máy ảnh hoặc vị trí của thiết bị.          | Đến **Cài đặt** > **Phản hồi** để kích hoạt mẫu phản hồi trong ứng dụng.        | :::tip Video  tutorial 🎥
 Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
-:::             |
-| :::info 
-Thông tin duy nhất mà chúng tôi sẽ nhận là nội dung cụ thể mà người dùng điền vào biểu mẫu phản hồi. Nếu người dùng đang yêu cầu hỗ trợ hoặc muốn chúng tôi liên hệ lại, họ nên cung cấp một phương thức an toàn để chúng tôi có thể liên hệ với họ.
-:::          | Nhập tệp tin từ thiết bị {#import-files-from-device}      | Người dùng có thể nhập các tệp vào Tella để bảo mật chúng bằng cách sử dụng tính năng nhập. Họ có thể nhập tệp tin bằng cách vào nút **Thêm (+ )** ở mục Tất cả tệp, Hình ảnh, Video, Âm thanh hoặc Tài liệu tùy theo loại tệp họ muốn nhập và sau đó chọn **Nhập từ thiết bị** 📥. Một thông báo sẽ xuất hiện để hỏi người dùng xem họ muốn giữ hay xóa tệp tin gốc khỏi bộ nhớ điện thoại của mình. Các tệp tin đã nhập sẽ được bảo mật tại Tella.                | :::tip Video  tutorial 🎥
+:::                | :::tip Video  tutorial 🎥
 Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
 :::            | :::tip Video  tutorial 🎥
 Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
 :::             |
-| Trong **Cài đặt** > **Bảo mật**, người dùng có thể lựa chọn Bảo toàn hoặc xóa siêu dữ liệu của tệp tin khi nhập Ảnh và Video vào Tella. Siêu dữ liệu EXIF ​​của các tệp có thể bao gồm dữ liệu về thời điểm tạo tệp, cài đặt Máy ảnh hoặc vị trí của thiết bị.          | Mở tập tin trong Tella {#open-files-in-tella}        | Hình ảnh, video, PDF và âm thanh có thể được hiển thị bên trong Tella. 📱📄                | Trên Tella FOSS, các tệp PDF phải được xuất để mở.       | :::tip Video  tutorial 🎥
+| Trong **Cài đặt** > **Bảo mật**, người dùng có thể lựa chọn Bảo toàn hoặc xóa siêu dữ liệu của tệp tin khi nhập Ảnh và Video vào Tella. Siêu dữ liệu EXIF ​​của các tệp có thể bao gồm dữ liệu về thời điểm tạo tệp, cài đặt Máy ảnh hoặc vị trí của thiết bị.          | Các mẫu yêu thích, dành cho người dùng được kết nối với máy chủ Uwazi 📋      | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+:::                | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+:::            | :::tip Video  tutorial 🎥
 Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
 :::             |
-| Trên Tella Android, có thể ngụy trang Tella theo hai cách:          | Người dùng có thể thay đổi tên và biểu tượng của ứng dụng để làm cho nó nhìn giống một ứng dụng khác như một ứng dụng trò chơi hoặc thời tiết. 🎮🌦️        | Người dùng có thể ẩn Tella dưới hình thức một cái máy tính thông thường. Khi mở Tella, người dùng phải nhập mã PIN vào máy tính, sau đó nhấn **=**. Việc ngụy trang Máy tính chỉ có thể thực hiện được nếu người dùng sử dụng mã PIN. Hình thức ngụy trang này không áp dụng được đối với mẫu hình khóa hoặc mật khẩu. 🔢🔒                | Ở thời điểm hiện tại, Tella trên hệ điều hành iOS không hỗ trợ những tính năng ngụy trang có sẵn như trên Android vì còn sự hạn chế trên kho ứng dụng của Apple.        | :::tip Video  tutorial 🎥
+| Trong **Cài đặt** > **Bảo mật**, người dùng có thể lựa chọn Bảo toàn hoặc xóa siêu dữ liệu của tệp tin khi nhập Ảnh và Video vào Tella. Siêu dữ liệu EXIF ​​của các tệp có thể bao gồm dữ liệu về thời điểm tạo tệp, cài đặt Máy ảnh hoặc vị trí của thiết bị.          | Mở tập tin trong Tella {#open-files-in-tella}        | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+:::                | - Tella Web <br />- Uwazi       | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+:::             |
+| Trong **Cài đặt** > **Bảo mật**, người dùng có thể lựa chọn Bảo toàn hoặc xóa siêu dữ liệu của tệp tin khi nhập Ảnh và Video vào Tella. Siêu dữ liệu EXIF ​​của các tệp có thể bao gồm dữ liệu về thời điểm tạo tệp, cài đặt Máy ảnh hoặc vị trí của thiết bị.          | Người dùng có thể thay đổi tên và biểu tượng của ứng dụng để làm cho nó nhìn giống một ứng dụng khác như một ứng dụng trò chơi hoặc thời tiết. 🎮🌦️        | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+:::                | - Tella Web <br />- Uwazi       | :::tip Video  tutorial 🎥
 Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
 :::        |
-| :::tip Video  tutorial 🎥
-Tìm hiểu thêm về [Ngụy trang Tella](/video-tutorials#camouflaging-tella) trong video hướng dẫn của chúng tôi.
-:::          | Tùy chỉnh màn hình chính {#homescreen-customization}        | Theo mặc định, màn hình chính của Tella sắp xếp các tệp theo loại: 📷 hình ảnh, 🎥 video, 🎧 âm thanh, 📄 tài liệu và các tệp tin khác. Nó cũng cung cấp mục Tất cả các tệp, nơi có thể truy cập tất cả các tệp. Để biết thêm thông tin, hãy xem phần Quản lý tệp tin.       | Để thuận tiện và dễ dàng truy cập, bạn cũng có thể tùy chỉnh màn hình chính để hiển thị các phím tắt đến một hoặc nhiều mục sau:          | Các tệp tin gần đây, để nhanh chóng mở các tệp tin mới nhất trong Tella 💼        |
-| Các biểu mẫu yêu thích, dành cho người dùng được kết nối với máy chủ ODK 📝          | Các mẫu yêu thích, dành cho người dùng được kết nối với máy chủ Uwazi 📋      | Cấu hình này có thể được tìm thấy trong **Cài đặt** > **Cài đặt chung**.        | :::tip Video  tutorial 🎥
+| Các biểu mẫu yêu thích, dành cho người dùng được kết nối với máy chủ ODK 📝          | Xóa bản nháp và biểu mẫu đã gửi: Xóa các bản nháp và biểu mẫu đã gửi trong tất cả các máy chủ được kết nối với Bộ Công cụ Dữ liệu mở (ODK) 📝        | - Tella Web <br />- Uwazi       | :::tip Video  tutorial 🎥
 Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
-:::          | Nút Xóa Nhanh cho phép người dùng xóa dữ liệu nhạy cảm trong Tella chỉ trong tích tắc. Chức năng này có thể thiết lập ở phần**Cài đặt** > **Bảo mật** > **Xóa nhanh**, nơi người dùng có thể chọn bật nút trượt trên màn hình chính để xóa nhanh thông tin khỏi Tella trong những tình huống khẩn cấp. Nếu được kích hoạt, người dùng có thể chọn chính xác những gì sẽ bị xóa khi tính năng này được sử dụng. Các tùy chọn có sẵn là:        |
-| Xóa kho lưu trữ: Xóa toàn bộ dữ liệu lưu bên trong Tella 🗑️          | Xóa bản nháp và biểu mẫu đã gửi: Xóa các bản nháp và biểu mẫu đã gửi trong tất cả các máy chủ được kết nối với Bộ Công cụ Dữ liệu mở (ODK) 📝        | Xóa cài đặt máy chủ: Xóa tất cả các kết nối máy chủ và tất cả các biểu mẫu hoặc mẫu liên quan đến chúng 📋           |  Xóa Tella: Xóa ứng dụng và tất cả dữ liệu bên trong. Điều này kích hoạt một thông báo hỏi xem người dùng có muốn gỡ cài đặt Tella không ❌.           | :::info Delete Tella
-Tùy chọn Xóa Tella có thể không khả dụng trên một số điện thoại Android do hạn chế về mặt kỹ thuật. Chúng tôi đang tìm cách khắc phục sự cố này. Còn đối với iOS, không thể xóa ứng dụng bằng các lệnh lập trình.
-:::        |
+:::          | - Tella Web <br />- Uwazi        |
+| Các biểu mẫu yêu thích, dành cho người dùng được kết nối với máy chủ ODK 📝          | Các mẫu yêu thích, dành cho người dùng được kết nối với máy chủ Uwazi 📋      | - Tella Web <br />- Uwazi       | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+:::          | - Tella Web <br />- Uwazi        |
+| Xóa kho lưu trữ: Xóa toàn bộ dữ liệu lưu bên trong Tella 🗑️          | Xóa bản nháp và biểu mẫu đã gửi: Xóa các bản nháp và biểu mẫu đã gửi trong tất cả các máy chủ được kết nối với Bộ Công cụ Dữ liệu mở (ODK) 📝        | - Tella Web <br />- Uwazi           |  :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+:::          | - Tella Web <br />- Uwazi        |
 
 Thoát nhanh {#quick-exit}
 - **Rotate**:  Use the Rotate button at the bottom of the screen to rotate the image counter-clock wise. 
