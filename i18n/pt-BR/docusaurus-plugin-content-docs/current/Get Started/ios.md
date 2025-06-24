@@ -11,7 +11,7 @@ slug: /get-started-ios
 Siga [este link](https://apps.apple.com/br/app/tella-document-protect/id1598152580) para encontrar o Tella na App Store ou procure por “Tella” na App Store.
 
 
-<div class="gifs">
+<div className="gifs">
     <img src={require('@site/static/img/getting-started/ios/find-and-download.gif').default} alt="gif that shows how to download Tella from the App Store" title="find and download gif" />
 </div>
 
@@ -37,7 +37,7 @@ Ao usar cada funcionalidade pela primeira vez, será solicitado que você conced
 * Para tirar fotos, gravar vídeos ou áudio, você precisará conceder permissão para acessar a câmera e o microfone do seu telefone.
 
 
-<div class="gifs">
+<div className="gifs">
     <img src={require('@site/static/img/getting-started/ios/granting-permissions.gif').default} alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
 </div>
 
@@ -45,7 +45,7 @@ Ao usar cada funcionalidade pela primeira vez, será solicitado que você conced
 
 Se você não conceder essas permissões ao Tella, poderá fazê-lo mais tarde acessando as configurações do seu iPhone e navegando em **Configurações** > **Tella** > **Permitir que o Tella acesse câmera, microphone e arquivos.**
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/ios/taking-picture-permissions.gif").default} alt="gif that shows how to take a picture in Tella the first time (grant permission)" title="Tella will ask you to grant permissions the first time you open the camera" />
 </div>
 
@@ -57,7 +57,7 @@ Depois de conceder permissões, você está pronto para iniciar a coleta de docu
 **Use a Câmera para tirar fotos ou capturar vídeos e o Gravador de Áudio para gravar áudio.** Todas as mídias capturadas pelo Tella serão criptografadas instantaneamente, o que significa que o arquivo não será acessível fora do Tella. Toda a mídia coletada dentro do Tella não será exibida na galeria ou nos arquivos do seu telefone. Não há um limite específico de armazenamento para o Tella, o espaço disponível dependerá do espaço disponível no seu dispositivo.
 
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/ios/picture.gif").default} alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
     <img src={require("@site/static/img/getting-started/ios/recording.gif").default} alt="gif that shows how to record audio in Tella" title="record audio in Tella" />
 </div> 
@@ -68,7 +68,7 @@ Depois de conceder permissões, você está pronto para iniciar a coleta de docu
 
 **Importe seus arquivos para o Tella.** Acesse qualquer das pastas dentro do Tella e toque no Botão **+** > **Importar de dispositivo**. Escolha o arquivo que deseja manter dentro do Tella e uma cópia dele será armazenada de forma criptografada e oculta no Tella. Será solicitado que você escolha se quer excluir ou manter o arquivo original do seu dispositivo. O Tella ficará desbloqueado enquanto você escolhe seus arquivos por um máximo de três (3) minutos.
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/ios/import-files.gif").default} alt="gif that shows how to import files in Tella" title="import files in Tella" />
 </div> 
 
@@ -76,7 +76,7 @@ Depois de conceder permissões, você está pronto para iniciar a coleta de docu
 **Crie pastas.** Para tornar mais fácil encontrar seus arquivos, você pode organizá-los em pastas. Acesse **Todos os arquivos** > **+** > **Criar uma nova pasta** e digite um nome descritivo para a pasta. Depois, use o botão Selecionar múltiplos localizado no topo da tela, escolha os arquivos que você deseja mover para a nova pasta e então clique no botão com três (3) pontos e Mover para uma pasta diferente. Navegue a estrutura de arquivos para encontrar a pasta e pressione Mover aqui.
 
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/ios/folders.gif").default} alt="gif that shows how to organize evidence in folders in Tella" title="folders in Tella" />
 </div> 
 
@@ -84,7 +84,7 @@ Depois de conceder permissões, você está pronto para iniciar a coleta de docu
 **Renomeie arquivos:** Uma outra forma de manter seus dados organizados é renomear os arquivos para serem mais descritivos. Por padrão, arquivos recebem um nome gerado automaticamente. Você pode modificá-lo clicando nos **três (3) pontos** localizados próximos de cada nome de arquivo e então tocar em **Renomear**.
 
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/ios/rename.gif").default} alt="gif that shows how to rename files in Tella" title="rename files in Tella" />
 </div> 
 
@@ -94,7 +94,7 @@ Para compartilhar informações usando o Tella, você pode usar o botão **Compa
 
 Leve em consideração que o Tella compartilhará os arquivos de forma não criptografada. Então, certifique-se de usar mensagens temporárias (por exemplo, no Whatsapp ou no Signal) ou apagar as mensagens após a outra pessoa recebê-las.
 
-<div class="gifs">
+<div className="gifs">
     <img src={require("@site/static/img/getting-started/ios/share.gif").default} alt="gif that shows how share information in Tella" title="share information in Tella" />
 </div> 
 
