@@ -14,7 +14,7 @@ Tella Web được phát triển nội bộ bởi đội ngũ của chúng tôi 
 Tương tự như tất cả những kết nối khác ([Uwazi](/uwazi) và [Bộ Công cụ Dữ liệu mở](/odk)), kết nối với Tella Web tăng cường tính bảo mật của dữ liệu được thu thập trên Tella bằng cách:
 
 Cho phép người dùng thu thập dữ liệu trực tiếp trong kho lưu trữ được mã hóa của Tella.
-1. Đảm bảo dữ liệu được gửi trực tiếp từ Tella đến Tella Web mà không cần phải dựa vào công cụ hoặc ứng dụng của bên thứ ba.
+1. Cho phép người dùng thu thập dữ liệu trực tiếp trong kho lưu trữ được mã hóa của Tella.
 2. Cho phép người dùng sao lưu dữ liệu của họ trên máy chủ từ xa, để giảm nguy cơ dữ liệu bị phát hiện trên thiết bị di động của họ.
 3. Đảm bảo rằng các tổ chức có thể lưu giữ thông tin quan trọng ngay cả trong trường hợp thiết bị bị thu giữ hoặc bị phá hủy, và có thể sắp xếp dữ liệu cho quá trình nghiên cứu, vận động hoặc giải trình trách nhiệm.
 4. Tella Web là một lựa chọn tuyệt vời để thu thập "báo cáo" từ người dùng. Báo cáo có thể bao gồm ảnh, video, bản ghi âm, tài liệu pdf và văn bản.
@@ -167,45 +167,60 @@ Tạo và tải lên báo cáo
 Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
 :::|:::info
 Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
-:::|❌|:::info
-Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
-:::| 
-|✅| 
-| Chỉnh sửa báo cáo (tạo, đổi tên, chỉnh sửa URL)  |Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|❌|✅|:::info
-Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
-:::| 
-| Xóa dự án  |Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|:::info
-Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
-:::|❌|:::info
-Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
-:::| 
-| Quản lý người dùng (tạo, chỉnh sửa, xóa) |❌|Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|❌|:::info
-Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
-:::| 
-| Chỉ định người dùng cho dự án |Trên thanh công cụ phía trên danh sách người dùng, quản trị viên máy chủ có thể nhấp vào nút "Tạo người dùng" để tạo một người dùng mới trên máy chủ. Để tạo người dùng, cần có email, mật khẩu, xác nhận mật khẩu và vai trò.|Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|Ký tự (hơn 10)|:::info
-Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
-:::| 
-| Tạo người dùng {#creating-users} |Không có mật khẩu phổ biến như tên, thành phố, v.v.|Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|Trong phần "Quản lý quyền truy cập" của màn hình "Cài đặt dự án", quản trị viên có thể chỉ định người dùng hiện tại cho dự án. Nhấp vào ô "Thêm người dùng". Một menu thả xuống sẽ hiển thị tất cả người dùng trên máy chủ. Cuộn qua danh sách hoặc nhập để tìm kiếm người dùng theo tên đăng nhập.
-Sau khi chọn người dùng để thêm vào dự án, hãy nhấp vào nút "Thêm" để lưu các thay đổi và cấp quyền truy cập vào dự án.|:::info
-Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
-:::| 
-| Không có mẫu phổ biến như ngày tháng, lặp lại (aaa), chuỗi (abcd), mẫu bàn phím (qwertyuiop) |Các bước được liệt kê dưới đây áp dụng cho cả phiên bản Android và iOS của ứng dụng Tella. Tính năng báo cáo có sẵn trong:|Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|:::info
+:::|:::info
 Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
 :::|:::info
 Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
 :::| 
-| Chuẩn bị cho người dùng tại hiện trường sẵn sàng gửi báo cáo {#get-people-on-the-ground-ready-to-start-submitting-reports} |Kết nối với Dự án Tella Web {#connect-to-tella-web-projects}|Để kết nối với một máy chủ Tella Web:|Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|:::info
+|✅| 
+| Chỉnh sửa báo cáo (tạo, đổi tên, chỉnh sửa URL)  |Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|:::info
+Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
+:::|:::info
+Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
+:::|:::info
+Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
+:::| 
+| Xóa dự án  |Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|:::info
+Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
+:::|:::info
+Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
+:::|:::info
+Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
+:::| 
+| Quản lý người dùng (tạo, chỉnh sửa, xóa) |Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|:::info
+Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
+:::|:::info
+Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
+:::| 
+| Chỉ định người dùng cho dự án |Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|:::info
+Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
+:::|:::info
+Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
+:::| 
+| Tạo người dùng {#creating-users} |Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|:::info
+Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
+:::|:::info
+Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
+:::| 
+| Không có mẫu phổ biến như ngày tháng, lặp lại (aaa), chuỗi (abcd), mẫu bàn phím (qwertyuiop) |Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|:::info
+Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
+:::|:::info
+Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
+:::| 
+| Chuẩn bị cho người dùng tại hiện trường sẵn sàng gửi báo cáo {#get-people-on-the-ground-ready-to-start-submitting-reports} |Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|:::info
 Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
 :::| 
 | :::info
 Bạn có thể xem [video hướng dẫn này](/video-tutorials#tella-web) về cách cài đặt và sử dụng Báo cáo trong Tella.
-::: |URL của dự án Tella Web. URL sẽ giống như thế này `https://your-domain.com/p/your-project-name`|Tên Người dùng và Mật khẩu của bạn|Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|:::info
+::: |Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|:::info
 Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
 :::| 
-| Nhập thông tin đăng nhập (do quản trị viên tạo và cung cấp) |Chỉnh sửa: Mở màn hình "chỉnh sửa máy chủ" nơi bạn có thể xem tên, URL và tên người dùng của dự án, và chỉnh sửa các tính năng nâng cao.|Xóa: Xóa kết nối, bao gồm tất cả thông tin máy chủ và tất cả các báo cáo nháp và đã gửi được lưu trữ trong Tella. Việc này sẽ không ảnh hưởng đến bất kỳ báo cáo nào đã được gửi lên máy chủ.|Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|:::info
+| Nhập thông tin đăng nhập (do quản trị viên tạo và cung cấp) |Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|:::info
 Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
 :::| 
-| Trong **Cài đặt ⚙️** > **Máy chủ** >  **[Tên Dự án]** > 3-chấm, bạn có thể:  |Nhấn vào nút "Báo cáo mới" ở cuối màn hình để tạo báo cáo mới.|Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|Nếu bạn kết nối với nhiều dự án Tella Web, bạn sẽ có thể chọn ở đầu màn hình dự án nào để gửi báo cáo đến.|:::info
+| Trong **Cài đặt ⚙️** > **Máy chủ** >  **[Tên Dự án]** > 3-chấm, bạn có thể:  |Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|:::info
+Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
+:::|:::info
 Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
 :::| 
 | Màn hình báo cáo chính cho phép điều hướng giữa các tab Thư nháp, Hộp thư đi và Đã gửi.   |Quản lý quyền truy cập vào dự án {#managing-access-to-projects}|:::info
