@@ -15,3 +15,7 @@
 15. Español (América Latina)
 16. Tamil
 17. Vietnamita
+18. Español (América Latina)
+19. Tamil
+20. Tsonga
+21. Vietnamita
