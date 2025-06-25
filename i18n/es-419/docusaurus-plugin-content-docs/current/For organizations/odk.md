@@ -131,8 +131,4 @@ Debajo una vista general de los tipos de funciones ODK que son admitidos en Tell
 | [Repetir preguntas](https://docs.getodk.org/form-logic/#repeating-questions) | ✔️ |
 | [Filtrar opciones en preguntas de selección](https://docs.getodk.org/form-logic/#filtering-options-in-select-questions) | ✔️ |
 | [Generar seleccionadas desde repeticiones](https://docs.getodk.org/form-logic/#generating-select-ones-from-repeats) | ❌ |
-<<<<<<< odk-unsupported
 | [Form metadata (background data collection)](https://docs.getodk.org/form-audit-log/) | ❌ |
-=======
-| Automatically collecting form metadata| ❌ |
->>>>>>> development
