@@ -84,29 +84,29 @@ Soumettre : envoyer le formulaire rempli au serveur ODK.
 
 | **Tella Android** | **Tella Android** | 
 |------|------|
-| ✔️ | ✔️ |
-| ✔️ | ✔️ |
-| ✔️ | ✔️ |
-| ✔️ | ✔️ |
-| ✔️ | ✔️ |
-| ✔️ | ✔️ |
+| Sélectionnez-en un | ✔️ |
+| Sélectionnez plusieurs | ✔️ |
+| Texte | ✔️ |
+| Nombre / Décimal | ✔️ |
+| Date | ✔️ |
+| Heure | ✔️ |
 | Non | Non  |
-| ✔️ | ✔️ |
-| ✔️ | ✔️ |
-| ✔️ | ✔️ |
+| Point (calculer ma position actuelle) | ✔️ |
+| Point (afficher ma position sur une carte) | ✔️ |
+| Point (laissez-moi choisir ma position sur une carte) | ✔️ |
 | Non | Non |
 | Non | Non |
-| ✔️ | ✔️ |
-| ✔️ | ✔️ |
+| Photo | ✔️ |
+| Signature photo (signature manuscrite) | ✔️ |
 | Pour plus de commodité et de facilité d'accès, il est également possible de personnaliser l'écran d'accueil pour afficher également des raccourcis vers un ou plusieurs des éléments suivants : | ✔️ |
 | Sur Tella FOSS, les PDF doivent être exportés pour être ouverts. | ✔️ |
 | Non | ✔️ |
-| ✔️ | ✔️ |
+| Note | ✔️ |
 | Non | Non |
-| ✔️ | ✔️ |
-| ✔️ | ✔️ |
+| Reconnaître | ✔️ |
+| Notation | ✔️ |
 | Non | Non |
-| ✔️ | ✔️ |
+| Classement | ✔️ |
 | Non | Non |
 | Non | Non |
 | Non | Non |
@@ -118,15 +118,19 @@ Soumettre : envoyer le formulaire rempli au serveur ODK.
 
 | **Feature** | **Tella Android** | 
 |------|------|
-| ✔️ | ✔️ |
+| [Collecte de données hors ligne](/odk#submit-forms) | ✔️ |
 | ❌ | Gérer l'accès aux projets {#managing-access-to-projects} |
-| ✔️ | ✔️ |
+| [Réponses requises](https://docs.getodk.org/form-logic/#requiring-responses) | ✔️ |
 | ❌ | Gérer l'accès aux projets {#managing-access-to-projects} |
 | ❌ | Gérer l'accès aux projets {#managing-access-to-projects} |
 | ❌ | Gérer l'accès aux projets {#managing-access-to-projects} |
-| ✔️ | ✔️ |
-| ✔️ | ✔️ |
-| ✔️ | ✔️ |
-| ✔️ | ✔️ |
+| [Affichage conditionnel des questions](https://docs.getodk.org/form-logic/#conditionally-showing-questions) | ✔️ |
+| [Groupes de questions](https://docs.getodk.org/form-logic/#groups-of-questions) | ✔️ |
+| [Questions répétitives](https://docs.getodk.org/form-logic/#repeating-questions) | ✔️ |
+| [Options de filtrage dans certaines questions](https://docs.getodk.org/form-logic/#filtering-options-in-select-questions) | ✔️ |
 | ❌ | Gérer l'accès aux projets {#managing-access-to-projects} |
-| Automatically collecting form metadata| Gérer l'accès aux projets {#managing-access-to-projects} |
+<<<<<<< odk-unsupported
+| [Form metadata (background data collection)](https://docs.getodk.org/form-audit-log/) | ❌ |
+=======
+| Automatically collecting form metadata| ❌ |
+>>>>>>> development
