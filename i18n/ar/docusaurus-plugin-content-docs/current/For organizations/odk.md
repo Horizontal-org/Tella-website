@@ -129,8 +129,4 @@ There are other ODK-compliant apps available, like [Ona](https://ona.io/home/) o
 | ✔️ | قص الصور وتدويرها |
 | ✔️ | قص الصور وتدويرها |
 | ❌ | إدارة الوصول إلى المشاريع {#managing-access-to-projects} |
-<<<<<<< odk-unsupported
-| [Form metadata (background data collection)](https://docs.getodk.org/form-audit-log/) | ❌ |
-=======
-| Automatically collecting form metadata| ❌ |
->>>>>>> development
+| [Form metadata (background data collection)](https://docs.getodk.org/form-audit-log/) | إدارة الوصول إلى المشاريع {#managing-access-to-projects} |
