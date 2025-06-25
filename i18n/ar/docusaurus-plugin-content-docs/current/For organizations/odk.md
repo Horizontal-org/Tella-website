@@ -13,9 +13,9 @@ slug: /odk
 
 كما هو الشأن مع أي اتصال آخر بخادم (مثل [Tella Web](/tella-web) أو [Uwazi](/uwazi))، يعزّز الاتصال بخادم ODK أمن البيانات المُجمَّعة على Tella من خلال:
 
-1. السماح للمستخدمين بجمع البيانات مباشرة داخل الحاوية المُعمّاة لـ Tella.
+1. السماح للمستخدمين بجمع البيانات مباشرة داخل حاوية Tella المُعمّاة.
 2. التأكد من إرسال البيانات مباشرة من Tella إلى خادم ODK، دون الاعتماد على أداة أو تطبيق من جهة خارجية.
-3. السماح للمستخدمين بنسخ بياناتهم احتياطيا على خادم بعيد، لتقليل خطر اكتشاف البيانات على جهازهم المحمول.
+3. السماح للمستخدمين بنسخ بياناتهم احتياطيا على خادم بعيد لتقليل خطر اكتشاف البيانات على أجهزتهم المحمولة.
 4. التأكد من أن المنظمات يمكنها الحفاظ على المعلومات المهمة حتى في حالة مصادرة الجهاز أو عند تدميره، والتأكد من أنه يمكن تنظيم تلك المعلومات للبحث أو للمناصرة أو لإجراءات المساءلة.
 
 ### Choosing and Installing Your ODK Server {#choosing-and-installing-your-odk-server}
@@ -84,29 +84,29 @@ There are other ODK-compliant apps available, like [Ona](https://ona.io/home/) o
 
 | **‫Tella Android** | [جمع البيانات دون الاتصال بالانترنت](/odk#submit-forms) | 
 |------|------|
-| ✔️ | [إعداد الإجابات الافتراضية](https://docs.getodk.org/form-logic/#setting-default-responses) |
-| ✔️ | [إعداد الإجابات الافتراضية](https://docs.getodk.org/form-logic/#setting-default-responses) |
-| ✔️ | [إعداد الإجابات الافتراضية](https://docs.getodk.org/form-logic/#setting-default-responses) |
-| ✔️ | [إعداد الإجابات الافتراضية](https://docs.getodk.org/form-logic/#setting-default-responses) |
-| ✔️ | [إعداد الإجابات الافتراضية](https://docs.getodk.org/form-logic/#setting-default-responses) |
-| ✔️ | [إعداد الإجابات الافتراضية](https://docs.getodk.org/form-logic/#setting-default-responses) |
+| ✔️ | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
+| تاريخ | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
 | لا | ‮لا  |
-| ✔️ | [إعداد الإجابات الافتراضية](https://docs.getodk.org/form-logic/#setting-default-responses) |
-| ✔️ | [إعداد الإجابات الافتراضية](https://docs.getodk.org/form-logic/#setting-default-responses) |
-| ✔️ | [إعداد الإجابات الافتراضية](https://docs.getodk.org/form-logic/#setting-default-responses) |
+| ✔️ | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
 | لا | ‮لا |
 | لا | ‮لا |
-| ✔️ | [إعداد الإجابات الافتراضية](https://docs.getodk.org/form-logic/#setting-default-responses) |
-| ✔️ | [إعداد الإجابات الافتراضية](https://docs.getodk.org/form-logic/#setting-default-responses) |
-| ✔️ | [إعداد الإجابات الافتراضية](https://docs.getodk.org/form-logic/#setting-default-responses) |
-| الفيديو | [إعداد الإجابات الافتراضية](https://docs.getodk.org/form-logic/#setting-default-responses) |
-| لا | [إعداد الإجابات الافتراضية](https://docs.getodk.org/form-logic/#setting-default-responses) |
-| ✔️ | [إعداد الإجابات الافتراضية](https://docs.getodk.org/form-logic/#setting-default-responses) |
+| ✔️ | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
+| الفيديو | قص الصور وتدويرها |
+| لا | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
 | لا | ‮لا |
-| ✔️ | [إعداد الإجابات الافتراضية](https://docs.getodk.org/form-logic/#setting-default-responses) |
-| ✔️ | [إعداد الإجابات الافتراضية](https://docs.getodk.org/form-logic/#setting-default-responses) |
+| ✔️ | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
 | لا | ‮لا |
-| ✔️ | [إعداد الإجابات الافتراضية](https://docs.getodk.org/form-logic/#setting-default-responses) |
+| ✔️ | قص الصور وتدويرها |
 | لا | ‮لا |
 | لا | ‮لا |
 | لا | ‮لا |
@@ -116,17 +116,21 @@ There are other ODK-compliant apps available, like [Ona](https://ona.io/home/) o
 
 **الميزة**
 
-| **Tella Android** | [جمع البيانات دون الاتصال بالانترنت](/odk#submit-forms) | 
+| **الميزة** | [جمع البيانات دون الاتصال بالانترنت](/odk#submit-forms) | 
 |------|------|
-| ✔️ | [إعداد الإجابات الافتراضية](https://docs.getodk.org/form-logic/#setting-default-responses) |
+| ✔️ | قص الصور وتدويرها |
 | ❌ | إدارة الوصول إلى المشاريع {#managing-access-to-projects} |
-| ✔️ | [إعداد الإجابات الافتراضية](https://docs.getodk.org/form-logic/#setting-default-responses) |
+| ✔️ | قص الصور وتدويرها |
 | ❌ | إدارة الوصول إلى المشاريع {#managing-access-to-projects} |
 | ❌ | إدارة الوصول إلى المشاريع {#managing-access-to-projects} |
 | ❌ | إدارة الوصول إلى المشاريع {#managing-access-to-projects} |
-| ✔️ | [إعداد الإجابات الافتراضية](https://docs.getodk.org/form-logic/#setting-default-responses) |
-| ✔️ | [إعداد الإجابات الافتراضية](https://docs.getodk.org/form-logic/#setting-default-responses) |
-| ✔️ | [إعداد الإجابات الافتراضية](https://docs.getodk.org/form-logic/#setting-default-responses) |
-| ✔️ | [إعداد الإجابات الافتراضية](https://docs.getodk.org/form-logic/#setting-default-responses) |
+| ✔️ | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
 | ❌ | إدارة الوصول إلى المشاريع {#managing-access-to-projects} |
-| Automatically collecting form metadata| إدارة الوصول إلى المشاريع {#managing-access-to-projects} |
+<<<<<<< odk-unsupported
+| [Form metadata (background data collection)](https://docs.getodk.org/form-audit-log/) | ❌ |
+=======
+| Automatically collecting form metadata| ❌ |
+>>>>>>> development
