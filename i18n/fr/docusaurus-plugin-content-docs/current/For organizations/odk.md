@@ -129,8 +129,4 @@ Soumettre : envoyer le formulaire rempli au serveur ODK.
 | [Questions répétitives](https://docs.getodk.org/form-logic/#repeating-questions) | ✔️ |
 | [Options de filtrage dans certaines questions](https://docs.getodk.org/form-logic/#filtering-options-in-select-questions) | ✔️ |
 | ❌ | Gérer l'accès aux projets {#managing-access-to-projects} |
-<<<<<<< odk-unsupported
-| [Form metadata (background data collection)](https://docs.getodk.org/form-audit-log/) | ❌ |
-=======
-| Automatically collecting form metadata| ❌ |
->>>>>>> development
+| [Form metadata (background data collection)](https://docs.getodk.org/form-audit-log/) | Gérer l'accès aux projets {#managing-access-to-projects} |
