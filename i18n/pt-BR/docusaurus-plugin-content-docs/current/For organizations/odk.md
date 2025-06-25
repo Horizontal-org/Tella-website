@@ -131,4 +131,8 @@ Abaixo está uma visão geral das funcionalidades do ODK que possuem suporte no 
 | [Repetindo perguntas](https://docs.getodk.org/form-logic/#repeating-questions) | ✔️ |
 | [Filtrando opções em perguntas que contém seleção](https://docs.getodk.org/form-logic/#filtering-options-in-select-questions) | ✔️ |
 | [Gerando perguntas do tipo "selecionar um" a partir de repetições](https://docs.getodk.org/form-logic/#generating-select-ones-from-repeats) | ❌ |
+<<<<<<< odk-unsupported
+| [Form metadata (background data collection)](https://docs.getodk.org/form-audit-log/) | ❌ |
+=======
 | Automatically collecting form metadata| ❌ |
+>>>>>>> development
