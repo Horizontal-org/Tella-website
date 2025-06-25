@@ -13,9 +13,9 @@ Máy chủ của Bộ Công cụ Dữ liệu mở cho phép các tổ chức t�
 
 Tương tự như bất kỳ kết nối máy chủ nào khác (như [Tella Web](/tella-web) hoặc [Uwazi](/uwazi)), việc kết nối với máy chủ ODK sẽ tăng cường tính bảo mật của dữ liệu được thu thập trên Tella bằng cách:
 
-1. Cho phép người dùng thu thập dữ liệu trực tiếp ngay bên trong kho lưu trữ được mã hóa của Tella.
+1. Cho phép người dùng thu thập dữ liệu trực tiếp trong kho lưu trữ được mã hóa của Tella.
 2. Đảm bảo rằng dữ liệu được gửi trực tiếp từ Tella đến máy chủ ODK mà không cần dựa vào công cụ hoặc ứng dụng của bên thứ ba.
-3. Cho phép người dùng sao lưu dữ liệu của họ trên máy chủ từ xa, để giảm nguy cơ dữ liệu bị phát hiện trên thiết bị di động của họ.
+3. Đảm bảo rằng các tổ chức có thể lưu giữ thông tin quan trọng ngay cả trong trường hợp thiết bị bị thu giữ hoặc bị phá hủy, và có thể sắp xếp dữ liệu cho quá trình nghiên cứu, vận động hoặc giải trình trách nhiệm.
 4. Đảm bảo rằng các tổ chức có thể lưu giữ thông tin quan trọng ngay cả trong trường hợp thiết bị bị thu giữ hoặc phá hủy và có thể sắp xếp dữ liệu đó cho quá trình nghiên cứu, vận động hoặc giải trình trách nhiệm.
 
 ### Choosing and Installing Your ODK Server {#choosing-and-installing-your-odk-server}
@@ -152,7 +152,7 @@ Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evid
 
 **Feature**
 
-| Có nhiều lựa chọn để người dùng Tella [Liên hệ với đội ngũ Tella](/contact-us) để đề xuất cải tiến, báo cáo lỗi và sự cố, hoặc yêu cầu hỗ trợ. Trong Tella có 2 tùy chọn: | **Email:** | 
+| **Tính năng** | **Email:** | 
 |------|------|
 | ✔️ | :::tip Video  tutorial 🎥
 Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
@@ -177,4 +177,8 @@ Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evid
 Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
 ::: |
 | ❌ | Quản lý quyền truy cập vào dự án {#managing-access-to-projects} |
-| Automatically collecting form metadata| Quản lý quyền truy cập vào dự án {#managing-access-to-projects} |
+<<<<<<< odk-unsupported
+| [Form metadata (background data collection)](https://docs.getodk.org/form-audit-log/) | ❌ |
+=======
+| Automatically collecting form metadata| ❌ |
+>>>>>>> development
