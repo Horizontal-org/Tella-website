@@ -15,6 +15,7 @@ All of the following features are available to all users as soon as they downloa
 <FeaturesTable/>
 
 
+
 ## App lock {#app-lock}
 
 When installing Tella, the user has to select a lock 🔒 to encrypt and decrypt the content of the app.
@@ -135,11 +136,11 @@ We are in the process of adding the ability to edit media files directly within 
 | Image          | Flip        | ✔️                | Not yet       | ✔️             |
 | Image          | Auto-zoom        | ✔️                | Not yet       | ✔️        |
 | Video          | Trim        | Not yet       | ✔️          | Not yet        |
-| Video          | Rotate      | Not yet       | Soon          | Not yet        |
+| Video          | Rotate      | Not yet       | ✔️          | Not yet        |
 | Audio          | Trim        | Not yet           |  ✔️          | Not yet        |
 
 Users can edit a picture by going to **More** > **Edit** from the **Images** folder or by tapping the **Edit** button on the top right while viewing image you have on Tella. 
-- **Rotate**:  Use the Rotate button on the bottom of the screen to rotate the image counter-clock wise. 
+- **Rotate**:  Use the Rotate button at the bottom of the screen to rotate the image counter-clock wise. 
 - **Crop**: Drap the corners of the white canvas to crop the picture. 
 - **Auto-zoom**: The image will automatically zoom in and out depending on the selected canvas, to avoid loosing image quality.
 - **Flip**: Use the flip buttons to mirror the image horizontally or vertically.
@@ -152,7 +153,10 @@ Users can edit videos or audio recordings:
 - While listening to an audio recording or watching a video in Tella, by tapping the **Edit** button in the top right corner. 
 
 Current editing options include:
-- **Trim**: Move the vertical orange lines to select the new start and end point of your audio. Use the Play button on the bottom to listen to the audio or the Cancel button to start over. When you are done editing the file, use the orange scissors ✂️ icon on the top right to save the trimmed audio or video. The edited file will be saved as a copy of the original file in the same folder.
+- **Trim**: Move the vertical orange lines to select the new start and end point of your audio or video. 
+- **Rotate**: Use the Rotate button on the top right of the screen to rotate the video counter-clock wise.
+
+Use the Play button at the bottom of the screen to listen to the audio or the Cancel button to start over. When you are done editing the file, use the orange scissors ✂️ icon in the top-right corner to save the trimmed audio or video. The edited file will be saved as a copy of the original file in the same folder.
 
 
 ## Encryption {#encryption}

@@ -1,0 +1,154 @@
+{
+  "version": "v1.0.0",
+  "entity": {
+    "type": "organisation",
+    "role": "owner",
+    "name": "Horizontal",
+    "email": "contact@wearehorizontal.org",
+    "phone": "",
+    "description": "Horizontal supports frontline defenders, activists, and journalists through digital security and tool development. \n\nWe empower grassroots communities to use technology effectively and to operate safely from surveillance, censorship, and repression. We are the developers and maintainers of Tella. \n\nHorizontal is a registered 501(c)(3) nonprofit",
+    "webpageUrl": {
+      "url": "https://tella-app.org/"
+    }
+  },
+  "projects": [
+    {
+      "guid": "tella-android",
+      "name": "Tella Android",
+      "description": "Tella for Android is a mobile app designed to help activists, journalists, human rights defenders (and people in general!) safely capture and organize sensitive data in high-risk environments. It includes features like encrypted photo, video, and audio capture, a hidden gallery, in-app file editing, camouflage mode to disguise the app, and quick delete for rapid data removal. Users can organize data in folders and share information using tools like Tella Web, ODK, Uwazi, Google Drive, Nextcloud, or Dropbox. Tella also collects verifiable metadata to ensure documentation integrity. \n\nTella Android has over 22,000 monthly active users in countries like India, Nigeria, Myanmar, and many others. Tella is available in 21 languages.\n\n",
+      "webpageUrl": {
+        "url": "https://tella-app.org/"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/Horizontal-org/Tella-Android",
+        "wellKnown": "https://github.com/Horizontal-org/Tella-Android/blob/main/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "app",
+        "android",
+        "mobile",
+        "security",
+        "privacy",
+        "documentation",
+        "data",
+        "human-rights",
+        "encryption",
+        "offline"
+      ]
+    },
+    {
+      "guid": "tella-ios",
+      "name": "Tella iOS",
+      "description": "Tella for iOS is a mobile app designed to help activists, journalists, human rights defenders (and people in general!) safely capture and organize sensitive data in high-risk environments. It includes features like encrypted photo, video, and audio capture, a hidden gallery, in-app file editing, and quick delete for rapid data removal. Users can organize data in folders and share information using tools like Tella Web, Uwazi, Google Drive, Nextcloud, or Dropbox.",
+      "webpageUrl": {
+        "url": "https://tella-app.org/"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/Horizontal-org/Tella-iOS",
+        "wellKnown": "https://github.com/Horizontal-org/Tella-iOS/blob/master/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "spdx:MIT"
+      ],
+      "tags": [
+        "app",
+        "ios",
+        "mobile",
+        "security",
+        "privacy",
+        "documentation",
+        "data",
+        "human-rights",
+        "encryption",
+        "offline"
+      ]
+    },
+    {
+      "guid": "tella-foss",
+      "name": "Tella FOSS",
+      "description": "Tella FOSS is the fully Free and Open Source version of Tella for Android that doesn't contain any closed-source or proprietary library or dependency. It includes all core features—secure media capture, encrypted storage, camouflage mode, file organization, and integration with open platforms like ODK and Tella Web.\n\nWe are in the process of merging Tella Android and Tella FOSS into a single codebase.",
+      "webpageUrl": {
+        "url": "https://tella-app.org/"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/Horizontal-org/Tella-Android-FOSS",
+        "wellKnown": "https://github.com/Horizontal-org/Tella-Android-FOSS/blob/master/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "spdx:Apache-2.0"
+      ],
+      "tags": [
+        "app",
+        "android",
+        "mobile",
+        "security",
+        "privacy",
+        "documentation",
+        "data",
+        "human-rights",
+        "encryption",
+        "offline"
+      ]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "donorbox",
+        "type": "payment-provider",
+        "address": "https://donorbox.org/towards-sustainability",
+        "description": "Over the past 5 years, Horizontal has built tools to support those who are most at risk of surveillance, censorship, and repression: journalists, activists, human rights defenders, Indigenous folks, LGBTQ+ communities. We are pivoting to new forms of revenue to become a self-sustaining organization. Join us here: https://donorbox.org/towards-sustainability"
+      },
+      {
+        "guid": "wire",
+        "type": "bank",
+        "address": "",
+        "description": "Please email us for wire transfer details at contact@tella-app.org"
+      }
+    ],
+    "plans": [
+      {
+        "guid": "donorbox",
+        "status": "active",
+        "name": "Tella Maintenance",
+        "description": "If 1,000 donors pledge $30 per month, we will be able to continue to develop Tella independently, co-creating and implementing new features with the community we serve. We will continue providing training and support to the community in need, responding to user requests and questions.",
+        "amount": 30,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "donorbox"
+        ]
+      },
+      {
+        "guid": "search-sort-feature",
+        "status": "active",
+        "name": "Better support for file organizing, search and sort",
+        "description": "This project will improve file management in Tella by adding tagging, search, and enhanced sorting. Users will be able to tag files, search by name, tag, or date, and customize the homepage to pin folders or tag categories for faster access.",
+        "amount": 10000,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": [
+          "donorbox",
+          "wire"
+        ]
+      },
+      {
+        "guid": "new-camouflage",
+        "status": "active",
+        "name": "New camouflage option compatible with strong passwords",
+        "description": "We will implement a new camouflage option for Tella. The current calculator camouflage doesn't support strong passwords, as it only allows numeric input. We're planning to add a functional notes app as a new camouflage option to allow for alphanumeric passphrases.",
+        "amount": 5000,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": [
+          "donorbox",
+          "wire"
+        ]
+      }
+    ],
+    "history": []
+  }
+}

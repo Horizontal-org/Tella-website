@@ -131,3 +131,4 @@ Below is an overview of the ODK features that are supported in Tella Android. If
 | [Repeating questions](https://docs.getodk.org/form-logic/#repeating-questions) | ✔️ |
 | [Filtering options in select questions](https://docs.getodk.org/form-logic/#filtering-options-in-select-questions) | ✔️ |
 | [Generating select ones from repeats](https://docs.getodk.org/form-logic/#generating-select-ones-from-repeats) | ❌ |
+| Automatically collecting form metadata| ❌ |

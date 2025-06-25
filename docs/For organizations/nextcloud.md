@@ -65,11 +65,11 @@ For the moment it is not possible to sign in to multiple Nextcloud accounts at t
 * The main Nextcloud screen allows navigation between the Drafts, Outbox, and Submitted tabs.
 * Tap the "New report" button at the bottom of the screen to create a new report to Nextcloud.
     * On the "New report" screen you can fill in the report's details, including title, description, and optional attachments of photos, videos and audio recordings.
-* Use the "Save draft" button (on the top right of the screen) to save the report as a draft without leaving the "New report" screen. 
+* Use the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft without leaving the "New report" screen. 
     * In order to be able to save as a draft, you need to at least enter the report’s title.
     * A message will appear on the screen to confirm the draft was saved.
-* The "Submit later" button saves the report to the Outbox for manual submission.
-    * The outbox tab is often used when data collectors don’t have access to the internet or if the connection is not stable.
+* The "Submit later" button ⏱️ saves the report to the Outbox for manual submission.
+    * The "Outbox" tab is often used when data collectors don’t have access to the internet or if the connection is not stable.
 * The “Submit” button sends the report to the Nextcloud immediately.
     * If submission fails due to connectivity issues, the report goes to the “Outbox" tab.
     * If the report is submitted correctly, it goes to the “Submitted” tab and a new folder will be created in Nextcloud with the title you selected. All attachments will be added to the folder and the description will be added as a text file inside the folder.
@@ -80,8 +80,11 @@ On Android, [a known Nextcloud issue](https://help.nextcloud.com/t/cant-upload-f
 
 ##  Draft Reports {#draft-reports}
 
+A Draft report is a report that was created and saved but not yet submitted. Drafts reports are useful to save work in progress that can be editted later on. It allows users to create reports offline or over a long period of time before finalizing and sending them. This is especially useful in low-connectivity areas or when a user needs to gather information in multiple stages.
 
-* On the "New report" screen, tap the "Save draft" button to save the report as a draft.
+Reports in the Draft tab can be edited.
+
+* On the "New report" screen, tap the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft.
     * A message confirmation will be displayed, and you can continue working on the report or exit to come back to it later.
 * If you try to exit a report without saving, you will be asked to confirm whether you are sure to exit without saving the report.
 * In the Draft tab, you can view and manage draft reports. Open a draft report to continue working on it and submit it.
@@ -106,8 +109,13 @@ Deleting a report in the middle of submission will cancel the upload of the file
 
 
 #### Outbox {#outbox}
+The Outbox tab contains reports that are finalized and have been saved for later submission. Reports in the Outbox are ready to be submitted once the device reconnects to the internet or when the user chooses to manually send them.
 
-The Outbox contains reports that have been saved for submission. This could be:
+Reports in the Outbox tab cannot be edited.
+
+To send a report to the Outbox, use the Submit later button (⏱️), at the bottom left of the Submit Report screen.
+
+The Outbox contains:
 
 * Paused submissions
 * Report submissions that were interrupted due to connectivity issues.
