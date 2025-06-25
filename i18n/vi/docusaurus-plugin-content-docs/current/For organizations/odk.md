@@ -177,8 +177,4 @@ Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evid
 Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
 ::: |
 | ❌ | Quản lý quyền truy cập vào dự án {#managing-access-to-projects} |
-<<<<<<< odk-unsupported
-| [Form metadata (background data collection)](https://docs.getodk.org/form-audit-log/) | ❌ |
-=======
-| Automatically collecting form metadata| ❌ |
->>>>>>> development
+| [Form metadata (background data collection)](https://docs.getodk.org/form-audit-log/) | Quản lý quyền truy cập vào dự án {#managing-access-to-projects} |
