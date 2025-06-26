@@ -13,9 +13,3 @@
 13. Russo
 14. Espanhol (América Latina)
 15. Tâmil
-16. Portuguese (Mozambique)
-17. Russo
-18. Espanhol (América Latina)
-19. Tâmil
-20. Tsonga
-21. Vietnamita
