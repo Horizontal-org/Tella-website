@@ -4,8 +4,9 @@ title: Funcionalidades do Tella
 description: Uma descrição detalhada das funcionalidades do Tella.
 slug: /features
 ---
-import FeaturesTable from '.././_features-table.md';
 
+import FeaturesTable from '.././_features-table.md';
+import ConnectionsTable from '.././_connections-table.md';
 
 # Funcionalidades do Tella
 
@@ -32,16 +33,51 @@ Se o usuário perder o bloqueio, não é possível recuperar acesso ao Tella e a
 Saiba mais sobre os Bloqueios do Tella em nosso [tutorial em vídeo](/video-tutorials#tella-locks) 
 :::
 
+## Background encryption {#background-encryption}
+
+Tella [encrypts](#encryption) files in the background so that users can continue performing actions (take more photos or videos, import more files, etc) while files are being encrypted. Users can see ongoing activities that are taking place in the background in a **Background activity tray** that's accessible from the Tella homescreen, by tapping on the "notifications" icon (🔔) on the top left. 
+
+While files are being encrypted, Tella displays an orange marker on the notifications icon. If the user opens the background activity tray while some files are being encrypted, they will see the list of files in the queue and the encryption progress.
+
+:::danger
+If the user hard exit Tella (for example by using [Quick Exit](#quick-exit) or minimizing the app) while files are being encrypted in the background, those will be lost.
+:::
+
+:::info
+If [verification mode](/features#verification-mode) is turned on, background encryption is automatically disabled to make sure that all file metadata is captured at the same time as the photo, video, or audio file is saved.  
+:::
+
+## Backup files to a cloud {#backup-files}
+We are in the process of adding options for individuals and organizations to backup their data to different clouds. Backups, for the moment, need to be made manually, by creating reports (using, for example, the date of "today" as the report title) and submitting them to the connected server. Files will be available on the connected server inside a folder with the report title.
+
+For the moment we support the following connections. Follow each of the links to find details and step-by-step guides on how to connect and use each of them:
+* [Open Data Kit (ODK)](/odk)
+* [Uwazi](/uwazi)
+* [Tella Web](/tella-web)
+* [Google Drive](/g-drive)
+* [Nextcloud](/nextcloud)
+* [Dropbox](/dropbox)
+
+On this table we explain what server types are available on the Tella apps:
+<ConnectionsTable/>.
+
+
+:::danger
+For the moment, the submission to any type of server it is **not** encrypted. People who have access to the server itself are able to see the files.
+:::
+
+
+
 ## Configuração do tempo limite de bloqueio {#lock-timeout-configuration}
 
-Por padrão, o Tella bloqueará imediatamente todas as vezes que o usuário sair do aplicativo ou sua tela do telefone desligar. Se quiser modificar essa configuração, você pode fazê-lo entrando em 
+By default Tella will lock immediately every time the user exits the app or your phone’s screen turns off. If you’d like to change this setting, the user can do so by going to 
 
 Configurações ⚙️ > Segurança > Tempo Limite de Bloqueio.  
 
 As opções disponíveis são 1 minuto, 5 minutos, 30 minutos e 1 hora. ⏱️
 
 :::info
-Por favor, use essa funcionalidade com cuidado, pois enquanto o Tella está desbloqueado, os dados ficam desprotegidos e qualquer pessoa que entrar no Tella será capaz de ver todas as informações nele.
+Please use this feature carefully as if Tella is unlocked the data would be unprotected and anyone who enters Tella will be able to see all information there.
 :::
 
 :::info
@@ -56,7 +92,7 @@ Saiba mais sobre as Funcionalidades Adicionais de Segurança do Tella em nosso [
 
 ## Modo silencioso da câmera {#camera-silent-mode}
 
-Por padrão, o Tella tem o modo silencioso da câmera desabilitado. Entrando em **Configurações ⚙️** > **Segurança** > **Modo silencioso da câmera**, é possível desativar o som do obturador da câmera para chamar menos atenção ao tirar fotos. 📷🔇
+By default Tella has camera silent mode disabled. By going to **Settings ⚙️** > **Security** > **Camera silent mode**, it is possible to turn off the camera shutter sound to draw less attention when taking photos. 📷🔇
 
 :::tip Tutorial em vídeo 🎥
 Saiba mais sobre as Funcionalidades Adicionais de Segurança do Tella em nosso [tutorial em vídeo](/video-tutorials#additional-security-features)
@@ -65,13 +101,13 @@ Saiba mais sobre as Funcionalidades Adicionais de Segurança do Tella em nosso [
 
 ## Segurança da tela {#screen-security}
 
-Por padrão, o Tella bloqueia capturas e gravações de tela dentro dele e oculta a prévia da tela na lista de aplicativos recentes 📱🔒. É possível desabilitar essa funcionalidade de segurança caso os usuários precisem fazer capturas ou gravações de tela, ou espelhar o Tella em um computador para uma apresentação, entrando em **Configurações** ⚙️ > **Segurança** > **Segurança da tela**.
+By default Tella blocks screenshots, screen recordings inside Tella and hides the screen preview in the list of recent apps 📱🔒. It is possible to disable this security feature if the users need to take screenshots or screen recordings, or to mirror Tella to a computer for a presentation, by going to **Settings** ⚙️ > **Security** > **Screen security**.
 
 No iOS, a segurança de tela somente bloqueia gravações dentro do Tella e bloqueia a tela na lista de aplicativos recentes, mas não é possível desabilitar capturas ou gravações de tela.
 
 
-:::tip Tutorial em vídeo 🎥
-Saiba mais sobre as Funcionalidades Adicionais de Segurança do Tella em nosso [tutorial em vídeo](/video-tutorials#additional-security-features)
+:::tip video tutorial 🎥
+Learn more about Tella Additional Security Features in our [video tutorial](/video-tutorials#additional-security-features)
 :::
 
 ## Restrição de tentativas de desbloqueio {#restrict-unlocking-attempts}
@@ -81,14 +117,46 @@ Por padrão, essa configuração está desativada, ou seja, as tentativas de des
 
 Após o número especificado de tentativas falhas, todos os arquivos, conexões e todo o conteúdo dentro do Tella é excluído e o usuário retornará ao estado "recém-instalado" do aplicativo.
 
+:::info
+The Restrict unlocking attempts feature cannot be enabled if Calculator camouflage is enabled.
+:::
+
 :::danger
 Mesmo que essa configuração de segurança previna tentativas de desbloqueio do Tella por força bruta, ela deve ser usada com cautela, pois não há maneira de restaurar o conteúdo do Tella uma vez que o número máximo de falhas nas tentativas de desbloqueio for atingido.
 :::
 
 ## Edição de Mídia {#edit-media}
-Estamos no processo de adicionar a capacidade de editar arquivos de mídia diretamente dentro do Tella. Em breve, os usuários não mais precisarão exportar seus arquivos para fora do Tella para realizar a edição. O Tella 2.4.0 para Android dá o pontapé inicial com as capacidades de edição (corte e rotação).
+We are in the process of adding the ability to edit media files directly within Tella's encrypted container, so users don't longer need to export their files outside Tella for editing those.
 
-Usuários podem editar uma imagem entrando em **Mais** > **Editar** a partir da pasta **Imagens** ou tocando no botão **Editar** no canto superior direito enquanto visualizam uma imagem que possuem no Tella. Na tela Editar Imagem, usuários podem usar o botão **Rotacionar** na parte inferior da tela para girar a imagem no sentido anti-horário, ou pinçar e expandir, ou contrair os dedos para mover o quadro branco para cortar a imagem. Quando as edições estiverem completas, usuários podem pressionar o tique laranja no canto superior direito da tela de edição.
+| **Media Type** | **Funcionalidade** | **Tella para Android** | **Tella para iOS** | **Tella FOSS** |
+|----------------|-------------|-------------------|---------------|----------------|
+| Imagem          | Crop        | ✔️                | ✔️            | ✔️             |
+| Imagem          | Rotate      | ✔️                | ✔️            | ✔️             |
+| Imagem          | Flip        | ✔️                | Ainda não       | ✔️             |
+| Imagem          | Auto-zoom        | ✔️                | Ainda não       | ✔️        |
+| Vídeo          | Trim        | - Tella Web <br />- Uwazi       | ✔️          | - Tella Web <br />- Uwazi        |
+| Vídeo          | Rotate      | - Tella Web <br />- Uwazi       | ✔️          | - Tella Web <br />- Uwazi        |
+| Áudio          | Trim        | - Tella Web <br />- Uwazi           |  ✔️          | - Tella Web <br />- Uwazi        |
+
+Users can edit a picture by going to **More** > **Edit** from the **Images** folder or by tapping the **Edit** button on the top right while viewing image you have on Tella. 
+- **Rotate**:  Use the Rotate button at the bottom of the screen to rotate the image counter-clock wise. 
+- **Crop**: Drap the corners of the white canvas to crop the picture. 
+- **Auto-zoom**: The image will automatically zoom in and out depending on the selected canvas, to avoid loosing image quality.
+- **Flip**: Use the flip buttons to mirror the image horizontally or vertically.
+
+When edits are done, users can press the orange check on the top right of the edit screen. The edited file will be saved as a copy of the original file in the same folder.
+
+
+Users can edit videos or audio recordings: 
+- In any folder, next to the file to be edited, by tapping on **⁝** > **Edit**.
+- While listening to an audio recording or watching a video in Tella, by tapping the **Edit** button in the top right corner. 
+
+Current editing options include:
+- **Trim**: Move the vertical orange lines to select the new start and end point of your audio or video. 
+- **Rotate**: Use the Rotate button on the top right of the screen to rotate the video counter-clock wise.
+
+Use the Play button at the bottom of the screen to listen to the audio or the Cancel button to start over. When you are done editing the file, use the orange scissors ✂️ icon in the top-right corner to save the trimmed audio or video. The edited file will be saved as a copy of the original file in the same folder.
+
 
 ## Criptografia {#encryption}
 
@@ -106,8 +174,8 @@ Se o bloqueio do usuário for muito fraco, um adversário pode ser capaz de adiv
 Se o usuário esquecer seu bloqueio, não há como ganhar acesso ao aplicativo e recuperar o conteúdo
 :::
 
-:::tip Tutorial em vídeo 🎥
-Saiba mais sobre Bloqueios e Criptografia no nosso [tutorial em vídeo](/video-tutorials#tella-locks)
+:::tip video tutorial 🎥
+Learn more about Locks and Encryption in our [video tutorial](/video-tutorials#tella-locks)
 :::
 
 :::info
@@ -121,13 +189,14 @@ O Tella permite aos usuários gerenciar arquivos e pastas de maneira similar à 
 No Tella, usuários podem:
 
 * Armazenar qualquer arquivo, incluindo fotos 📷, vídeos 🎥, arquivos de áudio 🎧, e documentos 📝.
-* Criar pastas e subpastas.
-* Mover arquivos para dentro de pastas e de uma pasta para outra.
+* In the All Files folder:
+    - Criar pastas e subpastas.
+    - Mover arquivos para dentro de pastas e de uma pasta para outra.
 * Exportar arquivos para seus dispositivos. Uma vez salvos em seus dispositivos fora do Tella, os arquivos não estão mais criptografados e podem ser acessados por qualquer pessoa que realize buscas no dispositivo.
 * Importar arquivos de seus dispositivos. Os arquivos são automaticamente criptografados quando importados para o Tella.
 
 :::danger
-Importar os arquivos do sistema de arquivo do dispositivo para o Tella cria uma cópia dos arquivos dentro do Tella. O Tella perguntará se você deseja manter ou excluir o arquivo original do seu telefone quando realizar a importação. Se você escolher manter o arquivo original, ele estará presente no dispositivo, fora do Tella e sem criptografia. 🔒
+Importing files from the device file system into Tella makes a copy of the files into Tella. Tella will ask if you want to keep or delete the original file from your phone when importing. If you choose to keep the original file, they will be present on the device, outside of Tella and unencrypted. 🔒
 :::
 
 ## Feedback {#feedback}
@@ -158,18 +227,19 @@ A única informação que receberemos é o conteúdo que os usuários adicionam 
 O usuário pode importar arquivos para dentro do Tella para mantê-los seguros pela funcionalidade importar. Eles podem importar arquivos indo no botão **Adicionar ( + )** seja em Todos os arquivos, Imagens, Vídeo, Áudio ou Documentos, a depender do tipo de arquivo que desejem importar e então para **Importar de dispositivo** 📥 Uma caixa de diálogo aparecerá perguntando ao usuário se deseja manter ou excluir o arquivo original da memória de seu telefone. Os arquivos importados serão mantidos seguros no Tella.
 
 
-:::tip Tutorial em vídeo 🎥
-Saiba mais sobre [Coleta de evidências](video-tutorials#collecting-evidence) e [Compartilhamento de dados](/video-tutorials#sharing-data-with-other-apps) nos nossos tutoriais em vídeo.
+:::tip video tutorial 🎥
+Learn more about [Collecting Evidence](video-tutorials#collecting-evidence) and [Sharing data](/video-tutorials#sharing-data-with-other-apps) in our video tutorials.
 :::
 
 ## Preservação de metadados ao importar {#preserve-metadata-when-importing}
 
-Em **Configurações** > **Segurança**, os usuários tem a opção de preservar ou excluir os metadados do arquivo ao importar Fotos e Vídeos para o Tella. Metadados EXIF de arquivos podem incluir dados sobre quando o arquivo foi criado, configurações da câmera ou localização do dispositivo.
+On **Settings** > **Security** users have the option to Preserve or delete the file's metadata when importing Photos and Videos to Tella. EXIF metadata of files migth include data about when the file was created, camera settings or location of the device.
+
+## Privacy preserving analytics (opt-in) {#privacy-preserving-analytics}
+Android users can opt-in to share analytics to improve Tella. All information is anonymous, agregated and can never be linked to individual usres. For technical information about what system do we use and what metrics to we collect, visit the [Analytics section of the Security and Privacy page](/security-and-privacy#analytics).
 
 ## Abertura de arquivos no Tella {#open-files-in-tella}
 Imagens, vídeos, PDFs e áudios podem ser visualizados dentro do Tella. 📱📄
-
-No Tella FOSS, PDFs devem ser exportados para serem abertos.
 
 ## Camuflagem {#camouflage}
 
@@ -184,8 +254,12 @@ Neste momento, devido a restrições na App Store da Apple, o Tella para iOS nã
 O nome "Tella" e seu ícone permanecerão visíveis nas configurações do Android. Isso significa que a camuflagem não protegerá contra um indivíduo _ativamente_ procurando pelo Tella no telefone ou conduzindo uma análise em profundidade do dispositivo. 🔒👀
 :::
 
+:::info
+The Calculator camouflage feature cannot be enabled if the Restrict unlock attempts feature is on.
+:::
+
 :::tip Tutorial em vídeo 🎥
-Saiba mais sobre a [Camuflagem do Tella](/video-tutorials#camouflaging-tella) no nosso tutorial em vídeo.
+Saiba mais sobre [Camuflando o Tella](/video-tutorials#camouflaging-tella) em nosso tutorial em vídeo.
 :::
 
 
@@ -206,9 +280,9 @@ Essa configuração pode ser encontrada em **Configurações** > **Geral**.
 
 Um botão de Exclusão rápida permite aos usuários, em apenas alguns segundos, excluir dados sensíveis dentro do Tella. A Exclusão rápida pode ser configurada em **Configurações** > **Segurança** > **Exclusão rápida**, onde o usuário pode escolher habilitar um botão deslizante na tela inicial para excluir rapidamente informações do Tella em situações de emergência. Se habilitado, o usuário pode escolher exatamente o que será deletado quando a funcionalidade for usada. As opções disponíveis são:
 
-* Excluir o cofre: exclui todos os arquivos armazenados no Tella 🗑️
-* Excluir rascunhos e formulários submetidos: exclui rascunhos e formulários submetidos em todos os servidores Open Data Kit (ODK) conectados 📝
-* Excluir configurações do servidor: exclui todas as conexões de servidor e todos os formulários ou templates associados a elas 📋
+* Delete files: Deletes all files stored in Tella 🗑️
+* Delete draft and submitted forms: Deletes drafts and submitted forms in all Connections. [Visit the For Organizations page](/for-organizations) to  discover the available server connections 📝
+* Delete server settings: Deletes all server connections and all the forms, templates or reports associated with them 📋
 * Excluir o Tella: exclui o aplicativo e todos os dados contidos nele. Essa ação aciona uma mensagem que pergunta se o usuário também deseja desinstalar o Tella ❌.  
 
 :::info Excluir o Tella
@@ -267,9 +341,13 @@ Usuários podem coletar dados diretamente no Tella, guardar os dados protegidos 
 
 Atualmente, os servidores que podem ser conectados ao Tella são:
 
-* [Tella Web](/tella-web)
-* [Open Data Kit (ODK)](/for-organizations#open-data-kit-odk)
+* [Open Data Kit (ODK)](/odk)
 * [Uwazi](/uwazi)
+* [Tella Web](/tella-web)
+* [Google Drive](/g-drive)
+* [Nextcloud](/nextcloud)
+* [Dropbox](/dropbox)
+
 
 :::tip Tutorial em vídeo 🎥
 Saiba mais sobre a [Conexão a Servidores](/video-tutorials#server-connections) por nossos tutoriais em vídeo.
@@ -290,7 +368,7 @@ Você pode facilmente escolher a resolução de vídeo desejada no Tella ao aces
 - Resolução mais alta possível
 - Resolução alta (1080p)
 - Resolução média (720p)
-- Resolução baixa (420p)
+- Baixa resolução (480p)
 
 A resolução do vídeo se refere ao número de pixels em cada quadro do vídeo. Resoluções mais altas, como 1080p ou 720p, resultam em um vídeo mais definido e detalhado. No entanto, lembre-se de que vídeos com uma resolução mais alta também possuem tamanhos de arquivo maiores, os quais podem exigir mais espaço de armazenamento do seu dispositivo.
 
