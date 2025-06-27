@@ -1,6 +1,6 @@
 ---
 id: security-and-privacy
-title: လုံခြုံရေးနှင့် ကိုယ်ရေးလုံခြုံမှု
+title: Security and privacy
 description: Tella လုံခြုံရေးနှင့် ကိုယ်ရေးလုံခြုံမှုအကြောင်း အသေးစိတ်။
 slug: /security-and-privacy
 ---
@@ -105,19 +105,29 @@ In Tella Android, Tella FOSS and [Tella Web](/tella-web), users can choose to sh
 
 ကျွနု်ပ်တို့၏ ကုဒ်သည် အကြမ်းခံပြီး လုံခြုံကြောင်း သေချာစေရန် ကျွနု်ပ်တို့သည် သီးခြားးလွတ်လပ်သော လုံခြုံရေး ကုမ္ပဏီများအား ၎င်းကို စစ်ဆေးပေးရန် ပုံမှန် တောင်းဆိုပါသည်။
 
-| နေ့စွဲ | စစ်ဆေးသူ | စစ်ဆေးပြီး ပလက်ဖောင်းများ    | လင့်ခ်ယူရန်      |
+| နေ့စွဲ | စစ်ဆေးသူ | စစ်ဆေးပြီး ပလက်ဖောင်းများ  | လင့်ခ်ယူရန်      |
 | -----|----------|----|-----------|
-| မေ ၂၀၂၄ | Subgraph Technologies, Inc. |  Android၊ iOS၊ Tella ဝဘ် |[View report](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
-| မေ ၂၀၂၃ | Subgraph Technologies, Inc. | Android၊ iOS၊ Tella ဝဘ် |[View report](</assets/2023.05 - Tella security audit - Final report.pdf>)|
+| August 2024 | Radically Open Security |  Android, iOS, Android FOSS|[View pen-testing results](</assets/2024.08.30-Penetration-Test-Report-Horizontal.pdf>)|
+| မေ ၂၀၂၄ | Subgraph Technologies, Inc. |  Android၊ iOS၊ Tella ဝဘ်|[View updated report confirming fixes has been implemented](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
+| မေ ၂၀၂၃ | Subgraph Technologies, Inc. | Android၊ iOS၊ Tella ဝဘ် |[View security audit](</assets/2023.05 - Tella security audit - Final report.pdf>)|
 
 
- ၎င်းမှာ နောက်ဆုံးစစ်ဆေးမှုမှ အကျဉ်းချုပ်နှင့် ရှာဖွေတွေ့ရှိသော အားနည်းချက်များ၏ အခြေအနေ ဖြစ်ပါသည်-
+This is the summary from the latest audit and the status of the vulnerabilities identified:
+
+| ခေါင်းစဥ်                                               | ပြင်းထန်မှု    | ပလက်ဖောင်း | အခြေအနေ      |
+|-----------------------------------------------------|-------------|-------------|-------------|
+| Require re-authentication for changing key security settings | Moderate      | ယေဘုယျ | Planning |
+| Improve webview implementation                      |  Moderate   | iOS       | ဖြေရှင်းပြီး |
+| Improve GitHub practices (merging to main and tags) | နိမ့်သည်         | Android, Android FOSS | Resolved (pending re-test) |
+| Increase PBKDF2 iteration counts.                   | နိမ့်သည်         | Android, Android FOSS | ပင်မစခရင်ကို စိတ်ကြိုက်ပြင်ဆင်ခြင်း {#homescreen-customization} |
+| Do not allow clear-text traffic in Android manifest.| နိမ့်သည်         | Android, Android FOSS | ဖြေရှင်းပြီး |
+| Outdated 3rd-party dependencies                     | မသိ         | Android, Android FOSS | ဖြေရှင်းပြီး |
 
 
-| ခေါင်းစဥ်                                               | ပြင်းထန်မှု    | အခြေအနေ      |
-|-----------------------------------------------------|-------------|-------------|
-| အကန့်အသတ်မရှိသော သော့ဖွင့်ရန် ကြိုးပမ်းမှုအကြိမ်ရေ                        | အလယ်အလတ်      | ဖြေရှင်းပြီး |
-| Android Cipher Stream I/O သော့ PBKDF2 ဗားရှင်းအသစ်များ     | နိမ့်သည်         | ဖြေရှင်းပြီး    |
-| Tella iOS Cleartext အသံဒေတာသည် ပိုကြာရှည်နေနိုင်သည်  | နိမ့်သည်         | ဖြေရှင်းပြီး    |
-| Tella Android ခေတ်မမီတော့သော Retrofit2 မှီခိုမှု         | နိမ့်သည်         | ဖြေရှင်းပြီး    |
-| Tella Android မှ ကန့်ကွက်ထားသော မှီခိုမှု - Butterknife     | သတင်းအချက်အလက်ဆိုင်ရာ| ဖြေရှင်းပြီး |
+
+
+
+
+
+
+
