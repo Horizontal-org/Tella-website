@@ -22,16 +22,17 @@ Chúng tôi luôn nỗ lực để người cần đến Tella có thể sử d�
 
 
 
+
 ### Khả năng tiếp cận WCAG {#wcag-accessibility}
 
-Trong bảng này, bạn có thể truy cập các báo cáo mới nhất về khả năng tiếp cận của chúng tôi cho từng nền tảng.
+In this table you can access our latest accessibility reports for each platform. 
 
 | **Nền tảng** | **Ngày** | **Link** |
 | -----|-----|------ |  
-| Tella Android | Tháng 11 năm 2023 | [Link](https://docs.google.com/document/d/1QtcWrSNvVtskUf5zNmOlgH0ue_O2ksdi/edit) | 
-| Tella iOS | Tháng 11 năm 2023 | [Link](https://docs.google.com/document/d/1-_dx-Ut98FpiasqgW98gxoFbwVx01R39/edit) | 
+| Tella Android | Tháng 11 năm 2023 | [Link](</assets/2023.11 - Tella Android accessibility audit.docx.pdf>) | 
+| Tella iOS | Tháng 11 năm 2023 | [Link](</assets/2023.11 - Tella iOS accessibility audit.docx.pdf>) | 
 
-Hiện tại, chúng tôi đang nỗ lực giải quyết tất cả các vấn đề về khả năng tiếp cận cấp độ A được phát hiện trên Tela Android.
+We are currently working on solving all the A Level accessibility issues detected in Tella Android.
 
 
 

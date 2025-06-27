@@ -13,3 +13,9 @@
 13. Tiếng Nga
 14. Tiếng Tây Ban Nha (Châu Mỹ Latinh)
 15. Tiếng Tamil
+16. Portuguese (Mozambique)
+17. Tiếng Nga
+18. Tiếng Tây Ban Nha (Châu Mỹ Latinh)
+19. Tiếng Tamil
+20. Tsonga
+21. Tiếng Việt
