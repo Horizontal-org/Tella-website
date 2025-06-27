@@ -10,8 +10,9 @@
             <ul>
 <li>Escríbenos <a href="mailto:contact@tella-app.org">contact@tella-app.org</a>
 </li>
-                <li>Agenda una llamada directamente <a href="https://calendly.com/d/grp-5v7-rjf/tella-meeting"> aquí</a>.</li>
-                <li>Únete a nuestra próxima <a href="community-meetings">Reunión Comunitaria</a>.</li>
+                <li>Agenda una llamada directamente <a href="https://calendly.com/d/grp-5v7-rjf/tella-meeting">aquí</a>.</li>
+                <li>Únete a nuestra próxima <a href="/community-meetings">Reunión Comunitaria.</a>
+</li>
                 <li>Usa el formulario de comentarios anónimo en la Configuración de Tella.</li>
             </ul>
 <p>O suscríbete a nuestro boletín: <a href="https://blog.wearehorizontal.org/tag/tella/">aquí</a>.</p>
