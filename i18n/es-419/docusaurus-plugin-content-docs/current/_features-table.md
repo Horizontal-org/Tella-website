@@ -8,7 +8,7 @@
 |[Modo silencioso de cámara](/features#camera-silent-mode)| ✔️| Aún no| ✔️ |
 | [Seguridad de Pantalla](/features#screen-security)| ✔️| ✔️| ✔️ |
 | [Restringir intentos de desbloqueo](features#restrict-unlocking-attempts)| ✔️| ✔️|  ✔️ |
-| [Editar Medios](/features#edit-media)| Recortar, Rotar, Voltear y hacer Zoom a Fotos| Recortar y Rotar Fotos| Recortar, Rotar, Voltear y hacer Zoom a Fotos |
+| [Editar Medios](/features#edit-media)| Recortar, Rotar, Voltear y hacer Zoom a Fotos| Recortar y Rotar Fotos, Recortar Audio y Videos, Rotar Videos| Recortar, Rotar, Voltear y hacer Zoom a Fotos |
 | [Cifrado](/features#encryption)| ✔️| ✔️| ✔️ |
 | [Administración de archivos cifrados](/features#file-management)| ✔️ | ✔️ | ✔️ |
 | [Comentarios](/features#feedback) | ✔️ | ✔️ | ✔️ |
