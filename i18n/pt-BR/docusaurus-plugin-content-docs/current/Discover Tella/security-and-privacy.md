@@ -30,7 +30,40 @@ O [Tella-FOSS](/faq#is-tella-available-on-f-droid), publicado na [loja F-droid](
 
 ### Tella para iOS {#tella-ios}
 
-O [Tella para iOS ](https://apps.apple.com/us/app/tella-document-protect/id1598152580) não inclui rastreador algum. Como resultado, da política estrita da Apple para aplicativos, o Tella para iOS não está atualmente disponível nas lojas alternativas de aplicativos ou para instalação manual.
+O [Tella para iOS](https://apps.apple.com/us/app/tella-document-protect/id1598152580) não inclui rastreador algum.
+
+As a result of Apple’s strict iOS app policies, Tella for iOS is currently not available on alternative app stores or for manual install.
+
+## Análises de uso {#analytics}
+
+In Tella Android, Tella FOSS and [Tella Web](/tella-web), users can choose to share analytics to improve Tella. This data helps us understand how people use Tella and which features are important to them. ***Analytics data is only collected if users opt-in in the app's settings***
+
+We use [Divvi Up](https://divviup.org/), a privacy-respecting telemetry service. Divvi Up is implemented by the [Internet Security Research Group (ISRG)](https://www.abetterinternet.org/), a nonprofit organization that also maintains the [Let’s Encrypt](https://letsencrypt.org/) project. 
+
+Here are some information about our privacy-preserving analytics approach:
+
+1. **All data is anonymous and aggregated**: the Divvi Up library splits the data into two anonymized and encrypted shares and uploads each share to different data share processors (one hosted by ISRG and one hosted by us) that do not share data with each other. This way, only partial information about the original data is revealed to either processor.
+2. **Even if we wanted to, we couldn't get the whole data**: It's not possible to construct the whole data with only one share. Each processor aggregates its data shares into a partial sum. The partial sums can then be combined into a final aggregation, permitting useful statistics over the whole body of data while revealing minimal information about individual participants. Extensive technical documentation about how Divvi Up works can be found [here](https://docs.divviup.org/).
+3. **We collect as little data as possible**: Even though all data is anonymized, we always minimize the amount of data we collect. As of the latest versions of Tella, we only collect data about the following events (and nothing more):
+
+    **Tella Android and Tella FOSS**
+    - Number of times Tella is successfully unlocked.
+    - Number of media files recorded (videos/photos taken and audio recordings captured).
+    - Number of files imported from the device's gallery or file system into Tella.
+    - Number of security features activated (number of times that camouflage is enabled, number of times that the quick delete action is triggered).
+    - Number of new installations.
+    - Number of reports uploaded to any connection (Tella Web, Uwazi, ODK, Nexcloud, Google Drive, Dropbox)
+    - Time spend in Tella. 
+
+
+    **Tella Web**
+   The data below is only collected from Tella Web instances that have opted-in to share privacy-preserving analytics with the Tella team.
+    - Number of visits (triggered every time someone enters any Tella Web instance).
+    - Number of file uploads (triggered every time someone uploads a file to any Tella Web instance).
+    - Number of Report uploads (triggers every time someone uploads a report to any Tella Web instance).
+
+
+   For more information about the metrics we add to our apps, check out our [release notes](/releases).
 
 
 ## Funcionalidades de segurança {#security-features}
@@ -61,7 +94,7 @@ Não existe um aplicativo 100% "seguro." A segurança depende das ameaças e ris
 
 
 * Camuflagem:
-    * No Android, quando o Tella é camuflado usando um dos dois [métodos de camuflagem disponíveis](/features#camouflage), o aplicativo ainda pode ser detectado nas Configurações do Android. Isso significa que alguém ao navegar por Configurações do Android > Aplicativos será capaz de ver que há um aplicativo chamado “Tella” instalado no dispositivo. Também será capaz de ver o tamanho do aplicativo. Então, se o usuário armazena arquivos muito grandes, como vídeos, o aplicativo pode chamar atenção. 
+    * On Android, when Tella is camouflaged using one of the two [camouflaging methods available](/features#camouflage), the app can still be detected in the Android Settings. This means that someone who navigates to the Android settings > Apps will be able to see that there is an app installed on the device that is called “Tella”. They will also be able to see the size of the app. So if the user stores very large files, like videos, the app may raise attention.
 * Gerenciamento de arquivos:
     * Arquivos exportados do Tella para o sistema de arquivos do dispositivo não estão mais criptografados. Isso significa que alguém com acesso ao dispositivo que navegue pelo sistema de arquivos ou pela galeria pode ser capaz de encontrar esses arquivos. 
     * Arquivos compartilhados através de aplicativos de terceiros podem ser visíveis para esses aplicativos e salvos sem criptografia no sistema de arquivos do dispositivo. E alguém que realize buscas nesses aplicativos pode conseguir encontrar tais arquivos. Por exemplo: uma foto armazenada dentro do Tella e compartilhada no WhatsApp será visível dentro do WhatsApp e também será visível no sistema de arquivos, no qual as fotos do WhatsApp são armazenadas. Isso acontece porque, para ser compartilhado com aplicativos de terceiros, o arquivo precisa ser salvo no sistema de arquivos do telefone, que não é criptografado. Por isso recomendamos excluir manualmente o arquivo do sistema de arquivos do dispositivo após compartilhá-lo.
@@ -70,13 +103,31 @@ Não existe um aplicativo 100% "seguro." A segurança depende das ameaças e ris
 
 ## Auditorias de segurança {#security-audits}
 
-Regularmente, solicitamos a empresas de segurança independentes que auditem nosso código para garantir a robustez e segurança dele. Você pode ver relatórios completos dessas auditorias [nesta página](https://drive.google.com/file/d/11mPB2KZLHb6blmNuk_qyXYcn4BSVYNFT/view?usp=sharing). Este é o resumo da última auditoria e do atual status de implementação:
+Solicitamos regularmente a empresas de segurança independentes que auditem nosso código para garantir que ele seja robusto e seguro.
+
+| Data | Auditado por | Plataformas auditadas  | Link      |
+| -----|----------|----|-----------|
+| August 2024 | Radically Open Security |  Android, iOS, Android FOSS|[View pen-testing results](</assets/2024.08.30-Penetration-Test-Report-Horizontal.pdf>)|
+| Maio de 2024 | Subgraph Technologies, Inc. |  Android, iOS, Tella Web|[View updated report confirming fixes has been implemented](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
+| Maio de 2023 | Subgraph Technologies, Inc. | Android, iOS, Tella Web |[View security audit](</assets/2023.05 - Tella security audit - Final report.pdf>)|
 
 
-| Título                                               | Gravidade    | Status      |
-|-----------------------------------------------------|-------------|-------------|
-| Tentativas Irrestritas de Desbloqueio                        | Médio      | Resolvido |
-| Iterações da chave BPKDF22 da cifra de fluxo Android Cipher Stream I/O     | Baixo         | Resolvido    |
-| Dados de Áudio sem Criptografia do Tella iOS podem Persistir por Mais Tempo  | Baixo         | Resolvido    |
-| Dependência Retrofit2 do Tella para Android Desatualizada         | Baixo         | Resolvido    |
-| Dependência Depreciada do Tella para Android: Butterknife    | Informativo| Em andamento |
+This is the summary from the latest audit and the status of the vulnerabilities identified:
+
+| Título                                               | Gravidade    | Plataforma | Status      |
+|-----------------------------------------------------|-------------|-------------|-------------|
+| Require re-authentication for changing key security settings | Moderate      | Geral | Planejamento |
+| Improve webview implementation                      |  Moderate   | iOS       | Resolvido |
+| Improve GitHub practices (merging to main and tags) | Baixo         | Android, Android FOSS | Resolved (pending re-test) |
+| Increase PBKDF2 iteration counts.                   | Baixo         | Android, Android FOSS | Soon |
+| Do not allow clear-text traffic in Android manifest.| Baixo         | Android, Android FOSS | Resolvido |
+| Outdated 3rd-party dependencies                     | Desconhecida         | Android, Android FOSS | Resolvido |
+
+
+
+
+
+
+
+
+
