@@ -1,6 +1,6 @@
 ---
 id: security-and-privacy
-title: الأمن والخصوصية
+title: Security and privacy
 description: تفاصيل حول أمن وخصوصية Tella.
 slug: /security-and-privacy
 ---
@@ -103,19 +103,29 @@ In Tella Android, Tella FOSS and [Tella Web](/tella-web), users can choose to sh
 
 ماي 2024
 
-| شركة Subgraph Technologies. | Android و iOS و Tella Web | [عرض التقرير](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)    | ماي 2023      |
+| تاريخ | Android و iOS و Tella Web | [عرض التقرير](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)  | ماي 2023      |
 | -----|----------|----|-----------|
-| شركة Subgraph Technologies. | Android و iOS و Tella Web |  [عرض التقرير](</assets/2023.05 - Tella security audit - Final report.pdf>) |هذا هو الملخص من أحدث مراجعة والحالة المتعلقة بالثغرات التي تم تحديدها:|
-| العنوان | الخطورة | الحالة |محاولات الفتح غير المُقيَّدة|
+| August 2024 | Radically Open Security |  Android, iOS, Android FOSS|[View pen-testing results](</assets/2024.08.30-Penetration-Test-Report-Horizontal.pdf>)|
+| شركة Subgraph Technologies. | الخطورة |  الحالة|[View updated report confirming fixes has been implemented](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
+| العنوان | الخطورة | الحالة |[View security audit](</assets/2023.05 - Tella security audit - Final report.pdf>)|
 
 
-متوسطة
+This is the summary from the latest audit and the status of the vulnerabilities identified:
+
+| تم حلّها                                               | تكرارات PBKDF2 لتدفُّق مفتاح الإخراج (أو الإدخال) المُعمّى لنظام أندرويد    | المنصة | منخفضة      |
+|-----------------------------------------------------|-------------|-------------|-------------|
+| Require re-authentication for changing key security settings | معتدل      | عام | Planning |
+| Improve webview implementation                      |  معتدل   | iOS       | تم حلّها |
+| Improve GitHub practices (merging to main and tags) | منخفضة         | Android, Android FOSS | Resolved (pending re-test) |
+| Increase PBKDF2 iteration counts.                   | منخفضة         | Android, Android FOSS | تخصيص الشاشة الرئيسية {#homescreen-customization} |
+| Do not allow clear-text traffic in Android manifest.| منخفضة         | Android, Android FOSS | تم حلّها |
+| Outdated 3rd-party dependencies                     | غير معروف         | Android, Android FOSS | تم حلّها |
 
 
-| تم حلّها                                               | تكرارات PBKDF2 لتدفُّق مفتاح الإخراج (أو الإدخال) المُعمّى لنظام أندرويد    | منخفضة      |
-|-----------------------------------------------------|-------------|-------------|
-| تم حلّها                        | قد تستمر بيانات Tella iOS الصوتية غير المُعمّاة لفترة أطول      | منخفضة |
-| تم حلّها     | المكتبة Retrofit2 القديمة التي اعتمد عليها Tella Android         | منخفضة    |
-| تم حلّها  | ‫المكتبة البرمجية التي تم إلغاء الاعتماد عليها في Tella Android‏: Butterknife         | إخبارية    |
-| تم حلّها         | منخفضة         | تم حلّها    |
-| ‫المكتبة البرمجية التي تم إلغاء الاعتماد عليها في Tella Android‏: Butterknife    | إخبارية| تم حلّها |
+
+
+
+
+
+
+
