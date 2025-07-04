@@ -105,19 +105,29 @@ There is no such thing as an app that is 100% "secure". Security is dependent on
 
 We regularly ask independent security firms to audit our code to ensure it is robust and secure.
 
-| Date | Audited by | Platforms audited    | Link      |
+| Date | Audited by | Platforms audited  | Link      |
 | -----|----------|----|-----------|
-| May 2024 | Subgraph Technologies, Inc. |  Android, iOS, Tella Web |[View report](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
-| May 2023 | Subgraph Technologies, Inc. | Android, iOS, Tella Web |[View report](</assets/2023.05 - Tella security audit - Final report.pdf>)|
+| August 2024 | Radically Open Security |  Android, iOS, Android FOSS|[View pen-testing results](</assets/2024.08.30-Penetration-Test-Report-Horizontal.pdf>)|
+| May 2024 | Subgraph Technologies, Inc. |  Android, iOS, Tella Web|[View updated report confirming fixes has been implemented](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
+| May 2023 | Subgraph Technologies, Inc. | Android, iOS, Tella Web |[View security audit](</assets/2023.05 - Tella security audit - Final report.pdf>)|
 
 
- This is the summary from the latest audit and the status of the vulnerabilities identified:
+This is the summary from the latest audit and the status of the vulnerabilities identified:
+
+| Title                                               | Severity    | Platform | Status      |
+|-----------------------------------------------------|-------------|-------------|-------------|
+| Require re-authentication for changing key security settings | Moderate      | General | Planning |
+| Improve webview implementation                      |  Moderate   | iOS       | Resolved |
+| Improve GitHub practices (merging to main and tags) | Low         | Android, Android FOSS | Resolved (pending re-test) |
+| Increase PBKDF2 iteration counts.                   | Low         | Android, Android FOSS | Soon |
+| Do not allow clear-text traffic in Android manifest.| Low         | Android, Android FOSS | Resolved |
+| Outdated 3rd-party dependencies                     | Unknown         | Android, Android FOSS | Resolved |
 
 
-| Title                                               | Severity    | Status      |
-|-----------------------------------------------------|-------------|-------------|
-| Unrestricted Unlock Attempts                        | Medium      | Resolved |
-| Android Cipher Stream I/O Key PBKDF2 Iterations     | Low         | Resolved    |
-| Tella iOS Cleartext Audio Data may Persist Longer  | Low         | Resolved    |
-| Tella Android Outdated Retrofit2 Dependency         | Low         | Resolved    |
-| Tella Android Deprecated Dependency: Butterknife    | Informational| Resolved |
+
+
+
+
+
+
+

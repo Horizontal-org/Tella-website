@@ -12,8 +12,6 @@ Unfortunately, due to the [funding challenges Horizontal is facing](https://dono
 If you have any questions or need support, please [contact us directly](/contact-us).
 :::
 
-
-
 ###  ~~What {#what}~~
 
  ~~Each month, Horizontal hosts a community call with users, partners, or anyone interested in Tella. During these calls, we:~~ 

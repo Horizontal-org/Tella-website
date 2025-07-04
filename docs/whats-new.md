@@ -95,7 +95,6 @@ A detailed list of features available on each platform is [available here](/feat
     - Fixed an issue where the menu with the Share and Save to device options only appeared on the second attempt.
     - Fixed an issue where the back button was not working after viewing a video from the All Files folder.
     - Made all elements on the homescreen scrollable, do not keep connections and recent files fixed on the top.
-    - Made the play button only play the selection when editing audio and video.
 
 
 ### Android: Tella 2.15.1 (202) - Released on March 25, 2025 {#android-tella-2151202---released-on-march-25-2025}
