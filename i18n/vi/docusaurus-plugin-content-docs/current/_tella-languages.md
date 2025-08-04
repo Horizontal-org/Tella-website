@@ -1,21 +1,22 @@
 1. Tiếng Ả Rập
-2. Tiếng Belarus
-3. Tiếng Miến Điện
-4. Tiếng Anh
-5. Tiếng Indonesia
-6. Tiếng Jingpho
-7. Tiếng Kannada
-8. Tiếng Karen Sgaw
-9. Tiếng Kurd
-10. Tiếng Malayalam
-11. Tiếng Ba Tư
-12. Tiếng Bồ Đào Nha
-13. Tiếng Nga
-14. Tiếng Tây Ban Nha (Châu Mỹ Latinh)
-15. Tiếng Tamil
-16. Portuguese (Mozambique)
-17. Tiếng Nga
-18. Tiếng Tây Ban Nha (Châu Mỹ Latinh)
-19. Tiếng Tamil
-20. Tsonga
-21. Tiếng Việt
+2. Azerbaijani
+3. Tiếng Belarus
+4. Tiếng Miến Điện
+5. Tiếng Anh
+6. Tiếng Indonesia
+7. Tiếng Jingpho
+8. Tiếng Kannada
+9. Tiếng Karen Sgaw
+10. Tiếng Kurd
+11. Tiếng Malayalam
+12. Tiếng Ba Tư
+13. Tiếng Bồ Đào Nha
+14. Tiếng Nga
+15. Tiếng Tây Ban Nha (Châu Mỹ Latinh)
+16. Tiếng Tamil
+17. Portuguese (Mozambique)
+18. Tiếng Nga
+19. Tiếng Tây Ban Nha (Châu Mỹ Latinh)
+20. Tiếng Tamil
+21. Tsonga
+22. Tiếng Việt
