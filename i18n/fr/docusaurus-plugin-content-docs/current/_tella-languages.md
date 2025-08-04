@@ -15,7 +15,3 @@
 15. espagnol (Amérique latine)
 16. tamoul
 17. Vietnamien
-18. Espagnol (Amérique latine)
-19. Tamoul
-20. Tsonga
-21. Vietnamien
