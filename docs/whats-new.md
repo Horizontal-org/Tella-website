@@ -44,12 +44,11 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Fixed an issue where updating English-language strings didn't update translations. As a result of this fix, the translated percentage for some languages might decrease, but it will be more accurate.
 
 
-### iOS: Tella 1.15.0 (96) - Released on May 20, 2025 {#ios-tella-1150-96---released-on-may-20-2025}
-- New language support: Ndau.
-- Implemented Rotate Video.
-- Make Play button only play the selection while editing Audio or Video.
+### iOS: Tella 1.16.0 (98) - Released on Aug 4, 2025 {#ios-tella-1160-98---released-on-aug-4-2025}
+- New language support: Azerbaijani.
 - Bug fixes and minor improvements:
-    - Removed duplicated navigation bar for documents.
+    - Solved a bug that prevented trimmed audios to be saved.
+    - Solved issue on Google Drive submission.
 
 ### Android: Tella FOSS 2.11.0 (based on Android 2.11.0) - Released on February 25, 2025 {#android-tella-foss-2110-based-on-android-2110---released-on-february-25-2025}
 
@@ -73,6 +72,14 @@ A detailed list of features available on each platform is [available here](/feat
 
 
 ## Previous versions {#previous-versions}
+
+### iOS: Tella 1.15.0 (96) - Released on May 20, 2025 {#ios-tella-1150-96---released-on-may-20-2025}
+- New language support: Ndau.
+- Implemented Rotate Video.
+- Make Play button only play the selection while editing Audio or Video.
+- Bug fixes and minor improvements:
+    - Removed duplicated navigation bar for documents.
+
 
 ### iOS: Tella 1.14.0 (92) - Released on March 6, 2025 {#ios-tella-1140-92---released-on-march-6-2025}
 - Fixed preview of HEIC files.
