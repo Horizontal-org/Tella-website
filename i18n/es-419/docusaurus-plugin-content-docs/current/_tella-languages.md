@@ -1,21 +1,22 @@
 1. Árabe
-2. Bielorruso
-3. Birmano
-4. Inglés
-5. Francés
-6. Indonesio
-7. Jingpo
-8. Canarés
-9. Karen Sgaw
-10. Kurdo
-11. Malabar
-12. Persa
-13. Portugués
-14. Ruso
-15. Español (América Latina)
-16. Tamil
-17. Vietnamita
-18. Español (América Latina)
-19. Tamil
-20. Tsonga
-21. Vietnamita
+2. Azerbaijani
+3. Bielorruso
+4. Birmano
+5. Inglés
+6. Francés
+7. Indonesio
+8. Jingpo
+9. Canarés
+10. Karen Sgaw
+11. Kurdo
+12. Malabar
+13. Persa
+14. Portugués
+15. Ruso
+16. Español (América Latina)
+17. Tamil
+18. Vietnamita
+19. Español (América Latina)
+20. Tamil
+21. Tsonga
+22. Vietnamita
