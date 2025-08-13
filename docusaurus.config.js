@@ -144,8 +144,8 @@ const config = {
                 href: '/video-tutorials',
               },
               {
-                label: 'Tella for Organizations',
-                href: '/for-organizations',
+                label: 'Connections',
+                href: '/connections',
               },
 
 
