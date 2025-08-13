@@ -354,6 +354,13 @@ Learn more about [Connecting to Servers](/video-tutorials#server-connections) in
 :::
 
 
+## Share button {#share-button}
+To share information with other apps, users can select the file or files they want to share and press the Share button. Tella will prompt the list of available apps on the phone and users can choose the app they want to share the file(s) with. 
+
+:::danger
+Tella will share the files unencrypted and history of exchanged files might be visible on the app you used. For example, when using messaging apps (for example on WhatsApp or Signal), users might consider using disappearing messages or deleting the messages after the other person receives them.
+:::
+
 ## Camera (photos and videos) {#camera-photos-and-videos}
 
 Tella offers a built-in camera where you can take photos and videos. All media collected inside Tella will not be available outside of it, as all files get encrypted as soon as they are taken. Files can only be accessed inside Tella, using the lock to open the app. Photos and videos won’t appear on the phone Gallery. In Tella, photos and videos will have a default name, but users can rename those using the Rename button. Files can also be organized in folders. 📷

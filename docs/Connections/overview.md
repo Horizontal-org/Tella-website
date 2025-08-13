@@ -66,3 +66,9 @@ Even though data is transferred to the server securely (SSL), files stored on th
 :::
 
 [Continue reading about Server Connections and how organizations use Tella](/for_organizations).
+
+
+
+:::tip
+The [Share](/features#share-button) feature is also available for sharing files directly with other apps installed on the device.
+:::
