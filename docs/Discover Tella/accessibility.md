@@ -37,6 +37,6 @@ Tella does not need internet for collecting or storing files, not to use any of 
 
 
 ### Device accessibility {#device-accessibility}
-We implement each feature trying maximize device accessibility, even for older devices. [Read here about what phones support Tella](/faq#what-phones-support-tella).
+We implement each feature trying maximize device accessibility, even for older devices. [Read here about what phones support Tella](/faq#what-phones-support-tella). We also keep Tella size as small as possible.
 
 
