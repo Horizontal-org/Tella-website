@@ -21,12 +21,12 @@ There are two main types of connections:
 - [**Nearby Sharing**](#nearby-sharing): Share encrypted files with another Tella device in physical proximity. This feature does **not** require an internet connection and is typically used during internet shutdowns.
 - [**Upload to a server**](#server-connections): Connect to a server and upload files over the internet so that others can access them. This feature is commonly used by organizations running data collection processes.
 
-Connections can be configured on **Settings** → **Connections**. The Tella home screen will displays a shortcut to all connected servers. Nearby Sharing is turned on by default, but it can be disabled as well. 
+Connections can be configured on **Settings** → **Connections**. The Tella home screen will displays a shortcut to all connected servers. Nearby Sharing is turned on by default, but it can be disabled as well.
 
 
 ## Nearby Sharing {#nearby-sharing}
 
-Nearby Sharing can be used to transfer files directly betwee Tella vaults. It is available on Tella Android, Tella iOS, and Tella Desktop. Transfers are **end-to-end encrypted**, use the Wi-Fi protocol, and work with or without an internet connection, even on insecure or monitored networks.  
+Nearby Sharing can be used to transfer files directly between Tella vaults. It is available on Tella Android, Tella iOS, and Tella Desktop. Transfers are **end-to-end encrypted**, use the Wi-Fi protocol, and work with or without an internet connection, even on insecure or monitored networks.
 
 We designed this connection type with a strong focus on security, especially for use in repressive environments, and it has been [audited by an independent security firm](/security-and-privacy#security-audits).
 
@@ -52,7 +52,7 @@ Feature availability by platform:
 <ConnectionsTable/>
 
 Some individuals use commercial clouds (Google Drive, Dropbox, Nextcloud) as a backup system for their Tella data. However, we advise using this feature with caution:
-- Automatic backups to any server are **not** currently available.  They need to be made manually.
+- Automatic backups to any server are **not** currently available. They need to be made manually as submissions to each of the servers.
 - Files on the server will be accessible to anyone with server access.
 
 [Read more about backups in Tella](/features#backup-files)

@@ -1,7 +1,7 @@
 ---
 id: for_organizations
 title: Server connections
-description: Learn how organizations can use Tella for research, advocacy, or accountability processes
+description: Learn how organizations can use Tella server Connections (Google Drive, Dropbox, Uwazi, ODK, Tella Web and Nextcloud) for research, advocacy, or accountability processes
 slug: /for_organizations
 ---
 import ConnectionsTable from '.././_connections-table.md';
@@ -50,7 +50,6 @@ On this table we explain what server types are available on the Tella apps:
 :::info
 In case Server connections are not what you are looking for, you might consider exploring [Nearby Sharing](/nearby-sharing) (for offline sharing of files) or the [Share](/features#share-button) feature (if you need to share files with other apps).
 :::
-
 
 
 ### Tella Web {#tella-web}
