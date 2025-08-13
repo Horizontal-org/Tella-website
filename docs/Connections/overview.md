@@ -1,39 +1,45 @@
 ---
 id: connections
 title: Connections
-description: Learn about how to share data with others using Tella Connections.
+description: Overview about how to share data with others using Tella Connections - Server Connections (Google Drive, Dropbox, Uwazi, ODK, Tella Web and Nextcloud) and Nearby Sharing (offline sharing)
 slug: /connections
 ---
+
 import ConnectionsTable from '.././_connections-table.md';
 
 
-# Tella Connections - Overview 
+# Tella Connections – Overview
 
-In addition to keeping the data protected within the app, users can use *Connections* as a way to share data with others. Depending on the type of connections, some use-cases might be:
-- An individual can choose to back up some of their files to a cloud, another phone or to a computer.
-- Volunteers or activists on the ground can submit forms to their organization, directly from Tella.
-- A group of people can connect to a drive, cloud or space and send files to it. 
-- An individual can share encrypted data with other Tella users in the context of an internet shutdown.
+In addition to keeping their data protected within the app, users can use **Connections** to securely share data with others. Depending on the type of connection, some possible use cases include:
+- Volunteers or activists on the ground submitting forms directly to their organization from Tella.
+- A group of people connecting to a drive, cloud, or shared space to send files.
+- A group of activists sharing encrypted data with each other Tella users during an internet shutdown.
+- An individual backing up selected files to their personal computer.
 
-There are 2 main type of connections:
-- [Nearby Sharing](#nearby-sharing): Share files, encrypted, to another Tella device that's in physical proximity. This feature do not require an internet connection and it's typically used on internet shutdown scenarios.
-- [Upload to a server](#server-connections): Connect to a server and upload files, using internet, so that others can access them. This feature is typically used by organizations running data collection processes. 
 
-The Tella homescreen will show a shortcut to all connected servers. Nearby Sharing shortcut is turned on by default, but it can be disabled from **Settings** > **Connections**. 
+There are two main types of connections:
+- [**Nearby Sharing**](#nearby-sharing): Share encrypted files with another Tella device in physical proximity. This feature does **not** require an internet connection and is typically used during internet shutdowns.
+- [**Upload to a server**](#server-connections): Connect to a server and upload files over the internet so that others can access them. This feature is commonly used by organizations running data collection processes.
+
+Connections can be configured on **Settings** → **Connections**. The Tella home screen will displays a shortcut to all connected servers. Nearby Sharing is turned on by default, but it can be disabled as well. 
 
 
 ## Nearby Sharing {#nearby-sharing}
 
+Nearby Sharing can be used to transfer files directly betwee Tella vaults. It is available on Tella Android, Tella iOS, and Tella Desktop. Transfers are **end-to-end encrypted**, use the Wi-Fi protocol, and work with or without an internet connection, even on insecure or monitored networks.  
+
+We designed this connection type with a strong focus on security, especially for use in repressive environments, and it has been [audited by an independent security firm](/security-and-privacy#security-audits).
+
+[Continue reading about Nearby Sharing](/nearby-sharing).
 
 
+## Server Connections {#server-connections}
 
-## Server connections {#server-connections}
+Server Connections are useful for organizations leading data collection processes. Organizations can choose, configure, and manage a server to centralize data collected by volunteers or activists in the field. These individuals gather information using Tella on their devices and then send it to their organization.
 
-Server connections are useful for organizations leading data collection processes. Organizations can choose, configure and manage a server, where they can centralize the data collected by volunteers or activists on the ground. These individuals gather information using Tella on their phones and then send it to their organizations.
+Previous Tella deployments, where on-the-ground users collected data and sent it to an organization's server, have ranged from 1 to 2,000 users. You can read user stories [here](/user-stories), or [contact us](/contact) for assistance in finding the best way to use Tella for your organization.
 
-Previous Tella deployments, where on-the-ground users collected data and sent it to an organization's server, have ranged from 1 to 2,000 users. 📲 📡. You can read user stories [here](/user-stories), or you can contact us so that we can assist you in finding the best way to use Tella for your organization.
-
-Currently, Tella can be connected to the following types of servers:
+Currently, Tella can connect to the following types of servers:
 
 * [Open Data Kit (ODK)](/odk)
 * [Uwazi](/uwazi)
@@ -45,15 +51,18 @@ Currently, Tella can be connected to the following types of servers:
 Feature availability by platform:
 <ConnectionsTable/>
 
+Some individuals use commercial clouds (Google Drive, Dropbox, Nextcloud) as a backup system for their Tella data. However, we advise using this feature with caution:
+- Automatic backups to any server are **not** currently available.  They need to be made manually.
+- Files on the server will be accessible to anyone with server access.
 
-Some individuals use the commercial clouds (Google Drive, Dropbox, Nextcloud) as a backup system for their Tella data. However, we advice that this feature is used with caution. For the moment there is not automatic backups to any server, and the files on the server will be accessible to anyone with access to the server. [Read more about backups in Tella here](/features#backup-files).
+[Read more about backups in Tella](/features#backup-files)
 
 :::info
-All server connections we implemented are offline first, with built in mechanisms for keeping progress even if the internet is not reliable. You can read more about [offline data collection here](/features#offline-data-collection)
+All server connections are **offline first**, with built-in mechanisms to resume uploads when the internet is unreliable. Learn more about [offline data collection here](/features#offline-data-collection).
 :::
 
 :::danger
-Even if the data travel to the server using secure methods (SSL), the files on the server itself **are not** encrypted. People who have access to the server itself are able to see the files.
+Even though data is transferred to the server securely (SSL), files stored on the server are **not** encrypted. Anyone with access to the server can view them.
 :::
 
-[Continue reading here about Server Connections and how organizations are using Tella](/for_organizations).
+[Continue reading about Server Connections and how organizations use Tella](/for_organizations).
