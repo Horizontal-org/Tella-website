@@ -3,6 +3,7 @@ id: faq
 title: Frequently asked questions (FAQ)
 description: Frequently asked questions about Tella
 slug: /faq
+sidebar_position: 6
 ---
 
 import FeaturesTable from './_features-table.md';

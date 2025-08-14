@@ -1,8 +1,9 @@
 ---
 id: security-and-privacy
-title: Security and privacy
+title: Security and Privacy
 description: Details about Tella security and privacy.
 slug: /security-and-privacy
+sidebar_position: 2
 ---
 
 # Security and privacy

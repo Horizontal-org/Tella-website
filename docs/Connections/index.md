@@ -3,6 +3,7 @@ id: connections
 title: Connections
 description: Overview about how to share data with others using Tella Connections - Server Connections (Google Drive, Dropbox, Uwazi, ODK, Tella Web and Nextcloud) and Nearby Sharing (offline sharing)
 slug: /connections
+sidebar_position: 4
 ---
 
 import ConnectionsTable from '.././_connections-table.md';

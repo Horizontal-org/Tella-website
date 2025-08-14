@@ -1,8 +1,9 @@
 ---
 id: features
-title: Tella features
+title: Tella Features
 description: A detailed description of Tella features.
 slug: /features
+sidebar_position: 1
 ---
 
 import FeaturesTable from '.././_features-table.md';

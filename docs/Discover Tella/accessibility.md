@@ -1,8 +1,9 @@
 ---
 id: accessibility
-title: Languages and accessibility
+title: Languages and Accessibility
 description: A look at the languages Tella is available in and accessibility considerations.
 slug: /accessibility
+sidebar_position: 3
 ---
 import TellaLanguages from '.././_tella-languages.md';
 
