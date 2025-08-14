@@ -9,6 +9,7 @@ sidebar_position: 4
 import ConnectionsTable from '.././_connections-table.md';
 
 
+
 # Tella Connections – Overview
 
 In addition to keeping their data protected within the app, users can use **Connections** to securely share data with others. Depending on the type of connection, some possible use cases include:
@@ -31,7 +32,7 @@ Nearby Sharing can be used to transfer files directly between Tella vaults. It i
 
 We designed this connection type with a strong focus on security, especially for use in repressive environments, and it has been [audited by an independent security firm](/security-and-privacy#security-audits).
 
-[Continue reading about Nearby Sharing](/nearby-sharing).
+<button class="button button--primary button--lg" to="nearby-sharing">Continue reading about Nearby Sharing</button>
 
 
 ## Server Connections {#server-connections}
@@ -66,8 +67,7 @@ All server connections are **offline first**, with built-in mechanisms to resume
 Even though data is transferred to the server securely (SSL), files stored on the server are **not** encrypted. Anyone with access to the server can view them.
 :::
 
-[Continue reading about Server Connections and how organizations use Tella](/for_organizations).
-
+<button class="button button--primary button--lg" to="for-organizations">Continue reading about Server Connections and how organizations use Tella</button>
 
 
 :::tip
