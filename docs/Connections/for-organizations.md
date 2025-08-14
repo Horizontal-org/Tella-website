@@ -1,8 +1,8 @@
 ---
-id: for_organizations
+id: for-organizations
 title: Server connections
 description: Learn how organizations can use Tella server Connections (Google Drive, Dropbox, Uwazi, ODK, Tella Web and Nextcloud) for research, advocacy, or accountability processes
-slug: /for_organizations
+slug: /for-organizations
 ---
 import ConnectionsTable from '.././_connections-table.md';
 

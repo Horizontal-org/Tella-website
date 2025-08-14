@@ -122,7 +122,7 @@ External storage locations (like SD cards) are not currently used by Tella.
 
 Yes, you can, but the process is manual for the moment. There are different alternatives available for backups:
 - Establish a secure connection to a computer or phone that's in physical proximity using [Nearby Sharing](/nearby-sharing). This is the most secure method available.
-- Connect to a cloud directly from Tella and choose the files you want to send to the it. You can read more about the [servers available here](/for-organizations).
+- Connect to a cloud directly from Tella and choose the files you want to send to the it. You can read more about the [servers available here](/for_organizations).
 - Select files from your vault and export those to your phone.
 
 
@@ -167,7 +167,7 @@ Deploying Tella means getting Tella ready to use for your specific context and a
 -   training users and helping them get the app installed and configured
 -   planning for maintenance of the server
 
-Please go to the [For Organizations](/for-organizations) section to read more about deploying Tella.
+Please go to the [For Organizations](/for_organizations) section to read more about deploying Tella.
 
 ### Can you help me deploy Tella? {#can-you-help-me-deploy-tella}
 

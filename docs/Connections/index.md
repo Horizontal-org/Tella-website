@@ -7,6 +7,8 @@ sidebar_position: 4
 ---
 
 import ConnectionsTable from '.././_connections-table.md';
+import Button from '@site/src/components/Button';
+
 
 
 
@@ -32,7 +34,7 @@ Nearby Sharing can be used to transfer files directly between Tella vaults. It i
 
 We designed this connection type with a strong focus on security, especially for use in repressive environments, and it has been [audited by an independent security firm](/security-and-privacy#security-audits).
 
-<button class="button button--primary button--lg" to="nearby-sharing">Continue reading about Nearby Sharing</button>
+<Button label="Continue reading about Nearby Sharing" link="/nearby-sharing" block/>
 
 
 ## Server Connections {#server-connections}
@@ -67,7 +69,7 @@ All server connections are **offline first**, with built-in mechanisms to resume
 Even though data is transferred to the server securely (SSL), files stored on the server are **not** encrypted. Anyone with access to the server can view them.
 :::
 
-<button class="button button--primary button--lg" to="for-organizations">Continue reading about Server Connections and how organizations use Tella</button>
+<Button label="Continue reading about Server Connections and how organizations use Tella" link="/for-organizations" block/>
 
 
 :::tip
