@@ -3,6 +3,7 @@ id: privacy-policy
 title: Privacy Policy
 description: Tella Privacy Policy
 slug: /privacy
+sidebar_position: 7
 ---
 
 

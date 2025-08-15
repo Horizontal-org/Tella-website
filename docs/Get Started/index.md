@@ -3,6 +3,7 @@ id: get-started
 title: Get Started 
 description: Quick start guide for Tella users on iOS and Android
 slug: /get-started
+sidebar_position: 3
 ---
 
 import Link from '@docusaurus/Link'
