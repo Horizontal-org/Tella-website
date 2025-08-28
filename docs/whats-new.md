@@ -3,6 +3,7 @@ id: releases
 title: What's new (changelog)
 description: Tella changelogs
 slug: /releases
+sidebar_position: 8
 ---
 
 # What's new

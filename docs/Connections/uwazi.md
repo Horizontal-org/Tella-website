@@ -125,3 +125,6 @@ Then go back to the Uwazi main screen and tap the template you want to use to cr
 | Automatically pause submission when offline | Submissions will be sent to the Outbox tab if submission fails due to connectivity issues.  | Yes | Yes |
 
 
+:::tip
+If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+:::

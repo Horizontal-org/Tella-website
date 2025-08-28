@@ -1,8 +1,9 @@
 ---
 id: features
-title: Tella features
+title: Tella Features
 description: A detailed description of Tella features.
 slug: /features
+sidebar_position: 1
 ---
 
 import FeaturesTable from '.././_features-table.md';
@@ -353,6 +354,23 @@ Currently the servers that can be connected to Tella are:
 Learn more about [Connecting to Servers](/video-tutorials#server-connections) in our video tutorials. 
 :::
 
+
+## Nearby Sharing {#nearby-sharing}
+
+Users can share files directly from Tella’s encrypted vault to another Tella encrypted vault in the same physical location using the Nearby Sharing feature. After a quick connection tutorial, the two devices establish a secure link, and files are transferred end-to-end encrypted from one device to the other.  
+
+This feature is available on Tella Android, Tella iOS, and Tella Desktop, and it works fully offline; it does not require an active internet connection.  
+
+:::note
+[Learn more about offline sharing here](/nearby-sharing).
+:::
+
+## Share button {#share-button}
+To share information with other apps, users can select the file or files they want to share and press the Share button. Tella will prompt the list of available apps on the phone and users can choose the app they want to share the file(s) with. 
+
+:::danger
+Tella will share the files unencrypted and history of exchanged files might be visible on the app you used. For example, when using messaging apps (for example on WhatsApp or Signal), users might consider using disappearing messages or deleting the messages after the other person receives them.
+:::
 
 ## Camera (photos and videos) {#camera-photos-and-videos}
 

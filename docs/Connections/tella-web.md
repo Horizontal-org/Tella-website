@@ -343,6 +343,10 @@ The Outbox contains:
 * Report submissions that were interrupted due to connectivity issues.
 * Reports that were marked as "Submit later"
 
+:::tip
+If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+:::
+
 
 #### Submitted Reports {#submitted-reports}
 

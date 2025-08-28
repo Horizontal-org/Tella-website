@@ -132,3 +132,8 @@ Below is an overview of the ODK features that are supported in Tella Android. If
 | [Filtering options in select questions](https://docs.getodk.org/form-logic/#filtering-options-in-select-questions) | ✔️ |
 | [Generating select ones from repeats](https://docs.getodk.org/form-logic/#generating-select-ones-from-repeats) | ❌ |
 | [Form metadata (background data collection)](https://docs.getodk.org/form-audit-log/) | ❌ |
+
+
+:::tip
+If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+:::
