@@ -50,7 +50,9 @@ For more details about each feature see [Features](/features).
 
 ### Is Tella available on desktop? {#is-tella-available-on-desktop}
 
-Yes, [Tella is available on desktop](/desktop), but for the moment can only be used to receive files.
+Yes, Tella is available on desktop, but for the moment can only be used to receive files.
+
+You can download Tella Desktop for Window, MacOS and Linux. TODO: Links to stores pending.
 
 ### Do you offer a back-end or repository to store data? {#tella-web}
 

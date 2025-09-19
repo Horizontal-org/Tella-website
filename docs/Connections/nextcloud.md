@@ -20,7 +20,9 @@ Similarly to other server connections (like [Tella Web](/tella-web), [Google Dri
 
 Submissions to Nextcloud take the form of "reports" which include a title, a text description, and files like photos, videos and audio recordings.
 
-
+:::danger
+Even though data is transferred to the server securely (SSL), anyone with access to the Nexctloud account can view them. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+:::
 
 ## When to Use Nextcloud {#when-to-use-Nextcloud}
 

@@ -18,6 +18,11 @@ Similarly to any other server connection (like [Tella Web](/tella-web), [Google 
 3. Allowing users to back up their data on a remote server, to lower the risk that data is discovered on their mobile device.
 4. Ensuring that organizations can preserve important information even in the event of device seizure or destruction, and can organize it for research, advocacy, or accountability processes.
 
+:::danger
+Even though data is transferred to the server securely (SSL), anyone with access to the ODK account can view them. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+:::
+
+
 ### Choosing and Installing Your ODK Server {#choosing-and-installing-your-odk-server}
 
 Because ODK is an open standard, Tella can be used with any of the tools that are ODK-compliant.

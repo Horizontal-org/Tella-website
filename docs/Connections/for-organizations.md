@@ -48,8 +48,7 @@ On this table we explain what server types are available on the Tella apps:
 <ConnectionsTable/>
 
 :::info
-In case Server connections are not what you are looking for, you might consider exploring [Nearby Sharing](/nearby-sharing) (for offline sharing of files) or the [Share](/features#share-button) feature (if you need to share files with other apps).
-:::
+For offline file sharing or during internet shutdowns [Nearby Sharing](/nearby-sharing) could be helpful.  If you need to share files with other apps the [Share button](/features#share-button) could be useful.
 
 
 ### Tella Web {#tella-web}
