@@ -8,7 +8,7 @@ import ConnectionsTable from '.././_connections-table.md';
 
 # Tella for organizations
 
-Server connections are useful for organizations leading data collection processes. Organizations can choose, configure and manage a server, where they can centralize the data collected by volunteers or activists on the ground. These individuals gather information using Tella on their phones and then send it to their organizations.
+Server connections are useful for organizations leading data collection processes. Organizations can choose, configure, and manage a server where they can centralize the data collected by volunteers or activists on the ground. These individuals gather information using Tella on their phones and then send it to their organizations.
 
 Previous Tella deployments, where on-the-ground users collected data and sent it to an organization's server, have ranged from 1 to 2,000 users. You can read user stories [here](/user-stories), or you can [contact us](/contact-us) so that we can assist you in finding the best way to use Tella for your organization.
 
@@ -48,8 +48,8 @@ On this table we explain what server types are available on the Tella apps:
 <ConnectionsTable/>
 
 :::info
-For offline file sharing or during internet shutdowns [Nearby Sharing](/nearby-sharing) could be helpful.  If you need to share files with other apps the [Share button](/features#share-button) could be useful.
-
+For offline file sharing or during internet shutdowns, [Nearby Sharing](/nearby-sharing) could be helpful.  If you need to share files with other apps the [Share button](/features#share-button) could be useful.
+:::
 
 ### Tella Web {#tella-web}
 

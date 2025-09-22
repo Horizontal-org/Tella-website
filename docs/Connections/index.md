@@ -17,7 +17,7 @@ import Button from '@site/src/components/Button';
 In addition to keeping their data protected within the app, users can use **Connections** to securely share data with others. Depending on the type of connection, some possible use cases include:
 - Volunteers or activists on the ground submitting forms directly to their organization from Tella.
 - A group of people connecting to a drive, cloud, or shared space to send files.
-- A group of activists sharing encrypted data with each other Tella users during an internet shutdown.
+- A group of journalists sharing encrypted data with each other during an internet shutdown.
 - An individual backing up selected files to their personal computer.
 
 
@@ -25,7 +25,7 @@ There are two main types of connections:
 - [**Nearby Sharing**](#nearby-sharing): Share encrypted files with another Tella device in physical proximity. This feature does **not** require an internet connection and is typically used during internet shutdowns.
 - [**Upload to a server**](#server-connections): Connect to a server and upload files over the internet so that others can access them. This feature is commonly used by organizations running data collection processes.
 
-Connections can be configured on **Settings** → **Connections**. The Tella home screen will displays a shortcut to all connected servers. Nearby Sharing is turned on by default, but it can be disabled as well.
+Connections can be configured on **Settings** → **Connections**. The Tella home screen will display a shortcut to all connected servers. Nearby Sharing is turned on by default, but it can be disabled as well.
 
 
 ## Nearby Sharing {#nearby-sharing}
@@ -62,7 +62,7 @@ Some individuals use commercial clouds (Google Drive, Dropbox, Nextcloud) as a b
 [Read more about backups in Tella](/features#backup-files)
 
 :::info
-All server connections are **offline first**, with built-in mechanisms to resume uploads when the internet is unreliable. Learn more about [offline data collection here](/features#offline-data-collection).
+All server connections are **offline first**, with built-in mechanisms to pause and resume uploads when the internet is unreliable. Learn more about [offline data collection here](/features#offline-data-collection).
 :::
 
 :::danger

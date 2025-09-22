@@ -28,7 +28,7 @@ Setting up Tella Web involves three steps, which are thoroughly discussed in thi
 * **Get people on the ground ready to start submitting reports**: Users install Tella on their Android or iPhone device. They then connect to the Tella Web project and start collecting information.
 
 :::danger
-Even though data is transferred to the server securely (SSL), anyone with access to the Tella Web account can view them. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+Even though data is transferred to the server securely (SSL), anyone with access to the Tella Web account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
 :::
 
 ## When to Use Tella Web {#when-to-use-tella-web}

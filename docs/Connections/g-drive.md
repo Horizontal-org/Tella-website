@@ -23,7 +23,7 @@ Submissions to Google Drive take the form of "reports" which include a title, a 
 
 
 :::danger
-Even though data is transferred to the server securely (SSL), anyone with access to the Google Drive account can view them. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+Even though data is transferred to the server securely (SSL), anyone with access to the Google Drive account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
 :::
 
 ## When to Use Google Drive {#when-to-use-google-drive}
