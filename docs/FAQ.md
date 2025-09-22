@@ -52,7 +52,7 @@ For more details about each feature see [Features](/features).
 
 Yes, Tella is available on desktop, but for the moment can only be used to receive files.
 
-You can download Tella Desktop for Window, MacOS and Linux. TODO: Links to stores pending.
+You can download Tella Desktop for Windows, MacOS and Linux. TODO: Links to stores pending-waiting for release
 
 ### Do you offer a back-end or repository to store data? {#tella-web}
 
@@ -124,11 +124,11 @@ External storage locations (like SD cards) are not currently used by Tella.
 
 Yes, you can, but the process is manual for the moment. There are different alternatives available for backups:
 - Establish a secure connection to a computer or phone that's in physical proximity using [Nearby Sharing](/nearby-sharing). This is the most secure method available.
-- Connect to a cloud directly from Tella and choose the files you want to send to the it. You can read more about the [servers available here](/for_organizations).
-- Select files from your vault and export those to your phone.
+- Connect to a server directly from Tella and choose the files you want to send to it. You can read more about the [servers available here](/for-organizations).
+- Select files from your vault and export those to your phone using the **Save to device** button.
 
 
-All exports outside of Tella's encrypted vault (to a cloud server or to your phone) will be unencrypted. The only method of sharing files that transfer files directly to another encrypted vault is [Nearby Sharing](/nearby-sharing).
+All exports outside of Tella's encrypted vault (to a connected server or to your phone) will be unencrypted. The only method of sharing files that transfer files directly to another encrypted vault is [Nearby Sharing](/nearby-sharing).
 
 ## Security & Privacy {#security--privacy}
 
@@ -141,10 +141,17 @@ Learn more about [Tella Locks](/video-tutorials#tella-locks) in our video tutori
 :::
 
 ### How do I migrate Tella to a new phone? {#how-do-i-migrate-tella-to-a-new-phone}
-You can use [Nearby Sharing](/nearby-sharing) to move your files to a new phone. You will need to install Tella in your new phone, establish a secure connection to it using Nearby Sharing , select all your files and transfer those to your new phone. This feature will work too for Android to iOS or iOS to Android migrations. 
+You can use [Nearby Sharing](/nearby-sharing) to move your files to a new phone. You will need to install Tella in your new phone, establish a secure connection to it using Nearby Sharing, select all your files, and transfer those to your new phone. This feature will work, too, for Android to iOS or iOS to Android migrations. 
 
+If you have multiple files the full transfer might take some time. We recommend you to make sure that Tella [does not lock](/features#lock-timeout) while the transfer is in progress.  
+
+:::tip
+We recommend you to double check that all the files has been successfully transfer before deleting those in your old phone.
+:::
+
+:::info
 Using Apple's Migration Assistant will not work: your files will be moved to the new phone encrypted, but not your encryption keys. As a result, you will not be able to decrypt and open these files.
-
+:::
 
 
 ### How secure is Tella? {#how-secure-is-tella}

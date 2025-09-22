@@ -6,7 +6,9 @@ slug: /get-started-desktop
 ---
 
 
-# Getting started on Tella on Desktop
+# Getting started on Tella Desktop
 
 TODO: write this guide as soon as the Desktop UI is final.
+
+on
 

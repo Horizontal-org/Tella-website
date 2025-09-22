@@ -300,7 +300,7 @@ A version of Tella included for the first time on the F-droid store. This a 100%
 - The top bar now automatically hides when scrolling a PDF for easier reading.
 - Upgraded http protocol (okhttp3 library).
  
-#### Upcoming changes and guidance to back-up files 
+#### Upcoming changes and guidance to back-up files {#upcoming-changes-and-guidance-to-back-up-files}
 The next release of Tella Android will include an update to the library used to save encrypted information encrypted in the database (SQLcipher). While we are doing our best to ensure the update to the new version happens smoothly, there is a small risk that some files are lost in the process. For users who are storing sensitive files in Tella, we strongly suggest to back-up these files to a location outside of Tella. This way, if something happens when updating Tella, those files will not be lost. 
 
 To export files outside of Tella and save them on your phone:
