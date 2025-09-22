@@ -17,7 +17,7 @@ Crossing boarders could potentially imply a thorough search on your device, you 
 - [Camouflage](/features#camouflage): If having Tella on your phone might raise suspicion, you can disguise it as another app.
 - [Quick exit](/features#quick-exit): To make sure Tella is locked.
 - [Quick delete](/features#quick-delete): To fully delete all content of your Tella vault. 
-- [Back up your files](/fatures#backup-files): Take into account that if you delete the content of your Tella vault, there is no way to restore it (unless backed up your files to another location).
+- [Back up your files](/features#backup-files): Take into account that if you delete the content of your Tella vault, there is no way to restore it (unless backed up your files to another location).
 - [Restrict unlock attempts](/features#restrict-unlocking-attempts): To reduce the risk of people trying to brute-force their access to Tella.
 
 
@@ -38,7 +38,7 @@ When there is  an intentional disruption of internet access, or when the interne
 During large events there might be an increased risk of device confiscation (in order to try to delete evidence) or difficulties in communications. On these cases you might find helpful:
 - [Nearby Sharing](/nearby-sharing): For sharing files locally between 2 devices with Tella, directly from one encrypted container to another one, even when mobile networks might be are saturated or unavailable.
 - [Quick delete](/features#quick-delete): To fully delete all content of your Tella vault. 
-- [Back up your files](/fatures#backup-files): Take into account that if you delete the content of your Tella vault, there is no way to restore it (unless backed up your files to another location).
+- [Back up your files](/features#backup-files): Take into account that if you delete the content of your Tella vault, there is no way to restore it (unless backed up your files to another location).
 - [Restrict unlock attempts](/features#restrict-unlocking-attempts): So reduce the risk of people trying to brute-force their access to Tella.
 - [Camouflage](/features#camouflage): If having Tella on your phone might raise suspicion, you can disguise it as another app.
 

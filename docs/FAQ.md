@@ -176,7 +176,7 @@ Deploying Tella means getting Tella ready to use for your specific context and a
 -   training users and helping them get the app installed and configured
 -   planning for maintenance of the server
 
-Please go to the [For Organizations](/for_organizations) section to read more about deploying Tella.
+Please go to the [For Organizations](/for-organizations) section to read more about deploying Tella.
 
 ### Can you help me deploy Tella? {#can-you-help-me-deploy-tella}
 

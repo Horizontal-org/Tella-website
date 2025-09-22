@@ -41,7 +41,7 @@ We designed this connection type with a strong focus on security, especially for
 
 Server Connections are useful for organizations leading data collection processes. Organizations can choose, configure, and manage a server to centralize data collected by volunteers or activists in the field. These individuals gather information using Tella on their devices and then send it to their organization.
 
-Previous Tella deployments, where on-the-ground users collected data and sent it to an organization's server, have ranged from 1 to 2,000 users. You can read user stories [here](/user-stories), or [contact us](/contact) for assistance in finding the best way to use Tella for your organization.
+Previous Tella deployments, where on-the-ground users collected data and sent it to an organization's server, have ranged from 1 to 2,000 users. You can read user stories [here](/user-stories), or [contact us](/contact-us) for assistance in finding the best way to use Tella for your organization.
 
 Currently, Tella can connect to the following types of servers:
 
