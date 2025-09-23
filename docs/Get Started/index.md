@@ -30,6 +30,14 @@ import Link from '@docusaurus/Link'
       </Link>
     </div>
     <div className="doc-card">
+      <Link to="/get-started-desktop">
+        <div className="doc-card-content">
+          <b>Tella Desktop Guide</b>
+          <p>Quick start guide for Tella users on Desktop.</p>
+        </div>
+      </Link>
+    </div>
+    <div className="doc-card">
       <Link to="/video-tutorials">
         <div className="doc-card-content">
           <b>Video Tutorials</b>
@@ -37,4 +45,13 @@ import Link from '@docusaurus/Link'
         </div>
       </Link>
     </div>
+    <div className="doc-card">
+      <Link to="/scenarios">
+        <div className="doc-card-content">
+          <b>Scenarios of Use</b>
+          <p>Discover what Tella features could be useful in different scenarios.</p>
+        </div>
+      </Link>
+    </div>
+
 </div>

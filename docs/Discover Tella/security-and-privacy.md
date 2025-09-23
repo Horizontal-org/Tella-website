@@ -82,7 +82,7 @@ Tella integrates various security measures in place to achieve an acceptable lev
 7. **Camera silent mode**:  Users can choose to [turn off the camera shutter sound](/features#camera-silent-mode) to draw less attention when taking photos.
 8. **Screen security**: By default, Tella blocks screenshots and screen recordings inside Tella and hides the screen preview in the list of recent apps. [This setting](/features#screen-security) can be disabled, for example to record tutorials inside Tella or mirror the app to a computer for a presentation.
 9. **Restrict unlocking attempts**: Users can decide how many failed [unlock attempts](features#restrict-unlocking-attempts) are allowed before everything inside Tella is deleted and whether a visual indicator with the remaining unlocking attempts will be visible on the unlock screen or not.
-10. **Offline file sharing**: Tella allows establishing a secure connection with devices that are in the same physical location and transfer files end-to-end encrypted, from one Tella vault to another. [Nearby Sharing](/nearby-sharing) works fully offline, even on insecure networks or networks being surveilled.  Nearby Sharing is available cross-platform (between Android, iOS and Desktop).
+10. **Offline file sharing**: Tella allows establishing a secure connection with devices that are in the same physical location and transfer files encrypted, from one Tella vault to another. [Nearby Sharing](/nearby-sharing) works fully offline, even on insecure networks or networks being surveilled.  Nearby Sharing is available cross-platform (between Android, iOS and Desktop).
 
 :::tip Video tutorial 🎥
 Learn more about Security Features in our [video tutorial](/video-tutorials#additional-security-features)

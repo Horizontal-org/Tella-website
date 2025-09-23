@@ -30,11 +30,11 @@ Connections can be configured on **Settings** → **Connections**. The Tella hom
 
 ## Nearby Sharing {#nearby-sharing}
 
-Nearby Sharing can be used to transfer files directly between Tella vaults. It is available on Tella Android, Tella iOS, and Tella Desktop. Transfers are **end-to-end encrypted**, use the Wi-Fi protocol, and work with or without an internet connection, even on insecure or monitored networks.
+Nearby Sharing can be used to transfer files directly between Tella vaults. It is available on Tella Android, Tella iOS, and Tella Desktop. Transfers are encrypted, use the Wi-Fi protocol, and work with or without an internet connection, even on insecure or monitored networks.
 
 We designed this connection type with a strong focus on security, especially for use in repressive environments, and it has been [audited by an independent security firm](/security-and-privacy#security-audits).
 
-<Button label="Continue reading about Nearby Sharing" link="/nearby-sharing" block/>
+<Button label="Continue reading about Nearby Sharing" link="/nearby-sharing"/>
 
 
 ## Server Connections {#server-connections}
@@ -69,7 +69,7 @@ All server connections are **offline first**, with built-in mechanisms to pause 
 Even though data is transferred to the server securely (SSL), files stored on the server are **not** encrypted. Anyone with access to the server can view them.
 :::
 
-<Button label="Continue reading about Server Connections and how organizations use Tella" link="/for-organizations" block/>
+<Button label="Continue reading about Server Connections and how organizations use Tella" link="/for-organizations"/>
 
 
 :::tip

@@ -100,10 +100,14 @@ Take into account that Tella will share the files unencrypted, so make sure to u
 
 
 
+## Nearby sharing {#nearby-sharing}
+You share files directly from Tella’s encrypted vault to another Tella encrypted vault in the same physical location using [Nearby Sharing](/nearby-sharing). After a quick connection tutorial, the two devices establish a secure link, and files are transferred encrypted from one device to the other. Nearby Sharing allow phone-to-phone (Android or iOS) and phone-to-computer file transfers. 
 
 
 
 ## Go Further {#go-further}
+
+
 
 ### Connect to a server {#connect-to-a-server}
 Tella can be connected to a variety of back-end services. This is used by organizations to allow their members or partners to submit data and files to a secure remote location. If you are considering connecting to a server and have doubts about what server to choose or how to connect to please look at [our documentation for organizations](/for-organizations) or [contact us](/contact-us), we are here to help!

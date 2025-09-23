@@ -1,7 +1,7 @@
 ---
 id: nearby-sharing
 title: Nearby Sharing
-description: Learn about Tella's end-to-end encrypted, cross-platform, fully offline feature for sharing files between Tella vaults in physical proximity. Available for Android, iOS and Desktop.
+description: Learn about Tella's encrypted, cross-platform, fully offline feature for sharing files between Tella vaults in physical proximity. Available for Android, iOS and Desktop.
 slug: /nearby-sharing
 ---
 
@@ -30,7 +30,7 @@ Nearby Sharing may be particularly well-suited for:
 
 
 :::tip
-If you need help figuring out if Nearby Sharing is best for your use-case, [check out this guide](/for-organizations#selecting-the-right-type-of-server) or [contact us](/contact-us)!
+If you need help figuring out if Nearby Sharing is best for your use-case, [contact us](/contact-us)!
 :::
 
 :::tip
@@ -43,7 +43,7 @@ If you are trying to share files to the organization you are working with, or if
 * [Dropbox](/dropbox)
 :::
 
-## How to use Nearby Sharing{#how-to-use}
+## How to use Nearby Sharing {#how-to-use}
 
 Tab the Nearby Sharing button under the **Connections** section on the Tella Homescreen to get stated.
 

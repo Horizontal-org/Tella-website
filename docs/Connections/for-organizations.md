@@ -5,6 +5,8 @@ description: Learn how organizations can use Tella server Connections (Google Dr
 slug: /for-organizations
 ---
 import ConnectionsTable from '.././_connections-table.md';
+import Button from '@site/src/components/Button';
+
 
 # Tella for organizations
 
@@ -63,9 +65,8 @@ The Tella Web server connection also allows users to securely download guides, r
 
 The Tella Web connection is available on Tella Android and Tella iOS, but not yet on [Tella-FOSS](/faq#is-tella-available-on-f-droid). 
 
-:::tip
-Learn more about Tella Web [here](/tella-web),
-:::
+<Button label="Continue reading about the Tella Web connection " link="/tella-web"/>
+
 
 ### Uwazi {#uwazi}
 
@@ -79,9 +80,7 @@ Resources to learn more about Uwazi:
 * [blogpost from the Uwazi team](https://huridocs.org/2022/07/the-new-tella-app-lets-uwazi-users-document-violations-safely-and-while-offline/) about the connection.
 * Uwazi [website](https://uwazi.io/) and [documentation](https://uwazi.readthedocs.io/en/latest/).
 
-:::tip
-Learn more about Uwazi [here](/uwazi).
-:::
+<Button label="Continue reading about the Uwazi connection " link="/uwazi"/>
 
 
 
@@ -96,20 +95,16 @@ On our [Open Data Kit server connection page](/odk) we explain how to create an 
 The ODK connection is [only available on Android](/features). 
 :::
 
-:::tip
-Learn more about Open Data Kit [here](/odk).
-:::
+<Button label="Continue reading about the Open Data Kit connection " link="/odk"/>
+
 
 ### Google Drive {#g-drive}
 
 Users can sign-in directly to their Google account from within Tella and upload files to a folder in their Drive account. If the user is part of an organization that uses Google Workspace, they can also submit the files directly to a Shared Drive they have access to. Each "report" uploaded will create a new folder in Drive.
 
-
 As for all Connections in Tella, users can use most of the Google Drive connection offline through the Draft, Outbox and Submit Later tabs. 
 
-:::tip
-Learn more about the Google Drive connection [here](/g-drive),
-:::
+<Button label="Continue reading about the Google Drive connection " link="/g-drive"/>
 
 
 ### Nextcloud {#nextcloud}
@@ -117,10 +112,7 @@ Users can sign-in directly to their NextCloud account from within Tella and uplo
 
 As for all Connections in Tella, users can use most of the NextCloud connection offline through the Draft, Outbox and Submit Later tabs. 
 
-:::tip
-Learn more about the Nextcloud connection [here](/nextcloud),
-:::
-
+<Button label="Continue reading about the Nextcloud connection " link="/nextcloud"/>
 
 
 ### Dropbox {#dropbox}
@@ -128,9 +120,8 @@ Users can sign-in directly to their Dropbox account from within Tella and upload
 
 As for all Connections in Tella, users can use most of the Dropbox connection offline through the Draft, Outbox and Submit Later tabs. 
 
-:::tip
-Learn more about [the Dropbox connection here](/dropbox),
-:::
+<Button label="Continue reading about the Dropbox connection " link="/dropbox"/>
+
 
 
 

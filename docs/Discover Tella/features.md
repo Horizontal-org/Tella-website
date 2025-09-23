@@ -371,12 +371,12 @@ Learn more about [Connecting to Servers](/video-tutorials#server-connections) in
 
 ## Nearby Sharing {#nearby-sharing}
 
-Users can share files directly from Tella’s encrypted vault to another Tella encrypted vault in the same physical location using the Nearby Sharing feature. After a quick connection tutorial, the two devices establish a secure link, and files are transferred end-to-end encrypted from one device to the other.  
+Users can share files directly from Tella’s encrypted vault to another Tella encrypted vault in the same physical location using Nearby Sharing . After a quick connection tutorial, the two devices establish a secure link, and files are transferred encrypted from one device to the other.  Nearby Sharing is independent of the internet connection status: it works online or offline.
 
-This feature is available on Tella Android, Tella iOS, and Tella Desktop, and it works fully offline; it does not require an active internet connection.  
+This feature is available on Tella Android, Tella iOS, and Tella Desktop. 
 
 :::note
-[Learn more about offline sharing here](/nearby-sharing).
+[Learn more about nearby sharing here](/nearby-sharing).
 :::
 
 ## Share button {#share-button}
