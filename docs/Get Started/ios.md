@@ -35,6 +35,7 @@ The first time you use each functionality, you will be asked to grant Tella some
 
 
 * To take photos, record videos, or record audio, you will need to grant permission to access your phone’s camera and microphone.
+* To use Nearby Sharing you'll need to grant access detect devices on your Wi-Fi network.
 
 
 <div className="gifs">

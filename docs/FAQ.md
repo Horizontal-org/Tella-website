@@ -25,7 +25,11 @@ Tella is developed and maintained by [Horizontal](https://wearehorizontal.org), 
 
 ### Is Tella available on Android? {#is-tella-available-on-android}
 
-Yes, Tella is available for Android and can be downloaded directly [from the Google Play Store ](https://play.google.com/store/apps/details?id=org.hzontal.tella&gl=US),   from our [Telegram channel]( https://t.me/tellaapp) or [from this folder](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ), as an APK, to be installed manually. If you need to help to install the app manually you can [follow this guide ](https://www.androidauthority.com/how-to-install-apks-31494/)or [contact us](contact-us).
+Yes, Tella is available for Android and can be downloaded directly [from the Google Play Store ](https://play.google.com/store/apps/details?id=org.hzontal.tella&gl=US),   from our [Telegram channel]( https://t.me/tellaapp) or [from this folder](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ), as an APK, to be installed manually. If you need to help to install the app manually you can [follow this guide ](https://www.androidauthority.com/how-to-install-apks-31494/) or [contact us](contact-us).
+
+:::note
+Follow the get [quick start guide for Tella users on Android](/get-started-android) for quick onboarding.
+:::
 
 :::tip
 Learn more about [How to find and download Tella from the Play Store](/video-tutorials#find-and-download-tella-from-the-play-store) and [How to install Tella manually](/video-tutorials#manual-installation-of-tella) in our video tutorials.
@@ -38,9 +42,12 @@ All code, libraries, and dependencies in Tella FOSS are entirely Free and Open S
 
 ### Is Tella available on iOS? {#is-tella-available-on-ios}
 
-Yes, Tella for iOS can be downloaded [from the App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580).
+Yes, Tella for iOS can be downloaded [from the App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580). For details about which features are available for iOS, see [What features are available on each platform](/features).
 
-For details about which features are available for iOS, see [What features are available on each platform](/features).
+:::note
+Follow the get [quick start guide for Tella users on iOS](/get-started-ios) for quick onboarding.
+:::
+
 
 ### What features are available on each platform? {#what-features-are-available-on-each-platform}
 
@@ -52,7 +59,7 @@ For more details about each feature see [Features](/features).
 
 Yes, Tella is available on desktop, but for the moment can only be used to receive files.
 
-You can download Tella Desktop for Windows, MacOS and Linux. TODO: Links to stores pending-waiting for release
+You can download Tella Desktop for Windows, MacOS and Linux. [Follow the quick start guide for Tella users on Desktop](/get-started-desktop) for quick onboarding.
 
 ### Do you offer a back-end or repository to store data? {#tella-web}
 
@@ -83,7 +90,7 @@ As of December 2024, we haven't been able to test Tella Android and Tella FOSS o
 
 Yes, Tella is free to download and use. It will remain free forever.
 
-Tella is also [Open Source.](/open-source)
+Tella is also [Open Source](/open-source).
 
 ### What languages is Tella available in? {#what-languages-is-tella-available-in}
 
