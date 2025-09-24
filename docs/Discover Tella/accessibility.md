@@ -10,7 +10,7 @@ import TellaLanguages from '.././_tella-languages.md';
 
 # Language and Accessibility in Tella
 
-Making Tella accessible is a top priority for us. When we say accessible, we mean that we do our best to ensure that disabled users and users with limited literacy or tech literacy can use Tella, and that Tella is available in as many languages, devices and contexts as possible.
+Making Tella accessible is a top priority for us. When we say accessible, we mean that we do our best to ensure that disabled users and users with limited literacy or tech literacy can use Tella, and that Tella is available in as many languages, devices, and contexts as possible.
 
 
 ### Language accessibility {#language-accessibility}
@@ -38,6 +38,6 @@ Tella does not need internet for collecting or storing files, not to use any of 
 
 
 ### Device accessibility {#device-accessibility}
-We implement each feature trying to maximize device accessibility, even for older devices. [Read here about what phones support Tella](/faq#what-phones-support-tella). We also keep Tella size as small as possible.
+We implement each feature trying to maximize device accessibility, even for older devices. [Read here about what phones support Tella](/faq#what-phones-support-tella). We also keep Tella as small as possible, to allow people with little storage space available on their phone to [download it and configure it to reduce the used storage space, in case that's a constraint for them](/faq/#how-much-storage-do-i-need-to-install-tella).
 
 

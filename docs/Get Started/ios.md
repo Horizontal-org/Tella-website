@@ -35,7 +35,7 @@ The first time you use each functionality, you will be asked to grant Tella some
 
 
 * To take photos, record videos, or record audio, you will need to grant permission to access your phone’s camera and microphone.
-* To use Nearby Sharing you'll need to grant access detect devices on your Wi-Fi network.
+* To use Nearby Sharing you'll need to grant access to detect devices on your Wi-Fi network.
 
 
 <div className="gifs">
@@ -102,7 +102,7 @@ Take into account that Tella will share the files unencrypted, so make sure to u
 
 
 ## Nearby sharing {#nearby-sharing}
-You share files directly from Tella’s encrypted vault to another Tella encrypted vault in the same physical location using [Nearby Sharing](/nearby-sharing). After a quick connection tutorial, the two devices establish a secure link, and files are transferred encrypted from one device to the other. Nearby Sharing allow phone-to-phone (Android or iOS) and phone-to-computer file transfers. 
+You share files directly from Tella’s encrypted vault to another Tella encrypted vault in the same physical location using [Nearby Sharing](/nearby-sharing). After a quick connection tutorial, the two devices establish a secure link, and files are transferred encrypted from one device to the other. Nearby Sharing allows phone-to-phone (Android or iOS) and phone-to-computer file transfers. 
 
 
 

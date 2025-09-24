@@ -61,7 +61,7 @@ import ThemedImage from '@theme/ThemedImage';
                 <li><span className="emphasis">Hide your files in the device:</span> your files are inaccessible from the phone’s regular gallery or file explorer. You can only access them in the app. </li>
                 <li><span className="emphasis">Lock your files:</span> set a PIN or password to protect your files. Entering the correct lock is the only way to decrypt the files stored in Tella.</li>
                 <li><span className="emphasis">Mask the app:</span> change the look of Tella to hide it from people searching your phone.</li>
-                <li><span className="emphasis">Share your files:</span> choose one of the secure methods to share your files with other Tella or to a server.</li> 
+                <li><span className="emphasis">Share your files:</span> choose one of the secure methods to share your files with other Tella vault or to a server.</li> 
             </ul>
         </div>
         <div className="column" id="section-column2">
@@ -80,7 +80,7 @@ import ThemedImage from '@theme/ThemedImage';
         <div className="column" id="section-column2">
             <ul>
                 <li><span className="emphasis">Camera and recorder inside Tella:</span> take photos, record videos and audio directly in Tella so that your files are immediately encrypted and hidden in the app.</li>
-                <li><span className="emphasis">Tella integrates</span> with <a href="uwazi">Uwazi</a>, <a href="odk">Open Data Kit</a>, <a href="tella-web">Tella Web</a>, <a href="g-drive">Google Drive</a>, <a href="dropbox">Dropbox</a> and <a href="nextcloud">Nextcloud</a>. <a href="connections">Pick the platform</a> that best suits your need and share data directly from Tella.</li>
+                <li><span className="emphasis">Tella integrates</span> with <a href="uwazi">Uwazi</a>, <a href="odk">Open Data Kit</a>, <a href="tella-web">Tella Web</a>, <a href="g-drive">Google Drive</a>, <a href="dropbox">Dropbox</a> and <a href="nextcloud">Nextcloud</a>. <a href="connections">Pick the platform</a> that best suits your needs and share data directly from Tella.</li>
                 <li><span className="emphasis">Offline-first:</span> in areas with limited or no internet connection, you can save your data and submit it when you reach a reliable internet connection. Tella also offers a <a href="nearby-sharing">fully offline feature to transfer files to nearby devices</a> using Tella. </li>
             </ul>
         </div>

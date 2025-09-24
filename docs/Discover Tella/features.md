@@ -51,8 +51,10 @@ If [verification mode](/features#verification-mode) is turned on, background enc
 ## Backup files {#backup-files}
 Tella stores all the information locally in your phone. If you delete your files (for example using [quick delete](/features#quick-delete) or if you uninstall Tella), your files cannot be restored unless you have backed them up outside of Tella.
 
-We offer several ways to backup files, so you can safely delete data from Tella and being able to import it back in. Follow [this guide](/connections) to find more details about each one, or [contact us](/contact-us) if you have questions.
+We offer several ways to backup files, so you can safely delete files from Tella and import those back in. Follow [this guide](/connections) to find more details about each one, or [contact us](/contact-us) if you have questions.
 
+
+.
 ### Backup files to a cloud {#backup-files-to-a-cloud}
 
 Several servers can be connected to Tella to be able to send files to a cloud or to an external service. Backups, for the moment, need to be made manually, by creating reports (using, for example, the date of "today" as the report title) and submitting them to the connected server. Files will be available on the connected server inside a folder with the report title.
@@ -300,7 +302,7 @@ The Delete Tella option might not be available on some Android phones due to tec
 :::
 
 :::warning 
-Before triggering Quick Delete, consider[backing up you files](/features#backup-files) outside of Tella, to avoid loosing those.
+Before triggering Quick Delete, consider [backing up you files](/features#backup-files) outside of Tella, to avoid loosing them.
 :::
 
 ## Quick exit {#quick-exit}
@@ -383,7 +385,7 @@ This feature is available on Tella Android, Tella iOS, and Tella Desktop.
 To share information with other apps, users can select the file or files they want to share and press the Share button. Tella will prompt the list of available apps on the phone and users can choose the app they want to share the file(s) with. 
 
 :::danger
-Tella will share the files unencrypted and the history of exchanged files might be visible on the app you used. We recommend using disappearing messages or deleting the messages after the other person receives them using when using messaging apps (for example WhatsApp or Signal).
+Tella will share the files unencrypted and the history of exchanged files might be visible on the app you used. We recommend using disappearing messages or deleting the messages after the other person receives them when using messaging apps (for example WhatsApp or Signal).
 :::
 
 ## Camera (photos and videos) {#camera-photos-and-videos}

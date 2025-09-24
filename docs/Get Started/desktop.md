@@ -25,7 +25,7 @@ We are working to add the installation files to official Stores for each operati
 
 ## Set up your lock {#set-up-your-lock}
 
-The first time you open Tella Desktop you'll need to choose your lock.  Without this lock, it is not possible to open Tella and access any of the files stored in it. If you lose this lock, there is no way to restore it, please remember your lock or save in a safe place, for example in a Password Manager. Locks can be any alpha-numeric sequence. For your security, choose a strong lock and avoid using your name, date of birth, or anything that is easy to guess (like “Password”, “123456”, or “000000”).
+The first time you open Tella Desktop you'll need to choose your lock.  Without this lock, it is not possible to open Tella and access any of the files stored in it. If you lose this lock, there is no way to restore it, please remember your lock or save it in a safe place, for example in a Password Manager. Locks can be any alpha-numeric sequence. For your security, choose a strong lock and avoid using your name, date of birth, or anything that is easy to guess (like “Password”, “123456”, or “000000”).
 
 ## Receive files {#receive-files}
 
@@ -40,19 +40,20 @@ It does not matter whether that Wi-Fi has connection to the internet, Tella only
 Tella will show a tutorial with steps to connect. Follow the instructions on your phone and computer to select the files, accept the transfer and save those, encrypted, in your computer.
 
 ## Lock Tella {#lock-tella}
-After you are done receiving files, we strongly recommend to either close the Tella Desktop App or use the Lock button on the bottom left to make sure Tella Desktop is lock and nobody can access the files stored on it.
+
+After you are done receiving files, we strongly recommend closing the Tella Desktop App or using the Lock button on the bottom left to make sure Tella Desktop is locked and nobody can access the files stored on it.
 
 
 ## Export files {#export-files}
 
-All received files will be stored, encrypted, in your computer. Click on the Received button on the left side panel to view the list of folders received, the date and the number of files on each folder. At the moment, it's not possible to preview the files inside the Tella Desktop encrypted container. So you can select one or many folders from the list of received files and click on the Export button on the top bar to save them on your computer. For each folder Tella will save a zip file on ´Downloads > Tella´. Unzip it to view the files.
+All received files will be stored, encrypted, in Tella. Click on the Received button on the left side panel to view the list of folders received, the date, and the number of files on each folder. At the moment, it's not possible to preview the files inside the Tella Desktop encrypted container. To export files to your Computer and be able to view them, select one or many folders from the list of received files and click on the Export button on the top bar to save them in your computer. For each folder, Tella will save a zip file on ´Downloads > Tella´. Unzip it to view the files.
 
 :::danger
 Once exported out of Tella, anyone with access to your computer can view them.
 :::
 
 ## Delete files {#delete-files}
-Select the received folders you'd like to Delete by selecting those on the Received tab of Tella and clicking on Delete and accepting the confirmation dialog. Deleting a folder will permanently delete all files in it from Tella. This action cannot be reversed.
+Select the received folders you'd like to delete by selecting those on the Received tab of Tella. Click on Delete and accept the confirmation dialogue to permanently deleting a folder and all files in it from Tella. This action cannot be reversed.
 
 
 
