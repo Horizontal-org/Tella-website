@@ -33,7 +33,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ### iOS: Tella 1.17.0 (109) - Released on November 20, 2025 {#ios-tella-1170-109---released-on-nov-20-2025}
 - New language: Chinese.
 - Implemented onboarding flow for iOS.
-- Technical maintenance task to be able to support Supports iOS 26.
+- Technical maintenance task to be able to support iOS 26.
 - Uwazi Connection improvements:
     - Fixed error on for Uwazi server connection, adapting Tella to Uwazi API changes.
     - Added support for nested attributes in the Select property.
