@@ -16,7 +16,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 
 
 
-### Android: Tella 2.18.0 (215) - Released on October 29, 2025 {#android-tella-21180215---released-on-oct-29-2025}
+### Android: Tella 2.18.0 (219) - Released on November 20, 2025 {#android-tella-21180219---released-on-nov-20-2025}
 - New language: Chinese.
 - Bug fixes:
     - Made Quick Delete button accessible for right-to-left languages.
@@ -30,11 +30,14 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Started technical work to support 16 KB memory page sizes as per Play Store requirement.
     - Refactored export flow to modern Android Storage Access Framework (SAF) picker and removed legacy storage permission.
 
-### iOS: Tella 1.17.0 (X) - Released on October 29, 2025 {#ios-tella-1170-X---released-on-oct-17-2025}
+### iOS: Tella 1.17.0 (109) - Released on November 20, 2025 {#ios-tella-1170-109---released-on-nov-20-2025}
 - New language: Chinese.
 - Implemented onboarding flow for iOS.
-- Bug fixes and minor improvements:
+- Technical maintenance task to be able to support Supports iOS 26.
+- Uwazi Connection improvements:
     - Fixed error on for Uwazi server connection, adapting Tella to Uwazi API changes.
+    - Added support for nested attributes in the Select property.
+- Bug fixes and minor improvements:
     - Improved explanations for quick delete and add a default value.
     - Improved file bottom sheet by showing the full file name in the bottom sheet.
 
