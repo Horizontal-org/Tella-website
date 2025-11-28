@@ -21,6 +21,9 @@ Similarly to other server connections (like [Tella Web](/tella-web), [Google Dri
 Submissions to Dropbox take the form of "reports" which include a title, a text description, and files like photos, videos and audio recordings.
 
 
+:::danger
+Even though data is transferred to the server securely (SSL), anyone with access to the Dropbox account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+:::
 
 ## When to Use Dropbox {#when-to-use-dropbox}
 
@@ -114,6 +117,10 @@ The Outbox contains:
 * Paused submissions
 * Report submissions that were interrupted due to connectivity issues.
 * Reports that were marked as "Submit later"
+
+:::tip
+If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+:::
 
 
 #### Submitted Reports {#submitted-reports}

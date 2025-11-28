@@ -106,6 +106,8 @@ Take into account that Tella will share the files unencrypted, so make sure to u
     <img src={require("@site/static/img/getting-started/android/share.gif").default} alt="gif that shows how to share information" title="share information with third party apps" />
 </div>
 
+## Nearby sharing {#nearby-sharing}
+You share files directly from Tella’s encrypted vault to another Tella encrypted vault in the same physical location using [Nearby Sharing](/nearby-sharing). After a quick connection tutorial, the two devices establish a secure link, and files are transferred encrypted from one device to the other. Nearby Sharing allow phone-to-phone (Android or iOS) and phone-to-computer file transfers. 
 
 
 ## Go Further {#go-further}
@@ -146,6 +148,8 @@ Read more:
 - [Google Drive Connection](/g-drive).
 - [Nextcloud Connection](/nextcloud).
 - [Dropbox Connection](/dropbox).
+
+
 
 
 

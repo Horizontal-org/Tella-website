@@ -1,8 +1,9 @@
 ---
 id: features
-title: Tella features
+title: Tella Features
 description: A detailed description of Tella features.
 slug: /features
+sidebar_position: 1
 ---
 
 import FeaturesTable from '.././_features-table.md';
@@ -47,10 +48,18 @@ If the user hard exit Tella (for example by using [Quick Exit](#quick-exit) or m
 If [verification mode](/features#verification-mode) is turned on, background encryption is automatically disabled to make sure that all file metadata is captured at the same time as the photo, video, or audio file is saved.  
 :::
 
-## Backup files to a cloud {#backup-files}
-We are in the process of adding options for individuals and organizations to backup their data to different clouds. Backups, for the moment, need to be made manually, by creating reports (using, for example, the date of "today" as the report title) and submitting them to the connected server. Files will be available on the connected server inside a folder with the report title.
+## Backup files {#backup-files}
+Tella stores all the information locally in your phone. If you delete your files (for example using [quick delete](/features#quick-delete) or if you uninstall Tella), your files cannot be restored unless you have backed them up outside of Tella.
 
-For the moment we support the following connections. Follow each of the links to find details and step-by-step guides on how to connect and use each of them:
+We offer several ways to backup files, so you can safely delete files from Tella and import those back in. Follow [this guide](/connections) to find more details about each one, or [contact us](/contact-us) if you have questions.
+
+
+.
+### Backup files to a cloud {#backup-files-to-a-cloud}
+
+Several servers can be connected to Tella to be able to send files to a cloud or to an external service. Backups, for the moment, need to be made manually, by creating reports (using, for example, the date of "today" as the report title) and submitting them to the connected server. Files will be available on the connected server inside a folder with the report title.
+
+For the moment we support 6 different server connections, we offer [this guide](/for-organizations) to help you assess what server could be best suited for your use-case.  Follow each of the links to find details and step-by-step guides on how to connect and use each of them: 
 * [Open Data Kit (ODK)](/odk)
 * [Uwazi](/uwazi)
 * [Tella Web](/tella-web)
@@ -66,6 +75,9 @@ On this table we explain what server types are available on the Tella apps:
 For the moment, the submission to any type of server it is **not** encrypted. People who have access to the server itself are able to see the files.
 :::
 
+### Backup files to another phone or computer {#backup-files-to-another-phone-or-computer}
+
+Using [Nearby Sharing](/nearby-sharing) you can transfer files directly to another Tella vault, either in another phone or [to a computer](/get-started-desktop) that's in physical proximity.
 
 
 ## Lock timeout configuration {#lock-timeout-configuration}
@@ -288,6 +300,10 @@ A Quick Delete button allows users, in just a few seconds, to delete sensitive d
 The Delete Tella option might not be available on some Android phones due to technical limitations. We are working on a fix for this issue. For iOS it is not possible to programmatically delete an app, so the Delete Tella option is not available.
 :::
 
+:::warning 
+Before triggering Quick Delete, consider [backing up you files](/features#backup-files) outside of Tella, to avoid loosing them.
+:::
+
 ## Quick exit {#quick-exit}
 
 By clicking the exit button on Tella’s home screen right top corner, Android users can quickly close and lock the app in case of emergency. While having the lock timeout set to “immediately” means that the app already locks when the user exits, using the Quick Exit button adds an extra layer of security and assurance that the app will be fully closed and locked 🔒
@@ -336,7 +352,7 @@ Below is a list of each piece of metadata captured by Tella:
 
 ## Connecting to servers {#connecting-to-servers}
 
-Users can collect data directly in Tella, keep the data protected within the app, and connect to a server to securely send the data to a server. This feature is frequently used by organizations who centralize the data collected by volunteers or activist on the ground. These people collect information using Tella on their phones and then send it to their organizations. Previous Tella deployments where on-the-ground users collect data and send it to an organization's server have ranged from 1 to 2,000 users. 📲 📡
+Users can collect data directly in Tella, keep the data protected within the app, and connect to a server to securely send the data to a server. This feature is frequently used by organizations who centralize the data collected by volunteers or activist on the ground. These people collect information using Tella on their phones and then send it to their organizations. Previous Tella deployments where on-the-ground users collect data and send it to an organization's server have ranged from 1 to 2,000 users. 📲 📡.
 
 Currently the servers that can be connected to Tella are:
 
@@ -347,11 +363,29 @@ Currently the servers that can be connected to Tella are:
 * [Nextcloud](/nextcloud)
 * [Dropbox](/dropbox)
 
+You can [read more about servers and how organizations have been using this feature here](/for-organizations).
 
 :::tip Video tutorial 🎥
 Learn more about [Connecting to Servers](/video-tutorials#server-connections) in our video tutorials. 
 :::
 
+
+## Nearby Sharing {#nearby-sharing}
+
+Users can share files directly from Tella’s encrypted vault to another Tella encrypted vault in the same physical location using Nearby Sharing . After a quick connection tutorial, the two devices establish a secure link, and files are transferred encrypted from one device to the other.  Nearby Sharing is independent of the internet connection status: it works online or offline.
+
+This feature is available on Tella Android, Tella iOS, and Tella Desktop. 
+
+:::note
+[Learn more about nearby sharing here](/nearby-sharing).
+:::
+
+## Share button {#share-button}
+To share information with other apps, users can select the file or files they want to share and press the Share button. Tella will prompt the list of available apps on the phone and users can choose the app they want to share the file(s) with. 
+
+:::danger
+Tella will share the files unencrypted and the history of exchanged files might be visible on the app you used. We recommend using disappearing messages or deleting the messages after the other person receives them when using messaging apps (for example WhatsApp or Signal).
+:::
 
 ## Camera (photos and videos) {#camera-photos-and-videos}
 
