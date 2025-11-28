@@ -16,7 +16,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 
 
 
-### Android: Tella 2.18.0 (219) - Released on November 20, 2025 {#android-tella-21180219---released-on-nov-20-2025}
+### Android: Tella 2.18.0 (220) - Released on November 28, 2025 {#android-tella-21180220---released-on-nov-28-2025}
 - New language: Chinese.
 - Bug fixes:
     - Made Quick Delete button accessible for right-to-left languages.
@@ -29,6 +29,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
     - Targeted Android 15 (API level 35) as per Play Store requirement.
     - Started technical work to support 16 KB memory page sizes as per Play Store requirement.
     - Refactored export flow to modern Android Storage Access Framework (SAF) picker and removed legacy storage permission.
+    - Updated connection's strings to match Google and Dropbox brand guidelines.
 
 ### iOS: Tella 1.17.0 (109) - Released on November 20, 2025 {#ios-tella-1170-109---released-on-nov-20-2025}
 - New language: Chinese.
