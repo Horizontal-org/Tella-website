@@ -364,8 +364,8 @@ The Delete Tella option might not be available on some Android phones due to tec
 
 ## اختيار دقة الفيديو {#select-video-resolution}
 يمكنك بسهولة اختيار دقة الفيديو المطلوبة على Tella من خلال الوصول إلى شاشة تسجيل الفيديو ولمس زر الإعدادات. تشمل الخيارات المتاحة:
-- Highest possible resolution
-- High resolution (1080p)
+- أعلى دقة ممكنة
+- دقة عالية (1080 بكسل)
 - دقة متوسطة (720 بكسل)
 - دقة منخفضة (480 بكسل)
 
