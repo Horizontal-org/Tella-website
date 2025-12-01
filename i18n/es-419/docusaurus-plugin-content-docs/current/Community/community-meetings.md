@@ -8,8 +8,8 @@ slug: /community-meetings
 # Reuniones de la comunidad de Tella
 
 :::important
-Unfortunately, due to the [funding challenges Horizontal is facing](https://donorbox.org/towards-sustainability), we need to pause the Tella community meetings.
-If you have any questions or need support, please [contact us directly](/contact-us).
+Tristemente, debido a los [problemas de financiamiento que estamos transitando en Horizontal](https://donorbox.org/towards-sustainability), necesitamos pausar las llamadas comunitarias de Tella  por tiempo indefinido.
+Si tienes dudas o necesitas apoyo, por favor [contáctanos directamente](/contact-us).
 :::
 
 ###  ~~What {#what}~~
