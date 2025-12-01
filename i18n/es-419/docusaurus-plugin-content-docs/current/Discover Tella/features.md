@@ -48,9 +48,24 @@ Si el [Modo de Verificación](/features#verification-mode) está activo, el cifr
 :::
 
 ## Respaldar archivos a la nube {#backup-files}
-Estamos en proceso de añadir opciones para que individuos y organizaciones respalden sus datos a diferentes nubes. Por el momento admitimos:
+We are in the process of adding options for individuals and organizations to backup their data to different clouds. Backups, for the moment, need to be made manually, by creating reports (using, for example, the date of "today" as the report title) and submitting them to the connected server. Files will be available on the connected server inside a folder with the report title.
 
-<ConnectionsTable/>
+For the moment we support the following connections. Follow each of the links to find details and step-by-step guides on how to connect and use each of them:
+* [Open Data Kit (ODK)](/odk)
+* [Uwazi](/uwazi)
+* [Tella Web](/tella-web)
+* [Google Drive](/g-drive)
+* [Nextcloud](/nextcloud)
+* [Dropbox](/dropbox)
+
+En esta tabla explicamos qué tipos de servidores están disponibles en las apps de Tella:
+<ConnectionsTable/>.
+
+
+:::danger
+For the moment, the submission to any type of server it is **not** encrypted. People who have access to the server itself are able to see the files.
+:::
+
 
 
 ## Configuración de tiempo de espera para bloqueo {#lock-timeout-configuration}
@@ -115,21 +130,33 @@ Estamos en proceso de añadir la habilidad de editar archivos multimedia directa
 
 | **Tipo de Medio** | **Función** | **Tella Android** | **Tella iOS** | **Tella FOSS** |
 |----------------|-------------|-------------------|---------------|----------------|
-| Imagen          | Recortar        | ✔️                | ✔️            | Aún no        |
-| Imagen          | Rotar      | ✔️                | ✔️            | Aún no        |
-| Imagen          | Voltear        | ✔️                | Aún no       | Aún no        |
-| Imagen          | Auto-zoom        | ✔️                | Aún no       | Aún no        |
-| Video          | Recortar        | Aún no       | Pronto          | Aún no        |
-| Video          | Rotar      | Aún no       | Pronto          | Aún no        |
-| Audio          | Recortar        | Aún no           | Pronto          | Aún no        |
+| Imagen          | Recortar        | ✔️                | ✔️            | ✔️             |
+| Imagen          | Rotar      | ✔️                | ✔️            | ✔️             |
+| Imagen          | Voltear        | ✔️                | Aún no       | ✔️             |
+| Imagen          | Auto-zoom        | ✔️                | Aún no       | ✔️        |
+| Video          | Recortar        | Aún no       | ✔️          | Aún no        |
+| Video          | Rotar      | Aún no       | ✔️          | Aún no        |
+| Audio          | Recortar        | Aún no           |  ✔️          | Aún no        |
 
-La(o)s usuaria(o)s pueden editar una imagen yendo a **Más**>**Editar** desde la carpeta de **Imágenes** o tocando el botón **Editar** en la parte superior derecha mientras visualizas la imagen que tienes en Tella.
-- **Rotar**: Usa el botón Rotar en la parte inferior de la pantalla para rotar la imagen en sentido contrario a las agujas del reloj.
+Users can edit a picture by going to **More** > **Edit** from the **Images** folder or by tapping the **Edit** button on the top right while viewing image you have on Tella. 
+- **Rotate**:  Use the Rotate button at the bottom of the screen to rotate the image counter-clock wise. 
 - **Recortar**: Arrastra las esquinas del lienzo blanco para recortar la imagen. 
 - **Auto-zoom**: La imagen acercará o alejará automáticamente dependiendo del lienzo seleccionado para evitar perder calidad de imagen.
 - **Voltear**: Usa los botones de voltear para reflejar la imagen horizontal o verticalmente.
 
 Cuando finaliza la edición, los usuarios pueden presionar el signo de verificación naranja en la parte superior derecha de la pantalla de edición. El archivo editado se guardará como una copia del archivo original en la misma carpeta.
+
+
+Users can edit videos or audio recordings: 
+- In any folder, next to the file to be edited, by tapping on **⁝** > **Edit**.
+- While listening to an audio recording or watching a video in Tella, by tapping the **Edit** button in the top right corner. 
+
+Current editing options include:
+- **Trim**: Move the vertical orange lines to select the new start and end point of your audio or video. 
+- **Rotate**: Use the Rotate button on the top right of the screen to rotate the video counter-clock wise.
+
+Use the Play button at the bottom of the screen to listen to the audio or the Cancel button to start over. When you are done editing the file, use the orange scissors ✂️ icon in the top-right corner to save the trimmed audio or video. The edited file will be saved as a copy of the original file in the same folder.
+
 
 ## Cifrado {#encryption}
 
@@ -162,8 +189,9 @@ Tella le permite a la(o)s usuaria(o)s administrar archivos y carpetas de manera 
 En Tella, la(o)s usuaria(o)s pueden:
 
 * Almacenar cualquier archivo, incluyendo fotos 📷, videos🎥, archivos de audio 🎧 y documentos 📝.
-* Crear carpetas y subcarpetas.
-* Mover archivos a carpetas y de una carpeta a otra.
+* In the All Files folder:
+    - Crear carpetas y subcarpetas.
+    - Mover archivos a carpetas y de una carpeta a otra.
 * Exportar archivos a sus dispositivos. Una vez guardados en su dispositivo fuera de Tella, los archivos ya no están cifrados y pueden ser accedidos por cualquiera que busque en el dispositivo.
 * Importar archivos desde sus dispositivos. Los archivos se cifran automáticamente cuando son importados a Tella.
 
@@ -213,8 +241,6 @@ Los usuarios de Android pueden optar por compartir analíticas para mejorar Tell
 ## Abrir archivos en Tella {#open-files-in-tella}
 Imágenes, videos, PDF y audios pueden ser visualizados dentro de Tella. 📱📄
 
-En Tella FOSS, los PDFs deben ser exportados para ser abiertos.
-
 ## Camuflaje {#camouflage}
 
 En Tella Android, es posible camuflar Tella en dos maneras:
@@ -229,7 +255,7 @@ El nombre "Tella" y su ícono permanecen visibles en la configuración de Androi
 :::
 
 :::info
-La función de camuflaje de Calculadora no se puede habilitar si la función de Restricción de Intentos de desbloqueo está activa.
+The Calculator camouflage feature cannot be enabled if the Restrict unlock attempts feature is on.
 :::
 
 :::tip Video tutorial 🎥
@@ -254,13 +280,12 @@ Esta configuración se puede encontrar en **Configuración** > **General**.
 
 Un botón de Borrado Rápido permite a la(o)s usuaria(o)s, en solo unos pocos segundos, eliminar información sensible dentro de Tella. El borrado rápido se puede configurar en **Configuración** > **Seguridad** > **Borrado rápido**, donde la/el usuaria(o) puede elegir habilitar un botón deslizable en la pantalla de inicio para eliminar rápidamente información de Tella en situaciones de emergencia. Si se habilita, la/el usuaria(o) puede elegir exactamente qué se elimina cuando esta función es usada. Las opciones disponibles son:
 
-* Eliminar bóveda: Elimina todos los archivos almacenados en Tella 🗑️
-* Eliminar borradores y formularios enviados: Elimina los borradores y formularios enviados en todos los servidores Open Data Kit (ODK) conectados 📝
-* Eliminar configuraciones del servidor: Elimina todas las conexiones de servidor y todos los formularios o plantillas asociadas con estas 📋
+* Delete files: Deletes all files stored in Tella 🗑️ . This is the default option.
+* Delete Connections: Deletes all your connections, and all data asociated with them (including drafts, outbox and submitted reports). [Visit the For Organizations page](/for-organizations) to  discover the available server connections 📝
 * Eliminar Tella: Elimina la app y todos los datos que contiene. Esto activa un mensaje que pregunta si la/el usuaria(o) quiere desinstalar Tella por igual ❌.  
 
-:::info Eliminar Tella
-La opción Eliminar Tella puede no estar disponible en algunos teléfonos Android debido a limitaciones técnicas. Estamos trabajando para corregir este problema. Para iOS no es posible eliminar una app programáticamente.
+:::info Delete Tella
+The Delete Tella option might not be available on some Android phones due to technical limitations. We are working on a fix for this issue. For iOS it is not possible to programmatically delete an app, so the Delete Tella option is not available.
 :::
 
 ## Salida rápida {#quick-exit}
@@ -315,9 +340,13 @@ Usuaria(o)s pueden recopilar datos directamente en Tella, conservar los datos pr
 
 Actualmente los servidores que se pueden conectar a Tella son:
 
-* [Tella Web](/tella-web)
-* [Open Data Kit (ODK)](/for-organizations#open-data-kit-odk)
+* [Open Data Kit (ODK)](/odk)
 * [Uwazi](/uwazi)
+* [Tella Web](/tella-web)
+* [Google Drive](/g-drive)
+* [Nextcloud](/nextcloud)
+* [Dropbox](/dropbox)
+
 
 :::tip Video tutorial 🎥
 Aprende más sobre [Conectar a Servidores](/video-tutorials#server-connections) en nuestros video tutoriales.
