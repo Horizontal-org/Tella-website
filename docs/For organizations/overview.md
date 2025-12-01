@@ -4,6 +4,7 @@ title: Overview
 description: Learn how organizations can use Tella for research, advocacy, or accountability processes
 slug: /for-organizations
 ---
+
 import ConnectionsTable from '.././_connections-table.md';
 
 
