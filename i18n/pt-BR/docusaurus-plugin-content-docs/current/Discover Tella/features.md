@@ -280,13 +280,12 @@ Essa configuração pode ser encontrada em **Configurações** > **Geral**.
 
 Um botão de Exclusão rápida permite aos usuários, em apenas alguns segundos, excluir dados sensíveis dentro do Tella. A Exclusão rápida pode ser configurada em **Configurações** > **Segurança** > **Exclusão rápida**, onde o usuário pode escolher habilitar um botão deslizante na tela inicial para excluir rapidamente informações do Tella em situações de emergência. Se habilitado, o usuário pode escolher exatamente o que será deletado quando a funcionalidade for usada. As opções disponíveis são:
 
-* Delete files: Deletes all files stored in Tella 🗑️
-* Delete draft and submitted forms: Deletes drafts and submitted forms in all Connections. [Visit the For Organizations page](/for-organizations) to  discover the available server connections 📝
-* Delete server settings: Deletes all server connections and all the forms, templates or reports associated with them 📋
+* Delete files: Deletes all files stored in Tella 🗑️ . This is the default option.
+* Delete Connections: Deletes all your connections, and all data asociated with them (including drafts, outbox and submitted reports). [Visit the For Organizations page](/for-organizations) to  discover the available server connections 📝
 * Excluir o Tella: exclui o aplicativo e todos os dados contidos nele. Essa ação aciona uma mensagem que pergunta se o usuário também deseja desinstalar o Tella ❌.  
 
-:::info Excluir o Tella
-A opção Excluir o Tella pode não estar disponível em alguns telefones Android devido a limitações técnicas. Estamos trabalhando em uma solução para esse problema. Para o iOS não é possível excluir um aplicativo programaticamente.
+:::info Delete Tella
+The Delete Tella option might not be available on some Android phones due to technical limitations. We are working on a fix for this issue. For iOS it is not possible to programmatically delete an app, so the Delete Tella option is not available.
 :::
 
 ## Saída rápida {#quick-exit}
