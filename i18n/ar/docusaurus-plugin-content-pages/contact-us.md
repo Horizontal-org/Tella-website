@@ -3,9 +3,9 @@
     <div classname="columns">
         <div classname="column"><img classname="home-illustrations" src="img/contact.png" alt="Image with a hand clicking on some"></div>
         <div classname="column">
-            <p>هل لديك أسئلة حول Tella؟<br> 
-                هل تحتاج إلى دعم أو تدريب لنشره في مجتمعك؟<br>
-                هل لديك أفكار لتحسين التطبيق؟<br></p>
+            <p>Do you have questions about Tella? 
+                Do you need support or training to deploy it in your community?
+                Do you have ideas to improve the app?</p>
             <h2>لنتواصل</h2>
             <ul>
 <li>اكتب لنا على <a href="mailto:contact@tella-app.org">contact@tella-app.org</a>
