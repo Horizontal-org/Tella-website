@@ -1,17 +1,23 @@
 1. Árabe
-2. Bielorruso
-3. Birmano
-4. Inglés
-5. Francés
-6. Indonesio
-7. Jingpo
-8. Canarés
-9. Karen Sgaw
-10. Kurdo
-11. Malabar
-12. Persa
-13. Portugués
-14. Ruso
-15. Español (América Latina)
-16. Tamil
-17. Vietnamita
+2. Azerbaijani
+3. Bielorruso
+4. Birmano
+5. Inglés
+6. Chinese
+7. Francés
+8. Indonesio
+9. Jingpo
+10. Canarés
+11. Karen Sgaw
+12. Kurdo
+13. Malabar
+14. Persa
+15. Portugués
+16. Ruso
+17. Español (América Latina)
+18. Tamil
+19. Vietnamita
+20. Español (América Latina)
+21. Tamil
+22. Tsonga
+23. Vietnamita
