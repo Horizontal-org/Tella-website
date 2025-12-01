@@ -7,36 +7,41 @@ slug: /community-meetings
 
 # Réunions de la communauté de Tella
 
-### Quoi {#what}
-
-Chaque mois, Horizontal anime un appel communautaire avec des utilisateurs, des partenaires ou toute personne intéressée par Tella. Au cours de ces réunions, nous :
-
--   présentons les nouvelles fonctionnalités de Tella
--   partageons les feuilles de route et les développements à venir
--   répondons aux questions des utilisateurs
--   écoutons écouter les demandes relatives aux fonctionnalités afin de pouvoir les intégrer dans notre planification
--   accueilons des intervenants ou intervenantes qui parleront de leur utilisation et de leur expérience avec Tella ainsi que des enseignements qu'ils ou elles en ont tirés
-
-### Quand {#when}
-
-Les réunions communautaires ont lieu le premier mercredi de chaque mois à 15 heures GMT.
-
-
-
-### Où {#where}
-
-Nos réunions se déroulent sur Jitsi, une plateforme d'appel vidéo open-source respectueuse de la vie privée.
-
-Vous pouvez rejoindre l'appel via ce lien:[https://meet.jit.si/moderated/72928f9f16445dfc04dfbba14cb65fecd979f68cb053ddae3cc936192063471f](https://meet.jit.si/moderated/72928f9f16445dfc04dfbba14cb65fecd979f68cb053ddae3cc936192063471f)
-
-### Sécurité et confidentialité {#safety-and-privacy}
-
-:::warning Important
-Afin de garantir la sécurité de tous les participants, toute personne rejoignant la communauté Tella s'engage à respecter le [Code de conduite d'Horizontal](https://horizontal-org.slite.com/app/docs/E33mV5cWaJhd8x/Horizontal-Code-of-Conduct). Prenez le temps de vous familiariser avec ce code.
+:::important
+Unfortunately, due to the [funding challenges Horizontal is facing](https://donorbox.org/towards-sustainability), we need to pause the Tella community meetings.
+If you have any questions or need support, please [contact us directly](/contact-us).
 :::
 
-Les runions communautaires Tella sont hébergeés sur l'instance publique de Jitsi Meet. Jitsi n'exige pas d'inscription et ne collecte ni ne conserve de données sur les utilisateurs. Cependant,**le lien vers la réunion est partagé publiquement et largement**. Si cela est important pour votre sécurité, prenez des précautions pour ne pas dévoiler votre identité  (par exemple, vous pouvez utiliser un pseudonyme) et pour éviter de partager toute information sensible pendant l'appel.
+###  ~~What {#what}~~
 
-Bien qu'Horizontal puisse prendre des notes sur les conversations, les questions et les commentaires pendant les réunions communautaires, nous n'enregistrerons ni ne partagerons jamais de données personnelles identifiables sur les participants (nom ou organisation) avec qui que ce soit en dehors d'Horizontal.
+ ~~Each month, Horizontal hosts a community call with users, partners, or anyone interested in Tella. During these calls, we:~~ 
 
-Nous pouvons recueillir des informations générales sur lla réunion (nombre de participants et leur pays ou région, s'ils le souhaitent) et, pour assurer le suivi des rapports de bogues ou des demandes de fonctionnalités, prendre note du nom et des coordonnées des participants.
+-   ~~showcase Tella’s new features~~
+-   ~~share roadmaps and upcoming developments~~
+-   ~~answer any questions that users might have~~
+-   ~~listen to feedback feature requests so we can incorporate them into our planning~~
+-   ~~host guest speakers who share about their own use and experience with Tella and their learnings~~
+
+### ~~When {#when}~~
+
+~~Community calls are held on the first Wednesday of each month at 3pm GMT.~~
+
+
+
+### ~~Where {#where}~~
+
+~~Our community calls take place on Jitsi, a privacy-friendly, open-source video calling platform.~~
+
+~~You can join the call using this link: [https://meet.jit.si/moderated/72928f9f16445dfc04dfbba14cb65fecd979f68cb053ddae3cc936192063471f](https://meet.jit.si/moderated/72928f9f16445dfc04dfbba14cb65fecd979f68cb053ddae3cc936192063471f)~~
+
+### ~~Safety and privacy {#safety-and-privacy}~~
+
+:::warning Important
+~~To ensure the safety of all participants, anyone joining the Tella community calls agrees to abide by [Horizontal's Code of Conduct](https://horizontal-org.slite.com/app/docs/E33mV5cWaJhd8x/Horizontal-Code-of-Conduct). Please take some time to get familiar with it.~~
+:::
+
+~~Tella community calls are hosted on Jitsi Meet’s public instance. Jitsi does not require sign up and does not collect and retain data about users. However, <u>**the link to the meeting is shared publicly and broadly**</u>. Please take precautions to keep your identity hided if that is important for your safety (for example, you can use a pseudonym) and avoid sharing any sensitive information during the call.~~
+
+~~While Horizontal may take some notes about conversations, questions, and comments during the community calls, we will never record nor share any personally identifiable data about participants (name or organization) with anyone outside of Horizontal.~~
+
+~~We may collect general information about the call (number of participants and their country or region, when voluntarily shared) and, to follow up on bug reports or feature requests, take notes of participant name and contact information.~~
