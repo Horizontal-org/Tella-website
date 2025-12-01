@@ -1,8 +1,8 @@
-<div classname="section" id="get-in-touch">
+<div className="section" id="get-in-touch">
     <h1>Hablemos</h1>
-    <div classname="columns">
-        <div classname="column"><img classname="home-illustrations" src="img/contact.png" alt="Image with a hand clicking on some"></div>
-        <div classname="column">
+    <div className="columns">
+        <div className="column"><img className="home-illustrations" src="img/contact.png" alt="Image with a hand clicking on some"></div>
+        <div className="column">
             <p>¿Tienes preguntas sobre Tella?<br> 
                 ¿Necesitas ayuda o capacitación para implementarla en tu comunidad?<br>
                 ¿Tienes ideas para mejorar la app?<br></p>
