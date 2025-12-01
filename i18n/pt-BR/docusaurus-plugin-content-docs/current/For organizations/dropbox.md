@@ -40,7 +40,7 @@ If you need help figuring out if Dropbox is best for your use-case, [check out t
 
 In order to connect to Dropbox:
 
-* Navigate to **Settings ⚙️** > **Connections** > **+**
+* Navegue para: ** * Configurações ⚙️** > **Conexões** > **+**
 * Select "Dropbox" from the list of available server types.
 * A new page will automatically open in your phone's web browser and direct you to Dropbox.
 * Login your Dropbox account in your web browser. 
