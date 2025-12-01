@@ -1,6 +1,6 @@
 ---
 id: odk
-title: Open Data Kit (ODK - Kit de Datos Abiertos)
+title: Open Data Kit (ODK)
 description: La conexión a servidor Open Data Kit está disponible para organizaciones que buscan recopilar datos estructurados utilizando formularios.
 slug: /odk
 ---
@@ -18,7 +18,7 @@ Similarly to any other server connection (like [Tella Web](/tella-web), [Google 
 3. Permitir que usuaria(o)s respalden sus datos en un servidor remoto, para reducir el riesgo de que los datos sean descubiertos en su dispositivo móvil.
 4. Asegurar que las organizaciones puedan conservar información importante incluso en caso de confiscación o destrucción de dispositivo, y puedan organizarla para procesos de  investigación, incidencia, o rendición de cuentas.
 
-### Choosing and Installing Your ODK Server {#choosing-and-installing-your-odk-server}
+### Elige e instala tu servidor ODK{#choosing-and-installing-your-odk-server}
 
 Porque ODK es un estándar abierto, se puede utilizar Tella con cualquier herramienta que cumpla con ODK.
 
