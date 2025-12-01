@@ -119,7 +119,7 @@ This is the summary from the latest audit and the status of the vulnerabilities 
 | Require re-authentication for changing key security settings | Moderate      | Geral | Planejamento |
 | Improve webview implementation                      |  Moderate   | iOS       | Resolvido |
 | Improve GitHub practices (merging to main and tags) | Baixo         | Android, Android FOSS | Resolved (pending re-test) |
-| Increase PBKDF2 iteration counts.                   | Baixo         | Android, Android FOSS | Soon |
+| Increase PBKDF2 iteration counts.                   | Baixo         | Android, Android FOSS | Em breve |
 | Do not allow clear-text traffic in Android manifest.| Baixo         | Android, Android FOSS | Resolvido |
 | Outdated 3rd-party dependencies                     | Desconhecida         | Android, Android FOSS | Resolvido |
 
