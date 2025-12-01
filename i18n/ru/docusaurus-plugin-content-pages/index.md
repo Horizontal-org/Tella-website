@@ -5,7 +5,7 @@ import ThemedImage from '@theme/ThemedImage';
     <div classname="intro-column" id="intro-column1">
         <h1>Tella</h1>
         <h2>Задокументировать и защитить</h2>
-        <p>В ситуациях, когда интернет недоступен или когда есть риск преследований, Tella облегчает и защищает процесс фиксации нарушений прав человека и сбора информации.</p>
+        <p>In challenging environments, with limited or no internet connectivity or in the face of repression, Tella makes it easier and safer to collect, protect and hide sensitive data.</p>
         <div classname="download">
 <a href="https://play.google.com/store/apps/details?id=org.hzontal.tella" target="_blank">
                 <img classname="badge" src="img/google-play-badge.png" alt="Get Tella on Google Play"></a>
@@ -85,7 +85,7 @@ import ThemedImage from '@theme/ThemedImage';
 <li>
 <span classname="emphasis">Бесплатно навсегда</span> Tella предназначена для тех, чья безопасность находится под угрозой. Приложение бесплатно для загрузки и использования, и навсегда останется бесплатным.</li>
                 <li>
-<span classname="emphasis">Choose your language:</span> Tella is currently <a href="faq#what-languages-is-tella-available-in"> available </a> in 21 languages.</li>
+<span classname="emphasis">Choose your language:</span> Tella is currently <a href="faq#what-languages-is-tella-available-in"> available </a> in 22 languages.</li>
                 <li>
 <span classname="emphasis">Trust the code:</span> The code for Tella is open-source and <a href="open-source">publicly available</a> so that researchers, security analysts, and developers can freely audit and reuse it.</li>
             </ul>
