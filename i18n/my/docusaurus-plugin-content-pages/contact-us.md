@@ -3,9 +3,9 @@
     <div classname="columns">
         <div classname="column"><img classname="home-illustrations" src="img/contact.png" alt="Image with a hand clicking on some"></div>
         <div classname="column">
-            <p>Tella နှင့်ပတ်သက်ပြီး မေးစရာရှိပါသလား။<br> 
-                သင့်အသိုင်းအဝိုင်းတွင် အသုံးပြုနိုင်ရန် ပံ့ပိုးကူညီမှု သို့မဟုတ် သင်တန်း လိုအပ်ပါသလား။<br>
-                အက်ပ်ကို ပိုမိုကောင်းမွန်စေရန် သင့်တွင် အကြံဉာဏ်များ ရှိပါသလား။<br></p>
+            <p>Do you have questions about Tella? 
+                Do you need support or training to deploy it in your community?
+                Do you have ideas to improve the app?</p>
             <h2>ဆက်သွယ်လိုက်ပါ</h2>
             <ul>
 <li>ကျွန်ုပ်တို့ထံ <a href="mailto:contact@tella-app.org">contact@tella-app.org</a> သို့ စာရေးပါ</li>
