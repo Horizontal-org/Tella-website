@@ -1,0 +1,18 @@
+[
+    {
+        "relation":
+        [
+            "delegate_permission/common.handle_all_urls",
+            "delegate_permission/common.get_login_creds"
+        ],
+        "target":
+        {
+            "namespace": "android_app",
+            "package_name": "org.hzontal.tella",
+            "sha256_cert_fingerprints":
+            [
+                "0F:98:D1:62:B4:43:E7:1D:E1:41:A9:3A:EC:27:C6:D5:AC:AA:72:5D:BA:4C:3F:CA:97:45:72:58:C1:93:A7:29"
+            ]
+        }
+    }
+]
