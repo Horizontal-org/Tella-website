@@ -43,7 +43,6 @@ In order to connect to a Google Drive:
 * Navigate to **Settings ⚙️** > **Connections** > **+**
 * Select "Google Drive" from the list of available server types.
 * Login to your Google account using the Google login flow on the web view. 
-* For now, Google hasn't verified Tella yet, so you'll need to press the "Advanced" button and "Proceed to Tella" in order to connect.
 * Grant Tella permissions to modify your Google Drive (we need this permission to be able to upload files to your drive and create folders in your behalf).
 * Select "Personal Drive" or "Shared Drive": Shared drives are only available to organizational accounts with a Google Workspace. If shared drives are available to you, you will see a list of all the Shared Drives you have access to. Select the Shared Drive you want to submit your data to.
 * Choose a name for the folder where all your Tella submissions will be saved.

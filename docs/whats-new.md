@@ -15,21 +15,10 @@ To receive monthly updates on new features and improvements to Tella and stay up
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
+### Android: Tella 2.18.2 (222) - Released on December 9, 2025 {#android-tella-21182222---released-on-dec-2-2025}
+- Hotfix: Used least restrictive permissions for the Google Drive Connection in order to make it verifiable by Google.
+- Hotfix: Fixed the feature for exporting a single file out of the Tella encrypted vault (with or without verification information).
 
-### Android: Tella 2.18.0 (220) - Released on November 28, 2025 {#android-tella-21180220---released-on-nov-28-2025}
-- New language: Chinese.
-- Bug fixes:
-    - Made Quick Delete button accessible for right-to-left languages.
-    - Fixed file information screen layout for long file names.
-    - Improved explanations for quick delete and add a default value.
-    - Fixed quick delete so it deletes all server connections.
-    - Improved the export functionality so it works better for big files (for example: long videos).
-    - Fixed errors in layout for Camouflage screen.
-- Maintenance and technical tasks:
-    - Targeted Android 15 (API level 35) as per Play Store requirement.
-    - Started technical work to support 16 KB memory page sizes as per Play Store requirement.
-    - Refactored export flow to modern Android Storage Access Framework (SAF) picker and removed legacy storage permission.
-    - Updated connection's strings to match Google and Dropbox brand guidelines.
 
 ### iOS: Tella 1.17.0 (109) - Released on November 20, 2025 {#ios-tella-1170-109---released-on-nov-20-2025}
 - New language: Chinese.
@@ -64,6 +53,22 @@ A detailed list of features available on each platform is [available here](/feat
 
 
 ## Previous versions {#previous-versions}
+
+### Android: Tella 2.18.0 (220) - Released on November 28, 2025 {#android-tella-21180220---released-on-nov-28-2025}
+- New language: Chinese.
+- Bug fixes:
+    - Made Quick Delete button accessible for right-to-left languages.
+    - Fixed file information screen layout for long file names.
+    - Improved explanations for quick delete and add a default value.
+    - Fixed quick delete so it deletes all server connections.
+    - Improved the export functionality so it works better for big files (for example: long videos).
+    - Fixed errors in layout for Camouflage screen.
+- Maintenance and technical tasks:
+    - Targeted Android 15 (API level 35) as per Play Store requirement.
+    - Started technical work to support 16 KB memory page sizes as per Play Store requirement.
+    - Refactored export flow to modern Android Storage Access Framework (SAF) picker and removed legacy storage permission.
+    - Updated connection's strings to match Google and Dropbox brand guidelines.
+
 
 ### iOS: Tella 1.16.0 (98) - Released on Aug 4, 2025 {#ios-tella-1160-98---released-on-aug-4-2025}
 - New language: Azerbaijani.
