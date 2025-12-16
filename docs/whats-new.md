@@ -20,16 +20,9 @@ To receive monthly updates on new features and improvements to Tella and stay up
 - Hotfix: Fixed the feature for exporting a single file out of the Tella encrypted vault (with or without verification information).
 
 
-### iOS: Tella 1.17.0 (109) - Released on November 20, 2025 {#ios-tella-1170-109---released-on-nov-20-2025}
-- New language: Chinese.
-- Implemented onboarding flow for iOS.
-- Technical maintenance task to be able to support iOS 26.
-- Uwazi Connection improvements:
-    - Fixed error on for Uwazi server connection, adapting Tella to Uwazi API changes.
-    - Added support for nested attributes in the Select property.
-- Bug fixes and minor improvements:
-    - Improved explanations for quick delete and add a default value.
-    - Improved file bottom sheet by showing the full file name in the bottom sheet.
+### iOS: Tella 1.17.1 (110) - Released on December 16, 2025 {#ios-tella-1171-110---released-on-dec-16-2025}
+- Hotfix: Fix submission to Shared Drives in the Google Drive connection.
+- Hotfix: Adapt code to allow missing properties on the Uwazi Server connection, this solves the issue that prevented some users to connect to certain Uwazi servers.
 
 ### Android: Tella FOSS 2.11.0 (based on Android 2.11.0) - Released on February 25, 2025 {#android-tella-foss-2110-based-on-android-2110---released-on-february-25-2025}
 
@@ -53,6 +46,17 @@ A detailed list of features available on each platform is [available here](/feat
 
 
 ## Previous versions {#previous-versions}
+
+### iOS: Tella 1.17.0 (109) - Released on November 20, 2025 {#ios-tella-1170-109---released-on-nov-20-2025}
+- New language: Chinese.
+- Implemented onboarding flow for iOS.
+- Technical maintenance task to be able to support iOS 26.
+- Uwazi Connection improvements:
+    - Fixed error on for Uwazi server connection, adapting Tella to Uwazi API changes.
+    - Added support for nested attributes in the Select property.
+- Bug fixes and minor improvements:
+    - Improved explanations for quick delete and add a default value.
+    - Improved file bottom sheet by showing the full file name in the bottom sheet.
 
 ### Android: Tella 2.18.0 (220) - Released on November 28, 2025 {#android-tella-21180220---released-on-nov-28-2025}
 - New language: Chinese.
