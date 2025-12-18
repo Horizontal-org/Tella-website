@@ -20,8 +20,7 @@ To receive monthly updates on new features and improvements to Tella and stay up
 - Hotfix: Fixed the feature for exporting a single file out of the Tella encrypted vault (with or without verification information).
 
 
-### iOS: Tella 1.17.1 (110) - Released on December 16, 2025 {#ios-tella-1171-110---released-on-dec-16-2025}
-- Hotfix: Fix submission to Shared Drives in the Google Drive connection.
+### iOS: Tella 1.17.1 (111) - Released on December 16, 2025 {#ios-tella-1171-111---released-on-dec-16-2025}
 - Hotfix: Adapt code to allow missing properties on the Uwazi Server connection, this solves the issue that prevented some users to connect to certain Uwazi servers.
 
 ### Android: Tella FOSS 2.11.0 (based on Android 2.11.0) - Released on February 25, 2025 {#android-tella-foss-2110-based-on-android-2110---released-on-february-25-2025}
