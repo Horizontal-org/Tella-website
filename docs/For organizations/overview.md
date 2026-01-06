@@ -26,7 +26,9 @@ Currently, Tella can be connected to the following types of servers:
 These are called [Connections](/features#connecting-to-servers) in Tella.
 
 :::danger
-For the moment, the files you submit to any type of server will be saved un-encrypted. People who have permissions to see the content of the server itself will be able to see the files. Connection and submission is established though HTTPS but the file itself will need to be decrypted to be accessible outside of the Tella vault. We recommend you to read and understand the permissions structure of each of the servers to understand what alternative might be better and safer for your use-case.
+For now, any files you submit to a server are stored unencrypted on that server. This means that anyone with permission to access the server’s contents may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
+
+We strongly recommend reviewing and understanding the permission model of each server you use, in order to determine which option is safest and most appropriate for your specific use case.
 :::
 
 
