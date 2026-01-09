@@ -74,9 +74,9 @@ Sécurité de l'écran {#screen-security}
 
 
 :::danger
-For now, any files you submit to a server are stored unencrypted on that server. This means that anyone with permission to access the server’s contents may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
+For now, any files you submit to a connection are stored unencrypted on that server or drive. This means that anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
 
-We strongly recommend reviewing and understanding the permission model of each server you use, in order to determine which option is safest and most appropriate for your specific use case.
+We strongly recommend reviewing and understanding the permission model of each connection you use, in order to determine which option is safest and most appropriate for your specific use case.
 :::
 
 
