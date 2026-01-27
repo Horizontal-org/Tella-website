@@ -2,7 +2,7 @@
     <h1>Let's talk</h1>
     <div className="columns">
         <div className="column">
-            <img className="home-illustrations" src="img/contact.png" alt="Image with a hand clicking on some"></img>
+            <img className="home-illustrations" src="/img/contact.png" alt="Image with a hand clicking on some"></img>
         </div>
         <div className="column">
             <p>
