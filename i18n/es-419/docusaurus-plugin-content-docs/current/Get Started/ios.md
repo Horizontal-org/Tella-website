@@ -11,15 +11,14 @@ slug: /get-started-ios
 Sigue [este enlace](https://apps.apple.com/us/app/tella-document-protect/id1598152580) para encontrar Tella en la App Store o abre la App Store y busca "Tella document and protect".
 
 
-<div class="gifs">
-    <img src={require("@site/static/img/getting-started/ios/find-and-download.gif").default} alt="gif que muestra como descargar Tella de la App Store" title="find and download gif"/>
+<div className="gifs">
+    <img src={require('@site/static/img/getting-started/ios/find-and-download.gif').default} alt="gif that shows how to download Tella from the App Store" title="find and download gif" />
 </div>
 
 
 
 ## Crea tu método de bloqueo {#create-your-lock}
-Cuando abras Tella por primera vez, se te pedirá elegir cómo bloquearás Tella. Sin este bloqueo, no será posible abrir Tella y acceder a cualquiera de los archivos almacenados allí.
-
+La primera vez que abras Tella verás una visita guiada por las funcionalidades de la app: Cámara, Grabadora y Cifrado de archivos y carpetas. También se te pedirá elegir cómo bloquearás Tella. Sin este método de bloqueo, no es posible abrir Tella ni acceder a ninguno de los archivos almacenados en Tella.
 * Contraseña: una contraseña alfanumérica es la manera más segura de bloquear tu App.
 * PIN: una secuencia numérica de más de (6) dígitos.
 
@@ -37,16 +36,16 @@ La primera vez que uses cada función, se te pedirá conceder algunos permisos a
 * Para tomar fotos, grabar videos o grabar audio, deberás conceder permiso para acceder a la cámara y micrófono de tu teléfono.
 
 
-<div class="gifs">
-    <img src={require("@site/static/img/getting-started/ios/granting-permissions.gif").default} alt="gif that shows how to grant Tella permissions" title="concediendo permisos"/>
+<div className="gifs">
+    <img src={require('@site/static/img/getting-started/ios/granting-permissions.gif').default} alt="gif that shows how to grant Tella permissions" title="grating permission gif" />
 </div>
 
 
 
 Si no concedes estos permisos, puedes hacerlo más tarde yendo a la configuración de tu teléfono y navegando hasta **Configuración**>**Tella**>**Permitir a Tella acceso a la Cámara, micrófono y archivos.**
 
-<div class="gifs">
-    <img src={require("@site/static/img/getting-started/ios/taking-picture-permissions.gif").default} alt="gif that shows how to take a picture in Tella the first time (grant permission)" title="Tella te solicitará permisos la primera vez que abras la cámara"/>
+<div className="gifs">
+    <img src={require("@site/static/img/getting-started/ios/taking-picture-permissions.gif").default} alt="gif that shows how to take a picture in Tella the first time (grant permission)" title="Tella will ask you to grant permissions the first time you open the camera" />
 </div>
 
 
@@ -57,9 +56,9 @@ Después de conceder los permisos, estás lista(o) para empezar a recopilar docu
 **Usa la Cámara para tomar fotos o videos y la Grabadora de Audio para grabar audio.** Todos los medios capturados por Tella serán cifrados instantáneamente, lo que significa que  el archivo no será accesibles fuera de Tella. Todos los medios recopilados dentro de Tella no se mostrarán en la galería ni en los archivos de tu teléfono. No existe un límite de almacenamiento particular para Tella, el espacio disponible dependerá del espacio disponible en tu teléfono.
 
 
-<div class="gifs">
-    <img src={require("@site/static/img/getting-started/ios/picture.gif").default} alt="gif that shows how to take a picture in Tella" title="tomar una foto en Tella"/>
-    <img src={require("@site/static/img/getting-started/ios/recording.gif").default} alt="gif that shows how to record audio in Tella" title="grabar audio en Tella"/>
+<div className="gifs">
+    <img src={require("@site/static/img/getting-started/ios/picture.gif").default} alt="gif that shows how to take a picture in Tella" title="take a picture in Tella" />
+    <img src={require("@site/static/img/getting-started/ios/recording.gif").default} alt="gif that shows how to record audio in Tella" title="record audio in Tella" />
 </div> 
 
 
@@ -68,24 +67,24 @@ Después de conceder los permisos, estás lista(o) para empezar a recopilar docu
 
 **Importa tus archivos a Tella.** Ve a cualquier carpeta dentro de Tella y toca el Botón **+** > **Importar desde el dispositivo**. Elige el archivo que te gustaría mantener dentro de Tella y una copia del archivo se almacenará cifrada y oculta en Tella. Se te pedirá elegir si quieres eliminar o mantener el archivo original de tu dispositivo. Tella estará desbloqueada mientras eliges tus archivos por un máximo de tres (3) minutos.
 
-<div class="gifs">
-    <img src={require("@site/static/img/getting-started/ios/import-files.gif").default} alt="gif that shows how to import files in Tella" title="importar archivos en Tella"/>
+<div className="gifs">
+    <img src={require("@site/static/img/getting-started/ios/import-files.gif").default} alt="gif that shows how to import files in Tella" title="import files in Tella" />
 </div> 
 
 
 **Crea carpetas.** Para hacer más fácil encontrar tus archivos, puedes organizar archivos en carpetas. Ve a **Todos los archivos** > **+** > **Crear una nueva carpeta** y escribe un nombre descriptivo para la carpeta. Luego utiliza el botón de Selección múltiple en la parte superior de la pantalla, elige los archivos que quieres mover a la nueva carpeta, luego haz clic en el botón de los tres (3) puntos y Mover a carpeta diferente, navega por la estructura de archivos para encontrar la carpeta y luego presiona Mover aquí.
 
 
-<div class="gifs">
-    <img src={require("@site/static/img/getting-started/ios/folders.gif").default} alt="gif that shows how to organize evidence in folders in Tella" title="carpetas en Tella"/>
+<div className="gifs">
+    <img src={require("@site/static/img/getting-started/ios/folders.gif").default} alt="gif that shows how to organize evidence in folders in Tella" title="folders in Tella" />
 </div> 
 
 
 **Renombra archivos:** Otra manera de mantener tus datos organizados es renombrando archivos para que sean más descriptivos. Por defecto los archivos reciben un nombre autogenerado. Puedes cambiarlo haciendo clic en los **tres (3) puntos** que están junto a cada nombre de archivo y luego presiona **Renombrar**.
 
 
-<div class="gifs">
-    <img src={require("@site/static/img/getting-started/ios/rename.gif").default} alt="gif that shows how to rename files in Tella" title="renombrar archivos en Tella"/>
+<div className="gifs">
+    <img src={require("@site/static/img/getting-started/ios/rename.gif").default} alt="gif that shows how to rename files in Tella" title="rename files in Tella" />
 </div> 
 
 
@@ -94,8 +93,8 @@ Para compartir información utilizando Tella puedes usar el botón **Compartir**
 
 Ten en cuenta que Tella compartirá los archivos sin cifrar, por lo que asegúrate de utilizar mensajes temporales (por ejemplo en WhatsApp o Signal) o de eliminar los mensajes después que la otra persona los reciba.
 
-<div class="gifs">
-    <img src={require("@site/static/img/getting-started/ios/share.gif").default} alt="gif that shows how share information in Tella" title="compartir información en Tella"/>
+<div className="gifs">
+    <img src={require("@site/static/img/getting-started/ios/share.gif").default} alt="gif that shows how share information in Tella" title="share information in Tella" />
 </div> 
 
 
@@ -118,13 +117,13 @@ Lee más sobre Tella Web [aquí](/tella-web) o mira un [video tutorial](/video-t
 
 Escribimos documentación sobre cómo conectar a un servidor Uwazi y te recomendamos que leas [esta página](/uwazi) para empezar.
 
-#### Nextcloud y Google Drive {#nextcloud-and-google-drive}
-Los usuarios también se pueden conectar a sus cuentas organizacionales o personales de Google o Nextcloud para enviar informes (audio, fotos, videos y texto) directamente desde Tella. No necesitan las apps de Google Drive o Nextcloud en sus teléfonos y no necesitarán utilizar apps de terceros.
+#### Nextcloud, Dropbox and Google Drive {#nextcloud-dropbox-and-google-drive}
+Users can also connect to their Google, Dropbox or Nextcloud organizational or personal accounts in order to submit reports (audio, photos, videos and text) directly from Tella. They won't need the Dropbox, Google Drive or Nextcloud apps on their phones and won't need to use any third party apps.
 
 Leer más:
 - [Conexión de Google Drive](/g-drive).
 - [Conexión de Nextcloud](/nextcloud).
-
+- [Dropbox Connection](/dropbox).
 
 
 
