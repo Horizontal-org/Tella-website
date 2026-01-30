@@ -20,16 +20,14 @@ To receive monthly updates on new features and improvements to Tella and stay up
 - Hotfix: Fixed the feature for exporting a single file out of the Tella encrypted vault (with or without verification information).
 
 
-### iOS: Tella 1.18.0 (113) - Released on January 29, 2025 {#ios-tella-1180-113---released-on-jan-29-2025}
+### iOS: Tella 1.18.0 (114) - Released on January 30, 2025 {#ios-tella-1180-114---released-on-jan-30-2025}
 - Completed onboarding tutorial for iOS and added lock-protection guidance for new users.
 - Refactored permissions, prioritizing user's privacy:
     - Sunsetting submissions to a Shared Drive folder for the Google Drive Connection: the amount of permissions that users needed to grant to Google to allow Tella to submit directly to a Shared Drive was too broad, and unacceptable for the Tella users' context.
-    - Used more granular permissions on the Google Drive and Dropbox Connections: now Tella only has permissions to view and edit files submitted using Tella (and anything else).
-
+    - Used more granular permissions on the Google Drive Connection: now Tella only has permissions to view and edit files submitted using Tella (and anything else).
 - Bug fixes and minor improvements:
     - Solved an issue that prevented the Quick Delete button to be triggered in Right-To-Left languages.
     - Solved image editing view for iOS 26+.
-    - Refactored permissions Removed unnecessary permission for the Dropbox connection.
 
 ### Android: Tella FOSS 2.11.0 (based on Android 2.11.0) - Released on February 25, 2025 {#android-tella-foss-2110-based-on-android-2110---released-on-february-25-2025}
 
