@@ -26,7 +26,9 @@ Currently, Tella can be connected to the following types of servers:
 These are called [Connections](/features#connecting-to-servers) in Tella.
 
 :::danger
-For the moment, the submission to any type of server it is **not** encrypted. People who have access to the server itself are able to see the files.
+For now, any files you submit to a connection are stored unencrypted on that server or drive. This means that anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
+
+We strongly recommend reviewing and understanding the permission model of each connection you use, in order to determine which option is safest and most appropriate for your specific use case.
 :::
 
 
@@ -106,8 +108,7 @@ Learn more about Open Data Kit [here](/odk).
 
 ### Google Drive {#g-drive}
 
-Users can sign-in directly to their Google account from within Tella and upload files to a folder in their Drive account. If the user is part of an organization that uses Google Workspace, they can also submit the files directly to a Shared Drive they have access to. Each "report" uploaded will create a new folder in Drive.
-
+Users can sign-in directly to their Google account from within Tella and upload files to a folder in their Drive account. Each "report" uploaded will create a new folder in Drive.
 
 As for all Connections in Tella, users can use most of the Google Drive connection offline through the Draft, Outbox and Submit Later tabs. 
 

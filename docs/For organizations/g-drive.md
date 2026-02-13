@@ -26,7 +26,7 @@ Submissions to Google Drive take the form of "reports" which include a title, a 
 ## When to Use Google Drive {#when-to-use-google-drive}
 
 The Google Drive connection may be particularly well-suited for:
-- Organizations that already use Google Drive or Google Workspace's [Shared Drive functionality](https://support.google.com/a/users/answer/7212025?hl=en).
+- Organizations that already use Google Drive.
 - Users who already have a Google account.
 - Projects where the privacy needs do not preclude the use of a tool like Google Drive.
 - Organizations that cannot or don't want to self-host an app (like [Tella Web server](/tella-web)) on a server.
@@ -44,7 +44,6 @@ In order to connect to a Google Drive:
 * Select "Google Drive" from the list of available server types.
 * Login to your Google account using the Google login flow on the web view. 
 * Grant Tella permissions to modify your Google Drive (we need this permission to be able to upload files to your drive and create folders in your behalf).
-* Select "Personal Drive" or "Shared Drive": Shared drives are only available to organizational accounts with a Google Workspace. If shared drives are available to you, you will see a list of all the Shared Drives you have access to. Select the Shared Drive you want to submit your data to.
 * Choose a name for the folder where all your Tella submissions will be saved.
 
 
