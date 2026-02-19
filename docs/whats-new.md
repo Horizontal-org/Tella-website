@@ -19,8 +19,9 @@ To receive monthly updates on new features and improvements to Tella and stay up
 - Fixed bug on Dropbox connection: some users were getting a "This app is not valid" error while connecting.
 - Added added lock-protection guidance for new users (in on-boarding) and while changing lock.
 - Added support for any file manager, so that users can import and export files from Tella if they choose not to use Google Files.
-- Sunsetting submissions to a Shared Drive folder for the Google Drive Connection: the amount of permissions that users needed to grant to Google to allow Tella to submit directly to a Shared Drive was too broad, and unacceptable for the Tella users' context.
-- Used more granular permissions on the Google Drive Connection: now Tella only has permissions to view and edit files submitted using Tella (and anything else).
+- Refactored permissions, prioritizing user's privacy:
+    - Sunsetting submissions to a Shared Drive folder for the Google Drive Connection: the amount of permissions that users needed to grant to Google to allow Tella to submit directly to a Shared Drive was too broad, and unacceptable for the Tella users' context.
+    - Used more granular permissions on the Google Drive Connection: now Tella only has permissions to view and edit files submitted using Tella (and anything else).
 - Maintenance and technical tasks:
     - Finalized technical work to support 16 KB memory page sizes as per Play Store requirement.
     - Bugfixing and finalized pending work for edge-to-edge UI enforcement as per Play Store requirement.
