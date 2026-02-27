@@ -30,7 +30,40 @@ Tella Android, hiện có trên Cửa hàng Google Play, bao gồm hai trình th
 
 ### Tella iOS {#tella-ios}
 
-[Tella cho iOS ](https://apps.apple.com/us/app/tella-document-protect/id1598152580) không chứa bất kỳ trình theo dõi nào. Do chính sách ứng dụng iOS nghiêm ngặt của Apple, Tella dành cho iOS hiện không có sẵn trên các cửa hàng ứng dụng thay thế hoặc để cài đặt thủ công.
+[Tella for iOS](https://apps.apple.com/us/app/tella-document-protect/id1598152580) does not include any trackers. 
+
+As a result of Apple’s strict iOS app policies, Tella for iOS is currently not available on alternative app stores or for manual install.
+
+## Analytics {#analytics}
+
+In Tella Android, Tella FOSS and [Tella Web](/tella-web), users can choose to share analytics to improve Tella. This data helps us understand how people use Tella and which features are important to them. ***Analytics data is only collected if users opt-in in the app's settings***
+
+We use [Divvi Up](https://divviup.org/), a privacy-respecting telemetry service. Divvi Up is implemented by the [Internet Security Research Group (ISRG)](https://www.abetterinternet.org/), a nonprofit organization that also maintains the [Let’s Encrypt](https://letsencrypt.org/) project. 
+
+Here are some information about our privacy-preserving analytics approach:
+
+1. **All data is anonymous and aggregated**: the Divvi Up library splits the data into two anonymized and encrypted shares and uploads each share to different data share processors (one hosted by ISRG and one hosted by us) that do not share data with each other. This way, only partial information about the original data is revealed to either processor.
+2. **Even if we wanted to, we couldn't get the whole data**: It's not possible to construct the whole data with only one share. Each processor aggregates its data shares into a partial sum. The partial sums can then be combined into a final aggregation, permitting useful statistics over the whole body of data while revealing minimal information about individual participants. Extensive technical documentation about how Divvi Up works can be found [here](https://docs.divviup.org/).
+3. **We collect as little data as possible**: Even though all data is anonymized, we always minimize the amount of data we collect. As of the latest versions of Tella, we only collect data about the following events (and nothing more):
+
+    **Tella Android and Tella FOSS**
+    - Number of times Tella is successfully unlocked.
+    - Number of media files recorded (videos/photos taken and audio recordings captured).
+    - Number of files imported from the device's gallery or file system into Tella.
+    - Number of security features activated (number of times that camouflage is enabled, number of times that the quick delete action is triggered).
+    - Number of new installations.
+    - Number of reports uploaded to any connection (Tella Web, Uwazi, ODK, Nexcloud, Google Drive, Dropbox)
+    - Time spend in Tella. 
+
+
+    **Tella Web**
+   The data below is only collected from Tella Web instances that have opted-in to share privacy-preserving analytics with the Tella team.
+    - Number of visits (triggered every time someone enters any Tella Web instance).
+    - Number of file uploads (triggered every time someone uploads a file to any Tella Web instance).
+    - Number of Report uploads (triggers every time someone uploads a report to any Tella Web instance).
+
+
+   For more information about the metrics we add to our apps, check out our [release notes](/releases).
 
 
 ## Tính năng bảo mật {#security-features}
@@ -61,7 +94,7 @@ Không có ứng dụng nào hoàn toàn "bảo mật" 100%. Bảo mật phụ t
 
 
 * Ngụy trang:
-    * Trên Android, khi Tella được ngụy trang bằng một trong hai [phương pháp ngụy trang có sẵn], ứng dụng vẫn có thể bị phát hiện trong Cài đặt Android. Điều này có nghĩa là khi ai đó điều hướng đến cài đặt Android > Ứng dụng sẽ có thể thấy rằng có một ứng dụng được cài đặt trên thiết bị có tên là “Tella”. Họ cũng có thể thấy kích thước của ứng dụng. Vì vậy, nếu người dùng lưu trữ các tệp rất lớn, như video, ứng dụng có thể thu hút sự chú ý.
+    * On Android, when Tella is camouflaged using one of the two [camouflaging methods available](/features#camouflage), the app can still be detected in the Android Settings. This means that someone who navigates to the Android settings > Apps will be able to see that there is an app installed on the device that is called “Tella”. They will also be able to see the size of the app. So if the user stores very large files, like videos, the app may raise attention.
 * Quản lý tệp tin:
     * Các tệp được xuất ra khỏi Tella vào hệ thống tệp của thiết bị sẽ không còn được mã hóa. Điều này có nghĩa là bất kỳ ai có quyền truy cập vào thiết bị và duyệt hệ thống tệp hoặc thư viện ảnh đều có thể tìm thấy các tệp đó.
     * Các tệp được chia sẻ qua các ứng dụng bên thứ ba có thể hiển thị với các ứng dụng đó và được lưu không mã hóa trên hệ thống tệp của thiết bị, và ai đó tìm kiếm trong các ứng dụng này có thể tìm thấy các tệp đó. Ví dụ: một bức ảnh được lưu trữ bên trong Tella và chia sẻ trên WhatsApp sẽ hiển thị trong WhatsApp, và cũng sẽ hiển thị trong hệ thống tệp, nơi lưu trữ ảnh WhatsApp. Điều này xảy ra vì để chia sẻ với các ứng dụng bên thứ ba, tệp cần phải được lưu trên hệ thống tệp của điện thoại, hệ thống này không được mã hóa. Đây là lý do chúng tôi khuyến nghị xóa thủ công tệp khỏi hệ thống tệp của thiết bị sau khi chia sẻ.
@@ -70,13 +103,31 @@ Không có ứng dụng nào hoàn toàn "bảo mật" 100%. Bảo mật phụ t
 
 ## Kiểm tra bảo mật {#security-audits}
 
-Chúng tôi thường xuyên yêu cầu các đơn vị bảo mật độc lập kiểm tra mã nguồn của mình để đảm bảo nó mạnh mẽ và an toàn. Bạn có thể xem toàn bộ các báo cáo của những lần kiểm tra này [trên trang này](https://drive.google.com/file/d/11mPB2KZLHb6blmNuk_qyXYcn4BSVYNFT/view?usp=sharing). Đây là tóm tắt từ cuộc kiểm tra gần nhất và tình trạng triển khai hiện tại:
+We regularly ask independent security firms to audit our code to ensure it is robust and secure.
+
+| Ngày | Audited by | Platforms audited  | Liên kết      |
+| -----|----------|----|-----------|
+| August 2024 | Radically Open Security |  Android, iOS, Android FOSS|[View pen-testing results](</assets/2024.08.30-Penetration-Test-Report-Horizontal.pdf>)|
+| May 2024 | Subgraph Technologies, Inc. |  Android, iOS, Tella Web|[View updated report confirming fixes has been implemented](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
+| May 2023 | Subgraph Technologies, Inc. | Android, iOS, Tella Web |[View security audit](</assets/2023.05 - Tella security audit - Final report.pdf>)|
 
 
-| Tiêu đề                                               | Mức độ nghiêm trọng    | Trạng thái      |
-|-----------------------------------------------------|-------------|-------------|
-| Không Giới hạn Số lần Mở khóa                        | Trung bình      | Đã giải quyết |
-| Android Cipher Stream I/O Key PBKDF2 Iterations     | Thấp         | Đã giải quyết    |
-| Dữ liệu Âm thanh Cleartext của Tella iOS có thể Tồn tại Lâu hơn  | Thấp         | Đã giải quyết    |
-| Phần phụ thuộc Retrofit2 lỗi thời của Tella Android         | Thấp         | Đã giải quyết    |
-| Thư viện phụ thuộc đã lỗi thời của Tella Android: Butterknife    | Thông tin| Đang xử lý |
+This is the summary from the latest audit and the status of the vulnerabilities identified:
+
+| Tiêu đề                                               | Mức độ nghiêm trọng    | Nền | Trạng thái      |
+|-----------------------------------------------------|-------------|-------------|-------------|
+| Require re-authentication for changing key security settings | Moderate      | Tổng quát | Planning |
+| Improve webview implementation                      |  Moderate   | iOS       | Đã giải quyết |
+| Improve GitHub practices (merging to main and tags) | Thấp         | Android, Android FOSS | Resolved (pending re-test) |
+| Increase PBKDF2 iteration counts.                   | Thấp         | Android, Android FOSS | Xóa nhanh {#quick-delete} |
+| Do not allow clear-text traffic in Android manifest.| Thấp         | Android, Android FOSS | Đã giải quyết |
+| Outdated 3rd-party dependencies                     | Không rõ         | Android, Android FOSS | Đã giải quyết |
+
+
+
+
+
+
+
+
+

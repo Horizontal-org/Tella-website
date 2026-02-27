@@ -30,80 +30,98 @@ Uwazi cũng cho phép các quản lý dự án dễ dàng tổ chức, phân tí
 Uwazi không có ứng dụng di động chính thức, vì vậy bằng cách tích hợp Uwazi và Tella, bạn có thể tận dụng khả năng mã hóa và làm việc ngoại tuyến của Tella, và tận dụng toàn bộ khả năng của Uwazi để tổ chức, tìm kiếm, tải xuống, trực quan hóa và công bố thông tin.
 
 Bạn có thể tìm hiểu thêm về Uwazi trên [Tài liệu chính thức của Uwazi](https://uwazi.readthedocs.io/en/latest/). HURIDOCS là một đối tác thân thiết của Horizontal, vì vậy nếu bạn có thắc mắc về Uwazi hoặc muốn chúng tôi kết nối bạn với nhóm HURIDOCS, [liên hệ với chúng tôi](contact-us).
-
-## Cài đặt Uwazi trên máy chủ {#install-uwazi-on-a-server}
-
-Đội ngũ HURIDOCS đã tạo ra một hướng dẫn quản trị viên toàn diện với các hướng dẫn từng bước để cài đặt Uwazi trên máy chủ của bạn, cấu hình sao lưu và thiết lập các tính năng nâng cao. Chúng tôi khuyến nghị bạn chia sẻ [hướng dẫn này](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html) với quản trị viên hệ thống của bạn.
-
-## Mô hình hóa dữ liệu của bạn {#model-your-data}
-
-Một bộ sưu tập Uwazi bao gồm các Thực thể. Mỗi thực thể có các Thuộc tính là các ô thông tin mà người dùng Tella sẽ điền vào để thu thập dữ liệu. Các Thực thể có thể chứa Tài liệu Chính và/hoặc Tệp Hỗ trợ và một số thuộc tính được định nghĩa bởi các quản trị viên trên máy chủ Uwazi khi họ tạo Mẫu. Một Mẫu là một biểu mẫu trống có thể được điền nhiều lần khi cần; khi một Mẫu được điền, nó trở thành một Thực thể.
-
-[Bạn có thể đọc tại đây](https://uwazi.readthedocs.io/en/latest/admin-docs/building-info-architecture.html#understanding-properties) về các thuộc tính có sẵn trên máy chủ Uwazi cũng như cách lập mô hình dữ liệu và tạo mẫu của bạn. Hiện tại, chúng tôi chỉ hỗ trợ các thuộc tính và chức năng được người dùng Uwazi đánh dấu là ưu tiên cao. Nếu bạn cần thuộc tính khác, [liên hệ với chúng tôi](/contact-us).
-
-:::info
+- Cài đặt Uwazi trên máy chủ {#install-uwazi-on-a-server}
+- Đội ngũ HURIDOCS đã tạo ra một hướng dẫn quản trị viên toàn diện với các hướng dẫn từng bước để cài đặt Uwazi trên máy chủ của bạn, cấu hình sao lưu và thiết lập các tính năng nâng cao. Chúng tôi khuyến nghị bạn chia sẻ [hướng dẫn này](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html) với quản trị viên hệ thống của bạn.
+- Mô hình hóa dữ liệu của bạn {#model-your-data}
+- Một bộ sưu tập Uwazi bao gồm các Thực thể. Mỗi thực thể có các Thuộc tính là các ô thông tin mà người dùng Tella sẽ điền vào để thu thập dữ liệu. Các Thực thể có thể chứa Tài liệu Chính và/hoặc Tệp Hỗ trợ và một số thuộc tính được định nghĩa bởi các quản trị viên trên máy chủ Uwazi khi họ tạo Mẫu. Một Mẫu là một biểu mẫu trống có thể được điền nhiều lần khi cần; khi một Mẫu được điền, nó trở thành một Thực thể.
+- [Bạn có thể đọc tại đây](https://uwazi.readthedocs.io/en/latest/admin-docs/building-info-architecture.html#understanding-properties) về các thuộc tính có sẵn trên máy chủ Uwazi cũng như cách lập mô hình dữ liệu và tạo mẫu của bạn. Hiện tại, chúng tôi chỉ hỗ trợ các thuộc tính và chức năng được người dùng Uwazi đánh dấu là ưu tiên cao. Nếu bạn cần thuộc tính khác, [liên hệ với chúng tôi](/contact-us).
+- :::info
 Nếu người dùng Tella tải xuống mẫu có các thuộc tính không được hỗ trợ trong Tella thì các thuộc tính đó sẽ không được hiển thị trong ứng dụng. Tuy nhiên, người dùng vẫn có thể gửi các thực thể và quản trị viên sẽ có thể truy cập vào các thực thể này, bao gồm tất cả các thuộc tính đã được điền mà không gặp bất kỳ sự cố nào.
 :::
+- Các thuộc tính có sẵn {#available-properties}
+- **Thuộc tính hoặc Tính năng**
 
-### Các thuộc tính có sẵn {#available-properties}
+**Tella Android**
 
-| **Thuộc tính hoặc Tính năng** | **Tella Android**| **Tella iOS** | **Tella Android FOSS** |
+**Tella iOS**
+
+## **Tella Android FOSS**
+
+
+Tài liệu chính và tài liệu hỗ trợ
+
+1. ✔️
+2. ✔️
+
+## ✔️
+
+Văn bản Không định dạng
+
+✔️
+
+✔️
+
+### ✔️
+
+| Số | ✔️| ✔️ | ✔️ |
 |------|------|-----|-----| 
-| Tài liệu chính và tài liệu hỗ trợ | ✔️ | ✔️ | ✔️ |
-| Văn bản Không định dạng | ✔️ | ✔️ | ✔️ |
-| Số | ✔️ | ✔️ | ✔️ |
-| Lựa chọn Đơn  | ✔️ | ✔️ | ✔️ | 
-| Lựa chọn nhiều  | ✔️ | Không | ✔️ | 
+| Lựa chọn Đơn | ✔️ | ✔️ | ✔️ |
+| Lựa chọn nhiều | ✔️ | Không | ✔️ |
 | Mối quan hệ | Không | Không | Không |
-| Chọn Một ngày  | ✔️ | ✔️ | ✔️ |
-| Chọn Nhiều Ngày | ✔️ | Không | ✔️ |
-| Liên kết ngoài | ✔️ | Không | ✔️ |
+| Chọn Một ngày  | ✔️ | ✔️ | ✔️ | 
+| Chọn Nhiều Ngày  | ✔️ | Không | ✔️ | 
+| Liên kết ngoài | ✔️ | Không | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: |
 | Văn bản Đa định dạng | ✔️ | ✔️ | ✔️ |
 | Phạm vi Ngày đơn và Nhiều ngày | ✔️ | Không | ✔️ |
-| Đính kèm Phương tiện (Hình ảnh, Video, hoặc Âm thanh) | ✔️| ✔️ | ✔️ |
+| Đính kèm Phương tiện (Hình ảnh, Video, hoặc Âm thanh) | ✔️ | ✔️ | ✔️ |
 | Định vị địa lý | ✔️ | Không | ✔️ |
-| ID Đã được tạo   | ✔️ | Không | ✔️ |
-
-
-## Chuẩn bị Người Dùng Tại Hiện Trường để Bắt Đầu Nộp Dữ Liệu {#get-people-on-the-ground-ready-to-start-submitting-data}
-
-### Kết nối với Máy chủ {#connect-to-the-server}
-
-Để kết nối đến máy chủ Uwazi:
-
-* Đến **Cài đặt ⚙️** > **Máy chủ** > **+**
-* Chọn "Uwazi" từ danh sách các loại máy chủ có sẵn.
-* Nhập URL máy chủ Uwazi của tổ chức (được tạo và cung cấp bởi quản trị viên).
-* Chọn giữa:
-    *  **Đăng nhập:**  nếu quản trị viên đã cung cấp tên người dùng và mật khẩu.
-    *  **Truy cập công khai:** nếu máy chủ được cấu hình để chấp nhận các bài gửi ẩn danh.
-* Nếu máy chủ yêu cầu xác thực hai yếu tố, hãy nhập mã dùng một lần.
-* Chọn **Ngôn ngữ** mà bạn muốn hiển thị các mẫu biểu.
-
-:::info
+| ID Đã được tạo | ✔️ | Không | ✔️ |
+| Chuẩn bị Người Dùng Tại Hiện Trường để Bắt Đầu Nộp Dữ Liệu {#get-people-on-the-ground-ready-to-start-submitting-data} | Kết nối với Máy chủ {#connect-to-the-server}| Để kết nối đến máy chủ Uwazi: | Đến **Cài đặt ⚙️** > **Máy chủ** > **+** |
+| Chọn "Uwazi" từ danh sách các loại máy chủ có sẵn. | Nhập URL máy chủ Uwazi của tổ chức (được tạo và cung cấp bởi quản trị viên). | Chọn giữa: | **Đăng nhập:**  nếu quản trị viên đã cung cấp tên người dùng và mật khẩu. |
+| **Truy cập công khai:** nếu máy chủ được cấu hình để chấp nhận các bài gửi ẩn danh.  | Nếu máy chủ yêu cầu xác thực hai yếu tố, hãy nhập mã dùng một lần. | Chọn **Ngôn ngữ** mà bạn muốn hiển thị các mẫu biểu. | :::info
 Bạn có thể xem [video hướng dẫn này](/video-tutorials#uwazi) về cách kết nối một máy chủ Uwazi từ Tella.
-:::
+::: |
 
-### Gửi Thông Tin Của Bạn {#send-your-information}
 
-Khi bạn kết nối thành công với một phiên bản Uwazi, bạn sẽ thấy một thẻ mới với nhãn "Uwazi" trong phần **Kết nối** trên màn hình chính của Tella.
+## Gửi Thông Tin Của Bạn {#send-your-information}
+
+### Khi bạn kết nối thành công với một phiên bản Uwazi, bạn sẽ thấy một thẻ mới với nhãn "Uwazi" trong phần **Kết nối** trên màn hình chính của Tella.
 
 Để tải xuống một Biểu mẫu, hãy nhấn vào nút **+** ở phía dưới màn hình. Bạn sẽ thấy danh sách các mẫu biểu có sẵn cho bạn trên tất cả các phiên bản Uwazi mà bạn đã kết nối. Nhấn vào nút **Tải xuống** để tải xuống các mẫu hoặc nút **Làm mới** để kiểm tra xem có cập nhật nào cho các mẫu biểu trên máy chủ hay không.
 
-Sau đó quay lại màn hình chính của Uwazi và nhấn vào mẫu bạn muốn sử dụng để tạo một thực thể.
+* Sau đó quay lại màn hình chính của Uwazi và nhấn vào mẫu bạn muốn sử dụng để tạo một thực thể.
+* Các Phương Thức Nộp Dữ Liệu Khác {#data-submission-alternatives}
+* **Tính năng**
+* **Chi tiết**
+    *  **Tella Android**
+    *  **Tella iOS**
+* Nộp
+* Gửi biểu mẫu đã điền đến máy chủ đã kết nối.
+
+Đồng ý
+
+### Đồng ý
+
+Lưu dưới dạng bản nháp
+
+Lưu biểu mẫu chưa hoàn thành.
+
+Đồng ý
 
 
-#### Các Phương Thức Nộp Dữ Liệu Khác {#data-submission-alternatives}
+#### Không
 
-| **Tính năng** | **Chi tiết**| **Tella Android** | **Tella iOS** | 
+| Nộp sau | Đánh dấu biểu mẫu là đã sẵn sàng và gửi nó tới tab Hộp thư đi| Đồng ý | Không | 
 |------|------|------|------|
-| Nộp | Gửi biểu mẫu đã điền đến máy chủ đã kết nối. | Đồng ý | Đồng ý |
-| Lưu dưới dạng bản nháp | Lưu biểu mẫu chưa hoàn thành.  | Đồng ý | Không |
-| Nộp sau | Đánh dấu biểu mẫu là đã sẵn sàng và gửi nó tới tab Hộp thư đi  | Đồng ý | Không |
-| Tap Bản nháp | Một tab chứa tất cả các bản nháp.  Bản nháp có thể được chỉnh sửa hoặc xóa.  | Đồng ý | Không |
+| Tap Bản nháp | Một tab chứa tất cả các bản nháp.  Bản nháp có thể được chỉnh sửa hoặc xóa. | Đồng ý | Không |
 | Tap Hộp thư đi | Một tab chứa các biểu mẫu sẵn sàng để nộp.  Các biểu mẫu trên tab hộp thư đi có thể được chỉnh sửa hoặc xóa.  | Đồng ý | Không |
 | Tap Đã gửi | Một tab chứa danh sách tất cả các biểu mẫu đã được gửi thành công đến máy chủ. Các biểu mẫu đã nộp có thể được xóa.  | Đồng ý | Không |
 | Tạm dừng/Tiếp tục gửi | Người dùng có thể bấm tạm dừng và tiếp tục gửi khi sẵn sàng.  | Đồng ý | Không |
 | Tự động tạm dừng gửi khi ngoại tuyến | Các bài nộp sẽ được chuyển vào tab Hộp Thư Đi nếu quá trình gửi thất bại do vấn đề kết nối.  | Đồng ý | Không |
+| Tap Đã gửi | Một tab chứa danh sách tất cả các biểu mẫu đã được gửi thành công đến máy chủ. Các biểu mẫu đã nộp có thể được xóa.  | Đồng ý | Đồng ý |
+| Tạm dừng/Tiếp tục gửi | Người dùng có thể bấm tạm dừng và tiếp tục gửi khi sẵn sàng.  | Đồng ý | Không |
+| Tự động tạm dừng gửi khi ngoại tuyến | Các bài nộp sẽ được chuyển vào tab Hộp Thư Đi nếu quá trình gửi thất bại do vấn đề kết nối.  | Đồng ý | Đồng ý |
 
 
