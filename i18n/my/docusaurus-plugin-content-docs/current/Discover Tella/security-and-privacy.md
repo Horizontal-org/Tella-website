@@ -1,6 +1,6 @@
 ---
 id: security-and-privacy
-title: လုံခြုံရေးနှင့် ကိုယ်ရေးလုံခြုံမှု
+title: Security and privacy
 description: Tella လုံခြုံရေးနှင့် ကိုယ်ရေးလုံခြုံမှုအကြောင်း အသေးစိတ်။
 slug: /security-and-privacy
 ---
@@ -36,7 +36,7 @@ Apple ၏ တင်းကျပ်သော iOS မူဝါဒများက�
 
 ## ခွဲခြမ်းစိတ်ဖြာချက်များ {#analytics}
 
-Tella Android နှင့် [Tella ဝဘ်](/tella-web) တွင် အသုံးပြုသူများသည် Tella တိုးတက်စေရန် ခွဲခြမ်းစိိတ်ဖြာချက်များကို မျှဝေဖို့ ရွေးချယ်နိုင်ပါသည်။ ဤဒေတာသည် ကျွနု်ပ်တို့အား လူအများက Tella ကို မည်သို့ အသုံးပြုကြောင်းနှင့် မည်သည့် အင်္ဂါရပ်များက ၎င်းတို့အတွက် အရေးကြီးကြောင်း နားလည်ရန် အထောက်အကူပြုပါသည်။ ***ခွဲခြမ်းစိတ်ဖြာချက် ဒေတာကို အသုံးပြုသူမားက အက်ပ်၏ ဆက်တင်များတွင် ရွေးချယ်ထားမှသာ စုစည်းရယူပါသည်***
+In Tella Android, Tella FOSS and [Tella Web](/tella-web), users can choose to share analytics to improve Tella. This data helps us understand how people use Tella and which features are important to them. ***Analytics data is only collected if users opt-in in the app's settings***
 
 ကျွနု်ပ်တို့သည် [Divvi Up](https://divviup.org/) ကိုယ်ရေးလုံခြုံမှုကို အလေးထားသော တယ်လီမက်ထရီ ဝန်ဆောင်မှုကို အသုံးပြုသည်။ Divvi Up ကို [အင်တာနက် လုံခြုံရေး သုတေသန အဖွဲ့အစည်း (ISRG)](https://www.abetterinternet.org/) က အကောင်အထည်ဖော်ဆောင်ရွက်ပြီး ၎င်းသည် အကျိုးအမြတ်အတွက် မရည်ရွယ်သော အဖွဲ့အစည်းတစ်ခု ဖြစ်ကာ [Let’s Encrypt](https://letsencrypt.org/) ပရောဂျက်ကိုလည်း ထိန်းသိမ်းပါသည်။
 
@@ -46,13 +46,21 @@ Tella Android နှင့် [Tella ဝဘ်](/tella-web) တွင် အသ�
 2. **ကျွနု်ပ်တို့ လိုချင်သည့်တိုင်အောင် ကျွနု်ပ်တို့သည် ဒေတာအကုန်လုံးကို မရရှိနိုင်ပါ**- ဒေတာဝေစုတစ်ခုတည်းနှင့် ဒေတာတစ်ခုလုံးကို တည်ဆောက်ရန် မဖြစ်နိုင်ပါ။ ပရိုဆက်ဆာတစ်ခုစီသည် ၎င်း၏ ဒေတာဝေစုများကို တစ်စိတ်တစ်ပိုင်းပေါင်းလဒ်အဖြစ် စုစည်းပါသည်။ ထို့နောက် တစ်စိတ်တစ်ပိုင်း ပေါင်းလဒ်များကို နောက်ဆုံးစုစည်းမှုအဖြစ် ပေါင်းစပ်နိုင်ပြီး တစ်ဦးချင်း ပါဝင်သူများအကြောင်း အချက်အလက်အနည်းဆုံးကိုသာ ဖော်ပြလျက် ဒေတာတစ်ခုလုံးအတွက် အသုံးဝင်သော စာရင်းအင်းများကို ခွင့်ပြုပါသည်။ Divvi Up အလုပ်လုပ်ပုံအကြောင်း ကျယ်ပြန့်သော နည်းပညာဆိုင်ရာ စာရွက်စာတမ်းများကို [ဤနေရာ](https://docs.divviup.org/) တွင် တွေ့ရှိနိုင်ပါသည်။
 3. **ကျွနု်ပ်တို့သည် ဒေတာ နည်းနိုင်သမျှနည်းအောင် စုစည်းရယူပါသည်**- ဒေတာအားလုံးကို အမည်မဖော်ပြသော်လည်း ကျွနု်ပ်တို့ စုစည်းရယူသည့် ဒေတာပမာဏကို အမြဲတမ်း အနည်းဆုံးဖြစ်စေပါသည်။ Tella ၏ နောက်ဆုံးပေါ် ဗားရှင်းများတွင် ကျွနု်ပ်တို့သည် အောက်ပါဖြစ်စဉ်များအကြောင်း ဒေတာ (အပြင် နောက်ထပ်ဘာမျှ မရှိပါ) ကိုသာ စုစည်းရယူပါသည်-
 
-    **Tella Android**
-    - သော့ဖွင့်ရာတွင် အောင်မြင်ခဲ့သည့် အကြိမ်ရေ။
+    **Tella Android and Tella FOSS**
+    - Number of times Tella is successfully unlocked.
+    - Number of media files recorded (videos/photos taken and audio recordings captured).
+    - Number of files imported from the device's gallery or file system into Tella.
+    - Number of security features activated (number of times that camouflage is enabled, number of times that the quick delete action is triggered).
+    - Number of new installations.
+    - Number of reports uploaded to any connection (Tella Web, Uwazi, ODK, Nexcloud, Google Drive, Dropbox)
+    - Time spend in Tella. 
 
-    **Tella ဝဘ်**
-    - ဝင်ရောက်ကြည့်ရှုမှု အကြိမ်ရေ (တစ်စုံတစ်ဦးက Tella ဝဘ် ဖြစ်ရပ်တစ်ခုခုမှ ဝင်ရောက်တိုင်း လှုံ့ဆော်သည်)။
-    - ဖိုင် အပ်လုဒ်တင်သည့် အကြိမ်ရေ (တစ်စုံတစ်ဦးက Tella ဝဘ် ဖြစ်ရပ်တစ်ခုခုသို့ ဖိုင် အပ်လုဒ်တင်တိုင်း လှုံ့ဆော်သည်)။
-    - အစီရင်ခံစာ အရေအတွက် (တစ်စုံတစ်ဦးက Tella ဝဘ် ဖြစ်ရပ်တစ်ခုခုသို့ အစီရင်ခံစာ အပ်လုဒ်တင်တိုင်း လှုံ့ဆော်သည်)။
+
+    **Tella Web**
+   The data below is only collected from Tella Web instances that have opted-in to share privacy-preserving analytics with the Tella team.
+    - Number of visits (triggered every time someone enters any Tella Web instance).
+    - Number of file uploads (triggered every time someone uploads a file to any Tella Web instance).
+    - Number of Report uploads (triggers every time someone uploads a report to any Tella Web instance).
 
 
    ကျွနု်ပ်တို့၏ အပ်များတွင် ထည့်သော မက်ထရစ်များအကြောင်း နောက်ထပ်အချက်အလက်များ သိလိုပါက ကျွနု်ပ်တို့၏ [ထုတ်ဝေမှု မှတ်စုများ](/releases) ကို ဝင်ကြည့်ပါ။
@@ -97,19 +105,29 @@ Tella Android နှင့် [Tella ဝဘ်](/tella-web) တွင် အသ�
 
 ကျွနု်ပ်တို့၏ ကုဒ်သည် အကြမ်းခံပြီး လုံခြုံကြောင်း သေချာစေရန် ကျွနု်ပ်တို့သည် သီးခြားးလွတ်လပ်သော လုံခြုံရေး ကုမ္ပဏီများအား ၎င်းကို စစ်ဆေးပေးရန် ပုံမှန် တောင်းဆိုပါသည်။
 
-| နေ့စွဲ | စစ်ဆေးသူ | စစ်ဆေးပြီး ပလက်ဖောင်းများ    | လင့်ခ်ယူရန်      |
+| နေ့စွဲ | စစ်ဆေးသူ | စစ်ဆေးပြီး ပလက်ဖောင်းများ  | လင့်ခ်ယူရန်      |
 | -----|----------|----|-----------|
-| မေ ၂၀၂၄ | Subgraph Technologies, Inc. |  Android၊ iOS၊ Tella ဝဘ် |[အစီရင်ခံစာ ကြည့်ရန်](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
-| မေ ၂၀၂၃ | Subgraph Technologies, Inc. | Android၊ iOS၊ Tella ဝဘ် |[အစီရင်ခံစာ ကြည့်ရန်](</assets/2023.05 - Tella security audit - Final report.pdf>)|
+| August 2024 | Radically Open Security |  Android, iOS, Android FOSS|[View pen-testing results](</assets/2024.08.30-Penetration-Test-Report-Horizontal.pdf>)|
+| မေ ၂၀၂၄ | Subgraph Technologies, Inc. |  Android၊ iOS၊ Tella ဝဘ်|[View updated report confirming fixes has been implemented](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
+| မေ ၂၀၂၃ | Subgraph Technologies, Inc. | Android၊ iOS၊ Tella ဝဘ် |[View security audit](</assets/2023.05 - Tella security audit - Final report.pdf>)|
 
 
- ၎င်းမှာ နောက်ဆုံးစစ်ဆေးမှုမှ အကျဉ်းချုပ်နှင့် ရှာဖွေတွေ့ရှိသော အားနည်းချက်များ၏ အခြေအနေ ဖြစ်ပါသည်-
+This is the summary from the latest audit and the status of the vulnerabilities identified:
+
+| ခေါင်းစဥ်                                               | ပြင်းထန်မှု    | ပလက်ဖောင်း | အခြေအနေ      |
+|-----------------------------------------------------|-------------|-------------|-------------|
+| Require re-authentication for changing key security settings | Moderate      | ယေဘုယျ | Planning |
+| Improve webview implementation                      |  Moderate   | iOS       | ဖြေရှင်းပြီး |
+| Improve GitHub practices (merging to main and tags) | နိမ့်သည်         | Android, Android FOSS | Resolved (pending re-test) |
+| Increase PBKDF2 iteration counts.                   | နိမ့်သည်         | Android, Android FOSS | ပင်မစခရင်ကို စိတ်ကြိုက်ပြင်ဆင်ခြင်း {#homescreen-customization} |
+| Do not allow clear-text traffic in Android manifest.| နိမ့်သည်         | Android, Android FOSS | ဖြေရှင်းပြီး |
+| Outdated 3rd-party dependencies                     | မသိ         | Android, Android FOSS | ဖြေရှင်းပြီး |
 
 
-| ခေါင်းစဥ်                                               | ပြင်းထန်မှု    | အခြေအနေ      |
-|-----------------------------------------------------|-------------|-------------|
-| အကန့်အသတ်မရှိသော သော့ဖွင့်ရန် ကြိုးပမ်းမှုအကြိမ်ရေ                        | အလယ်အလတ်      | ဖြေရှင်းပြီး |
-| Android Cipher Stream I/O သော့ PBKDF2 ဗားရှင်းအသစ်များ     | နိမ့်သည်         | ဖြေရှင်းပြီး    |
-| Tella iOS Cleartext အသံဒေတာသည် ပိုကြာရှည်နေနိုင်သည်  | နိမ့်သည်         | ဖြေရှင်းပြီး    |
-| Tella Android ခေတ်မမီတော့သော Retrofit2 မှီခိုမှု         | နိမ့်သည်         | ဖြေရှင်းပြီး    |
-| Tella Android မှ ကန့်ကွက်ထားသော မှီခိုမှု - Butterknife     | သတင်းအချက်အလက်ဆိုင်ရာ| ဖြေရှင်းပြီး |
+
+
+
+
+
+
+

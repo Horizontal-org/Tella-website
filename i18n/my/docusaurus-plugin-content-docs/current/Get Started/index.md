@@ -1,11 +1,11 @@
 ---
 id: get-started
-title: Tella နှင့် စတင်လိုက်ပါ 
+title: Get Started 
 description: iOS နှင့် Android တို့ဖြင့် Tella သုံးစွဲသူများအတွက် အမြန်စတင်အသုံးပြုနည်း လမ်းညွှန်
 slug: /get-started
 ---
 
-import Link from '@docusaurus/Link'
+'@docusaurus/Link' မှ လင့်ခ်ကို တင်သွင်းပါ
 
 
 # Tella နှင့် စတင်လိုက်ပါ
