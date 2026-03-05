@@ -12,12 +12,13 @@
 12. Kurdo
 13. Malabar
 14. Persa
-15. Portugués
-16. Ruso
-17. Español (América Latina)
-18. Tamil
-19. Vietnamita
-20. Español (América Latina)
-21. Tamil
-22. Tsonga
-23. Vietnamita
+15. Mizo
+16. Portugués
+17. Ruso
+18. Español (América Latina)
+19. Tamil
+20. Vietnamita
+21. Español (América Latina)
+22. Tamil
+23. Tsonga
+24. Vietnamita
