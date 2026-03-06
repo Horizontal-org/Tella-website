@@ -17,12 +17,12 @@ To receive monthly updates on new features and improvements to Tella and stay up
 
 ### Android: Tella 2.19.1 (226) - Released on March 5, 2026 {#android-tella-2191226---released-on-mar-5-2026}
 - Fixed issues in the Uwazi connection:
-    - Error in URL verification for private Uwazi instance was preventing users to connect to an Uwazi server.
-    - Fixed a bug that caused templates not to be saved in the Submitted tab for public Uwazi servers' submission. 
-    - Corrected the Delete submitted entity error message and unified confirmation screens for deleting an entity.
+    - Fixed an error in the URL verification for private Uwazi instances that was preventing users to connect to an Uwazi server.
+    - Fixed a bug that caused templates not to be saved in the Submitted tab for submission to public Uwazi servers. 
+    - Corrected the error message when deleting a submitted entity and unified confirmation screens for deleting an entity.
 - Bug fixes and minor improvements:
-    - Fixed Done button after changing Lock, that was overlapping with Phone's action button on the bottom right of the screen.
-    - Added optional contact box in the Anonymous feedback method, for users that would like to be contacted by us.
+    - Fixed the "Done" button after changing the app Lock (the button was overlapping with the phone's action button on the bottom right of the screen).
+    - Added an optional contact box in the Anonymous feedback method for users that would like to be contacted by us to follow up on their feedback.
     - Improved error messages when importing duplicated videos to Tella.
 - New Languages support: Mizo.
 - Updated translations: Chinese.
