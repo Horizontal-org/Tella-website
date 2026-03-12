@@ -14,23 +14,8 @@ To receive monthly updates on new features and improvements to Tella and stay up
 
 ## Tella - Latest Versions {#tella---latest-versions}
 
-
-### Android: Tella 2.19.0 (225) - Released on February 19, 2026 {#android-tella-2190225---released-on-feb-19-2026}
-- Fixed bug on Dropbox connection: some users were getting a "This app is not valid" error while connecting.
-- Added added lock-protection guidance for new users (in on-boarding) and while changing lock.
-- Added support for any file manager, so that users can import and export files from Tella if they choose not to use Google Files.
-- Refactored permissions, prioritizing user's privacy:
-    - Sunsetting submissions to a Shared Drive folder for the Google Drive Connection: the amount of permissions that users needed to grant to Google to allow Tella to submit directly to a Shared Drive was too broad, and unacceptable for the Tella users' context.
-    - Used more granular permissions on the Google Drive Connection: now Tella only has permissions to view and edit files submitted using Tella (and anything else).
-- Maintenance and technical tasks:
-    - Finalized technical work to support 16 KB memory page sizes as per Play Store requirement.
-    - Bugfixing and finalized pending work for edge-to-edge UI enforcement as per Play Store requirement.
-    - Big refactor (including adding product flavors) to be able to merge Tella Android and Tella FOSS codebases into a single one.
-- Bug fixes and minor improvements:
-    - Fixed bug that was hiding the "+" button in all connection when using Tella in a right-to-left language.
-    - Fixed crash and unified code and text for saving files outside of Tella vault, when they cannot be previewed in Tella (docs, txt files, spreadsheets).
-    - Fixed bug when importing the same video twice to Tella.
-    - Updated Recent Files list after deleting a file (the file was still showing and causing a crash when tapping on it).
+### Android: Tella 2.19.2 (227) - Released on March 12, 2026 {#android-tella-2192227---released-on-mar-12-2026}
+- Hotfix: solved a bug that prevented new connections to Google Drive.
 
 
 ### iOS: Tella 1.18.0 (114) - Released on January 30, 2025 {#ios-tella-1180-114---released-on-jan-30-2025}
@@ -64,6 +49,35 @@ A detailed list of features available on each platform is [available here](/feat
 
 
 ## Previous versions {#previous-versions}
+
+### Android: Tella 2.19.1 (226) - Released on March 5, 2026 {#android-tella-2191226---released-on-mar-5-2026}
+- Fixed issues in the Uwazi connection:
+    - Fixed an error in the URL verification for private Uwazi instances that was preventing users to connect to an Uwazi server.
+    - Fixed a bug that caused templates not to be saved in the Submitted tab for submission to public Uwazi servers. 
+    - Corrected the error message when deleting a submitted entity and unified confirmation screens for deleting an entity.
+- Bug fixes and minor improvements:
+    - Fixed the "Done" button after changing the app Lock (the button was overlapping with the phone's action button on the bottom right of the screen).
+    - Added an optional contact box in the Anonymous feedback method for users that would like to be contacted by us to follow up on their feedback.
+    - Improved error messages when importing duplicated videos to Tella.
+- New Languages support: Mizo.
+- Updated translations: Chinese.
+
+### Android: Tella 2.19.0 (225) - Released on February 19, 2026 {#android-tella-2190225---released-on-feb-19-2026}
+- Fixed bug on Dropbox connection: some users were getting a "This app is not valid" error while connecting.
+- Added added lock-protection guidance for new users (in on-boarding) and while changing lock.
+- Added support for any file manager, so that users can import and export files from Tella if they choose not to use Google Files.
+- Refactored permissions, prioritizing user's privacy:
+    - Sunsetting submissions to a Shared Drive folder for the Google Drive Connection: the amount of permissions that users needed to grant to Google to allow Tella to submit directly to a Shared Drive was too broad, and unacceptable for the Tella users' context.
+    - Used more granular permissions on the Google Drive Connection: now Tella only has permissions to view and edit files submitted using Tella (and anything else).
+- Maintenance and technical tasks:
+    - Finalized technical work to support 16 KB memory page sizes as per Play Store requirement.
+    - Bugfixing and finalized pending work for edge-to-edge UI enforcement as per Play Store requirement.
+    - Big refactor (including adding product flavors) to be able to merge Tella Android and Tella FOSS codebases into a single one.
+- Bug fixes and minor improvements:
+    - Fixed bug that was hiding the "+" button in all connection when using Tella in a right-to-left language.
+    - Fixed crash and unified code and text for saving files outside of Tella vault, when they cannot be previewed in Tella (docs, txt files, spreadsheets).
+    - Fixed bug when importing the same video twice to Tella.
+    - Updated Recent Files list after deleting a file (the file was still showing and causing a crash when tapping on it).
 
 ### Android: Tella 2.18.2 (222) - Released on December 9, 2025 {#android-tella-21182222---released-on-dec-2-2025}
 - Hotfix: Used least restrictive permissions for the Google Drive Connection in order to make it verifiable by Google.
