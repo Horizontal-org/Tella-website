@@ -20,6 +20,9 @@ To receive  updates on new features and improvements to Tella and stay up to dat
   - Improved background submission: Ensures that submissions complete even if the app is in the background.
   - Implemented a retry mechanism to resubmit reports once the connection is restored.
 - Updated translations.
+- Bug fixes and minor improvements:
+  - Add contact info field to feedback form.
+
 
 ### iOS: Tella 1.19.0 (129) - Released on March 19, 2026 {#ios-tella-1190-129---released-on-march-19-2026}
 - Improvements to the Tella Web connection to increase resilience against intermittent and slow connectivity:
@@ -29,6 +32,12 @@ To receive  updates on new features and improvements to Tella and stay up to dat
   - Fixed bug: Fixed preview of HEIC files in the Tella Web server.
 - Updated translations.
 - New Languages support: Mizo.
+- Bug fixes and minor improvements:
+  - When a Report is completely empty, do not prompt to save as draft.
+  - Add validation to avoid users to connect to the same Tella Web project twice.
+  - Only show the "your draft will be lost" warning if there is actually changes to be lost.
+  - Add contact info field to feedback form.
+
 
 
 ### Android: Tella FOSS 2.11.0 (based on Android 2.11.0) - Released on February 25, 2025 {#android-tella-foss-2110-based-on-android-2110---released-on-february-25-2025}
