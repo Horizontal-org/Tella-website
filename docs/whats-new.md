@@ -10,22 +10,35 @@ slug: /releases
 This page explains what changes are introduced on each release of Tella. 
 
 ## Newsletter {#newsletter}
-To receive monthly updates on new features and improvements to Tella and stay up to date with Tella releases, suscribe to our newsletter [here](https://blog.wearehorizontal.org/tag/tella/#/portal/)
+To receive  updates on new features and improvements to Tella and stay up to date with Tella releases, suscribe to our newsletter [here](https://blog.wearehorizontal.org/tag/tella/#/portal/)
 
 ## Tella - Latest Versions {#tella---latest-versions}
 
-### Android: Tella 2.19.2 (227) - Released on March 12, 2026 {#android-tella-2192227---released-on-mar-12-2026}
-- Hotfix: solved a bug that prevented new connections to Google Drive.
-
-
-### iOS: Tella 1.18.0 (114) - Released on January 30, 2025 {#ios-tella-1180-114---released-on-jan-30-2025}
-- Completed onboarding tutorial for iOS and added lock-protection guidance for new users.
-- Refactored permissions, prioritizing user's privacy:
-    - Sunsetting submissions to a Shared Drive folder for the Google Drive Connection: the amount of permissions that users needed to grant to Google to allow Tella to submit directly to a Shared Drive was too broad, and unacceptable for the Tella users' context.
-    - Used more granular permissions on the Google Drive Connection: now Tella only has permissions to view and edit files submitted using Tella (and anything else).
+### Android: Tella 2.20.0 (228) - Released on March 19, 2026 {#android-tella-2200228---released-on-mar-19-2026}
+- Improvements to the Tella Web connection to increase resilience against intermittent and slow connectivity:
+  - Fixed bug: Auto-reports getting stuck in the Outbox.
+  - Improved background submission: Ensures that submissions complete even if the app is in the background.
+  - Implemented a retry mechanism to resubmit reports once the connection is restored.
+- Updated translations.
 - Bug fixes and minor improvements:
-    - Solved an issue that prevented the Quick Delete button to be triggered in Right-To-Left languages.
-    - Solved image editing view for iOS 26+.
+  - Add contact info field to feedback form.
+
+
+### iOS: Tella 1.19.0 (129) - Released on March 19, 2026 {#ios-tella-1190-129---released-on-march-19-2026}
+- Improvements to the Tella Web connection to increase resilience against intermittent and slow connectivity:
+  - Fixed bug: Auto-reports getting stuck in the Outbox.
+  - Improved background submission: Ensures that submissions complete even if the app is in the background.
+  - Implemented a retry mechanism to resubmit reports once the connection is restored.
+  - Fixed bug: Fixed preview of HEIC files in the Tella Web server.
+- Updated translations.
+- New Languages support: Mizo.
+- Bug fixes and minor improvements:
+  - When a Report is completely empty, do not prompt to save as draft.
+  - Add validation to avoid users to connect to the same Tella Web project twice.
+  - Only show the "your draft will be lost" warning if there is actually changes to be lost.
+  - Add contact info field to feedback form.
+
+
 
 ### Android: Tella FOSS 2.11.0 (based on Android 2.11.0) - Released on February 25, 2025 {#android-tella-foss-2110-based-on-android-2110---released-on-february-25-2025}
 
@@ -49,6 +62,19 @@ A detailed list of features available on each platform is [available here](/feat
 
 
 ## Previous versions {#previous-versions}
+
+### iOS: Tella 1.18.0 (114) - Released on January 30, 2026 {#ios-tella-1180-114---released-on-jan-30-2026}
+- Completed onboarding tutorial for iOS and added lock-protection guidance for new users.
+- Refactored permissions, prioritizing user's privacy:
+    - Sunsetting submissions to a Shared Drive folder for the Google Drive Connection: the amount of permissions that users needed to grant to Google to allow Tella to submit directly to a Shared Drive was too broad, and unacceptable for the Tella users' context.
+    - Used more granular permissions on the Google Drive Connection: now Tella only has permissions to view and edit files submitted using Tella (and anything else).
+- Bug fixes and minor improvements:
+    - Solved an issue that prevented the Quick Delete button to be triggered in Right-To-Left languages.
+    - Solved image editing view for iOS 26+.
+
+### Android: Tella 2.19.2 (227) - Released on March 12, 2026 {#android-tella-2192227---released-on-mar-12-2026}
+- Hotfix: solved a bug that prevented new connections to Google Drive.
+
 
 ### Android: Tella 2.19.1 (226) - Released on March 5, 2026 {#android-tella-2191226---released-on-mar-5-2026}
 - Fixed issues in the Uwazi connection:
