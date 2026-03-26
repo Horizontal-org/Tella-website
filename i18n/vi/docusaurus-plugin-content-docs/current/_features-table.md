@@ -9,7 +9,7 @@ Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evid
 :::| :::tip Video  tutorial 🎥
 Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
 ::: |
-|[Tắt âm thanh camera khi chụp ảnh](/features#camera-silent-mode) | ✔️ | Chưa hoàn thành| - Tella Web <br />- Uwazi |
+|[Tắt âm thanh camera khi chụp ảnh](/features#camera-silent-mode) | ✔️ | Chưa hoàn thành| - [Nextcloud](/nextcloud) |
 |[Bảo mật Màn hình](/features#screen-security)| :::tip Video  tutorial 🎥
 Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
 :::| :::tip Video  tutorial 🎥
@@ -118,7 +118,7 @@ Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evid
 ::: |
 | [Thu thập dữ liệu ngoại tuyến](/features#offline-data-collection)| ✔️ | ✔️  | ✔️ |
 | [Thoát nhanh](/features#quick-exit)| Khóa và đóng | Khóa  | Khóa và đóng  |
-| [Kết nối để thu thập dữ liệu và gửi tệp tin](/features#connecting-to-servers) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) <br /> - [Open Data Kit (Forms)](/odk) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) |  - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Open Data Kit (Forms)](/odk)  |
+| [Kết nối để thu thập dữ liệu và gửi tệp tin](/features#connecting-to-servers) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) <br /> - [Open Data Kit (Forms)](/odk) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) |  - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Open Data Kit (Forms)](/odk) <br />- [Nextcloud](/nextcloud) |
 | [Thu thập dữ liệu ngoại tuyến](/features#offline-data-collection) | :::tip Video  tutorial 🎥
 Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
 ::: | :::tip Video  tutorial 🎥
