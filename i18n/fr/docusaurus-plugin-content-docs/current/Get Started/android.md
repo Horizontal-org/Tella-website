@@ -125,7 +125,7 @@ Nous avons rédigé une documentation sur la manière de se connecter à un serv
     <img src={require("@site/static/img/getting-started/android/kobo.gif").default} alt="gif that shows ODK connection" title="ODK connection" />
 </div>
 
-#### Uwazi {#uwazi}
+#### Uwazi [site Web](https://uwazi.io/) et [documentation](https://uwazi.readthedocs.io/en/latest/).
 [Uwazi](https://uwazi.io/) est une application open-source créée par HURIDOCS avec de puissantes fonctionnalités pour collecter, organiser et visualiser les données relatives aux droits de l'homme.
 
 Nous avons rédigé une documentation sur la manière de se connecter à un serveur Uwazi et pour commencer, nous vous recommandons de lire [cette page](/uwazi).
@@ -134,12 +134,12 @@ Nous avons rédigé une documentation sur la manière de se connecter à un serv
     <img src={require("@site/static/img/getting-started/android/uwazi.gif").default} alt="gif that shows Uwazi connection" title="Uwazi connection" />
 </div>
 
-#### Tella Web {#tella-web}
-Tella Web est un outil open source qui permet aux individus et aux organisations de centraliser et de gérer les rapports envoyés par les utilisateurs de Tella, notamment des photos, des vidéos et des fichiers audio.
+#### Uwazi {#uwazi}
+Tella Web est un outil open source qui permet aux individus et aux organisations de centraliser et de gérer les rapports transmis par les utilisateurs de Tella, notamment des photos, des vidéos et des fichiers audio.
 
 Pour en savoir plus sur Tella Web [ici](/tella-web) ou regarder un [tutoriel vidéo](/video-tutorials#tella-web).
 
-#### Pour en savoir plus sur Tella {#read-more-about-tella}
+#### Nextcloud, Dropbox and Google Drive {#Nextcloud-dropbox-and-google-drive}
 [Fonctionnalités]( /features) : En savoir plus sur la façon dont Tella peut vous protéger et sur les menaces contre lesquelles Tella ne_vous_protège_pas.
 
 [Connexions](/for-organizations) : Découvrez comment vous pouvez vous connecter à un serveur pour collecter des données ou sauvegarder des fichiers.
@@ -147,13 +147,17 @@ Pour en savoir plus sur Tella Web [ici](/tella-web) ou regarder un [tutoriel vid
 - Contactez-nous si vous avez besoin d'aide {#contact-us-if-you-need-help}
 - Si vous avez besoin d'aide pour comprendre les détails techniques de Tella et les considérations de sécurité afin de décider s'il convient à vous et à votre équipe, nous sommes là pour vous aider. Il vous suffit de [nous contacter](/contact-us) pour que nous puissions répondre à vos questions ou organiser une formation ou une session de questions-réponses en direct pour votre équipe.
 
+:::note
+The Google Drive and Dropbox connections are not available in Tella Android FOSS, because they use closed-sourced libraries.
+:::
+
 
 
 
 ### Pour en savoir plus sur Tella {#read-more-about-tella}
 - [Fonctionnalités]( /features) : En savoir plus sur la façon dont Tella peut vous protéger et sur les menaces contre lesquelles Tella ne_vous_protège_pas.
 - [Connexions](/for-organizations) : Découvrez comment vous pouvez vous connecter à un serveur pour collecter des données ou sauvegarder des fichiers.
-- [Sécurité et protection des renseignements personnels](/security-and-privacy) : nous ne recueillons que le minimum de données nécessaires et ne jamais de renseignements personnels. Consultez la politique de confidentialité complète [ici](/privacy).
+- [Sécurité et confidentialité](/security-and-privacy) : Nous ne recueillons que le minimum de données nécessaires et ne collectons jamais d'informations personnellement identifiables. Lisez la politique de confidentialité complète [ici](/privacy).
 
 #### Si vous avez besoin d'aide, contactez-nous si vous {#contact-us-if-you-need-help}
 Si vous avez besoin d'aide pour comprendre les détails techniques de Tella et les considérations de sécurité afin de décider s'il convient à vous et à votre équipe, nous sommes là pour vous aider. Il vous suffit de [nous contacter](/contact-us) pour que nous puissions répondre à vos questions ou organiser une formation ou une session de questions-réponses en direct pour votre équipe.
