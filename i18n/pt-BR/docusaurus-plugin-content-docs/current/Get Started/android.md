@@ -139,13 +139,17 @@ O Tella Web é uma ferramenta de código aberto que permite a indivíduos e orga
 
 Leia mais sobre o Tella Web [aqui](/tella-web) ou veja um [tutorial em vídeo](/video-tutorials#tella-web).
 
-#### Nextcloud, Dropbox and Google Drive {#nextcloud-dropbox-and-google-drive}
-Users can also connect to their Google, Dropbox or Nextcloud organizational or personal accounts in order to submit reports (audio, photos, videos and text) directly from Tella. They won't need the Dropbox, Google Drive or Nextcloud apps on their phones and won't need to use any third party apps.
+#### Nextcloud, Dropbox and Google Drive {#Nextcloud-dropbox-and-google-drive}
+Los usuarios también pueden conectarse a su cuenta de Google, Dropbox o Nextcloud de organización o de las cuentas personales para la presentación de informes (audio, fotos, vídeos y texto) directamente desde Tella. No necesitan el Dropbox, Google Drive o Nextcloud aplicaciones en sus teléfonos y no necesita usar apps de terceros.
 
-Read more:
+Lea Más
 - [Google Drive Connection](/g-drive).
 - [Nextcloud Connection](/nextcloud).
 - [Dropbox Connection](/dropbox).
+
+:::note
+The Google Drive and Dropbox connections are not available in Tella Android FOSS, because they use closed-sourced libraries.
+:::
 
 
 
