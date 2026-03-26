@@ -1,5 +1,5 @@
 ---
-id: nextcloud
+id: Nextcloud
 title: Nextcloud 
 description: Tella allows users to conveniently upload photos, videos, pdfs and audio recordings to Nextcloud.
 slug: /nextcloud
@@ -75,7 +75,7 @@ For the moment it is not possible to sign in to multiple Nextcloud accounts at t
     * If the report is submitted correctly, it goes to the “Submitted” tab and a new folder will be created in Nextcloud with the title you selected. All attachments will be added to the folder and the description will be added as a text file inside the folder.
 
 :::info
-On Android, [a known Nextcloud issue](https://help.nextcloud.com/t/cant-upload-files-langer-than-20-mb-using-nextcloud-android-app/196434) prevents files larger than 20MB from being submitted to a Nextcloud server. For that reason, Tella users cannot attach files larger than 20MB to Reports uploaded to a Nextcloud connection. We are monitoring the status of this issue and will remove Tella's file-size restriction as soon as it is solved by Nextcloud.
+On Android, [a known Nextcloud issue](https://help.Nextcloud.com/t/cant-upload-files-langer-than-20-mb-using-Nextcloud-android-app/196434) prevents files larger than 20MB from being submitted to a Nextcloud server. For that reason, Tella users cannot attach files larger than 20MB to Reports uploaded to a Nextcloud connection. We are monitoring the status of this issue and will remove Tella's file-size restriction as soon as it is solved by Nextcloud.
 :::
 
 ##  Draft Reports {#draft-reports}

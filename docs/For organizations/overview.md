@@ -121,10 +121,10 @@ Learn more about the Google Drive connection [here](/g-drive),
 :::
 
 
-### Nextcloud {#nextcloud}
-Users can sign-in directly to their NextCloud account from within Tella and upload files to a folder in their NextCloud account. Each "report" uploaded will create a new folder in NextCloud.
+### Nextcloud {#Nextcloud}
+Users can sign-in directly to their Nextcloud account from within Tella and upload files to a folder in their Nextcloud account. Each "report" uploaded will create a new folder in Nextcloud.
 
-As for all Connections in Tella, users can use most of the NextCloud connection offline through the Draft, Outbox and Submit Later tabs. 
+As for all Connections in Tella, users can use most of the Nextcloud connection offline through the Draft, Outbox and Submit Later tabs. 
 
 :::tip
 Learn more about the Nextcloud connection [here](/nextcloud),
