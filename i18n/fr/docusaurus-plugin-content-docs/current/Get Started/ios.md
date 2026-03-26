@@ -117,7 +117,7 @@ Pour en savoir plus sur Tella Web, cliquez [ici](/tella-web) ou regardez un [tut
 
 Nous avons rédigé une documentation sur la manière de se connecter à un serveur Uwazi et nous vous recommandons de lire [cette page](/uwazi) pour commencer.
 
-#### Pour en savoir plus sur Tella {#read-more-about-tella}
+#### Nextcloud, Dropbox and Google Drive {#Nextcloud-dropbox-and-google-drive}
 [Fonctionnalités]( /features) : En savoir plus sur la façon dont Tella peut vous protéger et sur les menaces contre lesquelles Tella ne_vous_protège_pas.
 
 [Connexions](/for-organizations) : Découvrez comment vous pouvez vous connecter à un serveur pour collecter des données ou sauvegarder des fichiers.
