@@ -98,7 +98,7 @@ The [Open Data Kit (ODK)](https://getodk.org/) is an open standard used to creat
 On our [Open Data Kit server connection page](/odk) we explain how to create an account, where to find information about creating forms and how to connect to the server from Tella. You can also watch a demonstration of the ODK connection [here](/video-tutorials#open-data-kit). If you are considering using Open Data Kit or you need help to [deploy](/faq#deploying-tella) your instance, please [contact us](/contact-us). 
 
 
-:::info
+:::note
 The ODK connection is [only available on Android](/features). 
 :::
 
@@ -111,6 +111,10 @@ Learn more about Open Data Kit [here](/odk).
 Users can sign-in directly to their Google account from within Tella and upload files to a folder in their Drive account. Each "report" uploaded will create a new folder in Drive.
 
 As for all Connections in Tella, users can use most of the Google Drive connection offline through the Draft, Outbox and Submit Later tabs. 
+
+:::note
+The Google Drive connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
+:::
 
 :::tip
 Learn more about the Google Drive connection [here](/g-drive),
@@ -132,6 +136,10 @@ Learn more about the Nextcloud connection [here](/nextcloud),
 Users can sign-in directly to their Dropbox account from within Tella and upload files to a folder in their account. In the "Applications" folder in the user's Dropbox account, a new folder "Tella" will automatically be created. Each Report uploaded from Tella will create a new subfolder inside the "Tella" folder.
 
 As for all Connections in Tella, users can use most of the Dropbox connection offline through the Draft, Outbox and Submit Later tabs. 
+
+:::note
+The Dropbox connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
+:::
 
 :::tip
 Learn more about [the Dropbox connection here](/dropbox),
