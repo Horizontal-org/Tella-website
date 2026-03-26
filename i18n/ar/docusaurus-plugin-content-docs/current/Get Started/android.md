@@ -139,13 +139,17 @@ Tella Web هي أداة مفتوحة المصدر تُمكِّن الأفراد 
 
 اقرأ المزيد عن Tella Web [هنا](/tella-web) أو شاهد [الفيديو التعليمي](/video-tutorials#tella-web).
 
-#### اقرأ المزيد عن Tella {#read-more-about-tella}
+#### Nextcloud, Dropbox and Google Drive {#Nextcloud-dropbox-and-google-drive}
 ‫[الميزات](/features): تعرَّف على المزيد حول كيف يمكن لـ Tella أن يحافظ على سلامتك والتهديدات التي _لا_ يحميك منها Tella.
 
 [الاتصالات](/for-organizations): تعرف على كيفية الاتصال بخادم لجمع البيانات أو للنسخ الاحتياطي للملفات.
 - [الأمن والخصوصية](/security-and-privacy): نحن نجمع فقط الحد الأدنى من البيانات اللازمة ولا نجمع أبدا أي معلومات تعريفية شخصية. اقرأ سياسة الخصوصية الكاملة [هنا](/privacy).
 - اتصل بنا إذا كنت بحاجة إلى مساعدة {#contact-us-if-you-need-help}
 - إذا كنت بحاجة إلى المساعدة لفهم التفاصيل التقنية والاعتبارات الأمنية الخاصة بـ Tella لتحديد مدى ملائمته لك ولفريقك، فنحن هنا لمساعدتك. ما عليك سوى [التواصل معنا](/contact-us) حتى نتمكن من الإجابة على أسئلتك أو التخطيط لاستضافة تدريب أو جلسة أسئلة وأجوبة مباشرة لأجل فريقك.
+
+:::note
+The Google Drive and Dropbox connections are not available in Tella Android FOSS, because they use closed-sourced libraries.
+:::
 
 
 
