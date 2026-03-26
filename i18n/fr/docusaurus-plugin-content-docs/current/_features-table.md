@@ -3,7 +3,7 @@
 |------|------|-----|-----|
 |[Verrouillage d'application](/features#app-lock)| Mot de passe, code PIN, Schéma|Mot de passe, code PIN | Mot de passe, code PIN, Schéma |
 |[Background encryption](/features#background-encryption) | ✔️ | ✔️| ✔️ |
-|[Configuration du Délai de verrouillage](/features#lock-timeout-configuration) | ✔️ | ✔️| ✔️ |
+|[Configuration du Délai de verrouillage](/features#lock-timeout-configuration) | ✔️ | ✔️| - [Nextcloud](/nextcloud) |
 |[Mode silencieux de la caméra](/features#camera-silent-mode)| ✔️| ✔️| ✔️ |
 |[Sécurité de l'écran](/features#screen-security)| ✔️| ✔️| ✔️ |
 | [Limiter les tentatives de déverrouillage](features#restrict-unlocking-attempts)| ✔️| ✔️| ✔️ |
@@ -24,5 +24,5 @@
 | [Suppression rapide](/features#quick-delete)| ✔️ | ✔️ | ✔️ |
 | [Sortie urgence](/features#quick-exit)| Verrouillage et fermeture | Verrouillage  | Verrouillage et fermeture |
 | [Connexions pour collecter des données et envoyer des fichiers](/features#connecting-to-servers)| - Uwazi <br />- Open Data Kit (Formulaires) | - Tella Web <br />- Uwazi  | - Uwazi <br />- Open Data Kit (Formulaires)  |
-| [Collecte de données hors ligne](/features#offline-data-collection) | ✔️ | ✔️ |  ✔️  |
+| [Collecte de données hors ligne](/features#offline-data-collection) | ✔️ | ✔️ |  - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Open Data Kit (Forms)](/odk) <br />- [Nextcloud](/nextcloud) |
 | [Collecte de données hors ligne](/features#offline-data-collection) | ✔️ | ✔️ |  ✔️ |
