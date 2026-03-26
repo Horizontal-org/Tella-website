@@ -3,7 +3,7 @@
 3. Tiếng Belarus
 4. Tiếng Miến Điện
 5. Tiếng Anh
-6. Tiếng Trung Quốc
+6. Chinese (Simplified Chinese)
 7. Tiếng Indonesia
 8. Tiếng Jingpho
 9. Tiếng Kannada
