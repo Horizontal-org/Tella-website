@@ -63,7 +63,9 @@ En esta tabla explicamos qué tipos de servidores están disponibles en las apps
 
 
 :::danger
-For the moment, the submission to any type of server it is **not** encrypted. People who have access to the server itself are able to see the files.
+For now, any files you submit to a connection are stored unencrypted on that server or drive. This means that anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
+
+We strongly recommend reviewing and understanding the permission model of each connection you use, in order to determine which option is safest and most appropriate for your specific use case.
 :::
 
 
