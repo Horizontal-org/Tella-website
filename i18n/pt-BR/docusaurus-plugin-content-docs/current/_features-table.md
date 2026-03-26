@@ -3,7 +3,7 @@
 |------|------|-----|-----|
 |[Bloqueio do Aplicativo](/features#app-lock)| Senha, PIN, Padrão|Senha, PIN | Senha, PIN, Padrão |
 |[Configuração do tempo limite de bloqueio](/features#lock-timeout-configuration) | ✔️ | ✔️| ✔️ |
-|[Modo silencioso da câmera](/features#camera-silent-mode) | ✔️ | Ainda não| - Tella Web <br />- Uwazi |
+|[Modo silencioso da câmera](/features#camera-silent-mode) | ✔️ | Ainda não| - [Nextcloud](/nextcloud) |
 |[Segurança da Tela](/features#screen-security)| ✔️| ✔️| ✔️ |
 |[Restrição de tentativas de desbloqueio](features#restrict-unlocking-attempts)| ✔️| - Tella Web <br />- Uwazi| ✔️ |
 | [Edição de Mídia](/features#edit-media)| ✔️| ✔️| ✔️ |
@@ -24,5 +24,5 @@
 | [Conexões para coleta de dados e envio de arquivos](/features#connecting-to-servers)| ✔️ | - Tella Web <br />- Uwazi | ✔️ |
 | [Coleta de dados offline](/features#offline-data-collection)| ✔️ | ✔️  | ✔️ |
 | [Saída rápida](/features#quick-exit)| Bloqueio e fechamento | Bloqueio  | Bloqueio e fechamento  |
-| [Conexões para coleta de dados e envio de arquivos](/features#connecting-to-servers) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) <br /> - [Open Data Kit (Forms)](/odk) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) |  - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Open Data Kit (Forms)](/odk)  |
+| [Conexões para coleta de dados e envio de arquivos](/features#connecting-to-servers) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) <br /> - [Open Data Kit (Forms)](/odk) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) |  - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Open Data Kit (Forms)](/odk) <br />- [Nextcloud](/nextcloud) |
 | [Coleta de dados offline](/features#offline-data-collection) | ✔️ | ✔️ |  ✔️ |
