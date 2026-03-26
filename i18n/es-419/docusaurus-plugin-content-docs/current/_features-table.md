@@ -3,7 +3,7 @@
 |------|------|-----|-----|
 |[Bloqueo de App](/features#app-lock)| Contraseña, PIN, Patrón|Contraseña, PIN | Contraseña, PIN, Patrón |
 |[Cifrado en segundo plano](/features#background-encryption) | ✔️ | ✔️| ✔️ |
-|[Respaldar archivos a la nube](/features#backup-files) | Aún no | - [Google Drive](/g-drive) <br />- [Nextcloud](/nextcloud)| Aún no |
+|[Respaldar archivos a la nube](/features#backup-files) | Aún no | - [Google Drive](/g-drive) <br />- [Nextcloud](/nextcloud)| - [Nextcloud](/nextcloud) |
 |[Configuración de tiempo de espera para bloqueo](/features#lock-timeout-configuration)| ✔️| ✔️| ✔️ |
 |[Modo silencioso de cámara](/features#camera-silent-mode)| ✔️| Aún no| ✔️ |
 | [Seguridad de Pantalla](/features#screen-security)| ✔️| ✔️| ✔️ |
@@ -24,5 +24,5 @@
 | [Modo Verificación](/features#verification-mode)| ✔️ | Aún no | ✔️ |
 | [Borrado rápido](/features#quick-delete)| Archivos, Conexiones y Tella | Archivos y Conexiones  | Archivos, Conexiones y Tella |
 | [Salida rápida](/features#quick-exit)| Bloquea y cierra | Bloquea  | Bloquea y cierra  |
-| [Conexiones para recopilar datos y enviar archivos](/features#connecting-to-servers) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) <br /> - [Open Data Kit (Formularios ODK)](/odk) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) |  - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Open Data Kit (Formularios ODK)](/odk)  |
+| [Conexiones para recopilar datos y enviar archivos](/features#connecting-to-servers) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) <br /> - [Open Data Kit (Formularios ODK)](/odk) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) |  - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Open Data Kit (Forms)](/odk) <br />- [Nextcloud](/nextcloud) |
 | [Recopilación de datos fuera de línea](/features#offline-data-collection) | ✔️ | ✔️ |  ✔️ |
