@@ -117,7 +117,7 @@ Leia mais sobre o Tella Web [aqui](/tella-web) ou veja um [vídeo tutorial](/vid
 
 Nós escrevemos uma documentação sobre como se conectar a um servidor Uwazi e recomendamos que você leia [esta página](/uwazi) para começar.
 
-#### Nextcloud,. Dropbox e Google Drive {#nextcloud-dropbox-and-google-drive}
+#### Nextcloud, Dropbox and Google Drive {#Nextcloud-dropbox-and-google-drive}
 Los usuarios también pueden conectarse a su cuenta de Google, Dropbox o Nextcloud de organización o de las cuentas personales para la presentación de informes (audio, fotos, vídeos y texto) directamente desde Tella. No necesitan el Dropbox, Google Drive o Nextcloud aplicaciones en sus teléfonos y no necesita usar apps de terceros.
 
 Lea Más
