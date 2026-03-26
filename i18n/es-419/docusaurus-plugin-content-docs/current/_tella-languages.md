@@ -3,7 +3,7 @@
 3. Bielorruso
 4. Birmano
 5. Inglés
-6. Chinese
+6. Chinese (Simplified Chinese)
 7. Francés
 8. Indonesio
 9. Jingpo
