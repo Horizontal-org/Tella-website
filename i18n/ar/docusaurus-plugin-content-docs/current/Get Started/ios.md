@@ -117,7 +117,7 @@ slug: /get-started-ios
 
 لقد كتبنا توثيقات حول كيفية الاتصال بخادم Uwazi، كما نوصيك أن تبدأ بقراءة [هذه الصفحة](/uwazi).
 
-#### اقرأ المزيد عن Tella {#read-more-about-tella}
+#### Nextcloud, Dropbox and Google Drive {#Nextcloud-dropbox-and-google-drive}
 ‫[الميزات](/features): تعرَّف على المزيد حول كيف يمكن لـ Tella أن يحافظ على سلامتك والتهديدات التي _لا_ يحميك منها Tella.
 
 [الاتصالات](/for-organizations): تعرف على كيفية الاتصال بخادم لجمع البيانات أو للنسخ الاحتياطي للملفات.
