@@ -3,6 +3,6 @@
 |Uwazi|✔️|✔️|✔️|
 |Tella Web|✔️|✔️| ✔️ |
 |Open Data Kit (ODK)|✔️|Gérer l'accès aux projets {#managing-access-to-projects}|✔️|
-|Google Drive | ✔️ |✔️| Personnalisation de l'écran d'accueil {#homescreen-customization}|
-|Nextcloud | ✔️ |✔️| Personnalisation de l'écran d'accueil {#homescreen-customization}|
-|Dropbox | ✔️ | ✔️ | Personnalisation de l'écran d'accueil {#homescreen-customization}|
+|Google Drive | ✔️ |✔️| Gérer l'accès aux projets {#managing-access-to-projects} |
+|Nextcloud | ✔️ |✔️| ✔️|
+|Dropbox | ✔️ | ✔️ | Gérer l'accès aux projets {#managing-access-to-projects}|
