@@ -3,7 +3,7 @@
 |------|------|-----|-----|
 |[قفل التطبيق](/features#app-lock)| كلمة السر، رقم التعريف الشخصي، النمط|كلمة السر، رقم التعريف الشخصي | كلمة السر، رقم التعريف الشخصي، النمط |
 |[تعمية في الخلفية](/features#background-encryption) | قص الصور وتدويرها | قص الصور وتدويرها| قص الصور وتدويرها |
-|[تهيئة مهلة القفل](/features#lock-timeout-configuration) | ✔️ | ✔️| ✔️ |
+|[تهيئة مهلة القفل](/features#lock-timeout-configuration) | ✔️ | ✔️| - [Nextcloud](/nextcloud) |
 |[الوضع الصامت للكاميرا](/features#camera-silent-mode)| قص الصور وتدويرها| قص الصور وتدويرها| قص الصور وتدويرها |
 |[أمن الشاشة](/features#screen-security)| قص الصور وتدويرها| ✔️| قص الصور وتدويرها |
 | [تقييد محاولات فتح القفل](features#restrict-unlocking-attempts)| قص الصور وتدويرها| قص الصور وتدويرها| قص الصور وتدويرها |
@@ -24,5 +24,5 @@
 | [الحذف السريع](/features#quick-delete)| قص الصور وتدويرها | ✔️ | قص الصور وتدويرها |
 | [الخروج السريع](/features#quick-exit)| القفل والإغلاق | القفل  | القفل والإغلاق |
 | [اتصالات لجمع البيانات وإرسال الملفات](/features#connecting-to-servers)| - Uwazi <br />- Open Data Kit (استمارات) | - Tella Web <br />- Uwazi  | - Uwazi <br />- Open Data Kit (استمارات)  |
-| [جمع البيانات دون الاتصال بالانترنت](/features#offline-data-collection) | ✔️ | ✔️ |  ✔️  |
+| [جمع البيانات دون الاتصال بالانترنت](/features#offline-data-collection) | ✔️ | ✔️ |  - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Open Data Kit (Forms)](/odk) <br />- [Nextcloud](/nextcloud) |
 | [جمع البيانات دون الاتصال بالانترنت](/features#offline-data-collection) | قص الصور وتدويرها | قص الصور وتدويرها |  قص الصور وتدويرها |
