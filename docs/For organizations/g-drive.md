@@ -21,6 +21,9 @@ The Google Drive connection is a an option to collect photos, videos and audios 
 
 Submissions to Google Drive take the form of "reports" which include a title, a text description, and files like photos, videos and audio recordings.
 
+:::note
+The Google Drive connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
+:::
 
 
 ## When to Use Google Drive {#when-to-use-google-drive}
