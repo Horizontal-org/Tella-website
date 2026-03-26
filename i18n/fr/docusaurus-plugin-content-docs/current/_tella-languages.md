@@ -3,7 +3,7 @@
 3. biélorusse
 4. birman
 5. anglais
-6. Chinois
+6. Chinese (Simplified Chinese)
 7. Français
 8. indonésien
 9. Indonésien
