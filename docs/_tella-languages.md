@@ -3,7 +3,7 @@
 3. Belarusian
 4. Bengali
 5. Burmese
-6. Chinese
+6. Chinese (Simplified Chinese)
 7. English
 8. French
 9. Indonesian

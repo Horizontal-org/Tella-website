@@ -40,7 +40,7 @@ import ThemedImage from '@theme/ThemedImage';
             <p>Si eres activista, periodista, trabajas defendiendo los derechos humanos, o eres alguien que documenta injusticias, puedes usar Tella para:</p>
             <ul>
                 <li><span className="emphasis">Protegerte</span> de la represión física y digital mientras recopilas y almacenas información sensible.</li>
-                <li><span classnname="emphasis">Proteger los datos que recopilas</span> de la censura, manipulación, interceptación y destrucción.</li>
+                <li><span className="emphasis">Proteger los datos que recopilas</span> de la censura, manipulación, interceptación y destrucción.</li>
                 <li><span className="emphasis">Producir fácilmente documentación de alta calidad</span> que puede ser utilizada para investigación, defensa o justicia transicional.</li>
             </ul>
         </div>
@@ -88,7 +88,7 @@ import ThemedImage from '@theme/ThemedImage';
         <div className="column" id="section-column1">
             <ul>
                 <li><span className="emphasis">Gratis para siempre:</span> Tella está diseñada para quienes su seguridad está en riesgo. Es gratuita para descargar y usar, y seguirá siendo gratuita para siempre.</li>
-                <li><span className="emphasis">Elege tu idioma:</span> Tella está <a href="faq#what-languages-is-tella-available-in"> disponible </a> en 23 idiomas.</li>
+                <li><span className="emphasis">Elige tu idioma:</span> Tella está actualmente<a href="faq#what-languages-is-tella-available-in"> disponible </a> en 23 idiomas.</li>
                 <li><span className="emphasis">Confía en el código:</span> El código de Tella es de código abierto <a href="open-source">disponible públicamente </a> para que investigadora(e)s, analistas de seguridad y desarrolladora(e)s puedan auditarlo y reutilizarlo libremente.</li>
             </ul>
         </div>
