@@ -3,7 +3,7 @@
 |------|------|-----|-----|
 |[Bloqueo de App](/features#app-lock)| Contraseña, PIN, Patrón|Contraseña, PIN | Contraseña, PIN, Patrón |
 |[Cifrado en segundo plano](/features#background-encryption) | ✔️ | ✔️| ✔️ |
-|[Respaldar archivos a la nube](/features#backup-files) | Aún no | - [Google Drive](/g-drive) <br />- [Nextcloud](/nextcloud)| - [Nextcloud](/nextcloud) |
+|[Respaldar archivos a la nube](/features#backup-files) | - [Google Drive](/g-drive) <br />- [Nextcloud](/nextcloud) <br /> - [Dropbox](/dropbox) | - [Google Drive](/g-drive) <br />- [Nextcloud](/nextcloud)<br />- [Dropbox](/dropbox)| - [Nextcloud](/nextcloud) |
 |[Configuración de tiempo de espera para bloqueo](/features#lock-timeout-configuration)| ✔️| ✔️| ✔️ |
 |[Modo silencioso de cámara](/features#camera-silent-mode)| ✔️| Aún no| ✔️ |
 | [Seguridad de Pantalla](/features#screen-security)| ✔️| ✔️| ✔️ |
