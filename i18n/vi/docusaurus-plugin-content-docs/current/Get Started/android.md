@@ -125,7 +125,7 @@ Chúng tôi đã soạn tài liệu về cách kết nối với máy chủ Bộ
     <img src={require("@site/static/img/getting-started/android/kobo.gif").default} alt="gif that shows ODK connection" title="ODK connection" />
 </div>
 
-#### Uwazi {#uwazi}
+#### Bộ Công Cụ Dữ Liệu Mở (ODK) {#open-data-kit-odk}
 [Uwazi](https://uwazi.io/) là một ứng dụng nguồn mở do HURIDOCS tạo ra với các tính năng mạnh mẽ để thu thập, sắp xếp và trực quan hóa dữ liệu về nhân quyền.
 
 Chúng tôi đã tạo tài liệu về cách kết nối với máy chủ Bộ Công cụ Dữ liệu mở và chúng tôi khuyên bạn nên đọc [trang này](/uwazi) để bắt đầu.
@@ -134,18 +134,22 @@ Chúng tôi đã tạo tài liệu về cách kết nối với máy chủ Bộ 
     <img src={require("@site/static/img/getting-started/android/uwazi.gif").default} alt="gif that shows Uwazi connection" title="Uwazi connection" />
 </div>
 
-#### Tella Web {#tella-web}
-Tella Web là một công cụ nguồn mở cho phép các cá nhân và tổ chức tập trung và quản lý các báo cáo do người dùng Tella gửi, bao gồm hình ảnh, video và tệp âm thanh.
+#### [Uwazi](/uwazi) là một công cụ tài liệu mã nguồn mở được phát triển bởi HURIDOCS. Đây là một ứng dụng cơ sở dữ liệu trên web được thiết kế linh hoạt dành cho nhà bảo vệ nhân quyền trong việc quản lý bộ sưu tập thông tin của mình, bao gồm tài liệu, bằng chứng, các vụ việc và những khiếu nại. 
+Tella Web là một công cụ mã nguồn mở cho phép các cá nhân và tổ chức tổng hợp và quản lý các báo cáo do người dùng Tella gửi, bao gồm ảnh, video, tài liệu pdf và tệp âm thanh.
 
 Đọc thêm về Tella Web [tại đây](/tella-web) hoặc xem [video hướng dẫn](/video-tutorials#tella-web).
 
-#### Đọc thêm về Tella {#read-more-about-tella}
+#### Nextcloud, Dropbox and Google Drive {#Nextcloud-dropbox-and-google-drive}
 [Tính năng](/features): Tìm hiểu thêm về cách Tella có thể giữ an toàn cho bạn và những mối đe dọa mà Tella không_thể_bảo vệ bạn.
 
 [Kết nối](/for-organizations): Tìm hiểu cách bạn có thể kết nối với máy chủ để thu thập dữ liệu hoặc sao lưu tài liệu.
 - [Bảo mật và quyền riêng tư](/security-and-privacy): Chúng tôi chỉ thu thập lượng dữ liệu tối thiểu cần thiết và không bao giờ thu thập bất kỳ thông tin cá nhân nào có thể nhận dạng được. Đọc chính sách bảo mật đầy đủ [tại đây](/privacy).
 - Liên hệ với chúng tôi nếu bạn cần giúp đỡ {#contact-us-if-you-need-help}
 - Nếu bạn cần trợ giúp để hiểu các chi tiết kỹ thuật và các yếu tố về bảo mật của Tella, để quyết định xem nó có phù hợp với bạn và nhóm của bạn hay không, chúng tôi ở đây để giúp đỡ. Chỉ cần [liên hệ với chúng tôi](/contact-us) để chúng tôi giải đáp các câu hỏi hoặc tổ chức một buổi đào tạo hoặc một buổi hỏi-đáp trực tiếp cho nhóm của bạn.
+
+:::note
+The Google Drive and Dropbox connections are not available in Tella Android FOSS, because they use closed-sourced libraries.
+:::
 
 
 
