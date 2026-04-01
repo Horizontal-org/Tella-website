@@ -14,14 +14,8 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 
 ## Tella - Latest Versions {#tella---latest-versions}
 
-### Android: Tella 2.20.0 (228) - Released on March 19, 2026 {#android-tella-2200228---released-on-mar-19-2026}
-- Improvements to the Tella Web connection to increase resilience against intermittent and slow connectivity:
-  - Fixed bug: Auto-reports getting stuck in the Outbox.
-  - Improved background submission: Ensures that submissions complete even if the app is in the background.
-  - Implemented a retry mechanism to resubmit reports once the connection is restored.
-- Updated translations.
-- Bug fixes and minor improvements:
-  - Add contact info field to feedback form.
+### Android: Tella 2.20.1 (230) - Released on April 1, 2026 {#android-tella-2201230---released-on-apr-1-2026}
+- Hotfix: Manual reports (to all connections) are not longer stuck in the Outbox
 
 
 ### iOS: Tella 1.19.0 (129) - Released on March 19, 2026 {#ios-tella-1190-129---released-on-march-19-2026}
@@ -40,7 +34,7 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 
 
 
-### Android: Tella FOSS 2.20.0(228) (based on Android 2.20.0) - Released on March 26, 2026 {#android-tella-foss-2200-based-on-android-2200---released-on-march-26-2026}
+### Android: Tella FOSS 2.20.0(229) (based on Android 2.20.0) - Released on April 1, 2026 {#android-tella-foss-2200-based-on-android-2200---released-on-april-1-2026}
 
 We updated Tella FOSS, the version of Tella published on F-Droid that is 100% Free and Open-Source Software (FOSS). This updated version includes open-source map, location provider and Camera libraries. It doesn't include crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. 
 
@@ -85,6 +79,17 @@ This version is based on Tella Android 2.11.0 and includes the following feature
 A detailed list of features available on each platform is [available here](/features).
 
 
+
+## Previous versions {#previous-versions}
+
+### Android: Tella 2.20.0 (228) - Released on March 19, 2026 {#android-tella-2200228---released-on-mar-19-2026}
+- Improvements to the Tella Web connection to increase resilience against intermittent and slow connectivity:
+  - Fixed bug: Auto-reports getting stuck in the Outbox.
+  - Improved background submission: Ensures that submissions complete even if the app is in the background.
+  - Implemented a retry mechanism to resubmit reports once the connection is restored.
+- Updated translations.
+- Bug fixes and minor improvements:
+  - Add contact info field to feedback form.
 
 ### iOS: Tella 1.18.0 (114) - Released on January 30, 2026 {#ios-tella-1180-114---released-on-jan-30-2026}
 - Completed onboarding tutorial for iOS and added lock-protection guidance for new users.
