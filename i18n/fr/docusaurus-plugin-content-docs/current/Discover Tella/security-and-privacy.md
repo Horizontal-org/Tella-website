@@ -36,7 +36,7 @@ En raison des politiques strictes d’Apple concernant les applications iOS, Tel
 
 ## Analyses {#analytics}
 
-Dans Tella Android et [Tella Web](/tella-web), les utilisateurs peuvent choisir de partager des analyses pour améliorer Tella. Ces données nous aident à comprendre comment les gens utilisent Tella et quelles fonctionnalités sont importantes pour eux. ***Les données d'analyse ne sont collectées que si les utilisateurs choisissent de les accepter dans les paramètres de l'application***
+In Tella Android, Tella FOSS and [Tella Web](/tella-web), users can choose to share analytics to improve Tella. This data helps us understand how people use Tella and which features are important to them. ***Analytics data is only collected if users opt-in in the app's settings***
 
 Nous utilisons [Divvi Up](https://divviup.org/), un service de télémétrie respectueux de la vie privée. Divvi Up est mis en œuvre par le [Internet Security Research Group (ISRG)](https://www.abetterinternet.org/), une organisation à but non lucratif qui gère également le projet [Let’s Encrypt](https://letsencrypt.org/).
 
@@ -46,13 +46,21 @@ Voici quelques informations sur notre approche analytique respectueuse de la vie
 2. **Même si nous le voulions, nous ne pourrions pas obtenir toutes les données**: Il n'est pas possible de construire toutes les données avec une seule part. Chaque processeur agrège ses parts de données en une somme partielle. Les sommes partielles peuvent ensuite être combinées en une agrégation finale, permettant d'obtenir des statistiques utiles sur l'ensemble des données tout en révélant un minimum d'informations sur les participants individuels. Une documentation technique complète sur le fonctionnement de Divvi Up est disponible [ici](https://docs.divviup.org/).
 3. **Nous collectons le moins de données possible**: Même si toutes les données sont anonymisées, nous minimisons toujours la quantité de données que nous collectons. À partir des dernières versions de Tella, nous collectons uniquement des données sur les événements suivants (et rien de plus):
 
-    **Tella Android**
-    - Nombre d'événements de déverrouillage réussis.
+    **Tella Android and Tella FOSS**
+    - Number of times Tella is successfully unlocked.
+    - Number of media files recorded (videos/photos taken and audio recordings captured).
+    - Number of files imported from the device's gallery or file system into Tella.
+    - Number of security features activated (number of times that camouflage is enabled, number of times that the quick delete action is triggered).
+    - Number of new installations.
+    - Number of reports uploaded to any connection (Tella Web, Uwazi, ODK, Nexcloud, Google Drive, Dropbox)
+    - Time spend in Tella. 
+
 
     **Tella Web**
-    - Nombre de visites (déclenché chaque fois que quelqu'un entre dans une instance Tella Web).
-    - Nombre de téléchargements de fichiers (déclenché chaque fois que quelqu'un télécharge un fichier sur une instance tellaweb).
-    - Nombre de rapports (déclenché chaque fois que quelqu'un télécharge un rapport sur une instance tellaweb).
+   The data below is only collected from Tella Web instances that have opted-in to share privacy-preserving analytics with the Tella team.
+    - Number of visits (triggered every time someone enters any Tella Web instance).
+    - Number of file uploads (triggered every time someone uploads a file to any Tella Web instance).
+    - Number of Report uploads (triggers every time someone uploads a report to any Tella Web instance).
 
 
 Pour plus d'informations sur les métriques que nous ajoutons à nos applications, consultez nos [notes de publication](/releases).
@@ -97,19 +105,29 @@ Il n’existe pas d’application 100 % « sécurisée ». La sécurité dépend
 
 Nous demandons régulièrement à des sociétés de sécurité indépendantes d’auditer notre code pour garantir qu’il est robuste et sécurisé.
 
-| Date | Audité par | Les plateformes auditées    | Lien      |
+| Date | Audité par | Les plateformes auditées  | Lien      |
 | -----|----------|----|-----------|
-| Mai 2024 | Subgraph Technologies, Inc. |  Android, iOS, Tella Web |[Voir le rapport](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
-| Mai 2023 | Subgraph Technologies, Inc. | Android, iOS, Tella Web |[Voir le rapport](</assets/2023.05 - Tella security audit - Final report.pdf>)|
+| August 2024 | Radically Open Security |  Android, iOS, Android FOSS|[View pen-testing results](</assets/2024.08.30-Penetration-Test-Report-Horizontal.pdf>)|
+| Mai 2024 | Subgraph Technologies, Inc. |  Android, iOS, Tella Web|[View updated report confirming fixes has been implemented](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
+| Mai 2023 | Subgraph Technologies, Inc. | Android, iOS, Tella Web |[View security audit](</assets/2023.05 - Tella security audit - Final report.pdf>)|
 
 
- Voici le résumé du dernier audit et l'état des vulnérabilités identifiées:
+This is the summary from the latest audit and the status of the vulnerabilities identified:
+
+| Titre                                               | Sévérité    | Plateforme | Faible      |
+|-----------------------------------------------------|-------------|-------------|-------------|
+| Require re-authentication for changing key security settings | Moderate      | Général | Planification |
+| Improve webview implementation                      |  Moderate   | iOS       | Résolu |
+| Improve GitHub practices (merging to main and tags) | Faible         | Android, Android FOSS | Resolved (pending re-test) |
+| Increase PBKDF2 iteration counts.                   | Faible         | Android, Android FOSS | Personnalisation de l'écran d'accueil {#homescreen-customization} |
+| Do not allow clear-text traffic in Android manifest.| Faible         | Android, Android FOSS | Résolu |
+| Outdated 3rd-party dependencies                     | Inconnu         | Android, Android FOSS | Résolu |
 
 
-| Titre                                               | Sévérité    | Statut      |
-|-----------------------------------------------------|-------------|-------------|
-| Tentatives de déverrouillage sans restriction                        | Moyen      | Résolu |
-| Itérations PBKDF2 de la clé d'E/S du flux de chiffrement Android     | Faible         | Résolu    |
-| Les données audio Tella iOS Cleartext peuvent persister plus longtemps  | Faible         | Résolu    |
-| Dépendance obsolète de Tella Android Retrofit2         | Faible         | Résolu    |
-| Dépendance obsolète de Tella Android :  Butterknife    | Informatif| Résolu |
+
+
+
+
+
+
+
