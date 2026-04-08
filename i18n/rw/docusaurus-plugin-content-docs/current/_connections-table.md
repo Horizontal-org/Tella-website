@@ -1,0 +1,8 @@
+| **Umuyoboro** | **Andoroyide**| **iOS** | **Android FOSS** |
+|------|------|-----|-----|
+|Uwazi|✔️|✔️|✔️|
+|Tella Web|✔️|✔️| ✔️ |
+|Open Data Kit (ODK)|✔️|❌|✔️|
+|Google Drive | ✔️ |✔️| ❌ |
+|Nextcloud | ✔️ |✔️| ✔️|
+|Dropbox | ✔️ | ✔️ | ❌|
