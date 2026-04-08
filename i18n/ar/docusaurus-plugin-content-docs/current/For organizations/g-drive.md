@@ -1,0 +1,132 @@
+---
+id: g-drive
+title: Google Drive
+description: Tella allows users to conveniently upload photos, videos, pdfs and audio recordings to their personal or organizational Google Drive.
+slug: /g-drive
+---
+
+# Google Drive Connection
+
+Tella allows users to sign in to their Google account directly from Tella and to upload files directly to Google Drive.
+
+Similarly to other server connections (like [Tella Web](/tella-web), [Uwazi](/uwazi), [Dropbox](/dropbox), [Nextcloud](/nextcloud) or [Open Data Kit](/odk)), connecting to a Google Drive server enhances the security of data collected on Tella by:
+
+
+1. السماح للمستخدمين بجمع البيانات مباشرة داخل حاوية Tella المُعمّاة.
+2. Ensuring that data is sent directly from Tella to Google Drive, without needing to install the Google Drive app on the device or sending the data through a third-party app.
+3. Allowing users to back up their data on a remote location, to lower the risk that data is discovered on their mobile device.
+4. التأكد من أن المنظمات يمكنها الحفاظ على المعلومات المهمة حتى في حالة مصادرة الجهاز أو عند تدميره، والتأكد من أنه يمكن تنظيم تلك المعلومات للبحث أو للمناصرة أو لإجراءات المساءلة.
+
+The Google Drive connection is a an option to collect photos, videos and audios from users in the ground, when there is no technical capacity to install a self-hosted server(like [Tella Web server](/tella-web)) and there is no risk on using a commercial tool like Google. 
+
+Submissions to Google Drive take the form of "reports" which include a title, a text description, and files like photos, videos and audio recordings.
+
+:::note
+The Google Drive connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
+:::
+
+
+## When to Use Google Drive {#when-to-use-google-drive}
+
+The Google Drive connection may be particularly well-suited for:
+- Organizations that already use Google Drive.
+- Users who already have a Google account.
+- Projects where the privacy needs do not preclude the use of a tool like Google Drive.
+- Organizations that cannot or don't want to self-host an app (like [Tella Web server](/tella-web)) on a server.
+
+:::tip
+If you need help figuring out if Google Drive is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
+:::
+
+
+## Connect to Google Drive {#connect-to-google-drive}
+
+In order to connect to a Google Drive:
+
+* حدد "Uwazi" من قائمة أنواع الخوادم المتاحة.
+* Select "Google Drive" from the list of available server types.
+* Login to your Google account using the Google login flow on the web view. 
+* Grant Tella permissions to modify your Google Drive (we need this permission to be able to upload files to your drive and create folders in your behalf).
+* Choose a name for the folder where all your Tella submissions will be saved.
+
+
+## Manage the Google Drive connection {#manage-the-google-drive-connection}
+
+* In **Settings ⚙️** > **Connections** >  **Google Drive** > 3-dots, you can:
+  - Delete the connection
+
+For now, it is not possible to sign in to multiple Google accounts at the same time. If you want to sign-in to your Google Drive using a different email, delete your Google Drive connection and create a new one.
+
+
+## Submit to Google Drive {#submit-to-google-drive}
+
+* Once connected, a "Google Drive" card will appear in the "Connections" section of the homescreen. Tap on this card to start submitting to Google Drive.
+* The main Google Drive screen allows navigation between the Drafts, Outbox, and Submitted tabs.
+* Tap the "New report" button at the bottom of the screen to create a new report to Google Drive.
+    * On the "New report" screen you can fill in the report's details, including title, description, and optional attachments of photos, videos and audio recordings.
+* Use the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft without leaving the "New report" screen. 
+    * لكي تتمكن من الحفظ كمُسوَّدة، ستحتاج على الأقل إلى إدخال عنوان للتقرير.
+    * ستظهر رسالة على الشاشة لتأكيد حفظ المُسوَّدة.
+* The "Submit later" button ⏱️ saves the report to the Outbox for manual submission.
+    * The "Outbox" tab is often used when data collectors don’t have access to the internet or if the connection is not stable.
+* The “Submit” button sends the report to Google Drive immediately.
+    * If submission fails due to connectivity issues, the report goes to the “Outbox" tab.
+    * If the report is submitted correctly, it goes to the “Submitted” tab and a new folder will be created in Gooogle Drive with the title you selected and the description you entered. All attachments will be added to the folder.
+
+
+## مُسوَّدات التقارير {#draft-reports}
+
+A Draft report is a report that was created and saved but not yet submitted. Drafts reports are useful to save work in progress that can be editted later on. It allows users to create reports offline or over a long period of time before finalizing and sending them. This is especially useful in low-connectivity areas or when a user needs to gather information in multiple stages.
+
+Reports in the Draft tab can be edited.
+
+* On the "New report" screen, tap the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft.
+    * ستظهر رسالة تأكيد، ويمكنك متابعة العمل على التقرير أو الخروج للعودة إليه لاحقا.
+* إذا حاولت الخروج من التقرير دون حفظه، سيطلب منك تأكيد رغبتك حقا في الخروج دون حفظ التقرير.
+* في لسان المُسوَّدات، يمكنك عرض وإدارة مُسوَّدات التقارير. افتح مُسوَّدة التقرير لمتابعة العمل عليه ولإرساله.
+* ‫يمكنك حذف مُسوَّدة التقرير بلمس الثلاث نقط > **حذف** أو بالدخول إلى التقرير ثم لمس زر الحذف.
+
+
+#### Submit a Report to Google Drive {#submit-a-report-to-google-drive}
+
+* في التقرير، المس "إرسال" لبدء عملية إرسال التقرير.
+* سيتم توجيهك إلى شاشة ملخصة تعرض تقدُّم تحميل كل ملف مرفق.
+* هناك زر "حذف" لإيقاف التحميل وحذف التقرير.
+* إذا كان يتم تحميل التقرير بنشاط، فإن زر "إيقاف مؤقت" يسمح لك بإيقاف التحميل مؤقتا، والذي يمكن استئنافه لاحقا باستخدام زر "استئناف".
+* لا يؤثر الخروج من التقرير على حالة التحميل. إذا كان يتم تحميل التقرير بنشاط، ستستمر العملية.
+
+:::info
+After a report has been uploaded to Google Drive, it is not possible to delete it on Google Drive from the Tella mobile app. Deleting a submitted report will only delete the local version of it, not the report on the server. 
+:::
+
+:::info
+Deleting a report in the middle of submission will cancel the upload of the files that haven’t been uploaded yet, but submitted files and partially submitted files that are already on Google Drive won’t be deleted.
+:::
+
+
+#### البريد الصادر {#outbox}
+
+The Outbox tab contains reports that are finalized and have been saved for later submission. Reports in the Outbox are ready to be submitted once the device reconnects to the internet or when the user chooses to manually send them.
+
+Reports in the Outbox tab cannot be edited.
+
+To send a report to the Outbox, use the Submit later button (⏱️), at the bottom left of the Submit Report screen. 
+
+The Outbox contains:
+
+* الإرسالات الموقوفة مؤقتا
+* إرسال التقارير التي توقفت بسبب مشاكل في الاتصال.
+* التقارير التي تم وسمها بـ "إرسال لاحقا"
+
+
+#### التقارير المُرسَلة {#submitted-reports}
+
+- The Submitted tab displays reports that have been successfully submitted to  Google Drive.
+- في علامة لسان المُرسَل، يمكنك عرض ومراجعة التقارير المُرسَلة.
+
+:::info
+إذا انقطع الاتصال بالانترنت، ستنتقل التقارير إلى لسان البريد الصادر وستحتاج إلى استئناف الإرسال يدويا.
+:::
+
+
+
