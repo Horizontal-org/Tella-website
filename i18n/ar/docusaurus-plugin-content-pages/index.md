@@ -84,7 +84,7 @@ import ThemedImage from '@theme/ThemedImage';
 <li>
 <span classname="emphasis">مجاني للأبد:</span> تم تصميم Tella لأولئك الذين تكون سلامتهم مُعرَّضة للخطر. إن تنزيله واستخدامه مجاني، وسيظل مجانيا إلى الأبد.</li>
                 <li>
-<span classname="emphasis">Choose your language:</span> Tella is currently <a href="faq#what-languages-is-tella-available-in"> available </a> in 22 languages.</li>
+<span classname="emphasis">Choose your language:</span> Tella is currently <a href="faq#what-languages-is-tella-available-in"> available </a> in 24 languages.</li>
                 <li>
 <span classname="emphasis">ثق بالنص البرمجي:</span> إن النص البرمجي لـ Tella مفتوح المصدر و<a href="/open-source">متاح للعموم</a> بحيث يمكن للباحثين، والمحللين الأمنيين، والمطورين التدقيق فيه وإعادة استخدامه بحُرية.</li>
             </ul>
