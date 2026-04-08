@@ -14,8 +14,10 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 
 ## Tella - Latest Versions {#tella---latest-versions}
 
-### Android: Tella 2.20.1 (230) - Released on April 1, 2026 {#android-tella-2201230---released-on-apr-1-2026}
-- Hotfix: Manual reports (to all connections) are not longer stuck in the Outbox.
+### Android: Tella 2.20.2 (232) - Released on April 8, 2026 {#android-tella-2202232---released-on-apr-8-2026}
+- Hotfix: Made sure that the confirmation messages for submission and auto-deletion only show when the action has been done.
+- Hotfix: Made sure that if users exit the flow for changing Lock in the middle, Tella keeps the old lock. Locks are only changed after the whole flow is completed.
+- Hotfix: Fixed concurrency problem for when multiple files are sent to Tella Web. We now make sure that all files are sent to the server, even if we need to split the files in multiple auto-reports.
 
 
 ### iOS: Tella 1.19.1 (130) - Released on April 7, 2026 {#ios-tella-1191-130---released-on-april-7-2026}
@@ -45,6 +47,9 @@ A detailed list of features available on each platform is [available here](/feat
 
 
 ## Previous versions {#previous-versions}
+
+### Android: Tella 2.20.1 (230) - Released on April 1, 2026 {#android-tella-2201230---released-on-apr-1-2026}
+- Hotfix: Manual reports (to all connections) are not longer stuck in the Outbox.
 
 ### iOS: Tella 1.19.0 (129) - Released on March 19, 2026 {#ios-tella-1190-129---released-on-march-19-2026}
 - Improvements to the Tella Web connection to increase resilience against intermittent and slow connectivity:
