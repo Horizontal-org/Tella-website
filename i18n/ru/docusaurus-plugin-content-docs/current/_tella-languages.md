@@ -3,7 +3,7 @@
 3. Беларусский
 4. Bengali
 5. Бирманский
-6. Китайский
+6. Chinese (Simplified Chinese)
 7. Русский
 8. Французский
 9. Indonesian
@@ -12,12 +12,13 @@
 12. Karen Sgaw
 13. Курдский
 14. Малайялам
-15. Ndau
-16. Персидский
-17. Португальский
-18. Portuguese (Mozambique)
-19. Русский
-20. Spanish (Latin America)
-21. Тамильский
-22. Tsonga
-23. Вьетнамский
+15. Mizo
+16. Ndau
+17. Персидский
+18. Португальский
+19. Portuguese (Mozambique)
+20. Русский
+21. Spanish (Latin America)
+22. Тамильский
+23. Tsonga
+24. Вьетнамский
