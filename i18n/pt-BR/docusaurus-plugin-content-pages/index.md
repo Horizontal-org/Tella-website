@@ -85,7 +85,7 @@ import ThemedImage from '@theme/ThemedImage';
 <li>
 <span classname="emphasis">Gratuito para sempre:</span> o Tella é projetado para aqueles cuja segurança está em risco. É gratuito para baixar e usar, e permanecerá gratuito para sempre.</li>
                 <li>
-<span classname="emphasis">Choose your language:</span> Tella is currently <a href="faq#what-languages-is-tella-available-in"> available </a> in 22 languages.</li>
+<span classname="emphasis">Choose your language:</span> Tella is currently <a href="faq#what-languages-is-tella-available-in"> available </a> in 24 languages.</li>
                 <li>
 <span classname="emphasis">Trust the code:</span> The code for Tella is open-source and <a href="open-source">publicly available</a> so that researchers, security analysts, and developers can freely audit and reuse it.</li>
             </ul>
