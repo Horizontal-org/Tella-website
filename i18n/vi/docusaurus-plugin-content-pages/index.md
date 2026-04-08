@@ -85,7 +85,7 @@ import ThemedImage from '@theme/ThemedImage';
 <li>
 <span classname="emphasis">Miễn phí mãi mãi:</span> Tella được thiết kế cho những người gặp rủi ro về an ninh. Ứng dụng này được tải xuống và sử dụng miễn phí, và sẽ luôn luôn miễn phí.</li>
                 <li>
-<span classname="emphasis">Choose your language:</span> Tella is currently <a href="faq#what-languages-is-tella-available-in"> available </a> in 22 languages.</li>
+<span classname="emphasis">Choose your language:</span> Tella is currently <a href="faq#what-languages-is-tella-available-in"> available </a> in 24 languages.</li>
                 <li>
 <span classname="emphasis">Tin tưởng vào mã nguồn:</span> mã nguồn của Tella là mã nguồn mở và <a href="open-source">công khai</a> để các nhà nghiên cứu, nhà phân tích bảo mật và nhà phát triển có thể tự do kiểm tra và tái sử dụng.</li>
             </ul>
