@@ -20,7 +20,9 @@ Similarly to other server connections (like [Tella Web](/tella-web), [Google Dri
 
 Submissions to Dropbox take the form of "reports" which include a title, a text description, and files like photos, videos and audio recordings.
 
-
+:::note
+The Dropbox connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
+:::
 
 ## When to Use Dropbox {#when-to-use-dropbox}
 
@@ -40,7 +42,7 @@ If you need help figuring out if Dropbox is best for your use-case, [check out t
 
 In order to connect to Dropbox:
 
-* Navegue para: ** * Configurações ⚙️** > **Conexões** > **+**
+* Navegue para: ** Configurações ⚙️** > **Conexões** > **+**
 * Select "Dropbox" from the list of available server types.
 * A new page will automatically open in your phone's web browser and direct you to Dropbox.
 * Login your Dropbox account in your web browser. 
