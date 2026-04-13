@@ -20,8 +20,10 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 - Hotfix: Fixed concurrency problem for when multiple files are sent to Tella Web. We now make sure that all files are sent to the server, even if we need to split the files in multiple auto-reports.
 
 
-### iOS: Tella 1.19.1 (130) - Released on April 7, 2026 {#ios-tella-1191-130---released-on-april-7-2026}
-- Hotfix: Connection to some Tella Web project was failing, because of an old unused API parameter.
+### iOS: Tella 1.19.2 (132) - Released on April 13, 2026 {#ios-tella-1192-132---released-on-april-13-2026}
+- Hotfix: Translations now load automatically (without reloading the app).
+- Hotfix: Added missing translation tags.
+
 
 ### Android: Tella FOSS 2.20.0(229) (based on Android 2.20.0) - Released on April 1, 2026 {#android-tella-foss-2200-based-on-android-2200---released-on-april-1-2026}
 
@@ -47,6 +49,10 @@ A detailed list of features available on each platform is [available here](/feat
 
 
 ## Previous versions {#previous-versions}
+
+### iOS: Tella 1.19.1 (130) - Released on April 7, 2026 {#ios-tella-1191-130---released-on-april-7-2026}
+- Hotfix: Connection to some Tella Web project was failing, because of an old unused API parameter.
+
 
 ### Android: Tella 2.20.1 (230) - Released on April 1, 2026 {#android-tella-2201230---released-on-apr-1-2026}
 - Hotfix: Manual reports (to all connections) are not longer stuck in the Outbox.
