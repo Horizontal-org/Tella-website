@@ -25,11 +25,11 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 - Hotfix: Added missing translation tags.
 
 
-### Android: Tella FOSS 2.20.0(229) (based on Android 2.20.0) - Released on April 1, 2026 {#android-tella-foss-2200-based-on-android-2200---released-on-april-1-2026}
+### Android: Tella FOSS 2.20.2(233) (based on Android 2.20.2) - Released on April 22, 2026 {#android-tella-foss-2202-based-on-android-2202---released-on-april-22-2026}
 
 We updated Tella FOSS, the version of Tella published on F-Droid that is 100% Free and Open-Source Software (FOSS). This updated version includes open-source map, location provider and Camera libraries. It doesn't include crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. 
 
-This version is based on Tella Android 2.20.0 and includes the following features:
+This version is based on Tella Android 2.20.2 and includes the following features:
 - Big refactor (including adding product flavors) to be able to merge Tella Android and Tella FOSS codebases into a single one.
 - Implemented the Nextcloud server connection that allows Tella users to upload the data they collect directly to Nextcloud. [Read more here about the connection](/nextcloud).
 - New Languages support: Bengali, Ndau, Azerbaijani, Chinese, Mizo
@@ -90,9 +90,6 @@ This version is based on Tella Android 2.11.0 and includes the following feature
 
 A detailed list of features available on each platform is [available here](/features).
 
-
-
-## Previous versions {#previous-versions}
 
 ### Android: Tella 2.20.0 (228) - Released on March 19, 2026 {#android-tella-2200228---released-on-mar-19-2026}
 - Improvements to the Tella Web connection to increase resilience against intermittent and slow connectivity:
