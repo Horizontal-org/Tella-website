@@ -1,14 +1,14 @@
 ---
 id: faq
 title: Foire aux questions (FAQ)
-description: Foire aux questions concernant Tella
+description: Questions les plus fréquemment posées sur Tella
 slug: /faq
 ---
 
 import FeaturesTable from './_features-table.md';
 import TellaLanguages from './_tella-languages.md';
 
-# Foire aux questions au sujet de Tella
+# Questions les plus fréquemment posées sur Tella
 
 ## Général {#general}
 
@@ -35,12 +35,11 @@ Yes, we publish a version of Tella Android [on F-Droid](https://f-droid.org/en/p
 
 All code, libraries, and dependencies in Tella FOSS are entirely Free and Open Source Software (FOSS). Tella FOSS only includes an opt-in [privacy-preserving analytics](/security-and-privacy#analytics) tracker.
 
-
 ### Tella est-elle disponible sur iOS? {#is-tella-available-on-ios}
 
-Oui, Tella pour iOS peut être téléchargé [depuis l'App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580). Tella pour iOS en est à un stade de développement précoce, toutes les fonctionnalités ne sont donc pas encore disponibles. Cependant, il est stable et a subi un audit de sécurité.
+Yes, Tella for iOS can be downloaded [from the App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580).
 
-Pour plus de détails sur les fonctionnalités disponibles pour iOS, consultez la section Quelles fonctionnalités sont disponibles sur chaque plateforme.
+For details about which features are available for iOS, see [What features are available on each platform](/features).
 
 ### Quelles fonctionnalités sont disponibles sur chaque plateforme? {#what-features-are-available-on-each-platform}
 
@@ -113,6 +112,7 @@ Il n'y a pas de limite de stockage spécifique pour Tella. Cela dépendra de l'e
 
 Les emplacements de stockage externes (comme les cartes SD) ne sont actuellement pas utilisés par Tella.
 
+
 ### Can i backup the data I store in Tella? {#can-i-backup-the-data-i-store in-tella?}
 
 Yes, you can. You can connect to different clouds directly from Tella and choose the files you want to send to the cloud. You can read more about the [servers available here](/features#backup-files). You can also select files from your vault and export those your phone.
@@ -135,10 +135,10 @@ Malheureusement, il n'existe aucun moyen de déplacer automatiquement vos fichie
 L'utilisation de l'assistant de migration d'Apple ne fonctionnera pas : vos fichiers seront déplacés vers le nouveau téléphone cryptés, mais pas vos clés de chiffrement. Par conséquent, vous ne pourrez pas décrypter et ouvrir ces fichiers.
 
 Pour migrer vos fichiers Tella vers un nouveau téléphone, vous devez installer Tella sur le nouvel appareil, exporter tous les fichiers depuis Tella et les importer manuellement sur le nouveau téléphone. Nous vous recommandons de suivre ces étapes :
-  1. Sur votre ancien téléphone, accédez au dossier « Tous les fichiers » et utilisez la case à cocher « Sélectionner tout » pour sélectionner tous vos fichiers et dossiers. Gardez à l'esprit que les fichiers resteront visibles, non cryptés, dans la galerie du téléphone.
-  2. Utilisez Quick Share (sur Android), Airdrop (sur iOS) ou tout autre utilitaire de transfert de données pour déplacer vos fichiers vers le nouvel appareil. Les fichiers seront transférés sans cryptage.
-  3. Sur votre nouveau téléphone, ouvrez Tella et accédez au dossier « Tous les fichiers », appuyez sur le bouton « + » et sélectionnez « Importer depuis l'appareil ». Vous pouvez choisir « Supprimer l'original » dans la boîte de dialogue pour vous assurer que les fichiers sont uniquement stockés en toute sécurité dans Tella. Sélectionnez les fichiers que vous venez d'exporter depuis votre ancien téléphone pour les importer dans Tella.
-  4. Assurez-vous de supprimer les fichiers qui ne sont pas sécurisés dans le coffre-fort crypté de Tella des galeries de vos deux téléphones.
+  1. On your old phone go to the "All Files" folder and use the "Select all" checkbox to select all your files and folders. Keep in mind that the files will remain visible -unencrypted-, on the phone gallery. 
+  2. Use Quick Share (in Android), Airdrop (in iOS) or any other data transfer utility to move your files to the new device. Files will be transferred unencrypted.
+  3. On your new phone open Tella and go to the "All Files" folder, tap the "+"" button, and select "Import from device". You can choose "Delete original" in the dialog to make sure the files are only stored safely inside Tella. Select the files you had just exported from your old phone to import them to Tella. 
+  4. Make sure you delete the files that are not secured in Tella's encrypted vault from both your phones' galleries.
 
 
 
