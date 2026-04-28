@@ -1,6 +1,6 @@
 ---
 id: privacy-policy
-title: Chính sách Bảo mật
+title: Chính sách về Quyền riêng tư
 description: Chính sách Bảo mật của Tella
 slug: /privacy
 ---
@@ -9,7 +9,7 @@ slug: /privacy
 # Tella - Chính sách Bảo mật
 
 :::note
-cập nhật gần nhất vào ngày 10 tháng 7 năm 2023.
+Last updated on 25 February 2025.
 :::
 
 :::info
@@ -58,8 +58,9 @@ Bằng cách tải xuống và sử dụng Ứng dụng, bạn đồng ý với 
 
 Khi bạn tải xuống, đăng ký hoặc sử dụng Ứng dụng này, chúng tôi có thể yêu cầu bạn cung cấp thông tin mà có thể định dạng danh tính cá nhân, chẳng hạn như tên và địa chỉ email (“thông tin cá nhân”).  Thông tin này bao gồm:
 
--   Hồ sơ và bản sao thư trao đổi bạn với Horizontal (bao gồm địa chỉ email và số điện thoại), nếu bạn liên hệ với chúng tôi.
--   Phản hồi của bạn đối với các khảo sát mà chúng tôi có thể yêu cầu bạn thực hiện vì mục đích nghiên cứu, cung cấp thông tin khi bạn báo cáo sự cố với Ứng dụng hoặc đề xuất cải tiến.
+-   Records and copies of your correspondences with Horizontal (including email addresses and phone numbers), if you contact us.
+-   Your responses to surveys that we might ask you to complete for research purposes, information when you report a problem with the App or suggest improvements.
+-   Analytics usage data that you opt-in to share.    
 
 Bạn có thể sử dụng ứng dụng này để chụp hoặc lưu trữ ảnh, video, ghi âm và các loại tệp khác. Dữ liệu này được lưu trữ cục bộ trên thiết bị của bạn và không thể truy cập bởi Công ty hoặc bất kỳ bên thứ ba nào, bao gồm cả Tổ chức Triển khai, cho đến khi bạn thao tác chuyển nó đến Tổ chức Triển khai bằng cách gửi dữ liệu của bạn lên máy chủ của họ (xem Thu thập Thông tin từ Bên Thứ ba).
 
@@ -77,7 +78,8 @@ Tella cũng thu thập thông tin về thiết bị di động và kết nối i
 
 Tella cũng thu thập thông tin giúp xác định vị trí của thiết bị khi tệp được ghi lại.  Điều này bao gồm vị trí (bao gồm vĩ độ, kinh độ, độ chính xác và độ cao), vị trí nhà cung cấp, tốc độ vị trí và cột sóng di động mà thiết bị của bạn được kết nối.  Dữ liệu này được gọi chung là “Siêu Dữ Liệu Vị Trí”.
 
-Siêu dữ liệu về tệp tin, thiết bị và vị trí chỉ được thu thập nếu bạn cho phép bằng cách kích hoạt Chế độ Xác minh trong cài đặt Ứng dụng của mình.  Nếu bạn không muốn Tella thu thập thông tin này, đừng kích hoạt Chế độ Xác minh.
+File, device and location metadata are only collected if you opt-in by turning on Verification Mode or Import EXIF Metadata in your App settings. If you do not want Tella to collect this information, do not activate Verification Mode nor Import EXIF Metadata.
+
 
 ### Công nghệ Thu thập Thông tin {#information-collection-technologies}
 
@@ -115,7 +117,7 @@ Chúng tôi không kiểm soát công nghệ theo dõi của các bên thứ ba 
 
 Nếu bạn không muốn tải xuống Ứng dụng thông qua cửa hàng Google Play, bạn có thể [tải xuống APK trực tiếp từ liên kết này](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ).
 
-Phiên bản hoàn toàn miễn phí và mã nguồn mở của Tella dành cho Android, không chứa bất kỳ thư viện phần mềm hoặc phụ thuộc nào có mã nguồn đóng hoặc độc quyền, và không có bất kỳ trình theo dõi nào, có thể được tìm thấy trên [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
+A fully Free and Open Source version of Tella for Android that doesn't contain any closed-source or proprietary library or dependency can be found on [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/). 
 
 ## 5. Cách Chúng Tôi Sử Dụng Thông Tin Của Bạn {#5-how-we-use-your-information}
 
@@ -135,12 +137,14 @@ Chúng tôi có thể tiết lộ thông tin cá nhân và dữ liệu mà chún
 
 ## 6. Lựa Chọn Của Bạn Về Việc Chúng Tôi Thu Thập, Sử Dụng Và Tiết Lộ Thông Tin Của Bạn {#6-your-choices-about-our-collection-use-and-disclosure-of-your-information}
 
-Thông qua menu cài đặt của Ứng dụng, bạn có thể từ chối:
+Through the settings menu of Tella Android you can opt-out of:
 
--   Báo cáo lỗi và phân tích cách sử dụng
+-   Bug reports and default usage analytics.
 -   Thu thập toàn bộ hoặc một phần siêu dữ liệu bằng cách tắt “Chế độ Xác minh” trong cài đặt ứng dụng của bạn.
 
-Phiên bản FOSS của Tella có sẵn trên [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/) không có bất kỳ trình theo dõi nào để báo cáo lỗi hoặc phân tích sử dụng.
+Through the settings menu of Tella Android and Tella FOSS, you can opt-in to:
+- Share usage analytics using our privacy-preserving system [Divvi Up](/security-and-privacy#analytics).
+
 
 ## 7. Truy Cập Và Chỉnh Sửa Thông Tin Cá Nhân Của Bạn {#7-accessing-and-correcting-your-personal-information}
 
@@ -157,7 +161,7 @@ Bạn cũng có thể gửi email cho chúng tôi theo địa chỉ [contact@hor
 
 ## 8. Quyền Riêng Tư của Bạn tại California  {#8-your-california-privacy-rights}
 
-Nếu bạn là cư dân California, luật pháp California có thể cung cấp cho bạn các quyền bổ sung liên quan đến việc chúng tôi sử dụng thông tin cá nhân của bạn. Để tìm hiểu thêm về quyền riêng tư của bạn tại California, hãy truy cập [https://www.oag.ca.gov/privacy/ccpa](https://www.oag.ca.gov/privacy/ccpa).
+If you are a California resident, California law may provide you with additional rights regarding our use of your personal information. To learn more about your California privacy rights, visit [https://www.oag.ca.gov/privacy/ccpa](https://www.oag.ca.gov/privacy/ccpa).
 
 ## 9. Bảo Mật Dữ Liệu {#9-data-security}
 
