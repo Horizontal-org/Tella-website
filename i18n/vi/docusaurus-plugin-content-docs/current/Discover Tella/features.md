@@ -143,12 +143,16 @@ Việc nhập tài liệu từ hệ thống dữ liệu của thiết bị vào 
 
 | Góp ý {#feedback} | **Tính năng** | **Email:** | Đi đến **Cài đặt** > **Giới thiệu và Trợ giúp** > **Liên hệ với chúng tôi** để tìm địa chỉ email. | Người dùng có thể gửi email cho đội ngũ Tella bằng ứng dụng email yêu thích của mình. |
 |----------------|-------------|-------------------|---------------|----------------|
-| Trong **Cài đặt** > **Bảo mật**, người dùng có thể lựa chọn Bảo toàn hoặc xóa siêu dữ liệu của tệp tin khi nhập Ảnh và Video vào Tella. Siêu dữ liệu EXIF ​​của các tệp có thể bao gồm dữ liệu về thời điểm tạo tệp, cài đặt Máy ảnh hoặc vị trí của thiết bị.          | Đến **Cài đặt** > **Phản hồi** để kích hoạt mẫu phản hồi trong ứng dụng.        | ✔️                | :::tip Video  tutorial 🎥
+| Trong **Cài đặt** > **Bảo mật**, người dùng có thể lựa chọn Bảo toàn hoặc xóa siêu dữ liệu của tệp tin khi nhập Ảnh và Video vào Tella. Siêu dữ liệu EXIF ​​của các tệp có thể bao gồm dữ liệu về thời điểm tạo tệp, cài đặt Máy ảnh hoặc vị trí của thiết bị.          | Đến **Cài đặt** > **Phản hồi** để kích hoạt mẫu phản hồi trong ứng dụng.        | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+:::                | :::tip Video  tutorial 🎥
 Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
 :::            | :::tip Video  tutorial 🎥
 Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
 :::             |
-| Trong **Cài đặt** > **Bảo mật**, người dùng có thể lựa chọn Bảo toàn hoặc xóa siêu dữ liệu của tệp tin khi nhập Ảnh và Video vào Tella. Siêu dữ liệu EXIF ​​của các tệp có thể bao gồm dữ liệu về thời điểm tạo tệp, cài đặt Máy ảnh hoặc vị trí của thiết bị.          | Các mẫu yêu thích, dành cho người dùng được kết nối với máy chủ Uwazi 📋      | ✔️                | :::tip Video  tutorial 🎥
+| Trong **Cài đặt** > **Bảo mật**, người dùng có thể lựa chọn Bảo toàn hoặc xóa siêu dữ liệu của tệp tin khi nhập Ảnh và Video vào Tella. Siêu dữ liệu EXIF ​​của các tệp có thể bao gồm dữ liệu về thời điểm tạo tệp, cài đặt Máy ảnh hoặc vị trí của thiết bị.          | Các mẫu yêu thích, dành cho người dùng được kết nối với máy chủ Uwazi 📋      | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+:::                | :::tip Video  tutorial 🎥
 Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
 :::            | :::tip Video  tutorial 🎥
 Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
