@@ -1,11 +1,11 @@
 ---
 id: get-started
-title: Commençons 
+title: Se lancer 
 description: Guide de démarrage rapide pour les utilisateurs de Tella sur Android et iOS
 slug: /get-started
 ---
 
-importer le lien depuis '@docusaurus/Link'
+import Link from '@docusaurus/Link'
 
 
 # Commencer avez Tella

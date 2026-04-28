@@ -72,7 +72,7 @@ If Tella users download a template that has properties that are not supported in
 | Numeric | ✔️ | ✔️ | ✔️ |
 | Single Select  | ✔️ | ✔️ | ✔️ | 
 | Multiple Select  | ✔️ | No | ✔️ | 
-| Relationship | ✔️ | ✔️ | No |
+| Relationship | ✔️ | ✔️ | ✔️ |
 | Single Date | ✔️ | ✔️ | ✔️ |
 | Multiple Date | ✔️ | No | ✔️ |
 | External Link | ✔️ | No | ✔️ |

@@ -68,6 +68,8 @@ Take a look at [this video tutorial](/video-tutorials#connections-full-video) fo
 
 ### Admin center {#admin-center}
 
+
+#### Configure spaces’ settings {#configure-spaces-settings}
 Admins of the Tella Web space can enable or disable system-wide settings depending on their own risk assessment and privacy consideration:
 - [Opt-in to share analytics with Tella team](/security-and-privacy#analytics).
 - Suspicious login detection: 
@@ -80,6 +82,15 @@ Admins of the Tella Web space can enable or disable system-wide settings dependi
     - To ensure user privacy and anonymity, only essential data is transmitted to our Feedback server through HTTPS POST requests. Logs containing user information (IP address, date and time, and user-agent) are automatically deleted weekly.
     - On the Feedback server database, we only store a copy of the text sent by users in the feedback form and which platform it came from (in this case from "Tella Web" without specifying which server installation). 
 
+#### Backup your space {#backup-your-space}
+
+Admins of the Tella Web instance can export all data out of Tella Web by generating a backup. Backups can be used to port the data to another location, including a computer, a USB flash drive, an external disk or a remote server.  The action to generate the backup runs in the background and, if triggered, an email notification will be sent to the person who generated the backup when it is ready to download. However, all backups are accessible in the Admin Center to all users with admin access.
+
+The backup is a full export everything in the space: including all Projects, Reports, Users and Resources, plus all metadata. The export is a zip file including a collection of CSVs and folders with with the uploaded media. For now, there is no way to import the backup back into a Tella Web instance from the Admin Center, but each backup includes a .sql file that advanced users can use to import the data to the database directly. 
+
+:::warning
+The information included in the backup is highly sensitive, it not only contains all the data (unencrypted) but also information about the Tella Web users. Please proceed with caution when generating the backup.
+:::
 
 
 ### Managing Projects {#managing-projects}
@@ -278,11 +289,11 @@ Once you disconnect from a Tella Web project all associated resources will be re
 * Tap the "New report" button at the bottom of the screen to create a new report.
     * On the "New report" screen you can fill in the report's details, including title, description, and optional attachments of photos, videos, pdf documents and audio recordings.
     * If you are connected to multiple Tella Web projects, you will be able to select at the top of the screen which project to submit the report to.
-* Use the "Save draft" button (on the top right of the screen) to save the report as a draft without leaving the "New report" screen. 
+* Use the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft without leaving the "New report" screen. 
     * In order to be able to save as a draft, you need to at least enter the report’s title.
     * A message will appear on the screen to confirm the draft was saved.
-* The "Submit later" button saves the report to the Outbox for manual submission.
-    * The outbox tab is often used when data collectors don’t have access to the internet or if the connection is not stable.
+* The "Submit later" button ⏱️ saves the report to the Outbox for manual submission.
+    * The "Outbox" tab is often used when data collectors don’t have access to the internet or if the connection is not stable.
 * The “Submit” button sends the report to the Tella Web project immediately.
     * If submission fails due to connectivity issues, the report goes to the “Outbox tab”.
     * If the report is submitted correctly, it goes to the “Submitted” tab.
@@ -290,10 +301,13 @@ Once you disconnect from a Tella Web project all associated resources will be re
 
 ####  Draft Reports {#draft-reports}
 
+A Draft report is a report that was created and saved but not yet submitted. Drafts reports are useful to save work in progress that can be editted later on. It allows users to create reports offline or over a long period of time before finalizing and sending them. This is especially useful in low-connectivity areas or when a user needs to gather information in multiple stages.
 
-* On the "New report" screen, tap the "Save draft" button to save the report as a draft.
-    * A message confirmation will be displayed, and you can continue working on the report or exit to come back to it later.
-* If you try to exit a report without saving, you will be asked to confirm whether you are sure to exit without saving the report.
+Reports in the Draft tab can be edited.
+
+* On the "New report" screen, tap the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft.
+    * A confirmation will be displayed, and you can continue working on the report or exit to come back to it later.
+* If you try to exit a report without saving, you will be asked to confirm whether you are sure to exit without saving.
 * In the Draft tab, you can view and manage draft reports. Open a draft report to continue working on it and submit it.
 * You can delete a draft report by tapping on the three dots > **Delete** or by entering the report and tapping the Delete button.
 
@@ -317,7 +331,13 @@ Deleting a report in the middle of submission will cancel the upload of the file
 
 #### Outbox {#outbox}
 
-The Outbox contains reports that have been saved for submission. This could be:
+The Outbox tab contains reports that are finalized and have been saved for later submission. Reports in the Outbox are ready to be submitted once the device reconnects to the internet or when the user chooses to manually send them.
+
+Reports in the Outbox tab cannot be edited.
+
+To send a report to the Outbox, use the Submit later button (⏱️), at the bottom left of the Submit Report screen.
+
+The Outbox contains:
 
 * Paused submissions
 * Report submissions that were interrupted due to connectivity issues.

@@ -22,6 +22,7 @@ We work hard to make Tella available in languages spoken by communities who expr
 
 
 
+
 ### WCAG accessibility {#wcag-accessibility}
 
 In this table you can access our latest accessibility reports for each platform. 

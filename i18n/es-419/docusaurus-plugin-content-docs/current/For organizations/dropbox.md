@@ -13,25 +13,23 @@ Tella allows users to sign into their Dropbox account directly from Tella and up
 
 Similarly to other server connections (like [Tella Web](/tella-web), [Google Drive](/g-drive), [Nextcloud](/nextcloud), [Uwazi](/uwazi) or [Open Data Kit](/odk)), connecting to a Dropbox server enhances the security of data collected on Tella by:
 
-1. Allowing users to collect data directly inside Tella's encrypted container.
+1. Permitir a la(o)s usuaria(o)s a recopilar datos directamente dentro de un contenedor cifrado de Tella.
 2. Ensuring that data is sent directly from Tella to Dropbox, without needing to install the Dropbox app on the device or sending the data through a third-party app.
-3. Allowing users to back up their data to a remote server, to lower the risk that data is discovered on their mobile device.
-4. Ensuring that organizations can preserve important information even in the event of device seizure or destruction, and can organize it for research, advocacy, or accountability processes.
+3. Permitir que usuaria(o)s respalden sus datos en un servidor remoto, para reducir el riesgo de que los datos sean descubiertos en su dispositivo móvil.
+4. Asegurar que las organizaciones puedan conservar información importante incluso en caso de confiscación o destrucción de dispositivo, y puedan organizarla para procesos de  investigación, incidencia, o rendición de cuentas.
 
 Submissions to Dropbox take the form of "reports" which include a title, a text description, and files like photos, videos and audio recordings.
 
-:::note
-The Dropbox connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
-:::
+
 
 ## When to Use Dropbox {#when-to-use-dropbox}
 
 The Dropbox connection may be particularly well-suited for:
 - Organizations that already use Dropbox.
-- Organizations that cannot or don't want to self-host an app (like [Tella Web server](/tella-web)) on a server.
+- Organizaciones que no pueden o no desean autohospedar una app (como [servidor Tella Web](/tella-web)) en un servidor.
 - Users who already have a Dropbox account and want to backup their data to the cloud.
 - Projects where the privacy needs do not preclude the use of a cloud or commercial tool like Dropbox.
-- Users who will be sending mostly media files, with some text and don't need structured data collection like forms or surveys.
+- Usuarios que enviarán mayormente archivos multimedia, con algo de texto y no necesitarán recopilación de datos estructurados como formularios o encuestas.
 
 
 :::tip
@@ -52,7 +50,7 @@ In order to connect to Dropbox:
 ## Manage the Dropbox connection {#manage-the-dropbox-connection}
 
 * In **Settings ⚙️** > **Connections** >  **Dropbox** > **⫶** you can:
-  - Delete the connection
+  - Eliminar la conexión
 
 For the moment it is not possible to sign into multiple Dropbox accounts at the same time. If you want to sign-in with another account, delete your Dropbox connection and create a new one.
 
@@ -62,14 +60,14 @@ For the moment it is not possible to sign into multiple Dropbox accounts at the 
 * Once connected, a "Dropbox" card will appear in the "Connections" section of the homescreen. Tap on this card to start submitting to Dropbox.
 * The main Dropbox screen allows navigation between the Drafts, Outbox, and Submitted tabs.
 * Tap the "New report" button at the bottom of the screen to create a new report to Dropbox.
-    * On the "New report" screen you can fill in the report's details, including title, description, and optional attachments of photos, videos and audio recordings.
+    * En la pantalla "Nuevo informe" puedes completar los detalles del informe, incluyendo el título, descripción, y adjuntos opcionales de fotos, videos y grabaciones de audio.
 * Use the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft without leaving the "New report" screen. 
-    * In order to be able to save as a draft, you need to at least enter the report’s title.
-    * A message will appear on the screen to confirm the draft was saved.
+    * Para poder guardar como un borrador debes al menos introducir el título del informe.
+    * Aparecerá un mensaje en la pantalla para confirmar que el borrador fue guardado.
 * The "Submit later" button ⏱️ saves the report to the Outbox for manual submission.
     * The "Outbox" tab is often used when data collectors don’t have access to the internet or if the connection is not stable.
 * The “Submit” button immediately sends the report to Dropbox.
-    * If submission fails due to connectivity issues, the report goes to the “Outbox" tab.
+    * Si el envío falla debido a problemas de conectividad, el informe se va a la pestaña "Bandeja de Salida".
     * If the report is submitted correctly, it goes to the “Submitted” tab and a new folder (named after the report title you typed in) will be created in Dropbox under **Applications** >> **Tella**. All attachments will be added to the folder and the description will be added as a text file inside the folder.
 
 
@@ -82,17 +80,17 @@ Reports in the Draft tab can be edited.
 * On the "New report" screen, tap the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft.
     * A confirmation will be displayed, and you can continue working on the report or exit to come back to it later.
 * If you try to exit a report without saving, you will be asked to confirm whether you are sure you want to exit without saving.
-* In the Draft tab, you can view and manage draft reports. Open a draft report to continue working on it and submit it.
-* You can delete a draft report by tapping on **⫶** > **Delete** or by entering the report and tapping the Delete button.
+* En la pestaña Borradores, puedes ver y administrar los borradores de informes. Abre un borrador de informe para continuar trabajando y enviarlo.
+* Puedes eliminar un borrador de informe tocando en  **⫶** > **Eliminar** o entrando al informe y tocando el botón Eliminar.
 
 
 #### Submit a Report to Dropbox{#submit-a-report-to-dropbos}
 
-* In a report, tap "Submit" to start the submission of the report.
-* You will be redirected to a summary screen displaying the upload progress for each file attachment.
-* A "Delete" button is available to stop the upload and delete the report.
-* If the report is actively uploading, a "Pause" button allows you to temporarily halt the upload, which can be resumed later using the "Resume" button.
-* Exiting a report doesn’t affect the upload status. If the report is actively uploading, the process continues. 
+* En un informe, toca "Enviar" para iniciar el envío del informe.
+* Se te redireccionará a una pantalla de resumen mostrando el progreso de subida de cada archivo adjunto.
+* Un botón de "Eliminar" está disponible para detener la subida y eliminar el informe.
+* Si el informe se está subiendo activamente, un botón de "Pausa" te permite detener temporalmente la subida, la cual puede ser reanudada luego utilizando el botón "Reanudar".
+* Salir de un informe no afecta el estado de subida. Si el informe se está subiendo activamente, el proceso continúa. 
 
 :::info
 After a report has been uploaded to Dropbox, it is not possible to delete it on Dropbox from the Tella mobile app. Deleting a submitted report will only delete the local version of it, not the report on the server. 
@@ -103,7 +101,7 @@ Deleting a report in the middle of submission will cancel the upload of the file
 :::
 
 
-#### Outbox {#outbox}
+#### Bandeja de Salida {#outbox}
 
 The Outbox tab contains reports that are finalized and have been saved for later submission. Reports in the Outbox are ready to be submitted once the device reconnects to the internet or when the user chooses to manually send them.
 
@@ -113,18 +111,18 @@ To send a report to the Outbox, use the Submit later button (⏱️), at the bot
 
 The Outbox contains:
 
-* Paused submissions
-* Report submissions that were interrupted due to connectivity issues.
-* Reports that were marked as "Submit later"
+* Envíos pausados
+* Envíos de informes que fueron interrumpidos debido a problemas de conectividad.
+* Informes que fueron marcados como "Enviar luego".
 
 
-#### Submitted Reports {#submitted-reports}
+#### Informes Enviados {#submitted-reports}
 
 - The Submitted tab displays reports that have been successfully submitted to the Dropbox server.
 - In the Submitted tab, you can view and deleted the submitted reports.
 
 :::info
-If the internet connection is interrupted, reports will go to the "Outbox" tab and you will need to manually resume the submission.
+Si la conexión a internet es interrumpida, los informes irán a la pestaña "Bandeja de Salida" y tendrás que reanudar el envío manualmente.
 :::
 
 

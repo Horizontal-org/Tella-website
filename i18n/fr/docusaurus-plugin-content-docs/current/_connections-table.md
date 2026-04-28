@@ -2,7 +2,7 @@
 |------|------|-----|-----|
 |Uwazi|✔️|✔️|✔️|
 |Tella Web|✔️|✔️| ✔️ |
-|Open Data Kit (ODK)|✔️|Gérer l'accès aux projets {#managing-access-to-projects}|✔️|
-|Google Drive | ✔️ |✔️| Gérer l'accès aux projets {#managing-access-to-projects} |
+|Open Data Kit (ODK)|✔️|❌|✔️|
+|Google Drive | ✔️ |✔️| ❌ |
 |Nextcloud | ✔️ |✔️| ✔️|
-|Dropbox | ✔️ | ✔️ | Gérer l'accès aux projets {#managing-access-to-projects}|
+|Dropbox | ✔️ | ✔️ | ❌|

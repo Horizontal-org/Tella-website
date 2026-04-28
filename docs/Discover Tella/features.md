@@ -50,7 +50,7 @@ If [verification mode](/features#verification-mode) is turned on, background enc
 ## Backup files to a cloud {#backup-files}
 We are in the process of adding options for individuals and organizations to backup their data to different clouds. Backups, for the moment, need to be made manually, by creating reports (using, for example, the date of "today" as the report title) and submitting them to the connected server. Files will be available on the connected server inside a folder with the report title.
 
-For the moment we the following connections. Follow each of the links to find details and step-by-step guides on how to connect and use each of them:
+For the moment we support the following connections. Follow each of the links to find details and step-by-step guides on how to connect and use each of them:
 * [Open Data Kit (ODK)](/odk)
 * [Uwazi](/uwazi)
 * [Tella Web](/tella-web)
@@ -63,7 +63,9 @@ On this table we explain what server types are available on the Tella apps:
 
 
 :::danger
-For the moment, the submission to any type of server it is **not** encrypted. People who have access to the server itself are able to see the files.
+For now, any files you submit to a connection are stored unencrypted on that server or drive. This means that anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
+
+We strongly recommend reviewing and understanding the permission model of each connection you use, in order to determine which option is safest and most appropriate for your specific use case.
 :::
 
 
@@ -130,16 +132,16 @@ We are in the process of adding the ability to edit media files directly within 
 
 | **Media Type** | **Feature** | **Tella Android** | **Tella iOS** | **Tella FOSS** |
 |----------------|-------------|-------------------|---------------|----------------|
-| Image          | Crop        | ✔️                | ✔️            | Not yet        |
-| Image          | Rotate      | ✔️                | ✔️            | Not yet        |
-| Image          | Flip        | ✔️                | Not yet       | Not yet        |
-| Image          | Auto-zoom        | ✔️                | Not yet       | Not yet        |
+| Image          | Crop        | ✔️                | ✔️            | ✔️             |
+| Image          | Rotate      | ✔️                | ✔️            | ✔️             |
+| Image          | Flip        | ✔️                | Not yet       | ✔️             |
+| Image          | Auto-zoom        | ✔️                | Not yet       | ✔️        |
 | Video          | Trim        | Not yet       | ✔️          | Not yet        |
-| Video          | Rotate      | Not yet       | Soon          | Not yet        |
+| Video          | Rotate      | Not yet       | ✔️          | Not yet        |
 | Audio          | Trim        | Not yet           |  ✔️          | Not yet        |
 
 Users can edit a picture by going to **More** > **Edit** from the **Images** folder or by tapping the **Edit** button on the top right while viewing image you have on Tella. 
-- **Rotate**:  Use the Rotate button on the bottom of the screen to rotate the image counter-clock wise. 
+- **Rotate**:  Use the Rotate button at the bottom of the screen to rotate the image counter-clock wise. 
 - **Crop**: Drap the corners of the white canvas to crop the picture. 
 - **Auto-zoom**: The image will automatically zoom in and out depending on the selected canvas, to avoid loosing image quality.
 - **Flip**: Use the flip buttons to mirror the image horizontally or vertically.
@@ -152,7 +154,10 @@ Users can edit videos or audio recordings:
 - While listening to an audio recording or watching a video in Tella, by tapping the **Edit** button in the top right corner. 
 
 Current editing options include:
-- **Trim**: Move the vertical orange lines to select the new start and end point of your audio. Use the Play button on the bottom to listen to the audio or the Cancel button to start over. When you are done editing the file, use the orange scissors ✂️ icon on the top right to save the trimmed audio or video. The edited file will be saved as a copy of the original file in the same folder.
+- **Trim**: Move the vertical orange lines to select the new start and end point of your audio or video. 
+- **Rotate**: Use the Rotate button on the top right of the screen to rotate the video counter-clock wise.
+
+Use the Play button at the bottom of the screen to listen to the audio or the Cancel button to start over. When you are done editing the file, use the orange scissors ✂️ icon in the top-right corner to save the trimmed audio or video. The edited file will be saved as a copy of the original file in the same folder.
 
 
 ## Encryption {#encryption}
@@ -238,8 +243,6 @@ Android users can opt-in to share analytics to improve Tella. All information is
 ## Open files in Tella {#open-files-in-tella}
 Images, videos, PDFs and audios can be visualized inside Tella. 📱📄
 
-On Tella FOSS, PDFs must be exported to be opened. 
-
 ## Camouflage {#camouflage}
 
 On Tella Android, it is possible to camouflage Tella in two ways:
@@ -279,13 +282,12 @@ This configuration can be found in **Settings** > **General**.
 
 A Quick Delete button allows users, in just a few seconds, to delete sensitive data within Tella. Quick delete can be configured on **Settings** > **Security** > **Quick delete**, where the user can choose to enable a sliding button on the home screen to quickly delete information from Tella in emergency situations. If enabled, the user can choose exactly what gets deleted when the feature is used. The available options are:
 
-* Delete files: Deletes all files stored in Tella 🗑️
-* Delete draft and submitted forms: Deletes drafts and submitted forms in all Connections. [Visit the For Organizations page](/for-organizations) to  discover the available server connections 📝
-* Delete server settings: Deletes all server connections and all the forms, templates or reports associated with them 📋
+* Delete files: Deletes all files stored in Tella 🗑️ . This is the default option.
+* Delete Connections: Deletes all your connections, and all data asociated with them (including drafts, outbox and submitted reports). [Visit the For Organizations page](/for-organizations) to  discover the available server connections 📝
 * Delete Tella: Deletes the app and all the data it contains. It triggers a message asking if the user wants to uninstall Tella as well ❌. 
 
 :::info Delete Tella
-The Delete Tella option might not be available on some Android phones due to technical limitations. We are working on a fix for this issue. For iOS it is not possible to programmatically delete an app. 
+The Delete Tella option might not be available on some Android phones due to technical limitations. We are working on a fix for this issue. For iOS it is not possible to programmatically delete an app, so the Delete Tella option is not available.
 :::
 
 ## Quick exit {#quick-exit}

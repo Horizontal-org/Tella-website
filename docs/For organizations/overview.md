@@ -4,6 +4,7 @@ title: Overview
 description: Learn how organizations can use Tella for research, advocacy, or accountability processes
 slug: /for-organizations
 ---
+
 import ConnectionsTable from '.././_connections-table.md';
 
 
@@ -25,7 +26,9 @@ Currently, Tella can be connected to the following types of servers:
 These are called [Connections](/features#connecting-to-servers) in Tella.
 
 :::danger
-For the moment, the submission to any type of server it is **not** encrypted. People who have access to the server itself are able to see the files.
+For now, any files you submit to a connection are stored unencrypted on that server or drive. This means that anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
+
+We strongly recommend reviewing and understanding the permission model of each connection you use, in order to determine which option is safest and most appropriate for your specific use case.
 :::
 
 
@@ -95,7 +98,7 @@ The [Open Data Kit (ODK)](https://getodk.org/) is an open standard used to creat
 On our [Open Data Kit server connection page](/odk) we explain how to create an account, where to find information about creating forms and how to connect to the server from Tella. You can also watch a demonstration of the ODK connection [here](/video-tutorials#open-data-kit). If you are considering using Open Data Kit or you need help to [deploy](/faq#deploying-tella) your instance, please [contact us](/contact-us). 
 
 
-:::info
+:::note
 The ODK connection is [only available on Android](/features). 
 :::
 
@@ -105,20 +108,23 @@ Learn more about Open Data Kit [here](/odk).
 
 ### Google Drive {#g-drive}
 
-Users can sign-in directly to their Google account from within Tella and upload files to a folder in their Drive account. If the user is part of an organization that uses Google Workspace, they can also submit the files directly to a Shared Drive they have access to. Each "report" uploaded will create a new folder in Drive.
-
+Users can sign-in directly to their Google account from within Tella and upload files to a folder in their Drive account. Each "report" uploaded will create a new folder in Drive.
 
 As for all Connections in Tella, users can use most of the Google Drive connection offline through the Draft, Outbox and Submit Later tabs. 
+
+:::note
+The Google Drive connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
+:::
 
 :::tip
 Learn more about the Google Drive connection [here](/g-drive),
 :::
 
 
-### Nextcloud {#nextcloud}
-Users can sign-in directly to their NextCloud account from within Tella and upload files to a folder in their NextCloud account. Each "report" uploaded will create a new folder in NextCloud.
+### Nextcloud {#Nextcloud}
+Users can sign-in directly to their Nextcloud account from within Tella and upload files to a folder in their Nextcloud account. Each "report" uploaded will create a new folder in Nextcloud.
 
-As for all Connections in Tella, users can use most of the NextCloud connection offline through the Draft, Outbox and Submit Later tabs. 
+As for all Connections in Tella, users can use most of the Nextcloud connection offline through the Draft, Outbox and Submit Later tabs. 
 
 :::tip
 Learn more about the Nextcloud connection [here](/nextcloud),
@@ -130,6 +136,10 @@ Learn more about the Nextcloud connection [here](/nextcloud),
 Users can sign-in directly to their Dropbox account from within Tella and upload files to a folder in their account. In the "Applications" folder in the user's Dropbox account, a new folder "Tella" will automatically be created. Each Report uploaded from Tella will create a new subfolder inside the "Tella" folder.
 
 As for all Connections in Tella, users can use most of the Dropbox connection offline through the Draft, Outbox and Submit Later tabs. 
+
+:::note
+The Dropbox connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
+:::
 
 :::tip
 Learn more about [the Dropbox connection here](/dropbox),

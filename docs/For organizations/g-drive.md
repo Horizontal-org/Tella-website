@@ -21,12 +21,15 @@ The Google Drive connection is a an option to collect photos, videos and audios 
 
 Submissions to Google Drive take the form of "reports" which include a title, a text description, and files like photos, videos and audio recordings.
 
+:::note
+The Google Drive connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
+:::
 
 
 ## When to Use Google Drive {#when-to-use-google-drive}
 
 The Google Drive connection may be particularly well-suited for:
-- Organizations that already use Google Drive or Google Workspace's [Shared Drive functionality](https://support.google.com/a/users/answer/7212025?hl=en).
+- Organizations that already use Google Drive.
 - Users who already have a Google account.
 - Projects where the privacy needs do not preclude the use of a tool like Google Drive.
 - Organizations that cannot or don't want to self-host an app (like [Tella Web server](/tella-web)) on a server.
@@ -43,9 +46,7 @@ In order to connect to a Google Drive:
 * Navigate to **Settings ⚙️** > **Connections** > **+**
 * Select "Google Drive" from the list of available server types.
 * Login to your Google account using the Google login flow on the web view. 
-* For now, Google hasn't verified Tella yet, so you'll need to press the "Advanced" button and "Proceed to Tella" in order to connect.
 * Grant Tella permissions to modify your Google Drive (we need this permission to be able to upload files to your drive and create folders in your behalf).
-* Select "Personal Drive" or "Shared Drive": Shared drives are only available to organizational accounts with a Google Workspace. If shared drives are available to you, you will see a list of all the Shared Drives you have access to. Select the Shared Drive you want to submit your data to.
 * Choose a name for the folder where all your Tella submissions will be saved.
 
 
@@ -63,11 +64,11 @@ For now, it is not possible to sign in to multiple Google accounts at the same t
 * The main Google Drive screen allows navigation between the Drafts, Outbox, and Submitted tabs.
 * Tap the "New report" button at the bottom of the screen to create a new report to Google Drive.
     * On the "New report" screen you can fill in the report's details, including title, description, and optional attachments of photos, videos and audio recordings.
-* Use the "Save draft" button (on the top right of the screen) to save the report as a draft without leaving the "New report" screen. 
+* Use the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft without leaving the "New report" screen. 
     * In order to be able to save as a draft, you need to at least enter the report’s title.
     * A message will appear on the screen to confirm the draft was saved.
-* The "Submit later" button saves the report to the Outbox for manual submission.
-    * The outbox tab is often used when data collectors don’t have access to the internet or if the connection is not stable.
+* The "Submit later" button ⏱️ saves the report to the Outbox for manual submission.
+    * The "Outbox" tab is often used when data collectors don’t have access to the internet or if the connection is not stable.
 * The “Submit” button sends the report to Google Drive immediately.
     * If submission fails due to connectivity issues, the report goes to the “Outbox" tab.
     * If the report is submitted correctly, it goes to the “Submitted” tab and a new folder will be created in Gooogle Drive with the title you selected and the description you entered. All attachments will be added to the folder.
@@ -75,7 +76,11 @@ For now, it is not possible to sign in to multiple Google accounts at the same t
 
 ##  Draft Reports {#draft-reports}
 
-* On the "New report" screen, tap the "Save draft" button to save the report as a draft.
+A Draft report is a report that was created and saved but not yet submitted. Drafts reports are useful to save work in progress that can be editted later on. It allows users to create reports offline or over a long period of time before finalizing and sending them. This is especially useful in low-connectivity areas or when a user needs to gather information in multiple stages.
+
+Reports in the Draft tab can be edited.
+
+* On the "New report" screen, tap the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft.
     * A message confirmation will be displayed, and you can continue working on the report or exit to come back to it later.
 * If you try to exit a report without saving, you will be asked to confirm whether you are sure to exit without saving the report.
 * In the Draft tab, you can view and manage draft reports. Open a draft report to continue working on it and submit it.
@@ -101,7 +106,13 @@ Deleting a report in the middle of submission will cancel the upload of the file
 
 #### Outbox {#outbox}
 
-The Outbox contains reports that have been saved for submission. This could be:
+The Outbox tab contains reports that are finalized and have been saved for later submission. Reports in the Outbox are ready to be submitted once the device reconnects to the internet or when the user chooses to manually send them.
+
+Reports in the Outbox tab cannot be edited.
+
+To send a report to the Outbox, use the Submit later button (⏱️), at the bottom left of the Submit Report screen. 
+
+The Outbox contains:
 
 * Paused submissions
 * Report submissions that were interrupted due to connectivity issues.
