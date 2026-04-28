@@ -31,10 +31,9 @@ Aprende más sobre [Cómo encontrar y descargar Tella de la Play Store](/video-t
 :::
 
 ### ¿Tella está disponible en F-Droid? {#is-tella-available-on-f-droid}
-Sí, publicamos una versión de Tella Android [en F-Droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/), la cual llamamos Tella-FOSS. En esta versión, no todas las funciones están disponibles. Para detalles sobre cuales funciones están disponibles para: la versión F-Droid de Tella, ve [qué funciones están disponibles en cada plataforma](/features) y nuestra [página de notas de lanzamiento](/releases).
+Yes, we publish a version of Tella Android [on F-Droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/), which we call Tella FOSS. Tella FOSS does not support all features available on Tella Android. For details about which features are available on Tella FOSS, see [what features are available on each platform](/features) and our [release notes page](/releases).
 
-Esta versión es completamente de código abierto, lo que quiere decir que el código de Tella y el código de todas las bibliotecas que Tella utiliza son completamente gratuitas y open source. Esta versión no contiene ningún rastreador, ni siquiera los que nos ayudan a detectar errores y fallos en Android.
-
+All code, libraries, and dependencies in Tella FOSS are entirely Free and Open Source Software (FOSS). Tella FOSS only includes an opt-in [privacy-preserving analytics](/security-and-privacy#analytics) tracker.
 
 ### ¿Está Tella disponible en iOS? {#is-tella-available-on-ios}
 
@@ -69,6 +68,9 @@ Por favor consulta las preguntas [¿Está Tella disponible en Android?](#is-tell
 ### ¿Qué teléfonos admite Tella? {#what-phones-support-tella}
 
 Tella es compatible con dispositivos que funcionan con Android 5.0 o superior e iOS 14.0 o superior.
+
+### Does Tella work on GrapheneOS? {#does-tella-work-on-graphene-os}
+As of December 2024, we haven't been able to test Tella Android and Tella FOSS on GrapheneOS, so we cannot confirm that all features work properly. Some users have reported that the main features (lock, file encryption and management, etc) work properly, but some of the Connections (like Google Drive) do not work. If you use GrapheneOS and you experience a problem, please [contact us](/contact-us).
 
 ### ¿Tella es gratis? {#is-tella-free}
 
@@ -109,6 +111,13 @@ El tamaño de la app aumentará dependiendo del tamaño de los datos almacenados
 No hay límite específico de almacenamiento para Tella, los límites dependerán del espacio de almacenamiento del sistema disponible en tu dispositivo.
 
 Las ubicaciones de almacenamiento externas (como tarjetas SD) actualmente no son utilizadas por Tella.
+
+
+### Can i backup the data I store in Tella? {#can-i-backup-the-data-i-store in-tella?}
+
+Yes, you can. You can connect to different clouds directly from Tella and choose the files you want to send to the cloud. You can read more about the [servers available here](/features#backup-files). You can also select files from your vault and export those your phone.
+
+All exports outside of Tella's encrypted vault (to a cloud server or to your phone) will be unencrypted.
 
 ## Seguridad & Privacidad {#security--privacy}
 
