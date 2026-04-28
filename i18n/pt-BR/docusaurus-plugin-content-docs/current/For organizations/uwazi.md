@@ -5,13 +5,13 @@ description: A conexão com servidor Uwazi está disponível para organizações
 slug: /uwazi
 ---
 
-# Uwazi Connection
+# Conexão Uwazi
 
 [Uwazi](https://uwazi.io/) é uma ferramenta de documentação de código aberto desenvolvida pela [HURIDOCS](https://huridocs.org). É uma aplicação de banco de dados flexível e nativa da web projetada para defensores dos direitos humanos gerenciarem suas coleções de informação, incluindo documentos, evidências, casos e queixas. 
 
 O Uwazi permite que organizações agreguem, em um repositório central, dados coletados por seus membros ou parceiros. Os usuários do Tella conectam-se à instância Uwazi de suas organizações, baixam formulários (chamados templates), preenchem os templates quantas vezes precisarem (mesmo que não possuam conectividade de internet) e carregam os dados. Organizações podem, então, realizar a curadoria, organizar e publicar seus dados diretamente do Uwazi.
 
-Similarly to all other server connections([Tella Web](/tella-web), [Google Drive](/g-drive), [Nextcloud](/nextcloud), [Dropbox](/dropbox), and [Open Data Kit](/odk)), connecting to Uwazi enhances the security of data collected on Tella by:
+Da mesma forma para todas as outras conexões de servidor([Tella Web](/tella-web), [Google Drive](/g-drive), [Nextcloud](/nextcloud), [Dropbox](/dropbox), and [Open Data Kit](/odk)), conectando para Uwazi aumenta a segurança dos dados coletados Tella por:
 1. Permitir aos usuários coletar dados diretamente de dentro do contêiner criptografado do Tella
 2. Assegurar que os dados são enviados diretamente do Tella para o Uwazi, sem depender de ferramentas ou aplicativos de terceiros
 3. Permitir que usuários realizem backup de seus dados em um servidor remoto, para diminuir o risco de os dados serem descobertos em seus dispositivos móveis
@@ -32,12 +32,19 @@ O Uwazi não possui um aplicativo oficial para dispositivos móveis. Então, ao 
 Aqui estão algumas dicas sobre o Uwazi que podem ser adequadas ao seu caso específico:
 - Você precisa tornar os dados coletados publicamente acessíveis em um website.
 - Você precisa estabelecer relações entre os pontos de dados.
-- Data must be contained in structured database registers.
-- You need to clean up, edit, organise and curate the collected data.
-- You need to quickly search, find and analyse data.
-- You work in a multilingual environment.
+- Os dados devem estar contidos na base de dados estruturada registradores.
+
+
+- Você precisa limpar, editar, organizar e processar os dados coletados.
+
+
+- Você precisa rapidamente de procurar, localizar e analisar os dados.
+
+- Você trabalha em um ambiente multilíngue.
 - You work in a collaborative environment with multiple users and different profiles.
-- You need to preserve information in a secure way over the long term.
+- Você precisa preservar as informações de uma forma segura a longo prazo.
+
+
 
 Você pode aprender mais sobre o Uwazi na [documentação oficial do Uwazi](https://uwazi.readthedocs.io/en/latest/). A HURIDOCS é uma ótima aliada da Horizontal. Por isso, se tiver dúvidas sobre Uwazi ou desejar que conectemos você à equipe da HURIDOCS, [entre em contato conosco](contact-us).
 
@@ -89,7 +96,7 @@ Se usuários do Tella baixam um template que possui propriedades não suportadas
 
 Para conectar-se a um servidor Uwazi:
 
-* Navigate to **Settings ⚙️** > **Connections** > **+**
+* Navegue para: ** Configurações ⚙️** > **Conexões** > **+**
 * Selecione "Uwazi" da lista de tipos de servidores disponíveis.
 * Insira a URL do servidor Uwazi da organização (gerado e fornecido pelos administradores).
 * Escolha entre:
