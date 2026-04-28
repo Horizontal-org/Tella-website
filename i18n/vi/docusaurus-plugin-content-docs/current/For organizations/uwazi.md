@@ -53,7 +53,7 @@ Tài liệu chính và tài liệu hỗ trợ
 1. ✔️
 2. ✔️
 
-## ✔️
+## KoboToolbox cung cấp hướng dẫn chi tiết về cách tạo dự án và thêm câu hỏi vào biểu mẫu của bạn cũng như cách triển khai chúng để người dùng tại thực địa có thể sử dụng [tại đây](https://support.kobotoolbox.org/overview_of_creating_a_project.html).
 
 Văn bản Không định dạng
 
@@ -63,25 +63,93 @@ Văn bản Không định dạng
 
 ### ✔️
 
-| Số | ✔️| ✔️ | ✔️ |
+| Số | **Email:**| Đi đến **Cài đặt** > **Giới thiệu và Trợ giúp** > **Liên hệ với chúng tôi** để tìm địa chỉ email. | ✔️ |
 |------|------|-----|-----| 
-| Lựa chọn Đơn | ✔️ | ✔️ | ✔️ |
-| Lựa chọn nhiều | ✔️ | Không | ✔️ |
-| Mối quan hệ | Không | Không | Không |
-| Chọn Một ngày  | ✔️ | ✔️ | ✔️ | 
-| Chọn Nhiều Ngày  | ✔️ | Không | ✔️ | 
-| Liên kết ngoài | ✔️ | Không | :::tip Video  tutorial 🎥
+| Lựa chọn Đơn | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | :::tip Video  tutorial 🎥
 Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
 ::: |
-| Văn bản Đa định dạng | ✔️ | ✔️ | ✔️ |
-| Phạm vi Ngày đơn và Nhiều ngày | ✔️ | Không | ✔️ |
-| Đính kèm Phương tiện (Hình ảnh, Video, hoặc Âm thanh) | ✔️ | ✔️ | ✔️ |
-| Định vị địa lý | ✔️ | Không | ✔️ |
-| ID Đã được tạo | ✔️ | Không | ✔️ |
-| Chuẩn bị Người Dùng Tại Hiện Trường để Bắt Đầu Nộp Dữ Liệu {#get-people-on-the-ground-ready-to-start-submitting-data} | Kết nối với Máy chủ {#connect-to-the-server}| Để kết nối đến máy chủ Uwazi: | Đến **Cài đặt ⚙️** > **Máy chủ** > **+** |
-| Chọn "Uwazi" từ danh sách các loại máy chủ có sẵn. | Nhập URL máy chủ Uwazi của tổ chức (được tạo và cung cấp bởi quản trị viên). | Chọn giữa: | **Đăng nhập:**  nếu quản trị viên đã cung cấp tên người dùng và mật khẩu. |
-| **Truy cập công khai:** nếu máy chủ được cấu hình để chấp nhận các bài gửi ẩn danh.  | Nếu máy chủ yêu cầu xác thực hai yếu tố, hãy nhập mã dùng một lần. | Chọn **Ngôn ngữ** mà bạn muốn hiển thị các mẫu biểu. | :::info
-Bạn có thể xem [video hướng dẫn này](/video-tutorials#uwazi) về cách kết nối một máy chủ Uwazi từ Tella.
+| Lựa chọn nhiều | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: |
+| Mối quan hệ | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: |
+| Chọn Một ngày  | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | 
+| Chọn Nhiều Ngày  | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | Không | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | 
+| Liên kết ngoài | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: |
+| Văn bản Đa định dạng | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: |
+| Phạm vi Ngày đơn và Nhiều ngày | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | Không | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: |
+| Đính kèm Phương tiện (Hình ảnh, Video, hoặc Âm thanh) | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | Không | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: |
+| Định vị địa lý | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: |
+| ID Đã được tạo | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | Không | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: |
+| Chuẩn bị Người Dùng Tại Hiện Trường để Bắt Đầu Nộp Dữ Liệu {#get-people-on-the-ground-ready-to-start-submitting-data} | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+:::| :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: |
+| Chọn "Uwazi" từ danh sách các loại máy chủ có sẵn. | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | Không | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: |
+| **Truy cập công khai:** nếu máy chủ được cấu hình để chấp nhận các bài gửi ẩn danh.  | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | Không | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
 ::: |
 
 
@@ -91,7 +159,7 @@ Bạn có thể xem [video hướng dẫn này](/video-tutorials#uwazi) về cá
 
 Để tải xuống một Biểu mẫu, hãy nhấn vào nút **+** ở phía dưới màn hình. Bạn sẽ thấy danh sách các mẫu biểu có sẵn cho bạn trên tất cả các phiên bản Uwazi mà bạn đã kết nối. Nhấn vào nút **Tải xuống** để tải xuống các mẫu hoặc nút **Làm mới** để kiểm tra xem có cập nhật nào cho các mẫu biểu trên máy chủ hay không.
 
-* Sau đó quay lại màn hình chính của Uwazi và nhấn vào mẫu bạn muốn sử dụng để tạo một thực thể.
+* Khi chế độ tự động báo cáo được bật, bạn có thể bật tính năng xóa tự động, tính năng này sẽ tự động xóa các báo cáo và các tệp liên quan khỏi thiết bị của bạn sau khi chúng được tải lên thành công trên Tella Web. Điều này giúp bạn quản lý dung lượng lưu trữ của thiết bị và đảm bảo rằng dữ liệu nhạy cảm không bị giữ lại một cách vô tình.
 * Các Phương Thức Nộp Dữ Liệu Khác {#data-submission-alternatives}
 * **Tính năng**
 * **Chi tiết**
@@ -113,13 +181,13 @@ Lưu biểu mẫu chưa hoàn thành.
 
 #### Không
 
-| Nộp sau | Đánh dấu biểu mẫu là đã sẵn sàng và gửi nó tới tab Hộp thư đi| Đồng ý | Không | 
+| **Tính năng** | Đánh dấu biểu mẫu là đã sẵn sàng và gửi nó tới tab Hộp thư đi| **Email:** | Đi đến **Cài đặt** > **Giới thiệu và Trợ giúp** > **Liên hệ với chúng tôi** để tìm địa chỉ email. | 
 |------|------|------|------|
-| Tap Bản nháp | Một tab chứa tất cả các bản nháp.  Bản nháp có thể được chỉnh sửa hoặc xóa. | Đồng ý | Không |
-| Tap Hộp thư đi | Một tab chứa các biểu mẫu sẵn sàng để nộp.  Các biểu mẫu trên tab hộp thư đi có thể được chỉnh sửa hoặc xóa.  | Đồng ý | Không |
-| Tap Đã gửi | Một tab chứa danh sách tất cả các biểu mẫu đã được gửi thành công đến máy chủ. Các biểu mẫu đã nộp có thể được xóa.  | Đồng ý | Không |
-| Tạm dừng/Tiếp tục gửi | Người dùng có thể bấm tạm dừng và tiếp tục gửi khi sẵn sàng.  | Đồng ý | Không |
-| Tự động tạm dừng gửi khi ngoại tuyến | Các bài nộp sẽ được chuyển vào tab Hộp Thư Đi nếu quá trình gửi thất bại do vấn đề kết nối.  | Đồng ý | Không |
+| Tap Bản nháp | Một tab chứa tất cả các bản nháp.  Bản nháp có thể được chỉnh sửa hoặc xóa. | Đồng ý | Đồng ý |
+| Tap Hộp thư đi | Một tab chứa các biểu mẫu sẵn sàng để nộp.  Các biểu mẫu trên tab hộp thư đi có thể được chỉnh sửa hoặc xóa.  | Đồng ý | Đồng ý |
+| Tap Đã gửi | Một tab chứa danh sách tất cả các biểu mẫu đã được gửi thành công đến máy chủ. Các biểu mẫu đã nộp có thể được xóa.  | Đồng ý | Đồng ý |
+| Tạm dừng/Tiếp tục gửi | Người dùng có thể bấm tạm dừng và tiếp tục gửi khi sẵn sàng.  | Đồng ý | Đồng ý |
+| Tự động tạm dừng gửi khi ngoại tuyến | Các bài nộp sẽ được chuyển vào tab Hộp Thư Đi nếu quá trình gửi thất bại do vấn đề kết nối.  | Đồng ý | Đồng ý |
 | Tap Đã gửi | Một tab chứa danh sách tất cả các biểu mẫu đã được gửi thành công đến máy chủ. Các biểu mẫu đã nộp có thể được xóa.  | Đồng ý | Đồng ý |
 | Tạm dừng/Tiếp tục gửi | Người dùng có thể bấm tạm dừng và tiếp tục gửi khi sẵn sàng.  | Đồng ý | Không |
 | Tự động tạm dừng gửi khi ngoại tuyến | Các bài nộp sẽ được chuyển vào tab Hộp Thư Đi nếu quá trình gửi thất bại do vấn đề kết nối.  | Đồng ý | Đồng ý |
