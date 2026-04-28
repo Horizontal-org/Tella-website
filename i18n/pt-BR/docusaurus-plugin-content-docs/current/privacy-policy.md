@@ -8,8 +8,8 @@ slug: /privacy
 
 # Tella - Política de Privacidade
 
-:::note
-Última atualização em 10 de julho de 2023.
+:::nota  
+Atualizada por último sobre 25 de fevereiro de 2025.
 :::
 
 :::info
@@ -60,6 +60,7 @@ Quando você baixa, realiza cadastro ou usa este Aplicativo, podemos solicitar q
 
 -   Registros e cópias de suas correspondências com a Horizontal (incluindo endereços de e-mail e números de telefone), se você entrar em contato conosco.
 -   Suas respostas a enquetes que podemos solicitar que realize para propósitos de pesquisa, informações de quando reportar um problema com o Aplicativo ou sugerir melhorias.
+-   Análises de uso que você optou por compartilhar.
 
 Você pode usar este aplicativo para capturar ou armazenar fotos, vídeos, gravações de áudio e outros tipos de arquivos. Esses dados são armazenados localmente em seu dispositivo e não são acessáveis pela Empresa ou quaisquer terceiros, incluindo Organizações Implantadoras, até que você escolha transmití-los à Organização Implantadora pela submissão de seus dados aos servidores delas (veja Coleta de Informações por Terceiros).
 
@@ -77,7 +78,8 @@ O Tella também coleta informações sobre seu dispositivo móvel e sua conexão
 
 O Tella também coleta informações que ajudam a identificar a localização do dispositivo quando um arquivo foi capturado. Isso inclui a localização (incluso latitude, longitude, acurácia e altitude), provedor de localização, velocidade da localização e torres de celular às quais seu dispositivo está conectado. Coletivamente, esses dados são conhecidos como “Metadados de Localização”.
 
-Metadados de arquivo, dispositivo e localização somente são coletados se você aceitar ao deixar ativo o Modo de Verificação nas configurações do seu Aplicativo. Se você não deseja que o Tella colete essas informações, não ative o Modo de Verificação.  
+Os metadados de arquivo, dispositivo e localização são coletados somente se você optar por ativar o Modo de Verificação ou Importar metadados EXIF nas configurações do seu Aplicativo. Se não quiser que o Tella colete essas informações, não ative o Modo de Verificação nem importe metadados EXIF.
+
 
 ### Tecnologias de Coleta de Informação {#information-collection-technologies}
 
@@ -115,7 +117,7 @@ Nós não controlamos as tecnologias de rastreamento desses terceiros ou sabemos
 
 Se você não quer baixar o Aplicativo por meio da Google Play store, você pode [baixar um APK diretamente neste link](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ).
 
-Uma versão completamente Livre e de Código Aberto do Tella para Android que contém nenhuma biblioteca ou dependência de código fechado ou proprietária e que está livre de quaisquer rastreadores pode ser encontrada na [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
+A fully Free and Open Source version of Tella for Android that doesn't contain any closed-source or proprietary library or dependency can be found on [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/). 
 
 ## 5. Como Nós Usamos Suas Informações {#5-how-we-use-your-information}
 
@@ -135,12 +137,14 @@ Nós podemos divulgar informações pessoais e dados que coletamos ou que você 
 
 ## 6. Suas Escolhas sobre Nossa Coleta, Uso e Divulgação de Suas Informações {#6-your-choices-about-our-collection-use-and-disclosure-of-your-information}
 
-Pelo menu de configurações do Aplicativo, você pode optar por não participar:
+Through the settings menu of Tella Android you can opt-out of:
 
--   Dos relatórios de bugs e análises de uso.
+-   Dos relatórios de bugs e análise de uso padrão.
 -   Da coleta de metadados seja na totalidade ou em parte ao desabilitar o “Modo de Verificação” nas configurações do seu aplicativo.
 
-A versão FOSS do Tella disponível na [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/) não contém quaisquer rastreadores para relatórios de bug ou análises de uso.
+Through the settings menu of Tella Android and Tella FOSS, you can opt-in to:
+- Do compartilhamento de análises de uso usando nosso sistema de preservação de privacidade [Divvi Up](/security-and-privacy#analytics).
+
 
 ## 7. Acessando e Corrigindo Suas Informações Pessoais {#7-accessing-and-correcting-your-personal-information}
 
