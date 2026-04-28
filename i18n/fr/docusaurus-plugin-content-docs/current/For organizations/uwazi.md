@@ -5,13 +5,13 @@ description: La connexion au serveur Uwazi est proposée aux organisations qui s
 slug: /uwazi
 ---
 
-# Uwazi
+# Uwazi Connection
 
 [Uwazi](https://uwazi.io/) est un outil de documentation open source développé par [HURIDOCS](https://huridocs.org).. Il s'agit d'une application de base de données en ligne flexible, conçue pour permettre aux défenseurs et défenseuses des droits de l'homme de gérer leurs collections d'informations, y compris les documents, les preuves, les affaires et les plaintes.
 
 Uwazi permet aux organisations d'agréger, dans un système central, les données collectées par leurs membres ou partenaires. Les utilisateurs et utilisatrices de Tella se connectent à l'instance Uwazi de leur organisation, téléchargent des formulaires (appelés modèles), remplissent les modèles autant de fois que nécessaire (même s'ils n'ont pas de connexion internet), et téléchargent les données. Les organisations peuvent alors conserver, organiser et publier leurs données directement à partir d'Uwazi. 
 
-De la même manière que toute autre connexion au serveur comme([Tella Web](/tella-web) et [Open Data Kit](/odk)), la connexion à Uwazi améliore la sécurité des données collectées sur Tella en :
+Similarly to all other server connections([Tella Web](/tella-web), [Google Drive](/g-drive), [Nextcloud](/nextcloud), [Dropbox](/dropbox), and [Open Data Kit](/odk)), connecting to Uwazi enhances the security of data collected on Tella by:
 1. Permettant aux utilisateurs et utilisatrices de collecter des données directement dans le conteneur crypté de Tella.
 2. Garantissant que les données sont envoyées directement de Tella à Uwazi, sans recours à un outil ou une application tiers.
 3. Permettant aux utilisateurs et utilisatrices de sauvegarder leurs données sur un serveur externe, pour réduire le risque que leurs données soient découvertes sur leur appareil mobile.
@@ -41,6 +41,10 @@ Voici quelques conseils sur Uwazi qui peuvent être particulièrement adaptés �
 
 Vous pouvez en savoir plus sur Uwazi sur [la documentation officielle d'Uwazi](https://uwazi.readthedocs.io/en/latest/). HURIDOCS sont des amis d'Horizontal, donc si vous avez des questions sur Uwazi ou si vous voulez que nous vous mettions en contact avec l'équipe d'HURIDOCS, [contactez-nous](contact-us).
 
+:::tip
+If you need help figuring out if Uwazi is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
+:::
+
 ## Configurer Uwazi sur un serveur {#configure-uwazi-on-a-server}
 
 
@@ -61,14 +65,14 @@ Si les utilisateurs et utilisatrices de Tella téléchargent un modèle dont les
 
 ### Propriétés disponibles {#available-properties}
 
-| **Propriété ou fonctionnalité** | **Tella Android**| **Tella iOS** | **Tella Android FOSS** |
+| **Propriété ou fonctionnalité** | **Tella Android**| Importez des fichiers depuis leur appareil. Les fichiers sont automatiquement chiffrés lorsqu'ils sont importés dans Tella. | **Tella Android FOSS** |
 |------|------|-----|-----| 
 | Documents principaux et justificatifs | ✔️ | ✔️ | ✔️ |
 | Texte brut | ✔️ | ✔️ | ✔️ |
 | Numérique | ✔️ | ✔️ | ✔️ |
 | Sélection unique  | ✔️ | ✔️ | ✔️ | 
 | Sélection multiple  | ✔️ | Non | ✔️ | 
-| Les relations | ✔️ | ✔️ | Non |
+| Les relations | ✔️ | ✔️ | ✔️ |
 | Date unique | ✔️ | ✔️ | ✔️ |
 | Dates multiples | ✔️ | Non | ✔️ |
 | Lien externe | ✔️ | Non | ✔️ |
@@ -85,7 +89,7 @@ Si les utilisateurs et utilisatrices de Tella téléchargent un modèle dont les
 
 Pour vous connecter à un serveur Uwazi:
 
-* Allez dans **Paramètres ⚙️** > **Serveurs** > **+**
+* Utilisez le bouton **Actualiser** en haut à droite pour extraire de nouvelles ressources de l’espace de votre organisation.
 * Sélectionnez "Uwazi" dans la liste des types de serveurs disponibles.
 * Saisissez l'URL du serveur Uwazi de l'organisation (générée et fournie par les admins).
 * Choisissez entre:
@@ -109,7 +113,7 @@ Revenez ensuite à l'écran principal d'Uwazi et appuyez sur le modèle que vous
 
 #### Alternatives à la soumission de données {#data-submission-alternatives}
 
-| **Feature** | **Détails**| **Tella Android** | **Tella iOS** | 
+| **Feature** | **Détails**| **Tella Android** | Importez des fichiers depuis leur appareil. Les fichiers sont automatiquement chiffrés lorsqu'ils sont importés dans Tella. | 
 |------|------|------|------|
 | Envoyer | Envoyer le formulaire rempli au serveur connecté. | Oui | Oui |
 | Enregistrer comme brouillon | Sauvegarder un formulaire non complété.  | Oui | Oui |
