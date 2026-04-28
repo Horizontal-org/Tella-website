@@ -5,6 +5,9 @@ description: Découvrez comment les organisations peuvent utiliser Tella pour de
 slug: /for-organizations
 ---
 
+import ConnectionsTable from '.././_connections-table.md';
+
+
 # Tella pour les organisations - Présentation
 
 En plus d'avoir vos données protégées dans l'application, vous pouvez également vous connecter à un serveur pour sauvegarder vos données en toute sécurité. Il s'agit généralement d'un serveur géré par des organisations, où celles-ci peuvent centraliser les données collectées par des bénévoles ou des activistes sur le terrain. Ces personnes recueillent des informations à l'aide de Tella sur leur téléphone et les envoient ensuite à leur organisation.
@@ -16,8 +19,17 @@ Actuellement, Tella peut être connecté aux types de serveurs suivants:
 * [Open Data Kit (ODK)](#open-data-kit-odk)
 * [Uwazi](#uwazi)
 * [Tella Web](#tella-web)
+* [Google Drive](/g-drive)
+* [Nextcloud](/nextcloud)
+* [Dropbox](/dropbox)
 
 Celles-ci sont appelées [Connexions](/features#connecting-to-servers) dans Tella.
+
+:::danger
+For now, any files you submit to a connection are stored unencrypted on that server or drive. This means that anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
+
+We strongly recommend reviewing and understanding the permission model of each connection you use, in order to determine which option is safest and most appropriate for your specific use case.
+:::
 
 
 ## Sélectionner le bon type de serveur {#selecting-the-right-type-of-server}
@@ -31,13 +43,19 @@ graph TD;
     id1 --> id3("Données principalement multimédias, avec du texte") ;
     id2 --> id4("De quelles fonctionnalités supplémentaires avez-vous besoin?");
     id3 --> id5("Tella Web");
+    id3 --> id11("Google Drive");
+    id3 --> id12("Nextcloud");
+    id3 --> id13("Dropbox");
     id4 --> id6("Établir des relations entre les points de données, publier sur un site Web")
     id4 --> id7("Ajouter une logique aux formulaires, collecter des nombres élevés pour les formulaires, créer des rapports pour visualiser les résultats")
-    id4 --> id10("Envoyer des guides du serveur aux utilisateurs")
     id6 --> id8("Uwazi")
     id7 --> id9("Open Data Kit (ODK)")
-    id10 -->id5
 ```
+
+On this table we explain what server types are available on the Tella apps:
+<ConnectionsTable/>
+
+
 
 ### Tella Web {#tella-web}
 
@@ -85,5 +103,45 @@ La connexion ODK est [uniquement disponible sur Android](/features).
 
 :::tip
 Pour en savoir plus sur Open Data Kit [ici](/odk).
+:::
+
+
+### Google Drive {#g-drive}
+
+Users can sign-in directly to their Google account from within Tella and upload files to a folder in their Drive account. Each "report" uploaded will create a new folder in Drive.
+
+As for all Connections in Tella, users can use most of the Google Drive connection offline through the Draft, Outbox and Submit Later tabs. 
+
+:::note
+The Google Drive connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
+:::
+
+:::tip
+Learn more about the Google Drive connection [here](/g-drive),
+:::
+
+
+### Nextcloud {#Nextcloud}
+Users can sign-in directly to their Nextcloud account from within Tella and upload files to a folder in their Nextcloud account. Each "report" uploaded will create a new folder in Nextcloud.
+
+As for all Connections in Tella, users can use most of the Nextcloud connection offline through the Draft, Outbox and Submit Later tabs. 
+
+:::tip
+Learn more about the Nextcloud connection [here](/nextcloud),
+:::
+
+
+
+### Dropbox {#dropbox}
+Users can sign-in directly to their Dropbox account from within Tella and upload files to a folder in their account. In the "Applications" folder in the user's Dropbox account, a new folder "Tella" will automatically be created. Each Report uploaded from Tella will create a new subfolder inside the "Tella" folder.
+
+As for all Connections in Tella, users can use most of the Dropbox connection offline through the Draft, Outbox and Submit Later tabs. 
+
+:::note
+The Dropbox connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
+:::
+
+:::tip
+Learn more about [the Dropbox connection here](/dropbox),
 :::
 
