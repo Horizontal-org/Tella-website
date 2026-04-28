@@ -9,7 +9,7 @@ slug: /privacy
 # Tella - Politique de confidentialité
 
 :::note
-Dernière mise à jour le 25 February 2025.
+Last updated on 25 February 2025.
 :::
 
 :::info
@@ -25,7 +25,7 @@ Nous ne collectons que le minimum de données nécessaires à la réalisation de
 
 En utilisant notre application, vous pouvez envoyer des données à des serveurs gérés par des personnes ou des organisations avec lesquelles vous travaillez. Nous vous encourageons à interroger ces personnes ou organisations sur leurs politiques relatives à la confidentialité des données, car elles peuvent différer des nôtres. Nous offrons le même niveau de protection de la confidentialité à tous nos utilisateurs, où qu'ils se trouvent dans le monde.
 
-Pour plus de détails, consultez ci-dessous l'intégralité de la politique relative à la protection de la vie privée.
+Pour plus de détails, consultez ci-dessous l'intégralité de la Politique de confidentialité.
 
 ## 1. Introduction {#1-introduction}
 
@@ -117,7 +117,7 @@ Nous ne contrôlons pas les technologies de suivi de ces tiers ni la manière do
 
 Si vous ne souhaitez pas télécharger l'application via la boutique Google Play, vous pouvez [télécharger un APK directement sur ce lien](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ).
 
-A fully Free and Open Source version of Tella for Android that doesn't contain any closed-source or proprietary library or dependency can be found on [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
+A fully Free and Open Source version of Tella for Android that doesn't contain any closed-source or proprietary library or dependency can be found on [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/). 
 
 ## 5. Comment nous utilisons vos informations {#5-comment-nous-utilisons-vos-informations}
 
@@ -137,14 +137,13 @@ Nous pouvons divulguer les informations personnelles et les données que nous co
 
 ## 6. Vos choix concernant notre collecte, notre utilisation et notre divulgation de vos informations {#6-your-choices-about-our-collection-use-and-disclosure-of-your-information}
 
-Via le menu des paramètres de l'application, vous pouvez désactiver :
+Through the settings menu of Tella Android you can opt-out of:
 
 -   Rapports de bogues et analyses d'utilisation par défaut.
 -   Collecte de métadonnées en totalité ou en partie en désactivant le “Mode de vérification” dans les paramètres de votre application.
 
-Grâce au menu des paramètres de l'application, vous pouvez choisir de:
+Through the settings menu of Tella Android and Tella FOSS, you can opt-in to:
 - Partagez des analyses d'utilisation à l'aide de notre système de préservation de la confidentialité [Divvi Up](/security-and-privacy#analytics).
-
 
 
 ## 7. Accès et correction de vos informations personnelles {#7-accessing-and-correcting-your-personal-information}
@@ -180,4 +179,4 @@ La date à laquelle la politique de confidentialité a été révisée pour la d
 
 ## 11. Coordonnées {#11-contact-information}
 
-Pour poser des questions ou commenter cette politique de confidentialité et nos pratiques de confidentialité, contactez-nous à [contact@wearehorizontal.org](mailto:contact@wearehorizontal.org).
+Pour poser des questions ou commenter cette politique de confidentialité et nos pratiques de protection des renseignements personnels, contactez-nous à [contact@wearehorizontal.org](mailto:contact@wearehorizontal.org).
