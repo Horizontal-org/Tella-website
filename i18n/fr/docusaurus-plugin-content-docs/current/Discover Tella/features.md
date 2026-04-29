@@ -50,7 +50,7 @@ Si le [mode de vérification](/features#verification-mode) est activé, le chiff
 ## Configuration du délai du verrouillage {#lock-timeout-configuration}
 Par défaut, Tella se verrouille immédiatement chaque fois que l'utilisateur quitte l'application ou que l'écran de votre téléphone s'éteint. Si vous souhaitez modifier ce paramètre, l'utilisateur peut le faire en accédant à
 
-For the moment we support the following connections. Follow each of the links to find details and step-by-step guides on how to connect and use each of them:
+Pour le moment, nous prenons en charge les connexions suivantes. Suivez chacun des liens pour obtenir des détails et des guides étape par étape sur la façon de se connecter et de les utiliser :
 * [Uwazi](#uwazi)
 * [Tella Web](#tella-web)
 * Celles-ci sont appelées [Connexions](/features#connecting-to-servers) dans Tella.
