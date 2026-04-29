@@ -163,7 +163,7 @@ La seule information que nous recevrons est le contenu vous ajouterez spécifiqu
 | Pour plus de commodité et de facilité d'accès, il est également possible de personnaliser l'écran d'accueil pour afficher également des raccourcis vers un ou plusieurs des éléments suivants :          | Fichiers récents, pour ouvrir rapidement les fichiers les plus récents dans Tella 💼        | ✔️           |  ✔️          | ✔️        |
 
 Suppression rapide {#quick-delete}
-- **Rotate**:  Use the Rotate button at the bottom of the screen to rotate the image counter-clock wise. 
+- **Rotation** : Utilisez le bouton Rotation en bas de l'écran pour faire pivoter l'image dans le sens antihoraire.
 - Supprimer le coffre-fort : supprime tous les fichiers stockés dans Tella 🗑️
 - Supprimer les brouillons et les formulaires soumis: supprime les brouillons et les formulaires soumis sur tous les serveurs connectés à l'Open Data Kit (ODK) 📝
 - Supprimer les paramètres du serveur : supprime toutes les connexions au serveur et tous les formulaires ou modèles qui leur sont associés 📋
