@@ -77,7 +77,7 @@ Sécurité de l'écran {#screen-security}
 :::danger
 Pour le moment, tous les fichiers que vous soumettez à une connexion sont stockés non chiffrés sur ce serveur ou ce disque. Cela signifie que toute personne ayant l'autorisation d'accéder au contenu de ce serveur ou de ce disque peut être en mesure de consulter ces fichiers. Bien que la connexion utilisée pour soumettre les fichiers soit sécurisée via HTTPS, les fichiers eux-mêmes doivent être déchiffrés pour être accessibles en dehors du coffre-fort Tella.
 
-We strongly recommend reviewing and understanding the permission model of each connection you use, in order to determine which option is safest and most appropriate for your specific use case.
+Nous recommandons vivement de consulter et de comprendre le modèle de permissions de chaque connexion que vous utilisez, afin de déterminer quelle option est la plus sûre et la plus adaptée à votre cas d'usage spécifique.
 :::
 
 
