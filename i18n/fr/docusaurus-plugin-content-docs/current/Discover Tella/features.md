@@ -181,7 +181,7 @@ Sur iOS, il n'est pas possible de fermer une application simplement à partir de
 - **Rogner** : Déplacez les lignes orange verticales pour sélectionner le nouveau point de début et de fin de votre audio ou vidéo.
 - **Rotation** : Utilisez le bouton Rotation en haut à droite de l'écran pour faire pivoter la vidéo dans le sens antihoraire.
 
-Use the Play button at the bottom of the screen to listen to the audio or the Cancel button to start over. When you are done editing the file, use the orange scissors ✂️ icon in the top-right corner to save the trimmed audio or video. The edited file will be saved as a copy of the original file in the same folder.
+Utilisez le bouton Lecture en bas de l'écran pour écouter l'audio ou le bouton Annuler pour recommencer. Lorsque vous avez terminé de modifier le fichier, utilisez l'icône orange en forme de ciseaux ✂️ dans le coin supérieur droit pour enregistrer l'audio ou la vidéo rognée. Le fichier modifié sera enregistré comme une copie du fichier original dans le même dossier.
 
 
 ## Dans les paramètres de Tella, vous pouvez activer le « Mode de vérification » ✅
