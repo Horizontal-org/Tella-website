@@ -178,7 +178,7 @@ En raison de limitations techniques, il se peut que l'option Supprimer Tella soi
 - Sur Android, il est possible de fermer et de verrouiller rapidement l'application en cas d'urgence en cliquant sur le bouton de sortie situé dans le coin supérieur droit de l'écran d'accueil de Tella. Le fait d'avoir réglé le délai de verrouillage sur « immédiatement » signifie que l'application se verrouille automatiquement lorsque vous en sortez. Ceci dit, l'utilisation du bouton de sortie rapide ajoute une couche supplémentaire de sécurité et garantit que l'application est entièrement fermée et verrouillée.🔒
 
 Sur iOS, il n'est pas possible de fermer une application simplement à partir de l'application elle-même. C'est en tapant sur le bouton de sortie rapide que l'application se verrouille.
-- **Trim**: Move the vertical orange lines to select the new start and end point of your audio or video. 
+- **Rogner** : Déplacez les lignes orange verticales pour sélectionner le nouveau point de début et de fin de votre audio ou vidéo.
 - **Rotate**: Use the Rotate button on the top right of the screen to rotate the video counter-clock wise.
 
 Use the Play button at the bottom of the screen to listen to the audio or the Cancel button to start over. When you are done editing the file, use the orange scissors ✂️ icon in the top-right corner to save the trimmed audio or video. The edited file will be saved as a copy of the original file in the same folder.
