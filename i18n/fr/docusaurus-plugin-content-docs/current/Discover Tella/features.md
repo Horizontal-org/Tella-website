@@ -291,7 +291,7 @@ Cette configuration se trouve dans **Paramètres** > **Général**.
 Un bouton de suppression rapide vous permet en quelques secondes seulement, de supprimer les données sensibles de Tella. La suppression rapide peut être configurée dans **Paramètres** > **Sécurité** > **Suppression rapide**, où vous pouvez choisir d'activer un bouton coulissant sur l'écran d'accueil pour supprimer rapidement les informations de Tella dans les situations d'urgence. Si cette option est activée, vous pouvez phoisir exactement ce qui est supprimé lorsque la fonctionnalité est utilisée. Les options disponibles sont : 
 
 * Supprimer les fichiers : Supprime tous les fichiers stockés dans Tella 🗑️.  Il s'agit de l'option par défaut.
-* Delete Connections: Deletes all your connections, and all data asociated with them (including drafts, outbox and submitted reports). [Visit the For Organizations page](/for-organizations) to  discover the available server connections 📝
+* Supprimer les connexions : Supprime toutes vos connexions, ainsi que toutes les données associées (y compris les brouillons, la boîte d'envoi et les rapports soumis). [Visitez la page Pour les organisations](/for-organizations) pour découvrir les connexions serveur disponibles 📝
 * Supprimer Tella : supprime l'application et toutes les données qu'elle contient. Un message apparait vous demandant si vous souhaitez également désinstaller Tella ❌.
 
 :::info Delete Tella
