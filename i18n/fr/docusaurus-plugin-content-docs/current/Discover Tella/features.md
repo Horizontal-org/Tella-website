@@ -294,8 +294,8 @@ Un bouton de suppression rapide vous permet en quelques secondes seulement, de s
 * Supprimer les connexions : Supprime toutes vos connexions, ainsi que toutes les données associées (y compris les brouillons, la boîte d'envoi et les rapports soumis). [Visitez la page Pour les organisations](/for-organizations) pour découvrir les connexions serveur disponibles 📝
 * Supprimer Tella : supprime l'application et toutes les données qu'elle contient. Un message apparait vous demandant si vous souhaitez également désinstaller Tella ❌.
 
-:::info Delete Tella
-The Delete Tella option might not be available on some Android phones due to technical limitations. We are working on a fix for this issue. For iOS it is not possible to programmatically delete an app, so the Delete Tella option is not available.
+:::info Supprimer Tella
+L'option Supprimer Tella peut ne pas être disponible sur certains téléphones Android en raison de limitations techniques. Nous travaillons sur un correctif pour ce problème. Sur iOS, il n'est pas possible de supprimer une application par programmation, donc l'option Supprimer Tella n'est pas disponible.
 :::
 
 ## Sortie rapide {#quick-exit}
