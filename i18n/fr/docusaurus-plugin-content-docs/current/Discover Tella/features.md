@@ -75,7 +75,7 @@ Sécurité de l'écran {#screen-security}
 
 
 :::danger
-For now, any files you submit to a connection are stored unencrypted on that server or drive. This means that anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
+Pour le moment, tous les fichiers que vous soumettez à une connexion sont stockés non chiffrés sur ce serveur ou ce disque. Cela signifie que toute personne ayant l'autorisation d'accéder au contenu de ce serveur ou de ce disque peut être en mesure de consulter ces fichiers. Bien que la connexion utilisée pour soumettre les fichiers soit sécurisée via HTTPS, les fichiers eux-mêmes doivent être déchiffrés pour être accessibles en dehors du coffre-fort Tella.
 
 We strongly recommend reviewing and understanding the permission model of each connection you use, in order to determine which option is safest and most appropriate for your specific use case.
 :::
