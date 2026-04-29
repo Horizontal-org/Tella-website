@@ -179,7 +179,7 @@ En raison de limitations techniques, il se peut que l'option Supprimer Tella soi
 
 Sur iOS, il n'est pas possible de fermer une application simplement à partir de l'application elle-même. C'est en tapant sur le bouton de sortie rapide que l'application se verrouille.
 - **Rogner** : Déplacez les lignes orange verticales pour sélectionner le nouveau point de début et de fin de votre audio ou vidéo.
-- **Rotate**: Use the Rotate button on the top right of the screen to rotate the video counter-clock wise.
+- **Rotation** : Utilisez le bouton Rotation en haut à droite de l'écran pour faire pivoter la vidéo dans le sens antihoraire.
 
 Use the Play button at the bottom of the screen to listen to the audio or the Cancel button to start over. When you are done editing the file, use the orange scissors ✂️ icon in the top-right corner to save the trimmed audio or video. The edited file will be saved as a copy of the original file in the same folder.
 
