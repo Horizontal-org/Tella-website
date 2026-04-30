@@ -12,10 +12,14 @@ slug: /uwazi
 Uwazi allows organizations to aggregate, in a central repository, data collected by their members or partners. Tella users connect to their organization's Uwazi instance, download forms (called templates), fill templates as many times as they need (even if they don't have internet connectivity), and upload the data. Organizations can then curate, organize, and publish their data directly from Uwazi. 
 
 Similarly to all other server connections([Tella Web](/tella-web), [Google Drive](/g-drive), [Nextcloud](/nextcloud), [Dropbox](/dropbox), and [Open Data Kit](/odk)), connecting to Uwazi enhances the security of data collected on Tella by:
-1. Allowing users to collect data directly inside Tella's encrypted container
-2. Ensuring that data is sent directly from Tella to Uwazi, without having to rely on a third-party tool or app
-3. Allowing users to back up their data on a remote server, to lower the risk that data is discovered on their mobile device
-4. Ensuring that organizations can preserve important information even in the event of device seizure or destruction, and can organize it to use for research, advocacy, or accountability processes
+1. Allowing users to collect data directly inside Tella's encrypted container.
+2. Ensuring that data is sent directly from Tella to Uwazi, without having to rely on a third-party tool or app.
+3. Allowing users to back up their data on a remote server, to lower the risk that data is discovered on their mobile device.
+4. Ensuring that organizations can preserve important information even in the event of device seizure or destruction, and can organize it to use for research, advocacy, or accountability processes.
+
+:::danger
+Even though data is transferred to the server securely (SSL), anyone with access to the Uwazi account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+:::
 
 ### Testing Uwazi {#testing-uwazi}
 
@@ -125,3 +129,6 @@ Then go back to the Uwazi main screen and tap the template you want to use to cr
 | Automatically pause submission when offline | Submissions will be sent to the Outbox tab if submission fails due to connectivity issues.  | Yes | Yes |
 
 
+:::tip
+If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+:::

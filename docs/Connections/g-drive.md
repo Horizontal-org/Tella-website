@@ -25,6 +25,9 @@ Submissions to Google Drive take the form of "reports" which include a title, a 
 The Google Drive connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
 :::
 
+:::danger
+Even though data is transferred to the server securely (SSL), anyone with access to the Google Drive account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+:::
 
 ## When to Use Google Drive {#when-to-use-google-drive}
 
@@ -117,6 +120,10 @@ The Outbox contains:
 * Paused submissions
 * Report submissions that were interrupted due to connectivity issues.
 * Reports that were marked as "Submit later"
+
+:::tip
+If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+:::
 
 
 #### Submitted Reports {#submitted-reports}
