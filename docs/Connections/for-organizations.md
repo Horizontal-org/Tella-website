@@ -72,8 +72,6 @@ Tella Web is developed internally by our team at Horizontal, the same team respo
 
 The Tella Web server connection also allows users to securely download guides, resources and information from the server directly to Tella's encrypted container.
 
-The Tella Web connection is available on Tella Android and Tella iOS, but not yet on [Tella-FOSS](/faq#is-tella-available-on-f-droid). 
-
 <Button label="Continue reading about the Tella Web connection " link="/tella-web"/>
 
 
@@ -83,11 +81,6 @@ The Tella Web connection is available on Tella Android and Tella iOS, but not ye
 
 Organizations who use Uwazi as a database can connect Tella to one or more of their databases to upload data. All that is required to connect Tella to Uwazi is the Uwazi database URL, and a username and password. The Uwazi database should already have one or more templates configured, which can be downloaded into Tella. Once successfully downloaded, users can easily navigate between their templates to enter details for each new record, even when there is no internet connection. When the data entry is complete, it can be saved as a draft in the Tella app or immediately uploaded to the connected Uwazi database. This enables users who work offline to collect data and upload the information when it is convenient. 
 
-Resources to learn more about Uwazi:
-* video demoing the Uwazi connection [here](/video-tutorials#uwazi).
-* [More information about how to use Tella with Uwazi](/uwazi).
-* [blogpost from the Uwazi team](https://huridocs.org/2022/07/the-new-tella-app-lets-uwazi-users-document-violations-safely-and-while-offline/) about the connection.
-* Uwazi [website](https://uwazi.io/) and [documentation](https://uwazi.readthedocs.io/en/latest/).
 
 <Button label="Continue reading about the Uwazi connection " link="/uwazi"/>
 
@@ -115,7 +108,7 @@ As for all Connections in Tella, users can use most of the Google Drive connecti
 
 <Button label="Continue reading about the Google Drive connection " link="/g-drive"/>
 
-Users can sign-in directly to their Google account from within Tella and upload files to a folder in their Drive account. Each "report" uploaded will create a new folder in Drive.
+Users can sign-in directly to their Google account from within Tella and upload files to a folder in their Drive account. Each "report" uploaded will create a new folder in the user's Google Drive.
 
 As for all Connections in Tella, users can use most of the Google Drive connection offline through the Draft, Outbox and Submit Later tabs. 
 

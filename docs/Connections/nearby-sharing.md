@@ -49,7 +49,7 @@ Tap the Nearby Sharing button under the **Connections** section on the Tella Hom
 
 In order to use the feature, the sender and receiver need to join the same Wi-Fi network. You can connect to mobile devices using Tella (Android or iOS) or connect a mobile device to a computer. There are 2 ways to connect your devices though Wi-Fi:
 1. Using a local network, such as the Wi-Fi at your home or work, or a public Wi-Fi network.
-2. Setting up a Hotspot on a device, and make sure both the sender and receiver have joined it.
+2. Setting up a Hotspot on a device, and make sure both the sender and receiver have joined it. One of the devices can act as Hotspot and the other one could connect to it.
 
 Nearby Sharing will show a tutorial that will guide users in every step of the connection process.
 
