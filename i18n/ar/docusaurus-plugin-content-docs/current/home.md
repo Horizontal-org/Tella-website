@@ -1,7 +1,8 @@
 ---
 id: docs
 slug: /docs
-title: مستندات Tella
+title: Tella Documentation
+sidebar_position: 1
 ---
 
 import Link from '@docusaurus/Link'
@@ -85,18 +86,10 @@ import Link from '@docusaurus/Link'
 
 <div className="doc-card-list">
     <div className="doc-card">
-      <Link to="/for-organizations">
-        <div className="doc-card-content">
-          <b>نظرة عامة</b>
-          <p>تعرف على كيفية استخدام المنظمات لـ Tella في عمليات البحث أو المناصرة أو المساءلة.</p>
-        </div>
-      </Link>
-    </div>
-    <div className="doc-card">
       <Link to="/tella-web">
         <div className="doc-card-content">
           <b>Tella Web</b>
-          <p>يتيح الاتصال بـ Tella Web للمستخدمين إمكانية تحميل الصور والفيديوهات والتسجيلات الصوتية والنصوص بسهولة إلى خادم منظمتهم.</p>
+          <p>The Tella Web connection empowers users to upload photos, videos, audio recordings, and text to their organization's server.</p>
         </div>
       </Link>
     </div>
@@ -104,7 +97,7 @@ import Link from '@docusaurus/Link'
       <Link to="/uwazi">
         <div className="doc-card-content">
           <b>Uwazi</b>
-          <p>يتيح الاتصال بـ Uwazi للمنظمات جمع البيانات من مستخدمي Tella الخاصين بهم وإنشاء العلاقات بين هذه البيانات.</p>
+          <p>The Uwazi connection lets organizations collect data from their Tella users and establish relationships between the data.</p>
         </div>
       </Link>
     </div>
@@ -112,10 +105,35 @@ import Link from '@docusaurus/Link'
       <Link to="/odk">
         <div className="doc-card-content">
           <b>Open Data Kit (ODK)</b>
-          <p>يتيح الاتصال بـ ODK للمنظمات جمع البيانات باستخدام استمارات مخصصة من Tella.</p>
+          <p>The ODK connection lets organizations collect data using custom forms from Tella.</p>
         </div>
       </Link>
     </div>
+    <div className="doc-card">
+      <Link to="/g-drive">
+        <div className="doc-card-content">
+          <b>Google Drive Connection</b>
+          <p>Tella allows users to upload photos, videos, audio recordings and text to their personal or organizational Google Drive.</p>
+        </div>
+      </Link>
+    </div>
+    <div className="doc-card">
+      <Link to="/nextcloud">
+        <div className="doc-card-content">
+          <b>Nextcloud Connection</b>
+          <p>Tella allows users to conveniently upload photos, videos, audio recordings and text to Nextcloud.</p>
+        </div>
+      </Link>
+    </div>
+    <div className="doc-card">
+      <Link to="/dropbox">
+        <div className="doc-card-content">
+          <b>Dropbox Connection</b>
+          <p>Tella allows users to conveniently upload photos, videos, audio recordings and text to Dropbox.</p>
+        </div>
+      </Link>
+    </div>
+
 </div>
 
 
