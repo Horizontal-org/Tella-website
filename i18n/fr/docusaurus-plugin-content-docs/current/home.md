@@ -2,9 +2,10 @@
 id: docs
 slug: /docs
 title: Documentation de Tella
+sidebar_position: 1
 ---
 
-import Link from '@docusaurus/Link'
+importer le lien depuis '@docusaurus/Link'
 
 
 # Documents Tella
@@ -85,18 +86,10 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
 
 <div className="doc-card-list">
     <div className="doc-card">
-      <Link to="/for-organizations">
-        <div className="doc-card-content">
-          <b>Aperçu</b>
-          <p>Découvrez comment les organisations peuvent utiliser Tella pour des processus de recherche, de plaidoyer ou de responsabilisation.</p>
-        </div>
-      </Link>
-    </div>
-    <div className="doc-card">
       <Link to="/tella-web">
         <div className="doc-card-content">
           <b>Tella Web</b>
-          <p>La connexion Tella Web permet aux utilisateurs de télécharger facilement des photos, des vidéos, des enregistrements audio et du texte sur le serveur de leur organisation.</p>
+          <p>The Tella Web connection empowers users to upload photos, videos, audio recordings, and text to their organization's server.</p>
         </div>
       </Link>
     </div>
@@ -104,7 +97,7 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
       <Link to="/uwazi">
         <div className="doc-card-content">
           <b>Uwazi</b>
-          <p>La connexion Uwazi permet aux organisations de collecter des données auprès de leurs utilisateurs Tella et d'établir des relations entre les données.</p>
+          <p>The Uwazi connection lets organizations collect data from their Tella users and establish relationships between the data.</p>
         </div>
       </Link>
     </div>
@@ -112,10 +105,35 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
       <Link to="/odk">
         <div className="doc-card-content">
           <b>Open Data Kit (ODK)</b>
-          <p>La connexion ODK permet aux organisations de collecter des données à l'aide de formulaires personnalisés de Tella.</p>
+          <p>The ODK connection lets organizations collect data using custom forms from Tella.</p>
         </div>
       </Link>
     </div>
+    <div className="doc-card">
+      <Link to="/g-drive">
+        <div className="doc-card-content">
+          <b>Google Drive Connection</b>
+          <p>Tella allows users to upload photos, videos, audio recordings and text to their personal or organizational Google Drive.</p>
+        </div>
+      </Link>
+    </div>
+    <div className="doc-card">
+      <Link to="/nextcloud">
+        <div className="doc-card-content">
+          <b>Nextcloud Connection</b>
+          <p>Tella allows users to conveniently upload photos, videos, audio recordings and text to Nextcloud.</p>
+        </div>
+      </Link>
+    </div>
+    <div className="doc-card">
+      <Link to="/dropbox">
+        <div className="doc-card-content">
+          <b>Dropbox Connection</b>
+          <p>Tella allows users to conveniently upload photos, videos, audio recordings and text to Dropbox.</p>
+        </div>
+      </Link>
+    </div>
+
 </div>
 
 
