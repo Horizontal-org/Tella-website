@@ -1,6 +1,6 @@
 ---
 id: faq
-title: Frequently asked questions (FAQ)
+title: الأسئلة الشائعة حول Tella
 description: الأسئلة الشائعة حول Tella
 slug: /faq
 ---
@@ -31,15 +31,21 @@ import TellaLanguages from './_tella-languages.md';
 :::
 
 ### هل Tella متاح على F-Droid؟ {#is-tella-available-on-f-droid}
-Yes, we publish a version of Tella Android [on F-Droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/), which we call Tella FOSS. Tella FOSS does not support all features available on Tella Android. For details about which features are available on Tella FOSS, see [what features are available on each platform](/features) and our [release notes page](/releases).
+نعم، لقد قمنا بنشر إصدار Tella Android [على F-Droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/)، والذي نسميه Tella-FOSS. في هذا الإصدار، تتوفر جميع الميزات باستثناء:
+- اتصالات Tella Web
+- خيار حذف الملف الأصلي عند الاستيراد
+- بعض ميزات الكاميرا (التكبير والتصغير وقلب الكاميرا وتفعيل الفلاش وتفعيل الشبكة وتغيير دقة الفيديو)
 
-All code, libraries, and dependencies in Tella FOSS are entirely Free and Open Source Software (FOSS). Tella FOSS only includes an opt-in [privacy-preserving analytics](/security-and-privacy#analytics) tracker.
+هذا الإصدار مفتوح المصدر بالكامل، مما يعني أن جميع الشيفرات المصدرية لـ Tella ولجميع المكتبات التي تستخدمها Tella مجانية ومفتوحة المصدر تماما.
+
+لا تحتوي هذا الإصدار على أي متعقبات، ولا حتى تلك التي تساعدنا في اكتشاف الأخطاء والانهيارات على نظام أندرويد.
+
 
 ### هل Tella متاح على iOS؟ {#is-tella-available-on-ios}
 
-Yes, Tella for iOS can be downloaded [from the App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580).
+‫نعم، يمكن تنزيل Tella iOS [من App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580). Tella iOS مازال في مرحلة التطوير الأولية، لذا لا تتوفر جميع الميزات بعد. ومع ذلك، فهو مستقر وتم إخضاعه لتدقيق أمني.
 
-For details about which features are available for iOS, see [What features are available on each platform](/features).
+لمعرفة التفاصيل حول الميزات المتاحة لنظام iOS، اطلع على الميزات المتاحة على كل منصة.
 
 ### ما هي الميزات المتوفرة في كل منصة؟ {#what-features-are-available-on-each-platform}
 
@@ -68,9 +74,6 @@ For details about which features are available for iOS, see [What features are a
 ### ما هي الهواتف التي تدعم Tella؟ {#what-phones-support-tella}
 
 ‫Tella متوافق مع الأجهزة التي تعمل بنظام أندرويد 5.0 أو أحدث منه و iOS 14.0 أو أحدث منه.
-
-### Does Tella work on GrapheneOS? {#does-tella-work-on-graphene-os}
-As of December 2024, we haven't been able to test Tella Android and Tella FOSS on GrapheneOS, so we cannot confirm that all features work properly. Some users have reported that the main features (lock, file encryption and management, etc) work properly, but some of the Connections (like Google Drive) do not work. If you use GrapheneOS and you experience a problem, please [contact us](/contact-us).
 
 ### هل Tella مجاني؟ {#is-tella-free}
 
@@ -112,13 +115,6 @@ Tella أيضا [مفتوح المصدر.](/open-source)
 
 مواقع التخزين الخارجية (مثل بطاقات SD) لا تُستخدم حاليا بواسطة Tella.
 
-
-### Can i backup the data I store in Tella? {#can-i-backup-the-data-i-store in-tella?}
-
-Yes, you can. You can connect to different clouds directly from Tella and choose the files you want to send to the cloud. You can read more about the [servers available here](/features#backup-files). You can also select files from your vault and export those your phone.
-
-All exports outside of Tella's encrypted vault (to a cloud server or to your phone) will be unencrypted.
-
 ## الأمن والخصوصية {#security--privacy}
 
 ### لا أتذكر قفلي. كيف يمكنني الدخول إلى Tella؟ {#i-cant-remember-my-lock-how-can-i-get-into-tella}
@@ -135,10 +131,10 @@ All exports outside of Tella's encrypted vault (to a cloud server or to your pho
 لن ينجح استخدام مساعد النقل في آبل Apple's Migration Assistant: سيتم نقل ملفاتك معماة إلى الهاتف الجديد، ولكن لن يتم نقل مفاتيح التعمية. نتيجة لذلك لن يكون بإمكانك فك التعمية وفتح هذه الملفات.
 
 لنقل ملفات Tella الخاصة بك إلى هاتف جديد، تحتاج إلى تثبيت Tella على الهاتف الجديد، تصدير كل الملفات من Tella، ثم استيراد هذه الملفات  يدويا في الهاتف الجديد. نوصي باتباع الخطوات التالية:
-  1. On your old phone go to the "All Files" folder and use the "Select all" checkbox to select all your files and folders. Keep in mind that the files will remain visible -unencrypted-, on the phone gallery. 
-  2. Use Quick Share (in Android), Airdrop (in iOS) or any other data transfer utility to move your files to the new device. Files will be transferred unencrypted.
-  3. On your new phone open Tella and go to the "All Files" folder, tap the "+"" button, and select "Import from device". You can choose "Delete original" in the dialog to make sure the files are only stored safely inside Tella. Select the files you had just exported from your old phone to import them to Tella. 
-  4. Make sure you delete the files that are not secured in Tella's encrypted vault from both your phones' galleries.
+  1. على الهاتف القديم، توجه إلى مجلد "كافة الملفات" واستخدم مربع الاختيار "اختيار الكل" لاختيار كل ملفاتك ومجلداتك. ليكن في حسبانك أن الملقات ستبقى ظاهرة -غير معماة- في معرض الهاتف.
+  2. استخدم Quick Share (في أندرويد)، أو Airdrop (في iOS) أو أي أداة أخرى لنقل البيانات لنقل ملفاتك إلى الجهاز الجديد. سيتم نقل الملفات دون تعمية.
+  3. على هاتفك الجديد، افتح Tella وانتقل إلى مجلد "All Files" ثم اضغط فوق زر "+" واختر "استيراد من الجهاز". يمكنك اختيار "حذف الأصلي" في مربع الحوار للتأكد من تخزين الملفات بأمان فقط داخل Tella. اختر الملفات التي قمت بتصديرها للتو من هاتفك القديم لاستيرادها إلى Tella.
+  4. تأكد من حذف الملفات غير المؤمنة في خزانة Tella المعمّاة من معرض هواتفكم.
 
 
 
