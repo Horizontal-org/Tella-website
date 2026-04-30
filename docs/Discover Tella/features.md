@@ -69,15 +69,11 @@ For the moment Tella Desktop can only receive files.
 
 ### Backup files to a cloud {#backup-files-to-a-cloud}
 
-Several servers can be connected to Tella to be able to send files to a cloud or to an external service. Backups, for the moment, need to be made manually, by creating reports (using, for example, the date of "today" as the report title) and submitting them to the connected server. Files will be available on the connected server inside a folder with the report title.
+Some individuals use commercial clouds (Google Drive, Dropbox, Nextcloud) as a backup system for their Tella data. However, we advise using this feature with caution:
+- Automatic backups to any server are **not** currently available. They need to be made manually as submissions to each of the servers.
+- Files on the server will be accessible to anyone with server access.
 
-For the moment we support different server connections, we offer [this guide](/for-organizations) to help you assess what server could be best suited for your use-case.  
-
-:::danger
-For now, any files you submit to a connection might be stored unencrypted on that server or drive (it depends on the server). Anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
-
-We strongly recommend reviewing and understanding the permission model of each connection you use, in order to determine which option is safest and most appropriate for your specific use case.
-:::
+You can [continue reading about Server Connections and how organizations use Tella here](/for-organizations).
 
 
 
