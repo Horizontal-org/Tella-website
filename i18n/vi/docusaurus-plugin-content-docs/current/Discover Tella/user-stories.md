@@ -3,6 +3,7 @@ id: user-stories
 title: Câu chuyện Người dùng
 description: Trải nghiệm của người dùng và triển khai Tella
 slug: /user-stories
+sidebar_position: 4
 ---
 
 # Câu chuyện người dùng Tella
@@ -20,7 +21,7 @@ Tổ chức CLEEN đã sử dụng Tella để giám sát bầu cử ở Nigeria
 📲 7800 báo cáo gồm hình ảnh, âm thanh và video
 
 
-🗄️ Connection: ODK (Kobotoolbox)
+🗄️ Kết nối: ODK (Kobotoolbox)
 :::
 
 [CLEEN Foundation](https://cleen.org/) là một tổ chức phi chính phủ thành lập năm 1998 tại Nigeria với sứ mệnh thúc đẩy an toàn công cộng, an ninh và tiếp cận công lý thông qua nghiên cứu thực nghiệm, vận động lập pháp, các chương trình thí điểm và xuất bản, hợp tác cùng chính phủ, xã hội dân sự và khu vực tư nhân.
