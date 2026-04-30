@@ -22,4 +22,4 @@
 22. Tamoul
 23. Ukrainien
 24. Tsonga
-25. Vietnamese
+25. Vietnamien
