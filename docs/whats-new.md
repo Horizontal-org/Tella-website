@@ -15,16 +15,16 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 
 ## Tella - Latest Versions {#tella---latest-versions}
 
-### Android: Tella 3.0.0 (XXX) - Released on May X, 2026 {#android-tella-300xxx---released-on-may-x-2026}
+### Android: Tella 3.0.0 (235) - Released on May X, 2026 {#android-tella-300235---released-on-may-x-2026}
 - Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files on physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
 - Implemented security fixes detected by our most recent [security audit](/security-and-privacy#security-audits).
-- New Languages support: Ukranian.
+- New Languages support: Ukrainian.
 
 
 ### iOS: Tella 3.0.0 (143) - Released on May X, 2026 {#ios-tella-300143---released-on-may-x-2026}
 - Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files on physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
 - Implemented security fixes detected by our most recent [security audit](/security-and-privacy#security-audits).
-- New Languages support: Ukranian.
+- New Languages support: Ukrainian.
 
 
 ### Android: Tella FOSS 2.20.2(233) (based on Android 2.20.2) - Released on April 22, 2026 {#android-tella-foss-2202-based-on-android-2202---released-on-april-22-2026}
