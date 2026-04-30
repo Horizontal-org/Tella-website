@@ -12,10 +12,9 @@ Tella Desktop is an Application you can install on your computer to be able to r
 
 ## Install Tella Desktop {#install-tella-desktop}
 
-Tella Desktop is available for Windows, Linux, and macOS. For the moment, the installation files can be found in our [Github repository](https://github.com/Horizontal-org/Tella-Desktop/actions). 
-- Download the binaries for your platform (Windows, Linux or Mac).
+- Download the latest installation file for your platform ([Windows](https://github.com/Horizontal-org/Tella-Desktop/actions/runs/25175478020), [Linux](https://github.com/Horizontal-org/Tella-Desktop/actions/runs/25175478020/artifacts/6734450841) or [macOS](https://github.com/Horizontal-org/Tella-Desktop/actions/runs/25175478020/artifacts/6734424947)).
 - Unzip it.
-- Click on the Tella-Desktop file.
+- Click on the Tella-Desktop file inside the folder.
 - If you get a warning from your OS saying that the file cannot be opened because it's from an un-verified developer, go to Settings > Security and Privacy and choose to open the file anyway.
 
 :::note
@@ -46,7 +45,7 @@ After you are done receiving files, we strongly recommend closing the Tella Desk
 
 ## Export files {#export-files}
 
-All received files will be stored, encrypted, in Tella. Click on the Received button on the left side panel to view the list of folders received, the date, and the number of files on each folder. At the moment, it's not possible to preview the files inside the Tella Desktop encrypted container. To export files to your Computer and be able to view them, select one or many folders from the list of received files and click on the Export button on the top bar to save them in your computer. For each folder, Tella will save a zip file on ´Downloads > Tella´. Unzip it to view the files.
+All received files will be stored, encrypted, in Tella. Click on the Received button on the left side panel to view the list of folders received, the date, and the number of files on each folder. At the moment, it's not possible to preview the files inside the Tella Desktop encrypted container. To export files to your Computer and be able to view them, select one or many folders from the list of received files and click on the Export button on the top bar to save them in your computer. For each folder, Tella will save a zip file on ´Documents > Exports´. Unzip it to view the files.
 
 :::danger
 Once exported out of Tella, anyone with access to your computer can view them.
