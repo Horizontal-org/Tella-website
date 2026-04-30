@@ -1,0 +1,142 @@
+---
+id: odk
+title: Open Data Kit (ODK)
+description: اتصال خادم Open Data Kit متاح للمنظمات التي تريد جمع البيانات المنظمة باستخدام الاستمارات.
+slug: /odk
+---
+
+# Open Data Kit (ODK)
+
+[Open Data Kit (ODK)](https://getodk.org/) هو معيار مفتوح يُستخدم لإنشاء استمارات مخصصة ولجمع البيانات.
+
+يسمح خادم Open Data Kit للمنظمات بتجميع البيانات التي يجمعها أعضاؤها أو شركاؤها في مستودع مركزي. يتصل مستخدمو Tella بمثيل ODK الخاص بمنظمتهم، ويملؤون الاستمارات حسب الحاجة (حتى عند عدم توفر اتصال بالانترنت)، ويقومون بتحميل البيانات. يمكن للمنظمات تنزيل البيانات من الخادم أو تحليلها على الخادم، حسب بدائل الخادم المختارة.
+
+كما هو الشأن مع أي اتصال آخر بخادم (مثل [Tella Web](/tella-web) أو [Uwazi](/uwazi))، يعزّز الاتصال بخادم ODK أمن البيانات المُجمَّعة على Tella من خلال:
+
+1. السماح للمستخدمين بجمع البيانات مباشرة داخل حاوية Tella المُعمّاة.
+2. التأكد من إرسال البيانات مباشرة من Tella إلى خادم ODK، دون الاعتماد على أداة أو تطبيق من جهة خارجية.
+3. السماح للمستخدمين بنسخ بياناتهم احتياطيا على خادم بعيد لتقليل خطر اكتشاف البيانات على أجهزتهم المحمولة.
+4. التأكد من أن المنظمات يمكنها الحفاظ على المعلومات المهمة حتى في حالة مصادرة الجهاز أو عند تدميره، والتأكد من أنه يمكن تنظيم تلك المعلومات للبحث أو للمناصرة أو لإجراءات المساءلة.
+
+:::danger
+Even though data is transferred to the server securely (SSL), anyone with access to the ODK account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+:::
+
+
+### Choosing and Installing Your ODK Server {#choosing-and-installing-your-odk-server}
+
+نظرا لأن ODK هو معيار مفتوح، يمكن استخدام Tella مع أي من الأدوات التي تتوافق مع ODK.
+
+For civil society organizations and human rights defenders, we recommend using [KoboToolbox](https://www.kobotoolbox.org/) to create forms with custom questions, manage users, and aggregate the data submitted by users. Based on our experience, KoboToolbox is user-friendly and flexible, and it is also open source. KoboToolbox offers a [community plan for non-profits](https://www.kobotoolbox.org/pricing/) and offer free training resources and guidance on how to structure the data on the server (Self-serve learning base and Community Forum). It is also possible [to use a private instance of KoboToolbox](https://www.kobotoolbox.org/services/private-servers/) or [self-host it](https://support.kobotoolbox.org/kobo_your_servers.html).
+
+:::tip
+We are work closely with the Kobotoolbox team. If you are interested in using the Tella-KoboToolbox connection and would like some support or to discuss the best hosting plan for your use case, please [contact us](/contact-us). 
+:::
+
+There are other ODK-compliant apps available, like [Ona](https://ona.io/home/) or [ODK Cloud](https://https://getodk.org/index.html). Tella works with any of these. 
+
+
+### متى يُستخدم ODK {#when-to-use-odk}
+
+نوصي بـاستخدام ODK للمنظمات التي تحتاج إلى مستخدمين يعملون ميدانيا لجمع البيانات بطريقة منظمة مثل الاستمارات. كما نوصي به أيضا للمنظمات التي لا تمتلك القدرة التقنية لتثبيت وصيانة خادم وترغب في استخدام مثيل سحابي جاهزة للاستخدام. إذا كنت تستخدم مثيلا سحابيا، تذكر أن المنظمة التي تستضيف مثيل ODK الخاص بك ستتمكن من الوصول إلى بياناتك. هذا الأمر مهم عندما تريد أن تقرر بين استضافته بنفسك وبين استخدام خدمة سحابية.
+
+يُستخدم ODK وKoboToolbox على نطاق واسع، كما أنهما مُوثَّقان جيدا وسهلا الاستخدام. هناك دلائل متاحة، وتقدم الأداتان الدعم للمنظمات غير الربحية حول كيفية تنظيم وصيانة بياناتهم.
+
+نمذجة بياناتك {#model-your-data}
+
+## يقدم KoboToolbox دليلا مفصلا حول كيفية إنشاء مشروعك وإضافة الأسئلة إلى استماراتك، وكيفية نشرها لجعلها متاحة للمستخدمين الميدانيين [هنا](https://support.kobotoolbox.org/overview_of_creating_a_project.html).
+
+توصيل Tella بمثيل ODK لجمع البيانات {#connect-tella-to-an-odk-instance-to-collect-data}
+
+## في هذا التوثيق، نركز على كيفية جمع البيانات باستخدام Tella. هناك تطبيقات للمحمول بديلة يمكن استخدامها لجمع البيانات على ODK، بما في ذلك تطبيق ODK Collect Android. يمكنك الاطلاع على المقارنة بين هذه البدائل [هنا](/faq#how-is-tella-different-from-other-documentation-apps).
+
+:::info
+‫الاتصال بـ ODK غير متاح لـ Tella على iOS.
+:::
+
+الاتصال بخادم ODK {#connect-to-an-odk-server}
+
+### ‫بعد إنشاء ونشر الاستمارة باستخدام أي خادم متوافق مع ODK، انتقل في Tella إلى **الإعدادات** > **الخوادم** > **+** > **Open Data Kit (ODK)**. املأ الحقول التالية:
+**اسم الخادم**: اسم يصف خادمك في Tella. الاسم الذي تختاره مرئي فقط في التطبيق ولا يؤثر على الاتصال بـ ODK.
+- **عنوان الخادم**: عنوان الموقع الخاص بخادمك. مثلا، `kc.kobotoolbox.org` إذا كنت تستخدم الخادم العمومي لـ KoboToolbox.
+- إذا كان الخادم يتطلب استيثاق المستخدم، المس زر **متقدم** وأدخِل **اسم المستخدم** و**كلمة السر**. يجب أن يوفر لك المسؤول عن الخادم كل هذه المعلومات.
+ملء الاستمارات {#fill-forms}
+
+
+### بعد أن تتصل بمثيل ODK بنجاح، سترى بطاقة جديدة تسمى "الاستمارات" في أقسام **الاتصالات** في الشاشة الرئيسية لـ Tella.
+
+بعد أن تدخل إلى قسم **الاستمارات**، سترى قائمة بالاستمارات المتاحة لك على المثيل (أو المثيلات) الذي تتصل به. باستخدام زر **تنزيل** يمكنك تنزيل الاستمارات إلى Tella حتى تتمكن من ملئها، حتى إذا لم تكن متصلا بالانترنت.
+
+يمكنك لمس كل استمارة فارغة للبدء في ملئها.
+
+إرسال الاستمارات {#submit-forms}
+
+
+#### خلال جمعك للبيانات وملئك للاستمارات، ستكون هذه الخيارات التالية متاحة لك لزيادة الدعم دون الاتصال بالانترنت على Tella:
+
+إرسال: إرسال الاستمارة المملوءة إلى خادم ODK.
+- حفظ كمُسوَّدة: حفظ استمارة غير مكتملة حتى تتمكن من الاستمرار في العمل عليها لاحقا.
+- إرسال لاحقا: وسم استمارة بأنها مكتملة لإرسالها في وقت لاحق. إلى حين إرسالها، ستكون متاحة في لسان البريد الصادر.
+- لسان المُسوَّدات: لسان يحتوي على قائمة جميع الاستمارات المُسوَّدة. يمكن تعديل المُسوَّدات أو حذفها.
+- لسان البريد الصادر: جدول يحتوي على قائمة جميع الاستمارات الجاهزة للإرسال. يمكن تعديل الاستمارات في علامة التبويب صندوق الصادر أو حذفها أو إرسالها.
+- لسان المُرسَل: لسان يحتوي على قائمة جميع الاستمارات التي تم إرسالها بنجاح إلى الخادم. يمكن حذف الاستمارات المُرسَلة.
+- إيقاف/استئناف الإرسال: يمكنك إيقاف الإرسال يدويا واستئنافه عندما تكون جاهزا.
+- إيقاف الإرسال تلقائيا عند عدم الاتصال: سيتم إرسال الاستمارات إلى لسان البريد الصادر إذا فشل الإرسال بسبب مشاكل في الاتصال.
+- أنواع الأسئلة المدعومة {#supported-question-types}
+
+### فيما يلي نظرة عامة على أنواع الأسئلة في ODK المدعومة في ‫‫Tella Android. إذا كان هناك نوع من الأسئلة التي ليست مدعومة في Tella وذات ضرورة بالغة لسير عملك، من فضلك [اتصل بنا](/contact-us).
+**نوع السؤال**
+
+| **‫Tella Android** | [جمع البيانات دون الاتصال بالانترنت](/odk#submit-forms) | 
+|------|------|
+| ✔️ | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
+| تاريخ | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
+| لا | ‮لا  |
+| ✔️ | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
+| لا | ‮لا |
+| لا | ‮لا |
+| ✔️ | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
+| الفيديو | قص الصور وتدويرها |
+| لا | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
+| لا | ‮لا |
+| ✔️ | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
+| لا | ‮لا |
+| ✔️ | قص الصور وتدويرها |
+| لا | ‮لا |
+| لا | ‮لا |
+| لا | ‮لا |
+| لا | ‮لا |
+
+### فيما يلي نظرة عامة على ميزات ODK المدعومة في ‫‫Tella Android. إذا كان هناك ميزة غير مدعومة في Tella وهي ضرورية لسير عملك، من فضلك [اتصل بنا](/contact-us).
+
+**الميزة**
+
+| **الميزة** | [جمع البيانات دون الاتصال بالانترنت](/odk#submit-forms) | 
+|------|------|
+| ✔️ | قص الصور وتدويرها |
+| ❌ | إدارة الوصول إلى المشاريع {#managing-access-to-projects} |
+| ✔️ | قص الصور وتدويرها |
+| ❌ | إدارة الوصول إلى المشاريع {#managing-access-to-projects} |
+| ❌ | إدارة الوصول إلى المشاريع {#managing-access-to-projects} |
+| ❌ | إدارة الوصول إلى المشاريع {#managing-access-to-projects} |
+| ✔️ | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
+| ✔️ | قص الصور وتدويرها |
+| ❌ | إدارة الوصول إلى المشاريع {#managing-access-to-projects} |
+| [Form metadata (background data collection)](https://docs.getodk.org/form-audit-log/) | إدارة الوصول إلى المشاريع {#managing-access-to-projects} |
+
+
+:::tip
+If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+:::
