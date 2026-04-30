@@ -3,7 +3,7 @@
 |------|------|-----|-----|
 |[قفل التطبيق](/features#app-lock)| كلمة السر، رقم التعريف الشخصي، النمط|كلمة السر، رقم التعريف الشخصي | كلمة السر، رقم التعريف الشخصي، النمط |
 |[تعمية في الخلفية](/features#background-encryption) | قص الصور وتدويرها | قص الصور وتدويرها| قص الصور وتدويرها |
-|[تهيئة مهلة القفل](/features#lock-timeout-configuration) | ✔️ | ✔️| - [Nextcloud](/nextcloud) |
+|[Backups (to another Tella or to a server)](/features#backup-files) | قص الصور وتدويرها|  قص الصور وتدويرها| قص الصور وتدويرها |
 |[الوضع الصامت للكاميرا](/features#camera-silent-mode)| قص الصور وتدويرها| قص الصور وتدويرها| قص الصور وتدويرها |
 |[أمن الشاشة](/features#screen-security)| قص الصور وتدويرها| ✔️| قص الصور وتدويرها |
 | [تقييد محاولات فتح القفل](features#restrict-unlocking-attempts)| قص الصور وتدويرها| قص الصور وتدويرها| قص الصور وتدويرها |
@@ -19,10 +19,13 @@
 | [الكاميرا (الصور والفيديوهات)](/features#camera-photos-and-videos) | قص الصور وتدويرها | قص الصور وتدويرها | قص الصور وتدويرها |
 | [تحديد دقة الفيديو](/features#select-video-resolution) | قص الصور وتدويرها | قص الصور وتدويرها | ليس بعد |
 | [مسجل الصوت](/features#audio-recorder) | قص الصور وتدويرها | ✔️ | ✔️ |
-| [فتح الملفات في Tella](/features#open-files-in-tella)| قص الصور وتدويرها | قص الصور وتدويرها | قص الصور وتدويرها |
-| [وضع التحقق](/features#verification-mode)| قص الصور وتدويرها | قص الصور وتدويرها | قص الصور وتدويرها |
-| [الحذف السريع](/features#quick-delete)| قص الصور وتدويرها | ✔️ | قص الصور وتدويرها |
-| [الخروج السريع](/features#quick-exit)| القفل والإغلاق | القفل  | القفل والإغلاق |
-| [اتصالات لجمع البيانات وإرسال الملفات](/features#connecting-to-servers)| - Uwazi <br />- Open Data Kit (استمارات) | - Tella Web <br />- Uwazi  | - Uwazi <br />- Open Data Kit (استمارات)  |
-| [جمع البيانات دون الاتصال بالانترنت](/features#offline-data-collection) | ✔️ | ✔️ |  - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Open Data Kit (Forms)](/odk) <br />- [Nextcloud](/nextcloud) |
-| [جمع البيانات دون الاتصال بالانترنت](/features#offline-data-collection) | قص الصور وتدويرها | قص الصور وتدويرها |  قص الصور وتدويرها |
+
+| [Audio Recorder](/features#audio-recorder)| ✔️ | ✔️ | ✔️ |
+| [Open files in Tella](/features#open-files-in-tella)| ✔️ | ✔️ | ✔️ |
+| [Verification mode](/features#verification-mode)| ✔️ | Not yet | ✔️ |
+| [Quick delete](/features#quick-delete)| Files, Connections and Tella | Files and Connections  | Files, Connections and Tella |
+| [Quick exit](/features#quick-exit)| Locks and close | Locks  | Locks and close  |
+| [Share button](/features#share-button) | ✔️ | ✔️ | ✔️|
+| [Server connections](/features#connecting-to-servers) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) <br /> - [Open Data Kit (Forms)](/odk) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) |  - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Open Data Kit (Forms)](/odk)  |
+| [Nearby Sharing](/features#nearby-sharing) | ✔️ | ✔️ | Soon! |
+| [Offline data collection](/features#offline-data-collection) | ✔️ | ✔️ |  ✔️ |
