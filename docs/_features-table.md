@@ -3,7 +3,7 @@
 |------|------|-----|-----|
 |[App Lock](/features#app-lock)| Password, PIN, Pattern|Password, PIN | Password, PIN, Pattern |
 |[Background encryption](/features#background-encryption) | ✔️ | ✔️| ✔️ |
-|[Backup files to cloud](/features#backup-files) | - [Google Drive](/g-drive) <br />- [Nextcloud](/nextcloud) <br /> - [Dropbox](/dropbox) | - [Google Drive](/g-drive) <br />- [Nextcloud](/nextcloud)<br />- [Dropbox](/dropbox)| Not yet |
+|[Backup files to cloud](/features#backup-files) | - [Google Drive](/g-drive) <br />- [Nextcloud](/nextcloud) <br /> - [Dropbox](/dropbox) | - [Google Drive](/g-drive) <br />- [Nextcloud](/nextcloud)<br />- [Dropbox](/dropbox)| - [Nextcloud](/nextcloud) |
 |[Lock timeout configuration](/features#lock-timeout-configuration)| ✔️| ✔️| ✔️ |
 |[Camera silent mode](/features#camera-silent-mode)| ✔️| Not yet| ✔️ |
 | [Screen Security](/features#screen-security)| ✔️| ✔️| ✔️ |
@@ -27,5 +27,6 @@
 | [Quick exit](/features#quick-exit)| Locks and close | Locks  | Locks and close  |
 | [Share button](/features#share-button) | ✔️ | ✔️ | ✔️|
 | [Server connections](/features#connecting-to-servers) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) <br /> - [Open Data Kit (Forms)](/odk) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) |  - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Open Data Kit (Forms)](/odk)  |
-| [Nearby Sharing](/features#nearby-sharing) | ✔️ | ✔️ | Soon! |
+| [Nearby Sharing](/features#nearby-sharing) | ✔️ | ✔️ | ✔️ |
+
 | [Offline data collection](/features#offline-data-collection) | ✔️ | ✔️ |  ✔️ |

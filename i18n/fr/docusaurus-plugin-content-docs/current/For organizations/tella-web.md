@@ -29,6 +29,19 @@ La configuration de Tella Web s'effectue en trois étapes, présentées en déta
 
 
 
+## When to Use Tella Web {#when-to-use-tella-web}
+
+The Tella Web could be a good alternative if:
+- You have the capacity to self-host Tella Web.
+- People on the ground will be sending mostly media files, with some text and don't need structured data collection (forms).
+- You will be partnering with Horizontal and you want the same organization to help you with installation, configuration, and maintenance of your Tella Web instance and the Tella apps.
+
+
+:::tip
+If you need help figuring out if Tella Web is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
+:::
+
+
 ## Installer le serveur {#install-the-server}
 
 Cette étape consiste à installer et configurer Tella Web sur le serveur que votre organisation utilisera. Cette étape doit être complétée par la personne qui sera responsable de l'administration du système (un développeur ou un administrateur système). Les instructions techniques sont disponibles sur [notre Github](https://github.com/Horizontal-org/tellaweb).
@@ -57,8 +70,29 @@ Consultez [ce tutoriel vidéo](/video-tutorials#connections-full-video) pour voi
 
 ### Centre d'administration {#admin-center}
 
-Les administrateurs de l'espace Web Tella peuvent modifier les paramètres à l'échelle du système:
-- [Acceptez de partager des analyses avec l'équipe Tella](/security-and-privacy#analytics).
+
+#### Configure spaces' settings {#configure-spaces-settings}
+Admins of the Tella Web space can enable or disable system-wide settings depending on their own risk assessment and privacy consideration:
+- [Opt-in to share analytics with Tella team](/security-and-privacy#analytics).
+- Suspicious login detection: 
+    - If enabled Tella Web will record location for each login IP and approximate location based on IP. If the user is connecting from an unusual location Tella Web will block the login attempt to prevent any unauthorized sing-in and send an email to the user to confirm if was a legitimate login attempt. 
+    - We use a [third party service](https://ipinfo.io/) to calculate the country of the IP. 
+    - Tella Web requires an SMTP server to be properly configured and working for this feature to work. 
+    - If disabled Tella Web won't store the IP, won't calculate location nor ping any third party service.
+- Feedback:
+    - When enabled, Tella Web shows a feedback box that allow users to send an anonymous note to the Tella team on any feedback request or bug reports that they might find. It doesn't contain any information about the user or the Tella Web instance.
+    - To ensure user privacy and anonymity, only essential data is transmitted to our Feedback server through HTTPS POST requests. Logs containing user information (IP address, date and time, and user-agent) are automatically deleted weekly.
+    - On the Feedback server database, we only store a copy of the text sent by users in the feedback form and which platform it came from (in this case from "Tella Web" without specifying which server installation). 
+
+#### Backup your space {#backup-your-space}
+
+Admins of the Tella Web instance can export all data out of Tella Web by generating a backup. Backups can be used to port the data to another location, including a computer, a USB flash drive, an external disk or a remote server.  The action to generate the backup runs in the background and, if triggered, an email notification will be sent to the person who generated the backup when it is ready to download. However, all backups are accessible in the Admin Center to all users with admin access.
+
+The backup is a full export everything in the space: including all Projects, Reports, Users and Resources, plus all metadata. The export is a zip file including a collection of CSVs and folders with with the uploaded media. For now, there is no way to import the backup back into a Tella Web instance from the Admin Center, but each backup includes a .sql file that advanced users can use to import the data to the database directly. 
+
+:::warning
+The information included in the backup is highly sensitive, it not only contains all the data (unencrypted) but also information about the Tella Web users. Please proceed with caution when generating the backup.
+:::
 
 
 ### Gestion des projets {#managing-projects}
@@ -296,7 +330,7 @@ La suppression d'un rapport en cours de soumission annulera le chargement des fi
 :::
 
 
-#### Boîte d'envoi {#boîte d'envoi}
+#### Boîte d'envoi {#outbox}
 
 La boîte d'envoi contient les rapports qui ont été enregistrés pour être soumis. Ces documents pourraient être :
 
@@ -305,7 +339,7 @@ La boîte d'envoi contient les rapports qui ont été enregistrés pour être so
 * Rapports marqués comme « Soumettre plus tard »
 
 
-#### Rapports soumis {#submit-reports}
+#### Rapports soumis {#submitted-reports}
 
 - L'onglet Soumis affiche les rapports qui ont été soumis avec succès au serveur Tella Web.
 - Dans l'onglet Soumis, vous pouvez afficher et examiner les rapports soumis.

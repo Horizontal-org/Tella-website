@@ -72,7 +72,9 @@ On this table we explain what server types are available on the Tella apps:
 
 
 :::danger
-For the moment, the submission to any type of server it is **not** encrypted. People who have access to the server itself are able to see the files.
+For now, any files you submit to a connection are stored unencrypted on that server or drive. This means that anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
+
+We strongly recommend reviewing and understanding the permission model of each connection you use, in order to determine which option is safest and most appropriate for your specific use case.
 :::
 
 ### Backup files to another phone or computer {#backup-files-to-another-phone-or-computer}
@@ -292,13 +294,12 @@ This configuration can be found in **Settings** > **General**.
 
 A Quick Delete button allows users, in just a few seconds, to delete sensitive data within Tella. Quick delete can be configured on **Settings** > **Security** > **Quick delete**, where the user can choose to enable a sliding button on the home screen to quickly delete information from Tella in emergency situations. If enabled, the user can choose exactly what gets deleted when the feature is used. The available options are:
 
-* Delete files: Deletes all files stored in Tella 🗑️
-* Delete draft and submitted forms: Deletes drafts and submitted forms in all Connections. [Visit the For Organizations page](/for-organizations) to  discover the available server connections 📝
-* Delete server settings: Deletes all server connections and all the forms, templates or reports associated with them 📋
+* Delete files: Deletes all files stored in Tella 🗑️ . This is the default option.
+* Delete Connections: Deletes all your connections, and all data asociated with them (including drafts, outbox and submitted reports). [Visit the For Organizations page](/for-organizations) to  discover the available server connections 📝
 * Delete Tella: Deletes the app and all the data it contains. It triggers a message asking if the user wants to uninstall Tella as well ❌. 
 
 :::info Delete Tella
-The Delete Tella option might not be available on some Android phones due to technical limitations. We are working on a fix for this issue. For iOS it is not possible to programmatically delete an app. 
+The Delete Tella option might not be available on some Android phones due to technical limitations. We are working on a fix for this issue. For iOS it is not possible to programmatically delete an app, so the Delete Tella option is not available.
 :::
 
 :::warning 

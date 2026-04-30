@@ -4,7 +4,6 @@ title: Idiomas y accesibilidad
 description: Un vistazo a los idiomas en los que Tella está disponible y consideraciones de accesibilidad.
 slug: /accessibility
 ---
-
 import TellaLanguages from '.././_tella-languages.md';
 
 
@@ -20,6 +19,7 @@ Trabajamos arduamente para hacer que Tella esté disponible en idiomas hablados 
 <TellaLanguages/>
 
 [Video Tutoriales](/video-tutorials) tienen subtítulos disponibles en Español, Árabe, Suajili y Francés.
+
 
 
 

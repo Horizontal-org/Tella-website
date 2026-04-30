@@ -5,6 +5,8 @@ description: Informations sur l'engagement de Tella en faveur de l'Open Source o
 slug: /open-source
 ---
 
+import FeaturesTable from '.././_features-table.md';
+
 
 # Tella est un logiciel libre, c'est à dire Open Source
 
@@ -15,4 +17,5 @@ Le code de Tella pour Android et iOS est accessible [ici sur notre référentiel
 
 Nous publions et maintenons également une version entièrement gratuite et open source de Tella pour Android qui ne contient aucune bibliothèque ou dépendance fermée ou propriétaire, et qui est exempte de tout tracker. Vous pouvez trouver le code de cette version de Tella [ici sur Github](https://github.com/Horizontal-org/Tella-Android-FOSS) et dans la [F-droid store](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
 
-
+A detailed list of features available on each platform is available here: 
+<FeaturesTable/>

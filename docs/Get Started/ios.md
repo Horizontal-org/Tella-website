@@ -18,8 +18,7 @@ Follow [this link](https://apps.apple.com/us/app/tella-document-protect/id159815
 
 
 ## Create your lock {#create-your-lock}
-When you open Tella for the first time, you’ll be asked to choose how you will lock Tella. Without this lock, it is not possible to open Tella and access any of the files stored in Tella. 
-
+The first time you open Tella you’ll see a guided tour of the app functionalities: Camera, Recorder and Encrypted files & folders. You’ll also be asked to choose how you will lock Tella. Without this lock, it is not possible to open Tella and access any of the files stored in Tella. 
 * Password: an alphanumeric password is the most secure way to lock your App.
 * PIN: a numeric sequence of more than six (6) digits.
 
@@ -123,7 +122,7 @@ Read more about Tella Web [here](/tella-web) or watch a [video tutorial](/video-
 
 We wrote documentation about how to connect to an Uwazi server and we recommend you to read [this page](/uwazi) to get started.
 
-#### Nextcloud, Dropbox and Google Drive {#nextcloud-dropbox-and-google-drive}
+#### Nextcloud, Dropbox and Google Drive {#Nextcloud-dropbox-and-google-drive}
 Users can also connect to their Google, Dropbox or Nextcloud organizational or personal accounts in order to submit reports (audio, photos, videos and text) directly from Tella. They won't need the Dropbox, Google Drive or Nextcloud apps on their phones and won't need to use any third party apps.
 
 Read more:

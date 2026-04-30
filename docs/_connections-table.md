@@ -3,6 +3,6 @@
 |Uwazi|✔️|✔️|✔️|
 |Tella Web|✔️|✔️| ✔️ |
 |Open Data Kit (ODK)|✔️|❌|✔️|
-|Google Drive | ✔️ |✔️| Soon|
-|Nextcloud | ✔️ |✔️| Soon|
-|Dropbox | ✔️ | ✔️ | Soon|
+|Google Drive | ✔️ |✔️| ❌ |
+|Nextcloud | ✔️ |✔️| ✔️|
+|Dropbox | ✔️ | ✔️ | ❌|

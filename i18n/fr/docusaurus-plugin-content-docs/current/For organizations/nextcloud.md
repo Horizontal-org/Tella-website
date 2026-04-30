@@ -13,16 +13,14 @@ Tella allows users to sign in to their Nextcloud account directly from Tella and
 
 Similarly to other server connections (like [Tella Web](/tella-web), [Google Drive](/g-drive), [Dropbox](/dropbox), [Uwazi](/uwazi) or [Open Data Kit](/odk)), connecting to a Nextcloud server enhances the security of data collected on Tella by:
 
-1. Allowing users to collect data directly inside Tella's encrypted container.
+1. Permettant aux utilisateurs et utilisatrices de collecter des données directement dans le conteneur crypté de Tella.
 2. Ensuring that data is sent directly from Tella to Nextcloud, without needing to install the Nextcloud app on the device or sending the data through a third-party app.
 3. Allowing users to back up their data to a remote server, to lower the risk that data is discovered on their mobile device.
-4. Ensuring that organizations can preserve important information even in the event of device seizure or destruction, and can organize it for research, advocacy, or accountability processes.
+4. Assurant que les organisations peuvent conserver les informations importantes même en cas de saisie ou de destruction d'appareils, et les organiser à des fins de recherche, de plaidoyer ou de processus de responsabilisation.
 
 Submissions to Nextcloud take the form of "reports" which include a title, a text description, and files like photos, videos and audio recordings.
 
-:::danger
-Even though data is transferred to the server securely (SSL), anyone with access to the Nexctloud account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
-:::
+
 
 ## When to Use Nextcloud {#when-to-use-Nextcloud}
 
@@ -46,7 +44,7 @@ For now, we don't support two-factor authentication (2FA) for Nextcloud connecti
 
 In order to connect to Nextcloud:
 
-* Navigate to **Settings ⚙️** > **Connections** > **+**
+* Utilisez le bouton **Actualiser** en haut à droite pour extraire de nouvelles ressources de l’espace de votre organisation.
 * Select "Nextcloud" from the list of available server types.
 * Type the URL of your Nextcloud server.
 * Enter your Nextcloud username and password.
@@ -68,8 +66,8 @@ For the moment it is not possible to sign in to multiple Nextcloud accounts at t
 * Tap the "New report" button at the bottom of the screen to create a new report to Nextcloud.
     * On the "New report" screen you can fill in the report's details, including title, description, and optional attachments of photos, videos and audio recordings.
 * Use the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft without leaving the "New report" screen. 
-    * In order to be able to save as a draft, you need to at least enter the report’s title.
-    * A message will appear on the screen to confirm the draft was saved.
+    * Afin de pouvoir enregistrer le rapport en tant que brouillon, vous devez au moins saisir son titre
+    * Un message apparaîtra à l’écran pour confirmer que le brouillon a bien été enregistré.
 * The "Submit later" button ⏱️ saves the report to the Outbox for manual submission.
     * The "Outbox" tab is often used when data collectors don’t have access to the internet or if the connection is not stable.
 * The “Submit” button sends the report to the Nextcloud immediately.
@@ -80,26 +78,26 @@ For the moment it is not possible to sign in to multiple Nextcloud accounts at t
 On Android, [a known Nextcloud issue](https://help.Nextcloud.com/t/cant-upload-files-langer-than-20-mb-using-Nextcloud-android-app/196434) prevents files larger than 20MB from being submitted to a Nextcloud server. For that reason, Tella users cannot attach files larger than 20MB to Reports uploaded to a Nextcloud connection. We are monitoring the status of this issue and will remove Tella's file-size restriction as soon as it is solved by Nextcloud.
 :::
 
-##  Draft Reports {#draft-reports}
+##  Projets de rapports {#draft-reports}
 
 A Draft report is a report that was created and saved but not yet submitted. Drafts reports are useful to save work in progress that can be editted later on. It allows users to create reports offline or over a long period of time before finalizing and sending them. This is especially useful in low-connectivity areas or when a user needs to gather information in multiple stages.
 
 Reports in the Draft tab can be edited.
 
 * On the "New report" screen, tap the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft.
-    * A message confirmation will be displayed, and you can continue working on the report or exit to come back to it later.
-* If you try to exit a report without saving, you will be asked to confirm whether you are sure to exit without saving the report.
-* In the Draft tab, you can view and manage draft reports. Open a draft report to continue working on it and submit it.
+    * Un message de confirmation s'affichera et vous pourrez continuer à travailler sur le rapport ou quitter pour y revenir plus tard.
+* Si vous essayez de quitter un rapport sans sauvegarder votre travail, il vous sera demandé de confirmer si vous êtes sûr de quitter sans enregistrer le rapport.
+* Dans l'onglet Brouillon, vous pouvez afficher et gérer les brouillons de rapports. Ouvrez un brouillon de rapport pour continuer à travailler dessus et soumettez-le.
 * You can delete a draft report by tapping on **⫶** > **Delete** or by entering the report and tapping the Delete button.
 
 
 #### Submit a Report to Nextcloud{#submit-a-report-to-Nextcloud}
 
-* In a report, tap "Submit" to start the submission of the report.
-* You will be redirected to a summary screen displaying the upload progress for each file attachment.
-* A "Delete" button is available to stop the upload and delete the report.
-* If the report is actively uploading, a "Pause" button allows you to temporarily halt the upload, which can be resumed later using the "Resume" button.
-* Exiting a report doesn’t affect the upload status. If the report is actively uploading, the process continues. 
+* Dans un rapport, appuyez sur « Soumettre » pour lancer la soumission du rapport.
+* Vous serez redirigé vers un écran récapitulatif affichant la progression du chargement pour chaque pièce jointe.
+* Un bouton "Supprimer" est disponible pour arrêter le téléchargement et supprimer le rapport.
+* Si le rapport est en cours de chargement, un bouton « Pause » permet d'arrêter temporairement le téléchargement, qui peut être repris ultérieurement à l'aide du bouton « Reprendre ».
+* Sortir d'un rapport n'affecte pas l'état du chargement. Si le rapport est en cours de chargement, le processus continue.
 
 :::info
 After a report has been uploaded to Nexcoud, it is not possible to delete it on Nextcloud from the Tella mobile app. Deleting a submitted report will only delete the local version of it, not the report on the server. 
@@ -110,7 +108,7 @@ Deleting a report in the middle of submission will cancel the upload of the file
 :::
 
 
-#### Outbox {#outbox}
+#### Boîte d'envoi {#boîte d'envoi}
 The Outbox tab contains reports that are finalized and have been saved for later submission. Reports in the Outbox are ready to be submitted once the device reconnects to the internet or when the user chooses to manually send them.
 
 Reports in the Outbox tab cannot be edited.
@@ -119,19 +117,15 @@ To send a report to the Outbox, use the Submit later button (⏱️), at the bot
 
 The Outbox contains:
 
-* Paused submissions
-* Report submissions that were interrupted due to connectivity issues.
-* Reports that were marked as "Submit later"
-
-:::tip
-If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
-:::
+* Soumissions suspendues
+* Envois de rapports interrompus en raison de problèmes de connectivité.
+* Rapports marqués comme « Soumettre plus tard »
 
 
-#### Submitted Reports {#submitted-reports}
+#### Rapports soumis {#submit-reports}
 
 - The Submitted tab displays reports that have been successfully submitted to the Nextcloud server.
-- In the Submitted tab, you can view and review the submitted reports.
+- Dans l'onglet Soumis, vous pouvez afficher et examiner les rapports soumis.
 
 :::info
 If the internet connection is interrupted, reports will go to the "Outbox" tab and you will need to manually resume the submission.
