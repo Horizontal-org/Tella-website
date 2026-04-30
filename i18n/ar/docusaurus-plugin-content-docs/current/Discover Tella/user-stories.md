@@ -3,6 +3,7 @@ id: user-stories
 title: قصص مستخدمي Tella
 description: خبرات مستخدمي Tella وعمليات النشر
 slug: /user-stories
+sidebar_position: 4
 ---
 
 # قصص مستخدمي Tella
