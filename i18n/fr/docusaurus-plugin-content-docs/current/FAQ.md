@@ -3,6 +3,7 @@ id: faq
 title: Foire aux questions (FAQ)
 description: Questions les plus fréquemment posées sur Tella
 slug: /faq
+sidebar_position: 6
 ---
 
 import FeaturesTable from './_features-table.md';
@@ -24,7 +25,11 @@ Tella est conçue et maintenue par [Horizontal](https://wearehorizontal.org), un
 
 ### Tella est-elle disponible sur Android ? {#is-tella-available-on-android}
 
-Oui, Tella est disponible pour Android et peut être téléchargée directement [depuis Google Play Store ](https://play.google.com/store/apps/details?id=org.hzontal.tella&gl=US), depuis notre [ Chaîne Telegram]( https://t.me/tellaapp) ou [depuis ce dossier](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ), sous forme d'APK, à installer manuellement. Si vous avez besoin d'aide pour installer l'application manuellement, vous pouvez [suivre ce guide](https://www.androidauthority.com/how-to-install-apks-31494/) ou [nous contacter](contact-us)
+Yes, Tella is available for Android and can be downloaded directly [from the Google Play Store ](https://play.google.com/store/apps/details?id=org.hzontal.tella&gl=US),   from our [Telegram channel]( https://t.me/tellaapp) or [from this folder](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ), as an APK, to be installed manually. If you need to help to install the app manually you can [follow this guide ](https://www.androidauthority.com/how-to-install-apks-31494/) or [contact us](contact-us).
+
+:::note
+Follow the get [quick start guide for Tella users on Android](/get-started-android) for quick onboarding.
+:::
 
 :::tip
 En savoir plus sur [Comment trouver et télécharger Tella depuis Play Store](/video-tutorials#find-and-download-tella-from-the-play-store) et [Comment installer Tella manuellement](/video-tutorials#manual-installation-of-tella) dans nos tutoriels vidéo.
@@ -37,9 +42,12 @@ All code, libraries, and dependencies in Tella FOSS are entirely Free and Open S
 
 ### Tella est-elle disponible sur iOS? {#is-tella-available-on-ios}
 
-Yes, Tella for iOS can be downloaded [from the App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580).
+Yes, Tella for iOS can be downloaded [from the App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580). For details about which features are available for iOS, see [What features are available on each platform](/features).
 
-For details about which features are available for iOS, see [What features are available on each platform](/features).
+:::note
+Follow the get [quick start guide for Tella users on iOS](/get-started-ios) for quick onboarding.
+:::
+
 
 ### Quelles fonctionnalités sont disponibles sur chaque plateforme? {#what-features-are-available-on-each-platform}
 
@@ -49,10 +57,16 @@ Pour plus de détails sur chaque fonctionnalité, voir [Fonctionnalités](/featu
 
 ### Tella est-elle disponible sur PC ? {#is-tella-available-on-desktop}
 
+Yes, Tella is available on desktop, but for the moment can only be used to receive files.
+
+You can download Tella Desktop for Windows, MacOS and Linux. [Follow the quick start guide for Tella users on Desktop](/get-started-desktop) for quick onboarding.
+
+### Do you offer a back-end or repository to store data? {#tella-web}
+
 Tella Web est une application web qui fonctionne comme un répertoire pour stocker les rapports soumis par les utilisateurs de Tella, y compris des photos, vidéos et fichiers audio. Pour en savoir plus sur Tella Web cliquez [ici](/tella-web)
 
 :::note
-Notez qu'il n'est pas possible de chiffrer et de masquer des fichiers ou de créer des rapports sur Tella Web. Ces fonctionnalités ne sont disponibles que sur les applications mobiles. Tella Web est l'une des [connexions](/for-organizations) disponibles pour envoyer les données collectées sur l'application Tella. 
+Note that it is not possible to encrypt and hide files or create reports on Tella Web. These features are only available on the mobile apps. Tella Web is one of the [connections](/connections) available to send the data collected on the Tella app. 
 :::
 
 ### Comment faire pour avoir Tella ?  {#where-can-i-get-tella}
@@ -76,7 +90,7 @@ As of December 2024, we haven't been able to test Tella Android and Tella FOSS o
 
 Oui, il est possible de télécharger et d'utiliser Tella gratuitement. C'est un logiciel qui restera gratuit pour toujours.
 
-Tella est également [Open Source.](/open-source)
+Tella is also [Open Source](/open-source).
 
 ### Dans quelles langues Tella est-elle disponible? {#what-languages-is-tella-available-in}
 
@@ -115,9 +129,15 @@ Les emplacements de stockage externes (comme les cartes SD) ne sont actuellement
 
 ### Can i backup the data I store in Tella? {#can-i-backup-the-data-i-store in-tella?}
 
-Yes, you can. You can connect to different clouds directly from Tella and choose the files you want to send to the cloud. You can read more about the [servers available here](/features#backup-files). You can also select files from your vault and export those your phone.
+Yes, you can, but the process is manual for the moment. There are different alternatives available for backups:
+- Establish a secure connection to a computer or phone that's in physical proximity using [Nearby Sharing](/nearby-sharing). This is the most secure method available.
+- Connect to a server directly from Tella and choose the files you want to send to it. You can read more about the [servers available here](/for-organizations).
+- Select files from your vault and export those to your phone using the **Save to device** button.
 
-All exports outside of Tella's encrypted vault (to a cloud server or to your phone) will be unencrypted.
+
+All exports outside of Tella's encrypted vault (to a connected server or to your phone) will be unencrypted. The only method for sharing files that transfer files directly to another encrypted vault is [Nearby Sharing](/nearby-sharing).
+
+Continue reading about backups [in the Features page](/features#backup-files).
 
 ## Sécurité et confidentialité {#security--privacy}
 
@@ -130,16 +150,17 @@ Pour en savoir plus sur le  [code de verrouillage de Tella](/video-tutorials#tel
 :::
 
 ### Comment migrer Tella vers un nouveau téléphone? {#how-do-i-migrate-tella-to-a-new-phone}
-Malheureusement, il n'existe aucun moyen de déplacer automatiquement vos fichiers et données de Tella sur un ancien téléphone vers Tella sur un nouveau téléphone.
+You can use [Nearby Sharing](/nearby-sharing) to move your files to a new phone. You will need to install Tella in your new phone, establish a secure connection to it using Nearby Sharing, select all your files, and transfer those to your new phone. This feature works, too, for Android to iOS, or iOS to Android migrations. 
 
-L'utilisation de l'assistant de migration d'Apple ne fonctionnera pas : vos fichiers seront déplacés vers le nouveau téléphone cryptés, mais pas vos clés de chiffrement. Par conséquent, vous ne pourrez pas décrypter et ouvrir ces fichiers.
+If you have multiple files, the full transfer might take some time. We recommend you to make sure that Tella [does not lock](/features#lock-timeout) while the transfer is in progress.  
 
-Pour migrer vos fichiers Tella vers un nouveau téléphone, vous devez installer Tella sur le nouvel appareil, exporter tous les fichiers depuis Tella et les importer manuellement sur le nouveau téléphone. Nous vous recommandons de suivre ces étapes :
-  1. On your old phone go to the "All Files" folder and use the "Select all" checkbox to select all your files and folders. Keep in mind that the files will remain visible -unencrypted-, on the phone gallery. 
-  2. Use Quick Share (in Android), Airdrop (in iOS) or any other data transfer utility to move your files to the new device. Files will be transferred unencrypted.
-  3. On your new phone open Tella and go to the "All Files" folder, tap the "+"" button, and select "Import from device". You can choose "Delete original" in the dialog to make sure the files are only stored safely inside Tella. Select the files you had just exported from your old phone to import them to Tella. 
-  4. Make sure you delete the files that are not secured in Tella's encrypted vault from both your phones' galleries.
+:::tip
+We recommend you double check that all the files has been successfully transferred before deleting those in your old phone.
+:::
 
+:::info
+Using Apple's Migration Assistant will not work: your files will be moved to the new phone encrypted, but not your encryption keys. As a result, you will not be able to decrypt and open these files.
+:::
 
 
 ### Dans quelle mesure Tella est-elle sûre ? {#how-secure-is-tella}
