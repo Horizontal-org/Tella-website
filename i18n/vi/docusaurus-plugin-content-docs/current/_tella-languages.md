@@ -20,5 +20,6 @@
 20. Tiếng Nga
 21. Tiếng Tây Ban Nha (Châu Mỹ Latinh)
 22. Tiếng Tamil
-23. Tsonga
-24. Tiếng Việt
+23. Ukrainian
+24. Tsonga
+25. Tiếng Việt
