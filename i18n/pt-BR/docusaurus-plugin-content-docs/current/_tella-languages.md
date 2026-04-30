@@ -20,5 +20,6 @@
 20. Russo
 21. Espanhol (América Latina)
 22. Tâmil
-23. Tsonga
-24. Vietnamita
+23. Ucraniano
+24. Tsonga
+25. Vietnamita
