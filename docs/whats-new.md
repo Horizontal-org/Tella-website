@@ -19,7 +19,7 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 - Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files on physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
 - Implemented security fixes detected by our most recent [security audit](/security-and-privacy#security-audits).
 
-### iOS: Tella 3.0.0 (XXX) - Released on May X, 2026 {#ios-tella-300xxx---released-on-may-x-2026}
+### iOS: Tella 3.0.0 (143) - Released on May X, 2026 {#ios-tella-300143---released-on-may-x-2026}
 - Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files on physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
 - Implemented security fixes detected by our most recent [security audit](/security-and-privacy#security-audits).
 
