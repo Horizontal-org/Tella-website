@@ -46,10 +46,17 @@ Voici quelques informations sur notre approche analytique respectueuse de la vie
 2. **Même si nous le voulions, nous ne pourrions pas obtenir toutes les données**: Il n'est pas possible de construire toutes les données avec une seule part. Chaque processeur agrège ses parts de données en une somme partielle. Les sommes partielles peuvent ensuite être combinées en une agrégation finale, permettant d'obtenir des statistiques utiles sur l'ensemble des données tout en révélant un minimum d'informations sur les participants individuels. Une documentation technique complète sur le fonctionnement de Divvi Up est disponible [ici](https://docs.divviup.org/).
 3. **Nous collectons le moins de données possible**: Même si toutes les données sont anonymisées, nous minimisons toujours la quantité de données que nous collectons. À partir des dernières versions de Tella, nous collectons uniquement des données sur les événements suivants (et rien de plus):
 
-    **Tella Android**
+    **Tella Android and Tella FOSS**
     - Nombre d'événements de déverrouillage réussis.
+    - Number of media files recorded (videos/photos taken and audio recordings captured).
+    - Number of files imported from the device's gallery or file system into Tella.
+    - Number of security features activated (number of times that camouflage is enabled, number of times that the quick delete action is triggered).
+    - Number of new installations.
+    - Number of reports uploaded to any connection (Tella Web, Uwazi, ODK, Nextcloud, Google Drive, Dropbox)
+    - Time spend in Tella.
 
     **Tella Web**
+   The data below is only collected from Tella Web instances that have opted-in to share privacy-preserving analytics with the Tella team.
     - Nombre de visites (déclenché chaque fois que quelqu'un entre dans une instance Tella Web).
     - Nombre de téléchargements de fichiers (déclenché chaque fois que quelqu'un télécharge un fichier sur une instance tellaweb).
     - Nombre de rapports (déclenché chaque fois que quelqu'un télécharge un rapport sur une instance tellaweb).
@@ -99,17 +106,18 @@ Nous demandons régulièrement à des sociétés de sécurité indépendantes d�
 
 | Date | Audité par | Les plateformes auditées    | Lien      |
 | -----|----------|----|-----------|
+| August 2024 | Radically Open Security |  Android, iOS, Android FOSS|[View pen-testing results](</assets/2024.08.30-Penetration-Test-Report-Horizontal.pdf>)|
 | Mai 2024 | Subgraph Technologies, Inc. |  Android, iOS, Tella Web |[Voir le rapport](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
 | Mai 2023 | Subgraph Technologies, Inc. | Android, iOS, Tella Web |[Voir le rapport](</assets/2023.05 - Tella security audit - Final report.pdf>)|
 
 
- Voici le résumé du dernier audit et l'état des vulnérabilités identifiées:
+This is the summary from the latest audit and the status of the vulnerabilities identified:
 
-
-| Titre                                               | Sévérité    | Statut      |
-|-----------------------------------------------------|-------------|-------------|
-| Tentatives de déverrouillage sans restriction                        | Moyen      | Résolu |
-| Itérations PBKDF2 de la clé d'E/S du flux de chiffrement Android     | Faible         | Résolu    |
-| Les données audio Tella iOS Cleartext peuvent persister plus longtemps  | Faible         | Résolu    |
-| Dépendance obsolète de Tella Android Retrofit2         | Faible         | Résolu    |
-| Dépendance obsolète de Tella Android :  Butterknife    | Informatif| Résolu |
+| Title                                               | Severity    | Platform | Status      |
+|-----------------------------------------------------|-------------|-------------|-------------|
+| Require re-authentication for changing key security settings | Moderate      | General | Planning |
+| Improve webview implementation                      |  Moderate   | iOS       | Resolved |
+| Improve GitHub practices (merging to main and tags) | Low         | Android, Android FOSS | Resolved (pending re-test) |
+| Increase PBKDF2 iteration counts.                   | Low         | Android, Android FOSS | Soon |
+| Do not allow clear-text traffic in Android manifest.| Low         | Android, Android FOSS | Resolved |
+| Outdated 3rd-party dependencies                     | Unknown         | Android, Android FOSS | Resolved |

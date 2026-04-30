@@ -9,7 +9,7 @@ slug: /privacy
 # Tella - Politique de confidentialité
 
 :::note
-Dernière mise à jour le 23 juillet 2024.
+Dernière mise à jour le 25 February 2025.
 :::
 
 :::info
@@ -117,7 +117,7 @@ Nous ne contrôlons pas les technologies de suivi de ces tiers ni la manière do
 
 Si vous ne souhaitez pas télécharger l'application via la boutique Google Play, vous pouvez [télécharger un APK directement sur ce lien](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ).
 
-Une version entièrement gratuite et open source de Tella pour Android qui ne contient aucune bibliothèque ou dépendance fermée ou propriétaire, et qui est exempte de tout tracker, est disponible sur [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
+A fully Free and Open Source version of Tella for Android that doesn't contain any closed-source or proprietary library or dependency can be found on [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
 
 ## 5. Comment nous utilisons vos informations {#5-comment-nous-utilisons-vos-informations}
 
@@ -146,7 +146,6 @@ Grâce au menu des paramètres de l'application, vous pouvez choisir de:
 - Partagez des analyses d'utilisation à l'aide de notre système de préservation de la confidentialité [Divvi Up](/security-and-privacy#analytics).
 
 
-La version FOSS de Tella disponible sur [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/) ne dispose d'aucun outil de suivi pour les rapports de bogues ou les analyses d'utilisation.
 
 ## 7. Accès et correction de vos informations personnelles {#7-accessing-and-correcting-your-personal-information}
 
