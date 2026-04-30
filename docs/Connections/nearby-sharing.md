@@ -53,6 +53,9 @@ In order to use the feature, the sender and receiver need to join the same Wi-Fi
 
 Nearby Sharing will show a tutorial that will guide users in every step of the connection process.
 
+:::note
+Some public Wi-Fi networks might not work due to their configuration preventing direct transfers. 
+:::
 
 :::tip
 Nearby Sharing does not work if either of the devices is connected to a VPN.
