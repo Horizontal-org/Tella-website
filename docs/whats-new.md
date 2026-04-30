@@ -15,7 +15,8 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 
 ## Tella - Latest Versions {#tella---latest-versions}
 
-### Android: Tella 3.0.0 (235) - Released on May X, 2026 {#android-tella-300235---released-on-may-x-2026}
+
+### Android: Tella 3.0.0 (236) - Released on May X, 2026 {#android-tella-300236---released-on-may-x-2026}
 - Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files on physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
 - Implemented security fixes detected by our most recent [security audit](/security-and-privacy#security-audits).
 - New Languages support: Ukrainian.
