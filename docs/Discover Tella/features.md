@@ -77,7 +77,6 @@ You can [continue reading about Server Connections and how organizations use Tel
 
 
 
-
 ## Lock timeout configuration {#lock-timeout-configuration}
 
 By default Tella will lock immediately every time the user exits the app or your phone’s screen turns off. If you’d like to change this setting, the user can do so by going to 
