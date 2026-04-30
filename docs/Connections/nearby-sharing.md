@@ -7,14 +7,16 @@ slug: /nearby-sharing
 
 # Nearby Sharing
 
-Nearby Sharing allows users to securely share files between devices using Tella. 
+Nearby Sharing lets users securely share files, fully offline, across platforms and devices, assuring end-to-end encryption. 
 
 This feature is designed centering the needs of people living in internet shutdowns, where privacy, security and reliability are crucial to keep connected. It's also helpful in rural areas, or for protests or large events where mobile networks are saturated or unavailable.
 
 Nearby Sharing in Tella is:
-- Independent of Internet: Transfers work with or without an active internet connection, by establishing a direct connection between devices using local Wi-Fi.
-- Encrypted: Files move directly from one Tella vault to another, encrypted and secure.
-- Anonymous: Connection happens locally, without trace of who you shared with, when or where.
+- *Independent of internet*: Transfers work with or without an internet connection, even on surveilled or insecure Wi-Fi networks, by establishing a direct connection between devices instead of routing through the internet.
+- *Cross platform*: Available on iOS, Android and Desktop (Computer): there isn't any restrictions on which model of phone, brand or operative system you use. Nearby Sharing is designed to be accessible to any device able to install Tella.
+- *Encrypted*: Files move directly from one Tella vault to another, encrypted and secure.
+- *Anonymous*: Connection happens locally, without trace of who you shared with, when or where.
+
 
 Nearby Sharing will only work in physical proximity, for users connected to the same Wi-Fi network (either a local Wi-Fi or a Hotspot).
 
