@@ -49,37 +49,37 @@ If [verification mode](/features#verification-mode) is turned on, background enc
 :::
 
 ## Backup files {#backup-files}
-Tella stores all the information locally in your phone. If you delete your files (for example using [quick delete](/features#quick-delete) or if you uninstall Tella), your files cannot be restored unless you have backed them up outside of Tella.
+Tella stores all the information locally in your phone. If you delete your files (for example using [quick delete](/features#quick-delete) or if you uninstall Tella), your files cannot be restored unless you have backed them up outside of your Tella Vault.
 
-We offer several ways to backup files, so you can safely delete files from Tella and import those back in. Follow [this guide](/connections) to find more details about each one, or [contact us](/contact-us) if you have questions.
+We offer several alternatives to backup files, so you can safely delete files from Tella and import those back in, but the backup process is manual, for the moment. Please [contact us](/contact-us) if you have questions.
+
+:::note
+All exports outside of Tella's encrypted vault (to a connected server or [to your phone](/features#file-management)) will be unencrypted. The only method for sharing files that transfer files directly to another encrypted vault is [Nearby Sharing](/nearby-sharing).
+::: 
 
 
-.
+
+### Backup files to another phone or computer {#backup-files-to-another-phone-or-computer}
+
+Using [Nearby Sharing](/nearby-sharing) you can transfer files directly to another Tella vault, either in another phone or [to a computer](/get-started-desktop) that's in physical proximity. Files are shared and store encrypted in the other Tella. If you backup to another phone you can use Nearby Sharing again to restore the files to your Tella.
+
+:::info
+For the moment Tella Desktop can only receive files.
+:::
+
 ### Backup files to a cloud {#backup-files-to-a-cloud}
 
 Several servers can be connected to Tella to be able to send files to a cloud or to an external service. Backups, for the moment, need to be made manually, by creating reports (using, for example, the date of "today" as the report title) and submitting them to the connected server. Files will be available on the connected server inside a folder with the report title.
 
-For the moment we support 6 different server connections, we offer [this guide](/for-organizations) to help you assess what server could be best suited for your use-case.  Follow each of the links to find details and step-by-step guides on how to connect and use each of them: 
-* [Open Data Kit (ODK)](/odk)
-* [Uwazi](/uwazi)
-* [Tella Web](/tella-web)
-* [Google Drive](/g-drive)
-* [Nextcloud](/nextcloud)
-* [Dropbox](/dropbox)
-
-On this table we explain what server types are available on the Tella apps:
-<ConnectionsTable/>.
-
+For the moment we support different server connections, we offer [this guide](/for-organizations) to help you assess what server could be best suited for your use-case.  
 
 :::danger
-For now, any files you submit to a connection are stored unencrypted on that server or drive. This means that anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
+For now, any files you submit to a connection might be stored unencrypted on that server or drive (it depends on the server). Anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
 
 We strongly recommend reviewing and understanding the permission model of each connection you use, in order to determine which option is safest and most appropriate for your specific use case.
 :::
 
-### Backup files to another phone or computer {#backup-files-to-another-phone-or-computer}
 
-Using [Nearby Sharing](/nearby-sharing) you can transfer files directly to another Tella vault, either in another phone or [to a computer](/get-started-desktop) that's in physical proximity.
 
 
 ## Lock timeout configuration {#lock-timeout-configuration}

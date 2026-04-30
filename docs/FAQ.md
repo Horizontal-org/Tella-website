@@ -135,7 +135,9 @@ Yes, you can, but the process is manual for the moment. There are different alte
 - Select files from your vault and export those to your phone using the **Save to device** button.
 
 
-All exports outside of Tella's encrypted vault (to a connected server or to your phone) will be unencrypted. The only method of sharing files that transfer files directly to another encrypted vault is [Nearby Sharing](/nearby-sharing).
+All exports outside of Tella's encrypted vault (to a connected server or to your phone) will be unencrypted. The only method for sharing files that transfer files directly to another encrypted vault is [Nearby Sharing](/nearby-sharing).
+
+Continue reading about backups [in the Features page](/features#backup-files).
 
 ## Security & Privacy {#security--privacy}
 
@@ -148,7 +150,7 @@ Learn more about [Tella Locks](/video-tutorials#tella-locks) in our video tutori
 :::
 
 ### How do I migrate Tella to a new phone? {#how-do-i-migrate-tella-to-a-new-phone}
-You can use [Nearby Sharing](/nearby-sharing) to move your files to a new phone. You will need to install Tella in your new phone, establish a secure connection to it using Nearby Sharing, select all your files, and transfer those to your new phone. This feature will work, too, for Android to iOS, or iOS to Android migrations. 
+You can use [Nearby Sharing](/nearby-sharing) to move your files to a new phone. You will need to install Tella in your new phone, establish a secure connection to it using Nearby Sharing, select all your files, and transfer those to your new phone. This feature works, too, for Android to iOS, or iOS to Android migrations. 
 
 If you have multiple files, the full transfer might take some time. We recommend you to make sure that Tella [does not lock](/features#lock-timeout) while the transfer is in progress.  
 
