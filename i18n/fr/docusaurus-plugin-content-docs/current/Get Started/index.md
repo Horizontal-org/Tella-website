@@ -1,11 +1,12 @@
 ---
 id: get-started
-title: Se lancer 
+title: Commencer 
 description: Guide de démarrage rapide pour les utilisateurs de Tella sur Android et iOS
 slug: /get-started
+sidebar_position: 3
 ---
 
-import Link from '@docusaurus/Link'
+importer le lien depuis '@docusaurus/Link'
 
 
 # Commencer avez Tella
@@ -15,25 +16,42 @@ import Link from '@docusaurus/Link'
     <div className="doc-card">
       <Link to="/get-started-android">
         <div className="doc-card-content">
-          <b>Guide Android</b>
-          <p>Guide de démarrage rapide pour les utilisateurs de Tella sur Android.</p>
+          <b>Android Guide</b>
+          <p>Quick start guide for Tella users on Android.</p>
         </div>
       </Link>
     </div>
     <div className="doc-card">
       <Link to="/get-started-ios">
         <div className="doc-card-content">
-          <b>Guide iOS</b>
-          <p>Guide de démarrage rapide pour les utilisateurs de Tella sur iPhone.</p>
+          <b>iOS Guide</b>
+          <p>Quick start guide for Tella users on iPhone.</p>
+        </div>
+      </Link>
+    </div>
+    <div className="doc-card">
+      <Link to="/get-started-desktop">
+        <div className="doc-card-content">
+          <b>Tella Desktop Guide</b>
+          <p>Quick start guide for Tella users on Desktop.</p>
         </div>
       </Link>
     </div>
     <div className="doc-card">
       <Link to="/video-tutorials">
         <div className="doc-card-content">
-          <b>Tutoriels vidéo</b>
-          <p>Guide vidéo pour commencer.</p>
+          <b>Video Tutorials</b>
+          <p>Video guidance on how to get started.</p>
         </div>
       </Link>
     </div>
+    <div className="doc-card">
+      <Link to="/scenarios">
+        <div className="doc-card-content">
+          <b>Scenarios of Use</b>
+          <p>Discover what Tella features could be useful in different scenarios.</p>
+        </div>
+      </Link>
+    </div>
+
 </div>
