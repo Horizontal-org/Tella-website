@@ -1,8 +1,9 @@
 ---
 id: security-and-privacy
-title: Security and privacy
+title: Security and Privacy
 description: تفاصيل حول أمن وخصوصية Tella.
 slug: /security-and-privacy
+sidebar_position: 2
 ---
 
 #  الأمن والخصوصية
@@ -71,7 +72,7 @@ In Tella Android, Tella FOSS and [Tella Web](/tella-web), users can choose to sh
 
 
 1. **زر الحذف السريع**: يمكن للمستخدمين تفعيل زر انزلاقي **[للحذف السريع](features#quick-delete)** لمسح البيانات من Tella في حالة الطوارئ. يمكن للمستخدمين اختيار حذف جميع الملفات المُخزَّنة في Tella والاستمارات في المُسوَّدة والاستمارات المُرسَلة وإعدادات الخادم والتطبيق نفسه عند تفعيل ذلك الزر. عند تفعيل زر الحذف السريع، يظهر للمستخدم عدّ تنازلي لمدة 5 ثوانٍ. خلال هذا العد التنازلي، يمكن للمستخدم إلغاء إجراء الحذف السريع بالضغط في أي مكان على الشاشة. عندما يصل العد إلى الصفر، يتم تطبيق إجراء الحذف الذي حدّده المستخدم. إذا كان المستخدم قد اختار خيار "حذف Tella"، سيطلب أندرويد منه تأكيد حذف التطبيق.
-2. **الوضع الصامت للكاميرا**: يمكن للمستخدمين اختيار [إيقاف صوت الكاميرا](/features#camera-silent-mode) لتجنب لفت الانتباه عند التقاط الصور.
+2. **Encryption in transit:** All data being transferred between Tella and servers (see [Connections section](/connections)) is encrypted through[Transport Layer Security (TLS)](https://en.wikipedia.org/wiki/Transport_Layer_Security). Tella makes it impossible to send data to a server without TLS encryption.
 3. **أمن الشاشة**: يمنع Tella بشكل افتراضي لقطات الشاشة وتسجيلات الشاشة داخل Tella، ويخفي معاينة الشاشة في قائمة التطبيقات الأخيرة. يمكن تعطيل [هذا الإعداد](/features#screen-security) مثلا لتسجيل فيديوهات تعليمية داخل Tella أو عرض التطبيق على الحاسوب لعرض تقديمي.
 4. **تقييد محاولات فتح القفل**: يمكن للمستخدمين تحديد عدد [محاولات فتح القفل](features#restrict-unlocking-attempts) الفاشلة المسموح بها قبل حذف كل شيء داخل Tella وما إذا كان سيظهر على شاشة القفل مؤشر بصري لعدد المحاولات المتبقية  أم لا.
 5. :::tip فيديو تعليمي 🎥
@@ -81,6 +82,7 @@ In Tella Android, Tella FOSS and [Tella Web](/tella-web), users can choose to sh
 7. لا يوجد شيء اسمه تطبيق "آمن" بنسبة 100%. يعتمد الأمن على التهديدات والمخاطر التي يواجهها كل مستخدم، وعلى قدرات الخصوم. مع Tella، بذلنا كل ما في جهدنا لإضافة أكبر عدد ممكن من طبقات الأمان لتقليل احتمالية اكتشاف شخص ما للتطبيق أو الوصول إلى بياناته. نُدرج هنا جميع المخاطر والقيود الأمنية المهمة التي يجب على المستخدمين معرفتها عند استخدام Tella:
 8. التمويه:
 9. عندما يتم التمويه باستخدام إحدى [الطريقتين المتاحتين للتمويه](/features#camouflage) على أندرويد، لا يزال بالإمكان العثور على التطبيق في إعدادات أندرويد. هذا يعني أن أي شخص يستطيع أن يرى أن هناك تطبيقا مثبتا على الجهاز يُسمى "Tella" من خلال الذهاب إلى ’إعدادات أندرويد‘ > ’التطبيقات‘. سيكون أيضا قادرا على رؤية حجم التطبيق. لذا إذا قام المستخدم بتخزين ملفات كبيرة جدا مثل الفيديوهات، فقد يلفت ذلك الانتباه للتطبيق.
+10. **Offline file sharing**: Tella allows establishing a secure connection with devices that are in the same physical location and transferring files encrypted, from one Tella vault to another. [Nearby Sharing](/nearby-sharing) works fully offline, even on insecure networks or networks being surveilled.  Nearby Sharing is available cross-platform (between Android, iOS and Desktop).
 
 إدارة الملفات:
 
@@ -96,6 +98,7 @@ In Tella Android, Tella FOSS and [Tella Web](/tella-web), users can choose to sh
 * نطلب بانتظام من شركات أمنية مستقلة مراجعة شيفراتنا لضمان أنها قوية وآمنة.
     * تاريخ
     * دُقق بواسطة
+    * Files sent to a [server connection](/for-organizations) will be stored un-encrypted on the server, unless the server has implemented disk encryption. People who have access to the server might be able to see the files. Tella makes sure that the data travels encrypted to the server but cannot guarantee the security practices of the server. If you choose to connect to a Google Drive or Dropbox instance, or work with a third party organization for hosting your data, we recommend looking into whether the organization itself can access your data.
     * المنصات المدققة
 
 
@@ -105,21 +108,10 @@ In Tella Android, Tella FOSS and [Tella Web](/tella-web), users can choose to sh
 
 | تاريخ | Android و iOS و Tella Web | [عرض التقرير](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)  | ماي 2023      |
 | -----|----------|----|-----------|
+| May 2026 | Convocation Research and Design Labs  |  Android, iOS, Desktop |[Placeholder for report !]|
 | August 2024 | Radically Open Security |  Android, iOS, Android FOSS|[View pen-testing results](</assets/2024.08.30-Penetration-Test-Report-Horizontal.pdf>)|
 | شركة Subgraph Technologies. | الخطورة |  الحالة|[View updated report confirming fixes has been implemented](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
 | العنوان | الخطورة | الحالة |[View security audit](</assets/2023.05 - Tella security audit - Final report.pdf>)|
-
-
-This is the summary from the latest audit and the status of the vulnerabilities identified:
-
-| تم حلّها                                               | تكرارات PBKDF2 لتدفُّق مفتاح الإخراج (أو الإدخال) المُعمّى لنظام أندرويد    | المنصة | منخفضة      |
-|-----------------------------------------------------|-------------|-------------|-------------|
-| Require re-authentication for changing key security settings | معتدل      | عام | Planning |
-| Improve webview implementation                      |  معتدل   | iOS       | تم حلّها |
-| Improve GitHub practices (merging to main and tags) | منخفضة         | Android, Android FOSS | Resolved (pending re-test) |
-| Increase PBKDF2 iteration counts.                   | منخفضة         | Android, Android FOSS | تخصيص الشاشة الرئيسية {#homescreen-customization} |
-| Do not allow clear-text traffic in Android manifest.| منخفضة         | Android, Android FOSS | تم حلّها |
-| Outdated 3rd-party dependencies                     | غير معروف         | Android, Android FOSS | تم حلّها |
 
 
 
