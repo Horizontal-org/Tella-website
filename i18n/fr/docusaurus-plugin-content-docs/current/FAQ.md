@@ -66,7 +66,7 @@ Vous pouvez télécharger Tella Desktop pour Windows, macOS et Linux. [Suivez le
 Tella Web est une application web qui fonctionne comme un répertoire pour stocker les rapports soumis par les utilisateurs de Tella, y compris des photos, vidéos et fichiers audio. Pour en savoir plus sur Tella Web cliquez [ici](/tella-web)
 
 :::note
-Note that it is not possible to encrypt and hide files or create reports on Tella Web. These features are only available on the mobile apps. Tella Web is one of the [connections](/connections) available to send the data collected on the Tella app. 
+Notez qu'il n'est pas possible de chiffrer et de masquer des fichiers ou de créer des rapports sur Tella Web. Ces fonctionnalités sont uniquement disponibles sur les applications mobiles. Tella Web est l'une des [connexions](/connections) disponibles pour envoyer les données collectées sur l'application Tella.
 :::
 
 ### Comment faire pour avoir Tella ?  {#where-can-i-get-tella}
