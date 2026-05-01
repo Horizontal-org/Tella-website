@@ -34,7 +34,7 @@ Lorsque vous utiliisez chaque fonctionnalité pour la première fois, il vous es
 
 
 * Pour prendre des photos, enregistrer des vidéos ou du son, vous devez autoriser l'accès à l'appareil photo et au microphone de votre téléphone.
-* To use Nearby Sharing you'll need to grant access to detect devices on your Wi-Fi network.
+* Pour utiliser le Partage de proximité, vous devrez autoriser la détection des appareils sur votre réseau Wi-Fi.
 
 
 <div className="gifs">
