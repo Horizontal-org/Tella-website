@@ -90,7 +90,7 @@ En date de décembre 2024, nous n'avons pas été en mesure de tester Tella Andr
 
 Oui, il est possible de télécharger et d'utiliser Tella gratuitement. C'est un logiciel qui restera gratuit pour toujours.
 
-Tella is also [Open Source](/open-source).
+Tella est également [Open Source](/open-source).
 
 ### Dans quelles langues Tella est-elle disponible? {#what-languages-is-tella-available-in}
 
