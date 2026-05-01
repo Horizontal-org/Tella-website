@@ -138,7 +138,7 @@ Nous pouvons divulguer les informations personnelles et les données que nous co
 
 ## 6. Vos choix concernant notre collecte, notre utilisation et notre divulgation de vos informations {#6-your-choices-about-our-collection-use-and-disclosure-of-your-information}
 
-Through the settings menu of Tella Android you can opt-out of:
+Depuis le menu des paramètres de Tella Android, vous pouvez vous désabonner de :
 
 -   Rapports de bogues et analyses d'utilisation par défaut.
 -   Collecte de métadonnées en totalité ou en partie en désactivant le “Mode de vérification” dans les paramètres de votre application.
