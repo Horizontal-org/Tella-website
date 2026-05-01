@@ -59,7 +59,7 @@ Pour plus de détails sur chaque fonctionnalité, voir [Fonctionnalités](/featu
 
 Oui, Tella est disponible sur ordinateur, mais pour le moment, ne peut être utilisée que pour recevoir des fichiers.
 
-You can download Tella Desktop for Windows, MacOS and Linux. [Follow the quick start guide for Tella users on Desktop](/get-started-desktop) for quick onboarding.
+Vous pouvez télécharger Tella Desktop pour Windows, macOS et Linux. [Suivez le guide de démarrage rapide pour les utilisateurs de Tella Desktop](/get-started-desktop) pour une prise en main rapide.
 
 ### Do you offer a back-end or repository to store data? {#tella-web}
 
