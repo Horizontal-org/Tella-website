@@ -135,7 +135,7 @@ Oui, vous le pouvez, mais le processus est manuel pour le moment. Différentes a
 - Sélectionnez des fichiers depuis votre coffre-fort et exportez-les sur votre téléphone en utilisant le bouton **Enregistrer sur l'appareil**.
 
 
-All exports outside of Tella's encrypted vault (to a connected server or to your phone) will be unencrypted. The only method for sharing files that transfer files directly to another encrypted vault is [Nearby Sharing](/nearby-sharing).
+Toutes les exportations en dehors du coffre-fort chiffré de Tella (vers un serveur connecté ou vers votre téléphone) seront non chiffrées. La seule méthode de partage de fichiers qui transfère les fichiers directement vers un autre coffre-fort chiffré est le [Partage de proximité](/nearby-sharing).
 
 Continue reading about backups [in the Features page](/features#backup-files).
 
