@@ -3,13 +3,14 @@ id: privacy-policy
 title: Politique de confidentialité
 description: Politique de confidentialité de Tella
 slug: /privacy
+sidebar_position: 7
 ---
 
 
 # Tella - Politique de confidentialité
 
 :::note
-Last updated on 25 February 2025.
+Dernière mise à jour le 25 février 2025.
 :::
 
 :::info
