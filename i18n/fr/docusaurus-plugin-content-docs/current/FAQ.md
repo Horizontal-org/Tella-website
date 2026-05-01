@@ -127,7 +127,7 @@ Il n'y a pas de limite de stockage spécifique pour Tella. Cela dépendra de l'e
 Les emplacements de stockage externes (comme les cartes SD) ne sont actuellement pas utilisés par Tella.
 
 
-### Can i backup the data I store in Tella? {#can-i-backup-the-data-i-store in-tella?}
+### Puis-je sauvegarder les données que je stocke dans Tella ? {#can-i-backup-the-data-i-store in-tella?}
 
 Yes, you can, but the process is manual for the moment. There are different alternatives available for backups:
 - Establish a secure connection to a computer or phone that's in physical proximity using [Nearby Sharing](/nearby-sharing). This is the most secure method available.
