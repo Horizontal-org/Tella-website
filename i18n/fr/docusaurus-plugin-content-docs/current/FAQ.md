@@ -61,7 +61,7 @@ Oui, Tella est disponible sur ordinateur, mais pour le moment, ne peut être uti
 
 Vous pouvez télécharger Tella Desktop pour Windows, macOS et Linux. [Suivez le guide de démarrage rapide pour les utilisateurs de Tella Desktop](/get-started-desktop) pour une prise en main rapide.
 
-### Do you offer a back-end or repository to store data? {#tella-web}
+### Proposez-vous un back-end ou un dépôt pour stocker les données ?{#tella-web}
 
 Tella Web est une application web qui fonctionne comme un répertoire pour stocker les rapports soumis par les utilisateurs de Tella, y compris des photos, vidéos et fichiers audio. Pour en savoir plus sur Tella Web cliquez [ici](/tella-web)
 
