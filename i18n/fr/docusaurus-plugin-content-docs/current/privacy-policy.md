@@ -118,7 +118,7 @@ Nous ne contrôlons pas les technologies de suivi de ces tiers ni la manière do
 
 Si vous ne souhaitez pas télécharger l'application via la boutique Google Play, vous pouvez [télécharger un APK directement sur ce lien](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ).
 
-A fully Free and Open Source version of Tella for Android that doesn't contain any closed-source or proprietary library or dependency can be found on [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/). 
+Une version entièrement libre et open source de Tella pour Android, ne contenant aucune bibliothèque ou dépendance propriétaire ou à source fermée, est disponible sur [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/). 
 
 ## 5. Comment nous utilisons vos informations {#5-comment-nous-utilisons-vos-informations}
 
