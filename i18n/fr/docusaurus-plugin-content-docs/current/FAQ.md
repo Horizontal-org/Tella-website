@@ -137,7 +137,7 @@ Oui, vous le pouvez, mais le processus est manuel pour le moment. Différentes a
 
 Toutes les exportations en dehors du coffre-fort chiffré de Tella (vers un serveur connecté ou vers votre téléphone) seront non chiffrées. La seule méthode de partage de fichiers qui transfère les fichiers directement vers un autre coffre-fort chiffré est le [Partage de proximité](/nearby-sharing).
 
-Continue reading about backups [in the Features page](/features#backup-files).
+Continuez à lire à propos des sauvegardes [sur la page Fonctionnalités](/features#backup-files).
 
 ## Sécurité et confidentialité {#security--privacy}
 
