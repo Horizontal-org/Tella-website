@@ -46,7 +46,7 @@ Voici quelques conseils sur Uwazi qui peuvent être particulièrement adaptés �
 Vous pouvez en savoir plus sur Uwazi sur [la documentation officielle d'Uwazi](https://uwazi.readthedocs.io/en/latest/). HURIDOCS sont des amis d'Horizontal, donc si vous avez des questions sur Uwazi ou si vous voulez que nous vous mettions en contact avec l'équipe d'HURIDOCS, [contactez-nous](contact-us).
 
 :::tip
-If you need help figuring out if Uwazi is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
+Si vous avez besoin d'aide pour déterminer si Uwazi est le mieux adapté à votre cas d'usage, [consultez notre guide](/for-organizations) ou [contactez-nous](/contact-us) !
 :::
 
 ## Configurer Uwazi sur un serveur {#configure-uwazi-on-a-server}
