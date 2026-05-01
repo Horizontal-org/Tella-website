@@ -143,7 +143,7 @@ Depuis le menu des paramètres de Tella Android, vous pouvez vous désabonner de
 -   Rapports de bogues et analyses d'utilisation par défaut.
 -   Collecte de métadonnées en totalité ou en partie en désactivant le “Mode de vérification” dans les paramètres de votre application.
 
-Through the settings menu of Tella Android and Tella FOSS, you can opt-in to:
+Depuis le menu des paramètres de Tella Android et Tella FOSS, vous pouvez vous abonner à :
 - Partagez des analyses d'utilisation à l'aide de notre système de préservation de la confidentialité [Divvi Up](/security-and-privacy#analytics).
 
 
