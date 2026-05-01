@@ -150,7 +150,7 @@ Pour en savoir plus sur le  [code de verrouillage de Tella](/video-tutorials#tel
 :::
 
 ### Comment migrer Tella vers un nouveau téléphone? {#how-do-i-migrate-tella-to-a-new-phone}
-You can use [Nearby Sharing](/nearby-sharing) to move your files to a new phone. You will need to install Tella in your new phone, establish a secure connection to it using Nearby Sharing, select all your files, and transfer those to your new phone. This feature works, too, for Android to iOS, or iOS to Android migrations. 
+Vous pouvez utiliser le [Partage de proximité](/nearby-sharing) pour transférer vos fichiers vers un nouveau téléphone. Vous devrez installer Tella sur votre nouveau téléphone, établir une connexion sécurisée avec celui-ci via le Partage de proximité, sélectionner tous vos fichiers et les transférer vers votre nouveau téléphone. Cette fonctionnalité fonctionne également pour les migrations d'Android vers iOS, ou d'iOS vers Android.
 
 If you have multiple files, the full transfer might take some time. We recommend you to make sure that Tella [does not lock](/features#lock-timeout) while the transfer is in progress.  
 
