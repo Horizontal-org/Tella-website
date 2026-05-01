@@ -91,7 +91,7 @@ Les administrateurs de l'instance Tella Web peuvent exporter toutes les données
 La sauvegarde est une exportation complète de tout le contenu de l'espace : y compris tous les projets, rapports, utilisateurs et ressources, ainsi que toutes les métadonnées. L'exportation est un fichier zip contenant un ensemble de fichiers CSV et de dossiers avec les médias téléversés. Pour le moment, il n'est pas possible de réimporter la sauvegarde dans une instance Tella Web depuis le Centre d'administration, mais chaque sauvegarde inclut un fichier .sql que les utilisateurs avancés peuvent utiliser pour importer les données directement dans la base de données.
 
 :::warning
-The information included in the backup is highly sensitive, it not only contains all the data (unencrypted) but also information about the Tella Web users. Please proceed with caution when generating the backup.
+Les informations contenues dans la sauvegarde sont hautement sensibles : elles comprennent non seulement toutes les données (non chiffrées), mais aussi des informations sur les utilisateurs de Tella Web. Veuillez faire preuve de prudence lors de la génération de la sauvegarde.
 :::
 
 
