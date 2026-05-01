@@ -84,7 +84,7 @@ Afficher tous les projets disponibles {#view-all-available-projects}
     - Configurer les paramètres des projets {#configure-projects-settings}
     - Dans l'écran "Paramètres du projet", vous pouvez configurer le projet :
 
-#### Backup your space {#backup-your-space}
+#### Sauvegarder votre espace {#backup-your-space}
 
 Admins of the Tella Web instance can export all data out of Tella Web by generating a backup. Backups can be used to port the data to another location, including a computer, a USB flash drive, an external disk or a remote server.  The action to generate the backup runs in the background and, if triggered, an email notification will be sent to the person who generated the backup when it is ready to download. However, all backups are accessible in the Admin Center to all users with admin access.
 
