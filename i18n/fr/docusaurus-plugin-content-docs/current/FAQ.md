@@ -45,7 +45,7 @@ Tout le code, les bibliothèques et les dépendances de Tella FOSS sont entière
 Oui, Tella pour iOS peut être téléchargé [depuis l'App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580). Pour plus de détails sur les fonctionnalités disponibles pour iOS, consultez [quelles fonctionnalités sont disponibles sur chaque plateforme](/features).
 
 :::note
-Follow the get [quick start guide for Tella users on iOS](/get-started-ios) for quick onboarding.
+Suivez le guide de [démarrage rapide pour les utilisateurs de Tella sur iOS](/get-started-ios) pour une prise en main rapide.
 :::
 
 
