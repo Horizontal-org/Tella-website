@@ -159,7 +159,7 @@ Nous vous recommandons de vérifier que tous les fichiers ont bien été transf�
 :::
 
 :::info
-Using Apple's Migration Assistant will not work: your files will be moved to the new phone encrypted, but not your encryption keys. As a result, you will not be able to decrypt and open these files.
+L'utilisation de l'Assistant de migration d'Apple ne fonctionnera pas : vos fichiers seront transférés vers le nouveau téléphone sous forme chiffrée, mais pas vos clés de chiffrement. Par conséquent, vous ne serez pas en mesure de déchiffrer et d'ouvrir ces fichiers.
 :::
 
 
