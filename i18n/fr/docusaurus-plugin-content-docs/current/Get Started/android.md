@@ -141,7 +141,7 @@ Tella Web est un outil open source qui permet aux individus et aux organisations
 
 Pour en savoir plus sur Tella Web [ici](/tella-web) ou regarder un [tutoriel vidéo](/video-tutorials#tella-web).
 
-#### Nextcloud, Dropbox and Google Drive {#Nextcloud-dropbox-and-google-drive}
+#### Nextcloud, Dropbox et Google Drive {#Nextcloud-dropbox-and-google-drive}
 [Fonctionnalités]( /features) : En savoir plus sur la façon dont Tella peut vous protéger et sur les menaces contre lesquelles Tella ne_vous_protège_pas.
 
 [Connexions](/for-organizations) : Découvrez comment vous pouvez vous connecter à un serveur pour collecter des données ou sauvegarder des fichiers.
