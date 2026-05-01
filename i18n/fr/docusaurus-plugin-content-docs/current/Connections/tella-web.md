@@ -86,7 +86,7 @@ Afficher tous les projets disponibles {#view-all-available-projects}
 
 #### Sauvegarder votre espace {#backup-your-space}
 
-Admins of the Tella Web instance can export all data out of Tella Web by generating a backup. Backups can be used to port the data to another location, including a computer, a USB flash drive, an external disk or a remote server.  The action to generate the backup runs in the background and, if triggered, an email notification will be sent to the person who generated the backup when it is ready to download. However, all backups are accessible in the Admin Center to all users with admin access.
+Les administrateurs de l'instance Tella Web peuvent exporter toutes les données hors de Tella Web en générant une sauvegarde. Les sauvegardes peuvent être utilisées pour transférer les données vers un autre emplacement, notamment un ordinateur, une clé USB, un disque externe ou un serveur distant. L'action de génération de la sauvegarde s'exécute en arrière-plan et, si elle est déclenchée, une notification par e-mail sera envoyée à la personne ayant généré la sauvegarde lorsqu'elle sera prête à être téléchargée. Cependant, toutes les sauvegardes sont accessibles dans le Centre d'administration pour tous les utilisateurs disposant d'un accès administrateur.
 
 The backup is a full export everything in the space: including all Projects, Reports, Users and Resources, plus all metadata. The export is a zip file including a collection of CSVs and folders with with the uploaded media. For now, there is no way to import the backup back into a Tella Web instance from the Admin Center, but each backup includes a .sql file that advanced users can use to import the data to the database directly. 
 
