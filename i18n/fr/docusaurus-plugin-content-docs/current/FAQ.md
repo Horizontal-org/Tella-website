@@ -38,7 +38,7 @@ En savoir plus sur [Comment trouver et télécharger Tella depuis Play Store](/v
 ### Tella est-elle disponible sur F-Droid? {#is-tella-available-on-f-droid}
 Oui, nous publions une version de Tella Android [sur F-Droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/), que nous appelons Tella FOSS. Tella FOSS ne prend pas en charge toutes les fonctionnalités disponibles sur Tella Android. Pour plus de détails sur les fonctionnalités disponibles dans Tella FOSS, consultez [quelles fonctionnalités sont disponibles sur chaque plateforme](/features) ainsi que notre [page des notes de version](/releases).
 
-All code, libraries, and dependencies in Tella FOSS are entirely Free and Open Source Software (FOSS). Tella FOSS only includes an opt-in [privacy-preserving analytics](/security-and-privacy#analytics) tracker.
+Tout le code, les bibliothèques et les dépendances de Tella FOSS sont entièrement des logiciels libres et open source (FOSS). Tella FOSS inclut uniquement un outil de [suivi analytique respectueux de la vie privée](/security-and-privacy#analytics) avec activation optionnelle.
 
 ### Tella est-elle disponible sur iOS? {#is-tella-available-on-ios}
 
