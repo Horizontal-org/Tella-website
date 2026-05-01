@@ -71,7 +71,7 @@ Les projets fonctionnent comme des dossiers dans lesquels les utilisateurs de Te
 ### Chaque projet a sa propre URL, de sorte que vous pouvez être connecté à plusieurs projets Tella Web.
 
 
-#### Configure spaces’ settings {#configure-spaces-settings}
+#### Configurer les paramètres des espaces {#configure-spaces-settings}
 Afficher tous les projets disponibles {#view-all-available-projects}
 - Cliquez sur le bouton « Projets » dans le menu de navigation de gauche pour accéder à l'écran "Projets" .
 - L'écran "Projets" affiche sous forme de carte chaque projet existant.
