@@ -42,7 +42,7 @@ Tout le code, les bibliothèques et les dépendances de Tella FOSS sont entière
 
 ### Tella est-elle disponible sur iOS? {#is-tella-available-on-ios}
 
-Yes, Tella for iOS can be downloaded [from the App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580). For details about which features are available for iOS, see [What features are available on each platform](/features).
+Oui, Tella pour iOS peut être téléchargé [depuis l'App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580). Pour plus de détails sur les fonctionnalités disponibles pour iOS, consultez [quelles fonctionnalités sont disponibles sur chaque plateforme](/features).
 
 :::note
 Follow the get [quick start guide for Tella users on iOS](/get-started-ios) for quick onboarding.
