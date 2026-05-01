@@ -5,7 +5,7 @@ description: La connexion au serveur Uwazi est proposée aux organisations qui s
 slug: /uwazi
 ---
 
-# Uwazi Connection
+# Connexion Uwazi
 
 [Uwazi](https://uwazi.io/) est un outil de documentation open source développé par [HURIDOCS](https://huridocs.org).. Il s'agit d'une application de base de données en ligne flexible, conçue pour permettre aux défenseurs et défenseuses des droits de l'homme de gérer leurs collections d'informations, y compris les documents, les preuves, les affaires et les plaintes.
 
