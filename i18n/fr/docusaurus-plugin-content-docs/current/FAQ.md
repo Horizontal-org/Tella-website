@@ -129,7 +129,7 @@ Les emplacements de stockage externes (comme les cartes SD) ne sont actuellement
 
 ### Puis-je sauvegarder les données que je stocke dans Tella ? {#can-i-backup-the-data-i-store in-tella?}
 
-Yes, you can, but the process is manual for the moment. There are different alternatives available for backups:
+Oui, vous le pouvez, mais le processus est manuel pour le moment. Différentes alternatives sont disponibles pour les sauvegardes :
 - Establish a secure connection to a computer or phone that's in physical proximity using [Nearby Sharing](/nearby-sharing). This is the most secure method available.
 - Connect to a server directly from Tella and choose the files you want to send to it. You can read more about the [servers available here](/for-organizations).
 - Select files from your vault and export those to your phone using the **Save to device** button.
