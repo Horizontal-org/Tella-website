@@ -155,7 +155,7 @@ Vous pouvez utiliser le [Partage de proximité](/nearby-sharing) pour transfére
 Si vous avez de nombreux fichiers, le transfert complet peut prendre un certain temps. Nous vous recommandons de vous assurer que Tella [ne se verrouille pas](/features#lock-timeout) pendant le transfert.
 
 :::tip
-We recommend you double check that all the files has been successfully transferred before deleting those in your old phone.
+Nous vous recommandons de vérifier que tous les fichiers ont bien été transférés avec succès avant de les supprimer de votre ancien téléphone.
 :::
 
 :::info
