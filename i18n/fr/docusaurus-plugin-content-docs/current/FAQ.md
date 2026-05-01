@@ -132,7 +132,7 @@ Les emplacements de stockage externes (comme les cartes SD) ne sont actuellement
 Oui, vous le pouvez, mais le processus est manuel pour le moment. Différentes alternatives sont disponibles pour les sauvegardes :
 - Établissez une connexion sécurisée avec un ordinateur ou un téléphone se trouvant à proximité physique via le [Partage de proximité](/nearby-sharing). Il s'agit de la méthode la plus sécurisée disponible.
 - Connectez-vous à un serveur directement depuis Tella et choisissez les fichiers que vous souhaitez lui envoyer. Vous pouvez en savoir plus sur les [serveurs disponibles ici](/for-organizations).
-- Select files from your vault and export those to your phone using the **Save to device** button.
+- Sélectionnez des fichiers depuis votre coffre-fort et exportez-les sur votre téléphone en utilisant le bouton **Enregistrer sur l'appareil**.
 
 
 All exports outside of Tella's encrypted vault (to a connected server or to your phone) will be unencrypted. The only method for sharing files that transfer files directly to another encrypted vault is [Nearby Sharing](/nearby-sharing).
