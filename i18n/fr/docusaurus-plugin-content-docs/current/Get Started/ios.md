@@ -100,7 +100,7 @@ Tenez compte du fait que Tella partagera les fichiers non cryptés, alors assure
 
 
 
-## Nearby sharing {#nearby-sharing}
+## Partage de proximité {#nearby-sharing}
 You share files directly from Tella’s encrypted vault to another Tella encrypted vault in the same physical location using [Nearby Sharing](/nearby-sharing). After a quick connection tutorial, the two devices establish a secure link, and files are transferred encrypted from one device to the other. Nearby Sharing allows phone-to-phone (Android or iOS) and phone-to-computer file transfers. 
 
 
