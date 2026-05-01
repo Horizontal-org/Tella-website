@@ -84,7 +84,7 @@ En fonction de l'appareil que vous possédez, referez-vous aux questions [Tella 
 Tella est compatible avec les appareils fonctionnant sous Android 5.0 ou une version ultérieure et avec iOS 14.0 ou une version ultérieure.
 
 ### Tella est-elle compatible avec GrapheneOS ? {#does-tella-work-on-graphene-os}
-As of December 2024, we haven't been able to test Tella Android and Tella FOSS on GrapheneOS, so we cannot confirm that all features work properly. Some users have reported that the main features (lock, file encryption and management, etc) work properly, but some of the Connections (like Google Drive) do not work. If you use GrapheneOS and you experience a problem, please [contact us](/contact-us).
+En date de décembre 2024, nous n'avons pas été en mesure de tester Tella Android et Tella FOSS sur GrapheneOS, nous ne pouvons donc pas confirmer que toutes les fonctionnalités fonctionnent correctement. Certains utilisateurs ont signalé que les fonctionnalités principales (verrouillage, chiffrement et gestion des fichiers, etc.) fonctionnent correctement, mais que certaines connexions (comme Google Drive) ne fonctionnent pas. Si vous utilisez GrapheneOS et que vous rencontrez un problème, veuillez [nous contacter](/contact-us).
 
 ### Tella est-elle gratuite ? {#is-tella-free}
 
