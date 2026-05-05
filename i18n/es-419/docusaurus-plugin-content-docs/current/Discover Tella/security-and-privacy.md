@@ -1,8 +1,9 @@
 ---
 id: security-and-privacy
-title: Seguridad y privacidad
+title: Security and Privacy
 description: Detalles sobre la seguridad y privacidad de Tella.
 slug: /security-and-privacy
+sidebar_position: 2
 ---
 
 # Seguridad y privacidad
@@ -73,7 +74,7 @@ Tella integra varias medidas de seguridad para lograr un nivel aceptable de segu
 
 
 1. **Cifrado en reposo**: Todos los datos son cifrados en reposo, en el dispositivo de la/el usuaria(o). Esto quiere decir que a menos que la app esté desbloqueada (al introducir el método de bloqueo de usuaria(o)), los datos que contiene no pueden ser en absoluto accedidos. Incluso si alguien confisca el teléfono y extrae todos los datos utilizando una computadora, los datos permanecerán ilegibles.
-2. **Cifrado en tránsito:** Todos los datos siendo transferidos entre Tella y servidores (ver [sección de Conexiones](/features#connecting-to-servers)) son cifrados a través de [Seguridad de la Capa de Transporte (TLS - Transport Layer Security)](https://es.wikipedia.org/wiki/Seguridad_de_la_capa_de_transporte). Tella hace que sea imposible enviar datos a un servidor sin cifrado TLS.
+2. **Encryption in transit:** All data being transferred between Tella and servers (see [Connections section](/connections)) is encrypted through[Transport Layer Security (TLS)](https://en.wikipedia.org/wiki/Transport_Layer_Security). Tella makes it impossible to send data to a server without TLS encryption.
 3. **Método de Bloqueo**: La(o)s usuaria(o)s de Tella [eligen un método de bloqueo](/features#app-lock) para la app tan pronto como la instalan. Los bloqueos con Contraseña, Patrón y PIN están disponibles y cada nivel de seguridad es comunicado a la(o)s usuaria(o)s.
 4. **Tiempo de espera para Bloqueo:** La(o)s usuaria(o)s también pueden configurar un [tiempo de espera para bloqueo](/features#lock-timeout-configuration), para elegir qué tan rápido Tella se bloqueará cuando no esté en uso. Por defecto, el tiempo de espera para bloqueo está establecido a "inmediatamente", por lo que tan pronto la/el usuaria(o) sale de Tella, la app se bloquea y todos los datos son cifrados.
 5. **Camuflaje**: En Tella Android, actualmente hay [dos modos de camuflaje](features#camouflage) para Tella: una calculadora completamente funcional y la posibilidad de cambiar el ícono y nombre de la app para hacer que sea más difícil de encontrar en el teléfono. Debido a las restricciones de iOS, no es posible camuflar Talla para iOS.
@@ -81,6 +82,7 @@ Tella integra varias medidas de seguridad para lograr un nivel aceptable de segu
 7. **Modo silencioso de la Cámara**: La(o)s usuaria(o)s pueden elegir [desactivar el sonido del obturador de la cámara](/features#camera-silent-mode) para llamar menos la atención al tomar fotos.
 8. **Seguridad de pantalla**: Por defecto, Tella bloquea las capturas de pantalla y las grabaciones de pantalla dentro de Tella y oculta la vista previa de pantalla de la lista de apps recientes. [Esta configuración](/features#screen-security) se puede deshabilitar, por ejemplo para grabar tutoriales dentro de Tella o reflejar la app a una computadora para una presentación.
 9. **Restringir intentos de desbloqueo**: La(o)s usuaria(o)s pueden decidir cuántos [intentos de desbloqueo](features#restrict-unlocking-attempts) fallidos están permitidos antes de que todo dentro de Tella sea eliminado y si un indicador visual con el número de intentos restantes será visible en la pantalla de desbloqueo o no.
+10. **Offline file sharing**: Tella allows establishing a secure connection with devices that are in the same physical location and transferring files encrypted, from one Tella vault to another. [Nearby Sharing](/nearby-sharing) works fully offline, even on insecure networks or networks being surveilled.  Nearby Sharing is available cross-platform (between Android, iOS and Desktop).
 
 :::tip Video tutorial 🎥
 Aprende más sobre Funciones de Seguridad en nuestro [video tutorial](/video-tutorials#additional-security-features)
@@ -98,6 +100,7 @@ No hay tal cosa como una app que sea 100% "segura". La seguridad depende de las 
 * Administración de archivos:
     * Los archivos que son exportados fuera de Tella al sistema de archivos del dispositivo ya no estarán cifrados. Esto quiere decir que cualquiera con acceso al dispositivo que navegue por el sistema de archivos o la galería podría encontrar esos archivos.
     * Los archivos que son compartidos a través de apps de terceras partes pueden ser visibles para aquellas apps y guardados sin cifrar en el sistema de archivos del dispositivo, y alguien que busque en estas apps podría encontrar los archivos. Por ejemplo: una foto almacenada dentro de Tella y compartida en WhatsApp será visible dentro de WhatsApp, y también será visible en el sistema de archivos, donde se almacenan las fotos de WhatsApp. Esto pasa porque para compartir con apps de terceras partes el archivo necesita guardarse en el sistema de archivos del teléfono, el cual no está cifrado. Es por esto que recomendamos eliminar manualmente el archivo del sistema de archivos del dispositivo después de compartirlo.
+    * Files sent to a [server connection](/for-organizations) will be stored un-encrypted on the server, unless the server has implemented disk encryption. People who have access to the server might be able to see the files. Tella makes sure that the data travels encrypted to the server but cannot guarantee the security practices of the server. If you choose to connect to a Google Drive or Dropbox instance, or work with a third party organization for hosting your data, we recommend looking into whether the organization itself can access your data.
     * Importar un archivo crea una copia de este, y luego se importa y cifra dentro de Tella. En la versión 1.1(iOS) y 2.1(Android) hemos desarrollado una función para que la(o)s usuaria(o)s seleccionen si quieren conservar o eliminar el archivo original cuando importen a Tella. Sin embargo, recomendamos verificar que el archivo original no esté presente en la Papelera de Reciclaje (Mis archivos > Papelera) y eliminar el archivo de cualquier servicio de respaldo automático que hayas habilitado en tu teléfono (Google Photos, Dropbox, etc).
 
 
@@ -107,21 +110,10 @@ Regularmente solicitamos a empresas de seguridad independientes auditar nuestro 
 
 | Fecha | Auditado por | Plataformas auditadas  | Enlace      |
 | -----|----------|----|-----------|
+| May 2026 | Convocation Research and Design Labs  |  Android, iOS, Desktop |[Placeholder for report !]|
 | August 2024 | Radically Open Security |  Android, iOS, Android FOSS|[View pen-testing results](</assets/2024.08.30-Penetration-Test-Report-Horizontal.pdf>)|
 | Mayo de 2024 | Subgraph Technologies, Inc. |  Android, iOS, Tella Web|[View updated report confirming fixes has been implemented](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
 | Mayo de 2023 | Subgraph Technologies, Inc. | Android, iOS, Tella Web |[View security audit](</assets/2023.05 - Tella security audit - Final report.pdf>)|
-
-
-This is the summary from the latest audit and the status of the vulnerabilities identified:
-
-| Título                                               | Severidad    | Platform | Estado      |
-|-----------------------------------------------------|-------------|-------------|-------------|
-| Require re-authentication for changing key security settings | Moderate      | General | Planning |
-| Improve webview implementation                      |  Moderate   | iOS       | Resuelto |
-| Improve GitHub practices (merging to main and tags) | Baja         | Android, Android FOSS | Resolved (pending re-test) |
-| Increase PBKDF2 iteration counts.                   | Baja         | Android, Android FOSS | Pronto |
-| Do not allow clear-text traffic in Android manifest.| Baja         | Android, Android FOSS | Resuelto |
-| Outdated 3rd-party dependencies                     | Desconocido         | Android, Android FOSS | Resuelto |
 
 
 
