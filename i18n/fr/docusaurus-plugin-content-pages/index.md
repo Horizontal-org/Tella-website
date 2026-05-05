@@ -71,7 +71,7 @@ import ThemedImage from '@theme/ThemedImage';
         <div className="column" id="section-column2">
             <ul>
                 <li><span className="emphasis">Caméra et enregistreur intégrés dans Tella :</span> prenez des photos, enregistrez des vidéos et des audios directement dans Tella afin que vos fichiers soient immédiatement cryptés et cachés dans l'application.</li>
-                <li><span className="emphasis">Tella s'intègre</span> avec <a href="for-organizations#uwazi">Uwazi</a>, <a href="for-organizations#open-data-kit-odk">Kobotoolbox</a> et <a href="for-organizations#tella-web">Tella Web</a>. Choisissez la plateforme qui répond le mieux à vos besoins et collectez des données directement dans Tella.</li>
+                <li><span className="emphasis">Tella s'intègre</span> avec <a href="uwazi">Uwazi</a>, <a href="odk">Open Data Kit</a>, <a href="tella-web">Tella Web</a>, <a href="g-drive">Google Drive</a>, <a href="dropbox">Dropbox</a> et <a href="nextcloud">Nextcloud</a>. Choisissez la plateforme qui répond le mieux à vos besoins et collectez des données directement dans Tella.</li>
                 <li><span className="emphasis">Mode hors-ligne :</span> dans les zones avec une connexion Internet limitée ou inexistante, vous pouvez enregistrer vos données et les soumettre lorsque vous avez une connexion Internet fiable.</li>
             </ul>
         </div>
@@ -85,7 +85,7 @@ import ThemedImage from '@theme/ThemedImage';
         <div className="column" id="section-column1">
             <ul>
                 <li><span className="emphasis">Gratuite pour toujours : </span>Tella est conçue pour ceux et celles dont la sécurité est en danger. Son téléchargement et son utilisation sont gratuite et le resteront à jamais.</li>
-                <li><span className="emphasis">Choisir votre langue :</span> Tella est actuellement <a href="faq#what-languages-is-tella-available-in">disponible</a>en arabe, biélorusse, birman, anglais, français, indonésien, jingpho, kannada, karen sgaw, kurde, malayalam, persan, portugais, russe, vietnamienne ,espagnol (Amérique latine) et en tamoul.</li>
+                <li><span className="emphasis">Choisir votre langue :</span> Tella est actuellement <a href="faq#what-languages-is-tella-available-in"> disponible </a> en 24 langues.</li>
                 <li><span className="emphasis">Faire confiance au code</span>: Le code de Tella est open-source et <a href="open-source">publiquement disponible</a> afin que les chercheurs et chercheuses, analystes en sécurité et développeurs ou développeuses puissent l'auditer et le réutiliser librement.</li>
             </ul>
         </div>

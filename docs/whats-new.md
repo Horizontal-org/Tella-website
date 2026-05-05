@@ -3,6 +3,7 @@ id: releases
 title: What's new (changelog)
 description: Tella changelogs
 slug: /releases
+sidebar_position: 8
 ---
 
 # What's new
@@ -14,18 +15,24 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 
 ## Tella - Latest Versions {#tella---latest-versions}
 
-### Android: Tella 2.20.1 (230) - Released on April 1, 2026 {#android-tella-2201230---released-on-apr-1-2026}
-- Hotfix: Manual reports (to all connections) are not longer stuck in the Outbox.
+
+### Android: Tella 3.0.0 (236) - Released on May X, 2026 {#android-tella-300236---released-on-may-x-2026}
+- Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files on physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
+- Implemented security fixes detected by our most recent [security audit](/security-and-privacy#security-audits).
+- New Languages support: Ukrainian.
 
 
-### iOS: Tella 1.19.1 (130) - Released on April 7, 2026 {#ios-tella-1191-130---released-on-april-7-2026}
-- Hotfix: Connection to some Tella Web project was failing, because of an old unused API parameter.
+### iOS: Tella 3.0.0 (143) - Released on May X, 2026 {#ios-tella-300143---released-on-may-x-2026}
+- Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files on physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
+- Implemented security fixes detected by our most recent [security audit](/security-and-privacy#security-audits).
+- New Languages support: Ukrainian.
 
-### Android: Tella FOSS 2.20.0(229) (based on Android 2.20.0) - Released on April 1, 2026 {#android-tella-foss-2200-based-on-android-2200---released-on-april-1-2026}
+
+### Android: Tella FOSS 2.20.2(233) (based on Android 2.20.2) - Released on April 22, 2026 {#android-tella-foss-2202-based-on-android-2202---released-on-april-22-2026}
 
 We updated Tella FOSS, the version of Tella published on F-Droid that is 100% Free and Open-Source Software (FOSS). This updated version includes open-source map, location provider and Camera libraries. It doesn't include crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. 
 
-This version is based on Tella Android 2.20.0 and includes the following features:
+This version is based on Tella Android 2.20.2 and includes the following features:
 - Big refactor (including adding product flavors) to be able to merge Tella Android and Tella FOSS codebases into a single one.
 - Implemented the Nextcloud server connection that allows Tella users to upload the data they collect directly to Nextcloud. [Read more here about the connection](/nextcloud).
 - New Languages support: Bengali, Ndau, Azerbaijani, Chinese, Mizo
@@ -45,6 +52,24 @@ A detailed list of features available on each platform is [available here](/feat
 
 
 ## Previous versions {#previous-versions}
+
+
+### Android: Tella 2.20.2 (232) - Released on April 8, 2026 {#android-tella-2202232---released-on-apr-8-2026}
+- Hotfix: Made sure that the confirmation messages for submission and auto-deletion only show when the action has been done.
+- Hotfix: Made sure that if users exit the flow for changing Lock in the middle, Tella keeps the old lock. Locks are only changed after the whole flow is completed.
+- Hotfix: Fixed concurrency problem for when multiple files are sent to Tella Web. We now make sure that all files are sent to the server, even if we need to split the files in multiple auto-reports.
+
+
+### iOS: Tella 1.19.2 (132) - Released on April 13, 2026 {#ios-tella-1192-132---released-on-april-13-2026}
+- Hotfix: Translations now load automatically (without reloading the app).
+- Hotfix: Added missing translation tags.
+
+### iOS: Tella 1.19.1 (130) - Released on April 7, 2026 {#ios-tella-1191-130---released-on-april-7-2026}
+- Hotfix: Connection to some Tella Web project was failing, because of an old unused API parameter.
+
+
+### Android: Tella 2.20.1 (230) - Released on April 1, 2026 {#android-tella-2201230---released-on-apr-1-2026}
+- Hotfix: Manual reports (to all connections) are not longer stuck in the Outbox.
 
 ### iOS: Tella 1.19.0 (129) - Released on March 19, 2026 {#ios-tella-1190-129---released-on-march-19-2026}
 - Improvements to the Tella Web connection to increase resilience against intermittent and slow connectivity:
@@ -79,9 +104,6 @@ This version is based on Tella Android 2.11.0 and includes the following feature
 
 A detailed list of features available on each platform is [available here](/features).
 
-
-
-## Previous versions {#previous-versions}
 
 ### Android: Tella 2.20.0 (228) - Released on March 19, 2026 {#android-tella-2200228---released-on-mar-19-2026}
 - Improvements to the Tella Web connection to increase resilience against intermittent and slow connectivity:
@@ -428,7 +450,7 @@ A version of Tella included for the first time on the F-droid store. This a 100%
 - The top bar now automatically hides when scrolling a PDF for easier reading.
 - Upgraded http protocol (okhttp3 library).
  
-#### Upcoming changes and guidance to back-up files 
+#### Upcoming changes and guidance to back-up files {#upcoming-changes-and-guidance-to-back-up-files}
 The next release of Tella Android will include an update to the library used to save encrypted information encrypted in the database (SQLcipher). While we are doing our best to ensure the update to the new version happens smoothly, there is a small risk that some files are lost in the process. For users who are storing sensitive files in Tella, we strongly suggest to back-up these files to a location outside of Tella. This way, if something happens when updating Tella, those files will not be lost. 
 
 To export files outside of Tella and save them on your phone:
