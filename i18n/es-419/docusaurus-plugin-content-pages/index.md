@@ -80,7 +80,7 @@ import ThemedImage from '@theme/ThemedImage';
             <ul>
                 <li><span className="emphasis">Cámara y grabadora dentro de Tella:</span> toma fotos, graba videos y audio directamente en Tella para que tus archivos se encripten y oculten inmediatamente en la app.</li>
                 <li><span className="emphasis">Tella se integra</span> con <a href="uwazi">Uwazi</a>, <a href="odk">Open Data Kit</a>, <a href="tella-web">Tella Web</a>, <a href="g-drive">Google Drive</a>, <a href="dropbox">Dropbox</a> y <a href="nextcloud">Nextcloud</a>. <a href="connections">Elige la plataforma</a> que mejor se adapte a tus necesidades y comparte datos directamente desde Tella.</li>
-                <li><span className="emphasis">Offline-first:</span> in areas with limited or no internet connection, you can save your data and submit it when you reach a reliable internet connection. Tella also offers a <a href="nearby-sharing">fully offline feature to transfer files to nearby devices</a> using Tella.</li>
+                <li><span className="emphasis">Modo sin conexión:</span> en áreas con conectividad a internet limitada o nula, tu puedes guardar tus datos y enviarlos cuando tengas una conexión a internet confiable. Tella also offers a <a href="nearby-sharing">fully offline feature to transfer files to nearby devices</a> using Tella.</li>
             </ul>
         </div>
     </div> 
