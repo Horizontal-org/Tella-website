@@ -32,7 +32,8 @@ import ThemedImage from '@theme/ThemedImage';
     </div>
 </div>
 
-<hr>
+<hr></hr>
+
 <div className="section">
     <h2>¿Por qué Tella?</h2>
     <div className="columns">
@@ -100,5 +101,4 @@ import ThemedImage from '@theme/ThemedImage';
             <img className="home-illustrations" src="img/open-source.png" alt="Open source  illustration" ></img>
         </div>
     </div>
-</div>
 </div>
