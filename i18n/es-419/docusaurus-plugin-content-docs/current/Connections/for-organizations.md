@@ -42,7 +42,7 @@ El siguiente es un gráfico básico, no exhaustivo para ayudar a determinar cual
 
 ```mermaid
 graph TD;
-    id1(¿Qué tipo de archivos necesitan enviar la(o)s usuaria(o)s?) --> id2("Mayormente datos estructurados(formularios), con adjuntos multimedia");
+    id1(¿Qué tipo de archivos necesitan enviar les usuaries?) --> id2("Mayormente datos estructurados-formularios-, con adjuntos multimedia");    
     id1 --> id3("Mayormente archivos multimedia, con algo de texto") ;
     id2 --> id4("¿Qué funciones adicionales necesitas?");
     id3 --> id5("Tella Web");
