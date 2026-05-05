@@ -5,31 +5,46 @@ description: A funcionalidade Relatórios empodera usuários a carregar fotos, v
 slug: /tella-web
 ---
 
-# Tella Web 
+# Conexão com o Tella Web
 
 O Tella Web é uma ferramenta de código aberto que permite a indivíduos e organizações centralizar e gerenciar relatórios enviados por usuários do Tella, incluídos fotos, vídeos e arquivos de áudio.
 
-O Tella Web  desenvolvido internamente pela nossa equipe na Horizontal, a mesma responsável por desenvolver os aplicativos para dispositivos móveis do Tella. É uma solução amigável ao usuário para realizar backup de arquivos de mídia para um servidor remoto de uma maneira segura e privativa. Podemos fornecer suporte para a instalação, a configuração e a manutenção da instância Tella Web caso você não conte com alguém na sua organização que possa fazê-lo.
+Tella Web is developed internally by our team at Horizontal, the same team responsible for developing Tella's mobile apps. It is a user-friendly solution for backing up media files to a remote server in a safe and private manner. Using a Tella Web server also allows users to pull data (guides, instructions, important messages etc) from the server directly to their Tella 
 
-Similarmente a todas as outras conexões ([Uwazi](/uwazi) and [Open Data Kit](/odk)), conectar-se ao Tella Web aumenta a segurança dos dados coletados no Tella por:
+We can provide support for the installation, configuration, and maintenance of a Tella Web instance if you don't have someone within your organization who can do it.
+
+Similarly to all other connections([Uwazi](/uwazi), [Google Drive](/g-drive), [Nextcloud](/nextcloud), [Dropbox](/dropbox) and [Open Data Kit](/odk)), connecting to Tella Web enhances the security of data collected on Tella by:
 1. Permitir aos usuários coletar dados diretamente de dentro do contêiner criptografado do Tella.
 2. Assegurar que os dados são enviados diretamente do Tella para o Tella Web, sem depender de ferramentas ou aplicativos de terceiros.
 3. Permitir aos usuários realizar backup de seus dados em um servidor remoto, para diminuir o risco de os dados serem descobertos em seus dispositivos móveis. 
 4. Assegurar que as organizações possam preservar informações importantes, mesmo no caso de apreensão ou destruição de dispositivo, e possam organizá-las para uso em processos de pesquisa, advocacia pública ou processos de responsabilização.
 
-O Tella Web é uma ótima opção para coletar "relatórios" de usuários. Os Relatórios podem incluir fotos, vídeos, gravações de áudio, documentos em PDF e texto.
+Tella Web is a great option to collect "reports" from users. Reports can include photos, videos, audio recordings, pdf documents and text. Organizations can also upload PDFs to each Tella Web project and users can access these resources directly from their Tella vault.
 
 A configuração do Tella Web envolve três etapas, os quais são minuciosamente discutidos nesta seção:
 
 * **Instalar o Tella Web**: esta etapa envolve instalar o servidor Tella Web e configurar o nome do domínio para assegurar seu funcionamento adequado.
-* **Configurar seu(s) projeto(s) no seu servidor**: Nesta etapa, administradores decidem como se organizar para coletar dados, criar “projetos” e definir papéis e permissões para seus usuários.
+* **Set up your project(s) on your server**: In this step, admins decide how to organize themselves to collect data, create "projects", add "resources" for users to download on their devices and set roles and permissions for users.
 * **Preparar as pessoas nos locais de atuação para começar a submeter relatórios.**: Usuários instalam o Tella no seu dispositivo Android ou iPhone. Eles, então, conectam-se ao projeto do Tella Web e iniciam a coleta de informações.
+
+## When to Use Tella Web {#when-to-use-tella-web}
+
+The Tella Web could be a good alternative if:
+- Você tem a capacidade de auto-host Tella Web.
+- People on the ground will be sending mostly media files, with some text and don't need structured data collection (forms).
+- You will be partnering with Horizontal and you want the same organization to help you with installation, configuration, and maintenance of your Tella Web instance and the Tella apps.
+
+
+:::tip
+If you need help figuring out if Tella Web is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
+:::
 
 
 ## Instale o servidor {#install-the-server}
 
 Esta etapa consiste em instalar e configurar o Tella Web no servidor que a sua organização irá utilizar. Ela precisa ser completada pela pessoa que será responsável pela administração do sistema (um desenvolvedor ou um administrador de sistemas). Instruções técnicas podem ser encontradas em [nosso Github](https://github.com/Horizontal-org/tellaweb). 
 
+You can check Tella Web release notes [here](https://github.com/Horizontal-org/tellaweb/releases).
 
 
 :::info
@@ -49,6 +64,32 @@ Uma vez instalado o Tella Web e criada a primeira conta de usuário "administrad
 
 :::info
 Dê uma olhada [neste tutorial em vídeo](/video-tutorials#connections-full-video) para uma demonstração de como configurar o Tella Web.
+:::
+
+### Admin center {#admin-center}
+
+
+#### Configure spaces’ settings {#configure-spaces-settings}
+Admins of the Tella Web space can enable or disable system-wide settings depending on their own risk assessment and privacy consideration:
+- [Opt-in to share analytics with Tella team](/security-and-privacy#analytics).
+- Login suspeito detectado:
+    - If enabled Tella Web will record location for each login IP and approximate location based on IP. If the user is connecting from an unusual location Tella Web will block the login attempt to prevent any unauthorized sing-in and send an email to the user to confirm if was a legitimate login attempt. 
+    - We use a [third party service](https://ipinfo.io/) to calculate the country of the IP. 
+    - Tella Web requires an SMTP server to be properly configured and working for this feature to work. 
+    - If disabled Tella Web won't store the IP, won't calculate location nor ping any third party service.
+- Comentário:
+    - When enabled, Tella Web shows a feedback box that allow users to send an anonymous note to the Tella team on any feedback request or bug reports that they might find. It doesn't contain any information about the user or the Tella Web instance.
+    - Para garantir a privacidade e anonimato do usuário, somente dados essenciais são transmitidos para nosso servidor de feedback por meio de solicitações HTTPS POST. Os logs que contém informações de usuário (endereço de IP, data e hora e cabeçalho de requisição User-Agent) são automaticamente excluídos a cada semana.
+    - On the Feedback server database, we only store a copy of the text sent by users in the feedback form and which platform it came from (in this case from "Tella Web" without specifying which server installation). 
+
+#### Backup your space {#backup-your-space}
+
+Admins of the Tella Web instance can export all data out of Tella Web by generating a backup. Backups can be used to port the data to another location, including a computer, a USB flash drive, an external disk or a remote server.  The action to generate the backup runs in the background and, if triggered, an email notification will be sent to the person who generated the backup when it is ready to download. However, all backups are accessible in the Admin Center to all users with admin access.
+
+The backup is a full export everything in the space: including all Projects, Reports, Users and Resources, plus all metadata. The export is a zip file including a collection of CSVs and folders with with the uploaded media. For now, there is no way to import the backup back into a Tella Web instance from the Admin Center, but each backup includes a .sql file that advanced users can use to import the data to the database directly. 
+
+:::warning
+The information included in the backup is highly sensitive, it not only contains all the data (unencrypted) but also information about the Tella Web users. Please proceed with caution when generating the backup.
 :::
 
 
@@ -117,7 +158,7 @@ Usuários são uma parte importante do uso do Tella Web. Há diferentes papéis 
 - Reportador: este é um usuário que pode conectar-se ao projeto Tella Web por um aplicativo móvel do Tella e carregar relatórios. Um reportador precisa estar alocado em um projeto para ser capaz de de carregar relatórios.
 - Observador: este é um usuário que, além de carregar relatórios a partir do Tella, pode também fazer login no Tella Web para visualizar (mas não editar ou excluir) relatórios. Um observador precisa ser alocado em um projeto específico para obter acesso.
 - Editor: este é um usuário que, como os observadores, pode carregar relatórios a partir do Tella e fazer login no Tella Web, mas também pode editar e excluir relatórios. Um editor precisa ser alocado em um projeto específico para obter acesso. 
-- Administrador: um administrador pode carregar relatórios a partir do Tella e realizar todas as ações no Tella Web, incluindo gerenciar relatórios, projetos e usuários. Um administrador tem acesso a todos os projetos. 
+- Admin: an admin can upload reports from Tella and perform all actions on Tella Web, including managing reports, projects, resources and users. An admin has access to all projects.
 
 Aqui está uma visão detalhada das permissões para cada papel:
 
@@ -134,6 +175,12 @@ Aqui está uma visão detalhada das permissões para cada papel:
 | Excluir projetos |❌|❌|✅|✅| 
 | Gerenciar usuários (criar, editar, excluir) |❌|❌|❌|✅| 
 | Alocar usuários ao projeto |❌|❌|❌|✅| 
+| Create resources to the space |❌|❌|❌|✅| 
+| Adicione/remova recursos para o projeto  |❌|❌|✅|✅| 
+| View resources assigned a project   |❌|✅|✅|✅| 
+
+
+
 
 #### Criando usuários {#creating-users}
 
@@ -149,12 +196,48 @@ No campo de senha, um medidor de segurança da senha ajuda administradores a cri
 #### Gerenciando o acesso a projetos {#managing-access-to-projects}
 
 
-Na seção "Gerenciar acesso" da tela "Configurações do projeto", administradores podem alocar os usuários existentes no projeto. Clique no campo "Adicionar usuários". Um menu suspenso exibirá todos os usuários do servidor. Role a lista ou digite para procurar por um usuário pelo nome de usuário.
-Após selecionar os usuários para adicionar ao projeto, clique no botão "Adicionar" para salvar as mudanças e conceder acesso ao projeto.
+In the "Manage access" section of the "Project settings" screen, admins can assign existing users to the project. Click the "Add users" field. A drop-down menu will display all the users on the server. Scroll through the list or type to search for a user by username.
+After selecting the users to add to the project, click the "Add" button to save the changes and grant access to the project.
 
 :::info
-A lista completa de usuários que podem submeter relatórios para o projeto inclui os usuários listados nesta seção e todos os administradores
+The full list of users who can submit reports to the project includes the users listed on this section plus all the server administrators.
 :::
+
+### Managing resources {#managing-resources}
+
+O Tella Web permite que as organizações disseminem com segurança recursos e materiais para seus
+usuários diretamente no contêiner criptografado do Tella. Os recursos podem ser usados para enviar instruções para coleta de dados, mensagens ou guias sobre como coletar dados.
+
+#### Creating resources to the space {#creating-resources-to-the-space}
+
+Admins can create resources to the space by navigating to the **Resources** left hand sidebar. For the moment resources can be created by uploading PDFs. We recommend keeping those smaller than 20MB to make sure users can download those even if internet is slow.
+
+Resources are shared within the space. Keep in mind that resources are only available to users after adding those to specific projects. 
+
+On the same screen, space admins can manage resources. The following options are available
+- Download resources individually or downloading multiple resources.
+- Open each resource to view it.
+- Find out on which projects each resource is added to by tapping on Preview
+- Delete a resource from the space.
+
+:::info
+If your organization need other type of Resources or if you experience problems with the format or size limits please [contact us](/contact-us).
+:::
+
+#### Adding resources to projects {#adding-resources-to-projects}
+
+Admins and editors can add resources available on the space to projects they have access to. There are two shortcuts to do so:
+1. By navigating to the **Manage Access** on the **Settings** section of each project.
+2. By tapping the **Resources** icon on each project's card on the Homescreen of Tella Web.
+
+Para adicionar recursos a projetos, toque em **Adicionar recursos** botão e procure recursos disponíveis pelo nome. Um ou muitos recursos podem ser adicionados para o projeto ao mesmo tempo.
+
+All users that connects to this project from their Tella apps will see a Resources card available and they can download this Resource to their encrypted container.
+
+Tella Web não mantém rastreio de informações sobre recursos de transferências.
+
+
+
 
 ## Prepare as pessoas nos locais de atuação para começar a submeter relatórios {#get-people-on-the-ground-ready-to-start-submitting-reports}
 
@@ -175,7 +258,7 @@ Você pode assistir a [este vídeo](/video-tutorials#tella-web) sobre como confi
 
 Para conectar-se a um servidor Tella Web:
 
-* Navegue por **Configurações ⚙️** > **Servidores** > **+**
+* Navegue para: ** * Configurações ⚙️** > **Conexões** > **+**
 * Selecione "Tella Web" da lista de tipos de servidores disponíveis.
 * Insira as informações de login (geradas e fornecidas pelos administradores)
     * A URL do projeto Tella Web. A URL deve parecer com esta: `https://seu-dominio.com/p/nome-do-seu-projeto`
@@ -185,9 +268,19 @@ Para conectar-se a um servidor Tella Web:
 
 #### Gerenciar Projetos do Tella Web {#manage-tella-web-projects}
 
-* Em **Configurações ⚙️** > **Servidores** >  **[Nome do projeto]** > 3-pontos, você pode:
+* In **Settings ⚙️** > **Connections** >  **[Project name]** > 3-dots, you can:
     * Editar: Abre a tela "editar servidor", na qual você pode visualizar o nome do projeto, a URL e o seu nome de usuário, além de editar funcionalidades avançadas.
     * Excluir: Exclui a conexão, incluindo todas as informações do servidor e todos os rascunhos e relatórios submetidos armazenados no Tella. Isso não afetará quaisquer relatórios já submetidos ao servidor.
+
+#### Pull Resources from your space {#pull-resources-from-your-space}
+
+Once connected to at least one Tella Web project, a **Resources** card will appear in the "Connections" section of the homescreen. Tap on this card to view and download any guides, instructions or messages your organization admins have made available to you in any of the projects you are connected to.
+
+On the **Available for download** section of the Resources screen you will see a card for each of the resources that have been shared with you. Tap on the **Download icon** (📥) to pull this resource from your organization's space and be able to access those on the **Downloaded** section, even offline. You can **View** each PDF by tapping on the card and you can **Remove from downloads** if you want to free up space on you Tella vault. You can always re-download those when needed.
+
+Use the **Refresh** button on the top right to pull new resources from your organization space. 
+
+Once you disconnect from a Tella Web project all associated resources will be removed from your Resources screen.
 
 #### Criar um Relatório Manual {#create-a-manual-report}
 
@@ -196,11 +289,11 @@ Para conectar-se a um servidor Tella Web:
 * Toque no botão "Novo relatório" na parte inferior da tela para criar um novo relatório.
     * Na tela "Novo relatório", você pode preencher os detalhes do relatório, incluindo título, descrição e anexos opcionais de fotos, vídeos, documentos em PDF e arquivos de áudio.
     * Se está conectado a múltiplos projetos do Tella Web, você poderá selecionar, na parte superior da tela, a qual projeto submeter o relatório.
-* Use o botão "Salvar rascunho" (na parte superior direita da tela) para salvar o relatório sem deixar a tela de "Novo relatório". 
+* Use the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft without leaving the "New report" screen. 
     * Para ser capaz de salvar como um rascunho, você precisa ao menos inserir o título do relatório.
     * Uma mensagem será exibida na tela para confirmar que o rascunho foi salvo.
-* O botão "Submeter mais tarde" salva o relatório na Caixa de Saída para submissão manual.
-    * A aba caixa de saída é frequentemente usada quando os coletores de dados não possuem acesso à internet ou se a conexão não estiver estável.
+* The "Submit later" button ⏱️ saves the report to the Outbox for manual submission.
+    * The "Outbox" tab is often used when data collectors don’t have access to the internet or if the connection is not stable.
 * O botão “Submeter” envia o relatório para o projeto Tella Web imediatamente.
     * Caso a submissão falhe devido a problemas de conectividade, o relatório irá para a aba “Caixa de Saída”.
     * Caso o relatório seja submetido corretamente, ele irá para a aba “Submetidos”. 
@@ -208,10 +301,13 @@ Para conectar-se a um servidor Tella Web:
 
 #### Rascunhos de Relatórios {#draft-reports}
 
+A Draft report is a report that was created and saved but not yet submitted. Drafts reports are useful to save work in progress that can be editted later on. It allows users to create reports offline or over a long period of time before finalizing and sending them. This is especially useful in low-connectivity areas or when a user needs to gather information in multiple stages.
 
-* Na tela "Novo relatório", toque o botão "Salvar rascunho" para salvar o relatório como um rascunho.
-    * Será exibida uma mensagem de confirmação e você poderá continuar trabalhando no relatório ou sair para retornar mais tarde.
-* Caso tente sair de um relatório sem salvar, será solicitado que você confirme que deseja sair sem salvar o relatório.
+Reports in the Draft tab can be edited.
+
+* On the "New report" screen, tap the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft.
+    * A confirmation will be displayed, and you can continue working on the report or exit to come back to it later.
+* If you try to exit a report without saving, you will be asked to confirm whether you are sure to exit without saving.
 * Na aba Rascunhos, você pode visualizar e gerenciar os rascunhos de relatório. Abra um rascunho de relatório para continuar trabalhando nele e submetê-lo.
 * Você pode excluir um rascunho de relatório tocando em três pontos > **Excluir** ou entrando no relatório e tocando no botão Excluir. 
 
@@ -235,7 +331,13 @@ Excluir um relatório durante a submissão cancelará o carregamento dos arquivo
 
 #### Caixa de Saída {#outbox}
 
-A Caixa de Saída contém relatórios salvos para submissão. Estes podem ser:
+The Outbox tab contains reports that are finalized and have been saved for later submission. Reports in the Outbox are ready to be submitted once the device reconnects to the internet or when the user chooses to manually send them.
+
+Reports in the Outbox tab cannot be edited.
+
+To send a report to the Outbox, use the Submit later button (⏱️), at the bottom left of the Submit Report screen.
+
+The Outbox contains:
 
 * Submissões pausadas
 * Submissões de relatório que foram interrompidas devido a problemas de conectividade.
@@ -256,7 +358,7 @@ Caso a conexão com a internet seja interrompida, os relatórios irão para a ab
 
 #### Auto-reportar {#auto-report}
 
-Se o auto-reportar estiver habilitado, o Tella criará e submeterá relatórios automaticamente sempre que você tirar uma foto, gravar um vídeo ou capturar uma gravação de áudio no Tella. Isso assegura que seus relatórios sejam corretamente carregados sem a necessidade de trabalho manual. Os arquivos são carregados para o mesmo relatório automático se eles forem coletados em um intervalo de 30 minutos.
+If auto-report is enabled, Tella will create and upload reports automatically whenever you take a photo, record a video, or capture an audio recording in Tella. This ensures that your reports are seamlessly uploaded without the need for manual work. Files get uploaded to the same auto-report if they are collected within the lapse of 30 minutes.
 
 A funcionalidade Auto-reportar pode ser habilitada pela tela Editar conexões.
 
@@ -272,10 +374,10 @@ O botão de alternância para a auto-excluir aparecerá abaixo do botão de alte
 
 #### Submissão em Plano de Fundo {#background-submission}
 
-A submissão em plano de fundo permite que o processo de submissão de relatórios continue mesmo se você alternar para outras tarefas dentro do Tella ou sair do Tella completamente. A submissão em plano de fundo pode funcionar combinada tanto a relatórios manuais como a automáticos. E pode ser habilitada na tela de Editar Conexão para o projeto desejado.
+Background submission allows the report submission process to continue even if you switch to other tasks within Tella or if you exit Tella entirely. Background submission can work in combination to both Manual and Auto-reports, and can be enabled on the Edit Connection screen for the desired project.
 
-Quando a submissão em plano de fundo está habilitada, independentemente do que você faça no Tella ou de você fechar o aplicativo, o processo de carregamento continuará sem interrupção. Também funcionará se a função auto-reportar estiver habilitada e você fechar o aplicativo após coletar as informações.
+When background submission is enabled, regardless of what you do in Tella or whether you close the app, the upload process will continue without interruption. It will also work if auto-reports is enabled and you close the app after collecting the information.
 
 Ao carregar relatórios em plano de fundo, o Tella permanece desbloqueado. Ou seja: se alguém abrir o Tella, será capaz de acessar seus arquivos e relatórios. Para bloquear o Tella quando os relatórios estão sendo carregados em plano de fundo, toque no botão "Saída Rápida" na parte superior da tela inicial do Tella.
 
-Caso a submissão seja interrompida devido a uma conexão fraca com a internet ou outros fatores, o Tella enviará o relatório para a Caixa de Saída e automaticamente reiniciará o carregamento assim que o telefone recuperar uma conexão estável com a internet.
+If the submission is disrupted due to a weak internet connection or other factors, Tella will send the report to the Outbox tab and automatically restart the upload as soon as the phone regains a stable internet connection. 
