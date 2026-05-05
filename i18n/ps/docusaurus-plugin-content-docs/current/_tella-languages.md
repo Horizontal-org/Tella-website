@@ -20,5 +20,6 @@
 20. Russian
 21. Spanish (Latin America)
 22. Tamil
-23. Tsonga
-24. Vietnamese
+23. Ukrainian
+24. Tsonga
+25. Vietnamese
