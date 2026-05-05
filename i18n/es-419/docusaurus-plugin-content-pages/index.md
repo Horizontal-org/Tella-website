@@ -51,7 +51,9 @@ import ThemedImage from '@theme/ThemedImage';
                 <li>
 <span classname="emphasis">Bloquea tus archivos:</span> establece un PIN o contraseña para proteger tus archivos. Ingresar el bloqueo correcto es la única forma de desencriptar los archivos almacenados en Tella.</li>
                 <li>
-<span classname="emphasis">Disfraza la app:</span> cambia la apariencia de Tella para ocultarla de personas que busquen en tu teléfono.</li>
+<span classname="emphasis">Mask the app:</span> change the look of Tella to hide it from people searching your phone.</li>
+                <li>
+<span classname="emphasis">Share your files:</span> choose one of the secure methods to share your files with other Tella vault or to a server.</li> 
             </ul>
 </div>
         <div classname="column" id="section-column2"><img classname="home-illustrations" src="img/vault.png" alt="Vault illustration"></div>
@@ -68,9 +70,9 @@ import ThemedImage from '@theme/ThemedImage';
 <li>
 <span classname="emphasis">Cámara y grabadora dentro de Tella:</span> toma fotos, graba videos y audio directamente en Tella para que tus archivos se encripten y oculten inmediatamente en la app.</li>
                 <li>
-<span classname="emphasis">Tella se integra</span> con <a href="uwazi">Uwazi</a>, <a href="odk">Open Data Kit</a>, <a href="tella-web">Tella Web</a>, <a href="g-drive">Google Drive</a> y <a href="nextcloud">Nextcloud</a>. Elige la plataforma que mejor se adapte a tus necesidades y recopila datos directamente en Tella.</li>
+<span classname="emphasis">Tella integrates</span> with <a href="uwazi">Uwazi</a>, <a href="odk">Open Data Kit</a>, <a href="tella-web">Tella Web</a>, <a href="g-drive">Google Drive</a>, <a href="dropbox">Dropbox</a> and <a href="nextcloud">Nextcloud</a>. <a href="connections">Pick the platform</a> that best suits your needs and share data directly from Tella.</li>
                 <li>
-<span classname="emphasis">Modo sin conexión:</span> en áreas con conectividad a internet limitada o nula, tu puedes guardar tus datos y enviarlos cuando tengas una conexión a internet confiable.</li>
+<span classname="emphasis">Offline-first:</span> in areas with limited or no internet connection, you can save your data and submit it when you reach a reliable internet connection. Tella also offers a <a href="nearby-sharing">fully offline feature to transfer files to nearby devices</a> using Tella.</li>
             </ul>
 </div>
     </div> 
@@ -85,12 +87,12 @@ import ThemedImage from '@theme/ThemedImage';
 <li>
 <span classname="emphasis">Gratis para siempre:</span> Tella está diseñada para quienes su seguridad está en riesgo. Es gratuita para descargar y usar, y seguirá siendo gratuita para siempre.</li>
                 <li>
-<span classname="emphasis">Choose your language:</span> Tella is currently <a href="faq#what-languages-is-tella-available-in"> available </a> in 24 languages.</li>
+<span classname="emphasis">Choose your language:</span> Tella is currently <a href="faq#what-languages-is-tella-available-in"> available </a> in 25 languages.</li>
                 <li>
-<span classname="emphasis">Confía en el código:</span> El código de Tella es de código abierto <a href="open-source">disponible públicamente </a> para que investigadora(e)s, analistas de seguridad y desarrolladora(e)s puedan auditarlo y reutilizarlo libremente.</li>
+<span classname="emphasis">Trust the code:</span> The code for Tella is open-source and <a href="open-source">publicly available</a> so that researchers, security analysts, and developers can freely audit and reuse it.We publish the <a href="security-and-privacy#security-audits">security audits</a> that independent firms have performed on Tella.</li>
             </ul>
 </div>
-        <div classname="column" id="section-column2"><img classname="home-illustrations" src="img/open-source.png" alt="Open source  illustration"></div>
+        <div classname="column" id="section-column2"><img classname="home-illustrations" src="img/open-source.png" alt="Open source illustration"></div>
     </div>
 </div>
 </div>
