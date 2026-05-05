@@ -134,7 +134,7 @@ La función de Restringir Intentos de desbloqueo no se puede habilitar si el cam
 Aunque está configuración de privacidad evita los intentos de desbloqueo por fuerza bruta para ingresar a Tella, debe ser usada con precaución, ya que no hay forma de restaurar el contenido de Tella una que vez el número máximo de intentos fallidos es alcanzado.
 :::
 
-## Editar Medios {#edit-media}
+## Editar archivos multimedia {#edit-media}
 Estamos en proceso de añadir la habilidad de editar archivos multimedia directamente dentro del contenedor cifrado de Tella, para que la(o)s usuaria(o)s no necesiten exportar sus archivos fuera de Tella para editarlos.
 
 | **Tipo de Medio** | **Función** | **Tella Android** | **Tella iOS** | **Tella FOSS** |
@@ -244,7 +244,7 @@ Aprende más sobre [Recopilar Evidencia](video-tutorials#collecting-evidence) y 
 
 En **Configuración** > **Seguridad** la(o)s usuaria(o)s tienen la opción de Conservar o eliminar los metadatos de los archivos al importar Fotos y Videos a Tella. Los metadatos EXIF de los archivos pueden incluir datos sobre cuándo el archivo fue creado, configuración de la cámara o ubicación del dispositivo.
 
-## Analíticas preservando la privacidad (habilitar){#privacy-preserving-analytics}
+## Analíticas preservando la privacidad (opt-in){#privacy-preserving-analytics}
 Los usuarios de Android pueden optar por compartir analíticas para mejorar Tella. Toda la información es anónima, agregada y nunca puede ser vinculada a usuaria(o)s individuales. Para información técnica sobre que sistemas utilizamos y qué métricas recopilamos, visita la [sección de Analíticas de la página de Seguridad y Privacidad](/security-and-privacy#analytics).
 
 ## Abrir archivos en Tella {#open-files-in-tella}

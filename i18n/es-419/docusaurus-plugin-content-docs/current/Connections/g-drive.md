@@ -109,13 +109,7 @@ Eliminar un informe en medio de un envío cancelará la subida de los archivos q
 
 #### Bandeja de Salida {#outbox}
 
-The Outbox tab contains reports that are finalized and have been saved for later submission. Reports in the Outbox are ready to be submitted once the device reconnects to the internet or when the user chooses to manually send them.
-
-Reports in the Outbox tab cannot be edited.
-
-To send a report to the Outbox, use the Submit later button (⏱️), at the bottom left of the Submit Report screen. 
-
-The Outbox contains:
+La Bandeja de Salida contiene informes que han sido guardados para enviar. Esto podría ser:
 
 * Envíos pausados
 * Envíos de informes que fueron interrumpidos debido a problemas de conectividad.

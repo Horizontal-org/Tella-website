@@ -11,14 +11,14 @@ slug: /dropbox
 
 Tella allows users to sign into their Dropbox account directly from Tella and upload files directly to it.
 
-Similarly to other server connections (like [Tella Web](/tella-web), [Google Drive](/g-drive), [Nextcloud](/nextcloud), [Uwazi](/uwazi) or [Open Data Kit](/odk)), connecting to a Dropbox server enhances the security of data collected on Tella by:
+De manera similar a otras conexiones de servidor (como [Tella Web](/tella-web), [Google Drive](/g-drive), [Nextcloud](/nextcloud), [Uwazi](/uwazi) u [Open Data Kit](/odk)), conectar a un servidor Dropbox mejora la seguridad de los datos recopilados en Tella al:
 
 1. Permitir a la(o)s usuaria(o)s a recopilar datos directamente dentro de un contenedor cifrado de Tella.
 2. Ensuring that data is sent directly from Tella to Dropbox, without needing to install the Dropbox app on the device or sending the data through a third-party app.
 3. Permitir que usuaria(o)s respalden sus datos en un servidor remoto, para reducir el riesgo de que los datos sean descubiertos en su dispositivo móvil.
 4. Asegurar que las organizaciones puedan conservar información importante incluso en caso de confiscación o destrucción de dispositivo, y puedan organizarla para procesos de  investigación, incidencia, o rendición de cuentas.
 
-Submissions to Dropbox take the form of "reports" which include a title, a text description, and files like photos, videos and audio recordings.
+Los envíos a Dropbox toman la forma de "informes" lo cual incluye un título, una descripción de texto y archivos como fotos, videos, grabaciones de audio y documentos pdf.
 
 :::danger
 Even though data is transferred to the server securely (SSL), anyone with access to the Dropbox account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
@@ -45,7 +45,7 @@ If you need help figuring out if Dropbox is best for your use-case, [check out t
 
 In order to connect to Dropbox:
 
-* Navigate to **Settings ⚙️** > **Connections** > **+**
+* Navega a **Configuración ⚙️** > **Conexiones** > **+**
 * Select "Dropbox" from the list of available server types.
 * A new page will automatically open in your phone's web browser and direct you to Dropbox.
 * Login your Dropbox account in your web browser. 
@@ -54,7 +54,7 @@ In order to connect to Dropbox:
 
 ## Manage the Dropbox connection {#manage-the-dropbox-connection}
 
-* In **Settings ⚙️** > **Connections** >  **Dropbox** > **⫶** you can:
+* En **Configuración ⚙️** > **Conexiones** > **Dropbox** > **⫶** puedes:
   - Eliminar la conexión
 
 For the moment it is not possible to sign into multiple Dropbox accounts at the same time. If you want to sign-in with another account, delete your Dropbox connection and create a new one.
@@ -66,11 +66,11 @@ For the moment it is not possible to sign into multiple Dropbox accounts at the 
 * The main Dropbox screen allows navigation between the Drafts, Outbox, and Submitted tabs.
 * Tap the "New report" button at the bottom of the screen to create a new report to Dropbox.
     * En la pantalla "Nuevo informe" puedes completar los detalles del informe, incluyendo el título, descripción, y adjuntos opcionales de fotos, videos y grabaciones de audio.
-* Use the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft without leaving the "New report" screen. 
+* Utiliza el botón “Guardar borrador” (en la parte superior derecha de la pantalla) para guardar el informe como un borrador sin dejar la pantalla “Nuevo informe”.
     * Para poder guardar como un borrador debes al menos introducir el título del informe.
     * Aparecerá un mensaje en la pantalla para confirmar que el borrador fue guardado.
-* The "Submit later" button ⏱️ saves the report to the Outbox for manual submission.
-    * The "Outbox" tab is often used when data collectors don’t have access to the internet or if the connection is not stable.
+* El botón “Enviar luego” guarda el informe en la Bandeja de Salida para envío manual.
+    * La pestaña bandeja de salida es utilizada a menudo cuando la(o)s recopiladora(e)s de datos no tienen acceso a internet o si la conexión no es estable.
 * The “Submit” button immediately sends the report to Dropbox.
     * Si el envío falla debido a problemas de conectividad, el informe se va a la pestaña "Bandeja de Salida".
     * If the report is submitted correctly, it goes to the “Submitted” tab and a new folder (named after the report title you typed in) will be created in Dropbox under **Applications** >> **Tella**. All attachments will be added to the folder and the description will be added as a text file inside the folder.
@@ -82,7 +82,7 @@ A Draft report is a report that was created and saved but not yet submitted. Dra
 
 Reports in the Draft tab can be edited.
 
-* On the "New report" screen, tap the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft.
+* En la pantalla "Nuevo informe", toca el botón "Guardar borrador" para guardar el informe como un borrador.
     * A confirmation will be displayed, and you can continue working on the report or exit to come back to it later.
 * If you try to exit a report without saving, you will be asked to confirm whether you are sure you want to exit without saving.
 * En la pestaña Borradores, puedes ver y administrar los borradores de informes. Abre un borrador de informe para continuar trabajando y enviarlo.
