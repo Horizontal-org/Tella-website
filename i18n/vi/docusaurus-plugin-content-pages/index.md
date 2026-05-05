@@ -51,7 +51,9 @@ import ThemedImage from '@theme/ThemedImage';
                 <li>
 <span classname="emphasis">Khóa tệp tin của bạn:</span> đặt mã PIN hoặc mật khẩu để bảo vệ tệp tin của bạn. Nhập đúng mã khóa là cách duy nhất để giải mã các tệp tin được lưu trữ trong Tella.</li>
                 <li>
-<span classname="emphasis">Ngụy trang ứng dụng:</span> thay đổi giao diện của Tella để ẩn giấu nó khỏi những người kiểm tra điện thoại của bạn.</li>
+<span classname="emphasis">Mask the app:</span> change the look of Tella to hide it from people searching your phone.</li>
+                <li>
+<span classname="emphasis">Share your files:</span> choose one of the secure methods to share your files with other Tella vault or to a server.</li> 
             </ul>
 </div>
         <div classname="column" id="section-column2"><img classname="home-illustrations" src="img/vault.png" alt="Vault illustration"></div>
@@ -68,9 +70,9 @@ import ThemedImage from '@theme/ThemedImage';
 <li>
 <span classname="emphasis">Máy ảnh và ghi âm bên trong Tella:</span> chụp ảnh, quay video và ghi âm trực tiếp trong Tella để tệp tin của bạn được mã hóa tức thì và ẩn bên trong ứng dụng.</li>
                 <li>
-<span classname="emphasis">Tella tích hợp</span> với <a href="for-organizations#uwazi">Uwazi</a>, <a href="for-organizations#open-data-kit-odk">Kobotoolbox</a> và <a href="for-organizations#tella-web">Tella Web</a>. Chọn nền tảng phù hợp nhất với nhu cầu của bạn và thu thập dữ liệu trực tiếp trong Tella.</li>
+<span classname="emphasis">Tella integrates</span> with <a href="uwazi">Uwazi</a>, <a href="odk">Open Data Kit</a>, <a href="tella-web">Tella Web</a>, <a href="g-drive">Google Drive</a>, <a href="dropbox">Dropbox</a> and <a href="nextcloud">Nextcloud</a>. <a href="connections">Pick the platform</a> that best suits your needs and share data directly from Tella.</li>
                 <li>
-<span classname="emphasis">Chế độ ngoại tuyến:</span> trong những khu vực có kết nối internet bị hạn chế hoặc không có, bạn có thể lưu lại dữ liệu của mình và gửi khi bạn có kết nối internet ổn định.</li>
+<span classname="emphasis">Offline-first:</span> in areas with limited or no internet connection, you can save your data and submit it when you reach a reliable internet connection. Tella also offers a <a href="nearby-sharing">fully offline feature to transfer files to nearby devices</a> using Tella.</li>
             </ul>
 </div>
     </div> 
@@ -85,12 +87,12 @@ import ThemedImage from '@theme/ThemedImage';
 <li>
 <span classname="emphasis">Miễn phí mãi mãi:</span> Tella được thiết kế cho những người gặp rủi ro về an ninh. Ứng dụng này được tải xuống và sử dụng miễn phí, và sẽ luôn luôn miễn phí.</li>
                 <li>
-<span classname="emphasis">Choose your language:</span> Tella is currently <a href="faq#what-languages-is-tella-available-in"> available </a> in 24 languages.</li>
+<span classname="emphasis">Choose your language:</span> Tella is currently <a href="faq#what-languages-is-tella-available-in"> available </a> in 25 languages.</li>
                 <li>
-<span classname="emphasis">Tin tưởng vào mã nguồn:</span> mã nguồn của Tella là mã nguồn mở và <a href="open-source">công khai</a> để các nhà nghiên cứu, nhà phân tích bảo mật và nhà phát triển có thể tự do kiểm tra và tái sử dụng.</li>
+<span classname="emphasis">Trust the code:</span> The code for Tella is open-source and <a href="open-source">publicly available</a> so that researchers, security analysts, and developers can freely audit and reuse it.We publish the <a href="security-and-privacy#security-audits">security audits</a> that independent firms have performed on Tella.</li>
             </ul>
 </div>
-        <div classname="column" id="section-column2"><img classname="home-illustrations" src="img/open-source.png" alt="Open source  illustration"></div>
+        <div classname="column" id="section-column2"><img classname="home-illustrations" src="img/open-source.png" alt="Open source illustration"></div>
     </div>
 </div>
 </div>
