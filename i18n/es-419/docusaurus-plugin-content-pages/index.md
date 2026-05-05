@@ -4,7 +4,7 @@ import ThemedImage from '@theme/ThemedImage';
     <div className="intro-column" id="intro-column1">
         <h1>Tella</h1>
         <h2>Documenta y protege</h2>
-        <p>In challenging environments, with limited or no internet connectivity or in the face of repression, Tella makes it easier and safer to collect, protect and hide sensitive data.</p>
+        <p>En entornos desafiantes, con conectividad a internet limitada o nula, o frente a contextos represivos, Tella facilita y hace más seguro recopilar, proteger y ocultar información sensible.</p>
         <div className="download">
             <a href="https://play.google.com/store/apps/details?id=org.hzontal.tella" target="_blank">
                 <img className="badge" src="img/google-play-badge.png" alt="Get Tella on Google Play">
