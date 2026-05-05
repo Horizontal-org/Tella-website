@@ -150,12 +150,12 @@ La versión FOSS de Tella disponible en [F-droid](https://f-droid.org/en/package
 
 ## 7. Accediendo y Corrigiendo Tu Información Personal {#7-accessing-and-correcting-your-personal-information}
 
--   Tienes derecho a presentar una Solicitud de Acceso del Sujeto (SAR) libre de cargos, después de la cual te proporcionaremos:
+Tienes derecho a presentar una Solicitud de Acceso del Sujeto (SAR) libre de cargos, después de la cual te proporcionaremos:
+
 -   Qué información personal relacionada a ti estamos procesando.
 -   Por qué se está procesando la información.
 -   Quién tiene acceso a tu información personal.
-
-Qué procesos están utilizando esta información personal.
+-   Qué procesos están utilizando esta información personal.
 
 Para presentar una SAR, por favor escribe a [contact@wearehorizontal.org](mailto:contact@wearehorizontal.org).
 
@@ -180,3 +180,5 @@ Puede que actualicemos nuestra política de privacidad periódicamente. Si reali
 La fecha de la última revisión de la política de privacidad está identificada en la parte superior de la página. Tu eres responsable de visitar periódicamente esta política de privacidad para verificar cualquier cambio.
 
 ## 11. Información de Contacto {#11-contact-information}
+
+Para hacer preguntas o comentarios sobre esta política de privacidad y nuestras prácticas de privacidad, contáctanos en [contact@wearehorizontal.org](mailto:contact@wearehorizontal.org).
