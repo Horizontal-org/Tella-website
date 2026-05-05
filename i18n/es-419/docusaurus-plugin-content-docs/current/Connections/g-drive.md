@@ -9,7 +9,7 @@ slug: /g-drive
 
 Tella permite a la(o)s usuaria(o)s iniciar sesión en su cuenta de Google directamente desde Tella y subir archivos directamente a Google Drive.
 
-Similarly to other server connections (like [Tella Web](/tella-web), [Uwazi](/uwazi), [Dropbox](/dropbox), [Nextcloud](/nextcloud) or [Open Data Kit](/odk)), connecting to a Google Drive server enhances the security of data collected on Tella by:
+De manera similar a otras conexiones de servidor (como [Tella Web](/tella-web), [Uwazi](/uwazi), [Dropbox](/dropbox), [Nextcloud](/nextcloud) u [Open Data Kit](/odk)), conectar a un servidor Google Drive mejora la seguridad de los datos recopilados en Tella al:
 
 
 1. Permitir a la(o)s usuaria(o)s a recopilar datos directamente dentro de un contenedor cifrado de Tella.
@@ -19,7 +19,7 @@ Similarly to other server connections (like [Tella Web](/tella-web), [Uwazi](/uw
 
 La conexión a Google Drive es una opción para recopilar fotos, videos y audios de la(o)s usuaria(o)s en el terreno, cuando no hay la capacidad técnica para instalar un servidor autohospedado (como [servidor Tella Web](/tella-web) y no hay riesgo al utilizar una herramienta comercial como Google.
 
-Submissions to Google Drive take the form of "reports" which include a title, a text description, and files like photos, videos and audio recordings.
+Los envíos a Google Drive toman la forma de "informes" lo cual incluye un título, una descripción de texto y archivos como fotos, videos, grabaciones de audio y documentos pdf.
 
 :::note
 The Google Drive connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
@@ -32,7 +32,7 @@ Even though data is transferred to the server securely (SSL), anyone with access
 ## Cuándo Usar Google Drive {#when-to-use-google-drive}
 
 La conexión a Google Drive puede ser particularmente adecuada para:
-- Organizations that already use Google Drive.
+- Organizaciones que ya utilizan Google Drive.
 - Usuaria(o)s que ya tienen una cuenta de Google.
 - Proyectos donde las necesidades de privacidad no impiden el uso de una herramienta como Google Drive.
 - Organizaciones que no pueden o no desean autohospedar una app (como [servidor Tella Web](/tella-web)) en un servidor.
@@ -46,7 +46,7 @@ Si necesitas ayuda para determinar si Google Drive es la mejor opción para tu c
 
 Para conectarse a Google Drive:
 
-* Navigate to **Settings ⚙️** > **Connections** > **+**
+* Navega a **Configuración ⚙️** > **Conexiones** > **+**
 * Selecciona "Google Drive" de la lista de tipos de servidores disponibles.
 * Inicia sesión en tu cuenta de Google utilizando el flujo de inicio de sesión de Google en la vista web.
 * Da permisos a Tella para modificar tu Google Drive (necesitamos este permiso para poder subir archivos a tu disco y crear carpetas en tu nombre).
@@ -55,7 +55,7 @@ Para conectarse a Google Drive:
 
 ## Administra la conexión a Google Drive  {#manage-the-google-drive-connection}
 
-* In **Settings ⚙️** > **Connections** >  **Google Drive** > 3-dots, you can:
+* En **Configuración ⚙️** > **Conexiones** > **Google Drive** > ⫶ puedes:
   - Eliminar la conexión
 
 Por ahora, no es posible iniciar sesión en múltiples cuentas de Google a la vez. Si deseas iniciar sesión en tu Google Drive utilizando un email diferente, elimina tu conexión a Google Drive y crea una nueva.
@@ -67,11 +67,11 @@ Por ahora, no es posible iniciar sesión en múltiples cuentas de Google a la ve
 * La pantalla de principal de Google Drive permite la navegación entre las pestañas Borradores, Bandeja de Salida y  Enviados.
 * Toca el botón "Nuevo informe" en la parte inferior de la pantalla para crear un nuevo informe en Google Drive.
     * En la pantalla "Nuevo informe" puedes completar los detalles del informe, incluyendo el título, descripción, y adjuntos opcionales de fotos, videos y grabaciones de audio.
-* Use the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft without leaving the "New report" screen. 
+* Utiliza el botón "Guardar borrador" (en la parte superior derecha de la pantalla) para guardar el informe como un borrador sin dejar la pantalla "Nuevo informe".
     * Para poder guardar como un borrador debes al menos introducir el título del informe.
     * Aparecerá un mensaje en la pantalla para confirmar que el borrador fue guardado.
-* The "Submit later" button ⏱️ saves the report to the Outbox for manual submission.
-    * The "Outbox" tab is often used when data collectors don’t have access to the internet or if the connection is not stable.
+* El botón "Enviar luego" guarda el informe en la Bandeja de Salida para envío manual.
+    * La pestaña bandeja de salida es utilizada a menudo cuando la(o)s recopiladora(e)s de datos no tienen acceso a internet o si la conexión no es estable.
 * El botón "Enviar" envía el informe a Google Drive inmediatamente.
     * Si el envío falla debido a problemas de conectividad, el informe se va a la pestaña "Bandeja de Salida".
     * Si el informe es enviado correctamente, se va a la pestaña "Enviados" y se creará una nueva carpeta en Google Drive con el título que seleccionaste y la descripción que introdujiste. Todos los adjuntos serán añadidos a la carpeta.
@@ -83,7 +83,7 @@ A Draft report is a report that was created and saved but not yet submitted. Dra
 
 Reports in the Draft tab can be edited.
 
-* On the "New report" screen, tap the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft.
+* En la pantalla "Nuevo informe", toca el botón "Guardar borrador" para guardar el informe como un borrador.
     * Se mostrará un mensaje de confirmación, y puedes continuar trabajando en el informe o salir y regresar más tarde.
 * Si intentas salir del informe sin guardar, se te pedirá confirmar si tienes seguridad de salir sin guardar el informe.
 * En la pestaña Borradores, puedes ver y administrar los borradores de informes. Abre un borrador de informe para continuar trabajando y enviarlo.
