@@ -34,6 +34,7 @@ La primera vez que uses cada función, se te pedirá conceder algunos permisos a
 
 
 * Para tomar fotos, grabar videos o grabar audio, deberás conceder permiso para acceder a la cámara y micrófono de tu teléfono.
+* To use Nearby Sharing you'll need to grant access to detect devices on your Wi-Fi network.
 
 
 <div className="gifs">
@@ -53,7 +54,7 @@ Si no concedes estos permisos, puedes hacerlo más tarde yendo a la configuraci�
 ## Protege tus archivos {#protect-your-files}
 Después de conceder los permisos, estás lista(o) para empezar a recopilar documentación. Recomendamos que explores las siguientes características:
 
-**Usa la Cámara para tomar fotos o videos y la Grabadora de Audio para grabar audio.** Todos los medios capturados por Tella serán cifrados instantáneamente, lo que significa que  el archivo no será accesibles fuera de Tella. Todos los medios recopilados dentro de Tella no se mostrarán en la galería ni en los archivos de tu teléfono. No existe un límite de almacenamiento particular para Tella, el espacio disponible dependerá del espacio disponible en tu teléfono.
+**Usa la Cámara para tomar fotos o videos y la Grabadora de Audio para grabar audio.** Todos los medios capturados por Tella serán cifrados instantáneamente, lo que significa que  el archivo no será accesibles fuera de Tella. Todos los medios recopilados dentro de Tella no se mostrarán en la galería ni en los archivos de tu teléfono. No existe un límite de almacenamiento particular para Tella, el espacio disponible dependerá del espacio disponible en tu dispositivo.
 
 
 <div className="gifs">
@@ -99,16 +100,20 @@ Ten en cuenta que Tella compartirá los archivos sin cifrar, por lo que asegúra
 
 
 
+## Nearby sharing {#nearby-sharing}
+You share files directly from Tella’s encrypted vault to another Tella encrypted vault in the same physical location using [Nearby Sharing](/nearby-sharing). After a quick connection tutorial, the two devices establish a secure link, and files are transferred encrypted from one device to the other. Nearby Sharing allows phone-to-phone (Android or iOS) and phone-to-computer file transfers. 
 
 
 
 ## Ve más Allá {#go-further}
 
+
+
 ### Conéctate a un servidor {#connect-to-a-server}
-Tella se puede conectar a una variedad de servicios back-end. Esto es utilizado por organizaciones para permiterle a sus miembros o socia(o)s enviar datos y archivos a una ubicación remota segura. Si estás considerando conectarte a un servidor y tienes dudas sobre qué servidor elegir o cómo conectarlo, por favor mira [nuestra documentación para organizaciones](/for-organizations) o [contáctanos](/contact-us), ¡estamos aquí para ayudar!
+Tella se puede conectar a una variedad de servicios back-end. Esto es utilizado por organizaciones para permitirle a sus miembros o socia(o)s a enviar datos y archivos a una ubicación remota segura. Si estás considerando conectarte a un servidor y tienes dudas sobre qué servidor elegir o cómo conectarlo por favor mira [nuestra documentación para organizaciones](/for-organizations) o [contáctanos](/contact-us), ¡estamos aquí para ayudar!
 
 #### Tella Web {#tella-web}
-Tella Web es una herramienta open-source que permite a individuos y organizaciones centralizar y gestionar informes enviados por la(o)s usuarios de Tella, incluyendo fotos, videos, y archivos de audio.
+Tella Web es una herramienta de código abierto que permite a individuos y organizaciones a centralizar y gestionar informes enviados por la(o)s usuaria(o)s de Tella, incluyendo fotos, videos, y archivos de audio.
 
 Lee más sobre Tella Web [aquí](/tella-web) o mira un [video tutorial](/video-tutorials#tella-web).
 
