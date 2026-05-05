@@ -13,7 +13,7 @@ Tella Web es desarrollada internamente por nuestro equipo en Horizontal, el mism
 
  Podemos proporcionar soporte para la instalación, configuración, y mantenimiento de una instancia Tella Web si no tienes a alguien dentro de tu organización que pueda hacerlo.
 
-De manera similar a todas las demás conexiones ([Uwazi](/uwazi), [Google Drive](/g-drive), [Nextcloud](/nextcloud) y [Open Data Kit](/odk)), conectar a Tella Web mejora la seguridad de los datos recopilados por Tella al:
+De manera similar a todas las demás conexiones ([Uwazi](/uwazi), [Google Drive](/g-drive), [Nextcloud](/nextcloud), [Dropbox](/dropbox) y [Open Data Kit](/odk)), conectar a Tella Web mejora la seguridad de los datos recopilados en Tella al:
 1. Permitir a la(o)s usuaria(o)s a recopilar datos directamente dentro de un contenedor cifrado de Tella.
 2. Garantizar que los datos son enviados directamente de Tella a Tella Web, sin tener que depender de una herramienta o app de terceras partes.
 3. Permitir que usuaria(o)s respalden sus datos en un servidor remoto, para reducir el riesgo de que los datos sean descubiertos en su dispositivo móvil.
@@ -26,6 +26,10 @@ Configurar Tella Web conlleva tres pasos, que son analizados detalladamente en e
 * **Instalar Tella Web**: Este paso implica instalar el servidor Tella Web y configurar el nombre de dominio para garantizar su funcionamiento adecuado.
 * **Configurar tu(s) proyecto(s) en tu servidor**": En este paso, la(o)s admins deciden cómo organizarse para recopilar datos, crear "proyectos", añadir "recursos" para que la(o)s usuaria(o)s descarguen en sus dispositivos, y establecer roles y permisos para sus usuaria(o)s.
 * **Preparar a las personas sobre el terreno para empezar a enviar informes**: La(o)s usuaria(o)s instalan Tella en su dispositivo Android o iPhone. Posteriormente se conectan al proyecto Tella Web y empiezan a recopilar información.
+
+:::danger
+Even though data is transferred to the server securely (SSL), anyone with access to the Tella Web account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+:::
 
 ## Cuándo Usar Tella Web {#when-to-use-tella-web}
 
@@ -68,6 +72,8 @@ Echa un vistazo a [este video tutorial](/video-tutorials#connections-full-video)
 
 ### Centro de Administración {#admin-center}
 
+
+#### Configure spaces’ settings {#configure-spaces-settings}
 Los Admins del espacio de Tella Web pueden habilitar o deshabilitar configuraciones de todo el sistema dependiendo de sus propias evaluaciones de riesgo y consideraciones de privacidad.
 - [Opta para compartir analíticas con el equipo de Tella](/security-and-privacy#analytics).
 - Detección de inicio de sesión sospechoso:
@@ -80,6 +86,15 @@ Los Admins del espacio de Tella Web pueden habilitar o deshabilitar configuracio
     - Para asegurar la privacidad y anonimato de la/el usuaria(o), solo los datos esenciales son transmitidos a nuestro servidor de Comentarios a través de solicitudes HTTPS POST. Los registros que contienen información de la/el usuaria(o), (Dirección IP, fecha y hora, y agente de usuari(o)) son eliminados automáticamente cada semana. 
     -  En la base de datos del servidor de Comentarios, solo almacenamos una copia del texto enviado por la(o)s usuaria(o)s en el formulario de comentarios y de qué plataforma proviene (en este caso de "Tella Web" sin especificar cual instalación de servidor).
 
+#### Backup your space {#backup-your-space}
+
+Admins of the Tella Web instance can export all data out of Tella Web by generating a backup. Backups can be used to port the data to another location, including a computer, a USB flash drive, an external disk or a remote server.  The action to generate the backup runs in the background and, if triggered, an email notification will be sent to the person who generated the backup when it is ready to download. However, all backups are accessible in the Admin Center to all users with admin access.
+
+The backup is a full export everything in the space: including all Projects, Reports, Users and Resources, plus all metadata. The export is a zip file including a collection of CSVs and folders with with the uploaded media. For now, there is no way to import the backup back into a Tella Web instance from the Admin Center, but each backup includes a .sql file that advanced users can use to import the data to the database directly. 
+
+:::warning
+The information included in the backup is highly sensitive, it not only contains all the data (unencrypted) but also information about the Tella Web users. Please proceed with caution when generating the backup.
+:::
 
 
 ### Administrando Proyectos {#managing-projects}
@@ -247,7 +262,7 @@ Puedes ver [este video](/video-tutorials#tella-web) sobre cómo configurar y usa
 
 Para conectar a un servidor Tella Web:
 
-* Navega a **Configuración ⚙️** > **Servidores** > **+**
+* Navega a **Configuración ⚙️** > **Conexiones** > **+**
 * Selecciona "Tella Web" de la lista de tipos de servidores disponibles.
 * Introduce la información de inicio de sesión (generada y proporcionada por admins)
     * La URL del proyecto Tella Web. La URL debe parecerse a esta "https://tu-dominio.com/p/nombre-del-proyecto"
@@ -257,7 +272,7 @@ Para conectar a un servidor Tella Web:
 
 #### Administra Proyectos de Tella Web {#manage-tella-web-projects}
 
-* En **Configuración ⚙️** > **Servidores** > **[Nombre de proyecto]** > 3-dots, puedes:
+* En **Configuración ⚙️** > **Conexiones** > **[Nombre del proyecto]** > ⫶ puedes:
     * Editar: Abre una pantalla "editar servidor" donde puedes ver el nombre del proyecto, URL, y tu nombre de usuaria(o), y editar funciones avanzadas.
     * Eliminar: Elimina la conexión, incluyendo toda la información del servidor y todos los borradores e informes enviados almacenados en Tella. Esto no afectará ningún informe que ya haya sido enviado al servidor.
 
@@ -290,6 +305,9 @@ Una vez te desconectas de un proyecto de Tella Web, todos los recursos asociados
 
 #### Borradores de Informes {#draft-reports}
 
+A Draft report is a report that was created and saved but not yet submitted. Drafts reports are useful to save work in progress that can be editted later on. It allows users to create reports offline or over a long period of time before finalizing and sending them. This is especially useful in low-connectivity areas or when a user needs to gather information in multiple stages.
+
+Reports in the Draft tab can be edited.
 
 * En la pantalla "Nuevo informe", toca el botón "Guardar borrador" para guardar el informe como un borrador.
     * Se mostrará un mensaje de confirmación, y puedes continuar trabajando en el informe o salir y regresar más tarde.
@@ -322,6 +340,10 @@ La Bandeja de Salida contiene informes que han sido guardados para enviar. Esto 
 * Envíos pausados
 * Envíos de informes que fueron interrumpidos debido a problemas de conectividad.
 * Informes que fueron marcados como "Enviar luego".
+
+:::tip
+If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+:::
 
 
 #### Informes Enviados {#submitted-reports}

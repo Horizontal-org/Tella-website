@@ -11,11 +11,15 @@ slug: /uwazi
 
 Uwazi permite a las organizaciones agregar, en un repositorio central, los datos recopilados por sus miembros o socia(o)s. La(o)s usuaria(o)s de Tella se conectan a la instancia Uwazi de su organización, descargan formularios (llamados plantillas), rellenan plantillas cuantas veces sea necesario (incluso si no tienen conexión a internet), y suben los datos. Las organizaciones luego pueden curar, organizar, y publicar sus datos directamente desde Uwazi.
 
-De manera similar a todas las demás conexiones de servidor ([Tella Web](/tella-web), [Google Drive](/g-drive), [Nextcloud](/nextcloud) y [Open Data Kit](/odk)), conectar a Uwazi mejora la seguridad de los datos recopilados en Tella al:
+De manera similar a todas las demás conexiones de servidor ([Tella Web](/tella-web), [Google Drive](/g-drive), [Nextcloud](/nextcloud), [Dropbox](/dropbox), y [Open Data Kit](/odk)), conectar a Uwazi mejora la seguridad de los datos recopilados en Tella al:
 1. Permitir a la(o)s usuaria(o)s a recopilar datos directamente dentro de un contenedor cifrado de Tella.
-2. Asegurar que los datos son enviados directamente de Tella a Uwazi, sin tener que depender de una herramienta de terceras partes o app
-3. Permitir a la(o)s usuaria(o)s a respaldar sus datos en un servidor remoto, para reducir el riesgo de que los datos sean descubiertos en su dispositivo móvil
-4. Asegurar que las organizaciones puedan conservar información importante incluso en caso de confiscación o destrucción de dispositivo, y puedan organizarla para procesos de  investigación, incidencia, o rendición de cuentas.
+2. Asegurar que los datos son enviados directamente de Tella a Uwazi, sin tener que depender de una herramienta de terceras partes o app.
+3. Permitir que usuaria(o)s respalden sus datos en un servidor remoto, para reducir el riesgo de que los datos sean descubiertos en su dispositivo móvil.
+4. Garantizar que las organizaciones puedan conservar información importante incluso en caso de confiscación o destrucción de dispositivo, y puedan organizarla para procesos de  investigación, incidencia, o rendición de cuentas.
+
+:::danger
+Even though data is transferred to the server securely (SSL), anyone with access to the Uwazi account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+:::
 
 ### Probando Uwazi {#testing-uwazi}
 
@@ -39,7 +43,7 @@ Aquí hay algunos indicadores de que Uwazi puede ser particularmente adecuado pa
 - Trabajas en un entorno colaborativo con multiples usuarios y diferentes perfiles.
 - Necesitas preservar información de manera segura a largo plazo.
 
-Puedes aprender más sobre Uwazi en la [documentación oficial de Uwazi](https://uwazi.readthedocs.io/en/latest/). HURIDOCS es una excelente amistad de Horizontal, por lo que si tienes preguntas sobre Uwazi o te gustaría que te conectemos al equipo de HURIDOCS [contact-us](contact-us).
+Puedes aprender más sobre Uwazi en la [documentación oficial de Uwazi](https://uwazi.readthedocs.io/en/latest/). HURIDOCS es una excelente amistad de Horizontal, por lo que si tienes preguntas sobre Uwazi o te gustaría que te conectemos al equipo de HURIDOCS [contáctanos](/contact-us).
 
 :::tip
 Si necesitas ayuda para determinar si Uwazi es la mejor opción para tu caso de uso, [lee nuestra guía](/for-organizations) o [contactanos](/contact-us)!
@@ -72,7 +76,7 @@ Si la(o)s usuaria(o)s de Tella descargan una plantilla que tiene propiedades que
 | Numérico  | ✔️ | ✔️ | ✔️ |
 | Selección Única  | ✔️ | ✔️ | ✔️ | 
 | Selección Múltiple   | ✔️ | No | ✔️ | 
-| Relación | ✔️ | ✔️ | No |
+| Relación | ✔️ | ✔️ | ✔️ |
 | Fecha Única | ✔️ | ✔️ | ✔️ |
 | Fecha Múltiple | ✔️ | No | ✔️ |
 | Enlace Externo | ✔️ | No | ✔️ |
@@ -89,7 +93,7 @@ Si la(o)s usuaria(o)s de Tella descargan una plantilla que tiene propiedades que
 
 Para conectarse a un servidor Uwazi:
 
-* Navega a **Configuración ⚙️** > **Servidores** > **+**
+* Navega a **Configuración ⚙️** > **Conexiones** > **+**
 * Selecciona "Uwazi" de la lista de tipos de servidores disponibles.
 * Introduce la URL del servidor Uwazi de la organización (generada o proporcionada por la(o)s admins).
 * Elige entre:
@@ -125,3 +129,6 @@ Luego vuelve a la pantalla principal de Uwazi y toca la plantilla que quieres us
 | Pausar envíos automáticamente cuando se esté fuera de línea. | Los envíos serán enviados a la Bandeja de Salida si un envío falla debido a problemas de conexión.  | Sí | Sí |
 
 
+:::tip
+If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+:::

@@ -2,6 +2,7 @@
 id: docs
 slug: /docs
 title: Documentación de Tella
+sidebar_position: 1
 ---
 
 import Link from '@docusaurus/Link'
@@ -85,18 +86,10 @@ A continuación encontrarás todo lo que necesitas entender sobre cómo funciona
 
 <div className="doc-card-list">
     <div className="doc-card">
-      <Link to="/for-organizations">
-        <div className="doc-card-content">
-          <b>Vista General</b>
-          <p>Aprende cómo las organizaciones pueden usar Tella para investigación, incidencia, o rendición de cuentas de procesos.</p>
-        </div>
-      </Link>
-    </div>
-    <div className="doc-card">
       <Link to="/tella-web">
         <div className="doc-card-content">
           <b>Tella Web</b>
-          <p>La conexión a Tella Web empodera a la(o)s usuaria(o)s para subir cómodamente fotos, videos, grabaciones de audio, y texto al servidor de su organización.</p>
+          <p>The Tella Web connection empowers users to upload photos, videos, audio recordings, and text to their organization's server.</p>
         </div>
       </Link>
     </div>
@@ -104,7 +97,7 @@ A continuación encontrarás todo lo que necesitas entender sobre cómo funciona
       <Link to="/uwazi">
         <div className="doc-card-content">
           <b>Uwazi</b>
-          <p>La conexión Uwazi permite a las organizaciones recopilar datos de sus usuaria(o)s de Tella y establecer relaciones entre datos.</p>
+          <p>The Uwazi connection lets organizations collect data from their Tella users and establish relationships between the data.</p>
         </div>
       </Link>
     </div>
@@ -112,26 +105,35 @@ A continuación encontrarás todo lo que necesitas entender sobre cómo funciona
       <Link to="/odk">
         <div className="doc-card-content">
           <b>Open Data Kit (ODK)</b>
-          <p>La conexión de ODK permite a las organizaciones recopilar datos usando formularios personalizados desde Tella.</p>
+          <p>The ODK connection lets organizations collect data using custom forms from Tella.</p>
         </div>
       </Link>
     </div>
     <div className="doc-card">
       <Link to="/g-drive">
         <div className="doc-card-content">
-          <b>Conexión a Google Drive</b>
-          <p>Tella permite a la(o)s usuaria(o)s subir fotos, videos, pdfs y grabaciones de audio a su Google Drive personal u organizacional.</p>
+          <b>Google Drive Connection</b>
+          <p>Tella allows users to upload photos, videos, audio recordings and text to their personal or organizational Google Drive.</p>
         </div>
       </Link>
     </div>
     <div className="doc-card">
       <Link to="/nextcloud">
         <div className="doc-card-content">
-          <b>Conexión a Nextcloud</b>
-          <p>Tella permite a la(o)s usuaria(o)s subir cómodamente fotos, videos, pdfs y grabaciones de audio a Nextcloud.</p>
+          <b>Nextcloud Connection</b>
+          <p>Tella allows users to conveniently upload photos, videos, audio recordings and text to Nextcloud.</p>
         </div>
       </Link>
     </div>
+    <div className="doc-card">
+      <Link to="/dropbox">
+        <div className="doc-card-content">
+          <b>Dropbox Connection</b>
+          <p>Tella allows users to conveniently upload photos, videos, audio recordings and text to Dropbox.</p>
+        </div>
+      </Link>
+    </div>
+
 </div>
 
 
