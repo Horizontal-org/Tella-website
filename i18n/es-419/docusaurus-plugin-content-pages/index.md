@@ -93,8 +93,8 @@ import ThemedImage from '@theme/ThemedImage';
         <div className="column" id="section-column1">
             <ul>
                 <li><span className="emphasis">Gratis para siempre:</span> Tella está diseñada para quienes su seguridad está en riesgo. Es gratuita para descargar y usar, y seguirá siendo gratuita para siempre.</li>
-                <li><span className="emphasis">Choose your language:</span> Tella is currently <a href="faq#what-languages-is-tella-available-in"> available </a> in 25 languages.</li>
-                <li><span className="emphasis">Trust the code:</span> The code for Tella is open-source and <a href="open-source">publicly available</a> so that researchers, security analysts, and developers can freely audit and reuse it.We publish the <a href="security-and-privacy#security-audits">security audits</a> that independent firms have performed on Tella.</li>
+                <li><span className="emphasis">Elige tu idioma:</span> Tella está <a href="faq#what-languages-is-tella-available-in"> disponible </a> en 25 idiomas.</li>
+                <li><span className="emphasis">Confía en el código:</span> El código de Tella es de código abierto y <a href="open-source">está disponible públicamente</a> para que investigadora(e)s, analistas de seguridad y desarrolladora(e)s puedan auditarlo y reutilizarlo libremente. We publish the <a href="security-and-privacy#security-audits">security audits</a> that independent firms have performed on Tella.</li>
             </ul>
         </div>
         <div className="column" id="section-column2">
