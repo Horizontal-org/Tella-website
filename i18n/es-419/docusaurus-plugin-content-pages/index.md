@@ -59,7 +59,7 @@ import ThemedImage from '@theme/ThemedImage';
                 <li><span className="emphasis">Cifra tus archivos:</span> Tella encripta automáticamente tus fotos, videos, y grabaciones de audio tan pronto como son capturadas.</li>
                 <li><span className="emphasis">Oculta tus archivos en el dispositivo:</span> tus archivos son inaccesibles desde la galería regular o el explorador de archivos del teléfono. Solo puedes acceder a ellos en la app.</li>
                 <li><span className="emphasis">Bloquea tus archivos:</span> establece un PIN o contraseña para proteger tus archivos. Ingresar el bloqueo correcto es la única forma de desencriptar los archivos almacenados en Tella.</li>
-                <li><span className="emphasis">Mask the app:</span> change the look of Tella to hide it from people searching your phone.</li>
+                <li><span className="emphasis">Disfraza la app:</span> cambia la apariencia de Tella para ocultarla de personas que busquen en tu teléfono.</li>
                 <li><span className="emphasis">Share your files:</span> choose one of the secure methods to share your files with other Tella vault or to a server.</li> 
             </ul>
         </div>
