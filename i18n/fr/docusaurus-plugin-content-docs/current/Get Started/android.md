@@ -127,7 +127,7 @@ Nous avons rédigé une documentation sur la manière de se connecter à un serv
     <img src={require("@site/static/img/getting-started/android/kobo.gif").default} alt="gif that shows ODK connection" title="ODK connection" />
 </div>
 
-#### Uwazi [site Web](https://uwazi.io/) et [documentation](https://uwazi.readthedocs.io/en/latest/).
+#### Uwazi {#uwazi}
 [Uwazi](https://uwazi.io/) est une application open-source créée par HURIDOCS avec de puissantes fonctionnalités pour collecter, organiser et visualiser les données relatives aux droits de l'homme.
 
 Nous avons rédigé une documentation sur la manière de se connecter à un serveur Uwazi et pour commencer, nous vous recommandons de lire [cette page](/uwazi).
@@ -136,7 +136,7 @@ Nous avons rédigé une documentation sur la manière de se connecter à un serv
     <img src={require("@site/static/img/getting-started/android/uwazi.gif").default} alt="gif that shows Uwazi connection" title="Uwazi connection" />
 </div>
 
-#### Uwazi {#uwazi}
+#### Tella Web {#tella-web}
 Tella Web est un outil open source qui permet aux individus et aux organisations de centraliser et de gérer les rapports transmis par les utilisateurs de Tella, notamment des photos, des vidéos et des fichiers audio.
 
 Pour en savoir plus sur Tella Web [ici](/tella-web) ou regarder un [tutoriel vidéo](/video-tutorials#tella-web).

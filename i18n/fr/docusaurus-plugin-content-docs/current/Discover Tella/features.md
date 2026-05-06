@@ -1,6 +1,6 @@
 ---
 id: features
-title: Tella Features
+title: Fonctionnalités de Tella
 description: Une description détaillée des caractéristiques de Tella.
 slug: /features
 sidebar_position: 1
@@ -77,37 +77,37 @@ You can [continue reading about Server Connections and how organizations use Tel
 
 
 
-## Configuration du délai de verrouillage {#lock-timeout-configuration}
+## Configuration du délai du verrouillage {#lock-timeout-configuration}
 
-By default Tella will lock immediately every time the user exits the app or your phone’s screen turns off. If you’d like to change this setting, the user can do so by going to Settings ⚙️ > Security > Lock Timeout.
+Par défaut, Tella se verrouille immédiatement chaque fois que l’utilisateur quitte l’application ou que l’écran de votre téléphone s’éteint. Si vous souhaitez modifier ce paramètre, l’utilisateur peut le faire en accédant à Paramètres ⚙️ > Sécurité > Délai de verrouillage.
 
-The available options are 1 minute, 5 minutes, 30 minutes and 1 hour. ⏱️
+Les options disponibles sont 1 minute, 5 minutes, 30 minutes et 1 heure. ⏱️
 
 :::info
-Please use this feature carefully as if Tella is unlocked the data would be unprotected and anyone who enters Tella will be able to see all information there.
+Veuillez utiliser cette fonctionnalité avec précaution car si Tella est déverrouillé, les données ne seront pas protégées et toute personne entrant dans Tella pourra voir toutes les informations qui s’y trouvent.
 :::
 
 :::info
-When the camera or the audio recorder are open, Tella won’t lock
+Lorsque la caméra ou l’enregistreur audio sont ouverts, Tella ne se verrouille pas
 :::
 
 :::tip Video tutorial 🎥
-Learn more about Tella Additional Security Features in our [video tutorial](/video-tutorials#additional-security-features)
+Apprenez-en plus sur les modes de verroullages de Tella grâce à notre [tutoriel vidéo](/video-tutorials#additional-security-features)
 :::
 
 
 ## Mode silencieux de la caméra {#camera-silent-mode}
 
-By default Tella has camera silent mode disabled. By going to **Settings ⚙️** > **Security** > **Camera silent mode**, it is possible to turn off the camera shutter sound to draw less attention when taking photos. 📷🔇
+Par défaut, le mode silencieux de l'appareil photo de Tella est désactivé. En allant dans **Paramètres ⚙️** > **Sécurité** > **Mode silencieux de l'appareil photo**, il est possible de désactiver le son de l'obturateur de l'appareil photo pour attirer moins l'attention lors de la prise de photos. 📷🔇
 
 :::tip Video tutorial 🎥
-Learn more about Tella Additional Security Features in our [video tutorial](/video-tutorials#additional-security-features)
+Apprenez-en plus sur les modes de verroullages de Tella grâce à notre [tutoriel vidéo](/video-tutorials#additional-security-features)
 :::
 
 
 ## Sécurité de l’écran {#screen-security}
 
-By default Tella blocks screenshots, screen recordings inside Tella and hides the screen preview in the list of recent apps 📱🔒. It is possible to disable this security feature if the users need to take screenshots or screen recordings, or to mirror Tella to a computer for a presentation, by going to **Settings** ⚙️ > **Security** > **Screen security**.
+Par défaut, Tella bloque les captures d'écran et les enregistrements d'écran dans Tella et masque l'aperçu de l'écran dans la liste des applications récentes 📱🔒. Il est possible de désactiver cette fonctionnalité de sécurité si les utilisateurs ont besoin de prendre des captures d'écran ou des enregistrements d'écran, ou de mettre en miroir Tella sur un ordinateur pour une présentation, en allant dans **Paramètres** ⚙️ > **Sécurité** > **Sécurité de l'écran**.
 
 Sur iOS, le système de sécurité garantit uniquement le blocage des enregistrements d’écran dans Tella même et empêche l’affichage de l’écran dans la liste des applications récentes, sans qu’il soit possible de désactiver les captures ou les enregistrements d’écran.
 
@@ -205,39 +205,41 @@ L’importation de fichiers du système de fichiers de l’appareil dans Tella c
 
 ## Commentaires {#feedback}
 
-There are several options for Tella users to [contact the Tella team](/contact-us) in order to suggest improvements, report bugs and issues and request support. Inside Tella there are 2 alternatives:
+Il existe plusieurs options vous permettant de [contacter l'équipe Tella](/contact-us) afin de suggérer des améliorations, de signaler des bogues et des problèmes et de demander de l'aide. Vous pouvez le faire de 2 manières:
 
-1. **Email:**
-   - Navigate to **Settings** > **About and Help** > **Contact us** to find the email address.
-   - Users can email the Tella team using their preferred email app.
+1. **Courriel:**
+   - Allez dans **Paramètres** > **À propos et aide** > **Contactez-nous** pour trouver l'adresse e-mail.
+   - Vous pouvez envoyer un e-mail à l'équipe Tella via votre application e-mail préférée.
 
-2. **In-App Feedback Form:**
-   - Go to **Settings** > **Feedback** to enable an in-app feedback form.
-   - This allows users to share feedback with the Tella team anonymously.
+2. **Formulaire de commentaires intégré:**
+   - Allez dans **Paramètres** > **Commentaires** pour ajouter un commentaire.
+   - Cela vous permet de partager vos commentaires avec l'équipe Tella de manière anonyme.
 
 :::info
-The only information that we will receive is the content that users specifically add on the feedback form. If users are requesting support or want us to follow up with them, they should provide a secure way for us to contact them.
+La seule information que nous recevrons est le contenu que vous ajouterez spécifiquement sur le formulaire de commentaires. Si vous souhaitez demander de l'aide ou un suivi avec vous, vous devez nous fournir un moyen sécurisé de vous contacter.
 :::
 
 ## Importer des fichiers depuis l’appareil {#import-files-from-device}
 
-The user can import files into Tella to keep them secured by using the import feature. They can import files by going to the **Add ( + )** button on either All files, Images, Video, Audio or Documents depending on the type of file they wish to import and then **Import from device** 📥. A prompt will appear asking the user if they would like to keep or delete the original file from their phone memory. The imported files will be kept secured at Tella.
+Grâce à la fonction d'importation, il est possible d'importer des fichiers dans Tella afin de les sécuriser. Vous pouvez importer des fichiers en cliquant sur le bouton **Ajouter ( + )** sur Tous les fichiers, Images, Vidéo, Audio ou Documents selon le type de fichier que vous souhaitez importer, puis sur **Importer depuis l'appareil** 📥. Une invite apparaît, vous demandant si vous souhaitez conserver ou supprimer le fichier d'origine de la mémoire de votre téléphone. Les fichiers importés seront conservés en toute sécurité à Tella.
 
 :::tip video tutorial 🎥
-Learn more about [Collecting Evidence](video-tutorials#collecting-evidence) and [Sharing data](/video-tutorials#sharing-data-with-other-apps) in our video tutorials.
+Apprenez-en plus sur la [collecte de preuves](video-tutorials#collecting-evidence) et le [partage de données](/video-tutorials#sharing-data-with-other-apps) dans nos tutoriels vidéo.
 :::
 
 ## Préserver les métadonnées lors de l’importation {#preserve-metadata-when-importing}
 
-On **Settings** > **Security** users have the option to Preserve or delete the file’s metadata when importing Photos and Videos to Tella. EXIF metadata of files might include data about when the file was created, camera settings or location of the device.
+Dans **Paramètres** > **Sécurité**, les utilisateurs ont la possibilité de conserver ou de supprimer les métadonnées du fichier lors de l’importation de photos et de vidéos vers Tella. Les métadonnées EXIF ​​des fichiers peuvent inclure des données sur la date de création du fichier, les paramètres de l’appareil photo ou l’emplacement de l’appareil.
 
 ## Analyses préservant la confidentialité (avec consentement) {#privacy-preserving-analytics}
 
-Android users can opt-in to share analytics to improve Tella. All information is anonymous, aggregated and can never be linked to individual users. For technical information about what system we use and what metrics we collect, visit the [Analytics section of the Security and Privacy page](/security-and-privacy#analytics).
+Les utilisateurs d'Android peuvent choisir de partager des analyses pour améliorer Tella. Toutes les informations sont anonymes, agrégées et ne peuvent jamais être liées à des utilisateurs individuels. Pour des informations techniques sur le système que nous utilisons et les mesures que nous collectons, visitez la [section Analyses de la page Sécurité et confidentialité](/security-and-privacy#analytics).
 
 ## Ouvrir des fichiers dans Tella {#open-files-in-tella}
 
-Images, vidéos, PDFs et fichiers audio peuvent être visualisés dans Tella. 📱📄
+Les images, vidéos, PDF et audios peuvent être visualisés dans Tella. 📱📄
+
+Sur Tella FOSS, les PDF doivent être exportés pour être ouverts.
 
 ## Camouflage {#camouflage}
 
@@ -257,7 +259,7 @@ The Calculator camouflage feature cannot be enabled if the Restrict unlock attem
 :::
 
 :::tip video tutorial 🎥
-Learn more about [Camouflaging Tella](/video-tutorials#camouflaging-tella) in our video tutorial.
+Apprenez-en plus sur [Camouflaging Tella](/video-tutorials#camouflaging-tella) dans notre tutoriel vidéo.
 :::
 
 ## Personnalisation de l’écran d’accueil {#homescreen-customization}
@@ -337,7 +339,7 @@ Vous trouverez ci-dessous une liste reprenant chaque métadonnée capturée par 
 
 ## Connexion aux serveurs {#connecting-to-servers}
 
-Users can collect data directly in Tella, keep the data protected within the app, and connect to a server to securely send the data to a server. This feature is frequently used by organizations who centralize the data collected by volunteers or activist on the ground. These people collect information using Tella on their phones and then send it to their organizations. Previous Tella deployments where on-the-ground users collect data and send it to an organization's server have ranged from 1 to 2,000 users. 📲 📡.
+Il est possible de collecter des données directement dans Tella, de les protéger dans l'application et de se connecter à un serveur pour envoyer les données en toute sécurité. Cette fonction est fréquemment utilisée par les organisations qui centralisent les données collectées par les bénévoles ou les activistes sur le terrain. Ces personnes collectent des informations à l'aide de Tella sur leur téléphone et les envoient ensuite à leur organisation. Les déploiements précédents de Tella, où les utilisateurs et utilisatrices sur le terrain recueillaient des données et les envoyaient au serveur d'une organisation, comptaient de 1 à 2 000 utilisateurs et utilisatrices. 📲 📡
 
 Actuellement, les serveurs pouvant être connectés à Tella sont :
 

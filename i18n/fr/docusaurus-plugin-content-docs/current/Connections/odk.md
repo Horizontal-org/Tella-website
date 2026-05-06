@@ -23,17 +23,17 @@ Even though data is transferred to the server securely (SSL), anyone with access
 :::
 
 
-### Choosing and Installing Your ODK Server {#choosing-and-installing-your-odk-server}
+### Choisir et installer votre serveur central ODK  {#choosing-and-installing-your-odk-central-server}
 
 ODK étant une norme ouverte, Tella peut être utilisée avec n'importe quel outil compatible avec ODK.
 
-For civil society organizations and human rights defenders, we recommend using [KoboToolbox](https://www.kobotoolbox.org/) to create forms with custom questions, manage users, and aggregate the data submitted by users. Based on our experience, KoboToolbox is user-friendly and flexible, and it is also open source. KoboToolbox offers a [community plan for non-profits](https://www.kobotoolbox.org/pricing/) and offer free training resources and guidance on how to structure the data on the server (Self-serve learning base and Community Forum). It is also possible [to use a private instance of KoboToolbox](https://www.kobotoolbox.org/services/private-servers/) or [self-host it](https://support.kobotoolbox.org/kobo_your_servers.html).
+Pour les organisations de la société civile et les défenseurs des droits de l'homme, nous recommandons d'utiliser [KoboToolbox](https://www.kobotoolbox.org/) pour créer des formulaires avec des questions personnalisées, gérer les utilisateurs et regrouper les données soumises par les utilisateurs. D'après notre expérience, KoboToolbox est convivial et flexible, et il est également open source. KoboToolbox propose un [plan communautaire] gratuit (https://www.kobotoolbox.org/pricing/) pour les organisations à but non lucratif et propose des ressources de formation gratuites et des conseils sur la façon de structurer les données sur le serveur (base d'apprentissage en libre-service et communauté Forum). Il est également possible [d'utiliser une instance privée de KoboToolbox](https://www.kobotoolbox.org/services/private-servers/) ou [de l'héberger soi-même](https://support.kobotoolbox.org/kobo_your_servers.html).
 
 :::tip
 We are work closely with the Kobotoolbox team. If you are interested in using the Tella-KoboToolbox connection and would like some support or to discuss the best hosting plan for your use case, please [contact us](/contact-us). 
 :::
 
-There are other ODK-compliant apps available, like [Ona](https://ona.io/home/) or [ODK Cloud](https://https://getodk.org/index.html). Tella works with any of these. 
+Il existe d'autres applications compatibles avec ODK, comme [Ona](https://ona.io/home/) ou [ODK Cloud](https://https://getodk.org/index.html). Tella est compatible avec toutes ces applications. Si vous avez besoin d'aide, [contactez-nous](contact-us) pour que nous vous aidions à sélectionner le serveur le mieux adapté à vos besoins.
 
 
 ### Quand utiliser ODK {#when-to-use-odk}
@@ -48,7 +48,7 @@ If you need help figuring out if ODK is best for your use-case, [read our guide]
 
 ## Modélisez vos données {#model-your-data}
 
-KoboToolbox offers a detailed guide on how to create your project and add questions to your forms, and how to deploy them to make them available to on-the-ground users [here](https://support.kobotoolbox.org/overview_of_creating_a_project.html).
+KoboToolbox propose un guide détaillé sur comment créer votre projet et ajouter des questions à vos formulaires, ainsi que sur la façon de les déployer pour les rendre accessibles aux utilisateurs et utilisatrices sur le terrain [ici](https://support.kobotoolbox.org/overview_of_creating_a_project.html).
 
 ## Connecter Tella à une instance ODK pour collecter des données {#connect-tella-to-an-odk-instance-to-collect-data}
 
@@ -100,7 +100,7 @@ Vous trouverez ci-dessous un aperçu des types de questions ODK pris en charge d
 | Nombre / Décimal | ✔️ |
 | Date | ✔️ |
 | Heure | ✔️ |
-| Date & heure | Non  |
+| Date et heure | Non  |
 | Point (calculer ma position actuelle) | ✔️ |
 | Point (afficher ma position sur une carte) | ✔️ |
 | Point (laissez-moi choisir ma position sur une carte) | ✔️ |
@@ -115,7 +115,7 @@ Vous trouverez ci-dessous un aperçu des types de questions ODK pris en charge d
 | Code-barres / QR Code | Non |
 | Reconnaître | ✔️ |
 | Notation | ✔️ |
-| Question Matrix | Non |
+| Matrice de questions | Non |
 | Classement | ✔️ |
 | Calculer | Non |
 | Caché | Non |
@@ -129,16 +129,16 @@ Voici un aperçu des fonctionnalités ODK compatibles avec Tella Android. S'il e
 | **Fonctionnalité** | **Tella Android** | 
 |------|------|
 | [Collecte de données hors ligne](/odk#submit-forms) | ✔️ |
-| [Form logic](https://docs.getodk.org/form-logic/) | ❌ |
+| [Logique du formulaire](https://docs.getodk.org/form-logic/) | ❌ |
 | [Réponses requises](https://docs.getodk.org/form-logic/#requiring-responses) | ✔️ |
-| [Setting default responses](https://docs.getodk.org/form-logic/#setting-default-responses) | ❌ |
-| [Triggering calculations on value change](https://docs.getodk.org/form-logic/#triggering-calculations-on-value-change) | ❌ |
-| [Validating and restricting responses](https://docs.getodk.org/form-logic/#validating-and-restricting-responses) | ❌ |
+| [Définition des réponses par défaut](https://docs.getodk.org/form-logic/#setting-default-responses) | ❌ |
+| [Déclencher des calculs en cas de changement de valeur](https://docs.getodk.org/form-logic/#triggering-calculations-on-value-change) | ❌ |
+| [Valider et restreindre les réponses](https://docs.getodk.org/form-logic/#validating-and-restricting-responses) | ❌ |
 | [Affichage conditionnel des questions](https://docs.getodk.org/form-logic/#conditionally-showing-questions) | ✔️ |
 | [Groupes de questions](https://docs.getodk.org/form-logic/#groups-of-questions) | ✔️ |
 | [Questions répétitives](https://docs.getodk.org/form-logic/#repeating-questions) | ✔️ |
 | [Options de filtrage dans certaines questions](https://docs.getodk.org/form-logic/#filtering-options-in-select-questions) | ✔️ |
-| [Generating select ones from repeats](https://docs.getodk.org/form-logic/#generating-select-ones-from-repeats) | ❌ |
+| [Générer des sélections à partir de répétitions](https://docs.getodk.org/form-logic/#generating-select-ones-from-repeats) | ❌ |
 | [Form metadata (background data collection)](https://docs.getodk.org/form-audit-log/) | ❌ |
 
 

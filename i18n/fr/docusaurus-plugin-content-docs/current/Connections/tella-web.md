@@ -258,7 +258,7 @@ Vous pouvez regarder [cette vidéo](/video-tutorials#tella-web) pour savoir comm
 
 Pour vous connecter à un serveur Tella Web:
 
-* Navigate to **Settings ⚙️** > **Connections** > **+**
+* Allez dans **Paramètres ⚙️** > **Connexions** > **+**
 * Sélectionnez "Tella Web" dans la liste des types de serveurs disponibles.
 * Saisissez les informations d'identification (générées et fournies par les admins).
     * L'URL du projet Tella Web. L'URL devrait ressembler à ce qui suit : `https://your-domain.com/p/your-project-name`
