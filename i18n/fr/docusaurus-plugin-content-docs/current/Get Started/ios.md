@@ -123,12 +123,8 @@ Pour en savoir plus sur Tella Web [ici](/tella-web) ou regarder un [tutoriel vid
 Nous avons rédigé une documentation sur la manière de se connecter à un serveur Uwazi et pour commencer, nous vous recommandons de lire [cette page](/uwazi).
 
 #### Nextcloud, Dropbox et Google Drive {#Nextcloud-dropbox-and-google-drive}
-[Fonctionnalités]( /features) : En savoir plus sur la façon dont Tella peut vous protéger et sur les menaces contre lesquelles Tella ne_vous_protège_pas.
 
-[Connexions](/for-organizations) : Découvrez comment vous pouvez vous connecter à un serveur pour collecter des données ou sauvegarder des fichiers.
-- [Sécurité et confidentialité](/security-and-privacy) : Nous ne recueillons que le minimum de données nécessaires et ne collectons jamais d'informations personnellement identifiables. Lisez la politique de confidentialité complète [ici](/privacy).
-- Contactez-nous si vous avez besoin d'aide {#contact-us-if-you-need-help}
-- Si vous avez besoin d'aide pour comprendre les détails techniques de Tella et les considérations de sécurité afin de décider s'il convient à vous et à votre équipe, nous sommes là pour vous aider. Il vous suffit de [nous contacter](/contact-us) pour que nous puissions répondre à vos questions ou organiser une formation ou une session de questions-réponses en direct pour votre équipe.
+Users can sign in directly to their Nextcloud, Dropbox or Google Drive account from within Tella and upload files to a folder in their account.
 
 
 

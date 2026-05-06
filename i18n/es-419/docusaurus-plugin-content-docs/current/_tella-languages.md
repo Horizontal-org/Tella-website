@@ -20,5 +20,6 @@
 20. Vietnamita
 21. Español (América Latina)
 22. Tamil
-23. Tsonga
-24. Vietnamita
+23. Ukrainian
+24. Tsonga
+25. Vietnamita

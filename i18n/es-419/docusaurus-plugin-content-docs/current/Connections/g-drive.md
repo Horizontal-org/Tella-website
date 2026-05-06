@@ -9,7 +9,7 @@ slug: /g-drive
 
 Tella permite a la(o)s usuaria(o)s iniciar sesión en su cuenta de Google directamente desde Tella y subir archivos directamente a Google Drive.
 
-De manera similar a otras conexiones de servidor (como [Tella Web](/tella-web), [Uwazi](/uwazi), [Nextcloud](/nextcloud) u [Open Data Kit](/odk)), conectar a un servidor Google Drive mejora la seguridad de los datos recopilados en Tella al:
+De manera similar a otras conexiones de servidor (como [Tella Web](/tella-web), [Uwazi](/uwazi), [Dropbox](/dropbox), [Nextcloud](/nextcloud) u [Open Data Kit](/odk)), conectar a un servidor Google Drive mejora la seguridad de los datos recopilados en Tella al:
 
 
 1. Permitir a la(o)s usuaria(o)s a recopilar datos directamente dentro de un contenedor cifrado de Tella.
@@ -21,12 +21,18 @@ La conexión a Google Drive es una opción para recopilar fotos, videos y audios
 
 Los envíos a Google Drive toman la forma de "informes" lo cual incluye un título, una descripción de texto y archivos como fotos, videos, grabaciones de audio y documentos pdf.
 
+:::note
+The Google Drive connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
+:::
 
+:::danger
+Even though data is transferred to the server securely (SSL), anyone with access to the Google Drive account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+:::
 
 ## Cuándo Usar Google Drive {#when-to-use-google-drive}
 
 La conexión a Google Drive puede ser particularmente adecuada para:
-- Organizaciones que ya utilizan Google Drive o la [funcionalidad de Disco Compartido] de Google Workspace (https://support.google.com/a/users/answer/7212025?hl=en).
+- Organizaciones que ya utilizan Google Drive.
 - Usuaria(o)s que ya tienen una cuenta de Google.
 - Proyectos donde las necesidades de privacidad no impiden el uso de una herramienta como Google Drive.
 - Organizaciones que no pueden o no desean autohospedar una app (como [servidor Tella Web](/tella-web)) en un servidor.
@@ -40,18 +46,16 @@ Si necesitas ayuda para determinar si Google Drive es la mejor opción para tu c
 
 Para conectarse a Google Drive:
 
-* Navega a **Configuración ⚙️** > **Servidores** > **+**
+* Navega a **Configuración ⚙️** > **Conexiones** > **+**
 * Selecciona "Google Drive" de la lista de tipos de servidores disponibles.
 * Inicia sesión en tu cuenta de Google utilizando el flujo de inicio de sesión de Google en la vista web.
-* Por ahora, Google aún no ha verificado Tella, por lo que tendrás que presionar el botón "Avanzado" y "Continuar a Tella" para poder conectar.
 * Da permisos a Tella para modificar tu Google Drive (necesitamos este permiso para poder subir archivos a tu disco y crear carpetas en tu nombre).
-* Seleciona "Disco Personal" o "Disco Compartido": Los discos compartidos solo están disponibles para cuentas empresariales con Google Workspace. Si los discos compartidos están disponibles para ti, verás una lista de todos los Discos Compartidos a los que tienes acceso. Selecciona el Disco Compartido al que quieres enviar tus datos.
 * Elige un nombre para la carpeta donde se guardaran todos tus envíos de Tella.
 
 
 ## Administra la conexión a Google Drive  {#manage-the-google-drive-connection}
 
-* En **Configuración ⚙️** > **Servidores** > **Google Drive** >  **⫶** puedes:
+* En **Configuración ⚙️** > **Conexiones** > **Google Drive** > ⫶ puedes:
   - Eliminar la conexión
 
 Por ahora, no es posible iniciar sesión en múltiples cuentas de Google a la vez. Si deseas iniciar sesión en tu Google Drive utilizando un email diferente, elimina tu conexión a Google Drive y crea una nueva.
@@ -74,6 +78,10 @@ Por ahora, no es posible iniciar sesión en múltiples cuentas de Google a la ve
 
 
 ## Borradores de Informes {#draft-reports}
+
+A Draft report is a report that was created and saved but not yet submitted. Drafts reports are useful to save work in progress that can be editted later on. It allows users to create reports offline or over a long period of time before finalizing and sending them. This is especially useful in low-connectivity areas or when a user needs to gather information in multiple stages.
+
+Reports in the Draft tab can be edited.
 
 * En la pantalla "Nuevo informe", toca el botón "Guardar borrador" para guardar el informe como un borrador.
     * Se mostrará un mensaje de confirmación, y puedes continuar trabajando en el informe o salir y regresar más tarde.
@@ -106,6 +114,10 @@ La Bandeja de Salida contiene informes que han sido guardados para enviar. Esto 
 * Envíos pausados
 * Envíos de informes que fueron interrumpidos debido a problemas de conectividad.
 * Informes que fueron marcados como "Enviar luego".
+
+:::tip
+If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+:::
 
 
 #### Informes Enviados {#submitted-reports}

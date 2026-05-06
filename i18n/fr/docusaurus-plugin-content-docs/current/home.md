@@ -5,7 +5,7 @@ title: Documentation de Tella
 sidebar_position: 1
 ---
 
-importer le lien depuis '@docusaurus/Link'
+import Link from '@docusaurus/Link'
 
 
 # Documents Tella
@@ -89,7 +89,7 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
       <Link to="/tella-web">
         <div className="doc-card-content">
           <b>Tella Web</b>
-          <p>The Tella Web connection empowers users to upload photos, videos, audio recordings, and text to their organization's server.</p>
+          <p>La connexion Tella Web permet aux utilisateurs de télécharger facilement des photos, des vidéos, des enregistrements audio et du texte sur le serveur de leur organisation.</p>
         </div>
       </Link>
     </div>
@@ -97,7 +97,7 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
       <Link to="/uwazi">
         <div className="doc-card-content">
           <b>Uwazi</b>
-          <p>The Uwazi connection lets organizations collect data from their Tella users and establish relationships between the data.</p>
+          <p>La connexion Uwazi permet aux organisations de collecter des données auprès de leurs utilisateurs Tella et d'établir des relations entre les données.</p>
         </div>
       </Link>
     </div>
@@ -105,7 +105,7 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
       <Link to="/odk">
         <div className="doc-card-content">
           <b>Open Data Kit (ODK)</b>
-          <p>The ODK connection lets organizations collect data using custom forms from Tella.</p>
+          <p>La connexion ODK permet aux organisations de collecter des données à l'aide de formulaires personnalisés de Tella.</p>
         </div>
       </Link>
     </div>

@@ -17,6 +17,10 @@ Similarly to all other server connections([Tella Web](/tella-web), [Google Drive
 3. Permettant aux utilisateurs et utilisatrices de sauvegarder leurs données sur un serveur externe, pour réduire le risque que leurs données soient découvertes sur leur appareil mobile.
 4. Assurant que les organisations peuvent conserver les informations importantes même en cas de saisie ou de destruction d'appareils, et les organiser à des fins de recherche, de plaidoyer ou de processus de responsabilisation.
 
+:::danger
+Even though data is transferred to the server securely (SSL), anyone with access to the Uwazi account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+:::
+
 ### Tester Uwazi {#testing-uwazi}
 
 Vous pouvez tester Uwazi en utilisant [cette version de démonstration] (https://demo.uwazi.io/).
@@ -65,7 +69,7 @@ Si les utilisateurs et utilisatrices de Tella téléchargent un modèle dont les
 
 ### Propriétés disponibles {#available-properties}
 
-| **Propriété ou fonctionnalité** | **Tella Android**| Importez des fichiers depuis leur appareil. Les fichiers sont automatiquement chiffrés lorsqu'ils sont importés dans Tella. | **Tella Android FOSS** |
+| **Propriété ou fonctionnalité** | **Tella Android**| **Tella iOS** | **Tella Android FOSS** |
 |------|------|-----|-----| 
 | Documents principaux et justificatifs | ✔️ | ✔️ | ✔️ |
 | Texte brut | ✔️ | ✔️ | ✔️ |
@@ -89,7 +93,7 @@ Si les utilisateurs et utilisatrices de Tella téléchargent un modèle dont les
 
 Pour vous connecter à un serveur Uwazi:
 
-* Utilisez le bouton **Actualiser** en haut à droite pour extraire de nouvelles ressources de l’espace de votre organisation.
+* Navigate to **Settings ⚙️** > **Connections** > **+**
 * Sélectionnez "Uwazi" dans la liste des types de serveurs disponibles.
 * Saisissez l'URL du serveur Uwazi de l'organisation (générée et fournie par les admins).
 * Choisissez entre:
@@ -113,7 +117,7 @@ Revenez ensuite à l'écran principal d'Uwazi et appuyez sur le modèle que vous
 
 #### Alternatives à la soumission de données {#data-submission-alternatives}
 
-| **Feature** | **Détails**| **Tella Android** | Importez des fichiers depuis leur appareil. Les fichiers sont automatiquement chiffrés lorsqu'ils sont importés dans Tella. | 
+| **Feature** | **Détails**| **Tella Android** | **Tella iOS** | 
 |------|------|------|------|
 | Envoyer | Envoyer le formulaire rempli au serveur connecté. | Oui | Oui |
 | Enregistrer comme brouillon | Sauvegarder un formulaire non complété.  | Oui | Oui |
@@ -125,3 +129,6 @@ Revenez ensuite à l'écran principal d'Uwazi et appuyez sur le modèle que vous
 | Suspendre automatiquement la soumission lorsque vous êtes hors ligne | Les soumissions seront envoyées à l'onglet Boîte d'envoi si la soumission échoue en raison de problèmes de connectivité.  | Oui | Oui |
 
 
+:::tip
+If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+:::

@@ -77,49 +77,106 @@ You can [continue reading about Server Connections and how organizations use Tel
 
 
 
-## Sur iOS, le système de sécurité garantit uniquement le blocage des enregistrements d'écran dans Tella même et empêche l'affichage de l'écran dans la liste des applications récentes, sans qu'il soit possible de désactiver les captures ou les enregistrements d'écran.
+## Configuration du délai de verrouillage {#lock-timeout-configuration}
+
+By default Tella will lock immediately every time the user exits the app or your phone’s screen turns off. If you’d like to change this setting, the user can do so by going to Settings ⚙️ > Security > Lock Timeout.
+
+The available options are 1 minute, 5 minutes, 30 minutes and 1 hour. ⏱️
+
+:::info
+Please use this feature carefully as if Tella is unlocked the data would be unprotected and anyone who enters Tella will be able to see all information there.
+:::
+
+:::info
+When the camera or the audio recorder are open, Tella won’t lock
+:::
+
+:::tip Video tutorial 🎥
+Learn more about Tella Additional Security Features in our [video tutorial](/video-tutorials#additional-security-features)
+:::
+
+
+## Mode silencieux de la caméra {#camera-silent-mode}
+
+By default Tella has camera silent mode disabled. By going to **Settings ⚙️** > **Security** > **Camera silent mode**, it is possible to turn off the camera shutter sound to draw less attention when taking photos. 📷🔇
+
+:::tip Video tutorial 🎥
+Learn more about Tella Additional Security Features in our [video tutorial](/video-tutorials#additional-security-features)
+:::
+
+
+## Sécurité de l’écran {#screen-security}
+
+By default Tella blocks screenshots, screen recordings inside Tella and hides the screen preview in the list of recent apps 📱🔒. It is possible to disable this security feature if the users need to take screenshots or screen recordings, or to mirror Tella to a computer for a presentation, by going to **Settings** ⚙️ > **Security** > **Screen security**.
+
+Sur iOS, le système de sécurité garantit uniquement le blocage des enregistrements d’écran dans Tella même et empêche l’affichage de l’écran dans la liste des applications récentes, sans qu’il soit possible de désactiver les captures ou les enregistrements d’écran.
 
 :::tip video tutorial 🎥
 Apprenez-en plus sur les fonctionnalités de sécurité supplémentaires de Tella dans notre [tutoriel vidéo](/video-tutorials#additional-security-features)
 :::
 
-Restreindre les tentatives de déverrouillage {#restrict-unlocking-attempts}
+## Restreindre les tentatives de déverrouillage {#restrict-unlocking-attempts}
 
-En allant dans **Paramètres ⚙️** > **Sécurité** > **Supprimer après un échec de déverrouillage**, vous pouvez choisir combien de tentatives de déverrouillage échouées sont autorisées avant que tout ce qui se trouve à l'intérieur de Tella ne soit supprimé.
+En allant dans **Paramètres ⚙️** > **Sécurité** > **Supprimer après un échec de déverrouillage**, vous pouvez choisir combien de tentatives de déverrouillage échouées sont autorisées avant que tout ce qui se trouve à l’intérieur de Tella ne soit supprimé.
 
-Ce paramètre est désactivé par défaut, ce qui signifie que les tentatives de déverrouillage sont illimitées et que les données ne se suppriment pas. Vous pouvez choisir de limiter le nombre de tentatives de déverrouillage à 5, 10 ou 20 fois. En choisissant l'une de ces options, vous pourrez également opter pour l'affichage d'un indicateur visuel sur l'écran de déverrouillage avant le nombre de tentatives spécifié (3 tentatives restantes, 2 tentatives restantes, etc.), ou alors vous pouvez choisir de ne pas afficher d'indicateur visuel du tout.
+Ce paramètre est désactivé par défaut, ce qui signifie que les tentatives de déverrouillage sont illimitées et que les données ne se suppriment pas. Vous pouvez choisir de limiter le nombre de tentatives de déverrouillage à 5, 10 ou 20 fois. En choisissant l’une de ces options, vous pourrez également opter pour l’affichage d’un indicateur visuel sur l’écran de déverrouillage avant le nombre de tentatives spécifié (3 tentatives restantes, 2 tentatives restantes, etc.), ou alors vous pouvez choisir de ne pas afficher d’indicateur visuel du tout.
 
-Après le nombre spécifié de tentatives infructueuses, tous les fichiers, les connexions et tout ce qui se trouve dans Tella seront supprimés, et l'application reviendra automatiquement à l'état « fraîchement installé ».
+Après le nombre spécifié de tentatives infructueuses, tous les fichiers, les connexions et tout ce qui se trouve dans Tella seront supprimés, et l’application reviendra automatiquement à l’état « fraîchement installé ».
 
-:::danger
-Bien que ce paramètre de sécurité empêche les tentatives forcées de déverrouillage de Tella, il doit être utilisé avec prudence, car une fois le nombre maximum de tentatives de déverrouillage échouées atteint, il n'y a aucun moyen de restaurer le contenu sur Tella..
+:::info
+The Restrict unlocking attempts feature cannot be enabled if Calculator camouflage is enabled.
 :::
 
-
+:::danger
+Bien que ce paramètre de sécurité empêche les tentatives forcées de déverrouillage de Tella, il doit être utilisé avec prudence, car une fois le nombre maximum de tentatives de déverrouillage échouées atteint, il n’y a aucun moyen de restaurer le contenu sur Tella..
+:::
 
 ## Modifier le média {#edit-media}
 
-Nous sommes en train d'ajouter la possibilité de modifier des fichiers multimédias directement dans Tella. Bientôt, les utilisateurs n'auront plus besoin d'exporter leurs fichiers en dehors de Tella pour les modifier. Tella Android et Tella iOS démarrent avec des fonctionnalités de retouche photo (recadrage et rotation).
+Nous sommes en train d’ajouter la possibilité de modifier des fichiers multimédias directement dans Tella. Bientôt, les utilisateurs n’auront plus besoin d’exporter leurs fichiers en dehors de Tella pour les modifier. Tella Android et Tella iOS démarrent avec des fonctionnalités de retouche photo (recadrage et rotation).
 
-:::danger
-Bien que ce paramètre de sécurité empêche les tentatives forcées de déverrouillage de Tella, il doit être utilisé avec prudence, car une fois le nombre maximum de tentatives de déverrouillage échouées atteint, il n'y a aucun moyen de restaurer le contenu sur Tella..
-:::
+| **Type de média** | **Fonctionnalité** | **Tella Android** | **Tella iOS** | **Tella FOSS** |
+|----------------|-------------|-------------------|---------------|----------------|
+| Image          | Crop        | ✔️                | ✔️            | ✔️             |
+| Image          | Rotate      | ✔️                | ✔️            | ✔️             |
+| Image          | Flip        | ✔️                | Pas encore    | ✔️             |
+| Image          | Auto-zoom   | ✔️                | Pas encore    | ✔️             |
+| Video          | Trim        | Pas encore        | ✔️            | Pas encore     |
+| Video          | Rotate      | Pas encore        | ✔️            | Pas encore     |
+| Audio          | Trim        | Pas encore        | ✔️            | Pas encore     |
 
+Users can edit a picture by going to **More** > **Edit** from the **Images** folder or by tapping the **Edit** button on the top right while viewing image you have on Tella.
+- **Rotation** : Utilisez le bouton Rotation en bas de l’écran pour faire pivoter l’image dans le sens antihoraire.
+- **Crop**: Drag the corners of the white canvas to crop the picture.
+- **Auto-zoom**: The image will automatically zoom in and out depending on the selected canvas, to avoid loosing image quality.
+- **Flip**: Use the flip buttons to mirror the image horizontally or vertically.
+
+When edits are done, users can press the orange check on the top right of the edit screen. The edited file will be saved as a copy of the original file in the same folder.
+
+Users can edit videos or audio recordings:
+- In any folder, next to the file to be edited, by tapping on **⁝** > **Edit**.
+- While listening to an audio recording or watching a video in Tella, by tapping the **Edit** button in the top right corner.
+
+Current editing options include:
+- **Rogner** : Déplacez les lignes orange verticales pour sélectionner le nouveau point de début et de fin de votre audio ou vidéo.
+- **Rotation** : Utilisez le bouton Rotation en haut à droite de l’écran pour faire pivoter la vidéo dans le sens antihoraire.
+
+Utilisez le bouton Lecture en bas de l’écran pour écouter l’audio ou le bouton Annuler pour recommencer. Lorsque vous avez terminé de modifier le fichier, utilisez l’icône orange en forme de ciseaux ✂️ dans le coin supérieur droit pour enregistrer l’audio ou la vidéo rognée. Le fichier modifié sera enregistré comme une copie du fichier original dans le même dossier.
 
 ## Chiffrement {#encryption}
 
-Tous les fichiers stockés dans Tella sont cryptés. Sans le code d'accès à l'application, il est impossible de décrypter et d'accéder à l'un ou l'autre des fichiers stockés dans Tella. 🔒🔐
+Tous les fichiers stockés dans Tella sont cryptés. Sans le code d’accès à l’application, il est impossible de décrypter et d’accéder à l’un ou l’autre des fichiers stockés dans Tella. 🔒🔐
 
-Lorsque vous installez l'application, vous décidez de la méthode de verrouillage que vous souhaitez utiliser. Pour Android, un motif à six points, un code PIN ou un mot de passe peuvent être utilisés. Pour iOS, en revanche, il n'est possible que d'opter pour un code PIN ou un mot de passe. Sans la méthode de verrouillage, l'application ne peut pas être utilisée.
+Lorsque vous installez l’application, vous décidez de la méthode de verrouillage que vous souhaitez utiliser. Pour Android, un motif à six points, un code PIN ou un mot de passe peuvent être utilisés. Pour iOS, en revanche, il n’est possible que d’opter pour un code PIN ou un mot de passe. Sans la méthode de verrouillage, l’application ne peut pas être utilisée.
 
+Sans cela, et même si l’appareil est branché sur un ordinateur et que toutes les données de l’appareil ont été extraites pour être analysées, tout le contenu et toutes les données de Tella ressembleront à du charabia et seront inutilisables. Déverrouiller l’application par la bonne méthode est le seul moyen de décrypter, et donc de lire, le contenu stocké dans Tella.
 
-Sans cela, et même si l'appareil est branché sur un ordinateur et que toutes les données de l'appareil ont été extraites pour être analysées, tout le contenu et toutes les données de Tella ressembleront à du charabia et seront inutilisables. Déverrouiller l'application par la bonne méthode est le seul moyen de décrypter, et donc de lire, le contenu stocké dans Tella.
-
-## :::danger
-Si votre méthode de verrouillage est trop faible, quelqu'un pourrait la deviner et ouvrir l'application sur le téléphone ; ou bien les données pourraient être extraites et la clé de cryptage pourrait être forcée par un ordinateur et les données pourraient alors être décryptées.
-:::
 :::danger
-Si vous oubliez comment dévérouiller Tella, il n'y a aucun moyen d'y accéder et donc de récupérer le contenu que vous avez stocké.
+Si votre méthode de verrouillage est trop faible, quelqu’un pourrait la deviner et ouvrir l’application sur le téléphone ; ou bien les données pourraient être extraites et la clé de cryptage pourrait être forcée par un ordinateur et les données pourraient alors être décryptées.
+:::
+
+:::danger
+Si vous oubliez comment dévérouiller Tella, il n’y a aucun moyen d’y accéder et donc de récupérer le contenu que vous avez stocké.
 :::
 
 :::tip video tutorial 🎥
@@ -130,152 +187,87 @@ Apprenez-en plus sur les modes de verroullages et sur le cryptage grâce à notr
 Des informations techniques sur le cryptage sont disponibles dans la section [Sécurité et confidentialité](/security-and-privacy).
 :::
 
-Gestion des fichiers {#file-management}
+## Gestion des fichiers {#file-management}
 
 Tella vous permet de gérer les fichiers et les dossiers de la même manière que sur un ordinateur. Tous les fichiers et dossiers sont **cryptés et accessibles uniquement dans Tella**. 📂📝
 
-## Dans Tella,  vous pouvez:
-Stocker n'importe quel fichier, y compris des photos 📷, des vidéos 🎥, des fichiers audio 🎧 et des documents 📝.
+Dans Tella, vous pouvez :
 
-| Créer des dossiers et des sous-dossiers. | **Feature** | **Tella Android** | Importez des fichiers depuis leur appareil. Les fichiers sont automatiquement chiffrés lorsqu'ils sont importés dans Tella. | :::danger
-L'importation de fichiers du système de fichiers de l'appareil dans Tella crée une copie des fichiers dans Tella. Tella vous demandera si vous souhaitez conserver ou supprimer le fichier original de votre téléphone lors de l'importation. Si vous choisissez de conserver le fichier original, il sera présent sur l'appareil, en dehors de Tella et non crypté. 🔒
-::: |
-|----------------|-------------|-------------------|---------------|----------------|
-| :::info
-La seule information que nous recevrons est le contenu vous ajouterez spécifiquement sur le formulaire de commentaires. Si vous souhaitez demander de l'aide ou un suivi avec vous, vous doivent nous fournir un moyen sécurisé de vous contacter.
-:::          | Il existe plusieurs options vous permettant de [contacter l'équipe Tella] (/contact-nous) afin de suggérer des améliorations, de signaler des bogues et des problèmes et de demander de l'aide. Vous pouvez le faire de 2 manières:        | ✔️                | ✔️            | ✔️             |
-| :::info
-La seule information que nous recevrons est le contenu vous ajouterez spécifiquement sur le formulaire de commentaires. Si vous souhaitez demander de l'aide ou un suivi avec vous, vous doivent nous fournir un moyen sécurisé de vous contacter.
-:::          | Allez dans **Paramètres** > **Commentaires** pour ajouter un commentaire.      | ✔️                | ✔️            | ✔️             |
-| :::info
-La seule information que nous recevrons est le contenu vous ajouterez spécifiquement sur le formulaire de commentaires. Si vous souhaitez demander de l'aide ou un suivi avec vous, vous doivent nous fournir un moyen sécurisé de vous contacter.
-:::          | Importer des fichiers depuis l'appareil {#import-files-from-device}        | ✔️                | ✔️       | ✔️             |
-| :::info
-La seule information que nous recevrons est le contenu vous ajouterez spécifiquement sur le formulaire de commentaires. Si vous souhaitez demander de l'aide ou un suivi avec vous, vous doivent nous fournir un moyen sécurisé de vous contacter.
-:::          | Analyses préservant la confidentialité (avec consentement) {#privacy-preserving-analytics}        | ✔️                | ✔️       | ✔️        |
-| Sur Tella FOSS, les PDF doivent être exportés pour être ouverts.          | Fichiers récents, pour ouvrir rapidement les fichiers les plus récents dans Tella 💼        | ✔️       | ✔️          | ✔️        |
-| Sur Tella FOSS, les PDF doivent être exportés pour être ouverts.          | Allez dans **Paramètres** > **Commentaires** pour ajouter un commentaire.      | ✔️       | ✔️          | ✔️        |
-| Pour plus de commodité et de facilité d'accès, il est également possible de personnaliser l'écran d'accueil pour afficher également des raccourcis vers un ou plusieurs des éléments suivants :          | Fichiers récents, pour ouvrir rapidement les fichiers les plus récents dans Tella 💼        | ✔️           |  ✔️          | ✔️        |
+* Stocker n’importe quel fichier, y compris des photos 📷, des vidéos 🎥, des fichiers audio 🎧 et des documents 📝.
+* Créer des dossiers et des sous-dossiers.
+* Déplacer des fichiers dans des dossiers et d’un dossier à un autre.
+* Exporter des fichiers vers votre appareil. Une fois enregistrés sur votre appareil en dehors de Tella, les fichiers ne sont plus chiffrés et peuvent être consultés par toute personne qui fouille l’appareil.
+* Importer des fichiers depuis votre appareil. Les fichiers sont automatiquement chiffrés lorsqu’ils sont importés dans Tella.
 
-Suppression rapide {#quick-delete}
-- **Rotation** : Utilisez le bouton Rotation en bas de l'écran pour faire pivoter l'image dans le sens antihoraire.
-- Supprimer le coffre-fort : supprime tous les fichiers stockés dans Tella 🗑️
-- Supprimer les brouillons et les formulaires soumis: supprime les brouillons et les formulaires soumis sur tous les serveurs connectés à l'Open Data Kit (ODK) 📝
-- Supprimer les paramètres du serveur : supprime toutes les connexions au serveur et tous les formulaires ou modèles qui leur sont associés 📋
-
-Supprimer Tella : supprime l'application et toutes les données qu'elle contient. Un message apparait vous demandant si vous souhaitez également désinstaller Tella ❌.
-
-
-:::info Supprimer Tella
-En raison de limitations techniques, il se peut que l'option Supprimer Tella soit indisponible sur certains téléphones Android. Nous travaillons à résoudre ce problème. Pour iOS, il est impossible par programmation de supprimer une application.
-:::
-- Sortie rapide {#quick-exit}
-- Sur Android, il est possible de fermer et de verrouiller rapidement l'application en cas d'urgence en cliquant sur le bouton de sortie situé dans le coin supérieur droit de l'écran d'accueil de Tella. Le fait d'avoir réglé le délai de verrouillage sur « immédiatement » signifie que l'application se verrouille automatiquement lorsque vous en sortez. Ceci dit, l'utilisation du bouton de sortie rapide ajoute une couche supplémentaire de sécurité et garantit que l'application est entièrement fermée et verrouillée.🔒
-
-Sur iOS, il n'est pas possible de fermer une application simplement à partir de l'application elle-même. C'est en tapant sur le bouton de sortie rapide que l'application se verrouille.
-- **Rogner** : Déplacez les lignes orange verticales pour sélectionner le nouveau point de début et de fin de votre audio ou vidéo.
-- **Rotation** : Utilisez le bouton Rotation en haut à droite de l'écran pour faire pivoter la vidéo dans le sens antihoraire.
-
-Utilisez le bouton Lecture en bas de l'écran pour écouter l'audio ou le bouton Annuler pour recommencer. Lorsque vous avez terminé de modifier le fichier, utilisez l'icône orange en forme de ciseaux ✂️ dans le coin supérieur droit pour enregistrer l'audio ou la vidéo rognée. Le fichier modifié sera enregistré comme une copie du fichier original dans le même dossier.
-
-
-## Dans les paramètres de Tella, vous pouvez activer le « Mode de vérification » ✅
-
-Activée, Tella capture automatiquement des informations de vérification (métadonnées de fichier) à chaque fois que vous prenez une photo ou une vidéo, ou que vous enregistrez des données audio. Ces informations de vérification peuvent être utilisées pour corroborer les preuves, les recouper avec d'autres faits connus sur l'événement ou sur la zone où il a été capturé. Les informations de vérification seront incluses dans un fichier séparé lors de l'enregistrement du fichier sur l'appareil ou lors de son partage via des applications tierces. Le format de fichier est .CSV avec les informations de métadonnées incluses dans les colonnes. Ce fichier peut être ouvert avec n'importe quelle application de tableur (comme Excel, Google Spreadsheets ou OpenOffice). 
-
-:::info Contactez-nous
-N'hésitez pas à nous contacter, si vous avez besoin d'aide pour mieux comprendre le mode de vérification😊
+:::danger
+L’importation de fichiers du système de fichiers de l’appareil dans Tella crée une copie des fichiers dans Tella. Tella vous demandera si vous souhaitez conserver ou supprimer le fichier original de votre téléphone lors de l’importation. Si vous choisissez de conserver le fichier original, il sera présent sur l’appareil, en dehors de Tella et non crypté. 🔒
 :::
 
-Vous trouverez ci-dessous une liste reprenant chaque métadonnée capturée par Tella :
+## Commentaires {#feedback}
 
-**Informations sur le fichier**
+There are several options for Tella users to [contact the Tella team](/contact-us) in order to suggest improvements, report bugs and issues and request support. Inside Tella there are 2 alternatives:
 
-Chemin du fichier: où se trouvait le fichier dans le répertoire Tella 📂
+1. **Email:**
+   - Navigate to **Settings** > **About and Help** > **Contact us** to find the email address.
+   - Users can email the Tella team using their preferred email app.
 
-Hachage du fichier : un numéro unique pour identifier le fichier 🔍
+2. **In-App Feedback Form:**
+   - Go to **Settings** > **Feedback** to enable an in-app feedback form.
+   - This allows users to share feedback with the Tella team anonymously.
 
-Fichier modifié : la date et l'heure auxquelles le fichier a été modifié pour la dernière fois sur l'appareil 📅
-
-## **Informations sur l'appareil**
-
-Fabricant : nom du fabricant de l'appareil 📱
-
-Matériel : modèle exact de l'appareil 💻
-
-* Identifiant d'Appareil ou ID d'appareil : numéro unique identifiant l'appareil Android 🆔
-* Taille de l'écran : taille exacte de l'écran de l'appareil 📏
-    - Langue : langue dans laquelle le système d'exploitation de l'appareil est défini 🌐
-    - Zone géographique : région géographique sur laquelle l'appareil est réglé 🌍
-* État de la connexion : si l'appareil est connecté ou déconnecté à Internet 📶
-* Type de réseau : si l'appareil est connecté à internet, précise s'il s'agit d'un réseau WiFi ou cellulaire 📲
-
-Wi-Fi MAC : un identifiant unique au connecteur Wi-Fi de l'appareil 🔍
-
-## IPv4 : une adresse unique identifiant la connexion internet de l'appareil 🔗
-
-IPv6 : un identifiant plus récent à la connexion internet d'un appareil 🔗
-
-1. **Informations sur l'environnement dans lequel le fichier a été capturé**
-   - Emplacement: l'emplacement exact de l'appareil, notamment les coordonnées de latitude et de longitude, l'altitude en mètres, la précision de la mesure en mètres et l'heure 🌍
-   - Fournisseur de localisation: comment la localisation de l'appareil est déterminée 📍
-
-2. Vitesse de localisation : la vitesse à laquelle l'appareil se déplace 🚀
-   - Informations cellulaires : les numéros d'identification de toutes les tours de téléphonie cellulaire auxquelles l'appareil est connecté 📡
-   - Info WiFi : le nom de tous les réseaux WiFi à proximité de l'appareil 🔍
-
-
-Configurer les paramètres des projets {#configure-projects-settings}
-
-Il est possible de collecter des données directement dans Tella, de les protéger dans l'application et de se connecter à un serveur pour envoyer les données en toute sécurité. Cette fonction est fréquemment utilisée par les organisations qui centralisent les données collectées par les bénévoles ou les activistes sur le terrain. Ces personnes collectent des informations à l'aide de Tella sur leur téléphone et les envoient ensuite à leur organisation. Les déploiements précédents de Tella, où les utilisateurs et utilisatrices sur le terrain recueillaient des données et les envoyaient au serveur d'une organisation, comptaient de 1 à 2 000 utilisateurs et utilisatrices. 📲 📡
-
-
-Actuellement, les serveurs pouvant être connectés à Tella sont :
-
-
-## [Tella Web](/tella-web)
-
-[Open Data Kit (ODK)](/for-organizations#open-data-kit-odk)
-
-
-[Uwazi](/uwazi)
-
-## :::tip Tutoriel Vidéo 🎥
-Pour en savoir plus sur la [Connection aux Serveurs](/video-tutorials#server-connections) consultez nos tutoriels vidéo.
+:::info
+The only information that we will receive is the content that users specifically add on the feedback form. If users are requesting support or want us to follow up with them, they should provide a secure way for us to contact them.
 :::
 
-Appareil photo (photos et vidéos) {#camera-photos-and-videos}
+## Importer des fichiers depuis l’appareil {#import-files-from-device}
 
-## Tella propose un appareil photo intégré où vous pouvez prendre des photos et des vidéos. Tous les médias collectés dans Tella ne seront pas disponibles en dehors de celui-ci, car tous les fichiers sont cryptés dès qu'ils sont récupérés. Les fichiers ne sont accessibles que dans Tella, en utilisant le verrou pour ouvrir l'application. Les photos et vidéos n'apparaîtront pas dans la galerie du téléphone. Dans Tella, les photos et vidéos auront un nom par défaut, mais vous les renommer à l'aide du bouton Renommer. Les fichiers peuvent également être organisés en dossiers. 📷
-La caméra offre la possibilité de changer la résolution des vidéos avant l'enregistrement afin de gagner de la place : plus la résolution est basse, moins la vidéo prend de place, mais aussi plus la qualité de la vidéo est faible. 🎥 💾
+The user can import files into Tella to keep them secured by using the import feature. They can import files by going to the **Add ( + )** button on either All files, Images, Video, Audio or Documents depending on the type of file they wish to import and then **Import from device** 📥. A prompt will appear asking the user if they would like to keep or delete the original file from their phone memory. The imported files will be kept secured at Tella.
 
-## Dans [Tella-FOSS](/faq#is-tella-available-on-f-droid), où nous utilisons la bibliothèque CameraX entièrement open source, certaines fonctionnalités de l'appareil photo (zoom, retournement de la caméra, activation du flash, activation de la grille, changer la résolution vidéo) ne sont pas disponibles.
-Sélectionner la résolution vidéo {#select-video-resolution}
+:::tip video tutorial 🎥
+Learn more about [Collecting Evidence](video-tutorials#collecting-evidence) and [Sharing data](/video-tutorials#sharing-data-with-other-apps) in our video tutorials.
+:::
 
-## Résolution la plus élevée possible
+## Préserver les métadonnées lors de l’importation {#preserve-metadata-when-importing}
 
-Haute résolution (1080p)
+On **Settings** > **Security** users have the option to Preserve or delete the file’s metadata when importing Photos and Videos to Tella. EXIF metadata of files might include data about when the file was created, camera settings or location of the device.
 
-1. Moyenne résolution (720p)
-2. Basse résolution (480p)
+## Analyses préservant la confidentialité (avec consentement) {#privacy-preserving-analytics}
 
-La résolution vidéo fait référence au nombre de pixels dans chaque image de la vidéo. Des résolutions plus élevées, telles que 1080p ou 720p, permettent d'obtenir des vidéos plus nettes et plus détaillées. Cependant, gardez à l'esprit que les vidéos à haute résolution ont également des fichiers de plus grande taille, ce qui peut nécessiter plus d'espace de stockage sur votre appareil.
+Android users can opt-in to share analytics to improve Tella. All information is anonymous, aggregated and can never be linked to individual users. For technical information about what system we use and what metrics we collect, visit the [Analytics section of the Security and Privacy page](/security-and-privacy#analytics).
 
-Il est important de noter que la sélection de la résolution vidéo n'est actuellement disponible que sur les appareils Android.
+## Ouvrir des fichiers dans Tella {#open-files-in-tella}
 
-Enregistreur audio {#audio-recorder}
+Images, vidéos, PDFs et fichiers audio peuvent être visualisés dans Tella. 📱📄
 
-Tella dispose d'un enregistreur audio intégré. Tout l'audio enregistré dans Tella ne sera pas disponible en dehors de celui-ci, car tous les fichiers sont chiffrés dès leur capture. Les fichiers audio ne sont accessibles que dans Tella, en utilisant le verroullage pour ouvrir l'application. Les enregistrements n’apparaîtront pas sur l’application d’enregistrement vocal ou sur le système de fichiers du téléphone. Dans Tella, les fichiers audio auront un nom par défaut, mais les utilisateurs peuvent les renommer à l'aide du bouton Renommer. Les enregistrements audio peuvent également être organisés dans des dossiers. 🎤 🎧
+## Camouflage {#camouflage}
 
+Sur Tella Android, il est possible de camoufler Tella de deux manières :
 
-## L'enregistreur audio  vous permet de mettre l'enregistrement en pause et de le redémarrer si nécessaire, en conservant toutes les informations sur le même fichier. Voous pouvez voir combien d'espace vous disposez disposent pendant l'enregistrement, pour s'assurer que vous n'en manqueront pas pendant l'opération. 📈 💾
+1. Les utilisateurs peuvent changer le nom et l’icône de l’application, pour la faire ressembler à une autre application (comme un jeu ou une application météo). Il y a 28 noms et icônes disponibles pour masquer Tella. 🎮🌦️
+2. Les utilisateurs peuvent cacher Tella derrière une calculatrice entièrement fonctionnelle. Pour ouvrir Tella, l’utilisateur doit saisir son code PIN dans la calculatrice, suivi de **=**. Le camouflage de la calculatrice n’est possible que si l’utilisateur utilise un code PIN. Il n’est pas possible de camoufler Tella en calculatrice si un motif ou un mot de passe est utilisé. 🔢🔒
 
-Collecte de données hors ligne {#offline-data-collection}
+À l’heure actuelle, en raison des restrictions de l’App Store d’Apple, Tella pour iOS ne prend pas en charge les fonctionnalités de camouflage disponibles sur Tella Android.
 
-Tella, une fois installée et configurée sur le téléphone, n'a pas besoin d'une connexion internet pour collecter des données. 📲 Une connexion internet n'est nécessaire que pour partager des fichiers via d'autres applications ou via Connections. 🌐 Si vous avez un serveur connecté, une fois les formulaires ou les modèles téléchargés sur le téléphone, toutes les données collectées seront stockées dans l'onglet de la boîte d'envoi et vous pourrez les télécharger sur le serveur une fois que vous vous serez connecté à Internet. 📩
+:::danger
+Le nom « Tella » et son icône resteront visibles dans les paramètres Android. Cela signifie que le camouflage ne protégera pas contre une personne qui cherche activement Tella sur le téléphone ou qui effectue une analyse approfondie de l’appareil. 🔒👀
+:::
+
+:::info
+The Calculator camouflage feature cannot be enabled if the Restrict unlock attempts feature is on.
+:::
+
+:::tip video tutorial 🎥
+Learn more about [Camouflaging Tella](/video-tutorials#camouflaging-tella) in our video tutorial.
+:::
+
+## Personnalisation de l’écran d’accueil {#homescreen-customization}
+
+Par défaut, l’écran d’accueil de Tella organise les fichiers par type : 📷 images, 🎥 vidéos, 🎧 audio, 📄 documents et autres fichiers. Il fournit également une section Tous les fichiers où tous les fichiers sont accessibles.
+
+Pour plus de commodité et de facilité d’accès, il est également possible de personnaliser l’écran d’accueil pour afficher également des raccourcis vers un ou plusieurs des éléments suivants :
 
 * Fichiers récents, pour ouvrir rapidement les fichiers les plus récents dans Tella 💼
-* Formulaires favoris,  si vous êtes connectés à un serveur ODK 📝
+* Formulaires favoris, si vous êtes connectés à un serveur ODK 📝
 * Modèles favoris, si vous êtes connectés à un serveur Uwazi 📋
 
 Cette configuration se trouve dans **Paramètres** > **Général**.
@@ -349,24 +341,12 @@ Users can collect data directly in Tella, keep the data protected within the app
 
 Actuellement, les serveurs pouvant être connectés à Tella sont :
 
-* [Uwazi](#uwazi)
-* [Tella Web](#tella-web)
-* Celles-ci sont appelées [Connexions](/features#connecting-to-servers) dans Tella.
-* Sélectionner le bon type de serveur {#selecting-the-right-type-of-server}
-* Voici un graphique de base non exhaustif pour vous aider à déterminer lequel des trois types de serveurs est le mieux adapté à différents besoins. C'est un bon point de départ, mais vous pouvez également regarder [cette vidéo](/video-tutorials#connections-full-video) où nous présentons chaque type de serveur. Si vous avez besoin d'aide pour décider ou si vous souhaitez demander une nouvelle connexion (une intégration à un nouveau type de serveur), [contactez-nous !](/contact-us).
-* ```mermaid
-graph TD;
-    id1(Quel type de données les utilisateurs doivent-ils envoyer?) --> id2("Données principalement structurées (formulaires), avec des pièces jointes multimédias");
-    id1 --> id3("Données principalement multimédias, avec du texte") ;
-    id2 --> id4("De quelles fonctionnalités supplémentaires avez-vous besoin?");
-    id3 --> id5("Tella Web");
-    id4 --> id6("Établir des relations entre les points de données, publier sur un site Web")
-    id4 --> id7("Ajouter une logique aux formulaires, collecter des nombres élevés pour les formulaires, créer des rapports pour visualiser les résultats")
-    id4 --> id10("Envoyer des guides du serveur aux utilisateurs")
-    id6 --> id8("Uwazi")
-    id7 --> id9("Open Data Kit (ODK)")
-    id10 -->id5
-```
+* [Open Data Kit (ODK)](/odk)
+* [Uwazi](/uwazi)
+* [Tella Web](/tella-web)
+* [Google Drive](/g-drive)
+* [Nextcloud](/nextcloud)
+* [Dropbox](/dropbox)
 
 You can [read more about servers and how organizations have been using this feature here](/for-organizations).
 

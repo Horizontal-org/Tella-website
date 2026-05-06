@@ -11,7 +11,7 @@ slug: /nextcloud
 
 Tella permite a la(o)s usuaria(o)s iniciar sesión en su cuenta de Nextcloud directamente desde Tella y subir archivos directamente en ella.
 
-De manera similar a otras conexiones de servidor (como [Tella Web](/tella-web), [Google Drive](/g-drive), [Uwazi](/uwazi) u [Open Data Kit](/odk)), conectar a un servidor Nextcloud mejora la seguridad de los datos recopilados en Tella al:
+De manera similar a otras conexiones de servidor (como [Tella Web](/tella-web), [Google Drive](/g-drive), [Dropbox](/dropbox), [Uwazi](/uwazi) u [Open Data Kit](/odk)), conectar a un servidor Nextcloud mejora la seguridad de los datos recopilados en Tella al:
 
 1. Permitir a la(o)s usuaria(o)s a recopilar datos directamente dentro de un contenedor cifrado de Tella.
 2. Garantizar que los datos son enviados directamente de Tella a Nextcloud, sin tener que instalar la app de Nextcloud en el dispositivo o enviar datos a través de una app de terceras partes.
@@ -20,10 +20,9 @@ De manera similar a otras conexiones de servidor (como [Tella Web](/tella-web), 
 
 Los envíos a Nextcloud toman la forma de "informes" lo cual incluye un título, una descripción de texto y archivos como fotos, videos, grabaciones de audio y documentos pdf.
 
-:::info
-La conexión a Nextcloud [solo está disponible en iOS](/features). Actualmente estamos trabajando para añadirla a Tella en Android también.
+:::danger
+Even though data is transferred to the server securely (SSL), anyone with access to the Nexctloud account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
 :::
-
 
 ## Cuándo Usar Nextcloud {#when-to-use-Nextcloud}
 
@@ -38,11 +37,16 @@ La conexión a Nextcloud puede ser particularmente adecuada para:
 Si necesitas ayuda para determinar si Nextcloud es la mejor opción para tu caso de uso, [revisa esta guía]/for-organizations#selecting-the-right-type-of-server) o [contáctanos](/contact-us)!
 :::
 
+:::tip
+For now, we don't support two-factor authentication (2FA) for Nextcloud connections on Tella Android and iOS. If this is a pressing need of yours, please [let us know](/contact-us)!
+:::
+
+
 ## Conectate a Nextcloud {#connect-to-Nextcloud}
 
 Para conectarse a Nextcloud:
 
-* Navega a **Configuración ⚙️** > **Servidores** > **+**
+* Navega a **Configuración ⚙️** > **Conexiones** > **+**
 * Selecciona "Nextcloud" de la lista de tipos de servidores disponibles.
 * Escribe la URL de tu servidor Nextcloud.
 * Introduce tu nombre de usuario y contraseña de Nextcloud.
@@ -51,7 +55,7 @@ Para conectarse a Nextcloud:
 
 ## Administra la conexión Nextcloud {#manage-the-Nextcloud-connection}
 
-* En **Configuración ⚙️** > **Servidores** > **Nextcloud** >  **⫶** puedes:
+* En **Configuración ⚙️** > **Conexiones** > **Nextcloud** > **⫶** puedes:
   - Eliminar la conexión
 
 Por el momento no es posible iniciar sesión en múltiples cuentas de Nextcloud a la vez. Si deseas iniciar sesión en otra instancia de Nextcloud, elimina tu conexión a Nextcloud y crea una nueva.
@@ -72,9 +76,15 @@ Por el momento no es posible iniciar sesión en múltiples cuentas de Nextcloud 
     * Si el envío falla debido a problemas de conectividad, el informe se va a la pestaña "Bandeja de Salida".
     * Si el informe es enviado correctamente, se va a la pestaña "Enviados" y se creará una nueva carpeta en Nextcloud con el título que seleccionaste. Todos los adjuntos serán añadidos a la carpeta y la descripción será añadida como un archivo de texto dentro de la carpeta.
 
+:::info
+On Android, [a known Nextcloud issue](https://help.Nextcloud.com/t/cant-upload-files-langer-than-20-mb-using-Nextcloud-android-app/196434) prevents files larger than 20MB from being submitted to a Nextcloud server. For that reason, Tella users cannot attach files larger than 20MB to Reports uploaded to a Nextcloud connection. We are monitoring the status of this issue and will remove Tella's file-size restriction as soon as it is solved by Nextcloud.
+:::
 
 ## Borradores de Informes {#draft-reports}
 
+A Draft report is a report that was created and saved but not yet submitted. Drafts reports are useful to save work in progress that can be editted later on. It allows users to create reports offline or over a long period of time before finalizing and sending them. This is especially useful in low-connectivity areas or when a user needs to gather information in multiple stages.
+
+Reports in the Draft tab can be edited.
 
 * En la pantalla "Nuevo informe", toca el botón "Guardar borrador" para guardar el informe como un borrador.
     * Se mostrará un mensaje de confirmación, y puedes continuar trabajando en el informe o salir y regresar más tarde.
@@ -101,12 +111,15 @@ Eliminar un informe en medio de un envío cancelará la subida de los archivos q
 
 
 #### Bandeja de Salida {#outbox}
-
 La Bandeja de Salida contiene informes que han sido guardados para enviar. Esto podría ser:
 
 * Envíos pausados
 * Envíos de informes que fueron interrumpidos debido a problemas de conectividad.
 * Informes que fueron marcados como "Enviar luego".
+
+:::tip
+If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+:::
 
 
 #### Informes Enviados {#submitted-reports}

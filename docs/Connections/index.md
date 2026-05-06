@@ -1,6 +1,6 @@
 ---
 id: connections
-title: Connexions
+title: Connections
 description: Overview about how to share data with others using Tella Connections - Server Connections (Google Drive, Dropbox, Uwazi, ODK, Tella Web and Nextcloud) and Nearby Sharing (offline sharing)
 slug: /connections
 sidebar_position: 4
@@ -37,7 +37,7 @@ We designed this connection type with a strong focus on security, especially for
 <Button label="Continue reading about Nearby Sharing" link="/nearby-sharing"/>
 
 
-## Connexions au serveur {#server-connections}
+## Server Connections {#server-connections}
 
 Server Connections are useful for organizations leading data collection processes. Organizations can choose, configure, and manage a server to centralize data collected by volunteers or activists in the field. These individuals gather information using Tella on their devices and then send it to their organization.
 

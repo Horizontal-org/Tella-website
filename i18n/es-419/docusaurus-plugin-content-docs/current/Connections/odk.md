@@ -1,6 +1,6 @@
 ---
 id: odk
-title: Open Data Kit (ODK)
+title: Open Data Kit (ODK - Kit de Datos Abiertos)
 description: La conexión a servidor Open Data Kit está disponible para organizaciones que buscan recopilar datos estructurados utilizando formularios.
 slug: /odk
 ---
@@ -11,14 +11,19 @@ El [Open Data Kit (ODK - Kit de Datos Abiertos)](https://getodk.org/) es un est�
 
 Un servidor Open Data Kit permite a las organizaciones agregar, en un repositorio central, datos recopilados por sus miembros o socia(o)s. La(o)s usuaria(o)s de Tella se conectan a la instancia ODK de su organización, rellenan formularios cuantas veces necesiten (incluso si no tienen conexión a internet), y suben los datos. Organizaciones pueden descargar los datos del servidor o analizarla en el servidor, dependiendo de las alternativas del servidor elegido.
 
-Similarly to any other server connection (like [Tella Web](/tella-web), [Google Drive](/g-drive), [Dropbox](/dropbox), [Nextcloud](/nextcloud) or [Uwazi](/uwazi)), connecting to the ODK server enhances the security of data collected on Tella by:
+De manera similar a otras conexiones de servidor (como [Tella Web](/tella-web), [Google Drive](/g-drive), [Dropbox](/dropbox), [Nextcloud](/nextcloud) o [Uwazi](/uwazi)), conectar al servidor ODK mejora la seguridad de los datos recopilados en Tella al:
 
 1. Permitir a la(o)s usuaria(o)s a recopilar datos directamente dentro de un contenedor cifrado de Tella.
 2. Garantizar que los datos son enviados directamente de Tella al servidor ODK, sin tener que depender de una herramienta o app de terceras partes.
 3. Permitir que usuaria(o)s respalden sus datos en un servidor remoto, para reducir el riesgo de que los datos sean descubiertos en su dispositivo móvil.
 4. Asegurar que las organizaciones puedan conservar información importante incluso en caso de confiscación o destrucción de dispositivo, y puedan organizarla para procesos de  investigación, incidencia, o rendición de cuentas.
 
-### Elige e instala tu servidor ODK{#choosing-and-installing-your-odk-server}
+:::danger
+Even though data is transferred to the server securely (SSL), anyone with access to the ODK account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+:::
+
+
+### Choosing and Installing Your ODK Server {#choosing-and-installing-your-odk-server}
 
 Porque ODK es un estándar abierto, se puede utilizar Tella con cualquier herramienta que cumpla con ODK.
 
@@ -132,3 +137,8 @@ Debajo una vista general de los tipos de funciones ODK que son admitidos en Tell
 | [Filtrar opciones en preguntas de selección](https://docs.getodk.org/form-logic/#filtering-options-in-select-questions) | ✔️ |
 | [Generar seleccionadas desde repeticiones](https://docs.getodk.org/form-logic/#generating-select-ones-from-repeats) | ❌ |
 | [Form metadata (background data collection)](https://docs.getodk.org/form-audit-log/) | ❌ |
+
+
+:::tip
+If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+:::

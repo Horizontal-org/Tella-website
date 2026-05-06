@@ -1,6 +1,6 @@
 ---
 id: discover
-title: Découvrir Tella
+title: Discover Tella
 description: In depth description about Tella features, including accesibility and security decisions.
 slug: /discover
 sidebar_position: 2
@@ -10,7 +10,7 @@ sidebar_position: 2
 import Link from '@docusaurus/Link'
 
 
-# Découvrir Tella
+# Discover Tella
 
 
 <div class="doc-card-list">

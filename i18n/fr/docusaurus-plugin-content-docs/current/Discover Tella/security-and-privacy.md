@@ -1,6 +1,6 @@
 ---
 id: security-and-privacy
-title: Sécurité et protection des données personnelles
+title: Sécurité et confidentialité
 description: Informations sur la sécuritée et la confidentialité dans Tella.
 slug: /security-and-privacy
 sidebar_position: 2
@@ -37,7 +37,7 @@ En raison des politiques strictes d’Apple concernant les applications iOS, Tel
 
 ## Analyses {#analytics}
 
-In Tella Android, Tella FOSS and [Tella Web](/tella-web), users can choose to share analytics to improve Tella. This data helps us understand how people use Tella and which features are important to them. ***Analytics data is only collected if users opt-in in the app's settings***
+Dans Tella Android, Tella FOSS et [Tella Web](/tella-web), les utilisateurs peuvent choisir de partager des analyses pour améliorer Tella. Ces données nous aident à comprendre comment les gens utilisent Tella et quelles fonctionnalités sont importantes pour eux. ***Les données d'analyse ne sont collectées que si les utilisateurs choisissent de les accepter dans les paramètres de l'application***
 
 Nous utilisons [Divvi Up](https://divviup.org/), un service de télémétrie respectueux de la vie privée. Divvi Up est mis en œuvre par le [Internet Security Research Group (ISRG)](https://www.abetterinternet.org/), une organisation à but non lucratif qui gère également le projet [Let’s Encrypt](https://letsencrypt.org/).
 
@@ -48,7 +48,7 @@ Voici quelques informations sur notre approche analytique respectueuse de la vie
 3. **Nous collectons le moins de données possible**: Même si toutes les données sont anonymisées, nous minimisons toujours la quantité de données que nous collectons. À partir des dernières versions de Tella, nous collectons uniquement des données sur les événements suivants (et rien de plus):
 
     **Tella Android and Tella FOSS**
-    - Number of times Tella is successfully unlocked.
+    - Nombre d'événements de déverrouillage réussis.
     - Number of media files recorded (videos/photos taken and audio recordings captured).
     - Number of files imported from the device's gallery or file system into Tella.
     - Number of security features activated (number of times that camouflage is enabled, number of times that the quick delete action is triggered).
@@ -59,9 +59,9 @@ Voici quelques informations sur notre approche analytique respectueuse de la vie
 
     **Tella Web**
    The data below is only collected from Tella Web instances that have opted-in to share privacy-preserving analytics with the Tella team.
-    - Number of visits (triggered every time someone enters any Tella Web instance).
-    - Number of file uploads (triggered every time someone uploads a file to any Tella Web instance).
-    - Number of Report uploads (triggers every time someone uploads a report to any Tella Web instance).
+    - Nombre de visites (déclenché chaque fois que quelqu'un entre dans une instance Tella Web).
+    - Nombre de téléchargements de fichiers (déclenché chaque fois que quelqu'un télécharge un fichier sur une instance tellaweb).
+    - Nombre de rapports (déclenché chaque fois que quelqu'un télécharge un rapport sur une instance tellaweb).
 
 
 Pour plus d'informations sur les métriques que nous ajoutons à nos applications, consultez nos [notes de publication](/releases).
@@ -74,7 +74,7 @@ Tella dispose de plusieurs mesures de sécurité afin d'atteindre un niveau de s
 
 
 1. **Chiffrement au repos**: Toutes les données sont chiffrées au repos, sur l'appareil de l'utilisateur. Cela signifie qu'à moins que l'application ne soit déverrouillée (en saisissant le mode de déverroullage de l'utilisateur ou utilisatrice), les données qu'elle contient ne sont pas du tout accessibles. les données resteront illisibles, même si quelqu'un s'empare du téléphone et en extrait toutes les données à l'aide d'un ordinateur.
-2. **Encryption in transit:** All data being transferred between Tella and servers (see [Connections section](/connections)) is encrypted through[Transport Layer Security (TLS)](https://en.wikipedia.org/wiki/Transport_Layer_Security). Tella makes it impossible to send data to a server without TLS encryption.
+2. **Cryptage en transit:** Toutes les données transférées entre Tella et les serveurs (voir [Section Connexions](/features#connecting-to-servers)) sont cryptées via[Transport Layer Security (TLS)](https://fr.wikipedia.org/wiki/Transport_Layer_Security). Tella rend impossible l'envoi de données à un serveur sans cryptage TLS.
 3. **Verrouillage**: les utilisateurs et utilisatrices de Tella [choisissent une méthode de verroullage](/features#app-lock) pour l'application dès qu'ils l'installent. Ils ou elles peuvent utiliser un mot de passe, modèle et code PIN sont disponibles et chaque niveau de sécurité leur est communiqué.
 4. **Délai du verrouillage :** Les utilisateurs ou utilisatrices peuvent également configurer un [délai d'expiration du verrouillage](/features#lock-timeout-configuration), pour choisir la rapidité avec laquelle Tella se verrouillera lorsqu'il n'est pas utilisé. Par défaut, le délai d'expiration du verrouillage est défini sur « immédiatement ». Ainsi, dès que l'utilisateur ou utilisatrice quitte Tella, l'application se verrouille et toutes les données sont cryptées.
 5. **Camouflage**: sur Tella Android, il existe actuellement [deux modes de camouflage](features#camouflage) pour Tella : une calculatrice entièrement fonctionnelle et la possibilité de modifier le nom et l'icône de l'application pour la rendre plus difficile à trouver sur le téléphone. En raison des restrictions sur iOS, il n'est pas possible de camoufler Tella pour iOS.
