@@ -135,15 +135,15 @@ Bien que ce paramètre de sécurité empêche les tentatives forcées de déverr
 
 Nous sommes en train d'ajouter la possibilité de modifier des fichiers multimédias directement dans Tella. Bientôt, les utilisateurs n'auront plus besoin d'exporter leurs fichiers en dehors de Tella pour les modifier. Tella Android et Tella iOS démarrent avec des fonctionnalités de retouche photo (recadrage et rotation).
 
-| **Type de média** | **Fonctionnalité** | **Tella Android** | **Tella iOS** | **Tella FOSS** |
+| **Media Type** | **Feature** | **Tella Android** | **Tella iOS** | **Tella FOSS** |
 |----------------|-------------|-------------------|---------------|----------------|
 | Image          | Crop        | ✔️                | ✔️            | ✔️             |
 | Image          | Rotate      | ✔️                | ✔️            | ✔️             |
-| Image          | Flip        | ✔️                | Pas encore    | ✔️             |
-| Image          | Auto-zoom   | ✔️                | Pas encore    | ✔️             |
-| Video          | Trim        | Pas encore        | ✔️            | Pas encore     |
-| Video          | Rotate      | Pas encore        | ✔️            | Pas encore     |
-| Audio          | Trim        | Pas encore        | ✔️            | Pas encore     |
+| Image          | Flip        | ✔️                | Not yet       | ✔️             |
+| Image          | Auto-zoom   | ✔️                | Not yet       | ✔️             |
+| Video          | Trim        | Not yet           | ✔️            | Not yet        |
+| Video          | Rotate      | Not yet           | ✔️            | Not yet        |
+| Audio          | Trim        | Not yet           | ✔️            | Not yet        |
 
 Users can edit a picture by going to **More** > **Edit** from the **Images** folder or by tapping the **Edit** button on the top right while viewing image you have on Tella.
 - **Rotation** : Utilisez le bouton Rotation en bas de l'écran pour faire pivoter l'image dans le sens antihoraire.
@@ -197,13 +197,13 @@ Dans Tella, vous pouvez :
 * Créer des dossiers et des sous-dossiers.
 * Déplacer des fichiers dans des dossiers et d'un dossier à un autre.
 * Exporter des fichiers vers votre appareil. Une fois enregistrés sur votre appareil en dehors de Tella, les fichiers ne sont plus chiffrés et peuvent être consultés par toute personne qui fouille l'appareil.
-* Importer des fichiers depuis votre appareil. Les fichiers sont automatiquement chiffrés lorsqu'ils sont importés dans Tella.
+* Import files from their device. Files are automatically encrypted when imported into Tella.
 
 :::danger
 L'importation de fichiers du système de fichiers de l'appareil dans Tella crée une copie des fichiers dans Tella. Tella vous demandera si vous souhaitez conserver ou supprimer le fichier original de votre téléphone lors de l'importation. Si vous choisissez de conserver le fichier original, il sera présent sur l'appareil, en dehors de Tella et non crypté. 🔒
 :::
 
-## Commentaires {#feedback}
+## Retour d'information {#feedback}
 
 Il existe plusieurs options vous permettant de [contacter l'équipe Tella](/contact-us) afin de suggérer des améliorations, de signaler des bogues et des problèmes et de demander de l'aide. Vous pouvez le faire de 2 manières:
 
@@ -213,7 +213,7 @@ Il existe plusieurs options vous permettant de [contacter l'équipe Tella](/cont
 
 2. **Formulaire de commentaires intégré:**
    - Allez dans **Paramètres** > **Commentaires** pour ajouter un commentaire.
-   - Cela vous permet de partager vos commentaires avec l'équipe Tella de manière anonyme.
+   - This allows users to share feedback with the Tella team anonymously.
 
 :::info
 La seule information que nous recevrons est le contenu que vous ajouterez spécifiquement sur le formulaire de commentaires. Si vous souhaitez demander de l'aide ou un suivi avec vous, vous devez nous fournir un moyen sécurisé de vous contacter.

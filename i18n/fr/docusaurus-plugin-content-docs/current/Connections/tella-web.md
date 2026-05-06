@@ -69,9 +69,7 @@ Consultez [ce tutoriel vidéo](/video-tutorials#connections-full-video) pour voi
 
 ### Centre d'administration {#admin-center}
 
-Les administrateurs de l'espace Web Tella peuvent modifier les paramètres à l'échelle du système.
-
-#### Configurer les paramètres des espaces {#configure-spaces-settings}
+#### Configure spaces' settings {#configure-spaces-settings}
 
 Admins of the Tella Web space can enable or disable system-wide settings depending on their own risk assessment and privacy consideration:
 - [Opt-in to share analytics with Tella team](/security-and-privacy#analytics).
@@ -85,14 +83,14 @@ Admins of the Tella Web space can enable or disable system-wide settings dependi
     - To ensure user privacy and anonymity, only essential data is transmitted to our Feedback server through HTTPS POST requests. Logs containing user information (IP address, date and time, and user-agent) are automatically deleted weekly.
     - On the Feedback server database, we only store a copy of the text sent by users in the feedback form and which platform it came from (in this case from "Tella Web" without specifying which server installation). 
 
-#### Sauvegarder votre espace {#backup-your-space}
+#### Backup your space {#backup-your-space}
 
-Les administrateurs de l'instance Tella Web peuvent exporter toutes les données hors de Tella Web en générant une sauvegarde. Les sauvegardes peuvent être utilisées pour transférer les données vers un autre emplacement, notamment un ordinateur, une clé USB, un disque externe ou un serveur distant. L'action de génération de la sauvegarde s'exécute en arrière-plan et, si elle est déclenchée, une notification par e-mail sera envoyée à la personne ayant généré la sauvegarde lorsqu'elle sera prête à être téléchargée. Cependant, toutes les sauvegardes sont accessibles dans le Centre d'administration pour tous les utilisateurs disposant d'un accès administrateur.
+Admins of the Tella Web instance can export all data out of Tella Web by generating a backup. Backups can be used to port the data to another location, including a computer, a USB flash drive, an external disk or a remote server.  The action to generate the backup runs in the background and, if triggered, an email notification will be sent to the person who generated the backup when it is ready to download. However, all backups are accessible in the Admin Center to all users with admin access.
 
-La sauvegarde est une exportation complète de tout le contenu de l'espace : y compris tous les projets, rapports, utilisateurs et ressources, ainsi que toutes les métadonnées. L'exportation est un fichier zip contenant un ensemble de fichiers CSV et de dossiers avec les médias téléversés. Pour le moment, il n'est pas possible de réimporter la sauvegarde dans une instance Tella Web depuis le Centre d'administration, mais chaque sauvegarde inclut un fichier .sql que les utilisateurs avancés peuvent utiliser pour importer les données directement dans la base de données.
+The backup is a full export everything in the space: including all Projects, Reports, Users and Resources, plus all metadata. The export is a zip file including a collection of CSVs and folders with with the uploaded media. For now, there is no way to import the backup back into a Tella Web instance from the Admin Center, but each backup includes a .sql file that advanced users can use to import the data to the database directly. 
 
 :::warning
-Les informations contenues dans la sauvegarde sont hautement sensibles; elles comprennent non seulement toutes les données (non chiffrées), mais aussi des informations sur les utilisateurs de Tella Web. Veuillez faire preuve de prudence lors de la génération de la sauvegarde.
+The information included in the backup is highly sensitive, it not only contains all the data (unencrypted) but also information about the Tella Web users. Please proceed with caution when generating the backup.
 :::
 
 
@@ -130,11 +128,9 @@ Vous pouvez ouvrir, supprimer ou télécharger des rapports (en fonction des per
 
 Dans l'écran "Paramètres du projet", vous pouvez configurer le projet :
 
-La section "Général" vous permet de renommer le projet, d'afficher ses détails du projet et de modifier son URL.
-
-La section « Gérer les accès » vous permet d'ajouter ou de supprimer des utilisateurs du projet. Plus d'informations sur les rôles des utilisateurs [ici](/tella-web#managing-users)
-
-La section "Zone de danger" vous propose des options pour supprimer le projet, y compris tous les rapports qu'il contient.
+* La section "Général" vous permet de renommer le projet, d'afficher ses détails du projet et de modifier son URL.
+* La section « Gérer les accès » vous permet d'ajouter ou de supprimer des utilisateurs du projet. Plus d'informations sur les rôles des utilisateurs [ici](/tella-web#managing-users)
+* La section "Zone de danger" vous propose des options pour supprimer le projet, y compris tous les rapports qu'il contient.
 
 
 #### Supprimer un projet {#delete-a-project}
@@ -170,14 +166,14 @@ Les utilisateurs et utilisatrices constituent un élément important dans le fon
 
 Voici une présentation détaillée des permissions attribuées à chaque rôle :
 
-| |Rapporteur |Lecteur|Éditeur|Admin |
+| |Journaliste |Lecteur ou lectrice|Éditeur ou Editrice|Admin |
 |--------|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|--|
 |**Sur Tella mobile**|
 | Créer et charger des rapports | ✅|✅|✅|✅| 
 |**Sur Tella Web**| 
 | Connectez-vous à Tella Web |❌|✅|✅|✅| 
 | Afficher les rapports |❌|✅|✅|✅| 
-| Modifier des rapports (renommer) |❌|❌|✅|✅| 
+| Modifier les rapports (renommer) |❌|❌|✅|✅| 
 | Supprimer les rapports |❌|❌|✅|✅| 
 | Modifier des projets (créer, renommer, modifier l'URL) |❌|❌|✅|✅| 
 | Supprimer des projets |❌|❌|✅|✅| 
@@ -190,35 +186,35 @@ Voici une présentation détaillée des permissions attribuées à chaque rôle 
 
 #### Création d'utilisateurs {#creating-users}
 
-Sur la barre supérieure, au-dessus de la liste des utilisateurs, l'administrateur du serveur peut cliquer sur le bouton "Créer un utilisateur" pour créer un nouvel utilisateur sur le serveur. L'e-mail, le mot de passe, la confirmation du mot de passe et le rôle sont nécessaires pour créer des utilisateurs.
+Dans la barre supérieure, au-dessus de la liste des utilisateurs, l'admin du serveur peut cliquer sur le bouton "Créer un utilisateur" pour créer un nouvel utilisateur ou une nouvelle utilisatrice sur le serveur. L'e-mail, le mot de passe, la confirmation du mot de passe et le rôle sont requis pour faire cela.
 
-Sur le champ du mot de passe, un indicateur de sécurité du mot de passe aide les administrateurs à créer des mots de passe sécurisés. Nous estimons la complexité du mot de passe en utilisant la bibliothèque [zxcvbn](https://github.com/dropbox/zxcvbn) qui prend en compte :
-- Les caractères (plus de 10)
-- La complexité (minuscules, majuscules, chiffres, symboles)
+Dans le champ du mot de passe, un indicateur de sécurité du mot de passe aide les admins à créer des mots de passe sûrs. Nous estimons la complexité des mots de passe à partir de la bibliothèque [zxcvbn](https://github.com/dropbox/zxcvbn) qui tient compte des éléments suivants :
+- Charactères (plus de 10)
+- Complexité (minuscules, majuscules, chiffres, symboles)
 - Aucun modèle commun comme les dates, répétitions (aaa), séquences (abcd), modèles de clavier (qwertyuiop)
-- Aucun mot de passe courant comme les noms, villes, etc.
+- Pas de mots de passe courants comme les noms, les villes, etc.
 
 
 #### Gérer l'accès aux projets {#managing-access-to-projects}
 
-Dans la section "Gérer l'accès" de l'écran "Paramètres du projet", les admins peuvent attribuer des utilisateurs existants au projet. Cliquez sur le champ "Ajouter des utilisateurs". Un menu déroulant affichera tous les utilisateurs du serveur. Faites défiler la liste ou saisissez du texte pour rechercher un utilisateur par son nom d'utilisateur.
-Après avoir sélectionné les utilisateurs à ajouter au projet, cliquez sur le bouton "Ajouter" pour enregistrer les modifications et accorder l'accès au projet.
+Dans la section « Gérer l'accès » de l'écran « Paramètres du projet », les admins peuvent attribuer des utilisateurs ou utilisatrices existants au projet. Cliquez sur le champ "Ajouter des utilisateurs". Un menu déroulant affichera tous les utilisateurs et utilisatrices sur le serveur. Faites défiler la liste ou tapez pour rechercher quelqu'un par son nom d'utilisateur.
+Après avoir sélectionné les personnes à ajouter au projet, cliquez sur le bouton « Ajouter » pour enregistrer les modifications et leur accorder l'accès au projet.
 
 :::info
-La liste complète des utilisateurs qui peuvent soumettre des rapports au projet comprend les utilisateurs répertoriés dans cette section ainsi que tous les administrateurs du serveur.
+La liste complète des utilisateurs pouvant soumettre des rapports au projet comprend les utilisateurs répertoriés dans cette section ainsi que tous les administrateurs du serveur.
 :::
 
 ### Gestion des ressources {#managing-resources}
 
-Tella Web permet aux organisations de diffuser en toute sécurité des ressources et des documents à leurs utilisateurs, directement dans le conteneur crypté de Tella. Les ressources peuvent être utilisées pour soumettre des instructions de collecte de données, des messages ou des guides sur la façon de collecter des données.
+Tella Web permet aux organisations de diffuser en toute sécurité des ressources et du matériel à leurs utilisateurs directement dans le conteneur crypté de Tella. Les ressources peuvent être utilisées pour soumettre des instructions de collecte de données, des messages ou des guides sur la façon de collecter des données.
 
 #### Créer des ressources pour l'espace {#creating-resources-to-the-space}
 
-Les administrateurs peuvent créer des ressources pour l'espace en accédant à la barre latérale gauche **Ressources**. Pour le moment, les ressources peuvent être créées en téléchargeant des PDF. Nous recommandons de les garder en dessous de 20 Mo pour s'assurer que les utilisateurs peuvent les télécharger même si Internet est lent.
+Les administrateurs peuvent créer des ressources pour l'espace en accédant à la barre latérale gauche **Ressources**. Pour le moment, les ressources peuvent être créées en téléchargeant des fichiers PDF. Nous vous recommandons de les conserver en dessous de 20 Mo pour vous assurer que les utilisateurs peuvent les télécharger même si Internet est lent.
 
 Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.
 
-Sur le même écran, les administrateurs d'espace peuvent gérer les ressources. Les options suivantes sont disponibles :
+Sur le même écran, les administrateurs d'espace peuvent gérer les ressources. Les options suivantes sont disponibles
 - Téléchargez les ressources individuellement ou téléchargez plusieurs ressources.
 - Ouvrez chaque ressource pour la visualiser.
 - Découvrez sur quels projets chaque ressource est ajoutée en appuyant sur Aperçu

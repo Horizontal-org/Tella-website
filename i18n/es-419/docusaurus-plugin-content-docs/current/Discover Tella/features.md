@@ -137,7 +137,7 @@ Aunque está configuración de privacidad evita los intentos de desbloqueo por f
 ## Editar archivos multimedia {#edit-media}
 Estamos en proceso de añadir la habilidad de editar archivos multimedia directamente dentro del contenedor cifrado de Tella, para que la(o)s usuaria(o)s no necesiten exportar sus archivos fuera de Tella para editarlos.
 
-| **Tipo de Medio** | **Función** | **Tella Android** | **Tella iOS** | **Tella FOSS** |
+| **Tipo de Archivo** | **Función** | **Tella Android** | **Tella iOS** | **Tella FOSS** |
 |----------------|-------------|-------------------|---------------|----------------|
 | Imagen          | Recortar        | ✔️                | ✔️            | ✔️             |
 | Imagen          | Rotar      | ✔️                | ✔️            | ✔️             |

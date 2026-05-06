@@ -119,10 +119,10 @@ Vous trouverez ci-dessous un aperçu des types de questions ODK pris en charge d
 | Classement | ✔️ |
 | Calculer | Non |
 | Caché | Non |
-| Plage | Non |
+| Intervalle | Non |
 | XML externe | Non |
 
-### Fonctionnalités prises en charge {#supported-features}
+### Fonctionnalités supportées {#supported-features}
 
 Voici un aperçu des fonctionnalités ODK compatibles avec Tella Android. S'il existe une fonctionnalité non supportée dans Tella et qui est essentielle à votre flux de travail, [contactez-nous](/contact-us).
 
