@@ -25,7 +25,7 @@ Tella es desarrollada y mantenida por [Horizontal](https://wearehorizontal.org),
 
 ### ¿Tella está disponible en Android? {#is-tella-available-on-android}
 
-Si, Tella está disponible para Android y puede descargarse directamente [desde la Tienda Google Play](https://play.google.com/store/apps/details?id=org.hzontal.tella&gl=US), desde nuestro [canal de Telegram](https://t.me/tellaapp) o [desde esta carpeta](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ), como una APK, para ser instalada manualmente. Si necesitas ayuda para instalar la app manualmente puedes [seguir esta guía](https://www.androidauthority.com/how-to-install-apks-31494/)o [contactarnos](/contact-us).
+Yes, Tella is available for Android and can be downloaded directly [from the Google Play Store ](https://play.google.com/store/apps/details?id=org.hzontal.tella&gl=US),   from our [Telegram channel]( https://t.me/tellaapp) or [from this folder](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ), as an APK, to be installed manually. If you need to help to install the app manually you can [follow this guide ](https://www.androidauthority.com/how-to-install-apks-31494/) or [contact us](contact-us).
 
 :::note
 Follow the get [quick start guide for Tella users on Android](/get-started-android) for quick onboarding.
@@ -36,15 +36,13 @@ Aprende más sobre [Cómo encontrar y descargar Tella de la Play Store](/video-t
 :::
 
 ### ¿Tella está disponible en F-Droid? {#is-tella-available-on-f-droid}
-Sí, publicamos una versión de Tella Android [en F-Droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/), la cual llamamos Tella-FOSS. En esta versión, no todas las funciones están disponibles. Para detalles sobre cuales funciones están disponibles para: la versión F-Droid de Tella, ve [qué funciones están disponibles en cada plataforma](/features) y nuestra [página de notas de lanzamiento](/releases).
+Yes, we publish a version of Tella Android [on F-Droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/), which we call Tella FOSS. Tella FOSS does not support all features available on Tella Android. For details about which features are available on Tella FOSS, see [what features are available on each platform](/features) and our [release notes page](/releases).
 
 All code, libraries, and dependencies in Tella FOSS are entirely Free and Open Source Software (FOSS). Tella FOSS only includes an opt-in [privacy-preserving analytics](/security-and-privacy#analytics) tracker.
 
 ### ¿Está Tella disponible en iOS? {#is-tella-available-on-ios}
 
-Sí, Tella para iOS puede descargarse [desde la App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580).
-
-Para detalles sobre cuáles funciones están disponibles para iOS, ve [Cuáles funciones están disponibles en cada plataforma](/features).
+Yes, Tella for iOS can be downloaded [from the App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580). For details about which features are available for iOS, see [What features are available on each platform](/features).
 
 :::note
 Follow the get [quick start guide for Tella users on iOS](/get-started-ios) for quick onboarding.
@@ -68,7 +66,7 @@ You can download Tella Desktop for Windows, MacOS and Linux. [Follow the quick s
 Tella Web es una app web que actúa como un repositorio para almacenar informes enviados por usuaria(o)s de Tella, incluyendo fotos, videos y audio. Aprende más sobre Tella Web [aquí](/tella-web).
 
 :::note
-Toma en cuenta que no es posible cifrar y ocultar archivos o crear informes en Tella Web. Estas funciones solo están disponibles en las apps móviles. Tella Web es una de las [conexiones](/connections) disponibles para enviar los datos recopilados en la app de Tella.
+Note that it is not possible to encrypt and hide files or create reports on Tella Web. These features are only available on the mobile apps. Tella Web is one of the [connections](/connections) available to send the data collected on the Tella app. 
 :::
 
 ### ¿Dónde puedo obtener Tella? {#where-can-i-get-tella}
@@ -92,7 +90,7 @@ As of December 2024, we haven't been able to test Tella Android and Tella FOSS o
 
 Sí, Tella es gratis para descargar y usar. Se mantendrá gratis para siempre.
 
-Tella también es [Código Abierto](/open-source).
+Tella is also [Open Source](/open-source).
 
 ### ¿En qué idiomas está disponible Tella? {#what-languages-is-tella-available-in}
 
@@ -105,7 +103,7 @@ Lee más sobre accesibilidad de Idioma en Tella [aquí](/accessibility).
 
 ### ¿Tella funciona en tablets? {#does-tella-work-on-tablets}
 
-Tella funciona en tablets Android, pero actualmente no está disponible en iPad. Por favor [contáctanos](/contact-us) si el soporte para iPad es importante para ti para que podamos hacerlo una prioridad.
+Tella funciona en tablets Android, pero actualmente no está disponible en iPad. Por favor [contáctanos](contact-us) si el soporte para iPad es importante para ti para que podamos hacerlo una prioridad.
 
 ### ¿Dónde puedo enviar mis sugerencias para mejorar Tella? {#where-can-i-send-my-suggestions-to-improve-tella}
 
