@@ -66,7 +66,7 @@ Une fois les permissions accordées, vous êtes prêt à vous lancer dans la col
 
 
 
-**Importez vos fichiers sur Tella.** Allez dans n'importe quel dossier de Tella et appuyez sur le **+** Bouton> **Importer depuis l'appareil**. Choisissez le fichier que vous souhaitez conserver dans Tella et une copie du fichier sera stockée de manière chiffrée et cachée sur Tella. Il vous sera demandé de choisir si vous souhaitez supprimer ou conserver le fichier original de votre appareil. Tella sera déverrouillé pendant que vous choisissez vos fichiers pendant un maximum de trois (3) minutes.
+**Importez vos fichiers sur Tella.** Allez dans n'importe quel dossier de Tella et appuyez sur le **+** Bouton > **Importer depuis l'appareil**. Choisissez le fichier que vous souhaitez conserver dans Tella et une copie du fichier sera stockée de manière chiffrée et cachée sur Tella. Il vous sera demandé de choisir si vous souhaitez supprimer ou conserver le fichier original de votre appareil. Tella sera déverrouillé pendant que vous choisissez vos fichiers pendant un maximum de trois (3) minutes.
 
 <div className="gifs">
     <img src={require("@site/static/img/getting-started/ios/import-files.gif").default} alt="gif that shows how to import files in Tella" title="import files in Tella" />
@@ -112,12 +112,12 @@ Vous partagez des fichiers directement depuis le coffre-fort chiffré de Tella v
 ### Se connecter à un serveur {#connect-to-a-server}
 Tella peut être connecté à une variété de services d'arrière-plan. Ces services sont utilisés par les organisations pour permettre à leurs membres ou à leurs partenaires de soumettre des données et des fichiers à un emplacement distant sécurisé. Si vous envisagez de vous connecter à un serveur et que vous avez des doutes sur le serveur à choisir ou sur la manière de vous connecter, veuillez consulter [notre documentation pour les organisations](/for-organizations) ou [nous contacter](/contact-us), nous sommes là pour vous aider !
 
-#### Uwazi {#uwazi}
+### Tella Web {#tella-web}
 Tella Web est un outil open source qui permet aux individus et aux organisations de centraliser et de gérer les rapports transmis par les utilisateurs de Tella, notamment des photos, des vidéos et des fichiers audio.
 
 Pour en savoir plus sur Tella Web [ici](/tella-web) ou regarder un [tutoriel vidéo](/video-tutorials#tella-web).
 
-#### Uwazi [site Web](https://uwazi.io/) et [documentation](https://uwazi.readthedocs.io/en/latest/).
+#### Uwazi {#uwazi}
 [Uwazi](https://uwazi.io/) est une application open-source créée par HURIDOCS avec de puissantes fonctionnalités pour collecter, organiser et visualiser les données relatives aux droits de l'homme.
 
 Nous avons rédigé une documentation sur la manière de se connecter à un serveur Uwazi et pour commencer, nous vous recommandons de lire [cette page](/uwazi).
@@ -129,7 +129,7 @@ Users can sign in directly to their Nextcloud, Dropbox or Google Drive account f
 
 
 ### Pour en savoir plus sur Tella {#read-more-about-tella}
-- [Fonctionnalités]( /features) : En savoir plus sur la façon dont Tella peut vous protéger et sur les menaces contre lesquelles Tella ne_vous_protège_pas.
+- [Fonctionnalités]( /features) : En savoir plus sur la façon dont Tella peut vous protéger et sur les menaces contre lesquelles Tella ne vous_protège_pas.
 - [Connexions](/for-organizations) : Découvrez comment vous pouvez vous connecter à un serveur pour collecter des données ou sauvegarder des fichiers.
 - [Sécurité et confidentialité](/security-and-privacy) : Nous ne recueillons que le minimum de données nécessaires et ne collectons jamais d'informations personnellement identifiables. Lisez la politique de confidentialité complète [ici](/privacy).
 
