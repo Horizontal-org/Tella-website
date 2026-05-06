@@ -1,7 +1,7 @@
 ---
 id: for-organizations
-title: Server connections
-description: Learn how organizations can use Tella server Connections (Google Drive, Dropbox, Uwazi, ODK, Tella Web and Nextcloud) for research, advocacy, or accountability processes
+title: Pour les organisations
+description: Découvrez comment les organisations peuvent utiliser Tella pour des processus de recherche, de plaidoyer ou de responsabilité.
 slug: /for-organizations
 ---
 
@@ -9,13 +9,13 @@ import ConnectionsTable from '.././_connections-table.md';
 import Button from '@site/src/components/Button';
 
 
-# Tella for organizations
+# Tella pour les organisations - Présentation
 
-Server connections are useful for organizations leading data collection processes. Organizations can choose, configure, and manage a server where they can centralize the data collected by volunteers or activists on the ground. These individuals gather information using Tella on their phones and then send it to their organizations.
+En plus d'avoir vos données protégées dans l'application, vous pouvez également vous connecter à un serveur pour sauvegarder vos données en toute sécurité. Il s'agit généralement d'un serveur géré par des organisations, où celles-ci peuvent centraliser les données collectées par des bénévoles ou des activistes sur le terrain. Ces personnes recueillent des informations à l'aide de Tella sur leur téléphone et les envoient ensuite à leur organisation.
 
-Previous Tella deployments, where on-the-ground users collected data and sent it to an organization's server, have ranged from 1 to 2,000 users. You can read user stories [here](/user-stories), or you can [contact us](/contact-us) so that we can assist you in finding the best way to use Tella for your organization.
+Les déploiements précédents de Tella, dans lesquels les utilisateurs et utilisatrices sur le terrain collectaient des données et les envoyaient au serveur d'une organisation, comptaient entre 1 et 2000 utilisateurs. 📲 📡. Vous pouvez lire les témoignages d'utilisateurs [ici](/user-stories), ou nous contacter pour que nous vous aidions à trouver la meilleure façon d'utiliser Tella au sein de votre organisation.
 
-Currently, Tella can be connected to the following types of servers:
+Actuellement, Tella peut être connecté aux types de serveurs suivants:
 
 * [Open Data Kit (ODK)](/odk)
 * [Uwazi](/uwazi)
@@ -92,8 +92,8 @@ L' [Open Data Kit (ODK)](https://getodk.org/) est un standard ouvert utilisé po
 Sur notre [page de connexion au serveur Open Data Kit](/odk), nous expliquons comment créer un compte, où trouver des informations sur la création de formulaires et comment se connecter au serveur depuis Tella. Vous pouvez également regarder une démonstration de la connexion ODK [ici](/video-tutorials#open-data-kit). Si vous envisagez d'utiliser Open Data Kit ou si vous avez besoin d'aide pour [déployer](/faq#deploying-tella) votre instance, veuillez [nous contacter](/contact-us).
 
 
-:::note
-The ODK connection is [not available on Tella iOS](/features). 
+:::info
+La connexion ODK est [uniquement disponible sur Android](/features).
 :::
 
 <Button label="Continue reading about the Open Data Kit connection " link="/odk"/>

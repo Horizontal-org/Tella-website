@@ -11,7 +11,7 @@ slug: /uwazi
 
 Uwazi permet aux organisations d'agréger, dans un système central, les données collectées par leurs membres ou partenaires. Les utilisateurs et utilisatrices de Tella se connectent à l'instance Uwazi de leur organisation, téléchargent des formulaires (appelés modèles), remplissent les modèles autant de fois que nécessaire (même s'ils n'ont pas de connexion internet), et téléchargent les données. Les organisations peuvent alors conserver, organiser et publier leurs données directement à partir d'Uwazi. 
 
-Similarly to all other server connections([Tella Web](/tella-web), [Google Drive](/g-drive), [Nextcloud](/nextcloud), [Dropbox](/dropbox), and [Open Data Kit](/odk)), connecting to Uwazi enhances the security of data collected on Tella by:
+De la même manière que toute autre connexion au serveur comme([Tella Web](/tella-web), [Google Drive](/g-drive), [Nextcloud](/nextcloud), [Dropbox](/dropbox) et [Open Data Kit](/odk)), la connexion à Uwazi améliore la sécurité des données collectées sur Tella en :
 1. Permettant aux utilisateurs et utilisatrices de collecter des données directement dans le conteneur crypté de Tella.
 2. Garantissant que les données sont envoyées directement de Tella à Uwazi, sans recours à un outil ou une application tiers.
 3. Permettant aux utilisateurs et utilisatrices de sauvegarder leurs données sur un serveur externe, pour réduire le risque que leurs données soient découvertes sur leur appareil mobile.
@@ -93,7 +93,7 @@ Si les utilisateurs et utilisatrices de Tella téléchargent un modèle dont les
 
 Pour vous connecter à un serveur Uwazi:
 
-* Navigate to **Settings ⚙️** > **Connections** > **+**
+* Allez dans **Paramètres ⚙️** > **Connexions** > **+**
 * Sélectionnez "Uwazi" dans la liste des types de serveurs disponibles.
 * Saisissez l'URL du serveur Uwazi de l'organisation (générée et fournie par les admins).
 * Choisissez entre:
