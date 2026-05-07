@@ -19,7 +19,6 @@
 | [Personalização da tela inicial](/features#homescreen-customization)| ✔️ | ✔️ |✔️ |
 | [Câmera (fotos e vídeos)](/features#camera-photos-and-videos)| ✔️ | ✔️ | Sim, mas sem poder dar zoom, girar a câmera, habilitar o flash e habilitar a grade. |
 | [Seleção da resolução de vídeo](/features#select-video-resolution) | ✔️ | Ainda não | Ainda não |
-
 | [Gravação de Áudio](/features#audio-recorder) | ✔️ | ✔️ | ✔️ |
 | [Abertura de arquivos no Tella](/features#open-files-in-tella) | ✔️ | ✔️ | Fotos, vídeos, áudio (não em PDF) |
 | [Modo de verificação](/features#verification-mode) | ✔️ | Ainda não | ✔️ |

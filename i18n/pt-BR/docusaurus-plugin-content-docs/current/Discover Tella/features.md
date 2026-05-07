@@ -1,6 +1,6 @@
 ---
 id: features
-title: Tella Features
+title: Funcionalidades do Tella
 description: Uma descrição detalhada das funcionalidades do Tella.
 slug: /features
 sidebar_position: 1
@@ -79,14 +79,14 @@ You can [continue reading about Server Connections and how organizations use Tel
 
 ## Configuração do tempo limite de bloqueio {#lock-timeout-configuration}
 
-By default Tella will lock immediately every time the user exits the app or your phone’s screen turns off. If you’d like to change this setting, the user can do so by going to 
+Por padrão, o Tella bloqueará imediatamente todas as vezes que o usuário sair do aplicativo ou sua tela do telefone desligar. Se quiser modificar essa configuração, você pode fazê-lo entrando em 
 
 Configurações ⚙️ > Segurança > Tempo Limite de Bloqueio.  
 
 As opções disponíveis são 1 minuto, 5 minutos, 30 minutos e 1 hora. ⏱️
 
 :::info
-Please use this feature carefully as if Tella is unlocked the data would be unprotected and anyone who enters Tella will be able to see all information there.
+Por favor, use essa funcionalidade com cuidado, pois enquanto o Tella está desbloqueado, os dados ficam desprotegidos e qualquer pessoa que entrar no Tella será capaz de ver todas as informações nele.
 :::
 
 :::info
@@ -101,7 +101,7 @@ Saiba mais sobre as Funcionalidades Adicionais de Segurança do Tella em nosso [
 
 ## Modo silencioso da câmera {#camera-silent-mode}
 
-By default Tella has camera silent mode disabled. By going to **Settings ⚙️** > **Security** > **Camera silent mode**, it is possible to turn off the camera shutter sound to draw less attention when taking photos. 📷🔇
+Por padrão, o Tella tem o modo silencioso da câmera desabilitado. Entrando em **Configurações ⚙️** > **Segurança** > **Modo silencioso da câmera**, é possível desativar o som do obturador da câmera para chamar menos atenção ao tirar fotos. 📷🔇
 
 :::tip Tutorial em vídeo 🎥
 Saiba mais sobre as Funcionalidades Adicionais de Segurança do Tella em nosso [tutorial em vídeo](/video-tutorials#additional-security-features)
@@ -110,13 +110,13 @@ Saiba mais sobre as Funcionalidades Adicionais de Segurança do Tella em nosso [
 
 ## Segurança da tela {#screen-security}
 
-By default Tella blocks screenshots, screen recordings inside Tella and hides the screen preview in the list of recent apps 📱🔒. It is possible to disable this security feature if the users need to take screenshots or screen recordings, or to mirror Tella to a computer for a presentation, by going to **Settings** ⚙️ > **Security** > **Screen security**.
+Por padrão, o Tella bloqueia capturas e gravações de tela dentro dele e oculta a prévia da tela na lista de aplicativos recentes 📱🔒. É possível desabilitar essa funcionalidade de segurança caso os usuários precisem fazer capturas ou gravações de tela, ou espelhar o Tella em um computador para uma apresentação, entrando em **Configurações** ⚙️ > **Segurança** > **Segurança da tela**.
 
 No iOS, a segurança de tela somente bloqueia gravações dentro do Tella e bloqueia a tela na lista de aplicativos recentes, mas não é possível desabilitar capturas ou gravações de tela.
 
 
-:::tip video tutorial 🎥
-Learn more about Tella Additional Security Features in our [video tutorial](/video-tutorials#additional-security-features)
+:::tip Tutorial em vídeo 🎥
+Saiba mais sobre as Funcionalidades Adicionais de Segurança do Tella em nosso [tutorial em vídeo](/video-tutorials#additional-security-features)
 :::
 
 ## Restrição de tentativas de desbloqueio {#restrict-unlocking-attempts}
@@ -141,11 +141,11 @@ We are in the process of adding the ability to edit media files directly within 
 |----------------|-------------|-------------------|---------------|----------------|
 | Imagem          | Crop        | ✔️                | ✔️            | ✔️             |
 | Imagem          | Rotate      | ✔️                | ✔️            | ✔️             |
-| Imagem          | Flip        | ✔️                | - Tella Web <br />- Uwazi       | ✔️             |
-| Imagem          | Auto-zoom        | ✔️                | - Tella Web <br />- Uwazi       | ✔️        |
-| Vídeo          | Trim        | - Tella Web <br />- Uwazi       | ✔️          | - Tella Web <br />- Uwazi        |
-| Vídeo          | Rotate      | - Tella Web <br />- Uwazi       | ✔️          | - Tella Web <br />- Uwazi        |
-| Áudio          | Trim        | - Tella Web <br />- Uwazi           |  ✔️          | - Tella Web <br />- Uwazi        |
+| Imagem          | Flip        | ✔️                | Not yet       | ✔️             |
+| Imagem          | Auto-zoom        | ✔️                | Not yet       | ✔️        |
+| Vídeo          | Trim        | Not yet       | ✔️          | Not yet        |
+| Vídeo          | Rotate      | Not yet       | ✔️          | Not yet        |
+| Áudio          | Trim        | Not yet           |  ✔️          | Not yet        |
 
 Users can edit a picture by going to **More** > **Edit** from the **Images** folder or by tapping the **Edit** button on the top right while viewing image you have on Tella. 
 - **Rotate**:  Use the Rotate button at the bottom of the screen to rotate the image counter-clock wise. 
@@ -183,8 +183,8 @@ Se o bloqueio do usuário for muito fraco, um adversário pode ser capaz de adiv
 Se o usuário esquecer seu bloqueio, não há como ganhar acesso ao aplicativo e recuperar o conteúdo
 :::
 
-:::tip video tutorial 🎥
-Learn more about Locks and Encryption in our [video tutorial](/video-tutorials#tella-locks)
+:::tip Tutorial em vídeo 🎥
+Saiba mais sobre Bloqueios e Criptografia no nosso [tutorial em vídeo](/video-tutorials#tella-locks)
 :::
 
 :::info
@@ -205,7 +205,7 @@ No Tella, usuários podem:
 * Importar arquivos de seus dispositivos. Os arquivos são automaticamente criptografados quando importados para o Tella.
 
 :::danger
-Importing files from the device file system into Tella makes a copy of the files into Tella. Tella will ask if you want to keep or delete the original file from your phone when importing. If you choose to keep the original file, they will be present on the device, outside of Tella and unencrypted. 🔒
+Importar os arquivos do sistema de arquivo do dispositivo para o Tella cria uma cópia dos arquivos dentro do Tella. O Tella perguntará se você deseja manter ou excluir o arquivo original do seu telefone quando realizar a importação. Se você escolher manter o arquivo original, ele estará presente no dispositivo, fora do Tella e sem criptografia. 🔒
 :::
 
 ## Feedback {#feedback}
@@ -236,13 +236,13 @@ A única informação que receberemos é o conteúdo que os usuários adicionam 
 O usuário pode importar arquivos para dentro do Tella para mantê-los seguros pela funcionalidade importar. Eles podem importar arquivos indo no botão **Adicionar ( + )** seja em Todos os arquivos, Imagens, Vídeo, Áudio ou Documentos, a depender do tipo de arquivo que desejem importar e então para **Importar de dispositivo** 📥 Uma caixa de diálogo aparecerá perguntando ao usuário se deseja manter ou excluir o arquivo original da memória de seu telefone. Os arquivos importados serão mantidos seguros no Tella.
 
 
-:::tip video tutorial 🎥
-Learn more about [Collecting Evidence](video-tutorials#collecting-evidence) and [Sharing data](/video-tutorials#sharing-data-with-other-apps) in our video tutorials.
+:::tip Tutorial em vídeo 🎥
+Saiba mais sobre [Coleta de evidências](video-tutorials#collecting-evidence) e [Compartilhamento de dados](/video-tutorials#sharing-data-with-other-apps) nos nossos tutoriais em vídeo.
 :::
 
 ## Preservação de metadados ao importar {#preserve-metadata-when-importing}
 
-On **Settings** > **Security** users have the option to Preserve or delete the file's metadata when importing Photos and Videos to Tella. EXIF metadata of files migth include data about when the file was created, camera settings or location of the device.
+Em **Configurações** > **Segurança**, os usuários tem a opção de preservar ou excluir os metadados do arquivo ao importar Fotos e Vídeos para o Tella. Metadados EXIF de arquivos podem incluir dados sobre quando o arquivo foi criado, configurações da câmera ou localização do dispositivo.
 
 ## Privacy preserving analytics (opt-in) {#privacy-preserving-analytics}
 Android users can opt-in to share analytics to improve Tella. All information is anonymous, agregated and can never be linked to individual usres. For technical information about what system do we use and what metrics to we collect, visit the [Analytics section of the Security and Privacy page](/security-and-privacy#analytics).
@@ -293,8 +293,8 @@ Um botão de Exclusão rápida permite aos usuários, em apenas alguns segundos,
 * Delete Connections: Deletes all your connections, and all data asociated with them (including drafts, outbox and submitted reports). [Visit the For Organizations page](/for-organizations) to  discover the available server connections 📝
 * Excluir o Tella: exclui o aplicativo e todos os dados contidos nele. Essa ação aciona uma mensagem que pergunta se o usuário também deseja desinstalar o Tella ❌.  
 
-:::info Delete Tella
-The Delete Tella option might not be available on some Android phones due to technical limitations. We are working on a fix for this issue. For iOS it is not possible to programmatically delete an app, so the Delete Tella option is not available.
+:::info Excluir o Tella
+A opção Excluir o Tella pode não estar disponível em alguns telefones Android devido a limitações técnicas. Estamos trabalhando em uma solução para esse problema. Para o iOS não é possível excluir um aplicativo programaticamente.
 :::
 
 :::warning 
@@ -349,7 +349,7 @@ Abaixo está uma lista de cada parte de metadado capturado pelo Tella:
 
 ## Conexão a servidores {#connecting-to-servers}
 
-Users can collect data directly in Tella, keep the data protected within the app, and connect to a server to securely send the data to a server. This feature is frequently used by organizations who centralize the data collected by volunteers or activist on the ground. These people collect information using Tella on their phones and then send it to their organizations. Previous Tella deployments where on-the-ground users collect data and send it to an organization's server have ranged from 1 to 2,000 users. 📲 📡.
+Usuários podem coletar dados diretamente no Tella, guardar os dados protegidos dentro do aplicativo e conectar a um servidor para enviar seguramente os dados para um servidor. Essa funcionalidade é frequentemente usada por organizações que centralizam os dados coletados por voluntários ou ativistas em seus locais de atuação. Essas pessoas coletam informações usando o Tella em seus telefones e então as enviam para suas organizações. Implantações anteriores do Tella nas quais usuários em seus locais de atuação coletavam dados e os enviavam para um servidor de uma organização variaram de 1 a 2.000 usuários. 📲 📡
 
 Atualmente, os servidores que podem ser conectados ao Tella são:
 

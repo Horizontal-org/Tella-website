@@ -1,6 +1,6 @@
 ---
-id: acessibilidade
-title: Languages and Accessibility
+id: accessibility
+title: Idiomas e acessibilidade
 description: Uma visão sobre os idiomas em que o Tella está disponível e considerações sobre accessibilidade.
 slug: /accessibility
 sidebar_position: 3
@@ -10,12 +10,12 @@ import TellaLanguages from '.././_tella-languages.md';
 
 # Idioma e Acessibilidade no Tella
 
-Making Tella accessible is a top priority for us. When we say accessible, we mean that we do our best to ensure that disabled users and users with limited literacy or tech literacy can use Tella, and that Tella is available in as many languages, devices, and contexts as possible.
+Tornar o Tella acessível é uma prioridade para nós. Quando falamos em acessibilidade, queremos dizer que fazemos o nosso melhor para assegurar que usuários com deficiência e usuários com limitações de letramento ou de letramento em tecnologia podem usar o Tella e que o Tella esteja disponível no maior número possível de idiomas.
 
 
 ### Acessibilidade de idiomas {#language-accessibility}
 
-We work hard to make Tella available in languages spoken by communities who express the need for Tella. Unfortunately, we don't always have the capacity or resources to keep all translations up to date. If you wish to contribute to the translation of Tella, [join us here](/translating-tella). If you want us to add a new language but you cannot contribute to it, [contact us](/contact-us). Currently Tella Android and iOS are available in:
+Nós nos empenhamos para disponibilizar o Tella em idiomas falados por comunidades que demonstram necessitar dele. Infelizmente, nem sempre temos a capacidade ou os recursos para manter todas as traduções atualizadas. Se você deseja contribuir com a tradução do Tella, [junte-se a nós aqui](/translating-tella). Se você quer que adicionemos um novo idioma, [contate-nos](/contact-us) e faremos o nosso melhor para adicioná-lo. Atualmente, Tella para Android e para iOS estão disponíveis em:
 
 <TellaLanguages/>
 
