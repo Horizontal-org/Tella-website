@@ -22,6 +22,7 @@ Submissions to Dropbox take the form of "reports" which include a title, a text 
 
 :::danger
 Even though data is transferred to the server securely (SSL), anyone with access to the Dropbox account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+:::
 
 :::note
 The Dropbox connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.

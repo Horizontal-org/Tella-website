@@ -1,8 +1,9 @@
 ---
 id: features
-title: Tella features
+title: Tella Features
 description: A detailed description of Tella features.
 slug: /features
+sidebar_position: 1
 ---
 
 import FeaturesTable from '.././_features-table.md';
@@ -47,24 +48,32 @@ If the user hard exit Tella (for example by using [Quick Exit](#quick-exit) or m
 If [verification mode](/features#verification-mode) is turned on, background encryption is automatically disabled to make sure that all file metadata is captured at the same time as the photo, video, or audio file is saved.  
 :::
 
-## Backup files to a cloud {#backup-files}
-We are in the process of adding options for individuals and organizations to backup their data to different clouds. Backups, for the moment, need to be made manually, by creating reports (using, for example, the date of "today" as the report title) and submitting them to the connected server. Files will be available on the connected server inside a folder with the report title.
+## Backup files {#backup-files}
+Tella stores all the information locally in your phone. If you delete your files (for example using [quick delete](/features#quick-delete) or if you uninstall Tella), your files cannot be restored unless you have backed them up outside of your Tella Vault.
 
-For the moment we the following connections. Follow each of the links to find details and step-by-step guides on how to connect and use each of them:
-* [Open Data Kit (ODK)](/odk)
-* [Uwazi](/uwazi)
-* [Tella Web](/tella-web)
-* [Google Drive](/g-drive)
-* [Nextcloud](/nextcloud)
-* [Dropbox](/dropbox)
+We offer several alternatives to backup files, so you can safely delete files from Tella and import those back in, but the backup process is manual, for the moment. Please [contact us](/contact-us) if you have questions.
 
-On this table we explain what server types are available on the Tella apps:
-<ConnectionsTable/>.
+:::note
+All exports outside of Tella's encrypted vault (to a connected server or [to your phone](/features#file-management)) will be unencrypted. The only method for sharing files that transfer files directly to another encrypted vault is [Nearby Sharing](/nearby-sharing).
+::: 
 
 
-:::danger
-For the moment, the submission to any type of server it is **not** encrypted. People who have access to the server itself are able to see the files.
+
+### Backup files to another phone or computer {#backup-files-to-another-phone-or-computer}
+
+Using [Nearby Sharing](/nearby-sharing) you can transfer files directly to another Tella vault, either in another phone or [to a computer](/get-started-desktop) that's in physical proximity. Files are shared and store encrypted in the other Tella. If you backup to another phone you can use Nearby Sharing again to restore the files to your Tella.
+
+:::info
+For the moment Tella Desktop can only receive files.
 :::
+
+### Backup files to a cloud {#backup-files-to-a-cloud}
+
+Some individuals use commercial clouds (Google Drive, Dropbox, Nextcloud) as a backup system for their Tella data. However, we advise using this feature with caution:
+- Automatic backups to any server are **not** currently available. They need to be made manually as submissions to each of the servers.
+- Files on the server will be accessible to anyone with server access.
+
+You can [continue reading about Server Connections and how organizations use Tella here](/for-organizations).
 
 
 
@@ -130,16 +139,16 @@ We are in the process of adding the ability to edit media files directly within 
 
 | **Media Type** | **Feature** | **Tella Android** | **Tella iOS** | **Tella FOSS** |
 |----------------|-------------|-------------------|---------------|----------------|
-| Image          | Crop        | ✔️                | ✔️            | Not yet        |
-| Image          | Rotate      | ✔️                | ✔️            | Not yet        |
-| Image          | Flip        | ✔️                | Not yet       | Not yet        |
-| Image          | Auto-zoom        | ✔️                | Not yet       | Not yet        |
+| Image          | Crop        | ✔️                | ✔️            | ✔️             |
+| Image          | Rotate      | ✔️                | ✔️            | ✔️             |
+| Image          | Flip        | ✔️                | Not yet       | ✔️             |
+| Image          | Auto-zoom        | ✔️                | Not yet       | ✔️        |
 | Video          | Trim        | Not yet       | ✔️          | Not yet        |
-| Video          | Rotate      | Not yet       | Soon          | Not yet        |
+| Video          | Rotate      | Not yet       | ✔️          | Not yet        |
 | Audio          | Trim        | Not yet           |  ✔️          | Not yet        |
 
 Users can edit a picture by going to **More** > **Edit** from the **Images** folder or by tapping the **Edit** button on the top right while viewing image you have on Tella. 
-- **Rotate**:  Use the Rotate button on the bottom of the screen to rotate the image counter-clock wise. 
+- **Rotate**:  Use the Rotate button at the bottom of the screen to rotate the image counter-clock wise. 
 - **Crop**: Drap the corners of the white canvas to crop the picture. 
 - **Auto-zoom**: The image will automatically zoom in and out depending on the selected canvas, to avoid loosing image quality.
 - **Flip**: Use the flip buttons to mirror the image horizontally or vertically.
@@ -152,7 +161,10 @@ Users can edit videos or audio recordings:
 - While listening to an audio recording or watching a video in Tella, by tapping the **Edit** button in the top right corner. 
 
 Current editing options include:
-- **Trim**: Move the vertical orange lines to select the new start and end point of your audio. Use the Play button on the bottom to listen to the audio or the Cancel button to start over. When you are done editing the file, use the orange scissors ✂️ icon on the top right to save the trimmed audio or video. The edited file will be saved as a copy of the original file in the same folder.
+- **Trim**: Move the vertical orange lines to select the new start and end point of your audio or video. 
+- **Rotate**: Use the Rotate button on the top right of the screen to rotate the video counter-clock wise.
+
+Use the Play button at the bottom of the screen to listen to the audio or the Cancel button to start over. When you are done editing the file, use the orange scissors ✂️ icon in the top-right corner to save the trimmed audio or video. The edited file will be saved as a copy of the original file in the same folder.
 
 
 ## Encryption {#encryption}
@@ -238,8 +250,6 @@ Android users can opt-in to share analytics to improve Tella. All information is
 ## Open files in Tella {#open-files-in-tella}
 Images, videos, PDFs and audios can be visualized inside Tella. 📱📄
 
-On Tella FOSS, PDFs must be exported to be opened. 
-
 ## Camouflage {#camouflage}
 
 On Tella Android, it is possible to camouflage Tella in two ways:
@@ -279,13 +289,16 @@ This configuration can be found in **Settings** > **General**.
 
 A Quick Delete button allows users, in just a few seconds, to delete sensitive data within Tella. Quick delete can be configured on **Settings** > **Security** > **Quick delete**, where the user can choose to enable a sliding button on the home screen to quickly delete information from Tella in emergency situations. If enabled, the user can choose exactly what gets deleted when the feature is used. The available options are:
 
-* Delete files: Deletes all files stored in Tella 🗑️
-* Delete draft and submitted forms: Deletes drafts and submitted forms in all Connections. [Visit the For Organizations page](/for-organizations) to  discover the available server connections 📝
-* Delete server settings: Deletes all server connections and all the forms, templates or reports associated with them 📋
+* Delete files: Deletes all files stored in Tella 🗑️ . This is the default option.
+* Delete Connections: Deletes all your connections, and all data asociated with them (including drafts, outbox and submitted reports). [Visit the For Organizations page](/for-organizations) to  discover the available server connections 📝
 * Delete Tella: Deletes the app and all the data it contains. It triggers a message asking if the user wants to uninstall Tella as well ❌. 
 
 :::info Delete Tella
-The Delete Tella option might not be available on some Android phones due to technical limitations. We are working on a fix for this issue. For iOS it is not possible to programmatically delete an app. 
+The Delete Tella option might not be available on some Android phones due to technical limitations. We are working on a fix for this issue. For iOS it is not possible to programmatically delete an app, so the Delete Tella option is not available.
+:::
+
+:::warning 
+Before triggering Quick Delete, consider [backing up you files](/features#backup-files) outside of Tella, to avoid loosing them.
 :::
 
 ## Quick exit {#quick-exit}
@@ -336,7 +349,7 @@ Below is a list of each piece of metadata captured by Tella:
 
 ## Connecting to servers {#connecting-to-servers}
 
-Users can collect data directly in Tella, keep the data protected within the app, and connect to a server to securely send the data to a server. This feature is frequently used by organizations who centralize the data collected by volunteers or activist on the ground. These people collect information using Tella on their phones and then send it to their organizations. Previous Tella deployments where on-the-ground users collect data and send it to an organization's server have ranged from 1 to 2,000 users. 📲 📡
+Users can collect data directly in Tella, keep the data protected within the app, and connect to a server to securely send the data to a server. This feature is frequently used by organizations who centralize the data collected by volunteers or activist on the ground. These people collect information using Tella on their phones and then send it to their organizations. Previous Tella deployments where on-the-ground users collect data and send it to an organization's server have ranged from 1 to 2,000 users. 📲 📡.
 
 Currently the servers that can be connected to Tella are:
 
@@ -347,11 +360,29 @@ Currently the servers that can be connected to Tella are:
 * [Nextcloud](/nextcloud)
 * [Dropbox](/dropbox)
 
+You can [read more about servers and how organizations have been using this feature here](/for-organizations).
 
 :::tip Video tutorial 🎥
 Learn more about [Connecting to Servers](/video-tutorials#server-connections) in our video tutorials. 
 :::
 
+
+## Nearby Sharing {#nearby-sharing}
+
+Users can share files directly from Tella’s encrypted vault to another Tella encrypted vault in the same physical location using Nearby Sharing . After a quick connection tutorial, the two devices establish a secure link, and files are transferred encrypted from one device to the other.  Nearby Sharing is independent of the internet connection status: it works online or offline.
+
+This feature is available on Tella Android, Tella iOS, and Tella Desktop. 
+
+:::note
+[Learn more about nearby sharing here](/nearby-sharing).
+:::
+
+## Share button {#share-button}
+To share information with other apps, users can select the file or files they want to share and press the Share button. Tella will prompt the list of available apps on the phone and users can choose the app they want to share the file(s) with. 
+
+:::danger
+Tella will share the files unencrypted and the history of exchanged files might be visible on the app you used. We recommend using disappearing messages or deleting the messages after the other person receives them when using messaging apps (for example WhatsApp or Signal).
+:::
 
 ## Camera (photos and videos) {#camera-photos-and-videos}
 

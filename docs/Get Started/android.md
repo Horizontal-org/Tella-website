@@ -106,6 +106,8 @@ Take into account that Tella will share the files unencrypted, so make sure to u
     <img src={require("@site/static/img/getting-started/android/share.gif").default} alt="gif that shows how to share information" title="share information with third party apps" />
 </div>
 
+## Nearby sharing {#nearby-sharing}
+You share files directly from Tella’s encrypted vault to another Tella encrypted vault in the same physical location using [Nearby Sharing](/nearby-sharing). After a quick connection tutorial, the two devices establish a secure link, and files are transferred encrypted from one device to the other. Nearby Sharing allow phone-to-phone (Android or iOS) and phone-to-computer file transfers. 
 
 
 ## Go Further {#go-further}
@@ -139,13 +141,19 @@ Tella Web is an open-source tool that enables individuals and organizations to c
 
 Read more about Tella Web [here](/tella-web) or watch a [video tutorial](/video-tutorials#tella-web).
 
-#### Nextcloud, Dropbox and Google Drive {#nextcloud-dropbox-and-google-drive}
+#### Nextcloud, Dropbox and Google Drive {#Nextcloud-dropbox-and-google-drive}
 Users can also connect to their Google, Dropbox or Nextcloud organizational or personal accounts in order to submit reports (audio, photos, videos and text) directly from Tella. They won't need the Dropbox, Google Drive or Nextcloud apps on their phones and won't need to use any third party apps.
 
 Read more:
 - [Google Drive Connection](/g-drive).
 - [Nextcloud Connection](/nextcloud).
 - [Dropbox Connection](/dropbox).
+
+:::note
+The Google Drive and Dropbox connections are not available in Tella Android FOSS, because they use closed-sourced libraries.
+:::
+
+
 
 
 

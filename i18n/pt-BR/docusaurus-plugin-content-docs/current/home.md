@@ -89,7 +89,7 @@ Abaixo, você encontrará tudo o que precisa para entender como o Tella funciona
       <Link to="/tella-web">
         <div className="doc-card-content">
           <b>Tella Web</b>
-          <p>The Tella Web connection empowers users to upload photos, videos, audio recordings, and text to their organization's server.</p>
+          <p>A conexão Tella Web empodera usuários a carregar fotos, vídeos, gravações em áudio e texto para o servidor de sua organização de forma conveniente.</p>
         </div>
       </Link>
     </div>
@@ -97,7 +97,7 @@ Abaixo, você encontrará tudo o que precisa para entender como o Tella funciona
       <Link to="/uwazi">
         <div className="doc-card-content">
           <b>Uwazi</b>
-          <p>The Uwazi connection lets organizations collect data from their Tella users and establish relationships between the data.</p>
+          <p>A conexão Uwazi permite às organizações coletar dados de seus usuários Tella e estabelecer relações entre os dados.</p>
         </div>
       </Link>
     </div>
@@ -105,7 +105,7 @@ Abaixo, você encontrará tudo o que precisa para entender como o Tella funciona
       <Link to="/odk">
         <div className="doc-card-content">
           <b>Open Data Kit (ODK)</b>
-          <p>The ODK connection lets organizations collect data using custom forms from Tella.</p>
+          <p>A conexão ODK permite às organizações coletar dados usando formulários personalizados do Tella.</p>
         </div>
       </Link>
     </div>

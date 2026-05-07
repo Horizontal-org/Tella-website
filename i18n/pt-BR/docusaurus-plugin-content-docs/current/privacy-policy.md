@@ -8,7 +8,7 @@ slug: /privacy
 
 # Tella - Política de Privacidade
 
-:::nota  
+:::note
 Atualizada por último sobre 25 de fevereiro de 2025.
 :::
 
@@ -137,7 +137,7 @@ Nós podemos divulgar informações pessoais e dados que coletamos ou que você 
 
 ## 6. Suas Escolhas sobre Nossa Coleta, Uso e Divulgação de Suas Informações {#6-your-choices-about-our-collection-use-and-disclosure-of-your-information}
 
-Through the settings menu of Tella Android you can opt-out of:
+Pelo menu de configurações do Aplicativo, você pode optar por não participar:
 
 -   Dos relatórios de bugs e análise de uso padrão.
 -   Da coleta de metadados seja na totalidade ou em parte ao desabilitar o “Modo de Verificação” nas configurações do seu aplicativo.

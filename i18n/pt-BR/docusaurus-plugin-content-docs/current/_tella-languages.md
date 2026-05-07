@@ -1,21 +1,21 @@
 1. Árabe
 2. Azerbaijano
 3. Bielorusso
-4. Birmanês
-5. Inglês
+4. Bengalês
+5. Birmanês
 6. Chinese (Simplified Chinese)
-7. Indonésio
-8. Jingpho
-9. Canarês
-10. Karen Sgaw
-11. Curdo
-12. Malaiala
-13. Persa
-14. Português
+7. Inglês
+8. Francês
+9. Indonésio
+10. Jingpho
+11. Canarês
+12. Karen Sgaw
+13. Curdo
+14. Malaiala
 15. Mizo
-16. Russo
-17. Espanhol (América Latina)
-18. Tâmil
+16. Ndau
+17. Persa
+18. Português
 19. Portuguese (Mozambique)
 20. Russo
 21. Espanhol (América Latina)

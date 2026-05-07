@@ -106,6 +106,8 @@ Tenez compte du fait que Tella partagera les fichiers non cryptés, alors assure
     <img src={require("@site/static/img/getting-started/android/share.gif").default} alt="gif that shows how to share information" title="share information with third party apps" />
 </div>
 
+## Partage de proximité {#nearby-sharing}
+You share files directly from Tella’s encrypted vault to another Tella encrypted vault in the same physical location using [Nearby Sharing](/nearby-sharing). After a quick connection tutorial, the two devices establish a secure link, and files are transferred encrypted from one device to the other. Nearby Sharing allow phone-to-phone (Android or iOS) and phone-to-computer file transfers. 
 
 
 ## Allez plus loin {#go-further}
@@ -135,9 +137,20 @@ Nous avons rédigé une documentation sur la manière de se connecter à un serv
 </div>
 
 #### Tella Web {#tella-web}
-Tella Web est un outil open source qui permet aux individus et aux organisations de centraliser et de gérer les rapports envoyés par les utilisateurs de Tella, notamment des photos, des vidéos et des fichiers audio.
+Tella Web est un outil open source qui permet aux individus et aux organisations de centraliser et de gérer les rapports transmis par les utilisateurs de Tella, notamment des photos, des vidéos et des fichiers audio.
 
 Pour en savoir plus sur Tella Web [ici](/tella-web) ou regarder un [tutoriel vidéo](/video-tutorials#tella-web).
+
+#### Nextcloud, Dropbox et Google Drive {#Nextcloud-dropbox-and-google-drive}
+
+Users can sign in directly to their Nextcloud, Dropbox or Google Drive account from within Tella and upload files to a folder in their account.
+
+:::note
+The Google Drive and Dropbox connections are not available in Tella Android FOSS, because they use closed-sourced libraries.
+:::
+
+
+
 
 
 
@@ -146,5 +159,5 @@ Pour en savoir plus sur Tella Web [ici](/tella-web) ou regarder un [tutoriel vid
 - [Connexions](/for-organizations) : Découvrez comment vous pouvez vous connecter à un serveur pour collecter des données ou sauvegarder des fichiers.
 - [Sécurité et confidentialité](/security-and-privacy) : Nous ne recueillons que le minimum de données nécessaires et ne collectons jamais d'informations personnellement identifiables. Lisez la politique de confidentialité complète [ici](/privacy).
 
-#### Contactez-nous si vous avez besoin d'aide {#contact-us-if-you-need-help}
+#### Si vous avez besoin d'aide, contactez-nous si vous {#contact-us-if-you-need-help}
 Si vous avez besoin d'aide pour comprendre les détails techniques de Tella et les considérations de sécurité afin de décider s'il convient à vous et à votre équipe, nous sommes là pour vous aider. Il vous suffit de [nous contacter](/contact-us) pour que nous puissions répondre à vos questions ou organiser une formation ou une session de questions-réponses en direct pour votre équipe.
