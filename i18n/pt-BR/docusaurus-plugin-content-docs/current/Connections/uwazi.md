@@ -5,17 +5,21 @@ description: A conexão com servidor Uwazi está disponível para organizações
 slug: /uwazi
 ---
 
-# Uwazi
+# Conexão Uwazi
 
 [Uwazi](https://uwazi.io/) é uma ferramenta de documentação de código aberto desenvolvida pela [HURIDOCS](https://huridocs.org). É uma aplicação de banco de dados flexível e nativa da web projetada para defensores dos direitos humanos gerenciarem suas coleções de informação, incluindo documentos, evidências, casos e queixas. 
 
-O Uwazi permite que organizações agreguem, em um repositório central, dados coletados por seus membros ou parceiros. Os usuários do Tella conectam-se à instância Uwazi de suas organizações, baixam formulários (chamados Templates), preenchem os templates quantas vezes precisarem (mesmo que não possuam conectividade de internet) e carregam os dados. Organizações podem, então, realizar a curadoria, organizar e publicar seus dados diretamente do Uwazi.
+O Uwazi permite que organizações agreguem, em um repositório central, dados coletados por seus membros ou parceiros. Os usuários do Tella conectam-se à instância Uwazi de suas organizações, baixam formulários (chamados templates), preenchem os templates quantas vezes precisarem (mesmo que não possuam conectividade de internet) e carregam os dados. Organizações podem, então, realizar a curadoria, organizar e publicar seus dados diretamente do Uwazi.
 
-Similarmente a todas as outras conexões com o servidor ([Tella Web](/tella-web) e [Open Data Kit](/odk)), conectar-se ao servidor Uwazi aumenta a segurança dos dados coletados no Tella por:
-1. Permitir aos usuários coletar dados diretamente de dentro do contêiner criptografado do Tella
-2. Assegurar que os dados são enviados diretamente do Tella para o Uwazi, sem depender de ferramentas ou aplicativos de terceiros
-3. Permitir que usuários realizem backup de seus dados em um servidor remoto, para diminuir o risco de os dados serem descobertos em seus dispositivos móveis
-4. Assegurar que organizações possam preservar informações importantes, mesmo no caso de apreensão ou destruição de dispositivo, e possam organizá-las para processos de pesquisa, advocacia pública ou processos de responsabilização
+Da mesma forma para todas as outras conexões de servidor([Tella Web](/tella-web), [Google Drive](/g-drive), [Nextcloud](/nextcloud), [Dropbox](/dropbox), and [Open Data Kit](/odk)), conectando para Uwazi aumenta a segurança dos dados coletados Tella por:
+1. Permitir aos usuários coletar dados diretamente de dentro do contêiner criptografado do Tella.
+2. Ensuring that data is sent directly from Tella to Uwazi, without having to rely on a third-party tool or app.
+3. Permitir aos usuários realizar backup de seus dados em um servidor remoto, para diminuir o risco de os dados serem descobertos em seus dispositivos móveis. 
+4. Assegurar que as organizações possam preservar informações importantes, mesmo no caso de apreensão ou destruição de dispositivo, e possam organizá-las para uso em processos de pesquisa, advocacia pública ou processos de responsabilização.
+
+:::danger
+Even though data is transferred to the server securely (SSL), anyone with access to the Uwazi account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+:::
 
 ### Testando Uwazi {#testing-uwazi}
 
@@ -25,15 +29,33 @@ Você pode testar o Uwazi usando [esta instância Demonstrativa](https://demo.uw
 
 Recomendamos Uwazi para organizações que precisam que usuários em seus locais de atuação coletem dados de uma maneira estruturada através de formulários. 
 
-Uwazi permite que gerentes de projeto facilmente organizem, analisem, visualizem e publiquem os dados coletados. É especialmente poderoso pois seu banco de dados autoriza fazer relacionamentos entre entidades, o que ajuda a conectar pontos de dados (como incidentes, agressores e vítimas) para revelar padrões. Uwazi também é ótimo para coletar dados em diversos idiomas e facilitar a colaboração entre equipes.
+O Uwazi permite que gerentes de projeto facilmente organizem, analisem, visualizem e publiquem os dados coletados. É especialmente poderoso pois seu banco de dados autoriza fazer relacionamentos entre entidades, o que ajuda a conectar pontos de dados (como incidentes, agressores e vítimas) para revelar padrões. Uwazi também é ótimo para coletar dados em diversos idiomas e facilitar a colaboração entre equipes.
 
 O Uwazi não possui um aplicativo oficial para dispositivos móveis. Então, ao integrar Uwazi e Tella, você pode usufruir da criptografia do Tella e capacidades offline e aproveitar por completo das habilidades do Uwazi em organizar, buscar, baixar, visualizar e publicar informações. 
 
+Aqui estão algumas dicas sobre o Uwazi que podem ser adequadas ao seu caso específico:
+- Você precisa tornar os dados coletados publicamente acessíveis em um website.
+- Você precisa estabelecer relações entre os pontos de dados.
+- Os dados devem estar contidos na base de dados estruturada registradores.
+- Você precisa limpar, editar, organizar e processar os dados coletados.
+- Você precisa rapidamente de procurar, localizar e analisar os dados.
+- Você trabalha em um ambiente multilíngue.
+- You work in a collaborative environment with multiple users and different profiles.
+- Você precisa preservar as informações de uma forma segura a longo prazo.
+
 Você pode aprender mais sobre o Uwazi na [documentação oficial do Uwazi](https://uwazi.readthedocs.io/en/latest/). A HURIDOCS é uma ótima aliada da Horizontal. Por isso, se tiver dúvidas sobre Uwazi ou desejar que conectemos você à equipe da HURIDOCS, [entre em contato conosco](contact-us).
 
-## Instale o Uwazi em um servidor {#install-uwazi-on-a-server}
+:::tip
+If you need help figuring out if Uwazi is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
+:::
 
-A equipe HURIDOCS criou um guia do administrador abrangente com instruções passo a passo para instalar o Uwazi em seu servidor, configurar backups e configurar funcionalidades avançadas. Recomendamos que você compartilhe [este guia](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html) com o seu administrador de sistemas.
+## Configure Uwazi on a server {#configure-uwazi-on-a-server}
+
+
+The HURIDOCS team offers 2 alternatives on how to set up your uwazi server:
+
+1. Self-hosted: Share this [comprehensive administrator guide](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html) with your system's administrator for step-by-step instructions on how to install Uwazi on your server, configure backups, and set up advanced features. 
+2. Hosted by HURIDOCS: HURIDOCS offer hosting packages as a service. Free hosting services  (up to a storage limit) and a trial version of Uwazi are available for human rights organizations. [Reach out to HURIDOCS](https://huridocs.org/services/) for more details about the service.  
 
 ## Modele seus Dados {#model-your-data}
 
@@ -54,7 +76,7 @@ Se usuários do Tella baixam um template que possui propriedades não suportadas
 | Numérica | ✔️ | ✔️ | ✔️ |
 | Seleção Simples  | ✔️ | ✔️ | ✔️ | 
 | Seleção Múltipla  | ✔️ | Não | ✔️ | 
-| Relacionamento | Não | Não | Não |
+| Relacionamento | ✔️ | ✔️ | ✔️ |
 | Data Única | ✔️ | ✔️ | ✔️ |
 | Múltiplas Datas | ✔️ | Não | ✔️ |
 | Link Externo | ✔️ | Não | ✔️ |
@@ -71,7 +93,7 @@ Se usuários do Tella baixam um template que possui propriedades não suportadas
 
 Para conectar-se a um servidor Uwazi:
 
-* Navegue por **Configurações ⚙️** > **Servidores** > **+**
+* Navegue para: ** Configurações ⚙️** > **Conexões** > **+**
 * Selecione "Uwazi" da lista de tipos de servidores disponíveis.
 * Insira a URL do servidor Uwazi da organização (gerado e fornecido pelos administradores).
 * Escolha entre:
@@ -88,7 +110,7 @@ Você pode assistir a [este vídeo](/video-tutorials#uwazi) sobre como conectar 
 
 Uma vez que conectou com sucesso a uma instância Uwazi, você verá um novo cartão com o rótulo "Uwazi" nas seções de **Conexões** da sua tela inicial do Tella. 
 
-Para baixar um Template, toque no botão **+** na parte inferior da tela. Você verá uma lista de templates disponíveis em todas as instâncias Uwazi às quais está conectado. Toque no botão **Baixar** para baixar templates ou no botão **Atualizar** para ver há atualizações para os templates disponíveis para você no servidor.
+Para baixar um Template, toque no botão **+** na parte inferior da tela. Você verá uma lista de templates disponíveis em todas as instâncias Uwazi às quais está conectado. Toque no botão **Baixar** para baixar templates ou no botão **Atualizar** para ver se há atualizações para os templates disponíveis para você no servidor.
 
 Então, retorne para a tela principal do Uwazi e toque no template desejado para usá-lo para criar uma entidade.
 
@@ -98,12 +120,15 @@ Então, retorne para a tela principal do Uwazi e toque no template desejado para
 | **Funcionalidade** | **Detalhes**| **Tella para Android** | **Tella para iOS** | 
 |------|------|------|------|
 | Submeter | Envia o formulário preenchido para o servidor conectado. | Sim | Sim |
-| Salvar como rascunho | Salva um formulário incompleto.  | Sim | Não |
-| Submeter mais tarde | Marca um formulário como finalizado e envia para a aba Caixa de Saída.  | Sim | Não |
-| Aba Rascunhos | Uma aba com todos os rascunhos. Rascunhos podem ser editados ou apagados.   | Sim | Não |
-| Aba Caixa de Saída | Uma aba com os formulários prontos para submissão. Formulários na caixa de saída podem ser editados ou apagados.  | Sim | Não |
-| Aba Submetidos | Uma aba com todos os formulários enviados com sucesso para o servidor. Formulários submetidos podem ser apagados.  | Sim | Não |
+| Salvar como rascunho | Salva um formulário incompleto.  | Sim | Sim |
+| Submeter mais tarde | Marca um formulário como finalizado e envia para a aba Caixa de Saída.  | Sim | Sim |
+| Aba Rascunhos | Uma aba com todos os rascunhos. Rascunhos podem ser editados ou apagados.   | Sim | Sim |
+| Aba Caixa de Saída | Uma aba com os formulários prontos para submissão. Formulários na caixa de saída podem ser editados ou apagados.  | Sim | Sim |
+| Aba Submetidos | Uma aba com todos os formulários enviados com sucesso para o servidor. Formulários submetidos podem ser apagados.  | Sim | Sim |
 | Pausar/Retomar submissão | Usuários podem pausar manualmente uma submissão e retomá-la quando for o momento.  | Sim | Não |
-| Pausa automática da submissão quando offline | Submissões serão enviadas para a aba Caixa de Saída caso ocorra uma falha por problemas de conectividade.   | Sim | Não |
+| Pausa automática da submissão quando offline | Submissões serão enviadas para a aba Caixa de Saída caso ocorra uma falha por problemas de conectividade.   | Sim | Sim |
 
 
+:::tip
+If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+:::

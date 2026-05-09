@@ -2,7 +2,11 @@
 id: docs
 slug: /docs
 title: Documentação do Tella
+sidebar_position: 1
 ---
+
+import Link from '@docusaurus/Link'
+
 
 # Docs do Tella
 
@@ -16,36 +20,36 @@ Abaixo, você encontrará tudo o que precisa para entender como o Tella funciona
 
 <div className="doc-card-list">
     <div className="doc-card">
-      <a href="features">
+      <Link to="/features">
         <div className="doc-card-content">
           <b>Funcionalidades</b>
-          <p>Explore uma lista e descrição das funcionalidades do Tella.</p>
+          <p>Descubra uma lista e descrição das funcionalidades do Tella.</p>
         </div>
-      </a>
+      </Link>
     </div>
     <div className="doc-card">
-      <a href="security-and-privacy">
+      <Link to="/security-and-privacy">
         <div className="doc-card-content">
           <b>Segurança e Privacidade</b>
-          <p>Saiba mais sobre nossas funcionalidades e auditorias de segurança.</p>
+          <p>Saiba mais sobre nossos recursos e auditorias de segurança.</p>
         </div>
-      </a>
+      </Link>
     </div>
     <div className="doc-card">
-      <a href="accessibility">
+      <Link to="/accessibility">
         <div className="doc-card-content">
           <b>Idiomas e Acessibilidade</b>
-          <p>Explore os idiomas suportados pelo Tella e nossos esforços de acessibilidade.</p>
+          <p>Explore os idiomas suportados pela Tella e nossos esforços de acessibilidade.</p>
         </div>
-      </a>
+      </Link>
     </div>
     <div className="doc-card">
-      <a href="user-stories">
+      <Link to="/user-stories">
         <div className="doc-card-content">
           <b>Histórias de Usuários</b>
-          <p>Leia sobre casos de uso e implantações reais.</p>
+          <p>Leia sobre casos de uso e implementações no mundo real.</p>
         </div>
-      </a>
+      </Link>
     </div>
 </div>
 
@@ -53,28 +57,28 @@ Abaixo, você encontrará tudo o que precisa para entender como o Tella funciona
 
 <div className="doc-card-list">
     <div className="doc-card">
-      <a href="get-started-android">
+      <Link to="/get-started-android">
         <div className="doc-card-content">
           <b>Guia para Android</b>
           <p>Guia rápido para usuários do Tella no Android.</p>
         </div>
-      </a>
+      </Link>
     </div>
     <div className="doc-card">
-      <a href="get-started-ios">
+      <Link to="/get-started-ios">
         <div className="doc-card-content">
           <b>Guia para iOS</b>
           <p>Guia rápido para usuários do Tella no iPhone.</p>
         </div>
-      </a>
+      </Link>
     </div>
     <div className="doc-card">
-      <a href="video-tutorials">
+      <Link to="/video-tutorials">
         <div className="doc-card-content">
           <b>Tutoriais em Vídeo</b>
-          <p>Tutoria em vídeo sobre como começar.</p>
+          <p>Instruções em vídeo sobre como começar.</p>
         </div>
-      </a>
+      </Link>
     </div>
 </div>
 
@@ -82,37 +86,54 @@ Abaixo, você encontrará tudo o que precisa para entender como o Tella funciona
 
 <div className="doc-card-list">
     <div className="doc-card">
-      <a href="for-organizations">
-        <div className="doc-card-content">
-          <b>Visão Geral</b>
-          <p>Saiba como organizações podem usar o Tella para pesquisa, advocacia pública, ou processos de responsabilização.</p>
-        </div>
-      </a>
-    </div>
-    <div className="doc-card">
-      <a href="tella-web">
+      <Link to="/tella-web">
         <div className="doc-card-content">
           <b>Tella Web</b>
           <p>A conexão Tella Web empodera usuários a carregar fotos, vídeos, gravações em áudio e texto para o servidor de sua organização de forma conveniente.</p>
         </div>
-      </a>
+      </Link>
     </div>
     <div className="doc-card">
-      <a href="uwazi">
+      <Link to="/uwazi">
         <div className="doc-card-content">
           <b>Uwazi</b>
           <p>A conexão Uwazi permite às organizações coletar dados de seus usuários Tella e estabelecer relações entre os dados.</p>
         </div>
-      </a>
+      </Link>
     </div>
     <div className="doc-card">
-      <a href="odk">
+      <Link to="/odk">
         <div className="doc-card-content">
           <b>Open Data Kit (ODK)</b>
           <p>A conexão ODK permite às organizações coletar dados usando formulários personalizados do Tella.</p>
         </div>
-      </a>
+      </Link>
     </div>
+    <div className="doc-card">
+      <Link to="/g-drive">
+        <div className="doc-card-content">
+          <b>Google Drive Connection</b>
+          <p>Tella allows users to upload photos, videos, audio recordings and text to their personal or organizational Google Drive.</p>
+        </div>
+      </Link>
+    </div>
+    <div className="doc-card">
+      <Link to="/nextcloud">
+        <div className="doc-card-content">
+          <b>Nextcloud Connection</b>
+          <p>Tella allows users to conveniently upload photos, videos, audio recordings and text to Nextcloud.</p>
+        </div>
+      </Link>
+    </div>
+    <div className="doc-card">
+      <Link to="/dropbox">
+        <div className="doc-card-content">
+          <b>Dropbox Connection</b>
+          <p>Tella allows users to conveniently upload photos, videos, audio recordings and text to Dropbox.</p>
+        </div>
+      </Link>
+    </div>
+
 </div>
 
 
@@ -120,28 +141,28 @@ Abaixo, você encontrará tudo o que precisa para entender como o Tella funciona
 
 <div className="doc-card-list">
     <div className="doc-card">
-      <a href="community-meetings">
+      <Link to="/community-meetings">
         <div className="doc-card-content">
           <b>Reuniões da Comunidade</b>
           <p>Detalhes sobre as videochamadas mensais da comunidade Tella.</p>
         </div>
-      </a>
+      </Link>
     </div>
     <div className="doc-card">
-      <a href="open-source">
+      <Link to="/open-source">
         <div className="doc-card-content">
           <b>Código Aberto</b>
           <p>Informações sobre o compromisso do Tella com o Código Aberto e links para repositórios.</p>
         </div>
-      </a>
+      </Link>
     </div>
     <div className="doc-card">
-      <a href="translating-tella">
+      <Link to="/translating-tella">
         <div className="doc-card-content">
           <b>Traduzindo o Tella</b>
           <p>Informações sobre como ajudar a traduzir o Tella.</p>
         </div>
-      </a>
+      </Link>
     </div>
 </div>
 
@@ -149,35 +170,35 @@ Abaixo, você encontrará tudo o que precisa para entender como o Tella funciona
 
 <div className="doc-card-list">
     <div className="doc-card">
-      <a href="faq">
+      <Link to="/faq">
         <div className="doc-card-content">
           <b>FAQ</b>
-          <p>Encontre respostas para perguntas comuns.</p>
+          <p>Encontre respostas para perguntas frequentes.</p>
         </div>
-      </a>
+      </Link>
     </div>
     <div className="doc-card">
-      <a href="contact-us">
+      <Link to="/contact-us">
         <div className="doc-card-content">
           <b>Contate-nos</b>
           <p>Entre em contato para receber suporte ou fazer perguntas.</p>
         </div>
-      </a>
+      </Link>
     </div>
     <div className="doc-card">
-      <a href="releases">
+      <Link to="/releases">
         <div className="doc-card-content">
           <b>Novidades</b>
           <p>Leia os changelogs do Tella e as notas de cada versão.</p>
         </div>
-      </a>
+      </Link>
     </div>
     <div className="doc-card">
-      <a href="privacy">
+      <Link to="/privacy">
         <div className="doc-card-content">
           <b>Política de Privacidade</b>
           <p>Política de privacidade do Tella.</p>
         </div>
-      </a>
+      </Link>
     </div>
 </div>
