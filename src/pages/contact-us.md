@@ -2,13 +2,13 @@
     <h1>Let's talk</h1>
     <div className="columns">
         <div className="column">
-            <img className="home-illustrations" src="img/contact.png" alt="Image with a hand clicking on some"/>
+            <img className="home-illustrations" src="/img/contact.png" alt="Image with a hand clicking on some"></img>
         </div>
         <div className="column">
             <p>
-                Do you have questions about Tella?<br/> 
-                Do you need support or training to deploy it in your community?<br/>
-                Do you have ideas to improve the app?<br/>
+                Do you have questions about Tella? 
+                Do you need support or training to deploy it in your community?
+                Do you have ideas to improve the app?
             </p>
             <h2>Get in touch</h2>
             <ul>

@@ -1,18 +1,25 @@
 1. Arabic
-2. Belarusian
-3. Bengali
-4. Burmese
-5. English
-6. French
-7. Indonesian
-8. Jingpho
-9. Kannada
-10. Karen Sgaw
-11. Kurdish
-12. Malayalam
-13. Persian
-14. Portuguese
-15. Russian
-16. Spanish (Latin America)
-17. Tamil
-18. Vietnamese
+2. Azerbaijani
+3. Belarusian
+4. Bengali
+5. Burmese
+6. Chinese (Simplified Chinese)
+7. English
+8. French
+9. Indonesian
+10. Jingpho
+11. Kannada
+12. Karen Sgaw
+13. Kurdish
+14. Malayalam
+15. Mizo
+16. Ndau
+17. Persian
+18. Portuguese
+19. Portuguese (Mozambique)
+20. Russian
+21. Spanish (Latin America)
+22. Tamil
+23. Ukrainian
+24. Tsonga
+25. Vietnamese

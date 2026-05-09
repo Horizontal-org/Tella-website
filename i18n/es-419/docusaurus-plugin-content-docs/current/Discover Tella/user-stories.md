@@ -3,6 +3,7 @@ id: user-stories
 title: Historias de Usuaria(o)s
 description: Experiencia de usuaria(o)s e implementaciones de Tella
 slug: /user-stories
+sidebar_position: 4
 ---
 
 # Historias de usuaria(o)s de Tella

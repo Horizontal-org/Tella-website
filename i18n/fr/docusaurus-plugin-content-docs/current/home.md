@@ -2,6 +2,7 @@
 id: docs
 slug: /docs
 title: Documentation de Tella
+sidebar_position: 1
 ---
 
 import Link from '@docusaurus/Link'
@@ -85,14 +86,6 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
 
 <div className="doc-card-list">
     <div className="doc-card">
-      <Link to="/for-organizations">
-        <div className="doc-card-content">
-          <b>Aperçu</b>
-          <p>Découvrez comment les organisations peuvent utiliser Tella pour des processus de recherche, de plaidoyer ou de responsabilisation.</p>
-        </div>
-      </Link>
-    </div>
-    <div className="doc-card">
       <Link to="/tella-web">
         <div className="doc-card-content">
           <b>Tella Web</b>
@@ -116,6 +109,31 @@ Vous trouverez ci-dessous tout ce dont vous avez besoin pour comprendre le fonct
         </div>
       </Link>
     </div>
+    <div className="doc-card">
+      <Link to="/g-drive">
+        <div className="doc-card-content">
+          <b>Google Drive Connection</b>
+          <p>Tella allows users to upload photos, videos, audio recordings and text to their personal or organizational Google Drive.</p>
+        </div>
+      </Link>
+    </div>
+    <div className="doc-card">
+      <Link to="/nextcloud">
+        <div className="doc-card-content">
+          <b>Nextcloud Connection</b>
+          <p>Tella allows users to conveniently upload photos, videos, audio recordings and text to Nextcloud.</p>
+        </div>
+      </Link>
+    </div>
+    <div className="doc-card">
+      <Link to="/dropbox">
+        <div className="doc-card-content">
+          <b>Dropbox Connection</b>
+          <p>Tella allows users to conveniently upload photos, videos, audio recordings and text to Dropbox.</p>
+        </div>
+      </Link>
+    </div>
+
 </div>
 
 

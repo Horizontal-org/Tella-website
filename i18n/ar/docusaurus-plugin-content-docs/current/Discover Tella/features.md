@@ -82,7 +82,7 @@ You can [continue reading about Server Connections and how organizations use Tel
 تعرف على المزيد حول ميزات الأمن الإضافية لـ Tella في هذا [الفيديو التعليمي](/video-tutorials#additional-security-features)
 :::
 
-تقييد محاولات فتح القفل {#restrict-unlocking-attempts}
+## تقييد محاولات فتح القفل {#restrict-unlocking-attempts}
 
 ‫عن طريق الذهاب إلى **الإعدادات ⚙️** > **الأمن** > **الحذف بعد فشل فتح القفل**، يمكن للمستخدم تحديد عدد محاولات فتح القفل الفاشلة المسموح بها قبل حذف كل شيء داخل Tella.
 
@@ -125,7 +125,7 @@ You can [continue reading about Server Connections and how organizations use Tel
 يمكن العثور على التفاصيل التقنية حول التعمية في قسم [الأمن والخصوصية](/security-and-privacy).
 :::
 
-إدارة الملفات {#file-management}
+## إدارة الملفات {#file-management}
 
 يسمح Tella للمستخدمين بإدارة الملفات والمجلدات بطريقة مشابهة لما يقومون به على الحاسوب. جميع الملفات والمجلدات **مُعمّاة ومتاحة فقط داخل Tella **. 📂📝
 

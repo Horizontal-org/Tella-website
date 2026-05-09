@@ -30,7 +30,6 @@ import ThemedImage from '@theme/ThemedImage';
 
 <hr></hr>
 
-
 <div className="section">
     <h2>Pourquoi Tella?</h2>
     <div className="columns">
@@ -57,6 +56,7 @@ import ThemedImage from '@theme/ThemedImage';
                 <li><span className="emphasis">Cacher vos fichiers sur l'appareil :</span> vos fichiers sont inaccessibles depuis la galerie ou l'explorateur de fichiers réguliers du téléphone. Vous pouvez uniquement y accéder via l'application.</li>
                 <li><span className="emphasis">Verrouiller vos fichiers :</span> définissez un code PIN ou un mot de passe pour protéger vos fichiers. Saisir le bon code est le seul moyen de déchiffrer les fichiers stockés dans Tella.</li>
                 <li><span className="emphasis">Masquer l'application :</span> changez l'apparence de Tella pour la cacher des personnes fouillant votre téléphone.</li>
+                <li><span className="emphasis">Share your files:</span> choose one of the secure methods to share your files with other Tella vault or to a server.</li>
             </ul>
         </div>
         <div className="column" id="section-column2"><img className="home-illustrations" src="img/vault.png" alt="Vault illustration"/></div>
@@ -71,8 +71,8 @@ import ThemedImage from '@theme/ThemedImage';
         <div className="column" id="section-column2">
             <ul>
                 <li><span className="emphasis">Caméra et enregistreur intégrés dans Tella :</span> prenez des photos, enregistrez des vidéos et des audios directement dans Tella afin que vos fichiers soient immédiatement cryptés et cachés dans l'application.</li>
-                <li><span className="emphasis">Tella s'intègre</span> avec <a href="for-organizations#uwazi">Uwazi</a>, <a href="for-organizations#open-data-kit-odk">Kobotoolbox</a> et <a href="for-organizations#tella-web">Tella Web</a>. Choisissez la plateforme qui répond le mieux à vos besoins et collectez des données directement dans Tella.</li>
-                <li><span className="emphasis">Mode hors-ligne :</span> dans les zones avec une connexion Internet limitée ou inexistante, vous pouvez enregistrer vos données et les soumettre lorsque vous avez une connexion Internet fiable.</li>
+                <li><span className="emphasis">Tella s'intègre</span> avec <a href="uwazi">Uwazi</a>, <a href="odk">Open Data Kit</a>, <a href="tella-web">Tella Web</a>, <a href="g-drive">Google Drive</a>, <a href="dropbox">Dropbox</a> et <a href="nextcloud">Nextcloud</a>. Choisissez la plateforme qui répond le mieux à vos besoins et collectez des données directement dans Tella.</li>
+                <li><span className="emphasis">Mode hors-ligne :</span> dans les zones avec une connexion Internet limitée ou inexistante, vous pouvez enregistrer vos données et les soumettre lorsque vous avez une connexion Internet fiable. Tella also offers a <a href="nearby-sharing">fully offline feature to transfer files to nearby devices</a> using Tella.</li>
             </ul>
         </div>
     </div> 
@@ -85,10 +85,10 @@ import ThemedImage from '@theme/ThemedImage';
         <div className="column" id="section-column1">
             <ul>
                 <li><span className="emphasis">Gratuite pour toujours : </span>Tella est conçue pour ceux et celles dont la sécurité est en danger. Son téléchargement et son utilisation sont gratuite et le resteront à jamais.</li>
-                <li><span className="emphasis">Choisir votre langue :</span> Tella est actuellement <a href="faq#what-languages-is-tella-available-in">disponible</a>en arabe, biélorusse, birman, anglais, français, indonésien, jingpho, kannada, karen sgaw, kurde, malayalam, persan, portugais, russe, vietnamienne ,espagnol (Amérique latine) et en tamoul.</li>
-                <li><span className="emphasis">Faire confiance au code</span>: Le code de Tella est open-source et <a href="open-source">publiquement disponible</a> afin que les chercheurs et chercheuses, analystes en sécurité et développeurs ou développeuses puissent l'auditer et le réutiliser librement.</li>
+                <li><span className="emphasis">Choisir votre langue :</span> Tella est actuellement <a href="faq#what-languages-is-tella-available-in"> disponible </a> en 25 langues.</li>
+                <li><span className="emphasis">Faire confiance au code</span>: Le code de Tella est open-source et <a href="open-source">publiquement disponible</a> afin que les chercheurs et chercheuses, analystes en sécurité et développeurs ou développeuses puissent l'auditer et le réutiliser librement. We publish the <a href="security-and-privacy#security-audits">security audits</a> that independent firms have performed on Tella.</li>
             </ul>
         </div>
-        <div className="column" id="section-column2"><img className="home-illustrations" src="img/open-source.png" alt="Open source  illustration"/></div>
+        <div className="column" id="section-column2"><img className="home-illustrations" src="img/open-source.png" alt="Open source illustration"/></div>
     </div>
 </div>

@@ -16,16 +16,16 @@ import Link from '@docusaurus/Link'
     <div className="doc-card">
       <Link to="/get-started-android">
         <div className="doc-card-content">
-          <b>Android Guide</b>
-          <p>Quick start guide for Tella users on Android.</p>
+          <b>دليل أندرويد</b>
+          <p>دليل البدء السريع لمستخدمي Tella على أندرويد.</p>
         </div>
       </Link>
     </div>
     <div className="doc-card">
       <Link to="/get-started-ios">
         <div className="doc-card-content">
-          <b>iOS Guide</b>
-          <p>Quick start guide for Tella users on iPhone.</p>
+          <b>دليل iOS </b>
+          <p>دليل البدء السريع لمستخدمي Tella على iOS.</p>
         </div>
       </Link>
     </div>
@@ -40,8 +40,8 @@ import Link from '@docusaurus/Link'
     <div className="doc-card">
       <Link to="/video-tutorials">
         <div className="doc-card-content">
-          <b>Video Tutorials</b>
-          <p>Video guidance on how to get started.</p>
+          <b>فيديوهات تعليمية</b>
+          <p>إرشادات بالفيديو حول كيفية البدء.</p>
         </div>
       </Link>
     </div>

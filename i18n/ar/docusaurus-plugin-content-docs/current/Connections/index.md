@@ -45,21 +45,15 @@ Previous Tella deployments, where on-the-ground users collected data and sent it
 
 Currently, Tella can connect to the following types of servers:
 
-* الخيارات المتاحة هي دقيقة واحدة، 5 دقائق، 30 دقيقة وساعة واحدة. ⏱️
-* ‏:::info
-يرجى استخدام هذه الميزة بحذر لأنه إذا كان Tella غير مقفل ستكون البيانات غير محمية وأي شخص يدخل لـ Tella سيكون قادرا على رؤية جميع المعلومات الموجودة داخله.
-:::
-* ‏:::info
-عندما تكون الكاميرا أو مسجل الصوت مفتوحين، لن يُقفَل Tella
-:::
-* ‏::: tip فيديو تعليمي 🎥
-تعرف على المزيد حول ميزات الأمن الإضافية لـ Tella في هذا [الفيديو التعليمي](/video-tutorials#additional-security-features)
-:::
-* الوضع الصامت للكاميرا {#camera-silent-mode}
-* ‫يتم تعطيل الوضع الصامت للكاميرا في Tella بشكل افتراضي. من الممكن إيقاف صوت مِغلاق الكاميرا لتجنب لفت الانتباه عند التقاط الصور عن طريق الذهاب إلى **الإعدادات ⚙️** > **الأمن** > **الوضع الصامت للكاميرا**. 📷🔇
+* [Open Data Kit (ODK)](/odk)
+* [Uwazi](/uwazi)
+* [Tella Web](/tella-web)
+* [Google Drive](/g-drive)
+* [Nextcloud](/nextcloud)
+* [Dropbox](/dropbox)
 
 Feature availability by platform:
-تعرف على المزيد حول Tella Web [هنا](/tella-web)،
+<ConnectionsTable/>
 
 Some individuals use commercial clouds (Google Drive, Dropbox, Nextcloud) as a backup system for their Tella data. However, we advise using this feature with caution:
 - Automatic backups to any server are **not** currently available. They need to be made manually as submissions to each of the servers.

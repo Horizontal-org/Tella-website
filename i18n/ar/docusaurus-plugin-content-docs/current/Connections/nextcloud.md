@@ -46,7 +46,7 @@ For now, we don't support two-factor authentication (2FA) for Nextcloud connecti
 
 In order to connect to Nextcloud:
 
-* حدد "Uwazi" من قائمة أنواع الخوادم المتاحة.
+* حدد "Nextcloud" من قائمة أنواع الخوادم المتاحة.
 * Select "Nextcloud" from the list of available server types.
 * Type the URL of your Nextcloud server.
 * Enter your Nextcloud username and password.

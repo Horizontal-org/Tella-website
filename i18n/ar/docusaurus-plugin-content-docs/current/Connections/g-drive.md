@@ -46,7 +46,7 @@ If you need help figuring out if Google Drive is best for your use-case, [read o
 
 In order to connect to a Google Drive:
 
-* حدد "Uwazi" من قائمة أنواع الخوادم المتاحة.
+* حدد "Google Drive" من قائمة أنواع الخوادم المتاحة.
 * Select "Google Drive" from the list of available server types.
 * Login to your Google account using the Google login flow on the web view. 
 * Grant Tella permissions to modify your Google Drive (we need this permission to be able to upload files to your drive and create folders in your behalf).

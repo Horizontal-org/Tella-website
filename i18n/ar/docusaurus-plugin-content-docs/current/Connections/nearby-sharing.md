@@ -36,19 +36,7 @@ If you need help figuring out if Nearby Sharing is best for your use-case, [cont
 :::
 
 :::tip
-If you are trying to share files to the organization you are working with, or if you are not in the same physical location as the person you want to exchange files with, [Tella's server connections](/for-organizations) could be helpful:
-* الخيارات المتاحة هي دقيقة واحدة، 5 دقائق، 30 دقيقة وساعة واحدة. ⏱️
-* ‏:::info
-يرجى استخدام هذه الميزة بحذر لأنه إذا كان Tella غير مقفل ستكون البيانات غير محمية وأي شخص يدخل لـ Tella سيكون قادرا على رؤية جميع المعلومات الموجودة داخله.
-:::
-* ‏:::info
-عندما تكون الكاميرا أو مسجل الصوت مفتوحين، لن يُقفَل Tella
-:::
-* ‏::: tip فيديو تعليمي 🎥
-تعرف على المزيد حول ميزات الأمن الإضافية لـ Tella في هذا [الفيديو التعليمي](/video-tutorials#additional-security-features)
-:::
-* الوضع الصامت للكاميرا {#camera-silent-mode}
-* ‫يتم تعطيل الوضع الصامت للكاميرا في Tella بشكل افتراضي. من الممكن إيقاف صوت مِغلاق الكاميرا لتجنب لفت الانتباه عند التقاط الصور عن طريق الذهاب إلى **الإعدادات ⚙️** > **الأمن** > **الوضع الصامت للكاميرا**. 📷🔇
+If you are trying to share files to the organization you are working with, or if you are not in the same physical location as the person you want to exchange files with, [Tella's server connections](/for-organizations) could be helpful.
 :::
 
 ## How to use Nearby Sharing {#how-to-use}
