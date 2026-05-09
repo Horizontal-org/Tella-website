@@ -1,13 +1,13 @@
 ---
 id: tella-web
 title: Tella Web
-description: تُسهِّل ميزة التقارير على المستخدمين عملية تحميل الصور والفيديوهات وملفات PDF والتسجيلات الصوتية إلى خادم Tella Web الخاص بمنظمتهم.
+description: تُسهِّل ميزة التقارير على المستخدمين عملية تحميل الصور والفيديوهات وملفات PDF والتسجيلات الصوتية إلى خادم Tella Web الخاص بمنظمتهم.
 slug: /tella-web
 ---
 
 # Tella Web 
 
-Tella Web هي أداة مفتوحة المصدر تُمكِّن الأفراد والمنظمات من الإدارة والتجميع المُمركَز للتقارير التي يرسلها مستخدمو Tella، بما في ذلك الصور ومقاطع الفيديو والملفات الصوتية.
+Tella Web هي أداة مفتوحة المصدر تُمكِّن الأفراد والمنظمات من الإدارة والتجميع المُمركَز للتقارير التي يرسلها مستخدمو Tella، بما في ذلك الصور ومقاطع الفيديو والملفات الصوتية.
 
 تم تطوير Tella Web داخليا من قبل فريقنا في Horizontal، نفس الفريق المسؤول عن تطوير تطبيقات Tella المحمولة. إنه تطبيق سهل الاستخدام للنسخ الاحتياطي لملفات الوسائط إلى خادم بعيد بطريقة آمنة وخاصة. يتيح استخدام خادم Tella Web أيضا للمستخدمين سحب البيانات (الدلائل والتعليمات والرسائل المهمة وغيره) من الخادم مباشرة إلى Tella الخاصة بهم
 
@@ -27,11 +27,26 @@ Tella Web هي أداة مفتوحة المصدر تُمكِّن الأفراد 
 * **إعداد مشاريعك على خادمك**: في هذه الخطوة، يقرر المسؤولون كيف سينظمون أنفسهم لجمع البيانات وإنشاء "مشاريع" وإضافة "موارد" للمستخدمين لتنزيلها على أجهزتهم وتعيين الأدوار و التراخيص لمستخدميهم.
 * **تحضير الأشخاص الميدانيين لبدء إرسال التقارير**: يقوم المستخدمون بتثبيت Tella على أجهزتهم التي تعمل بنظام أندرويد أو آيفون. ثم يتصلون بمشروع Tella Web وبعدها يبدؤون في جمع المعلومات.
 
+:::danger
+Even though data is transferred to the server securely (SSL), anyone with access to the Tella Web account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+:::
+
+## When to Use Tella Web {#when-to-use-tella-web}
+
+The Tella Web could be a good alternative if:
+- You have the capacity to self-host Tella Web.
+- People on the ground will be sending mostly media files, with some text and don't need structured data collection (forms).
+- You will be partnering with Horizontal and you want the same organization to help you with installation, configuration, and maintenance of your Tella Web instance and the Tella apps.
+
+
+:::tip
+If you need help figuring out if Tella Web is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
+:::
 
 
 ## تثبيت الخادم {#install-the-server}
 
-تتضمن هذه الخطوة تثبيت وتهيئة Tella Web على الخادم الذي ستستخدمه منظمتك. يجب إكمال هذه الخطوة من طرف الشخص الذي سيكون مسؤولا عن إدارة النظام (المُطوِّر أو المسؤول عن النظام). يمكن العثور على التعليمات التقنية على [Github الخاص بنا](https://github.com/Horizontal-org/tellaweb).
+تتضمن هذه الخطوة تثبيت وتهيئة Tella Web على الخادم الذي ستستخدمه منظمتك. يجب إكمال هذه الخطوة من طرف الشخص الذي سيكون مسؤولا عن إدارة النظام (المُطوِّر أو المسؤول عن النظام). يمكن العثور على التعليمات التقنية على [Github الخاص بنا](https://github.com/Horizontal-org/tellaweb).
 
 يمكنك الاطلاع على ملاحظات إصدار Tella Web [هنا](https://github.com/Horizontal-org/TellaWeb-FrontEnd/releases).
 
@@ -59,6 +74,29 @@ Tella Web هي أداة مفتوحة المصدر تُمكِّن الأفراد 
 
 يمكن للمسؤولين في مساحة Tella Web تغيير الإعدادات على مستوى النظام:
 - [اختيار مشاركة التحليلات مع فريق Tella](/security-and-privacy#analytics).
+
+#### Configure spaces' settings {#configure-spaces-settings}
+Admins of the Tella Web space can enable or disable system-wide settings depending on their own risk assessment and privacy consideration:
+- [Opt-in to share analytics with Tella team](/security-and-privacy#analytics).
+- Suspicious login detection: 
+    - If enabled Tella Web will record location for each login IP and approximate location based on IP. If the user is connecting from an unusual location Tella Web will block the login attempt to prevent any unauthorized sing-in and send an email to the user to confirm if was a legitimate login attempt. 
+    - We use a [third party service](https://ipinfo.io/) to calculate the country of the IP. 
+    - Tella Web requires an SMTP server to be properly configured and working for this feature to work. 
+    - If disabled Tella Web won't store the IP, won't calculate location nor ping any third party service.
+- Feedback:
+    - When enabled, Tella Web shows a feedback box that allow users to send an anonymous note to the Tella team on any feedback request or bug reports that they might find. It doesn't contain any information about the user or the Tella Web instance.
+    - To ensure user privacy and anonymity, only essential data is transmitted to our Feedback server through HTTPS POST requests. Logs containing user information (IP address, date and time, and user-agent) are automatically deleted weekly.
+    - On the Feedback server database, we only store a copy of the text sent by users in the feedback form and which platform it came from (in this case from "Tella Web" without specifying which server installation). 
+
+#### Backup your space {#backup-your-space}
+
+Admins of the Tella Web instance can export all data out of Tella Web by generating a backup. Backups can be used to port the data to another location, including a computer, a USB flash drive, an external disk or a remote server.  The action to generate the backup runs in the background and, if triggered, an email notification will be sent to the person who generated the backup when it is ready to download. However, all backups are accessible in the Admin Center to all users with admin access.
+
+The backup is a full export everything in the space: including all Projects, Reports, Users and Resources, plus all metadata. The export is a zip file including a collection of CSVs and folders with with the uploaded media. For now, there is no way to import the backup back into a Tella Web instance from the Admin Center, but each backup includes a .sql file that advanced users can use to import the data to the database directly. 
+
+:::warning
+The information included in the backup is highly sensitive, it not only contains all the data (unencrypted) but also information about the Tella Web users. Please proceed with caution when generating the backup.
+:::
 
 
 ### إدارة المشاريع {#managing-projects}
@@ -215,8 +253,6 @@ Tella Web لا يحتفظ بأي معلومات حول تنزيلات الموا
 * ‫Tella Android، الإصدار 2.1.0 (152) والإصدارات اللاحقة
 * ‫Tella iOS، الإصدار 1.1.0 (43) والإصدارات اللاحقة
 
-التقارير ليست متاحة بعد على [Tella-FOSS](/faq#is-tella-available-on-f-droid).
-
 :::info
 يمكنك مشاهدة [هذا الفيديو](/video-tutorials#tella-web) لمعرفة كيفية تهيئة واستخدام التقارير في Tella.
 :::
@@ -238,7 +274,7 @@ Tella Web لا يحتفظ بأي معلومات حول تنزيلات الموا
 
 * ‫في **الإعدادات ⚙️** > **الخوادم** > **[اسم المشروع]** > ثلاث نقط، يمكنك:
     * التحرير: تُفتَح شاشة "تحرير الخادم" حيث يمكنك عرض اسم المشروع وعنوان الموقع واسم المستخدم الخاص بك وتحرير الميزات المتقدمة.
-    * الحذف: يُحذَف الاتصال، بما في ذلك جميع معلومات الخادم وجميع التقارير المُسوَّدة والتقارير المُرسَلة المُخزَّنة في Tella. لن يؤثر ذلك على أي تقرير تم إرساله بالفعل إلى الخادم.
+    * الحذف: يُحذَف الاتصال، بما في ذلك جميع معلومات الخادم وجميع التقارير المُسوَّدة والتقارير المُرسَلة المُخزَّنة في Tella. لن يؤثر ذلك على أي تقرير تم إرساله بالفعل إلى الخادم.
 
 #### سحب الموارد من مساحتك {#pull-resources-from-your-space}
 
@@ -253,13 +289,13 @@ Tella Web لا يحتفظ بأي معلومات حول تنزيلات الموا
 #### إنشاء تقرير يدوي {#create-a-manual-report}
 
 * بمجرد الاتصال بمشروع Tella Web واحد على الأقل، ستظهر بطاقة "التقارير" في قسم "الاتصالات" في الشاشة الرئيسية. المس هذه البطاقة لبدء إنشاء التقارير.
-* تسمح الشاشة الرئيسية للتقارير بالتنقل بين ألسنة المُسوَّدات والبريد الصادر ولسان المُرسَل.
+* تسمح الشاشة الرئيسية للتقارير بالتنقل بين ألسنة المُسوَّدات والبريد الصادر ولسان المُرسَل.
 * المس زر "تقرير جديد" في أسفل الشاشة لإنشاء تقرير جديد.
     * في شاشة "تقرير جديد" يمكنك ملء تفاصيل التقرير، بما في ذلك العنوان والوصف والمرفقات الاختيارية من الصور والفيديوهات وملفات PDF والتسجيلات الصوتية.
     * إذا كنت متصلا بمشاريع Tella Web متعددة، ستتمكن من اختيار المشروع الذي سيتم إرسال التقرير له في أعلى الشاشة.
-* استخدم زر "حفظ المُسوَّدة" (في أعلى يمين الشاشة) لحفظ التقرير كمُسوَّدة دون مغادرة شاشة "تقرير جديد".
-    * لكي تتمكن من الحفظ كمُسوَّدة، ستحتاج على الأقل إلى إدخال عنوان للتقرير.
-    * ستظهر رسالة على الشاشة لتأكيد حفظ المُسوَّدة.
+* استخدم زر "حفظ المُسوَّدة" (في أعلى يمين الشاشة) لحفظ التقرير كمُسوَّدة دون مغادرة شاشة "تقرير جديد".
+    * لكي تتمكن من الحفظ كمُسوَّدة، ستحتاج على الأقل إلى إدخال عنوان للتقرير.
+    * ستظهر رسالة على الشاشة لتأكيد حفظ المُسوَّدة.
 * يحفظ زر "الإرسال لاحقا" التقرير إلى البريد الصادر للإرسال اليدوي.
     * غالبا ما يتم استخدام لسان البريد الصادر عندما لا يكون لدى جامعي البيانات اتصال بالانترنت أو إذا كانت الاتصال غير مستقر.
 * يرسل زر "إرسال" التقرير إلى مشروع Tella Web فورا.
@@ -267,20 +303,20 @@ Tella Web لا يحتفظ بأي معلومات حول تنزيلات الموا
     * إذا تم إرسال التقرير بنجاح، يذهب إلى لسان "المُرسَلة".
 
 
-#### مُسوَّدات التقارير {#draft-reports}
+#### مُسوَّدات التقارير {#draft-reports}
 
 
-* في شاشة "تقرير جديد"، المس زر "حفظ المُسوَّدة" لحفظ التقرير كمُسوَّدة.
+* في شاشة "تقرير جديد"، المس زر "حفظ المُسوَّدة" لحفظ التقرير كمُسوَّدة.
     * ستظهر رسالة تأكيد، ويمكنك متابعة العمل على التقرير أو الخروج للعودة إليه لاحقا.
 * إذا حاولت الخروج من التقرير دون حفظه، سيطلب منك تأكيد رغبتك حقا في الخروج دون حفظ التقرير.
-* في لسان المُسوَّدات، يمكنك عرض وإدارة مُسوَّدات التقارير. افتح مُسوَّدة التقرير لمتابعة العمل عليه ولإرساله.
-* ‫يمكنك حذف مُسوَّدة التقرير بلمس الثلاث نقط > **حذف** أو بالدخول إلى التقرير ثم لمس زر الحذف.
+* في لسان المُسوَّدات، يمكنك عرض وإدارة مُسوَّدات التقارير. افتح مُسوَّدة التقرير لمتابعة العمل عليه ولإرساله.
+* ‫يمكنك حذف مُسوَّدة التقرير بلمس الثلاث نقط > **حذف** أو بالدخول إلى التقرير ثم لمس زر الحذف.
 
 
 #### إرسال تقرير {#submit-a-report}
 
 * في التقرير، المس "إرسال" لبدء عملية إرسال التقرير.
-* سيتم توجيهك إلى شاشة ملخصة تعرض تقدُّم تحميل كل ملف مرفق.
+* سيتم توجيهك إلى شاشة ملخصة تعرض تقدُّم تحميل كل ملف مرفق.
 * هناك زر "حذف" لإيقاف التحميل وحذف التقرير.
 * إذا كان يتم تحميل التقرير بنشاط، فإن زر "إيقاف مؤقت" يسمح لك بإيقاف التحميل مؤقتا، والذي يمكن استئنافه لاحقا باستخدام زر "استئناف".
 * لا يؤثر الخروج من التقرير على حالة التحميل. إذا كان يتم تحميل التقرير بنشاط، ستستمر العملية.
@@ -337,6 +373,6 @@ Tella Web لا يحتفظ بأي معلومات حول تنزيلات الموا
 
 عند تفعيل الإرسال في الخلفية، بغض النظر عما تفعله في Tella أو إذا أغلقت التطبيق، ستستمر عملية التحميل دون انقطاع. ستعمل أيضا إذا تم تفعيل التقارير التلقائية وأغلقت التطبيق بعد جمع المعلومات.
 
-عند تحميل التقارير في الخلفية، يبقى Tella غير مُقفَل، ذلك يعني أنه إذا فتح شخص ما Tella، سيتمكن من الوصول إلى ملفاتك وتقاريرك. لقفل Tella عندما تكون التقارير تُحمَّل في الخلفية، المس زر "الخروج السريع" في أعلى يمين الشاشة الرئيسية لـ Tella.
+عند تحميل التقارير في الخلفية، يبقى Tella غير مُقفَل، ذلك يعني أنه إذا فتح شخص ما Tella، سيتمكن من الوصول إلى ملفاتك وتقاريرك. لقفل Tella عندما تكون التقارير تُحمَّل في الخلفية، المس زر "الخروج السريع" في أعلى يمين الشاشة الرئيسية لـ Tella.
 
 إذا انقطعت عملية الإرسال بسبب ضعف الاتصال بالانترنت أو بسبب عوامل أخرى، سيرسل Tella التقرير إلى لسان البريد الصادر ثم يعيد تشغيل التحميل تلقائيا بمجرد استعادة الهاتف الاتصال المستقر بالانترنت.
