@@ -13,7 +13,7 @@ import Button from '@site/src/components/Button';
 
 Para além de manter os dados protegidos dentro do aplicativo, usuários podem também conectar-se a um servidor para fazer backup de seus dados de forma segura. Este é tipicamente um servidor mantido por organizações, nos quais elas podem centralizar os dados coletados por voluntários ou ativistas nos campos de atuação. Esses indivíduos reúnem informações usando Tella em seus telefones e, então, enviam para as organizações.
 
-Implantações anteriores do Tella, nas quais usuários nos campos de atuação coletavam dados e enviavam para um servidor da organização, variaram entre 1 e 2.000 usuários. Você pode ler histórias de usuários [aqui](/user-stories), ou entrar em contato conosco para que possamos te ajudar a encontrar a melhor forma de usar o Tella na sua organização.
+Implantações anteriores do Tella, nas quais usuários nos campos de atuação coletavam dados e enviavam para um servidor da organização, variaram entre 1 e 2.000 usuários. 📲 📡. Você pode ler histórias de usuários [aqui](/user-stories), ou entrar em contato conosco para que possamos te ajudar a encontrar a melhor forma de usar o Tella na sua organização.
 
 Atualmente, o Tella pode ser conectado aos seguintes tipos de servidores:
 

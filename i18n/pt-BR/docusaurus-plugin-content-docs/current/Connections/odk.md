@@ -59,7 +59,7 @@ A conexão ODK não está disponível no Tella para iOS.
 :::
 
 ### Conecte a um Servidor ODK {#connect-to-an-odk-server}
-After creating and deploying a Form using any ODK-compliant server, in Tella, go to **Settings** > **Connections** > **+** > **Open Data Kit (ODK)**. Fill the following fields:
+Após criar e implantar um formulário usando qualquer servidor em conformidade com o ODK, no Tella, dirija-se para **Configurações** > **Conexões** > **+** > **Open Data Kit (ODK)**. Preencha os seguintes campos:
 - **Nome do Servidor**: Um nome descritivo para o seu servidor no Tella. O nome selecionado por você está apenas visível no aplicativo e não impacta a conexão ODK.
 - **URL do Servidor**: A URL do seu servidor. Por exemplo, `kc.kobotoolbox.org` caso esteja usando o servidor público do KoboToolbox.
 Se o servidor requerer autenticação de usuário, toque no botão **Avançado**  e entre o seu **Nome de usuário** e **Senha**. O administrador do seu servidor deve fornecer todas essas informações para você.
@@ -69,7 +69,7 @@ Se o servidor requerer autenticação de usuário, toque no botão **Avançado**
 
 Após ter se conectado com sucesso à instância ODK, você verá um novo cartão chamado "Formulários" nas seções **Conexões** na tela inicial do Tella.
 
-After you enter the **Forms** section, you will see a list of Forms available to you on the instance(s) that you are connected to. Using the **Download** button you can download forms to Tella so that you can fill them, even if you are not connected to the internet.
+Após entrar na seção **Formulários**, você verá uma lista de formulários disponíveis para você na(s) instância(s) às quais está conectado. Usando o botão **Baixar**, você pode baixar formulários para o Tella para que possa preenchê-los, mesmo quando não estiver conectado à internet.
 
 Você pode tocar em cada formulário em branco para começar a preenchê-lo.
 

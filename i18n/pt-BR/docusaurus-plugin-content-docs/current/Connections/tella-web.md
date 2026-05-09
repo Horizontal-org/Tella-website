@@ -200,11 +200,11 @@ No campo de senha, um medidor de segurança da senha ajuda administradores a cri
 #### Gerenciando o acesso a projetos {#managing-access-to-projects}
 
 
-In the "Manage access" section of the "Project settings" screen, admins can assign existing users to the project. Click the "Add users" field. A drop-down menu will display all the users on the server. Scroll through the list or type to search for a user by username.
-After selecting the users to add to the project, click the "Add" button to save the changes and grant access to the project.
+Na seção "Gerenciar acesso" da tela "Configurações do projeto", administradores podem alocar os usuários existentes no projeto. Clique no campo "Adicionar usuários". Um menu suspenso exibirá todos os usuários do servidor. Role a lista ou digite para procurar por um usuário pelo nome de usuário.
+Após selecionar os usuários para adicionar ao projeto, clique no botão "Adicionar" para salvar as mudanças e conceder acesso ao projeto.
 
 :::info
-The full list of users who can submit reports to the project includes the users listed on this section plus all the server administrators.
+A lista completa de usuários que podem submeter relatórios para o projeto inclui os usuários listados nesta seção e todos os administradores
 :::
 
 ### Managing resources {#managing-resources}
@@ -272,7 +272,7 @@ Para conectar-se a um servidor Tella Web:
 
 #### Gerenciar Projetos do Tella Web {#manage-tella-web-projects}
 
-* In **Settings ⚙️** > **Connections** >  **[Project name]** > 3-dots, you can:
+* Em **Configurações ⚙️** > **Conexões** >  **[Nome do projeto]** > 3-pontos, você pode:
     * Editar: Abre a tela "editar servidor", na qual você pode visualizar o nome do projeto, a URL e o seu nome de usuário, além de editar funcionalidades avançadas.
     * Excluir: Exclui a conexão, incluindo todas as informações do servidor e todos os rascunhos e relatórios submetidos armazenados no Tella. Isso não afetará quaisquer relatórios já submetidos ao servidor.
 
@@ -293,11 +293,11 @@ Once you disconnect from a Tella Web project all associated resources will be re
 * Toque no botão "Novo relatório" na parte inferior da tela para criar um novo relatório.
     * Na tela "Novo relatório", você pode preencher os detalhes do relatório, incluindo título, descrição e anexos opcionais de fotos, vídeos, documentos em PDF e arquivos de áudio.
     * Se está conectado a múltiplos projetos do Tella Web, você poderá selecionar, na parte superior da tela, a qual projeto submeter o relatório.
-* Use the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft without leaving the "New report" screen. 
+* Use o botão "Salvar rascunho" 💾 (na parte superior direita da tela) para salvar o relatório sem deixar a tela de "Novo relatório". 
     * Para ser capaz de salvar como um rascunho, você precisa ao menos inserir o título do relatório.
     * Uma mensagem será exibida na tela para confirmar que o rascunho foi salvo.
-* The "Submit later" button ⏱️ saves the report to the Outbox for manual submission.
-    * The "Outbox" tab is often used when data collectors don’t have access to the internet or if the connection is not stable.
+* O botão "Submeter mais tarde" ⏱️ salva o relatório na Caixa de Saída para submissão manual.
+    * A aba caixa de saída é frequentemente usada quando os coletores de dados não possuem acesso à internet ou se a conexão não estiver estável.
 * O botão “Submeter” envia o relatório para o projeto Tella Web imediatamente.
     * Caso a submissão falhe devido a problemas de conectividade, o relatório irá para a aba “Caixa de Saída”.
     * Caso o relatório seja submetido corretamente, ele irá para a aba “Submetidos”. 
@@ -309,9 +309,9 @@ A Draft report is a report that was created and saved but not yet submitted. Dra
 
 Reports in the Draft tab can be edited.
 
-* On the "New report" screen, tap the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft.
-    * A confirmation will be displayed, and you can continue working on the report or exit to come back to it later.
-* If you try to exit a report without saving, you will be asked to confirm whether you are sure to exit without saving.
+* Na tela "Novo relatório", toque o botão "Salvar rascunho" 💾 para salvar o relatório como um rascunho.
+    * Será exibida uma mensagem de confirmação e você poderá continuar trabalhando no relatório ou sair para retornar mais tarde.
+* Caso tente sair de um relatório sem salvar, será solicitado que você confirme que deseja sair sem salvar o relatório.
 * Na aba Rascunhos, você pode visualizar e gerenciar os rascunhos de relatório. Abra um rascunho de relatório para continuar trabalhando nele e submetê-lo.
 * Você pode excluir um rascunho de relatório tocando em três pontos > **Excluir** ou entrando no relatório e tocando no botão Excluir. 
 
@@ -366,7 +366,7 @@ Caso a conexão com a internet seja interrompida, os relatórios irão para a ab
 
 #### Auto-reportar {#auto-report}
 
-If auto-report is enabled, Tella will create and upload reports automatically whenever you take a photo, record a video, or capture an audio recording in Tella. This ensures that your reports are seamlessly uploaded without the need for manual work. Files get uploaded to the same auto-report if they are collected within the lapse of 30 minutes.
+Se o auto-reportar estiver habilitado, o Tella criará e submeterá relatórios automaticamente sempre que você tirar uma foto, gravar um vídeo ou capturar uma gravação de áudio no Tella. Isso assegura que seus relatórios sejam corretamente carregados sem a necessidade de trabalho manual. Os arquivos são carregados para o mesmo relatório automático se eles forem coletados em um intervalo de 30 minutos.
 
 A funcionalidade Auto-reportar pode ser habilitada pela tela Editar conexões.
 
@@ -382,10 +382,10 @@ O botão de alternância para a auto-excluir aparecerá abaixo do botão de alte
 
 #### Submissão em Plano de Fundo {#background-submission}
 
-Background submission allows the report submission process to continue even if you switch to other tasks within Tella or if you exit Tella entirely. Background submission can work in combination to both Manual and Auto-reports, and can be enabled on the Edit Connection screen for the desired project.
+A submissão em plano de fundo permite que o processo de submissão de relatórios continue mesmo se você alternar para outras tarefas dentro do Tella ou sair do Tella completamente. A submissão em plano de fundo pode funcionar combinada tanto a relatórios manuais como a automáticos. E pode ser habilitada na tela de Editar Conexão para o projeto desejado.
 
-When background submission is enabled, regardless of what you do in Tella or whether you close the app, the upload process will continue without interruption. It will also work if auto-reports is enabled and you close the app after collecting the information.
+Quando a submissão em plano de fundo está habilitada, independentemente do que você faça no Tella ou de você fechar o aplicativo, o processo de carregamento continuará sem interrupção. Também funcionará se a função auto-reportar estiver habilitada e você fechar o aplicativo após coletar as informações.
 
 Ao carregar relatórios em plano de fundo, o Tella permanece desbloqueado. Ou seja: se alguém abrir o Tella, será capaz de acessar seus arquivos e relatórios. Para bloquear o Tella quando os relatórios estão sendo carregados em plano de fundo, toque no botão "Saída Rápida" na parte superior da tela inicial do Tella.
 
-If the submission is disrupted due to a weak internet connection or other factors, Tella will send the report to the Outbox tab and automatically restart the upload as soon as the phone regains a stable internet connection. 
+Caso a submissão seja interrompida devido a uma conexão fraca com a internet ou outros fatores, o Tella enviará o relatório para a Caixa de Saída e automaticamente reiniciará o carregamento assim que o telefone recuperar uma conexão estável com a internet.
