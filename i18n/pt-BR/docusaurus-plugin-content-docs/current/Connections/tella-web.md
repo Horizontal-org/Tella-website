@@ -9,9 +9,9 @@ slug: /tella-web
 
 O Tella Web é uma ferramenta de código aberto que permite a indivíduos e organizações centralizar e gerenciar relatórios enviados por usuários do Tella, incluídos fotos, vídeos e arquivos de áudio.
 
-Tella Web is developed internally by our team at Horizontal, the same team responsible for developing Tella's mobile apps. It is a user-friendly solution for backing up media files to a remote server in a safe and private manner. Using a Tella Web server also allows users to pull data (guides, instructions, important messages etc) from the server directly to their Tella 
+O Tella Web  desenvolvido internamente pela nossa equipe na Horizontal, a mesma responsável por desenvolver os aplicativos para dispositivos móveis do Tella. É uma solução amigável ao usuário para realizar backup de arquivos de mídia para um servidor remoto de uma maneira segura e privativa. Using a Tella Web server also allows users to pull data (guides, instructions, important messages etc) from the server directly to their Tella 
 
-We can provide support for the installation, configuration, and maintenance of a Tella Web instance if you don't have someone within your organization who can do it.
+Podemos fornecer suporte para a instalação, a configuração e a manutenção da instância Tella Web caso você não conte com alguém na sua organização que possa fazê-lo.
 
 Similarly to all other connections([Uwazi](/uwazi), [Google Drive](/g-drive), [Nextcloud](/nextcloud), [Dropbox](/dropbox) and [Open Data Kit](/odk)), connecting to Tella Web enhances the security of data collected on Tella by:
 1. Permitir aos usuários coletar dados diretamente de dentro do contêiner criptografado do Tella.
@@ -19,12 +19,12 @@ Similarly to all other connections([Uwazi](/uwazi), [Google Drive](/g-drive), [N
 3. Permitir aos usuários realizar backup de seus dados em um servidor remoto, para diminuir o risco de os dados serem descobertos em seus dispositivos móveis. 
 4. Assegurar que as organizações possam preservar informações importantes, mesmo no caso de apreensão ou destruição de dispositivo, e possam organizá-las para uso em processos de pesquisa, advocacia pública ou processos de responsabilização.
 
-Tella Web is a great option to collect "reports" from users. Reports can include photos, videos, audio recordings, pdf documents and text. Organizations can also upload PDFs to each Tella Web project and users can access these resources directly from their Tella vault.
+O Tella Web é uma ótima opção para coletar "relatórios" de usuários. Os Relatórios podem incluir fotos, vídeos, gravações de áudio, documentos em PDF e texto. Organizations can also upload PDFs to each Tella Web project and users can access these resources directly from their Tella vault.
 
 A configuração do Tella Web envolve três etapas, os quais são minuciosamente discutidos nesta seção:
 
 * **Instalar o Tella Web**: esta etapa envolve instalar o servidor Tella Web e configurar o nome do domínio para assegurar seu funcionamento adequado.
-* **Set up your project(s) on your server**: In this step, admins decide how to organize themselves to collect data, create "projects", add "resources" for users to download on their devices and set roles and permissions for users.
+* **Configurar seu(s) projeto(s) no seu servidor**: Nesta etapa, administradores decidem como se organizar para coletar dados, criar "projetos" e definir papéis e permissões para seus usuários.
 * **Preparar as pessoas nos locais de atuação para começar a submeter relatórios.**: Usuários instalam o Tella no seu dispositivo Android ou iPhone. Eles, então, conectam-se ao projeto do Tella Web e iniciam a coleta de informações.
 
 :::danger
@@ -162,7 +162,7 @@ Usuários são uma parte importante do uso do Tella Web. Há diferentes papéis 
 - Reportador: este é um usuário que pode conectar-se ao projeto Tella Web por um aplicativo móvel do Tella e carregar relatórios. Um reportador precisa estar alocado em um projeto para ser capaz de de carregar relatórios.
 - Observador: este é um usuário que, além de carregar relatórios a partir do Tella, pode também fazer login no Tella Web para visualizar (mas não editar ou excluir) relatórios. Um observador precisa ser alocado em um projeto específico para obter acesso.
 - Editor: este é um usuário que, como os observadores, pode carregar relatórios a partir do Tella e fazer login no Tella Web, mas também pode editar e excluir relatórios. Um editor precisa ser alocado em um projeto específico para obter acesso. 
-- Admin: an admin can upload reports from Tella and perform all actions on Tella Web, including managing reports, projects, resources and users. An admin has access to all projects.
+- Administrador: um administrador pode carregar relatórios a partir do Tella e realizar todas as ações no Tella Web, incluindo gerenciar relatórios, projetos e usuários. Um administrador tem acesso a todos os projetos.
 
 Aqui está uma visão detalhada das permissões para cada papel:
 
@@ -335,13 +335,13 @@ Excluir um relatório durante a submissão cancelará o carregamento dos arquivo
 
 #### Caixa de Saída {#outbox}
 
-The Outbox tab contains reports that are finalized and have been saved for later submission. Reports in the Outbox are ready to be submitted once the device reconnects to the internet or when the user chooses to manually send them.
+A Caixa de Saída contém relatórios salvos para submissão. Reports in the Outbox are ready to be submitted once the device reconnects to the internet or when the user chooses to manually send them.
 
 Reports in the Outbox tab cannot be edited.
 
 To send a report to the Outbox, use the Submit later button (⏱️), at the bottom left of the Submit Report screen.
 
-The Outbox contains:
+Estes podem ser:
 
 * Submissões pausadas
 * Submissões de relatório que foram interrompidas devido a problemas de conectividade.
