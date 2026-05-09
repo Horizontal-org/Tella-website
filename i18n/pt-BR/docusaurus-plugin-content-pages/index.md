@@ -8,16 +8,16 @@ import ThemedImage from '@theme/ThemedImage';
         <p>In challenging environments, with limited or no internet connectivity or in the face of repression, Tella makes it easier and safer to collect, protect and hide sensitive data.</p>
         <div className="download">
 <a href="https://play.google.com/store/apps/details?id=org.hzontal.tella" target="_blank">
-                <img className="badge" src="img/google-play-badge.png" alt="Get Tella on Google Play" /></a>
+                <img className="badge" src="img/google-play-badge.png" alt="Obtenha o Tella no Google Play" /></a>
             <a href="https://apps.apple.com/us/app/tella-document-protect/id1598152580" target="_blank">
-                <img className="badge" src="img/app-store-badge.svg" id="apple-store-badge" alt="Get Tella on App Store" /></a>
+                <img className="badge" src="img/app-store-badge.svg" id="apple-store-badge" alt="Obtenha o Tella na App Store" /></a>
             <a href="https://f-droid.org/packages/org.hzontal.tellaFOSS">
-                <img className="badge" src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get Tella on F-Droid" /></a>
+                <img className="badge" src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Obtenha o Tella no F-Droid" /></a>
 </div>
     </div>
     <div className="intro-column" id="intro-column2">
         <ThemedImage
-        alt="Screenshot of the Tella app on Android. Showing Connections to Tella Web Uwazi and the folder structure showing that within Tella users can record and save Images, Videos and Audios securely and encripted."
+        alt="Captura de tela do aplicativo Tella no Android. Mostra as conexões com o Tella Web Uwazi e a estrutura de pastas que mostra que, dentro do Tella, os usuários podem gravar e salvar imagens, vídeos e áudios de forma segura e criptografada."
         className="screen"
         sources={{
             light: 'img/home-black.svg',
@@ -30,7 +30,7 @@ import ThemedImage from '@theme/ThemedImage';
 <div className="section">
     <h2>Por que o Tella?</h2>
     <div className="columns">
-        <div className="column" id="section-column1"><img className="home-illustrations" src="img/why-tella.png" alt="Why Tella illustration" /></div>
+        <div className="column" id="section-column1"><img className="home-illustrations" src="img/why-tella.png" alt="Ilustração Por que Tella" /></div>
         <div className="column" id="section-column2">
             <p>Se você é um ativista, jornalista, defensor dos direitos humanos ou qualquer pessoa que documenta injustiças, poderá usar o Tella para:</p>
             <ul>
@@ -50,11 +50,11 @@ import ThemedImage from '@theme/ThemedImage';
 <li><span className="emphasis">Criptografe seus arquivos:</span> o Tella criptografa automaticamente suas fotos, vídeos e gravações de áudio assim que são capturados.</li>
                 <li><span className="emphasis">Oculte seus arquivos no dispositivo:</span> seus arquivos são inacessíveis na galeria padrão do telefone ou no explorador de arquivos. Você só poderá acessá-los no aplicativo.</li>
                 <li><span className="emphasis">Bloqueie seus arquivos:</span> defina um PIN ou senha para proteger seus arquivos. Inserir a chave correta é a única maneira de decifrar os arquivos armazenados no Tella.</li>
-                <li><span className="emphasis">Mask the app:</span> change the look of Tella to hide it from people searching your phone.</li>
+                <li><span className="emphasis">Disfarce o aplicativo:</span> altere a aparência do Tella para ocultá-lo de pessoas que procurarem no seu telefone.</li>
                 <li><span className="emphasis">Share your files:</span> choose one of the secure methods to share your files with other Tella vault or to a server.</li>
             </ul>
 </div>
-        <div className="column" id="section-column2"><img className="home-illustrations" src="img/vault.png" alt="Vault illustration" /></div>
+        <div className="column" id="section-column2"><img className="home-illustrations" src="img/vault.png" alt="Ilustração de Cofre" /></div>
     </div>
     <a type="button" href="/features" className="clean-btn center button button--primary"> Saiba mais sobre os recursos do Tella </a>
 </div>
@@ -62,7 +62,7 @@ import ThemedImage from '@theme/ThemedImage';
 <div className="section">
     <h3>2. Coletar evidências de violações de direitos humanos</h3>
     <div className="columns">
-        <div className="column" id="section-column1"><img className="home-illustrations" src="img/data.png" alt="Notepad illustration" /></div>
+        <div className="column" id="section-column1"><img className="home-illustrations" src="img/data.png" alt="Ilustração de Bloco de Notas" /></div>
         <div className="column" id="section-column2">
             <ul>
 <li><span className="emphasis">Câmera e gravador dentro do Tella:</span> tire fotos, grave vídeos e áudio diretamente no Tella para que seus arquivos sejam imediatamente criptografados e ocultos no aplicativo.</li>
@@ -71,7 +71,7 @@ import ThemedImage from '@theme/ThemedImage';
             </ul>
 </div>
     </div>
-    <a type="button" href="user-stories" className="clean-btn center button button--primary"> Read how organizations are using Tella </a>
+    <a type="button" href="user-stories" className="clean-btn center button button--primary"> Leia como organizações estão usando o Tella </a>
 </div>
 
 <div className="section">
@@ -84,7 +84,7 @@ import ThemedImage from '@theme/ThemedImage';
                 <li><span className="emphasis">Trust the code:</span> The code for Tella is open-source and <a href="open-source">publicly available</a> so that researchers, security analysts, and developers can freely audit and reuse it. We publish the <a href="security-and-privacy#security-audits">security audits</a> that independent firms have performed on Tella.</li>
             </ul>
 </div>
-        <div className="column" id="section-column2"><img className="home-illustrations" src="img/open-source.png" alt="Open source illustration" /></div>
+        <div className="column" id="section-column2"><img className="home-illustrations" src="img/open-source.png" alt="Ilustração de Código Aberto" /></div>
     </div>
 </div>
 </div>
