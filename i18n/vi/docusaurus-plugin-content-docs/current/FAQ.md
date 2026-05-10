@@ -25,11 +25,7 @@ Tella được phát triển và duy trì bởi [Horizontal](https://wearehorizo
 
 ### Tella có sẵn trên Android không? {#is-tella-available-on-android}
 
-Yes, Tella is available for Android and can be downloaded directly [from the Google Play Store ](https://play.google.com/store/apps/details?id=org.hzontal.tella&gl=US),   from our [Telegram channel]( https://t.me/tellaapp) or [from this folder](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ), as an APK, to be installed manually. If you need to help to install the app manually you can [follow this guide ](https://www.androidauthority.com/how-to-install-apks-31494/) or [contact us](contact-us).
-
-:::note
-Follow the get [quick start guide for Tella users on Android](/get-started-android) for quick onboarding.
-:::
+Có, Tella có sẵn cho hệ điều hành Android và có thể tải trực tiếp [từ Google Play Store ](https://play.google.com/store/apps/details?id=org.hzontal.tella&gl=US), từ [kênh Telegram](https://t.me/tellaapp) của chúng tôi hoặc [từ thư mục này](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ) dưới dạng tệp APK để cài đặt thủ công. Nếu bạn cần giúp đỡ khi cài đặt ứng dụng thủ công, bạn có thể [xem hướng dẫn này](https://www.androidauthority.com/how-to-install-apks-31494/) hoặc [liên hệ với chúng tôi](contact-us).
 
 :::tip
 Tìm hiểu thêm về [Cách tìm kiếm và tải Tella từ Play Store](/video-tutorials#find-and-download-tella-from-the-play-store) và [Cách cài đặt Tella thủ công](/video-tutorials#manual-installation-of-tella) trong video hướng dẫn của chúng tôi.

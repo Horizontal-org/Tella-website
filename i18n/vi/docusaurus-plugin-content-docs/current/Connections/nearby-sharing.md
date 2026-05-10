@@ -36,23 +36,7 @@ If you need help figuring out if Nearby Sharing is best for your use-case, [cont
 :::
 
 :::tip
-If you are trying to share files to the organization you are working with, or if you are not in the same physical location as the person you want to exchange files with, [Tella's server connections](/for-organizations) could be helpful:
-* [Uwazi](#uwazi)
-* [Tella Web](#tella-web)
-* Chúng được gọi là [Kết nối](/features#connecting-to-servers) trong Tella.
-* Lựa chọn loại máy chủ phù hợp {#selecting-the-right-type-of-server}
-* Sau đây là biểu đồ cơ bản, không đầy đủ để xác định xem loại nào trong ba loại máy chủ phù hợp nhất với các nhu cầu khác nhau. Đây là điểm bắt đầu tốt, nhưng bạn cũng có thể xem [video này](/video-tutorials#connections-full-video) để tìm hiểu chi tiết về từng loại máy chủ. Nếu bạn cần trợ giúp trong việc lựa chọn hoặc muốn yêu cầu một Kết Nối mới (tích hợp với loại máy chủ mới), [hãy liên hệ với chúng tôi!](/contact-us)
-* ```mermaid
-graph TD;
-    id1(Loại dữ liệu nào mà người dùng cần gửi?) --> id2("Chủ yếu là dữ liệu có cấu trúc (mẫu), kèm theo tập tin đính kèm");
-    id1 --> id3("Chủ yếu là tệp media, kèm theo một số văn bản") ;
-    id2 --> id4("Bạn cần thêm tính năng gì?");
-    id3 --> id5("Tella Web");
-    id4 --> id6("Thiết lập mối quan hệ giữa các điểm dữ liệu, xuất bản tới một trang web")
-    id4 --> id7("Thêm logic vào các biểu mẫu, thu thập số lượng lớn dữ liệu từ các biểu mẫu, tạo báo cáo để trực quan hóa kết quả")
-    id6 --> id8("Uwazi")
-    id7 --> id9("Bộ Dụng cụ Dữ Liệu Mở (ODK)")
-```
+If you are trying to share files to the organization you are working with, or if you are not in the same physical location as the person you want to exchange files with, [Tella's server connections](/for-organizations) could be helpful.
 :::
 
 ## How to use Nearby Sharing {#how-to-use}

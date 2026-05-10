@@ -58,8 +58,8 @@ Bằng cách tải xuống và sử dụng Ứng dụng, bạn đồng ý với 
 
 Khi bạn tải xuống, đăng ký hoặc sử dụng Ứng dụng này, chúng tôi có thể yêu cầu bạn cung cấp thông tin mà có thể định dạng danh tính cá nhân, chẳng hạn như tên và địa chỉ email (“thông tin cá nhân”).  Thông tin này bao gồm:
 
--   Records and copies of your correspondences with Horizontal (including email addresses and phone numbers), if you contact us.
--   Your responses to surveys that we might ask you to complete for research purposes, information when you report a problem with the App or suggest improvements.
+-   Hồ sơ và bản sao thư trao đổi bạn với Horizontal (bao gồm địa chỉ email và số điện thoại), nếu bạn liên hệ với chúng tôi.
+-   Phản hồi của bạn đối với các khảo sát mà chúng tôi có thể yêu cầu bạn thực hiện vì mục đích nghiên cứu, cung cấp thông tin khi bạn báo cáo sự cố với Ứng dụng hoặc đề xuất cải tiến.
 -   Analytics usage data that you opt-in to share.    
 
 Bạn có thể sử dụng ứng dụng này để chụp hoặc lưu trữ ảnh, video, ghi âm và các loại tệp khác. Dữ liệu này được lưu trữ cục bộ trên thiết bị của bạn và không thể truy cập bởi Công ty hoặc bất kỳ bên thứ ba nào, bao gồm cả Tổ chức Triển khai, cho đến khi bạn thao tác chuyển nó đến Tổ chức Triển khai bằng cách gửi dữ liệu của bạn lên máy chủ của họ (xem Thu thập Thông tin từ Bên Thứ ba).

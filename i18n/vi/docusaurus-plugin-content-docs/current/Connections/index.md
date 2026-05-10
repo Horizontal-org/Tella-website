@@ -47,10 +47,12 @@ Currently, Tella can connect to the following types of servers:
 
 * [Uwazi](#uwazi)
 * [Tella Web](#tella-web)
-* Chúng được gọi là [Kết nối](/features#connecting-to-servers) trong Tella.
-* Lựa chọn loại máy chủ phù hợp {#selecting-the-right-type-of-server}
-* Sau đây là biểu đồ cơ bản, không đầy đủ để xác định xem loại nào trong ba loại máy chủ phù hợp nhất với các nhu cầu khác nhau. Đây là điểm bắt đầu tốt, nhưng bạn cũng có thể xem [video này](/video-tutorials#connections-full-video) để tìm hiểu chi tiết về từng loại máy chủ. Nếu bạn cần trợ giúp trong việc lựa chọn hoặc muốn yêu cầu một Kết Nối mới (tích hợp với loại máy chủ mới), [hãy liên hệ với chúng tôi!](/contact-us)
-* ```mermaid
+* [Bộ Công cụ Dữ liệu mở (ODK)](/odk)
+* [Google Drive](/g-drive)
+* [Nextcloud](/nextcloud)
+* [Dropbox](/dropbox)
+
+```mermaid
 graph TD;
     id1(Loại dữ liệu nào mà người dùng cần gửi?) --> id2("Chủ yếu là dữ liệu có cấu trúc (mẫu), kèm theo tập tin đính kèm");
     id1 --> id3("Chủ yếu là tệp media, kèm theo một số văn bản") ;
@@ -61,9 +63,6 @@ graph TD;
     id6 --> id8("Uwazi")
     id7 --> id9("Bộ Dụng cụ Dữ Liệu Mở (ODK)")
 ```
-
-Feature availability by platform:
-Uwazi {#uwazi}
 
 Some individuals use commercial clouds (Google Drive, Dropbox, Nextcloud) as a backup system for their Tella data. However, we advise using this feature with caution:
 - Automatic backups to any server are **not** currently available. They need to be made manually as submissions to each of the servers.
