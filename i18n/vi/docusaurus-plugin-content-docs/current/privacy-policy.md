@@ -9,7 +9,7 @@ slug: /privacy
 # Tella - Chính sách Bảo mật
 
 :::note
-Last updated on 25 February 2025.
+Cập nhật gần nhất vào ngày 25 tháng 2 năm 2025.
 :::
 
 :::info

@@ -1,7 +1,7 @@
 ---
 id: for-organizations
-title: Server connections
-description: Learn how organizations can use Tella server Connections (Google Drive, Dropbox, Uwazi, ODK, Tella Web and Nextcloud) for research, advocacy, or accountability processes
+title: Tổng quan
+description: Tìm hiểu cách các tổ chức có thể sử dụng Tella trong quá trình nghiên cứu, vận động hoặc giải trình trách nhiệm
 slug: /for-organizations
 ---
 
@@ -9,17 +9,29 @@ import ConnectionsTable from '.././_connections-table.md';
 import Button from '@site/src/components/Button';
 
 
-# Tella for organizations
+# Tella cho các tổ chức - Tổng quan
 
-Server connections are useful for organizations leading data collection processes. Organizations can choose, configure, and manage a server where they can centralize the data collected by volunteers or activists on the ground. These individuals gather information using Tella on their phones and then send it to their organizations.
+Ngoài việc bảo vệ dữ liệu trong ứng dụng, người dùng cũng có thể kết nối với máy chủ để sao lưu dữ liệu một cách an toàn. Thông thường, đây là máy chủ do các tổ chức quản lý, nơi họ có thể tập trung dữ liệu do các tình nguyện viên hoặc nhà hoạt động thu thập trên thực địa. Những cá nhân này sử dụng Tella trên điện thoại của họ để thu thập thông tin và sau đó gửi đến tổ chức của họ.
 
-Previous Tella deployments, where on-the-ground users collected data and sent it to an organization's server, have ranged from 1 to 2,000 users. You can read user stories [here](/user-stories), or you can [contact us](/contact-us) so that we can assist you in finding the best way to use Tella for your organization.
+Theo các lần triển khai Tella trước, nơi người dùng tại thực địa đã thu thập dữ liệu và gửi về máy chủ của tổ chức, đã có từ 1 đến 2,000 người dùng. 📲 📡. Bạn có thể đọc các câu chuyện của người dùng [tại đây](/user-stories), hoặc bạn có thể liên hệ với chúng tôi để chúng tôi giúp bạn tìm cách tốt nhất để sử dụng Tella cho tổ chức của bạn.
 
-* [Bộ Công cụ Dữ liệu Mở (ODK)](#open-data-kit-odk)
-* [Uwazi](#uwazi)
-* [Tella Web](#tella-web)
+Hiện tại, Tella có thể kết nối với các loại máy chủ sau:
+
+* [Bộ Công cụ Dữ liệu Mở (ODK)](/odk)
+* [Uwazi](/uwazi)
+* [Tella Web](/tella-web)
+* [Google Drive](/g-drive)
+* [Nextcloud](/nextcloud)
+* [Dropbox](/dropbox)
 
 Chúng được gọi là [Kết nối](/features#connecting-to-servers) trong Tella.
+
+:::danger
+For now, any files you submit to a connection might stored unencrypted on that server or drive (that depends on the server configuration). This means that anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
+
+We strongly recommend reviewing and understanding the permission model of each connection you use, in order to determine which option is safest and most appropriate for your specific use case.
+:::
+
 
 ## Lựa chọn loại máy chủ phù hợp {#selecting-the-right-type-of-server}
 
@@ -31,29 +43,31 @@ graph TD;
     id1 --> id3("Chủ yếu là tệp media, kèm theo một số văn bản") ;
     id2 --> id4("Bạn cần thêm tính năng gì?");
     id3 --> id5("Tella Web");
+    id3 --> id11("Google Drive");
+    id3 --> id12("Nextcloud");
+    id3 --> id13("Dropbox");
     id4 --> id6("Thiết lập mối quan hệ giữa các điểm dữ liệu, xuất bản tới một trang web")
     id4 --> id7("Thêm logic vào các biểu mẫu, thu thập số lượng lớn dữ liệu từ các biểu mẫu, tạo báo cáo để trực quan hóa kết quả")
     id6 --> id8("Uwazi")
     id7 --> id9("Bộ Dụng cụ Dữ Liệu Mở (ODK)")
 ```
 
-These are called [Connections](/features#connecting-to-servers) in Tella. 
+On this table we explain what server types are available on the Tella apps:
+<ConnectionsTable/>
 
-:::danger
-For now, any files you submit to a connection might stored unencrypted on that server or drive (that depends on the server configuration). This means that anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
-
-We strongly recommend reviewing and understanding the permission model of each connection you use, in order to determine which option is safest and most appropriate for your specific use case.
+:::info
+For offline file sharing or during internet shutdowns, [Nearby Sharing](/nearby-sharing) could be helpful.  If you need to share files with other apps the [Share button](/features#share-button) could be useful.
 :::
 
-
-
-
 ### Tella Web {#tella-web}
+
+Tella Web là một công cụ mã nguồn mở cho phép các cá nhân và tổ chức tổng hợp và quản lý các báo cáo do người dùng Tella gửi, bao gồm ảnh, video, tài liệu pdf và tệp âm thanh.
 
 Tella Web không phải là phiên bản Web của ứng dụng di động; mà đây là một công cụ được thiết kế riêng để tổng hợp và quản lý các báo cáo được gửi thông qua Tella một cách đơn giản nhất có thể. Với Tella Web, bạn có thể tạo các dự án có chức năng như các thư mục, nơi người dùng Tella có thể gửi các báo cáo đến. Ví dụ, bạn có thể tạo các dự án cho các khu vực địa lý cụ thể hoặc những chủ đề như cảnh sát bạo hành, bạo lực giới tính và xâm hại môi trường. Trên Tella Web, bạn cũng có thể quản lý người dùng , là những người được quyền tải lên các báo cáo cho từng dự án qua chức năng thiết lập quyền hạn và chỉ định những vai trò khác nhau.
 
 Tella Web được phát triển nội bộ bởi đội ngũ của chúng tôi tại Horizontal, đội ngũ này cũng phụ trách việc phát triển ứng dụng di động của Tella. Đây là giải pháp thân thiện với người dùng  trong việc quản lý các báo cáo một cách an toàn và riêng tư. Bên cạnh đó, chúng tôi còn cung cấp hỗ trợ việc cài đặt cấu hình máy chủ Web Tella nếu chưa có ai trong tổ chức của bạn có thể đảm nhiệm nó.
 
+The Tella Web server connection also allows users to securely download guides, resources and information from the server directly to Tella's encrypted container.
 
 Kết nối Tella Web có sẵn trên Tella Android và Tella iOS, nhưng chưa có trên [Tella-FOSS](/faq#is-tella-available-on-f-droid). 
 
@@ -61,9 +75,6 @@ Tìm hiểu thêm Tella Web [tại đây](/tella-web)
 
 <Button label="Continue reading about the Tella Web connection " link="/tella-web"/>
 
-:::info
-For offline file sharing or during internet shutdowns, [Nearby Sharing](/nearby-sharing) could be helpful.  If you need to share files with other apps the [Share button](/features#share-button) could be useful.
-:::
 
 ### Uwazi {#uwazi}
 
@@ -72,9 +83,10 @@ For offline file sharing or during internet shutdowns, [Nearby Sharing](/nearby-
 Các tổ chức sử dụng Uwazi như một cơ sở dữ liệu có thể kết nối Tella với một hoặc nhiều cơ sở dữ liệu của họ để tải tài liệu lên. Để kết nối Tella với Uwazi, bạn chỉ cần URL của cơ sở dữ liệu Uwazi, cùng với tên đăng nhập và mật khẩu. Cơ sở dữ liệu Uwazi cần phải có sẵn một hoặc nhiều mẫu đã được cấu hình, có thể tải về Tella. Sau khi tải xuống thành công, người dùng có thể dễ dàng chuyển đổi giữa các mẫu để nhập chi tiết cho mỗi hồ sơ lưu trữ mới, ngay cả khi không có kết nối internet. Khi việc nhập dữ liệu hoàn tất, nó có thể được lưu dưới dạng bản nháp trong ứng dụng Tella hoặc được tải lên ngay lập tức vào cơ sở dữ liệu Uwazi đã được kết nối. Điều này cho phép người dùng làm việc ngoại tuyến để thu thập dữ liệu và tải lên thông tin khi thuận tiện.
 
 Nguồn thông tin để tìm hiểu thêm về Uwazi:
-
 * video hướng dẫn cách kết nối với Uwazi [tại đây](/video-tutorials#uwazi).
 * [Thêm thông tin về cách sử dụng Tella với Uwazi](/uwazi).
+* [bài đăng trên blog của đội ngũ Uwazi](https://huridocs.org/2022/07/the-new-tella-app-lets-uwazi-users-document-violations-safely-and-while-offline/) về kết nối.
+* Uwazi [website](https://uwazi.io/) và [tài liệu hướng dẫn](https://uwazi.readthedocs.io/en/latest/).
 
 <Button label="Continue reading about the Uwazi connection " link="/uwazi"/>
 
@@ -86,7 +98,7 @@ Nguồn thông tin để tìm hiểu thêm về Uwazi:
 Trên trang [Kết nối với máy chủ Bộ Công cụ Dữ liệu Mở](/odk), chúng tôi có giải thích cách tạo tài khoản, cách tìm thông tin về việc tạo biểu mẫu và cách kết nối với máy chủ từ Tella. Nếu bạn đang xem xét việc sử dụng Bộ Công cụ Dữ liệu Mở hoặc bạn cần sự trợ giúp để [triển khai](/faq#deploying-tella) phiên bản của mình, xin [liên hệ với chúng tôi](/contact-us).
 
 :::note
-The ODK connection is [not available on Tella iOS](/features). 
+Kết nối ODK [chỉ có sẵn trên Android](/features). 
 :::
 
 <Button label="Continue reading about the Open Data Kit connection " link="/odk"/>
@@ -96,7 +108,7 @@ The ODK connection is [not available on Tella iOS](/features).
 
 Users can sign-in directly to their Google account from within Tella and upload files to a folder in their Drive account. Each "report" uploaded will create a new folder in the user's Google Drive.
 
-As for all Connections in Tella, users can use most of the Google Drive connection offline through the Draft, Outbox and Submit Later tabs.
+As for all Connections in Tella, users can use most of the Google Drive connection offline through the Draft, Outbox and Submit Later tabs. 
 
 :::note
 The Google Drive connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
@@ -125,5 +137,3 @@ The Dropbox connection is not available in Tella Android FOSS, because it uses c
 :::
 
 <Button label="Continue reading about the Dropbox connection " link="/dropbox"/>
-
-

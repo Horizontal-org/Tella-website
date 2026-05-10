@@ -15,7 +15,8 @@ Tương tự như bất kỳ kết nối máy chủ nào khác (như [Tella Web]
 
 1. Cho phép người dùng thu thập dữ liệu trực tiếp trong kho lưu trữ được mã hóa của Tella.
 2. Đảm bảo rằng dữ liệu được gửi trực tiếp từ Tella đến máy chủ ODK mà không cần dựa vào công cụ hoặc ứng dụng của bên thứ ba.
-3. Đảm bảo rằng các tổ chức có thể lưu giữ thông tin quan trọng ngay cả trong trường hợp thiết bị bị thu giữ hoặc bị phá hủy, và có thể sắp xếp dữ liệu cho quá trình nghiên cứu, vận động hoặc giải trình trách nhiệm.
+3. Cho phép người dùng sao lưu dữ liệu của họ trên máy chủ từ xa, để giảm nguy cơ dữ liệu bị phát hiện trên thiết bị di động của họ.
+4. Đảm bảo rằng các tổ chức có thể lưu giữ thông tin quan trọng ngay cả trong trường hợp thiết bị bị thu giữ hoặc bị phá hủy, và có thể sắp xếp dữ liệu cho quá trình nghiên cứu, vận động hoặc giải trình trách nhiệm.
 
 :::danger
 Even though data is transferred to the server securely (SSL), anyone with access to the ODK account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
@@ -32,7 +33,7 @@ For civil society organizations and human rights defenders, we recommend using [
 We are work closely with the Kobotoolbox team. If you are interested in using the Tella-KoboToolbox connection and would like some support or to discuss the best hosting plan for your use case, please [contact us](/contact-us). 
 :::
 
-There are other ODK-compliant apps available, like [Ona](https://ona.io/home/) or [ODK Cloud](https://https://getodk.org/index.html). Tella works with any of these. 
+Có sẵn các ứng dụng tương thích với ODK khác, như [Ona](https://ona.io/home/) hoặc [Đám mây ODK](https://https://getodk.org/index.html). Tella có thể hoạt động với bất kỳ ứng dụng nào trong số này.
 
 
 ### Khi nào nên sử dụng ODK {#when-to-use-odk}

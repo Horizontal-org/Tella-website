@@ -49,7 +49,7 @@ Follow the get [quick start guide for Tella users on iOS](/get-started-ios) for 
 
 <FeaturesTable/>
 
-For more details about each feature see [Features](/features).
+Để biết thêm chi tiết về mỗi tính năng xem [Tính năng](/features).
 
 ### Tella có sẵn cho máy tính bàn không? {#is-tella-available-on-desktop}
 
@@ -86,16 +86,16 @@ As of December 2024, we haven't been able to test Tella Android and Tella FOSS o
 
 Có, Tella được tải xuống và sử dụng miễn phí. Điều này là mãi mãi.
 
-Tella is also [Open Source](/open-source).
+Tella cũng là [Mã nguồn Mở.](/open-source)
 
 ### Những ngôn ngữ nào đang có sẵn trên Tella? {#what-languages-is-tella-available-in}
 
-Ngôn ngữ dễ tiếp cận là một trong những ưu tiên của chúng tôi, vì vậy chúng tôi nỗ lực làm việcđể đưa Tella đến với các cộng đồng bằng nhiều ngôn ngữ khác nhau.
+Ngôn ngữ dễ tiếp cận là một trong những ưu tiên của chúng tôi, vì vậy chúng tôi nỗ lực làm việc để đưa Tella đến với các cộng đồng bằng nhiều ngôn ngữ khác nhau.
 
 Hiện tại, Tella có sẵn trong:
 <TellaLanguages/>
 
-Read more about Language accessibility in Tella [here](/accessibility).
+Đọc thêm về Tính khả dụng ngôn ngữ trong Tella [tại đây](/accessibility).
 
 ### Tella có hoạt động trên máy tính bảng không? {#does-tella-work-on-tablets}
 
@@ -148,7 +148,7 @@ Tìm hiểu thêm về [Khóa Tella](/video-tutorials#tella-locks) trong video h
 ### How do I migrate Tella to a new phone? {#how-do-i-migrate-tella-to-a-new-phone}
 You can use [Nearby Sharing](/nearby-sharing) to move your files to a new phone. You will need to install Tella in your new phone, establish a secure connection to it using Nearby Sharing, select all your files, and transfer those to your new phone. This feature works, too, for Android to iOS, or iOS to Android migrations. 
 
-If you have multiple files, the full transfer might take some time. We recommend you to make sure that Tella [does not lock](/features#lock-timeout) while the transfer is in progress.  
+If you have multiple files, the full transfer might take some time. We recommend you to make sure that Tella [does not lock](/features#lock-timeout-configuration) while the transfer is in progress.  
 
 :::tip
 We recommend you double check that all the files has been successfully transferred before deleting those in your old phone.

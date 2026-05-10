@@ -320,6 +320,23 @@ Tìm hiểu thêm về [Kết nối với Máy chủ](/video-tutorials#server-co
 :::
 
 
+## Nearby Sharing {#nearby-sharing}
+
+Users can share files directly from Tella's encrypted vault to another Tella encrypted vault in the same physical location using Nearby Sharing . After a quick connection tutorial, the two devices establish a secure link, and files are transferred encrypted from one device to the other.  Nearby Sharing is independent of the internet connection status: it works online or offline.
+
+This feature is available on Tella Android, Tella iOS, and Tella Desktop. 
+
+:::note
+[Learn more about nearby sharing here](/nearby-sharing).
+:::
+
+## Share button {#share-button}
+To share information with other apps, users can select the file or files they want to share and press the Share button. Tella will prompt the list of available apps on the phone and users can choose the app they want to share the file(s) with. 
+
+:::danger
+Tella will share the files unencrypted and the history of exchanged files might be visible on the app you used. We recommend using disappearing messages or deleting the messages after the other person receives them when using messaging apps (for example WhatsApp or Signal).
+:::
+
 ## Máy ảnh (hình ảnh and video) {#camera-photos-and-videos}
 
 Tella cung cấp một camera tích hợp để bạn có thể chụp ảnh và quay video. Tất cả phương tiện được thu thập trong Tella sẽ không thể truy cập bên ngoài, vì tất cả các tệp sẽ được mã hóa ngay khi chúng được ghi lại. Các tệp chỉ có thể truy cập bên trong Tella, sử dụng mật khẩu để mở ứng dụng. Hình ảnh và video sẽ không xuất hiện trong Thư viện của điện thoại. Trong Tella, hình ảnh và video sẽ có tên mặc định, nhưng người dùng có thể đổi tên chúng bằng nút Đổi tên. Các tệp tin cũng có thể được sắp xếp trong các thư mục. 🎤 🎧

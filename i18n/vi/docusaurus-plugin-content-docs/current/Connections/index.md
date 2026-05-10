@@ -45,8 +45,8 @@ Previous Tella deployments, where on-the-ground users collected data and sent it
 
 Currently, Tella can connect to the following types of servers:
 
-* [Uwazi](#uwazi)
-* [Tella Web](#tella-web)
+* [Uwazi](/uwazi)
+* [Tella Web](/tella-web)
 * [Bộ Công cụ Dữ liệu mở (ODK)](/odk)
 * [Google Drive](/g-drive)
 * [Nextcloud](/nextcloud)
