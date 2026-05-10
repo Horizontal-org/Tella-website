@@ -52,17 +52,8 @@ Currently, Tella can connect to the following types of servers:
 * [Nextcloud](/nextcloud)
 * [Dropbox](/dropbox)
 
-```mermaid
-graph TD;
-    id1(Loại dữ liệu nào mà người dùng cần gửi?) --> id2("Chủ yếu là dữ liệu có cấu trúc (mẫu), kèm theo tập tin đính kèm");
-    id1 --> id3("Chủ yếu là tệp media, kèm theo một số văn bản") ;
-    id2 --> id4("Bạn cần thêm tính năng gì?");
-    id3 --> id5("Tella Web");
-    id4 --> id6("Thiết lập mối quan hệ giữa các điểm dữ liệu, xuất bản tới một trang web")
-    id4 --> id7("Thêm logic vào các biểu mẫu, thu thập số lượng lớn dữ liệu từ các biểu mẫu, tạo báo cáo để trực quan hóa kết quả")
-    id6 --> id8("Uwazi")
-    id7 --> id9("Bộ Dụng cụ Dữ Liệu Mở (ODK)")
-```
+Feature availability by platform:
+<ConnectionsTable/>
 
 Some individuals use commercial clouds (Google Drive, Dropbox, Nextcloud) as a backup system for their Tella data. However, we advise using this feature with caution:
 - Automatic backups to any server are **not** currently available. They need to be made manually as submissions to each of the servers.

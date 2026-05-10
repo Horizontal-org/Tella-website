@@ -15,9 +15,9 @@
 | [Nhập tập tin từ thiết bị](/features#import-files-from-device)| ✔️ | ✔️ | ✔️ |
 | [Bảo toàn siêu dữ liệu khi nhập](/features#preserve-metadata-when-importing)| ✔️ | ✔️ | ✔️ |
 | [Privacy preserving analytics (opt-in)](/features#privacy-preserving-analytics)| ✔️ | Chưa có | ✔️ |
-| [Ngụy trang](/features#camouflage) | ✔️ | Not possible in iOS | ✔️ |
+| [Ngụy trang](/features#camouflage) | ✔️ | Không tương thích với hệ điều hành iOS | ✔️ |
 | [Tùy chỉnh màn hình chính](/features#homescreen-customization) | ✔️ | ✔️ | ✔️ |
-| [Máy ảnh (hình ảnh và video)](/features#camera-photos-and-videos) | ✔️ | ✔️ | Yes but missing zoom, flip camera, enable flash and enable grid |
+| [Máy ảnh (hình ảnh và video)](/features#camera-photos-and-videos) | ✔️ | ✔️ | Có, nhưng không có zoom, lật camera, bật đèn flash và kích hoạt lưới |
 | [Chọn độ phân giải video](/features#select-video-resolution) | ✔️ | Chưa có | Chưa có |
 
 | [Ghi Âm](/features#audio-recorder)| ✔️ | ✔️ | ✔️ |
