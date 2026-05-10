@@ -3,6 +3,7 @@ id: accessibility
 title: Langue et accessibilité
 description: Un aperçu des langues dans lesquelles Tella est disponible et des considérations en matière d’accessibilité.
 slug: /accessibility
+sidebar_position: 3
 ---
 import TellaLanguages from '.././_tella-languages.md';
 
@@ -21,7 +22,6 @@ Nous nous efforçons de rendre Tella disponible dans les langues parlées par le
 Les [tutoriels vidéo](/video-tutorials)  sont sous-titrés en espagnol, arabe, swahili et français.
 
 
-
 ### Accessibilité WCAG {#wcag-accessibility}
 
 Dans ce tableau, vous pouvez accéder à nos derniers rapports d'accessibilité pour chaque plateforme.
@@ -33,5 +33,11 @@ Dans ce tableau, vous pouvez accéder à nos derniers rapports d'accessibilité 
 
 Nous travaillons actuellement à résoudre tous les problèmes d'accessibilité de niveau A détectés dans Tella Android.
 
+### Offline accessibility {#offline-accessibility}
+Tella does not need internet for collecting or storing files, not to use any of the security features. [Connections](/connections) are offline-first, with built in mechanisms for [retrying and re-submitting reports](/features#offline-data-collection) if internet is not readily available. Tella also offers a fully [offline file sharing feature](/nearby-sharing) designed for areas facing internet shutdowns.
+
+
+### Device accessibility {#device-accessibility}
+We implement each feature trying to maximize device accessibility, even for older devices. [Read here about what phones support Tella](/faq#what-phones-support-tella). We also keep Tella as small as possible, to allow people with little storage space available on their phone to [download it and configure it to reduce the used storage space, in case that's a constraint for them](/faq/#how-much-storage-do-i-need-to-install-tella).
 
 

@@ -3,6 +3,7 @@ id: user-stories
 title: Témoignages d'utilisateurs et utilisatrices de Tella
 description: Expérience des utilisateurs et des déploiements de Tella
 slug: /user-stories
+sidebar_position: 4
 ---
 
 # Témoignages d'utilisateurs et utilisatrices de Tella

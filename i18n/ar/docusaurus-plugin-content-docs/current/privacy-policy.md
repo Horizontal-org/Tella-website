@@ -1,6 +1,6 @@
 ---
 id: privacy-policy
-title: Tella - سياسة الخصوصية
+title: سياسة الخصوصية
 description: سياسة الخصوصية لـ Tella
 slug: /privacy
 ---
@@ -9,7 +9,7 @@ slug: /privacy
 # ‫Tella - سياسة الخصوصية
 
 :::note
-آخر تحديث في 23 يوليوز 2024.
+Last updated on 25 February 2025.
 :::
 
 :::info
@@ -117,7 +117,7 @@ slug: /privacy
 
 إذا كنت لا ترغب في تنزيل التطبيق من خلال متجر Google Play، يمكنك [تنزيل الملف APK مباشرة عبر هذا الرابط](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ).
 
-يمكن العثور على نسخة مجانية بالكامل ومفتوحة المصدر من Tella Android، والتي لا تحتوي على أي مكتبات برمجية مُقيَّدة بحقوق النشر، وخالية من أي أدوات للتعقب على [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
+A fully Free and Open Source version of Tella for Android that doesn't contain any closed-source or proprietary library or dependency can be found on [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/). 
 
 ## 5. كيف نستخدم معلوماتك {#5-how-we-use-your-information}
 
@@ -137,16 +137,14 @@ slug: /privacy
 
 ## 6. اختياراتك بشأن جمع معلوماتك واستخدامها والكشف عنها {#6-your-choices-about-our-collection-use-and-disclosure-of-your-information}
 
-من خلال قائمة الإعدادات في التطبيق، يمكنك إلغاء:
+Through the settings menu of Tella Android you can opt-out of:
 
 -   تقارير الأخطاء وتحليلات الاستخدام الافتراضية
 -   جمع البيانات الوصفية إما كليا أو جزئيا عن طريق تعطيل "وضع التحقق" في إعدادات تطبيقك.
 
-من خلال قائمة الإعدادات في التطبيق، يمكنك إختيار:
+Through the settings menu of Tella Android and Tella FOSS, you can opt-in to:
 - مشاركة تحليلات الاستخدام باستخدام نظامنا الذي يحفاظ على الخصوصية [Divvi Up](/security-and-privacy#analytics).
 
-
-إصدار البرمجيات الحرة والمفتوحة المصدر من Tella المتاح على [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/) لا يحتوي على أي أدوات لتتبع تقارير الأخطاء أو تحليلات الاستخدام.
 
 ## 7. الوصول إلى معلوماتك الشخصية وتصحيحها {#7-accessing-and-correcting-your-personal-information}
 
