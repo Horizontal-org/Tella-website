@@ -161,7 +161,7 @@ Bạn cũng có thể gửi email cho chúng tôi theo địa chỉ [contact@hor
 
 ## 8. Quyền Riêng Tư của Bạn tại California  {#8-your-california-privacy-rights}
 
-If you are a California resident, California law may provide you with additional rights regarding our use of your personal information. To learn more about your California privacy rights, visit [https://www.oag.ca.gov/privacy/ccpa](https://www.oag.ca.gov/privacy/ccpa).
+Nếu bạn là cư dân California, luật pháp California có thể cung cấp cho bạn các quyền bổ sung liên quan đến việc chúng tôi sử dụng thông tin cá nhân của bạn. Để tìm hiểu thêm về quyền riêng tư của bạn tại California, hãy truy cập [https://www.oag.ca.gov/privacy/ccpa](https://www.oag.ca.gov/privacy/ccpa).
 
 ## 9. Bảo Mật Dữ Liệu {#9-data-security}
 
