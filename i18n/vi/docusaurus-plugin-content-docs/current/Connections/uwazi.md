@@ -11,7 +11,7 @@ slug: /uwazi
 
 Uwazi cho phép các tổ chức tập hợp dữ liệu do các thành viên hoặc đối tác của họ thu thập vào một kho lưu trữ trung tâm. Người dùng Tella kết nối với phiên bản Uwazi của tổ chức mình, tải xuống các biểu mẫu (gọi là Mẫu), điền các mẫu này nhiều lần khi cần (ngay cả khi không có kết nối internet) và tải dữ liệu lên. Các tổ chức sau đó có thể chọn lọc, tổ chức và công bố dữ liệu của họ trực tiếp từ Uwazi.
 
-Tương tự như các kết nối khác ([Tella Web](/tella-web) và [Bộ Công cụ Dữ liệu mở](/odk)), kết nối với Uwazi nâng cao bảo mật cho dữ liệu thu thập trên Tella bằng cách:
+Tương tự như các kết nối khác ([Tella Web](/tella-web), [Google Drive](/g-drive), [Nextcloud](/nextcloud), [Dropbox](/dropbox) và [Bộ Công cụ Dữ liệu mở](/odk)), kết nối với Uwazi nâng cao bảo mật cho dữ liệu thu thập trên Tella bằng cách:
 1. Cho phép người dùng thu thập dữ liệu trực tiếp ngay bên trong không gian được mã hóa của Tella.
 2. Đảm bảo dữ liệu được gửi trực tiếp từ Tella đến Uwazi mà không cần phải dựa vào công cụ hoặc ứng dụng của bên thứ ba.
 3. Cho phép người dùng sao lưu dữ liệu của họ trên máy chủ từ xa, giảm thiểu rủi ro dữ liệu bị phát hiện trên thiết bị di động của họ.
@@ -51,10 +51,10 @@ If you need help figuring out if Uwazi is best for your use-case, [read our guid
 
 ## Cài đặt Uwazi trên máy chủ {#configure-uwazi-on-a-server}
 
-Đội ngũ HURIDOCS cung cấp 2 lựa chọn để thiết lập máy chủ Uwazi của bạn:
+The HURIDOCS team offers 2 alternatives on how to set up your uwazi server:
 
-1. Tự lưu trữ: Chia sẻ [hướng dẫn quản trị viên toàn diện](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html) này với quản trị viên hệ thống của bạn để biết hướng dẫn từng bước về cách cài đặt Uwazi trên máy chủ của bạn, cấu hình sao lưu và thiết lập các tính năng nâng cao.
-2. Được HURIDOCS lưu trữ: HURIDOCS cung cấp các gói lưu trữ dịch vụ. Dịch vụ lưu trữ miễn phí (lên đến giới hạn lưu trữ) và phiên bản dùng thử của Uwazi dành cho các tổ chức nhân quyền. [Liên hệ với HURIDOCS](https://huridocs.org/services/) để biết thêm chi tiết về dịch vụ.
+1. Self-hosted: Share this [comprehensive administrator guide](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html) with your system's administrator for step-by-step instructions on how to install Uwazi on your server, configure backups, and set up advanced features. 
+2. Hosted by HURIDOCS: HURIDOCS offer hosting packages as a service. Free hosting services (up to a storage limit) and a trial version of Uwazi are available for human rights organizations. [Reach out to HURIDOCS](https://huridocs.org/services/) for more details about the service.
 
 ## Mô hình hóa dữ liệu của bạn {#model-your-data}
 
@@ -116,7 +116,7 @@ Sau đó quay lại màn hình chính Uwazi và nhấn vào mẫu bạn muốn s
 
 #### Các Phương Thức Nộp Dữ Liệu Khác {#data-submission-alternatives}
 
-| **Feature** | **Details**| **Tella Android** | **Tella iOS** | 
+| **Tính năng** | **Chi tiết**| **Tella Android** | **Tella iOS** | 
 |------|------|------|------|
 | Nộp | Gửi biểu mẫu đã điền đến máy chủ đã kết nối. | Đồng ý | Đồng ý |
 | Lưu dưới dạng bản nháp | Lưu biểu mẫu chưa hoàn thành. | Đồng ý | Đồng ý |
