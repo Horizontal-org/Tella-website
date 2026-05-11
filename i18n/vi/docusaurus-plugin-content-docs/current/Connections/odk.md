@@ -127,17 +127,17 @@ Dưới đây là tổng quan các tính năng ODK được hỗ trợ trong Tel
     
 | **Feature** | **Tella Android** | 
 |------|------|
-| [Offline data collection](/odk#submit-forms) | ✔️ |
-| [Form logic](https://docs.getodk.org/form-logic/) | ❌ |
-| [Requiring responses](https://docs.getodk.org/form-logic/#requiring-responses) | ✔️ |
-| [Setting default responses](https://docs.getodk.org/form-logic/#setting-default-responses) | ❌ |
-| [Triggering calculations on value change](https://docs.getodk.org/form-logic/#triggering-calculations-on-value-change) | ❌ |
-| [Validating and restricting responses](https://docs.getodk.org/form-logic/#validating-and-restricting-responses) | ❌ |
-| [Conditionally showing questions](https://docs.getodk.org/form-logic/#conditionally-showing-questions) | ✔️ |
-| [Groups of questions](https://docs.getodk.org/form-logic/#groups-of-questions) | ✔️ |
-| [Repeating questions](https://docs.getodk.org/form-logic/#repeating-questions) | ✔️ |
-| [Filtering options in select questions](https://docs.getodk.org/form-logic/#filtering-options-in-select-questions) | ✔️ |
-| [Generating select ones from repeats](https://docs.getodk.org/form-logic/#generating-select-ones-from-repeats) | ❌ |
+| [Thu thập dữ liệu ngoại tuyến](/odk#submit-forms) | ✔️ |
+| [Mẫu logic](https://docs.getodk.org/form-logic/) | ❌ |
+| [Yêu cầu phản hồi](https://docs.getodk.org/form-logic/#requiring-responses) | ✔️ |
+| [Cài đặt phản hồi mặc định](https://docs.getodk.org/form-logic/#setting-default-responses) | ❌ |
+| [Kích hoạt tính toán tự động khi thay đổi số liệu](https://docs.getodk.org/form-logic/#triggering-calculations-on-value-change) | ❌ |
+| [Kiểm tra và giới hạn phản hồi](https://docs.getodk.org/form-logic/#validating-and-restricting-responses) | ❌ |
+| [Hiển thị câu hỏi có điều kiện](https://docs.getodk.org/form-logic/#conditionally-showing-questions) | ✔️ |
+| [Nhóm câu hỏi](https://docs.getodk.org/form-logic/#groups-of-questions) | ✔️ |
+| [Câu hỏi lặp lại](https://docs.getodk.org/form-logic/#repeating-questions) | ✔️ |
+| [Lọc đáp án trong câu hỏi lựa chọn](https://docs.getodk.org/form-logic/#filtering-options-in-select-questions) | ✔️ |
+| [Tạo đáp án từ các câu hỏi lặp lại](https://docs.getodk.org/form-logic/#generating-select-ones-from-repeats) | ❌ |
 | [Form metadata (background data collection)](https://docs.getodk.org/form-audit-log/) | ❌ |
 
 

@@ -91,10 +91,10 @@ import ThemedImage from '@theme/ThemedImage';
                     <span className="emphasis">Máy ảnh và ghi âm bên trong Tella:</span> chụp ảnh, quay video và ghi âm trực tiếp trong Tella để tệp tin của bạn được mã hóa tức thì và ẩn bên trong ứng dụng.
                 </li>
                 <li>
-                    <span className="emphasis">Tella tích hợp</span> với <a href="uwazi">Uwazi</a>, <a href="odk">Open Data Kit</a>, <a href="tella-web">Tella Web</a>, <a href="g-drive">Google Drive</a>, <a href="dropbox">Dropbox</a> và <a href="nextcloud">Nextcloud</a>. <a href="connections">Chọn nền tảng</a> phù hợp nhất với nhu cầu của bạn và chia sẻ dữ liệu trực tiếp từ Tella.
+                    <span className="emphasis">Tella tích hợp</span> với <a href="uwazi">Uwazi</a>, <a href="odk">Open Data Kit</a>, <a href="tella-web">Tella Web</a>, <a href="g-drive">Google Drive</a>, <a href="dropbox">Dropbox</a> và <a href="nextcloud">Nextcloud</a>. <a href="connections">Chọn nền tảng</a> phù hợp nhất với nhu cầu của bạn và share data directly from Tella.
                 </li>
                 <li>
-                    <span className="emphasis">Chế độ ngoại tuyến:</span> trong những khu vực có kết nối internet bị hạn chế hoặc không có, bạn có thể lưu lại dữ liệu của mình và gửi khi bạn có kết nối internet ổn định. Tella cũng cung cấp <a href="nearby-sharing">tính năng hoàn toàn ngoại tuyến để chuyển tệp tin đến các thiết bị gần đó</a>.
+                    <span className="emphasis">Chế độ ngoại tuyến:</span> trong những khu vực có kết nối internet bị hạn chế hoặc không có, bạn có thể lưu lại dữ liệu của mình và gửi khi bạn có kết nối internet ổn định. Tella also offers a <a href="nearby-sharing">fully offline feature to transfer files to nearby devices</a> using Tella.
                 </li>
             </ul>
         </div>
@@ -111,7 +111,7 @@ import ThemedImage from '@theme/ThemedImage';
                     <span className="emphasis">Miễn phí mãi mãi:</span> Tella được thiết kế cho những người gặp rủi ro về an ninh. Ứng dụng này được tải xuống và sử dụng miễn phí, và sẽ luôn luôn miễn phí.
                 </li>
                 <li>
-                    <span className="emphasis">Chọn ngôn ngữ của bạn:</span> Tella hiện <a href="faq#what-languages-is-tella-available-in">có sẵn</a> bằng 25 ngôn ngữ.
+                    <span className="emphasis">Chọn ngôn ngữ của bạn:</span> Tella hiện <a href="faq#what-languages-is-tella-available-in">có sẵn</a> in 25 languages.
                 </li>
                 <li>
                     <span className="emphasis">Tin tưởng vào mã nguồn:</span> mã nguồn của Tella là mã nguồn mở và <a href="open-source">công khai</a> để các nhà nghiên cứu, nhà phân tích bảo mật và nhà phát triển có thể tự do kiểm tra và tái sử dụng.
