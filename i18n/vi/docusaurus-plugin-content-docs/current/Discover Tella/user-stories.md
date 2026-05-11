@@ -3,6 +3,7 @@ id: user-stories
 title: Câu chuyện Người dùng
 description: Trải nghiệm của người dùng và triển khai Tella
 slug: /user-stories
+sidebar_position: 4
 ---
 
 # Câu chuyện người dùng Tella
@@ -20,7 +21,7 @@ Tổ chức CLEEN đã sử dụng Tella để giám sát bầu cử ở Nigeria
 📲 7800 báo cáo gồm hình ảnh, âm thanh và video
 
 
-🗄️ Connection: ODK (Kobotoolbox)
+🗄️ Kết nối: ODK (Kobotoolbox)
 :::
 
 [CLEEN Foundation](https://cleen.org/) là một tổ chức phi chính phủ thành lập năm 1998 tại Nigeria với sứ mệnh thúc đẩy an toàn công cộng, an ninh và tiếp cận công lý thông qua nghiên cứu thực nghiệm, vận động lập pháp, các chương trình thí điểm và xuất bản, hợp tác cùng chính phủ, xã hội dân sự và khu vực tư nhân.
@@ -78,6 +79,7 @@ Trong cuộc bầu cử tổng thống năm 2020 ở Belarus, các tổ chức x
 
 🗄️ Kết nối: ODK (Kobotoolbox)
 :::
+
 
 Ở Belarus, chế độ độc tài của Alexander Lukashenko từ lâu đã bóp nghẹt các quyền cơ bản và đàn áp phe đối lập chính trị.  Các cuộc bầu cử không tự do và không công bằng.  Tuy nhiên, lần đầu tiên sau nhiều thập kỷ, cuộc bầu cử tổng thống vào năm 2020 đã tạo ra tiềm năng cho sự thay đổi với các ứng cử viên đối lập đáng tin cậy và một xã hội dân sự được tiếp thêm sinh lực nhờ sự kém cỏi của chính phủ trước đại dịch Covid-19.
 

@@ -106,6 +106,8 @@ Hãy lưu ý rằng Tella sẽ chia sẻ các tệp tin không được mã hóa
     <img src={require("@site/static/img/getting-started/android/share.gif").default} alt="gif that shows how to share information" title="share information with third party apps" />
 </div>
 
+## Nearby sharing {#nearby-sharing}
+You share files directly from Tella’s encrypted vault to another Tella encrypted vault in the same physical location using [Nearby Sharing](/nearby-sharing). After a quick connection tutorial, the two devices establish a secure link, and files are transferred encrypted from one device to the other. Nearby Sharing allow phone-to-phone (Android or iOS) and phone-to-computer file transfers. 
 
 
 ## Tìm hiểu thêm {#go-further}
@@ -139,12 +141,24 @@ Tella Web là một công cụ nguồn mở cho phép các cá nhân và tổ ch
 
 Đọc thêm về Tella Web [tại đây](/tella-web) hoặc xem [video hướng dẫn](/video-tutorials#tella-web).
 
+#### Nextcloud, Dropbox and Google Drive {#Nextcloud-dropbox-and-google-drive}
+Users can also connect to their Google, Dropbox or Nextcloud organizational or personal accounts in order to submit reports (audio, photos, videos and text) directly from Tella. They won't need the Dropbox, Google Drive or Nextcloud apps on their phones and won't need to use any third party apps.
+
+Read more:
+- [Google Drive Connection](/g-drive).
+- [Nextcloud Connection](/nextcloud).
+- [Dropbox Connection](/dropbox).
+
+:::note
+The Google Drive and Dropbox connections are not available in Tella Android FOSS, because they use closed-sourced libraries.
+:::
+
 
 
 ### Đọc thêm về Tella {#read-more-about-tella}
-- [Tính năng](/features): Tìm hiểu thêm về cách Tella có thể giữ an toàn cho bạn và những mối đe dọa mà Tella không_thể_bảo vệ bạn.
+- [Các tính năng](/features): Tìm hiểu thêm về cách Tella có thể giữ an toàn cho bạn và những mối đe dọa mà Tella không_thể_bảo vệ bạn.
 - [Kết nối](/for-organizations): Tìm hiểu cách bạn có thể kết nối với máy chủ để thu thập dữ liệu hoặc sao lưu tài liệu.
-- [Bảo mật và quyền riêng tư](/security-and-privacy): Chúng tôi chỉ thu thập lượng dữ liệu tối thiểu cần thiết và không bao giờ thu thập bất kỳ thông tin cá nhân nào có thể nhận dạng được. Đọc chính sách bảo mật đầy đủ [tại đây](/privacy).
+- [Bảo mật và quyền riêng tư](/security-and-privacy): Chúng tôi chỉ thu thập lượng dữ liệu tối thiểu cần thiết và không bao giờ thu thập bất kỳ thông tin cá nhân nào có thể nhận dạng được. Đọc toàn bộ chính sách bảo mật [tại đây](/privacy).
 
 #### Liên hệ với chúng tôi nếu bạn cần giúp đỡ {#contact-us-if-you-need-help}
-Nếu bạn cần trợ giúp để hiểu các chi tiết kỹ thuật và các yếu tố về bảo mật của Tella, để quyết định xem nó có phù hợp với bạn và nhóm của bạn hay không, chúng tôi ở đây để giúp đỡ. Chỉ cần [liên hệ với chúng tôi](/contact-us) để chúng tôi giải đáp các câu hỏi hoặc tổ chức một buổi đào tạo hoặc một buổi hỏi-đáp trực tiếp cho nhóm của bạn.
+Nếu bạn cần trợ giúp để hiểu các chi tiết kỹ thuật và các vấn đề bảo mật của Tella để quyết định xem nó có phù hợp với bạn và nhóm của bạn hay không, chúng tôi sẵn sàng hỗ trợ. Chỉ cần [liên hệ với chúng tôi](/contact-us) để chúng tôi giải đáp các câu hỏi của bạn hoặc tổ chức một buổi đào tạo hoặc một buổi hỏi-đáp trực tiếp cho nhóm của bạn.

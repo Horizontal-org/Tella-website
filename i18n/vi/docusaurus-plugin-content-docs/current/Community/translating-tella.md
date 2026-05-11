@@ -7,7 +7,7 @@ slug: /translating-tella
 import TellaLanguages from '.././_tella-languages.md';
 
 
-# Dịch Tella
+# Chuyển ngữ Tella
 
 Ngôn ngữ dễ tiếp cận là một trong những ưu tiên của chúng tôi, vì vậy chúng tôi nỗ lực làm việcđể đưa Tella đến với các cộng đồng bằng nhiều ngôn ngữ khác nhau.
 
