@@ -6,7 +6,7 @@ slug: /get-started
 sidebar_position: 3
 ---
 
-'@docusaurus/Link' မှ လင့်ခ်ကို တင်သွင်းပါ
+import Link from '@docusaurus/Link'
 
 
 # Tella နှင့် စတင်လိုက်ပါ

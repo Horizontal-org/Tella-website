@@ -84,7 +84,7 @@ In Tella Android, Tella FOSS and [Tella Web](/tella-web), users can choose to sh
 9. **သော့ဖွင့်ရန် ကြိုးပမ်းမှုအကြိမ်ရေ ကန့်သတ်ခြင်း** - Tella အတွင်းရှိ အရာအားလုံးကို မဖျက်မီ မအောင်မြင်သော [သော့ဖွင့်ရန် ကြိုးပမ်းမှုအကြိမ်ရေ](features#restrict-unlocking-attempts) မည်မျှ ခွင့်ပြုမည်နှင့် သော့ဖွင့်သည့် မျက်နှာပြင်၌ ရုပ်ပုံအညွှန်းဖြင့် နောက်ထပ်အကြိမ်မည်မျှ သော့ဖွင့်ရန် ကြိုးပမ်းနိုင်ကြောင်း ဖော်ပြ၊ မ‌ဖော်ပြကို အသုံးပြုသူများက ဆုံးဖြတ်နိုင်သည်။
 10. **Offline file sharing**: Tella allows establishing a secure connection with devices that are in the same physical location and transferring files encrypted, from one Tella vault to another. [Nearby Sharing](/nearby-sharing) works fully offline, even on insecure networks or networks being surveilled.  Nearby Sharing is available cross-platform (between Android, iOS and Desktop).
 
-:::အကြံပြုချက် ဗီဒီယိုသင်ခန်းစာ 🎥 
+:::tip ဗီဒီယိုသင်ခန်းစာ 🎥 
 ကျွန်ုပ်တို့၏ [ဗီဒီယိုသင်ခန်းစာ](/video-tutorials#additional-security-features) တွင် လုံခြုံရေးအင်္ဂါရပ်များအကြောင်း ပိုမိုလေ့လာပါ 
 :::
 

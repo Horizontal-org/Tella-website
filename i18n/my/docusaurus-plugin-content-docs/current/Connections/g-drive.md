@@ -131,7 +131,7 @@ If you need a fully offline way to share files with others, consider exploring [
 - The Submitted tab displays reports that have been successfully submitted to  Google Drive.
 - တင်သွင်းပြီးသော အစီရင်ခံစာများကို တင်သွင်းပြီး တက်ဘ်တွင် ကြည့်ရှုစစ်ဆေးနိုင်ပါသည်။
 
-:::အချက်အလက်
+:::info
 အင်တာနက်ချိတ်ဆက်မှု ပြတ်တောက်သွားပါက အစီရင်ခံစာများကို အထွက်ပုံးတဘ်သို့ ရွှေ့မည်ဖြစ်ပြီး တင်သွင်းမှုလုပ်ငန်းစဉ်ကို ကိုယ်တိုင် ပြန်လည်စတင်ရပါမည်။
 ::: 
 

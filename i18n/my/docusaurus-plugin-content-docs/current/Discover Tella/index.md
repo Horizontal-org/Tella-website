@@ -7,7 +7,7 @@ sidebar_position: 2
 
 ---
 
-'@docusaurus/Link' မှ လင့်ခ်ကို တင်သွင်းပါ
+import Link from '@docusaurus/Link'
 
 
 # Tella ကို လေ့လာပါ

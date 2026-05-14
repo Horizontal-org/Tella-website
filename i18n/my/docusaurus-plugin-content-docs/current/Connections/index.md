@@ -45,27 +45,15 @@ Previous Tella deployments, where on-the-ground users collected data and sent it
 
 Currently, Tella can connect to the following types of servers:
 
-* [Uwazi](#uwazi)
-* [Tella ဝဘ်](#tella-web)
-* ၎င်းတို့ကို Tella တွင် [ချိတ်ဆက်မှုများ](/features#connecting-to-servers) ဟု ခေါ်သည်။
-* မှန်ကန်သော ဆာဗာအမျိုးအစားကို ရွေးချယ်ခြင်း {#selecting-the-right-type-of-server}
-* အောက်တွင် လိုအပ်ချက်အမျိုးမျိုးအတွက် ဆာဗာအမျိုးအစားသုံးမျိုးအနက်မှ မည်သည့် ဆာဗာအမျိုးအစားက အသင့်လျော်ဆုံးဖြစ်ကြောင်း ဆုံးဖြတ်ရာတွင် အထောက်အကူဖြစ်စေရန် အခြေခံကျ၍ အကြမ်းဖျင်းဖော်ပြထားသော ဂရပ်တစ်ခုကို ပြသထားပါသည်။ ၎င်းကို ကြည့်ရှု၍ စတင်လေ့လာနိုင်သော်လည်း ကျွန်ုပ်တို့၏ ဆာဗာအမျိုးအစားတစ်ခုစီကို [ဤဗီဒီယို](/video-tutorials#connections-full-video) တွင်လည်း ကြည့်ရှုလေ့လာနိုင်ပါသည်။ ဆုံးဖြတ်ရာတွင် အကူအညီလိုအပ်ပါက သို့မဟုတ် ချိတ်ဆက်မှုအသစ် (ဆာဗာအမျိုးအစားအသစ်သို့ ပေါင်းစပ်မှုတစ်ခု) တောင်းဆိုလိုပါက [ကျွန်ုပ်တို့ထံ ဆက်သွယ်ပါ။](/contact-us)
-* ```mermaid
-graph TD;
-    id1(အသုံးပြုသူများ ပေးပို့ရမည့် ဒေတာအမျိုးအစား။) --> id2("အများအားဖြင့် မီဒီယာ ပူးတွဲပါဖိုင်များနှင့် ဖွဲ့စည်းတည်ဆောက်ထားသော ဒေတာ (ပုံစံများ)");
-    id1 --> id3("အများအားဖြင့် စာသားပါသော မီဒီယာဖိုင်များ") ;
-    id2 --> id4("နောက်ထပ် မည်သည့်အင်္ဂါရပ်များ လိုအပ်ပါသနည်း။");
-    id3 --> id5("Tella ဝဘ်");
-    id4 --> id6("ဒေတာပွိုင့်များကြား ဆက်နွှယ်မှုများကို တည်ဆောက်ပါ၊ ဝဘ်ဆိုက်တစ်ခုသို့ လွှင့်တင်ပါ")
-    id4 --> id7("ဖောင်များသို့ လော့ဂျစ်ကို ထည့်ပါ၊ ဖောင်များအတွက် နံပါတ်အများအပြား စုဆောင်းပါ၊ ရလဒ်များကို ရုပ်ပုံဖြင့်ဖော်ပြနိုင်သော အစီရင်ခံစာများအဖြစ် ဖန်တီးပါ")
-    id4 --> id10("ဆာဗာမှ အသုံးပြုသူများထံ လမ်းညွှန်ချက်များ ပို့ပါ")
-    id6 --> id8("Uwazi")
-    id7 --> id9("Open Data Kit (ODK)")
-    id10 -->id5
-```
+* [Open Data Kit (ODK)](/odk)
+* [Uwazi](/uwazi)
+* [Tella Web](/tella-web)
+* [Google Drive](/g-drive)
+* [Nextcloud](/nextcloud)
+* [Dropbox](/dropbox)
 
 Feature availability by platform:
-Tella ဝဘ် အကြောင်း [ဤနေရာတွင်](/tella-web) ပိုမိုလေ့လာပါ၊
+<ConnectionsTable/>
 
 Some individuals use commercial clouds (Google Drive, Dropbox, Nextcloud) as a backup system for their Tella data. However, we advise using this feature with caution:
 - Automatic backups to any server are **not** currently available. They need to be made manually as submissions to each of the servers.

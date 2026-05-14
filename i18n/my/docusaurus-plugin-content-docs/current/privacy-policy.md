@@ -1,6 +1,6 @@
 ---
 id: privacy-policy
-title: ကိုယ်ရေးကိုယ်တာမူဝါဒ
+title: Tella - ကိုယ်ရေးလုံခြုံမှု မူဝါဒ
 description: Tella ကိုယ်ရေးလုံခြုံမှု မူဝါဒ
 slug: /privacy
 ---
@@ -12,7 +12,7 @@ slug: /privacy
 Last updated on 25 February 2025.
 :::
 
-:::အချက်အလက်
+:::info
 ကျွန်ုပ်တို့၏ [လုံခြုံရေးနှင့် ကိုယ်ရေးလုံခြုံမှု စာမျက်နှာ](/security-and-privacy) တွင် Tella ၏ နည်းပညာဆိုင်ရာ အသေးစိတ် အချက်အလက်များနှင့် လုံခြုံရေးစစ်ဆေးမှုများအကြောင်း အသေးစိတ်ကို သင်ဖတ်ရှုနိုင်ပါသည်။ 
 ::: 
 
@@ -117,7 +117,7 @@ Tella သည် ဖိုင်တစ်ခုကို ဖမ်းယူသည
 
 Google Play Store မှတစ်ဆင့် အက်ပ်ကို ဒေါင်းလုဒ် မလုပ်လိုပါက သင်သည် [ဤလင့်ခ်တွင် APK တစ်ခုကို တိုက်ရိုက် ဒေါင်းလုဒ်လုပ်နိုင်သည်](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ)။
 
-A fully Free and Open Source version of Tella for Android that doesn't contain any closed-source or proprietary library or dependency can be found on [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/). 
+လျှို့ဝှက်ထားသော အချက်အလက်များ သို့မဟုတ် စီးပွားဖြစ် ရင်းမြစ်သိုလှောင်မှု သို့မဟုတ် မှီခိုမှု မပါဝင်သည့်အပြင် ခြေရာခံခြင်းမှ ကင်းလွတ်သည့် Android အတွက် Tella ၏ အခမဲ့နှင့် ပွင့်လင်းရင်းမြစ်ဗားရှင်းကို [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/) တွင် ရှာတွေ့နိုင်ပါသည်။ 
 
 ## ၅။ သင့်အချက်အလက်များကို ကျွန်ုပ်တို့အသုံးပြုပုံ {#5-how-we-use-your-information}
 
@@ -137,12 +137,12 @@ A fully Free and Open Source version of Tella for Android that doesn't contain a
 
 ## ၆။ သင့်အချက်အလက်များကို ကျွန်ုပ်တို့စုဆောင်းပုံ၊ အသုံးပြုပုံနှင့် မျှဝေပုံနှင့် စပ်လျဉ်းသည့် သင့်ရွေးချယ်မှုများ {#6-your-choices-about-our-collection-use-and-disclosure-of-your-information} 
 
-Through the settings menu of Tella Android you can opt-out of:
+အက်ပ်၏ ဆက်တင်များမီနူးမှတစ်ဆင့် အောက်ပါတို့ကို ဖယ်ထုတ်ရန် ရွေးချယ်ခွင့် ရှိသည်-
 
 -   အမှားအစီရင်ခံချက်များနှင့် ပုံမှန်အသုံးပြုမှု ဆန်းစစ်မှုများ။
 -   သင့်အက်ပ်ဆက်တင်များတွင် “အတည်ပြုမုဒ်” ကို ပိတ်ခြင်းဖြင့် တစ်ခုလုံးဖြစ်စေ၊ တစ်စိတ်တစ်ပိုင်းဖြစ်စေ မက်တာဒေတာ စုဆောင်းမှု။
 
-Through the settings menu of Tella Android and Tella FOSS, you can opt-in to:
+အက်ပ်၏ ဆက်တင်များမီနူးမှတစ်ဆင့် အောက်ပါတို့ကို ရွေးချယ်ခွင့် ရှိသည်-
 - ကျွနု်ပ်တို့၏ ကိုယ်ရေးလုံခြုံမှု ထိန်းသိမ်းကာကွယ်သည့် စနစ်ကို အသုံးပြု၍ အသုံးပြုမှု ခွဲခြမ်းစိတ်ဖြာချက်ကို မျှဝေပါ [Divvi Up](/security-and-privacy#analytics)။
 
 
