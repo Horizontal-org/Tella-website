@@ -1,11 +1,12 @@
 ---
 id: get-started
-title: Tella နှင့် စတင်လိုက်ပါ 
+title: Get Started 
 description: iOS နှင့် Android တို့ဖြင့် Tella သုံးစွဲသူများအတွက် အမြန်စတင်အသုံးပြုနည်း လမ်းညွှန်
 slug: /get-started
+sidebar_position: 3
 ---
 
-import Link from '@docusaurus/Link'
+'@docusaurus/Link' မှ လင့်ခ်ကို တင်သွင်းပါ
 
 
 # Tella နှင့် စတင်လိုက်ပါ
@@ -15,25 +16,42 @@ import Link from '@docusaurus/Link'
     <div className="doc-card">
       <Link to="/get-started-android">
         <div className="doc-card-content">
-          <b>Android လမ်းညွှန်</b>
-          <p>Android တွင် Tella အသုံးပြုသူများအတွက် အမြန်စတင်နည်းလမ်းညွှန်။</p>
+          <b>Android Guide</b>
+          <p>Quick start guide for Tella users on Android.</p>
         </div>
       </Link>
     </div>
     <div className="doc-card">
       <Link to="/get-started-ios">
         <div className="doc-card-content">
-          <b>iOS လမ်းညွှန်</b>
-          <p>iPhone တွင် Tella အသုံးပြုသူများအတွက် အမြန်စတင်နည်းလမ်းညွှန်</p>
+          <b>iOS Guide</b>
+          <p>Quick start guide for Tella users on iPhone.</p>
+        </div>
+      </Link>
+    </div>
+    <div className="doc-card">
+      <Link to="/get-started-desktop">
+        <div className="doc-card-content">
+          <b>Tella Desktop Guide</b>
+          <p>Quick start guide for Tella users on Desktop.</p>
         </div>
       </Link>
     </div>
     <div className="doc-card">
       <Link to="/video-tutorials">
         <div className="doc-card-content">
-          <b>ဗီဒီယို သင်ခန်းစာများ</b>
-          <p>စတင်နည်း ဗီဒီယိုလမ်းညွှန်။</p>
+          <b>Video Tutorials</b>
+          <p>Video guidance on how to get started.</p>
         </div>
       </Link>
     </div>
+    <div className="doc-card">
+      <Link to="/scenarios">
+        <div className="doc-card-content">
+          <b>Scenarios of Use</b>
+          <p>Discover what Tella features could be useful in different scenarios.</p>
+        </div>
+      </Link>
+    </div>
+
 </div>

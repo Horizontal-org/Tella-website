@@ -3,6 +3,7 @@ id: faq
 title: မေးလေ့ရှိသော မေးခွန်းများ (FAQ)
 description: Tella အကြောင်း မေးလေ့ရှိသော မေးခွန်းများ
 slug: /faq
+sidebar_position: 6
 ---
 
 import FeaturesTable from './_features-table.md';
@@ -24,28 +25,29 @@ Tella ကို အကျိုးအမြတ်မယူသော လူ့အ
 
 ### Tella ကို Android တွင် ရနိုင်ပါသလား။ {#is-tella-available-on-android}
 
-ဟုတ်ပါသည်၊ Tella ကို Android အတွက် ရနိုင်ပြီး [Google Play Store ](https://play.google.com/store/apps/details?id=org.hzontal.tella&gl=US) မှ တိုက်ရိုက် ဒေါင်းလုဒ်လုပ်နိုင်ပါသည် [တယ်လီဂရမ်ချန်နယ်]( https://t.me/tellaapp) သို့မဟုတ် APK တစ်ခုအဖြစ် ကိုယ်တိုင်ထည့်သွင်းရန် [ဤဖိုင်တွဲမှ](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ) ရယူနိုင်ပါသည်။ အက်ပ်ကို ကိုယ်တိုင်ထည့်သွင်းရန် ကူညီလိုပါက သင်သည် [ဤလမ်းညွှန်ချက်အတိုင်း ဆောင်ရွက်နိုင်ပါသည်](https://www.androidauthority.com/how-to-install-apks-31494/) သို့မဟုတ် [ကျွန်ုပ်တို့ထံ ဆက်သွယ်နိုင်ပါသည်](contact-us)။
+Yes, Tella is available for Android and can be downloaded directly [from the Google Play Store ](https://play.google.com/store/apps/details?id=org.hzontal.tella&gl=US),   from our [Telegram channel]( https://t.me/tellaapp) or [from this folder](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ), as an APK, to be installed manually. If you need to help to install the app manually you can [follow this guide ](https://www.androidauthority.com/how-to-install-apks-31494/) or [contact us](contact-us).
+
+:::note
+Follow the get [quick start guide for Tella users on Android](/get-started-android) for quick onboarding.
+:::
 
 :::အကြံပြုချက်
 [Tella ကို Play Store မှရှာပြီး ဒေါင်းလုဒ်လုပ်နည်း](/video-tutorials#find-and-download-tella-from-the-play-store) နှင့် [Tella ကို ကိုယ်တိုင် ထည့်သွင်းနည်း](/video-tutorials#manual-installation-of-tella) တို့ကို ကျွန်ုပ်တို့၏ ဗီဒီယိုသင်ခန်းစာများတွင် ထပ်မံလေ့လာပါ။
 :::
 
 ### Tella ကို F-Droid တွင် ရနိုင်ပါသလား။ {#is-tella-available-on-f-droid}
-ဟုတ်ပါသည်၊ Tella-FOSS ဟု ခေါ်သော Tella Android ဗားရှင်းကို [F-Droid တွင်](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/) ကျွန်ုပ်တို့ ထုတ်ဝေထားပါသည်။ ဤဗားရှင်း၌ အောက်တွင်ဖော်ပြထားသည်မှအပ အင်္ဂါရပ်အားလုံး ရနိုင်ပါသည်-
-- Tella ဝဘ်ချိတ်ဆက်မှု
-- တင်သွင်းသည့်အခါ မူရင်းဖိုင်ကို ဖျက်ရန် ရွေးချယ်မှု
-- ကင်မရာ၏ အင်္ဂါရပ်အချို့ (ချုံ့ချဲ့ခြင်း၊၊ ကင်မရာ အလှည့်အပြောင်း၊ ဖလက်ရှ်မီးနှင့် ဇယားကွက်ခွင့်ပြုမှုများ၊ ဗီဒီယို ကြည်လင်ပြတ်သားမှု ပြောင်းလဲခြင်း)
+Yes, we publish a version of Tella Android [on F-Droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/), which we call Tella FOSS. Tella FOSS does not support all features available on Tella Android. For details about which features are available on Tella FOSS, see [what features are available on each platform](/features) and our [release notes page](/releases).
 
-ဤဗားရှင်းသည် အခမဲ့ ပွင့်လင်းအရင်းအမြစ် ဖြစ်သည်၊ ဆိုလိုသည်မှာ Tella ၏ ကုဒ်အားလုံးနှင့် Tella အသုံးပြုသည့် ရင်းမြစ်သိုလှောင်မှုအားလုံး၏ ကုဒ်များသည် အပြည့်အဝ လွတ်လပ်ပြီး အခမဲ့ ရယူနိုင်သော ရင်းမြစ် ဖြစ်သည်။
-
-ဤဗားရှင်း၌ Android တွင် ချွတ်ယွင်းချက်များနှင့် ပျက်စီးမှုများကို ရှာဖွေပေးသည့် ခြေရာခံကိရိယာများပင် မပါဝင်ပါ။
-
+All code, libraries, and dependencies in Tella FOSS are entirely Free and Open Source Software (FOSS). Tella FOSS only includes an opt-in [privacy-preserving analytics](/security-and-privacy#analytics) tracker.
 
 ### Tella ကို iOS တွင် ရနိုင်ပါသလား။ {#is-tella-available-on-ios}
 
-ဟုတ်ပါသည်၊ iOS အတွက် Tella ကို [App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580) တွင် ဒေါင်းလုဒ် လုပ်နိုင်ပါသည်။ iOS အတွက် Tella သည် အစောပိုင်း ဖွံ့ဖြိုးတိုးတက်မှု အဆင့်တွင် ရှိနေသောကြောင့် အင်္ဂါရပ်အားလုံးကို မရနိုင်သေးပါ။ သို့သော် ၎င်းသည် တည်ငြိမ်နေပြီး လုံခြုံရေးစစ်ဆေးမှုကို ခံယူထားသည်။
+Yes, Tella for iOS can be downloaded [from the App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580). For details about which features are available for iOS, see [What features are available on each platform](/features).
 
-iOS တွင် မည်သည့်အင်္ဂါရပ်များကို ရနိုင်ကြောင်း အသေးစိတ်သိရှိရန် "ပလက်ဖောင်းအလိုက် ဝန်ဆောင်မှုရရှိနိုင်မှု" တွင် ကြည့်ပါ။
+:::note
+Follow the get [quick start guide for Tella users on iOS](/get-started-ios) for quick onboarding.
+:::
+
 
 ### ပလက်ဖောင်းတစ်ခုစီတွင် မည်သည့်အင်္ဂါရပ်များ ရနိုင်ပါသလဲ။ {#what-features-are-available-on-one-platform}
 
@@ -55,10 +57,16 @@ iOS တွင် မည်သည့်အင်္ဂါရပ်များက
 
 ### Tella ကို Desktop တွင် ရနိုင်ပါသလား။ {#is-tella-available-on-desktop}
 
+Yes, Tella is available on desktop, but for the moment can only be used to receive files.
+
+You can download Tella Desktop for Windows, MacOS and Linux. [Follow the quick start guide for Tella users on Desktop](/get-started-desktop) for quick onboarding.
+
+### Do you offer a back-end or repository to store data? {#tella-web}
+
 Tella ဝဘ်သည် ဓာတ်ပုံများ၊ ဗီဒီယိုများနှင့် အသံများ အပါအဝင် Tella အသုံးပြုသူများ တင်သွင်းသော အစီရင်ခံစာများကို သိမ်းဆည်းရန် သိုလှောင်ခန်းအဖြစ် ဆောင်ရွက်ပေးသည့် ဝဘ်အက်ပ်တစ်ခု ဖြစ်သည်။ Tella ဝဘ်အကြောင်း [ဤနေရာ](/tella-web) တွင် ပိုမိုလေ့လာပါ
 
 :::note
-Tella ဝဘ်တွင် ဖိုင်များကို ကုဒ်ဝှက်ခြင်းနှင့် ဖုံးကွယ်ခြင်း သို့မဟုတ် အစီရင်ခံစာများ ဖန်တီးခြင်းတို့ မပြုလုပ်နိုင်ကြောင်း သတိပြုပါ။ ဤလုပ်ဆောင်ချက်များကို မိုဘိုင်းအက်ပ်များတွင်သာ ပြုလုပ်နိုင်ပါသည်။ Tella ဝဘ်သည် Tella အက်ပ်တွင် စုဆောင်းထားသော ဒေတာများကို ပေးပို့နိုင်သော [ချိတ်ဆက်မှုများ](/for-organizations) အနက် တစ်ခုဖြစ်သည်။
+Note that it is not possible to encrypt and hide files or create reports on Tella Web. These features are only available on the mobile apps. Tella Web is one of the [connections](/connections) available to send the data collected on the Tella app. 
 :::
 
 ### Tella ကို ဘယ်မှာ ရနိုင်မလဲ။ {#where-can-i-get-tella}
@@ -75,11 +83,14 @@ Tella ဝဘ်တွင် ဖိုင်များကို ကုဒ်ဝ
 
 Tella ကို Android 5.0 နှင့်အထက် နှင့် iOS 14.0 နှင့်အထက်ရှိသော စက်များနှင့် တွဲဖက်အသုံးပြုနိုင်ပါသည်။ 
 
+### Does Tella work on GrapheneOS? {#does-tella-work-on-graphene-os}
+As of December 2024, we haven't been able to test Tella Android and Tella FOSS on GrapheneOS, so we cannot confirm that all features work properly. Some users have reported that the main features (lock, file encryption and management, etc) work properly, but some of the Connections (like Google Drive) do not work. If you use GrapheneOS and you experience a problem, please [contact us](/contact-us).
+
 ### Tella က အခမဲ့လား။ {# is-tella-free}
 
 ဟုတ်ပါသည်၊ Tella ကို အခမဲ့ ဒေါင်းလုဒ်လုပ်ပြီး အသုံးပြုနိုင်သည်။ ၎င်းကို အမြဲတမ်းလည်း အခမဲ့ ရရှိနေမည် ဖြစ်သည်။
 
-Tella သည် [ပွင့်လင်းအရင်းအမြစ်](/open-source) လည်း ဖြစ်သည်။
+Tella is also [Open Source](/open-source).
 
 ### Tella ကို မည်သည့် ဘာသာစကားဖြင့် ရနိုင်ပါသလဲ။ {#what-languages-is-tella-available-in}
 
@@ -115,6 +126,19 @@ Tella အတွက် သီးသန့်သိုလှောင်မှု 
 
 လက်ရှိတွင် (SD ကတ်များကဲ့သို့) ပြင်ပသိုလှောင်မှု တည်နေရာများတွင် Tella ကို အသုံးမပြုနိုင်ပါ။ 
 
+
+### Can i backup the data I store in Tella? {#can-i-backup-the-data-i-store in-tella?}
+
+Yes, you can, but the process is manual for the moment. There are different alternatives available for backups:
+- Establish a secure connection to a computer or phone that's in physical proximity using [Nearby Sharing](/nearby-sharing). This is the most secure method available.
+- Connect to a server directly from Tella and choose the files you want to send to it. You can read more about the [servers available here](/for-organizations).
+- Select files from your vault and export those to your phone using the **Save to device** button.
+
+
+All exports outside of Tella's encrypted vault (to a connected server or to your phone) will be unencrypted. The only method for sharing files that transfer files directly to another encrypted vault is [Nearby Sharing](/nearby-sharing).
+
+Continue reading about backups [in the Features page](/features#backup-files).
+
 ## လုံခြုံရေးနှင့် ကိုယ်ရေးအချက်အလက် ကာကွယ်မှု {#security--privacy}
 
 ### ကျွန်ုပ်၏ သော့ခလောက်ကို မမှတ်မိပါ။ Tella ထဲသို့ မည်သို့ ဝင်နိုင်သနည်း။ {#i-cant-remember-my-lock-how-can-i-get-into-tella}
@@ -127,16 +151,17 @@ Tella အတွက် သီးသန့်သိုလှောင်မှု 
 
 ### ကျွန်ုပ် Tella ကို ဖုန်းအသစ်တစ်လုံးသို့ မည်သို့ပြောင်းရွှေ့ရမည်နည်း။ {#how-do-i-migrate-tella-to-a-new-phone}
 
-ကံမကောင်းစွာဖြင့် ဖုန်းအဟောင်းတစ်လုံးပေါ်ရှိ Tella မှ သင်၏ ဖိုင်များနှင့်ဒေတာကို ဖုန်းအသစ်တစ်လုံးပေါ်ရှိ Tella သို့ အလိုအလျောက် ရွှေ့ပြောင်းနည်း မရှိပါ။
+You can use [Nearby Sharing](/nearby-sharing) to move your files to a new phone. You will need to install Tella in your new phone, establish a secure connection to it using Nearby Sharing, select all your files, and transfer those to your new phone. This feature works, too, for Android to iOS, or iOS to Android migrations. 
 
-Apple ၏ Migration Assistant ကို သုံးလျှင် အလုပ်ဖြစ်မည် မဟုတ်ပါ - သင့်ဖိုင်များသည် ဖုန်းအသစ်သို့ ကုဒ်ဝှက်လျက် သင့်ကုဒ်ဝှက်သော့များ မပါဘဲ ရွှေ့ပြောင်းသွားမည်ဖြစ်သည်။ ရလဒ်အနေနှင့် သင်သည် ဤဖိုင်များကို ကုဒ်ဖြေ၍ ဖွင့်နိုင်မည် မဟုတ်ပါ။
+If you have multiple files, the full transfer might take some time. We recommend you to make sure that Tella [does not lock](/features#lock-timeout-configuration) while the transfer is in progress.  
 
-သင့် Tella ဖိုင်များကို ဖုန်းအသစ်တစ်လုံးသို့ ရွှေ့ပြောင်းရန် သင်သည် စက်အသစ်တွင် Tella ကို ထည့်သွင်းရန်၊ ဖိုင််အားလုံးကို Tella ပြင်ပသို့ တင်ပို့ရန်နှင့် ထိုဖိုင်များကို ဖုန်းအသစ်သို့ ကိုယ်တိုင် တင်သွင်းရန် လိုအပ်ပါသည်။ အောက်ပါအဆင့်များကို လိုက်နာရန် ကျွန်ုပ်တို့ အကြံပြုအပ်ပါသည် -
-  1. သင့်ဖုန်းအဟောင်းတွင် "ဖိုင်အားလုံး" ဖိုင်တွဲသို့ သွား၍ သင့်ဖိုင်နှင့် ဖိုင်တွဲအားလုံးကို ရွေးချယ်ရန် "အားလုံးကို ရွေးရန်" အမှန်ခြစ်အကွက်ကို အသုံးပြုပါ။ ထိုဖိုင်များကို ဖုန်းအယ်လ်ဘမ်တွင် -ကုဒ်ဝှက်မထားဘဲ-၊ မြင်နိုင်သည်ကို သတိပြုပါ။
-  2. သင့်ဖိုင်များကို စက်အသစ်သို့ ရွှေ့ပြောင်းရန် (Android ရှိ) Quick Share၊ (iOS ရှိ) Airdrop သို့မဟုတ် အခြားဒေတာလွှဲပြောင်းသည့် ကိရိယာတစ်ခုခုကို အသုံးပြုပါ။ ဖိုင်များကို ကုဒ်မဝှက်ဘဲ လွှဲပြောင်းပါမည်။
-  3. သင့်ဖုန်းအသစ်တွင် Tella ကို ဖွင့်ပြီး "ဖိုင်အားလုံး" ဖိုင်တွဲသို့ သွားပါ၊ "+" ခလုတ်ကို နှိပ်ပြီး "စက်မှ တင်သွင်းမည်" ကို ရွေးချယ်ပါ။ ထိုဖိုင်များကို Tella အတွင်း၌သာ လုံခြုံစွာ သိမ်းဆည်းထားကြောင်း သေချာစေရန် ဒိုင်ယာလော့တွင် "မူရင်းကို ဖျက်ရန်" ကို ရွေးချယ်နိုင်ပါသည်။ သင့်ဖုန်းအဟောင်းမှ တင်ပို့လိုက်သော ဖိုင်များကို ရွေးချယ်ပြီး ၎င်းတို့ကို Tella သို့ တင်သွင်းပါ။
-  4. Tella ၏ ကုဒ်ဝှက်ထားသောနေရာတွင် လုံခြုံစွာသိမ်းဆည်းမထားသော ဖိုင်များကို သင့်ဖုန်းနှစ်လုံးစလုံး၏ အယ်လ်ဘမ်များမှ သေချာဖျက်ပစ်ပါ။
+:::tip
+We recommend you double check that all the files has been successfully transferred before deleting those in your old phone.
+:::
 
+:::info
+Using Apple's Migration Assistant will not work: your files will be moved to the new phone encrypted, but not your encryption keys. As a result, you will not be able to decrypt and open these files.
+:::
 
 
 ### Tella က ဘယ်လောက်လုံခြုံလဲ။ {#how-secure-is-tella}
