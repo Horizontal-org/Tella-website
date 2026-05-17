@@ -34,10 +34,10 @@ In this table you can access our latest accessibility reports for each platform.
 We are currently working on solving all the A Level accessibility issues detected in Tella Android.
 
 ### Offline accessibility {#offline-accessibility}
-Tella does not need internet for collecting or storing files, not to use any of the security features. [Connections](/connections) are offline-first, with built in mechanisms for [retrying and re-submitting reports](/features#offline-data-collection) if internet is not readily available. Tella also offers a fully [offline file sharing feature](/nearby-sharing) designed for areas facing internet shutdowns.
+Tella does not need internet for collecting or storing files, nor to use any of the security features. [Connections](/connections) are offline-first, with built in mechanisms for [retrying and re-submitting reports](/features#offline-data-collection) if internet is not readily available or if the connection is unstable. Tella also offers a fully [offline file-sharing feature](/nearby-sharing) designed for areas facing internet shutdowns or without connectivity.
 
 
 ### Device accessibility {#device-accessibility}
-We implement each feature trying to maximize device accessibility, even for older devices. [Read here about what phones support Tella](/faq#what-phones-support-tella). We also keep Tella as small as possible, to allow people with little storage space available on their phone to [download it and configure it to reduce the used storage space, in case that's a constraint for them](/faq/#how-much-storage-do-i-need-to-install-tella).
+We implement each feature trying to maximize device accessibility, even for older devices. [Read here about what phones support Tella](/faq#what-phones-support-tella). We also keep the size of the app as small as possible to [make it accessible to  people with little storage space available](/faq/#how-much-storage-do-i-need-to-install-tella).
 
 
