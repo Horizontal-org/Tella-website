@@ -18,21 +18,21 @@ In addition to keeping their data protected within the app, users can use **Conn
 - Volunteers or activists on the ground submitting forms directly to their organization from Tella.
 - A group of people connecting to a drive, cloud, or shared space to send files.
 - A group of journalists sharing encrypted data with each other during an internet shutdown.
-- An individual backing up selected files to their personal computer.
+- An individual backing up selected files to their personal computer or cloud file storage.
 
 
 There are two main types of connections:
-- [**Nearby Sharing**](#nearby-sharing): Share encrypted files with another Tella device in physical proximity. This feature does **not** require an internet connection and is typically used during internet shutdowns.
-- [**Upload to a server**](#server-connections): Connect to a server and upload files over the internet so that others can access them. This feature is commonly used by organizations running data collection processes.
+- [**Nearby Sharing**](#nearby-sharing): Securely share files with another Tella device in physical proximity. This feature does **not** require an internet connection and is typically used during internet shutdowns or in areas with limited connectivity.
+- [**Upload to a server or drive**](#server-connections): Connect to a server or drive and upload files over the internet to back them or so that others can access them. This feature is commonly used by organizations that want to centralize data or files collected by Tella users, or by individuals looking to make up their files.
 
-Connections can be configured on **Settings** → **Connections**. The Tella home screen will display a shortcut to all connected servers. Nearby Sharing is turned on by default, but it can be disabled as well.
+Connections can be configured inside Tella in **Settings** → **Connections**. The Tella homescreen will display a shortcut to all connections. Nearby Sharing is turned on by default, but it can be disabled as well.
 
 
 ## Nearby Sharing {#nearby-sharing}
 
-Nearby Sharing can be used to transfer files directly between Tella vaults. It is available on Tella Android, Tella iOS, and Tella Desktop. Transfers are encrypted, use the Wi-Fi protocol, and work with or without an internet connection, even on insecure or monitored networks.
+Nearby Sharing can be used to transfer files directly from Tella on one device to Tella on another device. It is available on Tella Android, Tella iOS, and Tella Desktop. Transfers are encrypted and are done over Wi-Fi protocol. Nearby Sharing works with or without an internet connection, even on insecure or monitored networks.
 
-We designed this connection type with a strong focus on security, especially for use in repressive environments, and it has been [audited by an independent security firm](/security-and-privacy#security-audits).
+We designed this connection with a strong focus on security, especially for use in repressive environments, and it has been [audited by an independent security firm](/security-and-privacy#security-audits).
 
 <Button label="Continue reading about Nearby Sharing" link="/nearby-sharing"/>
 
