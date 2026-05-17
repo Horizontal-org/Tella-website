@@ -1,21 +1,21 @@
 ---
 id: nearby-sharing
 title: Nearby Sharing
-description: Learn about Tella's encrypted, cross-platform, fully offline feature for sharing files between Tella vaults in physical proximity. Available for Android, iOS and Desktop.
+description: Learn about Tella's secure, cross-platform offline file-sharing features on Android, iOS and Desktop.
 slug: /nearby-sharing
 ---
 
 # Nearby Sharing
 
-Nearby Sharing lets users securely share files, fully offline, across platforms and devices, assuring end-to-end encryption. 
+Nearby Sharing lets users securely share files between devices, offline and end-to-end encrypted. 
 
-This feature is designed centering the needs of people living in internet shutdowns, where privacy, security and reliability are crucial to keep connected. It's also helpful in rural areas, or for protests or large events where mobile networks are saturated or unavailable.
+This feature was designed primarily to support users facing internet shutdowns or unreliable connectivity. It's also helpful in situations where mobile networks are saturated or unavailable.
 
 Nearby Sharing in Tella is:
-- *Independent of internet*: Transfers work with or without an internet connection, even on surveilled or insecure Wi-Fi networks, by establishing a direct connection between devices instead of routing through the internet.
-- *Cross platform*: Available on iOS, Android and Desktop (Computer): there isn't any restrictions on which model of phone, brand or operative system you use. Nearby Sharing is designed to be accessible to any device able to install Tella.
-- *Encrypted*: Files move directly from one Tella vault to another, encrypted and secure.
-- *Anonymous*: Connection happens locally, without trace of who you shared with, when or where.
+- *Independent of the internet*: Transfers work with or without an internet connection, included on monitored or insecure Wi-Fi networks, by establishing a direct connection between devices instead of routing through the internet.
+- *Cross platform*: Nearby Sharing is available on iOS, Android, MacOS, Windows, and Linux, regardless of the device brand or model. Nearby Sharing can be used on any device where Tella can be installed.
+- *Encrypted*: Files are transferred encrypted directly from one Tella vault to another.
+- *Anonymous*: The connection between devices happens locally, without leaving traces of who you shared files with, when or where.
 
 
 Nearby Sharing will only work in physical proximity, for users connected to the same Wi-Fi network (either a local Wi-Fi or a Hotspot).
@@ -25,10 +25,10 @@ Nearby Sharing will only work in physical proximity, for users connected to the 
 
 Nearby Sharing may be particularly well-suited for:
 - Sharing files during an internet shutdown.
-- High risk scenarios where internet is censored and cannot be trusted as a communication channel
-- During protests, to quickly back up evidence on another person's phone.
-- To increase redundancy of data, by backing up files to a personal computer or another device.
-- To migrate to a new phone.
+- High risk scenarios where internet is heavily monitored or censored, and cannot be trusted as a communication channel
+- During protests or incidents, to quickly back up evidence on another person's phone.
+- To increase redundancy of data by backing up files to a personal computer or another device.
+- To migrate files to a new phone.
 
 
 :::tip
@@ -49,11 +49,11 @@ If you are trying to share files to the organization you are working with, or if
 
 Tap the Nearby Sharing button under the **Connections** section on the Tella Homescreen to get started.
 
-In order to use the feature, the sender and receiver need to join the same Wi-Fi network. You can connect to mobile devices using Tella (Android or iOS) or connect a mobile device to a computer. There are 2 ways to connect your devices though Wi-Fi:
+In order to use the feature, the sender and receiver need to be on the same Wi-Fi network. You can share files between two mobile devices (Android or iOS) or from a mobile device to a computer. There are 2 ways to connect your devices though Wi-Fi:
 1. Using a local network, such as the Wi-Fi at your home or work, or a public Wi-Fi network.
-2. Setting up a Hotspot on a device, and make sure both the sender and receiver have joined it. One of the devices can act as Hotspot and the other one could connect to it.
+2. Setting up a Hotspot on a device, and making sure both the sender and receiver have joined it. One of the devices can act as Hotspot while the other one connects to it.
 
-Nearby Sharing will show a tutorial that will guide users in every step of the connection process.
+Nearby Sharing will show a tutorial to guide users in every step of the connection process.
 
 :::note
 Some public Wi-Fi networks might not work due to their configuration preventing direct transfers. 
