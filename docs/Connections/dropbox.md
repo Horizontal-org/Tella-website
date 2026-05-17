@@ -21,7 +21,8 @@ Similarly to other server connections (like [Tella Web](/tella-web), [Google Dri
 Submissions to Dropbox take the form of "reports" which include a title, a text description, and files like photos, videos and audio recordings.
 
 :::danger
-Even though data is transferred to the server securely (SSL), anyone with access to the Dropbox account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+Even though data is encrypted (SSL) when transferred to your Dropbox account, anyone with access to the Dropbox account can view the files.
+:::
 
 :::note
 The Dropbox connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
@@ -121,7 +122,7 @@ The Outbox contains:
 * Reports that were marked as "Submit later"
 
 :::tip
-If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+If you need a way of sharing files without an internet connection, consider exploring [Nearby Sharing](/nearby-sharing).
 :::
 
 
