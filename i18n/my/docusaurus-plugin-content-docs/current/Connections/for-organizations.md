@@ -33,7 +33,7 @@ We strongly recommend reviewing and understanding the permission model of each c
 :::
 
 
-## Selecting the right type of server {#selecting-the-right-type-of-server}
+## မှန်ကန်သော ဆာဗာအမျိုးအစားကို ရွေးချယ်ခြင်း {#selecting-the-right-type-of-server}
 
 အောက်တွင် လိုအပ်ချက်အမျိုးမျိုးအတွက် ဆာဗာအမျိုးအစားသုံးမျိုးအနက်မှ မည်သည့် ဆာဗာအမျိုးအစားက အသင့်လျော်ဆုံးဖြစ်ကြောင်း ဆုံးဖြတ်ရာတွင် အထောက်အကူဖြစ်စေရန် အခြေခံကျ၍ အကြမ်းဖျင်းဖော်ပြထားသော ဂရပ်တစ်ခုကို ပြသထားပါသည်။ ၎င်းကို ကြည့်ရှု၍ စတင်လေ့လာနိုင်သော်လည်း ကျွန်ုပ်တို့၏ ဆာဗာအမျိုးအစားတစ်ခုစီကို [ဤဗီဒီယို](/video-tutorials#connections-full-video) တွင်လည်း ကြည့်ရှုလေ့လာနိုင်ပါသည်။ ဆုံးဖြတ်ရာတွင် အကူအညီလိုအပ်ပါက သို့မဟုတ် ချိတ်ဆက်မှုအသစ် (ဆာဗာအမျိုးအစားအသစ်သို့ ပေါင်းစပ်မှုတစ်ခု) တောင်းဆိုလိုပါက [ကျွန်ုပ်တို့ထံ ဆက်သွယ်ပါ။](/contact-us)
 
@@ -58,7 +58,9 @@ On this table we explain what server types are available on the Tella apps:
 For offline file sharing or during internet shutdowns, [Nearby Sharing](/nearby-sharing) could be helpful.  If you need to share files with other apps the [Share button](/features#share-button) could be useful.
 :::
 
-### Tella Web {#tella-web}
+### Tella ဝဘ် {#tella-web}
+
+Tella ဝဘ်သည် ဓာတ်ပုံများ၊ ဗီဒီယိုများနှင့် အသံဖိုင်များအပါအဝင် Tella အသုံးပြုသူများက ပေးပို့သော အစီရင်ခံစာများကို ဗဟိုချုပ်ကိုင်၍ စီမံခန့်ခွဲနိုင်စေရန် လူတစ်ဦးချင်းစီနှင့် အဖွဲ့အစည်းများကို ခွင့်ပြုထားသည့် ပွင့်လင်းအရင်းအမြစ် ကိရိယာတစ်ခုဖြစ်သည်။
 
 Tella ဝဘ်သည် မိုဘိုင်းအက်ပ်၏ ဝဘ်ဗားရှင်းမဟုတ်ပါ၊ အက်ပ်ကို ဝဘ်အဖြစ်ပြောင်းလဲမည့်အစား Tella မှတစ်ဆင့် ပေးပို့သော အစီရင်ခံစာများကို အရိုးရှင်းဆုံးနည်းလမ်းဖြင့် စီမံခန့်ခွဲရန်နှင့် ဗဟိုပြုချုပ်ကိုင်ရန် အထူးရေးဆွဲထားသည့် ကိရိယာ ဖြစ်သည်။ သင်သည် Tella ဝဘ်ဖြင့် ပရောဂျက်များ ဖန်တီးနိုင်ပြီး အဆိုပါပရောဂျက်များသည် Tella အသုံးပြုသူများက အစီရင်ခံစာများ တင်သွင်းနိုင်သည့် ဖိုင်တွဲများကဲ့သို့ လုပ်ဆောင်ပါသည်။ ဥပမာအားဖြင့် သင်သည် ရဲအကြမ်းဖက်မှု၊ ကျား၊ မအခြေပြု အကြမ်းဖက်မှုနှင့် သဘာဝပတ်ဝန်းကျင်ဆိုင်ရာ ထိခိုက်ပျက်စီးမှုကဲ့သို့ တိကျသော ပထဝီဝင်နယ်မြေများ သို့မဟုတ် အကြောင်းအရာများအတွက် ပရောဂျက်များကို ဖန်တီးနိုင်သည်။ Tella ဝဘ်တွင် ပရောဂျက်တစ်ခုစီသို့ အစီရင်ခံစာများ အပ်လုဒ်လုပ်ခြင်း၊ မတူညီသော အခန်းကဏ္ဍများ ချမှတ်ပေးခြင်းနှင့် ခွင့်ပြုချက်များ သတ်မှတ်ပေးခြင်းတို့ ပြုလုပ်နိုင်စွမ်းရှိသော အသုံးပြုသူများကိုလည်း စီမံခန့်ခွဲနိုင်သည်။
 
@@ -78,10 +80,6 @@ Tella ဝဘ် အကြောင်း [ဤနေရာတွင်](/tella-we
 [Uwazi](/uwazi) သည် HURIDOCS မှ တီထွင်ထားသည့် မှတ်တမ်းတင်ခြင်းဆိုင်ရာ ပွင့်လင်းအရင်းအမြစ်ကိရိယာ ဖြစ်သည်။ ၎င်းသည် စာရွက်စာတမ်းများ၊ အထောက်အထားများ၊ အမှုများနှင့် တိုင်ကြားချက်များအပါအဝင် လူ့အခွင့်အရေး ကာကွယ်စောင့်ရှောက်သူများ၏ သတင်းအချက်အလက်စုဆောင်းမှုများကို စီမံခန့်ခွဲရန်အတွက် ပြောင်းလွယ်ပြင်လွယ်ရှိသော၊ ဝဘ်အခြေပြု ဒေတာဘေ့စ် အပလီကေးရှင်းတစ်ခု ဖြစ်သည်။ 
 
 Uwazi ကို ဒေတာဘေ့စ်အဖြစ် အသုံးပြုသော အဖွဲ့အစည်းများသည် ဒေတာကို အပ်လုဒ်လုပ်ရန် Tella ကို ၎င်းတို့၏ ဒေတာဘေ့စ်တစ်ခု သို့မဟုတ် တစ်ခုထက်ပိုသော ဒေတာဘေ့စ်များသို့ ချိတ်ဆက်နိုင်သည်။ Tella နှင့် Uwazi ချိတ်ဆက်ရန် Uwazi ဒေတာဘေ့စ် URL၊ အသုံးပြုသူအမည်နှင့် စကားဝှက်တစ်ခုသာ လိုအပ်ပါသည်။ Uwazi ဒေတာဘေ့စ်တွင် Tella သို့ ဒေါင်းလုဒ်လုပ်နိုင်သည့် ပုံစံပြားတစ်ခုနှင့်အထက် စီစဉ်သတ်မှတ်ပြီးသားဖြစ်သင့်သည်။ အင်တာနက်ချိတ်ဆက်မှုမရှိသည့်တိုင် ဒေါင်းလုဒ်လုပ်ပြီးသည်နှင့် သုံးစွဲသူများသည် မှတ်တမ်းအသစ်တစ်ခုစီအတွက် အသေးစိတ်အချက်အလက်များကို ထည့်သွင်းရန် ၎င်းတို့၏ ပုံစံပြားများကြား အလွယ်တကူ သွားလာနိုင်သည်။ ဒေတာထည့်သွင်းမှု ပြီးသွားသောအခါ ၎င်းကို Tella အက်ပ်တွင် မူကြမ်းအဖြစ် သိမ်းဆည်းနိုင်သည် သို့မဟုတ် ချိတ်ဆက်ထားသော Uwazi ဒေတာဘေ့စ်သို့ ချက်ချင်း အပ်လုဒ်လုပ်နိုင်သည်။ ၎င်းသည် အော့ဖ်လိုင်းအလုပ်လုပ်သော အသုံးပြုသူများကို ဒေတာစုဆောင်းရန်နှင့် အဆင်ပြေသည့်အခါ အချက်အလက်ကို အပ်လုဒ်လုပ်ရန် ခွင့်ပြုပေးသည်။
-
-Uwazi အကြောင်း ပိုမိုလေ့လာရန် အရင်းမြစ်များ-
-
-Uwazi ချိတ်ဆက်မှုကို သရုပ်ပြသည့် ဗီဒီယိုကို [ဤနေရာ](/video-tutorials#uwazi) တွင် ကြည့်ပါ။
 
 <Button label="Continue reading about the Uwazi connection " link="/uwazi"/>
 
@@ -108,10 +106,6 @@ Users can sign-in directly to their Google account from within Tella and upload 
 As for all Connections in Tella, users can use most of the Google Drive connection offline through the Draft, Outbox and Submit Later tabs. 
 
 <Button label="Continue reading about the Google Drive connection " link="/g-drive"/>
-
-Users can sign-in directly to their Google account from within Tella and upload files to a folder in their Drive account. Each "report" uploaded will create a new folder in the user's Google Drive.
-
-As for all Connections in Tella, users can use most of the Google Drive connection offline through the Draft, Outbox and Submit Later tabs. 
 
 :::note
 The Google Drive connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
