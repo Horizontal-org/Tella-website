@@ -38,6 +38,26 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 
 
 
+### Android: Tella FOSS 3.0.0 (237) (based on Android 3.0.0) - Released on May 20, 2026 {#android-tella-foss-300237-based-on-android-300---released-on-may-20-2026}
+- Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files on physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
+- Implemented security fixes detected by our most recent security audit (to be published soon!).
+- New Languages support: Ukrainian.
+- Bug fixes and minor improvements:
+    - Solved camera problem: the top settings bar was hidden in some devices.
+    - Solved crash that prevented Tella unlocks when items of the vault didn't have a preview on non-google file systems.
+    - Fixed crash on delayed navigation call backs (for fast clicking on attachments).
+    - Fixed import from device for Fossify file manager.
+    - Made sure that the file is imported to Tella Vault, when using the "Import from device" from inside a report (on any connection).
+
+
+
+
+A detailed list of features available on each platform is [available here](/features).
+
+
+
+## Previous versions {#previous-versions}
+
 ### Android: Tella FOSS 2.20.2(233) (based on Android 2.20.2) - Released on April 22, 2026 {#android-tella-foss-2202-based-on-android-2202---released-on-april-22-2026}
 
 We updated Tella FOSS, the version of Tella published on F-Droid that is 100% Free and Open-Source Software (FOSS). This updated version includes open-source map, location provider and Camera libraries. It doesn't include crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. 
@@ -54,14 +74,6 @@ This version is based on Tella Android 2.20.2 and includes the following feature
 - Added added lock-protection guidance for new users (in on-boarding) and while changing lock.
 - Improvements to the Tella Web connection to increase resilience against intermittent and slow connectivity
 - Multiple bug fixes and minor improvements, prioritizing stability and accessibility. 
-
-
-
-A detailed list of features available on each platform is [available here](/features).
-
-
-
-## Previous versions {#previous-versions}
 
 
 ### Android: Tella 2.20.2 (232) - Released on April 8, 2026 {#android-tella-2202232---released-on-apr-8-2026}
