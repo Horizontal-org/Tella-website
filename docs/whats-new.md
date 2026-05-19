@@ -17,37 +17,37 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 
 
 ### Android: Tella 3.0.0 (237) - Released on May 20, 2026 {#android-tella-300237---released-on-may-20-2026}
-- Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files on physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
+- Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files in physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
 - Implemented security fixes detected by our most recent security audit (to be published soon!).
-- New Languages support: Ukrainian.
+- New languages support: Ukrainian.
 - Bug fixes and minor improvements:
     - Solved camera problem: the top settings bar was hidden in some devices.
-    - Solved crash that prevented Tella unlocks when items of the vault didn't have a preview on non-google file systems.
-    - Fixed crash on delayed navigation call backs (for fast clicking on attachments).
-    - Fixed import from device for Fossify file manager.
-    - Made sure that the file is imported to Tella Vault, when using the "Import from device" from inside a report (on any connection).
+    - Solved crash that prevented Tella unlocks when items of the vault didn't have a preview on non-Google file systems.
+    - Fixed crash on delayed navigation callbacks (for fast clicking on attachments).
+    - Fixed import from device: Tella now supports any file manager.
+    - Made sure that the file is imported to Tella Vault when using the "Import from device" from inside a report (on any connection).
 
 
 
 ### iOS: Tella 3.0.0 (144) - Released on May 20, 2026 {#ios-tella-300144---released-on-may-20-2026}
-- Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files on physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
+- Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files in physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
 - Implemented security fixes detected by our most recent security audit (to be published soon!).
-- New Languages support: Ukrainian.
+- New languages support: Ukrainian.
 - Bug fixes and minor improvements:
     - Option to hide Tella Web connection url from connection's setting.
 
 
 
 ### Android: Tella FOSS 3.0.0 (237) (based on Android 3.0.0) - Released on May 20, 2026 {#android-tella-foss-300237-based-on-android-300---released-on-may-20-2026}
-- Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files on physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
+- Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files in physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
 - Implemented security fixes detected by our most recent security audit (to be published soon!).
-- New Languages support: Ukrainian.
+- New languages support: Ukrainian.
 - Bug fixes and minor improvements:
     - Solved camera problem: the top settings bar was hidden in some devices.
-    - Solved crash that prevented Tella unlocks when items of the vault didn't have a preview on non-google file systems.
-    - Fixed crash on delayed navigation call backs (for fast clicking on attachments).
-    - Fixed import from device for Fossify file manager.
-    - Made sure that the file is imported to Tella Vault, when using the "Import from device" from inside a report (on any connection).
+    - Solved crash that prevented Tella unlocks when items of the vault didn't have a preview on non-Google file systems.
+    - Fixed crash on delayed navigation callbacks (for fast clicking on attachments).
+    - Fixed import from device: Tella now supports any file manager.
+    - Made sure that the file is imported to Tella Vault when using the "Import from device" from inside a report (on any connection).
 
 
 
