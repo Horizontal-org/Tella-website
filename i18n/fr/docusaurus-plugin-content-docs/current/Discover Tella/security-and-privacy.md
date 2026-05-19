@@ -110,7 +110,6 @@ Nous demandons régulièrement à des sociétés de sécurité indépendantes d�
 
 | Date | Audité par | Les plateformes auditées  | Lien      |
 | -----|----------|----|-----------|
-| May 2026 | Convocation Research and Design Labs  |  Android, iOS, Desktop |[Placeholder for report !]|
 | August 2024 | Radically Open Security |  Android, iOS, Android FOSS|[View pen-testing results](</assets/2024.08.30-Penetration-Test-Report-Horizontal.pdf>)|
 | Mai 2024 | Subgraph Technologies, Inc. |  Android, iOS, Tella Web|[View updated report confirming fixes has been implemented](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
 | Mai 2023 | Subgraph Technologies, Inc. | Android, iOS, Tella Web |[View security audit](</assets/2023.05 - Tella security audit - Final report.pdf>)|

@@ -100,7 +100,6 @@ sidebar_position: 2
 
 | تاريخ | دُقق بواسطة | المنصات المدققة    | الرابط      |
 | -----|----------|----|-----------|
-| May 2026 | Convocation Research and Design Labs | Android, iOS, Desktop | [Placeholder for report !] |
 | August 2024 | Radically Open Security | Android, iOS, Android FOSS | [View pen-testing results](</assets/2024.08.30-Penetration-Test-Report-Horizontal.pdf>) |
 | ماي 2024 |  شركة Subgraph Technologies. |  Android و iOS و Tella Web |[عرض التقرير](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
 | ماي 2023 |  شركة Subgraph Technologies. | Android و iOS و Tella Web |[عرض التقرير](</assets/2023.05 - Tella security audit - Final report.pdf>)|

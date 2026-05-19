@@ -26,5 +26,5 @@
 | [Sortie urgence](/features#quick-exit)| Verrouillage et fermeture | Verrouillage  | Verrouillage et fermeture |
 | [Share button](/features#share-button) | ✔️ | ✔️ | ✔️|
 | [Connexions pour collecter des données et envoyer des fichiers](/features#connecting-to-servers) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) <br /> - [Open Data Kit (Formulaires)](/odk) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) |  - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Open Data Kit (Formulaires)](/odk)  |
-| [Nearby Sharing](/features#nearby-sharing) | ✔️ | ✔️ | Soon! |
+| [Nearby Sharing](/features#nearby-sharing) | ✔️ | ✔️ | ✔️ |
 | [Collecte de données hors ligne](/features#offline-data-collection) | ✔️ | ✔️ |  ✔️ |

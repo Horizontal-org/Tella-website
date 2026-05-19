@@ -26,5 +26,5 @@
 | [အမြန်ထွက်ရန်](/features#quick-exit)| သော့ခတ်ပြီး ပိတ်မည် | သော့ခတ်မည်  | သော့ခတ်ပြီး ပိတ်မည်  |
 | [Share button](/features#share-button) | ✔️ | ✔️ | ✔️|
 | [ဒေတာစုဆောင်းရန်နှင့် ဖိုင်များပေးပို့ရန် ချိတ်ဆက်မှုများ](/features#connecting-to-servers) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) <br /> - [Open Data Kit (Forms)](/odk) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) |  - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Open Data Kit (Forms)](/odk)  |
-| [Nearby Sharing](/features#nearby-sharing) | ✔️ | ✔️ | Soon! |
+| [Nearby Sharing](/features#nearby-sharing) | ✔️ | ✔️ | ✔️ |
 | [အော့ဖ်လိုင်းဒေတာစုဆောင်းခြင်း](/features#offline-data-collection) | ✔️ | ✔️ |  ✔️ |
