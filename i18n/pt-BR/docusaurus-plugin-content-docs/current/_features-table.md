@@ -26,5 +26,5 @@
 | [Saída rápida](/features#quick-exit)| Bloqueio e fechamento | Bloqueio  | Bloqueio e fechamento  |
 | [Share button](/features#share-button) | ✔️ | ✔️ | ✔️|
 | [Conexões para coleta de dados e envio de arquivos](/features#connecting-to-servers) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) <br /> - [Open Data Kit (Forms)](/odk) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) |  - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Open Data Kit (Forms)](/odk)  |
-| [Nearby Sharing](/features#nearby-sharing) | ✔️ | ✔️ | Soon! |
+| [Nearby Sharing](/features#nearby-sharing) | ✔️ | ✔️ | ✔️ |
 | [Coleta de dados offline](/features#offline-data-collection) | ✔️ | ✔️ |  ✔️ |

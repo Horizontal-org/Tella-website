@@ -23,5 +23,7 @@
 | [وضع التحقق](/features#verification-mode)| ✔️ | ليس بعد | ✔️ |
 | [الحذف السريع](/features#quick-delete)| الملفات والاتصالات و Tella | الملفات والاتصالات  | الملفات والاتصالات و Tella |
 | [الخروج السريع](/features#quick-exit)| القفل والإغلاق | القفل  | القفل والإغلاق  |
+| [Share button](/features#share-button) | ✔️ | ✔️ | ✔️|
 | [اتصالات لجمع البيانات وإرسال الملفات](/features#connecting-to-servers) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) <br /> - [Open Data Kit (استمارات)](/odk) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) | - [Uwazi](/uwazi) <br />- [Open Data Kit (استمارات)](/odk)  |
+| [Nearby Sharing](/features#nearby-sharing) | ✔️ | ✔️ | ✔️ |
 | [جمع البيانات دون الاتصال بالانترنت](/features#offline-data-collection) | ✔️ | ✔️ |  ✔️ |

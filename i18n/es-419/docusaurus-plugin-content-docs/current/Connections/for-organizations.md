@@ -17,12 +17,12 @@ Las implementaciones anteriores de Tella, donde la(o)s usuaria(o)s sobre el terr
 
 Actualmente, Tella puede ser conectada a los siguientes tipos de servidores:
 
-* [Open Data Kit (ODK - Kit de Datos Abiertos)](#open-data-kit-odk)
-* [Uwazi](#uwazi)
-* [Tella Web](#tella-web)
-* [Google Drive](#g-drive)
-* [Nextcloud](#nextcloud)
-* [Dropbox](#dropbox)
+* [Open Data Kit (ODK - Kit de Datos Abiertos)](/odk)
+* [Uwazi](/uwazi)
+* [Tella Web](/tella-web)
+* [Google Drive](/g-drive)
+* [Nextcloud](/nextcloud)
+* [Dropbox](/dropbox)
 
 Estas son llamadas [Conexiones](/features#connecting-to-servers) en Tella. 
 

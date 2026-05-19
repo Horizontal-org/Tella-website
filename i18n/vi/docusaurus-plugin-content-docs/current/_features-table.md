@@ -27,5 +27,5 @@
 | [Thoát nhanh](/features#quick-exit)| Khóa và đóng | Khóa  | Khóa và đóng  |
 | [Share button](/features#share-button) | ✔️ | ✔️ | ✔️|
 | [Kết nối để thu thập dữ liệu và gửi tệp tin](/features#connecting-to-servers) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) <br /> - [Open Data Kit (Forms)](/odk) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) |  - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Open Data Kit (Forms)](/odk)  |
-| [Nearby Sharing](/features#nearby-sharing) | ✔️ | ✔️ | Soon! |
+| [Nearby Sharing](/features#nearby-sharing) | ✔️ | ✔️ | ✔️ |
 | [Thu thập dữ liệu ngoại tuyến](/features#offline-data-collection) | ✔️ | ✔️ |  ✔️ |
