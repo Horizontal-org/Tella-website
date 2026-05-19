@@ -5,7 +5,7 @@ import ThemedImage from '@theme/ThemedImage';
     <div className="intro-column" id="intro-column1">
         <h1>Tella</h1>
         <h2>Document &amp; protect</h2>
-        <p>အင်တာနက်ချိတ်ဆက်မှု ကန့်သတ်ထားသော သို့မဟုတ် လုံးဝမရှိသော ဒေသများ သို့မဟုတ် ဖိနှိပ်ခံနေရသည့်အခြေအနေများကဲ့သို့ စိန်ခေါ်မှုရှိသော ပတ်ဝန်းကျင်များတွင် Tella သည် လူ့အခွင့်အရေးချိုးဖောက်မှုများကို မှတ်တမ်းတင်ရန်နှင့် ဒေတာစုဆောင်းရန် ပိုမိုလွယ်ကူပြီး လုံခြုံစေသည်။</p>
+        <p>In challenging environments, with limited or no internet connectivity or in the face of repression, Tella makes it easier and safer to collect, protect and hide sensitive data.</p>
         <div className="download">
 <a href="https://play.google.com/store/apps/details?id=org.hzontal.tella" target="_blank">
                 <img className="badge" src="img/google-play-badge.png" alt="Get Tella on Google Play"/></a>
@@ -81,7 +81,7 @@ import ThemedImage from '@theme/ThemedImage';
         <div className="column" id="section-column1">
             <ul>
 <li><span className="emphasis">အမြဲ အခမဲ့-</span> Tella ကို လုံခြုံရေးအန္တရာယ်ကျရောက်နေသူများအတွက် ရေးဆွဲထားပါသည်။ ၎င်းကို အခမဲ့ ဒေါင်းလုဒ်လုပ်၍ အသုံးပြုနိုင်ပြီး အစဉ်အမြဲ အခမဲ့ ရယူနိုင်မည်ဖြစ်သည်။</li>
-                <li><span className="emphasis">Choose your language:</span> Tella is currently <a href="faq#what-languages-is-tella-available-in"> available </a> in 25 languages.</li>
+                <li><span className="emphasis">သင့်ဘာသာစကား ရွေးပါ-</span> Tella is currently <a href="faq#what-languages-is-tella-available-in"> available </a> in 25 languages.</li>
                 <li><span className="emphasis">ကုဒ်ကို ယုံကြည်ပါ-</span> Tella အတွက် ကုဒ်ကို သုတေသီများ၊ လုံခြုံရေးအခြေအနေ ခွဲခြားစိတ်ဖြာသူများနှင့် ဆော့ဖ်ဝဲတီထွင်သူများက အခမဲ့ စိစစ်၍ ပြန်လည်အသုံးပြုနိုင်ရန် ပွင့်လင်းအရင်းအမြစ်အဖြစ် ပြုလုပ်ပေးထားပြီး <a href="open-source">အများသူငှာ ရယူအသုံးပြုနိုင်ပါသည်</a>။ We publish the <a href="security-and-privacy#security-audits">security audits</a> that independent firms have performed on Tella.</li>
             </ul>
 </div>

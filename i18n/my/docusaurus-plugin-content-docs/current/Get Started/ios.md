@@ -1,6 +1,6 @@
 ---
 id: get-started-ios
-title: iOS
+title: iOS တွင် Tella စတင်နည်း
 description: iOS ဖြင့် Tella အသုံးပြုသူများအတွက် အမြန်စတင်နည်း လမ်းညွှန်
 slug: /get-started-ios
 ---
