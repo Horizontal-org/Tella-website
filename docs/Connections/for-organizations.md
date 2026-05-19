@@ -108,10 +108,6 @@ As for all Connections in Tella, users can use most of the Google Drive connecti
 
 <Button label="Continue reading about the Google Drive connection " link="/g-drive"/>
 
-Users can sign-in directly to their Google account from within Tella and upload files to a folder in their Drive account. Each "report" uploaded will create a new folder in the user's Google Drive.
-
-As for all Connections in Tella, users can use most of the Google Drive connection offline through the Draft, Outbox and Submit Later tabs. 
-
 :::note
 The Google Drive connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
 :::
