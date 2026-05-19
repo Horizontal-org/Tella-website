@@ -16,16 +16,26 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 3.0.0 (236) - Released on May X, 2026 {#android-tella-300236---released-on-may-x-2026}
+### Android: Tella 3.0.0 (237) - Released on May 20, 2026 {#android-tella-300237---released-on-may-20-2026}
 - Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files on physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
-- Implemented security fixes detected by our most recent [security audit](/security-and-privacy#security-audits).
+- Implemented security fixes detected by our most recent security audit (to be published soon!).
 - New Languages support: Ukrainian.
+- Bug fixes and minor improvements:
+    - Solved camera problem: the top settings bar was hidden in some devices.
+    - Solved crash that prevented Tella unlocks when items of the vault didn't have a preview on non-google file systems.
+    - Fixed crash on delayed navigation call backs (for fast clicking on attachments).
+    - Fixed import from device for Fossify file manager.
+    - Made sure that the file is imported to Tella Vault, when using the "Import from device" from inside a report (on any connection).
 
 
-### iOS: Tella 3.0.0 (143) - Released on May X, 2026 {#ios-tella-300143---released-on-may-x-2026}
+
+### iOS: Tella 3.0.0 (144) - Released on May 20, 2026 {#ios-tella-300144---released-on-may-20-2026}
 - Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files on physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
-- Implemented security fixes detected by our most recent [security audit](/security-and-privacy#security-audits).
+- Implemented security fixes detected by our most recent security audit (to be published soon!).
 - New Languages support: Ukrainian.
+- Bug fixes and minor improvements:
+    - Option to hide Tella Web connection url from connection's setting.
+
 
 
 ### Android: Tella FOSS 2.20.2(233) (based on Android 2.20.2) - Released on April 22, 2026 {#android-tella-foss-2202-based-on-android-2202---released-on-april-22-2026}
