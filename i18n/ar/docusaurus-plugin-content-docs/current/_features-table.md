@@ -1,8 +1,8 @@
-
 | **الميزة** | **أندرويد**| **iOS** | **برمجيات أندرويد الحرة والمفتوحة المصدر** |
 |------|------|-----|-----|
 |[قفل التطبيق](/features#app-lock)| كلمة السر، رقم التعريف الشخصي، النمط|كلمة السر، رقم التعريف الشخصي | كلمة السر، رقم التعريف الشخصي، النمط |
 |[تعمية في الخلفية](/features#background-encryption) | ✔️ | ✔️| ليس بعد |
+|[Backup files to cloud](/features#backup-files) | - [Google Drive](/g-drive) <br />- [Nextcloud](/nextcloud) <br /> - [Dropbox](/dropbox) | - [Google Drive](/g-drive) <br />- [Nextcloud](/nextcloud)<br />- [Dropbox](/dropbox)| ليس بعد |
 |[تهيئة مهلة القفل](/features#lock-timeout-configuration)| ✔️| ✔️| ✔️ |
 |[الوضع الصامت للكاميرا](/features#camera-silent-mode)| ✔️| ليس بعد| ✔️ |
 | [أمن الشاشة](/features#screen-security)| ✔️| ✔️| ✔️ |
@@ -23,5 +23,7 @@
 | [وضع التحقق](/features#verification-mode)| ✔️ | ليس بعد | ✔️ |
 | [الحذف السريع](/features#quick-delete)| الملفات والاتصالات و Tella | الملفات والاتصالات  | الملفات والاتصالات و Tella |
 | [الخروج السريع](/features#quick-exit)| القفل والإغلاق | القفل  | القفل والإغلاق  |
-| [اتصالات لجمع البيانات وإرسال الملفات](/features#connecting-to-servers) | - Tella Web <br />- Uwazi <br />- Open Data Kit (استمارات) | - Tella Web <br />- Uwazi  | - Uwazi <br />- Open Data Kit (استمارات)  |
+| [Share button](/features#share-button) | ✔️ | ✔️ | ✔️|
+| [اتصالات لجمع البيانات وإرسال الملفات](/features#connecting-to-servers) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) <br /> - [Open Data Kit (استمارات)](/odk) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) | - [Uwazi](/uwazi) <br />- [Open Data Kit (استمارات)](/odk)  |
+| [Nearby Sharing](/features#nearby-sharing) | ✔️ | ✔️ | ✔️ |
 | [جمع البيانات دون الاتصال بالانترنت](/features#offline-data-collection) | ✔️ | ✔️ |  ✔️ |

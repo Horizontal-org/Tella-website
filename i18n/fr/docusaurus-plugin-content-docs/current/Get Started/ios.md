@@ -18,8 +18,7 @@ Suivez [ce lien](https://apps.apple.com/us/app/tella-document-protect/id15981525
 
 
 ## Définissez votre code d'accès {#create-your-lock}
-Lorsque vous ouvrirez Tella pour la première fois, Il vous sera demandé de choisir son mode de verrouillage. Sans ce verrouillage, il sera impossible d'ouvrir Tella et d'accéder aux fichiers qui y sont stockés.
-
+La première fois que vous ouvrez Tella, vous verrez une visite guidée des fonctionnalités de l'application : Appareil photo, Fichiers et Dossiers enrégistrés et chiffrés. Il vous sera également demandé de choisir le mode de verrouillage de Tella. Sans ce verrouillage, il sera impossible d'ouvrir Tella et d'accéder aux fichiers qui y sont stockés.
 * Mot de passe: un mot de passe alphanumérique est le moyen le plus sûr de verrouiller votre application.
 * Code PIN : une séquence numérique de plus de six (6) chiffres.
 
@@ -35,6 +34,7 @@ Lorsque vous utiliisez chaque fonctionnalité pour la première fois, il vous es
 
 
 * Pour prendre des photos, enregistrer des vidéos ou du son, vous devez autoriser l'accès à l'appareil photo et au microphone de votre téléphone.
+* Pour utiliser le Partage de proximité, vous devrez autoriser la détection des appareils sur votre réseau Wi-Fi.
 
 
 <div className="gifs">
@@ -100,10 +100,14 @@ Tenez compte du fait que Tella partagera les fichiers non cryptés, alors assure
 
 
 
+## Partage de proximité {#nearby-sharing}
+Vous partagez des fichiers directement depuis le coffre-fort chiffré de Tella vers un autre coffre-fort chiffré de Tella au même emplacement physique en utilisant le [Partage de proximité](/nearby-sharing). Après un bref tutoriel de connexion, les deux appareils établissent un lien sécurisé, et les fichiers sont transférés de manière chiffrée d'un appareil à l'autre. Le Partage de proximité permet les transferts de fichiers de téléphone à téléphone (Android ou iOS) ainsi que de téléphone à ordinateur.
 
 
 
 ## Allez plus loin {#go-further}
+
+
 
 ### Se connecter à un serveur {#connect-to-a-server}
 Tella peut être connecté à une variété de services d'arrière-plan. Ces services sont utilisés par les organisations pour permettre à leurs membres ou à leurs partenaires de soumettre des données et des fichiers à un emplacement distant sécurisé. Si vous envisagez de vous connecter à un serveur et que vous avez des doutes sur le serveur à choisir ou sur la manière de vous connecter, veuillez consulter [notre documentation pour les organisations](/for-organizations) ou [nous contacter](/contact-us), nous sommes là pour vous aider !
@@ -111,12 +115,16 @@ Tella peut être connecté à une variété de services d'arrière-plan. Ces ser
 ### Tella Web {#tella-web}
 Tella Web est un outil open source qui permet aux individus et aux organisations de centraliser et de gérer les rapports transmis par les utilisateurs de Tella, notamment des photos, des vidéos et des fichiers audio.
 
-Pour en savoir plus sur Tella Web, cliquez [ici](/tella-web) ou regardez un [tutoriel vidéo](/video-tutorials#tella-web).
+Pour en savoir plus sur Tella Web [ici](/tella-web) ou regarder un [tutoriel vidéo](/video-tutorials#tella-web).
 
 #### Uwazi {#uwazi}
 [Uwazi](https://uwazi.io/) est une application open-source créée par HURIDOCS avec de puissantes fonctionnalités pour collecter, organiser et visualiser les données relatives aux droits de l'homme.
 
-Nous avons rédigé une documentation sur la manière de se connecter à un serveur Uwazi et nous vous recommandons de lire [cette page](/uwazi) pour commencer.
+Nous avons rédigé une documentation sur la manière de se connecter à un serveur Uwazi et pour commencer, nous vous recommandons de lire [cette page](/uwazi).
+
+#### Nextcloud, Dropbox et Google Drive {#Nextcloud-dropbox-and-google-drive}
+
+Users can sign in directly to their Nextcloud, Dropbox or Google Drive account from within Tella and upload files to a folder in their account.
 
 
 

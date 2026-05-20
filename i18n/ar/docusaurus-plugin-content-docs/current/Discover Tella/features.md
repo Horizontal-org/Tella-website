@@ -3,6 +3,7 @@ id: features
 title: ميزات Tella
 description: وصف تفصيلي لميزات Tella.
 slug: /features
+sidebar_position: 1
 ---
 import FeaturesTable from '.././_features-table.md';
 
@@ -46,6 +47,34 @@ Tella يقوم [بتعمية](#encryption) الملفات في الخلفية ل
 إذا تم تفعيل [وضع التحقق](/features#verification-mode)، سيتم تعطيل التعمية الخلفية للتأكد من أن جميع البيانات الوصفية يتم التقاطها في نفس الوقت الذي يتم فيه حفظ الصورة أو الفيديو أو الملف الصوتي. 
 :::
 
+
+
+## Backup files {#backup-files}
+Tella stores all the information locally in your phone. If you delete your files (for example using [quick delete](/features#quick-delete) or if you uninstall Tella), your files cannot be restored unless you have backed them up outside of your Tella Vault.
+
+We offer several alternatives to backup files, so you can safely delete files from Tella and import those back in, but the backup process is manual, for the moment. Please [contact us](/contact-us) if you have questions.
+
+:::note
+All exports outside of Tella's encrypted vault (to a connected server or [to your phone](/features#file-management)) will be unencrypted. The only method for sharing files that transfer files directly to another encrypted vault is [Nearby Sharing](/nearby-sharing).
+:::
+
+
+
+### Backup files to another phone or computer {#backup-files-to-another-phone-or-computer}
+
+Using [Nearby Sharing](/nearby-sharing) you can transfer files directly to another Tella vault, either in another phone or [to a computer](/get-started-desktop) that's in physical proximity. Files are shared and store encrypted in the other Tella. If you backup to another phone you can use Nearby Sharing again to restore the files to your Tella.
+
+:::info
+For the moment Tella Desktop can only receive files.
+:::
+
+### Backup files to a cloud {#backup-files-to-a-cloud}
+
+Some individuals use commercial clouds (Google Drive, Dropbox, Nextcloud) as a backup system for their Tella data. However, we advise using this feature with caution:
+- Automatic backups to any server are **not** currently available. They need to be made manually as submissions to each of the servers.
+- Files on the server will be accessible to anyone with server access.
+
+You can [continue reading about Server Connections and how organizations use Tella here](/for-organizations).
 
 ## تهيئة مهلة القفل {#lock-timeout-configuration}
 
@@ -293,6 +322,24 @@ Tella يقوم [بتعمية](#encryption) الملفات في الخلفية ل
 تعرف على المزيد حول حول [الاتصال بالخوادم](/video-tutorials#server-connections) في فيديوهاتنا التعليمية.
 :::
 
+
+
+## Nearby Sharing {#nearby-sharing}
+
+Users can share files directly from Tella's encrypted vault to another Tella encrypted vault in the same physical location using Nearby Sharing. After a quick connection tutorial, the two devices establish a secure link, and files are transferred encrypted from one device to the other. Nearby Sharing is independent of the internet connection status: it works online or offline.
+
+This feature is available on Tella Android, Tella iOS, and Tella Desktop.
+
+:::note
+[Learn more about nearby sharing here](/nearby-sharing).
+:::
+
+## Share button {#share-button}
+To share information with other apps, users can select the file or files they want to share and press the Share button. Tella will prompt the list of available apps on the phone and users can choose the app they want to share the file(s) with.
+
+:::danger
+Tella will share the files unencrypted and the history of exchanged files might be visible on the app you used. We recommend using disappearing messages or deleting the messages after the other person receives them when using messaging apps (for example WhatsApp or Signal).
+:::
 
 ## الكاميرا (الصور والفيديوهات) {#camera-photos-and-videos}
 

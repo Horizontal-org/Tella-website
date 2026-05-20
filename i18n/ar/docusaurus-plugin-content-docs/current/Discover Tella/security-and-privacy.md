@@ -3,6 +3,7 @@ id: security-and-privacy
 title: الأمن والخصوصية
 description: تفاصيل حول أمن وخصوصية Tella.
 slug: /security-and-privacy
+sidebar_position: 2
 ---
 
 #  الأمن والخصوصية
@@ -36,7 +37,7 @@ slug: /security-and-privacy
 
 ## التحليلات {#analytics}
 
-في Tella Android و [Tella Web](/tella-web)، يمكن للمستخدمين اختيار مشاركة التحليلات لتحسين Tella. تساعدنا هذه البيانات في فهم كيفية استخدام الناس لـ Tella وأي ميزات هي الأكثر أهمية لهم. ***يتم جمع بيانات التحليلات فقط إذا اختار المستخدمون الاشتراك في إعدادات التطبيق.***
+في Tella Android و Tella FOSS و [Tella Web](/tella-web)، يمكن للمستخدمين اختيار مشاركة التحليلات لتحسين Tella. تساعدنا هذه البيانات في فهم كيفية استخدام الناس لـ Tella وأي ميزات هي الأكثر أهمية لهم. ***يتم جمع بيانات التحليلات فقط إذا اختار المستخدمون الاشتراك في إعدادات التطبيق.***
 
 نستخدم [Divvi Up](https://divviup.org/)، وهي خدمة تحليل بيانات تحترم الخصوصية. يتم تنفيذ Divvi Up بواسطة [Internet Security Research Group (ISRG)](https://www.abetterinternet.org/), وهي منظمة غير ربحية تدير أيضا مشروع [Let’s Encrypt](https://letsencrypt.org/).
 
@@ -46,7 +47,7 @@ slug: /security-and-privacy
 2. **حتى لو أردنا ذلك، لا يمكننا الحصول على البيانات الكاملة**: لا يمكن تجميع البيانات بالكامل باستخدام جزء واحد فقط. يقوم كل معالج بتجميع أجزاء البيانات الخاصة به إلى مجموع جزئي. يمكن بعد ذلك دمج هذه المجاميع الجزئية لتشكيل تجميع نهائي، مما يسمح بإحصائيات مفيدة على مجموعة البيانات الكاملة مع الكشف عن أقل قدر ممكن من المعلومات حول المشاركين الفرديين. يمكن العثور على وثائق تقنية موسعة حول كيفية عمل Divvi Up [هنا](https://docs.divviup.org/).
 3. **نقوم بجمع أقل قدر ممكن من البيانات**: على الرغم من أن جميع البيانات مجهولة المصدر، فإننا نحرص دائما على تقليل كمية البيانات التي نجمعها. في الإصدارات الأحدث من Tella، نجمع فقط البيانات حول الأحداث التالية (ولا شيء أكثر):
 
-   **Tella Android**
+   **Tella Android و Tella FOSS**
     - عدد الأحداث الناجحة لفتح القفل.
 
     **Tella Web**
@@ -99,6 +100,7 @@ slug: /security-and-privacy
 
 | تاريخ | دُقق بواسطة | المنصات المدققة    | الرابط      |
 | -----|----------|----|-----------|
+| August 2024 | Radically Open Security | Android, iOS, Android FOSS | [View pen-testing results](</assets/2024.08.30-Penetration-Test-Report-Horizontal.pdf>) |
 | ماي 2024 |  شركة Subgraph Technologies. |  Android و iOS و Tella Web |[عرض التقرير](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
 | ماي 2023 |  شركة Subgraph Technologies. | Android و iOS و Tella Web |[عرض التقرير](</assets/2023.05 - Tella security audit - Final report.pdf>)|
 
