@@ -12,7 +12,7 @@ Tella Desktop is an Application you can install on your computer to be able to r
 
 ## Install Tella Desktop {#install-tella-desktop}
 
-- Download the latest installation file for your platform ([Windows](https://github.com/Horizontal-org/Tella-Desktop/actions/runs/25175478020), [Linux](https://github.com/Horizontal-org/Tella-Desktop/actions/runs/25175478020/artifacts/6734450841) or [macOS](https://github.com/Horizontal-org/Tella-Desktop/actions/runs/25175478020/artifacts/6734424947)).
+- Download the latest installation file for your platform ([Windows](https://github.com/Horizontal-org/Tella-Desktop/actions/runs/26121122889/artifacts/7093753815), [Linux](https://github.com/Horizontal-org/Tella-Desktop/actions/runs/26121122889/artifacts/7093759692) or [macOS](https://github.com/Horizontal-org/Tella-Desktop/actions/runs/26121122889/artifacts/7093748717)).
 - Unzip it.
 - Click on the Tella-Desktop file inside the folder.
 - If you get a warning from your OS saying that the file cannot be opened because it's from an un-verified developer, go to Settings > Security and Privacy and choose to open the file anyway.
