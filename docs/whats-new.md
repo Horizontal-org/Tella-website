@@ -16,17 +16,16 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 3.0.0 (237) - Released on May 20, 2026 {#android-tella-300237---released-on-may-20-2026}
-- Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files in physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
-- Implemented security fixes detected by our most recent security audit (to be published soon!).
-- New languages support: Ukrainian.
+### Android: Tella 3.1.0 (241) - Released on June 6, 2026 {#android-tella-310241---released-on-jun-6-2026}
+- Replaced camera library and location provider with FOSS options.
+- Language support improvements: updated Ukrainian.
 - Bug fixes and minor improvements:
-    - Solved camera problem: the top settings bar was hidden in some devices.
-    - Solved crash that prevented Tella unlocks when items of the vault didn't have a preview on non-Google file systems.
-    - Fixed crash on delayed navigation callbacks (for fast clicking on attachments).
-    - Fixed import from device: Tella now supports any file manager.
-    - Made sure that the file is imported to Tella Vault when using the "Import from device" from inside a report (on any connection).
-
+    - Fixed import and delete original bug that prevented original file being erased from the device in some cases.
+    - Fixed screen security issue on on boarding (some screens were not hidden).
+    - Corrected capitalization of buttons.
+    - Fixed geo-location permission flow and solved a bug that prevented geo-location flow to continue, the first time permission was granted.
+    - Added option to hide Tella Web connection url from connection's setting.
+    - Fixed bug that didn't properly removed camouflage when changing lock type.
 
 
 ### iOS: Tella 3.0.0 (144) - Released on May 20, 2026 {#ios-tella-300144---released-on-may-20-2026}
@@ -34,9 +33,29 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 - Implemented security fixes detected by our most recent security audit (to be published soon!).
 - New languages support: Ukrainian.
 - Bug fixes and minor improvements:
-    - Option to hide Tella Web connection url from connection's setting.
+    - Added option to hide Tella Web connection url from connection's setting.
 
 
+
+### Android: Tella FOSS 3.1.0 (241) (based on Android 3.1.0) - Released on Jun 6, 2026 {#android-tella-foss-310241-based-on-android-241---released-on-jun-6-2026}
+- Replaced geo-location provider.
+- 
+- Bug fixes and minor improvements:
+    - Solved crash on camera that was affecting some models of Pixel phones.
+    - Fixed import and delete original bug that prevented original file being erased from the device in some cases.
+    - Fixed screen security issue on on boarding (some screens were not hidden).
+    - Corrected capitalization of buttons.
+    - Fixed geo-location permission flow and solved a bug that prevented geo-location flow to continue, the first time permission was granted.
+    - Added option to hide Tella Web connection url from connection's setting.
+    - Fixed bug that didn't properly removed camouflage when changing lock type.
+
+
+
+A detailed list of features available on each platform is [available here](/features).
+
+
+
+## Previous versions {#previous-versions}
 
 ### Android: Tella FOSS 3.0.0 (237) (based on Android 3.0.0) - Released on May 20, 2026 {#android-tella-foss-300237-based-on-android-300---released-on-may-20-2026}
 - Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files in physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
@@ -51,12 +70,16 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 
 
 
-
-A detailed list of features available on each platform is [available here](/features).
-
-
-
-## Previous versions {#previous-versions}
+### Android: Tella 3.0.0 (237) - Released on May 20, 2026 {#android-tella-300237---released-on-may-20-2026}
+- Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files in physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
+- Implemented security fixes detected by our most recent security audit (to be published soon!).
+- New languages support: Ukrainian.
+- Bug fixes and minor improvements:
+    - Solved camera problem: the top settings bar was hidden in some devices.
+    - Solved crash that prevented Tella unlocks when items of the vault didn't have a preview on non-Google file systems.
+    - Fixed crash on delayed navigation callbacks (for fast clicking on attachments).
+    - Fixed import from device: Tella now supports any file manager.
+    - Made sure that the file is imported to Tella Vault when using the "Import from device" from inside a report (on any connection).
 
 ### Android: Tella FOSS 2.20.2(233) (based on Android 2.20.2) - Released on April 22, 2026 {#android-tella-foss-2202-based-on-android-2202---released-on-april-22-2026}
 

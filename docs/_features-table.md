@@ -17,9 +17,8 @@
 | [Privacy preserving analytics (opt-in)](/features#privacy-preserving-analytics)| ✔️ | Not yet | ✔️ |
 | [Camouflage](/features#camouflage) | ✔️ | Not possible in iOS | ✔️ |
 | [Homescreen customization](/features#homescreen-customization) | ✔️ | ✔️ | ✔️ |
-| [Camera (photos and videos)](/features#camera-photos-and-videos) | ✔️ | ✔️ | Yes but missing  zoom, flip camera, enable flash and enable grid |
-| [Select video resolution](/features#select-video-resolution) | ✔️ | Not yet | Not yet |
-
+| [Camera (photos and videos)](/features#camera-photos-and-videos) | ✔️ | ✔️ | ✔️ |
+| [Select video resolution](/features#select-video-resolution) | ✔️ | Not yet | ✔️|
 | [Audio Recorder](/features#audio-recorder)| ✔️ | ✔️ | ✔️ |
 | [Open files in Tella](/features#open-files-in-tella)| ✔️ | ✔️ | ✔️ |
 | [Verification mode](/features#verification-mode)| ✔️ | Not yet | ✔️ |
