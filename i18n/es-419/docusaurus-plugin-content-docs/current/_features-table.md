@@ -17,15 +17,14 @@
 | [Analíticas preservando la privacidad (habilitar)](/features#privacy-preserving-analytics)| ✔️ | Aún no | ✔️ |
 | [Camuflaje](/features#camouflage) | ✔️ | No es posible en iOS | ✔️ |
 | [Personalización de la Pantalla de Inicio](/features#homescreen-customization) | ✔️ | ✔️ | ✔️ |
-| [Cámara (fotos y videos)](/features#camera-photos-and-videos) | ✔️ | ✔️ | Si pero falta el zoom, voltear cámara, habilitar flash y habilitar cuadricula |
-| [Seleccionar resolución de video](/features#select-video-resolution) | ✔️ | Aún no | Aún no |
-
-| [Audio Recorder](/features#audio-recorder)| ✔️ | ✔️ | ✔️ |
-| [Open files in Tella](/features#open-files-in-tella)| ✔️ | ✔️ | ✔️ |
-| [Verification mode](/features#verification-mode)| ✔️ | Not yet | ✔️ |
-| [Quick delete](/features#quick-delete)| Files, Connections and Tella | Files and Connections  | Files, Connections and Tella |
-| [Quick exit](/features#quick-exit)| Locks and close | Locks  | Locks and close  |
+| [Cámara (fotos y videos)](/features#camera-photos-and-videos) | ✔️ | ✔️ | ✔️ |
+| [Seleccionar resolución de video](/features#select-video-resolution) | ✔️ | Aún no | ✔️|
+| [Grabadora de Audio](/features#audio-recorder)| ✔️ | ✔️ | ✔️ |
+| [Abrir archivos en Tella](/features#open-files-in-tella)| ✔️ | ✔️ | ✔️ |
+| [Modo Verificación](/features#verification-mode)| ✔️ | Aún no | ✔️ |
+| [Borrado rápido](/features#quick-delete)| Archivos, Conexiones y Tella | Archivos y Conexiones  | Archivos, Conexiones y Tella |
+| [Salida rápida](/features#quick-exit)| Bloquea y cierra | Bloquea  | Bloquea y cierra  |
 | [Share button](/features#share-button) | ✔️ | ✔️ | ✔️|
-| [Server connections](/features#connecting-to-servers) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) <br /> - [Open Data Kit (Forms)](/odk) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) |  - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Open Data Kit (Forms)](/odk)  |
+| [Server connections](/features#connecting-to-servers) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) <br /> - [Open Data Kit (Formularios ODK)](/odk) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) |  - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Open Data Kit (Formularios ODK)](/odk)  |
 | [Nearby Sharing](/features#nearby-sharing) | ✔️ | ✔️ | ✔️ |
-| [Offline data collection](/features#offline-data-collection) | ✔️ | ✔️ |  ✔️ |
+| [Recopilación de datos fuera de línea](/features#offline-data-collection) | ✔️ | ✔️ |  ✔️ |
