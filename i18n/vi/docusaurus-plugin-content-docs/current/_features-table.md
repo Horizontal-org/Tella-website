@@ -99,17 +99,54 @@ Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evid
 Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
 ::: | :::tip Video  tutorial 🎥
 Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
-::: | Hình ảnh, video, âm thanh (không bao gồm PDF) |
+::: | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: |
 | [Chế độ Xác thực](/features#verification-mode) | :::tip Video  tutorial 🎥
 Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
-::: | - Tella Web <br />- Uwazi | - Tella Web <br />- Uwazi |
-
-| [Audio Recorder](/features#audio-recorder)| ✔️ | ✔️ | ✔️ |
-| [Open files in Tella](/features#open-files-in-tella)| ✔️ | ✔️ | ✔️ |
-| [Verification mode](/features#verification-mode)| ✔️ | Not yet | ✔️ |
-| [Quick delete](/features#quick-delete)| Files, Connections and Tella | Files and Connections  | Files, Connections and Tella |
-| [Quick exit](/features#quick-exit)| Locks and close | Locks  | Locks and close  |
-| [Share button](/features#share-button) | ✔️ | ✔️ | ✔️|
+::: | - Tella Web <br />- Uwazi | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+:::|
+| [Xóa nhanh](/features#quick-delete)| :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: |
+| [Thoát nhanh](/features#quick-exit)| :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: |
+| [Kết nối để thu thập dữ liệu và gửi tệp tin](/features#connecting-to-servers)| :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | - Tella Web <br />- Uwazi | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: |
+| [Thu thập dữ liệu ngoại tuyến](/features#offline-data-collection)| ✔️ | ✔️  | ✔️ |
+| [Thoát nhanh](/features#quick-exit)| Khóa và đóng | Khóa  | Khóa và đóng  |
+| [Share button](/features#share-button) | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+:::|
 | [Server connections](/features#connecting-to-servers) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) <br /> - [Open Data Kit (Forms)](/odk) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) |  - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Open Data Kit (Forms)](/odk)  |
-| [Nearby Sharing](/features#nearby-sharing) | ✔️ | ✔️ | ✔️ |
-| [Offline data collection](/features#offline-data-collection) | ✔️ | ✔️ |  ✔️ |
+| [Nearby Sharing](/features#nearby-sharing) | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: |
+| [Thu thập dữ liệu ngoại tuyến](/features#offline-data-collection) | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: | :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: |  :::tip Video  tutorial 🎥
+Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
+::: |
