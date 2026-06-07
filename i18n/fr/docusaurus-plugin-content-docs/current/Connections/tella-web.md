@@ -31,285 +31,289 @@ La configuration de Tella Web s'effectue en trois étapes, présentées en déta
 Even though data is transferred to the server securely (SSL), anyone with access to the Tella Web account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
 :::
 
-## When to Use Tella Web {#when-to-use-tella-web}
-
-The Tella Web could be a good alternative if:
-- You have the capacity to self-host Tella Web.
-- People on the ground will be sending mostly media files, with some text and don't need structured data collection (forms).
-- You will be partnering with Horizontal and you want the same organization to help you with installation, configuration, and maintenance of your Tella Web instance and the Tella apps.
-
-
-:::tip
-If you need help figuring out if Tella Web is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
-:::
-
-
 ## Installer le serveur {#install-the-server}
 
 Cette étape consiste à installer et configurer Tella Web sur le serveur que votre organisation utilisera. Cette étape doit être complétée par la personne qui sera responsable de l'administration du système (un développeur ou un administrateur système). Les instructions techniques sont disponibles sur [notre Github](https://github.com/Horizontal-org/tellaweb).
-
-Vous pouvez consulter les notes de publication de Tella Web [ici](https://github.com/Horizontal-org/TellaWeb-FrontEnd/releases).
-
-:::info
+- Vous pouvez consulter les notes de publication de Tella Web [ici](https://github.com/Horizontal-org/TellaWeb-FrontEnd/releases).
+- :::info
 Notre équipe peut vous assister dans l'installation, la configuration et la maintenance de Tella Web. Si vous avez des questions ou si vous avez besoin d'aide, [contactez-nous](/contact-us/)
 :::
-
-:::tip
+- :::tip
 [Contactez-nous](/contact-us/) pour accéder à notre serveur de démonstration, et tester Tella Web avant de l'installer sur votre propre serveur.
 :::
 
 
-## Configurer votre projet sur votre serveur {#set-up-your-project-on-your-server}
+Configurer votre projet sur votre serveur {#set-up-your-project-on-your-server}
 
-Une fois Tella Web installé et le premier utilisateur « admin » créé, il est temps de configurer le ou les projets avec lesquels l'équipe sur le terrain partagera des informations.
+
+## Une fois Tella Web installé et le premier utilisateur « admin » créé, il est temps de configurer le ou les projets avec lesquels l'équipe sur le terrain partagera des informations.
 
 :::info
 Consultez [ce tutoriel vidéo](/video-tutorials#connections-full-video) pour voir comment configurer Tella Web.
 :::
 
-### Centre d'administration {#admin-center}
-
-#### Configure spaces' settings {#configure-spaces-settings}
-
-Admins of the Tella Web space can enable or disable system-wide settings depending on their own risk assessment and privacy consideration:
-- [Opt-in to share analytics with Tella team](/security-and-privacy#analytics).
-- Suspicious login detection: 
-    - If enabled Tella Web will record location for each login IP and approximate location based on IP. If the user is connecting from an unusual location Tella Web will block the login attempt to prevent any unauthorized sing-in and send an email to the user to confirm if was a legitimate login attempt. 
-    - We use a [third party service](https://ipinfo.io/) to calculate the country of the IP. 
-    - Tella Web requires an SMTP server to be properly configured and working for this feature to work. 
-    - If disabled Tella Web won't store the IP, won't calculate location nor ping any third party service.
-- Feedback:
-    - When enabled, Tella Web shows a feedback box that allow users to send an anonymous note to the Tella team on any feedback request or bug reports that they might find. It doesn't contain any information about the user or the Tella Web instance.
-    - To ensure user privacy and anonymity, only essential data is transmitted to our Feedback server through HTTPS POST requests. Logs containing user information (IP address, date and time, and user-agent) are automatically deleted weekly.
-    - On the Feedback server database, we only store a copy of the text sent by users in the feedback form and which platform it came from (in this case from "Tella Web" without specifying which server installation). 
-
-#### Backup your space {#backup-your-space}
-
-Admins of the Tella Web instance can export all data out of Tella Web by generating a backup. Backups can be used to port the data to another location, including a computer, a USB flash drive, an external disk or a remote server.  The action to generate the backup runs in the background and, if triggered, an email notification will be sent to the person who generated the backup when it is ready to download. However, all backups are accessible in the Admin Center to all users with admin access.
-
-The backup is a full export everything in the space: including all Projects, Reports, Users and Resources, plus all metadata. The export is a zip file including a collection of CSVs and folders with with the uploaded media. For now, there is no way to import the backup back into a Tella Web instance from the Admin Center, but each backup includes a .sql file that advanced users can use to import the data to the database directly. 
-
-:::warning
-The information included in the backup is highly sensitive, it not only contains all the data (unencrypted) but also information about the Tella Web users. Please proceed with caution when generating the backup.
-:::
+Centre d'administration {#admin-center}
 
 
-### Gestion des projets {#managing-projects}
+Les administrateurs de l'espace Web Tella peuvent modifier les paramètres à l'échelle du système:
 
-Tella Web vous permet de créer et de gérer des projets, en garantissant l'organisation et l'accessibilité de vos rapports.
+[Acceptez de partager des analyses avec l'équipe Tella](/security-and-privacy#analytics).
+
+
+## Gestion des projets {#managing-projects}
+
+Tella Web vous permet de créer et de gérer des projets, en garantissant l'organisation et l'accessibilité de vos rapports. 
+
+
 
 Les projets fonctionnent comme des dossiers dans lesquels les utilisateurs de Tella peuvent soumettre des rapports. Par exemple, vous pouvez créer des projets pour des zones géographiques ou des thèmes spécifiques tels que la violence policière, la violence sexiste et les atteintes à l'environnement.
 
-Chaque projet a sa propre URL, de sorte que vous pouvez être connecté à plusieurs projets Tella Web.
+### Chaque projet a sa propre URL, de sorte que vous pouvez être connecté à plusieurs projets Tella Web.
 
 
-#### Afficher tous les projets disponibles {#view-all-available-projects}
+#### Configurer les paramètres des espaces {#configure-spaces-settings}
+Afficher tous les projets disponibles {#view-all-available-projects}
+- Cliquez sur le bouton « Projets » dans le menu de navigation de gauche pour accéder à l'écran "Projets" .
+- L'écran "Projets" affiche sous forme de carte chaque projet existant.
+    - Créer un nouveau projet {#create-a-new-project}
+    - Dans l'écran « Projets », cliquez sur le bouton « Créer un projet ». Une fenêtre de dialogue s'affiche, vous invitant à donner un nom au nouveau projet. Saisissez le nom souhaité pour le projet et cliquez sur « Créer ». Vous serez redirigé vers l'écran « Paramètres du projet » pour le projet nouvellement créé.
+    - Ouvrir un projet {#open-a-project}
+    - Ouvrez l'écran « Projets » et cliquez sur la fiche du projet souhaitée.
+- Cela ouvrira le projet, où vous pourrez accéder à tous les rapports soumis.
+    - Vous pouvez ouvrir, supprimer ou télécharger des rapports (en fonction des permissions qui vous sont accordées pour ce projet spécifique).
+    - Configurer les paramètres des projets {#configure-projects-settings}
+    - Dans l'écran "Paramètres du projet", vous pouvez configurer le projet :
 
-Cliquez sur le bouton « Projets » dans le menu de navigation de gauche pour accéder à l'écran "Projets".
+#### Sauvegarder votre espace {#backup-your-space}
 
-L'écran "Projets" affiche sous forme de carte chaque projet existant.
+Les administrateurs de l'instance Tella Web peuvent exporter toutes les données hors de Tella Web en générant une sauvegarde. Les sauvegardes peuvent être utilisées pour transférer les données vers un autre emplacement, notamment un ordinateur, une clé USB, un disque externe ou un serveur distant. L'action de génération de la sauvegarde s'exécute en arrière-plan et, si elle est déclenchée, une notification par e-mail sera envoyée à la personne ayant généré la sauvegarde lorsqu'elle sera prête à être téléchargée. Cependant, toutes les sauvegardes sont accessibles dans le Centre d'administration pour tous les utilisateurs disposant d'un accès administrateur.
 
+La sauvegarde est une exportation complète de tout le contenu de l'espace : y compris tous les projets, rapports, utilisateurs et ressources, ainsi que toutes les métadonnées. L'exportation est un fichier zip contenant un ensemble de fichiers CSV et de dossiers avec les médias téléversés. Pour le moment, il n'est pas possible de réimporter la sauvegarde dans une instance Tella Web depuis le Centre d'administration, mais chaque sauvegarde inclut un fichier .sql que les utilisateurs avancés peuvent utiliser pour importer les données directement dans la base de données.
 
-#### Créer un nouveau projet {#create-a-new-project}
-
-Dans l'écran « Projets », cliquez sur le bouton « Créer un projet ». Une fenêtre de dialogue s'affiche, vous invitant à donner un nom au nouveau projet. Saisissez le nom souhaité pour le projet et cliquez sur « Créer ». Vous serez redirigé vers l'écran « Paramètres du projet » pour le projet nouvellement créé.
-
-
-#### Ouvrir un projet {#open-a-project}
-
-Ouvrez l'écran « Projets » et cliquez sur la fiche du projet souhaitée.
-
-Cela ouvrira le projet, où vous pourrez accéder à tous les rapports soumis.
-
-Vous pouvez ouvrir, supprimer ou télécharger des rapports (en fonction des permissions qui vous sont accordées pour ce projet spécifique).
-
-
-#### Configurer les paramètres des projets {#configure-projects-settings}
-
-Dans l'écran "Paramètres du projet", vous pouvez configurer le projet :
-
-* La section "Général" vous permet de renommer le projet, d'afficher ses détails du projet et de modifier son URL.
-* La section « Gérer les accès » vous permet d'ajouter ou de supprimer des utilisateurs du projet. Plus d'informations sur les rôles des utilisateurs [ici](/tella-web#managing-users)
-* La section "Zone de danger" vous propose des options pour supprimer le projet, y compris tous les rapports qu'il contient.
+:::warning
+Les informations contenues dans la sauvegarde sont hautement sensibles; elles comprennent non seulement toutes les données (non chiffrées), mais aussi des informations sur les utilisateurs de Tella Web. Veuillez faire preuve de prudence lors de la génération de la sauvegarde.
+:::
 
 
-#### Supprimer un projet {#delete-a-project}
+### La section "Général" vous permet de renommer le projet, d'afficher ses détails du projet et de modifier son URL.
 
-Dans l'écran "Paramètres du projet", descendez jusqu'à la section  "Zone dangereuse".
+La section « Gérer les accès » vous permet d'ajouter ou de supprimer des utilisateurs du projet. Plus d'informations sur les rôles des utilisateurs [ici](/tella-web#managing-users)
+
+La section "Zone de danger" vous propose des options pour supprimer le projet, y compris tous les rapports qu'il contient.
+
+Supprimer un projet {#delete-a-project}
+
+
+#### Dans l'écran "Paramètres du projet", descendez jusqu'à la section  "Zone dangereuse".
 
 Cliquez sur l'option "Supprimer le projet".
 
 Une fenêtre de dialogue apparaîtra, vous avertissant de la suppression permanente du projet et de tous ses rapports. Pour procéder à la suppression, saisissez correctement le nom du projet (en respectant la casse). Tapez "DELETE"  (en majuscules) pour confirmer la suppression.
 
-Une fois confirmé, le projet et tous ses rapports associés seront définitivement supprimés.
+
+#### Une fois confirmé, le projet et tous ses rapports associés seront définitivement supprimés.
+
+Configurer l'URL du projet {#configure-the-project-url}
 
 
-#### Configurer l'URL du projet {#configure-the-project-url}
-
-L'URL du projet est automatiquement générée lors de la création du projet. Pour modifier l'URL du projet, rendez-vous dans la section "Général" de l'écran "Paramètres du projet" et modifiez-la en conséquence. Cette URL est celle que les journalistes utiliseront pour se connecter au projet depuis leurs applications.
+#### L'URL du projet est automatiquement générée lors de la création du projet. Pour modifier l'URL du projet, rendez-vous dans la section "Général" de l'écran "Paramètres du projet" et modifiez-la en conséquence. Cette URL est celle que les journalistes utiliseront pour se connecter au projet depuis leurs applications.
 
 :::info
 L'URL que vous devez envoyer aux utilisateurs ou utilisatrices doit ressembler à ceci: `https://your-domain.com/p/your-project-name`.
 :::
 
+Gestion des utilisateurs {#managing-users}
 
-### Gestion des utilisateurs {#managing-users}
+Comprendre les rôles des utilisateurs {#understanding-user-roles}
 
-### Comprendre les rôles des utilisateurs {#understanding-user-roles}
 
-Les utilisateurs et utilisatrices constituent un élément important dans le fonctionnement de Tella Web. Il existe quatre rôles différents mis à leur disposition :
+#### Les utilisateurs et utilisatrices constituent un élément important dans le fonctionnement de Tella Web. Il existe quatre rôles différents mis à leur disposition :
 
-- Rapporteur ou Rapporteuse: il s'agit d'un utilisateur ou d'une utilisatrice qui peut se connecter au projet Web Tella à partir d'une application mobile Tella et charger des rapports. Un journaliste doit être affecté à un projet pour pouvoir télécharger des rapports.
-- Lecteur ou lectrice: Il s'agit d'un utilisateur ou utilisatrice qui, en plus de charger des rapports à partir de Tella, peut également se connecter à Tella Web pour visualiser (mais pas pour éditer ou supprimer) des rapports. Un lecteur ou une lectrice doit être assigné à un projet spécifique pour y avoir accès.
-- Éditeur ou Editrice : il s'agit d'un utilisateur ou utilisatrice qui, comme les lecteurs et lectrice, peut télécharger des rapports depuis Tella et se connecter à Tella Web, mais qui peut également modifier et supprimer des rapports. Il ou elle doit être assigné à un projet spécifique pour y avoir accès.
-- Admin: il ou elle un peut télécharger des rapports depuis Tella et effectuer toutes les actions sur Tella Web, y compris la gestion des rapports, des projets et des utilisateurs. Un ou une admin a accès à tous les projets.
+Rapporteur ou Rapporteuse: il s'agit d'un utilisateur ou d'une utilisatrice qui peut se connecter au projet Web Tella à partir d'une application mobile Tella et charger des rapports. Un journaliste doit être affecté à un projet pour pouvoir télécharger des rapports.
+* Lecteur ou lectrice: Il s'agit d'un utilisateur ou utilisatrice qui, en plus de charger des rapports à partir de Tella, peut également se connecter à Tella Web pour visualiser (mais pas pour éditer ou supprimer) des rapports. Un lecteur ou une lectrice doit être assigné à un projet spécifique pour y avoir accès.
+* Éditeur ou Editrice : il s'agit d'un utilisateur ou utilisatrice qui, comme les lecteurs et lectrice, peut télécharger des rapports depuis Tella et se connecter à Tella Web, mais qui peut également modifier et supprimer des rapports. Il ou elle doit être assigné à un projet spécifique pour y avoir accès.
+* Admin: il ou elle un peut télécharger des rapports depuis Tella et effectuer toutes les actions sur Tella Web, y compris la gestion des rapports, des projets et des utilisateurs. Un ou une admin a accès à tous les projets.
 
-Voici une présentation détaillée des permissions attribuées à chaque rôle :
 
-| |Journaliste |Lecteur ou lectrice|Éditeur ou Editrice|Admin |
+#### Voici une présentation détaillée des permissions attribuées à chaque rôle :
+
+Journaliste
+
+Lecteur ou lectrice
+
+Éditeur ou Editrice
+
+Admin
+
+
+#### **Sur Tella mobile**
+
+Créer et charger des rapports
+
+✅
+
+
+### ✅
+
+### ✅
+✅
+- **Sur Tella Web**
+- Connectez-vous à Tella Web
+- ❌
+- ✅
+
+✅
+
+| |✅ |Afficher les rapports|❌|✅ |
 |--------|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|--|
-|**Sur Tella mobile**|
-| Créer et charger des rapports | ✅|✅|✅|✅| 
-|**Sur Tella Web**| 
-| Connectez-vous à Tella Web |❌|✅|✅|✅| 
-| Afficher les rapports |❌|✅|✅|✅| 
-| Modifier les rapports (renommer) |❌|❌|✅|✅| 
-| Supprimer les rapports |❌|❌|✅|✅| 
-| Modifier des projets (créer, renommer, modifier l'URL) |❌|❌|✅|✅| 
-| Supprimer des projets |❌|❌|✅|✅| 
-| Gérer les utilisateurs (créer, modifier, supprimer) |❌|❌|❌|✅| 
-| Attribuer des utilisateurs au projet |❌|❌|❌|✅| 
-| Créer des ressources pour l'espace |❌|❌|❌|✅| 
-| Ajouter/supprimer des ressources au projet |❌|❌|✅|✅| 
-| Afficher les ressources attribuées à un projet |❌|✅|✅|✅| 
+|✅|
+| ✅ | Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.|Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.|Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.|Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.| 
+|✅| 
+| Supprimer les rapports  |Gérer l'accès aux projets {#managing-access-to-projects}|Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.|Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.|Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.| 
+| Modifier des projets (créer, renommer, modifier l'URL)  |Gérer l'accès aux projets {#managing-access-to-projects}|Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.|Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.|Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.| 
+| Supprimer des projets |Gérer l'accès aux projets {#managing-access-to-projects}|Gérer l'accès aux projets {#managing-access-to-projects}|Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.|Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.| 
+| Gérer les utilisateurs (créer, modifier, supprimer) |Gérer l'accès aux projets {#managing-access-to-projects}|Gérer l'accès aux projets {#managing-access-to-projects}|Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.|Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.| 
+| Attribuer des utilisateurs au projet |Gérer l'accès aux projets {#managing-access-to-projects}|Gérer l'accès aux projets {#managing-access-to-projects}|Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.|Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.| 
+| Créer des ressources pour l'espace |Gérer l'accès aux projets {#managing-access-to-projects}|Gérer l'accès aux projets {#managing-access-to-projects}|Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.|Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.| 
+| Ajouter/supprimer des ressources au projet |Gérer l'accès aux projets {#managing-access-to-projects}|Gérer l'accès aux projets {#managing-access-to-projects}|Gérer l'accès aux projets {#managing-access-to-projects}|Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.| 
+| Afficher les ressources attribuées à un projet |Gérer l'accès aux projets {#managing-access-to-projects}|Gérer l'accès aux projets {#managing-access-to-projects}|Gérer l'accès aux projets {#managing-access-to-projects}|Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.| 
+| Création d'utilisateurs {#creating-users} |Gérer l'accès aux projets {#managing-access-to-projects}|Gérer l'accès aux projets {#managing-access-to-projects}|Gérer l'accès aux projets {#managing-access-to-projects}|Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.| 
+| Aucun modèle commun comme les dates, répétitions (aaa), séquences (abcd), modèles de clavier (qwertyuiop)  |Gérer l'accès aux projets {#managing-access-to-projects}|Gérer l'accès aux projets {#managing-access-to-projects}|Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.|Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.| 
+| Gestion des ressources {#managing-resources}   |Gérer l'accès aux projets {#managing-access-to-projects}|Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.|Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.|Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.| 
 
 
-#### Création d'utilisateurs {#creating-users}
-
-Dans la barre supérieure, au-dessus de la liste des utilisateurs, l'admin du serveur peut cliquer sur le bouton "Créer un utilisateur" pour créer un nouvel utilisateur ou une nouvelle utilisatrice sur le serveur. L'e-mail, le mot de passe, la confirmation du mot de passe et le rôle sont requis pour faire cela.
-
-Dans le champ du mot de passe, un indicateur de sécurité du mot de passe aide les admins à créer des mots de passe sûrs. Nous estimons la complexité des mots de passe à partir de la bibliothèque [zxcvbn](https://github.com/dropbox/zxcvbn) qui tient compte des éléments suivants :
-- Charactères (plus de 10)
-- Complexité (minuscules, majuscules, chiffres, symboles)
-- Aucun modèle commun comme les dates, répétitions (aaa), séquences (abcd), modèles de clavier (qwertyuiop)
-- Pas de mots de passe courants comme les noms, les villes, etc.
 
 
-#### Gérer l'accès aux projets {#managing-access-to-projects}
+#### Sur le même écran, les administrateurs d'espace peuvent gérer les ressources. Les options suivantes sont disponibles
 
-Dans la section « Gérer l'accès » de l'écran « Paramètres du projet », les admins peuvent attribuer des utilisateurs ou utilisatrices existants au projet. Cliquez sur le champ "Ajouter des utilisateurs". Un menu déroulant affichera tous les utilisateurs et utilisatrices sur le serveur. Faites défiler la liste ou tapez pour rechercher quelqu'un par son nom d'utilisateur.
-Après avoir sélectionné les personnes à ajouter au projet, cliquez sur le bouton « Ajouter » pour enregistrer les modifications et leur accorder l'accès au projet.
+Téléchargez les ressources individuellement ou téléchargez plusieurs ressources.
 
-:::info
-La liste complète des utilisateurs pouvant soumettre des rapports au projet comprend les utilisateurs répertoriés dans cette section ainsi que tous les administrateurs du serveur.
-:::
-
-### Gestion des ressources {#managing-resources}
-
-Tella Web permet aux organisations de diffuser en toute sécurité des ressources et du matériel à leurs utilisateurs directement dans le conteneur crypté de Tella. Les ressources peuvent être utilisées pour soumettre des instructions de collecte de données, des messages ou des guides sur la façon de collecter des données.
-
-#### Créer des ressources pour l'espace {#creating-resources-to-the-space}
-
-Les administrateurs peuvent créer des ressources pour l'espace en accédant à la barre latérale gauche **Ressources**. Pour le moment, les ressources peuvent être créées en téléchargeant des fichiers PDF. Nous vous recommandons de les conserver en dessous de 20 Mo pour vous assurer que les utilisateurs peuvent les télécharger même si Internet est lent.
-
-Les ressources sont partagées au sein de l'espace. Gardez à l'esprit que les ressources ne sont disponibles pour les utilisateurs qu'après les avoir ajoutées à des projets spécifiques.
-
-Sur le même écran, les administrateurs d'espace peuvent gérer les ressources. Les options suivantes sont disponibles
-- Téléchargez les ressources individuellement ou téléchargez plusieurs ressources.
-- Ouvrez chaque ressource pour la visualiser.
+Ouvrez chaque ressource pour la visualiser.
 - Découvrez sur quels projets chaque ressource est ajoutée en appuyant sur Aperçu
 - Supprimer une ressource de l'espace.
-
-:::info
+- :::info
 Si votre organisation a besoin d'autres types de ressources ou si vous rencontrez des problèmes avec les limites de format ou de taille, veuillez [nous contacter](/contact-us).
 :::
+- Ajouter des ressources aux projets {#adding-resources-to-projects}
 
-#### Ajouter des ressources aux projets {#adding-resources-to-projects}
 
-Les administrateurs et les éditeurs peuvent ajouter des ressources disponibles sur l'espace aux projets auxquels ils ont accès. Il existe deux raccourcis pour le faire:
-1. En accédant à **Gérer l'accès** dans la section **Paramètres** de chaque projet.
-2. En appuyant sur l'icône **Ressources** sur la carte de chaque projet sur l'écran d'accueil de Tella Web.
+#### Les administrateurs et les éditeurs peuvent ajouter des ressources disponibles sur l'espace aux projets auxquels ils ont accès. Il existe deux raccourcis pour le faire:
 
-Pour ajouter des ressources aux projets, appuyez sur le bouton **Ajouter des ressources** et recherchez les ressources disponibles par nom. Une ou plusieurs ressources peuvent être ajoutées au projet en même temps.
+
+En accédant à **Gérer l’accès** dans la section **Paramètres** de chaque projet.
+
+En appuyant sur l’icône **Ressources** sur la carte de chaque projet sur l’écran d’accueil de Tella Web.
+
+### Pour ajouter des ressources aux projets, appuyez sur le bouton **Ajouter des ressources** et recherchez les ressources disponibles par nom. Une ou plusieurs ressources peuvent être ajoutées au projet en même temps.
 
 Tous les utilisateurs qui se connectent à ce projet depuis leurs applications Tella verront une carte Ressources disponible et pourront télécharger cette ressource dans leur conteneur crypté.
 
-Tella Web ne conserve aucune information sur les téléchargements de ressources.
+#### Tella Web ne conserve aucune information sur les téléchargements de ressources.
 
-
-## Préparez les gens sur le terrain à commencer à soumettre des rapports {#get-people-on-the-ground-ready-to-start-submitting-reports}
+Préparez les gens sur le terrain à commencer à soumettre des rapports {#get-people-on-the-ground-ready-to-start-submitting-reports}
 
 Les étapes décrites ci-dessous s'appliquent aux versions Android et iOS de l'application Tella. La fonctionnalité de création de rapports est disponible dans :
 
-* Tella Android v2.1.0 (152) et versions ultérieures
-* Tella iOS v1.1.0 (43) et versions ultérieures
-
-Les rapports ne sont pas encore disponibles sur [Tella-FOSS](/faq#is-tella-available-on-f-droid).
-
-:::info
+Tella Android v2.1.0 (152) et versions ultérieures
+- Tella iOS v1.1.0 (43) et versions ultérieures
+- Les rapports ne sont pas encore disponibles sur [Tella-FOSS](/faq#is-tella-available-on-f-droid).
+- :::info
 Vous pouvez regarder [cette vidéo](/video-tutorials#tella-web) pour savoir comment configurer et utiliser les rapports dans Tella.
 :::
-
-#### Connectez-vous aux projets Tella Web {#connect-to-tella-web-projects}
+- Connectez-vous aux projets Tella Web {#connect-to-tella-web-projects}
 
 Pour vous connecter à un serveur Tella Web:
 
-* Allez dans **Paramètres ⚙️** > **Connexions** > **+**
-* Sélectionnez "Tella Web" dans la liste des types de serveurs disponibles.
-* Saisissez les informations d'identification (générées et fournies par les admins).
-    * L'URL du projet Tella Web. L'URL devrait ressembler à ce qui suit : `https://your-domain.com/p/your-project-name`
-    * Votre identifiant et votre mot de passe
-* Activez ou désactivez les fonctionnalités avancées en fonction de vos besoins : [Rapport automatique](#auto-report), [auto-suppression](#auto-delete) et [soumettre arrière-plan](#background-submission).
+#### Allez dans **Paramètres ⚙️** > **Serveurs** > **+**
+
+Sélectionnez "Tella Web" dans la liste des types de serveurs disponibles.
+1. Saisissez les informations d'identification (générées et fournies par les admins).
+2. :::info
+
+L'URL du projet Tella Web. L'URL devrait ressembler à ce qui suit : `https://your-domain.com/p/your-project-name`
+
+:::
+
+Votre identifiant et votre mot de passe
 
 
-#### Gérer les projets Tella Web {#manage-tella-web-projects}
-
-* Dans **Paramètres ⚙️** > **Connexions** > **[Nom du projet]** > 3 points, vous pouvez :
-    * Modifier : ouvre un écran « Modifier le serveur » où vous pouvez afficher le nom du projet, l'URL et votre nom d'utilisateur, et modifier les fonctionnalités avancées.
-    * Supprimer: supprime la connexion, y compris toutes les informations sur le serveur et tous les rapports brouillons et soumis stockés dans Tella. Cela n'affectera aucun rapport déjà soumis au serveur.
 
 
-#### Extraire des ressources de votre espace {#pull-resources-from-your-space}
+## Activez ou désactivez les fonctionnalités avancées en fonction de vos besoins : [Rapport automatique](#auto-report), [auto-suppression](#auto-delete) et [soumettre arrière-plan](#background-submission).
 
-Une fois connecté à au moins un projet Tella Web, une carte **Ressources** apparaîtra dans la section "Connexions" de l'écran d'accueil. Appuyez sur cette carte pour afficher et télécharger les guides, instructions ou messages que les administrateurs de votre organisation ont mis à votre disposition dans l'un des projets auxquels vous êtes connecté.
+
+ Gérer les projets Tella Web {#manage-tella-web-projects}
+
+* Dans **Paramètres ⚙️** > **Serveurs** > **[Nom du projet]** > 3 points, vous pouvez :
+* Modifier : ouvre un écran « Modifier le serveur » où vous pouvez afficher le nom du projet, l'URL et votre nom d'utilisateur, et modifier les fonctionnalités avancées.
+
+Supprimer: supprime la connexion, y compris toutes les informations sur le serveur et tous les rapports brouillons et soumis stockés dans Tella. Cela n'affectera aucun rapport déjà soumis au serveur.
+
+Extraire des ressources de votre espace {#pull-resources-from-your-space}
+
+
+#### Une fois connecté à au moins un projet Tella Web, une carte **Ressources** apparaîtra dans la section "Connexions" de l'écran d'accueil. Appuyez sur cette carte pour afficher et télécharger les guides, instructions ou messages que les administrateurs de votre organisation ont mis à votre disposition dans l'un des projets auxquels vous êtes connecté.
 
 Dans la section **Disponible en téléchargement** de l'écran Ressources, vous verrez une carte pour chacune des ressources qui ont été partagées avec vous. Appuyez sur l'icône **Télécharger** (📥) pour extraire cette ressource de l'espace de votre organisation et pouvoir accéder à celles de la section **Téléchargées**, même hors ligne. Vous pouvez **Afficher** chaque PDF en appuyant sur la carte et vous pouvez **Supprimer des téléchargements** si vous souhaitez libérer de l'espace sur votre coffre-fort Tella. Vous pouvez toujours les retélécharger si nécessaire.
 
-* Utilisez le bouton **Actualiser** en haut à droite pour extraire de nouvelles ressources de l'espace de votre organisation.
+* Utilisez le bouton **Actualiser** en haut à droite pour extraire de nouvelles ressources de l’espace de votre organisation.
 * Une fois que vous vous déconnectez d'un projet Tella Web, toutes les ressources associées seront supprimées de votre écran Ressources.
-
-
-#### Créer un rapport manuel {#create-a-manual-report}
-
-* Une fois connecté à au moins un projet Tella Web, une carte « Rapports » apparaîtra dans la section « Connexions » de l'écran d'accueil. Appuyez sur cette carte pour commencer à créer des rapports.
-* L'écran principal des rapports permet de naviguer entre les onglets Brouillons, Boîte d'envoi et Soumis.
+* Créer un rapport manuel {#create-a-manual-report}
+    * Une fois connecté à au moins un projet Tella Web, une carte « Rapports » apparaîtra dans la section « Connexions » de l'écran d'accueil. Appuyez sur cette carte pour commencer à créer des rapports.
+    * Choose if you'd like to show or hide the server url from Settings. This option cannot be modified once set.
+    * L'écran principal des rapports permet de naviguer entre les onglets Brouillons, Boîte d'envoi et Soumis.
 * Appuyez sur le bouton "Nouveau rapport" en bas de l'écran pour créer un nouveau rapport.
-    * Sur l'écran "Nouveau rapport", vous pouvez renseigner les détails du rapport, notamment le titre, la description et les pièces jointes facultatives de photos, vidéos, documents PDF et enregistrements audio.
-    * Si vous êtes connecté à plusieurs projets Tella Web, vous pourrez sélectionner en haut de l'écran à quel projet soumettre le rapport.
-* Utilisez le bouton « Enregistrer le brouillon » (en haut à droite de l'écran) pour enregistrer le rapport en tant que brouillon sans quitter l'écran "Nouveau rapport".
-    * Afin de pouvoir enregistrer le rapport en tant que brouillon, vous devez au moins saisir son titre.
-    * Un message apparaîtra à l'écran pour confirmer que le brouillon a bien été enregistré.
-* Le bouton "Soumettre plus tard" enregistre le rapport dans la boîte d'envoi pour une soumission manuelle.
-    * L'onglet Boîte d'envoi est souvent utilisé lorsque les collecteurs et collecteuses de données n'ont pas accès à Internet ou si la connexion n'est pas stable.
-* Le bouton "Soumettre" envoie immédiatement le rapport au projet Tella Web.
-    * Si la soumission échoue en raison de problèmes de connectivité, le rapport est dirigé vers l'onglet "Boîte d'envoi".
-    * Si le rapport est soumis correctement, il passe dans l'onglet "Soumis".
+
+
+#### Sur l'écran "Nouveau rapport", vous pouvez renseigner les détails du rapport, notamment le titre, la description et les pièces jointes facultatives de photos, vidéos, documents PDF et enregistrements audio.
+
+* Si vous êtes connecté à plusieurs projets Tella Web, vous pourrez sélectionner en haut de l'écran à quel projet soumettre le rapport.
+    * Utilisez le bouton « Enregistrer le brouillon » (en haut à droite de l'écran) pour enregistrer le rapport en tant que brouillon sans quitter l'écran "Nouveau rapport".
+    * Afin de pouvoir enregistrer le rapport en tant que brouillon, vous devez au moins saisir son titre
+
+#### Un message apparaîtra à l’écran pour confirmer que le brouillon a bien été enregistré.
+
+Le bouton "Soumettre plus tard" enregistre le rapport dans la boîte d'envoi pour une soumission manuelle.
+
+L’onglet Boîte d’envoi est souvent utilisé lorsque les collecteurs et collecteuses de données n’ont pas accès à Internet ou si la connexion n’est pas stable.
+
+Le bouton “Soumettre” envoie immédiatement le rapport au projet Tella Web.
+
+Si la soumission échoue en raison de problèmes de connectivité, le rapport est dirigé vers l'onglet “Boîte d'envoi”.
+
+#### Si le rapport est soumis correctement, il passe dans l'onglet “Soumis” .
+
+*  Projets de rapports {#draft-reports}
+* Sur l'écran "Nouveau rapport", appuyez sur le bouton "Enregistrer le brouillon" pour enregistrer le rapport en tant que brouillon.
+* Un message de confirmation s'affichera et vous pourrez continuer à travailler sur le rapport ou quitter pour y revenir plus tard.
+    * Si vous essayez de quitter un rapport sans sauvegarder votre travail, il vous sera demandé de confirmer si vous êtes sûr de quitter sans enregistrer le rapport.
+    * Dans l'onglet Brouillon, vous pouvez afficher et gérer les brouillons de rapports. Ouvrez un brouillon de rapport pour continuer à travailler dessus et soumettez-le.
+* Use the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft without leaving the "New report" screen. 
+    * Afin de pouvoir enregistrer le rapport en tant que brouillon, vous devez au moins saisir son titre
+    * Un message apparaîtra à l’écran pour confirmer que le brouillon a bien été enregistré.
+* The "Submit later" button ⏱️ saves the report to the Outbox for manual submission.
+    * The "Outbox" tab is often used when data collectors don’t have access to the internet or if the connection is not stable.
+* Si le rapport est en cours de chargement, un bouton « Pause » permet d'arrêter temporairement le téléchargement, qui peut être repris ultérieurement à l'aide du bouton « Reprendre ».
+    * Sortir d'un rapport n'affecte pas l'état du chargement. Si le rapport est en cours de chargement, le processus continue.
+    * :::info
+Une fois qu'un rapport a été chargé sur Tella Web, il n'est plus possible de le supprimer partir de l'application mobile Tella. La suppression d'un rapport soumis supprimera uniquement la version locale de celui-ci, pas le rapport sur le serveur.
+:::
 
 
 ####  Projets de rapports {#draft-reports}
 
 A Draft report is a report that was created and saved but not yet submitted. Drafts reports are useful to save work in progress that can be editted later on. It allows users to create reports offline or over a long period of time before finalizing and sending them. This is especially useful in low-connectivity areas or when a user needs to gather information in multiple stages.
 
-Les rapports dans l'onglet Brouillon peuvent être modifiés.
+Reports in the Draft tab can be edited.
 
-* Sur l'écran "Nouveau rapport", appuyez sur le bouton "Enregistrer le brouillon" pour enregistrer le rapport en tant que brouillon.
-    * Un message de confirmation s'affichera et vous pourrez continuer à travailler sur le rapport ou quitter pour y revenir plus tard.
-* Si vous essayez de quitter un rapport sans sauvegarder votre travail, il vous sera demandé de confirmer si vous êtes sûr de quitter sans enregistrer le rapport.
+* On the "New report" screen, tap the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft.
+    * A confirmation will be displayed, and you can continue working on the report or exit to come back to it later.
+* If you try to exit a report without saving, you will be asked to confirm whether you are sure to exit without saving.
 * Dans l'onglet Brouillon, vous pouvez afficher et gérer les brouillons de rapports. Ouvrez un brouillon de rapport pour continuer à travailler dessus et soumettez-le.
 * Vous pouvez supprimer un brouillon de rapport en appuyant sur les trois points > **Supprimer** ou en saisissant le rapport et en appuyant sur le bouton Supprimer.
 
 
-#### Rapports soumis {#submit-a-report}
+#### Rapports soumis {#submit-reports}
 
 * Dans un rapport, appuyez sur « Soumettre » pour lancer la soumission du rapport.
 * Vous serez redirigé vers un écran récapitulatif affichant la progression du chargement pour chaque pièce jointe.
@@ -317,20 +321,20 @@ Les rapports dans l'onglet Brouillon peuvent être modifiés.
 * Si le rapport est en cours de chargement, un bouton « Pause » permet d'arrêter temporairement le téléchargement, qui peut être repris ultérieurement à l'aide du bouton « Reprendre ».
 * Sortir d'un rapport n'affecte pas l'état du chargement. Si le rapport est en cours de chargement, le processus continue.
 
-:::info
-Une fois qu'un rapport a été chargé sur Tella Web, il n'est plus possible de le supprimer partir de l'application mobile Tella. La suppression d'un rapport soumis supprimera uniquement la version locale de celui-ci, pas le rapport sur le serveur.
-:::
+Si le rapport automatique est activé, Tella créera et chargera automatiquement des rapports chaque fois que vous prendrez une photo, enregistrerez une vidéo ou capturerez un enregistrement audio dans Tella. Cela garantit que vos rapports sont chargés de manière transparente sans nécessiter de travail manuel. Les fichiers sont chargés dans le même rapport automatique s'ils sont collectés dans un délai de 30 minutes.
+
+Le rapport automatique peut être activé à partir de l’écran Modifier la connexion.
 
 
-#### Boîte d'envoi {#outbox}
+#### Boîte d'envoi {#boîte d'envoi}
 
-L'onglet Boîte d'envoi contient les rapports qui ont été finalisés et sauvegardés pour une soumission ultérieure. Les rapports dans la Boîte d'envoi sont prêts à être soumis une fois que l'appareil se reconnecte à Internet ou lorsque l'utilisateur choisit de les envoyer manuellement.
+The Outbox tab contains reports that are finalized and have been saved for later submission. Reports in the Outbox are ready to be submitted once the device reconnects to the internet or when the user chooses to manually send them.
 
-Les rapports dans l'onglet Boîte d'envoi ne peuvent pas être modifiés.
+Reports in the Outbox tab cannot be edited.
 
-Pour envoyer un rapport dans la Boîte d'envoi, utilisez le bouton Soumettre plus tard (⏱️), en bas à gauche de l'écran Soumettre le rapport.
+To send a report to the Outbox, use the Submit later button (⏱️), at the bottom left of the Submit Report screen.
 
-La Boîte d'envoi contient :
+The Outbox contains:
 
 * Soumissions suspendues
 * Envois de rapports interrompus en raison de problèmes de connectivité.
@@ -341,7 +345,7 @@ If you need a fully offline way to share files with others, consider exploring [
 :::
 
 
-#### Rapports soumis {#submitted-reports}
+#### Rapports soumis {#submit-reports}
 
 - Lorsque la soumission en arrière-plan est activée, quelle que soit votre activité dans Tella ou la fermeture de l'application, le processus de téléchargement se poursuivra sans interruption. Il fonctionnera également si les rapports automatiques sont activés et que vous fermez l'application après avoir collecté les informations.
 - Dans l'onglet Soumis, vous pouvez afficher et examiner les rapports soumis.
@@ -355,9 +359,9 @@ Si la connexion Internet est interrompue, les rapports seront envoyés dans l'on
 
 #### Rapport automatique {#auto-report}
 
-Si le rapport automatique est activé, Tella créera et chargera automatiquement des rapports chaque fois que vous prendrez une photo, enregistrerez une vidéo ou capturerez un enregistrement audio dans Tella. Cela garantit que vos rapports sont chargés de manière transparente sans nécessiter de travail manuel. Les fichiers sont chargés dans le même rapport automatique s'ils sont collectés dans un délai de 30 minutes.
+If auto-report is enabled, Tella will create and upload reports automatically whenever you take a photo, record a video, or capture an audio recording in Tella. This ensures that your reports are seamlessly uploaded without the need for manual work. Files get uploaded to the same auto-report if they are collected within the lapse of 30 minutes.
 
-Le rapport automatique peut être activé à partir de l'écran Modifier la connexion.
+Le rapport automatique peut être activé à partir de l’écran Modifier la connexion.
 
 :::info
 le rapport automatique ne peut être activé que pour un projet à la fois
@@ -367,7 +371,7 @@ le rapport automatique ne peut être activé que pour un projet à la fois
 
 Lorsque le rapport automatique est activé, vous pouvez activer la suppression automatique, qui supprime automatiquement les rapports et leurs fichiers associés de votre appareil une fois qu'ils ont été téléchargés avec succès sur Tella Web. Cela vous aide à gérer l'espace de stockage de votre appareil et garantit que les données sensibles ne soient pas conservées involontairement.
 
-Le bouton bascule de suppression automatique apparaîtra sous le bouton bascule de rapport automatique sur l'écran Modifier la connexion pour le projet souhaité.
+Le bouton bascule de suppression automatique apparaîtra sous le bouton bascule de rapport automatique sur l’écran Modifier la connexion pour le projet souhaité.
 
 #### Soumission en arrière-plan {#background-submission}
 
@@ -375,6 +379,6 @@ La soumission en arrière-plan permet au processus de soumission du rapport de c
 
 Lorsque la soumission en arrière-plan est activée, quelle que soit votre activité dans Tella ou la fermeture de l'application, le processus de téléchargement se poursuivra sans interruption. Il fonctionnera également si les rapports automatiques sont activés et que vous fermez l'application après avoir collecté les informations.
 
-Lors du chargement de rapports en arrière-plan, Tella reste déverrouillée. Cela signifie que si quelqu'un ouvre Tella, il ou elle pourra accéder à vos fichiers et rapports. Pour verrouiller Tella lorsque les rapports sont téléchargés en arrière-plan, appuyez sur le bouton « Sortie rapide » en haut à droite de l'écran d'accueil de Tella.
+Lors du échargement de rapports en arrière-plan, Tella reste déverrouillée. Cela signifie que si quelqu'un ouvre Tella, il ou elle pourra accéder à vos fichiers et rapports. Pour verrouiller Tella lorsque les rapports sont téléchargés en arrière-plan, appuyez sur le bouton « Sortie rapide » en haut à droite de l'écran d'accueil de Tella.
 
-Si la soumission est interrompue en raison d'une connexion Internet faible ou d'autres facteurs, Tella enverra le rapport dans l'onglet Boîte d'envoi et redémarrera automatiquement le téléchargement dès que le téléphone retrouvera une connexion Internet stable.
+Si la soumission est interrompue en raison d’une connexion Internet faible ou d’autres facteurs, Tella enverra le rapport dans l’onglet Boîte d’envoi et redémarrera automatiquement le téléchargement dès que le téléphone retrouvera une connexion Internet stable.
