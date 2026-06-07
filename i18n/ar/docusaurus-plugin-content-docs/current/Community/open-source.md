@@ -15,7 +15,8 @@ import FeaturesTable from '.././_features-table.md';
 ‫يمكن الوصول إلى شيفرة Tella لكل من أندرويد ونظام iOS [هنا في مستودع GitHub الخاص بنا](https://github.com/horizontal-org). بدلا من الوثوق بنا، يمكنك مراجعة الشيفرة بنفسك أو أن تطلب من شخص تثق به أن يقوم بذلك، أو قراءة [التقارير](/security-and-privacy#security-audits) التي كتبتها شركات الأمن المستقلة بعد مراجعة شيفرة Tella.
 
 
-We also publish and maintain a fully Free and Open Source version of Tella for Android that doesn't contain any closed-source or proprietary library or dependency. You can find the code for that version of Tella [on Github](https://github.com/Horizontal-org/tella-Android/) and in the [F-droid store](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
+We also publish and maintain a fully Free and Open Source version of Tella for Android that doesn't contain any closed-source or proprietary library or dependency. The code is shared across all Android's version of Tella [and we generate the FOSS or regular Android Tella using product flavors at build time](https://github.com/Horizontal-org/tella-Android/). When possible, we prefer fully FOSS libraries and dependencies for both versions of Tella Android. The Tella Android FOSS version of Tella is available at the [F-droid store](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
+
 
 A detailed list of features available on each platform is available here: 
 
