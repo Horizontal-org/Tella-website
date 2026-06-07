@@ -266,6 +266,7 @@ In order to connect to a Tella Web server:
 * Select "Tella Web" from the list of available server types.
 * Enter the login information (generated and provided by admins)
     * The URL of the Tella Web project. The URL should look like this `https://your-domain.com/p/your-project-name`
+    * Choose if you'd like to show or hide the server url from Settings. This option cannot be modified once set.
     * Your Username and Password
 * Enable or disable advanced features based on your needs: [auto-report](#auto-report), [auto-delete](#auto-delete) and [background submission](#background-submission).
 
