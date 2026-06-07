@@ -17,15 +17,14 @@
 | [التمويه](/features#camouflage)| قص الصور وتدويرها | ✔️ | قص الصور وتدويرها |
 | [تخصيص الشاشة الرئيسية](/features#homescreen-customization) | قص الصور وتدويرها | ✔️ | قص الصور وتدويرها |
 | [الكاميرا (الصور والفيديوهات)](/features#camera-photos-and-videos) | قص الصور وتدويرها | قص الصور وتدويرها | قص الصور وتدويرها |
-| [تحديد دقة الفيديو](/features#select-video-resolution) | قص الصور وتدويرها | قص الصور وتدويرها | ليس بعد |
-| [مسجل الصوت](/features#audio-recorder) | قص الصور وتدويرها | ✔️ | ✔️ |
-
-| [Audio Recorder](/features#audio-recorder)| ✔️ | ✔️ | ✔️ |
-| [Open files in Tella](/features#open-files-in-tella)| ✔️ | ✔️ | ✔️ |
-| [Verification mode](/features#verification-mode)| ✔️ | Not yet | ✔️ |
-| [Quick delete](/features#quick-delete)| Files, Connections and Tella | Files and Connections  | Files, Connections and Tella |
-| [Quick exit](/features#quick-exit)| Locks and close | Locks  | Locks and close  |
-| [Share button](/features#share-button) | ✔️ | ✔️ | ✔️|
-| [Server connections](/features#connecting-to-servers) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) <br /> - [Open Data Kit (Forms)](/odk) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) |  - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Open Data Kit (Forms)](/odk)  |
-| [Nearby Sharing](/features#nearby-sharing) | ✔️ | ✔️ | ✔️ |
-| [Offline data collection](/features#offline-data-collection) | ✔️ | ✔️ |  ✔️ |
+| [تحديد دقة الفيديو](/features#select-video-resolution) | قص الصور وتدويرها | قص الصور وتدويرها | قص الصور وتدويرها |
+| [مسجل الصوت](/features#audio-recorder) | قص الصور وتدويرها | ✔️ | قص الصور وتدويرها|
+| [فتح الملفات في Tella](/features#open-files-in-tella)| قص الصور وتدويرها | قص الصور وتدويرها | قص الصور وتدويرها |
+| [وضع التحقق](/features#verification-mode)| قص الصور وتدويرها | قص الصور وتدويرها | قص الصور وتدويرها |
+| [الحذف السريع](/features#quick-delete)| قص الصور وتدويرها | ✔️ | قص الصور وتدويرها |
+| [الخروج السريع](/features#quick-exit)| القفل والإغلاق | القفل  | القفل والإغلاق |
+| [اتصالات لجمع البيانات وإرسال الملفات](/features#connecting-to-servers)| - Uwazi <br />- Open Data Kit (استمارات) | - Tella Web <br />- Uwazi  | - Uwazi <br />- Open Data Kit (استمارات)  |
+| [Share button](/features#share-button) | قص الصور وتدويرها | قص الصور وتدويرها | قص الصور وتدويرها|
+| [Server connections](/features#connecting-to-servers) | ✔️ | ✔️ |  ✔️  |
+| [Nearby Sharing](/features#nearby-sharing) | قص الصور وتدويرها | قص الصور وتدويرها | قص الصور وتدويرها |
+| [جمع البيانات دون الاتصال بالانترنت](/features#offline-data-collection) | قص الصور وتدويرها | قص الصور وتدويرها |  قص الصور وتدويرها |
