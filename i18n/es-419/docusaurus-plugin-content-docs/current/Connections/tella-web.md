@@ -13,7 +13,7 @@ Tella Web es desarrollada internamente por nuestro equipo en Horizontal, el mism
 
  Podemos proporcionar soporte para la instalación, configuración, y mantenimiento de una instancia Tella Web si no tienes a alguien dentro de tu organización que pueda hacerlo.
 
-De manera similar a todas las demás conexiones ([Uwazi](/uwazi), [Google Drive](/g-drive), [Nextcloud](/nextcloud), [Dropbox](/dropbox) y [Open Data Kit](/odk)), conectar a Tella Web mejora la seguridad de los datos recopilados en Tella al:
+Similarly to all other connections([Uwazi](/uwazi), [Google Drive](/g-drive), [Nextcloud](/nextcloud), [Dropbox](/dropbox) and [Open Data Kit](/odk)), connecting to Tella Web enhances the security of data collected on Tella by:
 1. Permitir a la(o)s usuaria(o)s a recopilar datos directamente dentro de un contenedor cifrado de Tella.
 2. Garantizar que los datos son enviados directamente de Tella a Tella Web, sin tener que depender de una herramienta o app de terceras partes.
 3. Permitir que usuaria(o)s respalden sus datos en un servidor remoto, para reducir el riesgo de que los datos sean descubiertos en su dispositivo móvil.
@@ -262,17 +262,18 @@ Puedes ver [este video](/video-tutorials#tella-web) sobre cómo configurar y usa
 
 Para conectar a un servidor Tella Web:
 
-* Navega a **Configuración ⚙️** > **Conexiones** > **+**
+* Navigate to **Settings ⚙️** > **Connections** > **+**
 * Selecciona "Tella Web" de la lista de tipos de servidores disponibles.
 * Introduce la información de inicio de sesión (generada y proporcionada por admins)
     * La URL del proyecto Tella Web. La URL debe parecerse a esta "https://tu-dominio.com/p/nombre-del-proyecto"
+    * Choose if you'd like to show or hide the server url from Settings. This option cannot be modified once set.
     * Tu Nombre de Usuaria(o) y Contraseña
 * Habilita o deshabilita las funciones avanzadas de acuerdo a tus necesidades: [auto-informe](#auto-report), [auto eliminar](#auto-delete) y [envío en segundo plano](#background-submission).
 
 
 #### Administra Proyectos de Tella Web {#manage-tella-web-projects}
 
-* En **Configuración ⚙️** > **Conexiones** > **[Nombre del proyecto]** > ⫶ puedes:
+* In **Settings ⚙️** > **Connections** >  **[Project name]** > 3-dots, you can:
     * Editar: Abre una pantalla "editar servidor" donde puedes ver el nombre del proyecto, URL, y tu nombre de usuaria(o), y editar funciones avanzadas.
     * Eliminar: Elimina la conexión, incluyendo toda la información del servidor y todos los borradores e informes enviados almacenados en Tella. Esto no afectará ningún informe que ya haya sido enviado al servidor.
 
@@ -293,11 +294,11 @@ Una vez te desconectas de un proyecto de Tella Web, todos los recursos asociados
 * Toca el botón "Nuevo informe" en la parte inferior de la pantalla para crear un nuevo informe.
     * En la pantalla "Nuevo informe" puedes completar los detalles del informe, incluyendo el título, descripción, y adjuntos opcionales de fotos, videos, documentos pdf y grabaciones de audio.
     * Si estás conectada(o) a múltiples proyectos de Tella Web, podrás seleccionar en la parte superior de la pantalla a cuál proyecto enviar el informe.
-* Utiliza el botón "Guardar borrador" (en la parte superior derecha de la pantalla) para guardar el informe como un borrador sin dejar la pantalla "Nuevo informe".
+* Use the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft without leaving the "New report" screen. 
     * Para poder guardar como un borrador debes al menos introducir el título del informe.
     * Aparecerá un mensaje en la pantalla para confirmar que el borrador fue guardado.
-* El botón "Enviar luego" guarda el informe en la Bandeja de Salida para envío manual.
-    * La pestaña bandeja de salida es utilizada a menudo cuando la(o)s recopiladora(e)s de datos no tienen acceso a internet o si la conexión no es estable.
+* The "Submit later" button ⏱️ saves the report to the Outbox for manual submission.
+    * The "Outbox" tab is often used when data collectors don’t have access to the internet or if the connection is not stable.
 * El botón "Enviar" envía el informe al proyecto de Tella Web inmediatamente.
     * Si el envío falla debido a problemas de conectividad, el informe se va a la pestaña "Bandeja de Salida".
     * Si el informe es enviado correctamente, se va a la pestaña "Enviados".
@@ -309,9 +310,9 @@ A Draft report is a report that was created and saved but not yet submitted. Dra
 
 Reports in the Draft tab can be edited.
 
-* En la pantalla "Nuevo informe", toca el botón "Guardar borrador" para guardar el informe como un borrador.
-    * Se mostrará un mensaje de confirmación, y puedes continuar trabajando en el informe o salir y regresar más tarde.
-* Si intentas salir del informe sin guardar, se te pedirá confirmar si tienes seguridad de salir sin guardar el informe.
+* On the "New report" screen, tap the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft.
+    * A confirmation will be displayed, and you can continue working on the report or exit to come back to it later.
+* If you try to exit a report without saving, you will be asked to confirm whether you are sure to exit without saving.
 * En la pestaña Borradores, puedes ver y administrar los borradores de informes. Abre un borrador de informe para continuar trabajando y enviarlo.
 * Puedes eliminar un borrador de informe tocando en los tres puntos > **Eliminar** o entrando al informe o tocando el botón Eliminar.
 
@@ -335,7 +336,13 @@ Eliminar un informe en medio de un envío cancelará la subida de los archivos q
 
 #### Bandeja de Salida {#outbox}
 
-La Bandeja de Salida contiene informes que han sido guardados para enviar. Esto podría ser:
+The Outbox tab contains reports that are finalized and have been saved for later submission. Reports in the Outbox are ready to be submitted once the device reconnects to the internet or when the user chooses to manually send them.
+
+Reports in the Outbox tab cannot be edited.
+
+To send a report to the Outbox, use the Submit later button (⏱️), at the bottom left of the Submit Report screen.
+
+The Outbox contains:
 
 * Envíos pausados
 * Envíos de informes que fueron interrumpidos debido a problemas de conectividad.
