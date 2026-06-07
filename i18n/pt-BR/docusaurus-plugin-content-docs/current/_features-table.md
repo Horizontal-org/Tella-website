@@ -17,15 +17,14 @@
 | [Câmera (fotos e vídeos)](/features#camera-photos-and-videos)| ✔️ | - Tella Web <br />- Uwazi | ✔️ |
 | [Seleção da resolução de vídeo](/features#select-video-resolution) | ✔️ | Ainda não | ✔️ |
 | [Gravação de Áudio](/features#audio-recorder) | ✔️ | ✔️ | ✔️ |
-| [Abertura de arquivos no Tella](/features#open-files-in-tella) | ✔️ | ✔️ | Fotos, vídeos, áudio (não em PDF) |
-| [Modo de verificação](/features#verification-mode) | ✔️ | - Tella Web <br />- Uwazi | - Tella Web <br />- Uwazi |
-
-| [Audio Recorder](/features#audio-recorder)| ✔️ | ✔️ | ✔️ |
-| [Open files in Tella](/features#open-files-in-tella)| ✔️ | ✔️ | ✔️ |
-| [Verification mode](/features#verification-mode)| ✔️ | Not yet | ✔️ |
-| [Quick delete](/features#quick-delete)| Files, Connections and Tella | Files and Connections  | Files, Connections and Tella |
-| [Quick exit](/features#quick-exit)| Locks and close | Locks  | Locks and close  |
+| [Abertura de arquivos no Tella](/features#open-files-in-tella) | ✔️ | ✔️ | ✔️ |
+| [Modo de verificação](/features#verification-mode) | ✔️ | - Tella Web <br />- Uwazi | ✔️|
+| [Exclusão rápida](/features#quick-delete)| ✔️ | ✔️ | ✔️ |
+| [Saída rápida](/features#quick-exit)| ✔️ | ✔️ | ✔️ |
+| [Conexões para coleta de dados e envio de arquivos](/features#connecting-to-servers)| ✔️ | - Tella Web <br />- Uwazi | ✔️ |
+| [Coleta de dados offline](/features#offline-data-collection)| ✔️ | ✔️  | ✔️ |
+| [Saída rápida](/features#quick-exit)| Bloqueio e fechamento | Bloqueio  | Bloqueio e fechamento  |
 | [Share button](/features#share-button) | ✔️ | ✔️ | ✔️|
 | [Server connections](/features#connecting-to-servers) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) <br /> - [Open Data Kit (Forms)](/odk) | - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Google Drive](/g-drive) <br />- [Dropbox](/dropbox) <br />- [Nextcloud](/nextcloud) |  - [Tella Web](/tella-web) <br />- [Uwazi](/uwazi) <br />- [Open Data Kit (Forms)](/odk)  |
 | [Nearby Sharing](/features#nearby-sharing) | ✔️ | ✔️ | ✔️ |
-| [Offline data collection](/features#offline-data-collection) | ✔️ | ✔️ |  ✔️ |
+| [Coleta de dados offline](/features#offline-data-collection) | ✔️ | ✔️ |  ✔️ |
