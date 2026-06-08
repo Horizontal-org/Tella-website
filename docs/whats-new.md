@@ -16,7 +16,7 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 3.1.0 (241) - Released on June 6, 2026 {#android-tella-310241---released-on-jun-6-2026}
+### Android: Tella 3.1.0 (242) - Released on June 8, 2026 {#android-tella-310242---released-on-jun-8-2026}
 - Replaced camera library and location provider with FOSS options.
 - Language support improvements: updated Ukrainian.
 - Bug fixes and minor improvements:
@@ -37,9 +37,8 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 
 
 
-### Android: Tella FOSS 3.1.0 (241) (based on Android 3.1.0) - Released on Jun 6, 2026 {#android-tella-foss-310241-based-on-android-241---released-on-jun-6-2026}
+### Android: Tella FOSS 3.1.0 (242) (based on Android 3.1.0) - Released on Jun 8, 2026 {#android-tella-foss-310242-based-on-android-242---released-on-jun-8-2026}
 - Replaced geo-location provider.
-- 
 - Bug fixes and minor improvements:
     - Solved crash on camera that was affecting some models of Pixel phones.
     - Fixed import and delete original bug that prevented original file being erased from the device in some cases.
