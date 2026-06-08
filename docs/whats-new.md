@@ -37,9 +37,8 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 
 
 
-### Android: Tella FOSS 3.1.0 (241) (based on Android 3.1.0) - Released on Jun 6, 2026 {#android-tella-foss-310241-based-on-android-241---released-on-jun-6-2026}
+### Android: Tella FOSS 3.1.0 (242) (based on Android 3.1.0) - Released on Jun 8, 2026 {#android-tella-foss-310242-based-on-android-242---released-on-jun-8-2026}
 - Replaced geo-location provider.
-- 
 - Bug fixes and minor improvements:
     - Solved crash on camera that was affecting some models of Pixel phones.
     - Fixed import and delete original bug that prevented original file being erased from the device in some cases.
