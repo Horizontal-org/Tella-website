@@ -14,12 +14,9 @@ Bảo mật và quyền riêng tư của người dùng Tella là trọng tâm t
 
 Mã nguồn của Tella cho cả Android và iOS có thể được truy cập [tại đây trên kho GitHub của chúng tôi](https://github.com/horizontal-org). Thay vì tin tưởng chúng tôi, bạn có thể tự kiểm tra mã nguồn hoặc nhờ ai đó mà bạn tin tưởng kiểm tra, hoặc đọc các [báo cáo](/security-and-privacy#security-audits) mà các công ty bảo mật độc lập đã lập sau khi kiểm tra mã nguồn của Tella.
 
-
-We also publish and maintain a fully Free and Open Source version of Tella for Android that doesn't contain any closed-source or proprietary library or dependency. The code is shared across all Android's version of Tella [and we generate the FOSS or regular Android Tella using product flavors at build time](https://github.com/Horizontal-org/tella-Android/). When possible, we prefer fully FOSS libraries and dependencies for both versions of Tella Android. The Tella Android FOSS version of Tella is available at the [F-droid store](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
-
+We also publish and maintain a Free and Open Source version (FOSS) of Tella for Android, which doesn't contain any closed-source or proprietary library or dependency. The code is shared across all Android's version of Tella [and we generate the FOSS or regular Android Tella using product flavors at build time](https://github.com/Horizontal-org/tella-Android/). When possible, we use FOSS libraries and dependencies for both versions of Tella Android. The FOSS version of Tella Android is available on the [F-droid store](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
 
 A detailed list of features available on each platform is available here: 
 
 <FeaturesTable/>
-
 
