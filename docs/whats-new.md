@@ -20,12 +20,12 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 - Replaced camera library and location provider with FOSS options.
 - Language support improvements: updated Ukrainian.
 - Bug fixes and minor improvements:
-    - Fixed import and delete original bug that prevented original file being erased from the device in some cases.
-    - Fixed screen security issue on on boarding (some screens were not hidden).
-    - Corrected capitalization of buttons.
-    - Fixed geo-location permission flow and solved a bug that prevented geo-location flow to continue, the first time permission was granted.
-    - Added option to hide Tella Web connection url from connection's setting.
-    - Fixed bug that didn't properly removed camouflage when changing lock type.
+    - Fixed an "import and delete original" bug that prevented the original file from being erased from the device in some cases.
+    - Fixed a screen security issue during onboarding (some screens were not hidden).
+    - Corrected the capitalization of buttons.
+    - Fixed the geolocation permission flow and solved a bug that prevented the geolocation flow to continue the first time the location permission was granted.
+    - Added an option to hide the Tella Web connection ULR from the Connection's settings.
+    - Fixed a bug that didn't properly removed camouflage when changing lock type.
 
 
 ### iOS: Tella 3.0.0 (144) - Released on May 20, 2026 {#ios-tella-300144---released-on-may-20-2026}
@@ -33,20 +33,20 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 - Implemented security fixes detected by our most recent security audit (to be published soon!).
 - New languages support: Ukrainian.
 - Bug fixes and minor improvements:
-    - Added option to hide Tella Web connection url from connection's setting.
+    - Added an option to hide the Tella Web connection URL from the Connection's settings.
 
 
 
 ### Android: Tella FOSS 3.1.0 (242) (based on Android 3.1.0) - Released on Jun 8, 2026 {#android-tella-foss-310242-based-on-android-242---released-on-jun-8-2026}
-- Replaced geo-location provider.
+- Replaced the geolocation provider.
 - Bug fixes and minor improvements:
-    - Solved crash on camera that was affecting some models of Pixel phones.
-    - Fixed import and delete original bug that prevented original file being erased from the device in some cases.
-    - Fixed screen security issue on on boarding (some screens were not hidden).
-    - Corrected capitalization of buttons.
-    - Fixed geo-location permission flow and solved a bug that prevented geo-location flow to continue, the first time permission was granted.
-    - Added option to hide Tella Web connection url from connection's setting.
-    - Fixed bug that didn't properly removed camouflage when changing lock type.
+    - Solved a crash on camera that was affecting some models of Pixel phones.
+    - Fixed an "import and delete original" bug that prevented the original file from being erased from the device in some cases.
+    - Fixed a screen security issue during onboarding (some screens were not hidden).
+    - Corrected the capitalization of buttons.
+    - Fixed the geolocation permission flow and solved a bug that prevented the geolocation flow to continue the first time the location permission was granted.
+    - Added an option to hide the Tella Web connection URL from the Connection's settings.
+    - Fixed a bug that didn't properly removed camouflage when changing lock type.
 
 
 
