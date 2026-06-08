@@ -16,7 +16,7 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 ## Tella - Latest Versions {#tella---latest-versions}
 
 
-### Android: Tella 3.1.0 (241) - Released on June 6, 2026 {#android-tella-310241---released-on-jun-6-2026}
+### Android: Tella 3.1.0 (242) - Released on June 8, 2026 {#android-tella-310242---released-on-jun-8-2026}
 - Replaced camera library and location provider with FOSS options.
 - Language support improvements: updated Ukrainian.
 - Bug fixes and minor improvements:
