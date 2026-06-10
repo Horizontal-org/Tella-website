@@ -25,7 +25,7 @@ O Tella é desenvolvido e mantido pela [Horizontal](https://wearehorizontal.org)
 
 ### O Tella está disponível para Android? {#is-tella-available-on-android}
 
-Sim, o Tella está disponível para Android e pode ser baixado diretamente [da Google Play Store ](https://play.google.com/store/apps/details?id=org.hzontal.tella&gl=US), do nosso [canal do Telegram]( https://t.me/tellaapp) ou [desta pasta](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ), como uma APK, para ser instalado manualmente. Se precisar de ajuda para instalar o aplicativo manualmente, você pode [seguir este guia](https://www.androidauthority.com/how-to-install-apks-31494/) ou [entrar em contato conosco](contact-us).
+Yes, Tella is available for Android and can be downloaded directly [from the Google Play Store ](https://play.google.com/store/apps/details?id=org.hzontal.tella&gl=US),   from our [Telegram channel]( https://t.me/tellaapp) or [from this folder](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ), as an APK, to be installed manually. If you need to help to install the app manually you can [follow this guide ](https://www.androidauthority.com/how-to-install-apks-31494/) or [contact us](contact-us).
 
 :::note
 Follow the get [quick start guide for Tella users on Android](/get-started-android) for quick onboarding.
@@ -42,7 +42,7 @@ All code, libraries, and dependencies in Tella FOSS are entirely Free and Open S
 
 ### O Tella está disponível para iOS? {#is-tella-available-on-ios}
 
-Sim, o Tella para iOS pode ser baixado [pela App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580). Para detalhes sobre quais funcionalidades estão disponíveis para iOS, veja [Que funcionalidades estão disponíveis em cada plataforma](/features).
+Yes, Tella for iOS can be downloaded [from the App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580). For details about which features are available for iOS, see [What features are available on each platform](/features).
 
 :::note
 Follow the get [quick start guide for Tella users on iOS](/get-started-ios) for quick onboarding.
@@ -66,7 +66,7 @@ You can download Tella Desktop for Windows, MacOS and Linux. [Follow the quick s
 O Tella Web é um aplicativo web que age como repositório para armazenar relatórios submetidos por usuários do Tella, incluindo fotos, vídeos e áudio. Saiba mais sobre o Tella Web [aqui](/tella-web)
 
 :::note
-Perceba que não é possível criptografar e ocultar arquivos ou criar relatórios no Tella Web. Essas funcionalidades só estão disponíveis nos aplicativos para dispositivos móveis. O Tella Web é uma das [conexões](/connections) disponíveis para enviar dados coletados no aplicativo Tella.
+Note that it is not possible to encrypt and hide files or create reports on Tella Web. These features are only available on the mobile apps. Tella Web is one of the [connections](/connections) available to send the data collected on the Tella app. 
 :::
 
 ### Onde posso obter o Tella? {#where-can-i-get-tella}
@@ -84,13 +84,13 @@ Por favor consulte as perguntas [O Tella está disponível para Android?](#is-te
 O Tella é compatível com dispositivos que executam o Android 5.0 ou posterior e o iOS 14.0 ou posterior.
 
 ### Does Tella work on GrapheneOS? {#does-tella-work-on-graphene-os}
-As of December 2024, we haven't been able to test Tella Android and Tella FOSS on GrapheneOS, so we cannot confirm that all features work properly. Some users have reported that the main features (lock, file encryption and management, etc) work properly, but some of the Connections (like Google Drive) do not work. If you use GrapheneOS and you experience a problem, please [contact us](/contact-us).
+Yes, thank you to our community we have been able to test Tella (Tella Android and Tella FOSS) in GrapheneOS and all features should be working fine. If you experience any issues, please [contact us](/contact-us).
 
 ### O Tella é livre? {#is-tella-free}
 
 Sim, o Tella é livre para baixar e usar. Ele permanecerá gratuito para sempre.
 
-O Tella também é de [Código Aberto](/open-source).
+Tella is also [Open Source](/open-source).
 
 ### Em quantos idiomas o Tella está disponível? {#what-languages-is-tella-available-in}
 
