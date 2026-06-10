@@ -7,6 +7,7 @@ const Button = ({
     outline = false, // Whether the button should be an outline button
     className, // Custom classes for the button
     style, // Custom styles for the button
+    containerStyle, // Custom styles for the outer wrapper
     link, // The URL the button should link to
     label // The text of the button
 }) => {
@@ -16,6 +17,7 @@ const Button = ({
         justifyContent: 'center',
         alignItems: 'center',
         margin: "20px",
+        ...containerStyle,
     };
 
 
