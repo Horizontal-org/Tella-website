@@ -84,7 +84,7 @@ Note that it is not possible to encrypt and hide files or create reports on Tell
 ‫Tella متوافق مع الأجهزة التي تعمل بنظام أندرويد 5.0 أو أحدث منه و iOS 14.0 أو أحدث منه.
 
 ### Does Tella work on GrapheneOS? {#does-tella-work-on-graphene-os}
-As of December 2024, we haven't been able to test Tella Android and Tella FOSS on GrapheneOS, so we cannot confirm that all features work properly. Some users have reported that the main features (lock, file encryption and management, etc) work properly, but some of the Connections (like Google Drive) do not work. If you use GrapheneOS and you experience a problem, please [contact us](/contact-us).
+Yes, thank you to our community we have been able to test Tella (Tella Android and Tella FOSS) in GrapheneOS and all features should be working fine. If you experience any issues, please [contact us](/contact-us).
 
 ### هل Tella مجاني؟ {#is-tella-free}
 
