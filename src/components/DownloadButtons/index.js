@@ -1,12 +1,11 @@
 import React from 'react';
-import Button from '@site/src/components/Button';
 import { DESKTOP_RELEASE } from '@site/src/config/desktop-release';
 
 const DownloadButtons = () => (
   <div className="download-buttons">
-    <Button label="Windows" link={DESKTOP_RELEASE.windows} />
-    <Button label="macOS" link={DESKTOP_RELEASE.macos} />
-    <Button label="Linux" link={DESKTOP_RELEASE.linux} />
+    <a className="button button--primary" href={DESKTOP_RELEASE.windows}>Windows</a>
+    <a className="button button--primary" href={DESKTOP_RELEASE.macos}>macOS</a>
+    <a className="button button--primary" href={DESKTOP_RELEASE.linux}>Linux</a>
   </div>
 );
 
