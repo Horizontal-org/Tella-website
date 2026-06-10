@@ -444,3 +444,21 @@ nav {
   align-items: center;
 }
 
+.button-center {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.download-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.download-buttons .button-center {
+  margin: 0;
+}
+
