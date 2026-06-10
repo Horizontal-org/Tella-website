@@ -84,7 +84,7 @@ En fonction de l'appareil que vous possédez, referez-vous aux questions [Tella 
 Tella est compatible avec les appareils fonctionnant sous Android 5.0 ou une version ultérieure et avec iOS 14.0 ou une version ultérieure.
 
 ### Tella est-elle compatible avec GrapheneOS ? {#does-tella-work-on-graphene-os}
-En date de décembre 2024, nous n'avons pas été en mesure de tester Tella Android et Tella FOSS sur GrapheneOS, nous ne pouvons donc pas confirmer que toutes les fonctionnalités fonctionnent correctement. Certains utilisateurs ont signalé que les fonctionnalités principales (verrouillage, chiffrement et gestion des fichiers, etc.) fonctionnent correctement, mais que certaines connexions (comme Google Drive) ne fonctionnent pas. Si vous utilisez GrapheneOS et que vous rencontrez un problème, veuillez [nous contacter](/contact-us).
+Yes, thank you to our community we have been able to test Tella (Tella Android and Tella FOSS) in GrapheneOS and all features should be working fine. If you experience any issues, please [contact us](/contact-us).
 
 ### Tella est-elle gratuite ? {#is-tella-free}
 
@@ -152,7 +152,7 @@ Pour en savoir plus sur le  [code de verrouillage de Tella](/video-tutorials#tel
 ### Comment migrer Tella vers un nouveau téléphone? {#how-do-i-migrate-tella-to-a-new-phone}
 Vous pouvez utiliser le [Partage de proximité](/nearby-sharing) pour transférer vos fichiers vers un nouveau téléphone. Vous devrez installer Tella sur votre nouveau téléphone, établir une connexion sécurisée avec celui-ci via le Partage de proximité, sélectionner tous vos fichiers et les transférer vers votre nouveau téléphone. Cette fonctionnalité fonctionne également pour les migrations d'Android vers iOS, ou d'iOS vers Android.
 
-Si vous avez de nombreux fichiers, le transfert complet peut prendre un certain temps. Nous vous recommandons de vous assurer que Tella [ne se verrouille pas](/features#lock-timeout-configuration) pendant le transfert.
+If you have multiple files, the full transfer might take some time. We recommend you to make sure that Tella [does not lock](/features#lock-timeout-configuration) while the transfer is in progress.  
 
 :::tip
 Nous vous recommandons de vérifier que tous les fichiers ont bien été transférés avec succès avant de les supprimer de votre ancien téléphone.
