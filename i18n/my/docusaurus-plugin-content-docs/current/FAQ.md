@@ -25,13 +25,13 @@ Tella ကို အကျိုးအမြတ်မယူသော လူ့အ
 
 ### Tella ကို Android တွင် ရနိုင်ပါသလား။ {#is-tella-available-on-android}
 
-ဟုတ်ပါသည်၊ Tella ကို Android အတွက် ရနိုင်ပြီး [Google Play Store ](https://play.google.com/store/apps/details?id=org.hzontal.tella&gl=US) မှ တိုက်ရိုက် ဒေါင်းလုဒ်လုပ်နိုင်ပါသည် [တယ်လီဂရမ်ချန်နယ်]( https://t.me/tellaapp) သို့မဟုတ် APK တစ်ခုအဖြစ် ကိုယ်တိုင်ထည့်သွင်းရန် [ဤဖိုင်တွဲမှ](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ) ရယူနိုင်ပါသည်။ အက်ပ်ကို ကိုယ်တိုင်ထည့်သွင်းရန် ကူညီလိုပါက သင်သည် [ဤလမ်းညွှန်ချက်အတိုင်း ဆောင်ရွက်နိုင်ပါသည်](https://www.androidauthority.com/how-to-install-apks-31494/) သို့မဟုတ် [ကျွန်ုပ်တို့ထံ ဆက်သွယ်နိုင်ပါသည်](contact-us)။
+Yes, Tella is available for Android and can be downloaded directly [from the Google Play Store ](https://play.google.com/store/apps/details?id=org.hzontal.tella&gl=US),   from our [Telegram channel]( https://t.me/tellaapp) or [from this folder](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ), as an APK, to be installed manually. If you need to help to install the app manually you can [follow this guide ](https://www.androidauthority.com/how-to-install-apks-31494/) or [contact us](contact-us).
 
 :::note
 Follow the get [quick start guide for Tella users on Android](/get-started-android) for quick onboarding.
 :::
 
-:::tip
+:::အကြံပြုချက်
 [Tella ကို Play Store မှရှာပြီး ဒေါင်းလုဒ်လုပ်နည်း](/video-tutorials#find-and-download-tella-from-the-play-store) နှင့် [Tella ကို ကိုယ်တိုင် ထည့်သွင်းနည်း](/video-tutorials#manual-installation-of-tella) တို့ကို ကျွန်ုပ်တို့၏ ဗီဒီယိုသင်ခန်းစာများတွင် ထပ်မံလေ့လာပါ။
 :::
 
@@ -66,7 +66,7 @@ You can download Tella Desktop for Windows, MacOS and Linux. [Follow the quick s
 Tella ဝဘ်သည် ဓာတ်ပုံများ၊ ဗီဒီယိုများနှင့် အသံများ အပါအဝင် Tella အသုံးပြုသူများ တင်သွင်းသော အစီရင်ခံစာများကို သိမ်းဆည်းရန် သိုလှောင်ခန်းအဖြစ် ဆောင်ရွက်ပေးသည့် ဝဘ်အက်ပ်တစ်ခု ဖြစ်သည်။ Tella ဝဘ်အကြောင်း [ဤနေရာ](/tella-web) တွင် ပိုမိုလေ့လာပါ
 
 :::note
-Tella ဝဘ်တွင် ဖိုင်များကို ကုဒ်ဝှက်ခြင်းနှင့် ဖုံးကွယ်ခြင်း သို့မဟုတ် အစီရင်ခံစာများ ဖန်တီးခြင်းတို့ မပြုလုပ်နိုင်ကြောင်း သတိပြုပါ။ ဤလုပ်ဆောင်ချက်များကို မိုဘိုင်းအက်ပ်များတွင်သာ ပြုလုပ်နိုင်ပါသည်။ Tella ဝဘ်သည် Tella အက်ပ်တွင် စုဆောင်းထားသော ဒေတာများကို ပေးပို့နိုင်သော [ချိတ်ဆက်မှုများ](/connections) အနက် တစ်ခုဖြစ်သည်။
+Note that it is not possible to encrypt and hide files or create reports on Tella Web. These features are only available on the mobile apps. Tella Web is one of the [connections](/connections) available to send the data collected on the Tella app. 
 :::
 
 ### Tella ကို ဘယ်မှာ ရနိုင်မလဲ။ {#where-can-i-get-tella}
@@ -84,13 +84,13 @@ Tella ဝဘ်တွင် ဖိုင်များကို ကုဒ်ဝ
 Tella ကို Android 5.0 နှင့်အထက် နှင့် iOS 14.0 နှင့်အထက်ရှိသော စက်များနှင့် တွဲဖက်အသုံးပြုနိုင်ပါသည်။ 
 
 ### Does Tella work on GrapheneOS? {#does-tella-work-on-graphene-os}
-As of December 2024, we haven't been able to test Tella Android and Tella FOSS on GrapheneOS, so we cannot confirm that all features work properly. Some users have reported that the main features (lock, file encryption and management, etc) work properly, but some of the Connections (like Google Drive) do not work. If you use GrapheneOS and you experience a problem, please [contact us](/contact-us).
+Yes, thank you to our community we have been able to test Tella (Tella Android and Tella FOSS) in GrapheneOS and all features should be working fine. If you experience any issues, please [contact us](/contact-us).
 
 ### Tella က အခမဲ့လား။ {# is-tella-free}
 
 ဟုတ်ပါသည်၊ Tella ကို အခမဲ့ ဒေါင်းလုဒ်လုပ်ပြီး အသုံးပြုနိုင်သည်။ ၎င်းကို အမြဲတမ်းလည်း အခမဲ့ ရရှိနေမည် ဖြစ်သည်။
 
-Tella သည် [ပွင့်လင်းအရင်းအမြစ်](/open-source) လည်း ဖြစ်သည်။
+Tella is also [Open Source](/open-source).
 
 ### Tella ကို မည်သည့် ဘာသာစကားဖြင့် ရနိုင်ပါသလဲ။ {#what-languages-is-tella-available-in}
 
@@ -145,7 +145,7 @@ Continue reading about backups [in the Features page](/features#backup-files).
 
 ကံမကောင်းစွာဖြင့် Tella အတွက် သင့်သော့ခလောက်ကို မေ့သွားပါက ဝင်ရောက်ရန် နည်းလမ်းမရှိပါ။ Tella ကို ဖြုတ်ပြီး ၎င်းကို ပြန်လည်ထည့်သွင်းရပါမည်။ Tella တွင် သိမ်းဆည်းထားသည့်ဖိုင်များကို သင်ပြန်လည်ရယူနိုင်တော့မည် မဟုတ်ပါ။
 
-:::tip
+:::အကြံပြုချက်
 ကျွန်ုပ်တို့၏ ဗီဒီယိုသင်ခန်းစာများတွင် [Tella သော့ခလောက်များ](/video-tutorials#tella-locks) အကြောင်း ပိုမိုလေ့လာပါ။
 :::
 
@@ -196,7 +196,7 @@ Tella ကို အသုံးပြုခြင်းအကြောင်း 
 
 Tella သည် သင့်လိုအပ်ချက်များအတွက် အကောင်းဆုံးအက်ပ် ဖြစ်၊ မဖြစ် ဆုံးဖြတ်ရန် သင့်အား ကျွန်ုပ်တို့ကူညီပေးလိုပါသည်။ သင်ထည့်သွင်းစဉ်းစားနိုင်မည့် အခြားအဖွဲ့အစည်းများနှင့် လူ့အခွင့်အရေးကာကွယ်သူများက တီထွင်ဖန်တီးထားသော အခြားမှတ်တမ်းတင်သည့် အက်ပ်များ ရှိပါသည်။
 
-:::note
+:::မှတ်ချက်
 Tella နှင့် အခြားအက်ပ်များအကြား ခြားနားချက်ကို သင် နားလည်စေနိုင်ရန် ကျွန်ုပ်တို့သည် ဤနှိုင်းယှဉ်ဇယားကို ဖန်တီးထားသော်လည်း ဘက်လိုက်ထားနိုင်ပါသည် 😊။ အမှီအခိုကင်းသော အဖွဲ့အစည်းများ၏ နှိုင်းယှဉ်မှုများကို အောက်ပါလင့်ခ်များတွင် ကြည့်ရှုပါ။
 :::
 
