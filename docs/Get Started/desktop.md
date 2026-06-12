@@ -5,6 +5,9 @@ description: Quick start guide for Tella users on Desktop
 slug: /get-started-desktop
 ---
 
+import DownloadButtons from '@site/src/components/DownloadButtons';
+import { DESKTOP_RELEASE } from '@site/src/config/desktop-release';
+
 
 # Getting started on Tella Desktop
 
@@ -12,14 +15,23 @@ Tella Desktop is an Application you can install on your computer to be able to r
 
 ## Install Tella Desktop {#install-tella-desktop}
 
-- Download the latest installation file for your platform ([Windows](https://github.com/Horizontal-org/Tella-Desktop/actions/runs/26121122889/artifacts/7093753815), [Linux](https://github.com/Horizontal-org/Tella-Desktop/actions/runs/26121122889/artifacts/7093759692) or [macOS](https://github.com/Horizontal-org/Tella-Desktop/actions/runs/26121122889/artifacts/7093748717)).
-- Unzip it.
+- Download the installation files for your platform:
+
+<DownloadButtons />
+
+- Unzip the downloaded file.
 - Click on the Tella-Desktop file inside the folder.
 - If you get a warning from your OS saying that the file cannot be opened because it's from an un-verified developer, go to Settings > Security and Privacy and choose to open the file anyway.
+
+:::info
+Tella Desktop is [open source](/open-source). Release notes for the latest version ({DESKTOP_RELEASE.version}) and SHA256 hashes (to verify that downloads have not been tampered with) are available on <a href={DESKTOP_RELEASE.releaseNotesUrl}>GitHub</a>.
+:::
 
 :::note
 We are working to add the installation files to official Stores for each operative system.
 :::
+
+
 
 
 ## Set up your lock {#set-up-your-lock}
