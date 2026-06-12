@@ -12,11 +12,13 @@ import FeaturesTable from '.././_features-table.md';
 
 Tella အသုံးပြုသူများ၏ လုံခြုံရေးနှင့် ကိုယ်ရေးလုံခြုံမှုသည် ကျွန်ုပ်တို့မစ်ရှင်၏ ဗဟိုချက် ဖြစ်သည်။ ထို့ကြောင့် အပလီကေးရှင်း၏ကုဒ်သည် လုံးဝ ပွင့်လင်းအရင်းအမြစ် ဖြစ်ပါသည်။ ဆိုလိုရင်းမှာ ထိုကုဒ်ကို အများပြည်သူမှ ပြန်လည်သုံးသပ်နိုင်သောကြောင့် သုံးစွဲသူ၏ဒေတာကို ကျွန်ုပ်တို့အနေဖြင့် ဒေတာ အလွဲသုံးစားမပြုကြောင်း၊ ကျွန်ုပ်တို့ပြောသည့်အတိုင်း အမှန်တကယ်လုပ်ဆောင်ကြောင်းနှင့် ကျွန်ုပ်တို့၏ကုဒ် ကြံ့ခိုင်မှု ရှိကြောင်း မည်သူမဆို စစ်ဆေးနိုင်မည် ဖြစ်သည်။ 
 
-Android နှင့် iOS နှစ်မျိုးလုံးအတွက် Tella ၏ကုဒ်ကို [ကျွန်ုပ်တို့၏ GitHub သိုလှောင်ခန်းဖြစ်သည့် ဤနေရာ](https://github.com/horizontal-org) တွင် ဝင်ရောက် ကြည့်ရှုနိုင်ပါသည်။ ကျွန်ုပ်တို့ကို ယုံကြည်မည့်အစား ကုဒ်ကို သင်ကိုယ်တိုင် စစ်ဆေးနိုင်သည် သို့မဟုတ် သင်ယုံကြည်ရသူတစ်ဦးအား စစ်ဆေးရန် တောင်းဆိုနိုင်သည် သို့မဟုတ် Tella ၏ ကုဒ်ကို အမှီအခိုကင်းသော လုံခြုံရေးကုမ္ပဏီများက စစ်ဆေးပြီး ရေးသားထားသော [အစီရင်ခံစာများ](/security-and-privacy#security-audits) ကို ဖတ်နိုင်သည်။ 
+Tella ၏ ကုဒ်ကို ပလက်ဖောင်းအားလုံးအတွက် အများပြည်သူ ဝင်ကြည့်နိုင်သည်: [Tella Android](https://github.com/Horizontal-org/Tella-Android), [Tella iOS](https://github.com/Horizontal-org/Tella-iOS), [Tella Desktop](https://github.com/Horizontal-org/Tella-Desktop) နှင့် [Tella Web](https://github.com/Horizontal-org/tellaweb)။ ကျွန်ုပ်တို့ကို ယုံကြည်မည့်အစား ကုဒ်ကို သင်ကိုယ်တိုင် စစ်ဆေးနိုင်သည် သို့မဟုတ် သင်ယုံကြည်ရသူတစ်ဦးအား စစ်ဆေးရန် တောင်းဆိုနိုင်သည် သို့မဟုတ် Tella ၏ ကုဒ်ကို အမှီအခိုကင်းသော လုံခြုံရေးကုမ္ပဏီများက စစ်ဆေးပြီး ရေးသားထားသော [အစီရင်ခံစာများ](/security-and-privacy#security-audits) ကို ဖတ်နိုင်သည်။ 
 
-We also publish and maintain a Free and Open Source version (FOSS) of Tella for Android, which doesn't contain any closed-source or proprietary library or dependency. The code is shared across all Android's version of Tella [and we generate the FOSS or regular Android Tella using product flavors at build time](https://github.com/Horizontal-org/tella-Android/). When possible, we use FOSS libraries and dependencies for both versions of Tella Android. The FOSS version of Tella Android is available on the [F-droid store](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
+
+ထို့ပြင် ကျွန်ုပ်တို့သည် မည်သည့် အပိတ်ရင်းမြစ် သို့မဟုတ် တစ်ဦးတည်းပိုင် စုစည်းမှု သို့မဟုတ် မှီခိုမှုမျှ မပါဝင်သည့် Android အတွက် Tella ၏ အပြည့်အဝ အခမဲ့နှင့် ပွင့်လင်းအရင်းအမြစ် ဗားရှင်းကို ထုတ်ဝေ ထိန်းသိမ်းထားပြီး ၎င်းသည် ခြေရာခံမှုများမှ ကင်းလွတ်ပါသည်။ Tella ၏ ထိုဗားရှင်းအတွက် ကုဒ်ကို [Github တွင် ဤနေရာ](https://github.com/Horizontal-org/tella-Android/) နှင့် [F-droid စတိုး](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/) ၌ ရှာနိုင်ပါသည်။ 
 
 A detailed list of features available on each platform is available here: 
 
 <FeaturesTable/>
+
 
