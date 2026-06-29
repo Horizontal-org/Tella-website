@@ -7,7 +7,7 @@ slug: /nearby-sharing
 
 # Nearby Sharing
 
-Nearby Sharing lets users securely share files, fully offline, across platforms and devices, assuring end-to-end encryption. 
+Tella allows establishing a secure connection fully offline, across platforms, between devices that are in the same physical location and transferring files encrypted, from one Tella vault to another.
 
 This feature is designed centering the needs of people living in internet shutdowns, where privacy, security and reliability are crucial to keep connected. It's also helpful in rural areas, or for protests or large events where mobile networks are saturated or unavailable.
 
