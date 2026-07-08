@@ -28,12 +28,14 @@ To receive  updates on new features and improvements to Tella and stay up to dat
     - Fixed a bug that didn't properly removed camouflage when changing lock type.
 
 
-### iOS: Tella 3.0.0 (144) - Released on May 20, 2026 {#ios-tella-300144---released-on-may-20-2026}
-- Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files in physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
-- Implemented security fixes detected by our most recent security audit (to be published soon!).
-- New languages support: Ukrainian.
+### iOS: Tella 3.1.0 (150) - Released on July 15, 2026 {#ios-tella-310150---released-on-jul-15-2026}
+- Implemented security fixes detected by our most recent [security audit](/security-and-privacy#security-audits)
+    - Moved encryption keys to iOS Keychain. 
+    - Implemented mTLS and enforced certificate pinning for the self-signed certificates used in Nearby Sharing.
 - Bug fixes and minor improvements:
-    - Added an option to hide the Tella Web connection URL from the Connection's settings.
+    - Simplified the Nearby Sharing manual connection flow: pre-filled the port field and added automatic dot insertion after each octet while typing the IP address.
+    - Added an Unlock button when authenticating with Password.
+    - Improved error messaging for failed Uwazi submissions: the app now shows a specific error when the failure is caused by an unsupported field marked as required.
 
 
 
@@ -395,6 +397,14 @@ Also in this update:
 
 
 ### iOS {#ios-previous}
+
+### iOS: Tella 3.0.0 (144) - Released on May 20, 2026 {#ios-tella-300144---released-on-may-20-2026}
+- Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files in physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
+- Implemented security fixes detected by our most recent security audit (to be published soon!).
+- New languages support: Ukrainian.
+- Bug fixes and minor improvements:
+    - Added an option to hide the Tella Web connection URL from the Connection's settings.
+
 
 #### iOS: Tella 1.19.2 (132) - Released on April 13, 2026 {#ios-tella-1192-132---released-on-april-13-2026}
 - Hotfix: Translations now load automatically (without reloading the app).
