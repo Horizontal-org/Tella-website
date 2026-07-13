@@ -11,7 +11,7 @@ El [Open Data Kit (ODK - Kit de Datos Abiertos)](https://getodk.org/) es un est�
 
 Un servidor Open Data Kit permite a las organizaciones agregar, en un repositorio central, datos recopilados por sus miembros o socia(o)s. La(o)s usuaria(o)s de Tella se conectan a la instancia ODK de su organizaci처n, rellenan formularios cuantas veces necesiten (incluso si no tienen conexi처n a internet), y suben los datos. Organizaciones pueden descargar los datos del servidor o analizarla en el servidor, dependiendo de las alternativas del servidor elegido.
 
-De manera similar a otras conexiones de servidor (como [Tella Web](/tella-web), [Google Drive](/g-drive), [Dropbox](/dropbox), [Nextcloud](/nextcloud) o [Uwazi](/uwazi)), conectar al servidor ODK mejora la seguridad de los datos recopilados en Tella al:
+Similarly to any other server connection (like [Tella Web](/tella-web), [Google Drive](/g-drive), [Dropbox](/dropbox), [Nextcloud](/nextcloud) or [Uwazi](/uwazi)), connecting to the ODK server enhances the security of data collected on Tella by:
 
 1. Permitir a la(o)s usuaria(o)s a recopilar datos directamente dentro de un contenedor cifrado de Tella.
 2. Garantizar que los datos son enviados directamente de Tella al servidor ODK, sin tener que depender de una herramienta o app de terceras partes.
@@ -19,7 +19,7 @@ De manera similar a otras conexiones de servidor (como [Tella Web](/tella-web), 
 4. Asegurar que las organizaciones puedan conservar informaci처n importante incluso en caso de confiscaci처n o destrucci처n de dispositivo, y puedan organizarla para procesos de  investigaci처n, incidencia, o rendici처n de cuentas.
 
 :::danger
-Even though data is transferred to the server securely (SSL), anyone with access to the ODK account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+Even though data is encrypted (SSL) when transferred to the ODK account, anyone with access to the ODK account or server can view the data or files.
 :::
 
 
@@ -140,5 +140,6 @@ Debajo una vista general de los tipos de funciones ODK que son admitidos en Tell
 
 
 :::tip
-If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+If you need to share files with others without an internet connection, check out [Nearby Sharing](/nearby-sharing).
 :::
+
