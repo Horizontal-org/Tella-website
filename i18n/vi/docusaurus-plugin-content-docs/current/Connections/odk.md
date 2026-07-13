@@ -19,7 +19,7 @@ Tương tự như bất kỳ kết nối máy chủ nào khác (như [Tella Web]
 4. Đảm bảo rằng các tổ chức có thể lưu giữ thông tin quan trọng ngay cả trong trường hợp thiết bị bị thu giữ hoặc phá hủy và có thể sắp xếp dữ liệu đó cho quá trình nghiên cứu, vận động hoặc giải trình trách nhiệm.
 
 :::danger
-Even though data is encrypted (SSL) when transferred to the ODK account, anyone with access to the ODK account or server can view the data or files.
+Even though data is transferred to the server securely (SSL), anyone with access to the ODK account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
 :::
 
 
@@ -186,6 +186,5 @@ Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evid
 
 
 :::tip
-If you need to share files with others without an internet connection, check out [Nearby Sharing](/nearby-sharing).
+If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
 :::
-
