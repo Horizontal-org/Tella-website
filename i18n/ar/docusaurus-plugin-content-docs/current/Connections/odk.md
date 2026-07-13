@@ -19,7 +19,7 @@ slug: /odk
 4. التأكد من أن المنظمات يمكنها الحفاظ على المعلومات المهمة حتى في حالة مصادرة الجهاز أو عند تدميره، والتأكد من أنه يمكن تنظيم تلك المعلومات للبحث أو للمناصرة أو لإجراءات المساءلة.
 
 :::danger
-Even though data is encrypted (SSL) when transferred to the ODK account, anyone with access to the ODK account or server can view the data or files.
+Even though data is transferred to the server securely (SSL), anyone with access to the ODK account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
 :::
 
 
@@ -138,6 +138,5 @@ There are other ODK-compliant apps available, like [Ona](https://ona.io/home/) o
 
 
 :::tip
-If you need to share files with others without an internet connection, check out [Nearby Sharing](/nearby-sharing).
+If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
 :::
-
