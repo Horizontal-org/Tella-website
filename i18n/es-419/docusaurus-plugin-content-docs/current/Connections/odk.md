@@ -19,7 +19,7 @@ Similarly to any other server connection (like [Tella Web](/tella-web), [Google 
 4. Asegurar que las organizaciones puedan conservar información importante incluso en caso de confiscación o destrucción de dispositivo, y puedan organizarla para procesos de  investigación, incidencia, o rendición de cuentas.
 
 :::danger
-Even though data is encrypted (SSL) when transferred to the ODK account, anyone with access to the ODK account or server can view the data or files.
+Even though data is transferred to the server securely (SSL), anyone with access to the ODK account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
 :::
 
 
@@ -140,6 +140,5 @@ Debajo una vista general de los tipos de funciones ODK que son admitidos en Tell
 
 
 :::tip
-If you need to share files with others without an internet connection, check out [Nearby Sharing](/nearby-sharing).
+If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
 :::
-
