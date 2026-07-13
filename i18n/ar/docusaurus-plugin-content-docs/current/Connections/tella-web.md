@@ -28,7 +28,7 @@ Tella Web هي أداة مفتوحة المصدر تُمكِّن الأفراد 
 * **تحضير الأشخاص الميدانيين لبدء إرسال التقارير**: يقوم المستخدمون بتثبيت Tella على أجهزتهم التي تعمل بنظام أندرويد أو آيفون. ثم يتصلون بمشروع Tella Web وبعدها يبدؤون في جمع المعلومات.
 
 :::danger
-Even though data is transferred to the server securely (SSL), anyone with access to the Tella Web account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+Even though data is encrypted (SSL) when transferred to Tella Web, anyone with access to your Tella Web account or to the server can view the files.
 :::
 
 ## تثبيت الخادم {#install-the-server}
@@ -345,7 +345,7 @@ The Outbox contains:
 * التقارير التي تم وسمها بـ "إرسال لاحقا"
 
 :::tip
-If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+If you need to share files with others without an internet connection, check out [Nearby Sharing](/nearby-sharing).
 :::
 
 
