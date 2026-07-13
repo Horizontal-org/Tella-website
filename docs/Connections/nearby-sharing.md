@@ -1,7 +1,7 @@
 ---
 id: nearby-sharing
 title: Nearby Sharing
-description: Learn about Tella's encrypted, cross-platform, fully offline feature for sharing files between Tella vaults in physical proximity. Available for Android, iOS and Desktop.
+description: Learn about Tella's secure, cross-platform offline file-sharing features on Android, iOS and Desktop.
 slug: /nearby-sharing
 ---
 

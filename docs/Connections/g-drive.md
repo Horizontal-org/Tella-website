@@ -26,7 +26,7 @@ The Google Drive connection is not available in Tella Android FOSS, because it u
 :::
 
 :::danger
-Even though data is transferred to the server securely (SSL), anyone with access to the Google Drive account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+Even though data is encrypted (SSL) when transferred to your Google Drive account, anyone with access to the Drive account can view the files.
 :::
 
 ## When to Use Google Drive {#when-to-use-google-drive}
