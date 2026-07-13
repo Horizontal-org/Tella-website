@@ -19,7 +19,7 @@ Similarly to any other server connection (like [Tella Web](/tella-web), [Google 
 4. Assegurar que as organizações possam preservar informações importantes, mesmo no caso de apreensão ou destruição de dispositivo, e possam organizá-las para uso em processos de pesquisa, advocacia pública ou processos de responsabilização.
 
 :::danger
-Even though data is transferred to the server securely (SSL), anyone with access to the ODK account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+Even though data is encrypted (SSL) when transferred to the ODK account, anyone with access to the ODK account or server can view the data or files.
 :::
 
 
@@ -59,7 +59,7 @@ A conexão ODK não está disponível no Tella para iOS.
 :::
 
 ### Conecte a um Servidor ODK {#connect-to-an-odk-server}
-Após criar e implantar um formulário usando qualquer servidor em conformidade com o ODK, no Tella, dirija-se para **Configurações** > **Conexões** > **+** > **Open Data Kit (ODK)**. Preencha os seguintes campos:
+After creating and deploying a Form using any ODK-compliant server, in Tella, go to **Settings** > **Connections** > **+** > **Open Data Kit (ODK)**. Fill the following fields:
 - **Nome do Servidor**: Um nome descritivo para o seu servidor no Tella. O nome selecionado por você está apenas visível no aplicativo e não impacta a conexão ODK.
 - **URL do Servidor**: A URL do seu servidor. Por exemplo, `kc.kobotoolbox.org` caso esteja usando o servidor público do KoboToolbox.
 Se o servidor requerer autenticação de usuário, toque no botão **Avançado**  e entre o seu **Nome de usuário** e **Senha**. O administrador do seu servidor deve fornecer todas essas informações para você.
@@ -69,7 +69,7 @@ Se o servidor requerer autenticação de usuário, toque no botão **Avançado**
 
 Após ter se conectado com sucesso à instância ODK, você verá um novo cartão chamado "Formulários" nas seções **Conexões** na tela inicial do Tella.
 
-Após entrar na seção **Formulários**, você verá uma lista de formulários disponíveis para você na(s) instância(s) às quais está conectado. Usando o botão **Baixar**, você pode baixar formulários para o Tella para que possa preenchê-los, mesmo quando não estiver conectado à internet.
+After you enter the **Forms** section, you will see a list of Forms available to you on the instance(s) that you are connected to. Using the **Download** button you can download forms to Tella so that you can fill them, even if you are not connected to the internet.
 
 Você pode tocar em cada formulário em branco para começar a preenchê-lo.
 
@@ -140,5 +140,6 @@ Abaixo está uma visão geral das funcionalidades do ODK que possuem suporte no 
 
 
 :::tip
-If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+If you need to share files with others without an internet connection, check out [Nearby Sharing](/nearby-sharing).
 :::
+
