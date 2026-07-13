@@ -28,7 +28,7 @@ Tella ဝဘ်ကို စတင်တည်ဆောက်ရာတွင် 
 * **အစီရင်ခံစာများ စတင်ပေးပို့ရန် မြေပြင်မှလူများအား အသင့်ပြင်ဆင်ခိုင်းပါ** - အသုံးပြုသူများသည် ၎င်းတို့၏ Android သို့မဟုတ် iPhone စက်တွင် Tella ကို ထည့်သွင်းပါ။ ထို့နောက် အသုံးပြုသူများသည် Tella ဝက်ဘ် ပရောဂျက်သို့ ချိတ်ဆက်၍ အချက်အလက်များကို စတင်စုဆောင်းသည်။
 
 :::danger
-Even though data is transferred to the server securely (SSL), anyone with access to the Tella Web account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+Even though data is encrypted (SSL) when transferred to Tella Web, anyone with access to your Tella Web account or to the server can view the files.
 :::
 
 ## ဆာဗာ ထည့်သွင်းမည် {#install-the-server}
@@ -345,7 +345,7 @@ The Outbox contains:
 * "နောက်မှ တင်သွင်းရန်" အဖြစ် အမှတ်အသားပြုထားသော အစီရင်ခံစာများ
 
 :::tip
-If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+If you need to share files with others without an internet connection, check out [Nearby Sharing](/nearby-sharing).
 :::
 
 
