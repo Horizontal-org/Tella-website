@@ -28,7 +28,7 @@ Thiết lập Tella Web bao gồm ba bước được thảo luận kỹ lưỡn
 * Cài đặt máy chủ {#install-the-server}
 
 :::danger
-Even though data is transferred to the server securely (SSL), anyone with access to the Tella Web account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+Even though data is encrypted (SSL) when transferred to Tella Web, anyone with access to your Tella Web account or to the server can view the files.
 :::
 
 ## Bước này bao gồm cài đặt và cấu hình Tella Web trên máy chủ mà tổ chức của bạn sẽ sử dụng. Bước này cần được hoàn thành bởi người sẽ chịu trách nhiệm quản trị hệ thống (nhà phát triển hoặc quản trị viên hệ thống). Hướng dẫn kỹ thuật có thể được tìm thấy trên [Github của chúng tôi](https://github.com/Horizontal-org/tellaweb).
@@ -401,7 +401,7 @@ The Outbox contains:
 * Các báo cáo được đánh dấu là "Gửi sau".
 
 :::tip
-If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+If you need to share files with others without an internet connection, check out [Nearby Sharing](/nearby-sharing).
 :::
 
 
