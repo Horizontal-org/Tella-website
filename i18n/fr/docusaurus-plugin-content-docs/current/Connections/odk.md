@@ -19,7 +19,7 @@ De la même manière que toute autre connexion au serveur (comme [Tella Web](/te
 4. Assurant que les organisations peuvent conserver les informations importantes même en cas de saisie ou de destruction d'appareils, et les organiser à des fins de recherche, de plaidoyer ou de processus de responsabilisation.
 
 :::danger
-Even though data is encrypted (SSL) when transferred to the ODK account, anyone with access to the ODK account or server can view the data or files.
+Even though data is transferred to the server securely (SSL), anyone with access to the ODK account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
 :::
 
 
@@ -138,6 +138,5 @@ Soumettre : envoyer le formulaire rempli au serveur ODK.
 
 
 :::tip
-If you need to share files with others without an internet connection, check out [Nearby Sharing](/nearby-sharing).
+If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
 :::
-
