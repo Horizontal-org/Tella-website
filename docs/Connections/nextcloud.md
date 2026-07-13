@@ -21,7 +21,7 @@ Similarly to other server connections (like [Tella Web](/tella-web), [Google Dri
 Submissions to Nextcloud take the form of "reports" which include a title, a text description, and files like photos, videos and audio recordings.
 
 :::danger
-Even though data is transferred to the server securely (SSL), anyone with access to the Nexctloud account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+Even though data is encrypted (SSL) when transferred to your Nextcloud account, anyone with access to the Nextcloud account or server can view the files.
 :::
 
 ## When to Use Nextcloud {#when-to-use-Nextcloud}
@@ -124,7 +124,7 @@ The Outbox contains:
 * Reports that were marked as "Submit later"
 
 :::tip
-If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+If you need to share files with others without an internet connection, check out [Nearby Sharing](/nearby-sharing).
 :::
 
 

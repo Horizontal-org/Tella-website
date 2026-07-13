@@ -18,7 +18,7 @@ Similarly to all other server connections([Tella Web](/tella-web), [Google Drive
 4. Ensuring that organizations can preserve important information even in the event of device seizure or destruction, and can organize it to use for research, advocacy, or accountability processes.
 
 :::danger
-Even though data is transferred to the server securely (SSL), anyone with access to the Uwazi account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+Even though data is encrypted (SSL) when transferred to Uwazi, anyone with access to your Uwazi account or to the server can view the files.
 :::
 
 ### Testing Uwazi {#testing-uwazi}
@@ -130,5 +130,5 @@ Then go back to the Uwazi main screen and tap the template you want to use to cr
 
 
 :::tip
-If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+If you need to share files with others without an internet connection, check out [Nearby Sharing](/nearby-sharing).
 :::

@@ -27,7 +27,7 @@ Currently, Tella can be connected to the following types of servers:
 These are called [Connections](/features#connecting-to-servers) in Tella. 
 
 :::danger
-For now, any files you submit to a connection might stored unencrypted on that server or drive (that depends on the server configuration). This means that anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
+For now, any file you submit to a connection may be stored unencrypted on that server or drive (this depends on the configuration of the server or drive and is unrelated to Tella). This means that anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
 
 We strongly recommend reviewing and understanding the permission model of each connection you use, in order to determine which option is safest and most appropriate for your specific use case.
 :::
@@ -59,7 +59,11 @@ On this table we explain what server types are available on the Tella apps:
 <ConnectionsTable/>
 
 :::info
-For offline file sharing or during internet shutdowns, [Nearby Sharing](/nearby-sharing) could be helpful.  If you need to share files with other apps the [Share button](/features#share-button) could be useful.
+For offline file sharing or during internet shutdowns, check out [Nearby Sharing](/nearby-sharing).
+::: 
+
+:::info
+If you need to share files through other apps, use the [Share button](/features#share-button).
 :::
 
 ### Tella Web {#tella-web}
