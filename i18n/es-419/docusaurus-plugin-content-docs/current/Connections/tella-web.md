@@ -28,7 +28,7 @@ Configurar Tella Web conlleva tres pasos, que son analizados detalladamente en e
 * **Preparar a las personas sobre el terreno para empezar a enviar informes**: La(o)s usuaria(o)s instalan Tella en su dispositivo Android o iPhone. Posteriormente se conectan al proyecto Tella Web y empiezan a recopilar información.
 
 :::danger
-Even though data is transferred to the server securely (SSL), anyone with access to the Tella Web account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+Even though data is encrypted (SSL) when transferred to Tella Web, anyone with access to your Tella Web account or to the server can view the files.
 :::
 
 ## Cuándo Usar Tella Web {#when-to-use-tella-web}
@@ -349,7 +349,7 @@ The Outbox contains:
 * Informes que fueron marcados como "Enviar luego".
 
 :::tip
-If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+If you need to share files with others without an internet connection, check out [Nearby Sharing](/nearby-sharing).
 :::
 
 
