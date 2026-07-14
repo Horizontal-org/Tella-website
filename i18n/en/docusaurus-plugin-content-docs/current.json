@@ -14,5 +14,13 @@
   "sidebar.generalSidebar.category.Connections": {
     "message": "Connections",
     "description": "The label for category Connections in sidebar generalSidebar"
+  },
+  "sidebar.generalSidebar.category.Discover Tella": {
+    "message": "Discover Tella",
+    "description": "The label for category Discover Tella in sidebar generalSidebar"
+  },
+  "sidebar.generalSidebar.category.Get Started": {
+    "message": "Get Started",
+    "description": "The label for category Get Started in sidebar generalSidebar"
   }
 }
