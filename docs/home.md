@@ -13,7 +13,7 @@ import GoFurtherCards from '@site/src/components/GoFurtherCards'
 
 Welcome to the Tella Documentation! 
 
-Below you will find everything you need to understand how Tella works, its security features and limitations, and how to get started. To stay up-to-date with the latest, subscribe to [our newsletter](https://blog.wearehorizontal.org/#/portal), join our [monthly community meetings](/community-meetings), or [contact us](/contact-us)!
+Below you will find everything you need to understand how Tella works, its security features and limitations, and how to get started. To stay up-to-date with the latest, subscribe to [our newsletter](https://blog.wearehorizontal.org/#/portal), or [contact us](/contact-us)!
 
 ## Discover Tella {#discover-tella}
 

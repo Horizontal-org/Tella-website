@@ -44,7 +44,5 @@ Por favor, apresente-se e faça quaisquer perguntas que possam surgir após segu
 
 ## Onde posso interagir com outras pessoas contribuidoras ou fazer uma solicitação? {#where-can-i-interact-with-other-contributors-or-make-a-request}
 
-Junte-se a nós nas [Reuniões mensais da comunidade](/community-meetings) do Tella.
-
 Se deseja que nós adicionemos um novo idioma, [entre em contato conosco](/contact-us).
 

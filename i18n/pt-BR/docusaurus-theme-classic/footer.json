@@ -31,10 +31,6 @@
     "message": "Ajuda & Contato",
     "description": "The label of footer link with label=Help & Contact linking to /contact-us"
   },
-  "link.item.label.Community Meetings": {
-    "message": "Reuniões da Comunidade",
-    "description": "The label of footer link with label=Community Meetings linking to /community-meetings"
-  },
   "link.item.label.Mastodon": {
     "message": "Mastodon",
     "description": "The label of footer link with label=Mastodon linking to https://infosec.exchange/@tella"

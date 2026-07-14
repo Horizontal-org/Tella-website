@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
 import Translate, {translate} from '@docusaurus/Translate';
 import contactImageUrl from '@site/static/img/contact.png';
 
@@ -68,17 +67,6 @@ export default function ContactUs() {
                             here
                           </Translate>
                         </a>
-                        .
-                      </li>
-                      <li>
-                        <Translate id="contactUs.getInTouch.meeting">
-                          Join our next
-                        </Translate>{' '}
-                        <Link to="/community-meetings">
-                          <Translate id="contactUs.getInTouch.meeting.linkText">
-                            Community Meeting
-                          </Translate>
-                        </Link>
                         .
                       </li>
                       <li>

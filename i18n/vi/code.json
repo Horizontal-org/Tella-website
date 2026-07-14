@@ -388,12 +388,6 @@
   "contactUs.getInTouch.call.linkText": {
     "message": "tại đây"
   },
-  "contactUs.getInTouch.meeting": {
-    "message": "Tham gia"
-  },
-  "contactUs.getInTouch.meeting.linkText": {
-    "message": "Cuộc Họp Cộng Đồng sắp tới của chúng tôi"
-  },
   "contactUs.getInTouch.feedback": {
     "message": "Sử dụng mẫu phản hồi ấn danh trong phần Cài Đặt của Tella."
   },

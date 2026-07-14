@@ -388,12 +388,6 @@
   "contactUs.getInTouch.call.linkText": {
     "message": "ici"
   },
-  "contactUs.getInTouch.meeting": {
-    "message": "Rejoignez notre prochaine"
-  },
-  "contactUs.getInTouch.meeting.linkText": {
-    "message": "réunion communautaire"
-  },
   "contactUs.getInTouch.feedback": {
     "message": "Utilisez le formulaire de rétroaction anonyme dans les paramètres de Tella."
   },

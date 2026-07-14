@@ -412,12 +412,6 @@
   "contactUs.getInTouch.call.linkText": {
     "message": "aqui"
   },
-  "contactUs.getInTouch.meeting": {
-    "message": "Participe de nossa próxima"
-  },
-  "contactUs.getInTouch.meeting.linkText": {
-    "message": "Reunião da Comunidade"
-  },
   "contactUs.getInTouch.feedback": {
     "message": "Use o formulário anônimo de feedback nas Configurações do Tella."
   },

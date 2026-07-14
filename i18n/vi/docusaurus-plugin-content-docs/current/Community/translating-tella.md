@@ -44,7 +44,5 @@ Vui lòng giới thiệu về bản thân và đặt bất kỳ câu hỏi nào 
 
 ## Tôi có thể tương tác với những cộng tác viên khác hoặc đưa ra yêu cầu ở đâu? {#where-can-i-interact-with-other-contributors-or-make-a-request}
 
-Tham gia cùng chúng tôi tại [Cuộc họp Cộng đồng Hàng tháng của Tella](/community-meetings).
-
 Nếu bạn muốn thêm một ngôn ngữ mới, [liên hệ với chúng tôi](/contact-us).
 

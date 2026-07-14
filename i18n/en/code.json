@@ -393,12 +393,6 @@
   "contactUs.getInTouch.call.linkText": {
     "message": "here"
   },
-  "contactUs.getInTouch.meeting": {
-    "message": "Join our next"
-  },
-  "contactUs.getInTouch.meeting.linkText": {
-    "message": "Community Meeting"
-  },
   "contactUs.getInTouch.feedback": {
     "message": "Use the anonymous feedback form in the Tella Settings."
   },

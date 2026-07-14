@@ -388,12 +388,6 @@
   "contactUs.getInTouch.call.linkText": {
     "message": "ဤနေရာ"
   },
-  "contactUs.getInTouch.meeting": {
-    "message": "ကျွန်ုပ်တို့၏ နောင်လာမည့်"
-  },
-  "contactUs.getInTouch.meeting.linkText": {
-    "message": "အသိုင်းအဝိုင်းအစည်းအဝေး"
-  },
   "contactUs.getInTouch.feedback": {
     "message": "Tella ဆက်တင်များတွင် အမည်မသိ တုံ့ပြန်ချက်ပုံစံကို အသုံးပြုပါ။"
   },

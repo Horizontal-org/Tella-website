@@ -13,7 +13,7 @@ import GoFurtherCards from '@site/src/components/GoFurtherCards'
 
 مرحبا بكم في توثيقات Tella!
 
-ستجد أدناه كل ما تحتاجه لفهم كيفية عمل Tella والميزات الأمنية والقيود الخاصة به وكيفية بدء الاستخدام. للبقاء على اطلاع بأحدث الأخبار، اشترك في [نشرتنا الإخبارية](https://blog.wearehorizontal.org/#/portal)، أو انضم إلى [اجتماعات المجتمع الشهرية](/community-meetings)، أو [اتصل بنا](/contact-us)!
+ستجد أدناه كل ما تحتاجه لفهم كيفية عمل Tella والميزات الأمنية والقيود الخاصة به وكيفية بدء الاستخدام. للبقاء على اطلاع بأحدث الأخبار، اشترك في [نشرتنا الإخبارية](https://blog.wearehorizontal.org/#/portal)، أو [اتصل بنا](/contact-us)!
 
 
 ## اكتشف Tella {#discover-tella}

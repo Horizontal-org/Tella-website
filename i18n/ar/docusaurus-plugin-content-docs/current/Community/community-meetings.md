@@ -4,6 +4,7 @@ title: اجتماعات مجتمع Tella
 description: تفاصيل حول المكالمات الشهرية لمجتمع Tella
 slug: /community-meetings
 sidebar_position: 1
+unlisted: true
 ---
 
 # اجتماعات مجتمع Tella

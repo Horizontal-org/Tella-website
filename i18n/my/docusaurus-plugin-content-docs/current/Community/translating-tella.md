@@ -44,7 +44,5 @@ import TellaLanguages from '.././_tella-languages.md';
 
 ## အခြားပံ့ပိုးကူညီသူများနှင့် အပြန်အလှန်ဆက်သွယ်ခြင်း သို့မဟုတ် တောင်းဆိုခြင်းကို မည်သည့်နေရာတွင် ပြုလုပ်နိုင်ပါသလဲ။ {#where-can-i-interact-with-other-contributors-or-make-a- request} 
 
-Tella ၏ [လစဉ် အသိုင်းအဝိုင်း အစည်းအဝေးများ](/community-meetings) တွင် ကျွန်ုပ်တို့နှင့်အတူ ပါဝင်ပါ။
-
 ဘာသာစကားအသစ်တစ်ခု ထည့်လိုပါက [ကျွန်ုပ်တို့ထံ ဆက်သွယ်ပါ](/contact-us)။
 

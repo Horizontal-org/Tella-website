@@ -13,7 +13,7 @@ import GoFurtherCards from '@site/src/components/GoFurtherCards'
 
 Chào mừng bạn đến với Tài liệu Tella!
 
-Dưới đây là mọi thông tin bạn cần để hiểu cách Tella hoạt động như thế nào, các tính năng bảo mật và hạn chế của nó cũng như cách bắt đầu sử dụng.  Để luôn cập nhật thông tin mới nhất, hãy đăng ký [bản tin của chúng tôi](https://blog.wearehorizontal.org/#/portal), tham gia [cuộc họp cộng đồng hàng tháng](/community-meetings), hoặc [liên hệ với chúng tôi](/contact-us)!
+Dưới đây là mọi thông tin bạn cần để hiểu cách Tella hoạt động như thế nào, các tính năng bảo mật và hạn chế của nó cũng như cách bắt đầu sử dụng.  Để luôn cập nhật thông tin mới nhất, hãy đăng ký [bản tin của chúng tôi](https://blog.wearehorizontal.org/#/portal), hoặc [liên hệ với chúng tôi](/contact-us)!
 
 
 ## Khám phá Tella {#discover-tella}

@@ -159,10 +159,6 @@ const config = {
                 href: '/contact-us',
               },
               {
-                label: 'Community Meetings',
-                href: '/community-meetings',
-              },
-              {
                 label: 'Mastodon',
                 href: 'https://infosec.exchange/@tella',
               },

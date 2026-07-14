@@ -13,7 +13,7 @@ import GoFurtherCards from '@site/src/components/GoFurtherCards'
 
 ¡Bienvenida(o)s a la Documentación de Tella!
 
-A continuación encontrarás todo lo que necesitas entender sobre cómo funciona Tella, sus funciones de seguridad y limitaciones, y cómo empezar. Para mantenerte al día con las últimas, suscríbete a [nuestro boletín](https://blog.wearehorizontal.org/#/portal), o únete a nuestras [reuniones comunitarias mensuales](/community-meetings), o [contáctanos](/contact-us)!
+A continuación encontrarás todo lo que necesitas entender sobre cómo funciona Tella, sus funciones de seguridad y limitaciones, y cómo empezar. Para mantenerte al día con las últimas, suscríbete a [nuestro boletín](https://blog.wearehorizontal.org/#/portal), o [contáctanos](/contact-us)!
 
 
 ## Descubre Tella {#discover-tella}

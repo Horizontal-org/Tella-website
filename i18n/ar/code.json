@@ -388,12 +388,6 @@
   "contactUs.getInTouch.call.linkText": {
     "message": "هنا"
   },
-  "contactUs.getInTouch.meeting": {
-    "message": "انضم إلينا في"
-  },
-  "contactUs.getInTouch.meeting.linkText": {
-    "message": "اللقاء المقبل مع مجتمعنا"
-  },
   "contactUs.getInTouch.feedback": {
     "message": "استخدم استمارة التعليقات المجهولة في إعدادات Tella."
   },

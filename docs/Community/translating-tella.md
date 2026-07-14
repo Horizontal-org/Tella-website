@@ -44,7 +44,5 @@ Please introduce yourself and ask any questions you may have after following the
 
 ## Where can I interact with other contributors or make a request? {#where-can-i-interact-with-other-contributors-or-make-a-request}
 
-Join us on Tella's [Monthly community meetings](/community-meetings).
-
 If you want us to add a new language, [contact us](/contact-us).
 

@@ -44,7 +44,5 @@ import TellaLanguages from '.././_tella-languages.md';
 
 ## أين يمكنني التفاعل مع المساهمين الآخرين أو تقديم طلبي؟ {#where-can-i-interact-with-other-contributors-or-make-a-request}
 
-‫انضم إلينا في [لقاءات المجتمع الشهرية](/community-meetings) لـ Tella.
-
 إذا كنت تريد منا أن إضافة لغة جديدة، [اتصل بنا](/contact-us).
 
