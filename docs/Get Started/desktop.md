@@ -3,6 +3,7 @@ id: get-started-desktop
 title: Desktop
 description: Quick start guide for Tella users on Desktop
 slug: /get-started-desktop
+sidebar_position: 3
 ---
 
 import DownloadButtons from '@site/src/components/DownloadButtons';

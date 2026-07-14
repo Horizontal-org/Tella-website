@@ -3,6 +3,7 @@ id: video-tutorials
 title: Video tutorials
 description: Tella video tutorials
 slug: /video-tutorials
+sidebar_position: 4
 ---
 
 ## Find and download Tella from the Play Store {#find-and-download-tella-from-the-play-store}

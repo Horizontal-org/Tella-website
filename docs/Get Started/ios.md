@@ -3,6 +3,7 @@ id: get-started-ios
 title: iOS
 description: Quick start guide for Tella users on iOS
 slug: /get-started-ios
+sidebar_position: 2
 ---
 
 # Getting started on Tella on iOS
