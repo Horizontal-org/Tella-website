@@ -30,8 +30,8 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 
 ### iOS: Tella 3.1.0 (150) - Released on July 15, 2026 {#ios-tella-310150---released-on-jul-15-2026}
 - Implemented security fixes detected by our most recent [security audit](/security-and-privacy#security-audits)
-    - Moved encryption keys to iOS Keychain. 
-    - Implemented mTLS and enforced certificate pinning for the self-signed certificates used in Nearby Sharing.
+    - Moved encryption keys to the Keychain. 
+    - Implemented mTLS and enforced certificate pinning for both the sender and receiver in Nearby Sharing. This is a mitigation for man-in-the-middle attacks.
 - Bug fixes and minor improvements:
     - Simplified the Nearby Sharing manual connection flow: pre-filled the port field and added automatic dot insertion after each octet while typing the IP address.
     - Added an Unlock button when authenticating with Password.
