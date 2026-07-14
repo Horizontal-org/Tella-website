@@ -263,6 +263,13 @@ nav {
 
 /* HOMEPAGE */
 
+/* Docusaurus centers this same row via a CSS-modules class private to
+   @theme/MDXPage (mdxPageWrapper { justify-content: center }), which custom
+   pages can't reference. Reapply it here for our own React pages. */
+.page-row-centered {
+  justify-content: center;
+}
+
 #intro {
     margin-top: 30px;
     display: flex;

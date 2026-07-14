@@ -380,16 +380,16 @@
     "message": "ဆက်သွယ်လိုက်ပါ"
   },
   "contactUs.getInTouch.email": {
-    "message": "ကျွန်ုပ်တို့ထံ {email} သို့ စာရေးပါ"
+    "message": "ကျွန်ုပ်တို့ထံ"
   },
   "contactUs.getInTouch.call": {
-    "message": "တိုက်ရိုက်ခေါ်ဆိုရန် {link}တွင် အချိန်သတ်မှတ်စီစဉ်ပါ။"
+    "message": "တိုက်ရိုက်ခေါ်ဆိုရန်"
   },
   "contactUs.getInTouch.call.linkText": {
     "message": "ဤနေရာ"
   },
   "contactUs.getInTouch.meeting": {
-    "message": "ကျွန်ုပ်တို့၏ နောင်လာမည့် {link}တွင် ပါဝင်ပါ။"
+    "message": "ကျွန်ုပ်တို့၏ နောင်လာမည့်"
   },
   "contactUs.getInTouch.meeting.linkText": {
     "message": "အသိုင်းအဝိုင်းအစည်းအဝေး"
@@ -398,7 +398,7 @@
     "message": "Tella ဆက်တင်များတွင် အမည်မသိ တုံ့ပြန်ချက်ပုံစံကို အသုံးပြုပါ။"
   },
   "contactUs.newsletter": {
-    "message": "သို့မဟုတ် ကျွန်ုပ်တို့၏ သတင်းလွှာကို {link}တွင် စာရင်းသွင်းပါ။"
+    "message": "သို့မဟုတ် ကျွန်ုပ်တို့၏ သတင်းလွှာကို"
   },
   "contactUs.newsletter.linkText": {
     "message": "ဤနေရာ"
@@ -414,5 +414,189 @@
   },
   "downloadButtons.linux": {
     "message": "Linux"
+  },
+  "homepage.tagline": {
+    "message": "Document & protect"
+  },
+  "homepage.intro": {
+    "message": "In challenging environments, with limited or no internet connectivity or in the face of repression, Tella makes it easier and safer to collect, protect and hide sensitive data."
+  },
+  "homepage.googlePlayAlt": {
+    "message": "Get Tella on Google Play"
+  },
+  "homepage.appStoreAlt": {
+    "message": "Get Tella on App Store"
+  },
+  "homepage.fdroidAlt": {
+    "message": "Get Tella on F-Droid"
+  },
+  "homepage.screenshotAlt": {
+    "message": "Screenshot of the Tella app on Android. Showing Connections to Tella Web Uwazi and the folder structure showing that within Tella users can record and save Images, Videos and Audios securely and encripted."
+  },
+  "homepage.whyTella.title": {
+    "message": "ဘာကြောင့် Tella ကို သုံးသင့်လဲ။"
+  },
+  "homepage.whyTella.imageAlt": {
+    "message": "Why Tella illustration"
+  },
+  "homepage.whyTella.intro": {
+    "message": "သင်သည် တက်ကြွလှုပ်ရှားသူ၊ သတင်းထောက်၊ လူ့အခွင့်အရေး ကာကွယ်သူ သို့မဟုတ် မတရားမှုများကို မှတ်တမ်းတင်သူ ဖြစ်ပါက Tella ကို အသုံးပြုနိုင်ပါသည်-"
+  },
+  "homepage.whyTella.item1.emphasis": {
+    "message": "သင့်ကိုယ်သင် ကာကွယ်ရန်"
+  },
+  "homepage.whyTella.item1.rest": {
+    "message": "ထိရှလွယ်သော စာရွက်စာတမ်းများ စုဆောင်း၊ သိမ်းဆည်းစဉ် ရုပ်ပိုင်းဆိုင်ရာနှင့် ဒစ်ဂျစ်တယ်ပိုင်းဆိုင်ရာ ဖိနှိပ်မှုများမှ ကာကွယ်နိုင်သည်။"
+  },
+  "homepage.whyTella.item2.emphasis": {
+    "message": "သင်စုဆောင်းသော ဒေတာများကို ကာကွယ်ရန်"
+  },
+  "homepage.whyTella.item2.rest": {
+    "message": "ဆင်ဆာဖြတ်ခြင်း၊ နှောင့်ယှက်ခြင်း၊ ကြားဖြတ်ယူခြင်းနှင့် ဖျက်ဆီးခြင်းတို့မှ ကာကွယ်ရန်။"
+  },
+  "homepage.whyTella.item3.emphasis": {
+    "message": "အရည်အသွေးမြင့်သော စာရွက်စာတမ်းများကို လွယ်ကူစွာ ထုတ်လုပ်ရန်"
+  },
+  "homepage.whyTella.item3.rest": {
+    "message": "သုတေသန၊ တရားမျှတစေရန် ဆောင်ရွက်ခြင်း သို့မဟုတ် အသွင်ကူးပြောင်းရေးဆိုင်ရာ တရားမျှတမှုတို့အတွက် အသုံးပြုနိုင်သည်။"
+  },
+  "homepage.protectData.title": {
+    "message": "၁။ သင်၏ဒေတာကို ကာကွယ်ပါ",
+    "description": "The leading '1.' is part of the translatable text."
+  },
+  "homepage.protectData.item1.emphasis": {
+    "message": "သင့်ဖိုင်များကို စကားဝှက်ထည့်ရန်-"
+  },
+  "homepage.protectData.item1.rest": {
+    "message": "Tella သည် သင့်ဓာတ်ပုံများ၊ ဗီဒီယိုများနှင့် အသံဖိုင်များကို စကားဝှက်ထည့်သွင်းမှုကို ချက်ချင်းပြုလုပ်ပါသည်။"
+  },
+  "homepage.protectData.item2.emphasis": {
+    "message": "သင့်ဖိုင်များကို စက်ပစ္စည်းတွင် ဖျောက်ရန်-"
+  },
+  "homepage.protectData.item2.rest": {
+    "message": "သင့်ဖိုင်များကို ဖုန်းရှိ ပုံမှန် ပုံပြခန်း သို့မဟုတ် ဖိုင်ရှာဖွေအက်ပ်မှ ဝင်ရောက်ကြည့်ရှု၍မရပါ။ အက်ပ်အတွင်း၌သာ ဝင်ရောက်ကြည့်ရှုနိုင်ပါသည်။"
+  },
+  "homepage.protectData.item3.emphasis": {
+    "message": "သင့်ဖိုင်များကို သော့ခတ်ရန်-"
+  },
+  "homepage.protectData.item3.rest": {
+    "message": "သင့်ဖိုင်များကို ကာကွယ်ရန် PIN သို့မဟုတ် စကားဝှက်တစ်ခု သတ်မှတ်ပါ။ မှန်ကန်သော သော့ကို ထည့်ခြင်းကသာ Tella တွင် သိမ်းဆည်းထားသော ဖိုင်များကို ကုဒ်ဖြည်နိုင်သည့် နည်းလမ်းဖြစ်သည်။"
+  },
+  "homepage.protectData.item4.emphasis": {
+    "message": "အက်ပ်ကို အသွင်ပြောင်းရန်-"
+  },
+  "homepage.protectData.item4.rest": {
+    "message": "အခြားသူများမှ ဖုန်းကိုရှာဖွေနေစဉ် Tella ကို ပုံစံပြောင်း၍ ဝှက်ထားနိုင်ပါသည်။"
+  },
+  "homepage.protectData.item5.emphasis": {
+    "message": "Share your files:",
+    "description": "Newest bullet, not yet translated in most locales."
+  },
+  "homepage.protectData.item5.rest": {
+    "message": "choose one of the secure methods to share your files with other Tella vault or to a server."
+  },
+  "homepage.protectData.imageAlt": {
+    "message": "Vault illustration"
+  },
+  "homepage.protectData.cta": {
+    "message": "Tella ၏ အင်္ဂါရပ်များကို လေ့လာပါ"
+  },
+  "homepage.collectEvidence.title": {
+    "message": "၂။ လူ့အခွင့်အရေး ချိုးဖောက်မှုများကို မှတ်တမ်းတင်ပါ",
+    "description": "The leading '2.' is part of the translatable text."
+  },
+  "homepage.collectEvidence.imageAlt": {
+    "message": "Notepad illustration"
+  },
+  "homepage.collectEvidence.item1.emphasis": {
+    "message": "Tella အတွင်းရှိ ကင်မရာနှင့် အသံဖမ်းစက်-"
+  },
+  "homepage.collectEvidence.item1.rest": {
+    "message": "သင့်ဖိုင်များကို အက်ပ်တွင် ချက်ချင်း ကုဒ်ဝှက်ပြီး ဝှက်ထားနိုင်ရန် ဓာတ်ပုံရိုက်ခြင်း၊ ဗီဒီယိုမှတ်တမ်းတင်ခြင်းနှင့် အသံဖမ်းခြင်းတို့ကို Tella တွင် တိုက်ရိုက်ပြုလုပ်နိုင်သည်။"
+  },
+  "homepage.collectEvidence.item2a.emphasis": {
+    "message": "Tella integrates"
+  },
+  "homepage.collectEvidence.item2a.with": {
+    "message": "with",
+    "description": "Platform names below (Uwazi, Open Data Kit, Tella Web, Google Drive, Dropbox, Nextcloud) are proper nouns and are not translated."
+  },
+  "homepage.collectEvidence.item2a.and": {
+    "message": "and"
+  },
+  "homepage.collectEvidence.item2b.linkText": {
+    "message": "Pick the platform"
+  },
+  "homepage.collectEvidence.item2b.after": {
+    "message": "that best suits your needs and share data directly from Tella."
+  },
+  "homepage.collectEvidence.item3a.emphasis": {
+    "message": "Offline-first:"
+  },
+  "homepage.collectEvidence.item3a.rest": {
+    "message": "in areas with limited or no internet connection, you can save your data and submit it when you reach a reliable internet connection."
+  },
+  "homepage.collectEvidence.item3b.before": {
+    "message": "Tella also offers a"
+  },
+  "homepage.collectEvidence.item3b.linkText": {
+    "message": "fully offline feature to transfer files to nearby devices"
+  },
+  "homepage.collectEvidence.item3b.after": {
+    "message": "using Tella."
+  },
+  "homepage.collectEvidence.cta": {
+    "message": "အဖွဲ့အစည်းများက Tella ကို မည်သို့အသုံးပြုနေကြောင်း ဖတ်ရှုပါ"
+  },
+  "homepage.openSource.title": {
+    "message": "၃. Tella သည် အခမဲ့ဖြစ်သည့်အပြင် ဘာသာစကားများစွာဖြင့် ရရှိနိုင်သော ပွင့်လင်းအရင်းအမြစ်ဖြစ်သည်",
+    "description": "The leading '3.' is part of the translatable text."
+  },
+  "homepage.openSource.item1.emphasis": {
+    "message": "အမြဲ အခမဲ့-"
+  },
+  "homepage.openSource.item1.rest": {
+    "message": "Tella ကို လုံခြုံရေးအန္တရာယ်ကျရောက်နေသူများအတွက် ရေးဆွဲထားပါသည်။ ၎င်းကို အခမဲ့ ဒေါင်းလုဒ်လုပ်၍ အသုံးပြုနိုင်ပြီး အစဉ်အမြဲ အခမဲ့ ရယူနိုင်မည်ဖြစ်သည်။"
+  },
+  "homepage.openSource.item2.emphasis": {
+    "message": "သင့်ဘာသာစကား ရွေးပါ-"
+  },
+  "homepage.openSource.item2.before": {
+    "message": "Tella is currently"
+  },
+  "homepage.openSource.item2.linkText": {
+    "message": "available",
+    "description": "Refers to language availability, not stock/inventory availability."
+  },
+  "homepage.openSource.item2.after": {
+    "message": "in 25 languages."
+  },
+  "homepage.openSource.item3a.emphasis": {
+    "message": "ကုဒ်ကို ယုံကြည်ပါ-"
+  },
+  "homepage.openSource.item3a.before": {
+    "message": "Tella အတွက် ကုဒ်ကို သုတေသီများ၊ လုံခြုံရေးအခြေအနေ ခွဲခြားစိတ်ဖြာသူများနှင့် ဆော့ဖ်ဝဲတီထွင်သူများက အခမဲ့ စိစစ်၍ ပြန်လည်အသုံးပြုနိုင်ရန် ပွင့်လင်းအရင်းအမြစ်အဖြစ် ပြုလုပ်ပေးထားပြီး"
+  },
+  "homepage.openSource.item3a.linkText": {
+    "message": "အများသူငှာ ရယူအသုံးပြုနိုင်ပါသည်"
+  },
+  "homepage.openSource.item3a.after": {
+    "message": "။"
+  },
+  "homepage.openSource.item3b.before": {
+    "message": "We publish the",
+    "description": "Newest content, not yet translated in most locales."
+  },
+  "homepage.openSource.item3b.linkText": {
+    "message": "security audits"
+  },
+  "homepage.openSource.item3b.after": {
+    "message": "that independent firms have performed on Tella."
+  },
+  "homepage.openSource.imageAlt": {
+    "message": "Open source illustration"
+  },
+  "contactUs.getInTouch.email.after": {
+    "message": "သို့ စာရေးပါ"
   }
 }

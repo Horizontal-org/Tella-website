@@ -380,16 +380,16 @@
     "message": "لنتواصل"
   },
   "contactUs.getInTouch.email": {
-    "message": "اكتب لنا على {email}"
+    "message": "اكتب لنا على"
   },
   "contactUs.getInTouch.call": {
-    "message": "تحديد موعد للمكالمة المباشرة {link}."
+    "message": "تحديد موعد للمكالمة المباشرة"
   },
   "contactUs.getInTouch.call.linkText": {
     "message": "هنا"
   },
   "contactUs.getInTouch.meeting": {
-    "message": "انضم إلينا في {link}."
+    "message": "انضم إلينا في"
   },
   "contactUs.getInTouch.meeting.linkText": {
     "message": "اللقاء المقبل مع مجتمعنا"
@@ -398,7 +398,7 @@
     "message": "استخدم استمارة التعليقات المجهولة في إعدادات Tella."
   },
   "contactUs.newsletter": {
-    "message": "أو اشترك في نشرتنا الإخبارية: {link}."
+    "message": "أو اشترك في نشرتنا الإخبارية:"
   },
   "contactUs.newsletter.linkText": {
     "message": "هنا"
@@ -414,5 +414,240 @@
   },
   "downloadButtons.linux": {
     "message": "Linux"
+  },
+  "homepage.tagline": {
+    "message": "التوثيق والحماية"
+  },
+  "homepage.intro": {
+    "message": "في البيئات الصعبة حيث يكون الاتصال بالانترنت محدودا أو معدوما، أو في ظل القمع، يُعد تطبيق Tella وسيلة أسهل وأكثر أمنا لتوثيق انتهاكات حقوق الإنسان وجمع البيانات."
+  },
+  "homepage.googlePlayAlt": {
+    "message": "Get Tella on Google Play"
+  },
+  "homepage.appStoreAlt": {
+    "message": "Get Tella on App Store"
+  },
+  "homepage.fdroidAlt": {
+    "message": "Get Tella on F-Droid"
+  },
+  "homepage.screenshotAlt": {
+    "message": "Screenshot of the Tella app on Android. Showing Connections to Tella Web Uwazi and the folder structure showing that within Tella users can record and save Images, Videos and Audios securely and encripted."
+  },
+  "homepage.whyTella.title": {
+    "message": "لماذا Tella؟"
+  },
+  "homepage.whyTella.imageAlt": {
+    "message": "Why Tella illustration"
+  },
+  "homepage.whyTella.intro": {
+    "message": "إذا كنت ناشطا أو صحفيا أو مدافعا عن حقوق الإنسان، أو كنت أي شخص يُوثِّق ما يحدث من الظلم، يمكنك استخدام Tella للقيام بما يلي لـ:"
+  },
+  "homepage.whyTella.item1": {
+    "message": "{emphasis} from physical and digital repression while collecting and storing sensitive information."
+  },
+  "homepage.whyTella.item2": {
+    "message": "{emphasis} from censorship, tampering, interception, and destruction."
+  },
+  "homepage.whyTella.item3": {
+    "message": "{emphasis} that can be used for research, advocacy, or transitional justice."
+  },
+  "homepage.protectData.title": {
+    "message": "1. حماية بياناتك",
+    "description": "The leading '1.' is part of the translatable text."
+  },
+  "homepage.protectData.item1": {
+    "message": "{emphasis} Tella automatically encrypts your photos, videos, and audio recordings as soon as they are captured."
+  },
+  "homepage.protectData.item2": {
+    "message": "{emphasis} your files are inaccessible from the phone's regular gallery or file explorer. You can only access them in the app."
+  },
+  "homepage.protectData.item3": {
+    "message": "{emphasis} set a PIN or password to protect your files. Entering the correct lock is the only way to decrypt the files stored in Tella."
+  },
+  "homepage.protectData.item4": {
+    "message": "{emphasis} change the look of Tella to hide it from people searching your phone."
+  },
+  "homepage.protectData.item5": {
+    "message": "{emphasis} choose one of the secure methods to share your files with other Tella vault or to a server."
+  },
+  "homepage.protectData.imageAlt": {
+    "message": "Vault illustration"
+  },
+  "homepage.protectData.cta": {
+    "message": "تعرف على ميزات Tella"
+  },
+  "homepage.collectEvidence.title": {
+    "message": "2. جمع الأدلة حول  انتهاكات حقوق الإنسان",
+    "description": "The leading '2.' is part of the translatable text."
+  },
+  "homepage.collectEvidence.imageAlt": {
+    "message": "Notepad illustration"
+  },
+  "homepage.collectEvidence.item1": {
+    "message": "{emphasis} take photos, record videos and audio directly in Tella so that your files are immediately encrypted and hidden in the app."
+  },
+  "homepage.collectEvidence.item2a": {
+    "message": "{emphasis} with {uwazi}, {odk}, {tellaWeb}, {googleDrive}, {dropbox} and {nextcloud}."
+  },
+  "homepage.collectEvidence.item2b": {
+    "message": "{link} that best suits your needs and share data directly from Tella."
+  },
+  "homepage.collectEvidence.item2b.linkText": {
+    "message": "Pick the platform"
+  },
+  "homepage.collectEvidence.item3a": {
+    "message": "{emphasis} in areas with limited or no internet connection, you can save your data and submit it when you reach a reliable internet connection."
+  },
+  "homepage.collectEvidence.item3b": {
+    "message": "Tella also offers a {link} using Tella."
+  },
+  "homepage.collectEvidence.item3b.linkText": {
+    "message": "fully offline feature to transfer files to nearby devices"
+  },
+  "homepage.collectEvidence.cta": {
+    "message": "اقرأ كيف تستخدم المنظمات Tella"
+  },
+  "homepage.openSource.title": {
+    "message": "‫3. Tella مجاني، متعدد اللغات، ومفتوح المصدر",
+    "description": "The leading '3.' is part of the translatable text."
+  },
+  "homepage.openSource.item1": {
+    "message": "{emphasis} Tella is designed for those whose safety is at risk. It is free to download and use, and will remain free forever."
+  },
+  "homepage.openSource.item2": {
+    "message": "{emphasis} Tella is currently {link} in 25 languages."
+  },
+  "homepage.openSource.item2.linkText": {
+    "message": "available",
+    "description": "Refers to language availability, not stock/inventory availability."
+  },
+  "homepage.openSource.item3a": {
+    "message": "{emphasis} The code for Tella is open-source and {link} so that researchers, security analysts, and developers can freely audit and reuse it."
+  },
+  "homepage.openSource.item3a.linkText": {
+    "message": "متاح للعموم"
+  },
+  "homepage.openSource.item3b": {
+    "message": "We publish the {link} that independent firms have performed on Tella."
+  },
+  "homepage.openSource.item3b.linkText": {
+    "message": "security audits"
+  },
+  "homepage.openSource.imageAlt": {
+    "message": "Open source illustration"
+  },
+  "homepage.whyTella.item1.emphasis": {
+    "message": "حماية نفسك"
+  },
+  "homepage.whyTella.item1.rest": {
+    "message": "من القمع الجسدي والرقمي أثناء جمع وتخزين المعلومات الحساسة."
+  },
+  "homepage.whyTella.item2.emphasis": {
+    "message": "حماية البيانات التي تجمعها"
+  },
+  "homepage.whyTella.item2.rest": {
+    "message": "من الرقابة عليها، والتلاعب بها، والتجسس عليها، وتدميرها."
+  },
+  "homepage.whyTella.item3.emphasis": {
+    "message": "إنتاج توثيقات عالية الجودة بسهولة"
+  },
+  "homepage.whyTella.item3.rest": {
+    "message": "، حيث يمكن استخدامها للبحث أو للمناصرة، أو للعدالة الانتقالية."
+  },
+  "homepage.protectData.item1.emphasis": {
+    "message": "تعمية ملفاتك:"
+  },
+  "homepage.protectData.item1.rest": {
+    "message": "يقوم Tella بتعمية الصور والفيديوهات والتسجيلات الصوتية تلقائيا فور التقاطها."
+  },
+  "homepage.protectData.item2.emphasis": {
+    "message": "إخفاء ملفاتك في الجهاز:"
+  },
+  "homepage.protectData.item2.rest": {
+    "message": "تكون ملفاتك غير متاحة من خلال معرض الصور المعتاد للهاتف وغير متاحة أيضا من خلال مدير الملفات. يمكنك الوصول إليها فقط في التطبيق."
+  },
+  "homepage.protectData.item3.emphasis": {
+    "message": "قفل ملفاتك:"
+  },
+  "homepage.protectData.item3.rest": {
+    "message": "تعيين رقم التعريف الشخصي أو كلمة السر لحماية ملفاتك. يُعد إدخال القفل الصحيح هو الطريقة الوحيدة لفك تعمية الملفات المُخزَّنة في Tella."
+  },
+  "homepage.protectData.item4.emphasis": {
+    "message": "إخفاء التطبيق:"
+  },
+  "homepage.protectData.item4.rest": {
+    "message": "تغيير مظهر Tella لإخفائه عن الأشخاص الذين يبحثون في هاتفك."
+  },
+  "homepage.protectData.item5.emphasis": {
+    "message": "Share your files:",
+    "description": "Newest bullet, not yet translated in most locales."
+  },
+  "homepage.protectData.item5.rest": {
+    "message": "choose one of the secure methods to share your files with other Tella vault or to a server."
+  },
+  "homepage.collectEvidence.item1.emphasis": {
+    "message": "الكاميرا ومُسجِّل الصوت من داخل Tella:"
+  },
+  "homepage.collectEvidence.item1.rest": {
+    "message": "التقط الصور، وسجِّل الفيديوهات والأصوات مباشرة داخل Tella لكي تتم تعمية ملفاتك ولأجل إخفائها فورا في التطبيق."
+  },
+  "homepage.collectEvidence.item2a.emphasis": {
+    "message": "Tella integrates"
+  },
+  "homepage.collectEvidence.item2a.with": {
+    "message": "with",
+    "description": "Platform names below (Uwazi, Open Data Kit, Tella Web, Google Drive, Dropbox, Nextcloud) are proper nouns and are not translated."
+  },
+  "homepage.collectEvidence.item2a.and": {
+    "message": "and"
+  },
+  "homepage.collectEvidence.item2b.after": {
+    "message": "that best suits your needs and share data directly from Tella."
+  },
+  "homepage.collectEvidence.item3a.emphasis": {
+    "message": "Offline-first:"
+  },
+  "homepage.collectEvidence.item3a.rest": {
+    "message": "in areas with limited or no internet connection, you can save your data and submit it when you reach a reliable internet connection."
+  },
+  "homepage.collectEvidence.item3b.before": {
+    "message": "Tella also offers a"
+  },
+  "homepage.collectEvidence.item3b.after": {
+    "message": "using Tella."
+  },
+  "homepage.openSource.item1.emphasis": {
+    "message": "مجاني للأبد:"
+  },
+  "homepage.openSource.item1.rest": {
+    "message": "تم تصميم Tella لأولئك الذين تكون سلامتهم مُعرَّضة للخطر. إن تنزيله واستخدامه مجاني، وسيظل مجانيا إلى الأبد."
+  },
+  "homepage.openSource.item2.emphasis": {
+    "message": "اختر لغتك:"
+  },
+  "homepage.openSource.item2.before": {
+    "message": "Tella is currently"
+  },
+  "homepage.openSource.item2.after": {
+    "message": "in 25 languages."
+  },
+  "homepage.openSource.item3a.emphasis": {
+    "message": "ثق بالنص البرمجي:"
+  },
+  "homepage.openSource.item3a.before": {
+    "message": "إن النص البرمجي لـ Tella مفتوح المصدر و"
+  },
+  "homepage.openSource.item3a.after": {
+    "message": "بحيث يمكن للباحثين، والمحللين الأمنيين، والمطورين التدقيق فيه وإعادة استخدامه بحُرية."
+  },
+  "homepage.openSource.item3b.before": {
+    "message": "We publish the",
+    "description": "Newest content, not yet translated in most locales."
+  },
+  "homepage.openSource.item3b.after": {
+    "message": "that independent firms have performed on Tella."
+  },
+  "contactUs.getInTouch.email.after": {
+    "message": ""
   }
 }
