@@ -1,103 +1,103 @@
 {
   "theme.ErrorPageContent.title": {
     "message": "حدث خطأ في هذه الصفحة.",
-    "description": "عنوان صفحة الاسترداد عند تعطل الصفحة"
+    "description": "The title of the fallback page when the page crashed"
   },
   "theme.NotFound.title": {
     "message": "الصفحة غير موجودة",
-    "description": "عنوان صفحة 404"
+    "description": "The title of the 404 page"
   },
   "theme.NotFound.p1": {
     "message": "لم نتمكن من العثور على ما تبحث عنه.",
-    "description": "الفقرة الأولى من صفحة 404"
+    "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
     "message": "يرجى التواصل مع مالك الموقع الذي ربطك بالرابط الأصلي وأخبره بأن الرابط معطل.",
-    "description": "الفقرة الثانية من صفحة 404"
+    "description": "The 2nd paragraph of the 404 page"
   },
   "theme.admonition.note": {
     "message": "ملاحظة",
-    "description": "التسمية الافتراضية المستخدمة لملاحظة التنبيه (:::note)"
+    "description": "The default label used for the Note admonition (:::note)"
   },
   "theme.admonition.tip": {
     "message": "نصيحة",
-    "description": "التسمية الافتراضية المستخدمة لنصيحة التنبيه (:::tip)"
+    "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.danger": {
     "message": "خطر",
-    "description": "التسمية الافتراضية المستخدمة لخطر التنبيه (:::danger)"
+    "description": "The default label used for the Danger admonition (:::danger)"
   },
   "theme.admonition.info": {
     "message": "معلومات",
-    "description": "التسمية الافتراضية المستخدمة لمعلومات التنبيه (:::info)"
+    "description": "The default label used for the Info admonition (:::info)"
   },
   "theme.admonition.caution": {
     "message": "حذر",
-    "description": "التسمية الافتراضية المستخدمة لحذر التنبيه (:::caution)"
+    "description": "The default label used for the Caution admonition (:::caution)"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
     "message": "العودة إلى الأعلى",
-    "description": "تسمية ARIA لزر العودة إلى الأعلى"
+    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
     "message": "الأرشيف",
-    "description": "عنوان الصفحة والعنوان الرئيسي لصفحة أرشيف المدونة"
+    "description": "The page & hero title of the blog archive page"
   },
   "theme.blog.archive.description": {
     "message": "الأرشيف",
-    "description": "وصف الصفحة والعنوان الرئيسي لصفحة أرشيف المدونة"
+    "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.paginator.navAriaLabel": {
     "message": "التنقل عبر صفحة قائمة المدونات",
-    "description": "تسمية ARIA للتنقل عبر صفحات المدونة"
+    "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
     "message": "مقالات أحدث",
-    "description": "التسمية المستخدمة للتنقل إلى صفحة مقالات المدونة الأحدث (الصفحة السابقة)"
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
     "message": "مقالات أقدم",
-    "description": "التسمية المستخدمة للتنقل إلى صفحة مقالات المدونة الأقدم (الصفحة التالية)"
+    "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
     "message": "شريط التنقل لمشاركات المدونة",
-    "description": "تسمية ARIA للتنقل بين مشاركات المدونة"
+    "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
     "message": "منشور أحدث",
-    "description": "تسمية زر منشور المدونة للتنقل إلى المنشور الأحدث/السابق"
+    "description": "The blog post button label to navigate to the newer/previous post"
   },
   "theme.blog.post.paginator.olderPost": {
     "message": "منشور أقدم",
-    "description": "تسمية زر منشور المدونة للتنقل إلى المنشور الأقدم/التالي"
+    "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.blog.post.plurals": {
     "message": "منشور واحد|{count} منشورات",
-    "description": "تسمية جمع لمنشور|{count} منشورات\". استخدم أشكال الجمع حسب اللغة (انظر https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
     "message": "{nPosts} موسومة بـ \"{tagName}\"",
-    "description": "عنوان صفحة وسم المدونة"
+    "description": "The title of the page for a blog tag"
   },
   "theme.tags.tagsPageLink": {
     "message": "عرض جميع الوسوم",
-    "description": "تسمية الرابط المستهدف لقائمة الوسوم"
+    "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel": {
     "message": "التبديل بين الوضع الداكن والفاتح (حاليًا {mode})",
-    "description": "تسمية ARIA لمبدل وضع الألوان في شريط التنقل"
+    "description": "The ARIA label for the color mode toggle"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
     "message": "وضع داكن",
-    "description": "الاسم للوضع الداكن"
+    "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
     "message": "وضع فاتح",
-    "description": "الاسم للوضع الفاتح"
+    "description": "The name for the light color mode"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
     "message": "مسار التنقل",
-    "description": "تسمية ARIA لمسار التنقل"
+    "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.DocCard.categoryDescription": {
     "message": "{count} مقالات",
@@ -105,81 +105,260 @@
   },
   "theme.docs.paginator.navAriaLabel": {
     "message": "صفحة الوثائق",
-    "description": "تسمية ARIA لتصفح صفحات الوثائق"
+    "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
     "message": "السابق",
-    "description": "التسمية المستخدمة للتنقل إلى الوثيقة السابقة"
+    "description": "The label used to navigate to the previous doc"
   },
   "theme.docs.paginator.next": {
     "message": "التالي",
-    "description": "التسمية المستخدمة للتنقل إلى الوثيقة التالية"
+    "description": "The label used to navigate to the next doc"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
     "message": "وثيقة واحدة موسومة|{count} وثائق موسومة",
-    "description": "تسمية جمع لـ \"{count} وثائق موسومة\". استخدم أشكال الجمع حسب اللغة (انظر https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
     "message": "{nDocsTagged} بـ \"{tagName}\"",
-    "description": "عنوان صفحة وسم الوثائق"
+    "description": "The title of the page for a docs tag"
   },
   "theme.docs.versionBadge.label": {
     "message": "الإصدار: {versionLabel}"
   },
   "theme.common.editThisPage": {
     "message": "تحرير هذه الصفحة",
-    "description": "تسمية الرابط لتحرير الصفحة الحالية"
+    "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
     "message": "رابط مباشر إلى {heading}",
-    "description": "عنوان الرابط إلى العنوان"
+    "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
     "message": " في {date}",
-    "description": "الكلمات المستخدمة لوصف تاريخ آخر تحديث للصفحة"
+    "description": "The words used to describe on which date a page has been last updated"
   },
   "theme.lastUpdated.byUser": {
     "message": " بواسطة {user}",
-    "description": "الكلمات المستخدمة لوصف من قام بتحديث الصفحة آخر مرة"
+    "description": "The words used to describe by who the page has been last updated"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
     "message": "آخر تحديث {atDate} {byUser}",
-    "description": "الجملة المستخدمة لعرض تاريخ آخر تحديث للصفحة ومن قام بذلك"
+    "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "هذه هي الوثائق غير المنشورة للإصدار {siteTitle} {versionLabel}.",
-    "description": "التسمية المستخدمة لإخبار المستخدم بأنه يتصفح إصدار وثائق غير منشور"
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
     "message": "هذه هي الوثائق للإصدار {siteTitle} {versionLabel}، التي لم تعد مُصانة بشكل نشط.",
-    "description": "التسمية المستخدمة لإخبار المستخدم بأنه يتصفح إصدار وثائق غير مُصان"
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
     "message": "للحصول على الوثائق المحدثة، انظر {latestVersionLink} ({versionLabel}).",
-    "description": "التسمية المستخدمة لإخبار المستخدم بفحص أحدث إصدار"
+    "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
     "message": "أحدث إصدار",
-    "description": "التسمية المستخدمة لرابط اقتراح أحدث إصدار"
+    "description": "The label used for the latest version suggestion link label"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
     "message": "الإصدارات",
-    "description": "تسمية القائمة المنسدلة للإصدارات في العرض المحمول"
+    "description": "The label for the navbar versions dropdown on mobile view"
   },
   "theme.tags.tagsListLabel": {
     "message": "الوسوم:",
-    "description": "التسمية بجانب قائمة الوسوم"
+    "description": "The label alongside a tag list"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
     "message": "إغلاق",
-    "description": "تسمية ARIA لزر إغلاق شريط الإعلان"
+    "description": "The ARIA label for close button of announcement bar"
   },
   "theme.blog.sidebar.navAriaLabel": {
     "message": "التنقل في المنشورات الحديثة",
-    "description": "تسمية ARIA للمنشورات الحديثة في الشريط الجانبي للمدونة"
+    "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.CodeBlock.wordWrapToggle": {
     "message": "تبديل التفاف الكلمات",
-    "description": "عنوان زر تبديل التفاف الكلمات في كود البلوك"
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "system mode",
+    "description": "The name for the system color mode"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count} مواد",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.admonition.warning": {
+    "message": "warning",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Expand sidebar category '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Collapse sidebar category '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Main",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "اللغات",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "محتويات هذه الصفحة",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "اقرأ المزيد",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "اقراء المزيد {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "{readingTime} دقائق قراءة|{readingTime} دقائق قراءة",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "نسخ",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "تم النسخ",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "نسخ الرمز إلى الحافظة",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "الرئيسية",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "طي الشريط الجانبي",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "طي الشريط الجانبي",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Close navigation bar",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "→ العودة إلى القائمة الرئيسية",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Toggle navigation bar",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Expand the dropdown",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Collapse the dropdown",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "توسيع الشريط الجانبي",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "توسيع الشريط الجانبي",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "No results"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "See results outside {context}"
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "See all results in {context}"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "See all results"
+  },
+  "theme.SearchBar.label": {
+    "message": "Search",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Search results for \"{query}\"",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Search the documentation",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "everywhere"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "1 document found|{count} documents found",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "No documents were found",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Authors",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "View All Authors",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "This author has not written any posts yet.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Unlisted page",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Draft page",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "description": "The draft content banner message"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "المحاولة مجددا",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "انتقل إلى المحتوى الرئيسي",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "الوسوم",
+    "description": "The title of the tag list page"
   }
 }

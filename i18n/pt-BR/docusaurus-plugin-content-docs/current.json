@@ -3,20 +3,24 @@
     "message": "Seguinte",
     "description": "The label for version current"
   },
-  "sidebar.generalSidebar.category.Discover Tella": {
-    "message": "Explore o Tella",
-    "description": "The label for category Discover Tella in sidebar generalSidebar"
-  },
-  "sidebar.generalSidebar.category.Get Started": {
-    "message": "Começar",
-    "description": "The label for category Get Started in sidebar generalSidebar"
-  },
-  "sidebar.generalSidebar.category.For organizations": {
-    "message": "Para organizações",
-    "description": "The label for category For organizations in sidebar generalSidebar"
-  },
   "sidebar.generalSidebar.category.Community": {
     "message": "Comunidade",
     "description": "The label for category Community in sidebar generalSidebar"
+  },
+  "sidebar.generalSidebar.category.Explore o Tella": {
+    "message": "Explore o Tella",
+    "description": "The label for category Explore o Tella in sidebar generalSidebar"
+  },
+  "sidebar.generalSidebar.category.index": {
+    "message": "index",
+    "description": "The label for category index in sidebar generalSidebar"
+  },
+  "sidebar.generalSidebar.category.Começar": {
+    "message": "Começar",
+    "description": "The label for category Começar in sidebar generalSidebar"
+  },
+  "sidebar.generalSidebar.category.Conexões": {
+    "message": "Conexões",
+    "description": "The label for category Conexões in sidebar generalSidebar"
   }
 }

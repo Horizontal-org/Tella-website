@@ -27,10 +27,6 @@
     "message": "ဗီဒီယို သင်ခန်းစာများ",
     "description": "The label of footer link with label=Video Tutorials linking to /video-tutorials"
   },
-  "link.item.label.Tella for Organizations": {
-    "message": "အဖွဲ့အစည်းများအတွက် Tella",
-    "description": "The label of footer link with label=Tella for Organizations linking to /for-organizations"
-  },
   "link.item.label.Help & Contact": {
     "message": "အကူအညီနှင့် ဆက်သွယ်ရန်",
     "description": "The label of footer link with label=Help & Contact linking to /contact-us"
@@ -82,5 +78,13 @@
   "copyright": {
     "message": "Tella သည် <a href=\"https://wearehorizontal.org/\">1Horizontal</a> မှ မှတ်ပုံတင်ထားသော 501(c)(3) အကျိုးအမြတ်မယူသော – EIN: 83-1782268 မှ စီမံကိန်းတစ်ခု ဖြစ်သည်။</br> ဤဝဘ်ဆိုဒ်ကို Creative Commons 4.0 Attribution International License အောက်တွင် လိုင်စင် ထားရှိသည်။",
     "description": "The footer copyright"
+  },
+  "link.title.About this site": {
+    "message": "About this site",
+    "description": "The title of the footer links column with title=About this site in the footer"
+  },
+  "link.item.label.Connections": {
+    "message": "Connections",
+    "description": "The label of footer link with label=Connections linking to /connections"
   }
 }

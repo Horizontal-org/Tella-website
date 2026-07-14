@@ -31,10 +31,6 @@
     "message": "Video Tutorials",
     "description": "The label of footer link with label=Video Tutorials linking to /video-tutorials"
   },
-  "link.item.label.Tella for Organizations": {
-    "message": "Tella for Organizations",
-    "description": "The label of footer link with label=Tella for Organizations linking to /for-organizations"
-  },
   "link.item.label.Help & Contact": {
     "message": "Help & Contact",
     "description": "The label of footer link with label=Help & Contact linking to /contact-us"
@@ -86,5 +82,9 @@
   "copyright": {
     "message": "Tella is a project by <a href=\"https://wearehorizontal.org/\">Horizontal</a>, a registered 501(c)(3) nonprofit – EIN: 83-1782268. </br> This website is licensed under a Creative Commons 4.0 Attribution International License.",
     "description": "The footer copyright"
+  },
+  "link.item.label.Connections": {
+    "message": "Connections",
+    "description": "The label of footer link with label=Connections linking to /connections"
   }
 }
