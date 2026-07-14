@@ -598,5 +598,29 @@
   },
   "contactUs.getInTouch.email.after": {
     "message": ""
+  },
+  "goFurther.faq.label": {
+    "message": "Các câu hỏi thường gặp (FAQ)"
+  },
+  "goFurther.faq.description": {
+    "message": "Các câu hỏi thường gặp về Tella"
+  },
+  "goFurther.contactUs.label": {
+    "message": "Liên hệ với chúng tôi"
+  },
+  "goFurther.contactUs.description": {
+    "message": "Liên hệ để được hỗ trợ hoặc giải đáp."
+  },
+  "goFurther.releases.label": {
+    "message": "What's new (changelog)"
+  },
+  "goFurther.releases.description": {
+    "message": "Tella changelogs"
+  },
+  "goFurther.privacy.label": {
+    "message": "Chính sách về Quyền riêng tư"
+  },
+  "goFurther.privacy.description": {
+    "message": "Chính sách Bảo mật của Tella"
   }
 }

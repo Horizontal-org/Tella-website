@@ -3,6 +3,7 @@ id: open-source
 title: Tella သည် ပွင့်လင်းအရင်းအမြစ် ဖြစ်သည်
 description: ပွင့်လင်းအရင်းအမြစ် ဖြစ်ရေး Tella ၏ ကြိုးပမ်းလုပ်ဆောင်မှုဆိုင်ရာ အချက်အလက်များနှင့် သိုလှောင်ခန်းများသို့ လင့်ခ်များ
 slug: /open-source
+sidebar_position: 2
 ---
 import FeaturesTable from '.././_features-table.md';
 

@@ -3,6 +3,7 @@ id: translating-tella
 title: Chuyển ngữ Tella
 description: Thông tin về cách hỗ trợ chuyển ngữ Tella
 slug: /translating-tella
+sidebar_position: 3
 ---
 import TellaLanguages from '.././_tella-languages.md';
 

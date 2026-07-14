@@ -22,5 +22,9 @@
   "sidebar.generalSidebar.category.Connections": {
     "message": "Connections",
     "description": "The label for category Connections in sidebar generalSidebar"
+  },
+  "sidebar.generalSidebar.category.Comunidad": {
+    "message": "Comunidad",
+    "description": "The label for category Comunidad in sidebar generalSidebar"
   }
 }

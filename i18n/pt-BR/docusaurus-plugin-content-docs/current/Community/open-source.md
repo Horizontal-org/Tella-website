@@ -3,6 +3,7 @@ id: open-source
 title: Código Aberto
 description: Informações sobre o compromisso do Tella com o Código Aberto e links para repositórios
 slug: /open-source
+sidebar_position: 2
 ---
 import FeaturesTable from '.././_features-table.md';
 

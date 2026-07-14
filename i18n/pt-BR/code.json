@@ -622,5 +622,29 @@
   },
   "contactUs.getInTouch.email.after": {
     "message": ""
+  },
+  "goFurther.faq.label": {
+    "message": "Perguntas frequentes (FAQ)"
+  },
+  "goFurther.faq.description": {
+    "message": "Perguntas frequentes sobre o Tella"
+  },
+  "goFurther.contactUs.label": {
+    "message": "Contate-nos"
+  },
+  "goFurther.contactUs.description": {
+    "message": "Entre em contato para receber suporte ou fazer perguntas."
+  },
+  "goFurther.releases.label": {
+    "message": "What's new (changelog)"
+  },
+  "goFurther.releases.description": {
+    "message": "Tella changelogs"
+  },
+  "goFurther.privacy.label": {
+    "message": "Política de Privacidade"
+  },
+  "goFurther.privacy.description": {
+    "message": "Política de Privacidade do Tella"
   }
 }

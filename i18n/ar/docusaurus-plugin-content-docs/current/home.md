@@ -5,7 +5,8 @@ title: Tella Documentation
 sidebar_position: 1
 ---
 
-import Link from '@docusaurus/Link'
+import CategoryCardList from '@site/src/components/CategoryCardList'
+import GoFurtherCards from '@site/src/components/GoFurtherCards'
 
 
 # مستندات Tella
@@ -17,188 +18,21 @@ import Link from '@docusaurus/Link'
 
 ## اكتشف Tella {#discover-tella}
 
-
-<div className="doc-card-list">
-    <div className="doc-card">
-      <Link to="/features">
-        <div className="doc-card-content">
-          <b>الميزات</b>
-          <p>اكتشف قائمة ووصف ميزات Tella.</p>
-        </div>
-      </Link>
-    </div>
-    <div className="doc-card">
-      <Link to="/security-and-privacy">
-        <div className="doc-card-content">
-          <b>الأمن والخصوصية</b>
-          <p>تعرف على الميزات الأمنية وعمليات التدقيق الأمني ​​لدينا.</p>
-        </div>
-      </Link>
-    </div>
-    <div className="doc-card">
-      <Link to="/accessibility">
-        <div className="doc-card-content">
-          <b>اللغات وإمكانية الوصول</b>
-          <p>استكشف اللغات التي تدعمها Tella وجهودنا لإمكانية الوصول.</p>
-        </div>
-      </Link>
-    </div>
-    <div className="doc-card">
-      <Link to="/user-stories">
-        <div className="doc-card-content">
-          <b>قصص المستخدمين</b>
-          <p>اقرأ عن حالات الاستخدام وعمليات النشر في العالم الحقيقي.</p>
-        </div>
-      </Link>
-    </div>
-</div>
+<CategoryCardList href="/discover"/>
 
 ## بدء الاستخدام {#getting-started}
 
-<div className="doc-card-list">
-    <div className="doc-card">
-      <Link to="/get-started-android">
-        <div className="doc-card-content">
-          <b>دليل أندرويد</b>
-          <p>دليل البدء السريع لمستخدمي Tella على أندرويد.</p>
-        </div>
-      </Link>
-    </div>
-    <div className="doc-card">
-      <Link to="/get-started-ios">
-        <div className="doc-card-content">
-          <b>دليل iOS </b>
-          <p>دليل البدء السريع لمستخدمي Tella على iOS.</p>
-        </div>
-      </Link>
-    </div>
-    <div className="doc-card">
-      <Link to="/video-tutorials">
-        <div className="doc-card-content">
-          <b>فيديوهات تعليمية</b>
-          <p>إرشادات بالفيديو حول كيفية البدء.</p>
-        </div>
-      </Link>
-    </div>
-</div>
+<CategoryCardList href="/get-started"/>
 
 ## للمنظمات {#for-organizations}
 
-<div className="doc-card-list">
-    <div className="doc-card">
-      <Link to="/tella-web">
-        <div className="doc-card-content">
-          <b>Tella Web</b>
-          <p>The Tella Web connection empowers users to upload photos, videos, audio recordings, and text to their organization's server.</p>
-        </div>
-      </Link>
-    </div>
-    <div className="doc-card">
-      <Link to="/uwazi">
-        <div className="doc-card-content">
-          <b>Uwazi</b>
-          <p>The Uwazi connection lets organizations collect data from their Tella users and establish relationships between the data.</p>
-        </div>
-      </Link>
-    </div>
-    <div className="doc-card">
-      <Link to="/odk">
-        <div className="doc-card-content">
-          <b>Open Data Kit (ODK)</b>
-          <p>The ODK connection lets organizations collect data using custom forms from Tella.</p>
-        </div>
-      </Link>
-    </div>
-    <div className="doc-card">
-      <Link to="/g-drive">
-        <div className="doc-card-content">
-          <b>Google Drive Connection</b>
-          <p>Tella allows users to upload photos, videos, audio recordings and text to their personal or organizational Google Drive.</p>
-        </div>
-      </Link>
-    </div>
-    <div className="doc-card">
-      <Link to="/nextcloud">
-        <div className="doc-card-content">
-          <b>Nextcloud Connection</b>
-          <p>Tella allows users to conveniently upload photos, videos, audio recordings and text to Nextcloud.</p>
-        </div>
-      </Link>
-    </div>
-    <div className="doc-card">
-      <Link to="/dropbox">
-        <div className="doc-card-content">
-          <b>Dropbox Connection</b>
-          <p>Tella allows users to conveniently upload photos, videos, audio recordings and text to Dropbox.</p>
-        </div>
-      </Link>
-    </div>
-
-</div>
+<CategoryCardList href="/connections"/>
 
 
 ## المجتمع {#community}
 
-<div className="doc-card-list">
-    <div className="doc-card">
-      <Link to="/community-meetings">
-        <div className="doc-card-content">
-          <b>لقاءات المجتمع</b>
-          <p>تفاصيل حول مكالمات مجتمع Tella الشهرية.</p>
-        </div>
-      </Link>
-    </div>
-    <div className="doc-card">
-      <Link to="/open-source">
-        <div className="doc-card-content">
-          <b>مفتوح المصدر</b>
-          <p>معلومات عن التزام Tella بسياسة المصدر المفتوح والروابط نحو المستودعات.</p>
-        </div>
-      </Link>
-    </div>
-    <div className="doc-card">
-      <Link to="/translating-tella">
-        <div className="doc-card-content">
-          <b>ترجمة Tella</b>
-          <p>معلومات حول كيفية المساعدة في ترجمة Tella.</p>
-        </div>
-      </Link>
-    </div>
-</div>
+<CategoryCardList href="/community"/>
 
 ## المضي قدما {#go-further}
 
-<div className="doc-card-list">
-    <div className="doc-card">
-      <Link to="/faq">
-        <div className="doc-card-content">
-          <b>الأسئلة الشائعة</b>
-          <p>العثور على الإجابات عن الأسئلة الشائعة.</p>
-        </div>
-      </Link>
-    </div>
-    <div className="doc-card">
-      <Link to="/contact-us">
-        <div className="doc-card-content">
-          <b>اتصل بنا</b>
-          <p>تواصل معنا للحصول على الدعم أو للاستفسار.</p>
-        </div>
-      </Link>
-    </div>
-    <div className="doc-card">
-      <Link to="/releases">
-        <div className="doc-card-content">
-          <b>ما الجديد</b>
-          <p>اقرأ سجلات التغيير في Tella وملاحظات الإصدار لكل نسخة.</p>
-        </div>
-      </Link>
-    </div>
-    <div className="doc-card">
-      <Link to="/privacy">
-        <div className="doc-card-content">
-          <b>سياسة الخصوصية</b>
-          <p>سياسة خصوصية Tella.</p>
-        </div>
-      </Link>
-    </div>
-</div>
+<GoFurtherCards/>

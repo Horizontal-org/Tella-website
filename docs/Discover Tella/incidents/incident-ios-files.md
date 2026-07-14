@@ -3,6 +3,7 @@ id: incident-ios-files
 title: What's new
 description: Incident report - Users lost access to their files on iOS
 slug: /incident-ios-files
+unlisted: true
 ---
 
 # Users lost access to their files on iOS

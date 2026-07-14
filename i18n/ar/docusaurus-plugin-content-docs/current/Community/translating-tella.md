@@ -3,6 +3,7 @@ id: translating-tella
 title: ترجمة Tella
 description: معلومات حول كيفية المساعدة في ترجمة Tella
 slug: /translating-tella
+sidebar_position: 3
 ---
 import TellaLanguages from '.././_tella-languages.md';
 

@@ -3,6 +3,7 @@ id: translating-tella
 title: Tella ကို ဘာသာပြန်ခြင်း
 description: Tella ကို ဘာသာပြန်ရန် ကူညီခြင်းနှင့် သက်ဆိုင်သော အချက်အလက်များ
 slug: /translating-tella
+sidebar_position: 3
 ---
 import TellaLanguages from '.././_tella-languages.md';
 

@@ -22,5 +22,9 @@
   "sidebar.generalSidebar.category.شبكات الاتصال": {
     "message": "شبكات الاتصال",
     "description": "The label for category شبكات الاتصال in sidebar generalSidebar"
+  },
+  "sidebar.generalSidebar.category.المجتمع": {
+    "message": "المجتمع",
+    "description": "The label for category المجتمع in sidebar generalSidebar"
   }
 }

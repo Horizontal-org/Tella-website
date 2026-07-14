@@ -3,6 +3,7 @@ id: open-source
 title: Open Source
 description: Information on Tella's commitment to Open Source and links to repositories
 slug: /open-source
+sidebar_position: 2
 ---
 import FeaturesTable from '.././_features-table.md';
 

@@ -3,6 +3,7 @@ id: open-source
 title: Nguồn Mở
 description: Thông tin về cam kết của Tella đối với Nguồn mở và các liên kết tới các kho lưu trữ
 slug: /open-source
+sidebar_position: 2
 ---
 import FeaturesTable from '.././_features-table.md';
 

@@ -3,6 +3,7 @@ id: community-meetings
 title: Tella အသိုင်းအဝိုင်းခေါ်ဆိုမှုများ
 description: လစဉ် Tella အသိုင်းအဝိုင်း ခေါ်ဆိုမှုများအကြောင်း အသေးစိတ်
 slug: /community-meetings
+sidebar_position: 1
 ---
 
 # Tella အသိုင်းအဝိုင်းခေါ်ဆိုမှုများ

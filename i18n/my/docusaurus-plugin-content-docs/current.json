@@ -22,5 +22,9 @@
   "sidebar.generalSidebar.category.ချိတ်ဆက်မှုများ": {
     "message": "ချိတ်ဆက်မှုများ",
     "description": "The label for category ချိတ်ဆက်မှုများ in sidebar generalSidebar"
+  },
+  "sidebar.generalSidebar.category.အသိုင်းအဝိုင်း": {
+    "message": "အသိုင်းအဝိုင်း",
+    "description": "The label for category အသိုင်းအဝိုင်း in sidebar generalSidebar"
   }
 }
