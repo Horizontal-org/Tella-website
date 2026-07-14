@@ -360,5 +360,59 @@
   "theme.tags.tagsPageTitle": {
     "message": "الوسوم",
     "description": "The title of the tag list page"
+  },
+  "contactUs.title": {
+    "message": "فلنتحدث"
+  },
+  "contactUs.imageAlt": {
+    "message": "Image with a hand clicking on some"
+  },
+  "contactUs.intro.line1": {
+    "message": "هل لديك أسئلة حول Tella؟"
+  },
+  "contactUs.intro.line2": {
+    "message": "هل تحتاج إلى دعم أو تدريب لنشره في مجتمعك؟"
+  },
+  "contactUs.intro.line3": {
+    "message": "هل لديك أفكار لتحسين التطبيق؟"
+  },
+  "contactUs.getInTouch.title": {
+    "message": "لنتواصل"
+  },
+  "contactUs.getInTouch.email": {
+    "message": "اكتب لنا على {email}"
+  },
+  "contactUs.getInTouch.call": {
+    "message": "تحديد موعد للمكالمة المباشرة {link}."
+  },
+  "contactUs.getInTouch.call.linkText": {
+    "message": "هنا"
+  },
+  "contactUs.getInTouch.meeting": {
+    "message": "انضم إلينا في {link}."
+  },
+  "contactUs.getInTouch.meeting.linkText": {
+    "message": "اللقاء المقبل مع مجتمعنا"
+  },
+  "contactUs.getInTouch.feedback": {
+    "message": "استخدم استمارة التعليقات المجهولة في إعدادات Tella."
+  },
+  "contactUs.newsletter": {
+    "message": "أو اشترك في نشرتنا الإخبارية: {link}."
+  },
+  "contactUs.newsletter.linkText": {
+    "message": "هنا"
+  },
+  "contactUs.closing": {
+    "message": "نتطلع للسماع منك!"
+  },
+  "downloadButtons.windows": {
+    "message": "Windows"
+  },
+  "downloadButtons.macos": {
+    "message": "macOS"
+  },
+  "downloadButtons.linux": {
+    "message": "Linux"
   }
 }

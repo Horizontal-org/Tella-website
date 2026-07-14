@@ -365,5 +365,50 @@
   },
   "downloadButtons.linux": {
     "message": "Linux"
+  },
+  "contactUs.title": {
+    "message": "Let's talk"
+  },
+  "contactUs.imageAlt": {
+    "message": "Image with a hand clicking on some"
+  },
+  "contactUs.intro.line1": {
+    "message": "Do you have questions about Tella?"
+  },
+  "contactUs.intro.line2": {
+    "message": "Do you need support or training to deploy it in your community?"
+  },
+  "contactUs.intro.line3": {
+    "message": "Do you have ideas to improve the app?"
+  },
+  "contactUs.getInTouch.title": {
+    "message": "Get in touch"
+  },
+  "contactUs.getInTouch.email": {
+    "message": "Write to us to {email}"
+  },
+  "contactUs.getInTouch.call": {
+    "message": "Schedule a call directly {link}."
+  },
+  "contactUs.getInTouch.call.linkText": {
+    "message": "here"
+  },
+  "contactUs.getInTouch.meeting": {
+    "message": "Join our next {link}."
+  },
+  "contactUs.getInTouch.meeting.linkText": {
+    "message": "Community Meeting"
+  },
+  "contactUs.getInTouch.feedback": {
+    "message": "Use the anonymous feedback form in the Tella Settings."
+  },
+  "contactUs.newsletter": {
+    "message": "Or subscribe to our newsletter: {link}."
+  },
+  "contactUs.newsletter.linkText": {
+    "message": "here"
+  },
+  "contactUs.closing": {
+    "message": "We are looking forward to hearing from you!"
   }
 }

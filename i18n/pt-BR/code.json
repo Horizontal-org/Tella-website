@@ -384,5 +384,59 @@
   "theme.contentVisibility.draftBanner.message": {
     "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
     "description": "The draft content banner message"
+  },
+  "contactUs.title": {
+    "message": "Vamos conversar"
+  },
+  "contactUs.imageAlt": {
+    "message": "Image with a hand clicking on some"
+  },
+  "contactUs.intro.line1": {
+    "message": "Você tem perguntas sobre o Tella?"
+  },
+  "contactUs.intro.line2": {
+    "message": "Você precisa de suporte ou treinamento para implantá-lo na sua comunidade?"
+  },
+  "contactUs.intro.line3": {
+    "message": "Você tem ideias para melhorar o aplicativo?"
+  },
+  "contactUs.getInTouch.title": {
+    "message": "Entre em contato"
+  },
+  "contactUs.getInTouch.email": {
+    "message": "Escreva para nós via {email}."
+  },
+  "contactUs.getInTouch.call": {
+    "message": "Agende diretamente uma chamada {link}."
+  },
+  "contactUs.getInTouch.call.linkText": {
+    "message": "aqui"
+  },
+  "contactUs.getInTouch.meeting": {
+    "message": "Participe de nossa próxima {link}."
+  },
+  "contactUs.getInTouch.meeting.linkText": {
+    "message": "Reunião da Comunidade"
+  },
+  "contactUs.getInTouch.feedback": {
+    "message": "Use o formulário anônimo de feedback nas Configurações do Tella."
+  },
+  "contactUs.newsletter": {
+    "message": "Ou assine nossa newsletter: {link}."
+  },
+  "contactUs.newsletter.linkText": {
+    "message": "aqui"
+  },
+  "contactUs.closing": {
+    "message": "Esperamos ouvir de você!"
+  },
+  "downloadButtons.windows": {
+    "message": "Windows"
+  },
+  "downloadButtons.macos": {
+    "message": "macOS"
+  },
+  "downloadButtons.linux": {
+    "message": "Linux"
   }
 }

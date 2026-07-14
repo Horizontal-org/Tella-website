@@ -360,5 +360,59 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "contactUs.title": {
+    "message": "Parlons-en"
+  },
+  "contactUs.imageAlt": {
+    "message": "Image with a hand clicking on some"
+  },
+  "contactUs.intro.line1": {
+    "message": "Avez-vous des questions concernant Tella?"
+  },
+  "contactUs.intro.line2": {
+    "message": "Vous faut-il un soutien ou de formation pour la déployer dans votre communauté?"
+  },
+  "contactUs.intro.line3": {
+    "message": "Auriez-vous des idées pour améliorer l'application?"
+  },
+  "contactUs.getInTouch.title": {
+    "message": "Contactez nous"
+  },
+  "contactUs.getInTouch.email": {
+    "message": "Écrivez-nous à {email}"
+  },
+  "contactUs.getInTouch.call": {
+    "message": "Planifier un appel directement {link}."
+  },
+  "contactUs.getInTouch.call.linkText": {
+    "message": "ici"
+  },
+  "contactUs.getInTouch.meeting": {
+    "message": "Rejoignez notre prochaine {link}."
+  },
+  "contactUs.getInTouch.meeting.linkText": {
+    "message": "réunion communautaire"
+  },
+  "contactUs.getInTouch.feedback": {
+    "message": "Utilisez le formulaire de rétroaction anonyme dans les paramètres de Tella."
+  },
+  "contactUs.newsletter": {
+    "message": "Ou inscrivez-vous à notre lettre d'information: {link}."
+  },
+  "contactUs.newsletter.linkText": {
+    "message": "ici"
+  },
+  "contactUs.closing": {
+    "message": "Nous avons hâte de vous lire !"
+  },
+  "downloadButtons.windows": {
+    "message": "Windows"
+  },
+  "downloadButtons.macos": {
+    "message": "macOS"
+  },
+  "downloadButtons.linux": {
+    "message": "Linux"
   }
 }

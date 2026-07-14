@@ -360,5 +360,59 @@
   "theme.tags.tagsPageTitle": {
     "message": "Thẻ",
     "description": "The title of the tag list page"
+  },
+  "contactUs.title": {
+    "message": "Hãy trò chuyện"
+  },
+  "contactUs.imageAlt": {
+    "message": "Image with a hand clicking on some"
+  },
+  "contactUs.intro.line1": {
+    "message": "Bạn có câu hỏi nào về Tella không?"
+  },
+  "contactUs.intro.line2": {
+    "message": "Bạn cần hỗ trợ hay đào tạo để triển khai ứng dụng này trong cộng đồng của mình không?"
+  },
+  "contactUs.intro.line3": {
+    "message": "Bạn có ý tưởng nào để cải tiến ứng dụng không?"
+  },
+  "contactUs.getInTouch.title": {
+    "message": "Liên hệ"
+  },
+  "contactUs.getInTouch.email": {
+    "message": "Hãy viết thư cho chúng tôi qua địa chỉ {email}"
+  },
+  "contactUs.getInTouch.call": {
+    "message": "Đặt lịch cuộc gọi trực tiếp {link}."
+  },
+  "contactUs.getInTouch.call.linkText": {
+    "message": "tại đây"
+  },
+  "contactUs.getInTouch.meeting": {
+    "message": "Tham gia {link}."
+  },
+  "contactUs.getInTouch.meeting.linkText": {
+    "message": "Cuộc Họp Cộng Đồng sắp tới của chúng tôi"
+  },
+  "contactUs.getInTouch.feedback": {
+    "message": "Sử dụng mẫu phản hồi ấn danh trong phần Cài Đặt của Tella."
+  },
+  "contactUs.newsletter": {
+    "message": "Hoặc đăng ký nhận bản tin của chúng tôi: {link}."
+  },
+  "contactUs.newsletter.linkText": {
+    "message": "tại đây"
+  },
+  "contactUs.closing": {
+    "message": "Chúng tôi rất mong nhận được phản hồi từ bạn!"
+  },
+  "downloadButtons.windows": {
+    "message": "Windows"
+  },
+  "downloadButtons.macos": {
+    "message": "macOS"
+  },
+  "downloadButtons.linux": {
+    "message": "Linux"
   }
 }
