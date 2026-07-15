@@ -26,11 +26,9 @@ Atualmente, o Tella pode ser conectado aos seguintes tipos de servidores:
 
 Estes são chamados [Conexões](/features#connecting-to-servers) no Tella.
 
-:::danger
-For now, any files you submit to a connection might stored unencrypted on that server or drive (that depends on the server configuration). This means that anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
+:::danger For now, any files you submit to a connection might stored unencrypted on that server or drive (that depends on the server configuration). This means that anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
 
-We strongly recommend reviewing and understanding the permission model of each connection you use, in order to determine which option is safest and most appropriate for your specific use case.
-:::
+We strongly recommend reviewing and understanding the permission model of each connection you use, in order to determine which option is safest and most appropriate for your specific use case. :::
 
 
 
@@ -58,9 +56,9 @@ graph TD;
 On this table we explain what server types are available on the Tella apps:
 <ConnectionsTable/>
 
-:::info
-For offline file sharing or during internet shutdowns, [Nearby Sharing](/nearby-sharing) could be helpful.  If you need to share files with other apps the [Share button](/features#share-button) could be useful.
-:::
+:::info For offline file sharing or during internet shutdowns, [Nearby Sharing](/nearby-sharing) could be helpful. If you need to share files with other apps the [Share button]{2} could be useful. :::
+
+:::info If you need to share files through other apps, use the [Share button](/features#share-button). :::
 
 ### Tella Web {/* #tella-web */}
 
@@ -68,7 +66,7 @@ Tella Web é uma ferramenta de código aberto que permite a indivíduos e organi
 
 Não é o equivalente do aplicativo móvel; ao invés disso, é uma ferramenta especificamente projetada para a centralização e gerenciamento dos relatórios enviados via Tella da maneira mais simples possível. Com o Tella Web, você pode criar projetos, que funcionam como pastas nas quais usuários do Tella podem submeter relatórios. Por exemplo, você pode criar projetos para áreas geográficas específicas ou temas como violência policial, violência de gênero e ofensas ao meio ambiente. No Tella Web, você também pode gerenciar os usuários que podem carregar relatórios para cada projeto, designar funções diferentes e definir permissões.
 
-Tella Web é desenvolvido internamente pela nossa equipe na Horizontal, a mesma responsável por desenvolver os aplicativos para dispositivos móveis do Tella. É  uma solução amigável ao usuário para gerenciar relatórios de maneira segura e privativa. Podemos fornecer suporte para a instalação e configuração de um servidor Tella Web caso você não conte com alguém na sua organização que possa mantê-lo.
+Tella Web é desenvolvido internamente pela nossa equipe na Horizontal, a mesma responsável por desenvolver os aplicativos para dispositivos móveis do Tella. É uma solução amigável ao usuário para gerenciar relatórios de maneira segura e privativa. Podemos fornecer suporte para a instalação e configuração de um servidor Tella Web caso você não conte com alguém na sua organização que possa mantê-lo.
 
 A conexão do servidor Tella Web também permite que os usuários façam o download seguro de guias, recursos e informações do servidor diretamente para o contêiner criptografado do Tella.
 
@@ -93,9 +91,7 @@ O [Open Data Kit (ODK)](https://getodk.org/) é um padrão aberto usado para cri
 Em nossa [página sobre a conexão do servidor Open Data Kit](/odk) explicamos como criar uma conta, onde encontrar informações sobre a criação de formulários e como conectar-se ao servidor a partir do Tella. Você também pode ver uma demonstração da conexão ODK [aqui](/video-tutorials#open-data-kit). Se está considerando usar o Open Data Kit ou precisa de ajuda para [implantar](/faq#deploying-tella) sua instância, por favor [entre em contato conosco](/contact-us).
 
 
-:::note
-A conexão ODK está [somente disponível no Android](/features).
-:::
+:::note A conexão ODK está [somente disponível no Android](/features). :::
 
 <Button label="Continue reading about the Open Data Kit connection " link="/odk"/>
 
@@ -104,24 +100,18 @@ A conexão ODK está [somente disponível no Android](/features).
 
 Users can sign-in directly to their Google account from within Tella and upload files to a folder in their Drive account. Each "report" uploaded will create a new folder in the user's Google Drive.
 
-As for all Connections in Tella, users can use most of the Google Drive connection offline through the Draft, Outbox and Submit Later tabs. 
+As for all Connections in Tella, users can use most of the Google Drive connection offline through the Draft, Outbox and Submit Later tabs.
 
 <Button label="Continue reading about the Google Drive connection " link="/g-drive"/>
 
 Users can sign-in directly to their Google account from within Tella and upload files to a folder in their Drive account. Each "report" uploaded will create a new folder in the user's Google Drive.
-
-As for all Connections in Tella, users can use most of the Google Drive connection offline through the Draft, Outbox and Submit Later tabs. 
-
-:::note
-The Google Drive connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
-:::
 
 
 
 ### Nextcloud {/* #Nextcloud */}
 Users can sign-in directly to their Nextcloud account from within Tella and upload files to a folder in their Nextcloud account. Each "report" uploaded will create a new folder in the user's Nextcloud.
 
-As for all Connections in Tella, users can use most of the Nextcloud connection offline through the Draft, Outbox and Submit Later tabs. 
+As for all Connections in Tella, users can use most of the Nextcloud connection offline through the Draft, Outbox and Submit Later tabs.
 
 <Button label="Continue reading about the Nextcloud connection " link="/nextcloud"/>
 
@@ -129,13 +119,11 @@ As for all Connections in Tella, users can use most of the Nextcloud connection 
 ### Dropbox {/* #dropbox */}
 Users can sign-in directly to their Dropbox account from within Tella and upload files to a folder in their account. In the "Applications" folder in the user's Dropbox account, a new folder "Tella" will automatically be created. Each Report uploaded from Tella will create a new subfolder inside the "Tella" folder.
 
-As for all Connections in Tella, users can use most of the Dropbox connection offline through the Draft, Outbox and Submit Later tabs. 
+As for all Connections in Tella, users can use most of the Dropbox connection offline through the Draft, Outbox and Submit Later tabs.
 
 <Button label="Continue reading about the Dropbox connection " link="/dropbox"/>
 
-:::note
-The Dropbox connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
-:::
+:::note The Dropbox connection is not available in Tella Android FOSS, because it uses closed-sourced libraries. :::
 
 
 

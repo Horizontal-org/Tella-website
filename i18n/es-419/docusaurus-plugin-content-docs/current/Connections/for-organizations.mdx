@@ -24,13 +24,11 @@ Actualmente, Tella puede ser conectada a los siguientes tipos de servidores:
 * [Nextcloud](/nextcloud)
 * [Dropbox](/dropbox)
 
-Estas son llamadas [Conexiones](/features#connecting-to-servers) en Tella. 
+Estas son llamadas [Conexiones](/features#connecting-to-servers) en Tella.
 
-:::danger
-For now, any files you submit to a connection might stored unencrypted on that server or drive (that depends on the server configuration). This means that anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
+:::danger For now, any files you submit to a connection might stored unencrypted on that server or drive (that depends on the server configuration). This means that anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
 
-We strongly recommend reviewing and understanding the permission model of each connection you use, in order to determine which option is safest and most appropriate for your specific use case.
-:::
+We strongly recommend reviewing and understanding the permission model of each connection you use, in order to determine which option is safest and most appropriate for your specific use case. :::
 
 
 
@@ -58,9 +56,9 @@ graph TD;
 En esta tabla explicamos qué tipos de servidores están disponibles en las apps de Tella:
 <ConnectionsTable/>
 
-:::info
-For offline file sharing or during internet shutdowns, [Nearby Sharing](/nearby-sharing) could be helpful.  If you need to share files with other apps the [Share button](/features#share-button) could be useful.
-:::
+:::info For offline file sharing or during internet shutdowns, [Nearby Sharing](/nearby-sharing) could be helpful. If you need to share files with other apps the [Share button]{2} could be useful. :::
+
+:::info If you need to share files through other apps, use the [Share button](/features#share-button). :::
 
 ### Tella Web {/* #tella-web */}
 
@@ -93,9 +91,7 @@ El [Open Data Kit (ODK - Kit de Datos Abiertos)](https://getodk.org/) es un est�
 En nuestra [página de conexión del servidor Open Data Kit](/odk) explicamos cómo crear una cuenta, dónde encontrar información sobre la creación de formularios y cómo conectar a un servidor desde Tella. También puedes ver una demostración de la conexión ODK [aquí](/video-tutorials#open-data-kit). Si estás considerando utilizar el Open Data Kit o necesitas ayuda para [implementar](/faq#deploying-tella) tu instancia, por favor [contáctanos](/contact-us).
 
 
-:::note
-La conexión ODK [solo está disponible en Android](/features).
-:::
+:::note La conexión ODK [solo está disponible en Android](/features). :::
 
 <Button label="Continue reading about the Open Data Kit connection " link="/odk"/>
 
@@ -104,20 +100,18 @@ La conexión ODK [solo está disponible en Android](/features).
 
 La(o)s usuaria(o)s pueden iniciar sesión directamente a su cuenta de Google desde dentro de Tella y subir archivos a carpetas en su cuenta de Drive. Si el usuario es parte de una organización que utiliza Google Workspace, también pueden subir los archivos directamente a un Disco Compartido al que tengan acceso. Cada "informe" subido creará una nueva carpeta en Drive.
 
-Al igual que todas las Conexiones en Tella, los usuarios pueden usar la mayor parte de la conexión de Google Drive sin conexión a través de las pestañas Borrador, Bandeja de Salida y Enviar Luego. 
+Al igual que todas las Conexiones en Tella, los usuarios pueden usar la mayor parte de la conexión de Google Drive sin conexión a través de las pestañas Borrador, Bandeja de Salida y Enviar Luego.
 
 <Button label="Continue reading about the Google Drive connection " link="/g-drive"/>
 
-:::note
-The Google Drive connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
-:::
+:::note The Google Drive connection is not available in Tella Android FOSS, because it uses closed-sourced libraries. :::
 
 
 
 ### Nextcloud {/* #Nextcloud */}
 La(o)s usuaria(o)s pueden iniciar sesión directamente a su cuenta de NextCloud desde dentro de Tella y subir archivos a carpetas en su cuenta de NextCloud. Cada "informe" subido creará una nueva carpeta en NextCloud.
 
-Al igual que todas las Conexiones en Tella, los usuarios pueden usar la mayor parte de la conexión de NextCloud sin conexión a través de las pestañas Borrador, Bandeja de Salida y Enviar Luego. 
+Al igual que todas las Conexiones en Tella, los usuarios pueden usar la mayor parte de la conexión de NextCloud sin conexión a través de las pestañas Borrador, Bandeja de Salida y Enviar Luego.
 
 <Button label="Continue reading about the Nextcloud connection " link="/nextcloud"/>
 
@@ -125,10 +119,12 @@ Al igual que todas las Conexiones en Tella, los usuarios pueden usar la mayor pa
 ### Dropbox {/* #dropbox */}
 Users can sign-in directly to their Dropbox account from within Tella and upload files to a folder in their account. In the "Applications" folder in the user's Dropbox account, a new folder "Tella" will automatically be created. Each Report uploaded from Tella will create a new subfolder inside the "Tella" folder.
 
-As for all Connections in Tella, users can use most of the Dropbox connection offline through the Draft, Outbox and Submit Later tabs. 
+As for all Connections in Tella, users can use most of the Dropbox connection offline through the Draft, Outbox and Submit Later tabs.
 
 <Button label="Continue reading about the Dropbox connection " link="/dropbox"/>
 
-:::note
-The Dropbox connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
-:::
+:::note The Dropbox connection is not available in Tella Android FOSS, because it uses closed-sourced libraries. :::
+
+
+
+

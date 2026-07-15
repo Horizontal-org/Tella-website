@@ -26,11 +26,11 @@ import Button from '@site/src/components/Button';
 
 وتُسمى هذه [اتصالات](/features#connecting-to-servers) في Tella.
 
-:::danger
-For now, any files you submit to a connection might stored unencrypted on that server or drive (that depends on the server configuration). This means that anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
+:::danger For now, any files you submit to a connection might stored unencrypted on that server or drive (that depends on the server configuration). This means that anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
 
-We strongly recommend reviewing and understanding the permission model of each connection you use, in order to determine which option is safest and most appropriate for your specific use case.
-:::
+We strongly recommend reviewing and understanding the permission model of each connection you use, in order to determine which option is safest and most appropriate for your specific use case. :::
+
+
 
 
 ## اختيار نوع الخادم المناسب {/* #selecting-the-right-type-of-server */}
@@ -56,9 +56,9 @@ graph TD;
 On this table we explain what server types are available on the Tella apps:
 <ConnectionsTable/>
 
-:::info
-For offline file sharing or during internet shutdowns, [Nearby Sharing](/nearby-sharing) could be helpful.  If you need to share files with other apps the [Share button](/features#share-button) could be useful.
-:::
+:::info For offline file sharing or during internet shutdowns, [Nearby Sharing](/nearby-sharing) could be helpful. If you need to share files with other apps the [Share button]{2} could be useful. :::
+
+:::info If you need to share files through other apps, use the [Share button](/features#share-button). :::
 
 ### Tella Web {/* #tella-web */}
 
@@ -79,7 +79,9 @@ Tella Web هي أداة مفتوحة المصدر تُمكِّن الأفراد 
 
 يمكن للمنظمات التي تستخدم Uwazi كقاعدة بياناتها أن تربط Tella بعدة قواعد بياناتها لتحميل البيانات. كل ما يتطلبه الأمر لربط Tella بقاعدة بيانات Uwazi هو عنوان موقع قاعدة بيانات Uwazi واسم المستخدم وكلمة السر. يجب أن تحتوي قاعدة بيانات Uwazi على قالب واحد مُهيَّأ على الأقل، والذي يمكن تنزيله في Tella. بمجرد تنزيل القوالب بنجاح، يمكن للمستخدمين التنقل بسهولة بين قوالبهم لإدخال تفاصيل لكل سجل جديد، حتى عند غياب الاتصال بالانترنت. عند اكتمال إدخال البيانات، يمكن حفظها كمُسوَّدة في تطبيق Tella أو تحميلها على الفور إلى قاعدة بيانات Uwazi المتصلة. هذا يُمكِّن المستخدمين الذين يعملون دون اتصال الانترنت من جمع البيانات وتحميل المعلومات عندما يكون ذلك مناسبا.
 
+
 <Button label="Continue reading about the Uwazi connection " link="/uwazi"/>
+
 
 
 ### Open Data Kit (ODK) {/* #open-data-kit-odk */}
@@ -88,9 +90,8 @@ Tella Web هي أداة مفتوحة المصدر تُمكِّن الأفراد 
 
 على [صفحة الاتصال بخادم Open Data Kit](/odk)، نشرح كيفية إنشاء الحساب، وأين يمكن العثور على المعلومات حول إنشاء الاستمارات وكيفية الاتصال بالخادم من Tella. يمكنك أيضا مشاهدة عرض توضيحي لاتصال ODK [هنا](/video-tutorials#open-data-kit). إذا كنت تفكر في استخدام Open Data Kit أو تحتاج إلى المساعدة [لنشر](/faq#deploying-tella) نموذجك، [اتصل بنا](/contact-us) من فضلك.
 
-:::note
-The ODK connection is [not available on Tella iOS](/features). 
-:::
+
+:::note The ODK connection is [not available on Tella iOS](/features). :::
 
 <Button label="Continue reading about the Open Data Kit connection " link="/odk"/>
 
@@ -99,32 +100,31 @@ The ODK connection is [not available on Tella iOS](/features).
 
 Users can sign-in directly to their Google account from within Tella and upload files to a folder in their Drive account. Each "report" uploaded will create a new folder in the user's Google Drive.
 
-As for all Connections in Tella, users can use most of the Google Drive connection offline through the Draft, Outbox and Submit Later tabs. 
-
-:::note
-The Google Drive connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
-:::
+As for all Connections in Tella, users can use most of the Google Drive connection offline through the Draft, Outbox and Submit Later tabs.
 
 <Button label="Continue reading about the Google Drive connection " link="/g-drive"/>
 
+:::note The Google Drive connection is not available in Tella Android FOSS, because it uses closed-sourced libraries. :::
+
+
 
 ### Nextcloud {/* #Nextcloud */}
-
 Users can sign-in directly to their Nextcloud account from within Tella and upload files to a folder in their Nextcloud account. Each "report" uploaded will create a new folder in the user's Nextcloud.
 
-As for all Connections in Tella, users can use most of the Nextcloud connection offline through the Draft, Outbox and Submit Later tabs. 
+As for all Connections in Tella, users can use most of the Nextcloud connection offline through the Draft, Outbox and Submit Later tabs.
 
 <Button label="Continue reading about the Nextcloud connection " link="/nextcloud"/>
 
 
 ### Dropbox {/* #dropbox */}
-
 Users can sign-in directly to their Dropbox account from within Tella and upload files to a folder in their account. In the "Applications" folder in the user's Dropbox account, a new folder "Tella" will automatically be created. Each Report uploaded from Tella will create a new subfolder inside the "Tella" folder.
 
-As for all Connections in Tella, users can use most of the Dropbox connection offline through the Draft, Outbox and Submit Later tabs. 
-
-:::note
-The Dropbox connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
-:::
+As for all Connections in Tella, users can use most of the Dropbox connection offline through the Draft, Outbox and Submit Later tabs.
 
 <Button label="Continue reading about the Dropbox connection " link="/dropbox"/>
+
+:::note The Dropbox connection is not available in Tella Android FOSS, because it uses closed-sourced libraries. :::
+
+
+
+
