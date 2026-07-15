@@ -99,10 +99,6 @@
     "message": "مسار التنقل",
     "description": "The ARIA label for the breadcrumbs"
   },
-  "theme.docs.DocCard.categoryDescription": {
-    "message": "{count} مقالات",
-    "description": "الوصف الافتراضي لبطاقة الفئة في الفهرس الذي تم إنشاؤه حول عدد العناصر التي تتضمنها هذه الفئة"
-  },
   "theme.docs.paginator.navAriaLabel": {
     "message": "صفحة الوثائق",
     "description": "The ARIA label for the docs pagination"
@@ -620,5 +616,17 @@
   "theme.IconExternalLink.ariaLabel": {
     "message": "(opens in new tab)",
     "description": "The ARIA label for the external link icon"
+  },
+  "theme.PwaReloadPopup.info": {
+    "message": "نُسخة جديـدة مُتـاحة",
+    "description": "The text for PWA reload popup"
+  },
+  "theme.PwaReloadPopup.refreshButtonText": {
+    "message": "تحديث",
+    "description": "The text for PWA reload button"
+  },
+  "theme.PwaReloadPopup.closeButtonAriaLabel": {
+    "message": "إغلاق",
+    "description": "The ARIA label for close button of PWA reload popup"
   }
 }
