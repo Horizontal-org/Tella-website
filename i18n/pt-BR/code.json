@@ -99,10 +99,6 @@
     "message": "Breadcrumbs",
     "description": "The ARIA label for the breadcrumbs"
   },
-  "theme.docs.DocCard.categoryDescription": {
-    "message": "{count} artículos",
-    "description": "The default description for a category card in the generated index about how many items this category includes"
-  },
   "theme.docs.paginator.navAriaLabel": {
     "message": "Página del documento",
     "description": "The ARIA label for the docs pagination"
@@ -194,10 +190,6 @@
     "message": "Copiar",
     "description": "The copy button label on code blocks"
   },
-  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
-    "message": "ES - Toggle the collapsible sidebar category '{label}'",
-    "description": "The ARIA label to toggle the collapsible sidebar category"
-  },
   "theme.navbar.mobileLanguageDropdown.label": {
     "message": "Lenguajes",
     "description": "The label for the mobile language switcher dropdown"
@@ -258,18 +250,6 @@
     "message": "Expandir barra lateral",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
-  "theme.PwaReloadPopup.info": {
-    "message": "Nueva versión disponible",
-    "description": "The text for PWA reload popup"
-  },
-  "theme.PwaReloadPopup.refreshButtonText": {
-    "message": "Actualizar",
-    "description": "The text for PWA reload button"
-  },
-  "theme.PwaReloadPopup.closeButtonAriaLabel": {
-    "message": "Cerrar",
-    "description": "The ARIA label for close button of PWA reload popup"
-  },
   "theme.SearchPage.existingResultsTitle": {
     "message": "Search results for \"{query}\"",
     "description": "The search page title for non-empty query"
@@ -328,14 +308,6 @@
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
     "message": "Collapse sidebar category '{label}'",
     "description": "The ARIA label to collapse the sidebar category"
-  },
-  "theme.unlistedContent.title": {
-    "message": "Página sin clasificar",
-    "description": "The unlisted content banner title"
-  },
-  "theme.unlistedContent.message": {
-    "message": "Esta página está sin clasificar. Los motores de búsqueda no la indexaran, y solo los usuarios con el enlace directo podrán acceder a esta.",
-    "description": "The unlisted content banner message"
   },
   "theme.colorToggle.ariaLabel.mode.system": {
     "message": "system mode",
@@ -644,5 +616,17 @@
   "theme.IconExternalLink.ariaLabel": {
     "message": "(opens in new tab)",
     "description": "The ARIA label for the external link icon"
+  },
+  "theme.PwaReloadPopup.info": {
+    "message": "Nova versão disponível",
+    "description": "The text for PWA reload popup"
+  },
+  "theme.PwaReloadPopup.refreshButtonText": {
+    "message": "Atualizar",
+    "description": "The text for PWA reload button"
+  },
+  "theme.PwaReloadPopup.closeButtonAriaLabel": {
+    "message": "Fechar",
+    "description": "The ARIA label for close button of PWA reload popup"
   }
 }
