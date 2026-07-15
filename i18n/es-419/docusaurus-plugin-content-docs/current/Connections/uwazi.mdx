@@ -15,11 +15,9 @@ De manera similar a todas las demás conexiones de servidor ([Tella Web](/tella-
 1. Permitir a la(o)s usuaria(o)s a recopilar datos directamente dentro de un contenedor cifrado de Tella.
 2. Asegurar que los datos son enviados directamente de Tella a Uwazi, sin tener que depender de una herramienta de terceras partes o app.
 3. Permitir que usuaria(o)s respalden sus datos en un servidor remoto, para reducir el riesgo de que los datos sean descubiertos en su dispositivo móvil.
-4. Garantizar que las organizaciones puedan conservar información importante incluso en caso de confiscación o destrucción de dispositivo, y puedan organizarla para procesos de  investigación, incidencia, o rendición de cuentas.
+4. Garantizar que las organizaciones puedan conservar información importante incluso en caso de confiscación o destrucción de dispositivo, y puedan organizarla para procesos de investigación, incidencia, o rendición de cuentas.
 
-:::danger
-Even though data is transferred to the server securely (SSL), anyone with access to the Uwazi account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
-:::
+:::danger Even though data is transferred to the server securely (SSL), anyone with access to the Uwazi account can view the files. If you need encrypted file transfers, explore [Nearby Sharing]{1}. :::
 
 ### Probando Uwazi {/* #testing-uwazi */}
 
@@ -43,11 +41,9 @@ Aquí hay algunos indicadores de que Uwazi puede ser particularmente adecuado pa
 - Trabajas en un entorno colaborativo con multiples usuarios y diferentes perfiles.
 - Necesitas preservar información de manera segura a largo plazo.
 
-Puedes aprender más sobre Uwazi en la [documentación oficial de Uwazi](https://uwazi.readthedocs.io/en/latest/). HURIDOCS es una excelente amistad de Horizontal, por lo que si tienes preguntas sobre Uwazi o te gustaría que te conectemos al equipo de HURIDOCS [contáctanos](/contact-us).
+Puedes aprender más sobre Uwazi en la [documentación oficial de Uwazi](https://uwazi.readthedocs.io/en/latest/). HURIDOCS es una excelente amistad de Horizontal, por lo que si tienes preguntas sobre Uwazi o te gustaría que te conectemos al equipo de HURIDOCS [contáctanos](contact-us).
 
-:::tip
-Si necesitas ayuda para determinar si Uwazi es la mejor opción para tu caso de uso, [lee nuestra guía](/for-organizations) o [contactanos](/contact-us)!
-:::
+:::tip Si necesitas ayuda para determinar si Uwazi es la mejor opción para tu caso de uso, [lee nuestra guía](/for-organizations) o [contactanos](/contact-us)! :::
 
 ## Configura Uwazi en un servidor {/* #configure-uwazi-on-a-server */}
 
@@ -63,28 +59,26 @@ Una colección de Uwazi está hecha de Entidades. Una entidad tiene Propiedades 
 
 [Aquí puedes leer](https://uwazi.readthedocs.io/en/latest/admin-docs/building-info-architecture.html#understanding-properties) sobre las propiedades que están disponibles en el servidor Uwazi y cómo modelar tus datos y crear tus plantillas. Por el momento solo permitimos propiedades y funcionalidades que han sido marcadas como alta prioridad por la(o)s usuaria(o)s de Uwazi. Si necesitas otras propiedades, [contáctanos](/contact-us).
 
-:::info
-Si la(o)s usuaria(o)s de Tella descargan una plantilla que tiene propiedades que no son permitidas en Tella, esas propiedades no aparecerán en la app. De todos modos, la(o)s usuaria(o)s aún podrán enviar las entidades, y la(o)s admins podrán acceder a estas entidades, incluyendo todas las propiedades que fueron rellenadas, sin ningún problema.
-:::
+:::info Si la(o)s usuaria(o)s de Tella descargan una plantilla que tiene propiedades que no son permitidas en Tella, esas propiedades no aparecerán en la app. De todos modos, la(o)s usuaria(o)s aún podrán enviar las entidades, y la(o)s admins podrán acceder a estas entidades, incluyendo todas las propiedades que fueron rellenadas, sin ningún problema. :::
 
 ### Propiedades Disponibles {/* #available-properties */}
 
-| **Propiedad o Función** | **Tella Android**| **Tella iOS** | **Tella Android FOSS** |
-|------|------|-----|-----| 
-| Documentos Primarios y de Soporte | ✔️ | ✔️ | ✔️ |
-| Texto Plano | ✔️ | ✔️ | ✔️ |
-| Numérico  | ✔️ | ✔️ | ✔️ |
-| Selección Única  | ✔️ | ✔️ | ✔️ | 
-| Selección Múltiple   | ✔️ | No | ✔️ | 
-| Relación | ✔️ | ✔️ | ✔️ |
-| Fecha Única | ✔️ | ✔️ | ✔️ |
-| Fecha Múltiple | ✔️ | No | ✔️ |
-| Enlace Externo | ✔️ | No | ✔️ |
-| Texto Enriquecido | ✔️ | ✔️ | ✔️ |
-| Rango de Fecha Único y Múltiple | ✔️ | No | ✔️ |
-| Adjuntar Medios (Imagen, Video, o Audio) | ✔️| ✔️ | ✔️ |
-| Geolocalización | ✔️ | No | ✔️ |
-| ID Generado  | ✔️ | No | ✔️ |
+| **Propiedad o Función**                  | **Tella Android** | **Tella iOS** | **Tella Android FOSS** |
+| ---------------------------------------- | ----------------- | ------------- | ---------------------- |
+| Documentos Primarios y de Soporte        | ✔️                | ✔️            | ✔️                     |
+| Texto Plano                              | ✔️                | ✔️            | ✔️                     |
+| Numérico                                 | ✔️                | ✔️            | ✔️                     |
+| Selección Única                          | ✔️                | ✔️            | ✔️                     |
+| Selección Múltiple                       | ✔️                | No            | ✔️                     |
+| Relación                                 | ✔️                | ✔️            | ✔️                     |
+| Fecha Única                              | ✔️                | ✔️            | ✔️                     |
+| Fecha Múltiple                           | ✔️                | No            | ✔️                     |
+| Enlace Externo                           | ✔️                | No            | ✔️                     |
+| Texto Enriquecido                        | ✔️                | ✔️            | ✔️                     |
+| Rango de Fecha Único y Múltiple          | ✔️                | No            | ✔️                     |
+| Adjuntar Medios (Imagen, Video, o Audio) | ✔️                | ✔️            | ✔️                     |
+| Geolocalización                          | ✔️                | No            | ✔️                     |
+| ID Generado                              | ✔️                | No            | ✔️                     |
 
 
 ## Prepara a la Gente Sobre el Terreno para Empezar a Enviar Datos {/* #get-people-on-the-ground-ready-to-start-submitting-data */}
@@ -102,9 +96,7 @@ Para conectarse a un servidor Uwazi:
 * Si el servidor requiere autenticación en dos factores, introduce el código de un solo uso.
 * Elige el **Idioma** en el cual quieres mostrar tus plantillas.
 
-:::info
-Puedes ver [este video](/video-tutorials#uwazi) sobre cómo conectarse a un servidor Uwazi desde Tella.
-:::
+:::info Puedes ver [este video](/video-tutorials#uwazi) sobre cómo conectarse a un servidor Uwazi desde Tella. :::
 
 ### Envía Tu Información {/* #send-your-information */}
 
@@ -117,18 +109,16 @@ Luego vuelve a la pantalla principal de Uwazi y toca la plantilla que quieres us
 
 #### Alternativas de Envío de Datos {/* #data-submission-alternatives */}
 
-| **Función** | **Detalles**| **Tella Android** | **Tella iOS** | 
-|------|------|------|------|
-| Enviar | Envia el formulario completado al servidor conectado. | Sí | Sí |
-| Guardar como borrador | Guardar un formulario que no está completo.  | Sí | Sí |
-| Enviar luego | Marcar un formulario como listo y enviarlo a la pestaña Bandeja de Salida.  | Sí | Sí |
-| Pestaña de Borradores | Una pestaña con todos los borradores. Los borradores pueden ser editados o eliminados.  | Sí | Sí |
-| Pestaña de Bandeja de Salida | Una pestaña con los formularios listos para enviar. Los formularios en la bandeja de salida pueden ser editados o eliminados.  | Sí | Sí |
-| Pestaña de Enviados | Una pestaña con todos los formularios que se han enviado con éxito al servidor. Los formularios enviados pueden ser eliminados.  | Sí | Sí |
-| Pausar/Resumir envío | Usuaria(o)s pueden pausar manualmente un envío y reanudarlo cuando esté listo.  | Sí | No |
-| Pausar envíos automáticamente cuando se esté fuera de línea. | Los envíos serán enviados a la Bandeja de Salida si un envío falla debido a problemas de conexión.  | Sí | Sí |
+| **Función**                                                  | **Detalles**                                                                                                                    | **Tella Android** | **Tella iOS** |
+| ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- | ----------------- | ------------- |
+| Enviar                                                       | Envia el formulario completado al servidor conectado.                                                                           | Yes               | Yes           |
+| Guardar como borrador                                        | Guardar un formulario que no está completo.                                                                                     | Yes               | Yes           |
+| Enviar luego                                                 | Marcar un formulario como listo y enviarlo a la pestaña Bandeja de Salida.                                                      | Yes               | Yes           |
+| Pestaña de Borradores                                        | Una pestaña con todos los borradores. Los borradores pueden ser editados o eliminados.                                          | Yes               | Yes           |
+| Pestaña de Bandeja de Salida                                 | Una pestaña con los formularios listos para enviar. Los formularios en la bandeja de salida pueden ser editados o eliminados.   | Yes               | Yes           |
+| Pestaña de Enviados                                          | Una pestaña con todos los formularios que se han enviado con éxito al servidor. Los formularios enviados pueden ser eliminados. | Yes               | Yes           |
+| Pausar/Resumir envío                                         | Usuaria(o)s pueden pausar manualmente un envío y reanudarlo cuando esté listo.                                                  | Yes               | No            |
+| Pausar envíos automáticamente cuando se esté fuera de línea. | Los envíos serán enviados a la Bandeja de Salida si un envío falla debido a problemas de conexión.                              | Yes               | Yes           |
 
 
-:::tip
-If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
-:::
+:::tip If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing). :::
