@@ -6,7 +6,7 @@ slug: /features
 sidebar_position: 1
 ---
 import FeaturesTable from '.././_features-table.mdx';
-
+import ConnectionsTable from '.././_connections-table.mdx';
 
 # ميزات Tella
 
@@ -25,13 +25,9 @@ import FeaturesTable from '.././_features-table.mdx';
 
 بدون هذا القفل، لا يمكن فتح Tella.
 
-::: danger
-إذا أضاع المستخدم قفله، فلا يمكنه استعادة الوصول إلى Tella وإلى الملفات المخزنة داخل التطبيق. يجب على المستخدم إلغاء تثبيت Tella وإعادة تثبيته، وسيفقد بذلك جميع الملفات. 🔒🔑🚪 
-:::
+::: danger إذا أضاع المستخدم قفله، فلا يمكنه استعادة الوصول إلى Tella وإلى الملفات المخزنة داخل التطبيق. يجب على المستخدم إلغاء تثبيت Tella وإعادة تثبيته، وسيفقد بذلك جميع الملفات. 🔒🔑🚪 :::
 
-‏::: tip فيديو تعليمي 🎥
-تعرف على المزيد حول أقفال Tella في هذا [الفيديو التعليمي](/video-tutorials#tella-locks)
-:::
+‏::: tip فيديو تعليمي 🎥 تعرف على المزيد حول أقفال Tella في هذا [الفيديو التعليمي](/video-tutorials#tella-locks) :::
 
 ## تعمية في الخلفية {/* #background-encryption */}
 
@@ -39,24 +35,16 @@ Tella يقوم [بتعمية](#encryption) الملفات في الخلفية ل
 
 أثناء تعمية الملفات يُظهر Tella علامة برتقالية على أيقونة التنبيهات. إذا قام المستخدمون بفتح لوحة النشاط الخلفي أثناء تعمية الملفات سيرون قائمة الملفات في صف الانتظار والتقدم في عملية التعمية.
 
-:::danger
-لو قام المستخدم بالخروج الصعب من Tella (كمثال عن طريق استخدام [الخروج السريع](#quick-exit) أو تصغير التطبيق) أثناء تعمية الملفات في الخلفية فسوف تضيع هذه الملفات.
-:::
+:::danger لو قام المستخدم بالخروج الصعب من Tella (كمثال عن طريق استخدام [الخروج السريع](#quick-exit) أو تصغير التطبيق) أثناء تعمية الملفات في الخلفية فسوف تضيع هذه الملفات. :::
 
-:::info
-إذا تم تفعيل [وضع التحقق](/features#verification-mode)، سيتم تعطيل التعمية الخلفية للتأكد من أن جميع البيانات الوصفية يتم التقاطها في نفس الوقت الذي يتم فيه حفظ الصورة أو الفيديو أو الملف الصوتي. 
-:::
-
-
+:::info إذا تم تفعيل [وضع التحقق](/features#verification-mode)، سيتم تعطيل التعمية الخلفية للتأكد من أن جميع البيانات الوصفية يتم التقاطها في نفس الوقت الذي يتم فيه حفظ الصورة أو الفيديو أو الملف الصوتي. :::
 
 ## Backup files {/* #backup-files */}
 Tella stores all the information locally in your phone. If you delete your files (for example using [quick delete](/features#quick-delete) or if you uninstall Tella), your files cannot be restored unless you have backed them up outside of your Tella Vault.
 
 We offer several alternatives to backup files, so you can safely delete files from Tella and import those back in, but the backup process is manual, for the moment. Please [contact us](/contact-us) if you have questions.
 
-:::note
-All exports outside of Tella's encrypted vault (to a connected server or [to your phone](/features#file-management)) will be unencrypted. The only method for sharing files that transfer files directly to another encrypted vault is [Nearby Sharing](/nearby-sharing).
-:::
+:::note All exports outside of Tella's encrypted vault (to a connected server or [to your phone](/features#file-management)) will be unencrypted. The only method for sharing files that transfer files directly to another encrypted vault is [Nearby Sharing](/nearby-sharing). :::
 
 
 
@@ -64,9 +52,7 @@ All exports outside of Tella's encrypted vault (to a connected server or [to you
 
 Using [Nearby Sharing](/nearby-sharing) you can transfer files directly to another Tella vault, either in another phone or [to a computer](/get-started-desktop) that's in physical proximity. Files are shared and store encrypted in the other Tella. If you backup to another phone you can use Nearby Sharing again to restore the files to your Tella.
 
-:::info
-For the moment Tella Desktop can only receive files.
-:::
+:::info For the moment Tella Desktop can only receive files. :::
 
 ### Backup files to a cloud {/* #backup-files-to-a-cloud */}
 
@@ -76,6 +62,8 @@ Some individuals use commercial clouds (Google Drive, Dropbox, Nextcloud) as a b
 
 You can [continue reading about Server Connections and how organizations use Tella here](/for-organizations).
 
+
+
 ## تهيئة مهلة القفل {/* #lock-timeout-configuration */}
 
 يتم قفل Tella فورا بشكل افتراضي في كل مرة يخرج فيها المستخدم من التطبيق أو عندما تنطفئ شاشة الهاتف. إذا كنت ترغب في تغيير هذا الإعداد، يمكن للمستخدم القيام بذلك عن طريق
@@ -84,17 +72,11 @@ You can [continue reading about Server Connections and how organizations use Tel
 
 الخيارات المتاحة هي دقيقة واحدة، 5 دقائق، 30 دقيقة وساعة واحدة. ⏱️
 
-‏:::info
-يرجى استخدام هذه الميزة بحذر لأنه إذا كان Tella غير مقفل ستكون البيانات غير محمية وأي شخص يدخل لـ Tella سيكون قادرا على رؤية جميع المعلومات الموجودة داخله.
-:::
+‏:::info يرجى استخدام هذه الميزة بحذر لأنه إذا كان Tella غير مقفل ستكون البيانات غير محمية وأي شخص يدخل لـ Tella سيكون قادرا على رؤية جميع المعلومات الموجودة داخله. :::
 
-‏:::info
-عندما تكون الكاميرا أو مسجل الصوت مفتوحين، لن يُقفَل Tella
-:::
+‏:::info عندما تكون الكاميرا أو مسجل الصوت مفتوحين، لن يُقفَل Tella :::
 
-‏::: tip فيديو تعليمي 🎥
-تعرف على المزيد حول ميزات الأمن الإضافية لـ Tella في هذا [الفيديو التعليمي](/video-tutorials#additional-security-features)
-:::
+‏::: tip فيديو تعليمي 🎥 تعرف على المزيد حول ميزات الأمن الإضافية لـ Tella في هذا [الفيديو التعليمي](/video-tutorials#additional-security-features) :::
 
 
 
@@ -102,9 +84,7 @@ You can [continue reading about Server Connections and how organizations use Tel
 
 ‫يتم تعطيل الوضع الصامت للكاميرا في Tella بشكل افتراضي. من الممكن إيقاف صوت مِغلاق الكاميرا لتجنب لفت الانتباه عند التقاط الصور عن طريق الذهاب إلى **الإعدادات ⚙️** > **الأمن** > **الوضع الصامت للكاميرا**. 📷🔇
 
-‏::: tip فيديو تعليمي 🎥
-تعرف على المزيد حول ميزات الأمن الإضافية لـ Tella في هذا [الفيديو التعليمي](/video-tutorials#additional-security-features)
-:::
+‏::: tip فيديو تعليمي 🎥 تعرف على المزيد حول ميزات الأمن الإضافية لـ Tella في هذا [الفيديو التعليمي](/video-tutorials#additional-security-features) :::
 
 
 ## أمن الشاشة {/* #screen-security */}
@@ -114,9 +94,7 @@ You can [continue reading about Server Connections and how organizations use Tel
 على نظام iOS، أمن الشاشة يمنع فقط تسجيلات الشاشة داخل Tella ويحجب الشاشة في قائمة التطبيقات الحديثة، ولكن لا يمكن تعطيل لقطات الشاشة أو تسجيلات الشاشة.
 
 
-‏::: tip فيديو تعليمي 🎥
-تعرف على المزيد حول ميزات الأمن الإضافية لـ Tella في هذا [الفيديو التعليمي](/video-tutorials#additional-security-features)
-:::
+‏::: tip فيديو تعليمي 🎥 تعرف على المزيد حول ميزات الأمن الإضافية لـ Tella في هذا [الفيديو التعليمي](/video-tutorials#additional-security-features) :::
 
 ## تقييد محاولات فتح القفل {/* #restrict-unlocking-attempts */}
 ‫عن طريق الذهاب إلى **الإعدادات ⚙️** > **الأمن** > **الحذف بعد فشل فتح القفل**، يمكن للمستخدم تحديد عدد محاولات فتح القفل الفاشلة المسموح بها قبل حذف كل شيء داخل Tella.
@@ -125,14 +103,42 @@ You can [continue reading about Server Connections and how organizations use Tel
 
 بعد العدد المحدد من المحاولات الفاشلة، سيتم حذف جميع الملفات والاتصالات وكل شيء في Tella، وسيعود المستخدم إلى حالة التطبيق ”المثبت حديثا“.
 
-‏:::danger
-بالرغم من أن هذا الإعداد الأمني يمنع محاولات فتح القفل بالقوة الغاشمة للوصول إلى Tella، إلا أنه يجب استخدامه بحذر، لأنه لا توجد طريقة لاستعادة محتوى Tella بمجرد الوصول إلى الحد الأقصى من محاولات الفتح الفاشلة.
-:::
+‏:::danger بالرغم من أن هذا الإعداد الأمني يمنع محاولات فتح القفل بالقوة الغاشمة للوصول إلى Tella، إلا أنه يجب استخدامه بحذر، لأنه لا توجد طريقة لاستعادة محتوى Tella بمجرد الوصول إلى الحد الأقصى من محاولات الفتح الفاشلة. :::
+
+:::danger While this security setting prevents brute force unlocking attempts to enter Tella, it should be used with caution, as there is no way to restore the content of Tella once the maximum number of failed unlocking attempts is reached. :::
 
 ## تحرير الوسائط {/* #edit-media */}
 نحن بصدد إضافة إمكانية تحرير ملفات الوسائط مباشرة داخل Tella. قريبا، لن يحتاج المستخدمون إلى تصدير ملفاتهم خارج Tella لتحريرها. يقوم Tella و Tella iOS بتحرير الصور (القص والدوران).
 
+| **Media Type** | **Feature** | **Tella Android** | **Tella iOS** | **Tella FOSS** |
+| -------------- | ----------- | ----------------- | ------------- | -------------- |
+| Image          | Crop        | ✔️                | ✔️            | ✔️             |
+| Image          | Rotate      | ✔️                | ✔️            | ✔️             |
+| Image          | Flip        | ✔️                | Not yet       | ✔️             |
+| Image          | Auto-zoom   | ✔️                | Not yet       | ✔️             |
+| Video          | Trim        | Not yet           | ✔️            | Not yet        |
+| Video          | Rotate      | Not yet           | ✔️            | Not yet        |
+| Audio          | Trim        | Not yet           | ✔️            | Not yet        |
+
 ‫يمكن للمستخدمين تحرير صورة عن طريق الذهاب إلى **المزيد** > **تحرير** من مجلد **الصور** أو بلمس زر **تحرير** في أعلى اليمين أثناء عرض الصورة في Tella. في شاشة تحرير الصورة، يمكن للمستخدمين استخدام زر **الدوران** في أسفل الشاشة لتدوير الصورة عكس اتجاه عقارب الساعة أو محاولة القَرص والإفلات بأصبعين لتقريب وتكبير الصورة أو تصغير الصورة لقصها. عند الانتهاء من التعديلات، يمكن للمستخدمين الضغط على علامة الاختيار البرتقالية في أعلى يمين شاشة التحرير.
+- **Rotate**: Use the Rotate button at the bottom of the screen to rotate the image counter-clock wise.
+- **Crop**: Drap the corners of the white canvas to crop the picture.
+- **Auto-zoom**: The image will automatically zoom in and out depending on the selected canvas, to avoid loosing image quality.
+- **Flip**: Use the flip buttons to mirror the image horizontally or vertically.
+
+When edits are done, users can press the orange check on the top right of the edit screen. The edited file will be saved as a copy of the original file in the same folder.
+
+
+Users can edit videos or audio recordings:
+- In any folder, next to the file to be edited, by tapping on **⁝** > **Edit**.
+- While listening to an audio recording or watching a video in Tella, by tapping the **Edit** button in the top right corner.
+
+Current editing options include:
+- **Trim**: Move the vertical orange lines to select the new start and end point of your audio or video.
+- **Rotate**: Use the Rotate button on the top right of the screen to rotate the video counter-clock wise.
+
+Use the Play button at the bottom of the screen to listen to the audio or the Cancel button to start over. When you are done editing the file, use the orange scissors ✂️ icon in the top-right corner to save the trimmed audio or video. The edited file will be saved as a copy of the original file in the same folder.
+
 
 ## التعمية {/* #encryption */}
 
@@ -142,21 +148,13 @@ You can [continue reading about Server Connections and how organizations use Tel
 
 حتى إذا تم توصيل الجهاز بالحاسوب وتم استخراج جميع بيانات الجهاز لتحليلها، فإن جميع محتويات وبيانات Tella ستبدو مشوَّشة ولن تكون ذات فائدة. إن الطريقة الوحيدة لفك التعمية هي فتح التطبيق عن طريق إدخال القفل الصحيح، وبذلك يمكن قراءة المحتوى المُخزَّن في Tella.
 
-‏::: danger
-إذا كان قفل المستخدم ضعيفا جدا، فقد يتمكن الخصم من تخمينه وفتح التطبيق على الهاتف؛ أو يمكن استخراج البيانات واستخدام الحاسوب لاستخدام القوة الغاشمة لاختراق مفتاح التعمية وفك تعمية البيانات.
-:::
+‏::: danger إذا كان قفل المستخدم ضعيفا جدا، فقد يتمكن الخصم من تخمينه وفتح التطبيق على الهاتف؛ أو يمكن استخراج البيانات واستخدام الحاسوب لاستخدام القوة الغاشمة لاختراق مفتاح التعمية وفك تعمية البيانات. :::
 
-‏::: danger
- إذا نسي المستخدم قفله، لا توجد طريقة للوصول إلى التطبيق واستعادة محتواه
-:::
+‏::: danger إذا نسي المستخدم قفله، لا توجد طريقة للوصول إلى التطبيق واستعادة محتواه :::
 
-‏::: tip فيديو تعليمي 🎥
-تعرف على المزيد حول الأقفال والتعمية في هذا [الفيديو التعليمي](/video-tutorials#tella-locks)
-:::
+‏::: tip فيديو تعليمي 🎥 تعرف على المزيد حول الأقفال والتعمية في هذا [الفيديو التعليمي](/video-tutorials#tella-locks) :::
 
-‏:::info
-يمكن العثور على التفاصيل التقنية حول التعمية في قسم [الأمن والخصوصية](/security-and-privacy).
-:::
+‏:::info يمكن العثور على التفاصيل التقنية حول التعمية في قسم [الأمن والخصوصية](/security-and-privacy). :::
 
 ## إدارة الملفات {/* #file-management */}
 
@@ -166,13 +164,12 @@ You can [continue reading about Server Connections and how organizations use Tel
 
 * تخزين أي ملف، بما في ذلك الصور 📷 والفيديوهات 🎥 والملفات الصوتية 🎧 والمستندات 📝.
 * إنشاء المجلدات والمجلدات الفرعية.
+    - Create folders and subfolders.
+    - Move files into folders and from one folder to another.
 * نقل الملفات إلى المجلدات ومن مجلد إلى آخر.
 * تصدير الملفات إلى أجهزتهم. بمجرد حفظها على الجهاز خارج Tella، لن تكون الملفات مُعمّاة ويمكن الوصول إليها من قبل أي شخص يبحث في الجهاز.
-* استيراد الملفات من أجهزتهم. تتم تعمية الملفات تلقائيا عند استيرادها إلى Tella.
 
-‏::: danger
-يؤدي استيراد الملفات من نظام ملفات الجهاز إلى Tella إلى إنشاء نسخة من الملفات داخل Tella. سيطلب Tella منك تحديد ما إذا كنت تريد الاحتفاظ بالملف الأصلي على هاتفك أو حذفه عند الاستيراد. إذا اخترت الاحتفاظ بالملف الأصلي، فسيظل موجودا على الجهاز، خارج Tella ودون تعمية. 🔒
-:::
+‏::: danger يؤدي استيراد الملفات من نظام ملفات الجهاز إلى Tella إلى إنشاء نسخة من الملفات داخل Tella. سيطلب Tella منك تحديد ما إذا كنت تريد الاحتفاظ بالملف الأصلي على هاتفك أو حذفه عند الاستيراد. إذا اخترت الاحتفاظ بالملف الأصلي، فسيظل موجودا على الجهاز، خارج Tella ودون تعمية. 🔒 :::
 
 ## التعليقات {/* #feedback */}
 
@@ -186,15 +183,12 @@ You can [continue reading about Server Connections and how organizations use Tel
    - ‫انتقل إلى **الإعدادات** > **التعليقات** لتفعيل استمارة التعليقات داخل التطبيق.
    - يتيح هذا للمستخدمين مشاركة التعليقات مع فريق Tella بشكل مجهول.
 
-
 لضمان خصوصية المستخدم وإخفاء هويته، يتم إرسال البيانات الأساسية فقط إلى خادم التعليقات لدينا من خلال طلبات POST للبروتوكول HTTPS. يتم حذف السجلات التي تحتوي على معلومات المستخدم (عنوان IP، التاريخ والوقت، ووكيل المستخدم) تلقائيا كل أسبوع.
 
 في قاعدة بيانات خادم التعليقات، نخزن فقط نسخة من النص الذي أرسله المستخدمون في استمارة التعليقات ومن أي منصة جاء (أندرويد أو iOS).
 
 
-:::info
-المعلومات الوحيدة التي سنتلقاها هي المحتوى الذي يضيفه المستخدمون في استمارة التعليقات. إذا كان المستخدمون يطلبون الدعم أو يريدون منا المتابعة معهم، فيجب عليهم توفير وسيلة آمنة لنتواصل معهم.
-:::
+:::info المعلومات الوحيدة التي سنتلقاها هي المحتوى الذي يضيفه المستخدمون في استمارة التعليقات. إذا كان المستخدمون يطلبون الدعم أو يريدون منا المتابعة معهم، فيجب عليهم توفير وسيلة آمنة لنتواصل معهم. :::
 
 
 ## استيراد الملفات من الجهاز {/* #import-files-from-device */}
@@ -202,9 +196,7 @@ You can [continue reading about Server Connections and how organizations use Tel
 يمكن للمستخدم استيراد الملفات إلى Tella للحفاظ على أمنها باستخدام ميزة الاستيراد. يمكنه استيراد الملفات عن طريق الذهاب إلى زر **إضافة ( + )** إما في 'كل الملفات' أو 'الصور' أو 'الفيديو' أو 'الصوت' أو 'المستندات' حسب نوع الملف الذي يرغب في استيراده ثم **استيراد من الجهاز** 📥. سيظهر مُوجِّه يسأل المستخدم عما إذا كان يرغب في الاحتفاظ بالملف الأصلي في ذاكرة الهاتف أو حذفه. سيتم الحفاظ على الملفات المستوردة آمنة في Tella.
 
 
-‏::: tip فيديو تعليمي 🎥
- تعرف على المزيد حول [جمع الأدلة](video-tutorials#collecting-evidence) و [مشاركة البيانات](/video-tutorials#sharing-data-with-other-apps) في فيديوهاتنا التعليمية.
-:::
+‏::: tip فيديو تعليمي 🎥 تعرف على المزيد حول [جمع الأدلة](video-tutorials#collecting-evidence) و [مشاركة البيانات](/video-tutorials#sharing-data-with-other-apps) في فيديوهاتنا التعليمية. :::
 
 ## الحفاظ على البيانات الوصفية عند الاستيراد {/* #preserve-metadata-when-importing */}
 
@@ -216,8 +208,6 @@ You can [continue reading about Server Connections and how organizations use Tel
 ## فتح الملفات في Tella {/* #open-files-in-tella */}
 يمكن عرض الصور والفيديوهات وملفات PDF والملفات الصوتية داخل Tella. 📱📄
 
-في إصدار البرمجيات الحرة والمفتوحة المصدر من Tella، يجب تصدير ملفات PDF لفتحها.
-
 ## التمويه {/* #camouflage */}
 
 على Tella Android، يمكن تمويه Tella بطريقتين:
@@ -227,13 +217,11 @@ You can [continue reading about Server Connections and how organizations use Tel
 
 في الوقت الحالي، بسبب قيود متجر Apple، لا تدعم Tella iOS ميزات التمويه المتاحة في Tella Android.
 
-‏::: danger
-سيظل اسم "Tella" وأيقونته مرئيين في إعدادات أندرويد. هذا يعني أن التمويه لن يحمي ضد شخص يبحث _بنشاط_ عن Tella على الهاتف أو يجري تحليلا مُعمَّقا للجهاز. 🔒👀
-:::
+‏::: danger سيظل اسم "Tella" وأيقونته مرئيين في إعدادات أندرويد. هذا يعني أن التمويه لن يحمي ضد شخص يبحث _بنشاط_ عن Tella على الهاتف أو يجري تحليلا مُعمَّقا للجهاز. 🔒👀 :::
 
-‏::: tip فيديو تعليمي 🎥
-تعرف المزيد حول [تمويه Tella](/video-tutorials#camouflaging-tella) في فيديوهاتنا التعليمية.
-:::
+‏::: tip فيديو تعليمي 🎥 تعرف المزيد حول [تمويه Tella]{1} في فيديوهاتنا التعليمية. :::
+
+:::tip video tutorial 🎥 Learn more about [Camouflaging Tella](/video-tutorials#camouflaging-tella) in our video tutorial. :::
 
 
 ## تخصيص الشاشة الرئيسية {/* #homescreen-customization */}
@@ -256,11 +244,10 @@ You can [continue reading about Server Connections and how organizations use Tel
 * حذف الخزانة: حذف جميع الملفات المُخزَّنة في Tella 🗑️
 * حذف الاستمارات والمُسوَّدات المُرسَلة: حذف المُسوَّدات و الاستمارات المُرسَلة في جميع خوادم Open Data Kit (ODK) المتصلة 📝
 * حذف إعدادات الخادم: حذف جميع اتصالات الخادم وجميع الاستمارات أو القوالب المرتبطة بها 📋
-* حذف Tella: حذف التطبيق وجميع البيانات التي يحتويها. ستظهر رسالة تسأل المستخدم عما إذا كان يريد إلغاء تثبيت Tella أيضا ❌.
 
-‏:::info حذف Tella
-قد لا يكون خيار حذف Tella متاحا على بعض هواتف أندرويد بسبب القيود التقنية. نحن نعمل على إصلاح هذه المشكلة. بالنسبة لنظام iOS، لا يمكن حذف تطبيق ما برمجيا.
-:::
+‏:::info حذف Tella قد لا يكون خيار حذف Tella متاحا على بعض هواتف أندرويد بسبب القيود التقنية. نحن نعمل على إصلاح هذه المشكلة. بالنسبة لنظام iOS، لا يمكن حذف تطبيق ما برمجيا. :::
+
+:::warning Before triggering Quick Delete, consider [backing up you files](/features#backup-files) outside of Tella, to avoid loosing them. :::
 
 ## الخروج السريع {/* #quick-exit */}
 
@@ -274,9 +261,7 @@ You can [continue reading about Server Connections and how organizations use Tel
 
 عند تفعيل التطبيق، يلتقط Tella تلقائيا معلومات التحقق (بيانات وصفية للملف)، في كل مرة يلتقط المستخدم فيها صورة أو فيديو أو يسجل صوتا. يمكن استخدام هذه المعلومات للتحقق من الأدلة، ومقارنتها مع حقائق أخرى معروفة عن الحدث أو المنطقة التي تم التقاطها فيها. ستُدرَج معلومات التحقق كملف منفصل عند حفظ الملف على الجهاز أو عند مشاركته عبر تطبيقات خارجية. يكون تنسيق الملف بصيغة ‎.CSV مع إلحاقه بمعلومات البيانات االوصفية في أعمدة الملف. يمكن فتح هذا الملف باستخدام أي تطبيق للجداول الممتدة (مثل Excel أو Google Spreadsheets أو OpenOffice).
 
-‏:::info اتصل بنا
-إذا كنت بحاجة إلى المساعدة لفهم وضع التحقق بشكل أفضل، لا تتردد في الاتصال بنا 😊
-:::
+‏:::info اتصل بنا إذا كنت بحاجة إلى المساعدة لفهم وضع التحقق بشكل أفضل، لا تتردد في الاتصال بنا 😊 :::
 
 فيما يلي قائمة بكل جزء من البيانات الوصفية التي يلتقطها Tella:
 
@@ -314,14 +299,16 @@ You can [continue reading about Server Connections and how organizations use Tel
 
 حاليا، يمكن الاتصال بالخوادم التالية من خلال Tella:
 
-* [Tella Web](/tella-web)
-* [Open Data Kit (ODK)](/for-organizations#open-data-kit-odk)
-* [Uwazi](/uwazi)
+* [Tella Web](/odk)
+* [Open Data Kit (ODK)](/uwazi)
+* [Uwazi](/tella-web)
+* [Google Drive](/g-drive)
+* [Nextcloud](/nextcloud)
+* [Dropbox](/dropbox)
 
-‏::: tip فيديو تعليمي 🎥
-تعرف على المزيد حول حول [الاتصال بالخوادم](/video-tutorials#server-connections) في فيديوهاتنا التعليمية.
-:::
+‏::: tip فيديو تعليمي 🎥 تعرف على المزيد حول حول [الاتصال بالخوادم](/for-organizations) في فيديوهاتنا التعليمية. :::
 
+:::tip Video tutorial 🎥 Learn more about [Connecting to Servers](/video-tutorials#server-connections) in our video tutorials. :::
 
 
 ## Nearby Sharing {/* #nearby-sharing */}
@@ -330,16 +317,12 @@ Users can share files directly from Tella's encrypted vault to another Tella enc
 
 This feature is available on Tella Android, Tella iOS, and Tella Desktop.
 
-:::note
-[Learn more about nearby sharing here](/nearby-sharing).
-:::
+:::note [Learn more about nearby sharing here](/nearby-sharing). :::
 
 ## Share button {/* #share-button */}
 To share information with other apps, users can select the file or files they want to share and press the Share button. Tella will prompt the list of available apps on the phone and users can choose the app they want to share the file(s) with.
 
-:::danger
-Tella will share the files unencrypted and the history of exchanged files might be visible on the app you used. We recommend using disappearing messages or deleting the messages after the other person receives them when using messaging apps (for example WhatsApp or Signal).
-:::
+:::danger Tella will share the files unencrypted and the history of exchanged files might be visible on the app you used. We recommend using disappearing messages or deleting the messages after the other person receives them when using messaging apps (for example WhatsApp or Signal). :::
 
 ## الكاميرا (الصور والفيديوهات) {/* #camera-photos-and-videos */}
 
