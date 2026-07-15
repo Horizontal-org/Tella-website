@@ -21,11 +21,11 @@ De la même manière que toute autre connexion au serveur comme([Tella Web](/tel
 Even though data is transferred to the server securely (SSL), anyone with access to the Uwazi account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
 :::
 
-### Tester Uwazi {#testing-uwazi}
+### Tester Uwazi {/* #testing-uwazi */}
 
 Vous pouvez tester Uwazi en utilisant [cette version de démonstration] (https://demo.uwazi.io/).
 
-### Quand utiliser Uwazi {#when-to-use-uwazi}
+### Quand utiliser Uwazi {/* #when-to-use-uwazi */}
 
 Nous recommandons Uwazi aux organisations qui ont besoin d'utilisateurs et utilisatrices sur le terrain pour recueillir des données de manière structurée via des formulaires.
 
@@ -49,7 +49,7 @@ Vous pouvez en savoir plus sur Uwazi sur [la documentation officielle d'Uwazi](h
 If you need help figuring out if Uwazi is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
 :::
 
-## Configurer Uwazi sur un serveur {#configure-uwazi-on-a-server}
+## Configurer Uwazi sur un serveur {/* #configure-uwazi-on-a-server */}
 
 
 L'équipe HURIDOCS propose 2 alternatives pour configurer votre serveur uwazi:
@@ -57,7 +57,7 @@ L'équipe HURIDOCS propose 2 alternatives pour configurer votre serveur uwazi:
 1. Auto-hébergé : partagez ce [guide d'administrateur complet](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html) avec l'administrateur de votre système pour obtenir des instructions étape par étape sur la façon d'installer Uwazi sur votre serveur, de configurer les sauvegardes et de configurer les fonctionnalités avancées.
 2. Hébergé par HURIDOCS : HURIDOCS propose des forfaits d'hébergement en tant que service. Des services d'hébergement gratuits (jusqu'à une certaine limite de stockage) et une version d'essai d'Uwazi sont disponibles pour les organisations de défense des droits de l'homme. [Contactez HURIDOCS](https://huridocs.org/services/) pour plus de détails sur le service.
 
-## Modélisez vos données {#model-your-data}
+## Modélisez vos données {/* #model-your-data */}
 
 Une collection Uwazi est composée d'entités. Une entité possède des propriétés qui sont les champs que les utilisateurs de Tella rempliront pour collecter des données. Les entités peuvent contenir des documents principaux et/ou des fichiers de support et certaines propriétés définies par les administrateurs sur le serveur Uwazi lorsqu'ils créent des modèles. Un modèle est un formulaire vide qui peut être rempli autant de fois que nécessaire ; une fois qu'un modèle est rempli, il devient une entité.
 
@@ -67,7 +67,7 @@ Une collection Uwazi est composée d'entités. Une entité possède des proprié
 Si les utilisateurs et utilisatrices de Tella téléchargent un modèle dont les propriétés ne sont pas prises en charge dans Tella, ces propriétés ne seront pas affichées dans l'application. Cependant, ils ou elles pourront toujours soumettre les entités et les administrateurs pourront accéder sans aucun problème à ces entités, y compris à toutes les propriétés qui ont été renseignées.
 :::
 
-### Propriétés disponibles {#available-properties}
+### Propriétés disponibles {/* #available-properties */}
 
 | **Propriété ou fonctionnalité** | **Tella Android**| **Tella iOS** | **Tella Android FOSS** |
 |------|------|-----|-----| 
@@ -87,9 +87,9 @@ Si les utilisateurs et utilisatrices de Tella téléchargent un modèle dont les
 | ID généré  | ✔️ | Non | ✔️ |
 
 
-## Faites en sorte que les personnes sur le terrain soient prêtes à soumettre des données {#get-people-on-the-ground-ready-to-start-submitting-data}
+## Faites en sorte que les personnes sur le terrain soient prêtes à soumettre des données {/* #get-people-on-the-ground-ready-to-start-submitting-data */}
 
-### Se connecter au serveur {#connect-to-a-server}
+### Se connecter au serveur {/* #connect-to-a-server */}
 
 Pour vous connecter à un serveur Uwazi:
 
@@ -106,7 +106,7 @@ Pour vous connecter à un serveur Uwazi:
 Vous pouvez visionner [cette vidéo](/video-tutorials#uwazi) qui explique comment se connecter à un serveur Uwazi depuis Tella.
 :::
 
-### Envoyez vos informations  {#send-your-information}
+### Envoyez vos informations {/* #send-your-information */}
 
 Après que vous vous soyez connecté avec succès à une instance Uwazi, vous verrez apparaître dans les sections **Connexions** de l'écran d'accueil de Tella une nouvelle carte intitulée "Uwazi".
 
@@ -115,7 +115,7 @@ Pour télécharger un modèle, appuyez sur le bouton **+** en bas de l'écran. V
 Revenez ensuite à l'écran principal d'Uwazi et appuyez sur le modèle que vous souhaitez utiliser pour créer une entité.
 
 
-#### Alternatives à la soumission de données {#data-submission-alternatives}
+#### Alternatives à la soumission de données {/* #data-submission-alternatives */}
 
 | **Feature** | **Détails**| **Tella Android** | **Tella iOS** | 
 |------|------|------|------|

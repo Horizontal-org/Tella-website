@@ -7,7 +7,7 @@ slug: /get-started-android
 
 # Empezando con Tella en Android
 
-## Descarga e instala Tella {#download-and-install-tella}
+## Descarga e instala Tella {/* #download-and-install-tella */}
 
 Tienes varias opciones para descargar Tella:
 - Sigue [este enlace](https://play.google.com/store/apps/details?id=org.hzontal.tella&hl=en&gl=US&pli=1) para encontrar Tella en la Tienda Google Play o abre la Tienda Google Play y busca "Tella".
@@ -22,7 +22,7 @@ Si necesitas ayuda para instalar la app manualmente, puedes [seguir esta guía](
 
 
 
-## Crea tu método de bloqueo {#create-your-lock}
+## Crea tu método de bloqueo {/* #create-your-lock */}
 
 La primera vez que abras Tella verás una visita guiada por las funcionalidades de la app: Cámara, Grabadora y Cifrado de archivos y carpetas. También se te pedirá elegir cómo bloquearás Tella. Sin este método de bloqueo, no es posible abrir Tella ni acceder a ninguno de los archivos almacenados en Tella.
 - Contraseña: una contraseña alfanumérica es la manera más segura de bloquear tu App.
@@ -37,7 +37,7 @@ Toma en cuenta que si olvidas este método de bloqueo, no hay forma de acceder a
 
 
 
-## Concede permisos a Tella {#grant-permissions-to-tella}
+## Concede permisos a Tella {/* #grant-permissions-to-tella */}
 La primera vez que uses cada función, se te pedirá conceder algunos permisos a Tella:
 - Para tomar fotos, grabar videos, o grabar audio, deberás conceder permiso para acceder a la cámara y micrófono de tu teléfono.
 - Para importar archivos a Tella o exportar archivos desde Tella a tu teléfono, deberás conceder acceso al sistema de archivos de tu dispositivo.
@@ -52,7 +52,7 @@ Si rechazas conceder estos permisos a Tella, puedes conceder permisos luego yend
 
 
 
-## Protege tus archivos {#protect-your-files}
+## Protege tus archivos {/* #protect-your-files */}
 Después de conceder los permisos, estás lista(o) para empezar a recopilar documentación. Recomendamos que explores las siguientes características:
 
 **Usa la Cámara para tomar fotos o videos y la Grabadora de Audio para grabar audio.** Todos los medios capturados por Tella serán cifrados instantáneamente, lo que significa que  el archivo no será accesibles fuera de Tella. Todos los medios recopilados dentro de Tella no se mostrarán en la galería ni en los archivos de tu teléfono. No existe un límite de almacenamiento particular para Tella, el espacio disponible dependerá del espacio disponible en tu dispositivo.
@@ -84,7 +84,7 @@ Después de conceder los permisos, estás lista(o) para empezar a recopilar docu
 
 
 
-## Camuflar Tella {#camouflage-tella}
+## Camuflar Tella {/* #camouflage-tella */}
 Es posible camuflar Tella para ocultarla en tu dispositivo de dos maneras:
 - Puedes cambiar el nombre e ícono de la app, para hacerla parecer otra app (como una app de juego o meteorológica). Hay 28 nombres e íconos disponibles para ocultar Tella.
 - Puedes ocultar Tella detrás de una calculadora completamente funcional. Hemos desarrollado 4 temas diferentes para coincidir con el predeterminado de tu teléfono y ayudar a ocultar Tella. Para abrir Tella, la/el usuaria(o) debe introducir su PIN en la calculadora seguido de **=**. El camuflaje de la Calculadora solo es posible si la/el usuaria(o) utiliza PIN como método de bloqueo. No es posible camuflar Tella como una Calculadora si se utiliza un patrón o contraseña.
@@ -97,7 +97,7 @@ Aprende más sobre Camuflaje [aquí](/features#camouflage).
 
 
 
-## Comparte tu información. {#share-your-information}
+## Comparte tu información. {/* #share-your-information */}
 Para compartir información utilizando Tella puedes usar el botón **Compartir**. Simplemente selecciona el archivo o los archivos que quieres compartir, presiona **Compartir** y elige la app con la que quieres compartir los archivos.
 
 Ten en cuenta que Tella compartirá los archivos sin cifrar, por lo que asegúrate de utilizar mensajes temporales (por ejemplo en WhatsApp o Signal) o de eliminar los mensajes después que la otra persona los reciba.
@@ -106,17 +106,17 @@ Ten en cuenta que Tella compartirá los archivos sin cifrar, por lo que asegúra
     <img src="{require(&quot;@site/static/img/getting-started/android/share.gif&quot;).default}" alt="gif that shows how to share information" title="compartir información con apps de terceros"/>
 </div>
 
-## Nearby sharing {#nearby-sharing}
+## Nearby sharing {/* #nearby-sharing */}
 You share files directly from Tella’s encrypted vault to another Tella encrypted vault in the same physical location using [Nearby Sharing](/nearby-sharing). After a quick connection tutorial, the two devices establish a secure link, and files are transferred encrypted from one device to the other. Nearby Sharing allow phone-to-phone (Android or iOS) and phone-to-computer file transfers. 
 
 
-## Ve más Allá {#go-further}
-### Conéctate a un servidor {#connect-to-a-server}
+## Ve más Allá {/* #go-further */}
+### Conéctate a un servidor {/* #connect-to-a-server */}
 Tella se puede conectar a una variedad de servicios back-end. Esto es utilizado por organizaciones para permitirle a sus miembros o socia(o)s a enviar datos y archivos a una ubicación remota segura. Si estás considerando conectarte a un servidor y tienes dudas sobre qué servidor elegir o cómo conectarlo por favor mira [nuestra documentación para organizaciones](/for-organizations) o [contáctanos](/contact-us), ¡estamos aquí para ayudar!
 
 
 
-#### Open Data Kit {#open-data-kit}
+#### Open Data Kit {/* #open-data-kit */}
 
 El [Open Data Kit (ODK - Kit de Datos Abiertos)](https://getodk.org/) es un estándar abierto utilizado para crear formularios personalizados y recopilar datos. Ya que ODK es un estándar abierto, Tella puede ser utilizada con cualquiera de las herramientas que cumplen con ODK, como [Ona](https://ona.io/home/) o [KoboToolbox](https://www.kobotoolbox.org/), para crear formularios con preguntas personalizadas, administrar usuaria(o)s, y agregar datos enviados por usuaria(o)s.
 
@@ -127,7 +127,7 @@ Escribimos documentación sobre cómo conectar a un servidor de Open Data Kit y 
     <img src="{require(&quot;@site/static/img/getting-started/android/kobo.gif&quot;).default}" alt="gif that shows ODK connection" title="Conexión ODK"/>
 </div>
 
-#### Uwazi {#uwazi}
+#### Uwazi {/* #uwazi */}
 [Uwazi](https://uwazi.io/) es una aplicación de código abierto hecha por HURIDOCS con funciones poderosas para recopilar, organizar y visualizar datos de derechos humanos.
 
 Escribimos documentación sobre cómo conectar a un servidor Uwazi y te recomendamos que leas [esta página](/uwazi) para empezar.
@@ -136,12 +136,12 @@ Escribimos documentación sobre cómo conectar a un servidor Uwazi y te recomend
     <img src="{require(&quot;@site/static/img/getting-started/android/uwazi.gif&quot;).default}" alt="gif that shows Uwazi connection" title="Conexión Uwazi"/>
 </div>
 
-#### Tella Web {#tella-web}
+#### Tella Web {/* #tella-web */}
 Tella Web es una herramienta de código abierto que permite a individuos y organizaciones a centralizar y gestionar informes enviados por la(o)s usuaria(o)s de Tella, incluyendo fotos, videos, y archivos de audio.
 
 Lee más sobre Tella Web [aquí](/tella-web) o mira un [video tutorial](/video-tutorials#tella-web).
 
-#### Nextcloud, Dropbox and Google Drive {#Nextcloud-dropbox-and-google-drive}
+#### Nextcloud, Dropbox and Google Drive {/* #Nextcloud-dropbox-and-google-drive */}
 Users can also connect to their Google, Dropbox or Nextcloud organizational or personal accounts in order to submit reports (audio, photos, videos and text) directly from Tella. They won't need the Dropbox, Google Drive or Nextcloud apps on their phones and won't need to use any third party apps.
 
 Leer más:
@@ -158,10 +158,10 @@ The Google Drive and Dropbox connections are not available in Tella Android FOSS
 
 
 
-### Lee más sobre Tella {#read-more-about-tella}
+### Lee más sobre Tella {/* #read-more-about-tella */}
 - [Funciones](/features): Aprende más sobre cómo Tella puede mantenerte segura(o) y las amenazas de las que Tella _no_ te protege.
 - [Conexiones](/for-organizations): Aprende sobre cómo puedes conectarte a un servidor para recopilar datos o respaldar archivos.
 - [Seguridad y privacidad](/security-and-privacy): Solo recopilamos la cantidad mínima de datos necesarios y nunca recopilamos ninguna información de identificación personal. Lee la política de privacidad completa [aquí](/privacy).
 
-#### Contáctanos si necesitas ayuda {#contact-us-if-you-need-help}
+#### Contáctanos si necesitas ayuda {/* #contact-us-if-you-need-help */}
 Si necesitas ayuda para entender los detalles técnicos y consideraciones de seguridad de Tella para decidir si es adecuada para ti y tu equipo, estamos aquí para ayudar. Solo [comunícate con nosotra(o)s](/contact-us) para que podamos responder tus preguntas o planificar una capacitación o una sesión de Preguntas y respuestas en vivo para tu equipo.

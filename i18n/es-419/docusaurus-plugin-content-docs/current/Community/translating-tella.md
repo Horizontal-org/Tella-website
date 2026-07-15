@@ -20,12 +20,12 @@ Actualmente, Tella para Android e iOS están disponible (parcial o completamente
 
 Los [Videos Tutoriales](/video-tutorials) tienen subtítulos en español, árabe, suajili y francés.
 
-## ¿Cómo puedo unirme para traducir? {#how-do-i-become-a-translator}
+## ¿Cómo puedo unirme para traducir? {/* #how-do-i-become-a-translator */}
 Gracias por tu interés en ayudarnos con las traducciones. Nuestros esfuerzos para la localización son coordinados por [Localization Lab](https://www.localizationlab.org/).
 
 Antes de traducir, por favor lee la página del Proyecto Tella en la [Wiki de Localization Lab](https://wiki.localizationlab.org/index.php/Tella) y esta página de documentación. En estas páginas encontrarás mucha información sobre el proyecto, incluyendo nuestras guías, recursos, y prioridades que te ayudarán a aprovechar al máximo tu contribución.
 
-## Comunidad de Localization Lab {#localization-lab-community}
+## Comunidad de Localization Lab {/* #localization-lab-community */}
 Para comunicarte con otra(o)s traductora(e)s, por favor únete a la comunidad de Localization Lab, donde organizamos traducciones, tomamos decisiones, informamos de errores en los textos fuente, etc.  
 
 1. Por favor llena el [Formulario de Bienvenida para Colaborador(a)] de Localization Lab (https://docs.google.com/forms/d/e/1FAIpQLSfgXL7UbC6eVk7YMg_gidFnBre3a6liYSnAuhiPmtSybubNWA/viewform) y lee los Roles & Guías de Colaborador(a). Esto ayudará a Localization Lab a conocerte mejor y garantizar que tus colaboraciones estén alineadas con nuestro proyecto y comunidad.
@@ -42,7 +42,7 @@ Por favor preséntate y haz cualquier pregunta que puedas tener luego de seguir 
 - Publica un mensaje o chatea en el [Canal Público de Localization Lab en Mattermost, hospedado por Internet Freedom Festival](https://community.internetfreedomfestival.org/community/channels/localization-lab-chat).
 - [Lee la guía de inicio rápido de Lokalise por Localization Lab](https://docs.google.com/document/d/1h3Fa9FbVAzHXKgS_H28LmycY3ujjCgQl-oOwVuIy2IA/edit) o lee la [Documentación de Lokalise](https://docs.lokalise.com/en/)
 
-## ¿Dónde puedo interactuar con otra(o)s colaboradora(e)s o hacer una solicitud? {#where-can-i-interact-with-other-contributors-or-make-a-request}
+## ¿Dónde puedo interactuar con otra(o)s colaboradora(e)s o hacer una solicitud? {/* #where-can-i-interact-with-other-contributors-or-make-a-request */}
 
 Si quieres añadir un nuevo idioma, [contáctanos](/contact-us).
 

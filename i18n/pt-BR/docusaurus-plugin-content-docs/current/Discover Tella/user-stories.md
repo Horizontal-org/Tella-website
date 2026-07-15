@@ -9,7 +9,7 @@ sidebar_position: 4
 # Histórias de usuários do Tella
 
 
-## CLEEN Foundation - Nigéria {#cleen-foundation---nigeria}
+## CLEEN Foundation - Nigéria {/* #cleen-foundation---nigeria */}
 
 :::note Resumo
 A CLEEN Foundation usou o Tella para o monitoramento da eleição na Nigéria. Receberam 7.800 relatórios de observadores da eleição que os ajudaram a identificar casos de violência policial e fraude eleitoral em tempo real. Os relatórios incluíam evidências em foto, vídeo e áudio, além de descrições textuais. A CLEEN Foundation conseguiu receber, analisar e publicar os resultados do processo de monitoramento eleitoral no dia seguinte à eleição e um relatório com recomendações para o governo nigeriano para aumentar a segurança nas futuras eleições, reduzir a violência e prevenir fraude.
@@ -46,7 +46,7 @@ Ao longo do processo eleitoral, a CLEEN recebeu um total de 7.800 relatórios: 6
 Após o sucesso dessa primeira implantação, a CLEEN implantou o Tella para investigar o tráfico humano na Nigéria, melhor entender suas causas e identificar potenciais soluções.
 
 
-## Not1More - Brasil {#not1more---brazil}
+## Not1More - Brasil {/* #not1more---brazil */}
 
 :::note Resumo
 Not1More (N1M) usou o Tella para documentar violações de direitos ambientais e de território na Amazônia brasileira. No Brasil, os defensores na linha de frente da defesa ao meio ambiente vêm sofrendo ataques e perseguição e as comunidades indígenas enfrentaram ataques à suas culturas, territórios e modos de vida. Tella é um meio seguro de relatar violações e ao mesmo tempo priorizar a segurança dos reportadores. Com os resultados, a N1M, junto a pesquisadores e comunidades, desenvolveu um mapa que está sendo usado como uma ferramenta de advocacia pública para a justiça ambiental.
@@ -66,7 +66,7 @@ Em novembro de 2019, durante a Conferência dos Defensores da Floresta no Brasil
 Com os dados coletados, estudantes indígenas e pesquisadores nas Universidades Federal da Bahia, Federal do Recôncavo Baiano e Estadual da Bahia, criaram um website com um mapa que retrata evidências de violações dos direitos indígenas, coletados com o uso do Tella: [https://umoutroceu.ufba.br](https://umoutroceu.ufba.br/). A APOINME (Articulação dos Povos e Organizações Indígenas do Nordeste, Minas Gerais e Espírito Santo) usou o mapa como uma ferramenta de sensibilização sobre os ataques a comunidades indígenas e reivindicar melhor proteção.
 
 
-## Monitoramento da Eleição - Bielorrússia {#election-monitoring---belarus}
+## Monitoramento da Eleição - Bielorrússia {/* #election-monitoring---belarus */}
 
 :::note Resumo
 Nas eleições presidenciais de 2020 na Bielorrússia, organizações da sociedade civil implantaram o Tella para monitorar as eleições e documentar evidências de violações das leis e procedimentos eleitorais, bem como abusos nos direitos humanos. A Horizontal desenvolveu uma versão personalizada do Tella, com uma interface de usuário simplificada e conexão com os servidores como padrão para as organizações responsáveis pelo monitoramento. O aplicativo foi traduzido para bielorusso e russo. Mais de 250 usuários submeteram um total de 1.091 relatórios, apesar das severas interrupções da internet e o completo desligamento da internet móvel antes, durante e depois da eleição.

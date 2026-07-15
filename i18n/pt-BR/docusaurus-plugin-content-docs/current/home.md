@@ -16,23 +16,23 @@ Boas vindas à documentação do Tella!
 Abaixo, você encontrará tudo o que precisa para entender como o Tella funciona, suas funcionalidades e limitações de segurança, e como começar. Para ficar a par das atualizações, inscreva-se em [nosso boletim informativo](https://blog.wearehorizontal.org/#/portal), ou [entre em contato conosco](/contact-us)!
 
 
-## Explore o Tella {#discover-tella}
+## Explore o Tella {/* #discover-tella */}
 
 <CategoryCardList href="/discover"/>
 
-## Começando {#getting-started}
+## Começando {/* #getting-started */}
 
 <CategoryCardList href="/get-started"/>
 
-## Para Organizações {#for-organizations}
+## Para Organizações {/* #for-organizations */}
 
 <CategoryCardList href="/connections"/>
 
 
-## Comunidade {#community}
+## Comunidade {/* #community */}
 
 <CategoryCardList href="/community"/>
 
-## Vá além {#go-further}
+## Vá além {/* #go-further */}
 
 <GoFurtherCards/>

@@ -21,11 +21,11 @@ Da mesma forma para todas as outras conexões de servidor([Tella Web](/tella-web
 Even though data is transferred to the server securely (SSL), anyone with access to the Uwazi account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
 :::
 
-### Testando Uwazi {#testing-uwazi}
+### Testando Uwazi {/* #testing-uwazi */}
 
 Você pode testar o Uwazi usando [esta instância Demonstrativa](https://demo.uwazi.io/).
 
-### Quando usar Uwazi {#when-to-use-uwazi}
+### Quando usar Uwazi {/* #when-to-use-uwazi */}
 
 Recomendamos Uwazi para organizações que precisam que usuários em seus locais de atuação coletem dados de uma maneira estruturada através de formulários. 
 
@@ -49,7 +49,7 @@ Você pode aprender mais sobre o Uwazi na [documentação oficial do Uwazi](http
 If you need help figuring out if Uwazi is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
 :::
 
-## Configure Uwazi on a server {#configure-uwazi-on-a-server}
+## Configure Uwazi on a server {/* #configure-uwazi-on-a-server */}
 
 
 The HURIDOCS team offers 2 alternatives on how to set up your uwazi server:
@@ -57,7 +57,7 @@ The HURIDOCS team offers 2 alternatives on how to set up your uwazi server:
 1. Self-hosted: Share this [comprehensive administrator guide](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html) with your system's administrator for step-by-step instructions on how to install Uwazi on your server, configure backups, and set up advanced features. 
 2. Hosted by HURIDOCS: HURIDOCS offer hosting packages as a service. Free hosting services  (up to a storage limit) and a trial version of Uwazi are available for human rights organizations. [Reach out to HURIDOCS](https://huridocs.org/services/) for more details about the service.  
 
-## Modele seus Dados {#model-your-data}
+## Modele seus Dados {/* #model-your-data */}
 
 Uma coleção é feita de Entidades. Uma entidade possui Propriedades, ou seja, campos que usuários do Tella preencherão para coletar dados. Entidades podem guardar Documentos Primários e/ou Arquivos de Suporte e algumas propriedades que são definidas por administradores no servidor Uwazi quando eles criam Templates. Um Template é um formulário vazio que pode ser preenchido quantas vezes for necessário. Assim que o Template é preenchido, ele se torna uma Entidade.
 
@@ -67,7 +67,7 @@ Uma coleção é feita de Entidades. Uma entidade possui Propriedades, ou seja, 
 Se usuários do Tella baixam um template que possui propriedades não suportadas pelo Tella, tais propriedades não serão mostradas no aplicativo. No entanto, os usuários ainda poderão enviar as entidades, e os administradores poderão acessá-las, incluindo todas as propriedades que foram preenchidas, sem nenhum problema.
 :::
 
-### Propriedades Disponíveis {#available-properties}
+### Propriedades Disponíveis {/* #available-properties */}
 
 | **Propriedade ou Funcionalidade** | **Tella para Android**| **Tella para iOS** | **Tella Android FOSS** |
 |------|------|-----|-----| 
@@ -87,9 +87,9 @@ Se usuários do Tella baixam um template que possui propriedades não suportadas
 | ID Gerada  | ✔️ | Não | ✔️ |
 
 
-## Prepare as Pessoas nos Locais de Atuação para Começar a Submeter Dados {#get-people-on-the-ground-ready-to-start-submitting-data}
+## Prepare as Pessoas nos Locais de Atuação para Começar a Submeter Dados {/* #get-people-on-the-ground-ready-to-start-submitting-data */}
 
-### Conecte-se ao Servidor  {#connect-to-the-server}
+### Conecte-se ao Servidor {/* #connect-to-the-server */}
 
 Para conectar-se a um servidor Uwazi:
 
@@ -106,7 +106,7 @@ Para conectar-se a um servidor Uwazi:
 Você pode assistir a [este vídeo](/video-tutorials#uwazi) sobre como conectar a um servidor Uwazi por meio do Tella.
 :::
 
-### Compartilhe Informações {#send-your-information}
+### Compartilhe Informações {/* #send-your-information */}
 
 Uma vez que conectou com sucesso a uma instância Uwazi, você verá um novo cartão com o rótulo "Uwazi" nas seções de **Conexões** da sua tela inicial do Tella. 
 
@@ -115,7 +115,7 @@ Para baixar um Template, toque no botão **+** na parte inferior da tela. Você 
 Então, retorne para a tela principal do Uwazi e toque no template desejado para usá-lo para criar uma entidade.
 
 
-#### Alternativas para Submissão de Dados {#data-submission-alternatives}
+#### Alternativas para Submissão de Dados {/* #data-submission-alternatives */}
 
 | **Funcionalidade** | **Detalhes**| **Tella para Android** | **Tella para iOS** | 
 |------|------|------|------|

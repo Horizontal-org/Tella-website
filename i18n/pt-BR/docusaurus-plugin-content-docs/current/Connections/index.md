@@ -28,7 +28,7 @@ There are two main types of connections:
 Connections can be configured on **Settings** → **Connections**. The Tella home screen will display a shortcut to all connected servers. Nearby Sharing is turned on by default, but it can be disabled as well.
 
 
-## Nearby Sharing {#nearby-sharing}
+## Nearby Sharing {/* #nearby-sharing */}
 
 Nearby Sharing can be used to transfer files directly between Tella vaults. It is available on Tella Android, Tella iOS, and Tella Desktop. Transfers are encrypted, use the Wi-Fi protocol, and work with or without an internet connection, even on insecure or monitored networks.
 
@@ -37,7 +37,7 @@ We designed this connection type with a strong focus on security, especially for
 <Button label="Continue reading about Nearby Sharing" link="/nearby-sharing"/>
 
 
-## Conexões com Servidores {#server-connections}
+## Conexões com Servidores {/* #server-connections */}
 
 Server Connections are useful for organizations leading data collection processes. Organizations can choose, configure, and manage a server to centralize data collected by volunteers or activists in the field. These individuals gather information using Tella on their devices and then send it to their organization.
 

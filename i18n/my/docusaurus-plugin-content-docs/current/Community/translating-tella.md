@@ -20,12 +20,12 @@ import TellaLanguages from '.././_tella-languages.md';
 
 [ဗီဒီယို သင်ခန်းစာများ](/video-tutorials) တွင် စပိန်၊ အာရဗီ၊ ဆွာဟီလီနှင့် ပြင်သစ်ဘာသာစကားတို့ဖြင့် စာတန်းများ ပါဝင်သည်။
 
-## ကျွန်ုပ် ဘာသာပြန်တစ်ယောက် မည်သို့ဖြစ်လာရမည်နည်း။ {#how-do-i-become-a-translator}
+## ကျွန်ုပ် ဘာသာပြန်တစ်ယောက် မည်သို့ဖြစ်လာရမည်နည်း။ {/* #how-do-i-become-a-translator */}
 ကျွန်ုပ်တို့၏ ဘာသာပြန်ဆိုခြင်းလုပ်ငန်း၌ ကူညီပေးရန် စိတ်ပါဝင်စားသည့်အတွက် ကျေးဇူးတင်ပါသည်။ ကျွန်ုပ်တို့၏ ဒေသန္တရမှုပြုခြင်းဆိုင်ရာ ကြိုးပမ်းမှုများကို [Localization Lab](https://www.localizationlab.org/) က ညှိနှိုင်းဆောင်ရွက်ပေးပါသည်။ 
 
 ဘာသာပြန်ခြင်းမပြုမီ [Localization Lab Wiki](https://wiki.localizationlab.org/index.php/Tella) ရှိ Tella ပရောဂျက် စာမျက်နှာနှင့် ဤစာတမ်းပြုစုခြင်း စာမျက်နှာတို့ကို ဖတ်ရှုပါ။ အဆိုပါစာမျက်နှာများတွင် ကျွန်ုပ်တို့၏ လမ်းညွှန်ချက်များ၊ အရင်းအမြစ်များနှင့် ဦးစားပေးမှုများ အပါအဝင် ပရောဂျက်နှင့် ပတ်သက်သည့် အချက်အလက်အများအပြားကို သင်တွေ့ရှိပါမည်။ 
 
-## Localization Lab အသိုင်းအဝိုင်း {#localization-lab-community}
+## Localization Lab အသိုင်းအဝိုင်း {/* #localization-lab-community */}
 အခြားဘာသာပြန်သူများနှင့် ဆက်သွယ်နိုင်ရန် ကျွန်ုပ်တို့၏ ဘာသာပြန်ဆိုမှုများကို စုစည်းပေးခြင်း၊ ဆုံးဖြတ်ချက်များချခြင်း၊ ဘာသာပြန်ဆိုရမည့် စာကြောင်းများတွင် အမှားအယွင်းများကို သတင်းပို့ခြင်း စသည်တို့ ပြုလုပ်သော Localization Lab အသိုင်းအဝိုင်းတွင် ကျေးဇူးပြု၍ ပါဝင်ပါ။ 
 
 1. ကျေးဇူးပြု၍ Localization Lab ၏ [ပံ့ပိုးကူညီသူအား ကြိုဆိုသည့် ဖောင်ပုံစံ](https://docs.google.com/forms/d/e/1FAIpQLSfgXL7UbC6eVk7YMg_gidFnBre3a6liYSnAuhiPmtSybubNWA/viewform) ကို ဖြည့်စွက်ပြီး ပံ့ပိုးကူညီသူ၏ အခန်းကဏ္ဍနှင့် လမ်းညွှန်ချက်များကို ဖတ်ရှုပါ။ ဤသို့ဖြင့် Localization Lab က သင့်ကို ပိုသိလာပြီး သင်၏ ပံ့ပိုးမှုများသည် ကျွန်ုပ်တို့၏ ပရောဂျက်နှင့် အသိုင်းအဝိုင်းနှင့် ကိုက်ညီစေရန် ကူညီပေးပါမည်။
@@ -42,7 +42,7 @@ import TellaLanguages from '.././_tella-languages.md';
 - [Internet Freedom Festival က တည်ထောင်ထားသော Mattermost ရှိ Localization Lab အများမြင်ချန်နယ်](https://community.internetfreedomfestival.org/community/channels/localization-lab-chat) တွင် မက်ဆေ့ပေးပို့ခြင်း သို့မဟုတ် ဆွေးနွေးခြင်း ပြုလုပ်ပါ။
 - [Localization Lab ၏ Lokalise အမြန်စတင်နည်းလမ်းညွှန်ကို ဖတ်ပါ](https://docs.google.com/document/d/1h3Fa9FbVAzHXKgS_H28LmycY3ujjCgQl-oOwVuIy2IA/edit) သို့မဟုတ် [Lokalise စာရွက်စာတမ်းများ](https://docs.lokalise.com/en/) ကို ဖတ်ပါ
 
-## အခြားပံ့ပိုးကူညီသူများနှင့် အပြန်အလှန်ဆက်သွယ်ခြင်း သို့မဟုတ် တောင်းဆိုခြင်းကို မည်သည့်နေရာတွင် ပြုလုပ်နိုင်ပါသလဲ။ {#where-can-i-interact-with-other-contributors-or-make-a- request} 
+## အခြားပံ့ပိုးကူညီသူများနှင့် အပြန်အလှန်ဆက်သွယ်ခြင်း သို့မဟုတ် တောင်းဆိုခြင်းကို မည်သည့်နေရာတွင် ပြုလုပ်နိုင်ပါသလဲ။ {/* #where-can-i-interact-with-other-contributors-or-make-a-request */}
 
 ဘာသာစကားအသစ်တစ်ခု ထည့်လိုပါက [ကျွန်ုပ်တို့ထံ ဆက်သွယ်ပါ](/contact-us)။
 

@@ -7,7 +7,7 @@ slug: /get-started-ios
 
 # Commencer à utiliser Tella sur iOS
 
-## Télécharger et installer Tella {#download-and-install-tella}
+## Télécharger et installer Tella {/* #download-and-install-tella */}
 Suivez [ce lien](https://apps.apple.com/us/app/tella-document-protect/id1598152580) pour trouver Tella sur l'App Store ou ouvrez l'App Store et recherchez “Tella documente et protège”.
 
 
@@ -17,7 +17,7 @@ Suivez [ce lien](https://apps.apple.com/us/app/tella-document-protect/id15981525
 
 
 
-## Définissez votre code d'accès {#create-your-lock}
+## Définissez votre code d'accès {/* #create-your-lock */}
 La première fois que vous ouvrez Tella, vous verrez une visite guidée des fonctionnalités de l'application : Appareil photo, Fichiers et Dossiers enrégistrés et chiffrés. Il vous sera également demandé de choisir le mode de verrouillage de Tella. Sans ce verrouillage, il sera impossible d'ouvrir Tella et d'accéder aux fichiers qui y sont stockés.
 * Mot de passe: un mot de passe alphanumérique est le moyen le plus sûr de verrouiller votre application.
 * Code PIN : une séquence numérique de plus de six (6) chiffres.
@@ -28,7 +28,7 @@ Gardez à l'esprit que si vous oubliez ce code d'accès, vous ne pourrez plus ac
 
 
 
-## Accorder des permissions à Tella {#grant-permissions-to-tella}
+## Accorder des permissions à Tella {/* #grant-permissions-to-tella */}
 Lorsque vous utiliisez chaque fonctionnalité pour la première fois, il vous est demandé d'accorder certaines permissions à Tella :
 
 
@@ -51,7 +51,7 @@ Si vous n'accordez pas ces autorisations à Tella, vous pourrez le faire plus ta
 
 
 
-## Protégez vos fichiers {#protect-your-files}
+## Protégez vos fichiers {/* #protect-your-files */}
 Une fois les permissions accordées, vous êtes prêt à vous lancer dans la collecte de la documentation.  Nous vous recommandons d'explorer les fonctionnalités suivantes:
 
 **Utilisez l'appareil photo pour prendre des photos ou des vidéos et l'enregistreur audio pour enregistrer du son.** Tous les médias pris par Tella seront chiffrés instantanément, ce qui signifie que le fichier ne sera pas accessible en dehors de Tella. Tous les médias collectés par Tella n'apparaîtront pas dans la galerie de votre téléphone ou dans les fichiers de votre téléphone. Il n'y a pas de limite de stockage particulière pour Tella, l'espace disponible dépendra de l'espace disponible sur votre appareil.
@@ -89,7 +89,7 @@ Une fois les permissions accordées, vous êtes prêt à vous lancer dans la col
 </div> 
 
 
-## Partagez vos informations {#share-your-information}
+## Partagez vos informations {/* #share-your-information */}
 Pour partager des informations via Tella, vous pouvez utiliiser le bouton **Partagez**. Il vous suffit de sélectionner le ou les fichiers que vous souhaitez partager, d'appuyer sur **Partagez** et choisir l'application avec laquelle vous souhaitez partager les fichiers.
 
 Tenez compte du fait que Tella partagera les fichiers non cryptés, alors assurez-vous d'utiliser des messages qui disparaissent (par exemple sur WhatsApp ou Signal) ou supprimez les messages une fois reçus par l'autre personne.
@@ -100,42 +100,42 @@ Tenez compte du fait que Tella partagera les fichiers non cryptés, alors assure
 
 
 
-## Partage de proximité {#nearby-sharing}
+## Partage de proximité {/* #nearby-sharing */}
 Vous partagez des fichiers directement depuis le coffre-fort chiffré de Tella vers un autre coffre-fort chiffré de Tella au même emplacement physique en utilisant le [Partage de proximité](/nearby-sharing). Après un bref tutoriel de connexion, les deux appareils établissent un lien sécurisé, et les fichiers sont transférés de manière chiffrée d'un appareil à l'autre. Le Partage de proximité permet les transferts de fichiers de téléphone à téléphone (Android ou iOS) ainsi que de téléphone à ordinateur.
 
 
 
-## Allez plus loin {#go-further}
+## Allez plus loin {/* #go-further */}
 
 
 
-### Se connecter à un serveur {#connect-to-a-server}
+### Se connecter à un serveur {/* #connect-to-a-server */}
 Tella peut être connecté à une variété de services d'arrière-plan. Ces services sont utilisés par les organisations pour permettre à leurs membres ou à leurs partenaires de soumettre des données et des fichiers à un emplacement distant sécurisé. Si vous envisagez de vous connecter à un serveur et que vous avez des doutes sur le serveur à choisir ou sur la manière de vous connecter, veuillez consulter [notre documentation pour les organisations](/for-organizations) ou [nous contacter](/contact-us), nous sommes là pour vous aider !
 
-### Tella Web {#tella-web}
+### Tella Web {/* #tella-web */}
 Tella Web est un outil open source qui permet aux individus et aux organisations de centraliser et de gérer les rapports transmis par les utilisateurs de Tella, notamment des photos, des vidéos et des fichiers audio.
 
 Pour en savoir plus sur Tella Web [ici](/tella-web) ou regarder un [tutoriel vidéo](/video-tutorials#tella-web).
 
-#### Uwazi {#uwazi}
+#### Uwazi {/* #uwazi */}
 [Uwazi](https://uwazi.io/) est une application open-source créée par HURIDOCS avec de puissantes fonctionnalités pour collecter, organiser et visualiser les données relatives aux droits de l'homme.
 
 Nous avons rédigé une documentation sur la manière de se connecter à un serveur Uwazi et pour commencer, nous vous recommandons de lire [cette page](/uwazi).
 
-#### Nextcloud, Dropbox et Google Drive {#Nextcloud-dropbox-and-google-drive}
+#### Nextcloud, Dropbox et Google Drive {/* #Nextcloud-dropbox-and-google-drive */}
 
 Users can sign in directly to their Nextcloud, Dropbox or Google Drive account from within Tella and upload files to a folder in their account.
 
 
 
-### Pour en savoir plus sur Tella {#read-more-about-tella}
+### Pour en savoir plus sur Tella {/* #read-more-about-tella */}
 - [Fonctionnalités]( /features) : En savoir plus sur la façon dont Tella peut vous protéger et sur les menaces contre lesquelles Tella ne vous_protège_pas.
 - [Connexions](/for-organizations) : Découvrez comment vous pouvez vous connecter à un serveur pour collecter des données ou sauvegarder des fichiers.
 - [Sécurité et confidentialité](/security-and-privacy) : Nous ne recueillons que le minimum de données nécessaires et ne collectons jamais d'informations personnellement identifiables. Lisez la politique de confidentialité complète [ici](/privacy).
 
 
 
-### Si vous avez besoin d'aide, contactez-nous si vous {#contact-us-if-you-need-help}
+### Si vous avez besoin d'aide, contactez-nous si vous {/* #contact-us-if-you-need-help */}
 Si vous avez besoin d'aide pour comprendre les détails techniques de Tella et les considérations de sécurité afin de décider s'il convient à vous et à votre équipe, nous sommes là pour vous aider. Il vous suffit de [nous contacter](/contact-us) pour que nous puissions répondre à vos questions ou organiser une formation ou une session de questions-réponses en direct pour votre équipe.
 
 

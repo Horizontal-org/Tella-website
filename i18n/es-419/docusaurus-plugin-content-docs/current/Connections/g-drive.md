@@ -29,7 +29,7 @@ The Google Drive connection is not available in Tella Android FOSS, because it u
 Even though data is transferred to the server securely (SSL), anyone with access to the Google Drive account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
 :::
 
-## Cuándo Usar Google Drive {#when-to-use-google-drive}
+## Cuándo Usar Google Drive {/* #when-to-use-google-drive */}
 
 La conexión a Google Drive puede ser particularmente adecuada para:
 - Organizaciones que ya utilizan Google Drive.
@@ -42,7 +42,7 @@ Si necesitas ayuda para determinar si Google Drive es la mejor opción para tu c
 :::
 
 
-## Conectate a Google Drive {#connect-to-google-drive}
+## Conectate a Google Drive {/* #connect-to-google-drive */}
 
 Para conectarse a Google Drive:
 
@@ -53,7 +53,7 @@ Para conectarse a Google Drive:
 * Elige un nombre para la carpeta donde se guardaran todos tus envíos de Tella.
 
 
-## Administra la conexión a Google Drive  {#manage-the-google-drive-connection}
+## Administra la conexión a Google Drive {/* #manage-the-google-drive-connection */}
 
 * En **Configuración ⚙️** > **Conexiones** > **Google Drive** > ⫶ puedes:
   - Eliminar la conexión
@@ -61,7 +61,7 @@ Para conectarse a Google Drive:
 Por ahora, no es posible iniciar sesión en múltiples cuentas de Google a la vez. Si deseas iniciar sesión en tu Google Drive utilizando un email diferente, elimina tu conexión a Google Drive y crea una nueva.
 
 
-## Enviar a Google Drive {#submit-to-google-drive}
+## Enviar a Google Drive {/* #submit-to-google-drive */}
 
 * Una vez conectada(o), una tarjeta de "Google Drive" aparecerá en la sección "Conexiones" de la pantalla de inicio. Toca sobre esta tarjeta para empezar a enviar a Google Drive.
 * La pantalla de principal de Google Drive permite la navegación entre las pestañas Borradores, Bandeja de Salida y  Enviados.
@@ -77,7 +77,7 @@ Por ahora, no es posible iniciar sesión en múltiples cuentas de Google a la ve
     * Si el informe es enviado correctamente, se va a la pestaña "Enviados" y se creará una nueva carpeta en Google Drive con el título que seleccionaste y la descripción que introdujiste. Todos los adjuntos serán añadidos a la carpeta.
 
 
-## Borradores de Informes {#draft-reports}
+## Borradores de Informes {/* #draft-reports */}
 
 A Draft report is a report that was created and saved but not yet submitted. Drafts reports are useful to save work in progress that can be editted later on. It allows users to create reports offline or over a long period of time before finalizing and sending them. This is especially useful in low-connectivity areas or when a user needs to gather information in multiple stages.
 
@@ -90,7 +90,7 @@ Reports in the Draft tab can be edited.
 * Puedes eliminar un borrador de informe tocando en los tres puntos > **Eliminar** o entrando al informe o tocando el botón Eliminar.
 
 
-#### Enviar un Informe a Google Drive {#submit-a-report-to-google-drive}
+#### Enviar un Informe a Google Drive {/* #submit-a-report-to-google-drive */}
 
 * En un informe, toca "Enviar" para iniciar el envío del informe.
 * Se te redireccionará a una pantalla de resumen mostrando el progreso de subida de cada archivo adjunto.
@@ -107,7 +107,7 @@ Eliminar un informe en medio de un envío cancelará la subida de los archivos q
 :::
 
 
-#### Bandeja de Salida {#outbox}
+#### Bandeja de Salida {/* #outbox */}
 
 La Bandeja de Salida contiene informes que han sido guardados para enviar. Esto podría ser:
 
@@ -120,7 +120,7 @@ If you need a fully offline way to share files with others, consider exploring [
 :::
 
 
-#### Informes Enviados {#submitted-reports}
+#### Informes Enviados {/* #submitted-reports */}
 
 - La pestaña Enviados muestra informes que han sido enviados exitosamente al Google Drive.
 - En la pestaña Enviados, puedes ver y revisar los informes enviados.

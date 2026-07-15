@@ -9,7 +9,7 @@ sidebar_position: 4
 # Témoignages d'utilisateurs et utilisatrices de Tella
 
 
-## Fondation CLEEN - Nigéria {#cleen-foundation---nigeria}
+## Fondation CLEEN - Nigéria {/* #cleen-foundation---nigeria */}
 
 :::note Résumé
 La fondation CLEEN a utilisé Tella pour surveiller les élections au Nigeria. Elle a reçu 7800 rapports d’observateurs électoraux qui l'a aidée à identifier en temps réel des cas de violences policières et de fraude électorale. Les rapports comprenaient des photos, des vidéos et des preuves audio, en plus des descriptions textuelles. La fondation CLEEN a pu recevoir, analyser et publier les résultats du processus de surveillance des élections le lendemain de l'élection ainsi qu'un rapport contenant des recommandations au gouvernement nigérian pour améliorer la sécurité lors des prochaines élections, réduire la violence et prévenir la fraude.
@@ -46,7 +46,7 @@ Tout au long du processus électoral, CLEEN a reçu un total de 7800 rapports : 
 Suite au succès de ce premier déploiement, CLEEN a déployé Tella pour enquêter sur la traite des êtres humains au Nigeria, mieux comprendre ses causes et identifier les éventuelles solutions.
 
 
-## Not1More - Brésil {#not1more---brazil}
+## Not1More - Brésil {/* #not1more---brazil */}
 
 :::note Résumé
 Not1More (N1M) a utilisé Tella pour documenter les violations des droits environnementaux et fonciers en Amazonie brésilienne. Au Brésil, les défenseurs et dde l'environnement en première ligne ont subi des attaques et des persécutions et les communautés indigènes ont été attaquées dans leur culture, leur territoire et leur mode de vie. Tella est un moyen sûr de signaler les violations tout en donnant la priorité à la sécurité des reporters. Grâce aux résultats obtenus, N1M, en collaboration avec des chercheurs et des chercheuses et des communautés, a élaboré une carte qui constitue un outil de plaidoyer en faveur de la justice environnementale
@@ -66,7 +66,7 @@ En novembre 2019, lors de la Conférence des défenseurs des forêts au Brésil,
 À partir des données recueillies, des étudiants et chercheurs autochtones de l’Université fédérale de Bahia, de l’Université fédérale de Recôncavo de Bahia et de l’Université d’État de Bahia ont créé un site Web avec une carte qui illustre les preuves des violations des droits des autochtones, recueillies à l’aide de Tella:[ https://umoutroceu.ufba.br](https://umoutroceu.ufba.br/). L’APOINME (Association des peuples et organisations autochtones du Nord-Est, du Minas Gerais et de l’Espírito Santo) l’a utilisé comme outil pour sensibiliser aux attaques contre les communautés autochtones et plaider pour une meilleure protection.
 
 
-## Surveillance des élections - Biélorussie {#election-monitoring---belarus}
+## Surveillance des élections - Biélorussie {/* #election-monitoring---belarus */}
 
 :::note Résumé
 Lors des élections présidentielles de 2020 en Biélorussie, les organisations de la société civile ont déployé Tella pour surveiller les élections et recueillir des preuves que les lois et procédures électorales ont été enfreintes et que les droits de l'homme ont été bafoués. Horizontal a développé une version personnalisée de Tella avec une interface utilisateur simplifiée et une connexion par défaut aux serveurs des organisations de surveillance. L'application a été traduite en biélorusse et en russe. Plus de 250 utilisateurs et utilisatrices ont soumis un total de 1091 rapports, et ce en dépit des graves perturbations de l'internet et de la fermeture complète de l'internet mobile avant, pendant et après l'élection.

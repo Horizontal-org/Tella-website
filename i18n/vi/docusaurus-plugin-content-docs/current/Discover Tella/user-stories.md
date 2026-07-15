@@ -9,7 +9,7 @@ sidebar_position: 4
 # Câu chuyện người dùng Tella
 
 
-## CLEEN Foundation - Nigeria {#cleen-foundation---nigeria}
+## CLEEN Foundation - Nigeria {/* #cleen-foundation---nigeria */}
 
 :::note Summary
 Tổ chức CLEEN đã sử dụng Tella để giám sát bầu cử ở Nigeria.  Họ đã nhận được 7.800 báo cáo từ các nhà quan sát bầu cử, giúp họ xác định các trường hợp sử dụng bạo lực của cảnh sát và gian lận bầu cử theo thời gian thực.  Các báo cáo bao gồm bằng chứng hinh ảnh, video và âm thanh, cùng các mô tả bằng văn bản.  Tổ chức CLEEN đã có thể nhận, phân tích và công bố kết quả của quá trình giám sát bầu cử vào ngày sau bầu cử, cùng với một báo cáo kèm theo các khuyến nghị cho chính phủ Nigeria để cải thiện an ninh trong các cuộc bầu cử sắp tới, giảm bạo lực và ngăn chặn gian lận.
@@ -46,7 +46,7 @@ Trong suốt quá trình bầu cử, CLEEN đã nhận được tổng cộng 7.
 Sau thành công của lần triển khai đầu tiên này, CLEEN đã triển khai Tella để điều tra nạn buôn người ở Nigeria để hiểu rõ hơn về nguyên nhân và xác định các biện pháp giải quyết tiềm năng.
 
 
-## Not1More - Brazil {#not1more---brazil}
+## Not1More - Brazil {/* #not1more---brazil */}
 
 :::note Summary
 Not1More (N1M) đã sử dụng Tella để ghi lại các vi phạm về quyền về môi trường và đất đai ở khu vực Amazon của Brazil.  Ở Brazil, những người hoạt động bảo vệ môi trường ở tuyến đầu đã bị tấn công và bức hại, đồng thời các cộng đồng bản địa cũng phải đối mặt với các cuộc tấn công vào văn hóa, lãnh thổ và lối sống của họ.  Tella là một cách an toàn để báo cáo các vi phạm trong khi ưu tiên sự an toàn cho người báo cáo. Với kết quả thu được, N1M cùng với các nhà nghiên cứu và cộng đồng đã phát triển một bản đồ được sử dụng như một công cụ vận động cho công lý môi trường.
@@ -66,7 +66,7 @@ Vào tháng 11 năm 2019, trong [Hội nghị của Người bảo vệ rừng](
 Với dữ liệu được thu thập, các sinh viên và nhà nghiên cứu bản địa tại Đại học Liên bang Bahia, Đại học Liên bang Recôncavo của Bahia và Đại học Bang Bahia, đã tạo ra một trang web với bản đồ mô tả bằng chứng về các vi phạm nhân quyền của người bản địa, được thu thập bằng cách sử dụng Tella:[ https://umoutroceu.ufba.br](https://umoutroceu.ufba.br/). APOINME (Hiệp hội các Tổ chức và Dân tộc Bản địa vùng Đông Bắc, Gerais và Espírito Santo của Mina) đã sử dụng nó như một công cụ để nâng cao nhận thức về các cuộc tấn công vào cộng đồng bản địa và vận động để bảo vệ tốt hơn.
 
 
-## Giám sát Bầu cử - Belarus {#election-monitoring---belarus}
+## Giám sát Bầu cử - Belarus {/* #election-monitoring---belarus */}
 
 :::note Summary
 Trong cuộc bầu cử tổng thống năm 2020 ở Belarus, các tổ chức xã hội dân sự đã triển khai Tella để giám sát cuộc bầu cử và ghi lại bằng chứng về các vi phạm luật và thủ tục bầu cử, cũng như vi phạm nhân quyền. Horizontal đã phát triển phiên bản tùy chỉnh của Tella với giao diện người dùng đơn giản hóa và kết nối mặc định với máy chủ của các tổ chức giám sát.  Ứng dụng này đã được dịch sang tiếng Belarus và tiếng Nga.  Hơn 250 người dùng đã gửi tổng cộng 1091 báo cáo, mặc dù có những gián đoạn nghiêm trọng về Internet và việc ngừng hoàn toàn internet di động trước, trong và sau cuộc bầu cử.

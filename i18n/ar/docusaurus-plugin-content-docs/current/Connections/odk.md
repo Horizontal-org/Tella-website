@@ -23,7 +23,7 @@ Even though data is transferred to the server securely (SSL), anyone with access
 :::
 
 
-### اختيار وتثبيت خادم ODK الخاص بك {#choosing-and-installing-your-odk-server}
+### اختيار وتثبيت خادم ODK الخاص بك {/* #choosing-and-installing-your-odk-server */}
 
 نظرا لأن ODK هو معيار مفتوح، يمكن استخدام Tella مع أي من الأدوات التي تتوافق مع ODK.
 
@@ -36,7 +36,7 @@ We are work closely with the Kobotoolbox team. If you are interested in using th
 هناك تطبيقات أخرى متاحة ومتوافقة مع ODK، مثل [Ona](https://ona.io/home/) أو [ODK Cloud](https://https://getodk.org/index.html). يعمل Tella مع أي منها.
 
 
-### متى يُستخدم ODK {#when-to-use-odk}
+### متى يُستخدم ODK {/* #when-to-use-odk */}
 
 نوصي بـاستخدام ODK للمنظمات التي تحتاج إلى مستخدمين يعملون ميدانيا لجمع البيانات بطريقة منظمة مثل الاستمارات. كما نوصي به أيضا للمنظمات التي لا تمتلك القدرة التقنية لتثبيت وصيانة خادم وترغب في استخدام مثيل سحابي جاهزة للاستخدام. إذا كنت تستخدم مثيلا سحابيا، تذكر أن المنظمة التي تستضيف مثيل ODK الخاص بك ستتمكن من الوصول إلى بياناتك. هذا اﻷمر مهم عندما تريد أن تقرر بين استضافته بنفسك وبين استخدام خدمة سحابية.
 
@@ -46,11 +46,11 @@ We are work closely with the Kobotoolbox team. If you are interested in using th
 If you need help figuring out if ODK is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
 :::
 
-## نمذجة بياناتك {#model-your-data}
+## نمذجة بياناتك {/* #model-your-data */}
 
 يقدم KoboToolbox دليلا مفصلا حول كيفية إنشاء مشروعك وإضافة الأسئلة إلى استماراتك، وكيفية نشرها لجعلها متاحة للمستخدمين الميدانيين [هنا](https://support.kobotoolbox.org/overview_of_creating_a_project.html).
 
-## توصيل Tella بمثيل ODK لجمع البيانات {#connect-tella-to-an-odk-instance-to-collect-data}
+## توصيل Tella بمثيل ODK لجمع البيانات {/* #connect-tella-to-an-odk-instance-to-collect-data */}
 
 في هذا التوثيق، نركز على كيفية جمع البيانات باستخدام Tella. هناك تطبيقات للمحمول بديلة يمكن استخدامها لجمع البيانات على ODK، بما في ذلك تطبيق ODK Collect Android. يمكنك الاطلاع على المقارنة بين هذه البدائل [هنا](/faq#how-is-tella-different-from-other-documentation-apps).
 
@@ -58,14 +58,14 @@ If you need help figuring out if ODK is best for your use-case, [read our guide]
 ‫الاتصال بـ ODK غير متاح لـ Tella على iOS.
 :::
 
-### الاتصال بخادم ODK {#connect-to-an-odk-server}
+### الاتصال بخادم ODK {/* #connect-to-an-odk-server */}
 ‫بعد إنشاء ونشر الاستمارة باستخدام أي خادم متوافق مع ODK، انتقل في Tella إلى **الإعدادات** > **الخوادم** > **+** > **Open Data Kit (ODK)**. املأ الحقول التالية:
 - **اسم الخادم**: اسم يصف خادمك في Tella. الاسم الذي تختاره مرئي فقط في التطبيق ولا يؤثر على الاتصال بـ ODK.
 - **عنوان الخادم**: عنوان الموقع الخاص بخادمك. مثلا، `kc.kobotoolbox.org` إذا كنت تستخدم الخادم العمومي لـ KoboToolbox.
 إذا كان الخادم يتطلب استيثاق المستخدم، المس زر **متقدم** وأدخِل **اسم المستخدم** و**كلمة السر**. يجب أن يوفر لك المسؤول عن الخادم كل هذه المعلومات.
 
 
-### ملء الاستمارات {#fill-forms}
+### ملء الاستمارات {/* #fill-forms */}
 
 بعد أن تتصل بمثيل ODK بنجاح، سترى بطاقة جديدة تسمى "الاستمارات" في أقسام **الاتصالات** في الشاشة الرئيسية لـ Tella.
 
@@ -74,7 +74,7 @@ If you need help figuring out if ODK is best for your use-case, [read our guide]
 يمكنك لمس كل استمارة فارغة للبدء في ملئها.
 
 
-#### إرسال الاستمارات {#submit-forms}
+#### إرسال الاستمارات {/* #submit-forms */}
 
 خلال جمعك للبيانات وملئك للاستمارات، ستكون هذه الخيارات التالية متاحة لك لزيادة الدعم دون الاتصال بالانترنت على Tella:
 - إرسال: إرسال الاستمارة المملوءة إلى خادم ODK.
@@ -86,7 +86,7 @@ If you need help figuring out if ODK is best for your use-case, [read our guide]
 - إيقاف/استئناف الإرسال: يمكنك إيقاف الإرسال يدويا واستئنافه عندما تكون جاهزا.
 - إيقاف الإرسال تلقائيا عند عدم الاتصال: سيتم إرسال الاستمارات إلى لسان البريد الصادر إذا فشل الإرسال بسبب مشاكل في الاتصال.
 
-### أنواع الأسئلة المدعومة {#supported-question-types}
+### أنواع الأسئلة المدعومة {/* #supported-question-types */}
 فيما يلي نظرة عامة على أنواع الأسئلة في ODK المدعومة في ‫‫Tella Android. إذا كان هناك نوع من الأسئلة التي ليست مدعومة في Tella وذات ضرورة بالغة لسير عملك، من فضلك [اتصل بنا](/contact-us).
 
 | **نوع السؤال** | **‫Tella Android** | 
@@ -119,7 +119,7 @@ If you need help figuring out if ODK is best for your use-case, [read our guide]
 | نطاق | لا |
 | XML خارجي | لا |
 
-### الميزات المدعومة {#supported-features}
+### الميزات المدعومة {/* #supported-features */}
 
 فيما يلي نظرة عامة على ميزات ODK المدعومة في ‫‫Tella Android. إذا كان هناك ميزة غير مدعومة في Tella وهي ضرورية لسير عملك، من فضلك [اتصل بنا](/contact-us).
 

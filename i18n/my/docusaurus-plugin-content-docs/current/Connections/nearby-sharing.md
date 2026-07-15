@@ -21,7 +21,7 @@ Nearby Sharing in Tella is:
 Nearby Sharing will only work in physical proximity, for users connected to the same Wi-Fi network (either a local Wi-Fi or a Hotspot).
 
 
-## When to Use Nearby Sharing {#when-to-use-nearby-sharing}
+## When to Use Nearby Sharing {/* #when-to-use-nearby-sharing */}
 
 Nearby Sharing may be particularly well-suited for:
 - Sharing files during an internet shutdown.
@@ -45,7 +45,7 @@ If you are trying to share files to the organization you are working with, or if
 * [Dropbox](/dropbox)
 :::
 
-## How to use Nearby Sharing {#how-to-use}
+## How to use Nearby Sharing {/* #how-to-use */}
 
 Tap the Nearby Sharing button under the **Connections** section on the Tella Homescreen to get started.
 
@@ -64,7 +64,7 @@ Nearby Sharing does not work if either of the devices is connected to a VPN.
 :::
 
 
-## Platform availability {#platform-availability}
+## Platform availability {/* #platform-availability */}
 
 Nearby Sharing is available for [Tella Android](/faq#is-tella-available-on-android), [Tella iOS](/faq#is-tella-available-on-ios) and [Tella Desktop](/faq#is-tella-available-on-desktop).
 

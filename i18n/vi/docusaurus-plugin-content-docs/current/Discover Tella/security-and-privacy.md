@@ -11,7 +11,7 @@ sidebar_position: 2
 Tella được xây dựng để bảo vệ những người phải đối mặt với sự đàn áp cả về vật lý và kỹ thuật số, vì vậy tất cả các tính năng và sản phẩm của Tella đều được xây dựng theo hướng đảm bảo quyền riêng tư và bảo mật.  Tella thường xuyên được kiểm tra bởi các công ty bảo mật độc lập và các tính năng cũng như tài liệu được thiết kế với sự hỗ trợ và hướng dẫn từ các chuyên gia bảo mật.
 
 
-## Quyền riêng tư {#privacy}
+## Quyền riêng tư {/* #privacy */}
 
 Chúng tôi chỉ thu thập lượng dữ liệu tối thiểu cần thiết để thực hiện mục đích của Tella.  **Chúng tôi không bao giờ thu thập thông tin nhận dạng cá nhân.  Chúng tôi không bao giờ tiết lộ, chia sẻ hoặc bán bất kỳ dữ liệu nào của bạn cho bên thứ ba**.
 
@@ -20,20 +20,20 @@ Thông qua việc sử dụng ứng dụng của chúng tôi, người dùng có
 Bạn có thể đọc toàn bộ [Chính sách Bảo mật của Tella](/privacy).
 
 
-### Tella Android {#tella-android}
+### Tella Android {/* #tella-android */}
 
 Tella Android, hiện có trên Cửa hàng Google Play, bao gồm hai trình theo dõi, [Google CrashLytics](https://firebase.google.com/docs/crashlytics) và [Google Firebase Analytics](https://firebase.google.com/docs/analytics), giúp chúng tôi phát hiện lỗi và sự cố.  Điều này rất quan trọng để giữ cho ứng dụng an toàn và hoạt động hiệu quả đối với những người dùng gặp rủi ro.
 
-### Tella-FOSS {#tella-foss}
+### Tella-FOSS {/* #tella-foss */}
 
 [Tella-FOSS](/faq#is-tella-available-on-f-droid), được phát hành trên [Cửa hàng F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/), không chứa bất kỳ trình theo dõi nào.
 
 
-### Tella iOS {#tella-ios}
+### Tella iOS {/* #tella-ios */}
 
 [Tella cho iOS](https://apps.apple.com/us/app/tella-document-protect/id1598152580) không chứa bất kỳ trình theo dõi nào. Do chính sách ứng dụng iOS nghiêm ngặt của Apple, Tella dành cho iOS hiện không có sẵn trên các cửa hàng ứng dụng thay thế hoặc để cài đặt thủ công.
 
-## Analytics {#analytics}
+## Analytics {/* #analytics */}
 
 In Tella Android, Tella FOSS and [Tella Web](/tella-web), users can choose to share analytics to improve Tella. This data helps us understand how people use Tella and which features are important to them. ***Analytics data is only collected if users opt-in in the app's settings***
 
@@ -65,7 +65,7 @@ Here are some information about our privacy-preserving analytics approach:
    For more information about the metrics we add to our apps, check out our [release notes](/releases).
 
 
-## Tính năng bảo mật {#security-features}
+## Tính năng bảo mật {/* #security-features */}
 
 Tella tích hợp nhiều biện pháp bảo mật khác nhau để đạt được mức độ bảo mật tiêu chuẩn:
 
@@ -87,7 +87,7 @@ Tìm hiểu thêm về Tính năng Bảo mật trong [video hướng dẫn của
 :::
 
 
-## Giới hạn bảo mật {#security-limitations}
+## Giới hạn bảo mật {/* #security-limitations */}
 
 Không có ứng dụng nào hoàn toàn "bảo mật" 100%. Bảo mật phụ thuộc vào các mối đe dọa và rủi ro mà mỗi người dùng phải đối mặt, cũng như khả năng của đối thủ. Với Tella, chúng tôi đã cố gắng hết sức để thêm nhiều lớp bảo mật nhất có thể nhằm giảm khả năng ai đó có thể phát hiện ứng dụng hoặc truy cập dữ liệu của nó. Dưới đây, chúng tôi liệt kê tất cả các rủi ro và hạn chế bảo mật quan trọng mà người dùng nên biết khi sử dụng Tella:
 
@@ -102,7 +102,7 @@ Không có ứng dụng nào hoàn toàn "bảo mật" 100%. Bảo mật phụ t
     * Việc nhập tệp sẽ tạo một bản sao của tệp này, sau đó nhập và mã hóa nó vào Tella. Trên phiên bản 1.1 (iOS) và 2.1 (Android), chúng tôi đã phát triển một tính năng cho phép người dùng chọn xem họ muốn giữ hay xóa tệp gốc khi nhập vào Tella. Tuy nhiên, chúng tôi khuyến nghị kiểm tra xem tệp gốc có còn trong Thùng rác (Tệp của tôi > Thùng rác) hay không và xóa tệp khỏi bất kỳ dịch vụ sao lưu tự động nào mà bạn đã kích hoạt trên điện thoại (Google Photos, Dropbox, v.v.).
 
 
-## Kiểm tra bảo mật {#security-audits}
+## Kiểm tra bảo mật {/* #security-audits */}
 
 Chúng tôi thường xuyên yêu cầu các đơn vị bảo mật độc lập kiểm tra mã nguồn của mình để đảm bảo nó mạnh mẽ và an toàn.
 

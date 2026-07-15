@@ -8,7 +8,7 @@ sidebar_position: 2
 
 # Getting started on Tella on iOS
 
-## Download and install Tella {#download-and-install-tella}
+## Download and install Tella {/* #download-and-install-tella */}
 Follow [this link](https://apps.apple.com/us/app/tella-document-protect/id1598152580) to find Tella on the App Store or open the App Store and search for “Tella document and protect”.
 
 
@@ -18,7 +18,7 @@ Follow [this link](https://apps.apple.com/us/app/tella-document-protect/id159815
 
 
 
-## Create your lock {#create-your-lock}
+## Create your lock {/* #create-your-lock */}
 The first time you open Tella you’ll see a guided tour of the app functionalities: Camera, Recorder and Encrypted files & folders. You’ll also be asked to choose how you will lock Tella. Without this lock, it is not possible to open Tella and access any of the files stored in Tella. 
 * Password: an alphanumeric password is the most secure way to lock your App.
 * PIN: a numeric sequence of more than six (6) digits.
@@ -29,7 +29,7 @@ Keep in mind that if you forget this lock, there is no way to access the app or 
 
 
 
-## Grant permissions to Tella {#grant-permissions-to-tella}
+## Grant permissions to Tella {/* #grant-permissions-to-tella */}
 The first time you use each functionality, you will be asked to grant Tella some permissions:
 
 
@@ -52,7 +52,7 @@ If you do not grant Tella these permissions, you can do it later by going to you
 
 
 
-## Protect your files {#protect-your-files}
+## Protect your files {/* #protect-your-files */}
 After granting permissions, you’re ready to start collecting documentation. We recommend you to explore the following features:
 
 **Use the Camera to take pictures or videos and the Audio Recorder to record audio.** All media taken by Tella will be encrypted instantly, which means that the file will not be accessible outside of Tella. All media collected inside Tella will not show on your phone gallery or phone files. There is no particular storage limit for Tella, the available space will depend on the space available on your device. 
@@ -90,7 +90,7 @@ After granting permissions, you’re ready to start collecting documentation. We
 </div> 
 
 
-## Share your information {#share-your-information}
+## Share your information {/* #share-your-information */}
 To share information using Tella you can use the **Share** button. Just select the file or files you want to share, press **Share** and choose the app you want to share the files with. 
 
 Take into account that Tella will share the files unencrypted, so make sure to use disappearing messages (for example on WhatsApp or Signal) or delete the messages after the other person receives them.
@@ -101,29 +101,29 @@ Take into account that Tella will share the files unencrypted, so make sure to u
 
 
 
-## Nearby sharing {#nearby-sharing}
+## Nearby sharing {/* #nearby-sharing */}
 You share files directly from Tella’s encrypted vault to another Tella encrypted vault in the same physical location using [Nearby Sharing](/nearby-sharing). After a quick connection tutorial, the two devices establish a secure link, and files are transferred encrypted from one device to the other. Nearby Sharing allows phone-to-phone (Android or iOS) and phone-to-computer file transfers. 
 
 
 
-## Go Further {#go-further}
+## Go Further {/* #go-further */}
 
 
 
-### Connect to a server {#connect-to-a-server}
+### Connect to a server {/* #connect-to-a-server */}
 Tella can be connected to a variety of back-end services. This is used by organizations to allow their members or partners to submit data and files to a secure remote location. If you are considering connecting to a server and have doubts about what server to choose or how to connect to please look at [our documentation for organizations](/for-organizations) or [contact us](/contact-us), we are here to help!
 
-#### Tella Web {#tella-web}
+#### Tella Web {/* #tella-web */}
 Tella Web is an open-source tool that enables individuals and organizations to centralize and manage reports sent by Tella users, including photos, videos, and audio files. 
 
 Read more about Tella Web [here](/tella-web) or watch a [video tutorial](/video-tutorials#tella-web).
 
-#### Uwazi {#uwazi}
+#### Uwazi {/* #uwazi */}
 [Uwazi](https://uwazi.io/) is an open-source app made by HURIDOCS with powerful features to collect, organize, and visualize human rights data.
 
 We wrote documentation about how to connect to an Uwazi server and we recommend you to read [this page](/uwazi) to get started.
 
-#### Nextcloud, Dropbox and Google Drive {#Nextcloud-dropbox-and-google-drive}
+#### Nextcloud, Dropbox and Google Drive {/* #Nextcloud-dropbox-and-google-drive */}
 Users can also connect to their Google, Dropbox or Nextcloud organizational or personal accounts in order to submit reports (audio, photos, videos and text) directly from Tella. They won't need the Dropbox, Google Drive or Nextcloud apps on their phones and won't need to use any third party apps.
 
 Read more:
@@ -133,14 +133,14 @@ Read more:
 
 
 
-### Read more about Tella {#read-more-about-tella}
+### Read more about Tella {/* #read-more-about-tella */}
 - [Features](/features): Learn more about how Tella can keep you safe and the threats that Tella does _not_ protect you from.
 - [Connections](/for-organizations): Learn about how you can connect to a server to collect data or backup files.
 - [Security and privacy](/security-and-privacy): We only collect the minimum amount of data necessary and never collect any personally identifiable information. Read the full privacy policy [here](/privacy).
 
 
 
-### Contact us if you need help {#contact-us-if-you-need-help}
+### Contact us if you need help {/* #contact-us-if-you-need-help */}
 If you need help to understand Tella’s technical details and security considerations to decide if it’s right for you and your team, we are here to help. Just [reach out to us](/contact-us) so we can answer your questions or plan to host a training or a live Q&A session for your team.
 
 

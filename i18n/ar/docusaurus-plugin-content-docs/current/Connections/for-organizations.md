@@ -33,7 +33,7 @@ We strongly recommend reviewing and understanding the permission model of each c
 :::
 
 
-## اختيار نوع الخادم المناسب {#selecting-the-right-type-of-server}
+## اختيار نوع الخادم المناسب {/* #selecting-the-right-type-of-server */}
 
 في ما يلي رسم بياني بسيط وغير شامل للمساعدة في تحديد أي نوع من أنواع الخوادم الأنسب للاحتياجات المختلفة. هذه نقطة انطلاق جيدة، ولكن يمكنك أيضا مشاهدة [هذا الفيديو](/video-tutorials#connections-full-video) حيث نعرض كل نوع من أنواع الخوادم. إذا كنت بحاجة إلى المساعدة في اتخاذ قرار ما أو تود طلب اتصال جديد (الدمج مع نوع جديد من الخوادم)، [اتصل بنا!](/contact-us).
 
@@ -60,7 +60,7 @@ On this table we explain what server types are available on the Tella apps:
 For offline file sharing or during internet shutdowns, [Nearby Sharing](/nearby-sharing) could be helpful.  If you need to share files with other apps the [Share button](/features#share-button) could be useful.
 :::
 
-### Tella Web {#tella-web}
+### Tella Web {/* #tella-web */}
 
 Tella Web هي أداة مفتوحة المصدر تُمكِّن الأفراد والمنظمات من الإدارة والتجميع المُمركَز للتقارير التي يرسلها مستخدمو Tella، بما في ذلك الصور ومقاطع الفيديو والملفات الصوتية.
 
@@ -73,7 +73,7 @@ Tella Web هي أداة مفتوحة المصدر تُمكِّن الأفراد 
 <Button label="Continue reading about the Tella Web connection " link="/tella-web"/>
 
 
-### Uwazi {#uwazi}
+### Uwazi {/* #uwazi */}
 
 [Uwazi](/uwazi) عبارة عن أداة توثيق مفتوحة المصدر تم تطويرها بواسطة HURIDOCS. وهو تطبيق قاعدة بيانات مرن قائم على الويب مصمم للمدافعين عن حقوق الإنسان لإدارة ما يتم جمعه من المعلومات، بما في ذلك المستندات والأدلة والقضايا والشكاوي.
 
@@ -82,7 +82,7 @@ Tella Web هي أداة مفتوحة المصدر تُمكِّن الأفراد 
 <Button label="Continue reading about the Uwazi connection " link="/uwazi"/>
 
 
-### Open Data Kit (ODK) {#open-data-kit-odk}
+### Open Data Kit (ODK) {/* #open-data-kit-odk */}
 
 [Open Data Kit (ODK)](https://getodk.org/) عبارة عن معيار مفتوح يستخدم لإنشاء استمارات مخصصة وجمع البيانات. من أجل الاتصال بخادم Open Data Kit، ستحتاج أولا إلى إنشاء نماذج بأنواع مختلفة من الأسئلة (نص، تاريخ، موقع جغرافي، وسائط، إلخ) باستخدام أي من الأدوات المتوافقة مع ODK.
 
@@ -95,7 +95,7 @@ The ODK connection is [not available on Tella iOS](/features).
 <Button label="Continue reading about the Open Data Kit connection " link="/odk"/>
 
 
-### Google Drive {#g-drive}
+### Google Drive {/* #g-drive */}
 
 Users can sign-in directly to their Google account from within Tella and upload files to a folder in their Drive account. Each "report" uploaded will create a new folder in the user's Google Drive.
 
@@ -108,7 +108,7 @@ The Google Drive connection is not available in Tella Android FOSS, because it u
 <Button label="Continue reading about the Google Drive connection " link="/g-drive"/>
 
 
-### Nextcloud {#Nextcloud}
+### Nextcloud {/* #Nextcloud */}
 
 Users can sign-in directly to their Nextcloud account from within Tella and upload files to a folder in their Nextcloud account. Each "report" uploaded will create a new folder in the user's Nextcloud.
 
@@ -117,7 +117,7 @@ As for all Connections in Tella, users can use most of the Nextcloud connection 
 <Button label="Continue reading about the Nextcloud connection " link="/nextcloud"/>
 
 
-### Dropbox {#dropbox}
+### Dropbox {/* #dropbox */}
 
 Users can sign-in directly to their Dropbox account from within Tella and upload files to a folder in their account. In the "Applications" folder in the user's Dropbox account, a new folder "Tella" will automatically be created. Each Report uploaded from Tella will create a new subfolder inside the "Tella" folder.
 

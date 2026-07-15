@@ -24,7 +24,7 @@ Submissions to Nextcloud take the form of "reports" which include a title, a tex
 Even though data is transferred to the server securely (SSL), anyone with access to the Nexctloud account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
 :::
 
-## When to Use Nextcloud {#when-to-use-Nextcloud}
+## When to Use Nextcloud {/* #when-to-use-Nextcloud */}
 
 The Nextcloud connection may be particularly well-suited for:
 - Organizations that already use Nextcloud.
@@ -42,7 +42,7 @@ For now, we don't support two-factor authentication (2FA) for Nextcloud connecti
 :::
 
 
-## Connect to Nextcloud {#connect-to-Nextcloud}
+## Connect to Nextcloud {/* #connect-to-Nextcloud */}
 
 In order to connect to Nextcloud:
 
@@ -53,7 +53,7 @@ In order to connect to Nextcloud:
 * Choose a name for the folder where all your Tella submissions will be saved.
 
 
-## Manage the Nextcloud connection {#manage-the-Nextcloud-connection}
+## Manage the Nextcloud connection {/* #manage-the-Nextcloud-connection */}
 
 * In **Settings ⚙️** > **Connections** >  **Nextcloud** > **⫶** you can:
   - Delete the connection
@@ -61,7 +61,7 @@ In order to connect to Nextcloud:
 For the moment it is not possible to sign in to multiple Nextcloud accounts at the same time. If you want to sign-in to another Nextcloud instance, delete your Nextcloud connection and create a new one.
 
 
-## Submit to Nextcloud {#submit-to-Nextcloud}
+## Submit to Nextcloud {/* #submit-to-Nextcloud */}
 
 * Once connected, a "Nextcloud" card will appear in the "Connections" section of the homescreen. Tap on this card to start submitting to Nextcloud.
 * The main Nextcloud screen allows navigation between the Drafts, Outbox, and Submitted tabs.
@@ -80,7 +80,7 @@ For the moment it is not possible to sign in to multiple Nextcloud accounts at t
 On Android, [a known Nextcloud issue](https://help.Nextcloud.com/t/cant-upload-files-langer-than-20-mb-using-Nextcloud-android-app/196434) prevents files larger than 20MB from being submitted to a Nextcloud server. For that reason, Tella users cannot attach files larger than 20MB to Reports uploaded to a Nextcloud connection. We are monitoring the status of this issue and will remove Tella's file-size restriction as soon as it is solved by Nextcloud.
 :::
 
-##  Projets de rapports {#draft-reports}
+##  Projets de rapports {/* #draft-reports */}
 
 A Draft report is a report that was created and saved but not yet submitted. Drafts reports are useful to save work in progress that can be editted later on. It allows users to create reports offline or over a long period of time before finalizing and sending them. This is especially useful in low-connectivity areas or when a user needs to gather information in multiple stages.
 
@@ -93,7 +93,7 @@ Reports in the Draft tab can be edited.
 * You can delete a draft report by tapping on **⫶** > **Delete** or by entering the report and tapping the Delete button.
 
 
-#### Submit a Report to Nextcloud{#submit-a-report-to-Nextcloud}
+#### Submit a Report to Nextcloud {/* #submit-a-report-to-Nextcloud */}
 
 * Dans un rapport, appuyez sur « Soumettre » pour lancer la soumission du rapport.
 * Vous serez redirigé vers un écran récapitulatif affichant la progression du chargement pour chaque pièce jointe.
@@ -110,7 +110,7 @@ Deleting a report in the middle of submission will cancel the upload of the file
 :::
 
 
-#### Boîte d'envoi {#boîte d'envoi}
+#### Boîte d'envoi {/* #boîte d'envoi */}
 The Outbox tab contains reports that are finalized and have been saved for later submission. Reports in the Outbox are ready to be submitted once the device reconnects to the internet or when the user chooses to manually send them.
 
 Reports in the Outbox tab cannot be edited.
@@ -128,7 +128,7 @@ If you need a fully offline way to share files with others, consider exploring [
 :::
 
 
-#### Rapports soumis {#submit-reports}
+#### Rapports soumis {/* #submit-reports */}
 
 - The Submitted tab displays reports that have been successfully submitted to the Nextcloud server.
 - Dans l'onglet Soumis, vous pouvez afficher et examiner les rapports soumis.

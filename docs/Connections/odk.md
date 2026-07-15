@@ -23,7 +23,7 @@ Even though data is encrypted (SSL) when transferred to the ODK account, anyone 
 :::
 
 
-### Choosing and Installing Your ODK Server {#choosing-and-installing-your-odk-server}
+### Choosing and Installing Your ODK Server {/* #choosing-and-installing-your-odk-server */}
 
 Because ODK is an open standard, Tella can be used with any of the tools that are ODK-compliant.
 
@@ -36,7 +36,7 @@ We are work closely with the Kobotoolbox team. If you are interested in using th
 There are other ODK-compliant apps available, like [Ona](https://ona.io/home/) or [ODK Cloud](https://https://getodk.org/index.html). Tella works with any of these. 
 
 
-### When to Use ODK {#when-to-use-odk}
+### When to Use ODK {/* #when-to-use-odk */}
 
 We recommend ODK to organizations that need on-the-ground users to collect data in a structured manner like forms. We also recommend it to organizations that don't have the technical capacity to install and maintain a server and want to use a ready-to-use cloud instance. If you use a cloud instance, remember that the organization hosting your ODK instance will be able to access your data. This is an important consideration when deciding whether to self-host or use a cloud service. 
 
@@ -46,11 +46,11 @@ ODK and KoboToolbox are widely used, well-documented, and easy to use. There are
 If you need help figuring out if ODK is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
 :::
 
-## Model Your Data {#model-your-data}
+## Model Your Data {/* #model-your-data */}
 
 KoboToolbox offers a detailed guide on how to create your project and add questions to your forms, and how to deploy them to make them available to on-the-ground users [here](https://support.kobotoolbox.org/overview_of_creating_a_project.html).
 
-## Connect Tella to an ODK Instance to Collect Data {#connect-tella-to-an-odk-instance-to-collect-data}
+## Connect Tella to an ODK Instance to Collect Data {/* #connect-tella-to-an-odk-instance-to-collect-data */}
 
 In this documentation, we focus on how to collect data using Tella. There are alternative mobile apps that can be used to collect data on ODK, including the ODK Collect Android app. You can see a comparison of these alternatives [here](/faq#how-is-tella-different-from-other-documentation-apps).
 
@@ -58,14 +58,14 @@ In this documentation, we focus on how to collect data using Tella. There are al
 The ODK connection is not available for Tella iOS.
 :::
 
-### Connect to an ODK Server {#connect-to-an-odk-server}
+### Connect to an ODK Server {/* #connect-to-an-odk-server */}
 After creating and deploying a Form using any ODK-compliant server, in Tella, go to **Settings** > **Connections** > **+** > **Open Data Kit (ODK)**. Fill the following fields:
 - **Server Name**: A descriptive name for your server in Tella. The name you select is only visible in the app and does not impact the ODK connection. 
 - **Server URL**: Your server URL. For example, `kc.kobotoolbox.org` if you are using the KoboToolbox public server.
 If your server requires user authentication, tap the **Advanced** button and enter your **Username** and **Password**. Your server's administrator should provide all this information to you.
 
 
-### Fill forms {#fill-forms}
+### Fill forms {/* #fill-forms */}
 
 After you successfully connected to the ODK instance, you'll see a new card called "Forms" in the **Connections** sections of the Tella homescreen.
 
@@ -74,7 +74,7 @@ After you enter the **Forms** section, you will see a list of Forms available to
 You can tap on each blank form to start filling it.
 
 
-#### Submit forms {#submit-forms}
+#### Submit forms {/* #submit-forms */}
 
 As you collect data and fill forms the following options are available to increase offline support on Tella:
 - Submit: send the filled form to the ODK server.
@@ -86,7 +86,7 @@ As you collect data and fill forms the following options are available to increa
 - Pause/Resume submission: you can manually pause a submission and resume it when ready.
 - Automatically pause submission when offline: forms will be sent to the Outbox tab if the submission fails due to connectivity issues.
 
-### Supported Question Types {#supported-question-types}
+### Supported Question Types {/* #supported-question-types */}
 Below is an overview of the ODK question types that are supported in Tella Android. If there is a question type that isn't supported in Tella and that is critical to your workflow, please [contact us](/contact-us).
 
 | **Question type** | **Tella Android** | 
@@ -119,7 +119,7 @@ Below is an overview of the ODK question types that are supported in Tella Andro
 | Range | No |
 | External XML | No |
 
-### Supported Features {#supported-features}
+### Supported Features {/* #supported-features */}
 
 Below is an overview of the ODK features that are supported in Tella Android. If there is a feature that isn't supported in Tella and that is critical to your workflow, please [contact us](/contact-us).
     

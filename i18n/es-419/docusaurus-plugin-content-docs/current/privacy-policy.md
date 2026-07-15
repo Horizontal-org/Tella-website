@@ -16,7 +16,7 @@ Actualizada por última vez el 23 de julio de 2024.
 Puedes leer sobre los detalles técnicos y auditorías de seguridad de Tella en nuestra  [Página de Seguridad y Privacidad](/security-and-privacy).
 :::
 
-## La versión corta {#the-short-version}
+## La versión corta {/* #the-short-version */}
 
 Solo recopilamos la cantidad mínima de información necesaria para cumplir el propósito de Tella.
 
@@ -27,7 +27,7 @@ Al utilizar nuestra app, puedes enviar datos a servidores administrados por indi
 
 Por favor lee la Política de Privacidad completa a continuación para más detalles
 
-## 1. Introducción {#1-introduction}
+## 1. Introducción {/* #1-introduction */}
 
 Horizontal ("Empresa" o "Nosotra(o)s") respeta tu privacidad y está comprometida a protegerla mediante el cumplimiento de esta política. Esta política describe: 
 
@@ -43,18 +43,18 @@ Nuestros otros sitios web y apps, estas terceras partes, u Organizaciones Implem
 
 Por favor lee esta política detenidamente para comprender nuestras políticas y prácticas respecto a tu información y cómo la trataremos. Si no estás de acuerdo con nuestras políticas y prácticas, no te descargues, registres con, o utilices esta App. Al descargar, registrarte o utilizar esta App, aceptas esta política de privacidad. Esta política puede cambiar periódicamente (ver Cambios a Nuestra Política de Privacidad). Tu uso contínuo de esta App después de que revisemos esta política significa que aceptas dichos cambios, por lo que por favor revisa la política periódicamente por actualizaciones.
 
-## 2. Niña(o)s Menores de 16 Años {#2-children-under-the-age-of-16}
+## 2. Niña(o)s Menores de 16 Años {/* #2-children-under-the-age-of-16 */}
 
 La App no está dirigida a niña(o)s menores de 16 años, y no recopilamos a sabiendas información personal de niña(o)s menores de 16 años. Si descubrimos que hemos recopilado o recibido información personal de un(a) niña(o) menor de 16 años sin verificación del consentimiento parental, eliminaremos esa información. Si crees que podemos tener alguna información de o sobre un(a) niña(o) menor de 16 años, por favor contáctanos en [contact@tella-app.org](mailto:contact@tella-app.org).
 
-## 3. Información Que Tella Recopila y Cómo Es Recopilada {#3-information-tella-collects-and-how-it-is-collected}
+## 3. Información Que Tella Recopila y Cómo Es Recopilada {/* #3-information-tella-collects-and-how-it-is-collected */}
 
 Al descargar y usar la App, das consentimiento a la recopilación y almacenamiento de datos. Tella recopila información de y sobre la(o)s usuaria(o)s de la App.
 
 -   Directamente de usted y cuando usted la proporciona (ver "información y datos que proporcionas" debajo).
 -   Automáticamente cuando utilizas la App (ver "recopilación automática de información" a continuación).
 
-### Información Y Datos Que Tu Proporcionas {#information-and-data-you-provide}
+### Información Y Datos Que Tu Proporcionas {/* #information-and-data-you-provide */}
 
 Cuando te descargas, registras con o utilizas esta App, podemos solicitarte que proporciones información que permita identificarte personalmente, como tu nombre y dirección de correo electrónico ("información personal"). Esta información incluye:
 
@@ -64,11 +64,11 @@ Cuando te descargas, registras con o utilizas esta App, podemos solicitarte que 
 
 Puedes utilizar esta app para tomar o almacenar fotos, videos, grabaciones de audio, y otros tipos de archivos. Estos datos son almacenados localmente en tu dispositivo y no son accesibles para la Empresa ni para ninguna tercera parte, incluidas las Organizaciones Implementadoras, hasta que tu decidas transmitirlos a la Organización Implementadora enviando tus datos a sus servidores (ver Recopilación de Información de Terceras Partes). 
 
-### Recopilación Automática de Información {#automatic-information-collection}
+### Recopilación Automática de Información {/* #automatic-information-collection */}
 
 Al descargar o utilizar esta App, es posible que recopile información que es sobre ti pero que no te identifica individualmente, tal como reportes de analíticas y errores. La(o)s usuaria(o)s tienen la libertad de deshabilitar esta recopilación automática de información (ver Tus Opciones Sobre Nuestra Recopilación, Uso, y Divulgación de Tu Información).
 
-### Metadatos de archivo, dispositivo, y ubicación {#file-device-and-location-metadata}
+### Metadatos de archivo, dispositivo, y ubicación {/* #file-device-and-location-metadata */}
 
 Al acceder y utilizar la App mientras el Modo Verificación está activo, Tella automáticamente recopila cierta información.
 
@@ -81,7 +81,7 @@ Tella también recopila información que ayuda a identificar la ubicación del d
 Los metadatos de archivo, dispositivo y ubicación solo son recopilados si optas por activar el Modo Verificación o Importar Metadatos EXIF en las configuraciones de tu App. Si no quieres que Tella recopile esta información, no actives el Modo Verificación ni Importar Metadatos EXIF.
 
 
-### Tecnologías de Recopilación de Información {#information-collection-technologies}
+### Tecnologías de Recopilación de Información {/* #information-collection-technologies */}
 
 Las tecnologías que utilizamos para la recopilación automática de información pueden incluir:
 
@@ -93,7 +93,7 @@ Las tecnologías que utilizamos para la recopilación automática de informació
 -   Sensor de luz del dispositivo.
 -   Barómetro del dispositivo.
 
-## 4. Información que envías a través de la App {#4-information-you-send-through-the-app}
+## 4. Información que envías a través de la App {/* #4-information-you-send-through-the-app */}
 
 Al utilizar la App para transmitir datos, te conectas al servidor de una Organización Implementadora que supervisa el proceso de documentación o recopilación para enviar fotos, videos, grabaciones de audio, y otros archivos, metadatos y datos de texto (en conjunto, "Contribuciones de la/el Usuaria(o)").
 
@@ -119,11 +119,11 @@ Si no quieres descargar la App a través de la tienda Google Play, puede [descar
 
 Una versión completamente Gratuita y de Código Abierto (Open Source) que no contiene ninguna biblioteca o dependencia de código cerrado o biblioteca privativa, y que está libre de cualquier rastreador se puede encontrar en [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/).
 
-## 5. Cómo Usamos Tu Información {#5-how-we-use-your-information}
+## 5. Cómo Usamos Tu Información {/* #5-how-we-use-your-information */}
 
 No compartiremos ninguna información que recopilemos de tu uso de la app con ninguna tercera parte que no sea propiedad de Horizontal sin tu consentimiento previo. No utilizamos ninguna información recopilada a través de tu uso de la app para tomar decisiones automatizadas.
 
-### Divulgación de Tu Información {#disclosure-of-your-information}
+### Divulgación de Tu Información {/* #disclosure-of-your-information */}
 
 Podemos divulgar información agregada sobre usuaria(o)s de la App, e información que no identifique a ningún individuo o dispositivo, sin restricciones. No divulgaremos ninguna información sobre usuaria(o)s que identifique a un individuo o dispositivo a ninguna tercera parte, a menos que lo exija la ley.
 
@@ -135,7 +135,7 @@ Podemos divulgar información personal y datos que recopilemos o que tu proporci
 -   Para cumplir con cualquier orden judicial, ley, o proceso legal, incluyendo responder a cualquier solicitud gubernamental o regulatoria.
 -   Para ejercer nuestros derechos derivados de cualquier contrato celebrado entre tu y nosotra(o)s, incluyendo los Términos de Uso de la App.
 
-## 6. Sus Opciones Sobre Nuestra Recopilación, Uso, y Divulgación de Tu Información {#6-your-choices-about-our-collection-use-and-disclosure-of-your-information}
+## 6. Sus Opciones Sobre Nuestra Recopilación, Uso, y Divulgación de Tu Información {/* #6-your-choices-about-our-collection-use-and-disclosure-of-your-information */}
 
 A través del menú de configuración de la App, puedes inhabilitar:
 
@@ -148,7 +148,7 @@ A través del menú de configuración de la App, puedes habilitar:
 
 La versión FOSS de Tella disponible en [F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/) no tiene ningún rastreador para informes de errores o análisis de uso.
 
-## 7. Accediendo y Corrigiendo Tu Información Personal {#7-accessing-and-correcting-your-personal-information}
+## 7. Accediendo y Corrigiendo Tu Información Personal {/* #7-accessing-and-correcting-your-personal-information */}
 
 Tienes derecho a presentar una Solicitud de Acceso del Sujeto (SAR) libre de cargos, después de la cual te proporcionaremos:
 
@@ -161,11 +161,11 @@ Para presentar una SAR, por favor escribe a [contact@wearehorizontal.org](mailto
 
 También puedes escribirnos a [contact@horizontal.org](mailto:contact@horizontal.org) para solicitar acceso, corregir, or eliminar cualquier información personal que nos hayas proporcionado. Es posible que no podamos atender una solicitud para cambiar información si creemos que el cambio violaría una ley o requisito legal o causaría que la información sea incorrecta.
 
-## 8. Tus Derechos de Privacidad de California {#8-your-california-privacy-rights}
+## 8. Tus Derechos de Privacidad de California {/* #8-your-california-privacy-rights */}
 
 Si eres residente de California, la ley de California puede otorgarte derechos adicionales respecto a nuestro uso de su información personal. Para saber más sobre tus derechos de privacidad de California, visita [https://www.oag.ca.gov/privacy/ccpa](https://www.oag.ca.gov/privacy/ccpa).
 
-## 9. Seguridad de Datos {#9-data-security}
+## 9. Seguridad de Datos {/* #9-data-security */}
 
 Hemos implementado medidas diseñadas para proteger tu información personal de pérdida accidental y de acceso, uso, modificación, y divulgación no autorizada. Toda la información que nos proporcionas está cifrada dentro de la app y transferida de manera segura a nuestros servidores detrás de cortafuegos.
 
@@ -173,12 +173,12 @@ La seguridad de tu información también depende de ti. Cuando te hayamos propor
 
 Desafortunadamente, la transmisión de información por internet y plataformas móviles no es completamente segura. Aunque hacemos lo mejor para proteger tu información personal, no podemos garantizar la seguridad de tu información personal transmitida a través de nuestra App. Cualquier transmisión de información personal corre por tu propio riesgo. No somos responsables de la elusión de ninguna configuración de privacidad o medidas de seguridad que proporcionemos.
 
-## 10. Cambios a Nuestra Política de Privacidad {#10-changes-to-our-privacy-policy}
+## 10. Cambios a Nuestra Política de Privacidad {/* #10-changes-to-our-privacy-policy */}
 
 Puede que actualicemos nuestra política de privacidad periódicamente. Si realizamos cambios materiales a cómo tratamos la información personal de nuestra(o)s usuaria(o)s, publicaremos una nueva política de privacidad en esta página con un aviso de que la política de privacidad ha sido actualizada.
 
 La fecha de la última revisión de la política de privacidad está identificada en la parte superior de la página. Tu eres responsable de visitar periódicamente esta política de privacidad para verificar cualquier cambio.
 
-## 11. Información de Contacto {#11-contact-information}
+## 11. Información de Contacto {/* #11-contact-information */}
 
 Para hacer preguntas o comentarios sobre esta política de privacidad y nuestras prácticas de privacidad, contáctanos en [contact@wearehorizontal.org](mailto:contact@wearehorizontal.org).

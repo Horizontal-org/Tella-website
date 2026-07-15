@@ -33,7 +33,7 @@ We strongly recommend reviewing and understanding the permission model of each c
 :::
 
 
-## မှန်ကန်သော ဆာဗာအမျိုးအစားကို ရွေးချယ်ခြင်း {#selecting-the-right-type-of-server}
+## မှန်ကန်သော ဆာဗာအမျိုးအစားကို ရွေးချယ်ခြင်း {/* #selecting-the-right-type-of-server */}
 
 အောက်တွင် လိုအပ်ချက်အမျိုးမျိုးအတွက် ဆာဗာအမျိုးအစားသုံးမျိုးအနက်မှ မည်သည့် ဆာဗာအမျိုးအစားက အသင့်လျော်ဆုံးဖြစ်ကြောင်း ဆုံးဖြတ်ရာတွင် အထောက်အကူဖြစ်စေရန် အခြေခံကျ၍ အကြမ်းဖျင်းဖော်ပြထားသော ဂရပ်တစ်ခုကို ပြသထားပါသည်။ ၎င်းကို ကြည့်ရှု၍ စတင်လေ့လာနိုင်သော်လည်း ကျွန်ုပ်တို့၏ ဆာဗာအမျိုးအစားတစ်ခုစီကို [ဤဗီဒီယို](/video-tutorials#connections-full-video) တွင်လည်း ကြည့်ရှုလေ့လာနိုင်ပါသည်။ ဆုံးဖြတ်ရာတွင် အကူအညီလိုအပ်ပါက သို့မဟုတ် ချိတ်ဆက်မှုအသစ် (ဆာဗာအမျိုးအစားအသစ်သို့ ပေါင်းစပ်မှုတစ်ခု) တောင်းဆိုလိုပါက [ကျွန်ုပ်တို့ထံ ဆက်သွယ်ပါ။](/contact-us)
 
@@ -59,7 +59,7 @@ On this table we explain what server types are available on the Tella apps:
 For offline file sharing or during internet shutdowns, [Nearby Sharing](/nearby-sharing) could be helpful.  If you need to share files with other apps the [Share button](/features#share-button) could be useful.
 :::
 
-### Tella ဝဘ် {#tella-web}
+### Tella ဝဘ် {/* #tella-web */}
 
 Tella ဝဘ်သည် ဓာတ်ပုံများ၊ ဗီဒီယိုများနှင့် အသံဖိုင်များအပါအဝင် Tella အသုံးပြုသူများက ပေးပို့သော အစီရင်ခံစာများကို ဗဟိုချုပ်ကိုင်၍ စီမံခန့်ခွဲနိုင်စေရန် လူတစ်ဦးချင်းစီနှင့် အဖွဲ့အစည်းများကို ခွင့်ပြုထားသည့် ပွင့်လင်းအရင်းအမြစ် ကိရိယာတစ်ခုဖြစ်သည်။
 
@@ -76,7 +76,7 @@ Tella ဝဘ် အကြောင်း [ဤနေရာတွင်](/tella-we
 <Button label="Continue reading about the Tella Web connection " link="/tella-web"/>
 
 
-### Uwazi {#uwazi}
+### Uwazi {/* #uwazi */}
 
 [Uwazi](/uwazi) သည် HURIDOCS မှ တီထွင်ထားသည့် မှတ်တမ်းတင်ခြင်းဆိုင်ရာ ပွင့်လင်းအရင်းအမြစ်ကိရိယာ ဖြစ်သည်။ ၎င်းသည် စာရွက်စာတမ်းများ၊ အထောက်အထားများ၊ အမှုများနှင့် တိုင်ကြားချက်များအပါအဝင် လူ့အခွင့်အရေး ကာကွယ်စောင့်ရှောက်သူများ၏ သတင်းအချက်အလက်စုဆောင်းမှုများကို စီမံခန့်ခွဲရန်အတွက် ပြောင်းလွယ်ပြင်လွယ်ရှိသော၊ ဝဘ်အခြေပြု ဒေတာဘေ့စ် အပလီကေးရှင်းတစ်ခု ဖြစ်သည်။ 
 
@@ -86,7 +86,7 @@ Uwazi ကို ဒေတာဘေ့စ်အဖြစ် အသုံးပြ
 
 
 
-### Open Data Kit (ODK) {#open-data-kit-odk}
+### Open Data Kit (ODK) {/* #open-data-kit-odk */}
 
 [Open Data Kit (ODK)](https://getodk.org/) သည် စိတ်ကြိုက်ဖောင်များ ဖန်တီးရန်နှင့် ဒေတာစုဆောင်းရန်အတွက် အသုံးပြုသည့် ပွင့်လင်းစံနှုန်း ဖြစ်သည်။ Open Data Kit ဆာဗာနှင့် ချိတ်ဆက်ရန် ဦးစွာ ODK နှင့်ကိုက်ညီသော မည်သည့်ကိရိယာကိုမဆို အသုံးပြု၍ (စာသား၊ ရက်စွဲ၊ ပထဝီတည်နေရာ၊ မီဒီယာစသဖြင့်)  မတူညီသော မေးခွန်းအမျိုးအစားများပါသည့် ဖောင်များကို ဖန်တီးရန် လိုအပ်ပါသည်။
 
@@ -100,7 +100,7 @@ The ODK connection is [not available on Tella iOS](/features).
 <Button label="Continue reading about the Open Data Kit connection " link="/odk"/>
 
 
-### Google Drive {#g-drive}
+### Google Drive {/* #g-drive */}
 
 Users can sign-in directly to their Google account from within Tella and upload files to a folder in their Drive account. Each "report" uploaded will create a new folder in the user's Google Drive.
 
@@ -114,7 +114,7 @@ The Google Drive connection is not available in Tella Android FOSS, because it u
 
 
 
-### Nextcloud {#Nextcloud}
+### Nextcloud {/* #Nextcloud */}
 Users can sign-in directly to their Nextcloud account from within Tella and upload files to a folder in their Nextcloud account. Each "report" uploaded will create a new folder in the user's Nextcloud.
 
 As for all Connections in Tella, users can use most of the Nextcloud connection offline through the Draft, Outbox and Submit Later tabs. 
@@ -122,7 +122,7 @@ As for all Connections in Tella, users can use most of the Nextcloud connection 
 <Button label="Continue reading about the Nextcloud connection " link="/nextcloud"/>
 
 
-### Dropbox {#dropbox}
+### Dropbox {/* #dropbox */}
 Users can sign-in directly to their Dropbox account from within Tella and upload files to a folder in their account. In the "Applications" folder in the user's Dropbox account, a new folder "Tella" will automatically be created. Each Report uploaded from Tella will create a new subfolder inside the "Tella" folder.
 
 As for all Connections in Tella, users can use most of the Dropbox connection offline through the Draft, Outbox and Submit Later tabs. 

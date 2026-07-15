@@ -14,7 +14,7 @@ Unfortunately, due to the [funding challenges Horizontal is facing](https://dono
 If you have any questions or need support, please [contact us directly](/contact-us).
 :::
 
-###  ~~ماذا {#what}~~
+###  ~~ماذا~~ {/* #what */}
 
  ~~تستضيف Horizontal كل شهر مكالمة مجتمعية للمستخدمين أو الشركاء أو أي شخص مهتم بـ Tella. خلال هذه المكالمات نقوم بما يلي:~~ 
 
@@ -24,19 +24,19 @@ If you have any questions or need support, please [contact us directly](/contact
 -   ~~الاستماع إلى التعليقات حول طلبات الميزات حتى نتمكن من دمجها في تخطيطنا~~
 -   ~~استضافة ضيوف متحدثين يشاركون استخدامهم وتجربتهم مع Tella وتعلُّماتهم~~
 
-### ~~متى {#when}~~
+### ~~متى~~ {/* #when */}
 
 ~~يتم إجراء مكالمات المجتمع في أول يوم أربعاء من كل شهر على الساعة 3 مساءً بتوقيت جْرينِتش.~~
 
 
 
-### ~~أين {#where}~~
+### ~~أين~~ {/* #where */}
 
 ~~يتم إجراء مكالمات المجتمع الخاصة بنا على Jitsi، وهي منصة مكالمات فيديو متوافقة مع الخصوصية ومفتوحة المصدر.~~
 
 ~~يمكنك الانضمام إلى المكالمة باستخدام هذا الرابط: [https://meet.jit.si/moderated/72928f9f16445dfc04dfbba14cb65fecd979f68cb053ddae3cc936192063471f](https://meet.jit.si/moderated/72928f9f16445dfc04dfbba14cb65fecd979f68cb053ddae3cc936192063471f)~~
 
-### ~~الأمان والخصوصية {#safety-and-privacy}~~
+### ~~الأمان والخصوصية~~ {/* #safety-and-privacy */}
 
 :::warning Important
 ~~لضمان أمان جميع المشاركين، يوافق أي شخص ينضم إلى مكالمات مجتمع Tella على الالتزام بـ [قواعد السلوك الخاصة بشركة Horizontal](https://horizontal-org.slite.com/app/docs/E33mV5cWaJhd8x/Horizontal-Code-of-Conduct). يُرجى إعطاؤها بعض الوقت للتعرف عليها.~~

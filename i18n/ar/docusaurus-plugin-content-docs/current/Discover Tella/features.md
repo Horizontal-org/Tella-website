@@ -15,7 +15,7 @@ import FeaturesTable from '.././_features-table.md';
 <FeaturesTable/>
 
 
-## قفل التطبيق {#app-lock}
+## قفل التطبيق {/* #app-lock */}
 
 عند تثبيت Tella، يجب على المستخدم تحديد قفل 🔒 لتعمية وفك تعمية محتوى التطبيق.
 
@@ -33,7 +33,7 @@ import FeaturesTable from '.././_features-table.md';
 تعرف على المزيد حول أقفال Tella في هذا [الفيديو التعليمي](/video-tutorials#tella-locks)
 :::
 
-## تعمية في الخلفية {#background-encryption}
+## تعمية في الخلفية {/* #background-encryption */}
 
 Tella يقوم [بتعمية](#encryption) الملفات في الخلفية لكي يستطيع المستخدمين الاستمرار في عملهم (التقاط المزيد من الصور، تصوير الفيديوهات، استيراد الملفات، إلى آخره) أثناء تعمية الملفات. بإمكان المستخدمين رؤية الأنشطة التي تحدث في الخلفية في **لوحة النشاط الخلفي** المتاحة من الصفحة الرئيسية في Tella والتي تظهر من خلال الضغط على أيقونة "التنبيهات" (🔔) في الناحية العلوية على اليسار.
 
@@ -49,7 +49,7 @@ Tella يقوم [بتعمية](#encryption) الملفات في الخلفية ل
 
 
 
-## Backup files {#backup-files}
+## Backup files {/* #backup-files */}
 Tella stores all the information locally in your phone. If you delete your files (for example using [quick delete](/features#quick-delete) or if you uninstall Tella), your files cannot be restored unless you have backed them up outside of your Tella Vault.
 
 We offer several alternatives to backup files, so you can safely delete files from Tella and import those back in, but the backup process is manual, for the moment. Please [contact us](/contact-us) if you have questions.
@@ -60,7 +60,7 @@ All exports outside of Tella's encrypted vault (to a connected server or [to you
 
 
 
-### Backup files to another phone or computer {#backup-files-to-another-phone-or-computer}
+### Backup files to another phone or computer {/* #backup-files-to-another-phone-or-computer */}
 
 Using [Nearby Sharing](/nearby-sharing) you can transfer files directly to another Tella vault, either in another phone or [to a computer](/get-started-desktop) that's in physical proximity. Files are shared and store encrypted in the other Tella. If you backup to another phone you can use Nearby Sharing again to restore the files to your Tella.
 
@@ -68,7 +68,7 @@ Using [Nearby Sharing](/nearby-sharing) you can transfer files directly to anoth
 For the moment Tella Desktop can only receive files.
 :::
 
-### Backup files to a cloud {#backup-files-to-a-cloud}
+### Backup files to a cloud {/* #backup-files-to-a-cloud */}
 
 Some individuals use commercial clouds (Google Drive, Dropbox, Nextcloud) as a backup system for their Tella data. However, we advise using this feature with caution:
 - Automatic backups to any server are **not** currently available. They need to be made manually as submissions to each of the servers.
@@ -76,7 +76,7 @@ Some individuals use commercial clouds (Google Drive, Dropbox, Nextcloud) as a b
 
 You can [continue reading about Server Connections and how organizations use Tella here](/for-organizations).
 
-## تهيئة مهلة القفل {#lock-timeout-configuration}
+## تهيئة مهلة القفل {/* #lock-timeout-configuration */}
 
 يتم قفل Tella فورا بشكل افتراضي في كل مرة يخرج فيها المستخدم من التطبيق أو عندما تنطفئ شاشة الهاتف. إذا كنت ترغب في تغيير هذا الإعداد، يمكن للمستخدم القيام بذلك عن طريق
 
@@ -98,7 +98,7 @@ You can [continue reading about Server Connections and how organizations use Tel
 
 
 
-## الوضع الصامت للكاميرا {#camera-silent-mode}
+## الوضع الصامت للكاميرا {/* #camera-silent-mode */}
 
 ‫يتم تعطيل الوضع الصامت للكاميرا في Tella بشكل افتراضي. من الممكن إيقاف صوت مِغلاق الكاميرا لتجنب لفت الانتباه عند التقاط الصور عن طريق الذهاب إلى **الإعدادات ⚙️** > **الأمن** > **الوضع الصامت للكاميرا**. 📷🔇
 
@@ -107,7 +107,7 @@ You can [continue reading about Server Connections and how organizations use Tel
 :::
 
 
-## أمن الشاشة {#screen-security}
+## أمن الشاشة {/* #screen-security */}
 
 ‫يمنع Tella لقطات الشاشة وتسجيلات الشاشة داخل التطبيق بشكل افتراضي، ويُخفي معاينة الشاشة في قائمة التطبيقات الحديثة 📱🔒. من الممكن تعطيل هذه الميزة الأمنية إذا كان المستخدمون بحاجة إلى التقاط لقطات شاشة أو تسجيلات شاشة، أو لعرض Tella على الحاسوب لعرض تقديمي، وذلك عن طريق الذهاب إلى **الإعدادات ⚙️** > **الأمن** > **أمن الشاشة**.
 
@@ -118,7 +118,7 @@ You can [continue reading about Server Connections and how organizations use Tel
 تعرف على المزيد حول ميزات الأمن الإضافية لـ Tella في هذا [الفيديو التعليمي](/video-tutorials#additional-security-features)
 :::
 
-## تقييد محاولات فتح القفل {#restrict-unlocking-attempts}
+## تقييد محاولات فتح القفل {/* #restrict-unlocking-attempts */}
 ‫عن طريق الذهاب إلى **الإعدادات ⚙️** > **الأمن** > **الحذف بعد فشل فتح القفل**، يمكن للمستخدم تحديد عدد محاولات فتح القفل الفاشلة المسموح بها قبل حذف كل شيء داخل Tella.
 
 يكون هذا الإعداد معطلا بشكل افتراضي، مما يعني أن محاولات فتح القفل غير مقيدة ولن يتم حذف البيانات. يمكن للمستخدم اختيار تقييد محاولات الفتح لا تتعدى 5 أو 10 أو 20 محاولة. إذا اختار المستخدم أيا من هذه الخيارات، يمكنه أيضا تحديد ما إذا كان يجب عرض مؤشر مرئي على شاشة الفتح قبل المحاولات الثلاث الأخيرة من العدد المحدد للمحاولات (3 محاولات متبقية، محاولتان متبقيتان، إلخ)، أو عدم عرض أي مؤشر مرئي على الإطلاق.
@@ -129,12 +129,12 @@ You can [continue reading about Server Connections and how organizations use Tel
 بالرغم من أن هذا الإعداد الأمني يمنع محاولات فتح القفل بالقوة الغاشمة للوصول إلى Tella، إلا أنه يجب استخدامه بحذر، لأنه لا توجد طريقة لاستعادة محتوى Tella بمجرد الوصول إلى الحد الأقصى من محاولات الفتح الفاشلة.
 :::
 
-## تحرير الوسائط {#edit-media}
+## تحرير الوسائط {/* #edit-media */}
 نحن بصدد إضافة إمكانية تحرير ملفات الوسائط مباشرة داخل Tella. قريبا، لن يحتاج المستخدمون إلى تصدير ملفاتهم خارج Tella لتحريرها. يقوم Tella و Tella iOS بتحرير الصور (القص والدوران).
 
 ‫يمكن للمستخدمين تحرير صورة عن طريق الذهاب إلى **المزيد** > **تحرير** من مجلد **الصور** أو بلمس زر **تحرير** في أعلى اليمين أثناء عرض الصورة في Tella. في شاشة تحرير الصورة، يمكن للمستخدمين استخدام زر **الدوران** في أسفل الشاشة لتدوير الصورة عكس اتجاه عقارب الساعة أو محاولة القَرص والإفلات بأصبعين لتقريب وتكبير الصورة أو تصغير الصورة لقصها. عند الانتهاء من التعديلات، يمكن للمستخدمين الضغط على علامة الاختيار البرتقالية في أعلى يمين شاشة التحرير.
 
-## التعمية {#encryption}
+## التعمية {/* #encryption */}
 
 جميع الملفات المُخزَّنة داخل Tella مُعمّاة. بدون استخدام قفل التطبيق، من المستحيل فك التعمية والوصول إلى أي من الملفات المُخزَّنة في Tella. 🔒🔐
 
@@ -158,7 +158,7 @@ You can [continue reading about Server Connections and how organizations use Tel
 يمكن العثور على التفاصيل التقنية حول التعمية في قسم [الأمن والخصوصية](/security-and-privacy).
 :::
 
-## إدارة الملفات {#file-management}
+## إدارة الملفات {/* #file-management */}
 
 يسمح Tella للمستخدمين بإدارة الملفات والمجلدات بطريقة مشابهة لما يقومون به على الحاسوب. جميع الملفات والمجلدات **مُعمّاة ومتاحة فقط داخل Tella **. 📂📝
 
@@ -174,7 +174,7 @@ You can [continue reading about Server Connections and how organizations use Tel
 يؤدي استيراد الملفات من نظام ملفات الجهاز إلى Tella إلى إنشاء نسخة من الملفات داخل Tella. سيطلب Tella منك تحديد ما إذا كنت تريد الاحتفاظ بالملف الأصلي على هاتفك أو حذفه عند الاستيراد. إذا اخترت الاحتفاظ بالملف الأصلي، فسيظل موجودا على الجهاز، خارج Tella ودون تعمية. 🔒
 :::
 
-## التعليقات {#feedback}
+## التعليقات {/* #feedback */}
 
 هناك عدة خيارات لمستخدمي Tella [للاتصال بفريق Tella](/contact-us) من أجل اقتراح تحسينات والإبلاغ عن الأخطاء والمشاكل وطلب الدعم. داخل Tella، هناك خياران:
 
@@ -197,7 +197,7 @@ You can [continue reading about Server Connections and how organizations use Tel
 :::
 
 
-## استيراد الملفات من الجهاز {#import-files-from-device}
+## استيراد الملفات من الجهاز {/* #import-files-from-device */}
 
 يمكن للمستخدم استيراد الملفات إلى Tella للحفاظ على أمنها باستخدام ميزة الاستيراد. يمكنه استيراد الملفات عن طريق الذهاب إلى زر **إضافة ( + )** إما في 'كل الملفات' أو 'الصور' أو 'الفيديو' أو 'الصوت' أو 'المستندات' حسب نوع الملف الذي يرغب في استيراده ثم **استيراد من الجهاز** 📥. سيظهر مُوجِّه يسأل المستخدم عما إذا كان يرغب في الاحتفاظ بالملف الأصلي في ذاكرة الهاتف أو حذفه. سيتم الحفاظ على الملفات المستوردة آمنة في Tella.
 
@@ -206,19 +206,19 @@ You can [continue reading about Server Connections and how organizations use Tel
  تعرف على المزيد حول [جمع الأدلة](video-tutorials#collecting-evidence) و [مشاركة البيانات](/video-tutorials#sharing-data-with-other-apps) في فيديوهاتنا التعليمية.
 :::
 
-## الحفاظ على البيانات الوصفية عند الاستيراد {#preserve-metadata-when-importing}
+## الحفاظ على البيانات الوصفية عند الاستيراد {/* #preserve-metadata-when-importing */}
 
 ‫في **الإعدادات** > **الأمن**، يمكن للمستخدمين اختيار الحفاظ على بيانات الملف الوصفية أو حذفها عند استيراد الصور ومقاطع الفيديو إلى Tella. قد تتضمن بيانات EXIF الوصفية للملفات معلومات حول وقت إنشاء الملف، إعدادات الكاميرا أو موقع الجهاز.
 
-## تحليلات الحفاظ على الخصوصية (اشتراك) {#privacy-preserving-analytics}
+## تحليلات الحفاظ على الخصوصية (اشتراك) {/* #privacy-preserving-analytics */}
 يمكن لمستخدمي Android اختيار مشاركة التحليلات لتحسين Tella. جميع المعلومات مجهولة المصدر، مجمعة، ولا يمكن ربطها أبدا بالمستخدمين الفرديين. للحصول على معلومات تقنية حول النظام الذي نستخدمه وما المقاييس التي نجمعها، قم بزيارة قسم [التحليلات في صفحة الأمان والخصوصية](/security-and-privacy#analytics).
 
-## فتح الملفات في Tella {#open-files-in-tella}
+## فتح الملفات في Tella {/* #open-files-in-tella */}
 يمكن عرض الصور والفيديوهات وملفات PDF والملفات الصوتية داخل Tella. 📱📄
 
 في إصدار البرمجيات الحرة والمفتوحة المصدر من Tella، يجب تصدير ملفات PDF لفتحها.
 
-## التمويه {#camouflage}
+## التمويه {/* #camouflage */}
 
 على Tella Android، يمكن تمويه Tella بطريقتين:
 
@@ -236,7 +236,7 @@ You can [continue reading about Server Connections and how organizations use Tel
 :::
 
 
-## تخصيص الشاشة الرئيسية {#homescreen-customization}
+## تخصيص الشاشة الرئيسية {/* #homescreen-customization */}
 
 تنظم الشاشة الرئيسية لـ Tella الملفات بشكل افتراضي حسب النوع: 📷 الصور، 🎥 الفيديوهات، 🎧 الملفات الصوتية، 📄 المستندات، وملفات أخرى. كما توفر قسم 'جميع الملفات' حيث يمكن الوصول إلى جميع الملفات. لمزيد من المعلومات، راجع قسم إدارة الملفات.
 
@@ -249,7 +249,7 @@ You can [continue reading about Server Connections and how organizations use Tel
 ‫يمكن العثور على هذه التهيئة في **الإعدادات** > **عام**.
 
 
-## الحذف السريع {#quick-delete}
+## الحذف السريع {/* #quick-delete */}
 
 ‫يتيح زر الحذف السريع للمستخدمين، في غضون ثوان قليلة، حذف البيانات الحساسة داخل Tella. يمكن تهيئة الحذف السريع عن طريق **الإعدادات** > **الأمن** > **الحذف السريع**، حيث يمكن للمستخدم اختيار تفعيل زر التمرير على الشاشة الرئيسية لحذف المعلومات بسرعة من Tella في حالات الطوارئ. إذا تم تفعيله، يمكن للمستخدم اختيار ما سيتم حذفه بالضبط عند استخدام هذه الميزة. الخيارات المتاحة هي:
 
@@ -262,13 +262,13 @@ You can [continue reading about Server Connections and how organizations use Tel
 قد لا يكون خيار حذف Tella متاحا على بعض هواتف أندرويد بسبب القيود التقنية. نحن نعمل على إصلاح هذه المشكلة. بالنسبة لنظام iOS، لا يمكن حذف تطبيق ما برمجيا.
 :::
 
-## الخروج السريع {#quick-exit}
+## الخروج السريع {/* #quick-exit */}
 
 بالضغط على زر الخروج في الزاوية اليمنى العليا من الشاشة الرئيسية لـ Tella، يمكن لمستخدمي أندرويد إغلاق وقفل التطبيق بسرعة في حالة الطوارئ. بينما يعني تعيين مهلة القفل إلى "فورا" أن التطبيق يُقفَل بالفعل عندما يخرج المستخدم، إن استخدام زر الخروج السريع يضيف طبقة إضافية من الأمن والتأكيد على أن التطبيق سيتم إغلاقه وقفله بالكامل 🔒
 
 على نظام iOS، لا يمكن إغلاق تطبيق ما من داخل التطبيق نفسه. يؤدي اللمس على زر الخروج السريع إلى قفل التطبيق بدلا من ذلك.
 
-## وضع التحقق {#verification-mode}
+## وضع التحقق {/* #verification-mode */}
 
 في إعدادات Tella، يمكن للمستخدمين تفعيل "وضع التحقق" ✅.
 
@@ -308,7 +308,7 @@ You can [continue reading about Server Connections and how organizations use Tel
 * المعلومات الخلوية: الأرقام التعريفية لجميع الأبراج الخلوية التي يتصل بها الجهاز 📡
 * معلومات WiFi: اسم جميع شبكات WiFi في محيط الجهاز 🔍
 
-## الاتصال بالخوادم {#connecting-to-servers}
+## الاتصال بالخوادم {/* #connecting-to-servers */}
 
 يمكن للمستخدمين جمع البيانات مباشرة في Tella، والحفاظ على البيانات محمية داخل التطبيق، والاتصال بخادم لإرسال البيانات إلى الخادم بأمان. تُستخدم هذه الميزة بشكل متكرر من قبل المنظمات التي تقوم بتجميع تلك البيانات التي جمعها المتطوعون أو النشطاء على الأرض في مكان واحد. يجمع هؤلاء الأشخاص المعلومات باستخدام Tella على هواتفهم ثم يرسلونها إلى منظماتهم. تراوح عدد المستخدمين بين مستخدم واحد إلى 2000 مستخدم في عمليات نشر Tella السابقة حيث جمع المستخدمون البيانات على الأرض وأرسلوها إلى خادم المنظمة. 📲 📡
 
@@ -324,7 +324,7 @@ You can [continue reading about Server Connections and how organizations use Tel
 
 
 
-## Nearby Sharing {#nearby-sharing}
+## Nearby Sharing {/* #nearby-sharing */}
 
 Users can share files directly from Tella's encrypted vault to another Tella encrypted vault in the same physical location using Nearby Sharing. After a quick connection tutorial, the two devices establish a secure link, and files are transferred encrypted from one device to the other. Nearby Sharing is independent of the internet connection status: it works online or offline.
 
@@ -334,14 +334,14 @@ This feature is available on Tella Android, Tella iOS, and Tella Desktop.
 [Learn more about nearby sharing here](/nearby-sharing).
 :::
 
-## Share button {#share-button}
+## Share button {/* #share-button */}
 To share information with other apps, users can select the file or files they want to share and press the Share button. Tella will prompt the list of available apps on the phone and users can choose the app they want to share the file(s) with.
 
 :::danger
 Tella will share the files unencrypted and the history of exchanged files might be visible on the app you used. We recommend using disappearing messages or deleting the messages after the other person receives them when using messaging apps (for example WhatsApp or Signal).
 :::
 
-## الكاميرا (الصور والفيديوهات) {#camera-photos-and-videos}
+## الكاميرا (الصور والفيديوهات) {/* #camera-photos-and-videos */}
 
 يوفر Tella كاميرا مدمجة يمكنك من خلالها التقاط الصور والفيديوهات. لن تكون الوسائط التي يتم جمعها داخل Tella متاحة خارج التطبيق، حيث تتم تعمية جميع الملفات بمجرد التقاطها. يمكن الوصول إلى هذه الملفات فقط داخل Tella، باستخدام القفل لفتح التطبيق. لن تظهر الصور والفيديوهات في معرض الهاتف. داخل Tella، سيكون للصور والفيديوهات اسم افتراضي، ولكن يمكن للمستخدمين إعادة تسميتها باستخدام زر 'إعادة التسمية'. يمكن أيضا تنظيم الملفات في مجلدات. 📷
 
@@ -350,7 +350,7 @@ Tella will share the files unencrypted and the history of exchanged files might 
 في [Tella-FOSS](/faq#is-tella-available-on-f-droid)، حيث نستخدم مكتبة CameraX مفتوحة المصدر بالكامل، قد تكون بعض ميزات الكاميرا غير موجودة (كـ: التكبير، تفعيل الكاميرا، تفعيل ضوء الفلاش، تفعيل الشبكة، تغيير دقة الفيديو).
 
 
-## اختيار دقة الفيديو {#select-video-resolution}
+## اختيار دقة الفيديو {/* #select-video-resolution */}
 يمكنك بسهولة اختيار دقة الفيديو المطلوبة على Tella من خلال الوصول إلى شاشة تسجيل الفيديو ولمس زر الإعدادات. تشمل الخيارات المتاحة:
 - أعلى دقة ممكنة
 - دقة عالية (1080 بكسل)
@@ -362,14 +362,14 @@ Tella will share the files unencrypted and the history of exchanged files might 
 من المهم الانتباه إلى أن اختيار دقة الفيديو مدعومة حاليا فقط على أجهزة أندرويد.
 
 
-## مسجل الصوت {#audio-recorder}
+## مسجل الصوت {/* #audio-recorder */}
 
 لدى Tella مسجل صوت مُدمَج. إن جميع التسجيلات الصوتية المُسجَّلة داخل Tella ليست متاحة خارج التطبيق، إذ تتم تعمية جميع الملفات فور التقاطها. يمكن الوصول إلى الملفات الصوتية فقط داخل Tella، باستخدام القفل لفتح التطبيق. لن تظهر التسجيلات في تطبيق تسجيل الصوت أو في نظام ملفات الهاتف. في Tella، سيكون للملفات الصوتية اسم افتراضي، ويمكن للمستخدمين إعادة تسميتها باستخدام زر 'إعادة التسمية'. يمكن أيضا تنظيم التسجيلات الصوتية في مجلدات. 🎤 🎧
 
 يتيح مسجل الصوت للمستخدمين إيقاف التسجيل مؤقتا وإعادة تشغيله حسب الحاجة، مع الاحتفاظ بجميع المعلومات في نفس الملف. يرى المستخدمون مقدار مساحة التخزين المتاحة لديهم أثناء التسجيل، لضمان عدم نفاد تلك المساحة أثناء التسجيل. 📈 💾
 
 
-## جمع البيانات دون الاتصال بالانترنت {#offline-data-collection}
+## جمع البيانات دون الاتصال بالانترنت {/* #offline-data-collection */}
 
 بمجرد تثبيت Tella و تهيئته على الهاتف، لا يحتاج إلى اتصال بالانترنت لجمع البيانات. 📲 لا يلزم الاتصال بالانترنت إلا لمشاركة الملفات عبر التطبيقات الأخرى أو عبر الاتصالات. 🌐 إذا كان لدى المستخدمين خادم متصل، فبمجرد تنزيل الاستمارات أو القوالب على الهاتف، سيتم تخزين جميع البيانات التي تم جمعها في لسان البريد الصادر ويمكنهم تحميلها إلى الخادم بمجرد اتصالهم بالانترنت. 📩
 

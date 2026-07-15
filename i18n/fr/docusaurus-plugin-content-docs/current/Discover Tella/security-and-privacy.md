@@ -11,7 +11,7 @@ sidebar_position: 2
 Tella a été conçue pour protéger les personnes victimes de répression physique et numérique. Toutes les fonctionnalités et les décisions relatives aux produits de Tella ont donc été élaborées en tenant compte de la protection de la vie privée et de la sécurité. Tella est régulièrement auditée par des sociétés de sécurité indépendantes, et les fonctionnalités et la documentation sont conçues avec le soutien et les conseils de professionnels de la sécurité. 
 
 
-## Confidentialité {#privacy}
+## Confidentialité {/* #privacy */}
 
 Nous collectons uniquement la quantité minimale de données nécessaire pour atteindre l'objectif de Tella. **Nous ne collectons jamais d'informations personnelles identifiables. Nous ne divulguons, partageons ou vendons jamais aucune de vos données à des tiers**.
 
@@ -20,22 +20,22 @@ En utilisant notre application, les utilisateurs et utilisatrices peuvent envoye
 Vous pouvez consulter la [Politique de confidentialité](/privacy) complète de Tella.
 
 
-### Tella Android {#tella-android}
+### Tella Android {/* #tella-android */}
 
 Tella Android, disponible sur le Google Play Store, comprend deux trackers, [Google CrashLytics](https://firebase.google.com/docs/crashlytics) et [Google Firebase Analytics](https://firebase.google.com/docs/analytics), qui nous aident à détecter les bugs et les crashs. Ceci est essentiel pour que l'application reste sécurisée et performante pour les utilisateurs à risque.
 
-### Tella-FOSS {#tella-foss}
+### Tella-FOSS {/* #tella-foss */}
 
 [Tella-FOSS](/faq#is-tella-available-on-f-droid), sur la [boutique F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/), ne contient aucun tracker.
 
 
-### Tella iOS {#tella-ios}
+### Tella iOS {/* #tella-ios */}
 
 [Tella for iOS](https://apps.apple.com/us/app/tella-document-protect/id1598152580) n'inclut aucun traceur.
 
 En raison des politiques strictes d’Apple concernant les applications iOS, Tella pour iOS n’est actuellement pas disponible sur les magasins d’applications alternatifs ni pour une installation manuelle.
 
-## Analyses {#analytics}
+## Analyses {/* #analytics */}
 
 Dans Tella Android, Tella FOSS et [Tella Web](/tella-web), les utilisateurs peuvent choisir de partager des analyses pour améliorer Tella. Ces données nous aident à comprendre comment les gens utilisent Tella et quelles fonctionnalités sont importantes pour eux. ***Les données d'analyse ne sont collectées que si les utilisateurs choisissent de les accepter dans les paramètres de l'application***
 
@@ -67,7 +67,7 @@ Voici quelques informations sur notre approche analytique respectueuse de la vie
 Pour plus d'informations sur les métriques que nous ajoutons à nos applications, consultez nos [notes de publication](/releases).
 
 
-## Fonctionnalités de sécurité {#security-features}
+## Fonctionnalités de sécurité {/* #security-features */}
 
 Tella dispose de plusieurs mesures de sécurité afin d'atteindre un niveau de sécurité acceptable :
 
@@ -89,7 +89,7 @@ Apprenez-en davantage sur les fonctionnalités de sécurité grâce à notre [tu
 :::
 
 
-## Limitations en matière de sécurité {#security-limitations}
+## Limitations en matière de sécurité {/* #security-limitations */}
 
 Il n’existe pas d’application 100 % « sécurisée ». La sécurité dépend des menaces et des risques auxquels chaque utilisateur ou utilisatrice est confronté, ainsi que des capacités des adversaires. Avec Tella, nous avons fait de notre mieux pour ajouter autant de couches de sécurité que possible afin de réduire la probabilité que quelqu'un puisse détecter l'application ou accéder à ses données. Nous répertorions ici tous les risques de sécurité et limitations importants dont les utilisateurs ou utilisatrices doivent être conscients lorsqu'ils utilisent Tella :
 
@@ -104,7 +104,7 @@ Il n’existe pas d’application 100 % « sécurisée ». La sécurité dépend
     * L'importation d'un fichier crée une copie de ce fichier, puis l'importe et le chiffre dans Tella. Sur les versions 1.1 (iOS) et 2.1 (Android), nous avons développé une fonctionnalité permettant aux utilisateurs et utilisatrices de choisir s'ils souhaitent conserver ou supprimer le fichier d'origine lors de l'importation vers Tella. Cependant, nous vous recommandons de vérifier que le fichier original n'est pas présent dans la corbeille (Mes fichiers > Corbeille) et de supprimer le fichier de tout service de sauvegarde automatique que vous avez activé sur votre téléphone (Google Photos, Dropbox, etc.).
 
 
-## Audits de sécurité {#security-audits}
+## Audits de sécurité {/* #security-audits */}
 
 Nous demandons régulièrement à des sociétés de sécurité indépendantes d’auditer notre code pour garantir qu’il est robuste et sécurisé.
 

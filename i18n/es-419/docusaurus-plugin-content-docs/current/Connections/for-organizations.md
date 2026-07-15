@@ -35,7 +35,7 @@ We strongly recommend reviewing and understanding the permission model of each c
 
 
 
-## Seleccionando el tipo de servidor adecuado {#selecting-the-right-type-of-server}
+## Seleccionando el tipo de servidor adecuado {/* #selecting-the-right-type-of-server */}
 
 El siguiente es un gráfico básico, no exhaustivo para ayudar a determinar cuales tipos de servidores se adaptan mejor a diferentes necesidades. Este es un buen punto de inicio, pero también puedes ver [este video](/video-tutorials#connections-full-video) donde presentamos cada tipo de servidor. Si necesitas ayuda para decidir o te gustaría solicitar una nueva Conexión (una integración a un nuevo tipo de servidor), [contáctanos](/contact-us).
 
@@ -62,7 +62,7 @@ En esta tabla explicamos qué tipos de servidores están disponibles en las apps
 For offline file sharing or during internet shutdowns, [Nearby Sharing](/nearby-sharing) could be helpful.  If you need to share files with other apps the [Share button](/features#share-button) could be useful.
 :::
 
-### Tella Web {#tella-web}
+### Tella Web {/* #tella-web */}
 
 Tella Web es una herramienta de código abierto que permite a individuos y organizaciones a centralizar y gestionar informes enviados por la(o)s usuaria(o)s de Tella, incluyendo fotos, videos, documentos pdf y archivos de audio.
 
@@ -75,7 +75,7 @@ La conexión a servidor Tella Web también permite a los usuarios descargar de m
 <Button label="Continue reading about the Tella Web connection " link="/tella-web"/>
 
 
-### Uwazi {#uwazi}
+### Uwazi {/* #uwazi */}
 
 [Uwazi](/uwazi) es una herramienta de documentación de código abierto desarrollada por HURIDOCS. Es una aplicación de base de datos, flexible, basada en la web diseñada para que la(o)s defensora(e)s de derechos humanos administren sus recopilaciones de información, incluyendo documentos, evidencias, casos y reclamaciones.
 
@@ -86,7 +86,7 @@ Organizaciones que usan Uwazi como una base de datos pueden conectar Tella a una
 
 
 
-### Open Data Kit (ODK - Kit de Datos Abiertos) {#open-data-kit-odk}
+### Open Data Kit (ODK - Kit de Datos Abiertos) {/* #open-data-kit-odk */}
 
 El [Open Data Kit (ODK - Kit de Datos Abiertos)](https://getodk.org/) es un estándar abierto utilizado para crear formularios personalizados y recopilar datos. Para conectar un servidor Open Data Kit, primero debes crear formularios con diferentes tipos de preguntas (texto, fecha, geolocalización, medios, etc.) usando cualquiera de las herramientas que cumplan con el ODK.
 
@@ -100,7 +100,7 @@ La conexión ODK [solo está disponible en Android](/features).
 <Button label="Continue reading about the Open Data Kit connection " link="/odk"/>
 
 
-### Google Drive {#g-drive}
+### Google Drive {/* #g-drive */}
 
 La(o)s usuaria(o)s pueden iniciar sesión directamente a su cuenta de Google desde dentro de Tella y subir archivos a carpetas en su cuenta de Drive. Si el usuario es parte de una organización que utiliza Google Workspace, también pueden subir los archivos directamente a un Disco Compartido al que tengan acceso. Cada "informe" subido creará una nueva carpeta en Drive.
 
@@ -114,7 +114,7 @@ The Google Drive connection is not available in Tella Android FOSS, because it u
 
 
 
-### Nextcloud {#Nextcloud}
+### Nextcloud {/* #Nextcloud */}
 La(o)s usuaria(o)s pueden iniciar sesión directamente a su cuenta de NextCloud desde dentro de Tella y subir archivos a carpetas en su cuenta de NextCloud. Cada "informe" subido creará una nueva carpeta en NextCloud.
 
 Al igual que todas las Conexiones en Tella, los usuarios pueden usar la mayor parte de la conexión de NextCloud sin conexión a través de las pestañas Borrador, Bandeja de Salida y Enviar Luego. 
@@ -122,7 +122,7 @@ Al igual que todas las Conexiones en Tella, los usuarios pueden usar la mayor pa
 <Button label="Continue reading about the Nextcloud connection " link="/nextcloud"/>
 
 
-### Dropbox {#dropbox}
+### Dropbox {/* #dropbox */}
 Users can sign-in directly to their Dropbox account from within Tella and upload files to a folder in their account. In the "Applications" folder in the user's Dropbox account, a new folder "Tella" will automatically be created. Each Report uploaded from Tella will create a new subfolder inside the "Tella" folder.
 
 As for all Connections in Tella, users can use most of the Dropbox connection offline through the Draft, Outbox and Submit Later tabs. 

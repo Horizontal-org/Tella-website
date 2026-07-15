@@ -33,7 +33,7 @@ We strongly recommend reviewing and understanding the permission model of each c
 :::
 
 
-## Lựa chọn loại máy chủ phù hợp {#selecting-the-right-type-of-server}
+## Lựa chọn loại máy chủ phù hợp {/* #selecting-the-right-type-of-server */}
 
 Sau đây là biểu đồ cơ bản, không đầy đủ để xác định xem loại nào trong ba loại máy chủ phù hợp nhất với các nhu cầu khác nhau. Đây là điểm bắt đầu tốt, nhưng bạn cũng có thể xem [video này](/video-tutorials#connections-full-video) để tìm hiểu chi tiết về từng loại máy chủ. Nếu bạn cần trợ giúp trong việc lựa chọn hoặc muốn yêu cầu một Kết Nối mới (tích hợp với loại máy chủ mới), [hãy liên hệ với chúng tôi!](/contact-us)
 
@@ -59,7 +59,7 @@ On this table we explain what server types are available on the Tella apps:
 For offline file sharing or during internet shutdowns, [Nearby Sharing](/nearby-sharing) could be helpful.  If you need to share files with other apps the [Share button](/features#share-button) could be useful.
 :::
 
-### Tella Web {#tella-web}
+### Tella Web {/* #tella-web */}
 
 Tella Web là một công cụ mã nguồn mở cho phép các cá nhân và tổ chức tổng hợp và quản lý các báo cáo do người dùng Tella gửi, bao gồm ảnh, video, tài liệu pdf và tệp âm thanh.
 
@@ -76,7 +76,7 @@ Tìm hiểu thêm Tella Web [tại đây](/tella-web)
 <Button label="Continue reading about the Tella Web connection " link="/tella-web"/>
 
 
-### Uwazi {#uwazi}
+### Uwazi {/* #uwazi */}
 
 [Uwazi](/uwazi) là một công cụ tài liệu mã nguồn mở được phát triển bởi HURIDOCS. Đây là một ứng dụng cơ sở dữ liệu trên web được thiết kế linh hoạt dành cho nhà bảo vệ nhân quyền trong việc quản lý bộ sưu tập thông tin của mình, bao gồm tài liệu, bằng chứng, các vụ việc và những khiếu nại. 
 
@@ -91,7 +91,7 @@ Nguồn thông tin để tìm hiểu thêm về Uwazi:
 <Button label="Continue reading about the Uwazi connection " link="/uwazi"/>
 
 
-### Bộ Công Cụ Dữ Liệu Mở (ODK) {#open-data-kit-odk}
+### Bộ Công Cụ Dữ Liệu Mở (ODK) {/* #open-data-kit-odk */}
 
 [Bộ Công cụ Dữ liệu Mở (ODK)](https://getodk.org/) là một tiêu chuẩn mở được sử dụng để thu thập dữ liệu và tạo biểu mẫu tùy chỉnh. Để kết nối với máy chủ ODK, trước tiên bạn cần tạo các biểu mẫu với những loại câu hỏi khác nhau (văn bản, ngày tháng, vị trí địa lý, phương tiện, v.v.) bằng cách sử dụng bất kỳ công cụ nào tương thích với ODK.
 
@@ -104,7 +104,7 @@ Kết nối ODK [chỉ có sẵn trên Android](/features).
 <Button label="Continue reading about the Open Data Kit connection " link="/odk"/>
 
 
-### Google Drive {#g-drive}
+### Google Drive {/* #g-drive */}
 
 Users can sign-in directly to their Google account from within Tella and upload files to a folder in their Drive account. Each "report" uploaded will create a new folder in the user's Google Drive.
 
@@ -117,7 +117,7 @@ The Google Drive connection is not available in Tella Android FOSS, because it u
 <Button label="Continue reading about the Google Drive connection " link="/g-drive"/>
 
 
-### Nextcloud {#Nextcloud}
+### Nextcloud {/* #Nextcloud */}
 
 Users can sign-in directly to their Nextcloud account from within Tella and upload files to a folder in their Nextcloud account. Each "report" uploaded will create a new folder in the user's Nextcloud.
 
@@ -126,7 +126,7 @@ As for all Connections in Tella, users can use most of the Nextcloud connection 
 <Button label="Continue reading about the Nextcloud connection " link="/nextcloud"/>
 
 
-### Dropbox {#dropbox}
+### Dropbox {/* #dropbox */}
 
 Users can sign-in directly to their Dropbox account from within Tella and upload files to a folder in their account. In the "Applications" folder in the user's Dropbox account, a new folder "Tella" will automatically be created. Each Report uploaded from Tella will create a new subfolder inside the "Tella" folder.
 

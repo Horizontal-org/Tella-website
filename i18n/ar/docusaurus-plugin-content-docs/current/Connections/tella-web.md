@@ -31,7 +31,7 @@ Tella Web هي أداة مفتوحة المصدر تُمكِّن الأفراد 
 Even though data is transferred to the server securely (SSL), anyone with access to the Tella Web account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
 :::
 
-## When to Use Tella Web {#when-to-use-tella-web}
+## When to Use Tella Web {/* #when-to-use-tella-web */}
 
 The Tella Web could be a good alternative if:
 - You have the capacity to self-host Tella Web.
@@ -44,7 +44,7 @@ If you need help figuring out if Tella Web is best for your use-case, [read our 
 :::
 
 
-## تثبيت الخادم {#install-the-server}
+## تثبيت الخادم {/* #install-the-server */}
 
 تتضمن هذه الخطوة تثبيت وتهيئة Tella Web على الخادم الذي ستستخدمه منظمتك. يجب إكمال هذه الخطوة من طرف الشخص الذي سيكون مسؤولا عن إدارة النظام (المُطوِّر أو المسؤول عن النظام). يمكن العثور على التعليمات التقنية على [Github الخاص بنا](https://github.com/Horizontal-org/tellaweb).
 
@@ -60,7 +60,7 @@ If you need help figuring out if Tella Web is best for your use-case, [read our 
 :::
 
 
-## إعداد مشروعك على خادمك {#set-up-your-project-on-your-server}
+## إعداد مشروعك على خادمك {/* #set-up-your-project-on-your-server */}
 
 بمجرد تثبيت Tella Web وإنشاء أول مستخدم "مسؤول"، يجب إعداد مشروع واحد أو عدد من مشاريع التي ستتم مشاركة المعلومات معها من طرف الفريق الموجود في الميدان.
 
@@ -70,12 +70,12 @@ If you need help figuring out if Tella Web is best for your use-case, [read our 
 ألقِ نظرة على [هذا الفيديو التعليمي](/video-tutorials#connections-full-video) للحصول على توضيحات حول كيفية إعداد Tella Web.
 :::
 
-### مركز المسؤول {#admin-center}
+### مركز المسؤول {/* #admin-center */}
 
 يمكن للمسؤولين في مساحة Tella Web تغيير الإعدادات على مستوى النظام:
 - [اختيار مشاركة التحليلات مع فريق Tella](/security-and-privacy#analytics).
 
-#### Configure spaces' settings {#configure-spaces-settings}
+#### Configure spaces' settings {/* #configure-spaces-settings */}
 Admins of the Tella Web space can enable or disable system-wide settings depending on their own risk assessment and privacy consideration:
 - [Opt-in to share analytics with Tella team](/security-and-privacy#analytics).
 - Suspicious login detection: 
@@ -88,7 +88,7 @@ Admins of the Tella Web space can enable or disable system-wide settings dependi
     - To ensure user privacy and anonymity, only essential data is transmitted to our Feedback server through HTTPS POST requests. Logs containing user information (IP address, date and time, and user-agent) are automatically deleted weekly.
     - On the Feedback server database, we only store a copy of the text sent by users in the feedback form and which platform it came from (in this case from "Tella Web" without specifying which server installation). 
 
-#### Backup your space {#backup-your-space}
+#### Backup your space {/* #backup-your-space */}
 
 Admins of the Tella Web instance can export all data out of Tella Web by generating a backup. Backups can be used to port the data to another location, including a computer, a USB flash drive, an external disk or a remote server.  The action to generate the backup runs in the background and, if triggered, an email notification will be sent to the person who generated the backup when it is ready to download. However, all backups are accessible in the Admin Center to all users with admin access.
 
@@ -99,7 +99,7 @@ The information included in the backup is highly sensitive, it not only contains
 :::
 
 
-### إدارة المشاريع {#managing-projects}
+### إدارة المشاريع {/* #managing-projects */}
 
 يتيح لك Tella Web إنشاء المشاريع وإدارتها، مما يضمن لك تنظيم التقارير وجعلها سهلة الوصول.
 
@@ -108,19 +108,19 @@ The information included in the backup is highly sensitive, it not only contains
 لكل مشروع عنوان إلكتروني خاص، لذا يمكن لمستخدم Tella الاتصال بمشاريع Tella Web متعددة.
 
 
-#### عرض جميع المشاريع المتاحة {#view-all-available-projects}
+#### عرض جميع المشاريع المتاحة {/* #view-all-available-projects */}
 
 اضغط على زر "المشاريع" في قائمة التصفح اليسرى للوصول إلى شاشة "المشاريع".
 
 تعرض شاشة "المشاريع" كل مشروع موجود كبطاقة.
 
 
-#### إنشاء مشروع جديد {#create-a-new-project}
+#### إنشاء مشروع جديد {/* #create-a-new-project */}
 
 في شاشة "المشاريع"، اضغط على زر "إنشاء مشروع". ستظهر نافذة منبثقة تطلب منك تسمية المشروع الجديد. أدخل الاسم الذي تريده للمشروع واضغط على "إنشاء". ستتم إعادة توجيهك إلى شاشة "إعدادات المشروع" للمشروع الجديد.
 
 
-#### فتح مشروع {#open-a-project}
+#### فتح مشروع {/* #open-a-project */}
 
 افتح شاشة "المشاريع" واضغط على بطاقة المشروع الذي تريد.
 
@@ -129,7 +129,7 @@ The information included in the backup is highly sensitive, it not only contains
 يمكنك فتح التقارير أو حذفها أو تنزيلها (حسب على تراخيصك لهذا المشروع المحدد).
 
 
-#### تهيئة إعدادات المشاريع {#configure-projects-settings}
+#### تهيئة إعدادات المشاريع {/* #configure-projects-settings */}
 
 في شاشة "إعدادات المشروع"، يمكنك تهيئة المشروع كما يلي:
 * يسمح لك قسم "عام" بإعادة تسمية المشروع، وعرض تفاصيل المشروع، وتعديل عنوان موقع المشروع.
@@ -137,7 +137,7 @@ The information included in the backup is highly sensitive, it not only contains
 * يوفر قسم "منطقة الخطر" خيارات لحذف المشروع، بما في ذلك جميع التقارير داخله.
 
 
-#### حذف مشروع {#delete-a-project}
+#### حذف مشروع {/* #delete-a-project */}
 
 في شاشة "إعدادات المشروع"، قم بالتمرير للأسفل إلى قسم "منطقة الخطر".
 
@@ -148,7 +148,7 @@ The information included in the backup is highly sensitive, it not only contains
 بمجرد التأكيد، سيتم حذف المشروع مع جميع تقاريره المرتبطة به بشكل نهائي.
 
 
-#### تهيئة عنوان موقع المشروع {#configure-the-project-url}
+#### تهيئة عنوان موقع المشروع {/* #configure-the-project-url */}
 
 يتم توليد عنوان موقع المشروع تلقائيا عند إنشاء المشروع. لتحرير عنوان موقع المشروع، انتقل إلى قسم "عام" في شاشة "إعدادات المشروع" وقم بتعديله هناك. هذا العنوان هو الذي سيستخدمه المراسلون للاتصال بالمشروع من خلال تطبيقاتهم.
 
@@ -157,9 +157,9 @@ The information included in the backup is highly sensitive, it not only contains
 :::
 
 
-### إدارة المستخدمين {#managing-users}
+### إدارة المستخدمين {/* #managing-users */}
 
-### فهم أدوار المستخدمين {#understanding-user-roles}
+### فهم أدوار المستخدمين {/* #understanding-user-roles */}
 المستخدمون جزء مهم من استعمال Tella Web. هناك أربعة أدوار مختلفة متاحة للمستخدمين:
 - المراسل: هو مستخدم يمكنه الاتصال بمشروع Tella Web من تطبيق Tella المحمول وتحميل التقارير. يجب تعيين المراسل لمشروع معين ليتمكن من تحميل التقارير.
 - المعاين: هو مستخدم يمكنه تسجيل الدخول إلى Tella Web لعرض التقارير (ولكن ليس لتحريرها ولا لحذفها)، بالإضافة إلى تحميل التقارير من Tella. يجب تعيين المعاين لمشروع محدد للوصول إليه.
@@ -188,7 +188,7 @@ The information included in the backup is highly sensitive, it not only contains
 
 
 
-#### إنشاء المستخدمين {#creating-users}
+#### إنشاء المستخدمين {/* #creating-users */}
 
 في الشريط العلوي، فوق قائمة المستخدمين، يمكن للمسؤول عن الخادم الضغط على زر "إنشاء مستخدم" لإنشاء مستخدم جديد على الخادم. يلزم إدخال البريد الإلكتروني وكلمة السر وتأكيد كلمة السر والدور من أجل إنشاء المستخدمين.
 
@@ -199,7 +199,7 @@ The information included in the backup is highly sensitive, it not only contains
 - عدم وجود كلمات سر شائعة مثل الأسماء والمدن وغيرها.
 
 
-#### إدارة الوصول إلى المشاريع {#managing-access-to-projects}
+#### إدارة الوصول إلى المشاريع {/* #managing-access-to-projects */}
 
 
 في قسم "إدارة الوصول" في شاشة "إعدادات المشروع"، يمكن للمسؤولين تعيين المستخدمين الموجودين إلى المشروع. اضغط على حقل "إضافة مستخدمين". ستعرض القائمة المنسدلة جميع المستخدمين على الخادم. قم بالتمرير عبر القائمة أو اكتب اسم مستخدم للبحث عن مستخدم ما.
@@ -209,12 +209,12 @@ The information included in the backup is highly sensitive, it not only contains
 تشمل القائمة الكاملة للمستخدمين الذين يمكنهم إرسال التقارير إلى المشروع المستخدمين المدرجين في هذا القسم بالإضافة إلى جميع المسؤولين عن الخوادم.
 :::
 
-### إدارة الموارد {#managing-resources}
+### إدارة الموارد {/* #managing-resources */}
 
 يسمح Tella Web للمنظمات بنشر الموارد والمواد بشكل آمن لـ
 مستخدميهم مباشرة داخل حاوية Tella المعماة. يمكن استخدام الموارد لتقديم إرشادات لجمع البيانات أو رسائل أو دلائل حول كيفية جمع البيانات.
 
-#### إضافة موارد إلى المساحة {#creating-resources-to-the-space}
+#### إضافة موارد إلى المساحة {/* #creating-resources-to-the-space */}
 
 يمكن للمسؤولين إضافة موارد إلى المساحة عن طريق التنقل إلى **الموارد** في شريط التنقل الجانبي الأيسر. حاليا، يمكن إنشاء الموارد عن طريق تحميل ملفات PDF. نوصي بالحفاظ على حجم هذه الملفات أقل من 20 ميغابايت لضمان أن المستخدمين يمكنهم تحميلها حتى إذا كان الإنترنت بطيئا.
 
@@ -230,7 +230,7 @@ The information included in the backup is highly sensitive, it not only contains
 إذا كانت منظمتك تحتاج إلى أنواع أخرى من الموارد أو إذا كنت تواجه مشاكل مع حدود الحجم أو التنسيق، يرجى [الاتصال بنا](/contact-us).
 :::
 
-#### إضافة موارد إلى المشاريع  {#adding-resources-to-projects}
+#### إضافة موارد إلى المشاريع {/* #adding-resources-to-projects */}
 
 يمكن للمسؤولين والمحررين إضافة الموارد المتاحة في المساحة إلى المشاريع التي يمكنهم الوصول إليها. هناك طريقتان مختصرتان للقيام بذلك:
 1. عن طريق التنقل إلى **إدارة الوصول** في قسم **الإعدادات** لكل مشروع.
@@ -245,7 +245,7 @@ Tella Web لا يحتفظ بأي معلومات حول تنزيلات الموا
 
 
 
-## تحضير الأشخاص الميدانيين لبدء إرسال التقارير {#get-people-on-the-ground-ready-to-start-submitting-reports}
+## تحضير الأشخاص الميدانيين لبدء إرسال التقارير {/* #get-people-on-the-ground-ready-to-start-submitting-reports */}
 
 
 تنطبق الخطوات الموضحة أدناه على إصدارَي أندرويد وiOS لتطبيق Tella. ميزة التقارير متاحة في:
@@ -258,7 +258,7 @@ Tella Web لا يحتفظ بأي معلومات حول تنزيلات الموا
 :::
 
 
-#### الاتصال بمشاريع Tella Web {#connect-to-tella-web-projects}
+#### الاتصال بمشاريع Tella Web {/* #connect-to-tella-web-projects */}
 
 للتمكن من الاتصال بخادم Tella Web:
 
@@ -270,13 +270,13 @@ Tella Web لا يحتفظ بأي معلومات حول تنزيلات الموا
 * تفعيل أو تعطيل الميزات المتقدمة بناء على احتياجاتك: [التقرير التلقائي](#auto-report)، [الحذف التلقائي](#auto-delete) و[الإرسال في الخلفية](#background-submission).
 
 
-####  إدارة مشاريع Tella Web {#manage-tella-web-projects}
+####  إدارة مشاريع Tella Web {/* #manage-tella-web-projects */}
 
 * ‫في **الإعدادات ⚙️** > **الخوادم** > **[اسم المشروع]** > ثلاث نقط، يمكنك:
     * التحرير: تُفتَح شاشة "تحرير الخادم" حيث يمكنك عرض اسم المشروع وعنوان الموقع واسم المستخدم الخاص بك وتحرير الميزات المتقدمة.
     * الحذف: يُحذَف الاتصال، بما في ذلك جميع معلومات الخادم وجميع التقارير المُسوَّدة والتقارير المُرسَلة المُخزَّنة في Tella. لن يؤثر ذلك على أي تقرير تم إرساله بالفعل إلى الخادم.
 
-#### سحب الموارد من مساحتك {#pull-resources-from-your-space}
+#### سحب الموارد من مساحتك {/* #pull-resources-from-your-space */}
 
 بمجرد الاتصال بمشروع واحد على الأقل في Tella Web، ستظهر بطاقة **الموارد** في قسم "الاتصالات" على الشاشة الرئيسية. اضغط على هذه البطاقة لعرض وتحميل أي دلائل أو تعليمات أو رسائل قام مسؤولو منظمتك بتوفيرها لك في أي من المشاريع المتصلة.
 
@@ -286,7 +286,7 @@ Tella Web لا يحتفظ بأي معلومات حول تنزيلات الموا
 
 بمجرد قطع الاتصال بمشروع Tella Web، سيتم إزالة جميع الموارد المرتبطة من شاشة الموارد الخاصة بك.
 
-#### إنشاء تقرير يدوي {#create-a-manual-report}
+#### إنشاء تقرير يدوي {/* #create-a-manual-report */}
 
 * بمجرد الاتصال بمشروع Tella Web واحد على الأقل، ستظهر بطاقة "التقارير" في قسم "الاتصالات" في الشاشة الرئيسية. المس هذه البطاقة لبدء إنشاء التقارير.
 * تسمح الشاشة الرئيسية للتقارير بالتنقل بين ألسنة المُسوَّدات والبريد الصادر ولسان المُرسَل.
@@ -303,7 +303,7 @@ Tella Web لا يحتفظ بأي معلومات حول تنزيلات الموا
     * إذا تم إرسال التقرير بنجاح، يذهب إلى لسان "المُرسَلة".
 
 
-#### مُسوَّدات التقارير {#draft-reports}
+#### مُسوَّدات التقارير {/* #draft-reports */}
 
 
 * في شاشة "تقرير جديد"، المس زر "حفظ المُسوَّدة" لحفظ التقرير كمُسوَّدة.
@@ -313,7 +313,7 @@ Tella Web لا يحتفظ بأي معلومات حول تنزيلات الموا
 * ‫يمكنك حذف مُسوَّدة التقرير بلمس الثلاث نقط > **حذف** أو بالدخول إلى التقرير ثم لمس زر الحذف.
 
 
-#### إرسال تقرير {#submit-a-report}
+#### إرسال تقرير {/* #submit-a-report */}
 
 * في التقرير، المس "إرسال" لبدء عملية إرسال التقرير.
 * سيتم توجيهك إلى شاشة ملخصة تعرض تقدُّم تحميل كل ملف مرفق.
@@ -330,7 +330,7 @@ Tella Web لا يحتفظ بأي معلومات حول تنزيلات الموا
 :::
 
 
-#### البريد الصادر {#outbox}
+#### البريد الصادر {/* #outbox */}
 
 يحتوي البريد الصادر على التقارير التي تم حفظها للإرسال. قد يكون ذلك بسبب:
 
@@ -339,7 +339,7 @@ Tella Web لا يحتفظ بأي معلومات حول تنزيلات الموا
 * التقارير التي تم وسمها بـ "إرسال لاحقا"
 
 
-#### التقارير المُرسَلة {#submitted-reports}
+#### التقارير المُرسَلة {/* #submitted-reports */}
 
 - يعرض لسان المُرسَل التقارير التي تم إرسالها بنجاح إلى خادم Tella Web.
 - في علامة لسان المُرسَل، يمكنك عرض ومراجعة التقارير المُرسَلة.
@@ -349,9 +349,9 @@ Tella Web لا يحتفظ بأي معلومات حول تنزيلات الموا
 :::
 
 
-### الميزات المتقدمة {#advanced-features}
+### الميزات المتقدمة {/* #advanced-features */}
 
-#### التقرير التلقائي {#auto-report}
+#### التقرير التلقائي {/* #auto-report */}
 
 إذا تم تفعيل التقرير التلقائي، فسيقوم Tella بإنشاء وتحميل التقارير تلقائيا كلما قمت بالتقاط صورة أو تسجيل فيديو أو تسجيل صوتي في Tella. يضمن لك ذلك تحميل تقاريرك بسلاسة دون الحاجة إلى عمل يدوي. يتم تحميل الملفات إلى نفس التقرير التلقائي إذا تم جمعها في غضون 30 دقيقة.
 
@@ -361,13 +361,13 @@ Tella Web لا يحتفظ بأي معلومات حول تنزيلات الموا
 يمكن تفعيل التقرير التلقائي لمشروع واحد فقط في كل مرة
 :::
 
-#### الحذف التلقائي {#auto-delete}
+#### الحذف التلقائي {/* #auto-delete */}
 
 عند تفعيل التقرير التلقائي، يمكنك تفعيل الحذف التلقائي، والذي يحذف تلقائيا التقارير والملفات المرتبطة بها من جهازك بعد تحميلها بنجاح إلى Tella Web. يساعدك هذا في إدارة مساحة التخزين على جهازك ويضمن عدم الاحتفاظ بالبيانات الحساسة عن غير قصد.
 
 سيظهر زر التبديل للحذف التلقائي أسفل زر التبديل للتقرير التلقائي في شاشة تحرير الاتصال للمشروع المطلوب.
 
-#### الإرسال في الخلفية {#background-submission}
+#### الإرسال في الخلفية {/* #background-submission */}
 
 تتيح ميزة الإرسال في الخلفية استمرار عملية إرسال التقرير حتى إذا قمت بالانتقال إلى مهام أخرى داخل Tella أو إذا خرجت من Tella بالكامل. يمكن أن يعمل الإرسال في الخلفية بالتوازي مع كل من التقارير اليدوية والتلقائية، ويمكن تفعيلها من شاشة تحرير الاتصال للمشروع المطلوب.
 

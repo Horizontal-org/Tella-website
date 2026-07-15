@@ -7,7 +7,7 @@ slug: /get-started-ios
 
 # Começando no Tella para iOS
 
-## Baixe e instale o Tella {#download-and-install-tella}
+## Baixe e instale o Tella {/* #download-and-install-tella */}
 Siga [este link](https://apps.apple.com/br/app/tella-document-protect/id1598152580) para encontrar o Tella na App Store ou procure por “Tella” na App Store.
 
 
@@ -17,7 +17,7 @@ Siga [este link](https://apps.apple.com/br/app/tella-document-protect/id15981525
 
 
 
-## Crie seu bloqueio {#create-your-lock}
+## Crie seu bloqueio {/* #create-your-lock */}
 Ao abrir o Tella pela primeira vez, você verá uma visita guiada pelas funcionalidades do aplicativo: Câmera, Gravador e Arquivos & pastas criptografados. Também será solicitado que você escolha como irá bloquear o Tella. Sem esse bloqueio, não é possível abrir o Tella e acessar nenhum dos arquivos armazenados nele.
 * Senha: uma senha alfanumérica é a forma mais segura de bloquear seu aplicativo.
 * PIN: uma sequência numérica de mais de seis (6) dígitos.
@@ -28,7 +28,7 @@ Lembre-se de que, caso esqueça esse bloqueio, não há como acessar o aplicativ
 
 
 
-## Conceda permissões ao Tella {#grant-permissions-to-tella}
+## Conceda permissões ao Tella {/* #grant-permissions-to-tella */}
 Ao usar cada funcionalidade pela primeira vez, será solicitado que você conceda algumas permissões ao Tella:
 
 
@@ -51,7 +51,7 @@ Se você não conceder essas permissões ao Tella, poderá fazê-lo mais tarde a
 
 
 
-## Proteja seus arquivos {#protect-your-files}
+## Proteja seus arquivos {/* #protect-your-files */}
 Depois de conceder permissões, você está pronto para iniciar a coleta de documentação. Recomendamos que explore as seguintes funcionalidades:
 
 **Use a Câmera para tirar fotos ou capturar vídeos e o Gravador de Áudio para gravar áudio.** Todas as mídias capturadas pelo Tella serão criptografadas instantaneamente, o que significa que o arquivo não será acessível fora do Tella. Toda a mídia coletada dentro do Tella não será exibida na galeria ou nos arquivos do seu telefone. Não há um limite específico de armazenamento para o Tella, o espaço disponível dependerá do espaço disponível no seu dispositivo.
@@ -89,7 +89,7 @@ Depois de conceder permissões, você está pronto para iniciar a coleta de docu
 </div> 
 
 
-## Compartilhe informações {#share-your-information}
+## Compartilhe informações {/* #share-your-information */}
 Para compartilhar informações usando o Tella, você pode usar o botão **Compartilhar**. Simplesmente selecione o arquivo ou os arquivos que deseja compartilhar, pressione **Compartilhar** e escolha o aplicativo com o qual deseja compartilhar arquivos.
 
 Leve em consideração que o Tella compartilhará os arquivos de forma não criptografada. Então, certifique-se de usar mensagens temporárias (por exemplo, no Whatsapp ou no Signal) ou apagar as mensagens após a outra pessoa recebê-las.
@@ -100,29 +100,29 @@ Leve em consideração que o Tella compartilhará os arquivos de forma não crip
 
 
 
-## Nearby sharing {#nearby-sharing}
+## Nearby sharing {/* #nearby-sharing */}
 You share files directly from Tella’s encrypted vault to another Tella encrypted vault in the same physical location using [Nearby Sharing](/nearby-sharing). After a quick connection tutorial, the two devices establish a secure link, and files are transferred encrypted from one device to the other. Nearby Sharing allows phone-to-phone (Android or iOS) and phone-to-computer file transfers. 
 
 
 
-## Vá Além {#go-further}
+## Vá Além {/* #go-further */}
 
 
 
-### Conecte-se a um servidor {#connect-to-a-server}
+### Conecte-se a um servidor {/* #connect-to-a-server */}
 O Tella pode ser conectado a uma variedade de serviços back-end. Isso é usado por organizações para permitir que seus membros ou parceiros submetam dados e arquivos a uma localização remota segura. Se você está considerando se conectar a um servidor e tem dúvidas sobre qual servidor escolher ou como conectar-se, por favor veja [a nossa documentação para organizações](/for-organizations) ou [entre em contato conosco](/contact-us), estamos aqui para ajudar!
 
-#### Tella Web {#tella-web}
+#### Tella Web {/* #tella-web */}
 O Tella Web é uma ferramenta de código aberto que permite a indivíduos e organizações centralizar e gerenciar relatórios enviados por usuários do Tella, incluídos fotos, vídeos e arquivos de áudio.
 
 Leia mais sobre o Tella Web [aqui](/tella-web) ou veja um [tutorial em vídeo](/video-tutorials#tella-web).
 
-#### Uwazi {#uwazi}
+#### Uwazi {/* #uwazi */}
 [Uwazi](https://uwazi.io/) é um aplicativo de código aberto feito pela HURIDOCS com funcionalidades poderosas de coleta, organização e visualização de dados de direitos humanos.
 
 Nós escrevemos uma documentação sobre como se conectar a um servidor Uwazi e recomendamos que você leia [esta página](/uwazi) para começar.
 
-#### Nextcloud, Dropbox and Google Drive {#Nextcloud-dropbox-and-google-drive}
+#### Nextcloud, Dropbox and Google Drive {/* #Nextcloud-dropbox-and-google-drive */}
 Los usuarios también pueden conectarse a su cuenta de Google, Dropbox o Nextcloud de organización o de las cuentas personales para la presentación de informes (audio, fotos, vídeos y texto) directamente desde Tella. No necesitan el Dropbox, Google Drive o Nextcloud aplicaciones en sus teléfonos y no necesita usar apps de terceros.
 
 Lea Más
@@ -132,14 +132,14 @@ Lea Más
 
 
 
-### Leia mais sobre o Tella {#read-more-about-tella}
+### Leia mais sobre o Tella {/* #read-more-about-tella */}
 - [Funcionalidades](/features): Aprenda mais sobre como o Tella pode manter você seguro e sobre as ameaças das quais o Tella _não_ protege você.
 - [Conexões](/for-organizations): Aprenda sobre como você pode conectar-se a um servidor para coletar dados ou fazer o backup de arquivos.
 - [Segurança e privacidade](/security-and-privacy): Somente coletamos a quantidade mínima de dados necessária e nunca coletamos quaisquer informações pessoais identificáveis. Leia a política de privacidade completa [aqui](/privacy).
 
 
 
-### Contate-nos se precisar de ajuda {#contact-us-if-you-need-help}
+### Contate-nos se precisar de ajuda {/* #contact-us-if-you-need-help */}
 Caso precise de ajuda para entender os detalhes técnicos e as considerações sobre a segurança do Tella para decidir se ele é adequado para você e sua equipe, estamos aqui para ajudar. Basta [entrar em contato conosco](/contact-us) para podermos responder suas questões ou planejar a realização de um treinamento ou uma sessão de perguntas & respostas para a sua equipe.
 
 

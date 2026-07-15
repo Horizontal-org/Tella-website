@@ -16,23 +16,23 @@ import GoFurtherCards from '@site/src/components/GoFurtherCards'
 ستجد أدناه كل ما تحتاجه لفهم كيفية عمل Tella والميزات الأمنية والقيود الخاصة به وكيفية بدء الاستخدام. للبقاء على اطلاع بأحدث الأخبار، اشترك في [نشرتنا الإخبارية](https://blog.wearehorizontal.org/#/portal)، أو [اتصل بنا](/contact-us)!
 
 
-## اكتشف Tella {#discover-tella}
+## اكتشف Tella {/* #discover-tella */}
 
 <CategoryCardList href="/discover"/>
 
-## بدء الاستخدام {#getting-started}
+## بدء الاستخدام {/* #getting-started */}
 
 <CategoryCardList href="/get-started"/>
 
-## للمنظمات {#for-organizations}
+## للمنظمات {/* #for-organizations */}
 
 <CategoryCardList href="/connections"/>
 
 
-## المجتمع {#community}
+## المجتمع {/* #community */}
 
 <CategoryCardList href="/community"/>
 
-## المضي قدما {#go-further}
+## المضي قدما {/* #go-further */}
 
 <GoFurtherCards/>
