@@ -8,7 +8,7 @@ sidebar_position: 2
 
 # Sécurité et confidentialité
 
-Tella a été conçue pour protéger les personnes victimes de répression physique et numérique. Toutes les fonctionnalités et les décisions relatives aux produits de Tella ont donc été élaborées en tenant compte de la protection de la vie privée et de la sécurité. Tella est régulièrement auditée par des sociétés de sécurité indépendantes, et les fonctionnalités et la documentation sont conçues avec le soutien et les conseils de professionnels de la sécurité. 
+Tella a été conçue pour protéger les personnes victimes de répression physique et numérique. Toutes les fonctionnalités et les décisions relatives aux produits de Tella ont donc été élaborées en tenant compte de la protection de la vie privée et de la sécurité. Tella est régulièrement auditée par des sociétés de sécurité indépendantes, et les fonctionnalités et la documentation sont conçues avec le soutien et les conseils de professionnels de la sécurité.
 
 
 ## Confidentialité {/* #privacy */}
@@ -47,25 +47,21 @@ Voici quelques informations sur notre approche analytique respectueuse de la vie
 2. **Même si nous le voulions, nous ne pourrions pas obtenir toutes les données**: Il n'est pas possible de construire toutes les données avec une seule part. Chaque processeur agrège ses parts de données en une somme partielle. Les sommes partielles peuvent ensuite être combinées en une agrégation finale, permettant d'obtenir des statistiques utiles sur l'ensemble des données tout en révélant un minimum d'informations sur les participants individuels. Une documentation technique complète sur le fonctionnement de Divvi Up est disponible [ici](https://docs.divviup.org/).
 3. **Nous collectons le moins de données possible**: Même si toutes les données sont anonymisées, nous minimisons toujours la quantité de données que nous collectons. À partir des dernières versions de Tella, nous collectons uniquement des données sur les événements suivants (et rien de plus):
 
-    **Tella Android and Tella FOSS**
+   **Tella Android and Tella FOSS**
     - Nombre d'événements de déverrouillage réussis.
     - Number of media files recorded (videos/photos taken and audio recordings captured).
     - Number of files imported from the device's gallery or file system into Tella.
     - Number of security features activated (number of times that camouflage is enabled, number of times that the quick delete action is triggered).
     - Number of new installations.
     - Number of reports uploaded to any connection (Tella Web, Uwazi, ODK, Nexcloud, Google Drive, Dropbox)
-    - Time spend in Tella. 
+    - Time spend in Tella.
 
-
-    **Tella Web**
-   The data below is only collected from Tella Web instances that have opted-in to share privacy-preserving analytics with the Tella team.
+   **Tella Web** The data below is only collected from Tella Web instances that have opted-in to share privacy-preserving analytics with the Tella team.
     - Nombre de visites (déclenché chaque fois que quelqu'un entre dans une instance Tella Web).
     - Nombre de téléchargements de fichiers (déclenché chaque fois que quelqu'un télécharge un fichier sur une instance tellaweb).
     - Nombre de rapports (déclenché chaque fois que quelqu'un télécharge un rapport sur une instance tellaweb).
 
-
-Pour plus d'informations sur les métriques que nous ajoutons à nos applications, consultez nos [notes de publication](/releases).
-
+   For more information about the metrics we add to our apps, check out our [release notes](/releases).
 
 ## Fonctionnalités de sécurité {/* #security-features */}
 
@@ -74,7 +70,7 @@ Tella dispose de plusieurs mesures de sécurité afin d'atteindre un niveau de s
 
 
 1. **Chiffrement au repos**: Toutes les données sont chiffrées au repos, sur l'appareil de l'utilisateur. Cela signifie qu'à moins que l'application ne soit déverrouillée (en saisissant le mode de déverroullage de l'utilisateur ou utilisatrice), les données qu'elle contient ne sont pas du tout accessibles. les données resteront illisibles, même si quelqu'un s'empare du téléphone et en extrait toutes les données à l'aide d'un ordinateur.
-2. **Cryptage en transit:** Toutes les données transférées entre Tella et les serveurs (voir [Section Connexions](/features#connecting-to-servers)) sont cryptées via[Transport Layer Security (TLS)](https://fr.wikipedia.org/wiki/Transport_Layer_Security). Tella rend impossible l'envoi de données à un serveur sans cryptage TLS.
+2. **Cryptage en transit:** Toutes les données transférées entre Tella et les serveurs (voir [Section Connexions](/connections)) sont cryptées via[Transport Layer Security (TLS)](https://en.wikipedia.org/wiki/Transport_Layer_Security). Tella rend impossible l'envoi de données à un serveur sans cryptage TLS.
 3. **Verrouillage**: les utilisateurs et utilisatrices de Tella [choisissent une méthode de verroullage](/features#app-lock) pour l'application dès qu'ils l'installent. Ils ou elles peuvent utiliser un mot de passe, modèle et code PIN sont disponibles et chaque niveau de sécurité leur est communiqué.
 4. **Délai du verrouillage :** Les utilisateurs ou utilisatrices peuvent également configurer un [délai d'expiration du verrouillage](/features#lock-timeout-configuration), pour choisir la rapidité avec laquelle Tella se verrouillera lorsqu'il n'est pas utilisé. Par défaut, le délai d'expiration du verrouillage est défini sur « immédiatement ». Ainsi, dès que l'utilisateur ou utilisatrice quitte Tella, l'application se verrouille et toutes les données sont cryptées.
 5. **Camouflage**: sur Tella Android, il existe actuellement [deux modes de camouflage](features#camouflage) pour Tella : une calculatrice entièrement fonctionnelle et la possibilité de modifier le nom et l'icône de l'application pour la rendre plus difficile à trouver sur le téléphone. En raison des restrictions sur iOS, il n'est pas possible de camoufler Tella pour iOS.
@@ -82,11 +78,9 @@ Tella dispose de plusieurs mesures de sécurité afin d'atteindre un niveau de s
 7. **Mode silencieux de l'appareil photo** : les utilisateurs ou utilisatrices peuvent choisir de [désactiver le son de l'obturateur de l'appareil photo](/features#camera-silent-mode) pour attirer moins d'attention lorsqu'ils ou elles prennent des photos.
 8. **Sécurité de l'écran**: par défaut, Tella bloque les captures d'écran et les enregistrements d'écran dans Tella et masque l'aperçu de l'écran dans la liste des applications récentes. [Ce paramètre](/features#screen-security) peut être désactivé, par exemple pour enregistrer des tutoriels vidéo dans Tella ou mettre en miroir l'application sur un ordinateur pour une présentation.
 9. **Restreindre les tentatives de déverrouillage** : Les utilisateurs et utilisatrices peuvent décider du nombre de [tentatives de déverrouillage] (features#restrict-unlocking-attempts) autorisées avant que tout ce qui se trouve dans Tella ne soit supprimé et si un indicateur visuel des tentatives de déverrouillage restantes sera visible sur l'écran de déverrouillage ou non.
-10. **Offline file sharing**: Tella allows establishing a secure connection with devices that are in the same physical location and transferring files encrypted, from one Tella vault to another. [Nearby Sharing](/nearby-sharing) works fully offline, even on insecure networks or networks being surveilled.  Nearby Sharing is available cross-platform (between Android, iOS and Desktop).
+10. **Offline file sharing**: Tella allows establishing a secure connection with devices that are in the same physical location and transferring files encrypted, from one Tella vault to another. [Nearby Sharing](/nearby-sharing) works fully offline, even on insecure networks or networks being surveilled. Nearby Sharing is available cross-platform (between Android, iOS and Desktop).
 
-:::tip Tutoriel vidéo 🎥
-Apprenez-en davantage sur les fonctionnalités de sécurité grâce à notre [tutoriel vidéo](/video-tutorials#additional-security-features)
-:::
+:::tip Tutoriel vidéo 🎥 Apprenez-en davantage sur les fonctionnalités de sécurité grâce à notre [tutoriel vidéo](/video-tutorials#additional-security-features) :::
 
 
 ## Limitations en matière de sécurité {/* #security-limitations */}
@@ -103,16 +97,15 @@ Il n’existe pas d’application 100 % « sécurisée ». La sécurité dépend
     * Files sent to a [server connection](/for-organizations) will be stored un-encrypted on the server, unless the server has implemented disk encryption. People who have access to the server might be able to see the files. Tella makes sure that the data travels encrypted to the server but cannot guarantee the security practices of the server. If you choose to connect to a Google Drive or Dropbox instance, or work with a third party organization for hosting your data, we recommend looking into whether the organization itself can access your data.
     * L'importation d'un fichier crée une copie de ce fichier, puis l'importe et le chiffre dans Tella. Sur les versions 1.1 (iOS) et 2.1 (Android), nous avons développé une fonctionnalité permettant aux utilisateurs et utilisatrices de choisir s'ils souhaitent conserver ou supprimer le fichier d'origine lors de l'importation vers Tella. Cependant, nous vous recommandons de vérifier que le fichier original n'est pas présent dans la corbeille (Mes fichiers > Corbeille) et de supprimer le fichier de tout service de sauvegarde automatique que vous avez activé sur votre téléphone (Google Photos, Dropbox, etc.).
 
-
 ## Audits de sécurité {/* #security-audits */}
 
 Nous demandons régulièrement à des sociétés de sécurité indépendantes d’auditer notre code pour garantir qu’il est robuste et sécurisé.
 
-| Date | Audité par | Les plateformes auditées  | Lien      |
-| -----|----------|----|-----------|
-| August 2024 | Radically Open Security |  Android, iOS, Android FOSS|[View pen-testing results](</assets/2024.08.30-Penetration-Test-Report-Horizontal.pdf>)|
-| Mai 2024 | Subgraph Technologies, Inc. |  Android, iOS, Tella Web|[View updated report confirming fixes has been implemented](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
-| Mai 2023 | Subgraph Technologies, Inc. | Android, iOS, Tella Web |[View security audit](</assets/2023.05 - Tella security audit - Final report.pdf>)|
+| Date        | Audité par                  | Les plateformes auditées   | Lien                                                                                                              |
+| ----------- | --------------------------- | -------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| August 2024 | Radically Open Security     | Android, iOS, Android FOSS | [View pen-testing results](</assets/2024.08.30-Penetration-Test-Report-Horizontal.pdf>)                           |
+| Mai 2024    | Subgraph Technologies, Inc. | Android, iOS, Tella Web    | [View updated report confirming fixes has been implemented](</assets/2024.05.18 - Subgraph - Updated Report.pdf>) |
+| Mai 2023    | Subgraph Technologies, Inc. | Android, iOS, Tella Web    | [View security audit](</assets/2023.05 - Tella security audit - Final report.pdf>)                                |
 
 
 
