@@ -1,39 +1,35 @@
 ---
 id: odk
 title: Open Data Kit (ODK)
-description: اتصال خادم Open Data Kit متاح للمنظمات التي تريد جمع البيانات المنظمة باستخدام الاستمارات.
+description: The Open Data Kit server connection is available for organizations looking to collect structured data using forms.
 slug: /odk
 ---
 
 # Open Data Kit (ODK)
 
-[Open Data Kit (ODK)](https://getodk.org/) هو معيار مفتوح يُستخدم لإنشاء استمارات مخصصة ولجمع البيانات.
+The [Open Data Kit (ODK)](https://getodk.org/) is an open standard used to create custom forms and collect data.
 
 يسمح خادم Open Data Kit للمنظمات بتجميع البيانات التي يجمعها أعضاؤها أو شركاؤها في مستودع مركزي. يتصل مستخدمو Tella بمثيل ODK الخاص بمنظمتهم، ويملؤون الاستمارات حسب الحاجة (حتى عند عدم توفر اتصال بالانترنت)، ويقومون بتحميل البيانات. يمكن للمنظمات تنزيل البيانات من الخادم أو تحليلها على الخادم، حسب بدائل الخادم المختارة.
 
-كما هو الشأن مع أي اتصال آخر بخادم (مثل [Tella Web](/tella-web) أو [Google Drive](/g-drive) أو [Dropbox](/dropbox) أو [Nextcloud](/nextcloud) أو [Uwazi](/uwazi))، يعزّز الاتصال بخادم ODK أمن البيانات المُجمَّعة على Tella من خلال:
+Similarly to any other server connection (like [Tella Web](/tella-web), [Google Drive](/g-drive), [Dropbox](/dropbox), [Nextcloud](/nextcloud) or [Uwazi](/uwazi)), connecting to the ODK server enhances the security of data collected on Tella by:
 
 1. السماح للمستخدمين بجمع البيانات مباشرة داخل الحاوية المُعمّاة لـ Tella.
 2. التأكد من إرسال البيانات مباشرة من Tella إلى خادم ODK، دون الاعتماد على أداة أو تطبيق من جهة خارجية.
 3. السماح للمستخدمين بنسخ بياناتهم احتياطيا على خادم بعيد، لتقليل خطر اكتشاف البيانات على جهازهم المحمول.
 4. التأكد من أن المنظمات يمكنها الحفاظ على المعلومات المهمة حتى في حالة مصادرة الجهاز أو عند تدميره، والتأكد من أنه يمكن تنظيم تلك المعلومات للبحث أو للمناصرة أو لإجراءات المساءلة.
 
-:::danger
-Even though data is transferred to the server securely (SSL), anyone with access to the ODK account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
-:::
+:::danger Even though data is transferred to the server securely (SSL), anyone with access to the ODK account can view the files. If you need encrypted file transfers, explore [Nearby Sharing]{1}. :::
 
 
 ### اختيار وتثبيت خادم ODK الخاص بك {/* #choosing-and-installing-your-odk-server */}
 
 نظرا لأن ODK هو معيار مفتوح، يمكن استخدام Tella مع أي من الأدوات التي تتوافق مع ODK.
 
-بالنسبة لمنظمات المجتمع المدني والمدافعين عن حقوق الإنسان، نوصي باستخدام [KoboToolbox](https://www.kobotoolbox.org/) لإنشاء استمارات بأسئلة مخصصة وإدارة المستخدمين وتجميع البيانات المرسلة من طرف المستخدمين. استنادا إلى خبرتنا، KoboToolbox سهل الاستخدام ومرن، كما أنه أيضا مفتوح المصدر. يقدم KoboToolbox [خطة مجتمعية](https://www.kobotoolbox.org/pricing/) مجانية للمنظمات غير الربحية ويقدم موارد تدريبية وإرشادات مجانية حول كيفية تنظيم البيانات على الخادم (قاعدة تعلم قائمة على الخدمة الذاتية والمنتديات المجتمعية). من الممكن أيضا [استخدام مثيل خاص لـ KoboToolbox](https://www.kobotoolbox.org/services/private-servers/) أو [استضافته بنفسك](https://support.kobotoolbox.org/kobo_your_servers.html).
+For civil society organizations and human rights defenders, we recommend using [KoboToolbox](https://www.kobotoolbox.org/) to create forms with custom questions, manage users, and aggregate the data submitted by users. Based on our experience, KoboToolbox is user-friendly and flexible, and it is also open source. KoboToolbox offers a [community plan for non-profits](https://www.kobotoolbox.org/pricing/) and offer free training resources and guidance on how to structure the data on the server (Self-serve learning base and Community Forum). It is also possible [to use a private instance of KoboToolbox](https://www.kobotoolbox.org/services/private-servers/) or [self-host it](https://support.kobotoolbox.org/kobo_your_servers.html).
 
-:::tip
-We are work closely with the Kobotoolbox team. If you are interested in using the Tella-KoboToolbox connection and would like some support or to discuss the best hosting plan for your use case, please [contact us](/contact-us). 
-:::
+:::tip We are work closely with the Kobotoolbox team. If you are interested in using the Tella-KoboToolbox connection and would like some support or to discuss the best hosting plan for your use case, please [contact us](/contact-us). :::
 
-هناك تطبيقات أخرى متاحة ومتوافقة مع ODK، مثل [Ona](https://ona.io/home/) أو [ODK Cloud](https://https://getodk.org/index.html). يعمل Tella مع أي منها.
+There are other ODK-compliant apps available, like [Ona](https://ona.io/home/) or [ODK Cloud](https://https://getodk.org/index.html). Tella works with any of these.
 
 
 ### متى يُستخدم ODK {/* #when-to-use-odk */}
@@ -42,28 +38,22 @@ We are work closely with the Kobotoolbox team. If you are interested in using th
 
 يُستخدم ODK وKoboToolbox على نطاق واسع، كما أنهما مُوثَّقان جيدا وسهلا الاستخدام. هناك دلائل متاحة، وتقدم الأداتان الدعم للمنظمات غير الربحية حول كيفية تنظيم وصيانة بياناتهم.
 
-:::tip
-If you need help figuring out if ODK is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
-:::
+:::tip If you need help figuring out if ODK is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)! :::
 
 ## نمذجة بياناتك {/* #model-your-data */}
 
-يقدم KoboToolbox دليلا مفصلا حول كيفية إنشاء مشروعك وإضافة الأسئلة إلى استماراتك، وكيفية نشرها لجعلها متاحة للمستخدمين الميدانيين [هنا](https://support.kobotoolbox.org/overview_of_creating_a_project.html).
+KoboToolbox offers a detailed guide on how to create your project and add questions to your forms, and how to deploy them to make them available to on-the-ground users [here](https://support.kobotoolbox.org/overview_of_creating_a_project.html).
 
 ## توصيل Tella بمثيل ODK لجمع البيانات {/* #connect-tella-to-an-odk-instance-to-collect-data */}
 
-في هذا التوثيق، نركز على كيفية جمع البيانات باستخدام Tella. هناك تطبيقات للمحمول بديلة يمكن استخدامها لجمع البيانات على ODK، بما في ذلك تطبيق ODK Collect Android. يمكنك الاطلاع على المقارنة بين هذه البدائل [هنا](/faq#how-is-tella-different-from-other-documentation-apps).
+In this documentation, we focus on how to collect data using Tella. There are alternative mobile apps that can be used to collect data on ODK, including the ODK Collect Android app. You can see a comparison of these alternatives [here](/faq#how-is-tella-different-from-other-documentation-apps).
 
-:::info
-‫الاتصال بـ ODK غير متاح لـ Tella على iOS.
-:::
+:::info ‫الاتصال بـ ODK غير متاح لـ Tella على iOS. :::
 
 ### الاتصال بخادم ODK {/* #connect-to-an-odk-server */}
 ‫بعد إنشاء ونشر الاستمارة باستخدام أي خادم متوافق مع ODK، انتقل في Tella إلى **الإعدادات** > **الخوادم** > **+** > **Open Data Kit (ODK)**. املأ الحقول التالية:
 - **اسم الخادم**: اسم يصف خادمك في Tella. الاسم الذي تختاره مرئي فقط في التطبيق ولا يؤثر على الاتصال بـ ODK.
-- **عنوان الخادم**: عنوان الموقع الخاص بخادمك. مثلا، `kc.kobotoolbox.org` إذا كنت تستخدم الخادم العمومي لـ KoboToolbox.
-إذا كان الخادم يتطلب استيثاق المستخدم، المس زر **متقدم** وأدخِل **اسم المستخدم** و**كلمة السر**. يجب أن يوفر لك المسؤول عن الخادم كل هذه المعلومات.
-
+- **عنوان الخادم**: عنوان الموقع الخاص بخادمك. مثلا، `kc.kobotoolbox.org` إذا كنت تستخدم الخادم العمومي لـ KoboToolbox. إذا كان الخادم يتطلب استيثاق المستخدم، المس زر **متقدم** وأدخِل **اسم المستخدم** و**كلمة السر**. يجب أن يوفر لك المسؤول عن الخادم كل هذه المعلومات.
 
 ### ملء الاستمارات {/* #fill-forms */}
 
@@ -87,58 +77,57 @@ If you need help figuring out if ODK is best for your use-case, [read our guide]
 - إيقاف الإرسال تلقائيا عند عدم الاتصال: سيتم إرسال الاستمارات إلى لسان البريد الصادر إذا فشل الإرسال بسبب مشاكل في الاتصال.
 
 ### أنواع الأسئلة المدعومة {/* #supported-question-types */}
-فيما يلي نظرة عامة على أنواع الأسئلة في ODK المدعومة في ‫‫Tella Android. إذا كان هناك نوع من الأسئلة التي ليست مدعومة في Tella وذات ضرورة بالغة لسير عملك، من فضلك [اتصل بنا](/contact-us).
+Below is an overview of the ODK question types that are supported in Tella Android. If there is a question type that isn't supported in Tella and that is critical to your workflow, please [contact us](/contact-us).
 
-| **نوع السؤال** | **‫Tella Android** | 
-|------|------|
-| اختر واحدا | ✔️ |
-| اختر العديد | ✔️ |
-| نص | ✔️ |
-| عدد / عشري | ✔️ |
-| تاريخ | ✔️ |
-| وقت | ✔️ |
-| تاريخ ووقت | لا  |
-| نقطة (حساب موقعي الحالي) | ✔️ |
-| نقطة (إظهار موقعي على الخريطة) | ✔️ |
-| نقطة (دعني أختار موقعي على الخريطة) | ✔️ |
-| خط | لا |
-| مساحة | لا |
-| صورة | ✔️ |
-| صورة توقيع (كتابة توقيعي بخط اليد) | ✔️ |
-| صوت | ✔️ |
-| فيديو | ✔️ |
-| ملف | ✔️ |
-| ملاحظة | ✔️ |
-| رمز شريطي / رمز الاستجابة السريعة | لا |
-| تسليم بصحة شيء | ✔️ |
-| تقييم | ✔️ |
-| مصفوفة أسئلة | لا |
-| ترتيب | ✔️ |
-| حساب | لا |
-| مخفي | لا |
-| نطاق | لا |
-| XML خارجي | لا |
+| **نوع السؤال**                      | **‫Tella Android** |
+| ----------------------------------- | ------------------ |
+| اختر واحدا                          | ✔️                 |
+| اختر العديد                         | ✔️                 |
+| نص                                  | ✔️                 |
+| عدد / عشري                          | ✔️                 |
+| تاريخ                               | ✔️                 |
+| وقت                                 | ✔️                 |
+| تاريخ ووقت                          | No                 |
+| نقطة (حساب موقعي الحالي)            | ✔️                 |
+| نقطة (إظهار موقعي على الخريطة)      | ✔️                 |
+| نقطة (دعني أختار موقعي على الخريطة) | ✔️                 |
+| خط                                  | No                 |
+| مساحة                               | No                 |
+| صورة                                | ✔️                 |
+| صورة توقيع (كتابة توقيعي بخط اليد)  | ✔️                 |
+| صوت                                 | ✔️                 |
+| فيديو                               | ✔️                 |
+| ملف                                 | ✔️                 |
+| ملاحظة                              | ✔️                 |
+| رمز شريطي / رمز الاستجابة السريعة   | No                 |
+| تسليم بصحة شيء                      | ✔️                 |
+| تقييم                               | ✔️                 |
+| مصفوفة أسئلة                        | No                 |
+| ترتيب                               | ✔️                 |
+| حساب                                | No                 |
+| مخفي                                | No                 |
+| نطاق                                | No                 |
+| XML خارجي                           | No                 |
 
 ### الميزات المدعومة {/* #supported-features */}
 
-فيما يلي نظرة عامة على ميزات ODK المدعومة في ‫‫Tella Android. إذا كان هناك ميزة غير مدعومة في Tella وهي ضرورية لسير عملك، من فضلك [اتصل بنا](/contact-us).
+Below is an overview of the ODK features that are supported in Tella Android. If there is a feature that isn't supported in Tella and that is critical to your workflow, please [contact us](/contact-us).
 
-| **الميزة** | **Tella Android** | 
-|------|------|
-| [جمع البيانات دون الاتصال بالانترنت](/odk#submit-forms) | ✔️ |
-| [منطق الاستمارات](https://docs.getodk.org/form-logic/) | ❌ |
-| [يستلزم إجابات](https://docs.getodk.org/form-logic/#requiring-responses) | ✔️ |
-| [إعداد الإجابات الافتراضية](https://docs.getodk.org/form-logic/#setting-default-responses) | ❌ |
-| [تمكين الحسابات عند تغيير قيمة](https://docs.getodk.org/form-logic/#triggering-calculations-on-value-change) | ❌ |
-| [التحقق من صحة الإجابات وتقييدها](https://docs.getodk.org/form-logic/#validating-and-restricting-responses) | ❌ |
-| [إظهار الأسئلة بشكل مشروط](https://docs.getodk.org/form-logic/#conditionally-showing-questions) | ✔️ |
-| [مجموعات الأسئلة](https://docs.getodk.org/form-logic/#groups-of-questions) | ✔️ |
-| [تكرلر الأسئلة](https://docs.getodk.org/form-logic/#repeating-questions) | ✔️ |
-| [خيارات التصفية في أسئلة التحديد](https://docs.getodk.org/form-logic/#filtering-options-in-select-questions) | ✔️ |
-| [إنشاء عناصر محددة من التكرارات](https://docs.getodk.org/form-logic/#geneating-select-ones-from-repeat) | ❌ |
-| [Form metadata (background data collection)](https://docs.getodk.org/form-audit-log/) | ❌ |
+| **الميزة**                                                                                                             | **Tella Android** |
+| ---------------------------------------------------------------------------------------------------------------------- | ----------------- |
+| [Offline data collection](/odk#submit-forms)                                                                           | ✔️                |
+| [Form logic](https://docs.getodk.org/form-logic/)                                                                      | ❌                 |
+| [Requiring responses](https://docs.getodk.org/form-logic/#requiring-responses)                                         | ✔️                |
+| [Setting default responses](https://docs.getodk.org/form-logic/#setting-default-responses)                             | ❌                 |
+| [Triggering calculations on value change](https://docs.getodk.org/form-logic/#triggering-calculations-on-value-change) | ❌                 |
+| [Validating and restricting responses](https://docs.getodk.org/form-logic/#validating-and-restricting-responses)       | ❌                 |
+| [Conditionally showing questions](https://docs.getodk.org/form-logic/#conditionally-showing-questions)                 | ✔️                |
+| [Groups of questions](https://docs.getodk.org/form-logic/#groups-of-questions)                                         | ✔️                |
+| [Repeating questions](https://docs.getodk.org/form-logic/#repeating-questions)                                         | ✔️                |
+| [Filtering options in select questions](https://docs.getodk.org/form-logic/#filtering-options-in-select-questions)     | ✔️                |
+| [Generating select ones from repeats](https://docs.getodk.org/form-logic/#generating-select-ones-from-repeats)         | ❌                 |
+| [Form metadata (background data collection)](https://docs.getodk.org/form-audit-log/)                                  | ❌                 |
 
 
-:::tip
-If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
-:::
+:::tip If you need to share files with others without an internet connection, check out [Nearby Sharing](/nearby-sharing). :::
+
