@@ -78,8 +78,6 @@
       /*margin: auto;*/
 }
 
-/* SITE-WIDE STYLES*/
-
 @font-face {
     font-family: 'open-sans'; 
     src: url("../../static/fonts/OpenSans-Regular.ttf") format("truetype");
@@ -133,8 +131,6 @@ html {
     margin: 20px;
 }
 
-/* TEXT STYLES */
-
  h1 {
     font-size: 50px;
     font-weight: 600; 
@@ -168,7 +164,6 @@ ul, ol {
     font-weight: 400;
 }
 
-/* HOMEPAGE */
 
 /* Docusaurus centers this same row via a CSS-modules class private to
    @theme/MDXPage (mdxPageWrapper { justify-content: center }), which custom
@@ -262,15 +257,12 @@ ul, ol {
 
 
 
-/* FEATURES PAGE */
-
 #section-column2 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* GET IN TOUCH PAGE */
 
 @media only screen and (max-width: 550px) {
     #get-in-touch p {
@@ -279,11 +271,20 @@ ul, ol {
     
 }
 
-/* PRIVACY POLICY */
 
 
 
-/* FOOTER */
+/* DOC CARDS (index pages using <DocCardList/>) */
+
+.card p.text--truncate {
+  text-align: center;
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 .footer  ul {
     margin-left: 0px;
@@ -299,7 +300,6 @@ ul, ol {
     font-weight: 400;
     font-style: normal;
 }
-
 
 .newsletter {
     min-height: 58px;
