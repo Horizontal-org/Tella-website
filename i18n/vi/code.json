@@ -85,7 +85,7 @@
   },
   "theme.colorToggle.ariaLabel": {
     "message": "Chuyển đổi giữa chế độ tối và sáng (hiện tại là {mode})",
-    "description": "The ARIA label for the navbar color mode toggle"
+    "description": "The ARIA label for the color mode toggle"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
     "message": "chế độ tối",
@@ -98,10 +98,6 @@
   "theme.docs.breadcrumbs.navAriaLabel": {
     "message": "Breadcrumbs",
     "description": "The ARIA label for the breadcrumbs"
-  },
-  "theme.docs.DocCard.categoryDescription": {
-    "message": "{count} bài viết",
-    "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
     "message": "Trang tài liệu",
@@ -181,5 +177,456 @@
   "theme.CodeBlock.wordWrapToggle": {
     "message": "Chuyển đổi chế độ tự động xuống dòng",
     "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "system mode",
+    "description": "The name for the system color mode"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count} mục",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.admonition.warning": {
+    "message": "cảnh báo",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Xem thêm danh mục '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Thu gọn danh mục '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Thanh điều hướng",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Ngôn ngữ",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "Trên trang này",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "{readingTime} phút để đọc",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Đọc tiếp",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Đọc thêm về {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Sao chép",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Đã sao chép",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Sao chép mã vào bộ nhớ tạm",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Trang chủ",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Thu gọn thanh bên",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Thu gọn thanh bên",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Thanh điều hướng tài liệu",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Đóng thanh điều hướng",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Trở lại menu chính",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Đóng - mở thanh điều hướng",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Expand the dropdown",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Collapse the dropdown",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Mở rộng thanh bên",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Mở rộng thanh bên",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "Không tìm thấy kết quả nào"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "See results outside {context}"
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "See all results in {context}"
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "Xem tất cả kết quả được tìm thấy"
+  },
+  "theme.SearchBar.label": {
+    "message": "Tìm kiếm...",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Tìm kiếm theo tiêu đề: “{query}”",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Tìm kiếm theo tiêu đề",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "everywhere"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "Có {count} kết quả được tìm thấy",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "Không tìm thấy kết quả nào",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Tác giả",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "Xem tất cả tác giả",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "Tác giả này chưa viết bài nào.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Trang không công khai",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "Trang này không công khai. Công cụ tìm kiếm sẽ không đánh chỉ mục trang này và chỉ những ai có liên kết mới có thể truy cập trang.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Trang nháp",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "Trang này là bản nháp. Nó chỉ hiển thị trong môi trường phát triển và bị loại khỏi bản sản xuất.",
+    "description": "The draft content banner message"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Thử lại",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Chuyển tới nội dung chính",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Thẻ",
+    "description": "The title of the tag list page"
+  },
+  "contactUs.title": {
+    "message": "Hãy trò chuyện"
+  },
+  "contactUs.imageAlt": {
+    "message": "Image with a hand clicking on some"
+  },
+  "contactUs.intro.line1": {
+    "message": "Bạn có câu hỏi nào về Tella không?"
+  },
+  "contactUs.intro.line2": {
+    "message": "Bạn cần hỗ trợ hay đào tạo để triển khai ứng dụng này trong cộng đồng của mình không?"
+  },
+  "contactUs.intro.line3": {
+    "message": "Bạn có ý tưởng nào để cải tiến ứng dụng không?"
+  },
+  "contactUs.getInTouch.title": {
+    "message": "Liên hệ"
+  },
+  "contactUs.getInTouch.email": {
+    "message": "Hãy viết thư cho chúng tôi qua địa chỉ"
+  },
+  "contactUs.getInTouch.call": {
+    "message": "Đặt lịch cuộc gọi trực tiếp"
+  },
+  "contactUs.getInTouch.call.linkText": {
+    "message": "tại đây"
+  },
+  "contactUs.getInTouch.feedback": {
+    "message": "Sử dụng mẫu phản hồi ấn danh trong phần Cài Đặt của Tella."
+  },
+  "contactUs.newsletter": {
+    "message": "Hoặc đăng ký nhận bản tin của chúng tôi:"
+  },
+  "contactUs.newsletter.linkText": {
+    "message": "tại đây"
+  },
+  "contactUs.closing": {
+    "message": "Chúng tôi rất mong nhận được phản hồi từ bạn!"
+  },
+  "downloadButtons.windows": {
+    "message": "Windows"
+  },
+  "downloadButtons.macos": {
+    "message": "macOS"
+  },
+  "downloadButtons.linux": {
+    "message": "Linux"
+  },
+  "homepage.tagline": {
+    "message": "Document & protect"
+  },
+  "homepage.intro": {
+    "message": "In challenging environments, with limited or no internet connectivity or in the face of repression, Tella makes it easier and safer to collect, protect and hide sensitive data."
+  },
+  "homepage.googlePlayAlt": {
+    "message": "Get Tella on Google Play"
+  },
+  "homepage.appStoreAlt": {
+    "message": "Get Tella on App Store"
+  },
+  "homepage.fdroidAlt": {
+    "message": "Get Tella on F-Droid"
+  },
+  "homepage.screenshotAlt": {
+    "message": "Screenshot of the Tella app on Android. Showing Connections to Tella Web Uwazi and the folder structure showing that within Tella users can record and save Images, Videos and Audios securely and encripted."
+  },
+  "homepage.whyTella.title": {
+    "message": "Tại sao nên chọn Tella?"
+  },
+  "homepage.whyTella.imageAlt": {
+    "message": "Why Tella illustration"
+  },
+  "homepage.whyTella.intro": {
+    "message": "Nếu bạn là một nhà hoạt động, nhà báo, người bảo vệ nhân quyền hoặc bất kỳ ai ghi lại sự bất công, bạn có thể sử dụng Tella để:"
+  },
+  "homepage.protectData.title": {
+    "message": "1. Bảo vệ dữ liệu của bạn",
+    "description": "The leading '1.' is part of the translatable text."
+  },
+  "homepage.protectData.imageAlt": {
+    "message": "Vault illustration"
+  },
+  "homepage.protectData.cta": {
+    "message": "Tìm hiểu về các tính năng của Tella"
+  },
+  "homepage.collectEvidence.title": {
+    "message": "2. Thu thập bằng chứng về các vi phạm nhân quyền",
+    "description": "The leading '2.' is part of the translatable text."
+  },
+  "homepage.collectEvidence.imageAlt": {
+    "message": "Notepad illustration"
+  },
+  "homepage.collectEvidence.item2b.linkText": {
+    "message": "Chọn nền tảng"
+  },
+  "homepage.collectEvidence.item3b.linkText": {
+    "message": "fully offline feature to transfer files to nearby devices"
+  },
+  "homepage.collectEvidence.cta": {
+    "message": "Tìm hiểu cách các tổ chức đang sử dụng Tella"
+  },
+  "homepage.openSource.title": {
+    "message": "3. Tella miễn phí, đa ngôn ngữ và mã nguồn mở",
+    "description": "The leading '3.' is part of the translatable text."
+  },
+  "homepage.openSource.item2.linkText": {
+    "message": "có sẵn",
+    "description": "Refers to language availability, not stock/inventory availability."
+  },
+  "homepage.openSource.item3a.linkText": {
+    "message": "công khai"
+  },
+  "homepage.openSource.item3b.linkText": {
+    "message": "security audits"
+  },
+  "homepage.openSource.imageAlt": {
+    "message": "Open source illustration"
+  },
+  "homepage.whyTella.item1.emphasis": {
+    "message": "Bảo vệ bản thân"
+  },
+  "homepage.whyTella.item1.rest": {
+    "message": "khỏi sự đàn áp về thể chất và kỹ thuật số trong khi thu thập và lưu trữ thông tin nhạy cảm."
+  },
+  "homepage.whyTella.item2.emphasis": {
+    "message": "Bảo vệ dữ liệu bạn thu thập"
+  },
+  "homepage.whyTella.item2.rest": {
+    "message": "khỏi kiểm duyệt, can thiệp, ngăn chặn và phá hủy."
+  },
+  "homepage.whyTella.item3.emphasis": {
+    "message": "Dễ dàng tạo ra tài liệu chất lượng cao"
+  },
+  "homepage.whyTella.item3.rest": {
+    "message": "có thể sử dụng cho nghiên cứu, vận động hoặc thúc đẩy công lý chuyển tiếp."
+  },
+  "homepage.protectData.item1.emphasis": {
+    "message": "Mã hóa tệp tin của bạn:"
+  },
+  "homepage.protectData.item1.rest": {
+    "message": "Tella tự động mã hóa ảnh, video và ghi âm của bạn ngay khi chúng được chụp hoặc ghi lại."
+  },
+  "homepage.protectData.item2.emphasis": {
+    "message": "Ẩn tệp tin của bạn trong thiết bị:"
+  },
+  "homepage.protectData.item2.rest": {
+    "message": "tệp tin của bạn không thể truy cập từ thư viện ảnh hoặc trình duyệt thông thường của điện thoại. Bạn chỉ có thể truy cập chúng thông qua ứng dụng."
+  },
+  "homepage.protectData.item3.emphasis": {
+    "message": "Khóa tệp tin của bạn:"
+  },
+  "homepage.protectData.item3.rest": {
+    "message": "đặt mã PIN hoặc mật khẩu để bảo vệ tệp tin của bạn. Nhập đúng mã khóa là cách duy nhất để giải mã các tệp tin được lưu trữ trong Tella."
+  },
+  "homepage.protectData.item4.emphasis": {
+    "message": "Ngụy trang ứng dụng:"
+  },
+  "homepage.protectData.item4.rest": {
+    "message": "thay đổi giao diện của Tella để ẩn giấu nó khỏi những người kiểm tra điện thoại của bạn."
+  },
+  "homepage.protectData.item5.emphasis": {
+    "message": "Share your files:",
+    "description": "Newest bullet, not yet translated in most locales."
+  },
+  "homepage.protectData.item5.rest": {
+    "message": "choose one of the secure methods to share your files with other Tella vault or to a server."
+  },
+  "homepage.collectEvidence.item1.emphasis": {
+    "message": "Máy ảnh và ghi âm bên trong Tella:"
+  },
+  "homepage.collectEvidence.item1.rest": {
+    "message": "chụp ảnh, quay video và ghi âm trực tiếp trong Tella để tệp tin của bạn được mã hóa tức thì và ẩn bên trong ứng dụng."
+  },
+  "homepage.collectEvidence.item2a.emphasis": {
+    "message": "Tella tích hợp"
+  },
+  "homepage.collectEvidence.item2a.with": {
+    "message": "với",
+    "description": "Platform names below (Uwazi, Open Data Kit, Tella Web, Google Drive, Dropbox, Nextcloud) are proper nouns and are not translated."
+  },
+  "homepage.collectEvidence.item2a.and": {
+    "message": "và"
+  },
+  "homepage.collectEvidence.item2b.after": {
+    "message": "phù hợp nhất với nhu cầu của bạn và share data directly from Tella."
+  },
+  "homepage.collectEvidence.item3a.emphasis": {
+    "message": "Chế độ ngoại tuyến:"
+  },
+  "homepage.collectEvidence.item3a.rest": {
+    "message": "trong những khu vực có kết nối internet bị hạn chế hoặc không có, bạn có thể lưu lại dữ liệu của mình và gửi khi bạn có kết nối internet ổn định."
+  },
+  "homepage.collectEvidence.item3b.before": {
+    "message": "Tella also offers a"
+  },
+  "homepage.collectEvidence.item3b.after": {
+    "message": "using Tella."
+  },
+  "homepage.openSource.item1.emphasis": {
+    "message": "Miễn phí mãi mãi:"
+  },
+  "homepage.openSource.item1.rest": {
+    "message": "Tella được thiết kế cho những người gặp rủi ro về an ninh. Ứng dụng này được tải xuống và sử dụng miễn phí, và sẽ luôn luôn miễn phí."
+  },
+  "homepage.openSource.item2.emphasis": {
+    "message": "Chọn ngôn ngữ của bạn:"
+  },
+  "homepage.openSource.item2.before": {
+    "message": "Tella hiện"
+  },
+  "homepage.openSource.item2.after": {
+    "message": "in 25 languages."
+  },
+  "homepage.openSource.item3a.emphasis": {
+    "message": "Tin tưởng vào mã nguồn:"
+  },
+  "homepage.openSource.item3a.before": {
+    "message": "mã nguồn của Tella là mã nguồn mở và"
+  },
+  "homepage.openSource.item3a.after": {
+    "message": "để các nhà nghiên cứu, nhà phân tích bảo mật và nhà phát triển có thể tự do kiểm tra và tái sử dụng."
+  },
+  "homepage.openSource.item3b.before": {
+    "message": "We publish the",
+    "description": "Newest content, not yet translated in most locales."
+  },
+  "homepage.openSource.item3b.after": {
+    "message": "that independent firms have performed on Tella."
+  },
+  "contactUs.getInTouch.email.after": {
+    "message": ""
+  },
+  "goFurther.faq.label": {
+    "message": "Các câu hỏi thường gặp (FAQ)"
+  },
+  "goFurther.faq.description": {
+    "message": "Các câu hỏi thường gặp về Tella"
+  },
+  "goFurther.contactUs.label": {
+    "message": "Liên hệ với chúng tôi"
+  },
+  "goFurther.contactUs.description": {
+    "message": "Liên hệ để được hỗ trợ hoặc giải đáp."
+  },
+  "goFurther.releases.label": {
+    "message": "What's new (changelog)"
+  },
+  "goFurther.releases.description": {
+    "message": "Tella changelogs"
+  },
+  "goFurther.privacy.label": {
+    "message": "Chính sách về Quyền riêng tư"
+  },
+  "goFurther.privacy.description": {
+    "message": "Chính sách Bảo mật của Tella"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(opens in new tab)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.PwaReloadPopup.info": {
+    "message": "Có phiên bản mới",
+    "description": "The text for PWA reload popup"
+  },
+  "theme.PwaReloadPopup.refreshButtonText": {
+    "message": "Cập nhật",
+    "description": "The text for PWA reload button"
+  },
+  "theme.PwaReloadPopup.closeButtonAriaLabel": {
+    "message": "Đóng",
+    "description": "The ARIA label for close button of PWA reload popup"
   }
 }

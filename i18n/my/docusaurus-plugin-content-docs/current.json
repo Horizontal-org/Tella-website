@@ -3,20 +3,28 @@
     "message": "ရှေ့သို့",
     "description": "The label for version current"
   },
-  "sidebar.generalSidebar.category.Discover Tella": {
-    "message": "Tella ကို လေ့လာပါ",
-    "description": "The label for category Discover Tella in sidebar generalSidebar"
-  },
-  "sidebar.generalSidebar.category.Get Started": {
-    "message": "စတင်မည်",
-    "description": "The label for category Get Started in sidebar generalSidebar"
-  },
-  "sidebar.generalSidebar.category.For organizations": {
-    "message": "အဖွဲ့အစည်းများအတွက်",
-    "description": "The label for category For organizations in sidebar generalSidebar"
-  },
   "sidebar.generalSidebar.category.Community": {
     "message": "အသိုင်းအဝိုင်း",
     "description": "The label for category Community in sidebar generalSidebar"
+  },
+  "sidebar.generalSidebar.category.Tella ကို လေ့လာပါ": {
+    "message": "Tella ကို လေ့လာပါ",
+    "description": "The label for category 'Tella ကို လေ့လာပါ' in sidebar 'generalSidebar'"
+  },
+  "sidebar.generalSidebar.category.index": {
+    "message": "index",
+    "description": "The label for category 'index' in sidebar 'generalSidebar'"
+  },
+  "sidebar.generalSidebar.category.Tella နှင့် စတင်လိုက်ပါ": {
+    "message": "Tella နှင့် စတင်လိုက်ပါ",
+    "description": "The label for category 'Tella နှင့် စတင်လိုက်ပါ' in sidebar 'generalSidebar'"
+  },
+  "sidebar.generalSidebar.category.ချိတ်ဆက်မှုများ": {
+    "message": "ချိတ်ဆက်မှုများ",
+    "description": "The label for category 'ချိတ်ဆက်မှုများ' in sidebar 'generalSidebar'"
+  },
+  "sidebar.generalSidebar.category.အသိုင်းအဝိုင်း": {
+    "message": "အသိုင်းအဝိုင်း",
+    "description": "The label for category 'အသိုင်းအဝိုင်း' in sidebar 'generalSidebar'"
   }
 }
