@@ -3,6 +3,7 @@ id: open-source
 title: Tella مفتوح المصدر
 description: معلومات عن التزام Tella بسياسة البرامج مفتوحة المصدر والروابط للمستودعات
 slug: /open-source
+sidebar_position: 2
 ---
 import FeaturesTable from '.././_features-table.md';
 

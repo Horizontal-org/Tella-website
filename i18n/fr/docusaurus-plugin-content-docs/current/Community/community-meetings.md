@@ -3,6 +3,8 @@ id: community-meetings
 title: Réunions mensuelles de la communauté Tella
 description: Détails concernant les réunions mensuelles de la communauté Tella
 slug: /community-meetings
+sidebar_position: 1
+unlisted: true
 ---
 
 # Réunions de la communauté de Tella

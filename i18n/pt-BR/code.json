@@ -85,7 +85,7 @@
   },
   "theme.colorToggle.ariaLabel": {
     "message": "Cambiar entre modo oscuro y claro (actualmente {mode})",
-    "description": "The ARIA label for the navbar color mode toggle"
+    "description": "The ARIA label for the color mode toggle"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
     "message": "modo oscuro",
@@ -336,5 +336,309 @@
   "theme.unlistedContent.message": {
     "message": "Esta página está sin clasificar. Los motores de búsqueda no la indexaran, y solo los usuarios con el enlace directo podrán acceder a esta.",
     "description": "The unlisted content banner message"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "system mode",
+    "description": "The name for the system color mode"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 item|{count} items",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Expand the dropdown",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Collapse the dropdown",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Authors",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "View All Authors",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "This author has not written any posts yet.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Página não listada",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "Esta página não está listada. Mecanismos de busca não armazenarão nenhuma informação, e somente usuários que possuam o link direto poderão acessá-la",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Draft page",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "description": "The draft content banner message"
+  },
+  "contactUs.title": {
+    "message": "Vamos conversar"
+  },
+  "contactUs.imageAlt": {
+    "message": "Image with a hand clicking on some"
+  },
+  "contactUs.intro.line1": {
+    "message": "Você tem perguntas sobre o Tella?"
+  },
+  "contactUs.intro.line2": {
+    "message": "Você precisa de suporte ou treinamento para implantá-lo na sua comunidade?"
+  },
+  "contactUs.intro.line3": {
+    "message": "Você tem ideias para melhorar o aplicativo?"
+  },
+  "contactUs.getInTouch.title": {
+    "message": "Entre em contato"
+  },
+  "contactUs.getInTouch.email": {
+    "message": "Escreva para nós via"
+  },
+  "contactUs.getInTouch.call": {
+    "message": "Agende diretamente uma chamada"
+  },
+  "contactUs.getInTouch.call.linkText": {
+    "message": "aqui"
+  },
+  "contactUs.getInTouch.feedback": {
+    "message": "Use o formulário anônimo de feedback nas Configurações do Tella."
+  },
+  "contactUs.newsletter": {
+    "message": "Ou assine nossa newsletter:"
+  },
+  "contactUs.newsletter.linkText": {
+    "message": "aqui"
+  },
+  "contactUs.closing": {
+    "message": "Esperamos ouvir de você!"
+  },
+  "downloadButtons.windows": {
+    "message": "Windows"
+  },
+  "downloadButtons.macos": {
+    "message": "macOS"
+  },
+  "downloadButtons.linux": {
+    "message": "Linux"
+  },
+  "homepage.tagline": {
+    "message": "Documente & proteja"
+  },
+  "homepage.intro": {
+    "message": "In challenging environments, with limited or no internet connectivity or in the face of repression, Tella makes it easier and safer to collect, protect and hide sensitive data."
+  },
+  "homepage.googlePlayAlt": {
+    "message": "Get Tella on Google Play"
+  },
+  "homepage.appStoreAlt": {
+    "message": "Get Tella on App Store"
+  },
+  "homepage.fdroidAlt": {
+    "message": "Get Tella on F-Droid"
+  },
+  "homepage.screenshotAlt": {
+    "message": "Screenshot of the Tella app on Android. Showing Connections to Tella Web Uwazi and the folder structure showing that within Tella users can record and save Images, Videos and Audios securely and encripted."
+  },
+  "homepage.whyTella.title": {
+    "message": "Por que o Tella?"
+  },
+  "homepage.whyTella.imageAlt": {
+    "message": "Why Tella illustration"
+  },
+  "homepage.whyTella.intro": {
+    "message": "Se você é um ativista, jornalista, defensor dos direitos humanos ou qualquer pessoa que documenta injustiças, poderá usar o Tella para:"
+  },
+  "homepage.protectData.title": {
+    "message": "1. Proteger seus dados",
+    "description": "The leading '1.' is part of the translatable text."
+  },
+  "homepage.protectData.imageAlt": {
+    "message": "Vault illustration"
+  },
+  "homepage.protectData.cta": {
+    "message": "Saiba mais sobre os recursos do Tella"
+  },
+  "homepage.collectEvidence.title": {
+    "message": "2. Coletar evidências de violações de direitos humanos",
+    "description": "The leading '2.' is part of the translatable text."
+  },
+  "homepage.collectEvidence.imageAlt": {
+    "message": "Notepad illustration"
+  },
+  "homepage.collectEvidence.item2b.linkText": {
+    "message": "Pick the platform"
+  },
+  "homepage.collectEvidence.item3b.linkText": {
+    "message": "fully offline feature to transfer files to nearby devices"
+  },
+  "homepage.collectEvidence.cta": {
+    "message": "Leia como organizações estão usando o Tella"
+  },
+  "homepage.openSource.title": {
+    "message": "3. Tella é gratuito, multilíngue e de código aberto",
+    "description": "The leading '3.' is part of the translatable text."
+  },
+  "homepage.openSource.item2.linkText": {
+    "message": "available",
+    "description": "Refers to language availability, not stock/inventory availability."
+  },
+  "homepage.openSource.item3a.linkText": {
+    "message": "publicly available"
+  },
+  "homepage.openSource.item3b.linkText": {
+    "message": "security audits"
+  },
+  "homepage.openSource.imageAlt": {
+    "message": "Open source illustration"
+  },
+  "homepage.whyTella.item1.emphasis": {
+    "message": "Proteger-se"
+  },
+  "homepage.whyTella.item1.rest": {
+    "message": "da repressão física e digital ao coletar e armazenar informações sensíveis."
+  },
+  "homepage.whyTella.item2.emphasis": {
+    "message": "Proteger os dados que você coleta"
+  },
+  "homepage.whyTella.item2.rest": {
+    "message": "contra censura, adulteração, interceptação e destruição."
+  },
+  "homepage.whyTella.item3.emphasis": {
+    "message": "Produzir facilmente documentação de alta qualidade"
+  },
+  "homepage.whyTella.item3.rest": {
+    "message": "que poderá ser usada para pesquisa, advocacia pública ou justiça transicional."
+  },
+  "homepage.protectData.item1.emphasis": {
+    "message": "Criptografe seus arquivos:"
+  },
+  "homepage.protectData.item1.rest": {
+    "message": "o Tella criptografa automaticamente suas fotos, vídeos e gravações de áudio assim que são capturados."
+  },
+  "homepage.protectData.item2.emphasis": {
+    "message": "Oculte seus arquivos no dispositivo:"
+  },
+  "homepage.protectData.item2.rest": {
+    "message": "seus arquivos são inacessíveis na galeria padrão do telefone ou no explorador de arquivos. Você só poderá acessá-los no aplicativo."
+  },
+  "homepage.protectData.item3.emphasis": {
+    "message": "Bloqueie seus arquivos:"
+  },
+  "homepage.protectData.item3.rest": {
+    "message": "defina um PIN ou senha para proteger seus arquivos. Inserir a chave correta é a única maneira de decifrar os arquivos armazenados no Tella."
+  },
+  "homepage.protectData.item4.emphasis": {
+    "message": "Disfarce o aplicativo:"
+  },
+  "homepage.protectData.item4.rest": {
+    "message": "altere a aparência do Tella para ocultá-lo de pessoas que procurarem no seu telefone."
+  },
+  "homepage.protectData.item5.emphasis": {
+    "message": "Share your files:",
+    "description": "Newest bullet, not yet translated in most locales."
+  },
+  "homepage.protectData.item5.rest": {
+    "message": "choose one of the secure methods to share your files with other Tella vault or to a server."
+  },
+  "homepage.collectEvidence.item1.emphasis": {
+    "message": "Câmera e gravador dentro do Tella:"
+  },
+  "homepage.collectEvidence.item1.rest": {
+    "message": "tire fotos, grave vídeos e áudio diretamente no Tella para que seus arquivos sejam imediatamente criptografados e ocultos no aplicativo."
+  },
+  "homepage.collectEvidence.item2a.emphasis": {
+    "message": "Tella integrates"
+  },
+  "homepage.collectEvidence.item2a.with": {
+    "message": "with",
+    "description": "Platform names below (Uwazi, Open Data Kit, Tella Web, Google Drive, Dropbox, Nextcloud) are proper nouns and are not translated."
+  },
+  "homepage.collectEvidence.item2a.and": {
+    "message": "and"
+  },
+  "homepage.collectEvidence.item2b.after": {
+    "message": "that best suits your needs and share data directly from Tella."
+  },
+  "homepage.collectEvidence.item3a.emphasis": {
+    "message": "Offline-first:"
+  },
+  "homepage.collectEvidence.item3a.rest": {
+    "message": "in areas with limited or no internet connection, you can save your data and submit it when you reach a reliable internet connection."
+  },
+  "homepage.collectEvidence.item3b.before": {
+    "message": "Tella also offers a"
+  },
+  "homepage.collectEvidence.item3b.after": {
+    "message": "using Tella."
+  },
+  "homepage.openSource.item1.emphasis": {
+    "message": "Gratuito para sempre:"
+  },
+  "homepage.openSource.item1.rest": {
+    "message": "o Tella é projetado para aqueles cuja segurança está em risco. É gratuito para baixar e usar, e permanecerá gratuito para sempre."
+  },
+  "homepage.openSource.item2.emphasis": {
+    "message": "Choose your language:"
+  },
+  "homepage.openSource.item2.before": {
+    "message": "Tella is currently"
+  },
+  "homepage.openSource.item2.after": {
+    "message": "in 25 languages."
+  },
+  "homepage.openSource.item3a.emphasis": {
+    "message": "Trust the code:"
+  },
+  "homepage.openSource.item3a.before": {
+    "message": "The code for Tella is open-source and"
+  },
+  "homepage.openSource.item3a.after": {
+    "message": "so that researchers, security analysts, and developers can freely audit and reuse it."
+  },
+  "homepage.openSource.item3b.before": {
+    "message": "We publish the",
+    "description": "Newest content, not yet translated in most locales."
+  },
+  "homepage.openSource.item3b.after": {
+    "message": "that independent firms have performed on Tella."
+  },
+  "contactUs.getInTouch.email.after": {
+    "message": ""
+  },
+  "goFurther.faq.label": {
+    "message": "Perguntas frequentes (FAQ)"
+  },
+  "goFurther.faq.description": {
+    "message": "Perguntas frequentes sobre o Tella"
+  },
+  "goFurther.contactUs.label": {
+    "message": "Contate-nos"
+  },
+  "goFurther.contactUs.description": {
+    "message": "Entre em contato para receber suporte ou fazer perguntas."
+  },
+  "goFurther.releases.label": {
+    "message": "What's new (changelog)"
+  },
+  "goFurther.releases.description": {
+    "message": "Tella changelogs"
+  },
+  "goFurther.privacy.label": {
+    "message": "Política de Privacidade"
+  },
+  "goFurther.privacy.description": {
+    "message": "Política de Privacidade do Tella"
   }
 }

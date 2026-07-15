@@ -3,6 +3,7 @@ id: translating-tella
 title: Tella ကို ဘာသာပြန်ခြင်း
 description: Tella ကို ဘာသာပြန်ရန် ကူညီခြင်းနှင့် သက်ဆိုင်သော အချက်အလက်များ
 slug: /translating-tella
+sidebar_position: 3
 ---
 import TellaLanguages from '.././_tella-languages.md';
 
@@ -42,8 +43,6 @@ import TellaLanguages from '.././_tella-languages.md';
 - [Localization Lab ၏ Lokalise အမြန်စတင်နည်းလမ်းညွှန်ကို ဖတ်ပါ](https://docs.google.com/document/d/1h3Fa9FbVAzHXKgS_H28LmycY3ujjCgQl-oOwVuIy2IA/edit) သို့မဟုတ် [Lokalise စာရွက်စာတမ်းများ](https://docs.lokalise.com/en/) ကို ဖတ်ပါ
 
 ## အခြားပံ့ပိုးကူညီသူများနှင့် အပြန်အလှန်ဆက်သွယ်ခြင်း သို့မဟုတ် တောင်းဆိုခြင်းကို မည်သည့်နေရာတွင် ပြုလုပ်နိုင်ပါသလဲ။ {#where-can-i-interact-with-other-contributors-or-make-a- request} 
-
-Tella ၏ [လစဉ် အသိုင်းအဝိုင်း အစည်းအဝေးများ](/community-meetings) တွင် ကျွန်ုပ်တို့နှင့်အတူ ပါဝင်ပါ။
 
 ဘာသာစကားအသစ်တစ်ခု ထည့်လိုပါက [ကျွန်ုပ်တို့ထံ ဆက်သွယ်ပါ](/contact-us)။
 

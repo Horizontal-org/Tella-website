@@ -3,6 +3,8 @@ id: community-meetings
 title: Các Cuộc họp Cộng đồng
 description: Thông tin chi tiết về các cuộc họp cộng đồng Tella hàng tháng
 slug: /community-meetings
+sidebar_position: 1
+unlisted: true
 ---
 
 # các cuộc họp cộng đồng của Tella

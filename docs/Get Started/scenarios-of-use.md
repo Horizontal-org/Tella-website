@@ -3,7 +3,7 @@ id: scenarios-of-use
 title: Scenarios of use
 description: Discover what Tella features could be useful in different scenarios.
 slug: /scenarios
-
+sidebar_position: 5
 ---
 
 # Scenarios of Use

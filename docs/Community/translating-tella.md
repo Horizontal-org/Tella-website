@@ -3,6 +3,7 @@ id: translating-tella
 title: Translating Tella
 description: Information on how to help translating Tella
 slug: /translating-tella
+sidebar_position: 3
 ---
 import TellaLanguages from '.././_tella-languages.md';
 
@@ -42,8 +43,6 @@ Please introduce yourself and ask any questions you may have after following the
 - [Read the Lokalise quick start guide by Localization Lab](https://docs.google.com/document/d/1h3Fa9FbVAzHXKgS_H28LmycY3ujjCgQl-oOwVuIy2IA/edit) or read the [Lokalise documentation](https://docs.lokalise.com/en/)
 
 ## Where can I interact with other contributors or make a request? {#where-can-i-interact-with-other-contributors-or-make-a-request}
-
-Join us on Tella's [Monthly community meetings](/community-meetings).
 
 If you want us to add a new language, [contact us](/contact-us).
 

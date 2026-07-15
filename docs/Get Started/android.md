@@ -3,6 +3,7 @@ id: get-started-android
 title: Android
 description: Quick start guide for Tella users on Android
 slug: /get-started-android
+sidebar_position: 1
 ---
 
 # Getting started on Tella on Android

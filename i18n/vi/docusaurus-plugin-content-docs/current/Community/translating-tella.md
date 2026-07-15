@@ -3,6 +3,7 @@ id: translating-tella
 title: Chuyển ngữ Tella
 description: Thông tin về cách hỗ trợ chuyển ngữ Tella
 slug: /translating-tella
+sidebar_position: 3
 ---
 import TellaLanguages from '.././_tella-languages.md';
 
@@ -42,8 +43,6 @@ Vui lòng giới thiệu về bản thân và đặt bất kỳ câu hỏi nào 
 - [Đọc hướng dẫn bắt đầu nhanh Lokalise của Localization Lab](https://docs.google.com/document/d/1h3Fa9FbVAzHXKgS_H28LmycY3ujjCgQl-oOwVuIy2IA/edit) hoặc đọc [Tài liệu Lokalise](https://docs.lokalise.com/en/).
 
 ## Tôi có thể tương tác với những cộng tác viên khác hoặc đưa ra yêu cầu ở đâu? {#where-can-i-interact-with-other-contributors-or-make-a-request}
-
-Tham gia cùng chúng tôi tại [Cuộc họp Cộng đồng Hàng tháng của Tella](/community-meetings).
 
 Nếu bạn muốn thêm một ngôn ngữ mới, [liên hệ với chúng tôi](/contact-us).
 

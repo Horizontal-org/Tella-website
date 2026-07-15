@@ -3,20 +3,28 @@
     "message": "Suivant",
     "description": "The label for version current"
   },
-  "sidebar.generalSidebar.category.Discover Tella": {
-    "message": "Découvrir Tella",
-    "description": "The label for category Discover Tella in sidebar generalSidebar"
-  },
-  "sidebar.generalSidebar.category.Get Started": {
-    "message": "Pour commencer",
-    "description": "The label for category Get Started in sidebar generalSidebar"
-  },
-  "sidebar.generalSidebar.category.For organizations": {
-    "message": "Pour les organisations",
-    "description": "The label for category For organizations in sidebar generalSidebar"
-  },
   "sidebar.generalSidebar.category.Community": {
     "message": "Communauté",
     "description": "The label for category Community in sidebar generalSidebar"
+  },
+  "sidebar.generalSidebar.category.Découvrir Tella": {
+    "message": "Découvrir Tella",
+    "description": "The label for category Découvrir Tella in sidebar generalSidebar"
+  },
+  "sidebar.generalSidebar.category.index": {
+    "message": "index",
+    "description": "The label for category index in sidebar generalSidebar"
+  },
+  "sidebar.generalSidebar.category.Se lancer": {
+    "message": "Se lancer",
+    "description": "The label for category Se lancer in sidebar generalSidebar"
+  },
+  "sidebar.generalSidebar.category.Connexions": {
+    "message": "Connexions",
+    "description": "The label for category Connexions in sidebar generalSidebar"
+  },
+  "sidebar.generalSidebar.category.Communauté": {
+    "message": "Communauté",
+    "description": "The label for category Communauté in sidebar generalSidebar"
   }
 }
