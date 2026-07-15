@@ -31,7 +31,7 @@ Configurar Tella Web conlleva tres pasos, que son analizados detalladamente en e
 Even though data is transferred to the server securely (SSL), anyone with access to the Tella Web account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
 :::
 
-## Cuándo Usar Tella Web {#when-to-use-tella-web}
+## Cuándo Usar Tella Web {/* #when-to-use-tella-web */}
 
 Tella Web puede ser una buena alternativa si:
 - Si tienes capacidad para auto-hospedar Tella Web.
@@ -44,7 +44,7 @@ Si necesitas ayuda para determinar si Tella Web es la mejor opción para tu caso
 :::
 
 
-## Instalar el servidor {#install-the-server}
+## Instalar el servidor {/* #install-the-server */}
 
 Este paso consiste en instalar y configurar Tella Web en el servidor que tu organización estará utilizando. Este paso necesita ser llevado a cabo por la persona que será responsable de la administración de sistema (un(a) desarrollador(a) o un(a) administrador(a) de sistemas). Las instrucciones técnicas se pueden encontrar en [nuestro Github](https://github.com/Horizontal-org/tellaweb).
 
@@ -60,7 +60,7 @@ Nuestro equipo puede ofrecer ayuda con la instalación, configuración y manteni
 :::
 
 
-## Configura tu proyecto en tu servidor {#set-up-your-project-on-your-server}
+## Configura tu proyecto en tu servidor {/* #set-up-your-project-on-your-server */}
 
 Una vez que Tella Web esté instalada y la/el primer(a) usuaria(o) "admin" creada(o), es hora de configurar el proyecto o los proyectos al cual el equipo en el campo compartirá información.
 
@@ -70,10 +70,10 @@ Una vez que Tella Web esté instalada y la/el primer(a) usuaria(o) "admin" cread
 Echa un vistazo a [este video tutorial](/video-tutorials#connections-full-video) para una demo de cómo configurar Tella Web.
 :::
 
-### Centro de Administración {#admin-center}
+### Centro de Administración {/* #admin-center */}
 
 
-#### Configure spaces’ settings {#configure-spaces-settings}
+#### Configure spaces’ settings {/* #configure-spaces-settings */}
 Los Admins del espacio de Tella Web pueden habilitar o deshabilitar configuraciones de todo el sistema dependiendo de sus propias evaluaciones de riesgo y consideraciones de privacidad.
 - [Opta para compartir analíticas con el equipo de Tella](/security-and-privacy#analytics).
 - Detección de inicio de sesión sospechoso:
@@ -86,7 +86,7 @@ Los Admins del espacio de Tella Web pueden habilitar o deshabilitar configuracio
     - Para asegurar la privacidad y anonimato de la/el usuaria(o), solo los datos esenciales son transmitidos a nuestro servidor de Comentarios a través de solicitudes HTTPS POST. Los registros que contienen información de la/el usuaria(o), (Dirección IP, fecha y hora, y agente de usuari(o)) son eliminados automáticamente cada semana. 
     -  En la base de datos del servidor de Comentarios, solo almacenamos una copia del texto enviado por la(o)s usuaria(o)s en el formulario de comentarios y de qué plataforma proviene (en este caso de "Tella Web" sin especificar cual instalación de servidor).
 
-#### Backup your space {#backup-your-space}
+#### Backup your space {/* #backup-your-space */}
 
 Admins of the Tella Web instance can export all data out of Tella Web by generating a backup. Backups can be used to port the data to another location, including a computer, a USB flash drive, an external disk or a remote server.  The action to generate the backup runs in the background and, if triggered, an email notification will be sent to the person who generated the backup when it is ready to download. However, all backups are accessible in the Admin Center to all users with admin access.
 
@@ -97,7 +97,7 @@ The information included in the backup is highly sensitive, it not only contains
 :::
 
 
-### Administrando Proyectos {#managing-projects}
+### Administrando Proyectos {/* #managing-projects */}
 
 Tella Web te permite crear y administrar proyectos, garantizando que tus informes estén organizados y accesibles.
 
@@ -106,19 +106,19 @@ Los proyectos funcionan como carpetas donde la(o)s usuaria(o)s de Tella pueden e
 Cada proyecto tiene su propia URL, por lo que la(o)s usuaria(o)s de Tella pueden estar conectados a múltiples proyectos de Tella Web.
 
 
-#### Ver todos los proyectos disponibles {#view-all-available-projects}
+#### Ver todos los proyectos disponibles {/* #view-all-available-projects */}
 
 Haz clic en el botón "Proyectos" en el menú de navegación izquierdo para acceder a la pantalla de "Proyectos".
 
 La pantalla de "Proyectos" muestra cada proyecto existente como una tarjeta.
 
 
-#### Crea un Nuevo Proyecto {#create-a-new-project}
+#### Crea un Nuevo Proyecto {/* #create-a-new-project */}
 
 En la pantalla de "Proyectos", haz clic en el botón "Crear proyecto". Aparecerá un modal pidiendo que nombres el nuevo proyecto. Introduce el nombre deseado para el proyecto y haz clic en "Crear". Te redireccionará a la pantalla de "Configuraciones de proyecto" para el proyecto recién creado.
 
 
-#### Abrir un Proyecto {#open-a-project}
+#### Abrir un Proyecto {/* #open-a-project */}
 
 Abre la pantalla "Proyectos" y haz clic en la tarjeta del proyecto deseado.
 
@@ -127,7 +127,7 @@ Esto abrirá el proyecto, donde puedes acceder a todos los informes enviados al 
 Puedes abrir, eliminar, o descargar informes (dependiendo de tus permisos para este proyecto específico).
 
 
-#### Configura los ajustes de los proyectos {#configure-projects-settings}
+#### Configura los ajustes de los proyectos {/* #configure-projects-settings */}
 
 En la pantalla "Configuración de Proyecto", puedes configurar el proyecto:
 * La sección "General" te permite renombrar el proyecto, ver detalles del proyecto, y modificar la URL del proyecto.
@@ -135,7 +135,7 @@ En la pantalla "Configuración de Proyecto", puedes configurar el proyecto:
 * La sección "Zona de peligro" proporciona opciones para eliminar el proyecto, incluyendo todos los informes dentro del mismo.
 
 
-#### Eliminar un Proyecto {#delete-a-project}
+#### Eliminar un Proyecto {/* #delete-a-project */}
 
 En la pantalla "Configuraciones de proyecto", desliza hacia la sección "Zona de peligro".
 
@@ -146,7 +146,7 @@ Aparecerá un modal advirtiendo sobre la eliminación permanente del proyecto y 
 Una vez confirmado, el proyecto y todos sus informes asociados serán eliminados permanentemente.
 
 
-#### Configura la URL del proyecto {#configure-the-project-url}
+#### Configura la URL del proyecto {/* #configure-the-project-url */}
 
 La URL del proyecto es automáticamente generada cuando el proyecto es creado. Para editar la URL del proyecto, ve a la sección "General" en la pantalla "Configuración de Proyecto" y modifica acorde. Esta URL es la que la(o)s informadora(e)s utilizarán para conectarse al proyecto desde sus apps.
 
@@ -155,9 +155,9 @@ La URL que tendrás que enviarle a la(o)s usuaria(o)s debe verse como esta "http
 :::
 
 
-### Administrando usuaria(o)s {#managing-users}
+### Administrando usuaria(o)s {/* #managing-users */}
 
-### Comprendiendo roles de usuaria(o)s {#understanding-user-roles}
+### Comprendiendo roles de usuaria(o)s {/* #understanding-user-roles */}
 La(o)s usuaria(o)s son una parte importante de Tella Web. Hay dos roles diferentes disponibles para usuaria(o)s:
 - Informador(a): esta(e) es un(a) usuaria(o) que puede conectarse al proyecto de Tella Web desde una app móvil Tella y subir informes. Un(a) informador(a) debe estar asignada(o) a un proyecto para poder subir informes.
 - Espectador(a): esta(e) es un(a) usuaria(o) que, además de subir informes desde Tella, también puede iniciar sesión en Tella Web para ver (pero no editar o eliminar) informes. Un(a) espectador(a) debe ser asignado(a) a un proyecto específico para tener acceso.
@@ -186,7 +186,7 @@ He aquí una vista detallada de los permisos de cada rol:
 
 
 
-#### Crear usuaria(o)s {#creating-users}
+#### Crear usuaria(o)s {/* #creating-users */}
 
 En la barra superior, sobre la lista de usuaria(o)s, la/el admin del servidor puede hacer clic en el botón "Crear usuario(a)" para crear un(a) nuevo(a) usuario(a) en el servidor. Email, contraseña, confirmación de contraseña y rol son necesarios para crear usuaria(o)s.
 
@@ -197,7 +197,7 @@ En el campo de contraseña, un medidor de seguridad de contraseña ayuda a la(o)
 - No contraseñas comunes como nombres, ciudades, etc.
 
 
-#### Administración de accesos a proyectos {#managing-access-to-projects}
+#### Administración de accesos a proyectos {/* #managing-access-to-projects */}
 
 
 En la sección "Administrar acceso" de la pantalla "Configuración de proyecto", admins pueden asignar usuaria(o)s existentes al proyecto. Haz clic en el campo "Añadir usuaria(o)s". Un menú desplegable mostrará todos la(o)s usuaria(o)s en el servidor. Desliza a través de la lista o escribe para buscar un(a) usuario(a) por nombre de usuario(a).
@@ -207,12 +207,12 @@ Después de seleccionar la(o)s usuaria(o)s a añadir al proyecto, haz clic en el
 La lista completa de usuarios que puede enviar informes a los proyectos incluye los usuarios listados en esta sección más todos los administradores del servidor.
 :::
 
-### Gestionando recursos {#managing-resources}
+### Gestionando recursos {/* #managing-resources */}
 
 Tella Web permite a las organizaciones difundir de forma segura recursos y materiales a sus
 usuaria(o)s directamente dentro del contenedor cifrado de Tella. Los recursos pueden ser utilizados para enviar instrucciones para recopilación de datos, mensajes o guías sobre cómo recopilar datos.
 
-#### Creando recursos para el espacio {#creating-resources-to-the-space}
+#### Creando recursos para el espacio {/* #creating-resources-to-the-space */}
 
 Los Administradores pueden crear recursos para el espacio al navegar a la barra lateral izquierda **Recursos**. Por el momento los recursos pueden ser creados al subir PDFs. Recomendamos mantener estos inferiores a 20MB para garantizar que los usuarios puedan descargarlos incluso si su internet es lento.
 
@@ -228,7 +228,7 @@ En la misma pantalla, los administradores de espacio pueden gestionar recursos. 
 Si tu organización necesita otro tipo de Recursos o si experimentas problemas con el formato o limite de tamaño, por favor [contáctanos](/contact-us).
 :::
 
-#### Añadiendo recursos a proyectos {#adding-resources-to-projects}
+#### Añadiendo recursos a proyectos {/* #adding-resources-to-projects */}
 
 Los administradores y editores pueden añadir recursos disponibles en el espacio a proyectos a los que tengan acceso. Hay dos atajos para hacerlo:
 1. Al navegar a **Administrar Accesos** en la sección **Configuración** de cada proyecto.
@@ -243,7 +243,7 @@ Tella Web no realiza seguimiento de ninguna información sobre descargas de recu
 
 
 
-## Prepara a la gente sobre el terreno para empezar a enviar informes {#get-people-on-the-ground-ready-to-start-submitting-reports}
+## Prepara a la gente sobre el terreno para empezar a enviar informes {/* #get-people-on-the-ground-ready-to-start-submitting-reports */}
 
 
 Los pasos listados a continuación aplican a ambas versiones de Android e iOS de la app Tella. La función de informe está disponible en:
@@ -258,7 +258,7 @@ Puedes ver [este video](/video-tutorials#tella-web) sobre cómo configurar y usa
 :::
 
 
-#### Conectar a Proyectos de Tella Web {#connect-to-tella-web-projects}
+#### Conectar a Proyectos de Tella Web {/* #connect-to-tella-web-projects */}
 
 Para conectar a un servidor Tella Web:
 
@@ -270,13 +270,13 @@ Para conectar a un servidor Tella Web:
 * Habilita o deshabilita las funciones avanzadas de acuerdo a tus necesidades: [auto-informe](#auto-report), [auto eliminar](#auto-delete) y [envío en segundo plano](#background-submission).
 
 
-#### Administra Proyectos de Tella Web {#manage-tella-web-projects}
+#### Administra Proyectos de Tella Web {/* #manage-tella-web-projects */}
 
 * En **Configuración ⚙️** > **Conexiones** > **[Nombre del proyecto]** > ⫶ puedes:
     * Editar: Abre una pantalla "editar servidor" donde puedes ver el nombre del proyecto, URL, y tu nombre de usuaria(o), y editar funciones avanzadas.
     * Eliminar: Elimina la conexión, incluyendo toda la información del servidor y todos los borradores e informes enviados almacenados en Tella. Esto no afectará ningún informe que ya haya sido enviado al servidor.
 
-#### Extrae Recursos de tu espacio {#pull-resources-from-your-space}
+#### Extrae Recursos de tu espacio {/* #pull-resources-from-your-space */}
 
 Una vez conectado a al menos un proyecto de Tella Web, una tarjeta de **Recursos** aparecerá en la sección "Conexiones" de la pantalla principal. Toca sobre esta tarjeta para ver y descargar cualquier guía, instrucciones o mensajes que admins de tu organización hayan puesto disponibles para ti en cualquiera de los proyectos a los que estes conectado.
 
@@ -286,7 +286,7 @@ Utiliza el botón **Refrescar** en la parte superior derecha para extraer nuevos
 
 Una vez te desconectas de un proyecto de Tella Web, todos los recursos asociados serán removidos de tu pantalla de Recursos.
 
-#### Crear un Informe Manual {#create-a-manual-report}
+#### Crear un Informe Manual {/* #create-a-manual-report */}
 
 * Una vez conectada(o) a por lo menos un proyecto Tella Web, una tarjeta de "Informes" aparecerá en la sección "Conexiones" de la pantalla de inicio. Toca sobre esta tarjeta para empezar a crear informes.
 * La pantalla de informes principal permite la navegación entre las pestañas Borradores, Bandeja de Salida y  Enviados.
@@ -303,7 +303,7 @@ Una vez te desconectas de un proyecto de Tella Web, todos los recursos asociados
     * Si el informe es enviado correctamente, se va a la pestaña "Enviados".
 
 
-#### Borradores de Informes {#draft-reports}
+#### Borradores de Informes {/* #draft-reports */}
 
 A Draft report is a report that was created and saved but not yet submitted. Drafts reports are useful to save work in progress that can be editted later on. It allows users to create reports offline or over a long period of time before finalizing and sending them. This is especially useful in low-connectivity areas or when a user needs to gather information in multiple stages.
 
@@ -316,7 +316,7 @@ Reports in the Draft tab can be edited.
 * Puedes eliminar un borrador de informe tocando en los tres puntos > **Eliminar** o entrando al informe o tocando el botón Eliminar.
 
 
-#### Enviar un Informe {#submit-a-report}
+#### Enviar un Informe {/* #submit-a-report */}
 
 * En un informe, toca "Enviar" para iniciar el envío del informe.
 * Se te redireccionará a una pantalla de resumen mostrando el progreso de subida de cada archivo adjunto.
@@ -333,7 +333,7 @@ Eliminar un informe en medio de un envío cancelará la subida de los archivos q
 :::
 
 
-#### Bandeja de Salida {#outbox}
+#### Bandeja de Salida {/* #outbox */}
 
 La Bandeja de Salida contiene informes que han sido guardados para enviar. Esto podría ser:
 
@@ -346,7 +346,7 @@ If you need a fully offline way to share files with others, consider exploring [
 :::
 
 
-#### Informes Enviados {#submitted-reports}
+#### Informes Enviados {/* #submitted-reports */}
 
 - La pestaña Enviados muestra informes que han sido enviados exitosamente al servidor Tella Web.
 - En la pestaña Enviados, puedes ver y revisar los informes enviados.
@@ -356,9 +356,9 @@ Si la conexión a internet es interrumpida, los informes irán a la pestaña Ban
 :::
 
 
-### Funciones Avanzadas {#advanced-features}
+### Funciones Avanzadas {/* #advanced-features */}
 
-#### Auto-informe {#auto-report}
+#### Auto-informe {/* #auto-report */}
 
 Si se habilita auto-informe, Tella creará y subirá informes automáticamente cada vez que tomes una foto, grabes un video, o captures una grabación de audio en Tella. Esto garantiza que tus informes se suban fluidamente sin la necesidad del trabajo manual. Los archivos se suben al mismo auto-informe si se recopilan dentro del lapso de 30 minutos.
 
@@ -368,13 +368,13 @@ Se puede habilitar auto-informe desde la pantalla Editar Conexión.
 auto-informe solo se puede habilitar para un proyecto a la vez
 :::
 
-#### Auto-eliminar {#auto-delete} 
+#### Auto-eliminar {/* #auto-delete */}
 
 Cuando auto-informe está habilitado, puedes habilitar auto-eliminar, lo que elimina automáticamente informes y sus archivos asociados de tu dispositivo después de que son subidos exitosamente a Tella Web. Esto te ayuda a administrar el espacio de almacenamiento de tu dispositivo y garantiza que no sean conservados involuntariamente datos sensibles.
 
 El botón de alternación de auto-eliminar aparecerá debajo del botón de auto-informe en la pantalla Editar Conexión del proyecto deseado.
 
-#### Envío en Segundo Plano {#background-submission}
+#### Envío en Segundo Plano {/* #background-submission */}
 
 El envío en segundo plano le permite al proceso de envío de informes continuar incluso si cambias a otras tareas dentro de Tella o si sales completamente de Tella. El envío en segundo plano puede funcionar en combinación con informes Manuales y Automáticos, y se puede habilitar en la pantalla Editar Conexión del proyecto deseado.
 

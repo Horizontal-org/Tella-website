@@ -15,22 +15,22 @@ Welcome to the Tella Documentation!
 
 Below you will find everything you need to understand how Tella works, its security features and limitations, and how to get started. To stay up-to-date with the latest, subscribe to [our newsletter](https://blog.wearehorizontal.org/#/portal), or [contact us](/contact-us)!
 
-## Discover Tella {#discover-tella}
+## Discover Tella {/* #discover-tella */}
 
 <CategoryCardList href="/discover"/>
 
-## Getting Started {#getting-started}
+## Getting Started {/* #getting-started */}
 
 <CategoryCardList href="/get-started"/>
 
-## For Organizations {#for-organizations}
+## For Organizations {/* #for-organizations */}
 
 <CategoryCardList href="/connections"/>
 
-## Community {#community}
+## Community {/* #community */}
 
 <CategoryCardList href="/community"/>
 
-## Go further {#go-further}
+## Go further {/* #go-further */}
 
 <GoFurtherCards/>

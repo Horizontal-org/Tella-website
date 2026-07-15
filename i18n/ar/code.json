@@ -616,5 +616,9 @@
   },
   "goFurther.privacy.description": {
     "message": "سياسة الخصوصية لـ Tella"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(opens in new tab)",
+    "description": "The ARIA label for the external link icon"
   }
 }

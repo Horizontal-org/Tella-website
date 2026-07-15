@@ -7,7 +7,7 @@ slug: /get-started-ios
 
 # الشروع في العمل على Tella على iOS
 
-## تنزيل وتثبيت Tella {#download-and-install-tella}
+## تنزيل وتثبيت Tella {/* #download-and-install-tella */}
 اتبع [هذا الرابط](https://apps.apple.com/us/app/tella-document-protect/id1598152580) للعثور على Tella في App Store أو افتح App Store وابحث عن ”Tella document and protect“.
 
 
@@ -17,7 +17,7 @@ slug: /get-started-ios
 
 
 
-## إنشاء قفلك {#create-your-lock}
+## إنشاء قفلك {/* #create-your-lock */}
 عند فتح Tella للمرة الأولى سترى جولة إرشادية لوظائف التطبيق: الكاميرا والمسجل والملفات والمجلدات المُعمّاة. سيُطلَب منك أيضا اختيار كيفية قفل Tella. بدون هذا القفل، لا يمكن فتح Tella والوصول إلى أي من الملفات المُخزَّنة في Tella.
 * كلمة السر: كلمة السر الأبجدية الرقمية هي الطريقة الأكثر أمنا لقفل تطبيقك.
 * رقم التعريف الشخصي (PIN): تسلسل رقمي يتكون من أكثر من ستة (6) أرقام.
@@ -28,7 +28,7 @@ slug: /get-started-ios
 
 
 
-## منح التراخيص إلى Tella {#grant-permissions-to-tella}
+## منح التراخيص إلى Tella {/* #grant-permissions-to-tella */}
 في المرة الأولى التي تستخدم فيها كل وظيفة، سيُطلَب منك منح Tella بعض التراخيص:
 
 
@@ -51,7 +51,7 @@ slug: /get-started-ios
 
 
 
-## حماية ملفاتك {#protect-your-files}
+## حماية ملفاتك {/* #protect-your-files */}
 بعد منح التراخيص، ستكون جاهزا للبدء في جمع الوثائق. نوصيك باستكشاف الميزات التالية:
 
 **استخدم الكاميرا لالتقاط الصور أو مقاطع الفيديو ومسجل الصوت لتسجيل المقاطع الصوتية.** ستتم تعمية جميع الوسائط التي التقطتها بواسطة Tella على الفور، مما يعني أنه سيتعذر الوصول للملف خارج Tella. ولن تظهر الوسائط التي تم جمعها داخل Tella على معرض أو ملفات هاتفك. لا يوجد حد تخزين معين لـTella، تعتمد المساحة المتوفرة على الحيز المتاح على جهازك.
@@ -89,7 +89,7 @@ slug: /get-started-ios
 </div> 
 
 
-## مشاركة معلوماتك {#share-your-information}
+## مشاركة معلوماتك {/* #share-your-information */}
 لمشاركة المعلومات باستخدام Tella يمكنك استخدام زر **مشاركة**. ما عليك سوى تحديد الملف أو الملفات التي تريد مشاركتها، ثم الضغط على **مشاركة** واختيار التطبيق الذي تريد مشاركة الملفات معه.
 
 ضع في اعتبارك أن Tella ستشارك الملفات دون تعمية، لذا تأكد من استخدام الرسائل المختفية (مثلا، واتساب أو Signal) أو احذف الرسائل بعد أن يستلمها الشخص الآخر.
@@ -100,29 +100,29 @@ slug: /get-started-ios
 
 
 
-## Nearby sharing {#nearby-sharing}
+## Nearby sharing {/* #nearby-sharing */}
 You share files directly from Tella’s encrypted vault to another Tella encrypted vault in the same physical location using [Nearby Sharing](/nearby-sharing). After a quick connection tutorial, the two devices establish a secure link, and files are transferred encrypted from one device to the other. Nearby Sharing allows phone-to-phone (Android or iOS) and phone-to-computer file transfers. 
 
 
 
-## المضي قدما {#go-further}
+## المضي قدما {/* #go-further */}
 
 
 
-### الاتصال بالخادم {#connect-to-a-server}
+### الاتصال بالخادم {/* #connect-to-a-server */}
 يمكن توصيل Tella بمجموعة متنوعة من الخدمات الخلفية. يتم استخدام هذا من قبل المنظمات للسماح لأعضائها أو شركائها بإرسال البيانات والملفات إلى موقع بعيد آمن. إذا كنت تفكر في الاتصال بخادم وكانت لديك شكوك حول الخادم الذي يجب اختياره أو كيفية الاتصال به، فيرجى الاطلاع على [توثيقاتنا للمنظمات](/for-organizations) أو [اتصل بنا](/contact-us)، فنحن هنا للمساعدة!
 
-#### Tella Web {#tella-web}
+#### Tella Web {/* #tella-web */}
 Tella Web هي أداة مفتوحة المصدر تُمكِّن الأفراد والمنظمات من الإدارة والتجميع المُمركَز للتقارير التي يرسلها مستخدمو Tella، بما في ذلك الصور ومقاطع الفيديو والملفات الصوتية.
 
 اقرأ المزيد عن Tella Web [هنا](/tella-web) أو شاهد [الفيديو التعليمي](/video-tutorials#tella-web).
 
-#### Uwazi {#uwazi}
+#### Uwazi {/* #uwazi */}
 [Uwazi](https://uwazi.io/) هو تطبيق مفتوح المصدر صممته HURIDOCS مع ميزات هائلة لجمع بيانات حقوق الإنسان وتنظيمها وعرضها.
 
 لقد كتبنا توثيقات حول كيفية الاتصال بخادم Uwazi، كما نوصيك أن تبدأ بقراءة [هذه الصفحة](/uwazi).
 
-#### Nextcloud, Dropbox and Google Drive {#Nextcloud-dropbox-and-google-drive}
+#### Nextcloud, Dropbox and Google Drive {/* #Nextcloud-dropbox-and-google-drive */}
 ‫[الميزات](/features): تعرَّف على المزيد حول كيف يمكن لـ Tella أن يحافظ على سلامتك والتهديدات التي _لا_ يحميك منها Tella.
 
 [الاتصالات](/for-organizations): تعرف على كيفية الاتصال بخادم لجمع البيانات أو للنسخ الاحتياطي للملفات.
@@ -132,14 +132,14 @@ Tella Web هي أداة مفتوحة المصدر تُمكِّن الأفراد 
 
 
 
-### اقرأ المزيد عن Tella {#read-more-about-tella}
+### اقرأ المزيد عن Tella {/* #read-more-about-tella */}
 - ‫[الميزات](/features): تعرَّف على المزيد حول كيف يمكن لـ Tella أن يحافظ على سلامتك والتهديدات التي _لا_ يحميك منها Tella.
 - [الاتصالات](/for-organizations): تعرف على كيفية الاتصال بخادم لجمع البيانات أو للنسخ الاحتياطي للملفات.
 - [الأمن والخصوصية](/security-and-privacy): نحن نجمع فقط الحد الأدنى من البيانات اللازمة ولا نجمع أبدا أي معلومات تعريفية شخصية. اقرأ سياسة الخصوصية الكاملة [هنا](/privacy).
 
 
 
-### اتصل بنا إذا كنت بحاجة إلى المساعدة {#contact-us-if-you-need-help}
+### اتصل بنا إذا كنت بحاجة إلى المساعدة {/* #contact-us-if-you-need-help */}
 إذا كنت بحاجة إلى المساعدة لفهم التفاصيل التقنية والاعتبارات الأمنية الخاصة بـ Tella لتحديد مدى ملائمته لك ولفريقك، فنحن هنا لمساعدتك. ما عليك سوى [التواصل معنا](/contact-us) حتى نتمكن من الإجابة على أسئلتك أو التخطيط لاستضافة تدريب أو جلسة أسئلة وأجوبة مباشرة لأجل فريقك.
 
 

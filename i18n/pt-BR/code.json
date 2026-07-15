@@ -640,5 +640,9 @@
   },
   "goFurther.privacy.description": {
     "message": "Política de Privacidade do Tella"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(opens in new tab)",
+    "description": "The ARIA label for the external link icon"
   }
 }

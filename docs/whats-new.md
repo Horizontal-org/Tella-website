@@ -10,13 +10,13 @@ sidebar_position: 8
 
 This page explains what changes are introduced on each release of Tella. 
 
-## Newsletter {#newsletter}
+## Newsletter {/* #newsletter */}
 To receive  updates on new features and improvements to Tella and stay up to date with Tella releases, suscribe to our newsletter [here](https://blog.wearehorizontal.org/tag/tella/#/portal/)
 
-## Tella - Latest Versions {#tella---latest-versions}
+## Tella - Latest Versions {/* #tella---latest-versions */}
 
 
-### Android: Tella 3.1.0 (242) - Released on June 8, 2026 {#android-tella-310242---released-on-jun-8-2026}
+### Android: Tella 3.1.0 (242) - Released on June 8, 2026 {/* #android-tella-310242---released-on-jun-8-2026 */}
 - Replaced camera library and location provider with FOSS options.
 - Language support improvements: updated Ukrainian.
 - Bug fixes and minor improvements:
@@ -28,7 +28,7 @@ To receive  updates on new features and improvements to Tella and stay up to dat
     - Fixed a bug that didn't properly removed camouflage when changing lock type.
 
 
-### iOS: Tella 3.0.0 (144) - Released on May 20, 2026 {#ios-tella-300144---released-on-may-20-2026}
+### iOS: Tella 3.0.0 (144) - Released on May 20, 2026 {/* #ios-tella-300144---released-on-may-20-2026 */}
 - Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files in physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
 - Implemented security fixes detected by our most recent security audit (to be published soon!).
 - New languages support: Ukrainian.
@@ -37,7 +37,7 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 
 
 
-### Android: Tella FOSS 3.1.0 (242) (based on Android 3.1.0) - Released on Jun 8, 2026 {#android-tella-foss-310242-based-on-android-242---released-on-jun-8-2026}
+### Android: Tella FOSS 3.1.0 (242) (based on Android 3.1.0) - Released on Jun 8, 2026 {/* #android-tella-foss-310242-based-on-android-242---released-on-jun-8-2026 */}
 - Replaced the geolocation provider.
 - Bug fixes and minor improvements:
     - Solved a crash on camera that was affecting some models of Pixel phones.
@@ -54,11 +54,11 @@ A detailed list of features available on each platform is [available here](/feat
 
 
 
-## Previous versions {#previous-versions}
+## Previous versions {/* #previous-versions */}
 
-### Android {#android-previous}
+### Android {/* #android-previous */}
 
-#### Android: Tella 3.0.0 (237) - Released on May 20, 2026 {#android-tella-300237---released-on-may-20-2026}
+#### Android: Tella 3.0.0 (237) - Released on May 20, 2026 {/* #android-tella-300237---released-on-may-20-2026 */}
 - Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files in physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
 - Implemented security fixes detected by our most recent security audit (to be published soon!).
 - New languages support: Ukrainian.
@@ -69,16 +69,16 @@ A detailed list of features available on each platform is [available here](/feat
     - Fixed import from device: Tella now supports any file manager.
     - Made sure that the file is imported to Tella Vault when using the "Import from device" from inside a report (on any connection).
 
-#### Android: Tella 2.20.2 (232) - Released on April 8, 2026 {#android-tella-2202232---released-on-apr-8-2026}
+#### Android: Tella 2.20.2 (232) - Released on April 8, 2026 {/* #android-tella-2202232---released-on-apr-8-2026 */}
 - Hotfix: Made sure that the confirmation messages for submission and auto-deletion only show when the action has been done.
 - Hotfix: Made sure that if users exit the flow for changing Lock in the middle, Tella keeps the old lock. Locks are only changed after the whole flow is completed.
 - Hotfix: Fixed concurrency problem for when multiple files are sent to Tella Web. We now make sure that all files are sent to the server, even if we need to split the files in multiple auto-reports.
 
 
-#### Android: Tella 2.20.1 (230) - Released on April 1, 2026 {#android-tella-2201230---released-on-apr-1-2026}
+#### Android: Tella 2.20.1 (230) - Released on April 1, 2026 {/* #android-tella-2201230---released-on-apr-1-2026 */}
 - Hotfix: Manual reports (to all connections) are not longer stuck in the Outbox.
 
-#### Android: Tella 2.20.0 (228) - Released on March 19, 2026 {#android-tella-2200228---released-on-mar-19-2026}
+#### Android: Tella 2.20.0 (228) - Released on March 19, 2026 {/* #android-tella-2200228---released-on-mar-19-2026 */}
 - Improvements to the Tella Web connection to increase resilience against intermittent and slow connectivity:
   - Fixed bug: Auto-reports getting stuck in the Outbox.
   - Improved background submission: Ensures that submissions complete even if the app is in the background.
@@ -87,11 +87,11 @@ A detailed list of features available on each platform is [available here](/feat
 - Bug fixes and minor improvements:
   - Add contact info field to feedback form.
 
-#### Android: Tella 2.19.2 (227) - Released on March 12, 2026 {#android-tella-2192227---released-on-mar-12-2026}
+#### Android: Tella 2.19.2 (227) - Released on March 12, 2026 {/* #android-tella-2192227---released-on-mar-12-2026 */}
 - Hotfix: solved a bug that prevented new connections to Google Drive.
 
 
-#### Android: Tella 2.19.1 (226) - Released on March 5, 2026 {#android-tella-2191226---released-on-mar-5-2026}
+#### Android: Tella 2.19.1 (226) - Released on March 5, 2026 {/* #android-tella-2191226---released-on-mar-5-2026 */}
 - Fixed issues in the Uwazi connection:
     - Fixed an error in the URL verification for private Uwazi instances that was preventing users to connect to an Uwazi server.
     - Fixed a bug that caused templates not to be saved in the Submitted tab for submission to public Uwazi servers. 
@@ -103,7 +103,7 @@ A detailed list of features available on each platform is [available here](/feat
 - New Languages support: Mizo.
 - Updated translations: Chinese.
 
-#### Android: Tella 2.19.0 (225) - Released on February 19, 2026 {#android-tella-2190225---released-on-feb-19-2026}
+#### Android: Tella 2.19.0 (225) - Released on February 19, 2026 {/* #android-tella-2190225---released-on-feb-19-2026 */}
 - Fixed bug on Dropbox connection: some users were getting a "This app is not valid" error while connecting.
 - Added added lock-protection guidance for new users (in on-boarding) and while changing lock.
 - Added support for any file manager, so that users can import and export files from Tella if they choose not to use Google Files.
@@ -120,11 +120,11 @@ A detailed list of features available on each platform is [available here](/feat
     - Fixed bug when importing the same video twice to Tella.
     - Updated Recent Files list after deleting a file (the file was still showing and causing a crash when tapping on it).
 
-#### Android: Tella 2.18.2 (222) - Released on December 9, 2025 {#android-tella-21182222---released-on-dec-2-2025}
+#### Android: Tella 2.18.2 (222) - Released on December 9, 2025 {/* #android-tella-21182222---released-on-dec-2-2025 */}
 - Hotfix: Used least restrictive permissions for the Google Drive Connection in order to make it verifiable by Google.
 - Hotfix: Fixed the feature for exporting a single file out of the Tella encrypted vault (with or without verification information).
 
-#### Android: Tella 2.18.0 (220) - Released on November 28, 2025 {#android-tella-21180220---released-on-nov-28-2025}
+#### Android: Tella 2.18.0 (220) - Released on November 28, 2025 {/* #android-tella-21180220---released-on-nov-28-2025 */}
 - New language: Chinese.
 - Bug fixes:
     - Made Quick Delete button accessible for right-to-left languages.
@@ -140,7 +140,7 @@ A detailed list of features available on each platform is [available here](/feat
     - Updated connection's strings to match Google and Dropbox brand guidelines.
 
 
-#### Android: Tella 2.17.0 (211) - Released on August 22, 2025 {#android-tella-21170211---released-on-aug-22-2025}
+#### Android: Tella 2.17.0 (211) - Released on August 22, 2025 {/* #android-tella-21170211---released-on-aug-22-2025 */}
 - New language: Azerbaijani.
 - Uwazi connection:
     - Changed algorithm for generated id property, to match the one generated by Uwazi.
@@ -155,7 +155,7 @@ A detailed list of features available on each platform is [available here](/feat
     - Finalized work for edge-to-edge UI enforcement.
     - Fixed 2 app crashes: one related to the database and one related the shutter sound.
 
-#### Android: Tella 2.16.0 (204) - Released on May 26, 2025 {#android-tella-21160204---released-on-may-26-2025}
+#### Android: Tella 2.16.0 (204) - Released on May 26, 2025 {/* #android-tella-21160204---released-on-may-26-2025 */}
 - Multiple visual and accessibility improvements:
     - Updated the text of the "edit media" confirmation to make it clear that the edited file is saved as a copy.
     - Resolved a bug where the password cursor appeared in the middle of the input field.
@@ -183,11 +183,11 @@ A detailed list of features available on each platform is [available here](/feat
     - Fixed an issue where updating English-language strings didn't update translations. As a result of this fix, the translated percentage for some languages might decrease, but it will be more accurate.
 
 
-#### Android: Tella 2.15.1 (202) - Released on March 25, 2025 {#android-tella-2151202---released-on-march-25-2025}
+#### Android: Tella 2.15.1 (202) - Released on March 25, 2025 {/* #android-tella-2151202---released-on-march-25-2025 */}
 - Fixed a bug that caused imports to stop working across the app when the lock timeout was set to 5 minutes.
 - Fixed the favorite form shortcut on the home screen.
 
-#### Android: Tella 2.15.0 (200) - Released on March 5, 2025 {#android-tella-2150200---released-on-march-5-2025}
+#### Android: Tella 2.15.0 (200) - Released on March 5, 2025 {/* #android-tella-2150200---released-on-march-5-2025 */}
 - Added the possibility to zoom on images in the Tella vault.
 - Added Tsonga and Portuguese (Mozambique) language support.
 - Fixed an issue that was preventing the photo and video previews to show at the bottom of the camera.
@@ -207,7 +207,7 @@ A detailed list of features available on each platform is [available here](/feat
     - Do not allow recording an audio when a name is already taken.
     - Updated the text in the Quick Delete settings to say "Delete files" instead of "Delete vault".
 
-#### Android: Tella 2.14.0 (196) - Released on January 16, 2025 {#android-tella-2140196---released-on-january-16-2025}
+#### Android: Tella 2.14.0 (196) - Released on January 16, 2025 {/* #android-tella-2140196---released-on-january-16-2025 */}
 - Implemented the Nextcloud server connection that allows Tella users to upload the data they collect directly to Nextcloud. [Read more here about the connection](/nextcloud).
 - Added Bengali language support. [See language accessibility](/accessibility)
 - Bug-fixing and minor improvements:
@@ -218,10 +218,10 @@ A detailed list of features available on each platform is [available here](/feat
     - Fixed incorrect confirmation text for deleting a report in the outbox in any of the connections.
     - Added confirmation message after a report is successfully submitted to any connections.
 
-#### Android: Tella 2.13.1 (191) - Released on November 6, 2024 {#android-tella-2131-191---released-on-november-6-2024}
+#### Android: Tella 2.13.1 (191) - Released on November 6, 2024 {/* #android-tella-2131-191---released-on-november-6-2024 */}
 - Hotfix for the Dropbox connection. Previous build didn't allow connections to Dropbox.
 
-#### Android: Tella 2.13.0 (190) - Released on November 4, 2024 {#android-tella-2130-190---released-on-november-4-2024}
+#### Android: Tella 2.13.0 (190) - Released on November 4, 2024 {/* #android-tella-2130-190---released-on-november-4-2024 */}
 - Added support for the Dropbox connection that allows Tella users to upload the data they collect directly to their Dropbox account. [Read here more about the connection](/dropbox).
 - Bug fixes and minor improvements:
     - Fixed a bug where "Save to device" sometimes generated duplicated files.
@@ -237,7 +237,7 @@ A detailed list of features available on each platform is [available here](/feat
 
 
 
-#### Android: Tella 2.12.0 (188) - Released on October 21, 2024 {#android-tella-2120-188---released-on-october-21-2024}
+#### Android: Tella 2.12.0 (188) - Released on October 21, 2024 {/* #android-tella-2120-188---released-on-october-21-2024 */}
 - Added support for the Google Drive Connection that allows Tella users to upload the data they collect directly to either a personal Google Drive folder or to any organizational Shared Drives they are connected to. [Read more about the Google Drive Connection here](/g-drive).
 - Added more metrics to our [opt-in privacy-preserving analytics](/security-and-privacy#analytics) to better understand usage patterns of Tella.
 - Bug fixes and minor improvements:
@@ -249,7 +249,7 @@ A detailed list of features available on each platform is [available here](/feat
 
 
 
-#### Android: Tella 2.11.0 (186) - Released on September 18, 2024 {#android-tella-2110-186---released-on-september-18-2024}
+#### Android: Tella 2.11.0 (186) - Released on September 18, 2024 {/* #android-tella-2110-186---released-on-september-18-2024 */}
 - Added new options to edit photos within Tella's encrypted container: [Zoom and Flip](/features#edit-media).
 - Bug-fixing and small improvements:
     - Disabled clear-text trafic in the manifest.
@@ -264,7 +264,7 @@ A detailed list of features available on each platform is [available here](/feat
 
 
 
-#### Android: Tella 2.10.0 (185) - Released on Agust 5, 2024 {#android-tella-2100-185---released-on-aug-5-2024}
+#### Android: Tella 2.10.0 (185) - Released on Agust 5, 2024 {/* #android-tella-2100-185---released-on-aug-5-2024 */}
 - Added support for the relationship property type in the Uwazi connection.
 - Added Vietnamese language support and updated other languages' translations.
 - Added support for [privacy preserving analytics (opt-in)](/features#privacy-preserving-analytics). 
@@ -286,7 +286,7 @@ A detailed list of features available on each platform is [available here](/feat
     - The Verification Information CSV file is now properly attached when sharing a file that includes Verification Information.
 
 
-#### Android: Tella 2.9.0 (183) - Released on July 15, 2024 {#android-tella-290-183---released-on-jul-15-2024}
+#### Android: Tella 2.9.0 (183) - Released on July 15, 2024 {/* #android-tella-290-183---released-on-jul-15-2024 */}
 
 - **Database Migration from SQLCipher 3 to SQLCipher 4.6.0**: This migration enhances the security, performance, and compatibility of our database system.
   - **KDF Algorithm**: Upgraded from PBKDF2-HMAC-SHA1 with 4,000 iterations to PBKDF2-HMAC-SHA512 with 256,000 iterations.
@@ -297,14 +297,14 @@ A detailed list of features available on each platform is [available here](/feat
   - **Compatibility and Performance**: Enhanced performance and compatibility with the latest SQLite versions.
 - **Added a Backup Mechanism**: In case the data migration fails. All the information inside Tella should be correctly migrated, but if you are facing any issues, please [contact us](/contact-us).
 
-#### Android: Tella 2.8.0 (178) - Released on June 21, 2024 {#android-tella-280-178---released-on-jun-17-2024}
+#### Android: Tella 2.8.0 (178) - Released on June 21, 2024 {/* #android-tella-280-178---released-on-jun-17-2024 */}
 - Implemented [background encryption](/features#background-encryption) so users can continue collecting data, taking photos, videos, and audio, and importing files while the encryption process takes place. 
 - Added a background activity tray so users can check the progress of file encryption.
 - Ahead of major changes in the next release, we added a warning to advise users to back-up sensitive files outside Tella, in case the migration fails and some of the files become non-accessible. See below for more information on the upcoming changes and guidance on how to back-up files.
 - The top bar now automatically hides when scrolling a PDF for easier reading.
 - Upgraded http protocol (okhttp3 library).
  
-##### Upcoming changes and guidance to back-up files {#upcoming-changes-and-guidance-to-back-up-files}
+##### Upcoming changes and guidance to back-up files {/* #upcoming-changes-and-guidance-to-back-up-files */}
 The next release of Tella Android will include an update to the library used to save encrypted information encrypted in the database (SQLcipher). While we are doing our best to ensure the update to the new version happens smoothly, there is a small risk that some files are lost in the process. For users who are storing sensitive files in Tella, we strongly suggest to back-up these files to a location outside of Tella. This way, if something happens when updating Tella, those files will not be lost. 
 
 To export files outside of Tella and save them on your phone:
@@ -326,17 +326,17 @@ If you prefer sharing your files through another app:
 If you have questions or need additional support, don't hesitate to reach out at contact@tella-app.org
 
 
-#### Android: Tella 2.7.1 (175) - Released on May 2, 2024 {#android-tella-271-175---released-on-may-2-2024}
+#### Android: Tella 2.7.1 (175) - Released on May 2, 2024 {/* #android-tella-271-175---released-on-may-2-2024 */}
 - Fixed crash when accessing the Audio folder from the Microphone.
 
 
-#### Android: Tella 2.7.0 (174) - Released on April 16, 2024 {#android-tella-270-174---released-on-march-16-2024}
+#### Android: Tella 2.7.0 (174) - Released on April 16, 2024 {/* #android-tella-270-174---released-on-march-16-2024 */}
 - Added support for a content distribution feature that allow organizations to securely disseminate resources and materials from a Tella Web space to their on-the-ground users directly within Tella's encrypted container. This includes creating PDFs on Tella Web and sharing training material, guides for data collection, or documents. Resources can be accesed offline after download. More information [here](/tella-web#managing-resources).
 - Technical maintanance tasks:
   - Fixed a bug that caused a crash when using the geolocation service.
   - The navigation within the Tella Web feature has been refactored for better stability and scalability.
 
-#### Android: Tella 2.6.0 (172) - Released on February 19, 2024 {#android-tella-260-172---released-on-february-19-2024}
+#### Android: Tella 2.6.0 (172) - Released on February 19, 2024 {/* #android-tella-260-172---released-on-february-19-2024 */}
 - Added support for PDF files in Tella vault and as attachments on Tella Web's Reports.
 - Bugfixes:
   - Editing a file inside a folder now saves the copy in the same location.
@@ -346,7 +346,7 @@ If you have questions or need additional support, don't hesitate to reach out at
   - Upgraded project dependencies. Updated [documentation](/faq#what-phones-support-tella) with Android support information.
 
 
-#### Android: Tella 2.5.0 (170) - Released on January 10, 2024 {#android-tella-250-170---released-on-january-10-2024}
+#### Android: Tella 2.5.0 (170) - Released on January 10, 2024 {/* #android-tella-250-170---released-on-january-10-2024 */}
 - **Accessibility Improvements:**
   - Added new settings to enable/disable text justification and adjust line spacing within the app.
   - Updated colors to ensure Tella complies with WCAG AAA guidelines for sufficient contrast.
@@ -359,10 +359,10 @@ If you have questions or need additional support, don't hesitate to reach out at
   - Resolved navigation issues related to the back button.
   - Loaded new translations.
 
-#### Android: Tella 2.4.1 (165) - Released on December 12, 2023 {#android-tella-241-165---released-on-december-12-2023}
+#### Android: Tella 2.4.1 (165) - Released on December 12, 2023 {/* #android-tella-241-165---released-on-december-12-2023 */}
 - Fixed a bug that rested user settings when changing the language. 
 
-#### Android: Tella 2.4.0 (164) - Released on November 2, 2023 {#android-tella-240-164---released-on-november-2-2023}
+#### Android: Tella 2.4.0 (164) - Released on November 2, 2023 {/* #android-tella-240-164---released-on-november-2-2023 */}
 - accessibility Improvements: Users can navigate sequentially through content, and all validation errors and messages to users are announced by screen readers.
 - Edit media: Users can crop and rotate images whithin Tella's encrypted container. [Read more.](/features#edit-media)
 - Bug fixes: Fixed % bug on Calculator Camouflage, crashes and navigation issues.
@@ -370,11 +370,11 @@ If you have questions or need additional support, don't hesitate to reach out at
 
 Tella 2.4.0 hides the Delete Tella option on the Quick Delete settings for phones that do not support it. We will be working on a fix for this issue on the next release. 
 
-#### Android: Tella 2.3.0 (158) - Released on September 20, 2023 {#android-tella-230-158---released-on-september-20-2023}
+#### Android: Tella 2.3.0 (158) - Released on September 20, 2023 {/* #android-tella-230-158---released-on-september-20-2023 */}
 - Added the ability to erase all content in Tella after a custom number of unlocking attempts. We added a security setting that allows user to choose the  number of failed unlocking attempts and whether Tella shows a visual indicator of the remaining unlocking attempts or not.
 - Bugfixes for the Uwazi connection on Date and Geolocation fields.
 
-#### Android 2.2.1(156) - July 14, 2023 {#android-221156---july-14-2023}
+#### Android 2.2.1(156) - July 14, 2023 {/* #android-221156---july-14-2023 */}
 - New languages: Kurdish and Persian
 - Automatically upload media files to Tella Web as soon as they are captured
 - Automatically delete media files as soon as they are auto-uploaded to Tella Web
@@ -383,7 +383,7 @@ Tella 2.4.0 hides the Delete Tella option on the Quick Delete settings for phone
 - Added the option to preserve metadata when importing files to Tella.
 
 
-#### Android 2.1.0(152) - May 16, 2023 {#android-210152---may-16-2023}
+#### Android 2.1.0(152) - May 16, 2023 {/* #android-210152---may-16-2023 */}
 
 Lauched Reports, a quick way to back-up media files to your organization's server (if you work with an organization):
 - Connect to a Tella Web project in Settings > Servers
@@ -394,17 +394,17 @@ Also in this update:
 - The possibility to delete the original file from the phone's file system after importing it into Tella.
 
 
-### iOS {#ios-previous}
+### iOS {/* #ios-previous */}
 
-#### iOS: Tella 1.19.2 (132) - Released on April 13, 2026 {#ios-tella-1192-132---released-on-april-13-2026}
+#### iOS: Tella 1.19.2 (132) - Released on April 13, 2026 {/* #ios-tella-1192-132---released-on-april-13-2026 */}
 - Hotfix: Translations now load automatically (without reloading the app).
 - Hotfix: Added missing translation tags.
 
-#### iOS: Tella 1.19.1 (130) - Released on April 7, 2026 {#ios-tella-1191-130---released-on-april-7-2026}
+#### iOS: Tella 1.19.1 (130) - Released on April 7, 2026 {/* #ios-tella-1191-130---released-on-april-7-2026 */}
 - Hotfix: Connection to some Tella Web project was failing, because of an old unused API parameter.
 
 
-#### iOS: Tella 1.19.0 (129) - Released on March 19, 2026 {#ios-tella-1190-129---released-on-march-19-2026}
+#### iOS: Tella 1.19.0 (129) - Released on March 19, 2026 {/* #ios-tella-1190-129---released-on-march-19-2026 */}
 - Improvements to the Tella Web connection to increase resilience against intermittent and slow connectivity:
   - Fixed bug: Auto-reports getting stuck in the Outbox.
   - Improved background submission: Ensures that submissions complete even if the app is in the background.
@@ -418,7 +418,7 @@ Also in this update:
   - Only show the "your draft will be lost" warning if there is actually changes to be lost.
   - Add contact info field to feedback form.
 
-#### iOS: Tella 1.18.0 (114) - Released on January 30, 2026 {#ios-tella-1180-114---released-on-jan-30-2026}
+#### iOS: Tella 1.18.0 (114) - Released on January 30, 2026 {/* #ios-tella-1180-114---released-on-jan-30-2026 */}
 - Completed onboarding tutorial for iOS and added lock-protection guidance for new users.
 - Refactored permissions, prioritizing user's privacy:
     - Sunsetting submissions to a Shared Drive folder for the Google Drive Connection: the amount of permissions that users needed to grant to Google to allow Tella to submit directly to a Shared Drive was too broad, and unacceptable for the Tella users' context.
@@ -427,10 +427,10 @@ Also in this update:
     - Solved an issue that prevented the Quick Delete button to be triggered in Right-To-Left languages.
     - Solved image editing view for iOS 26+.
 
-#### iOS: Tella 1.17.1 (111) - Released on December 16, 2025 {#ios-tella-1171-111---released-on-dec-16-2025}
+#### iOS: Tella 1.17.1 (111) - Released on December 16, 2025 {/* #ios-tella-1171-111---released-on-dec-16-2025 */}
 - Hotfix: Adapt code to allow missing properties on the Uwazi Server connection, this solves the issue that prevented some users to connect to certain Uwazi servers.
 
-#### iOS: Tella 1.17.0 (109) - Released on November 20, 2025 {#ios-tella-1170-109---released-on-nov-20-2025}
+#### iOS: Tella 1.17.0 (109) - Released on November 20, 2025 {/* #ios-tella-1170-109---released-on-nov-20-2025 */}
 - New language: Chinese.
 - Implemented onboarding flow for iOS.
 - Technical maintenance task to be able to support iOS 26.
@@ -441,13 +441,13 @@ Also in this update:
     - Improved explanations for quick delete and add a default value.
     - Improved file bottom sheet by showing the full file name in the bottom sheet.
 
-#### iOS: Tella 1.16.0 (98) - Released on Aug 4, 2025 {#ios-tella-1160-98---released-on-aug-4-2025}
+#### iOS: Tella 1.16.0 (98) - Released on Aug 4, 2025 {/* #ios-tella-1160-98---released-on-aug-4-2025 */}
 - New language: Azerbaijani.
 - Bug fixes and minor improvements:
     - Solved a bug that prevented trimmed audios to be saved.
     - Solved issue on Google Drive connection.
 
-#### iOS: Tella 1.15.0 (96) - Released on May 20, 2025 {#ios-tella-1150-96---released-on-may-20-2025}
+#### iOS: Tella 1.15.0 (96) - Released on May 20, 2025 {/* #ios-tella-1150-96---released-on-may-20-2025 */}
 - New language support: Ndau.
 - Implemented Rotate Video.
 - Make Play button only play the selection while editing Audio or Video.
@@ -455,7 +455,7 @@ Also in this update:
     - Removed duplicated navigation bar for documents.
 
 
-#### iOS: Tella 1.14.0 (92) - Released on March 6, 2025 {#ios-tella-1140-92---released-on-march-6-2025}
+#### iOS: Tella 1.14.0 (92) - Released on March 6, 2025 {/* #ios-tella-1140-92---released-on-march-6-2025 */}
 - Fixed preview of HEIC files.
 - Added Indonesian, Tsonga and Portuguese (Mozambique) language support.
 - Implemented limited access to photo gallery.
@@ -478,7 +478,7 @@ Also in this update:
     - Made all elements on the homescreen scrollable, do not keep connections and recent files fixed on the top.
 
 
-#### iOS: Tella 1.13.0 (88) - Released on Junuary 6, 2025 {#ios-tella-1130-88---released-on-juanuary-6-2025}
+#### iOS: Tella 1.13.0 (88) - Released on Junuary 6, 2025 {/* #ios-tella-1130-88---released-on-juanuary-6-2025 */}
 - Added the possibility to trim videos directly inside Tella's encrypted container. [Read more about editing media in Tella](/features#edit-media).
 - Added Bengali language support. [See language accessibility](/accessibility).
 - Bug-fixing and minor improvements:
@@ -487,7 +487,7 @@ Also in this update:
 
 
 
-#### iOS: Tella 1.12.0 (84) - Released on November 27, 2024 {#ios-tella-1120-84---released-on-november-27-2024}
+#### iOS: Tella 1.12.0 (84) - Released on November 27, 2024 {/* #ios-tella-1120-84---released-on-november-27-2024 */}
 - Added support for the Dropbox connection that allows Tella users to upload the data they collect directly to their Dropbox account. [Read more here about the connection](/dropbox).
 - Added the possibility to trim audios directly inside Tella's encrypted container. [Read more about editing media in Tella](/features#edit-media)
 - Bug-fixing and minor improvements:
@@ -499,7 +499,7 @@ Also in this update:
     - Adapted quick delete options to also delete connections data for new connections.
 
 
-#### iOS: Tella 1.11.0 (81) - Released on October 21, 2024 {#ios-tella-1110-81---released-on-october-21-2024}
+#### iOS: Tella 1.11.0 (81) - Released on October 21, 2024 {/* #ios-tella-1110-81---released-on-october-21-2024 */}
 - Implemented the Nextcloud server connection that allows Tella users to upload the data they collect directly to Nextcloud. [Read more about the Connection here](/nextcloud).
 - Bug-fixing and small improvements:
     - Fixed the progress view and cancel action for large files in the Report view in all Connections.
@@ -511,14 +511,14 @@ Also in this update:
     - Deleted unused WebView class that was flagged in the latest security audit.
 
 
-#### iOS: Tella 1.10.0 (79) - Released on September 11, 2024 {#ios-tella-1100-79---released-on-september-11-2024}
+#### iOS: Tella 1.10.0 (79) - Released on September 11, 2024 {/* #ios-tella-1100-79---released-on-september-11-2024 */}
 - Implemented the Google Drive server connection that allows Tella users to upload the data they collect directly to either their personal Google Drive folder or to any organizational shared drives they are connected to. [Read here more about the integration](/g-drive).
 - Added support for Vietnamese.
 - Bug-fixing and small improvements:
     - Fixed issue with primary files submission in Uwazi.
     - Fixed issue when deleting submitted entities in Uwazi (name was changed).
 
-#### iOS: Tella 1.9.0 (75) - Released on June 25, 2024 {#ios-tella-190-75---released-on-june-25-2024}
+#### iOS: Tella 1.9.0 (75) - Released on June 25, 2024 {/* #ios-tella-190-75---released-on-june-25-2024 */}
 - Added support for the relationship property type in the Uwazi connection.
 - Added offline support for the Uwazi server connection (Drafts, Outbox and Submitted tabs). More details [here](/uwazi).
 -  Bug fixing and small improvements:
@@ -532,7 +532,7 @@ Also in this update:
     - Keyboard was over text fields when renaming audio, folders or files.
 
 
-#### iOS: Tella 1.8.0 (70) - Released on June 3, 2024 {#ios-tella-180-70---released-on-june-3-2024}
+#### iOS: Tella 1.8.0 (70) - Released on June 3, 2024 {/* #ios-tella-180-70---released-on-june-3-2024 */}
 -  Edit media: Users can crop and rotate images within Tella's encrypted container. [Read more](/features#edit-media).
 - Bug fixes:
   - Placeholder with current name missing from rename file while recording.
@@ -540,7 +540,7 @@ Also in this update:
   - Show attempts selected on the "Delete after failed unlock" and a handle longer languages.
   - Solved UI issue in the label when creating PIN when installing Tella (only in iOS 14).
 
-#### iOS: Tella 1.7.0 (67) - Released on May 2, 2024 {#ios-tella-170-67---released-on-may-2-2024}
+#### iOS: Tella 1.7.0 (67) - Released on May 2, 2024 {/* #ios-tella-170-67---released-on-may-2-2024 */}
 - Added support for a content distribution feature that allow organizations to securely disseminate resources and materials from a Tella Web space to their on-the-ground users directly within Tella's encrypted container. This includes creating PDFs on Tella Web and sharing training material, guides for data collection, or documents. Resources can be accessed offline after download. More information [here](/tella-web#managing-resources).
 - Technical maintenance tasks and bug-fixing:
   - Keep Tella on foreground (do not let it go to sleep) while encryption is in progress.
@@ -548,7 +548,7 @@ Also in this update:
   - Allow users to select  today's date on the Date field in the Uwazi connection.
 
 
-#### iOS: Tella 1.6.0 (66) - Released on April 8, 2024 {#ios-tella-160-66---released-on-april-8-2024}
+#### iOS: Tella 1.6.0 (66) - Released on April 8, 2024 {/* #ios-tella-160-66---released-on-april-8-2024 */}
 - Implemented [background encryption](/features#background-encryption) so users can continue collecting data while the encryption process takes place. 
   - Added a background activity tray so users can check the progress of file's encryption.
   - Moved the settings button to the bottom navigation (top right) to make space for the new notifications button, which opens the background activity tray (top left)
@@ -556,16 +556,16 @@ Also in this update:
 - Fixed a bug that prevented big files (more than 1GB) to be saved into Tella vault.
 
 
-#### iOS: Tella 1.5.1 (63) - Released on March 8, 2024 {#ios-tella-151-63---released-on-march-8-2024}
+#### iOS: Tella 1.5.1 (63) - Released on March 8, 2024 {/* #ios-tella-151-63---released-on-march-8-2024 */}
 - Fixed bug on the Uwazi server connection for private Uwazi instances.
 
-#### iOS: Tella 1.5.0 (62) - Released on February 19, 2024 {#ios-tella-150-62---released-on-february-19-2024}
+#### iOS: Tella 1.5.0 (62) - Released on February 19, 2024 {/* #ios-tella-150-62---released-on-february-19-2024 */}
 - **Uwazi server connection**: We added the possibility for users to connect to an Uwazi server to send the data they collect using Tella. We include Text, Numeric, Date, Rich Text, Media and Select fields. You can read more details about the new server connection and the supported features and properties on the [Uwazi documentation page.](/uwazi).
 - Improved the confirmation message when deleting multiple files and folders.
 - Added language support: Portuguese and Russian.
 
 
-#### iOS: Tella 1.4.0 (59) - Released on January 9, 2024 {#ios-tella-140-59---released-on-january-9-2024}
+#### iOS: Tella 1.4.0 (59) - Released on January 9, 2024 {/* #ios-tella-140-59---released-on-january-9-2024 */}
 - **Anonymous In-App Feedback:**
   - Introduced an anonymous [feedback method](/features#feedback) for users. This feature allows users to send messages to the Tella team when they are unable to [contact us](/contact-us) through other channels.
 
@@ -577,24 +577,24 @@ Also in this update:
   - Loaded new translations.
 
 
-#### iOS: Tella 1.3.0 (54) - Released on Septemeber 18, 2023 {#ios-tella-130-54---released-on-septemeber-18-2023}
+#### iOS: Tella 1.3.0 (54) - Released on Septemeber 18, 2023 {/* #ios-tella-130-54---released-on-septemeber-18-2023 */}
 - Added the ability to erase all content in Tella after a custom number of unlocking attempts. We added a security setting that allows user to choose the  number of failed unlocking attempts and whether Tella shows a visual indicator of the remaining unlocking attempts or not.
 - Added the possibility to preserve metadata when importing files into Tella
 - Fixed a bug that prevented videos from being deleted from the device when imported into Tella. 
 
 
 
-#### iOS 1.2(49) - July 14, 2023 {#ios-1249---july-14-2023}
+#### iOS 1.2(49) - July 14, 2023 {/* #ios-1249---july-14-2023 */}
 - New languages: Kurdish, Persian, Belarusian, Arabic, Tamil and Burmese
 - Automatically upload media files to Tella Web as soon as they are captured
 - Automatically delete media files as soon as they are auto-uploaded to Tella Web
 - Background submission of Reports.
 
 
-#### iOS 1.1.2(46) - June 20, 2023 {#ios-11246---june-20-2023}
+#### iOS 1.1.2(46) - June 20, 2023 {/* #ios-11246---june-20-2023 */}
 Fixed the [missing files incident](/incident-ios-files).
 
-#### iOS 1.1(43) - May 17, 2023 {#ios-1143---may-17-2023}
+#### iOS 1.1(43) - May 17, 2023 {/* #ios-1143---may-17-2023 */}
 
 Launched Reports, a quick way to back-up media files to your organization's server (if you work with an organization):
 - Connect to a Tella Web project in Settings > Servers
@@ -605,9 +605,9 @@ Also in this update:
 - Configure a quick delete button to erase the content of Tella in an emergency.
 
 
-### Android FOSS {#android-foss-previous}
+### Android FOSS {/* #android-foss-previous */}
 
-#### Android: Tella FOSS 3.0.0 (237) (based on Android 3.0.0) - Released on May 20, 2026 {#android-tella-foss-300237-based-on-android-300---released-on-may-20-2026}
+#### Android: Tella FOSS 3.0.0 (237) (based on Android 3.0.0) - Released on May 20, 2026 {/* #android-tella-foss-300237-based-on-android-300---released-on-may-20-2026 */}
 - Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files in physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
 - Implemented security fixes detected by our most recent security audit (to be published soon!).
 - New languages support: Ukrainian.
@@ -620,7 +620,7 @@ Also in this update:
 
 
 
-#### Android: Tella FOSS 2.20.2(233) (based on Android 2.20.2) - Released on April 22, 2026 {#android-tella-foss-2202-based-on-android-2202---released-on-april-22-2026}
+#### Android: Tella FOSS 2.20.2(233) (based on Android 2.20.2) - Released on April 22, 2026 {/* #android-tella-foss-2202-based-on-android-2202---released-on-april-22-2026 */}
 
 We updated Tella FOSS, the version of Tella published on F-Droid that is 100% Free and Open-Source Software (FOSS). This updated version includes open-source map, location provider and Camera libraries. It doesn't include crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. 
 
@@ -638,7 +638,7 @@ This version is based on Tella Android 2.20.2 and includes the following feature
 - Multiple bug fixes and minor improvements, prioritizing stability and accessibility. 
 
 
-#### Android: Tella FOSS 2.11.0 (based on Android 2.11.0) - Released on February 25, 2025 {#android-tella-foss-2110-based-on-android-2110---released-on-february-25-2025}
+#### Android: Tella FOSS 2.11.0 (based on Android 2.11.0) - Released on February 25, 2025 {/* #android-tella-foss-2110-based-on-android-2110---released-on-february-25-2025 */}
 
 We updated Tella FOSS, the version of Tella published on F-Droid that is 100% Free and Open-Source Software (FOSS). This updated version includes open-source map, location provider and Camera libraries. It doesn't include crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We completely removed all Google Play Services dependencies.
 
@@ -658,6 +658,6 @@ This version is based on Tella Android 2.11.0 and includes the following feature
 A detailed list of features available on each platform is [available here](/features).
 
 
-#### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {#android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023}
+#### Android: Tella FOSS 2.0.15 (based on Android 2.0.15) - Released on July 10, 2023 {/* #android-tella-foss-2015-based-on-android-2015---released-on-july-10-2023 */}
 
 A version of Tella included for the first time on the F-droid store. This a 100% Free and Open-Source Software (FOSS) version of Tella Android. We removed all trackers, changed map and location provider and also changed the Camera library to CameraX, removed crashlytics, LoggingInterceptor and any other non-FOSS component or dependency. We removed completely all Google Play Services dependencies.

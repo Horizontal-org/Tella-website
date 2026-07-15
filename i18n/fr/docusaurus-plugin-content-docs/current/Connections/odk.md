@@ -23,7 +23,7 @@ Even though data is transferred to the server securely (SSL), anyone with access
 :::
 
 
-### Choisir et installer votre serveur central ODK  {#choosing-and-installing-your-odk-central-server}
+### Choisir et installer votre serveur central ODK {/* #choosing-and-installing-your-odk-central-server */}
 
 ODK étant une norme ouverte, Tella peut être utilisée avec n'importe quel outil compatible avec ODK.
 
@@ -36,7 +36,7 @@ We are work closely with the Kobotoolbox team. If you are interested in using th
 Il existe d'autres applications compatibles avec ODK, comme [Ona](https://ona.io/home/) ou [ODK Cloud](https://https://getodk.org/index.html). Tella est compatible avec toutes ces applications. Si vous avez besoin d'aide, [contactez-nous](contact-us) pour que nous vous aidions à sélectionner le serveur le mieux adapté à vos besoins.
 
 
-### Quand utiliser ODK {#when-to-use-odk}
+### Quand utiliser ODK {/* #when-to-use-odk */}
 
 Nous recommandons ODK aux organisations qui ont besoin d'utilisateurs et utilisatrices sur le terrain pour collecter des données de manière structurée, comme des formulaires. Nous le recommandons également aux organisations qui n'ont pas la capacité technique d'installer et de maintenir un serveur et qui souhaitent utiliser une instance cloud prête à l'emploi. Si vous utilisez une instance cloud, n'oubliez pas que l'organisation hébergeant votre instance ODK pourra accéder à vos données. Il s'agit d'une considération importante au moment de décider s'il faut s'auto-héberger ou utiliser un service cloud.
 
@@ -46,11 +46,11 @@ ODK et KoboToolbox sont largement répandus, bien documentés et faciles à util
 If you need help figuring out if ODK is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
 :::
 
-## Modélisez vos données {#model-your-data}
+## Modélisez vos données {/* #model-your-data */}
 
 KoboToolbox propose un guide détaillé sur comment créer votre projet et ajouter des questions à vos formulaires, ainsi que sur la façon de les déployer pour les rendre accessibles aux utilisateurs et utilisatrices sur le terrain [ici](https://support.kobotoolbox.org/overview_of_creating_a_project.html).
 
-## Connecter Tella à une instance ODK pour collecter des données {#connect-tella-to-an-odk-instance-to-collect-data}
+## Connecter Tella à une instance ODK pour collecter des données {/* #connect-tella-to-an-odk-instance-to-collect-data */}
 
 Dans cette documentation, nous nous concentrons sur la façon de collecter des données à l'aide de Tella. Il existe des applications mobiles alternatives qui peuvent être utilisées pour collecter des données sur ODK, notamment Android ODK Collect. Nous vous proposons une comparaison de ces alternatives [ici](/faq#how-is-tella-different-from-other-documentation-apps).
 
@@ -58,7 +58,7 @@ Dans cette documentation, nous nous concentrons sur la façon de collecter des d
 La connexion ODK n'est pas disponible pour Tella iOS.
 :::
 
-### Se connecter à un serveur ODK {#connect-to-an-odk-server}
+### Se connecter à un serveur ODK {/* #connect-to-an-odk-server */}
 
 Après avoir créé et déployé un formulaire à l'aide de n'importe quel serveur compatible ODK, dans Tella, allez dans **Paramètres** > **Connexions** > **+** > **Open Data Kit (ODK)**. Remplissez les champs suivants:
 - **Nom du serveur**: un nom descriptif pour votre serveur dans Tella. Le nom que vous sélectionnez n'est visible que dans l'application et n'a aucun impact sur la connexion ODK.
@@ -66,7 +66,7 @@ Après avoir créé et déployé un formulaire à l'aide de n'importe quel serve
 - Si votre serveur nécessite une authentification utilisateur, appuyez sur le bouton **Avancé** et saisissez votre **Nom d'utilisateur** et votre **Mot de passe**. L'admin de votre serveur doit vous fournir toutes ces informations.
 
 
-### Remplir les formulaires {#fill-forms}
+### Remplir les formulaires {/* #fill-forms */}
 
 Après que vous vous soyez connecté avec succès à l'instance ODK, vous verrez apparaître dans les sections **Connexions** de l'écran d'accueil de Tella une nouvelle carte appelée "Formulaires".
 
@@ -75,7 +75,7 @@ Après avoir accédé à la section **Formulaires**, vous verrez une liste des f
 Vous pouvez appuyer sur chaque formulaire vierge pour commencer à le remplir.
 
 
-#### Soumettre les formulaires {#submit-forms}
+#### Soumettre les formulaires {/* #submit-forms */}
 
 Au fur et à mesure que vous collectez des données et remplissez des formulaires, les options suivantes sont disponibles pour augmenter le support hors ligne sur Tella:
 
@@ -88,7 +88,7 @@ Au fur et à mesure que vous collectez des données et remplissez des formulaire
 - Suspendre/Reprendre la soumission: vous pouvez suspendre manuellement une soumission et la reprendre lorsque vous êtes prêt.
 - Suspendre automatiquement la soumission en mode hors connexion: les formulaires seront envoyés vers l'onglet Boîte d'envoi si la soumission échoue en raison de problèmes de connectivité.
 
-### Types de questions pris en charge {#supported-question-types}
+### Types de questions pris en charge {/* #supported-question-types */}
 
 Vous trouverez ci-dessous un aperçu des types de questions ODK pris en charge dans Tella Android. S'il existe un type de question qui n'est pas pris en charge dans Tella et qui est essentiel à votre flux de travail, [contactez-nous](/contact-us).
 
@@ -122,7 +122,7 @@ Vous trouverez ci-dessous un aperçu des types de questions ODK pris en charge d
 | Intervalle | Non |
 | XML externe | Non |
 
-### Fonctionnalités supportées {#supported-features}
+### Fonctionnalités supportées {/* #supported-features */}
 
 Voici un aperçu des fonctionnalités ODK compatibles avec Tella Android. S'il existe une fonctionnalité non supportée dans Tella et qui est essentielle à votre flux de travail, [contactez-nous](/contact-us).
 

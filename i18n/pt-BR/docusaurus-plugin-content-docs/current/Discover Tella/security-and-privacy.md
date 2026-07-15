@@ -11,7 +11,7 @@ sidebar_position: 2
 O Tella foi construído para proteger aqueles que encaram repressão física e digital. Assim, todas as funcionalidades do Tella e decisões sobre o produto são feitas com a privacidade e a segurança em vista. O Tella é auditado regularmente por empresas de segurança independentes e as funcionalidades e a documentação são projetadas com apoio e orientação de profissionais de segurança.
 
 
-## Privacidade {#privacy}
+## Privacidade {/* #privacy */}
 
 Somente coletamos a quantidade mínima de dados necessária para realizar o propósito do Tella. **Nós nunca coletamos informações pessoais identificáveis. Nós nunca revelamos, compartilhamos ou vendemos nenhum de seus dados para terceiros**.
 
@@ -20,22 +20,22 @@ Ao usar nosso aplicativo, usuários podem enviar dados para servidores gerenciad
 Você pode ler por inteiro a [Política de Privacidade](/privacy) do Tella.
 
 
-### Tella para Android {#tella-android}
+### Tella para Android {/* #tella-android */}
 
 Tella para Android, conforme disponível na Google Play Store, inclui dois rastreadores,  [Google CrashLytics](https://firebase.google.com/docs/crashlytics) e [Google Firebase Analytics](https://firebase.google.com/docs/analytics), os quais nos auxiliam na detecção de bugs e travamentos. Isso é essencial para manter o aplicativo seguro e eficaz para usuários em risco.
 
-### Tella-FOSS {#tella-foss}
+### Tella-FOSS {/* #tella-foss */}
 
 O [Tella-FOSS](/faq#is-tella-available-on-f-droid), publicado na [loja F-droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/), não contém rastreador algum.
 
 
-### Tella para iOS {#tella-ios}
+### Tella para iOS {/* #tella-ios */}
 
 O [Tella para iOS](https://apps.apple.com/us/app/tella-document-protect/id1598152580) não inclui rastreador algum.
 
 As a result of Apple’s strict iOS app policies, Tella for iOS is currently not available on alternative app stores or for manual install.
 
-## Análises de uso {#analytics}
+## Análises de uso {/* #analytics */}
 
 In Tella Android, Tella FOSS and [Tella Web](/tella-web), users can choose to share analytics to improve Tella. This data helps us understand how people use Tella and which features are important to them. ***Analytics data is only collected if users opt-in in the app's settings***
 
@@ -67,7 +67,7 @@ Here are some information about our privacy-preserving analytics approach:
    For more information about the metrics we add to our apps, check out our [release notes](/releases).
 
 
-## Funcionalidades de segurança {#security-features}
+## Funcionalidades de segurança {/* #security-features */}
 
 O Tella integra várias medidas de segurança estruturadas para atingir um nível aceitável de segurança:
 
@@ -89,7 +89,7 @@ Saiba mais sobre Funcionalidades de Segurança pelo nosso [tutorial em vídeo](/
 :::
 
 
-## Limitações de segurança {#security-limitations}
+## Limitações de segurança {/* #security-limitations */}
 
 Não existe um aplicativo 100% "seguro." A segurança depende das ameaças e riscos enfrentados por cada usuário e das capacidades dos adversários. Com o Tella, fizemos nosso melhor para adicionar o maior número de camadas de segurança possível para reduzir a probabilidade de alguém conseguir detectar o aplicativo ou acessar os dados dele. Aqui, listamos todos os riscos e limitações de segurança importantes dos quais os usuários devem estar cientes ao usar o Tella:
 
@@ -104,7 +104,7 @@ Não existe um aplicativo 100% "seguro." A segurança depende das ameaças e ris
     * A importação de um arquivo cria uma cópia dele e então o importa e criptografa dentro do Tella. Nas versões 1.1(iOS) e 2.1(Android), desenvolvemos uma funcionalidade para os usuários selecionarem se desejam manter ou excluir o arquivo original no momento da importação para o Tella. No entanto, recomendamos que verifique se o arquivo original não está presente na Lixeira (Meus arquivos > Lixeira) e exclua o arquivo de quaisquer serviços de backup automático habilitados no seu telefone (Google Photos, Dropbox, etc.).
 
 
-## Auditorias de segurança {#security-audits}
+## Auditorias de segurança {/* #security-audits */}
 
 Solicitamos regularmente a empresas de segurança independentes que auditem nosso código para garantir que ele seja robusto e seguro.
 

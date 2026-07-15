@@ -21,11 +21,11 @@ slug: /uwazi
 Even though data is transferred to the server securely (SSL), anyone with access to the Uwazi account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
 :::
 
-### اختبار Uwazi {#testing-uwazi}
+### اختبار Uwazi {/* #testing-uwazi */}
 
 يمكنك اختبار Uwazi باستخدام [هذا المثيل التجريبي](https://demo.uwazi.io/).
 
-### متى يُستخدَم Uwazi {#when-to-use-uwazi}
+### متى يُستخدَم Uwazi {/* #when-to-use-uwazi */}
 
 نوصي باستخدام Uwazi بالنسبة للمنظمات التي تحتاج إلى مستخدمين على أرض الواقع لجمع البيانات بطريقة منظمة من خلال الاستمارات.
 
@@ -49,7 +49,7 @@ Even though data is transferred to the server securely (SSL), anyone with access
 If you need help figuring out if Uwazi is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
 :::
 
-## تهيئة Uwazi على الخادم {#configure-uwazi-on-a-server}
+## تهيئة Uwazi على الخادم {/* #configure-uwazi-on-a-server */}
 
 
 يقدم فريق HURIDOCS بديلين حول كيفية إعداد خادم uwazi الخاص بك:
@@ -57,7 +57,7 @@ If you need help figuring out if Uwazi is best for your use-case, [read our guid
 1. مستضاف ذاتيا: شارك هذا [الدليل الشامل للمسؤولين](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html) مع مسؤول النظام لديك للحصول على إرشادات خطوة بخطوة حول كيفية تثبيت Uwazi على الخادم الخاص بك وتهيئة النسخ الاحتياطية وإعداد الميزات المتقدمة.
 2. مستضاف من قبل HURIDOCS: تقدم HURIDOCS حزم استضافة كخدمة. تتوفر خدمات استضافة مجانية (إلى حد معين من التخزين) وإصدار تجريبي من Uwazi لمنظمات حقوق الإنسان. [تواصل مع HURIDOCS](https://huridocs.org/services/) لمزيد من التفاصيل حول الخدمة.
 
-## نمذجة بياناتك {#model-your-data}
+## نمذجة بياناتك {/* #model-your-data */}
 
 تتكون المجموعة في Uwazi من الكيانات. لدى الكيان خصائص وهي الحقول التي سيملأها مستخدمو Tella لجمع البيانات. قد تحتوي الكيانات على المستندات الأساسية والملفات الداعمة مع بعض الخصائص التي يحددها المسؤولون على خادم Uwazi عندما ينشؤون القوالب. القالب هو استمارة فارغة يمكن ملؤها عدة مرات حسب الحاجة؛ بمجرد ملء القالب، يصبح كيانا.
 
@@ -67,7 +67,7 @@ If you need help figuring out if Uwazi is best for your use-case, [read our guid
 إذا قام مستخدمو Tella بتنزيل قالب يحتوي على خصائص غير مدعومة في Tella، فلن تظهر تلك الخصائص في التطبيق. ومع ذلك، سيظل المستخدمون قادرين على إرسال الكيانات، وسيتمكن المسؤولون من الوصول إلى هذه الكيانات، بما في ذلك جميع الخصائص التي تم ملؤها، دون أي مشاكل
 :::
 
-### الخصائص المتاحة {#available-properties}
+### الخصائص المتاحة {/* #available-properties */}
 
 | **الخاصية أو الميزة** | **Tella Android**| **‫Tella iOS** | **Tella لبرمجيات أندرويد الحرة والمفتوحة المصدر** |
 |------|------|-----|-----| 
@@ -87,9 +87,9 @@ If you need help figuring out if Uwazi is best for your use-case, [read our guid
 | مُعرِّف مُولَّد  | ✔️ | لا | ✔️ |
 
 
-## اجعل الأشخاص على أرض الواقع جاهزين لبدء إرسال البيانات {#get-people-on-the-ground-ready-to-start-submitting-data}
+## اجعل الأشخاص على أرض الواقع جاهزين لبدء إرسال البيانات {/* #get-people-on-the-ground-ready-to-start-submitting-data */}
 
-### الاتصال بالخادم {#connect-to-the-server}
+### الاتصال بالخادم {/* #connect-to-the-server */}
 
 للاتصال بخادم Uwazi:
 
@@ -106,7 +106,7 @@ If you need help figuring out if Uwazi is best for your use-case, [read our guid
 يمكنك مشاهدة [هذا الفيديو](/video-tutorials#uwazi) حول كيفية الاتصال بخادم Uwazi من Tella.
 :::
 
-### أرسل معلوماتك {#send-your-information}
+### أرسل معلوماتك {/* #send-your-information */}
 
 بمجرد الاتصال بنجاح بمثيل Uwazi، سترى بطاقة جديدة تحمل التصنيف "Uwazi" في أقسام **الاتصالات** في شاشة Tella الرئيسية.
 
@@ -115,7 +115,7 @@ If you need help figuring out if Uwazi is best for your use-case, [read our guid
 ثم عد إلى الشاشة الرئيسية لـ Uwazi والمس القالب الذي تريد استخدامه لإنشاء الكيان.
 
 
-#### بدائل إرسال البيانات {#data-submission-alternatives}
+#### بدائل إرسال البيانات {/* #data-submission-alternatives */}
 
 | **الميزة** | **التفاصيل**| **Tella Android** | **‫Tella iOS** | 
 |------|------|------|------|

@@ -14,7 +14,7 @@ Unfortunately, due to the [funding challenges Horizontal is facing](https://dono
 If you have any questions or need support, please [contact us directly](/contact-us).
 :::
 
-### ~~Quoi {#what}~~
+### ~~Quoi~~ {/* #what */}
 
 ~~Chaque mois, Horizontal anime un appel communautaire avec des utilisateurs, des partenaires ou toute personne intéressée par Tella. Au cours de ces réunions, nous :~~
 
@@ -24,19 +24,19 @@ If you have any questions or need support, please [contact us directly](/contact
 -   ~~écoutons les demandes relatives aux fonctionnalités afin de pouvoir les intégrer dans notre planification~~
 -   ~~accueilons des intervenants ou intervenantes qui parleront de leur utilisation et de leur expérience avec Tella ainsi que des enseignements qu'ils ou elles en ont tirés~~
 
-### ~~Quand {#when}~~
+### ~~Quand~~ {/* #when */}
 
 ~~Les réunions communautaires ont lieu le premier mercredi de chaque mois à 15 heures GMT.~~
 
 
 
-### ~~Où {#where}~~
+### ~~Où~~ {/* #where */}
 
 ~~Nos réunions se déroulent sur Jitsi, une plateforme d'appel vidéo open-source respectueuse de la vie privée.~~
 
 ~~Vous pouvez rejoindre l'appel via ce lien: [https://meet.jit.si/moderated/72928f9f16445dfc04dfbba14cb65fecd979f68cb053ddae3cc936192063471f](https://meet.jit.si/moderated/72928f9f16445dfc04dfbba14cb65fecd979f68cb053ddae3cc936192063471f)~~
 
-### ~~Sécurité et confidentialité {#safety-and-privacy}~~
+### ~~Sécurité et confidentialité~~ {/* #safety-and-privacy */}
 
 :::warning Important
 ~~Afin de garantir la sécurité de tous les participants, toute personne rejoignant la communauté Tella s'engage à respecter le [Code de conduite d'Horizontal](https://horizontal-org.slite.com/app/docs/E33mV5cWaJhd8x/Horizontal-Code-of-Conduct). Prenez le temps de vous familiariser avec ce code.~~

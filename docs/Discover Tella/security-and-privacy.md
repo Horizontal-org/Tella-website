@@ -11,7 +11,7 @@ sidebar_position: 2
 Tella was built to protect those who face physical and digital repression, so all of Tella’s features and product decisions are built with privacy and security in mind. Tella is regularly audited by independent security firms, and features and documentation are designed with the support and guidance from security professionals. 
 
 
-## Privacy {#privacy}
+## Privacy {/* #privacy */}
 
 We only collect the minimum amount of data that is necessary to fulfill the purpose of Tella. **We never collect personally identifiable information. We never disclose, share, or sell any of your data to third parties**.
 
@@ -20,22 +20,22 @@ Through using our app, users may send data to servers managed by individuals or 
 You can read Tella's full [Privacy Policy](/privacy).
 
 
-### Tella Android {#tella-android}
+### Tella Android {/* #tella-android */}
 
 Tella Android, as available on the Google Play Store, includes two trackers, [Google CrashLytics](https://firebase.google.com/docs/crashlytics) and [Google Firebase Analytics](https://firebase.google.com/docs/analytics), which help us detect bugs and crashes. This is critical to keep the app secure and performant for at-risk users. 
 
-### Tella-FOSS {#tella-foss}
+### Tella-FOSS {/* #tella-foss */}
 
 [Tella-FOSS](/faq#is-tella-available-on-f-droid), published on the [F-droid store](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/), does not contain any trackers.
 
 
-### Tella iOS {#tella-ios}
+### Tella iOS {/* #tella-ios */}
 
 [Tella for iOS](https://apps.apple.com/us/app/tella-document-protect/id1598152580) does not include any trackers. 
 
 As a result of Apple’s strict iOS app policies, Tella for iOS is currently not available on alternative app stores or for manual install.
 
-## Analytics {#analytics}
+## Analytics {/* #analytics */}
 
 In Tella Android, Tella FOSS and [Tella Web](/tella-web), users can choose to share analytics to improve Tella. This data helps us understand how people use Tella and which features are important to them. ***Analytics data is only collected if users opt-in in the app's settings***
 
@@ -67,7 +67,7 @@ Here are some information about our privacy-preserving analytics approach:
    For more information about the metrics we add to our apps, check out our [release notes](/releases).
 
 
-## Security features {#security-features}
+## Security features {/* #security-features */}
 
 Tella integrates various security measures in place to achieve an acceptable level of security:
 
@@ -89,7 +89,7 @@ Learn more about Security Features in our [video tutorial](/video-tutorials#addi
 :::
 
 
-## Security limitations {#security-limitations}
+## Security limitations {/* #security-limitations */}
 
 There is no such thing as an app that is 100% "secure". Security is dependent on the threats and risks faced by each user, and the capabilities of adversaries. With Tella, we did our best to add as many layers of security as possible to reduce the likelihood that someone can detect the app or access its data. Here, we list all the important security risks and limitations users should be aware of when using Tella:
 
@@ -104,7 +104,7 @@ There is no such thing as an app that is 100% "secure". Security is dependent on
     * Importing a file creates a copy of this file, and then imports and encrypts it into Tella. On version 1.1(iOS) and 2.1(Android) we developed a feature for users to select if they want to keep or delete the original file when importing to Tella. However, we recomend to verify the original file is not present on the Trash bin (My files > Trash) and to delete the file from any automatic backup services you have enabled on your phone (Google Photos, Dropbox, etc).
 
 
-## Security audits {#security-audits}
+## Security audits {/* #security-audits */}
 
 We regularly ask independent security firms to audit our code to ensure it is robust and secure.
 

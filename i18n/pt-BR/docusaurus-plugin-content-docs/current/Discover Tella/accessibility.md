@@ -13,7 +13,7 @@ import TellaLanguages from '.././_tella-languages.md';
 Tornar o Tella acessível é uma prioridade para nós. Quando falamos em acessibilidade, queremos dizer que fazemos o nosso melhor para assegurar que usuários com deficiência e usuários com limitações de letramento ou de letramento em tecnologia podem usar o Tella e que o Tella esteja disponível no maior número possível de idiomas.
 
 
-### Acessibilidade de idiomas {#language-accessibility}
+### Acessibilidade de idiomas {/* #language-accessibility */}
 
 Nós nos empenhamos para disponibilizar o Tella em idiomas falados por comunidades que demonstram necessitar dele. Infelizmente, nem sempre temos a capacidade ou os recursos para manter todas as traduções atualizadas. Se você deseja contribuir com a tradução do Tella, [junte-se a nós aqui](/translating-tella). Se você quer que adicionemos um novo idioma, [contate-nos](/contact-us) e faremos o nosso melhor para adicioná-lo. Atualmente, Tella para Android e para iOS estão disponíveis em:
 
@@ -22,7 +22,7 @@ Nós nos empenhamos para disponibilizar o Tella em idiomas falados por comunidad
 [Tutoriais em Vídeo](/video-tutorials) possuem legendas disponíveis em espanhol, árabe, swahili e francês.
 
 
-### Acessibilidade WCAG {#wcag-accessibility}
+### Acessibilidade WCAG {/* #wcag-accessibility */}
 
 Nesta tabela, você pode acessar nossos últimos relatórios de acessibilidade para cada plataforma.
 
@@ -33,11 +33,11 @@ Nesta tabela, você pode acessar nossos últimos relatórios de acessibilidade p
 
 Nós estamos atualmente trabalhando para resolver todos os problemas de acessibilidade Nível A detectados no Tella para Android.
 
-### Offline accessibility {#offline-accessibility}
+### Offline accessibility {/* #offline-accessibility */}
 Tella does not need internet for collecting or storing files, not to use any of the security features. [Connections](/connections) are offline-first, with built in mechanisms for [retrying and re-submitting reports](/features#offline-data-collection) if internet is not readily available. Tella also offers a fully [offline file sharing feature](/nearby-sharing) designed for areas facing internet shutdowns.
 
 
-### Device accessibility {#device-accessibility}
+### Device accessibility {/* #device-accessibility */}
 We implement each feature trying to maximize device accessibility, even for older devices. [Read here about what phones support Tella](/faq#what-phones-support-tella). We also keep Tella as small as possible, to allow people with little storage space available on their phone to [download it and configure it to reduce the used storage space, in case that's a constraint for them](/faq/#how-much-storage-do-i-need-to-install-tella).
 
 

@@ -7,7 +7,7 @@ slug: /get-started-android
 
 # Commencer à utiliser Tella sur Android
 
-## Télécharger et installer Tella {#download-and-install-tella}
+## Télécharger et installer Tella {/* #download-and-install-tella */}
 
 Vous avez plusieurs options pour télécharger Tella :
 - Suivez [ce lien](https://play.google.com/store/apps/details?id=org.hzontal.tella&hl=en&gl=US&pli=1) pour trouver Tella sur Google Play Store ou ouvrez Google Play Store et cherchez “Tella”.
@@ -22,7 +22,7 @@ Si vous avez besoin d'aide pour installer l'application manuellement, vous pouve
 
 
 
-## Définissez votre code d'accès {#create-your-lock}
+## Définissez votre code d'accès {/* #create-your-lock */}
 
 La première fois que vous ouvrez Tella, vous verrez une visite guidée des fonctionnalités de l'application : Appareil photo, Fichiers et Dossiers enrégistrés et chiffrés. Il vous sera également demandé de choisir le mode de verrouillage de Tella. Sans ce verrouillage, il sera impossible d'ouvrir Tella et d'accéder aux fichiers qui y sont stockés.
 - Mot de passe: un mot de passe alphanumérique est le moyen le plus sûr de verrouiller votre application.
@@ -37,7 +37,7 @@ Gardez à l'esprit que si vous oubliez ce code d'accès, vous ne pourrez plus ac
 
 
 
-## Accorder des permissions à Tella {#grant-permissions-to-tella}
+## Accorder des permissions à Tella {/* #grant-permissions-to-tella */}
 Lorsque vous utilisez chaque fonctionnalité pour la première fois, il vous est demandé d'accorder certaines permissions à Tella :
 - Pour prendre des photos, enregistrer des vidéos ou du son, vous devez autoriser l'accès à l'appareil photo et au microphone de votre téléphone.
 - Pour importer des fichiers dans Tella ou exporter des fichiers de Tella vers votre téléphone, vous devez autoriser l'accès au système de fichiers de votre appareil.
@@ -52,7 +52,7 @@ Si vous refusez d'accorder ces permissions à Tella, vous pourrez le faire ulté
 
 
 
-## Protégez vos fichiers {#protect-your-files}
+## Protégez vos fichiers {/* #protect-your-files */}
 Une fois les permissions accordées, vous êtes prêt à vous lancer dans la collecte de la documentation.  Nous vous recommandons d'explorer les fonctionnalités suivantes:
 
 **Utilisez l'appareil photo pour prendre des photos ou des vidéos et l'enregistreur audio pour enregistrer du son.** Tous les médias pris par Tella seront chiffrés instantanément, ce qui signifie que le fichier ne sera pas accessible en dehors de Tella. Tous les médias collectés par Tella n'apparaîtront pas dans la galerie de votre téléphone ou dans les fichiers de votre téléphone. Il n'y a pas de limite de stockage particulière pour Tella, l'espace disponible dépendra de l'espace disponible sur votre appareil.
@@ -84,7 +84,7 @@ Une fois les permissions accordées, vous êtes prêt à vous lancer dans la col
 
 
 
-## Camouflage Tella {#camouflage-tella}
+## Camouflage Tella {/* #camouflage-tella */}
 Il existe deux façons de camoufler Tella pour la masquer sur votre appareil  :
 - Vous pouvez changer le nom et l'icône de l'application, pour la faire ressembler à une autre application (comme un jeu ou une application météo). Il y a 28 noms et icônes disponibles pour masquer Tella.
 - Vous pouvez cacher Tella derrière une calculatrice entièrement fonctionnelle. Nous avons développé 4 thèmes différents pour correspondre au thème par défaut de votre téléphone et aider à cacher Tella. Pour ouvrir Tella, l'utilisateur doit saisir son code PIN dans la calculatrice, suivi de **=**. Le camouflage de la calculatrice n'est possible que si l'utilisateur utilise un code PIN. Il n'est pas possible de camoufler Tella en calculatrice si un motif ou un mot de passe est utilisé.
@@ -97,7 +97,7 @@ Pour en savoir plus sur le camouflage, cliquez [ici](/features#camouflage).
 
 
 
-## Partager vos informations. {#share-your-information}
+## Partager vos informations. {/* #share-your-information */}
 Pour partager des informations via Tella, vous pouvez utiliiser le bouton **Partagez**. Il vous suffit de sélectionner le ou les fichiers que vous souhaitez partager, d'appuyer sur **Partagez** et choisir l'application avec laquelle vous souhaitez partager les fichiers.
 
 Tenez compte du fait que Tella partagera les fichiers non cryptés, alors assurez-vous d'utiliser des messages qui disparaissent (par exemple sur WhatsApp ou Signal) ou supprimez les messages une fois reçus par l'autre personne.
@@ -106,17 +106,17 @@ Tenez compte du fait que Tella partagera les fichiers non cryptés, alors assure
     <img src={require("@site/static/img/getting-started/android/share.gif").default} alt="gif that shows how to share information" title="share information with third party apps" />
 </div>
 
-## Partage de proximité {#nearby-sharing}
+## Partage de proximité {/* #nearby-sharing */}
 You share files directly from Tella’s encrypted vault to another Tella encrypted vault in the same physical location using [Nearby Sharing](/nearby-sharing). After a quick connection tutorial, the two devices establish a secure link, and files are transferred encrypted from one device to the other. Nearby Sharing allow phone-to-phone (Android or iOS) and phone-to-computer file transfers. 
 
 
-## Allez plus loin {#go-further}
-### Se connecter à un serveur {#connect-to-a-server}
+## Allez plus loin {/* #go-further */}
+### Se connecter à un serveur {/* #connect-to-a-server */}
 Tella peut être connecté à une variété de services d'arrière-plan. Ces services sont utilisés par les organisations pour permettre à leurs membres ou à leurs partenaires de soumettre des données et des fichiers à un emplacement distant sécurisé. Si vous envisagez de vous connecter à un serveur et que vous avez des doutes sur le serveur à choisir ou sur la manière de vous connecter, veuillez consulter [notre documentation pour les organisations](/for-organizations) ou [nous contacter](/contact-us), nous sommes là pour vous aider !
 
 
 
-#### Open Data Kit {#open-data-kit}
+#### Open Data Kit {/* #open-data-kit */}
 
 L'[Open Data Kit (ODK)] (https://getodk.org/) est une norme ouverte utilisée pour créer des formulaires personnalisés et collecter des données. ODK étant un standard ouvert, Tella peut être utilisé avec n'importe quel outil compatible avec ODK, comme [Ona](https://ona.io/home/) ou [KoboToolbox](https://www.kobotoolbox.org/), pour créer des formulaires avec des questions personnalisées, gérer les utilisateurs et agréger les données soumises par les utilisateurs.
 
@@ -127,7 +127,7 @@ Nous avons rédigé une documentation sur la manière de se connecter à un serv
     <img src={require("@site/static/img/getting-started/android/kobo.gif").default} alt="gif that shows ODK connection" title="ODK connection" />
 </div>
 
-#### Uwazi {#uwazi}
+#### Uwazi {/* #uwazi */}
 [Uwazi](https://uwazi.io/) est une application open-source créée par HURIDOCS avec de puissantes fonctionnalités pour collecter, organiser et visualiser les données relatives aux droits de l'homme.
 
 Nous avons rédigé une documentation sur la manière de se connecter à un serveur Uwazi et pour commencer, nous vous recommandons de lire [cette page](/uwazi).
@@ -136,12 +136,12 @@ Nous avons rédigé une documentation sur la manière de se connecter à un serv
     <img src={require("@site/static/img/getting-started/android/uwazi.gif").default} alt="gif that shows Uwazi connection" title="Uwazi connection" />
 </div>
 
-#### Tella Web {#tella-web}
+#### Tella Web {/* #tella-web */}
 Tella Web est un outil open source qui permet aux individus et aux organisations de centraliser et de gérer les rapports transmis par les utilisateurs de Tella, notamment des photos, des vidéos et des fichiers audio.
 
 Pour en savoir plus sur Tella Web [ici](/tella-web) ou regarder un [tutoriel vidéo](/video-tutorials#tella-web).
 
-#### Nextcloud, Dropbox et Google Drive {#Nextcloud-dropbox-and-google-drive}
+#### Nextcloud, Dropbox et Google Drive {/* #Nextcloud-dropbox-and-google-drive */}
 
 Users can sign in directly to their Nextcloud, Dropbox or Google Drive account from within Tella and upload files to a folder in their account.
 
@@ -154,10 +154,10 @@ The Google Drive and Dropbox connections are not available in Tella Android FOSS
 
 
 
-### Pour en savoir plus sur Tella {#read-more-about-tella}
+### Pour en savoir plus sur Tella {/* #read-more-about-tella */}
 - [Fonctionnalités]( /features) : En savoir plus sur la façon dont Tella peut vous protéger et sur les menaces contre lesquelles Tella ne_vous_protège_pas.
 - [Connexions](/for-organizations) : Découvrez comment vous pouvez vous connecter à un serveur pour collecter des données ou sauvegarder des fichiers.
 - [Sécurité et confidentialité](/security-and-privacy) : Nous ne recueillons que le minimum de données nécessaires et ne collectons jamais d'informations personnellement identifiables. Lisez la politique de confidentialité complète [ici](/privacy).
 
-#### Si vous avez besoin d'aide, contactez-nous si vous {#contact-us-if-you-need-help}
+#### Si vous avez besoin d'aide, contactez-nous si vous {/* #contact-us-if-you-need-help */}
 Si vous avez besoin d'aide pour comprendre les détails techniques de Tella et les considérations de sécurité afin de décider s'il convient à vous et à votre équipe, nous sommes là pour vous aider. Il vous suffit de [nous contacter](/contact-us) pour que nous puissions répondre à vos questions ou organiser une formation ou une session de questions-réponses en direct pour votre équipe.

@@ -9,22 +9,22 @@
   },
   "sidebar.generalSidebar.category.Descubre Tella": {
     "message": "Descubre Tella",
-    "description": "The label for category Descubre Tella in sidebar generalSidebar"
+    "description": "The label for category 'Descubre Tella' in sidebar 'generalSidebar'"
   },
   "sidebar.generalSidebar.category.index": {
     "message": "index",
-    "description": "The label for category index in sidebar generalSidebar"
+    "description": "The label for category 'index' in sidebar 'generalSidebar'"
   },
   "sidebar.generalSidebar.category.Empezar": {
     "message": "Empezar",
-    "description": "The label for category Empezar in sidebar generalSidebar"
+    "description": "The label for category 'Empezar' in sidebar 'generalSidebar'"
   },
   "sidebar.generalSidebar.category.Connections": {
     "message": "Connections",
-    "description": "The label for category Connections in sidebar generalSidebar"
+    "description": "The label for category 'Connections' in sidebar 'generalSidebar'"
   },
   "sidebar.generalSidebar.category.Comunidad": {
     "message": "Comunidad",
-    "description": "The label for category Comunidad in sidebar generalSidebar"
+    "description": "The label for category 'Comunidad' in sidebar 'generalSidebar'"
   }
 }

@@ -21,11 +21,11 @@ De manera similar a todas las demás conexiones de servidor ([Tella Web](/tella-
 Even though data is transferred to the server securely (SSL), anyone with access to the Uwazi account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
 :::
 
-### Probando Uwazi {#testing-uwazi}
+### Probando Uwazi {/* #testing-uwazi */}
 
 Puedes probar Uwazi utilizando [esta instancia Demo](https://demo.uwazi.io/).
 
-### Cuándo usar Uwazi {#when-to-use-uwazi}
+### Cuándo usar Uwazi {/* #when-to-use-uwazi */}
 
 Recomendamos Uwazi a organizaciones que necesiten usuaria(o)s en el terreno para recopilar datos de manera estructurada a través de formularios.
 
@@ -49,7 +49,7 @@ Puedes aprender más sobre Uwazi en la [documentación oficial de Uwazi](https:/
 Si necesitas ayuda para determinar si Uwazi es la mejor opción para tu caso de uso, [lee nuestra guía](/for-organizations) o [contactanos](/contact-us)!
 :::
 
-## Configura Uwazi en un servidor {#configure-uwazi-on-a-server}
+## Configura Uwazi en un servidor {/* #configure-uwazi-on-a-server */}
 
 
 El equipo HURIDOCS ofrece 2 alternativas sobre como configurar tu servidor Uwazi:
@@ -57,7 +57,7 @@ El equipo HURIDOCS ofrece 2 alternativas sobre como configurar tu servidor Uwazi
 1. Autohospedado: Comparte esta [guía completa del administrador](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html) con tu administrador de sistemas para instrucciones paso a paso sobre como instalar Uwazi en tu servidor, configurar respaldos y funciones avanzadas.
 2. Hospedado por HURIDOCS: HURIDOCS ofrece paquetes de hospedaje como un servicio. Servicios de hospedaje gratuito (hasta un almacenamiento limite) y una versión de prueba de Uwazi están disponibles para organizaciones de los derechos humanos. [Contacta a HURIDOCS](https://huridocs.org/services/) para más detalles sobre el servicio.
 
-## Modela Tus Datos {#model-your-data}
+## Modela Tus Datos {/* #model-your-data */}
 
 Una colección de Uwazi está hecha de Entidades. Una entidad tiene Propiedades que son los campos que la(o)s usuaria(o)s de Tella rellenan para recopilar datos. Las Entidades pueden tener Documentos Primarios y/o Archivos de Soporte y algunas propiedades que son definidas por administradora(e)s en el servidor Uwazi cuando crean las plantillas. Una plantilla es un formulario vacío que puede ser rellenado cuantas veces sea necesario; una vez que se rellena una plantilla, se convierte en una Entidad.
 
@@ -67,7 +67,7 @@ Una colección de Uwazi está hecha de Entidades. Una entidad tiene Propiedades 
 Si la(o)s usuaria(o)s de Tella descargan una plantilla que tiene propiedades que no son permitidas en Tella, esas propiedades no aparecerán en la app. De todos modos, la(o)s usuaria(o)s aún podrán enviar las entidades, y la(o)s admins podrán acceder a estas entidades, incluyendo todas las propiedades que fueron rellenadas, sin ningún problema.
 :::
 
-### Propiedades Disponibles {#available-properties}
+### Propiedades Disponibles {/* #available-properties */}
 
 | **Propiedad o Función** | **Tella Android**| **Tella iOS** | **Tella Android FOSS** |
 |------|------|-----|-----| 
@@ -87,9 +87,9 @@ Si la(o)s usuaria(o)s de Tella descargan una plantilla que tiene propiedades que
 | ID Generado  | ✔️ | No | ✔️ |
 
 
-## Prepara a la Gente Sobre el Terreno para Empezar a Enviar Datos {#get-people-on-the-ground-ready-to-start-submitting-data}
+## Prepara a la Gente Sobre el Terreno para Empezar a Enviar Datos {/* #get-people-on-the-ground-ready-to-start-submitting-data */}
 
-### Conectar al Servidor {#connect-to-the-server}
+### Conectar al Servidor {/* #connect-to-the-server */}
 
 Para conectarse a un servidor Uwazi:
 
@@ -106,7 +106,7 @@ Para conectarse a un servidor Uwazi:
 Puedes ver [este video](/video-tutorials#uwazi) sobre cómo conectarse a un servidor Uwazi desde Tella.
 :::
 
-### Envía Tu Información {#send-your-information}
+### Envía Tu Información {/* #send-your-information */}
 
 Una vez te hayas conectado con éxito a una instancia Uwazi, verás una nueva tarjeta con la etiqueta "Uwazi" en la sección **Conexiones** de tu pantalla de inicio de Tella.
 
@@ -115,7 +115,7 @@ Para descargar una plantilla, toca el botón **+** en la parte inferior de la pa
 Luego vuelve a la pantalla principal de Uwazi y toca la plantilla que quieres usar para crear una entidad.
 
 
-#### Alternativas de Envío de Datos {#data-submission-alternatives}
+#### Alternativas de Envío de Datos {/* #data-submission-alternatives */}
 
 | **Función** | **Detalles**| **Tella Android** | **Tella iOS** | 
 |------|------|------|------|

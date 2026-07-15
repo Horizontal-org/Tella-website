@@ -29,7 +29,7 @@ The Google Drive connection is not available in Tella Android FOSS, because it u
 Even though data is transferred to the server securely (SSL), anyone with access to the Google Drive account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
 :::
 
-## When to Use Google Drive {#when-to-use-google-drive}
+## When to Use Google Drive {/* #when-to-use-google-drive */}
 
 The Google Drive connection may be particularly well-suited for:
 - Organizations that already use Google Drive.
@@ -42,7 +42,7 @@ If you need help figuring out if Google Drive is best for your use-case, [read o
 :::
 
 
-## Connect to Google Drive {#connect-to-google-drive}
+## Connect to Google Drive {/* #connect-to-google-drive */}
 
 In order to connect to a Google Drive:
 
@@ -53,7 +53,7 @@ In order to connect to a Google Drive:
 * Choose a name for the folder where all your Tella submissions will be saved.
 
 
-## Manage the Google Drive connection {#manage-the-google-drive-connection}
+## Manage the Google Drive connection {/* #manage-the-google-drive-connection */}
 
 * In **Settings ⚙️** > **Connections** >  **Google Drive** > 3-dots, you can:
   - Delete the connection
@@ -61,7 +61,7 @@ In order to connect to a Google Drive:
 For now, it is not possible to sign in to multiple Google accounts at the same time. If you want to sign-in to your Google Drive using a different email, delete your Google Drive connection and create a new one.
 
 
-## Submit to Google Drive {#submit-to-google-drive}
+## Submit to Google Drive {/* #submit-to-google-drive */}
 
 * Once connected, a "Google Drive" card will appear in the "Connections" section of the homescreen. Tap on this card to start submitting to Google Drive.
 * The main Google Drive screen allows navigation between the Drafts, Outbox, and Submitted tabs.
@@ -77,7 +77,7 @@ For now, it is not possible to sign in to multiple Google accounts at the same t
     * If the report is submitted correctly, it goes to the “Submitted” tab and a new folder will be created in Gooogle Drive with the title you selected and the description you entered. All attachments will be added to the folder.
 
 
-## မူကြမ်း အစီရင်ခံစာများ {#draft-reports}
+## မူကြမ်း အစီရင်ခံစာများ {/* #draft-reports */}
 
 A Draft report is a report that was created and saved but not yet submitted. Drafts reports are useful to save work in progress that can be editted later on. It allows users to create reports offline or over a long period of time before finalizing and sending them. This is especially useful in low-connectivity areas or when a user needs to gather information in multiple stages.
 
@@ -90,7 +90,7 @@ Reports in the Draft tab can be edited.
 * အစက်သုံးစက် > **ဖျက်ရန်** ကို နှိပ်ခြင်းဖြင့်ဖြစ်စေ၊ အစီရင်ခံစာကိုဖွင့်ပြီး ဖျက်မည် ခလုတ်ကို နှိပ်ခြင်းဖြင့်ဖြစ်စေ အစီရင်ခံစာမူကြမ်းကို ဖျက်နိုင်သည်။
 
 
-#### Submit a Report to Google Drive {#submit-a-report-to-google-drive}
+#### Submit a Report to Google Drive {/* #submit-a-report-to-google-drive */}
 
 * အစီရင်ခံစာတစ်ခုတွင် ပေးပို့မှု စတင်ရန် "ပေးပို့ရန်" ကို နှိပ်ပါ။ 
 * ဖိုင်တွဲတစ်ခုစီအတွက် အပ်လုဒ်တိုးတက်မှုကို ပြသသည့် အကျဉ်းချုပ်စခရင်တစ်ခုသို့ သင့်အား ခေါ်ဆောင်သွားပါမည်။
@@ -107,7 +107,7 @@ Deleting a report in the middle of submission will cancel the upload of the file
 :::
 
 
-#### အထွက်ပုံး {#outbox}
+#### အထွက်ပုံး {/* #outbox */}
 
 The Outbox tab contains reports that are finalized and have been saved for later submission. Reports in the Outbox are ready to be submitted once the device reconnects to the internet or when the user chooses to manually send them.
 
@@ -126,7 +126,7 @@ If you need a fully offline way to share files with others, consider exploring [
 :::
 
 
-#### တင်သွင်းထားသော အစီရင်ခံစာများ {#submitted-reports}
+#### တင်သွင်းထားသော အစီရင်ခံစာများ {/* #submitted-reports */}
 
 - The Submitted tab displays reports that have been successfully submitted to  Google Drive.
 - တင်သွင်းပြီးသော အစီရင်ခံစာများကို တင်သွင်းပြီး တက်ဘ်တွင် ကြည့်ရှုစစ်ဆေးနိုင်ပါသည်။

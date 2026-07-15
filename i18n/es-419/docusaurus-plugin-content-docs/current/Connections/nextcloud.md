@@ -24,7 +24,7 @@ Los envíos a Nextcloud toman la forma de "informes" lo cual incluye un título,
 Even though data is transferred to the server securely (SSL), anyone with access to the Nexctloud account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
 :::
 
-## Cuándo Usar Nextcloud {#when-to-use-Nextcloud}
+## Cuándo Usar Nextcloud {/* #when-to-use-Nextcloud */}
 
 La conexión a Nextcloud puede ser particularmente adecuada para:
 - Organizaciones que ya utilizan Nextcloud.
@@ -42,7 +42,7 @@ For now, we don't support two-factor authentication (2FA) for Nextcloud connecti
 :::
 
 
-## Conectate a Nextcloud {#connect-to-Nextcloud}
+## Conectate a Nextcloud {/* #connect-to-Nextcloud */}
 
 Para conectarse a Nextcloud:
 
@@ -53,7 +53,7 @@ Para conectarse a Nextcloud:
 * Elige un nombre para la carpeta donde se guardaran todos tus envíos de Tella.
 
 
-## Administra la conexión Nextcloud {#manage-the-Nextcloud-connection}
+## Administra la conexión Nextcloud {/* #manage-the-Nextcloud-connection */}
 
 * En **Configuración ⚙️** > **Conexiones** > **Nextcloud** > **⫶** puedes:
   - Eliminar la conexión
@@ -61,7 +61,7 @@ Para conectarse a Nextcloud:
 Por el momento no es posible iniciar sesión en múltiples cuentas de Nextcloud a la vez. Si deseas iniciar sesión en otra instancia de Nextcloud, elimina tu conexión a Nextcloud y crea una nueva.
 
 
-## Enviar a Nextcloud {#submit-to-Nextcloud}
+## Enviar a Nextcloud {/* #submit-to-Nextcloud */}
 
 * Una vez conectada(o), una tarjeta de "Nextcloud" aparecerá en la sección "Conexiones" de la pantalla de inicio. Toca sobre esta tarjeta para empezar a enviar a Nextcloud.
 * La pantalla principal de Nexcloud permite la navegación entre las pestañas Borradores, Bandeja de Salida y  Enviados.
@@ -80,7 +80,7 @@ Por el momento no es posible iniciar sesión en múltiples cuentas de Nextcloud 
 On Android, [a known Nextcloud issue](https://help.Nextcloud.com/t/cant-upload-files-langer-than-20-mb-using-Nextcloud-android-app/196434) prevents files larger than 20MB from being submitted to a Nextcloud server. For that reason, Tella users cannot attach files larger than 20MB to Reports uploaded to a Nextcloud connection. We are monitoring the status of this issue and will remove Tella's file-size restriction as soon as it is solved by Nextcloud.
 :::
 
-## Borradores de Informes {#draft-reports}
+## Borradores de Informes {/* #draft-reports */}
 
 A Draft report is a report that was created and saved but not yet submitted. Drafts reports are useful to save work in progress that can be editted later on. It allows users to create reports offline or over a long period of time before finalizing and sending them. This is especially useful in low-connectivity areas or when a user needs to gather information in multiple stages.
 
@@ -93,7 +93,7 @@ Reports in the Draft tab can be edited.
 * Puedes eliminar un borrador de informe tocando en  **⫶** > **Eliminar** o entrando al informe y tocando el botón Eliminar.
 
 
-#### Enviar un Informe a Nextcloud {#submit-a-report-to-Nextcloud}
+#### Enviar un Informe a Nextcloud {/* #submit-a-report-to-Nextcloud */}
 
 * En un informe, toca "Enviar" para iniciar el envío del informe.
 * Se te redireccionará a una pantalla de resumen mostrando el progreso de subida de cada archivo adjunto.
@@ -110,7 +110,7 @@ Eliminar un informe en medio de un envío cancelará la subida de los archivos q
 :::
 
 
-#### Bandeja de Salida {#outbox}
+#### Bandeja de Salida {/* #outbox */}
 La Bandeja de Salida contiene informes que han sido guardados para enviar. Esto podría ser:
 
 * Envíos pausados
@@ -122,7 +122,7 @@ If you need a fully offline way to share files with others, consider exploring [
 :::
 
 
-#### Informes Enviados {#submitted-reports}
+#### Informes Enviados {/* #submitted-reports */}
 
 - La pestaña Enviados muestra informes que han sido enviados exitosamente al servidor Nextcloud.
 - En la pestaña Enviados, puedes ver y revisar los informes enviados.

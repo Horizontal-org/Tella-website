@@ -14,7 +14,7 @@ Unfortunately, due to the [funding challenges Horizontal is facing](https://dono
 If you have any questions or need support, please [contact us directly](/contact-us).
 :::
 
-###  ~~Về nội dung gì {#what}~~
+###  ~~Về nội dung gì~~ {/* #what */}
 
  ~~Mỗi tháng, Horizontal tổ chức cuộc họp cộng đồng với người dùng, đối tác hoặc bất kỳ ai quan tâm đến Tella. Trong những cuộc họp này, chúng tôi:~~ 
 
@@ -24,19 +24,19 @@ If you have any questions or need support, please [contact us directly](/contact
 -   ~~lắng nghe những đề xuất tính năng phản hồi để chúng tôi có thể kết hợp chúng vào kế hoạch của mình~~
 -   ~~tổ chức cho những diễn giả khách mời chia sẻ về các bài học và trải nghiệm sử dụng của họ đối với Tella~~
 
-### ~~Khi nào {#when}~~
+### ~~Khi nào~~ {/* #when */}
 
 ~~Các cuộc họp cộng đồng được tổ chức vào Thứ Tư đầu tiên của mỗi tháng vào lúc 3 giờ chiều GMT.~~
 
 
 
-### ~~Ở đâu {#where}~~
+### ~~Ở đâu~~ {/* #where */}
 
 ~~Các cuộc họp cộng đồng của chúng tôi diễn ra trên Jitsi, một nền tảng gọi video mã nguồn mở và bảo vệ quyền riêng tư.~~
 
 ~~Bạn có thể tham gia cuộc họp theo đường link này: [https://meet.jit.si/moderated/72928f9f16445dfc04dfbba14cb65fecd979f68cb053ddae3cc936192063471f](https://meet.jit.si/moderated/72928f9f16445dfc04dfbba14cb65fecd979f68cb053ddae3cc936192063471f)~~
 
-### ~~An toàn và riêng tư {#safety-and-privacy}~~
+### ~~An toàn và riêng tư~~ {/* #safety-and-privacy */}
 
 :::warning Important
 ~~Để đảm bảo an toàn cho tất cả những người tham gia, bất kỳ ai tham gia cuộc gọi của cộng đồng Tella đều đồng ý tuân thủ [Quy tắc ứng xử của Horizontal](https://horizontal-org.slite.com/app/docs/E33mV5cWaJhd8x/Horizontal-Code-of-Conduct). Xin hãy dành chút thời gian để làm quen với nó.~~

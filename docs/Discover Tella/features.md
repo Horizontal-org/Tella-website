@@ -16,7 +16,7 @@ All of the following features are available to all users as soon as they downloa
 <FeaturesTable/>
 
 
-## App lock {#app-lock}
+## App lock {/* #app-lock */}
 
 When installing Tella, the user has to select a lock 🔒 to encrypt and decrypt the content of the app.
 
@@ -34,7 +34,7 @@ If the user loses their lock, it is not possible to regain access to Tella and t
 Learn more about Tella Locks in our [video tutorial](/video-tutorials#tella-locks) 
 :::
 
-## Background encryption {#background-encryption}
+## Background encryption {/* #background-encryption */}
 
 Tella [encrypts](#encryption) files in the background so that users can continue performing actions (take more photos or videos, import more files, etc) while files are being encrypted. Users can see ongoing activities that are taking place in the background in a **Background activity tray** that's accessible from the Tella homescreen, by tapping on the "notifications" icon (🔔) on the top left. 
 
@@ -48,7 +48,7 @@ If the user hard exit Tella (for example by using [Quick Exit](#quick-exit) or m
 If [verification mode](/features#verification-mode) is turned on, background encryption is automatically disabled to make sure that all file metadata is captured at the same time as the photo, video, or audio file is saved.  
 :::
 
-## Backup files {#backup-files}
+## Backup files {/* #backup-files */}
 Tella stores all the information locally in your phone. If you delete your files (for example using [quick delete](/features#quick-delete) or if you uninstall Tella), your files cannot be restored unless you have backed them up outside of your Tella Vault.
 
 We offer several alternatives to backup files, so you can safely delete files from Tella and import those back in, but the backup process is manual, for the moment. Please [contact us](/contact-us) if you have questions.
@@ -59,7 +59,7 @@ All exports outside of Tella's encrypted vault (to a connected server or [to you
 
 
 
-### Backup files to another phone or computer {#backup-files-to-another-phone-or-computer}
+### Backup files to another phone or computer {/* #backup-files-to-another-phone-or-computer */}
 
 Using [Nearby Sharing](/nearby-sharing) you can transfer files directly to another Tella vault, either in another phone or [to a computer](/get-started-desktop) that's in physical proximity. Files are shared and store encrypted in the other Tella. If you backup to another phone you can use Nearby Sharing again to restore the files to your Tella.
 
@@ -67,7 +67,7 @@ Using [Nearby Sharing](/nearby-sharing) you can transfer files directly to anoth
 For the moment Tella Desktop can only receive files.
 :::
 
-### Backup files to a cloud {#backup-files-to-a-cloud}
+### Backup files to a cloud {/* #backup-files-to-a-cloud */}
 
 Some individuals use commercial clouds (Google Drive, Dropbox, Nextcloud) as a backup system for their Tella data. However, we advise using this feature with caution:
 - Automatic backups to any server are **not** currently available. They need to be made manually as submissions to each of the servers.
@@ -77,7 +77,7 @@ You can [continue reading about Server Connections and how organizations use Tel
 
 
 
-## Lock timeout configuration {#lock-timeout-configuration}
+## Lock timeout configuration {/* #lock-timeout-configuration */}
 
 By default Tella will lock immediately every time the user exits the app or your phone’s screen turns off. If you’d like to change this setting, the user can do so by going to 
 
@@ -99,7 +99,7 @@ Learn more about Tella Additional Security Features in our [video tutorial](/vid
 
 
 
-## Camera silent mode {#camera-silent-mode}
+## Camera silent mode {/* #camera-silent-mode */}
 
 By default Tella has camera silent mode disabled. By going to **Settings ⚙️** > **Security** > **Camera silent mode**, it is possible to turn off the camera shutter sound to draw less attention when taking photos. 📷🔇
 
@@ -108,7 +108,7 @@ Learn more about Tella Additional Security Features in our [video tutorial](/vid
 :::
 
 
-## Screen security {#screen-security}
+## Screen security {/* #screen-security */}
 
 By default Tella blocks screenshots, screen recordings inside Tella and hides the screen preview in the list of recent apps 📱🔒. It is possible to disable this security feature if the users need to take screenshots or screen recordings, or to mirror Tella to a computer for a presentation, by going to **Settings** ⚙️ > **Security** > **Screen security**.
 
@@ -119,7 +119,7 @@ On iOS screen security only blocks screen recordings inside Tella and blocks the
 Learn more about Tella Additional Security Features in our [video tutorial](/video-tutorials#additional-security-features)
 :::
 
-## Restrict unlocking attempts {#restrict-unlocking-attempts}
+## Restrict unlocking attempts {/* #restrict-unlocking-attempts */}
 By going to **Settings ⚙️** > **Security** > **Delete after Failed Unlock**, the user can decide how many failed unlock attempts are allowed before everything inside Tella is deleted.
 
 By default, this setting is Off, which means unlock attempts are not restricted and data won't be deleted. The user can choose to restrict unlocking attempts to 5, 10, or 20. If they choose any of these options, they can also select whether to display a visual indicator on the unlock screen 3 attempts before the specified number (3 attempts remaining, 2 attempts remaining, etc.), or to show no visual indicator at all.
@@ -134,7 +134,7 @@ The Restrict unlocking attempts feature cannot be enabled if Calculator camoufla
 While this security setting prevents brute force unlocking attempts to enter Tella, it should be used with caution, as there is no way to restore the content of Tella once the maximum number of failed unlocking attempts is reached.
 :::
 
-## Edit Media {#edit-media}
+## Edit Media {/* #edit-media */}
 We are in the process of adding the ability to edit media files directly within Tella's encrypted container, so users don't longer need to export their files outside Tella for editing those.
 
 | **Media Type** | **Feature** | **Tella Android** | **Tella iOS** | **Tella FOSS** |
@@ -167,7 +167,7 @@ Current editing options include:
 Use the Play button at the bottom of the screen to listen to the audio or the Cancel button to start over. When you are done editing the file, use the orange scissors ✂️ icon in the top-right corner to save the trimmed audio or video. The edited file will be saved as a copy of the original file in the same folder.
 
 
-## Encryption {#encryption}
+## Encryption {/* #encryption */}
 
 All files stored inside Tella are encrypted. Without the app lock, it is impossible to decrypt and access any of the files stored in Tella. 🔒🔐
 
@@ -191,7 +191,7 @@ Learn more about Locks and Encryption in our [video tutorial](/video-tutorials#t
 Technnical details about encryption can be found on the [Security and Privacy](/security-and-privacy) section.
 :::
 
-## File management {#file-management}
+## File management {/* #file-management */}
 
 Tella allows users to manage files and folders in a similar way they would do on a computer. All files and folders are **encrypted and only accessible within Tella**. 📂📝
 
@@ -208,7 +208,7 @@ In Tella, users can:
 Importing files from the device file system into Tella makes a copy of the files into Tella. Tella will ask if you want to keep or delete the original file from your phone when importing. If you choose to keep the original file, they will be present on the device, outside of Tella and unencrypted. 🔒
 :::
 
-## Feedback {#feedback}
+## Feedback {/* #feedback */}
 
 There are several options for Tella users to [contact the Tella team](/contact-us) in order to suggest improvements, report bugs and issues and request support. Inside Tella there are 2 alternatives: 
 
@@ -231,7 +231,7 @@ The only information that we will receive is the content that users specifially 
 :::
 
 
-## Import files from device {#import-files-from-device}
+## Import files from device {/* #import-files-from-device */}
 
 The user can import files into Tella to keep them secured by using the import feature. They can import files by going to the **Add ( + )** button on either All files, Images, Video, Audio or Documents depending on the type of file they wish to import and then **Import from device** 📥. A prompt will appear asking the user if they would like to keep or delete the original file from their phone memory. The imported files will be kept secured at Tella.
 
@@ -240,17 +240,17 @@ The user can import files into Tella to keep them secured by using the import fe
 Learn more about [Collecting Evidence](video-tutorials#collecting-evidence) and [Sharing data](/video-tutorials#sharing-data-with-other-apps) in our video tutorials.
 :::
 
-## Preserve metadata when importing {#preserve-metadata-when-importing}
+## Preserve metadata when importing {/* #preserve-metadata-when-importing */}
 
 On **Settings** > **Security** users have the option to Preserve or delete the file's metadata when importing Photos and Videos to Tella. EXIF metadata of files migth include data about when the file was created, camera settings or location of the device.
 
-## Privacy preserving analytics (opt-in) {#privacy-preserving-analytics}
+## Privacy preserving analytics (opt-in) {/* #privacy-preserving-analytics */}
 Android users can opt-in to share analytics to improve Tella. All information is anonymous, agregated and can never be linked to individual usres. For technical information about what system do we use and what metrics to we collect, visit the [Analytics section of the Security and Privacy page](/security-and-privacy#analytics).
 
-## Open files in Tella {#open-files-in-tella}
+## Open files in Tella {/* #open-files-in-tella */}
 Images, videos, PDFs and audios can be visualized inside Tella. 📱📄
 
-## Camouflage {#camouflage}
+## Camouflage {/* #camouflage */}
 
 On Tella Android, it is possible to camouflage Tella in two ways:
 
@@ -272,7 +272,7 @@ Learn more about [Camouflaging Tella](/video-tutorials#camouflaging-tella) in ou
 :::
 
 
-## Homescreen customization {#homescreen-customization}
+## Homescreen customization {/* #homescreen-customization */}
 
 By default Tella's home screen organizes files by type: 📷 images, 🎥 videos, 🎧 audio, 📄 documents, and other files. It also provides an All files section where all files can be accessed. For more information see File Management section.
 
@@ -285,7 +285,7 @@ For convenience and ease of access, it is also possible to customize the home sc
 This configuration can be found in **Settings** > **General**. 
 
 
-## Quick delete {#quick-delete}
+## Quick delete {/* #quick-delete */}
 
 A Quick Delete button allows users, in just a few seconds, to delete sensitive data within Tella. Quick delete can be configured on **Settings** > **Security** > **Quick delete**, where the user can choose to enable a sliding button on the home screen to quickly delete information from Tella in emergency situations. If enabled, the user can choose exactly what gets deleted when the feature is used. The available options are:
 
@@ -301,13 +301,13 @@ The Delete Tella option might not be available on some Android phones due to tec
 Before triggering Quick Delete, consider [backing up you files](/features#backup-files) outside of Tella, to avoid loosing them.
 :::
 
-## Quick exit {#quick-exit}
+## Quick exit {/* #quick-exit */}
 
 By clicking the exit button on Tella’s home screen right top corner, Android users can quickly close and lock the app in case of emergency. While having the lock timeout set to “immediately” means that the app already locks when the user exits, using the Quick Exit button adds an extra layer of security and assurance that the app will be fully closed and locked 🔒
 
 On iOS, it is not possible to shut down an app from inside the app itself. Tapping the quick exit button instead locks the app.
 
-## Verification mode {#verification-mode}
+## Verification mode {/* #verification-mode */}
 
 In the Tella settings, users can activate "Verification Mode" ✅
 
@@ -347,7 +347,7 @@ Below is a list of each piece of metadata captured by Tella:
 * Cell info: the identifying numbers of all the cell towers the device is connected to 📡
 * WiFi info: the name of all WiFi networks in the vincinity of the device 🔍
 
-## Connecting to servers {#connecting-to-servers}
+## Connecting to servers {/* #connecting-to-servers */}
 
 Users can collect data directly in Tella, keep the data protected within the app, and connect to a server to securely send the data to a server. This feature is frequently used by organizations who centralize the data collected by volunteers or activist on the ground. These people collect information using Tella on their phones and then send it to their organizations. Previous Tella deployments where on-the-ground users collect data and send it to an organization's server have ranged from 1 to 2,000 users. 📲 📡.
 
@@ -367,7 +367,7 @@ Learn more about [Connecting to Servers](/video-tutorials#server-connections) in
 :::
 
 
-## Nearby Sharing {#nearby-sharing}
+## Nearby Sharing {/* #nearby-sharing */}
 
 Users can share files directly from Tella’s encrypted vault to another Tella encrypted vault in the same physical location using Nearby Sharing . After a quick connection tutorial, the two devices establish a secure link, and files are transferred encrypted from one device to the other.  Nearby Sharing is independent of the internet connection status: it works online or offline.
 
@@ -377,14 +377,14 @@ This feature is available on Tella Android, Tella iOS, and Tella Desktop.
 [Learn more about nearby sharing here](/nearby-sharing).
 :::
 
-## Share button {#share-button}
+## Share button {/* #share-button */}
 To share information with other apps, users can select the file or files they want to share and press the Share button. Tella will prompt the list of available apps on the phone and users can choose the app they want to share the file(s) with. 
 
 :::danger
 Tella will share the files unencrypted and the history of exchanged files might be visible on the app you used. We recommend using disappearing messages or deleting the messages after the other person receives them when using messaging apps (for example WhatsApp or Signal).
 :::
 
-## Camera (photos and videos) {#camera-photos-and-videos}
+## Camera (photos and videos) {/* #camera-photos-and-videos */}
 
 Tella offers a built-in camera where you can take photos and videos. All media collected inside Tella will not be available outside of it, as all files get encrypted as soon as they are taken. Files can only be accessed inside Tella, using the lock to open the app. Photos and videos won’t appear on the phone Gallery. In Tella, photos and videos will have a default name, but users can rename those using the Rename button. Files can also be organized in folders. 📷
 
@@ -393,7 +393,7 @@ The camera offers the possibility to change the resolution of videos before reco
 In [Tella-FOSS](/faq#is-tella-available-on-f-droid), where we use the fully open-source CameraX library, some of the Camera’s features (zoom, flip camera, enable flash, enable grid, change video resolution) are missing.
 
 
-## Select video resolution {#select-video-resolution}
+## Select video resolution {/* #select-video-resolution */}
 You can easily choose your desired video resolution on Tella by accessing the video recording screen and tapping on the Settings button. The available options include:
 - Highest possible resolution
 - High resolution (1080p)
@@ -405,14 +405,14 @@ Video resolution refers to the number of pixels in each frame of the video. High
 It's important to note that selecting video resolution is currently only supported on Android devices.
 
 
-## Audio Recorder {#audio-recorder}
+## Audio Recorder {/* #audio-recorder */}
 
 Tella has a built-in audio recorder. All audio recorded inside Tella will not be available outside of it, as all files get encrypted as soon as they are taken. Audio files can only be accessed inside Tella, using the lock to open the app. Recordings will not appear on the phone’s Voice Recording app or file system. In Tella, audio files will have a default name, but users can rename those using the Rename button. Audio recordings can also be organized in folders. 🎤 🎧
 
 The audio recorder allows users to pause the recording and restart it as needed, keeping all the information on the same file. Users see how much space they have available while recording, to ensure they will not be out of space while recording. 📈 💾
 
 
-## Offline data collection {#offline-data-collection}
+## Offline data collection {/* #offline-data-collection */}
 
 Once Tella is installed and configured on the phone, it doesn't need an internet connection to collect data. 📲 An internet connection is only needed to share files through other apps or through Connections. 🌐 If users have a server connected, once the forms or templates are downloaded to the phone, all data collected will be stored on the outbox tab and they can upload it to the server once they connect to the internet. 📩
 

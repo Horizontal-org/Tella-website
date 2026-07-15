@@ -16,23 +16,23 @@ import GoFurtherCards from '@site/src/components/GoFurtherCards'
 A continuación encontrarás todo lo que necesitas entender sobre cómo funciona Tella, sus funciones de seguridad y limitaciones, y cómo empezar. Para mantenerte al día con las últimas, suscríbete a [nuestro boletín](https://blog.wearehorizontal.org/#/portal), o [contáctanos](/contact-us)!
 
 
-## Descubre Tella {#discover-tella}
+## Descubre Tella {/* #discover-tella */}
 
 <CategoryCardList href="/discover"/>
 
-## Empezando {#getting-started}
+## Empezando {/* #getting-started */}
 
 <CategoryCardList href="/get-started"/>
 
-## Para Organizaciones {#for-organizations}
+## Para Organizaciones {/* #for-organizations */}
 
 <CategoryCardList href="/connections"/>
 
 
-## Comunidad {#community}
+## Comunidad {/* #community */}
 
 <CategoryCardList href="/community"/>
 
-## Ve más allá {#go-further}
+## Ve más allá {/* #go-further */}
 
 <GoFurtherCards/>
