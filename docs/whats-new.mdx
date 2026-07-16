@@ -16,9 +16,11 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 ## Tella - Latest Versions {/* #tella---latest-versions */}
 
 
-### Android: Tella 3.1.0 (242) - Released on June 8, 2026 {/* #android-tella-310242---released-on-jun-8-2026 */}
+### Android: Tella 3.2.0 (248) - Released on July 16, 2026 {/* #android-tella-320248---released-on-jul-16-2026 */}
 - Replaced camera library and location provider with FOSS options.
-- Language support improvements: updated Ukrainian.
+- Implemented security fixes detected by our most recent [security audit](/security-and-privacy#security-audits)
+    - Moved encryption keys to the Keychain. 
+    - Implemented mTLS and enforced certificate pinning for both the sender and receiver in Nearby Sharing. This is a mitigation for man-in-the-middle attacks.
 - Bug fixes and minor improvements:
     - Fixed an "import and delete original" bug that prevented the original file from being erased from the device in some cases.
     - Fixed a screen security issue during onboarding (some screens were not hidden).
@@ -59,6 +61,18 @@ A detailed list of features available on each platform is [available here](/feat
 ## Previous versions {/* #previous-versions */}
 
 ### Android {/* #android-previous */}
+
+
+### Android: Tella 3.1.0 (242) - Released on June 8, 2026 {/* #android-tella-310242---released-on-jun-8-2026 */}
+- Replaced camera library and location provider with FOSS options.
+- Language support improvements: updated Ukrainian.
+- Bug fixes and minor improvements:
+    - Fixed an "import and delete original" bug that prevented the original file from being erased from the device in some cases.
+    - Fixed a screen security issue during onboarding (some screens were not hidden).
+    - Corrected the capitalization of buttons.
+    - Fixed the geolocation permission flow and solved a bug that prevented the geolocation flow to continue the first time the location permission was granted.
+    - Added an option to hide the Tella Web connection ULR from the Connection's settings.
+    - Fixed a bug that didn't properly removed camouflage when changing lock type.
 
 #### Android: Tella 3.0.0 (237) - Released on May 20, 2026 {/* #android-tella-300237---released-on-may-20-2026 */}
 - Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files in physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
