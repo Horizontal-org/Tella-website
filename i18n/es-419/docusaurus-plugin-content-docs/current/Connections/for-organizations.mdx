@@ -1,6 +1,6 @@
 ---
 id: for-organizations
-title: Conexiones de servidor
+title: Server connections
 description: Learn how organizations can use Tella server Connections (Google Drive, Dropbox, Uwazi, ODK, Tella Web and Nextcloud) for research, advocacy, or accountability processes
 slug: /for-organizations
 ---
@@ -13,31 +13,29 @@ import Button from '@site/src/components/Button';
 
 Además de mantener los datos protegidos dentro de la app, la(o)s usuaria(o)s también pueden conectarse a un servidor para respaldar sus datos de manera segura. Esto normalmente es un servidor administrado por las organizaciones, dónde pueden centralizar los datos recopilados por voluntaria(o)s y activistas sobre el terreno. Estos individuos obtienen información utilizando Tella en sus teléfonos y luego la envían a sus organizaciones.
 
-Las implementaciones anteriores de Tella, donde la(o)s usuaria(o)s sobre el terreno recopilaban datos y los enviaban a un servidor de la organización, han oscilado entre 1 a 2000 usuaria(o)s. 📲 📡. Puedes leer historias de usuaria(o)s [aquí](/user-stories), o puedes contactarnos para que podamos ayudarte a encontrar la mejor manera de usar Tella para tu organización.
+Previous Tella deployments, where on-the-ground users collected data and sent it to an organization's server, have ranged from 1 to 2,000 users. You can read user stories [here](/user-stories), or you can [contact us](/contact-us) so that we can assist you in finding the best way to use Tella for your organization.
 
 Actualmente, Tella puede ser conectada a los siguientes tipos de servidores:
 
-* [Open Data Kit (ODK - Kit de Datos Abiertos)](/odk)
+* [Open Data Kit (ODK)](/odk)
 * [Uwazi](/uwazi)
 * [Tella Web](/tella-web)
 * [Google Drive](/g-drive)
 * [Nextcloud](/nextcloud)
 * [Dropbox](/dropbox)
 
-Estas son llamadas [Conexiones](/features#connecting-to-servers) en Tella. 
+These are called [Connections](/features#connecting-to-servers) in Tella.
 
-:::danger
-For now, any files you submit to a connection might stored unencrypted on that server or drive (that depends on the server configuration). This means that anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
+:::danger For now, any files you submit to a connection might stored unencrypted on that server or drive (that depends on the server configuration). This means that anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
 
-We strongly recommend reviewing and understanding the permission model of each connection you use, in order to determine which option is safest and most appropriate for your specific use case.
-:::
+We strongly recommend reviewing and understanding the permission model of each connection you use, in order to determine which option is safest and most appropriate for your specific use case. :::
 
 
 
 
 ## Seleccionando el tipo de servidor adecuado {/* #selecting-the-right-type-of-server */}
 
-El siguiente es un gráfico básico, no exhaustivo para ayudar a determinar cuales tipos de servidores se adaptan mejor a diferentes necesidades. Este es un buen punto de inicio, pero también puedes ver [este video](/video-tutorials#connections-full-video) donde presentamos cada tipo de servidor. Si necesitas ayuda para decidir o te gustaría solicitar una nueva Conexión (una integración a un nuevo tipo de servidor), [contáctanos](/contact-us).
+The following is a basic, non-comprehensive graph to help determine which server types is best suited to different needs. This is a good starting point, but you can also watch [this video](/video-tutorials#connections-full-video) where we present each server type. If you need help deciding or would like to request a new Connection (an integration to a new server type), [contact us!](/contact-us).
 
 
 ```mermaid
@@ -58,9 +56,9 @@ graph TD;
 En esta tabla explicamos qué tipos de servidores están disponibles en las apps de Tella:
 <ConnectionsTable/>
 
-:::info
-For offline file sharing or during internet shutdowns, [Nearby Sharing](/nearby-sharing) could be helpful.  If you need to share files with other apps the [Share button](/features#share-button) could be useful.
-:::
+:::info For offline file sharing or during internet shutdowns, check out [Nearby Sharing](/nearby-sharing). :::
+
+:::info If you need to share files through other apps, use the [Share button](/features#share-button). :::
 
 ### Tella Web {/* #tella-web */}
 
@@ -77,7 +75,7 @@ La conexión a servidor Tella Web también permite a los usuarios descargar de m
 
 ### Uwazi {/* #uwazi */}
 
-[Uwazi](/uwazi) es una herramienta de documentación de código abierto desarrollada por HURIDOCS. Es una aplicación de base de datos, flexible, basada en la web diseñada para que la(o)s defensora(e)s de derechos humanos administren sus recopilaciones de información, incluyendo documentos, evidencias, casos y reclamaciones.
+[Uwazi](/uwazi) is an open-source documentation tool developed by HURIDOCS. It is a flexible, web-based database application designed for human rights defenders to manage their collections of information, including documents, evidence, cases and complaints.
 
 Organizaciones que usan Uwazi como una base de datos pueden conectar Tella a una o más de sus bases de datos para subir información. Todo lo requerido para conectar Tella a Uwazi es la URL de la base de datos Uwazi, y un nombre de usuaria(o) y contraseña. La base de datos Uwazi debe tener ya una o más plantillas configuradas, las cuales se pueden descargar en Tella. Una vez descargadas con éxito, la(o)s usuaria(o)s pueden navegar fácilmente entre sus plantillas para introducir detalles para cada registro nuevo, incluso cuando no haya conexión a internet. Cuando la introducción de datos se complete, se puede guardar como un borrador en la app de Tella o subida inmediatamente a la base de datos Uwazi conectada. Esto permite a la(o)s usuaria(o)s que trabajan fuera de línea recopilar los datos y subir la información cuando sea conveniente.
 
@@ -88,14 +86,12 @@ Organizaciones que usan Uwazi como una base de datos pueden conectar Tella a una
 
 ### Open Data Kit (ODK - Kit de Datos Abiertos) {/* #open-data-kit-odk */}
 
-El [Open Data Kit (ODK - Kit de Datos Abiertos)](https://getodk.org/) es un estándar abierto utilizado para crear formularios personalizados y recopilar datos. Para conectar un servidor Open Data Kit, primero debes crear formularios con diferentes tipos de preguntas (texto, fecha, geolocalización, medios, etc.) usando cualquiera de las herramientas que cumplan con el ODK.
+The [Open Data Kit (ODK)](https://getodk.org/) is an open standard used to create custom forms and collect data. In order to connect a Open Data Kit server, first you need to create forms with different questions types (text, date, geolocation, media, etc) using any of the tools that are ODK-compliant.
 
-En nuestra [página de conexión del servidor Open Data Kit](/odk) explicamos cómo crear una cuenta, dónde encontrar información sobre la creación de formularios y cómo conectar a un servidor desde Tella. También puedes ver una demostración de la conexión ODK [aquí](/video-tutorials#open-data-kit). Si estás considerando utilizar el Open Data Kit o necesitas ayuda para [implementar](/faq#deploying-tella) tu instancia, por favor [contáctanos](/contact-us).
+On our [Open Data Kit server connection page](/odk) we explain how to create an account, where to find information about creating forms and how to connect to the server from Tella. You can also watch a demonstration of the ODK connection [here](/video-tutorials#open-data-kit). If you are considering using Open Data Kit or you need help to [deploy](/faq#deploying-tella) your instance, please [contact us](/contact-us).
 
 
-:::note
-La conexión ODK [solo está disponible en Android](/features).
-:::
+:::note The ODK connection is [not available on Tella iOS](/features). :::
 
 <Button label="Continue reading about the Open Data Kit connection " link="/odk"/>
 
@@ -104,20 +100,18 @@ La conexión ODK [solo está disponible en Android](/features).
 
 La(o)s usuaria(o)s pueden iniciar sesión directamente a su cuenta de Google desde dentro de Tella y subir archivos a carpetas en su cuenta de Drive. Si el usuario es parte de una organización que utiliza Google Workspace, también pueden subir los archivos directamente a un Disco Compartido al que tengan acceso. Cada "informe" subido creará una nueva carpeta en Drive.
 
-Al igual que todas las Conexiones en Tella, los usuarios pueden usar la mayor parte de la conexión de Google Drive sin conexión a través de las pestañas Borrador, Bandeja de Salida y Enviar Luego. 
+Al igual que todas las Conexiones en Tella, los usuarios pueden usar la mayor parte de la conexión de Google Drive sin conexión a través de las pestañas Borrador, Bandeja de Salida y Enviar Luego.
 
 <Button label="Continue reading about the Google Drive connection " link="/g-drive"/>
 
-:::note
-The Google Drive connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
-:::
+:::note The Google Drive connection is not available in Tella Android FOSS, because it uses closed-sourced libraries. :::
 
 
 
 ### Nextcloud {/* #Nextcloud */}
 La(o)s usuaria(o)s pueden iniciar sesión directamente a su cuenta de NextCloud desde dentro de Tella y subir archivos a carpetas en su cuenta de NextCloud. Cada "informe" subido creará una nueva carpeta en NextCloud.
 
-Al igual que todas las Conexiones en Tella, los usuarios pueden usar la mayor parte de la conexión de NextCloud sin conexión a través de las pestañas Borrador, Bandeja de Salida y Enviar Luego. 
+Al igual que todas las Conexiones en Tella, los usuarios pueden usar la mayor parte de la conexión de NextCloud sin conexión a través de las pestañas Borrador, Bandeja de Salida y Enviar Luego.
 
 <Button label="Continue reading about the Nextcloud connection " link="/nextcloud"/>
 
@@ -125,10 +119,12 @@ Al igual que todas las Conexiones en Tella, los usuarios pueden usar la mayor pa
 ### Dropbox {/* #dropbox */}
 Users can sign-in directly to their Dropbox account from within Tella and upload files to a folder in their account. In the "Applications" folder in the user's Dropbox account, a new folder "Tella" will automatically be created. Each Report uploaded from Tella will create a new subfolder inside the "Tella" folder.
 
-As for all Connections in Tella, users can use most of the Dropbox connection offline through the Draft, Outbox and Submit Later tabs. 
+As for all Connections in Tella, users can use most of the Dropbox connection offline through the Draft, Outbox and Submit Later tabs.
 
 <Button label="Continue reading about the Dropbox connection " link="/dropbox"/>
 
-:::note
-The Dropbox connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
-:::
+:::note The Dropbox connection is not available in Tella Android FOSS, because it uses closed-sourced libraries. :::
+
+
+
+
