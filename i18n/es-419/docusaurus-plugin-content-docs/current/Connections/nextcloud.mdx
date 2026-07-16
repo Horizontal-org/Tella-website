@@ -1,45 +1,38 @@
 ---
 id: nextcloud
-title: Nextcloud 
-description: Tella permite a la(o)s usuaria(o)s a subir fácilmente fotos, videos, pdfs y grabaciones de audio a Nextcloud.
+title: Nextcloud
+description: Tella allows users to conveniently upload photos, videos, pdfs and audio recordings to Nextcloud.
 slug: /nextcloud
 ---
 
 # Conexión Nextcloud
 
-[Nextcloud](https://nextcloud.com/) es una plataforma colaborativa completamente de código abierto. Puedes autohospedar Nextcloud en tu servidor o pagar un [proveedor de Nextcloud confiable](https://nextcloud.com/providers/) para hospedar tu instancia de Nextcloud.
+[Nextcloud](https://nextcloud.com/) is a fully open source collaboration platform. You can self-host Nextcloud on your server or pay a [Nextcloud trusted provider](https://nextcloud.com/providers/) to host your Nextcloud instance.
 
 Tella permite a la(o)s usuaria(o)s iniciar sesión en su cuenta de Nextcloud directamente desde Tella y subir archivos directamente en ella.
 
-De manera similar a otras conexiones de servidor (como [Tella Web](/tella-web), [Google Drive](/g-drive), [Dropbox](/dropbox), [Uwazi](/uwazi) u [Open Data Kit](/odk)), conectar a un servidor Nextcloud mejora la seguridad de los datos recopilados en Tella al:
+Similarly to other server connections (like [Tella Web](/tella-web), [Google Drive](/g-drive), [Dropbox](/dropbox), [Uwazi](/uwazi) or [Open Data Kit](/odk)), connecting to a Nextcloud server enhances the security of data collected on Tella by:
 
 1. Permitir a la(o)s usuaria(o)s a recopilar datos directamente dentro de un contenedor cifrado de Tella.
 2. Garantizar que los datos son enviados directamente de Tella a Nextcloud, sin tener que instalar la app de Nextcloud en el dispositivo o enviar datos a través de una app de terceras partes.
 3. Permitir que usuaria(o)s respalden sus datos en un servidor remoto, para reducir el riesgo de que los datos sean descubiertos en su dispositivo móvil.
-4. Asegurar que las organizaciones puedan conservar información importante incluso en caso de confiscación o destrucción de dispositivo, y puedan organizarla para procesos de  investigación, incidencia, o rendición de cuentas.
+4. Asegurar que las organizaciones puedan conservar información importante incluso en caso de confiscación o destrucción de dispositivo, y puedan organizarla para procesos de investigación, incidencia, o rendición de cuentas.
 
 Los envíos a Nextcloud toman la forma de "informes" lo cual incluye un título, una descripción de texto y archivos como fotos, videos, grabaciones de audio y documentos pdf.
 
-:::danger
-Even though data is transferred to the server securely (SSL), anyone with access to the Nexctloud account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
-:::
+:::danger Even though data is transferred to the server securely (SSL), anyone with access to the Nexctloud account can view the files. If you need encrypted file transfers, explore [Nearby Sharing]{1}. :::
 
 ## Cuándo Usar Nextcloud {/* #when-to-use-Nextcloud */}
 
 La conexión a Nextcloud puede ser particularmente adecuada para:
 - Organizaciones que ya utilizan Nextcloud.
 - Organizaciones que quiere utilizar software open-source.
-- Organizaciones que tienen la capacidad técnica para autohospedar Nextcloud en sus servidores o que pueden pagar un [proveedor de Nexcloud confiable](https://nextcloud.com/providers/) para que alojen Nextcloud por ellas. Si te asocias con un proveedor de Nextcloud, recuerda que el proveedor podrá acceder a tus datos.
+- Organizations that have the technical capacity to self-host Nextcloud on their servers or can pay a [Nextcloud trusted provider](https://nextcloud.com/providers/) to host Nextcloud for them. If you partner with a Nextcloud provider, remember that the provider will be able to access your data.
 - Usuarios que enviarán mayormente archivos multimedia, con algo de texto y no necesitarán recopilación de datos estructurados como formularios o encuestas.
 
+:::tip If you need help figuring out if Nextcloud is best for your use-case, [check out this guide](/for-organizations#selecting-the-right-type-of-server) or [contact us](/contact-us)! :::
 
-:::tip
-Si necesitas ayuda para determinar si Nextcloud es la mejor opción para tu caso de uso, [revisa esta guía]/for-organizations#selecting-the-right-type-of-server) o [contáctanos](/contact-us)!
-:::
-
-:::tip
-For now, we don't support two-factor authentication (2FA) for Nextcloud connections on Tella Android and iOS. If this is a pressing need of yours, please [let us know](/contact-us)!
-:::
+:::tip For now, we don't support two-factor authentication (2FA) for Nextcloud connections on Tella Android and iOS. If this is a pressing need of yours, please [let us know](/contact-us)! :::
 
 
 ## Conectate a Nextcloud {/* #connect-to-Nextcloud */}
@@ -52,7 +45,6 @@ Para conectarse a Nextcloud:
 * Introduce tu nombre de usuario y contraseña de Nextcloud.
 * Elige un nombre para la carpeta donde se guardaran todos tus envíos de Tella.
 
-
 ## Administra la conexión Nextcloud {/* #manage-the-Nextcloud-connection */}
 
 * En **Configuración ⚙️** > **Conexiones** > **Nextcloud** > **⫶** puedes:
@@ -64,7 +56,7 @@ Por el momento no es posible iniciar sesión en múltiples cuentas de Nextcloud 
 ## Enviar a Nextcloud {/* #submit-to-Nextcloud */}
 
 * Una vez conectada(o), una tarjeta de "Nextcloud" aparecerá en la sección "Conexiones" de la pantalla de inicio. Toca sobre esta tarjeta para empezar a enviar a Nextcloud.
-* La pantalla principal de Nexcloud permite la navegación entre las pestañas Borradores, Bandeja de Salida y  Enviados.
+* La pantalla principal de Nexcloud permite la navegación entre las pestañas Borradores, Bandeja de Salida y Enviados.
 * Toca el botón "Nuevo informe" en la parte inferior de la pantalla para crear un nuevo informe en Nextcloud.
     * En la pantalla "Nuevo informe" puedes completar los detalles del informe, incluyendo el título, descripción, y adjuntos opcionales de fotos, videos y grabaciones de audio.
 * Utiliza el botón "Guardar borrador" (en la parte superior derecha de la pantalla) para guardar el informe como un borrador sin dejar la pantalla "Nuevo informe".
@@ -76,9 +68,7 @@ Por el momento no es posible iniciar sesión en múltiples cuentas de Nextcloud 
     * Si el envío falla debido a problemas de conectividad, el informe se va a la pestaña "Bandeja de Salida".
     * Si el informe es enviado correctamente, se va a la pestaña "Enviados" y se creará una nueva carpeta en Nextcloud con el título que seleccionaste. Todos los adjuntos serán añadidos a la carpeta y la descripción será añadida como un archivo de texto dentro de la carpeta.
 
-:::info
-On Android, [a known Nextcloud issue](https://help.Nextcloud.com/t/cant-upload-files-langer-than-20-mb-using-Nextcloud-android-app/196434) prevents files larger than 20MB from being submitted to a Nextcloud server. For that reason, Tella users cannot attach files larger than 20MB to Reports uploaded to a Nextcloud connection. We are monitoring the status of this issue and will remove Tella's file-size restriction as soon as it is solved by Nextcloud.
-:::
+:::info On Android, [a known Nextcloud issue](https://help.Nextcloud.com/t/cant-upload-files-langer-than-20-mb-using-Nextcloud-android-app/196434) prevents files larger than 20MB from being submitted to a Nextcloud server. For that reason, Tella users cannot attach files larger than 20MB to Reports uploaded to a Nextcloud connection. We are monitoring the status of this issue and will remove Tella's file-size restriction as soon as it is solved by Nextcloud. :::
 
 ## Borradores de Informes {/* #draft-reports */}
 
@@ -90,8 +80,7 @@ Reports in the Draft tab can be edited.
     * Se mostrará un mensaje de confirmación, y puedes continuar trabajando en el informe o salir y regresar más tarde.
 * Si intentas salir del informe sin guardar, se te pedirá confirmar si tienes seguridad de salir sin guardar el informe.
 * En la pestaña Borradores, puedes ver y administrar los borradores de informes. Abre un borrador de informe para continuar trabajando y enviarlo.
-* Puedes eliminar un borrador de informe tocando en  **⫶** > **Eliminar** o entrando al informe y tocando el botón Eliminar.
-
+* Puedes eliminar un borrador de informe tocando en **⫶** > **Eliminar** o entrando al informe y tocando el botón Eliminar.
 
 #### Enviar un Informe a Nextcloud {/* #submit-a-report-to-Nextcloud */}
 
@@ -99,27 +88,27 @@ Reports in the Draft tab can be edited.
 * Se te redireccionará a una pantalla de resumen mostrando el progreso de subida de cada archivo adjunto.
 * Un botón de "Eliminar" está disponible para detener la subida y eliminar el informe.
 * Si el informe se está subiendo activamente, un botón de "Pausa" te permite detener temporalmente la subida, la cual puede ser reanudada luego utilizando el botón "Reanudar".
-* Salir de un informe no afecta el estado de subida. Si el informe se está subiendo activamente, el proceso continúa. 
+* Salir de un informe no afecta el estado de subida. Si el informe se está subiendo activamente, el proceso continúa.
 
-:::info
-Después de que un informe ha sido subido a Nextcloud, no es posible eliminarlo de Nextcloud desde la app móvil de Tella. Eliminar un informe enviado solo eliminará la versión local del mismo, no el informe en el servidor.
-:::
+:::info Después de que un informe ha sido subido a Nextcloud, no es posible eliminarlo de Nextcloud desde la app móvil de Tella. Eliminar un informe enviado solo eliminará la versión local del mismo, no el informe en el servidor. :::
 
-:::info
-Eliminar un informe en medio de un envío cancelará la subida de los archivos que no hayan subido aún, pero los archivos enviados y archivos parcialmente enviados que ya estén en Nextcloud no serán eliminados.
-:::
+:::info Eliminar un informe en medio de un envío cancelará la subida de los archivos que no hayan subido aún, pero los archivos enviados y archivos parcialmente enviados que ya estén en Nextcloud no serán eliminados. :::
 
 
 #### Bandeja de Salida {/* #outbox */}
 La Bandeja de Salida contiene informes que han sido guardados para enviar. Esto podría ser:
 
+:::tip If you need a fully offline way to share files with others, consider exploring [Nearby Sharing]{1}. :::
+
+To send a report to the Outbox, use the Submit later button (⏱️), at the bottom left of the Submit Report screen.
+
+The Outbox contains:
+
 * Envíos pausados
 * Envíos de informes que fueron interrumpidos debido a problemas de conectividad.
 * Informes que fueron marcados como "Enviar luego".
 
-:::tip
-If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
-:::
+:::tip If you need to share files with others without an internet connection, check out [Nearby Sharing](/nearby-sharing). :::
 
 
 #### Informes Enviados {/* #submitted-reports */}
@@ -127,9 +116,7 @@ If you need a fully offline way to share files with others, consider exploring [
 - La pestaña Enviados muestra informes que han sido enviados exitosamente al servidor Nextcloud.
 - En la pestaña Enviados, puedes ver y revisar los informes enviados.
 
-:::info
-Si la conexión a internet es interrumpida, los informes irán a la pestaña "Bandeja de Salida" y tendrás que reanudar el envío manualmente.
-:::
+:::info Si la conexión a internet es interrumpida, los informes irán a la pestaña "Bandeja de Salida" y tendrás que reanudar el envío manualmente. :::
 
 
 
