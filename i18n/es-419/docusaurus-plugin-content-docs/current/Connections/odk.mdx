@@ -5,6 +5,8 @@ description: La conexión a servidor Open Data Kit está disponible para organiz
 slug: /odk
 ---
 
+import Admonition from '@theme/Admonition';
+
 # Conexión de Open Data Kit (ODK)
 
 El [Open Data Kit (ODK - Kit de Datos Abiertos)](https://getodk.org/) es un estándar abierto utilizado para crear formularios personalizados y recopilar datos.
@@ -18,9 +20,9 @@ De manera similar a otras conexiones de servidor (como [Tella Web](/tella-web), 
 3. Permitir que usuaria(o)s respalden sus datos en un servidor remoto, para reducir el riesgo de que los datos sean descubiertos en su dispositivo móvil.
 4. Asegurar que las organizaciones puedan conservar información importante incluso en caso de confiscación o destrucción de dispositivo, y puedan organizarla para procesos de  investigación, incidencia, o rendición de cuentas.
 
-:::danger
+<Admonition type="danger">
 Even though data is transferred to the server securely (SSL), anyone with access to the ODK account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
-:::
+</Admonition>
 
 
 ### Choosing and Installing Your ODK Server {/* #choosing-and-installing-your-odk-server */}
@@ -29,9 +31,9 @@ Porque ODK es un estándar abierto, se puede utilizar Tella con cualquier herram
 
 For civil society organizations and human rights defenders, we recommend using [KoboToolbox](https://www.kobotoolbox.org/) to create forms with custom questions, manage users, and aggregate the data submitted by users. Based on our experience, KoboToolbox is user-friendly and flexible, and it is also open source. KoboToolbox offers a [community plan for non-profits](https://www.kobotoolbox.org/pricing/) and offer free training resources and guidance on how to structure the data on the server (Self-serve learning base and Community Forum). It is also possible [to use a private instance of KoboToolbox](https://www.kobotoolbox.org/services/private-servers/) or [self-host it](https://support.kobotoolbox.org/kobo_your_servers.html).
 
-:::tip
+<Admonition type="tip">
 We are work closely with the Kobotoolbox team. If you are interested in using the Tella-KoboToolbox connection and would like some support or to discuss the best hosting plan for your use case, please [contact us](/contact-us). 
-:::
+</Admonition>
 
 There are other ODK-compliant apps available, like [Ona](https://ona.io/home/) or [ODK Cloud](https://https://getodk.org/index.html). Tella works with any of these. 
 
@@ -42,9 +44,9 @@ Recomendamos ODK a organizaciones que necesitan usuaria(o)s sobre el terreno par
 
 ODK y KoboToolbox son ampliamente utilizadas, bien documentadas, y fáciles de usar. Hay guías disponibles, y estas ofrecen soporte para organizaciones sin fines de lucro sobre cómo estructurar y mantener sus datos.
 
-:::tip
+<Admonition type="tip">
 Si necesitas ayuda para determinar si ODK es la mejor opción para tu caso de uso, [lee nuestra guía](/for-organizations) o [contáctanos](/contact-us)!
-:::
+</Admonition>
 
 ## Modela Tus Datos {/* #model-your-data */}
 
@@ -54,9 +56,9 @@ KoboToolbox ofrece una guía detallada de cómo crear tu proyecto y añadir preg
 
 En esta documentación, nos enfocamos en cómo recopilar datos utilizando Tella. Hay apps móviles alternativas que pueden ser utilizadas para recopilar datos en ODK, incluyendo la app ODK Collect Android. Puedes ver una comparación de estas alternativas [aquí](/faq#how-is-tella-different-from-other-documentation-apps).
 
-:::info
+<Admonition type="info">
 La conexión ODK no está disponible para Tella iOS.
-:::
+</Admonition>
 
 ### Conectar a un Servidor ODK {/* #connect-to-an-odk-server */}
 After creating and deploying a Form using any ODK-compliant server, in Tella, go to **Settings** > **Connections** > **+** > **Open Data Kit (ODK)**. Fill the following fields:
@@ -139,6 +141,6 @@ Debajo una vista general de los tipos de funciones ODK que son admitidos en Tell
 | [Form metadata (background data collection)](https://docs.getodk.org/form-audit-log/) | ❌ |
 
 
-:::tip
+<Admonition type="tip">
 If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
-:::
+</Admonition>

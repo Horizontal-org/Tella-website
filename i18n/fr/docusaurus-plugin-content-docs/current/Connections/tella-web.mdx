@@ -5,6 +5,8 @@ description: La fonction Rapports permet aux utilisateurs et utilisatrices de ch
 slug: /tella-web
 ---
 
+import Admonition from '@theme/Admonition';
+
 # Tella Web 
 
 Tella Web est un outil open source qui permet aux individus et aux organisations de centraliser et de gérer les rapports transmis par les utilisateurs de Tella, notamment des photos, des vidéos et des fichiers audio.
@@ -27,9 +29,9 @@ La configuration de Tella Web s'effectue en trois étapes, présentées en déta
 * **Configurez votre/vos projet(s) sur votre serveur** : Dans cette étape, les administrateurs décident comment s'organiser pour collecter des données, créer des "projets", ajouter des "ressources" que les utilisateurs peuvent télécharger sur leurs appareils et définir des rôles et des autorisations pour les utilisateurs.
 * **Faire en sorte que les personnes sur le terrain soient prêtes à commencer à soumettre des rapports** : Les utilisateurs et utilisatrices installent Tella sur leur appareil Android ou iPhone. Ils ou elles se connectent ensuite au projet Web Tella et commencent à recueillir des informations.
 
-:::danger
+<Admonition type="danger">
 Even though data is transferred to the server securely (SSL), anyone with access to the Tella Web account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
-:::
+</Admonition>
 
 ## When to Use Tella Web {/* #when-to-use-tella-web */}
 
@@ -39,9 +41,9 @@ The Tella Web could be a good alternative if:
 - You will be partnering with Horizontal and you want the same organization to help you with installation, configuration, and maintenance of your Tella Web instance and the Tella apps.
 
 
-:::tip
+<Admonition type="tip">
 If you need help figuring out if Tella Web is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
-:::
+</Admonition>
 
 
 ## Installer le serveur {/* #install-the-server */}
@@ -50,22 +52,22 @@ Cette étape consiste à installer et configurer Tella Web sur le serveur que vo
 
 Vous pouvez consulter les notes de publication de Tella Web [ici](https://github.com/Horizontal-org/TellaWeb-FrontEnd/releases).
 
-:::info
+<Admonition type="info">
 Notre équipe peut vous assister dans l'installation, la configuration et la maintenance de Tella Web. Si vous avez des questions ou si vous avez besoin d'aide, [contactez-nous](/contact-us/)
-:::
+</Admonition>
 
-:::tip
+<Admonition type="tip">
 [Contactez-nous](/contact-us/) pour accéder à notre serveur de démonstration, et tester Tella Web avant de l'installer sur votre propre serveur.
-:::
+</Admonition>
 
 
 ## Configurer votre projet sur votre serveur {/* #set-up-your-project-on-your-server */}
 
 Une fois Tella Web installé et le premier utilisateur « admin » créé, il est temps de configurer le ou les projets avec lesquels l'équipe sur le terrain partagera des informations.
 
-:::info
+<Admonition type="info">
 Consultez [ce tutoriel vidéo](/video-tutorials#connections-full-video) pour voir comment configurer Tella Web.
-:::
+</Admonition>
 
 ### Centre d'administration {/* #admin-center */}
 
@@ -89,9 +91,9 @@ Admins of the Tella Web instance can export all data out of Tella Web by generat
 
 The backup is a full export everything in the space: including all Projects, Reports, Users and Resources, plus all metadata. The export is a zip file including a collection of CSVs and folders with with the uploaded media. For now, there is no way to import the backup back into a Tella Web instance from the Admin Center, but each backup includes a .sql file that advanced users can use to import the data to the database directly. 
 
-:::warning
+<Admonition type="warning">
 The information included in the backup is highly sensitive, it not only contains all the data (unencrypted) but also information about the Tella Web users. Please proceed with caution when generating the backup.
-:::
+</Admonition>
 
 
 ### Gestion des projets {/* #managing-projects */}
@@ -148,9 +150,9 @@ Une fois confirmé, le projet et tous ses rapports associés seront définitivem
 
 L'URL du projet est automatiquement générée lors de la création du projet. Pour modifier l'URL du projet, rendez-vous dans la section "Général" de l'écran "Paramètres du projet" et modifiez-la en conséquence. Cette URL est celle que les journalistes utiliseront pour se connecter au projet depuis leurs applications.
 
-:::info
+<Admonition type="info">
 L'URL que vous devez envoyer aux utilisateurs ou utilisatrices doit ressembler à ceci: `https://your-domain.com/p/your-project-name`.
-:::
+</Admonition>
 
 
 ### Gestion des utilisateurs {/* #managing-users */}
@@ -200,9 +202,9 @@ Dans le champ du mot de passe, un indicateur de sécurité du mot de passe aide 
 Dans la section « Gérer l'accès » de l'écran « Paramètres du projet », les admins peuvent attribuer des utilisateurs ou utilisatrices existants au projet. Cliquez sur le champ "Ajouter des utilisateurs". Un menu déroulant affichera tous les utilisateurs et utilisatrices sur le serveur. Faites défiler la liste ou tapez pour rechercher quelqu'un par son nom d'utilisateur.
 Après avoir sélectionné les personnes à ajouter au projet, cliquez sur le bouton « Ajouter » pour enregistrer les modifications et leur accorder l'accès au projet.
 
-:::info
+<Admonition type="info">
 La liste complète des utilisateurs pouvant soumettre des rapports au projet comprend les utilisateurs répertoriés dans cette section ainsi que tous les administrateurs du serveur.
-:::
+</Admonition>
 
 ### Gestion des ressources {/* #managing-resources */}
 
@@ -220,9 +222,9 @@ Sur le même écran, les administrateurs d'espace peuvent gérer les ressources.
 - Découvrez sur quels projets chaque ressource est ajoutée en appuyant sur Aperçu
 - Supprimer une ressource de l'espace.
 
-:::info
+<Admonition type="info">
 Si votre organisation a besoin d'autres types de ressources ou si vous rencontrez des problèmes avec les limites de format ou de taille, veuillez [nous contacter](/contact-us).
-:::
+</Admonition>
 
 #### Ajouter des ressources aux projets {/* #adding-resources-to-projects */}
 
@@ -246,9 +248,9 @@ Les étapes décrites ci-dessous s'appliquent aux versions Android et iOS de l'a
 
 Les rapports ne sont pas encore disponibles sur [Tella-FOSS](/faq#is-tella-available-on-f-droid).
 
-:::info
+<Admonition type="info">
 Vous pouvez regarder [cette vidéo](/video-tutorials#tella-web) pour savoir comment configurer et utiliser les rapports dans Tella.
-:::
+</Admonition>
 
 #### Connectez-vous aux projets Tella Web {/* #connect-to-tella-web-projects */}
 
@@ -317,9 +319,9 @@ Les rapports dans l'onglet Brouillon peuvent être modifiés.
 * Si le rapport est en cours de chargement, un bouton « Pause » permet d'arrêter temporairement le téléchargement, qui peut être repris ultérieurement à l'aide du bouton « Reprendre ».
 * Sortir d'un rapport n'affecte pas l'état du chargement. Si le rapport est en cours de chargement, le processus continue.
 
-:::info
+<Admonition type="info">
 Une fois qu'un rapport a été chargé sur Tella Web, il n'est plus possible de le supprimer partir de l'application mobile Tella. La suppression d'un rapport soumis supprimera uniquement la version locale de celui-ci, pas le rapport sur le serveur.
-:::
+</Admonition>
 
 
 #### Boîte d'envoi {/* #outbox */}
@@ -336,9 +338,9 @@ La Boîte d'envoi contient :
 * Envois de rapports interrompus en raison de problèmes de connectivité.
 * Rapports marqués comme « Soumettre plus tard »
 
-:::tip
+<Admonition type="tip">
 If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
-:::
+</Admonition>
 
 
 #### Rapports soumis {/* #submitted-reports */}
@@ -346,9 +348,9 @@ If you need a fully offline way to share files with others, consider exploring [
 - Lorsque la soumission en arrière-plan est activée, quelle que soit votre activité dans Tella ou la fermeture de l'application, le processus de téléchargement se poursuivra sans interruption. Il fonctionnera également si les rapports automatiques sont activés et que vous fermez l'application après avoir collecté les informations.
 - Dans l'onglet Soumis, vous pouvez afficher et examiner les rapports soumis.
 
-:::info
+<Admonition type="info">
 Si la connexion Internet est interrompue, les rapports seront envoyés dans l'onglet Boîte d'envoi et vous devrez reprendre manuellement la soumission.
-:::
+</Admonition>
 
 
 ### Fonctionnalités avancées {/* #advanced-features */}
@@ -359,9 +361,9 @@ Si le rapport automatique est activé, Tella créera et chargera automatiquement
 
 Le rapport automatique peut être activé à partir de l'écran Modifier la connexion.
 
-:::info
+<Admonition type="info">
 le rapport automatique ne peut être activé que pour un projet à la fois
-:::
+</Admonition>
 
 #### Suppression automatique {/* #auto-delete */}
 

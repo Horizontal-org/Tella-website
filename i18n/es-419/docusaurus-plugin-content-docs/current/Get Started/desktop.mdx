@@ -7,6 +7,7 @@ slug: /get-started-desktop
 
 import DownloadButtons from '@site/src/components/DownloadButtons';
 import { DESKTOP_RELEASE } from '@site/src/config/desktop-release';
+import Admonition from '@theme/Admonition';
 
 
 
@@ -24,13 +25,13 @@ Tella Desktop is an Application you can install on your computer to be able to r
 - Click on the Tella-Desktop file inside the folder.
 - If you get a warning from your OS saying that the file cannot be opened because it's from an un-verified developer, go to Settings > Security and Privacy and choose to open the file anyway.
 
-:::info
+<Admonition type="info">
 Tella Desktop is [open source](/open-source). Release notes for the latest version ({DESKTOP_RELEASE.version}) are available on <a href={DESKTOP_RELEASE.releaseNotesUrl}>GitHub</a>.
-:::
+</Admonition>
 
-:::note
+<Admonition type="note">
 We are working to add the installation files to official Stores for each operative system.
-:::
+</Admonition>
 
 
 
@@ -60,9 +61,9 @@ After you are done receiving files, we strongly recommend closing the Tella Desk
 
 All received files will be stored, encrypted, in Tella. Click on the Received button on the left side panel to view the list of folders received, the date, and the number of files on each folder. At the moment, it's not possible to preview the files inside the Tella Desktop encrypted container. To export files to your Computer and be able to view them, select one or many folders from the list of received files and click on the Export button on the top bar to save them in your computer. For each folder, Tella will save a zip file on ´Documents > Exports´. Unzip it to view the files.
 
-:::danger
+<Admonition type="danger">
 Once exported out of Tella, anyone with access to your computer can view them.
-:::
+</Admonition>
 
 ## Delete files {/* #delete-files */}
 Select the received folders you'd like to delete by selecting those on the Received tab of Tella. Click on Delete and accept the confirmation dialogue to permanently deleting a folder and all files in it from Tella. This action cannot be reversed.
@@ -70,9 +71,9 @@ Select the received folders you'd like to delete by selecting those on the Recei
 
 
 
-:::tip
+<Admonition type="tip">
 We are working to add more features to Tella Desktop, including the possibility to import files to it from your computer and to be able to preview files inside Tella Desktop's encrypted container. If you need these features urgently or would like to contribute to the scoping or implementation of these features, please [contact us](/contact-us).
-:::
+</Admonition>
 
 
 

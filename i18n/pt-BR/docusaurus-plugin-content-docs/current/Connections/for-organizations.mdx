@@ -7,6 +7,7 @@ slug: /for-organizations
 
 import ConnectionsTable from '.././_connections-table.mdx';
 import Button from '@site/src/components/Button';
+import Admonition from '@theme/Admonition';
 
 
 # Tella para organizações - Visão Geral
@@ -26,11 +27,11 @@ Atualmente, o Tella pode ser conectado aos seguintes tipos de servidores:
 
 Estes são chamados [Conexões](/features#connecting-to-servers) no Tella.
 
-:::danger
+<Admonition type="danger">
 For now, any files you submit to a connection might stored unencrypted on that server or drive (that depends on the server configuration). This means that anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
 
 We strongly recommend reviewing and understanding the permission model of each connection you use, in order to determine which option is safest and most appropriate for your specific use case.
-:::
+</Admonition>
 
 
 
@@ -58,9 +59,9 @@ graph TD;
 On this table we explain what server types are available on the Tella apps:
 <ConnectionsTable/>
 
-:::info
+<Admonition type="info">
 For offline file sharing or during internet shutdowns, [Nearby Sharing](/nearby-sharing) could be helpful.  If you need to share files with other apps the [Share button](/features#share-button) could be useful.
-:::
+</Admonition>
 
 ### Tella Web {/* #tella-web */}
 
@@ -93,9 +94,9 @@ O [Open Data Kit (ODK)](https://getodk.org/) é um padrão aberto usado para cri
 Em nossa [página sobre a conexão do servidor Open Data Kit](/odk) explicamos como criar uma conta, onde encontrar informações sobre a criação de formulários e como conectar-se ao servidor a partir do Tella. Você também pode ver uma demonstração da conexão ODK [aqui](/video-tutorials#open-data-kit). Se está considerando usar o Open Data Kit ou precisa de ajuda para [implantar](/faq#deploying-tella) sua instância, por favor [entre em contato conosco](/contact-us).
 
 
-:::note
+<Admonition type="note">
 A conexão ODK está [somente disponível no Android](/features).
-:::
+</Admonition>
 
 <Button label="Continue reading about the Open Data Kit connection " link="/odk"/>
 
@@ -112,9 +113,9 @@ Users can sign-in directly to their Google account from within Tella and upload 
 
 As for all Connections in Tella, users can use most of the Google Drive connection offline through the Draft, Outbox and Submit Later tabs. 
 
-:::note
+<Admonition type="note">
 The Google Drive connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
-:::
+</Admonition>
 
 
 
@@ -133,9 +134,9 @@ As for all Connections in Tella, users can use most of the Dropbox connection of
 
 <Button label="Continue reading about the Dropbox connection " link="/dropbox"/>
 
-:::note
+<Admonition type="note">
 The Dropbox connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
-:::
+</Admonition>
 
 
 
