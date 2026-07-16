@@ -60,9 +60,25 @@ Nearby Sharing does not work if either of the devices is connected to a VPN.
 </Admonition>
 
 
+## Technical security measures {/* #security-measures */}
+
+Nearby Sharing is designed to work safely even on insecure or monitored Wi-Fi networks. It relies on the following technical security measures:
+
+- **Certificate and PIN-based authentication**: connecting requires both a PIN and certificate verification. This happens automatically when scanning a QR code, or manually if QR scanning isn't available; in that case, both devices display the certificate's fingerprint (a hash), and users confirm that the same fingerprint appears on both screens before continuing.
+- **Mutual TLS (mTLS)**: every connection uses HTTPS with a unique, self-signed certificate generated for each device, for each session. Both devices verify each other's certificate before any file is exchanged — the sending device verifies the receiving device, and the receiving device also verifies the sender. This protects the connection against man-in-the-middle attacks.
+- **Session-based, ephemeral certificates**: certificates are generated for a single session and discarded once the transfer ends. Certificates are never reused or stored long-term.
+- **Rate-limited connections**: repeated invalid connection attempts are blocked, to protect against brute-force guessing.
+
+<Admonition type="tip">
+Nearby Sharing was reviewed as part of Tella's regular independent [security audits](/security-and-privacy#security-audits).
+</Admonition>
+
+Technical readers can find the full protocol specification in the [Tella-P2P-Protocol repository](https://github.com/Horizontal-org/Tella-P2P-Protocol).
+
+
 ## Platform availability {/* #platform-availability */}
 
-Nearby Sharing is available for [Tella Android](/faq#is-tella-available-on-android), [Tella iOS](/faq#is-tella-available-on-ios) and [Tella Desktop](/faq#is-tella-available-on-desktop).
+Nearby Sharing is available for [Tella Android](/get-started-android), [Tella iOS](/get-started-ios) and [Tella Desktop](/get-started-desktop).
 
 
 
