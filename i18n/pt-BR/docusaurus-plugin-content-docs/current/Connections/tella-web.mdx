@@ -5,6 +5,8 @@ description: A funcionalidade Relatórios empodera usuários a carregar fotos, v
 slug: /tella-web
 ---
 
+import Admonition from '@theme/Admonition';
+
 # Conexão com o Tella Web
 
 O Tella Web é uma ferramenta de código aberto que permite a indivíduos e organizações centralizar e gerenciar relatórios enviados por usuários do Tella, incluídos fotos, vídeos e arquivos de áudio.
@@ -27,9 +29,9 @@ A configuração do Tella Web envolve três etapas, os quais são minuciosamente
 * **Configurar seu(s) projeto(s) no seu servidor**: Nesta etapa, administradores decidem como se organizar para coletar dados, criar "projetos" e definir papéis e permissões para seus usuários.
 * **Preparar as pessoas nos locais de atuação para começar a submeter relatórios.**: Usuários instalam o Tella no seu dispositivo Android ou iPhone. Eles, então, conectam-se ao projeto do Tella Web e iniciam a coleta de informações.
 
-:::danger
+<Admonition type="danger">
 Even though data is transferred to the server securely (SSL), anyone with access to the Tella Web account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
-:::
+</Admonition>
 
 ## When to Use Tella Web {/* #when-to-use-tella-web */}
 
@@ -39,9 +41,9 @@ The Tella Web could be a good alternative if:
 - You will be partnering with Horizontal and you want the same organization to help you with installation, configuration, and maintenance of your Tella Web instance and the Tella apps.
 
 
-:::tip
+<Admonition type="tip">
 If you need help figuring out if Tella Web is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
-:::
+</Admonition>
 
 
 ## Instale o servidor {/* #install-the-server */}
@@ -51,13 +53,13 @@ Esta etapa consiste em instalar e configurar o Tella Web no servidor que a sua o
 You can check Tella Web release notes [here](https://github.com/Horizontal-org/tellaweb/releases).
 
 
-:::info
+<Admonition type="info">
 Nossa equipe pode oferecer suporte com a instalação, configuração e manutenção do Tella Web. Se você tiver alguma pergunta ou precisar de suporte, [entre em contato conosco](/contact-us/).
-:::
+</Admonition>
 
-:::tip
+<Admonition type="tip">
 [Contate-nos](/contact-us/) para ter acesso a nosso servidor de demonstração para que você possa testar o Tella Web antes de instalá-lo em seu próprio servidor.
-:::
+</Admonition>
 
 
 ## Configure o seu projeto no seu servidor {/* #set-up-your-project-on-your-server */}
@@ -66,9 +68,9 @@ Uma vez instalado o Tella Web e criada a primeira conta de usuário "administrad
 
 
 
-:::info
+<Admonition type="info">
 Dê uma olhada [neste tutorial em vídeo](/video-tutorials#connections-full-video) para uma demonstração de como configurar o Tella Web.
-:::
+</Admonition>
 
 ### Admin center {/* #admin-center */}
 
@@ -92,9 +94,9 @@ Admins of the Tella Web instance can export all data out of Tella Web by generat
 
 The backup is a full export everything in the space: including all Projects, Reports, Users and Resources, plus all metadata. The export is a zip file including a collection of CSVs and folders with with the uploaded media. For now, there is no way to import the backup back into a Tella Web instance from the Admin Center, but each backup includes a .sql file that advanced users can use to import the data to the database directly. 
 
-:::warning
+<Admonition type="warning">
 The information included in the backup is highly sensitive, it not only contains all the data (unencrypted) but also information about the Tella Web users. Please proceed with caution when generating the backup.
-:::
+</Admonition>
 
 
 ### Gerenciando Projetos {/* #managing-projects */}
@@ -150,9 +152,9 @@ Uma vez confirmada, o projeto e todos os relatórios associados a ele serão exc
 
 A URL do projeto é automaticamente gerada quando ele é criado. Para editar a URL, dirija-se à seção "Geral" na tela de "Configurações do projeto" e modifique-a adequadamente. Esta URL é a que reportadores usarão para conectar ao projeto por meio de seus aplicativos.
 
-:::info
+<Admonition type="info">
 A URL de você enviará aos usuários deve parecer com esta: `https://seu-dominio.com/p/nome-do-seu-projeto`
-:::
+</Admonition>
 
 
 ### Gerenciando usuários {/* #managing-users */}
@@ -203,9 +205,9 @@ No campo de senha, um medidor de segurança da senha ajuda administradores a cri
 Na seção "Gerenciar acesso" da tela "Configurações do projeto", administradores podem alocar os usuários existentes no projeto. Clique no campo "Adicionar usuários". Um menu suspenso exibirá todos os usuários do servidor. Role a lista ou digite para procurar por um usuário pelo nome de usuário.
 Após selecionar os usuários para adicionar ao projeto, clique no botão "Adicionar" para salvar as mudanças e conceder acesso ao projeto.
 
-:::info
+<Admonition type="info">
 A lista completa de usuários que podem submeter relatórios para o projeto inclui os usuários listados nesta seção e todos os administradores
-:::
+</Admonition>
 
 ### Managing resources {/* #managing-resources */}
 
@@ -224,9 +226,9 @@ On the same screen, space admins can manage resources. The following options are
 - Find out on which projects each resource is added to by tapping on Preview
 - Delete a resource from the space.
 
-:::info
+<Admonition type="info">
 If your organization need other type of Resources or if you experience problems with the format or size limits please [contact us](/contact-us).
-:::
+</Admonition>
 
 #### Adding resources to projects {/* #adding-resources-to-projects */}
 
@@ -253,9 +255,9 @@ As etapas destacadas abaixo se aplicam tanto às versões do aplicativo Tella pa
 
 Relatórios ainda não estão disponíveis no [Tella-FOSS](/faq#is-tella-available-on-f-droid).
 
-:::info
+<Admonition type="info">
 Você pode assistir a [este vídeo](/video-tutorials#tella-web) sobre como configurar e utilizar os Relatórios no Tella.
-:::
+</Admonition>
 
 
 #### Conectar aos Projetos do Tella Web {/* #connect-to-tella-web-projects */}
@@ -324,13 +326,13 @@ Reports in the Draft tab can be edited.
 * Se o relatório estiver sendo ativamente submetido, um botão "Pausar" permite a você suspender temporariamente o carregamento, o qual pode ser retomado mais tarde com o uso do botão "Retomar".
 * Sair de um relatório não afeta o status do carregamento. Se o relatório está ativamente sendo carregado, o processo continua.
 
-:::info
+<Admonition type="info">
 Após um relatório ser carregado no Tella Web, não é possível excluí-lo no Tella Web por meio do aplicativo Tella em dispositivos móveis. Excluir um relatório submetido somente irá excluir a versão local dele, não o relatório no servidor. 
-:::
+</Admonition>
 
-:::info
+<Admonition type="info">
 Excluir um relatório durante a submissão cancelará o carregamento dos arquivos que ainda não foram carregados, mas os arquivos submetidos e os parcialmente submetidos que já estão no Tella Web não serão excluídos.
-:::
+</Admonition>
 
 
 #### Caixa de Saída {/* #outbox */}
@@ -347,9 +349,9 @@ Estes podem ser:
 * Submissões de relatório que foram interrompidas devido a problemas de conectividade.
 * Relatórios marcados como "Submeter mais tarde"
 
-:::tip
+<Admonition type="tip">
 If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
-:::
+</Admonition>
 
 
 #### Relatórios Submetidos {/* #submitted-reports */}
@@ -357,9 +359,9 @@ If you need a fully offline way to share files with others, consider exploring [
 - A aba Submetidos exibe relatórios submetidos com sucesso no servidor Tella Web.
 - Na aba Submetidos, você pode visualizar e revisar os relatórios submetidos.
 
-:::info
+<Admonition type="info">
 Caso a conexão com a internet seja interrompida, os relatórios irão para a aba caixa de saída e você precisará retomar a submissão manualmente.
-:::
+</Admonition>
 
 
 ### Funcionalidades avançadas {/* #advanced-features */}
@@ -370,9 +372,9 @@ Se o auto-reportar estiver habilitado, o Tella criará e submeterá relatórios 
 
 A funcionalidade Auto-reportar pode ser habilitada pela tela Editar conexões.
 
-:::info
+<Admonition type="info">
 A funcionalidade auto-reportar somente pode ser habilitada para um projeto por vez
-:::
+</Admonition>
 
 #### Auto-excluir {/* #auto-delete */}
 

@@ -5,6 +5,8 @@ description: La conexión a servidor Uwazi está disponible para organizaciones 
 slug: /uwazi
 ---
 
+import Admonition from '@theme/Admonition';
+
 # Conexión Uwazi
 
 [Uwazi](https://uwazi.io/) es una herramienta de documentación de código abierto desarrollada por [HURIDOCS](https://huridocs.org). Es una aplicación de base de datos, flexible, basada en la web desarrollada para que la(o)s defensora(e)s de derechos humanos administren sus recopilaciones de información, incluyendo documentos, evidencias, casos, y reclamaciones.
@@ -17,9 +19,9 @@ De manera similar a todas las demás conexiones de servidor ([Tella Web](/tella-
 3. Permitir que usuaria(o)s respalden sus datos en un servidor remoto, para reducir el riesgo de que los datos sean descubiertos en su dispositivo móvil.
 4. Garantizar que las organizaciones puedan conservar información importante incluso en caso de confiscación o destrucción de dispositivo, y puedan organizarla para procesos de  investigación, incidencia, o rendición de cuentas.
 
-:::danger
+<Admonition type="danger">
 Even though data is transferred to the server securely (SSL), anyone with access to the Uwazi account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
-:::
+</Admonition>
 
 ### Probando Uwazi {/* #testing-uwazi */}
 
@@ -45,9 +47,9 @@ Aquí hay algunos indicadores de que Uwazi puede ser particularmente adecuado pa
 
 Puedes aprender más sobre Uwazi en la [documentación oficial de Uwazi](https://uwazi.readthedocs.io/en/latest/). HURIDOCS es una excelente amistad de Horizontal, por lo que si tienes preguntas sobre Uwazi o te gustaría que te conectemos al equipo de HURIDOCS [contáctanos](/contact-us).
 
-:::tip
+<Admonition type="tip">
 Si necesitas ayuda para determinar si Uwazi es la mejor opción para tu caso de uso, [lee nuestra guía](/for-organizations) o [contactanos](/contact-us)!
-:::
+</Admonition>
 
 ## Configura Uwazi en un servidor {/* #configure-uwazi-on-a-server */}
 
@@ -63,9 +65,9 @@ Una colección de Uwazi está hecha de Entidades. Una entidad tiene Propiedades 
 
 [Aquí puedes leer](https://uwazi.readthedocs.io/en/latest/admin-docs/building-info-architecture.html#understanding-properties) sobre las propiedades que están disponibles en el servidor Uwazi y cómo modelar tus datos y crear tus plantillas. Por el momento solo permitimos propiedades y funcionalidades que han sido marcadas como alta prioridad por la(o)s usuaria(o)s de Uwazi. Si necesitas otras propiedades, [contáctanos](/contact-us).
 
-:::info
+<Admonition type="info">
 Si la(o)s usuaria(o)s de Tella descargan una plantilla que tiene propiedades que no son permitidas en Tella, esas propiedades no aparecerán en la app. De todos modos, la(o)s usuaria(o)s aún podrán enviar las entidades, y la(o)s admins podrán acceder a estas entidades, incluyendo todas las propiedades que fueron rellenadas, sin ningún problema.
-:::
+</Admonition>
 
 ### Propiedades Disponibles {/* #available-properties */}
 
@@ -102,9 +104,9 @@ Para conectarse a un servidor Uwazi:
 * Si el servidor requiere autenticación en dos factores, introduce el código de un solo uso.
 * Elige el **Idioma** en el cual quieres mostrar tus plantillas.
 
-:::info
+<Admonition type="info">
 Puedes ver [este video](/video-tutorials#uwazi) sobre cómo conectarse a un servidor Uwazi desde Tella.
-:::
+</Admonition>
 
 ### Envía Tu Información {/* #send-your-information */}
 
@@ -129,6 +131,6 @@ Luego vuelve a la pantalla principal de Uwazi y toca la plantilla que quieres us
 | Pausar envíos automáticamente cuando se esté fuera de línea. | Los envíos serán enviados a la Bandeja de Salida si un envío falla debido a problemas de conexión.  | Sí | Sí |
 
 
-:::tip
+<Admonition type="tip">
 If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
-:::
+</Admonition>

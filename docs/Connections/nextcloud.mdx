@@ -5,6 +5,8 @@ description: Tella allows users to conveniently upload photos, videos, pdfs and 
 slug: /nextcloud
 ---
 
+import Admonition from '@theme/Admonition';
+
 # Nextcloud Connection
 
 [Nextcloud](https://nextcloud.com/) is a fully open source collaboration platform. You can self-host Nextcloud on your server or pay a [Nextcloud trusted provider](https://nextcloud.com/providers/) to host your Nextcloud instance. 
@@ -20,9 +22,9 @@ Similarly to other server connections (like [Tella Web](/tella-web), [Google Dri
 
 Submissions to Nextcloud take the form of "reports" which include a title, a text description, and files like photos, videos and audio recordings.
 
-:::danger
+<Admonition type="danger">
 Even though data is encrypted (SSL) when transferred to your Nextcloud account, anyone with access to the Nextcloud account or server can view the files.
-:::
+</Admonition>
 
 ## When to Use Nextcloud {/* #when-to-use-Nextcloud */}
 
@@ -33,13 +35,13 @@ The Nextcloud connection may be particularly well-suited for:
 - Users who will be sending mostly media files, with some text and don't need structured data collection like forms or surveys.
 
 
-:::tip
+<Admonition type="tip">
 If you need help figuring out if Nextcloud is best for your use-case, [check out this guide](/for-organizations#selecting-the-right-type-of-server) or [contact us](/contact-us)!
-:::
+</Admonition>
 
-:::tip
+<Admonition type="tip">
 For now, we don't support two-factor authentication (2FA) for Nextcloud connections on Tella Android and iOS. If this is a pressing need of yours, please [let us know](/contact-us)!
-:::
+</Admonition>
 
 
 ## Connect to Nextcloud {/* #connect-to-Nextcloud */}
@@ -76,9 +78,9 @@ For the moment it is not possible to sign in to multiple Nextcloud accounts at t
     * If submission fails due to connectivity issues, the report goes to the “Outbox" tab.
     * If the report is submitted correctly, it goes to the “Submitted” tab and a new folder will be created in Nextcloud with the title you selected. All attachments will be added to the folder and the description will be added as a text file inside the folder.
 
-:::info
+<Admonition type="info">
 On Android, [a known Nextcloud issue](https://help.Nextcloud.com/t/cant-upload-files-langer-than-20-mb-using-Nextcloud-android-app/196434) prevents files larger than 20MB from being submitted to a Nextcloud server. For that reason, Tella users cannot attach files larger than 20MB to Reports uploaded to a Nextcloud connection. We are monitoring the status of this issue and will remove Tella's file-size restriction as soon as it is solved by Nextcloud.
-:::
+</Admonition>
 
 ##  Draft Reports {/* #draft-reports */}
 
@@ -101,13 +103,13 @@ Reports in the Draft tab can be edited.
 * If the report is actively uploading, a "Pause" button allows you to temporarily halt the upload, which can be resumed later using the "Resume" button.
 * Exiting a report doesn’t affect the upload status. If the report is actively uploading, the process continues. 
 
-:::info
+<Admonition type="info">
 After a report has been uploaded to Nexcoud, it is not possible to delete it on Nextcloud from the Tella mobile app. Deleting a submitted report will only delete the local version of it, not the report on the server. 
-:::
+</Admonition>
 
-:::info
+<Admonition type="info">
 Deleting a report in the middle of submission will cancel the upload of the files that haven’t been uploaded yet, but submitted files and partially submitted files that are already on Nextcloud won’t be deleted.
-:::
+</Admonition>
 
 
 #### Outbox {/* #outbox */}
@@ -123,9 +125,9 @@ The Outbox contains:
 * Report submissions that were interrupted due to connectivity issues.
 * Reports that were marked as "Submit later"
 
-:::tip
+<Admonition type="tip">
 If you need to share files with others without an internet connection, check out [Nearby Sharing](/nearby-sharing).
-:::
+</Admonition>
 
 
 #### Submitted Reports {/* #submitted-reports */}
@@ -133,9 +135,9 @@ If you need to share files with others without an internet connection, check out
 - The Submitted tab displays reports that have been successfully submitted to the Nextcloud server.
 - In the Submitted tab, you can view and review the submitted reports.
 
-:::info
+<Admonition type="info">
 If the internet connection is interrupted, reports will go to the "Outbox" tab and you will need to manually resume the submission.
-:::
+</Admonition>
 
 
 

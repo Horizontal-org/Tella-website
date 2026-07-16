@@ -7,6 +7,7 @@ slug: /for-organizations
 
 import ConnectionsTable from '.././_connections-table.mdx';
 import Button from '@site/src/components/Button';
+import Admonition from '@theme/Admonition';
 
 
 # Tella cho các tổ chức - Tổng quan
@@ -26,11 +27,11 @@ Hiện tại, Tella có thể kết nối với các loại máy chủ sau:
 
 Chúng được gọi là [Kết nối](/features#connecting-to-servers) trong Tella.
 
-:::danger
+<Admonition type="danger">
 For now, any files you submit to a connection might stored unencrypted on that server or drive (that depends on the server configuration). This means that anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
 
 We strongly recommend reviewing and understanding the permission model of each connection you use, in order to determine which option is safest and most appropriate for your specific use case.
-:::
+</Admonition>
 
 
 ## Lựa chọn loại máy chủ phù hợp {/* #selecting-the-right-type-of-server */}
@@ -55,9 +56,9 @@ graph TD;
 On this table we explain what server types are available on the Tella apps:
 <ConnectionsTable/>
 
-:::info
+<Admonition type="info">
 For offline file sharing or during internet shutdowns, [Nearby Sharing](/nearby-sharing) could be helpful.  If you need to share files with other apps the [Share button](/features#share-button) could be useful.
-:::
+</Admonition>
 
 ### Tella Web {/* #tella-web */}
 
@@ -97,9 +98,9 @@ Nguồn thông tin để tìm hiểu thêm về Uwazi:
 
 Trên trang [Kết nối với máy chủ Bộ Công cụ Dữ liệu Mở](/odk), chúng tôi có giải thích cách tạo tài khoản, cách tìm thông tin về việc tạo biểu mẫu và cách kết nối với máy chủ từ Tella. Nếu bạn đang xem xét việc sử dụng Bộ Công cụ Dữ liệu Mở hoặc bạn cần sự trợ giúp để [triển khai](/faq#deploying-tella) phiên bản của mình, xin [liên hệ với chúng tôi](/contact-us).
 
-:::note
+<Admonition type="note">
 Kết nối ODK [chỉ có sẵn trên Android](/features). 
-:::
+</Admonition>
 
 <Button label="Continue reading about the Open Data Kit connection " link="/odk"/>
 
@@ -110,9 +111,9 @@ Users can sign-in directly to their Google account from within Tella and upload 
 
 As for all Connections in Tella, users can use most of the Google Drive connection offline through the Draft, Outbox and Submit Later tabs. 
 
-:::note
+<Admonition type="note">
 The Google Drive connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
-:::
+</Admonition>
 
 <Button label="Continue reading about the Google Drive connection " link="/g-drive"/>
 
@@ -132,8 +133,8 @@ Users can sign-in directly to their Dropbox account from within Tella and upload
 
 As for all Connections in Tella, users can use most of the Dropbox connection offline through the Draft, Outbox and Submit Later tabs. 
 
-:::note
+<Admonition type="note">
 The Dropbox connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
-:::
+</Admonition>
 
 <Button label="Continue reading about the Dropbox connection " link="/dropbox"/>
