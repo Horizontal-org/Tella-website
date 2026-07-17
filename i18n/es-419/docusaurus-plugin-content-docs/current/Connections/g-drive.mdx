@@ -17,7 +17,7 @@ De manera similar a otras conexiones de servidor (como [Tella Web](/tella-web), 
 1. Permitir a la(o)s usuaria(o)s a recopilar datos directamente dentro de un contenedor cifrado de Tella.
 2. Garantizar que los datos son enviados directamente de Tella a Google Drive, sin tener que instalar la app de Google Drive en el dispositivo o enviar datos a través de una app de terceras partes.
 3. Permitir que usuaria(o)s respalden sus datos en una ubicación remota, para reducir el riesgo de que los datos sean descubiertos en su dispositivo móvil.
-4. Asegurar que las organizaciones puedan conservar información importante incluso en caso de confiscación o destrucción de dispositivo, y puedan organizarla para procesos de  investigación, incidencia, o rendición de cuentas.
+4. Asegurar que las organizaciones puedan conservar información importante incluso en caso de confiscación o destrucción de dispositivo, y puedan organizarla para procesos de investigación, incidencia, o rendición de cuentas.
 
 La conexión a Google Drive es una opción para recopilar fotos, videos y audios de la(o)s usuaria(o)s en el terreno, cuando no hay la capacidad técnica para instalar un servidor autohospedado (como [servidor Tella Web](/tella-web) y no hay riesgo al utilizar una herramienta comercial como Google.
 
@@ -32,7 +32,7 @@ The Google Drive connection may not work on [Huawei devices released after May 2
 </Admonition>
 
 <Admonition type="danger">
-Even though data is transferred to the server securely (SSL), anyone with access to the Google Drive account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+Even though data is encrypted (SSL) when transferred to your Google Drive account, anyone with access to the Drive account can view the files.
 </Admonition>
 
 ## Cuándo Usar Google Drive {/* #when-to-use-google-drive */}
@@ -44,7 +44,7 @@ La conexión a Google Drive puede ser particularmente adecuada para:
 - Organizaciones que no pueden o no desean autohospedar una app (como [servidor Tella Web](/tella-web)) en un servidor.
 
 <Admonition type="tip">
-Si necesitas ayuda para determinar si Google Drive es la mejor opción para tu caso de uso, [lee nuestra guía](/for-organizations) o [contactanos](/contact-us)!
+If you need help figuring out if Google Drive is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
 </Admonition>
 
 
@@ -58,7 +58,6 @@ Para conectarse a Google Drive:
 * Da permisos a Tella para modificar tu Google Drive (necesitamos este permiso para poder subir archivos a tu disco y crear carpetas en tu nombre).
 * Elige un nombre para la carpeta donde se guardaran todos tus envíos de Tella.
 
-
 ## Administra la conexión a Google Drive {/* #manage-the-google-drive-connection */}
 
 * En **Configuración ⚙️** > **Conexiones** > **Google Drive** > ⫶ puedes:
@@ -70,7 +69,7 @@ Por ahora, no es posible iniciar sesión en múltiples cuentas de Google a la ve
 ## Enviar a Google Drive {/* #submit-to-google-drive */}
 
 * Una vez conectada(o), una tarjeta de "Google Drive" aparecerá en la sección "Conexiones" de la pantalla de inicio. Toca sobre esta tarjeta para empezar a enviar a Google Drive.
-* La pantalla de principal de Google Drive permite la navegación entre las pestañas Borradores, Bandeja de Salida y  Enviados.
+* La pantalla de principal de Google Drive permite la navegación entre las pestañas Borradores, Bandeja de Salida y Enviados.
 * Toca el botón "Nuevo informe" en la parte inferior de la pantalla para crear un nuevo informe en Google Drive.
     * En la pantalla "Nuevo informe" puedes completar los detalles del informe, incluyendo el título, descripción, y adjuntos opcionales de fotos, videos y grabaciones de audio.
 * Utiliza el botón "Guardar borrador" (en la parte superior derecha de la pantalla) para guardar el informe como un borrador sin dejar la pantalla "Nuevo informe".
@@ -81,7 +80,6 @@ Por ahora, no es posible iniciar sesión en múltiples cuentas de Google a la ve
 * El botón "Enviar" envía el informe a Google Drive inmediatamente.
     * Si el envío falla debido a problemas de conectividad, el informe se va a la pestaña "Bandeja de Salida".
     * Si el informe es enviado correctamente, se va a la pestaña "Enviados" y se creará una nueva carpeta en Google Drive con el título que seleccionaste y la descripción que introdujiste. Todos los adjuntos serán añadidos a la carpeta.
-
 
 ## Borradores de Informes {/* #draft-reports */}
 
@@ -95,27 +93,32 @@ Reports in the Draft tab can be edited.
 * En la pestaña Borradores, puedes ver y administrar los borradores de informes. Abre un borrador de informe para continuar trabajando y enviarlo.
 * Puedes eliminar un borrador de informe tocando en los tres puntos > **Eliminar** o entrando al informe o tocando el botón Eliminar.
 
-
 #### Enviar un Informe a Google Drive {/* #submit-a-report-to-google-drive */}
 
 * En un informe, toca "Enviar" para iniciar el envío del informe.
 * Se te redireccionará a una pantalla de resumen mostrando el progreso de subida de cada archivo adjunto.
 * Un botón de "Eliminar" está disponible para detener la subida y eliminar el informe.
 * Si el informe se está subiendo activamente, un botón de "Pausa" te permite detener temporalmente la subida, la cual puede ser reanudada luego utilizando el botón "Reanudar".
-* Salir de un informe no afecta el estado de subida. Si el informe se está subiendo activamente, el proceso continúa. 
+* Salir de un informe no afecta el estado de subida. Si el informe se está subiendo activamente, el proceso continúa.
 
 <Admonition type="info">
-Después de que un informe ha sido subido a Google Drive, no es posible eliminarlo de Google Drive desde la app móvil de Tella. Eliminar un informe enviado solo eliminará la versión local del mismo, no el informe en el servidor.
+After a report has been uploaded to Google Drive, it is not possible to delete it on Google Drive from the Tella mobile app. Deleting a submitted report will only delete the local version of it, not the report on the server. 
 </Admonition>
 
 <Admonition type="info">
-Eliminar un informe en medio de un envío cancelará la subida de los archivos que no hayan subido aún, pero los archivos enviados y archivos parcialmente enviados que ya estén en Google Drive no serán eliminados.
+Deleting a report in the middle of submission will cancel the upload of the files that haven’t been uploaded yet, but submitted files and partially submitted files that are already on Google Drive won’t be deleted.
 </Admonition>
 
 
 #### Bandeja de Salida {/* #outbox */}
 
 La Bandeja de Salida contiene informes que han sido guardados para enviar. Esto podría ser:
+
+Reports in the Outbox tab cannot be edited.
+
+To send a report to the Outbox, use the Submit later button (⏱️), at the bottom left of the Submit Report screen.
+
+The Outbox contains:
 
 * Envíos pausados
 * Envíos de informes que fueron interrumpidos debido a problemas de conectividad.
@@ -132,7 +135,7 @@ If you need a fully offline way to share files with others, consider exploring [
 - En la pestaña Enviados, puedes ver y revisar los informes enviados.
 
 <Admonition type="info">
-Si la conexión a internet es interrumpida, los informes irán a la pestaña Bandeja de Salida y tendrás que reanudar el envío manualmente.
+If the internet connection is interrupted, reports will go to the outbox tab and you will need to manually resume the submission.
 </Admonition>
 
 

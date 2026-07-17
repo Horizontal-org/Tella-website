@@ -19,7 +19,7 @@ Similarly to other server connections (like [Tella Web](/tella-web), [Uwazi](/uw
 3. Allowing users to back up their data on a remote location, to lower the risk that data is discovered on their mobile device.
 4. Assurant que les organisations peuvent conserver les informations importantes même en cas de saisie ou de destruction d'appareils, et les organiser à des fins de recherche, de plaidoyer ou de processus de responsabilisation.
 
-The Google Drive connection is a an option to collect photos, videos and audios from users in the ground, when there is no technical capacity to install a self-hosted server(like [Tella Web server](/tella-web)) and there is no risk on using a commercial tool like Google. 
+The Google Drive connection is a an option to collect photos, videos and audios from users in the ground, when there is no technical capacity to install a self-hosted server(like [Tella Web server](/tella-web)) and there is no risk on using a commercial tool like Google.
 
 Submissions to Google Drive take the form of "reports" which include a title, a text description, and files like photos, videos and audio recordings.
 
@@ -32,7 +32,7 @@ The Google Drive connection may not work on [Huawei devices released after May 2
 </Admonition>
 
 <Admonition type="danger">
-Even though data is transferred to the server securely (SSL), anyone with access to the Google Drive account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+Even though data is encrypted (SSL) when transferred to your Google Drive account, anyone with access to the Drive account can view the files.
 </Admonition>
 
 ## When to Use Google Drive {/* #when-to-use-google-drive */}
@@ -54,14 +54,13 @@ In order to connect to a Google Drive:
 
 * Utilisez le bouton **Actualiser** en haut à droite pour extraire de nouvelles ressources de l’espace de votre organisation.
 * Select "Google Drive" from the list of available server types.
-* Login to your Google account using the Google login flow on the web view. 
+* Login to your Google account using the Google login flow on the web view.
 * Grant Tella permissions to modify your Google Drive (we need this permission to be able to upload files to your drive and create folders in your behalf).
 * Choose a name for the folder where all your Tella submissions will be saved.
 
-
 ## Manage the Google Drive connection {/* #manage-the-google-drive-connection */}
 
-* In **Settings ⚙️** > **Connections** >  **Google Drive** > 3-dots, you can:
+* In **Settings ⚙️** > **Connections** > **Google Drive** > 3-dots, you can:
   - Delete the connection
 
 For now, it is not possible to sign in to multiple Google accounts at the same time. If you want to sign-in to your Google Drive using a different email, delete your Google Drive connection and create a new one.
@@ -73,7 +72,7 @@ For now, it is not possible to sign in to multiple Google accounts at the same t
 * The main Google Drive screen allows navigation between the Drafts, Outbox, and Submitted tabs.
 * Tap the "New report" button at the bottom of the screen to create a new report to Google Drive.
     * On the "New report" screen you can fill in the report's details, including title, description, and optional attachments of photos, videos and audio recordings.
-* Use the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft without leaving the "New report" screen. 
+* Use the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft without leaving the "New report" screen.
     * Afin de pouvoir enregistrer le rapport en tant que brouillon, vous devez au moins saisir son titre
     * Un message apparaîtra à l’écran pour confirmer que le brouillon a bien été enregistré.
 * The "Submit later" button ⏱️ saves the report to the Outbox for manual submission.
@@ -82,8 +81,7 @@ For now, it is not possible to sign in to multiple Google accounts at the same t
     * If submission fails due to connectivity issues, the report goes to the “Outbox" tab.
     * If the report is submitted correctly, it goes to the “Submitted” tab and a new folder will be created in Gooogle Drive with the title you selected and the description you entered. All attachments will be added to the folder.
 
-
-##  Projets de rapports {/* #draft-reports */}
+## Projets de rapports {/* #draft-reports */}
 
 A Draft report is a report that was created and saved but not yet submitted. Drafts reports are useful to save work in progress that can be editted later on. It allows users to create reports offline or over a long period of time before finalizing and sending them. This is especially useful in low-connectivity areas or when a user needs to gather information in multiple stages.
 
@@ -94,7 +92,6 @@ Reports in the Draft tab can be edited.
 * Si vous essayez de quitter un rapport sans sauvegarder votre travail, il vous sera demandé de confirmer si vous êtes sûr de quitter sans enregistrer le rapport.
 * Dans l'onglet Brouillon, vous pouvez afficher et gérer les brouillons de rapports. Ouvrez un brouillon de rapport pour continuer à travailler dessus et soumettez-le.
 * Vous pouvez supprimer un brouillon de rapport en appuyant sur les trois points > **Supprimer** ou en saisissant le rapport et en appuyant sur le bouton Supprimer.
-
 
 #### Submit a Report to Google Drive {/* #submit-a-report-to-google-drive */}
 
@@ -119,7 +116,7 @@ The Outbox tab contains reports that are finalized and have been saved for later
 
 Reports in the Outbox tab cannot be edited.
 
-To send a report to the Outbox, use the Submit later button (⏱️), at the bottom left of the Submit Report screen. 
+To send a report to the Outbox, use the Submit later button (⏱️), at the bottom left of the Submit Report screen.
 
 The Outbox contains:
 
@@ -134,11 +131,11 @@ If you need a fully offline way to share files with others, consider exploring [
 
 #### Rapports soumis {/* #submit-reports */}
 
-- The Submitted tab displays reports that have been successfully submitted to  Google Drive.
+- The Submitted tab displays reports that have been successfully submitted to Google Drive.
 - Dans l'onglet Soumis, vous pouvez afficher et examiner les rapports soumis.
 
 <Admonition type="info">
-Si la connexion Internet est interrompue, les rapports seront envoyés dans l'onglet Boîte d'envoi et vous devrez reprendre manuellement la soumission.
+If the internet connection is interrupted, reports will go to the outbox tab and you will need to manually resume the submission.
 </Admonition>
 
 
