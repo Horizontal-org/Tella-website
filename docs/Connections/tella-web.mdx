@@ -5,6 +5,8 @@ description: The Reports feature empowers users to conveniently upload photos, v
 slug: /tella-web
 ---
 
+import Admonition from '@theme/Admonition';
+
 # Tella Web Connection
 
 Tella Web is an open-source tool that enables individuals and organizations to centralize and manage reports sent by Tella users, including photos, videos, and audio files. 
@@ -27,9 +29,9 @@ Setting up Tella Web involves three steps, which are thoroughly discussed in thi
 * **Set up your project(s) on your server**: In this step, admins decide how to organize themselves to collect data, create "projects", add "resources" for users to download on their devices and set roles and permissions for users.
 * **Get people on the ground ready to start submitting reports**: Users install Tella on their Android or iPhone device. They then connect to the Tella Web project and start collecting information.
 
-:::danger
+<Admonition type="danger">
 Even though data is encrypted (SSL) when transferred to Tella Web, anyone with access to your Tella Web account or to the server can view the files.
-:::
+</Admonition>
 
 ## When to Use Tella Web {/* #when-to-use-tella-web */}
 
@@ -39,9 +41,9 @@ The Tella Web could be a good alternative if:
 - You will be partnering with Horizontal and you want the same organization to help you with installation, configuration, and maintenance of your Tella Web instance and the Tella apps.
 
 
-:::tip
+<Admonition type="tip">
 If you need help figuring out if Tella Web is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
-:::
+</Admonition>
 
 
 ## Install the server {/* #install-the-server */}
@@ -51,13 +53,13 @@ This step consists of installing and configuring Tella Web on the server your or
 You can check Tella Web release notes [here](https://github.com/Horizontal-org/tellaweb/releases).
 
 
-:::info
+<Admonition type="info">
 Our team can offer support with the installation, configuration, and maintenance of Tella Web. If you have any question or need support, [contact us](/contact-us/).
-:::
+</Admonition>
 
-:::tip
+<Admonition type="tip">
 [Contact us](/contact-us/) to get access to our demo server, so you can test Tella Web before installing it on your own server.
-:::
+</Admonition>
 
 
 ## Set up your project on your server {/* #set-up-your-project-on-your-server */}
@@ -66,9 +68,9 @@ Once Tella Web is installed and the first "admin" user created, it’s time to s
 
 
 
-:::info
+<Admonition type="info">
 Take a look at [this video tutorial](/video-tutorials#connections-full-video) for a demo of how to set up Tella Web.
-:::
+</Admonition>
 
 ### Admin center {/* #admin-center */}
 
@@ -92,9 +94,9 @@ Admins of the Tella Web instance can export all data out of Tella Web by generat
 
 The backup is a full export everything in the space: including all Projects, Reports, Users and Resources, plus all metadata. The export is a zip file including a collection of CSVs and folders with with the uploaded media. For now, there is no way to import the backup back into a Tella Web instance from the Admin Center, but each backup includes a .sql file that advanced users can use to import the data to the database directly. 
 
-:::warning
+<Admonition type="warning">
 The information included in the backup is highly sensitive, it not only contains all the data (unencrypted) but also information about the Tella Web users. Please proceed with caution when generating the backup.
-:::
+</Admonition>
 
 
 ### Managing Projects {/* #managing-projects */}
@@ -150,9 +152,9 @@ Once confirmed, the project and all its associated reports will be permanently d
 
 The project URL is automatically generated when the project is created. To edit the project URL, go to the "General" section in the "Project settings" screen and modify it accordingly. This URL is the one that reporters will use to connect to the project from their apps. 
 
-:::info
+<Admonition type="info">
 The URL that you'll need to send to the users should look like this `https://your-domain.com/p/your-project-name`
-:::
+</Admonition>
 
 
 ### Managing users {/* #managing-users */}
@@ -203,9 +205,9 @@ On the password field, a password-security-meter helps admins create secure pass
 In the "Manage access" section of the "Project settings" screen, admins can assign existing users to the project. Click the "Add users" field. A drop-down menu will display all the users on the server. Scroll through the list or type to search for a user by username.
 After selecting the users to add to the project, click the "Add" button to save the changes and grant access to the project.
 
-:::info
+<Admonition type="info">
 The full list of users who can submit reports to the project includes the users listed on this section plus all the server administrators.
-:::
+</Admonition>
 
 ### Managing resources {/* #managing-resources */}
 
@@ -224,9 +226,9 @@ On the same screen, space admins can manage resources. The following options are
 - Find out on which projects each resource is added to by tapping on Preview
 - Delete a resource from the space.
 
-:::info
+<Admonition type="info">
 If your organization need other type of Resources or if you experience problems with the format or size limits please [contact us](/contact-us).
-:::
+</Admonition>
 
 #### Adding resources to projects {/* #adding-resources-to-projects */}
 
@@ -253,9 +255,9 @@ The steps outlined below apply to both the Android and iOS versions of the Tella
 
 Reports are not yet available on [Tella-FOSS](/faq#is-tella-available-on-f-droid).
 
-:::info
+<Admonition type="info">
 You can watch [this video](/video-tutorials#tella-web) on how to configure and use Reports in Tella.
-:::
+</Admonition>
 
 
 #### Connect to Tella Web Projects {/* #connect-to-tella-web-projects */}
@@ -325,13 +327,13 @@ Reports in the Draft tab can be edited.
 * If the report is actively uploading, a "Pause" button allows you to temporarily halt the upload, which can be resumed later using the "Resume" button.
 * Exiting a report doesn’t affect the upload status. If the report is actively uploading, the process continues. 
 
-:::info
+<Admonition type="info">
 After a report has been uploaded to Tella Web, it is not possible to delete it on Tella Web from the Tella mobile app. Deleting a submitted report will only delete the local version of it, not the report on the server. 
-:::
+</Admonition>
 
-:::info
+<Admonition type="info">
 Deleting a report in the middle of submission will cancel the upload of the files that haven’t been uploaded yet, but submitted files and partially submitted files that are already on Tella Web won’t be deleted.
-:::
+</Admonition>
 
 
 #### Outbox {/* #outbox */}
@@ -348,9 +350,9 @@ The Outbox contains:
 * Report submissions that were interrupted due to connectivity issues.
 * Reports that were marked as "Submit later"
 
-:::tip
+<Admonition type="tip">
 If you need to share files with others without an internet connection, check out [Nearby Sharing](/nearby-sharing).
-:::
+</Admonition>
 
 
 #### Submitted Reports {/* #submitted-reports */}
@@ -358,9 +360,9 @@ If you need to share files with others without an internet connection, check out
 - The Submitted tab displays reports that have been successfully submitted to the Tella Web server.
 - In the Submitted tab, you can view and review the submitted reports.
 
-:::info
+<Admonition type="info">
 If the internet connection is interrupted, reports will go to the outbox tab and you will need to manually resume the submission.
-:::
+</Admonition>
 
 
 ### Advanced features {/* #advanced-features */}
@@ -371,9 +373,9 @@ If auto-report is enabled, Tella will create and upload reports automatically wh
 
 Auto-report can be enabled from the Edit Connection screen.
 
-:::info
+<Admonition type="info">
 auto-report can only be enabled for one project at a time
-:::
+</Admonition>
 
 #### Auto-delete {/* #auto-delete */}
 

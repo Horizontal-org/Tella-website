@@ -5,6 +5,8 @@ description: اتصال خادم Uwazi متاح للمنظمات التي تسع
 slug: /uwazi
 ---
 
+import Admonition from '@theme/Admonition';
+
 # Uwazi
 
 [Uwazi](https://uwazi.io/) عبارة عن أداة توثيق مفتوحة المصدر تم تطويرها بواسطة [HURIDOCS](https://huridocs.org). وهو تطبيق قاعدة بيانات مرن قائم على الوِبْ مصمم للمدافعين عن حقوق الإنسان لإدارة ما يتم جمعه من المعلومات، بما في ذلك المستندات والأدلة والقضايا والشكاوى.
@@ -17,9 +19,9 @@ slug: /uwazi
 3. السماح للمستخدمين بالنسخ الاحتياطي لبياناتهم على خادم بعيد، لتقليل خطر اكتشاف البيانات على جهازهم المحمول
 4. ضمان قدرة المنظمات على الحفاظ على المعلومات الهامة حتى في حالة مصادرة الجهاز أو تدميره، وتنظيمها لاستخدامها في البحث أو المناصرة أو عند إجراءات المساءلة
 
-:::danger
+<Admonition type="danger">
 Even though data is transferred to the server securely (SSL), anyone with access to the Uwazi account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
-:::
+</Admonition>
 
 ### اختبار Uwazi {/* #testing-uwazi */}
 
@@ -45,9 +47,9 @@ Even though data is transferred to the server securely (SSL), anyone with access
 
 يمكنك معرفة المزيد عن Uwazi في [التوثيقات الرسمية لـ Uwazi](https://uwazi.readthedocs.io/en/latest/). HURIDOCS صديق رائع لـ Horizontal، لذا إذا كانت لديك أسئلة حول Uwazi أو إذا رغبت منا أن نربطك مع فريق HURIDOCS، [اتصل بنا](contact-us).
 
-:::tip
+<Admonition type="tip">
 If you need help figuring out if Uwazi is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
-:::
+</Admonition>
 
 ## تهيئة Uwazi على الخادم {/* #configure-uwazi-on-a-server */}
 
@@ -63,9 +65,9 @@ If you need help figuring out if Uwazi is best for your use-case, [read our guid
 
 [يمكنك الاطلاع هنا](https://uwazi.readthedocs.io/en/latest/admin-docs/building-info-architecture.html#understanding-properties) على الخصائص المتوفرة على خادم Uwazi وعن كيفية نمذجة بياناتك وإنشاء قوالبك. إننا في الوقت الحالي ندعم فقط الخصائص والوظائف التي تم تمييز كونها ذات أولوية عالية من قبل مستخدمي Uwazi. إذا كنت بحاجة إلى خصائص أخرى، [اتصل بنا](/contact-us).
 
-:::info
+<Admonition type="info">
 إذا قام مستخدمو Tella بتنزيل قالب يحتوي على خصائص غير مدعومة في Tella، فلن تظهر تلك الخصائص في التطبيق. ومع ذلك، سيظل المستخدمون قادرين على إرسال الكيانات، وسيتمكن المسؤولون من الوصول إلى هذه الكيانات، بما في ذلك جميع الخصائص التي تم ملؤها، دون أي مشاكل
-:::
+</Admonition>
 
 ### الخصائص المتاحة {/* #available-properties */}
 
@@ -102,9 +104,9 @@ If you need help figuring out if Uwazi is best for your use-case, [read our guid
 * إذا كان الخادم يتطلب استيثاقا بعاملَين، فأدخِل الرمز ذو الاستخدام الواحد.
 * اختر **اللغة** التي تريد عرض الاستمارات بها.
 
-:::info
+<Admonition type="info">
 يمكنك مشاهدة [هذا الفيديو](/video-tutorials#uwazi) حول كيفية الاتصال بخادم Uwazi من Tella.
-:::
+</Admonition>
 
 ### أرسل معلوماتك {/* #send-your-information */}
 
@@ -129,6 +131,6 @@ If you need help figuring out if Uwazi is best for your use-case, [read our guid
 | إيقاف الإرسال مؤقتا تلقائيا عند عدم الاتصال بالانترنت | سيتم إرسال ما تم تقديمه إلى لسان "البريد الصادر" في حالة فشل الإرسال بسبب مشكلات في الاتصال.  | نعم | نعم |
 
 
-:::tip
+<Admonition type="tip">
 If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
-:::
+</Admonition>

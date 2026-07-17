@@ -8,6 +8,7 @@ sidebar_position: 6
 
 import FeaturesTable from './_features-table.mdx';
 import TellaLanguages from './_tella-languages.mdx';
+import Admonition from '@theme/Admonition';
 
 # Frequently asked questions about Tella
 
@@ -27,13 +28,13 @@ Tella is developed and maintained by [Horizontal](https://wearehorizontal.org), 
 
 Yes, Tella is available for Android and can be downloaded directly [from the Google Play Store ](https://play.google.com/store/apps/details?id=org.hzontal.tella&gl=US),   from our [Telegram channel]( https://t.me/tellaapp) or [from this folder](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ), as an APK, to be installed manually. If you need to help to install the app manually you can [follow this guide ](https://www.androidauthority.com/how-to-install-apks-31494/) or [contact us](contact-us).
 
-:::note
+<Admonition type="note">
 Follow the get [quick start guide for Tella users on Android](/get-started-android) for quick onboarding.
-:::
+</Admonition>
 
-:::tip
+<Admonition type="tip">
 Learn more about [How to find and download Tella from the Play Store](/video-tutorials#find-and-download-tella-from-the-play-store) and [How to install Tella manually](/video-tutorials#manual-installation-of-tella) in our video tutorials.
-:::
+</Admonition>
 
 ### Is Tella available on F-Droid? {/* #is-tella-available-on-f-droid */}
 Yes, we publish a version of Tella Android [on F-Droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/), which we call Tella FOSS. Tella FOSS does not support all features available on Tella Android. For details about which features are available on Tella FOSS, see [what features are available on each platform](/features) and our [release notes page](/releases).
@@ -44,9 +45,9 @@ All code, libraries, and dependencies in Tella FOSS are entirely Free and Open S
 
 Yes, Tella for iOS can be downloaded [from the App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580). For details about which features are available for iOS, see [What features are available on each platform](/features).
 
-:::note
+<Admonition type="note">
 Follow the get [quick start guide for Tella users on iOS](/get-started-ios) for quick onboarding.
-:::
+</Admonition>
 
 
 ### What features are available on each platform? {/* #what-features-are-available-on-each-platform */}
@@ -65,9 +66,9 @@ You can download Tella Desktop for Windows, MacOS and Linux. [Follow the quick s
 
 Tella Web is a web app that acts as a repository to store reports submitted by Tella users, including photos, videos, and audio. Learn more about Tella Web [here](/tella-web)
 
-:::note
+<Admonition type="note">
 Note that it is not possible to encrypt and hide files or create reports on Tella Web. These features are only available on the mobile apps. Tella Web is one of the [connections](/connections) available to send the data collected on the Tella app. 
-:::
+</Admonition>
 
 ### Where can I get Tella? {/* #where-can-i-get-tella */}
 
@@ -85,6 +86,9 @@ Tella is compatible with devices running Android 5.0 or later and iOS 14.0 or la
 
 ### Does Tella work on GrapheneOS? {/* #does-tella-work-on-graphene-os */}
 Yes, thank you to our community we have been able to test Tella (Tella Android and Tella FOSS) in GrapheneOS and all features should be working fine. If you experience any issues, please [contact us](/contact-us).
+
+### Does Tella work on Huawei devices? {/* #does-tella-work-on-huawei-devices */}
+Yes, we have tested Tella (Tella Android and Tella FOSS) on a Huawei device and all features work fine, with the exception of the [Google Drive connection](/g-drive) in Tella Android, which may not work on these devices. If you experience any issues, please [contact us](/contact-us).
 
 ### Is Tella free? {/* #is-tella-free */}
 
@@ -145,22 +149,22 @@ Continue reading about backups [in the Features page](/features#backup-files).
 
 Unfortunately there is no way of getting into Tella if you forgot your lock. You will have to uninstall Tella and reinstall it. There is no way of retrieving the files that were stored in Tella.
 
-:::tip
+<Admonition type="tip">
 Learn more about [Tella Locks](/video-tutorials#tella-locks) in our video tutorials.
-:::
+</Admonition>
 
 ### How do I migrate Tella to a new phone? {/* #how-do-i-migrate-tella-to-a-new-phone */}
 You can use [Nearby Sharing](/nearby-sharing) to move your files to a new phone. You will need to install Tella in your new phone, establish a secure connection to it using Nearby Sharing, select all your files, and transfer those to your new phone. This feature works, too, for Android to iOS, or iOS to Android migrations. 
 
 If you have multiple files, the full transfer might take some time. We recommend you to make sure that Tella [does not lock](/features#lock-timeout-configuration) while the transfer is in progress.  
 
-:::tip
+<Admonition type="tip">
 We recommend you double check that all the files has been successfully transferred before deleting those in your old phone.
-:::
+</Admonition>
 
-:::info
+<Admonition type="info">
 Using Apple's Migration Assistant will not work: your files will be moved to the new phone encrypted, but not your encryption keys. As a result, you will not be able to decrypt and open these files.
-:::
+</Admonition>
 
 
 ### How secure is Tella? {/* #how-secure-is-tella */}
@@ -195,9 +199,9 @@ Yes, we'd love to! Tell us about what you want to use Tella for and in what cont
 
 We want to help you understand if Tella is the best app for your specific context. There are other documentation apps developed by other organizations and human rights defenders that you might consider as well.
 
-:::note
+<Admonition type="note">
 We created this comparison table to help you understand the difference between Tella and other apps available, but of course, we may be biased 😊. For comparisons by independent organizations, have a look at the links below.
-:::
+</Admonition>
 
 | | Tella | ODK Collect<br />KoboCollect| EyeWitness to Atrocities | CameraV | ProofMode |
 | --------------------------------------------------- | --------------------------- | ---------------------------------- | ---------------------------------- | ------------------------------------------------ | ------------------------------------------------ |

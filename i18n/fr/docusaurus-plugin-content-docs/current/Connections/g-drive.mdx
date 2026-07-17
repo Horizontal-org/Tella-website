@@ -5,6 +5,8 @@ description: Tella allows users to conveniently upload photos, videos, pdfs and 
 slug: /g-drive
 ---
 
+import Admonition from '@theme/Admonition';
+
 # Google Drive Connection
 
 Tella allows users to sign in to their Google account directly from Tella and to upload files directly to Google Drive.
@@ -21,13 +23,17 @@ The Google Drive connection is a an option to collect photos, videos and audios 
 
 Submissions to Google Drive take the form of "reports" which include a title, a text description, and files like photos, videos and audio recordings.
 
-:::note
+<Admonition type="note">
 The Google Drive connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
-:::
+</Admonition>
 
-:::danger
+<Admonition type="note">
+The Google Drive connection may not work on [Huawei devices released after May 2019](https://support.google.com/android/thread/29434011) or [Honor devices released between mid-2019 and October 2021](https://www.honor.com/global/news/honor50-with-gms-global-launch/), as these devices do not have Google Play Services installed due to US restrictions.
+</Admonition>
+
+<Admonition type="danger">
 Even though data is transferred to the server securely (SSL), anyone with access to the Google Drive account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
-:::
+</Admonition>
 
 ## When to Use Google Drive {/* #when-to-use-google-drive */}
 
@@ -37,9 +43,9 @@ The Google Drive connection may be particularly well-suited for:
 - Projects where the privacy needs do not preclude the use of a tool like Google Drive.
 - Organizations that cannot or don't want to self-host an app (like [Tella Web server](/tella-web)) on a server.
 
-:::tip
+<Admonition type="tip">
 If you need help figuring out if Google Drive is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
-:::
+</Admonition>
 
 
 ## Connect to Google Drive {/* #connect-to-google-drive */}
@@ -98,13 +104,13 @@ Reports in the Draft tab can be edited.
 * Si le rapport est en cours de chargement, un bouton « Pause » permet d'arrêter temporairement le téléchargement, qui peut être repris ultérieurement à l'aide du bouton « Reprendre ».
 * Sortir d'un rapport n'affecte pas l'état du chargement. Si le rapport est en cours de chargement, le processus continue.
 
-:::info
+<Admonition type="info">
 After a report has been uploaded to Google Drive, it is not possible to delete it on Google Drive from the Tella mobile app. Deleting a submitted report will only delete the local version of it, not the report on the server. 
-:::
+</Admonition>
 
-:::info
+<Admonition type="info">
 Deleting a report in the middle of submission will cancel the upload of the files that haven’t been uploaded yet, but submitted files and partially submitted files that are already on Google Drive won’t be deleted.
-:::
+</Admonition>
 
 
 #### Boîte d'envoi {/* #boîte d'envoi */}
@@ -121,9 +127,9 @@ The Outbox contains:
 * Envois de rapports interrompus en raison de problèmes de connectivité.
 * Rapports marqués comme « Soumettre plus tard »
 
-:::tip
+<Admonition type="tip">
 If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
-:::
+</Admonition>
 
 
 #### Rapports soumis {/* #submit-reports */}
@@ -131,9 +137,9 @@ If you need a fully offline way to share files with others, consider exploring [
 - The Submitted tab displays reports that have been successfully submitted to  Google Drive.
 - Dans l'onglet Soumis, vous pouvez afficher et examiner les rapports soumis.
 
-:::info
+<Admonition type="info">
 Si la connexion Internet est interrompue, les rapports seront envoyés dans l'onglet Boîte d'envoi et vous devrez reprendre manuellement la soumission.
-:::
+</Admonition>
 
 
 

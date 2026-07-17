@@ -7,6 +7,7 @@ slug: /for-organizations
 
 import ConnectionsTable from '.././_connections-table.mdx';
 import Button from '@site/src/components/Button';
+import Admonition from '@theme/Admonition';
 
 
 # အဖွဲ့အစည်းများအတွက် Tella
@@ -26,11 +27,11 @@ import Button from '@site/src/components/Button';
 
 ၎င်းတို့ကို Tella တွင် [ချိတ်ဆက်မှုများ](/features#connecting-to-servers) ဟု ခေါ်သည်။
 
-:::danger
+<Admonition type="danger">
 For now, any files you submit to a connection might stored unencrypted on that server or drive (that depends on the server configuration). This means that anyone with permission to access the content of that server or drive may be able to view those files. While the connection used to submit files is secured via HTTPS, the files themselves must be decrypted to be accessed outside of the Tella vault.
 
 We strongly recommend reviewing and understanding the permission model of each connection you use, in order to determine which option is safest and most appropriate for your specific use case.
-:::
+</Admonition>
 
 
 ## မှန်ကန်သော ဆာဗာအမျိုးအစားကို ရွေးချယ်ခြင်း {/* #selecting-the-right-type-of-server */}
@@ -55,9 +56,9 @@ graph TD;
 On this table we explain what server types are available on the Tella apps:
 <ConnectionsTable/>
 
-:::info
+<Admonition type="info">
 For offline file sharing or during internet shutdowns, [Nearby Sharing](/nearby-sharing) could be helpful.  If you need to share files with other apps the [Share button](/features#share-button) could be useful.
-:::
+</Admonition>
 
 ### Tella ဝဘ် {/* #tella-web */}
 
@@ -93,9 +94,9 @@ Uwazi ကို ဒေတာဘေ့စ်အဖြစ် အသုံးပြ
 ကျွန်ုပ်တို့၏ [Open Data Kit ဆာဗာချိတ်ဆက်မှုစာမျက်နှာ](/odk) တွင် မည်သို့အကောင့် ဖန်တီးရမည်၊ ဖောင်ဖန်တီးခြင်းနှင့် Tella မှ ဆာဗာသို့ ချိတ်ဆက်ပုံနှင့် ပတ်သက်သော အချက်အလက်များကို မည်သည့်နေရာတွင် ရှာဖွေရမည်တို့ကို ရှင်းပြထားပါသည်။ ODK ချိတ်ဆက်မှု၏ သရုပ်ဖော်ပုံကို [ဤနေရာတွင် ](/video-tutorials#open-data-kit) လည်း ကြည့်နိုင်ပါသည်။ သင်သည် Open Data Kit ကို အသုံးပြုရန် စဉ်းစားနေပါက သို့မဟုတ် သင့်ဖြစ်ရပ်ကို [အသုံးပြုရန်](/faq#deploying-tella) အကူအညီ လိုအပ်ပါက ကျေးဇူးပြု၍ [ကျွန်ုပ်တို့ထံ ဆက်သွယ်ပါ](/contact-us)။ 
 
 
-:::note
+<Admonition type="note">
 The ODK connection is [not available on Tella iOS](/features). 
-:::
+</Admonition>
 
 <Button label="Continue reading about the Open Data Kit connection " link="/odk"/>
 
@@ -108,9 +109,9 @@ As for all Connections in Tella, users can use most of the Google Drive connecti
 
 <Button label="Continue reading about the Google Drive connection " link="/g-drive"/>
 
-:::note
+<Admonition type="note">
 The Google Drive connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
-:::
+</Admonition>
 
 
 
@@ -129,9 +130,9 @@ As for all Connections in Tella, users can use most of the Dropbox connection of
 
 <Button label="Continue reading about the Dropbox connection " link="/dropbox"/>
 
-:::note
+<Admonition type="note">
 The Dropbox connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
-:::
+</Admonition>
 
 
 

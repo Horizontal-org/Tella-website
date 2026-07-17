@@ -5,6 +5,8 @@ description: Tella permite a la(o)s usuaria(o)s a subir fácilmente fotos, video
 slug: /nextcloud
 ---
 
+import Admonition from '@theme/Admonition';
+
 # Conexión Nextcloud
 
 [Nextcloud](https://nextcloud.com/) es una plataforma colaborativa completamente de código abierto. Puedes autohospedar Nextcloud en tu servidor o pagar un [proveedor de Nextcloud confiable](https://nextcloud.com/providers/) para hospedar tu instancia de Nextcloud.
@@ -20,9 +22,9 @@ De manera similar a otras conexiones de servidor (como [Tella Web](/tella-web), 
 
 Los envíos a Nextcloud toman la forma de "informes" lo cual incluye un título, una descripción de texto y archivos como fotos, videos, grabaciones de audio y documentos pdf.
 
-:::danger
+<Admonition type="danger">
 Even though data is transferred to the server securely (SSL), anyone with access to the Nexctloud account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
-:::
+</Admonition>
 
 ## Cuándo Usar Nextcloud {/* #when-to-use-Nextcloud */}
 
@@ -33,13 +35,13 @@ La conexión a Nextcloud puede ser particularmente adecuada para:
 - Usuarios que enviarán mayormente archivos multimedia, con algo de texto y no necesitarán recopilación de datos estructurados como formularios o encuestas.
 
 
-:::tip
+<Admonition type="tip">
 Si necesitas ayuda para determinar si Nextcloud es la mejor opción para tu caso de uso, [revisa esta guía]/for-organizations#selecting-the-right-type-of-server) o [contáctanos](/contact-us)!
-:::
+</Admonition>
 
-:::tip
+<Admonition type="tip">
 For now, we don't support two-factor authentication (2FA) for Nextcloud connections on Tella Android and iOS. If this is a pressing need of yours, please [let us know](/contact-us)!
-:::
+</Admonition>
 
 
 ## Conectate a Nextcloud {/* #connect-to-Nextcloud */}
@@ -76,9 +78,9 @@ Por el momento no es posible iniciar sesión en múltiples cuentas de Nextcloud 
     * Si el envío falla debido a problemas de conectividad, el informe se va a la pestaña "Bandeja de Salida".
     * Si el informe es enviado correctamente, se va a la pestaña "Enviados" y se creará una nueva carpeta en Nextcloud con el título que seleccionaste. Todos los adjuntos serán añadidos a la carpeta y la descripción será añadida como un archivo de texto dentro de la carpeta.
 
-:::info
+<Admonition type="info">
 On Android, [a known Nextcloud issue](https://help.Nextcloud.com/t/cant-upload-files-langer-than-20-mb-using-Nextcloud-android-app/196434) prevents files larger than 20MB from being submitted to a Nextcloud server. For that reason, Tella users cannot attach files larger than 20MB to Reports uploaded to a Nextcloud connection. We are monitoring the status of this issue and will remove Tella's file-size restriction as soon as it is solved by Nextcloud.
-:::
+</Admonition>
 
 ## Borradores de Informes {/* #draft-reports */}
 
@@ -101,13 +103,13 @@ Reports in the Draft tab can be edited.
 * Si el informe se está subiendo activamente, un botón de "Pausa" te permite detener temporalmente la subida, la cual puede ser reanudada luego utilizando el botón "Reanudar".
 * Salir de un informe no afecta el estado de subida. Si el informe se está subiendo activamente, el proceso continúa. 
 
-:::info
+<Admonition type="info">
 Después de que un informe ha sido subido a Nextcloud, no es posible eliminarlo de Nextcloud desde la app móvil de Tella. Eliminar un informe enviado solo eliminará la versión local del mismo, no el informe en el servidor.
-:::
+</Admonition>
 
-:::info
+<Admonition type="info">
 Eliminar un informe en medio de un envío cancelará la subida de los archivos que no hayan subido aún, pero los archivos enviados y archivos parcialmente enviados que ya estén en Nextcloud no serán eliminados.
-:::
+</Admonition>
 
 
 #### Bandeja de Salida {/* #outbox */}
@@ -117,9 +119,9 @@ La Bandeja de Salida contiene informes que han sido guardados para enviar. Esto 
 * Envíos de informes que fueron interrumpidos debido a problemas de conectividad.
 * Informes que fueron marcados como "Enviar luego".
 
-:::tip
+<Admonition type="tip">
 If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
-:::
+</Admonition>
 
 
 #### Informes Enviados {/* #submitted-reports */}
@@ -127,9 +129,9 @@ If you need a fully offline way to share files with others, consider exploring [
 - La pestaña Enviados muestra informes que han sido enviados exitosamente al servidor Nextcloud.
 - En la pestaña Enviados, puedes ver y revisar los informes enviados.
 
-:::info
+<Admonition type="info">
 Si la conexión a internet es interrumpida, los informes irán a la pestaña "Bandeja de Salida" y tendrás que reanudar el envío manualmente.
-:::
+</Admonition>
 
 
 

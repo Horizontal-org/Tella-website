@@ -6,6 +6,8 @@ slug: /security-and-privacy
 sidebar_position: 2
 ---
 
+import Admonition from '@theme/Admonition';
+
 # Security and privacy
 
 Tella was built to protect those who face physical and digital repression, so all of Tella’s features and product decisions are built with privacy and security in mind. Tella is regularly audited by independent security firms, and features and documentation are designed with the support and guidance from security professionals. 
@@ -82,11 +84,11 @@ Tella integrates various security measures in place to achieve an acceptable lev
 7. **Camera silent mode**:  Users can choose to [turn off the camera shutter sound](/features#camera-silent-mode) to draw less attention when taking photos.
 8. **Screen security**: By default, Tella blocks screenshots and screen recordings inside Tella and hides the screen preview in the list of recent apps. [This setting](/features#screen-security) can be disabled, for example to record tutorials inside Tella or mirror the app to a computer for a presentation.
 9. **Restrict unlocking attempts**: Users can decide how many failed [unlock attempts](features#restrict-unlocking-attempts) are allowed before everything inside Tella is deleted and whether a visual indicator with the remaining unlocking attempts will be visible on the unlock screen or not.
-10. **Offline file sharing**: Tella allows establishing a secure connection with devices that are in the same physical location and transferring files encrypted, from one Tella vault to another. [Nearby Sharing](/nearby-sharing) works fully offline, even on insecure networks or networks being surveilled.  Nearby Sharing is available cross-platform (between Android, iOS and Desktop).
+10. **Offline file sharing**: Tella allows establishing a secure connection with devices that are in the same physical location and transferring files encrypted, from one Tella vault to another. [Nearby Sharing](/nearby-sharing) works fully offline, even on insecure networks or networks being surveilled, using mutual TLS to verify both devices before any file is exchanged. Nearby Sharing is available cross-platform (between Android, iOS and Desktop). [Read more about the technical security measures in Nearby Sharing](/nearby-sharing#security-measures).
 
-:::tip Video tutorial 🎥
+<Admonition type="tip" title="Video tutorial 🎥">
 Learn more about Security Features in our [video tutorial](/video-tutorials#additional-security-features)
-:::
+</Admonition>
 
 
 ## Security limitations {/* #security-limitations */}
@@ -110,6 +112,7 @@ We regularly ask independent security firms to audit our code to ensure it is ro
 
 | Date | Audited by | Platforms audited  | Link      |
 | -----|----------|----|-----------|
+| July 2026 | Horizontal x Convocation Research+Design|  Android, Android FOSS, iOS, Desktop|[View security audit](</assets/2026.07 - Horizontal x Convocation Research+Design  A Comprehensive Security Audit for Tella 3.0.0+.pdf>)|
 | August 2024 | Radically Open Security |  Android, iOS, Android FOSS|[View pen-testing results](</assets/2024.08.30-Penetration-Test-Report-Horizontal.pdf>)|
 | May 2024 | Subgraph Technologies, Inc. |  Android, iOS, Tella Web|[View updated report confirming fixes has been implemented](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
 | May 2023 | Subgraph Technologies, Inc. | Android, iOS, Tella Web |[View security audit](</assets/2023.05 - Tella security audit - Final report.pdf>)|

@@ -5,6 +5,8 @@ description: The Open Data Kit server connection is available for organizations 
 slug: /odk
 ---
 
+import Admonition from '@theme/Admonition';
+
 # Open Data Kit (ODK) Connection
 
 The [Open Data Kit (ODK)](https://getodk.org/) is an open standard used to create custom forms and collect data. 
@@ -18,9 +20,9 @@ Similarly to any other server connection (like [Tella Web](/tella-web), [Google 
 3. Allowing users to back up their data on a remote server, to lower the risk that data is discovered on their mobile device.
 4. Ensuring that organizations can preserve important information even in the event of device seizure or destruction, and can organize it for research, advocacy, or accountability processes.
 
-:::danger
+<Admonition type="danger">
 Even though data is encrypted (SSL) when transferred to the ODK account, anyone with access to the ODK account or server can view the data or files.
-:::
+</Admonition>
 
 
 ### Choosing and Installing Your ODK Server {/* #choosing-and-installing-your-odk-server */}
@@ -29,9 +31,9 @@ Because ODK is an open standard, Tella can be used with any of the tools that ar
 
 For civil society organizations and human rights defenders, we recommend using [KoboToolbox](https://www.kobotoolbox.org/) to create forms with custom questions, manage users, and aggregate the data submitted by users. Based on our experience, KoboToolbox is user-friendly and flexible, and it is also open source. KoboToolbox offers a [community plan for non-profits](https://www.kobotoolbox.org/pricing/) and offer free training resources and guidance on how to structure the data on the server (Self-serve learning base and Community Forum). It is also possible [to use a private instance of KoboToolbox](https://www.kobotoolbox.org/services/private-servers/) or [self-host it](https://support.kobotoolbox.org/kobo_your_servers.html).
 
-:::tip
+<Admonition type="tip">
 We are work closely with the Kobotoolbox team. If you are interested in using the Tella-KoboToolbox connection and would like some support or to discuss the best hosting plan for your use case, please [contact us](/contact-us). 
-:::
+</Admonition>
 
 There are other ODK-compliant apps available, like [Ona](https://ona.io/home/) or [ODK Cloud](https://https://getodk.org/index.html). Tella works with any of these. 
 
@@ -42,9 +44,9 @@ We recommend ODK to organizations that need on-the-ground users to collect data 
 
 ODK and KoboToolbox are widely used, well-documented, and easy to use. There are guides available, and they offer support to non-profit organizations on how to structure and maintain their data.
 
-:::tip
+<Admonition type="tip">
 If you need help figuring out if ODK is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
-:::
+</Admonition>
 
 ## Model Your Data {/* #model-your-data */}
 
@@ -54,9 +56,9 @@ KoboToolbox offers a detailed guide on how to create your project and add questi
 
 In this documentation, we focus on how to collect data using Tella. There are alternative mobile apps that can be used to collect data on ODK, including the ODK Collect Android app. You can see a comparison of these alternatives [here](/faq#how-is-tella-different-from-other-documentation-apps).
 
-:::info
+<Admonition type="info">
 The ODK connection is not available for Tella iOS.
-:::
+</Admonition>
 
 ### Connect to an ODK Server {/* #connect-to-an-odk-server */}
 After creating and deploying a Form using any ODK-compliant server, in Tella, go to **Settings** > **Connections** > **+** > **Open Data Kit (ODK)**. Fill the following fields:
@@ -139,7 +141,7 @@ Below is an overview of the ODK features that are supported in Tella Android. If
 | [Form metadata (background data collection)](https://docs.getodk.org/form-audit-log/) | ❌ |
 
 
-:::tip
+<Admonition type="tip">
 If you need to share files with others without an internet connection, check out [Nearby Sharing](/nearby-sharing).
-:::
+</Admonition>
 

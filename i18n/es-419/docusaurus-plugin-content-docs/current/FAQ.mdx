@@ -8,6 +8,7 @@ sidebar_position: 6
 
 import FeaturesTable from './_features-table.mdx';
 import TellaLanguages from './_tella-languages.mdx';
+import Admonition from '@theme/Admonition';
 
 # Preguntas frecuentes sobre Tella
 
@@ -27,13 +28,13 @@ Tella es desarrollada y mantenida por [Horizontal](https://wearehorizontal.org),
 
 Si, Tella está disponible para Android y puede descargarse directamente [desde la Tienda Google Play](https://play.google.com/store/apps/details?id=org.hzontal.tella&gl=US), desde nuestro [canal de Telegram](https://t.me/tellaapp) o [desde esta carpeta](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ), como una APK, para ser instalada manualmente. Si necesitas ayuda para instalar la app manualmente puedes [seguir esta guía](https://www.androidauthority.com/how-to-install-apks-31494/)o [contactarnos](/contact-us).
 
-:::note
+<Admonition type="note">
 Follow the get [quick start guide for Tella users on Android](/get-started-android) for quick onboarding.
-:::
+</Admonition>
 
-:::tip
+<Admonition type="tip">
 Aprende más sobre [Cómo encontrar y descargar Tella de la Play Store](/video-tutorials#find-and-download-tella-from-the-play-store) y [Cómo instalar Tella manualmente](/video-tutorials#manual-installation-of-tella) en nuestros videos tutoriales.
-:::
+</Admonition>
 
 ### ¿Tella está disponible en F-Droid? {/* #is-tella-available-on-f-droid */}
 Sí, publicamos una versión de Tella Android [en F-Droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/), la cual llamamos Tella-FOSS. En esta versión, no todas las funciones están disponibles. Para detalles sobre cuales funciones están disponibles para: la versión F-Droid de Tella, ve [qué funciones están disponibles en cada plataforma](/features) y nuestra [página de notas de lanzamiento](/releases).
@@ -46,9 +47,9 @@ Sí, Tella para iOS puede descargarse [desde la App Store](https://apps.apple.co
 
 Para detalles sobre cuáles funciones están disponibles para iOS, ve [Cuáles funciones están disponibles en cada plataforma](/features).
 
-:::note
+<Admonition type="note">
 Follow the get [quick start guide for Tella users on iOS](/get-started-ios) for quick onboarding.
-:::
+</Admonition>
 
 
 ### ¿Cuáles funciones están disponibles en cada plataforma? {/* #what-features-are-available-on-each-platform */}
@@ -67,9 +68,9 @@ You can download Tella Desktop for Windows, MacOS and Linux. [Follow the quick s
 
 Tella Web es una app web que actúa como un repositorio para almacenar informes enviados por usuaria(o)s de Tella, incluyendo fotos, videos y audio. Aprende más sobre Tella Web [aquí](/tella-web).
 
-:::note
+<Admonition type="note">
 Toma en cuenta que no es posible cifrar y ocultar archivos o crear informes en Tella Web. Estas funciones solo están disponibles en las apps móviles. Tella Web es una de las [conexiones](/connections) disponibles para enviar los datos recopilados en la app de Tella.
-:::
+</Admonition>
 
 ### ¿Dónde puedo obtener Tella? {/* #where-can-i-get-tella */}
 
@@ -86,7 +87,10 @@ Por favor consulta las preguntas [¿Está Tella disponible en Android?](#is-tell
 Tella es compatible con dispositivos que funcionan con Android 5.0 o superior e iOS 14.0 o superior.
 
 ### Does Tella work on GrapheneOS? {/* #does-tella-work-on-graphene-os */}
-As of December 2024, we haven't been able to test Tella Android and Tella FOSS on GrapheneOS, so we cannot confirm that all features work properly. Some users have reported that the main features (lock, file encryption and management, etc) work properly, but some of the Connections (like Google Drive) do not work. If you use GrapheneOS and you experience a problem, please [contact us](/contact-us).
+Yes, thank you to our community we have been able to test Tella (Tella Android and Tella FOSS) in GrapheneOS and all features should be working fine. If you experience any issues, please [contact us](/contact-us).
+
+### Does Tella work on Huawei devices? {/* #does-tella-work-on-huawei-devices */}
+Yes, we have tested Tella (Tella Android and Tella FOSS) on a Huawei device and all features work fine, with the exception of the [Google Drive connection](/g-drive) in Tella Android, which may not work on these devices. If you experience any issues, please [contact us](/contact-us).
 
 ### ¿Tella es gratis? {/* #is-tella-free */}
 
@@ -147,22 +151,22 @@ Continue reading about backups [in the Features page](/features#backup-files).
 
 Desafortunadamente no hay manera de entrar a Tella si has olvidado tu método de bloqueo. Tendrás que desinstalar Tella y reinstalarla. No hay manera de recuperar los archivos que estaban almacenados en Tella.
 
-:::tip
+<Admonition type="tip">
 Aprende más sobre [Métodos de Bloqueo de Tella](/video-tutorials#tella-locks) en nuestros videos tutoriales.
-:::
+</Admonition>
 
 ### ¿Cómo puedo migrar Tella a un nuevo teléfono? {/* #how-do-i-migrate-tella-to-a-new-phone */}
 You can use [Nearby Sharing](/nearby-sharing) to move your files to a new phone. You will need to install Tella in your new phone, establish a secure connection to it using Nearby Sharing, select all your files, and transfer those to your new phone. This feature works, too, for Android to iOS, or iOS to Android migrations. 
 
 If you have multiple files, the full transfer might take some time. We recommend you to make sure that Tella [does not lock](/features#lock-timeout-configuration) while the transfer is in progress.  
 
-:::tip
+<Admonition type="tip">
 We recommend you double check that all the files has been successfully transferred before deleting those in your old phone.
-:::
+</Admonition>
 
-:::info
+<Admonition type="info">
 Using Apple's Migration Assistant will not work: your files will be moved to the new phone encrypted, but not your encryption keys. As a result, you will not be able to decrypt and open these files.
-:::
+</Admonition>
 
 
 ### ¿Qué tan segura es Tella? {/* #how-secure-is-tella */}
@@ -197,9 +201,9 @@ Por favor ve a la sección [Para Organizaciones](/for-organizations) para leer m
 
 Queremos ayudarte a entender si Tella es la mejor app para tu contexto específico. Hay otras apps de documentación desarrolladas por otras organizaciones y defensora(e)s de derechos humanos que podrías considerar también.
 
-:::note
+<Admonition type="note">
 Hemos creado esta tabla de comparación para ayudarte a entender la diferencia entre Tella y otras apps disponibles, pero por supuesto, puede que tengamos sesgos 😊. Para comparaciones de organizaciones independientes, echa un vistazo a los enlaces a continuación.
-:::
+</Admonition>
 
 | | Tella | ODK Collect<br />KoboCollect| EyeWitness to Atrocities | CameraV | ProofMode |
 | --------------------------------------------------- | --------------------------- | ---------------------------------- | ---------------------------------- | ------------------------------------------------ | ------------------------------------------------ |

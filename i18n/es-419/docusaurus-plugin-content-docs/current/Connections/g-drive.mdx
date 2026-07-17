@@ -5,6 +5,8 @@ description: Tella permite a la(o)s usuaria(o)s a subir fácilmente fotos, video
 slug: /g-drive
 ---
 
+import Admonition from '@theme/Admonition';
+
 # Conexión de Google Drive
 
 Tella permite a la(o)s usuaria(o)s iniciar sesión en su cuenta de Google directamente desde Tella y subir archivos directamente a Google Drive.
@@ -21,13 +23,17 @@ La conexión a Google Drive es una opción para recopilar fotos, videos y audios
 
 Los envíos a Google Drive toman la forma de "informes" lo cual incluye un título, una descripción de texto y archivos como fotos, videos, grabaciones de audio y documentos pdf.
 
-:::note
+<Admonition type="note">
 The Google Drive connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
-:::
+</Admonition>
 
-:::danger
+<Admonition type="note">
+The Google Drive connection may not work on [Huawei devices released after May 2019](https://support.google.com/android/thread/29434011) or [Honor devices released between mid-2019 and October 2021](https://www.honor.com/global/news/honor50-with-gms-global-launch/), as these devices do not have Google Play Services installed due to US restrictions.
+</Admonition>
+
+<Admonition type="danger">
 Even though data is transferred to the server securely (SSL), anyone with access to the Google Drive account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
-:::
+</Admonition>
 
 ## Cuándo Usar Google Drive {/* #when-to-use-google-drive */}
 
@@ -37,9 +43,9 @@ La conexión a Google Drive puede ser particularmente adecuada para:
 - Proyectos donde las necesidades de privacidad no impiden el uso de una herramienta como Google Drive.
 - Organizaciones que no pueden o no desean autohospedar una app (como [servidor Tella Web](/tella-web)) en un servidor.
 
-:::tip
+<Admonition type="tip">
 Si necesitas ayuda para determinar si Google Drive es la mejor opción para tu caso de uso, [lee nuestra guía](/for-organizations) o [contactanos](/contact-us)!
-:::
+</Admonition>
 
 
 ## Conectate a Google Drive {/* #connect-to-google-drive */}
@@ -98,13 +104,13 @@ Reports in the Draft tab can be edited.
 * Si el informe se está subiendo activamente, un botón de "Pausa" te permite detener temporalmente la subida, la cual puede ser reanudada luego utilizando el botón "Reanudar".
 * Salir de un informe no afecta el estado de subida. Si el informe se está subiendo activamente, el proceso continúa. 
 
-:::info
+<Admonition type="info">
 Después de que un informe ha sido subido a Google Drive, no es posible eliminarlo de Google Drive desde la app móvil de Tella. Eliminar un informe enviado solo eliminará la versión local del mismo, no el informe en el servidor.
-:::
+</Admonition>
 
-:::info
+<Admonition type="info">
 Eliminar un informe en medio de un envío cancelará la subida de los archivos que no hayan subido aún, pero los archivos enviados y archivos parcialmente enviados que ya estén en Google Drive no serán eliminados.
-:::
+</Admonition>
 
 
 #### Bandeja de Salida {/* #outbox */}
@@ -115,9 +121,9 @@ La Bandeja de Salida contiene informes que han sido guardados para enviar. Esto 
 * Envíos de informes que fueron interrumpidos debido a problemas de conectividad.
 * Informes que fueron marcados como "Enviar luego".
 
-:::tip
+<Admonition type="tip">
 If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
-:::
+</Admonition>
 
 
 #### Informes Enviados {/* #submitted-reports */}
@@ -125,9 +131,9 @@ If you need a fully offline way to share files with others, consider exploring [
 - La pestaña Enviados muestra informes que han sido enviados exitosamente al Google Drive.
 - En la pestaña Enviados, puedes ver y revisar los informes enviados.
 
-:::info
+<Admonition type="info">
 Si la conexión a internet es interrumpida, los informes irán a la pestaña Bandeja de Salida y tendrás que reanudar el envío manualmente.
-:::
+</Admonition>
 
 
 

@@ -5,6 +5,8 @@ description: The Uwazi server connection is available for organizations looking 
 slug: /uwazi
 ---
 
+import Admonition from '@theme/Admonition';
+
 # Uwazi Connection
 
 [Uwazi](https://uwazi.io/) is an open-source documentation tool developed by [HURIDOCS](https://huridocs.org). It is a flexible, web-based database application designed for human rights defenders to manage their collections of information, including documents, evidence, cases, and complaints.
@@ -17,9 +19,9 @@ Similarly to all other server connections([Tella Web](/tella-web), [Google Drive
 3. Allowing users to back up their data on a remote server, to lower the risk that data is discovered on their mobile device.
 4. Ensuring that organizations can preserve important information even in the event of device seizure or destruction, and can organize it to use for research, advocacy, or accountability processes.
 
-:::danger
+<Admonition type="danger">
 Even though data is encrypted (SSL) when transferred to Uwazi, anyone with access to your Uwazi account or to the server can view the files.
-:::
+</Admonition>
 
 ### Testing Uwazi {/* #testing-uwazi */}
 
@@ -45,9 +47,9 @@ Here there are some pointers on Uwazi may be particularly suitable to your use c
 
 You can learn more about Uwazi on [Uwazi's official documentation](https://uwazi.readthedocs.io/en/latest/). HURIDOCS is a great friend of Horizontal, so if you have questions about Uwazi or would like us to connect you to the HURIDOCS team, [contact-us](contact-us).
 
-:::tip
+<Admonition type="tip">
 If you need help figuring out if Uwazi is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
-:::
+</Admonition>
 
 ## Configure Uwazi on a server {/* #configure-uwazi-on-a-server */}
 
@@ -63,9 +65,9 @@ An Uwazi collection is made up of Entities. An entity has Properties which are t
 
 [You can read here](https://uwazi.readthedocs.io/en/latest/admin-docs/building-info-architecture.html#understanding-properties) about the properties that are available on the Uwazi server and how to model your data and create your templates. For the moment we only support properties and functionalities that have been flagged as high priority by Uwazi users. If you need other properties, [contact us](/contact-us).
 
-:::info
+<Admonition type="info">
 If Tella users download a template that has properties that are not supported in Tella, those properties won't be shown in the app. However, users will still be able to submit the entities, and admins will be able to access these entities, including all the properties that were filled, without any problems.
-:::
+</Admonition>
 
 ### Available Properties {/* #available-properties */}
 
@@ -102,9 +104,9 @@ In order to connect to an Uwazi server:
 * If the server requires two-factor authentication, enter the one-time code.
 * Choose the **Language** in which you want to display templates.
 
-:::info
+<Admonition type="info">
 You can watch [this video](/video-tutorials#uwazi) on how to connect to an Uwazi server from the Tella.
-:::
+</Admonition>
 
 ### Send Your Information {/* #send-your-information */}
 
@@ -129,6 +131,6 @@ Then go back to the Uwazi main screen and tap the template you want to use to cr
 | Automatically pause submission when offline | Submissions will be sent to the Outbox tab if submission fails due to connectivity issues.  | Yes | Yes |
 
 
-:::tip
+<Admonition type="tip">
 If you need to share files with others without an internet connection, check out [Nearby Sharing](/nearby-sharing).
-:::
+</Admonition>

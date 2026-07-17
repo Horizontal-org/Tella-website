@@ -6,6 +6,8 @@ slug: /security-and-privacy
 sidebar_position: 2
 ---
 
+import Admonition from '@theme/Admonition';
+
 # Sécurité et confidentialité
 
 Tella a été conçue pour protéger les personnes victimes de répression physique et numérique. Toutes les fonctionnalités et les décisions relatives aux produits de Tella ont donc été élaborées en tenant compte de la protection de la vie privée et de la sécurité. Tella est régulièrement auditée par des sociétés de sécurité indépendantes, et les fonctionnalités et la documentation sont conçues avec le soutien et les conseils de professionnels de la sécurité. 
@@ -81,12 +83,12 @@ Tella dispose de plusieurs mesures de sécurité afin d'atteindre un niveau de s
 6. **Bouton de suppression rapide** : les utilisateurs ou utilisatrices peuvent activer un bouton coulissant **[suppression rapide](features#quick-delete)** pour effacer rapidement les données de Tella en cas d'urgence. Ils ou elles peuvent choisir, dans les paramètres de Tella, de supprimer tous les fichiers stockés dans Tella, les formulaires brouillons et soumis, les paramètres du serveur et l'application elle-même lorsque ce bouton est déclenché. Lorsque le bouton Suppression rapide est déclenché, un compte à rebours de 5 secondes s'affich. Pendant le compte à rebours, l'utilisateur ou utilisatrice peut annuler l'action de suppression rapide en appuyant n'importe où sur l'écran. Lorsque le compte à rebours atteint 0, l'action de suppression définie est appliquée. Si l'utilisateur ou utilisatrice ou a sélectionné les options ‘supprimer Tella’, Android lui demandera de confirmer la suppression de l'application.
 7. **Mode silencieux de l'appareil photo** : les utilisateurs ou utilisatrices peuvent choisir de [désactiver le son de l'obturateur de l'appareil photo](/features#camera-silent-mode) pour attirer moins d'attention lorsqu'ils ou elles prennent des photos.
 8. **Sécurité de l'écran**: par défaut, Tella bloque les captures d'écran et les enregistrements d'écran dans Tella et masque l'aperçu de l'écran dans la liste des applications récentes. [Ce paramètre](/features#screen-security) peut être désactivé, par exemple pour enregistrer des tutoriels vidéo dans Tella ou mettre en miroir l'application sur un ordinateur pour une présentation.
-9. **Restreindre les tentatives de déverrouillage** : Les utilisateurs et utilisatrices peuvent décider du nombre de [tentatives de déverrouillage] (features#restrict-unlocking-attempts) autorisées avant que tout ce qui se trouve dans Tella ne soit supprimé et si un indicateur visuel des tentatives de déverrouillage restantes sera visible sur l'écran de déverrouillage ou non.
-10. **Offline file sharing**: Tella allows establishing a secure connection with devices that are in the same physical location and transferring files encrypted, from one Tella vault to another. [Nearby Sharing](/nearby-sharing) works fully offline, even on insecure networks or networks being surveilled.  Nearby Sharing is available cross-platform (between Android, iOS and Desktop).
+9. **Restreindre les tentatives de déverrouillage** : Les utilisateurs et utilisatrices peuvent décider du nombre de [tentatives de déverrouillage](features#restrict-unlocking-attempts) autorisées avant que tout ce qui se trouve dans Tella ne soit supprimé et si un indicateur visuel des tentatives de déverrouillage restantes sera visible sur l'écran de déverrouillage ou non.
+10. **Offline file sharing**: Tella allows establishing a secure connection with devices that are in the same physical location and transferring files encrypted, from one Tella vault to another. [Nearby Sharing](/nearby-sharing) works fully offline, even on insecure networks or networks being surveilled, using mutual TLS to verify both devices before any file is exchanged. Nearby Sharing is available cross-platform (between Android, iOS and Desktop). [Read more about the technical security measures in Nearby Sharing](/nearby-sharing#security-measures).
 
-:::tip Tutoriel vidéo 🎥
+<Admonition type="tip" title="Tutoriel vidéo 🎥">
 Apprenez-en davantage sur les fonctionnalités de sécurité grâce à notre [tutoriel vidéo](/video-tutorials#additional-security-features)
-:::
+</Admonition>
 
 
 ## Limitations en matière de sécurité {/* #security-limitations */}
@@ -110,6 +112,7 @@ Nous demandons régulièrement à des sociétés de sécurité indépendantes d�
 
 | Date | Audité par | Les plateformes auditées  | Lien      |
 | -----|----------|----|-----------|
+| Juillet 2026 | Horizontal x Convocation Research+Design|  Android, Android FOSS, iOS, Desktop|[View security audit](</assets/2026.07 - Horizontal x Convocation Research+Design  A Comprehensive Security Audit for Tella 3.0.0+.pdf>)|
 | August 2024 | Radically Open Security |  Android, iOS, Android FOSS|[View pen-testing results](</assets/2024.08.30-Penetration-Test-Report-Horizontal.pdf>)|
 | Mai 2024 | Subgraph Technologies, Inc. |  Android, iOS, Tella Web|[View updated report confirming fixes has been implemented](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
 | Mai 2023 | Subgraph Technologies, Inc. | Android, iOS, Tella Web |[View security audit](</assets/2023.05 - Tella security audit - Final report.pdf>)|

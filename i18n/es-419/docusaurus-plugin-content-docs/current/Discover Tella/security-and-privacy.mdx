@@ -6,6 +6,8 @@ slug: /security-and-privacy
 sidebar_position: 2
 ---
 
+import Admonition from '@theme/Admonition';
+
 # Seguridad y privacidad
 
 Tella fue construida para quienes enfrentan represión física y digital, por lo que todas las funciones de Tella y decisiones de producto están construidas con la privacidad y seguridad en mente. Tella es auditada regularmente por empresas de seguridad independientes, y las funciones y documentación están diseñadas con el apoyo y la guía de profesionales de seguridad.
@@ -80,11 +82,11 @@ Tella integra varias medidas de seguridad para lograr un nivel aceptable de segu
 7. **Modo silencioso de la Cámara**: La(o)s usuaria(o)s pueden elegir [desactivar el sonido del obturador de la cámara](/features#camera-silent-mode) para llamar menos la atención al tomar fotos.
 8. **Seguridad de pantalla**: Por defecto, Tella bloquea las capturas de pantalla y las grabaciones de pantalla dentro de Tella y oculta la vista previa de pantalla de la lista de apps recientes. [Esta configuración](/features#screen-security) se puede deshabilitar, por ejemplo para grabar tutoriales dentro de Tella o reflejar la app a una computadora para una presentación.
 9. **Restringir intentos de desbloqueo**: La(o)s usuaria(o)s pueden decidir cuántos [intentos de desbloqueo](features#restrict-unlocking-attempts) fallidos están permitidos antes de que todo dentro de Tella sea eliminado y si un indicador visual con el número de intentos restantes será visible en la pantalla de desbloqueo o no.
-10. **Offline file sharing**: Tella allows establishing a secure connection with devices that are in the same physical location and transferring files encrypted, from one Tella vault to another. [Nearby Sharing](/nearby-sharing) works fully offline, even on insecure networks or networks being surveilled.  Nearby Sharing is available cross-platform (between Android, iOS and Desktop).
+10. **Offline file sharing**: Tella allows establishing a secure connection with devices that are in the same physical location and transferring files encrypted, from one Tella vault to another. [Nearby Sharing](/nearby-sharing) works fully offline, even on insecure networks or networks being surveilled, using mutual TLS to verify both devices before any file is exchanged. Nearby Sharing is available cross-platform (between Android, iOS and Desktop). [Read more about the technical security measures in Nearby Sharing](/nearby-sharing#security-measures).
 
-:::tip Video tutorial 🎥
+<Admonition type="tip" title="Video tutorial 🎥">
 Aprende más sobre Funciones de Seguridad en nuestro [video tutorial](/video-tutorials#additional-security-features)
-:::
+</Admonition>
 
 
 ## Limitaciones de seguridad {/* #security-limitations */}
@@ -108,6 +110,7 @@ Regularmente solicitamos a empresas de seguridad independientes auditar nuestro 
 
 | Fecha | Auditado por | Plataformas auditadas  | Enlace      |
 | -----|----------|----|-----------|
+| Julio de 2026 | Horizontal x Convocation Research+Design|  Android, Android FOSS, iOS, Desktop|[Ver informe](</assets/2026.07 - Horizontal x Convocation Research+Design  A Comprehensive Security Audit for Tella 3.0.0+.pdf>)|
 | August 2024 | Radically Open Security |  Android, iOS, Android FOSS|[View pen-testing results](</assets/2024.08.30-Penetration-Test-Report-Horizontal.pdf>)|
 | Mayo de 2024 | Subgraph Technologies, Inc. |  Android, iOS, Tella Web|[Ver informe](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
 | Mayo de 2023 | Subgraph Technologies, Inc. | Android, iOS, Tella Web |[Ver informe](</assets/2023.05 - Tella security audit - Final report.pdf>)|
