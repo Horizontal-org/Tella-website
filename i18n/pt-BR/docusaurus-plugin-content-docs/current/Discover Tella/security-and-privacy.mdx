@@ -84,7 +84,7 @@ O Tella integra várias medidas de segurança estruturadas para atingir um níve
 7. **Modo silencioso da câmera**:  Usuários podem escolher [desativar o som do obturador da câmera](/features#camera-silent-mode) para chamar menos atenção ao tirar fotos.
 8. **Segurança da tela**: Por padrão, o Tella bloqueia capturas e gravações de tela dentro do Tella e oculta a prévia de tela na lista dos aplicativos recentes. [Essa configuração](/features#screen-security) pode ser desabilitada, por exemplo, para gravar tutoriais dentro do Tella ou espelhar o aplicativo para um computador para uma apresentação.
 9. **Restrição de tentativas de desbloqueio**: Usuários podem decidir quantas [tentativas de desbloqueio](features#restrict-unlocking-attempts) sem sucesso são permitidas antes de todo o conteúdo dentro do Tella ser excluído e se um indicador visual com as tentativas restantes de desbloqueio será visível na tela de desbloqueio ou não.
-10. **Offline file sharing**: Tella allows establishing a secure connection with devices that are in the same physical location and transferring files encrypted, from one Tella vault to another. [Nearby Sharing](/nearby-sharing) works fully offline, even on insecure networks or networks being surveilled.  Nearby Sharing is available cross-platform (between Android, iOS and Desktop).
+10. **Offline file sharing**: Tella allows establishing a secure connection with devices that are in the same physical location and transferring files encrypted, from one Tella vault to another. [Nearby Sharing](/nearby-sharing) works fully offline, even on insecure networks or networks being surveilled, using mutual TLS to verify both devices before any file is exchanged. Nearby Sharing is available cross-platform (between Android, iOS and Desktop). [Read more about the technical security measures in Nearby Sharing](/nearby-sharing#security-measures).
 
 <Admonition type="tip" title="Tutorial em vídeo 🎥">
 Saiba mais sobre Funcionalidades de Segurança pelo nosso [tutorial em vídeo](/video-tutorials#additional-security-features)
@@ -112,6 +112,7 @@ Solicitamos regularmente a empresas de segurança independentes que auditem noss
 
 | Data | Auditado por | Plataformas auditadas  | Link      |
 | -----|----------|----|-----------|
+| Julho de 2026 | Horizontal x Convocation Research+Design|  Android, Android FOSS, iOS, Desktop|[View security audit](</assets/2026.07 - Horizontal x Convocation Research+Design  A Comprehensive Security Audit for Tella 3.0.0+.pdf>)|
 | August 2024 | Radically Open Security |  Android, iOS, Android FOSS|[View pen-testing results](</assets/2024.08.30-Penetration-Test-Report-Horizontal.pdf>)|
 | Maio de 2024 | Subgraph Technologies, Inc. |  Android, iOS, Tella Web|[View updated report confirming fixes has been implemented](</assets/2024.05.18 - Subgraph - Updated Report.pdf>)|
 | Maio de 2023 | Subgraph Technologies, Inc. | Android, iOS, Tella Web |[View security audit](</assets/2023.05 - Tella security audit - Final report.pdf>)|

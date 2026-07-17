@@ -16,24 +16,22 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 ## Tella - Latest Versions {/* #tella---latest-versions */}
 
 
-### Android: Tella 3.1.0 (242) - Released on June 8, 2026 {/* #android-tella-310242---released-on-jun-8-2026 */}
-- Replaced camera library and location provider with FOSS options.
-- Language support improvements: updated Ukrainian.
+### Android: Tella 3.2.0 (248) - Released on July 16, 2026 {/* #android-tella-320248---released-on-jul-16-2026 */}
+- Implemented security fixes detected by our most recent [security audit](/security-and-privacy#security-audits)
+    - Implemented mTLS and enforced certificate pinning for both the sender and receiver in Nearby Sharing. This is a mitigation for man-in-the-middle attacks.
 - Bug fixes and minor improvements:
-    - Fixed an "import and delete original" bug that prevented the original file from being erased from the device in some cases.
-    - Fixed a screen security issue during onboarding (some screens were not hidden).
-    - Corrected the capitalization of buttons.
-    - Fixed the geolocation permission flow and solved a bug that prevented the geolocation flow to continue the first time the location permission was granted.
-    - Added an option to hide the Tella Web connection ULR from the Connection's settings.
-    - Fixed a bug that didn't properly removed camouflage when changing lock type.
+    - Simplified the Nearby Sharing manual connection flow: pre-filled the port field and added automatic dot insertion after each octet while typing the IP address.
 
 
-### iOS: Tella 3.0.0 (144) - Released on May 20, 2026 {/* #ios-tella-300144---released-on-may-20-2026 */}
-- Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files in physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
-- Implemented security fixes detected by our most recent security audit (to be published soon!).
-- New languages support: Ukrainian.
+
+### iOS: Tella 3.1.0 (150) - Released on July 15, 2026 {/* #ios-tella-310150---released-on-jul-15-2026 */}
+- Implemented security fixes detected by our most recent [security audit](/security-and-privacy#security-audits)
+    - Moved encryption keys to the Keychain. 
+    - Implemented mTLS and enforced certificate pinning for both the sender and receiver in Nearby Sharing. This is a mitigation for man-in-the-middle attacks.
 - Bug fixes and minor improvements:
-    - Added an option to hide the Tella Web connection URL from the Connection's settings.
+    - Simplified the Nearby Sharing manual connection flow: pre-filled the port field and added automatic dot insertion after each octet while typing the IP address.
+    - Added an Unlock button when authenticating with Password.
+    - Improved error messaging for failed Uwazi submissions: the app now shows a specific error when the failure is caused by an unsupported field marked as required.
 
 
 
@@ -57,6 +55,18 @@ A detailed list of features available on each platform is [available here](/feat
 ## Previous versions {/* #previous-versions */}
 
 ### Android {/* #android-previous */}
+
+
+### Android: Tella 3.1.0 (242) - Released on June 8, 2026 {/* #android-tella-310242---released-on-jun-8-2026 */}
+- Replaced camera library and location provider with FOSS options.
+- Language support improvements: updated Ukrainian.
+- Bug fixes and minor improvements:
+    - Fixed an "import and delete original" bug that prevented the original file from being erased from the device in some cases.
+    - Fixed a screen security issue during onboarding (some screens were not hidden).
+    - Corrected the capitalization of buttons.
+    - Fixed the geolocation permission flow and solved a bug that prevented the geolocation flow to continue the first time the location permission was granted.
+    - Added an option to hide the Tella Web connection ULR from the Connection's settings.
+    - Fixed a bug that didn't properly removed camouflage when changing lock type.
 
 #### Android: Tella 3.0.0 (237) - Released on May 20, 2026 {/* #android-tella-300237---released-on-may-20-2026 */}
 - Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files in physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
@@ -395,6 +405,15 @@ Also in this update:
 
 
 ### iOS {/* #ios-previous */}
+
+### iOS: Tella 3.0.0 (144) - Released on May 20, 2026 { /*#ios-tella-300144---released-on-may-20-2026 */}
+- Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files in physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
+- Implemented security fixes detected by our most recent security audit (to be published soon!).
+- New languages support: Ukrainian.
+- Bug fixes and minor improvements:
+    - Added an option to hide the Tella Web connection URL from the Connection's settings.
+
+
 
 #### iOS: Tella 1.19.2 (132) - Released on April 13, 2026 {/* #ios-tella-1192-132---released-on-april-13-2026 */}
 - Hotfix: Translations now load automatically (without reloading the app).
