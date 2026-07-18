@@ -35,16 +35,11 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 
 
 
-### Android: Tella FOSS 3.1.0 (242) (based on Android 3.1.0) - Released on Jun 8, 2026 {/* #android-tella-foss-310242-based-on-android-242---released-on-jun-8-2026 */}
-- Replaced the geolocation provider.
+### Android: Tella FOSS 3.2.0 (248) (based on Android 3.2.0) - Released on July 88, 2026 {/* #android-tella-foss-320248-based-on-android-320---released-on-jul-18-2026 */}
+- Implemented security fixes detected by our most recent [security audit](/security-and-privacy#security-audits)
+    - Implemented mTLS and enforced certificate pinning for both the sender and receiver in Nearby Sharing. This is a mitigation for man-in-the-middle attacks.
 - Bug fixes and minor improvements:
-    - Solved a crash on camera that was affecting some models of Pixel phones.
-    - Fixed an "import and delete original" bug that prevented the original file from being erased from the device in some cases.
-    - Fixed a screen security issue during onboarding (some screens were not hidden).
-    - Corrected the capitalization of buttons.
-    - Fixed the geolocation permission flow and solved a bug that prevented the geolocation flow to continue the first time the location permission was granted.
-    - Added an option to hide the Tella Web connection URL from the Connection's settings.
-    - Fixed a bug that didn't properly removed camouflage when changing lock type.
+    - Simplified the Nearby Sharing manual connection flow: pre-filled the port field and added automatic dot insertion after each octet while typing the IP address.
 
 
 
@@ -57,7 +52,7 @@ A detailed list of features available on each platform is [available here](/feat
 ### Android {/* #android-previous */}
 
 
-### Android: Tella 3.1.0 (242) - Released on June 8, 2026 {/* #android-tella-310242---released-on-jun-8-2026 */}
+#### Android: Tella 3.1.0 (242) - Released on June 8, 2026 {/* #android-tella-310242---released-on-jun-8-2026 */}
 - Replaced camera library and location provider with FOSS options.
 - Language support improvements: updated Ukrainian.
 - Bug fixes and minor improvements:
@@ -625,6 +620,17 @@ Also in this update:
 
 
 ### Android FOSS {/* #android-foss-previous */}
+
+#### Android: Tella FOSS 3.1.0 (242) (based on Android 3.1.0) - Released on Jun 8, 2026 {/* #android-tella-foss-310242-based-on-android-242---released-on-jun-8-2026 */}
+- Replaced the geolocation provider.
+- Bug fixes and minor improvements:
+    - Solved a crash on camera that was affecting some models of Pixel phones.
+    - Fixed an "import and delete original" bug that prevented the original file from being erased from the device in some cases.
+    - Fixed a screen security issue during onboarding (some screens were not hidden).
+    - Corrected the capitalization of buttons.
+    - Fixed the geolocation permission flow and solved a bug that prevented the geolocation flow to continue the first time the location permission was granted.
+    - Added an option to hide the Tella Web connection URL from the Connection's settings.
+    - Fixed a bug that didn't properly removed camouflage when changing lock type.
 
 #### Android: Tella FOSS 3.0.0 (237) (based on Android 3.0.0) - Released on May 20, 2026 {/* #android-tella-foss-300237-based-on-android-300---released-on-may-20-2026 */}
 - Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files in physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 

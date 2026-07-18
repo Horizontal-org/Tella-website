@@ -5,6 +5,7 @@ description: Mô tả chi tiết về các tính năng của Tella.
 slug: /features
 ---
 import FeaturesTable from '.././_features-table.mdx';
+import ConnectionsTable from '.././_connections-table.mdx';
 import Admonition from '@theme/Admonition';
 
 
@@ -121,6 +122,10 @@ Bằng cách vào **Cài đặt ⚙️** > **Bảo mật** > **Xóa sau khi Mở
 Theo mặc định, cài đặt này được Tắt, có nghĩa là không hạn chế số lần thử mở khóa và dữ liệu sẽ không bị xóa.  Người dùng có thể chọn giới hạn số lần thử mở khóa ở 5, 10 hoặc 20. Nếu chọn một trong những tùy chọn này, người dùng cũng có thể chọn có hiển thị thông báo mở khóa hay không khi còn 3 lần thử trước số lần đã chỉ định (ví dụ còn lại 3 lần, còn 2 lần, v.v.), hoặc không hiển thị thông báo nào cả.
 
 Sau số lần thử mở khóa thất bại đã chỉ định, tất cả các tệp tin, kết nối và mọi thứ trong Tella sẽ bị xóa và người dùng sẽ quay lại trạng thái ứng dụng " vừa mới được cài đặt".
+
+<Admonition type="info">
+The Restrict unlocking attempts feature cannot be enabled if Calculator camouflage is enabled.
+</Admonition>
 
 <Admonition type="danger">
 Mặc dù cài đặt bảo mật này ngăn chặn các nỗ lực phá khóa để xâm nhập vào Tella, nhưng nó nên được sử dụng một cách thận trọng vì không có cách nào để khôi phục được nội dung của Tella một khi mở khóa thất bại số lần cho phép tối đa.
@@ -254,6 +259,10 @@ Trên Tella Android, có thể ngụy trang Tella theo hai cách:
 Tên "Tella" và biểu tượng của nó sẽ vẫn hiển thị trong cài đặt Android. Điều này có nghĩa là việc ngụy trang sẽ không bảo vệ bạn khỏi một cá nhân _có chủ đích_ tìm kiếm Tella trên điện thoại hoặc tiến hành kiểm tra kỹ lưỡng thiết bị của bạn. 🔒👀
 </Admonition>
 
+<Admonition type="info">
+The Calculator camouflage feature cannot be enabled if the Restrict unlock attempts feature is on.
+</Admonition>
+
 <Admonition type="tip" title="Video  tutorial 🎥">
 Tìm hiểu thêm về [Ngụy trang Tella](/video-tutorials#camouflaging-tella) trong video hướng dẫn của chúng tôi.
 </Admonition>
@@ -283,6 +292,10 @@ Nút Xóa Nhanh cho phép người dùng xóa dữ liệu nhạy cảm trong Tel
 
 <Admonition type="info" title="Delete Tella">
 Tùy chọn Xóa Tella có thể không khả dụng trên một số điện thoại Android do hạn chế về mặt kỹ thuật. Chúng tôi đang tìm cách khắc phục sự cố này. Còn đối với iOS, không thể xóa ứng dụng bằng các lệnh lập trình.
+</Admonition>
+
+<Admonition type="warning">
+Before triggering Quick Delete, consider [backing up you files](/features#backup-files) outside of Tella, to avoid loosing them.
 </Admonition>
 
 ## Thoát nhanh {/* #quick-exit */}

@@ -6,6 +6,7 @@ slug: /features
 sidebar_position: 1
 ---
 import FeaturesTable from '.././_features-table.mdx';
+import ConnectionsTable from '.././_connections-table.mdx';
 import Admonition from '@theme/Admonition';
 
 
@@ -126,6 +127,10 @@ You can [continue reading about Server Connections and how organizations use Tel
 
 بعد العدد المحدد من المحاولات الفاشلة، سيتم حذف جميع الملفات والاتصالات وكل شيء في Tella، وسيعود المستخدم إلى حالة التطبيق ”المثبت حديثا“.
 
+<Admonition type="info">
+The Restrict unlocking attempts feature cannot be enabled if Calculator camouflage is enabled.
+</Admonition>
+
 <Admonition type="danger">
 بالرغم من أن هذا الإعداد الأمني يمنع محاولات فتح القفل بالقوة الغاشمة للوصول إلى Tella، إلا أنه يجب استخدامه بحذر، لأنه لا توجد طريقة لاستعادة محتوى Tella بمجرد الوصول إلى الحد الأقصى من محاولات الفتح الفاشلة.
 </Admonition>
@@ -232,6 +237,10 @@ You can [continue reading about Server Connections and how organizations use Tel
 سيظل اسم "Tella" وأيقونته مرئيين في إعدادات أندرويد. هذا يعني أن التمويه لن يحمي ضد شخص يبحث _بنشاط_ عن Tella على الهاتف أو يجري تحليلا مُعمَّقا للجهاز. 🔒👀
 </Admonition>
 
+<Admonition type="info">
+The Calculator camouflage feature cannot be enabled if the Restrict unlock attempts feature is on.
+</Admonition>
+
 <Admonition type="tip" title="فيديو تعليمي 🎥">
 تعرف المزيد حول [تمويه Tella](/video-tutorials#camouflaging-tella) في فيديوهاتنا التعليمية.
 </Admonition>
@@ -261,6 +270,10 @@ You can [continue reading about Server Connections and how organizations use Tel
 
 <Admonition type="info" title="حذف Tella">
 قد لا يكون خيار حذف Tella متاحا على بعض هواتف أندرويد بسبب القيود التقنية. نحن نعمل على إصلاح هذه المشكلة. بالنسبة لنظام iOS، لا يمكن حذف تطبيق ما برمجيا.
+</Admonition>
+
+<Admonition type="warning">
+Before triggering Quick Delete, consider [backing up you files](/features#backup-files) outside of Tella, to avoid loosing them.
 </Admonition>
 
 ## الخروج السريع {/* #quick-exit */}
