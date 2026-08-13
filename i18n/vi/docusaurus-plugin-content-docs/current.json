@@ -26,5 +26,11 @@
   "sidebar.generalSidebar.category.Cộng đồng": {
     "message": "Cộng đồng",
     "description": "The label for category 'Cộng đồng' in sidebar 'generalSidebar'"
+  },
+  "sidebar.generalSidebar.category.Get Started": {
+    "message": ""
+  },
+  "sidebar.generalSidebar.category.Discover Tella": {
+    "message": ""
   }
 }
