@@ -9,7 +9,7 @@ import Admonition from '@theme/Admonition';
 
 # Uwazi
 
-[Uwazi](https://uwazi.io/) là một công cụ tài liệu mã nguồn mở được phát triển bởi [HURIDOCS](https://huridocs.org). Đây là một ứng dụng cơ sở dữ liệu trên nền tảng web được thiết kế linh hoạt dành cho nhà bảo vệ nhân quyền trong việc quản lý bộ sưu tập thông tin, bao gồm tài liệu, bằng chứng, các vụ án và những khiếu nại. 
+[Uwazi](https://uwazi.io/) là một công cụ tài liệu mã nguồn mở được phát triển bởi [HURIDOCS](https://huridocs.org). Đây là một ứng dụng cơ sở dữ liệu trên nền tảng web được thiết kế linh hoạt dành cho nhà bảo vệ nhân quyền trong việc quản lý bộ sưu tập thông tin, bao gồm tài liệu, bằng chứng, các vụ án và những khiếu nại.
 
 Uwazi cho phép các tổ chức tập hợp dữ liệu do các thành viên hoặc đối tác của họ thu thập vào một kho lưu trữ trung tâm. Người dùng Tella kết nối với phiên bản Uwazi của tổ chức mình, tải xuống các biểu mẫu (gọi là Mẫu), điền các mẫu này nhiều lần khi cần (ngay cả khi không có kết nối internet) và tải dữ liệu lên. Các tổ chức sau đó có thể chọn lọc, tổ chức và công bố dữ liệu của họ trực tiếp từ Uwazi.
 
@@ -20,14 +20,14 @@ Tương tự như các kết nối khác ([Tella Web](/tella-web), [Google Drive
 4. Đảm bảo rằng các tổ chức có thể lưu giữ thông tin quan trọng ngay cả trong trường hợp thiết bị bị thu giữ hoặc bị phá hủy, và có thể sắp xếp dữ liệu cho quá trình nghiên cứu, vận động hoặc giải trình trách nhiệm.
 
 <Admonition type="danger">
-Even though data is transferred to the server securely (SSL), anyone with access to the Uwazi account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+Even though data is encrypted (SSL) when transferred to Uwazi, anyone with access to your Uwazi account or to the server can view the files.
 </Admonition>
 
-### Kiểm tra Uwazi {/* #testing-uwazi */}
+### Testing Uwazi {/* #testing-uwazi */}
 
 Bạn có thể thử nghiệm Uwazi bằng cách sử dụng [phiên bản Demo này](https://demo.uwazi.io/).
 
-### Khi nào nên sử dụng Uwazi {/* #when-to-use-uwazi */}
+### When to use Uwazi {/* #when-to-use-uwazi */}
 
 Chúng tôi khuyến nghị sử dụng Uwazi cho các tổ chức cần người dùng tại hiện trường thu thập dữ liệu một cách có cấu trúc thông qua các biểu mẫu.
 
@@ -51,46 +51,47 @@ Bạn có thể tìm hiểu thêm về Uwazi trên [Tài liệu chính thức c�
 If you need help figuring out if Uwazi is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
 </Admonition>
 
-## Cài đặt Uwazi trên máy chủ {/* #configure-uwazi-on-a-server */}
+## Configure Uwazi on a server {/* #configure-uwazi-on-a-server */}
+
 
 The HURIDOCS team offers 2 alternatives on how to set up your uwazi server:
 
-1. Self-hosted: Share this [comprehensive administrator guide](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html) with your system's administrator for step-by-step instructions on how to install Uwazi on your server, configure backups, and set up advanced features. 
+1. Self-hosted: Share this [comprehensive administrator guide](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html) with your system's administrator for step-by-step instructions on how to install Uwazi on your server, configure backups, and set up advanced features.
 2. Hosted by HURIDOCS: HURIDOCS offer hosting packages as a service. Free hosting services (up to a storage limit) and a trial version of Uwazi are available for human rights organizations. [Reach out to HURIDOCS](https://huridocs.org/services/) for more details about the service.
 
-## Mô hình hóa dữ liệu của bạn {/* #model-your-data */}
+## Model Your Data {/* #model-your-data */}
 
 Một bộ sưu tập Uwazi bao gồm các Thực thể. Mỗi thực thể có các Thuộc tính là các ô thông tin mà người dùng Tella sẽ điền vào để thu thập dữ liệu. Các Thực thể có thể chứa Tài liệu Chính và/hoặc Tệp Hỗ trợ và một số thuộc tính được định nghĩa bởi các quản trị viên trên máy chủ Uwazi khi họ tạo Mẫu. Một Mẫu là một biểu mẫu trống có thể được điền nhiều lần khi cần; khi một Mẫu được điền, nó trở thành một Thực thể.
 
 [Bạn có thể đọc tại đây](https://uwazi.readthedocs.io/en/latest/admin-docs/building-info-architecture.html#understanding-properties) về các thuộc tính có sẵn trên máy chủ Uwazi cũng như cách lập mô hình dữ liệu và tạo mẫu của bạn. Hiện tại, chúng tôi chỉ hỗ trợ các thuộc tính và chức năng được người dùng Uwazi đánh dấu là ưu tiên cao. Nếu bạn cần thuộc tính khác, [liên hệ với chúng tôi](/contact-us).
 
 <Admonition type="info">
-Nếu người dùng Tella tải xuống mẫu có các thuộc tính không được hỗ trợ trong Tella thì các thuộc tính đó sẽ không được hiển thị trong ứng dụng. Tuy nhiên, người dùng vẫn có thể gửi các thực thể và quản trị viên sẽ có thể truy cập vào các thực thể này, bao gồm tất cả các thuộc tính đã được điền mà không gặp bất kỳ sự cố nào.
+If Tella users download a template that has properties that are not supported in Tella, those properties won't be shown in the app. Even those some properties will not be visible, users will still be able to submit the entities, and admins will be able to access these entities, including all the properties that were filled. However, if some of those fields were required, Tella will show an error and save the submission in the Outbox tab. Templates will need to be refreshed to be submitted after an admin has made the required fixes in the template configuration.
 </Admonition>
 
-### Các thuộc tính có sẵn {/* #available-properties */}
+### Available Properties {/* #available-properties */}
 
-| **Thuộc tính hoặc Tính năng** | **Tella Android**| **Tella iOS** | **Tella Android FOSS** |
-|------|------|-----|-----| 
-| Tài liệu chính và tài liệu hỗ trợ | ✔️ | ✔️ | ✔️ |
-| Văn bản Không định dạng | ✔️ | ✔️ | ✔️ |
-| Số | ✔️ | ✔️ | ✔️ |
-| Lựa chọn Đơn | ✔️ | ✔️ | ✔️ | 
-| Lựa chọn nhiều | ✔️ | Không | ✔️ | 
-| Mối quan hệ | ✔️ | ✔️ | Không |
-| Chọn Một ngày | ✔️ | ✔️ | ✔️ |
-| Chọn Nhiều Ngày | ✔️ | Không | ✔️ |
-| Liên kết ngoài | ✔️ | Không | ✔️ |
-| Văn bản Đa định dạng | ✔️ | ✔️ | ✔️ |
-| Phạm vi Ngày đơn và Nhiều ngày | ✔️ | Không | ✔️ |
-| Đính kèm Phương tiện (Hình ảnh, Video, hoặc Âm thanh) | ✔️| ✔️ | ✔️ |
-| Định vị địa lý | ✔️ | Không | ✔️ |
-| ID Đã được tạo | ✔️ | Không | ✔️ |
+| **Thuộc tính hoặc Tính năng**                         | **Tella Android** | **Tella iOS** | **Tella Android FOSS** |
+| ----------------------------------------------------- | ----------------- | ------------- | ---------------------- |
+| Tài liệu chính và tài liệu hỗ trợ                     | ✔️                | ✔️            | ✔️                     |
+| Văn bản Không định dạng                               | ✔️                | ✔️            | ✔️                     |
+| Số                                                    | ✔️                | ✔️            | ✔️                     |
+| Lựa chọn Đơn                                          | ✔️                | ✔️            | ✔️                     |
+| Lựa chọn nhiều                                        | ✔️                | Không         | ✔️                     |
+| Mối quan hệ                                           | ✔️                | ✔️            | ✔️                     |
+| Chọn Một ngày                                         | ✔️                | ✔️            | ✔️                     |
+| Chọn Nhiều Ngày                                       | ✔️                | Không         | ✔️                     |
+| Liên kết ngoài                                        | ✔️                | Không         | ✔️                     |
+| Văn bản Đa định dạng                                  | ✔️                | ✔️            | ✔️                     |
+| Phạm vi Ngày đơn và Nhiều ngày                        | ✔️                | Không         | ✔️                     |
+| Đính kèm Phương tiện (Hình ảnh, Video, hoặc Âm thanh) | ✔️                | ✔️            | ✔️                     |
+| Định vị địa lý                                        | ✔️                | Không         | ✔️                     |
+| ID Đã được tạo                                        | ✔️                | Không         | ✔️                     |
 
 
-## Chuẩn bị Người Dùng Tại Hiện Trường để Bắt Đầu Nộp Dữ Liệu {/* #get-people-on-the-ground-ready-to-start-submitting-data */}
+## Get People on the Ground Ready to Start Submitting Data {/* #get-people-on-the-ground-ready-to-start-submitting-data */}
 
-### Kết nối với Máy chủ {/* #connect-to-the-server */}
+### Connect to the Server {/* #connect-to-the-server */}
 
 Để kết nối với máy chủ Uwazi:
 
@@ -104,10 +105,10 @@ Nếu người dùng Tella tải xuống mẫu có các thuộc tính không đ�
 * Chọn **Ngôn ngữ** mà bạn muốn hiển thị các mẫu.
 
 <Admonition type="info">
-Bạn có thể xem [video hướng dẫn này](/video-tutorials#uwazi) về cách kết nối một máy chủ Uwazi từ Tella.
+You can watch [this video](/video-tutorials#uwazi) on how to connect to an Uwazi server from the Tella.
 </Admonition>
 
-### Gửi Thông Tin Của Bạn {/* #send-your-information */}
+### Send Your Information {/* #send-your-information */}
 
 Khi bạn kết nối thành công với một phiên bản Uwazi, bạn sẽ thấy một thẻ mới với nhãn "Uwazi" trong phần **Kết nối** trên màn hình chính của Tella.
 
@@ -116,20 +117,20 @@ Khi bạn kết nối thành công với một phiên bản Uwazi, bạn sẽ th
 Sau đó quay lại màn hình chính Uwazi và nhấn vào mẫu bạn muốn sử dụng để tạo một thực thể.
 
 
-#### Các Phương Thức Nộp Dữ Liệu Khác {/* #data-submission-alternatives */}
+#### Data Submission Alternatives {/* #data-submission-alternatives */}
 
-| **Tính năng** | **Chi tiết**| **Tella Android** | **Tella iOS** | 
-|------|------|------|------|
-| Nộp | Gửi biểu mẫu đã điền đến máy chủ đã kết nối. | Đồng ý | Đồng ý |
-| Lưu dưới dạng bản nháp | Lưu biểu mẫu chưa hoàn thành. | Đồng ý | Đồng ý |
-| Nộp sau | Đánh dấu biểu mẫu là đã sẵn sàng và gửi nó tới tab Hộp thư đi. | Đồng ý | Đồng ý |
-| Tap Bản nháp | Một tab chứa tất cả các bản nháp.  Bản nháp có thể được chỉnh sửa hoặc xóa. | Đồng ý | Đồng ý |
-| Tap Hộp thư đi | Một tab chứa các biểu mẫu sẵn sàng để nộp.  Các biểu mẫu trên tab hộp thư đi có thể được chỉnh sửa hoặc xóa.  | Đồng ý | Đồng ý |
-| Tap Đã gửi | Một tab chứa danh sách tất cả các biểu mẫu đã được gửi thành công đến máy chủ. Các biểu mẫu đã nộp có thể được xóa.  | Đồng ý | Đồng ý |
-| Tạm dừng/Tiếp tục gửi | Người dùng có thể bấm tạm dừng và tiếp tục gửi khi sẵn sàng.  | Đồng ý | Không |
-| Tự động tạm dừng gửi khi ngoại tuyến | Các bài nộp sẽ được chuyển vào tab Hộp Thư Đi nếu quá trình gửi thất bại do vấn đề kết nối.  | Đồng ý | Đồng ý |
+| **Tính năng**                        | **Chi tiết**                                                                                                        | **Tella Android** | **Tella iOS** |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------- | ----------------- | ------------- |
+| Nộp                                  | Gửi biểu mẫu đã điền đến máy chủ đã kết nối.                                                                        | Đồng ý            | Đồng ý        |
+| Lưu dưới dạng bản nháp               | Lưu biểu mẫu chưa hoàn thành.                                                                                       | Đồng ý            | Đồng ý        |
+| Nộp sau                              | Đánh dấu biểu mẫu là đã sẵn sàng và gửi nó tới tab Hộp thư đi.                                                      | Đồng ý            | Đồng ý        |
+| Tap Bản nháp                         | Một tab chứa tất cả các bản nháp. Bản nháp có thể được chỉnh sửa hoặc xóa.                                          | Đồng ý            | Đồng ý        |
+| Tap Hộp thư đi                       | Một tab chứa các biểu mẫu sẵn sàng để nộp. Các biểu mẫu trên tab hộp thư đi có thể được chỉnh sửa hoặc xóa.         | Đồng ý            | Đồng ý        |
+| Tap Đã gửi                           | Một tab chứa danh sách tất cả các biểu mẫu đã được gửi thành công đến máy chủ. Các biểu mẫu đã nộp có thể được xóa. | Đồng ý            | Đồng ý        |
+| Tạm dừng/Tiếp tục gửi                | Người dùng có thể bấm tạm dừng và tiếp tục gửi khi sẵn sàng.                                                        | Đồng ý            | Không         |
+| Tự động tạm dừng gửi khi ngoại tuyến | Các bài nộp sẽ được chuyển vào tab Hộp Thư Đi nếu quá trình gửi thất bại do vấn đề kết nối.                         | Đồng ý            | Đồng ý        |
 
 
 <Admonition type="tip">
-If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+If you need to share files with others without an internet connection, check out [Nearby Sharing](/nearby-sharing).
 </Admonition>
