@@ -26,5 +26,14 @@
   "sidebar.generalSidebar.category.Comunidade": {
     "message": "Comunidade",
     "description": "The label for category 'Comunidade' in sidebar 'generalSidebar'"
+  },
+  "sidebar.generalSidebar.category.Get Started": {
+    "message": ""
+  },
+  "sidebar.generalSidebar.category.Connections": {
+    "message": ""
+  },
+  "sidebar.generalSidebar.category.Discover Tella": {
+    "message": ""
   }
 }
