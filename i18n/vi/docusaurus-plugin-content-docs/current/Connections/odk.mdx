@@ -5,7 +5,7 @@ description: Việc kết nối máy chủ Bộ Công cụ Dữ liệu mở hi�
 slug: /odk
 ---
 
-import Admonition from '@theme/Admonition';
+import {Tip, Danger, Info} from '@site/src/components/Admonitions';
 
 # Bộ Công cụ Dữ liệu mở (ODK)
 
@@ -20,9 +20,9 @@ Tương tự như bất kỳ kết nối máy chủ nào khác (như [Tella Web]
 3. Cho phép người dùng sao lưu dữ liệu của họ trên máy chủ từ xa, để giảm nguy cơ dữ liệu bị phát hiện trên thiết bị di động của họ.
 4. Đảm bảo rằng các tổ chức có thể lưu giữ thông tin quan trọng ngay cả trong trường hợp thiết bị bị thu giữ hoặc bị phá hủy, và có thể sắp xếp dữ liệu cho quá trình nghiên cứu, vận động hoặc giải trình trách nhiệm.
 
-<Admonition type="danger">
+<Danger>
 Even though data is transferred to the server securely (SSL), anyone with access to the ODK account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
-</Admonition>
+</Danger>
 
 
 ### Lựa chọn và Cài đặt Máy chủ ODK của bạn {/* #choosing-and-installing-your-odk-central-server */}
@@ -31,9 +31,9 @@ Vì ODK là một tiêu chuẩn mở nên Tella có thể được sử dụng v
 
 For civil society organizations and human rights defenders, we recommend using [KoboToolbox](https://www.kobotoolbox.org/) to create forms with custom questions, manage users, and aggregate the data submitted by users. Based on our experience, KoboToolbox is user-friendly and flexible, and it is also open source. KoboToolbox offers a [community plan for non-profits](https://www.kobotoolbox.org/pricing/) and offer free training resources and guidance on how to structure the data on the server (Self-serve learning base and Community Forum). It is also possible [to use a private instance of KoboToolbox](https://www.kobotoolbox.org/services/private-servers/) or [self-host it](https://support.kobotoolbox.org/kobo_your_servers.html).
 
-<Admonition type="tip">
+<Tip>
 We are work closely with the Kobotoolbox team. If you are interested in using the Tella-KoboToolbox connection and would like some support or to discuss the best hosting plan for your use case, please [contact us](/contact-us). 
-</Admonition>
+</Tip>
 
 Có sẵn các ứng dụng tương thích với ODK khác, như [Ona](https://ona.io/home/) hoặc [Đám mây ODK](https://https://getodk.org/index.html). Tella có thể hoạt động với bất kỳ ứng dụng nào trong số này.
 
@@ -44,9 +44,9 @@ Chúng tôi khuyến nghị dùng ODK cho những tổ chức cần người dù
 
 ODK và KoboToolbox được sử dụng rộng rãi, có tài liệu hướng dẫn đầy đủ và dễ sử dụng. Có các hướng dẫn sẵn có và họ cung cấp hỗ trợ cho các tổ chức phi lợi nhuận về cách cấu trúc và duy trì dữ liệu của mình.
 
-<Admonition type="tip">
+<Tip>
 If you need help figuring out if ODK is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
-</Admonition>
+</Tip>
 
 ## Mô hình dữ liệu của bạn {/* #model-your-data */}
 
@@ -56,9 +56,9 @@ KoboToolbox cung cấp hướng dẫn chi tiết về cách tạo dự án và t
 
 Trong tài liệu này, chúng tôi tập trung vào cách thu thập dữ liệu bằng Tella.  Có những ứng dụng di động thay thế có thể sử dụng để thu thập dữ liệu trên ODK, bao gồm cả ứng dụng ODK Collect Android.  Bạn có thể so sánh các lựa chọn thay thế này [tại đây](/faq#how-is-tella-different-from-other-documentation-apps).
 
-<Admonition type="info">
+<Info>
 Kết nối ODK không có sẵn cho Tella iOS.
-</Admonition>
+</Info>
 
 ### Kết nối với Máy chủ ODK {/* #connect-to-an-odk-server */}
 
@@ -143,6 +143,6 @@ Dưới đây là tổng quan các tính năng ODK được hỗ trợ trong Tel
 | [Form metadata (background data collection)](https://docs.getodk.org/form-audit-log/) | ❌ |
 
 
-<Admonition type="tip">
+<Tip>
 If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
-</Admonition>
+</Tip>

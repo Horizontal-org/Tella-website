@@ -6,7 +6,7 @@ slug: /features
 ---
 import FeaturesTable from '.././_features-table.mdx';
 import ConnectionsTable from '.././_connections-table.mdx';
-import Admonition from '@theme/Admonition';
+import {Note, Tip, Warning, Danger, Info} from '@site/src/components/Admonitions';
 
 
 # Các tính năng của Tella
@@ -26,13 +26,13 @@ Khi cài đặt Tella, người dùng phải chọn khóa 🔒 để mã hóa v�
 
 Không có khóa này sẽ không thể mở Tella.
 
-<Admonition type="danger">
+<Danger>
 Nếu người dùng quên mật khẩu, sẽ không thể vào lại được Tella và các tệp tin được lưu giữ trong ứng dụng. Người dùng phải gỡ cài đặt và cài đặt lại Tella, và tất cả các tệp tin sẽ bị mất. 🔒🔑🚪
-</Admonition>
+</Danger>
 
-<Admonition type="tip" title="Video tutorial 🎥">
+<Tip title="Video tutorial 🎥">
 Tìm hiểu về khóa Tella trong [video hướng dẫn của chúng tôi](/video-tutorials#tella-locks) 
-</Admonition>
+</Tip>
 
 ## Background encryption {/* #background-encryption */}
 
@@ -40,13 +40,13 @@ Tella [encrypts](#encryption) files in the background so that users can continue
 
 While files are being encrypted, Tella displays an orange marker on the notifications icon. If the user opens the background activity tray while some files are being encrypted, they will see the list of files in the queue and the encryption progress.
 
-<Admonition type="danger">
+<Danger>
 If the user hard exit Tella (for example by using [Quick Exit](#quick-exit) or minimizing the app) while files are being encrypted in the background, those will be lost.
-</Admonition>
+</Danger>
 
-<Admonition type="info">
+<Info>
 If [verification mode](/features#verification-mode) is turned on, background encryption is automatically disabled to make sure that all file metadata is captured at the same time as the photo, video, or audio file is saved.  
-</Admonition>
+</Info>
 
 ## Backups (to another Tella or to a server) {/* #backup-files */}
 
@@ -54,17 +54,17 @@ Tella stores all the information locally in your phone. If you delete your files
 
 We offer several alternatives to backup files, so you can safely delete files from Tella and import those back in, but the backup process is manual, for the moment. Please [contact us](/contact-us) if you have questions.
 
-<Admonition type="note">
+<Note>
 All exports outside of Tella's encrypted vault (to a connected server or [to your phone](/features#file-management)) will be unencrypted. The only method for sharing files that transfer files directly to another encrypted vault is [Nearby Sharing](/nearby-sharing).
-</Admonition>
+</Note>
 
 ### Backup files to another phone or computer {/* #backup-files-to-another-phone-or-computer */}
 
 Using [Nearby Sharing](/nearby-sharing) you can transfer files directly to another Tella vault, either in another phone or [to a computer](/get-started-desktop) that's in physical proximity. Files are shared and store encrypted in the other Tella. If you backup to another phone you can use Nearby Sharing again to restore the files to your Tella.
 
-<Admonition type="info">
+<Info>
 For the moment Tella Desktop can only receive files.
-</Admonition>
+</Info>
 
 ### Backup files to a cloud {/* #backup-files-to-a-cloud */}
 
@@ -82,17 +82,17 @@ Cài đặt ⚙️ > Bảo mật > Tự động khóa.
 
 Các tùy chọn có sẵn là 1 phút, 5 phút, 30 phút và 1 tiếng.  ⏱️
 
-<Admonition type="info">
+<Info>
 Hãy sử dụng tính năng này một cách cẩn thận vì nếu Tella được mở khóa, thì dữ liệu sẽ không được bảo vệ và bất kỳ ai cũng có thể xem tất cả thông tin bên trong Tella. 
-</Admonition>
+</Info>
 
-<Admonition type="info">
+<Info>
 Khi camera hoặc máy ghi âm được mở, Tella sẽ không khóa
-</Admonition>
+</Info>
 
-<Admonition type="tip" title="Video tutorial 🎥">
+<Tip title="Video tutorial 🎥">
 Tìm hiểu thêm về các Tính Năng Bảo Mật Bổ Sung của Tella trong [video hướng dẫn của chúng tôi](/video-tutorials#additional-security-features)
-</Admonition>
+</Tip>
 
 
 
@@ -100,9 +100,9 @@ Tìm hiểu thêm về các Tính Năng Bảo Mật Bổ Sung của Tella trong 
 
 Theo mặc định, Tella không bật chế độ im lặng của máy ảnh. Bạn có thể tắt âm thanh khi chụp hình để giảm sự chú ý bằng cách vào **Cài đặt ⚙️** > **Bảo mật** > **Chế độ im lặng của máy ảnh** 📷🔇
 
-<Admonition type="tip" title="Video tutorial 🎥">
+<Tip title="Video tutorial 🎥">
 Tìm hiểu thêm về các Tính Năng Bảo Mật Bổ Sung của Tella trong [video hướng dẫn của chúng tôi](/video-tutorials#additional-security-features)
-</Admonition>
+</Tip>
 
 
 ## Bảo mật màn hình {/* #screen-security */}
@@ -112,9 +112,9 @@ Theo mặc định, Tella chặn việc chụp màn hình và quay video lại m
 Trên iOS, bảo mật màn hình chỉ chặn việc ghi màn hình bên trong Tella và ẩn màn hình trong danh sách các ứng dụng gần đây, nhưng không thể tắt tính năng chụp màn hình hoặc ghi màn hình.
 
 
-<Admonition type="tip" title="Video tutorial 🎥">
+<Tip title="Video tutorial 🎥">
 Tìm hiểu thêm về các Tính Năng Bảo Mật Bổ Sung của Tella trong [video hướng dẫn của chúng tôi](/video-tutorials#additional-security-features)
-</Admonition>
+</Tip>
 
 ## Giới hạn số lần mở khóa {/* #restrict-unlocking-attempts */}
 Bằng cách vào **Cài đặt ⚙️** > **Bảo mật** > **Xóa sau khi Mở khóa thất bại**, người dùng có thể quyết định số lần được phép mở khóa không thành trước khi tất cả dữ liệu trong Tella bị xóa.
@@ -123,13 +123,13 @@ Theo mặc định, cài đặt này được Tắt, có nghĩa là không hạn
 
 Sau số lần thử mở khóa thất bại đã chỉ định, tất cả các tệp tin, kết nối và mọi thứ trong Tella sẽ bị xóa và người dùng sẽ quay lại trạng thái ứng dụng " vừa mới được cài đặt".
 
-<Admonition type="info">
+<Info>
 The Restrict unlocking attempts feature cannot be enabled if Calculator camouflage is enabled.
-</Admonition>
+</Info>
 
-<Admonition type="danger">
+<Danger>
 Mặc dù cài đặt bảo mật này ngăn chặn các nỗ lực phá khóa để xâm nhập vào Tella, nhưng nó nên được sử dụng một cách thận trọng vì không có cách nào để khôi phục được nội dung của Tella một khi mở khóa thất bại số lần cho phép tối đa.
-</Admonition>
+</Danger>
 
 ## Chỉnh sửa Phương tiện {/* #edit-media */}
 We are in the process of adding the ability to edit media files directly within Tella's encrypted container, so users don't longer need to export their files outside Tella for editing those.
@@ -169,21 +169,21 @@ Khi cài đặt ứng dụng, người dùng sẽ quyết định phương pháp
 
 Ngay cả khi thiết bị được cắm vào máy tính và tất cả dữ liệu của thiết bị được trích xuất để phân tích, tất cả nội dung và dữ liệu của Tella sẽ trông như những ký tự vô nghĩa và vô dụng. Việc mở khóa ứng dụng bằng cách nhập đúng mật khẩu là cách duy nhất để giải mã và đọc nội dung được lưu trữ trong Tella.
 
-<Admonition type="danger">
+<Danger>
 Nếu mật khẩu của người dùng quá yếu, kẻ xâm nhập có thể đoán được nó và mở ứng dụng trên điện thoại; hoặc dữ liệu có thể được trích xuất và một máy tính có thể cưỡng phá được khóa mã hóa và giải mã dữ liệu.
-</Admonition>
+</Danger>
 
-<Admonition type="danger">
+<Danger>
 Nếu người dùng quên mật khẩu của mình thì không có cách nào để truy cập vào ứng dụng và lấy lại nội dung của nó
-</Admonition>
+</Danger>
 
-<Admonition type="tip" title="Video  tutorial 🎥">
+<Tip title="Video  tutorial 🎥">
 Tìm hiểu thêm về Mật khẩu và Mã hóa trong [video hướng dẫn của chúng tôi](/video-tutorials#tella-locks)
-</Admonition>
+</Tip>
 
-<Admonition type="info">
+<Info>
 Chi tiết kỹ thuật về mã hóa có thể được tìm thấy trong phần [Bảo mật và Quyền riêng tư](/security-and-privacy).
-</Admonition>
+</Info>
 
 ## Quản lý tệp tin {/* #file-management */}
 
@@ -197,9 +197,9 @@ Trong Tella, người dùng có thể:
 * Xuất tập tin sang thiết bị. Sau khi được lưu trữ bên ngoài Tella, các tệp tin sẽ không còn được mã hóa và có thể bị bất kỳ ai tìm kiếm trên thiết bị truy cập được.
 * Nhập tệp tin từ thiết bị. Các tệp tin được tự động mã hóa khi nhập vào Tella.
 
-<Admonition type="danger">
+<Danger>
 Việc nhập tài liệu từ hệ thống dữ liệu của thiết bị vào Tella sẽ tạo một bản sao của tệp tin đó vào Tella. Tella sẽ hỏi bạn muốn giữ hay xóa tệp tin gốc khỏi điện thoại khi nhập. Nếu bạn chọn giữ lại tệp tin gốc, chúng sẽ tồn tại trên thiết bị, nằm bên ngoài Tella và không được mã hóa.  🔒
-</Admonition>
+</Danger>
 
 ## Góp ý {/* #feedback */}
 
@@ -219,9 +219,9 @@ Có nhiều lựa chọn để người dùng Tella [Liên hệ với đội ng�
 Trên cơ sở dữ liệu máy chủ Phản hồi, chúng tôi chỉ lưu trữ một bản sao văn bản do người dùng gửi trong biểu mẫu phản hồi và hệ điều hành mà nó sử dụng (Android hoặc iOS).
 
 
-<Admonition type="info">
+<Info>
 Thông tin duy nhất mà chúng tôi sẽ nhận là nội dung cụ thể mà người dùng điền vào biểu mẫu phản hồi. Nếu người dùng đang yêu cầu hỗ trợ hoặc muốn chúng tôi liên hệ lại, họ nên cung cấp một phương thức an toàn để chúng tôi có thể liên hệ với họ.
-</Admonition>
+</Info>
 
 
 ## Nhập tệp tin từ thiết bị {/* #import-files-from-device */}
@@ -229,9 +229,9 @@ Thông tin duy nhất mà chúng tôi sẽ nhận là nội dung cụ thể mà 
 Người dùng có thể nhập các tệp vào Tella để bảo mật chúng bằng cách sử dụng tính năng nhập. Họ có thể nhập tệp tin bằng cách vào nút **Thêm (+ )** ở mục Tất cả tệp, Hình ảnh, Video, Âm thanh hoặc Tài liệu tùy theo loại tệp họ muốn nhập và sau đó chọn **Nhập từ thiết bị** 📥. Một thông báo sẽ xuất hiện để hỏi người dùng xem họ muốn giữ hay xóa tệp tin gốc khỏi bộ nhớ điện thoại của mình. Các tệp tin đã nhập sẽ được bảo mật tại Tella.
 
 
-<Admonition type="tip" title="Video  tutorial 🎥">
+<Tip title="Video  tutorial 🎥">
 Tìm hiểu thêm về [Thu thập Chứng cứ](video-tutorials#collecting-evidence) và [Chia sẻ dữ liệu](/video-tutorials#sharing-data-with-other-apps) trong video hướng dẫn của chúng tôi.
-</Admonition>
+</Tip>
 
 ## Bảo toàn siêu dữ liệu khi nhập {/* #preserve-metadata-when-importing */}
 
@@ -255,17 +255,17 @@ Trên Tella Android, có thể ngụy trang Tella theo hai cách:
 
 Ở thời điểm hiện tại, Tella trên hệ điều hành iOS không hỗ trợ những tính năng ngụy trang có sẵn như trên Android vì còn sự hạn chế trên kho ứng dụng của Apple. 
 
-<Admonition type="danger">
+<Danger>
 Tên "Tella" và biểu tượng của nó sẽ vẫn hiển thị trong cài đặt Android. Điều này có nghĩa là việc ngụy trang sẽ không bảo vệ bạn khỏi một cá nhân _có chủ đích_ tìm kiếm Tella trên điện thoại hoặc tiến hành kiểm tra kỹ lưỡng thiết bị của bạn. 🔒👀
-</Admonition>
+</Danger>
 
-<Admonition type="info">
+<Info>
 The Calculator camouflage feature cannot be enabled if the Restrict unlock attempts feature is on.
-</Admonition>
+</Info>
 
-<Admonition type="tip" title="Video  tutorial 🎥">
+<Tip title="Video  tutorial 🎥">
 Tìm hiểu thêm về [Ngụy trang Tella](/video-tutorials#camouflaging-tella) trong video hướng dẫn của chúng tôi.
-</Admonition>
+</Tip>
 
 
 ## Tùy chỉnh màn hình chính {/* #homescreen-customization */}
@@ -290,13 +290,13 @@ Nút Xóa Nhanh cho phép người dùng xóa dữ liệu nhạy cảm trong Tel
 * Xóa cài đặt máy chủ: Xóa tất cả các kết nối máy chủ và tất cả các biểu mẫu hoặc mẫu liên quan đến chúng 📋
 * Xóa Tella: Xóa ứng dụng và tất cả dữ liệu bên trong. Điều này kích hoạt một thông báo hỏi xem người dùng có muốn gỡ cài đặt Tella không ❌. 
 
-<Admonition type="info" title="Delete Tella">
+<Info title="Delete Tella">
 Tùy chọn Xóa Tella có thể không khả dụng trên một số điện thoại Android do hạn chế về mặt kỹ thuật. Chúng tôi đang tìm cách khắc phục sự cố này. Còn đối với iOS, không thể xóa ứng dụng bằng các lệnh lập trình.
-</Admonition>
+</Info>
 
-<Admonition type="warning">
+<Warning>
 Before triggering Quick Delete, consider [backing up you files](/features#backup-files) outside of Tella, to avoid loosing them.
-</Admonition>
+</Warning>
 
 ## Thoát nhanh {/* #quick-exit */}
 
@@ -310,9 +310,9 @@ Trong cài đặt Tella, người dùng có thể kich hoạt "Chế độ Xác 
 
 Khi được kích hoạt, mỗi khi người dùng chụp ảnh, quay video hay ghi âm, Tella sẽ tự động ghi lại thông tin xác minh (siêu dữ liệu của tệp). Thông tin này có thể được sử dụng để xác thực bằng chứng, kiểm tra chéo với các dữ kiện khác về sự kiện hoặc về khu vực nơi tệp được tạo ra. Thông tin xác minh sẽ được lưu dưới dạng tệp tin riêng khi bạn lưu vào thiết bị hoặc khi chia sẻ qua các ứng dụng của bên thứ ba. Định dạng tệp là .CSV, với thông tin siêu dữ liệu được sắp xếp theo cột. Bạn có thể mở tệp này bằng bất kỳ ứng dụng bảng tính nào (như Excel, Bảng tính Google hoặc OpenOffice).
 
-<Admonition type="info" title="Contact us">
+<Info title="Contact us">
 Nếu bạn cần trợ giúp để hiểu rõ hơn về Chế độ xác minh, vui lòng liên hệ với chúng tôi 😊
-</Admonition>
+</Info>
 
 Dưới đây là danh sách các thông tin siêu dữ liệu được Tella thu thập:
 
@@ -354,9 +354,9 @@ Hiện tại các máy chủ có thể kết nối với Tella là:
 * [Bộ Công cụ Dữ liệu Mở (ODK)](/for-organizations#open-data-kit-odk)
 * [Uwazi](/uwazi)
 
-<Admonition type="tip" title="Video tutorial 🎥">
+<Tip title="Video tutorial 🎥">
 Tìm hiểu thêm về [Kết nối với Máy chủ](/video-tutorials#server-connections) trong video hướng dẫn của chúng tôi. 
-</Admonition>
+</Tip>
 
 
 ## Nearby Sharing {/* #nearby-sharing */}
@@ -365,16 +365,16 @@ Users can share files directly from Tella's encrypted vault to another Tella enc
 
 This feature is available on Tella Android, Tella iOS, and Tella Desktop. 
 
-<Admonition type="note">
+<Note>
 [Learn more about nearby sharing here](/nearby-sharing).
-</Admonition>
+</Note>
 
 ## Share button {/* #share-button */}
 To share information with other apps, users can select the file or files they want to share and press the Share button. Tella will prompt the list of available apps on the phone and users can choose the app they want to share the file(s) with. 
 
-<Admonition type="danger">
+<Danger>
 Tella will share the files unencrypted and the history of exchanged files might be visible on the app you used. We recommend using disappearing messages or deleting the messages after the other person receives them when using messaging apps (for example WhatsApp or Signal).
-</Admonition>
+</Danger>
 
 ## Máy ảnh (hình ảnh and video) {/* #camera-photos-and-videos */}
 

@@ -8,7 +8,7 @@ sidebar_position: 1
 
 import FeaturesTable from '.././_features-table.mdx';
 import ConnectionsTable from '.././_connections-table.mdx';
-import Admonition from '@theme/Admonition';
+import {Note, Tip, Warning, Danger, Info} from '@site/src/components/Admonitions';
 
 # Funciones de Tella
 
@@ -27,13 +27,13 @@ Al instalar Tella, la/el usuaria(o) debe seleccionar un método de bloqueo 🔒 
 
 Sin este método de bloqueo, no es posible abrir Tella.
 
-<Admonition type="danger">
+<Danger>
 Si la/el usuaria(o) pierde su método de bloqueo, no es posible volver a tener acceso a Tella y los archivos almacenados dentro de la app. La/el usuaria(o) tiene que desinstalar y reinstalar Tella, y todos los archivos se perderán.🔒🔑🚪
-</Admonition>
+</Danger>
 
-<Admonition type="tip" title="Video tutorial🎥">
+<Tip title="Video tutorial🎥">
 Aprende más sobre Métodos de Bloqueo de Tella en nuesto [video tutorial](/video-tutorials#tella-locks)
-</Admonition>
+</Tip>
 
 ## Cifrado en segundo plano {/* #background-encryption */}
 
@@ -41,22 +41,22 @@ Tella [cifra](#encryption) archivos en segundo plano de manera que los usuarios 
 
 Mientras los archivos están siendo cifrados, Tella muestra un marcador naranja el icono de las notificaciones. Si el usuario abre la bandeja de actividad en segundo plano mientras algunos archivos están siendo cifrados, verán la lista de archivos en cola y el progreso del cifrado.
 
-<Admonition type="danger">
+<Danger>
 Si el usuario sale de Tella forzadamente (por ejemplo, usando [Salida Rápida](#quick-exit) o minimiza la app) mientras los archivos están siendo cifrados en segundo plano, estos se perderán.
-</Admonition>
+</Danger>
 
-<Admonition type="info">
+<Info>
 Si el [Modo de Verificación](/features#verification-mode) está activo, el cifrado en segundo plano automáticamente se deshabilita para garantizar que todos los metadatos de archivos son capturados la mismo tiempo que la foto, video o audio son guardados.
-</Admonition>
+</Info>
 
 ## Backup files {/* #backup-files */}
 Tella stores all the information locally in your phone. If you delete your files (for example using [quick delete](/features#quick-delete) or if you uninstall Tella), your files cannot be restored unless you have backed them up outside of your Tella Vault.
 
 We offer several alternatives to backup files, so you can safely delete files from Tella and import those back in, but the backup process is manual, for the moment. Please [contact us](/contact-us) if you have questions.
 
-<Admonition type="note">
+<Note>
 All exports outside of Tella's encrypted vault (to a connected server or [to your phone](/features#file-management)) will be unencrypted. The only method for sharing files that transfer files directly to another encrypted vault is [Nearby Sharing](/nearby-sharing).
-</Admonition>
+</Note>
 
 
 
@@ -64,9 +64,9 @@ All exports outside of Tella's encrypted vault (to a connected server or [to you
 
 Using [Nearby Sharing](/nearby-sharing) you can transfer files directly to another Tella vault, either in another phone or [to a computer](/get-started-desktop) that's in physical proximity. Files are shared and store encrypted in the other Tella. If you backup to another phone you can use Nearby Sharing again to restore the files to your Tella.
 
-<Admonition type="info">
+<Info>
 For the moment Tella Desktop can only receive files.
-</Admonition>
+</Info>
 
 ### Backup files to a cloud {/* #backup-files-to-a-cloud */}
 
@@ -86,17 +86,17 @@ Configuración ⚙️ > Seguridad > Tiempo para Bloqueo.
 
 Las opciones disponibles son 1 minuto, 5 minutos, 30 minutos y 1 hora. ⏱️
 
-<Admonition type="info">
+<Info>
 Por favor usa esta función cuidadosamente ya que si Tella está desbloqueada los datos estarían desprotegidos y cualquiera que entre a Tella podría ver toda la información allí. 
-</Admonition>
+</Info>
 
-<Admonition type="info">
+<Info>
 Cuando la cámara o la grabadora de audio estén abiertas, Tella no se bloqueará
-</Admonition>
+</Info>
 
-<Admonition type="tip" title="Video tutorial 🎥">
+<Tip title="Video tutorial 🎥">
 Aprende más sobre Función de Seguridad Adicional de Tella en nuestro [video tutorial](/video-tutorials#additional-security-features)
-</Admonition>
+</Tip>
 
 
 
@@ -104,9 +104,9 @@ Aprende más sobre Función de Seguridad Adicional de Tella en nuestro [video tu
 
 Por defecto Tella tiene el modo silencioso de la cámara deshabilitado. Yendo a **Configuración ⚙️** > **Seguridad** > **Modo silencioso de la cámara**, es posible desactivar el sonido del obturador de la cámara para llamar menos la atención al hacer fotos. 📷🔇
 
-<Admonition type="tip" title="Video tutorial 🎥">
+<Tip title="Video tutorial 🎥">
 Aprende más sobre Función de Seguridad Adicional de Tella en nuestro [video tutorial](/video-tutorials#additional-security-features)
-</Admonition>
+</Tip>
 
 
 ## Seguridad de la pantalla {/* #screen-security */}
@@ -116,9 +116,9 @@ Por defecto Tella bloquea las capturas de pantalla, grabaciones de pantalla dent
 En iOS la seguridad de pantalla solo bloquea la grabación de pantalla dentro de Tella y bloquea la pantalla en la lista de apps recientes, pero no es posible deshabilitar las capturas de pantalla o grabaciones de pantalla.
 
 
-<Admonition type="tip" title="Video tutorial 🎥">
+<Tip title="Video tutorial 🎥">
 Aprende más sobre Función de Seguridad Adicional de Tella en nuestro [video tutorial](/video-tutorials#additional-security-features)
-</Admonition>
+</Tip>
 
 ## Restringir intentos de desbloqueo {/* #restrict-unlocking-attempts */}
 Yendo a **Configuración ⚙️** > **Seguridad** > **Eliminar después de Desbloqueo Fallido**, la/el usuaria(o) puede decidir cuántos intentos de desbloqueo fallidos están permitidos antes de que todo dentro de Tella sea eliminado.
@@ -127,13 +127,13 @@ Por defecto, esta configuración está Deshabilitada, lo que significa que los i
 
 Después del número de intentos fallidos especificados, todos los archivos, conexiones y todo en Tella se elimina, y la/el usuaria(o) volverá al estado "recién instalado" de la app.
 
-<Admonition type="info">
+<Info>
 La función de Restringir Intentos de desbloqueo no se puede habilitar si el camuflaje de Calculadora está habilitado.
-</Admonition>
+</Info>
 
-<Admonition type="danger">
+<Danger>
 Aunque está configuración de privacidad evita los intentos de desbloqueo por fuerza bruta para ingresar a Tella, debe ser usada con precaución, ya que no hay forma de restaurar el contenido de Tella una que vez el número máximo de intentos fallidos es alcanzado.
-</Admonition>
+</Danger>
 
 ## Editar archivos multimedia {/* #edit-media */}
 Estamos en proceso de añadir la habilidad de editar archivos multimedia directamente dentro del contenedor cifrado de Tella, para que la(o)s usuaria(o)s no necesiten exportar sus archivos fuera de Tella para editarlos.
@@ -176,21 +176,21 @@ Al instalar la app, la/el usuaria(o) decide cuál método de bloqueo le gustarí
 
 Incluso si el dispositivo está conectado a una computadora y todos los datos del dispositivo son extraídos para ser analizados, todo el contenido de Tella parecerá incoherente y será inútil. Desbloquear la app introduciendo el método de bloqueo correcto es la única forma de descifrar, y por lo tanto leer, el contenido almacenado en Tella. 
 
-<Admonition type="danger">
+<Danger>
 Si el método de bloqueo es demasiado débil, un(a) adversaria(o) podría adivinarlo y abrir la app en el teléfono; o los datos podrían ser extraídos y una computadora podría forzar la clave de cifrado y descifrar los datos.
-</Admonition>
+</Danger>
 
-<Admonition type="danger">
+<Danger>
 Si la/el usuaria(o) olvida su método de bloqueo, no hay forma de retomar acceso a la app y recuperar su contenido
-</Admonition>
+</Danger>
 
-<Admonition type="tip" title="Video Tutorial 🎥">
+<Tip title="Video Tutorial 🎥">
 Aprende más sobre Bloqueos y Cifrado en nuestro [video tutorial](/video-tutorials#tella-locks)
-</Admonition>
+</Tip>
 
-<Admonition type="info">
+<Info>
 Detalles técnicos sobre el cifrado se pueden encontrar en la sección [Seguridad y Privacidad](/security-and-privacy).
-</Admonition>
+</Info>
 
 ## Administración de archivos {/* #file-management */}
 
@@ -205,9 +205,9 @@ En Tella, la(o)s usuaria(o)s pueden:
 * Exportar archivos a sus dispositivos. Una vez guardados en su dispositivo fuera de Tella, los archivos ya no están cifrados y pueden ser accedidos por cualquiera que busque en el dispositivo.
 * Importar archivos desde sus dispositivos. Los archivos se cifran automáticamente cuando son importados a Tella.
 
-<Admonition type="danger">
+<Danger>
 Importar archivos desde el sistema de archivos a Tella hace una copia de los archivos en Tella. Al importar Tella preguntará si deseas conservar o eliminar el archivo original de tu teléfono. Si eliges conservar el archivo original, permanecerá presente en el dispositivo, fuera de Tella y sin cifrar. 🔒
-</Admonition>
+</Danger>
 
 ## Comentarios {/* #feedback */}
 
@@ -227,9 +227,9 @@ Para asegurar la privacidad y anonimato de la/el usuaria(o), solo los datos esen
 En la base de datos del servidor de Comentarios, solo almacenamos una copia del texto enviado por la(o)s usuaria(o)s en el formulario de comentarios y de qué plataforma proviene (Android o iOS).
 
 
-<Admonition type="info">
+<Info>
 La única información que recibiremos es el contenido que la(o)s usuaria(o)s añaden específicamente al formulario de comentarios. Si la(o)s usuaria(o)s están solicitando soporte o quieren que les demos seguimiento, deben proporcionar una manera segura de contactarles.
-</Admonition>
+</Info>
 
 
 ## Importar archivos desde dispositivo {/* #import-files-from-device */}
@@ -237,9 +237,9 @@ La única información que recibiremos es el contenido que la(o)s usuaria(o)s a�
 La(o)s usuaria(o)s pueden importar archivos a Tella para mantenerlos seguros al usar la función de importar. Pueden importar archivos yendo al botón **Añadir (+)** ya sea en Todos los archivos, Imágenes, Video, Audio o Documentos dependiendo del tipo de archivos que desean importar y luego **Importar desde dispositivo** 📥. Aparecerá un mensaje preguntando a la/el usuaria(o) si desea conservar o eliminar el archivo original de la memoria de su teléfono. Todos los archivos importados se mantendrán seguros en Tella.
 
 
-<Admonition type="tip" title="Video tutorial 🎥">
+<Tip title="Video tutorial 🎥">
 Aprende más sobre [Recopilar Evidencia](video-tutorials#collecting-evidence) y [Compartir datos](/video-tutorials#sharing-data-with-other-apps) en nuestros video tutoriales.
-</Admonition>
+</Tip>
 
 ## Conservar metadatos al importar {/* #preserve-metadata-when-importing */}
 
@@ -260,17 +260,17 @@ En Tella Android, es posible camuflar Tella en dos maneras:
 
 Por el momento, debido a las restricciones en la App Store de Apple, Tella para iOS no es compatible con las funciones de camuflaje que están disponibles en Tella Android.
 
-<Admonition type="danger">
+<Danger>
 El nombre "Tella" y su ícono permanecen visibles en la configuración de Android. Esto quiere decir que el camuflaje no protegerá contra un individuo _activamente_ buscando Tella en el teléfono o llevando a cabo un análisis profundo del dispositivo.🔒👀
-</Admonition>
+</Danger>
 
-<Admonition type="info">
+<Info>
 The Calculator camouflage feature cannot be enabled if the Restrict unlock attempts feature is on.
-</Admonition>
+</Info>
 
-<Admonition type="tip" title="Video tutorial 🎥">
+<Tip title="Video tutorial 🎥">
 Aprende más sobre [Camuflar Tella](/video-tutorials#camouflaging-tella) en nuestro video tutorial.
-</Admonition>
+</Tip>
 
 
 ## Personalización de la Pantalla de Inicio {/* #homescreen-customization */}
@@ -294,13 +294,13 @@ Un botón de Borrado Rápido permite a la(o)s usuaria(o)s, en solo unos pocos se
 * Delete Connections: Deletes all your connections, and all data asociated with them (including drafts, outbox and submitted reports). [Visit the For Organizations page](/for-organizations) to  discover the available server connections 📝
 * Eliminar Tella: Elimina la app y todos los datos que contiene. Esto activa un mensaje que pregunta si la/el usuaria(o) quiere desinstalar Tella por igual ❌.  
 
-<Admonition type="info" title="Delete Tella">
+<Info title="Delete Tella">
 The Delete Tella option might not be available on some Android phones due to technical limitations. We are working on a fix for this issue. For iOS it is not possible to programmatically delete an app, so the Delete Tella option is not available.
-</Admonition>
+</Info>
 
-<Admonition type="warning">
+<Warning>
 Before triggering Quick Delete, consider [backing up you files](/features#backup-files) outside of Tella, to avoid loosing them.
-</Admonition>
+</Warning>
 
 ## Salida rápida {/* #quick-exit */}
 
@@ -314,9 +314,9 @@ En las configuraciones de Tella, la(o)s usuaria(o)s pueden activar el "Modo de V
 
 Cuando está activado, cada vez que una(o) usuaria(o) toma una foto o un video, o graba audio, Tella automáticamente captura información de verificación (metadatos de archivo). Esta información de verificación puede ser usada para corroborar evidencia, contrastar con otros hechos conocidos sobre el evento o sobre el área donde fue capturada. La información de verificación será incluida como un archivo separado al guardar el archivo en el dispositivo o al compartirlo a través de apps de terceras partes. El formato de archivo es .CSV con la información de metadatos incluida en columnas. Este archivo se puede abrir con cualquier app de hoja de cálculo (como Excel, Google Spreedsheets, u OpenOffice).
 
-<Admonition type="info" title="Contáctanos">
+<Info title="Contáctanos">
 Si necesitas ayuda para entender mejor el Modo de Verificación, siéntete libre de contactarnos 😊
-</Admonition>
+</Info>
 
 Debajo una lista de cada pieza de metadatos capturada por Tella:
 
@@ -363,9 +363,9 @@ Actualmente los servidores que se pueden conectar a Tella son:
 
 You can [read more about servers and how organizations have been using this feature here](/for-organizations).
 
-<Admonition type="tip" title="Video tutorial 🎥">
+<Tip title="Video tutorial 🎥">
 Aprende más sobre [Conectar a Servidores](/video-tutorials#server-connections) en nuestros video tutoriales.
-</Admonition>
+</Tip>
 
 
 ## Nearby Sharing {/* #nearby-sharing */}
@@ -374,16 +374,16 @@ Users can share files directly from Tella’s encrypted vault to another Tella e
 
 This feature is available on Tella Android, Tella iOS, and Tella Desktop. 
 
-<Admonition type="note">
+<Note>
 [Learn more about nearby sharing here](/nearby-sharing).
-</Admonition>
+</Note>
 
 ## Share button {/* #share-button */}
 To share information with other apps, users can select the file or files they want to share and press the Share button. Tella will prompt the list of available apps on the phone and users can choose the app they want to share the file(s) with. 
 
-<Admonition type="danger">
+<Danger>
 Tella will share the files unencrypted and the history of exchanged files might be visible on the app you used. We recommend using disappearing messages or deleting the messages after the other person receives them when using messaging apps (for example WhatsApp or Signal).
-</Admonition>
+</Danger>
 
 ## Cámara (fotos y videos) {/* #camera-photos-and-videos */}
 

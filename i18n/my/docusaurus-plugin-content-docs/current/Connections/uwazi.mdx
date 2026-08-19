@@ -5,7 +5,7 @@ description: ဖွဲ့စည်းတည်ဆောက်ထားသော 
 slug: /uwazi
 ---
 
-import Admonition from '@theme/Admonition';
+import {Tip, Danger, Info} from '@site/src/components/Admonitions';
 
 # Uwazi
 
@@ -19,9 +19,9 @@ Uwazi သည် အဖွဲ့အစည်းများအား ၎င်း
 3. အသုံးပြုသူများအား ၎င်းတို့၏ မိုဘိုင်းစက်ပစ္စည်းပေါ်တွင် ဒေတာရှာဖွေတွေ့ရှိနိုင်ခြေကို လျှော့ချရန် အဝေးထိန်းဆာဗာတွင် ၎င်းတို့၏ဒေတာကို အရန်သိမ်းခွင့်ပြုခြင်း
 4. စက်ပစ္စည်း သိမ်းဆည်းခံရခြင်း သို့မဟုတ် ဖျက်ဆီးခံရသည့် အခြေအနေများတွင်ပင် အဖွဲ့အစည်းများသည် အရေးကြီးအချက်အလက်များကို ထိန်းသိမ်းထားနိုင်ပြီး သုတေသန၊ စည်းရုံးရေး သို့မဟုတ် တာဝန်ခံမှုလုပ်ငန်းစဉ်များအတွက် အသုံးပြုရန် ၎င်းကို စီစဉ်နိုင်ခြင်း
 
-<Admonition type="danger">
+<Danger>
 Even though data is transferred to the server securely (SSL), anyone with access to the Uwazi account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
-</Admonition>
+</Danger>
 
 ### Uwazi စမ်းသပ်ခြင်း {/* #testing-uwazi */}
 
@@ -47,9 +47,9 @@ Uwazi တွင် တရားဝင် မိုဘိုင်းအက်ပ
 
 [Uwazi ၏ တရားဝင် စာရွက်စာတမ်း](https://uwazi.readthedocs.io/en/latest/) တွင် Uwazi အကြောင်း ပိုမိုလေ့လာနိုင်ပါသည်။ HURIDOCS သည် Horizontal ၏ မိတ်ဖက်အဖွဲ့အစည်းတစ်ခု ဖြစ်သောကြောင့် Uwazi နှင့်ပတ်သက်သော မေးခွန်းများရှိပါက သို့မဟုတ် သင့်အား HURIDOCS အဖွဲ့နှင့်ချိတ်ဆက်ပေးစေလိုပါက [ကျွန်ုပ်တို့ထံ ဆက်သွယ်ပါ](contact-us)။ 
 
-<Admonition type="tip">
+<Tip>
 If you need help figuring out if Uwazi is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
-</Admonition>
+</Tip>
 
 ## Uwazi ကို ဆာဗာတွင် စနစ်ထည့်သွင်းမည် {/* #configure-uwazi-on-a-server */}
 
@@ -64,9 +64,9 @@ Uwazi စုစည်းမှုတစ်ခုကို ဖြည့်သွ�
 
 Uwazi ဆာဗာတွင် ရရှိနိုင်သော ထူးခြားချက်များနှင့် သင့်ဒေတာကို စံနမူနာယူ၍ ပုံစံပြားများကို ဖန်တီးရန် မည်ကဲ့သို့ လုပ်ဆောင်ရမည့်အကြောင်းကို [ဤနေရာတွင် ဖတ်နိုင်သည်](https://uwazi.readthedocs.io/en/latest/admin-docs/building-info-architecture.html#understanding-properties)။ လက်ရှိတွင် Uwazi အသုံးပြုသူများက အဓိကဦးစားပေးအဖြစ် အမှတ်အသားပြုထားသော ထူးခြားချက်များနှင့် လုပ်ဆောင်ချက်များကိုသာ ပံ့ပိုးပေးပါသည်။ အခြားထူးခြားချက်များ လိုအပ်ပါက [ကျွန်ုပ်တို့ထံ ဆက်သွယ်ပါ](/contact-us)။ 
 
-<Admonition type="info">
+<Info>
 Tella အသုံးပြုသူများသည် Tella တွင် မပံ့ပိုးနိုင်သော ထူးခြားချက်များပါရှိသည့် ပုံစံပြားကို ဒေါင်းလုဒ်လုပ်ပါက အဆိုပါထူးခြားချက်များကို အက်ပ်တွင် ပြသမည် မဟုတ်ပါ။ သို့သော် အသုံးပြုသူများသည် ဖြည့်သွင်းချက်များကို တင်သွင်းနိုင်ဆဲဖြစ်ပြီး ဖြည့်စွက်ထားသော ထူးခြားချက်များအပါအဝင် ဤဖြည့်သွင်းချက်များကို အက်ဒမင်များက ပြဿနာတစ်စုံတစ်ရာမရှိဘဲ ဝင်ရောက်နိုင်ပါမည်။
-</Admonition>
+</Info>
 
 ### ရရှိနိုင်သော ထူးခြားချက်များ {/* #available-properties */}
 
@@ -104,9 +104,9 @@ Uwazi ဆာဗာနှင့် ချိတ်ဆက်ရန်အတွက�
     *  ဆာဗာသည် နှစ်ဆင့်ခံအတည်ပြုခြင်း လိုအပ်ပါက တစ်ကြိမ်သုံးကုဒ်ကို ထည့်ပါ။
 * ပုံစံပြားများတွင် သင်ပြသလိုသည့် **ဘာသာစကား** ကို ရွေးချယ်ပါ။
 
-<Admonition type="info">
+<Info>
 Tella မှ Uwazi ဆာဗာသို့ ချိတ်ဆက်နည်းကို [ဤဗီဒီယို](/video-tutorials#uwazi) တွင် သင်ကြည့်ရှုနိုင်ပါသည်။
-</Admonition>
+</Info>
 
 ### သင့်အချက်အလက်များ ပေးပို့ပါ {/* #send-your-information */}
 
@@ -130,6 +130,6 @@ Uwazi ဖြစ်ရပ်တစ်ခုသို့ ချိတ်ဆက်�
 | အော့ဖ်လိုင်းဖြစ်စဉ် တင်သွင်းမှုကို အလိုအလျောက် ခေတ္တရပ်ဆိုင်းမည် | ချိတ်ဆက်မှုပြဿနာများကြောင့် တင်သွင်းမှု မအောင်မြင်ပါက တင်သွင်းမှုများကို အထွက်ပုံးတဘ်သို့ ပေးပို့ပါမည်။  | ပါဝင်သည် | ပါဝင်သည် |
 
 
-<Admonition type="tip">
+<Tip>
 If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
-</Admonition>
+</Tip>

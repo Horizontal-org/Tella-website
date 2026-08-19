@@ -5,7 +5,7 @@ description: La función de Informes empodera a la(o)s usuaria(o)s a subir fáci
 slug: /tella-web
 ---
 
-import Admonition from '@theme/Admonition';
+import {Tip, Warning, Danger, Info} from '@site/src/components/Admonitions';
 
 # Conexión Tella Web
 
@@ -29,9 +29,9 @@ Configurar Tella Web conlleva tres pasos, que son analizados detalladamente en e
 * **Configurar tu(s) proyecto(s) en tu servidor**": En este paso, la(o)s admins deciden cómo organizarse para recopilar datos, crear "proyectos", añadir "recursos" para que la(o)s usuaria(o)s descarguen en sus dispositivos, y establecer roles y permisos para sus usuaria(o)s.
 * **Preparar a las personas sobre el terreno para empezar a enviar informes**: La(o)s usuaria(o)s instalan Tella en su dispositivo Android o iPhone. Posteriormente se conectan al proyecto Tella Web y empiezan a recopilar información.
 
-<Admonition type="danger">
+<Danger>
 Even though data is transferred to the server securely (SSL), anyone with access to the Tella Web account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
-</Admonition>
+</Danger>
 
 ## Cuándo Usar Tella Web {/* #when-to-use-tella-web */}
 
@@ -41,9 +41,9 @@ Tella Web puede ser una buena alternativa si:
 - Te asociarás con Horizontal y deseas que la misma organización te ayude con la instalación, configuración y mantenimiento de tu instancia de Tella Web y las apps de Tella.
 
 
-<Admonition type="tip">
+<Tip>
 Si necesitas ayuda para determinar si Tella Web es la mejor opción para tu caso de uso, [lee nuestra guía](/for-organizations) o [contactanos](/contact-us)!
-</Admonition>
+</Tip>
 
 
 ## Instalar el servidor {/* #install-the-server */}
@@ -53,13 +53,13 @@ Este paso consiste en instalar y configurar Tella Web en el servidor que tu orga
 Puedes revisar las notas de lanzamiento de Tella Web [aquí](https://github.com/Horizontal-org/tellaweb/releases).
 
 
-<Admonition type="info">
+<Info>
 Nuestro equipo puede ofrecer ayuda con la instalación, configuración y mantenimiento de Tella Web. Si tienes alguna pregunta o necesitas ayuda, [contáctanos](/contact-us/).
-</Admonition>
+</Info>
 
-<Admonition type="tip">
+<Tip>
 [Contáctanos](/contact-us) para obtener acceso a nuestro servidor demo, para que puedas probar Tella Web antes de instalarla en tu propio servidor.
-</Admonition>
+</Tip>
 
 
 ## Configura tu proyecto en tu servidor {/* #set-up-your-project-on-your-server */}
@@ -68,9 +68,9 @@ Una vez que Tella Web esté instalada y la/el primer(a) usuaria(o) "admin" cread
 
 
 
-<Admonition type="info">
+<Info>
 Echa un vistazo a [este video tutorial](/video-tutorials#connections-full-video) para una demo de cómo configurar Tella Web.
-</Admonition>
+</Info>
 
 ### Centro de Administración {/* #admin-center */}
 
@@ -94,9 +94,9 @@ Admins of the Tella Web instance can export all data out of Tella Web by generat
 
 The backup is a full export everything in the space: including all Projects, Reports, Users and Resources, plus all metadata. The export is a zip file including a collection of CSVs and folders with with the uploaded media. For now, there is no way to import the backup back into a Tella Web instance from the Admin Center, but each backup includes a .sql file that advanced users can use to import the data to the database directly. 
 
-<Admonition type="warning">
+<Warning>
 The information included in the backup is highly sensitive, it not only contains all the data (unencrypted) but also information about the Tella Web users. Please proceed with caution when generating the backup.
-</Admonition>
+</Warning>
 
 
 ### Administrando Proyectos {/* #managing-projects */}
@@ -152,9 +152,9 @@ Una vez confirmado, el proyecto y todos sus informes asociados serán eliminados
 
 La URL del proyecto es automáticamente generada cuando el proyecto es creado. Para editar la URL del proyecto, ve a la sección "General" en la pantalla "Configuración de Proyecto" y modifica acorde. Esta URL es la que la(o)s informadora(e)s utilizarán para conectarse al proyecto desde sus apps.
 
-<Admonition type="info">
+<Info>
 La URL que tendrás que enviarle a la(o)s usuaria(o)s debe verse como esta "https://tu-dominio.com/p/nombre-del-proyecto"
-</Admonition>
+</Info>
 
 
 ### Administrando usuaria(o)s {/* #managing-users */}
@@ -205,9 +205,9 @@ En el campo de contraseña, un medidor de seguridad de contraseña ayuda a la(o)
 En la sección "Administrar acceso" de la pantalla "Configuración de proyecto", admins pueden asignar usuaria(o)s existentes al proyecto. Haz clic en el campo "Añadir usuaria(o)s". Un menú desplegable mostrará todos la(o)s usuaria(o)s en el servidor. Desliza a través de la lista o escribe para buscar un(a) usuario(a) por nombre de usuario(a).
 Después de seleccionar la(o)s usuaria(o)s a añadir al proyecto, haz clic en el botón "Añadir" para guardar los cambios y conceder acceso al proyecto.
 
-<Admonition type="info">
+<Info>
 La lista completa de usuarios que puede enviar informes a los proyectos incluye los usuarios listados en esta sección más todos los administradores del servidor.
-</Admonition>
+</Info>
 
 ### Gestionando recursos {/* #managing-resources */}
 
@@ -226,9 +226,9 @@ En la misma pantalla, los administradores de espacio pueden gestionar recursos. 
 - Encuentra a cuales proyectos está añadido cada recurso al tocar en Previsualizar.
 - Eliminar recursos del espacio.
 
-<Admonition type="info">
+<Info>
 Si tu organización necesita otro tipo de Recursos o si experimentas problemas con el formato o limite de tamaño, por favor [contáctanos](/contact-us).
-</Admonition>
+</Info>
 
 #### Añadiendo recursos a proyectos {/* #adding-resources-to-projects */}
 
@@ -255,9 +255,9 @@ Los pasos listados a continuación aplican a ambas versiones de Android e iOS de
 
 Informes todavía no están disponibles en [Tella-FOSS](/faq#is-tella-available-on-f-droid).
 
-<Admonition type="info">
+<Info>
 Puedes ver [este video](/video-tutorials#tella-web) sobre cómo configurar y usar los Informes en Tella.
-</Admonition>
+</Info>
 
 
 #### Conectar a Proyectos de Tella Web {/* #connect-to-tella-web-projects */}
@@ -326,13 +326,13 @@ Reports in the Draft tab can be edited.
 * Si el informe se está subiendo activamente, un botón de "Pausa" te permite detener temporalmente la subida, la cual puede ser reanudada luego utilizando el botón "Reanudar".
 * Salir de un informe no afecta el estado de subida. Si el informe se está subiendo activamente, el proceso continúa. 
 
-<Admonition type="info">
+<Info>
 Después de que un informe ha sido subido a Tella Web, no es posible eliminarlo de Tella Web desde la app móvil de Tella. Eliminar un informe enviado solo eliminará la versión local del mismo, no el informe en el servidor.
-</Admonition>
+</Info>
 
-<Admonition type="info">
+<Info>
 Eliminar un informe en medio de un envío cancelará la subida de los archivos que no hayan subido aún, pero los archivos enviados y archivos parcialmente enviados que ya estén en Tella Web no serán eliminados.
-</Admonition>
+</Info>
 
 
 #### Bandeja de Salida {/* #outbox */}
@@ -343,9 +343,9 @@ La Bandeja de Salida contiene informes que han sido guardados para enviar. Esto 
 * Envíos de informes que fueron interrumpidos debido a problemas de conectividad.
 * Informes que fueron marcados como "Enviar luego".
 
-<Admonition type="tip">
+<Tip>
 If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
-</Admonition>
+</Tip>
 
 
 #### Informes Enviados {/* #submitted-reports */}
@@ -353,9 +353,9 @@ If you need a fully offline way to share files with others, consider exploring [
 - La pestaña Enviados muestra informes que han sido enviados exitosamente al servidor Tella Web.
 - En la pestaña Enviados, puedes ver y revisar los informes enviados.
 
-<Admonition type="info">
+<Info>
 Si la conexión a internet es interrumpida, los informes irán a la pestaña Bandeja de Salida y tendrás que reanudar el envío manualmente.
-</Admonition>
+</Info>
 
 
 ### Funciones Avanzadas {/* #advanced-features */}
@@ -366,9 +366,9 @@ Si se habilita auto-informe, Tella creará y subirá informes automáticamente c
 
 Se puede habilitar auto-informe desde la pantalla Editar Conexión.
 
-<Admonition type="info">
+<Info>
 auto-informe solo se puede habilitar para un proyecto a la vez
-</Admonition>
+</Info>
 
 #### Auto-eliminar {/* #auto-delete */}
 

@@ -8,7 +8,7 @@ sidebar_position: 6
 
 import FeaturesTable from './_features-table.mdx';
 import TellaLanguages from './_tella-languages.mdx';
-import Admonition from '@theme/Admonition';
+import {Note, Tip, Info} from '@site/src/components/Admonitions';
 
 # Các câu hỏi thường gặp về Tella
 
@@ -28,9 +28,9 @@ Tella được phát triển và duy trì bởi [Horizontal](https://wearehorizo
 
 Có, Tella có sẵn cho hệ điều hành Android và có thể tải trực tiếp [từ Google Play Store ](https://play.google.com/store/apps/details?id=org.hzontal.tella&gl=US), từ [kênh Telegram](https://t.me/tellaapp) của chúng tôi hoặc [từ thư mục này](https://web.tresorit.com/l/JgMjK#FV9IoIZdDxwAUPqtupJzsQ) dưới dạng tệp APK để cài đặt thủ công. Nếu bạn cần giúp đỡ khi cài đặt ứng dụng thủ công, bạn có thể [xem hướng dẫn này](https://www.androidauthority.com/how-to-install-apks-31494/) hoặc [liên hệ với chúng tôi](contact-us).
 
-<Admonition type="tip">
+<Tip>
 Tìm hiểu thêm về [Cách tìm kiếm và tải Tella từ Play Store](/video-tutorials#find-and-download-tella-from-the-play-store) và [Cách cài đặt Tella thủ công](/video-tutorials#manual-installation-of-tella) trong video hướng dẫn của chúng tôi.
-</Admonition>
+</Tip>
 
 ### Tella có sẵn trên F-Droid không? {/* #is-tella-available-on-f-droid */}
 Yes, we publish a version of Tella Android [on F-Droid](https://f-droid.org/en/packages/org.hzontal.tellaFOSS/), which we call Tella FOSS. Tella FOSS does not support all features available on Tella Android. For details about which features are available on Tella FOSS, see [what features are available on each platform](/features) and our [release notes page](/releases).
@@ -41,9 +41,9 @@ All code, libraries, and dependencies in Tella FOSS are entirely Free and Open S
 
 Yes, Tella for iOS can be downloaded [from the App Store](https://apps.apple.com/us/app/tella-document-protect/id1598152580). For details about which features are available for iOS, see [What features are available on each platform](/features).
 
-<Admonition type="note">
+<Note>
 Follow the get [quick start guide for Tella users on iOS](/get-started-ios) for quick onboarding.
-</Admonition>
+</Note>
 
 
 ### Những tính năng nào có sẵn cho mỗi nền tảng? {/* #what-features-are-available-on-each-platform */}
@@ -62,9 +62,9 @@ You can download Tella Desktop for Windows, MacOS and Linux. [Follow the quick s
 
 Tella Web là một ứng dụng web hoạt động như một kho lưu trữ các báo cáo được gửi bởi người dùng Tella, bao gồm hình ảnh, video và âm thanh. Tìm hiểu thêm về Tella Web [tại đây](/tella-web)
 
-<Admonition type="note">
+<Note>
 Note that it is not possible to encrypt and hide files or create reports on Tella Web. These features are only available on the mobile apps. Tella Web is one of the [connections](/connections) available to send the data collected on the Tella app. 
-</Admonition>
+</Note>
 
 ### Tôi có thể tải Tella ở đâu? {/* #where-can-i-get-tella */}
 
@@ -145,22 +145,22 @@ Continue reading about backups [in the Features page](/features#backup-files).
 
 Rất tiếc là không có cách nào vào được Tella nếu bạn quên mật khẩu. Bạn sẽ phải gỡ Tella và cài đặt lại. Các tài liệu đã lưu trong Tella sẽ không lấy lại được.
 
-<Admonition type="tip">
+<Tip>
 Tìm hiểu thêm về [Khóa Tella](/video-tutorials#tella-locks) trong video hướng dẫn của chúng tôi.
-</Admonition>
+</Tip>
 
 ### How do I migrate Tella to a new phone? {/* #how-do-i-migrate-tella-to-a-new-phone */}
 You can use [Nearby Sharing](/nearby-sharing) to move your files to a new phone. You will need to install Tella in your new phone, establish a secure connection to it using Nearby Sharing, select all your files, and transfer those to your new phone. This feature works, too, for Android to iOS, or iOS to Android migrations. 
 
 If you have multiple files, the full transfer might take some time. We recommend you to make sure that Tella [does not lock](/features#lock-timeout-configuration) while the transfer is in progress.  
 
-<Admonition type="tip">
+<Tip>
 We recommend you double check that all the files has been successfully transferred before deleting those in your old phone.
-</Admonition>
+</Tip>
 
-<Admonition type="info">
+<Info>
 Using Apple's Migration Assistant will not work: your files will be moved to the new phone encrypted, but not your encryption keys. As a result, you will not be able to decrypt and open these files.
-</Admonition>
+</Info>
 
 
 ### Tella có an toàn không? {/* #how-secure-is-tella */}
@@ -195,9 +195,9 @@ Có, chúng tôi rất sẵn sàng! Hãy cho chúng tôi biết bạn muốn s�
 
 Chúng tôi muốn giúp bạn hiểu liệu Tella có phải là ứng dụng phù hợp nhất cho hoàn cảnh cụ thể của bạn không. Bởi ngoài Tella, vẫn có những ứng dụng tài liệu khác được phát triển bởi các tổ chức và những người bảo vệ nhân quyền mà bạn cũng có thể cân nhắc.
 
-<Admonition type="note">
+<Note>
 Chúng tôi đã tạo bảng so sánh này để giúp bạn hiểu sự khác biệt giữa Tella với các ứng dụng khác, nhưng tất nhiên, chúng tôi có thể thiên vị 😊. Để xem so sánh được các tổ chức độc lập thực hiện, hãy xem các liên kết bên dưới.
-</Admonition>
+</Note>
 
 | | Tella | ODK Collect<br />KoboCollect| Nhân chứng của tội ác | CameraV | Chế độ Chứng minh |
 | --------------------------------------------------- | --------------------------- | ---------------------------------- | ---------------------------------- | ------------------------------------------------ | ------------------------------------------------ |

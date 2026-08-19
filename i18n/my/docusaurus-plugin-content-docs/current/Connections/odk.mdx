@@ -5,7 +5,7 @@ description: ဖောင်များကို အသုံးပြု၍ �
 slug: /odk
 ---
 
-import Admonition from '@theme/Admonition';
+import {Tip, Danger, Info} from '@site/src/components/Admonitions';
 
 # Open Data Kit (ODK)
 
@@ -20,9 +20,9 @@ import Admonition from '@theme/Admonition';
 3. အသုံးပြုသူများအား ၎င်းတို့၏ မိုဘိုင်းစက်ပစ္စည်းပေါ်တွင် ဒေတာရှာဖွေတွေ့ရှိနိုင်ခြေကို လျှော့ချရန် အဝေးထိန်းဆာဗာတွင် ၎င်းတို့၏ဒေတာကို အရန်သိမ်းခွင့်ပြုခြင်း။ 
 4. စက်ပစ္စည်း သိမ်းဆည်းခံရသည့် သို့မဟုတ် ဖျက်ဆီးခံရသည့် အခြေအနေများတွင်ပင် အဖွဲ့အစည်းများသည် အရေးကြီးအချက်အလက်များကို ထိန်းသိမ်းထားနိုင်ပြီး သုတေသန၊ စည်းရုံးရေး သို့မဟုတ် တာဝန်ခံမှုလုပ်ငန်းစဉ်များအတွက် အသုံးပြုရန် ၎င်းကို စီမံခန့်ခွဲနိုင်စေသည်။
 
-<Admonition type="danger">
+<Danger>
 Even though data is transferred to the server securely (SSL), anyone with access to the ODK account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
-</Admonition>
+</Danger>
 
 
 ### Choosing and Installing Your ODK Server {/* #choosing-and-installing-your-odk-server */}
@@ -31,9 +31,9 @@ ODK သည် ပွင့်လင်းစံနှုန်းတစ်ခု
 
 For civil society organizations and human rights defenders, we recommend using [KoboToolbox](https://www.kobotoolbox.org/) to create forms with custom questions, manage users, and aggregate the data submitted by users. Based on our experience, KoboToolbox is user-friendly and flexible, and it is also open source. KoboToolbox offers a [community plan for non-profits](https://www.kobotoolbox.org/pricing/) and offer free training resources and guidance on how to structure the data on the server (Self-serve learning base and Community Forum). It is also possible [to use a private instance of KoboToolbox](https://www.kobotoolbox.org/services/private-servers/) or [self-host it](https://support.kobotoolbox.org/kobo_your_servers.html).
 
-<Admonition type="tip">
+<Tip>
 We are work closely with the Kobotoolbox team. If you are interested in using the Tella-KoboToolbox connection and would like some support or to discuss the best hosting plan for your use case, please [contact us](/contact-us). 
-</Admonition>
+</Tip>
 
 There are other ODK-compliant apps available, like [Ona](https://ona.io/home/) or [ODK Cloud](https://https://getodk.org/index.html). Tella works with any of these. 
 
@@ -52,9 +52,9 @@ KoboToolbox သည် ပရောဂျက်များ ဖန်တီးန
 
 ဤစာရွက်စာတမ်းတွင် ကျွန်ုပ်တို့သည် Tella ကို အသုံးပြု၍ မည်သို့ အချက်အလက်စုဆောင်းရမည်ကို အလေးပေးဖော်ပြပါသည်။ ODK Collect Android အက်ပ် အပါအဝင် ODK တွင် ဒေတာ စုဆောင်းရန် အသုံးပြုနိုင်သည့် အခြားမိုဘိုင်းအက်ပ်များ ရှိပါသည်။ ဤအခြားရွေးချယ်စရာများကို [ဤနေရာ](/faq#how-is-tella-different-from-other-documentation-apps) တွင် နှိုင်းယှဉ်ကြည့်နိုင်ပါသည်။
 
-<Admonition type="info">
+<Info>
 ODK ချိတ်ဆက်မှုသည် Tella iOS အတွက် မရရှိနိုင်ပါ။
-</Admonition>
+</Info>
 
 ### ODK ဆာဗာသို့ ချိတ်ဆက်ပါ {/* #connect-to-an-odk-server */}
 
@@ -137,6 +137,6 @@ Tella Android တွင် ပံ့ပိုးထားသော ODK အင်
 | [Form metadata (background data collection)](https://docs.getodk.org/form-audit-log/) | ❌ |
 
 
-<Admonition type="tip">
+<Tip>
 If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
-</Admonition>
+</Tip>

@@ -8,7 +8,7 @@ sidebar_position: 4
 
 import ConnectionsTable from '.././_connections-table.mdx';
 import Button from '@site/src/components/Button';
-import Admonition from '@theme/Admonition';
+import {Tip, Danger, Info} from '@site/src/components/Admonitions';
 
 
 
@@ -62,17 +62,17 @@ Some individuals use commercial clouds (Google Drive, Dropbox, Nextcloud) as a b
 
 [Read more about backups in Tella](/features#backup-files)
 
-<Admonition type="info">
+<Info>
 All server connections are **offline first**, with built-in mechanisms to pause and resume uploads when the internet is unreliable. Learn more about [offline data collection here](/features#offline-data-collection).
-</Admonition>
+</Info>
 
-<Admonition type="danger">
+<Danger>
 Even though data is transferred to the server securely (SSL), files stored on the server are **not** encrypted. Anyone with access to the server can view them.
-</Admonition>
+</Danger>
 
 <Button label="Continue reading about Server Connections and how organizations use Tella" link="/for-organizations"/>
 
 
-<Admonition type="tip">
+<Tip>
 The [Share](/features#share-button) feature is also available for sharing files directly with other apps installed on the device.
-</Admonition>
+</Tip>

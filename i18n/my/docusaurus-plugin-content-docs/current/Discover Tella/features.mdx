@@ -6,7 +6,7 @@ slug: /features
 ---
 import FeaturesTable from '.././_features-table.mdx';
 import ConnectionsTable from '.././_connections-table.mdx';
-import Admonition from '@theme/Admonition';
+import {Note, Tip, Warning, Danger, Info} from '@site/src/components/Admonitions';
 
 
 # Tella အင်္ဂါရပ်များ
@@ -26,13 +26,13 @@ Tella ကို ထည့်သွင်းသောအခါ အသုံးပ
 
 ဤသော့ခလောက်မရှိဘဲ Tella ကို ဖွင့်ရန် မဖြစ်နိုင်ပါ။
 
-<Admonition type="danger">
+<Danger>
 အသုံးပြုသူသည် ၎င်းတို့၏သော့ကို မေ့သွားပါက Tella နှင့် အက်ပ်အတွင်း သိမ်းဆည်းထားသည့်ဖိုင်များကို ပြန်လည်ရယူနိုင်မည် မဟုတ်ပါ။ Tella ကို ဖြုတ်ပြီး ပြန်လည်ထည့်သွင်းရမည်ဖြစ်ကာ ဖိုင်အားလုံး ဆုံးရှုံးပါမည်။ 🔒🔑🚪 
-</Admonition>
+</Danger>
 
-<Admonition type="tip" title="ဗီဒီယိုသင်ခန်းစာ 🎥">
+<Tip title="ဗီဒီယိုသင်ခန်းစာ 🎥">
 ကျွန်ုပ်တို့၏ [ဗီဒီယိုသင်ခန်းစာ](/video-tutorials#tella-locks) တွင် Tella သော့ခလောက်များအကြောင်း ပိုမိုလေ့လာပါ။
-</Admonition>
+</Tip>
 
 ## နောက်ခံကုဒ်ဝှက်ခြင်း {/* #background-encryption */}
 
@@ -40,13 +40,13 @@ Tella ကို ထည့်သွင်းသောအခါ အသုံးပ
 
 ဖိုင်များကို ကုဒ်ဝှက်နေစဉ်တွင် Tella သည် အသိပေးချက်များ အိုင်ကွန်ပေါ်တွင် လိမ္မော်ရောင် အမှတ်အသားတစ်ခု ပြသသည်။ အချို့ဖိုင်များကို ကုဒ်ဝှက်နေစဉ်အတွင်း အသုံးပြုသူက နောက်ခံလှုပ်ရှားမှုအစုကို ဖွင့်လျှင် တန်းစီစောင့်ဆိုင်းနေသော ဖိုင်စာရင်းနှင့် ကုဒ်ဝှက်ရာတွင်တိုးတက်မှုကို တွေ့နိုင်သည်။
 
-<Admonition type="danger">
+<Danger>
 ဖိုင်များကုိ နောက်ခံတွင် ကုဒ်ဝှက်နေစဉ် အသုံးပြုသူသည် Tella မှ ဖိအားသုံး၍ ထွက်ပါက (ဥပမာ- [အမြန်ထွက်ရန်](#quick-exit) ကို သုံး၍ဖြစ်စေ အက်ပ်ကို အသေးဆုံးအရွယ်အစားသို့ ချုံ့၍ဖြစ်စေ) ထိုဖိုင်များ ဆုံးရှုံးပါမည်။
-</Admonition>
+</Danger>
 
-<Admonition type="info">
+<Info>
 အကယ်၍ [အတည်ပြုမုဒ်](/features#verification-mode) ကို ဖွင့်ထားပါက ဓာတ်ပုံ၊ ဗီဒီယို သို့မဟုတ် အသံဖိုင်ကို သိမ်းလိုက်သည်နှင့် ဖိုင်မက်တာဒေတာအားလုံးကို ရယူနိုင်ရန်အတွက် နောက်ခံကုဒ်ဝှက်ခြင်းကို ပိတ်ထားပါမည်။ 
-</Admonition>
+</Info>
 
 
 ## Backup files {/* #backup-files */}
@@ -54,9 +54,9 @@ Tella stores all the information locally in your phone. If you delete your files
 
 We offer several alternatives to backup files, so you can safely delete files from Tella and import those back in, but the backup process is manual, for the moment. Please [contact us](/contact-us) if you have questions.
 
-<Admonition type="note">
+<Note>
 All exports outside of Tella's encrypted vault (to a connected server or [to your phone](/features#file-management)) will be unencrypted. The only method for sharing files that transfer files directly to another encrypted vault is [Nearby Sharing](/nearby-sharing).
-</Admonition>
+</Note>
 
 
 
@@ -64,9 +64,9 @@ All exports outside of Tella's encrypted vault (to a connected server or [to you
 
 Using [Nearby Sharing](/nearby-sharing) you can transfer files directly to another Tella vault, either in another phone or [to a computer](/get-started-desktop) that's in physical proximity. Files are shared and store encrypted in the other Tella. If you backup to another phone you can use Nearby Sharing again to restore the files to your Tella.
 
-<Admonition type="info">
+<Info>
 For the moment Tella Desktop can only receive files.
-</Admonition>
+</Info>
 
 ### Backup files to a cloud {/* #backup-files-to-a-cloud */}
 
@@ -85,17 +85,17 @@ You can [continue reading about Server Connections and how organizations use Tel
 
 ရရှိနိုင်သော ရွေးချယ်စရာများမှာ ၁ မိနစ်၊ ၅ မိနစ်၊ မိနစ် ၃၀ နှင့် ၁ နာရီ တို့ ဖြစ်သည်။ ⏱️ 
 
-<Admonition type="info">
+<Info>
 အကယ်၍ Tella ကို လော့ခ်မချထားလျှင် ဒေတာကို ကာကွယ်နိုင်မည်မဟုတ်ဘဲ Tella သို့ ဝင်ရောက်သူတိုင်းက ၎င်းတွင်ရှိသည့် အချက်အလက်အားလုံးကို တွေ့မြင်နိုင်မည်ဖြစ်သောကြောင့် ကျေးဇူးပြု၍ ဤအင်္ဂါရပ်ကို ဂရုတစိုက် အသုံးပြုပါ။
-</Admonition>
+</Info>
 
-<Admonition type="info">
+<Info>
 ကင်မရာ သို့မဟုတ် အသံဖမ်းစက်ကို ဖွင့်ထားစဉ် Tella လော့ခ်ကျမည် မဟုတ်ပါ
-</Admonition>
+</Info>
 
-<Admonition type="tip" title="ဗီဒီယိုသင်ခန်းစာ 🎥">
+<Tip title="ဗီဒီယိုသင်ခန်းစာ 🎥">
 ကျွန်ုပ်တို့၏ [ဗီဒီယိုသင်ခန်းစာ](/video-tutorials#additional-security-features) တွင် Tella ၏ ထပ်တိုးလုံခြုံရေးအင်္ဂါရပ်များအကြောင်း ပိုမိုလေ့လာပါ။
-</Admonition>
+</Tip>
 
 
 
@@ -103,9 +103,9 @@ You can [continue reading about Server Connections and how organizations use Tel
 
 ပုံသေအားဖြင့် Tella တွင် ကင်မရာ အသံတိတ်မုဒ်ကို ပိတ်ထားသည်။ ဓာတ်ပုံရိုက်နေစဉ် အာရုံစိုက်ခံရမှု နည်းစေရန်အတွက် **ဆက်တင်များ ⚙️** > **လုံခြုံရေး** > **ကင်မရာ အသံတိတ်မုဒ်** သို့ သွား၍ ကင်မရာ ရှပ်တာသံကို ပိတ်နိုင်သည်။
 
-<Admonition type="tip" title="ဗီဒီယိုသင်ခန်းစာ 🎥">
+<Tip title="ဗီဒီယိုသင်ခန်းစာ 🎥">
 ကျွန်ုပ်တို့၏ [ဗီဒီယိုသင်ခန်းစာ](/video-tutorials#additional-security-features) တွင် Tella ၏ ထပ်တိုးလုံခြုံရေးအင်္ဂါရပ်များအကြောင်း ပိုမိုလေ့လာပါ။
-</Admonition>
+</Tip>
 
 
 ## စခရင် လုံခြုံရေး {/* #screen-security */}
@@ -115,9 +115,9 @@ You can [continue reading about Server Connections and how organizations use Tel
 iOS တွင် စခရင် လုံခြုံရေးသည် Tella အတွင်းရှိ စခရင် မှတ်တမ်းတင်ခြင်းများကိုသာ ပိတ်ဆို့ထားပြီး လတ်တလောအက်ပ်စာရင်းတွင် စခရင်ကို ပိတ်ဆို့ထားသော်လည်း စခရင် ဓါတ်ပုံရိုက်ခြင်း သို့မဟုတ် စခရင် မှတ်တမ်းတင်ခြင်းတို့ကို ပိတ်ရန် မဖြစ်နိုင်ပါ။
 
 
-<Admonition type="tip" title="ဗီဒီယိုသင်ခန်းစာ 🎥">
+<Tip title="ဗီဒီယိုသင်ခန်းစာ 🎥">
 Tella ထပ်ဆောင်း လုံခြုံရေးအင်္ဂါရပ်များအကြောင်းကို ကျွနု်ပ်တို့၏ [ဗီီဒီယို သင်ခန်းစာ](/video-tutorials#additional-security-features) တွင် ပိုမိုလေ့လာပါ
-</Admonition>
+</Tip>
 
 ## လော့ခ်ဖွင့်ရန် ကြိုးပမ်းမှုများကို ကန့်သတ်ပါ {/* #restrict-unlocking-attempts */}
 **ဆက်တင်များ ⚙️** > **လုံခြုံရေး** > **သော့ဖွင့်ရန် မအောင်မြင်ပြီးနောက် ဖျက်ပါ** သို့ သွားခြင်းဖြင့် Tella အတွင်းရှိ အရာအားလုံးကို မဖျက်မီ သော့ဖွင့်ရန် ကြိုးပမ်းမှုအကြိမ်ရေ မည်မျှ ခွင့်ပြုမည်ကို အသုံးပြုသူက ဆုံးဖြတ်နိုင်သည်။ 
@@ -126,13 +126,13 @@ Tella ထပ်ဆောင်း လုံခြုံရေးအင်္ဂ�
 
 သတ်မှတ်ထားသော အကြိမ်ရေ ပြည့်ပြီးနောက် ဖိုင်များ၊ ချိတ်ဆက်မှုများနှင့် Tella ရှိ အရာအားလုံး ပျက်သွားမည်ဖြစ်ပြီး အက်ပ်အား ၎င်း၏ "အသစ်ထည့်သွင်းထားသည့်" အခြေအနေသို့ ပြန်လည်သတ်မှတ်ပေးပါမည်။
 
-<Admonition type="info">
+<Info>
 The Restrict unlocking attempts feature cannot be enabled if Calculator camouflage is enabled.
-</Admonition>
+</Info>
 
-<Admonition type="danger">
+<Danger>
 ဤလုံခြုံရေးဆက်တင်သည် Tella သို့ ဝင်ရောက်ရန် ထပ်ခါထပ်ခါ စကားဝှက်ဖြည့်သွင်းမှုများကို တားဆီးပေးသော်လည်း သော့ဖွင့်ရန်ကြိုးပမ်းမှု သတ်မှတ်အကြိမ်ရေ ပြည့်သွားသည်နှင့် Tella ရှိ အကြောင်းအရာများကို ပြန်လည်ရယူရန် နည်းလမ်းမရှိသောကြောင့် သတိဖြင့် အသုံးပြုသင့်ပါသည်။
-</Admonition>
+</Danger>
 
 ## မီဒီယာကို တည်းဖြတ်မည် {/* #edit-media */}
 ကျွနု်ပ်တို့သည် Tella အတွင်း မီဒီယာဖိုင်များကို တိုက်ရိုက် တည်းဖြတ်နိုင်မှုကို ထည့်ပေးရန် လုပ်ဆောင်ဆဲ ဖြစ်သည်။ မကြာမီ အသုံးပြုသူများသည် မိမိတို့၏ ဖိုင်များကို တည်းဖြတ်နိုင်ရန်အတွက် Tella ပြင်ပသို့ တင်ပို့ရန် လိုအပ်တော့မည်မဟုတ်ပါ။ Tella Android နှင့် Tella iOS တွင် ဓာတ်ပုံတည်းဖြတ်နိုင်ခြင်း (တိဖြတ်ခြင်းနှင့် လှည့်ခြင်း) ဖြင့် အစပြုထားသည်။
@@ -147,21 +147,21 @@ Tella တွင် သိမ်းဆည်းထားသော ဖိုင်
 
 စက်ပစ္စည်းကို ကွန်ပျူတာတွင် ပလပ်ထိုးထားပြီး စက်ပစ္စည်းရှိ ဒေတာအားလုံးကို ခွဲခြမ်းစိတ်ဖြာရန် ဖြည်ထားလျှင်ပင် Tella ရှိ အကြောင်းအရာနှင့် ဒေတာအားလုံးသည် ဖတ်ရှုနားလည်ရန် မဖြစ်နိုင်သည့်အပြင် အသုံးဝင်မည်မဟုတ်ပါ။ ကုဒ်ဖြည်ရန် တစ်ခုတည်းသော နည်းလမ်းမှာ မှန်ကန်သော သော့ကို ထည့်သွင်းခြင်းဖြစ်ပြီး Tella တွင် သိမ်းဆည်းထားသည့် အကြောင်းအရာများကို အက်ပ်ကို သော့ဖွင့်ခြင်းဖြင့်သာ ဖတ်ရှုနိုင်မည်ဖြစ်သည်။ 
 
-<Admonition type="danger">
+<Danger>
 အသုံးပြုသူ၏ သော့ခလောက်သည် အလွန်အားနည်းပါက ရန်သူက ၎င်းကို ခန့်မှန်းနိုင်ပြီး ဖုန်းတွင် အက်ပ်ကိုဖွင့်နိုင်မည်ဖြစ်သည်။ သို့မဟုတ် ဒေတာကို ဖြည်ယူနိုင်ပြီး ကွန်ပျူတာဖြင့် ထပ်ခါထပ်ခါ ခန့်မှန်းစကားဝှက်များကို ဖြည့်သွင်းစမ်းသပ်ကာ စကားဝှက် ဖော်ပေးနိုင်သည်။ 
-</Admonition>
+</Danger>
 
-<Admonition type="danger">
+<Danger>
 အသုံးပြုသူသည် မိမိ၏ သော့ခလောက်ကို မေ့သွားပါက အက်ပ်သို့ ဝင်ရောက်ခွင့်နှင့် ၎င်း၏အကြောင်းအရာကို ပြန်လည်ရယူရန် နည်းလမ်းမရှိပါ။
-</Admonition>
+</Danger>
 
-<Admonition type="tip" title="ဗီဒီယိုသင်ခန်းစာ 🎥">
+<Tip title="ဗီဒီယိုသင်ခန်းစာ 🎥">
 သော့ခလောက်များနှင့် ကုဒ်ဝှက်ခြင်းအကြောင်းကို ကျွနု်ပ်တို့၏ [ဗီဒီယို သင်ခန်းစာ](/video-tutorials#tella-locks) တွင် ပိုမိုလေ့လာပါ
-</Admonition>
+</Tip>
 
-<Admonition type="info">
+<Info>
 ကုဒ်ဝှက်ခြင်းဆိုင်ရာ နည်းပညာ အသေးစိတ်အချက်အလက်များကို [လုံခြုံရေးနှင့် ကိုယ်ရေးလုံခြုံမှု](/security-and-privacy) ကဏ္ဍတွင် တွေ့ရှိနိုင်သည်။
-</Admonition>
+</Info>
 
 ## ဖိုင်စီမံခန့်ခွဲမှု {/* #file-management */}
 
@@ -175,9 +175,9 @@ Tella တွင် အသုံးပြုသူများသည်-
 * ဖိုင်များကို ၎င်းတို့၏ စက်ပစ္စည်းသို့ ထုတ်ယူနိုင်သည်။ Tella ပြင်ပရှိ ၎င်းတို့၏ စက်ပစ္စည်းတွင် သိမ်းဆည်းပြီးသည်နှင့် ဖိုင်များကို ကုဒ်ဝှက်ခြင်းမပြုတော့ဘဲ စက်ပစ္စည်းကို ရှာဖွေနေသူတိုင်း ဝင်ရောက်ကြည့်ရှုနိုင်မည်ဖြစ်သည်။
 * ၎င်းတို့၏ စက်ပစ္စည်းမှ ဖိုင်များကို တင်သွင်းနိုင်သည်။ Tella ထဲသို့ တင်သွင်းချိန်တွင် ဖိုင်များကို အလိုအလျောက် ကုဒ်ဝှက်ပါသည်။ 
 
-<Admonition type="danger">
+<Danger>
 စက်ပစ္စည်း ဖိုင်စနစ်မှ ဖိုင်များကို Tella သို့ တင်သွင်းခြင်းဖြင့် Tella တွင် ဖိုင်မိတ္တူ ဖန်တီးပေးပါမည်။ တင်သွင်းသောအခါ သင့်ဖုန်းမှ မူရင်းဖိုင်ကို သိမ်းဆည်းလိုခြင်း သို့မဟုတ် ဖျက်လိုခြင်း ရှိ၊ မရှိ Tella က မေးမြန်းပါမည်။ မူရင်းဖိုင်ကို သိမ်းဆည်းရန် သင်ရွေးချယ်ပါက ၎င်းတို့သည် Tella ပြင်ပတွင်ရှိပြီး ကုဒ်ဝှက်မထားဘဲ စက်ပစ္စည်းပေါ်တွင် ရှိနေမည်ဖြစ်သည်။  🔒
-</Admonition>
+</Danger>
 
 ## တုံ့ပြန်ချက် {/* #feedback */}
 
@@ -197,9 +197,9 @@ Tella တွင် အသုံးပြုသူများသည်-
 တုံ့ပြန်ချက်ဆာဗာ ဒေတာဘေ့စ်တွင် အသုံးပြုသူများက တုံ့ပြန်ချက်‌ပုံစံဖြင့် ပေးပို့သော စာသားမိတ္တူများနှင့် ၎င်းတို့ကို မည်သည့် ပလက်ဖောင်း (Android သို့မဟုတ် iOS) မှ ပေးပို့ခြင်းဖြစ်ကြောင်းသာ ကျွန်ုပ်တို့သိမ်းဆည်းထားပါသည်။
 
 
-<Admonition type="info">
+<Info>
 ကျွန်ုပ်တို့ရရှိမည့် အချက်အလက်မှာ အသုံးပြုသူများ တုံ့ပြန်ချက်ဖောင်တွင် အထူးထည့်သွင်းထားသည့် အကြောင်းအရာများသာ ဖြစ်သည်။ အသုံးပြုသူများက ပံ့ပိုးကူညီမှု တောင်းခံပါက သို့မဟုတ် ၎င်းတို့အား နောက်ဆက်တွဲ မေးမြန်းမှုများ ပြုလုပ်စေလိုပါက ၎င်းတို့ထံ ဆက်သွယ်ရန် ကျွန်ုပ်တို့အတွက် လုံခြုံသော နည်းလမ်းတစ်ခု ပေးသင့်ပါသည်။
-</Admonition>
+</Info>
 
 
 ## စက်ပစ္စည်းမှ ဖိုင်များကို တင်သွင်းခြင်း {/* #import-files-from-device */}
@@ -207,9 +207,9 @@ Tella တွင် အသုံးပြုသူများသည်-
 အသုံးပြုသူသည် တင်သွင်းရန်အင်္ဂါရပ်ကို အသုံးပြု၍ Tella သို့ တင်သွင်းသော ဖိုင်များကို လုံခြုံအောင်ပြုလုပ်ထားနိုင်ပါသည်။ ၎င်းတို့တင်သွင်းလိုသည့် ဖိုင်အမျိုးအစားပေါ်မူတည်၍ ဖိုင်အားလုံး၊ ရုပ်ပုံများ၊ ဗီဒီယို၊ အသံ သို့မဟုတ် စာရွက်စာတမ်းများပေါ်ရှိ  **ထည့်ပါ ( + )** ခလုတ်ကို နှိပ်ပြီးနောက် **စက်ပစ္စည်းမှ တင်သွင်းမည်** 📥 ကို နှိပ်ကာ ပေးပို့နိုင်ပါသည်။ ၎င်းတို့၏ ဖုန်းမှတ်ဉာဏ်မှ မူရင်းဖိုင်ကို သိမ်းဆည်းလိုခြင်း သို့မဟုတ် ဖျက်လိုခြင်း ရှိ၊ မရှိ သုံးစွဲသူအား မေးမြန်းသည့် သတိပေးစာတမ်းတစ်ခု ပေါ်လာပါမည်။ တင်သွင်းထားသော ဖိုင်များကို Tella တွင် လုံခြုံစွာ သိမ်းဆည်းထားမည်ဖြစ်သည်။
 
 
-<Admonition type="tip" title="ဗီဒီယိုသင်ခန်းစာ 🎥">
+<Tip title="ဗီဒီယိုသင်ခန်းစာ 🎥">
 ကျွနု်ပ်တို့၏ ဗီဒီယို သင်ခန်းစာများတွင် [အထောက်အထား စုဆောင်းခြင်း](video-tutorials#collecting-evidence) နှင့် [ဒေတာ မျှဝေခြင်း](/video-tutorials#sharing-data-with-other-apps) အကြောင်း ပိုမိုလေ့လာပါ။
-</Admonition>
+</Tip>
 
 ## တင်သွင်းနေစဉ် မက်တာဒေတာကို သိမ်းဆည်းခြင်း {/* #preserve-metadata-when-importing */}
 
@@ -232,17 +232,17 @@ Tella Android တွင် Tella ကို နည်းလမ်းနှစ်�
 
 ယခုချိန်တွင် Apple App Store ရှိ ကန့်သတ်ချက်များကြောင့် Tella Android တွင် ရရှိနိုင်သည့် အသွင်ပြောင်းထားသော အင်္ဂါရပ်များကို  iOS အတွက် ပံ့ပိုးမထားပါ။
 
-<Admonition type="danger">
+<Danger>
 "Tella" အမည်နှင့် ၎င်း၏အိုင်ကွန်ကို Android ဆက်တင်များတွင် မြင်တွေ့နေရပါမည်။ ဆိုလိုသည်မှာ တစ်စုံတစ်ဦးက ဖုန်းပေါ်တွင် Tella ကို _စေ့စေ့စပ်စပ်_ ရှာဖွေခြင်း သို့မဟုတ် စက်ပစ္စည်း၏ အတွင်းကျကျ ပိုင်းခြားစိတ်ဖြာခြင်းတို့ လုပ်ဆောင်ပါက  အသွင်ပြောင်းခြင်းက ကာကွယ်ပေးမည် မဟုတ်ပါ။ 🔒👀
-</Admonition>
+</Danger>
 
-<Admonition type="info">
+<Info>
 The Calculator camouflage feature cannot be enabled if the Restrict unlock attempts feature is on.
-</Admonition>
+</Info>
 
-<Admonition type="tip" title="ဗီဒီယိုသင်ခန်းစာ🎥">
+<Tip title="ဗီဒီယိုသင်ခန်းစာ🎥">
 ကျွန်ုပ်တို့၏ ဗီဒီယိုသင်ခန်းစာတွင် [Tella အသွင်ပြောင်းခြင်း](/video-tutorials#camouflaging-tella) အကြောင်း ပိုမိုလေ့လာပါ။
-</Admonition>
+</Tip>
 
 
 ## ပင်မစခရင်ကို စိတ်ကြိုက်ပြင်ဆင်ခြင်း {/* #homescreen-customization */}
@@ -267,13 +267,13 @@ The Calculator camouflage feature cannot be enabled if the Restrict unlock attem
 * ဆာဗာဆက်တင်များကို ဖျက်ပါ- ဆာဗာချိတ်ဆက်မှုအားလုံး၊ ၎င်းတို့နှင့် ဆက်စပ်နေသော ဖောင်များ သို့မဟုတ် ပုံစံပြားများ အားလုံးကို ဖျက်ပေးသည် 📋
 * Tella ကို ဖျက်ပါ- အက်ပ်နှင့် ၎င်းတွင်ပါရှိသော ဒေတာအားလုံးကို ဖျက်ပေးသည်။ ၎င်းကို ရွေးချယ်ခြင်းက သုံးစွဲသူအား Tella ကို ဖြုတ်ချင်ပါသလားဟု မေးသည့် မက်ဆေ့ချ်ကို ပို့စေပါသည် ❌။ 
 
-<Admonition type="info" title="Delete Tella">
+<Info title="Delete Tella">
 နည်းပညာဆိုင်ရာ ကန့်သတ်ချက်များကြောင့် Android ဖုန်းအချို့တွင် Tella ကို ဖျက်ပါ ရွေးချယ်မှုကို မရနိုင်ပါ။ ဤပြဿနာကို ဖြေရှင်းရန် ကျွန်ုပ်တို့ လုပ်ဆောင်နေပါသည်။ iOS တွင် အက်ပ်တစ်ခုကို ပရိုဂရမ်ဖြင့် ဖျက်၍ မရပါ။ 
-</Admonition>
+</Info>
 
-<Admonition type="warning">
+<Warning>
 Before triggering Quick Delete, consider [backing up you files](/features#backup-files) outside of Tella, to avoid loosing them.
-</Admonition>
+</Warning>
 
 ## အမြန်ထွက်ရန် {/* #quick-exit */}
 
@@ -287,9 +287,9 @@ Tella ဆက်တင်များတွင် သုံးစွဲသူမ�
 
 ၎င်းမုဒ်ကို ဖွင့်ထားချိန်တွင် အသုံးပြုသူတစ်ဦးက ဓာတ်ပုံ သို့မဟုတ် ဗီဒီယို ရိုက်သည့်အခါတိုင်း သို့မဟုတ် အသံဖမ်းသည့်အခါတိုင်း Tella သည် အတည်ပြုခြင်းဆိုင်ရာ အချက်အလက်များ (ဖိုင်မက်တာဒေတာ) ကို အလိုအလျောက် ဖမ်းယူပါသည်။ ဤအတည်ပြုခြင်းဆိုင်ရာ အချက်အလက်ကို ဖမ်းယူရိုက်ကူးခဲ့သည့် ဖြစ်ရပ် သို့မဟုတ် တည်နေရာအကြောင်း သိရှိထားသည့် အခြားအချက်အလက်များနှင့် အပြန်အလှန် စစ်ဆေးရန် ပူးပေါင်း သက်သေအထောက်အထားများအဖြစ် အသုံးပြုနိုင်သည်။ ဖိုင်ကို စက်တွင် သိမ်းဆည်းသည့်အခါ သို့မဟုတ် ပြင်ပအဖွဲ့အစည်းအက်ပ်များမှတစ်ဆင့် မျှဝေသည့်အခါ အတည်ပြုခြင်းဆိုင်ရာ အချက်အလက်များကို သီးခြားဖိုင်တစ်ခုအဖြစ် ထည့်သွင်းဖော်ပြပါမည်။ ဖိုင်ဖော်မတ်သည် .CSV ဖြစ်ပြီး ကော်လံများအလိုက် မက်တာဒေတာ အချက်အလက်များ ပါဝင်သည်။ ဤဖိုင်ကို (Excel၊ Google Spreadsheets သို့မဟုတ် Open Office ကဲ့သို့) စာရင်းဇယား အက်ပ်တစ်ခုခုဖြင့် ဖွင့်နိုင်သည်။ 
 
-<Admonition type="info" title="Contact us">
+<Info title="Contact us">
 အတည်ပြုမုဒ်ကို ပိုမိုကောင်းမွန်စွာ နားလည်ရန် အကူအညီ လိုအပ်ပါက ကျွန်ုပ်တို့ထံ လွတ်လပ်စွာ ဆက်သွယ်နိုင်ပါသည် 😊
-</Admonition>
+</Info>
 
 Tella မှ ဖမ်းယူထားသော မက်တာဒေတာအပိုင်းတစ်ခုစီ၏ စာရင်းကို အောက်တွင် ဖော်ပြထားသည်-
 
@@ -331,9 +331,9 @@ Tella မှ ဖမ်းယူထားသော မက်တာဒေတာအ
 * [Open Data Kit (ODK)](/for-organizations#open-data-kit-odk)
 * [Uwazi](/uwazi)
 
-<Admonition type="tip" title="ဗီဒီယိုသင်ခန်းစာ 🎥">
+<Tip title="ဗီဒီယိုသင်ခန်းစာ 🎥">
 ကျွန်ုပ်တို့၏ ဗီဒီယိုသင်ခန်းစာများတွင် [ဆာဗာများသို့ ချိတ်ဆက်ခြင်း](/video-tutorials#server-connections) အကြောင်း ပိုမိုလေ့လာပါ။
-</Admonition>
+</Tip>
 
 
 ## Nearby Sharing {/* #nearby-sharing */}
@@ -342,16 +342,16 @@ Users can share files directly from Tella's encrypted vault to another Tella enc
 
 This feature is available on Tella Android, Tella iOS, and Tella Desktop. 
 
-<Admonition type="note">
+<Note>
 [Learn more about nearby sharing here](/nearby-sharing).
-</Admonition>
+</Note>
 
 ## Share button {/* #share-button */}
 To share information with other apps, users can select the file or files they want to share and press the Share button. Tella will prompt the list of available apps on the phone and users can choose the app they want to share the file(s) with. 
 
-<Admonition type="danger">
+<Danger>
 Tella will share the files unencrypted and the history of exchanged files might be visible on the app you used. We recommend using disappearing messages or deleting the messages after the other person receives them when using messaging apps (for example WhatsApp or Signal).
-</Admonition>
+</Danger>
 
 ## ကင်မရာ (ဓာတ်ပုံနှင့် ဗီဒီယိုများ) {/* #camera-photos-and-videos */}
 
