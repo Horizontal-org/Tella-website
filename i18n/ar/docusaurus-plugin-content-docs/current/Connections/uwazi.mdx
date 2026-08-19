@@ -20,14 +20,14 @@ import Admonition from '@theme/Admonition';
 4. ضمان قدرة المنظمات على الحفاظ على المعلومات الهامة حتى في حالة مصادرة الجهاز أو تدميره، وتنظيمها لاستخدامها في البحث أو المناصرة أو عند إجراءات المساءلة
 
 <Admonition type="danger">
-Even though data is transferred to the server securely (SSL), anyone with access to the Uwazi account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+Even though data is encrypted (SSL) when transferred to Uwazi, anyone with access to your Uwazi account or to the server can view the files.
 </Admonition>
 
-### اختبار Uwazi {/* #testing-uwazi */}
+### Testing Uwazi {/* #testing-uwazi */}
 
 يمكنك اختبار Uwazi باستخدام [هذا المثيل التجريبي](https://demo.uwazi.io/).
 
-### متى يُستخدَم Uwazi {/* #when-to-use-uwazi */}
+### When to use Uwazi {/* #when-to-use-uwazi */}
 
 نوصي باستخدام Uwazi بالنسبة للمنظمات التي تحتاج إلى مستخدمين على أرض الواقع لجمع البيانات بطريقة منظمة من خلال الاستمارات.
 
@@ -51,7 +51,7 @@ Even though data is transferred to the server securely (SSL), anyone with access
 If you need help figuring out if Uwazi is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
 </Admonition>
 
-## تهيئة Uwazi على الخادم {/* #configure-uwazi-on-a-server */}
+## Configure Uwazi on a server {/* #configure-uwazi-on-a-server */}
 
 
 يقدم فريق HURIDOCS بديلين حول كيفية إعداد خادم uwazi الخاص بك:
@@ -59,39 +59,39 @@ If you need help figuring out if Uwazi is best for your use-case, [read our guid
 1. مستضاف ذاتيا: شارك هذا [الدليل الشامل للمسؤولين](https://uwazi.readthedocs.io/en/latest/sysadmin-docs/index.html) مع مسؤول النظام لديك للحصول على إرشادات خطوة بخطوة حول كيفية تثبيت Uwazi على الخادم الخاص بك وتهيئة النسخ الاحتياطية وإعداد الميزات المتقدمة.
 2. مستضاف من قبل HURIDOCS: تقدم HURIDOCS حزم استضافة كخدمة. تتوفر خدمات استضافة مجانية (إلى حد معين من التخزين) وإصدار تجريبي من Uwazi لمنظمات حقوق الإنسان. [تواصل مع HURIDOCS](https://huridocs.org/services/) لمزيد من التفاصيل حول الخدمة.
 
-## نمذجة بياناتك {/* #model-your-data */}
+## Model Your Data {/* #model-your-data */}
 
 تتكون المجموعة في Uwazi من الكيانات. لدى الكيان خصائص وهي الحقول التي سيملأها مستخدمو Tella لجمع البيانات. قد تحتوي الكيانات على المستندات الأساسية والملفات الداعمة مع بعض الخصائص التي يحددها المسؤولون على خادم Uwazi عندما ينشؤون القوالب. القالب هو استمارة فارغة يمكن ملؤها عدة مرات حسب الحاجة؛ بمجرد ملء القالب، يصبح كيانا.
 
 [يمكنك الاطلاع هنا](https://uwazi.readthedocs.io/en/latest/admin-docs/building-info-architecture.html#understanding-properties) على الخصائص المتوفرة على خادم Uwazi وعن كيفية نمذجة بياناتك وإنشاء قوالبك. إننا في الوقت الحالي ندعم فقط الخصائص والوظائف التي تم تمييز كونها ذات أولوية عالية من قبل مستخدمي Uwazi. إذا كنت بحاجة إلى خصائص أخرى، [اتصل بنا](/contact-us).
 
 <Admonition type="info">
-إذا قام مستخدمو Tella بتنزيل قالب يحتوي على خصائص غير مدعومة في Tella، فلن تظهر تلك الخصائص في التطبيق. ومع ذلك، سيظل المستخدمون قادرين على إرسال الكيانات، وسيتمكن المسؤولون من الوصول إلى هذه الكيانات، بما في ذلك جميع الخصائص التي تم ملؤها، دون أي مشاكل
+If Tella users download a template that has properties that are not supported in Tella, those properties won't be shown in the app. Even those some properties will not be visible, users will still be able to submit the entities, and admins will be able to access these entities, including all the properties that were filled. However, if some of those fields were required, Tella will show an error and save the submission in the Outbox tab. Templates will need to be refreshed to be submitted after an admin has made the required fixes in the template configuration.
 </Admonition>
 
-### الخصائص المتاحة {/* #available-properties */}
+### Available Properties {/* #available-properties */}
 
-| **الخاصية أو الميزة** | **Tella Android**| **‫Tella iOS** | **Tella لبرمجيات أندرويد الحرة والمفتوحة المصدر** |
-|------|------|-----|-----| 
-| المستندات الأولية والداعمة | ✔️ | ✔️ | ✔️ |
-| نص عادي | ✔️ | ✔️ | ✔️ |
-| رقمي | ✔️ | ✔️ | ✔️ |
-| تحديد واحد  | ✔️ | ✔️ | ✔️ | 
-| تحديد متعدد  | ✔️ | لا | ✔️ | 
-| العلاقة | ✔️ | ✔️ | ✔️ |
-| تاريخ واحد | ✔️ | ✔️ | ✔️ |
-| تاريخ متعدد | ✔️ | لا | ✔️ |
-| رابط خارجي | ✔️ | لا | ✔️ |
-| نص مُنسَّق | ✔️ | ✔️ | ✔️ |
-| نطاق زمني واحد ومتعدد | ✔️ | لا | ✔️ |
-| إرفاق وسائط (صورة أو فيديو أو صوت) | ✔️| ✔️ | ✔️ |
-| موقع جغرافي | ✔️ | لا | ✔️ |
-| مُعرِّف مُولَّد  | ✔️ | لا | ✔️ |
+| **الخاصية أو الميزة**              | **Tella Android** | **‫Tella iOS** | **Tella لبرمجيات أندرويد الحرة والمفتوحة المصدر** |
+| ---------------------------------- | ----------------- | -------------- | ------------------------------------------------- |
+| المستندات الأولية والداعمة         | ✔️                | ✔️             | ✔️                                                |
+| نص عادي                            | ✔️                | ✔️             | ✔️                                                |
+| رقمي                               | ✔️                | ✔️             | ✔️                                                |
+| تحديد واحد                         | ✔️                | ✔️             | ✔️                                                |
+| تحديد متعدد                        | ✔️                | لا             | ✔️                                                |
+| العلاقة                            | ✔️                | ✔️             | ✔️                                                |
+| تاريخ واحد                         | ✔️                | ✔️             | ✔️                                                |
+| تاريخ متعدد                        | ✔️                | لا             | ✔️                                                |
+| رابط خارجي                         | ✔️                | لا             | ✔️                                                |
+| نص مُنسَّق                         | ✔️                | ✔️             | ✔️                                                |
+| نطاق زمني واحد ومتعدد              | ✔️                | لا             | ✔️                                                |
+| إرفاق وسائط (صورة أو فيديو أو صوت) | ✔️                | ✔️             | ✔️                                                |
+| موقع جغرافي                        | ✔️                | لا             | ✔️                                                |
+| مُعرِّف مُولَّد                    | ✔️                | لا             | ✔️                                                |
 
 
-## اجعل الأشخاص على أرض الواقع جاهزين لبدء إرسال البيانات {/* #get-people-on-the-ground-ready-to-start-submitting-data */}
+## Get People on the Ground Ready to Start Submitting Data {/* #get-people-on-the-ground-ready-to-start-submitting-data */}
 
-### الاتصال بالخادم {/* #connect-to-the-server */}
+### Connect to the Server {/* #connect-to-the-server */}
 
 للاتصال بخادم Uwazi:
 
@@ -105,10 +105,10 @@ If you need help figuring out if Uwazi is best for your use-case, [read our guid
 * اختر **اللغة** التي تريد عرض الاستمارات بها.
 
 <Admonition type="info">
-يمكنك مشاهدة [هذا الفيديو](/video-tutorials#uwazi) حول كيفية الاتصال بخادم Uwazi من Tella.
+You can watch [this video](/video-tutorials#uwazi) on how to connect to an Uwazi server from the Tella.
 </Admonition>
 
-### أرسل معلوماتك {/* #send-your-information */}
+### Send Your Information {/* #send-your-information */}
 
 بمجرد الاتصال بنجاح بمثيل Uwazi، سترى بطاقة جديدة تحمل التصنيف "Uwazi" في أقسام **الاتصالات** في شاشة Tella الرئيسية.
 
@@ -117,20 +117,20 @@ If you need help figuring out if Uwazi is best for your use-case, [read our guid
 ثم عد إلى الشاشة الرئيسية لـ Uwazi والمس القالب الذي تريد استخدامه لإنشاء الكيان.
 
 
-#### بدائل إرسال البيانات {/* #data-submission-alternatives */}
+#### Data Submission Alternatives {/* #data-submission-alternatives */}
 
-| **الميزة** | **التفاصيل**| **Tella Android** | **‫Tella iOS** | 
-|------|------|------|------|
-| إرسال | إرسال الاستمارة المملوءة إلى الخادم المتصل. | نعم | نعم |
-| حفظ كمُسوَّدة | حفظ استمارة غير مكتملة.  | نعم | نعم |
-| إرسال لاحقا | وضع علامة جاهزة على استمارة وإرسالها إلى اللسان "علبة الصادر".  | نعم | نعم |
-| لسان المُسوَّدات | لسان يحتوي على كافة المُسوَّدات. يمكن تحرير المُسوَّدات أو حذفها.  | نعم | نعم |
-| لسان البريد الصادر | لسان يحتوي على الاستمارات الجاهزة للإرسال. يمكن تحرير الاستمارات الموجودة في لسان يحتوي على علبة الصادر أو حذفها.  | نعم | نعم |
-| لسان المُرسَل | لسان يحتوي على كافة الاستمارات التي تم إرسالها بنجاح إلى الخادم. يمكن حذف النماذج المُرسَلة.  | نعم | نعم |
-| إيقاف الإرسال مؤقتا أو استئنافه | يمكن للمستخدمين إيقاف الإرسال مؤقتا بشكل يدوي ثم استئنافه عندما يكون جاهزا.  | نعم | لا |
-| إيقاف الإرسال مؤقتا تلقائيا عند عدم الاتصال بالانترنت | سيتم إرسال ما تم تقديمه إلى لسان "البريد الصادر" في حالة فشل الإرسال بسبب مشكلات في الاتصال.  | نعم | نعم |
+| **الميزة**                                            | **التفاصيل**                                                                                                      | **Tella Android** | **‫Tella iOS** |
+| ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------- | -------------- |
+| إرسال                                                 | إرسال الاستمارة المملوءة إلى الخادم المتصل.                                                                       | نعم               | نعم            |
+| حفظ كمُسوَّدة                                         | حفظ استمارة غير مكتملة.                                                                                           | نعم               | نعم            |
+| إرسال لاحقا                                           | وضع علامة جاهزة على استمارة وإرسالها إلى اللسان "علبة الصادر".                                                    | نعم               | نعم            |
+| لسان المُسوَّدات                                      | لسان يحتوي على كافة المُسوَّدات. يمكن تحرير المُسوَّدات أو حذفها.                                                 | نعم               | نعم            |
+| لسان البريد الصادر                                    | لسان يحتوي على الاستمارات الجاهزة للإرسال. يمكن تحرير الاستمارات الموجودة في لسان يحتوي على علبة الصادر أو حذفها. | نعم               | نعم            |
+| لسان المُرسَل                                         | لسان يحتوي على كافة الاستمارات التي تم إرسالها بنجاح إلى الخادم. يمكن حذف النماذج المُرسَلة.                      | نعم               | نعم            |
+| إيقاف الإرسال مؤقتا أو استئنافه                       | يمكن للمستخدمين إيقاف الإرسال مؤقتا بشكل يدوي ثم استئنافه عندما يكون جاهزا.                                       | نعم               | لا             |
+| إيقاف الإرسال مؤقتا تلقائيا عند عدم الاتصال بالانترنت | سيتم إرسال ما تم تقديمه إلى لسان "البريد الصادر" في حالة فشل الإرسال بسبب مشكلات في الاتصال.                      | نعم               | نعم            |
 
 
 <Admonition type="tip">
-If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+If you need to share files with others without an internet connection, check out [Nearby Sharing](/nearby-sharing).
 </Admonition>

@@ -26,5 +26,14 @@
   "sidebar.generalSidebar.category.المجتمع": {
     "message": "المجتمع",
     "description": "The label for category 'المجتمع' in sidebar 'generalSidebar'"
+  },
+  "sidebar.generalSidebar.category.Get Started": {
+    "message": ""
+  },
+  "sidebar.generalSidebar.category.Connections": {
+    "message": ""
+  },
+  "sidebar.generalSidebar.category.Discover Tella": {
+    "message": ""
   }
 }
