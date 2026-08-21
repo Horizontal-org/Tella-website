@@ -16,11 +16,22 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 ## Tella - Latest Versions {/* #tella---latest-versions */}
 
 
-### Android: Tella 3.2.0 (248) - Released on July 16, 2026 {/* #android-tella-320248---released-on-jul-16-2026 */}
-- Implemented security fixes detected by our most recent [security audit](/security-and-privacy#security-audits)
-    - Implemented mTLS and enforced certificate pinning for both the sender and receiver in Nearby Sharing. This is a mitigation for man-in-the-middle attacks.
+
+### Android: Tella 3.3.0 (251) - Released on August 26, 2026 {/* #android-tella-330251---released-on-aug-26-2026 */}
+- All translation management is now done on Weblate. Please consider contributing by helping us [localize Tella](/translating-tella).
+- Updated the onboarding flow and the advanced configuration options, including camouflage.
+- Multiple improvements to the Uwazi connection:
+    - Implemented count indicators to show the number of entities in each tab (Drafts, Outbox and Submitted).
+    - Reviewed and improved copy and wording.
+    - Added the possibility to swipe between tabs.
+    - Improved UX to make it more accessible, including updated fonts, colors and sizes.
+    - Unified and reused existing components.
+    - Added Server URL validation: Tella now shows an error message if the URL is invalid or does not correspond to a valid Uwazi instance.
+    - Added a warning when users try to delete a media file from their Tella vault that is pending submission in one of their Uwazi entities.
+    - Added confirmation snackbars for destructive actions.
 - Bug fixes and minor improvements:
-    - Simplified the Nearby Sharing manual connection flow: pre-filled the port field and added automatic dot insertion after each octet while typing the IP address.
+    - Fixed a crash and an incorrect error message ("problem creating folder") that appeared after sending the first report to a Google Drive Connection.
+
 
 
 
@@ -29,7 +40,7 @@ To receive  updates on new features and improvements to Tella and stay up to dat
     - Primary Documents' field now allow PDF selection from both the Tella Vault or the device.
     - Supporting Documents can now include all types of file selection from the Tella Vault or the device.
     - Draft, Outbox and New entity templates update when pressing the "Refresh Templates" button.
-- All translation management is now done on Weblate. 
+- All translation management is now done on Weblate. Please considering contributing by helping us [localize Tella](/translating-tella).
 - Bug fixes and minor improvements:
     - Fixed a crash that happened during concurrent large video imports.
     - Refactored the format of all the app's strings to maximize translation memory usage.
@@ -39,11 +50,20 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 
 
 
-### Android: Tella FOSS 3.2.0 (248) (based on Android 3.2.0) - Released on July 88, 2026 {/* #android-tella-foss-320248-based-on-android-320---released-on-jul-18-2026 */}
-- Implemented security fixes detected by our most recent [security audit](/security-and-privacy#security-audits)
-    - Implemented mTLS and enforced certificate pinning for both the sender and receiver in Nearby Sharing. This is a mitigation for man-in-the-middle attacks.
+### Android: Tella FOSS 3.3.0 (251) - Released on August 26, 2026 {/* #android-tella-foss-330251---released-on-august-26-2026 */}
+- All translation management is now done on Weblate. Please consider contributing by helping us [localize Tella](/translating-tella).
+- Updated the onboarding flow and the advanced configuration options, including camouflage.
+- Multiple improvements to the Uwazi connection:
+    - Implemented count indicators to show the number of entities in each tab (Drafts, Outbox and Submitted).
+    - Reviewed and improved copy and wording.
+    - Added the possibility to swipe between tabs.
+    - Improved UX to make it more accessible, including updated fonts, colors and sizes.
+    - Unified and reused existing components.
+    - Added Server URL validation: Tella now shows an error message if the URL is invalid or does not correspond to a valid Uwazi instance.
+    - Added a warning when users try to delete a media file from their Tella vault that is pending submission in one of their Uwazi entities.
+    - Added confirmation snackbars for destructive actions.
 - Bug fixes and minor improvements:
-    - Simplified the Nearby Sharing manual connection flow: pre-filled the port field and added automatic dot insertion after each octet while typing the IP address.
+    - Fixed a crash and an incorrect error message ("problem creating folder") that appeared after sending the first report to a Google Drive Connection.
 
 
 
@@ -54,6 +74,12 @@ A detailed list of features available on each platform is [available here](/feat
 ## Previous versions {/* #previous-versions */}
 
 ### Android {/* #android-previous */}
+
+#### Android: Tella 3.2.0 (248) - Released on July 16, 2026 {/* #android-tella-320248---released-on-jul-16-2026 */}
+- Implemented security fixes detected by our most recent [security audit](/security-and-privacy#security-audits)
+    - Implemented mTLS and enforced certificate pinning for both the sender and receiver in Nearby Sharing. This is a mitigation for man-in-the-middle attacks.
+- Bug fixes and minor improvements:
+    - Simplified the Nearby Sharing manual connection flow: pre-filled the port field and added automatic dot insertion after each octet while typing the IP address.
 
 
 #### Android: Tella 3.1.0 (242) - Released on June 8, 2026 {/* #android-tella-310242---released-on-jun-8-2026 */}
@@ -633,6 +659,12 @@ Also in this update:
 
 
 ### Android FOSS {/* #android-foss-previous */}
+
+#### Android: Tella FOSS 3.2.0 (248) (based on Android 3.2.0) - Released on July 88, 2026 {/* #android-tella-foss-320248-based-on-android-320---released-on-jul-18-2026 */}
+- Implemented security fixes detected by our most recent [security audit](/security-and-privacy#security-audits)
+    - Implemented mTLS and enforced certificate pinning for both the sender and receiver in Nearby Sharing. This is a mitigation for man-in-the-middle attacks.
+- Bug fixes and minor improvements:
+    - Simplified the Nearby Sharing manual connection flow: pre-filled the port field and added automatic dot insertion after each octet while typing the IP address.
 
 #### Android: Tella FOSS 3.1.0 (242) (based on Android 3.1.0) - Released on Jun 8, 2026 {/* #android-tella-foss-310242-based-on-android-242---released-on-jun-8-2026 */}
 - Replaced the geolocation provider.
