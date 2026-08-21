@@ -1,0 +1,22 @@
+---
+name: "deploy"
+on:
+  push:
+    branches:
+    - "ci"
+jobs:
+  deploy:
+    runs-on: "ubuntu-latest"
+    steps:
+    - uses: "actions/checkout@v7"
+    - run: "npm install"
+    - run: "npm run build"
+    - uses: "burnett01/rsync-deployments@v9"
+      with:
+        switches: "-av --delete-after"
+        path: "build/"
+        remote_path: "/var/www/tella-app.org/"
+        remote_host: "tella-app.org"
+        remote_port: 22
+        remote_user: "tella-app--org"
+        remote_key: "${{ secrets.PRIVATE_KEY }}"
