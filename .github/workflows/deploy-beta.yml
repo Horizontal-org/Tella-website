@@ -1,0 +1,24 @@
+---
+name: "Testing deploy to beta.tella-app.org"
+on:
+  push:
+    branches:
+    - "development"
+jobs:
+  deploy:
+    runs-on: "ubuntu-latest"
+    env:
+      PRODUCTION_URL: "https://beta.tella-app.org/"
+    steps:
+    - uses: "actions/checkout@v7"
+    - run: "npm install"
+    - run: "npm run build"
+    - uses: "burnett01/rsync-deployments@v9"
+      with:
+        switches: "-av --delete-after"
+        path: "build/"
+        remote_path: "/"
+        remote_host: "tella-app.org"
+        remote_port: 22
+        remote_user: "beta--tella-app--org"
+        remote_key: "${{ secrets.BETA_PRIVATE_KEY }}"
