@@ -5,7 +5,7 @@ description: Learn about Tella's encrypted, cross-platform, fully offline featur
 slug: /nearby-sharing
 ---
 
-import Admonition from '@theme/Admonition';
+import {Note, Tip} from '@site/src/components/Admonitions';
 
 # Nearby Sharing
 
@@ -33,13 +33,13 @@ Nearby Sharing may be particularly well-suited for:
 - To migrate to a new phone.
 
 
-<Admonition type="tip">
+<Tip>
 If you need help figuring out if Nearby Sharing is best for your use-case, [contact us](/contact-us)!
-</Admonition>
+</Tip>
 
-<Admonition type="tip">
+<Tip>
 If you are trying to share files to the organization you are working with, or if you are not in the same physical location as the person you want to exchange files with, [Tella's server connections](/for-organizations) could be helpful.
-</Admonition>
+</Tip>
 
 ## How to use Nearby Sharing {/* #how-to-use */}
 
@@ -51,13 +51,13 @@ In order to use the feature, the sender and receiver need to join the same Wi-Fi
 
 Nearby Sharing will show a tutorial that will guide users in every step of the connection process.
 
-<Admonition type="note">
+<Note>
 Some public Wi-Fi networks might not work due to their configuration preventing direct transfers. 
-</Admonition>
+</Note>
 
-<Admonition type="tip">
+<Tip>
 Nearby Sharing does not work if either of the devices is connected to a VPN.
-</Admonition>
+</Tip>
 
 
 ## Technical security measures {/* #security-measures */}
@@ -69,9 +69,9 @@ Nearby Sharing is designed to work safely even on insecure or monitored Wi-Fi ne
 - **Session-based, ephemeral certificates**: certificates are generated for a single session and discarded once the transfer ends. Certificates are never reused or stored long-term.
 - **Rate-limited connections**: repeated invalid connection attempts are blocked, to protect against brute-force guessing.
 
-<Admonition type="tip">
+<Tip>
 Nearby Sharing was reviewed as part of Tella's regular independent [security audits](/security-and-privacy#security-audits).
-</Admonition>
+</Tip>
 
 Technical readers can find the full protocol specification in the [Tella-P2P-Protocol repository](https://github.com/Horizontal-org/Tella-P2P-Protocol).
 

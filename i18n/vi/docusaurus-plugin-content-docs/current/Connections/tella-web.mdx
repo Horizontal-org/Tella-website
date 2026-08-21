@@ -5,7 +5,7 @@ description: Tính năng Báo cáo cho phép người dùng thuận tiện tải
 slug: /tella-web
 ---
 
-import Admonition from '@theme/Admonition';
+import {Tip, Warning, Danger, Info} from '@site/src/components/Admonitions';
 
 # Tella Web 
 
@@ -27,9 +27,9 @@ Thiết lập Tella Web bao gồm ba bước được thảo luận kỹ lưỡn
 * **Thiết lập (các) dự án trên máy chủ của bạn**: Trong bước này, quản trị viên quyết định cách họ tự tổ chức để thu thập dữ liệu, tạo "dự án" cũng như xác định vai trò và quyền cho người dùng của họ.
 * **Chuẩn bị nhân viên tại hiện trường sẵn sàng gửi báo cáo**: Người dùng cài đặt Tella trên thiết bị Android hoặc iPhone của họ. Sau đó, họ kết nối với dự án Tella Web và bắt đầu thu thập thông tin.
 
-<Admonition type="danger">
+<Danger>
 Even though data is transferred to the server securely (SSL), anyone with access to the Tella Web account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
-</Admonition>
+</Danger>
 
 ## When to Use Tella Web {/* #when-to-use-tella-web */}
 
@@ -39,9 +39,9 @@ The Tella Web could be a good alternative if:
 - You will be partnering with Horizontal and you want the same organization to help you with installation, configuration, and maintenance of your Tella Web instance and the Tella apps.
 
 
-<Admonition type="tip">
+<Tip>
 If you need help figuring out if Tella Web is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
-</Admonition>
+</Tip>
 
 
 ## Cài đặt máy chủ {/* #install-the-server */}
@@ -51,13 +51,13 @@ Bước này bao gồm cài đặt và cấu hình Tella Web trên máy chủ m�
 You can check Tella Web release notes [here](https://github.com/Horizontal-org/tellaweb/releases).
 
 
-<Admonition type="info">
+<Info>
 Đội ngũ của chúng tôi có thể hỗ trợ cài đặt, cấu hình và bảo trì Tella Web. Nếu bạn có bất kỳ câu hỏi hoặc cần hỗ trợ, [liên hệ với chúng tôi](/contact-us/).
-</Admonition>
+</Info>
 
-<Admonition type="tip">
+<Tip>
 [Liên hệ với chúng tôi](/contact-us/) để truy cập vào máy chủ demo của chúng tôi, để bạn có thể kiểm tra Tella Web trước khi cài đặt nó trên máy chủ của riêng bạn.
-</Admonition>
+</Tip>
 
 
 ## Tạo dự án trên máy chủ của bạn {/* #set-up-your-project-on-your-server */}
@@ -65,9 +65,9 @@ You can check Tella Web release notes [here](https://github.com/Horizontal-org/t
 Khi Tella Web đã được cài đặt và người dùng "quản trị viên" đầu tiên được tạo, đây là lúc để thiết lập dự án hoặc các dự án mà đội ngũ tại hiện trường sẽ chia sẻ thông tin.
 
 
-<Admonition type="info">
+<Info>
 Hãy xem [video hướng dẫn này](/video-tutorials#connections-full-video) để xem bản demo về cách thiết lập Tella Web.
-</Admonition>
+</Info>
 
 
 ### Trung tâm quản trị {/* #admin-center */}
@@ -91,9 +91,9 @@ Admins of the Tella Web instance can export all data out of Tella Web by generat
 
 The backup is a full export everything in the space: including all Projects, Reports, Users and Resources, plus all metadata. The export is a zip file including a collection of CSVs and folders with with the uploaded media. For now, there is no way to import the backup back into a Tella Web instance from the Admin Center, but each backup includes a .sql file that advanced users can use to import the data to the database directly. 
 
-<Admonition type="warning">
+<Warning>
 The information included in the backup is highly sensitive, it not only contains all the data (unencrypted) but also information about the Tella Web users. Please proceed with caution when generating the backup.
-</Admonition>
+</Warning>
 
 
 ### Quản lý Dự án {/* #managing-projects */}
@@ -149,9 +149,9 @@ Khi được xác nhận, dự án và tất cả các báo cáo liên quan sẽ
 
 URL của dự án được tạo tự động khi tạo dự án. Để chỉnh sửa URL của dự án, hãy đến phần "Chung" trong màn hình "Cài đặt dự án" và thay đổi theo ý muốn. URL này là URL mà các báo cáo viên sẽ sử dụng để kết nối với dự án từ ứng dụng của họ.
 
-<Admonition type="info">
+<Info>
 URL mà bạn cần gửi cho người dùng sẽ giống như thế này `https://your-domain.com/p/your-project-name`
-</Admonition>
+</Info>
 
 
 ### Quản lý người dùng {/* #managing-users */}
@@ -200,9 +200,9 @@ Tại ô mật khẩu, máy đo bảo mật mật khẩu giúp quản trị viê
 Trong phần "Quản lý quyền truy cập" của màn hình "Cài đặt dự án", quản trị viên có thể chỉ định người dùng hiện có vào dự án. Nhấn vào trường "Thêm người dùng". Một menu thả xuống sẽ hiển thị tất cả người dùng trên máy chủ. Cuộn qua danh sách hoặc nhập để tìm kiếm người dùng theo tên người dùng.
 Sau khi chọn người dùng để thêm vào dự án, nhấn nút "Thêm" để lưu thay đổi và cấp quyền truy cập vào dự án.
 
-<Admonition type="info">
+<Info>
 Danh sách tất cả người dùng có thể gửi báo cáo về dự án bao gồm những người dùng được liệt kê trong phần này cộng với tất cả quản trị viên máy chủ
-</Admonition>
+</Info>
 
 ### Managing Resources {/* #managing-resources */}
 
@@ -221,9 +221,9 @@ On the same screen, space admins can manage resources. The following options are
 - Find out on which projects each resource is added to by tapping on Preview
 - Delete a resource from the space.
 
-<Admonition type="info">
+<Info>
 If your organization need other type of Resources or if you experience problems with the format or size limits please [contact us](/contact-us).
-</Admonition>
+</Info>
 
 #### Adding resources to projects {/* #adding-resources-to-projects */}
 
@@ -247,9 +247,9 @@ Các bước được nêu dưới đây áp dụng cho cả phiên bản Androi
 
 Các báo cáo chưa có sẵn trên [Tella-FOSS](/faq#is-tella-available-on-f-droid).
 
-<Admonition type="info">
+<Info>
 Bạn có thể xem [video hướng dẫn này](/video-tutorials#tella-web) về cách cài đặt và sử dụng Báo cáo trong Tella.
-</Admonition>
+</Info>
 
 
 #### Kết nối với Dự án Tella Web {/* #connect-to-tella-web-projects */}
@@ -318,13 +318,13 @@ Reports in the Draft tab can be edited.
 * Nếu báo cáo đang được tải lên, nút "Tạm dừng" cho phép bạn tạm thời dừng việc tải lên, có thể tiếp tục tải lại sau bằng cách sử dụng nút "Tiếp tục".
 * Việc thoát một báo cáo không ảnh hưởng đến trạng thái tải lên.  Nếu báo cáo đang được tải lên thì quá trình này vẫn tiếp tục.
 
-<Admonition type="info">
+<Info>
 Sau khi báo cáo đã được tải lên Tella Web, bạn không thể xóa báo cáo đó khỏi Tella Web từ ứng dụng di động Tella. Việc xóa một báo cáo đã gửi chỉ xóa phiên bản cục bộ của nó, chứ không xóa báo cáo trên máy chủ. 
-</Admonition>
+</Info>
 
-<Admonition type="info">
+<Info>
 Việc xóa một báo cáo đang gửi sẽ hủy quá trình tải lên của các tệp chưa được tải, nhưng các tệp đã được gửi và các tệp gửi một phần đã có trên Tella Web sẽ không bị xóa.
-</Admonition>
+</Info>
 
 
 #### Hộp thư đi {/* #outbox */}
@@ -341,9 +341,9 @@ The Outbox contains:
 * Các báo cáo đang gửi bị gián đoạn do vấn đề kết nối.
 * Các báo cáo được đánh dấu là "Gửi sau".
 
-<Admonition type="tip">
+<Tip>
 If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
-</Admonition>
+</Tip>
 
 
 #### Gửi báo cáo {/* #submitted-reports */}
@@ -351,9 +351,9 @@ If you need a fully offline way to share files with others, consider exploring [
 - Tab "Đã gửi" hiển thị các báo cáo đã được gửi thành công đến máy chủ Tella Web.
 - Trong tab "Đã gửi", bạn có thể xem và đánh giá lại các báo cáo đã được gửi.
 
-<Admonition type="info">
+<Info>
 Nếu kết nối internet bị gián đoạn, các báo cáo sẽ được chuyển vào tab hộp thư đi và bạn sẽ cần tự tay tiếp tục việc gửi báo cáo.
-</Admonition>
+</Info>
 
 
 ### Các Tính năng Nâng cao {/* #advanced-features */}
@@ -364,9 +364,9 @@ Nếu tính năng tự động báo cáo được bật, Tella sẽ tự động
 
 Chế độ tự động báo cáo có thể được bật từ màn hình Chỉnh sửa Kết nối.
 
-<Admonition type="info">
+<Info>
 Chế độ tự động báo cáo chỉ có thể được bật cho một dự án tại một thời điểm.
-</Admonition>
+</Info>
 
 #### Xóa tự động {/* #auto-delete */}
 

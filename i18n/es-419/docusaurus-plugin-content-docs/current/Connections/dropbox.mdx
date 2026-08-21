@@ -5,7 +5,7 @@ description: Tella allows users to conveniently upload photos, videos and audio 
 slug: /dropbox
 ---
 
-import Admonition from '@theme/Admonition';
+import {Note, Tip, Danger, Info} from '@site/src/components/Admonitions';
 
 # Dropbox Connection
 
@@ -22,13 +22,13 @@ De manera similar a otras conexiones de servidor (como [Tella Web](/tella-web), 
 
 Los envíos a Dropbox toman la forma de "informes" lo cual incluye un título, una descripción de texto y archivos como fotos, videos, grabaciones de audio y documentos pdf.
 
-<Admonition type="danger">
+<Danger>
 Even though data is transferred to the server securely (SSL), anyone with access to the Dropbox account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
-</Admonition>
+</Danger>
 
-<Admonition type="note">
+<Note>
 The Dropbox connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
-</Admonition>
+</Note>
 
 ## When to Use Dropbox {/* #when-to-use-dropbox */}
 
@@ -40,9 +40,9 @@ The Dropbox connection may be particularly well-suited for:
 - Usuarios que enviarán mayormente archivos multimedia, con algo de texto y no necesitarán recopilación de datos estructurados como formularios o encuestas.
 
 
-<Admonition type="tip">
+<Tip>
 If you need help figuring out if Dropbox is best for your use-case, [check out this guide](/for-organizations#selecting-the-right-type-of-server) or [contact us](/contact-us)!
-</Admonition>
+</Tip>
 
 ## Connect to Dropbox {/* #connect-to-dropbox */}
 
@@ -100,13 +100,13 @@ Reports in the Draft tab can be edited.
 * Si el informe se está subiendo activamente, un botón de "Pausa" te permite detener temporalmente la subida, la cual puede ser reanudada luego utilizando el botón "Reanudar".
 * Salir de un informe no afecta el estado de subida. Si el informe se está subiendo activamente, el proceso continúa. 
 
-<Admonition type="info">
+<Info>
 After a report has been uploaded to Dropbox, it is not possible to delete it on Dropbox from the Tella mobile app. Deleting a submitted report will only delete the local version of it, not the report on the server. 
-</Admonition>
+</Info>
 
-<Admonition type="info">
+<Info>
 Deleting a report in the middle of submission will cancel the upload of the files that haven’t been uploaded yet, but submitted files and partially submitted files that are already on Dropbox won’t be deleted.
-</Admonition>
+</Info>
 
 
 #### Bandeja de Salida {/* #outbox */}
@@ -123,9 +123,9 @@ The Outbox contains:
 * Envíos de informes que fueron interrumpidos debido a problemas de conectividad.
 * Informes que fueron marcados como "Enviar luego".
 
-<Admonition type="tip">
+<Tip>
 If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
-</Admonition>
+</Tip>
 
 
 #### Informes Enviados {/* #submitted-reports */}
@@ -133,9 +133,9 @@ If you need a fully offline way to share files with others, consider exploring [
 - The Submitted tab displays reports that have been successfully submitted to the Dropbox server.
 - In the Submitted tab, you can view and deleted the submitted reports.
 
-<Admonition type="info">
+<Info>
 Si la conexión a internet es interrumpida, los informes irán a la pestaña "Bandeja de Salida" y tendrás que reanudar el envío manualmente.
-</Admonition>
+</Info>
 
 
 

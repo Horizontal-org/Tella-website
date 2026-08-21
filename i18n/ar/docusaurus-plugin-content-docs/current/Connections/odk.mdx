@@ -5,7 +5,7 @@ description: اتصال خادم Open Data Kit متاح للمنظمات الت�
 slug: /odk
 ---
 
-import Admonition from '@theme/Admonition';
+import {Tip, Danger, Info} from '@site/src/components/Admonitions';
 
 # Open Data Kit (ODK)
 
@@ -20,9 +20,9 @@ import Admonition from '@theme/Admonition';
 3. السماح للمستخدمين بنسخ بياناتهم احتياطيا على خادم بعيد، لتقليل خطر اكتشاف البيانات على جهازهم المحمول.
 4. التأكد من أن المنظمات يمكنها الحفاظ على المعلومات المهمة حتى في حالة مصادرة الجهاز أو عند تدميره، والتأكد من أنه يمكن تنظيم تلك المعلومات للبحث أو للمناصرة أو لإجراءات المساءلة.
 
-<Admonition type="danger">
+<Danger>
 Even though data is transferred to the server securely (SSL), anyone with access to the ODK account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
-</Admonition>
+</Danger>
 
 
 ### اختيار وتثبيت خادم ODK الخاص بك {/* #choosing-and-installing-your-odk-server */}
@@ -31,9 +31,9 @@ Even though data is transferred to the server securely (SSL), anyone with access
 
 بالنسبة لمنظمات المجتمع المدني والمدافعين عن حقوق الإنسان، نوصي باستخدام [KoboToolbox](https://www.kobotoolbox.org/) لإنشاء استمارات بأسئلة مخصصة وإدارة المستخدمين وتجميع البيانات المرسلة من طرف المستخدمين. استنادا إلى خبرتنا، KoboToolbox سهل الاستخدام ومرن، كما أنه أيضا مفتوح المصدر. يقدم KoboToolbox [خطة مجتمعية](https://www.kobotoolbox.org/pricing/) مجانية للمنظمات غير الربحية ويقدم موارد تدريبية وإرشادات مجانية حول كيفية تنظيم البيانات على الخادم (قاعدة تعلم قائمة على الخدمة الذاتية والمنتديات المجتمعية). من الممكن أيضا [استخدام مثيل خاص لـ KoboToolbox](https://www.kobotoolbox.org/services/private-servers/) أو [استضافته بنفسك](https://support.kobotoolbox.org/kobo_your_servers.html).
 
-<Admonition type="tip">
+<Tip>
 We are work closely with the Kobotoolbox team. If you are interested in using the Tella-KoboToolbox connection and would like some support or to discuss the best hosting plan for your use case, please [contact us](/contact-us). 
-</Admonition>
+</Tip>
 
 هناك تطبيقات أخرى متاحة ومتوافقة مع ODK، مثل [Ona](https://ona.io/home/) أو [ODK Cloud](https://https://getodk.org/index.html). يعمل Tella مع أي منها.
 
@@ -44,9 +44,9 @@ We are work closely with the Kobotoolbox team. If you are interested in using th
 
 يُستخدم ODK وKoboToolbox على نطاق واسع، كما أنهما مُوثَّقان جيدا وسهلا الاستخدام. هناك دلائل متاحة، وتقدم الأداتان الدعم للمنظمات غير الربحية حول كيفية تنظيم وصيانة بياناتهم.
 
-<Admonition type="tip">
+<Tip>
 If you need help figuring out if ODK is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
-</Admonition>
+</Tip>
 
 ## نمذجة بياناتك {/* #model-your-data */}
 
@@ -56,9 +56,9 @@ If you need help figuring out if ODK is best for your use-case, [read our guide]
 
 في هذا التوثيق، نركز على كيفية جمع البيانات باستخدام Tella. هناك تطبيقات للمحمول بديلة يمكن استخدامها لجمع البيانات على ODK، بما في ذلك تطبيق ODK Collect Android. يمكنك الاطلاع على المقارنة بين هذه البدائل [هنا](/faq#how-is-tella-different-from-other-documentation-apps).
 
-<Admonition type="info">
+<Info>
 ‫الاتصال بـ ODK غير متاح لـ Tella على iOS.
-</Admonition>
+</Info>
 
 ### الاتصال بخادم ODK {/* #connect-to-an-odk-server */}
 ‫بعد إنشاء ونشر الاستمارة باستخدام أي خادم متوافق مع ODK، انتقل في Tella إلى **الإعدادات** > **الخوادم** > **+** > **Open Data Kit (ODK)**. املأ الحقول التالية:
@@ -141,6 +141,6 @@ If you need help figuring out if ODK is best for your use-case, [read our guide]
 | [Form metadata (background data collection)](https://docs.getodk.org/form-audit-log/) | ❌ |
 
 
-<Admonition type="tip">
+<Tip>
 If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
-</Admonition>
+</Tip>

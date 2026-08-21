@@ -5,7 +5,7 @@ description: Kết nối máy chủ Uwazi có sẵn dành cho các tổ chức m
 slug: /uwazi
 ---
 
-import Admonition from '@theme/Admonition';
+import {Tip, Danger, Info} from '@site/src/components/Admonitions';
 
 # Uwazi
 
@@ -19,9 +19,9 @@ Tương tự như các kết nối khác ([Tella Web](/tella-web), [Google Drive
 3. Cho phép người dùng sao lưu dữ liệu của họ trên máy chủ từ xa, giảm thiểu rủi ro dữ liệu bị phát hiện trên thiết bị di động của họ.
 4. Đảm bảo rằng các tổ chức có thể lưu giữ thông tin quan trọng ngay cả trong trường hợp thiết bị bị thu giữ hoặc bị phá hủy, và có thể sắp xếp dữ liệu cho quá trình nghiên cứu, vận động hoặc giải trình trách nhiệm.
 
-<Admonition type="danger">
+<Danger>
 Even though data is transferred to the server securely (SSL), anyone with access to the Uwazi account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
-</Admonition>
+</Danger>
 
 ### Kiểm tra Uwazi {/* #testing-uwazi */}
 
@@ -47,9 +47,9 @@ Here there are some pointers on Uwazi may be particularly suitable to your use c
 
 Bạn có thể tìm hiểu thêm về Uwazi trên [Tài liệu chính thức của Uwazi](https://uwazi.readthedocs.io/en/latest/). HURIDOCS là một đối tác thân thiết của Horizontal, vì vậy nếu bạn có thắc mắc về Uwazi hoặc muốn chúng tôi kết nối bạn với nhóm HURIDOCS, [liên hệ với chúng tôi](contact-us).
 
-<Admonition type="tip">
+<Tip>
 If you need help figuring out if Uwazi is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
-</Admonition>
+</Tip>
 
 ## Cài đặt Uwazi trên máy chủ {/* #configure-uwazi-on-a-server */}
 
@@ -64,9 +64,9 @@ Một bộ sưu tập Uwazi bao gồm các Thực thể. Mỗi thực thể có 
 
 [Bạn có thể đọc tại đây](https://uwazi.readthedocs.io/en/latest/admin-docs/building-info-architecture.html#understanding-properties) về các thuộc tính có sẵn trên máy chủ Uwazi cũng như cách lập mô hình dữ liệu và tạo mẫu của bạn. Hiện tại, chúng tôi chỉ hỗ trợ các thuộc tính và chức năng được người dùng Uwazi đánh dấu là ưu tiên cao. Nếu bạn cần thuộc tính khác, [liên hệ với chúng tôi](/contact-us).
 
-<Admonition type="info">
+<Info>
 Nếu người dùng Tella tải xuống mẫu có các thuộc tính không được hỗ trợ trong Tella thì các thuộc tính đó sẽ không được hiển thị trong ứng dụng. Tuy nhiên, người dùng vẫn có thể gửi các thực thể và quản trị viên sẽ có thể truy cập vào các thực thể này, bao gồm tất cả các thuộc tính đã được điền mà không gặp bất kỳ sự cố nào.
-</Admonition>
+</Info>
 
 ### Các thuộc tính có sẵn {/* #available-properties */}
 
@@ -103,9 +103,9 @@ Nếu người dùng Tella tải xuống mẫu có các thuộc tính không đ�
 * Nếu máy chủ yêu cầu xác thực hai yếu tố, hãy nhập mã dùng một lần.
 * Chọn **Ngôn ngữ** mà bạn muốn hiển thị các mẫu.
 
-<Admonition type="info">
+<Info>
 Bạn có thể xem [video hướng dẫn này](/video-tutorials#uwazi) về cách kết nối một máy chủ Uwazi từ Tella.
-</Admonition>
+</Info>
 
 ### Gửi Thông Tin Của Bạn {/* #send-your-information */}
 
@@ -130,6 +130,6 @@ Sau đó quay lại màn hình chính Uwazi và nhấn vào mẫu bạn muốn s
 | Tự động tạm dừng gửi khi ngoại tuyến | Các bài nộp sẽ được chuyển vào tab Hộp Thư Đi nếu quá trình gửi thất bại do vấn đề kết nối.  | Đồng ý | Đồng ý |
 
 
-<Admonition type="tip">
+<Tip>
 If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
-</Admonition>
+</Tip>

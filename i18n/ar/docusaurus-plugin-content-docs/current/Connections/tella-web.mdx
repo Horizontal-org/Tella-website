@@ -5,7 +5,7 @@ description: تُسهِّل ميزة التقارير على المستخدمي�
 slug: /tella-web
 ---
 
-import Admonition from '@theme/Admonition';
+import {Tip, Warning, Danger, Info} from '@site/src/components/Admonitions';
 
 # Tella Web 
 
@@ -29,9 +29,9 @@ Tella Web هي أداة مفتوحة المصدر تُمكِّن الأفراد 
 * **إعداد مشاريعك على خادمك**: في هذه الخطوة، يقرر المسؤولون كيف سينظمون أنفسهم لجمع البيانات وإنشاء "مشاريع" وإضافة "موارد" للمستخدمين لتنزيلها على أجهزتهم وتعيين الأدوار و التراخيص لمستخدميهم.
 * **تحضير الأشخاص الميدانيين لبدء إرسال التقارير**: يقوم المستخدمون بتثبيت Tella على أجهزتهم التي تعمل بنظام أندرويد أو آيفون. ثم يتصلون بمشروع Tella Web وبعدها يبدؤون في جمع المعلومات.
 
-<Admonition type="danger">
+<Danger>
 Even though data is transferred to the server securely (SSL), anyone with access to the Tella Web account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
-</Admonition>
+</Danger>
 
 ## When to Use Tella Web {/* #when-to-use-tella-web */}
 
@@ -41,9 +41,9 @@ The Tella Web could be a good alternative if:
 - You will be partnering with Horizontal and you want the same organization to help you with installation, configuration, and maintenance of your Tella Web instance and the Tella apps.
 
 
-<Admonition type="tip">
+<Tip>
 If you need help figuring out if Tella Web is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
-</Admonition>
+</Tip>
 
 
 ## تثبيت الخادم {/* #install-the-server */}
@@ -53,13 +53,13 @@ If you need help figuring out if Tella Web is best for your use-case, [read our 
 يمكنك الاطلاع على ملاحظات إصدار Tella Web [هنا](https://github.com/Horizontal-org/TellaWeb-FrontEnd/releases).
 
 
-<Admonition type="info">
+<Info>
 يمكن لفريقنا تقديم الدعم لتثبيت وتهيئة وصيانة Tella Web. إذا كان لديك أي سؤال أو تحتاج إلى دعم، [اتصل بنا](/contact-us/).
-</Admonition>
+</Info>
 
-<Admonition type="tip">
+<Tip>
 [اتصل بنا](/contact-us/) للوصول إلى خادمنا التجريبي، لأجل التمكن من اختبار Tella Web قبل تثبيته على خادمك.
-</Admonition>
+</Tip>
 
 
 ## إعداد مشروعك على خادمك {/* #set-up-your-project-on-your-server */}
@@ -68,9 +68,9 @@ If you need help figuring out if Tella Web is best for your use-case, [read our 
 
 
 
-<Admonition type="info">
+<Info>
 ألقِ نظرة على [هذا الفيديو التعليمي](/video-tutorials#connections-full-video) للحصول على توضيحات حول كيفية إعداد Tella Web.
-</Admonition>
+</Info>
 
 ### مركز المسؤول {/* #admin-center */}
 
@@ -96,9 +96,9 @@ Admins of the Tella Web instance can export all data out of Tella Web by generat
 
 The backup is a full export everything in the space: including all Projects, Reports, Users and Resources, plus all metadata. The export is a zip file including a collection of CSVs and folders with with the uploaded media. For now, there is no way to import the backup back into a Tella Web instance from the Admin Center, but each backup includes a .sql file that advanced users can use to import the data to the database directly. 
 
-<Admonition type="warning">
+<Warning>
 The information included in the backup is highly sensitive, it not only contains all the data (unencrypted) but also information about the Tella Web users. Please proceed with caution when generating the backup.
-</Admonition>
+</Warning>
 
 
 ### إدارة المشاريع {/* #managing-projects */}
@@ -154,9 +154,9 @@ The information included in the backup is highly sensitive, it not only contains
 
 يتم توليد عنوان موقع المشروع تلقائيا عند إنشاء المشروع. لتحرير عنوان موقع المشروع، انتقل إلى قسم "عام" في شاشة "إعدادات المشروع" وقم بتعديله هناك. هذا العنوان هو الذي سيستخدمه المراسلون للاتصال بالمشروع من خلال تطبيقاتهم.
 
-<Admonition type="info">
+<Info>
 إن عنوان الموقع الذي ستحتاج إلى إرساله إلى المستخدمين يجب أن يبدو كالتالي `https://your-domain.com/p/your-project-name`
-</Admonition>
+</Info>
 
 
 ### إدارة المستخدمين {/* #managing-users */}
@@ -207,9 +207,9 @@ The information included in the backup is highly sensitive, it not only contains
 في قسم "إدارة الوصول" في شاشة "إعدادات المشروع"، يمكن للمسؤولين تعيين المستخدمين الموجودين إلى المشروع. اضغط على حقل "إضافة مستخدمين". ستعرض القائمة المنسدلة جميع المستخدمين على الخادم. قم بالتمرير عبر القائمة أو اكتب اسم مستخدم للبحث عن مستخدم ما.
 بعد تحديد المستخدمين المراد إضافتهم إلى المشروع، اضغط على زر "إضافة" لحفظ التغييرات ومنح الوصول إلى المشروع.
 
-<Admonition type="info">
+<Info>
 تشمل القائمة الكاملة للمستخدمين الذين يمكنهم إرسال التقارير إلى المشروع المستخدمين المدرجين في هذا القسم بالإضافة إلى جميع المسؤولين عن الخوادم.
-</Admonition>
+</Info>
 
 ### إدارة الموارد {/* #managing-resources */}
 
@@ -228,9 +228,9 @@ The information included in the backup is highly sensitive, it not only contains
 - اكتشاف المشاريع التي تمت إضافة كل مورد إليها عن طريق الضغط على معاينة.
 - حذف مَورِد من المساحة.
 
-<Admonition type="info">
+<Info>
 إذا كانت منظمتك تحتاج إلى أنواع أخرى من الموارد أو إذا كنت تواجه مشاكل مع حدود الحجم أو التنسيق، يرجى [الاتصال بنا](/contact-us).
-</Admonition>
+</Info>
 
 #### إضافة موارد إلى المشاريع {/* #adding-resources-to-projects */}
 
@@ -255,9 +255,9 @@ Tella Web لا يحتفظ بأي معلومات حول تنزيلات الموا
 * ‫Tella Android، الإصدار 2.1.0 (152) والإصدارات اللاحقة
 * ‫Tella iOS، الإصدار 1.1.0 (43) والإصدارات اللاحقة
 
-<Admonition type="info">
+<Info>
 يمكنك مشاهدة [هذا الفيديو](/video-tutorials#tella-web) لمعرفة كيفية تهيئة واستخدام التقارير في Tella.
-</Admonition>
+</Info>
 
 
 #### الاتصال بمشاريع Tella Web {/* #connect-to-tella-web-projects */}
@@ -323,13 +323,13 @@ Tella Web لا يحتفظ بأي معلومات حول تنزيلات الموا
 * إذا كان يتم تحميل التقرير بنشاط، فإن زر "إيقاف مؤقت" يسمح لك بإيقاف التحميل مؤقتا، والذي يمكن استئنافه لاحقا باستخدام زر "استئناف".
 * لا يؤثر الخروج من التقرير على حالة التحميل. إذا كان يتم تحميل التقرير بنشاط، ستستمر العملية.
 
-<Admonition type="info">
+<Info>
 بعد تحميل التقرير نحو Tella Web، فلا يمكن حذفه من Tella Web باستخدام تطبيق Tella المحمول. إن حذف التقرير المُرسَل سيؤدي فقط إلى حذف النسخة المحلية منه، وليس التقرير على الخادم.
-</Admonition>
+</Info>
 
-<Admonition type="info">
+<Info>
 إن حذف التقرير خلال عملية الإرسال سيؤدي إلى إلغاء تحميل الملفات التي لم يتم تحميلها بعد، لكن لن يتم حذف الملفات المُرسَلة والملفات المُرسَلة جزئيا التي وصلت بالفعل إلى Tella Web.
-</Admonition>
+</Info>
 
 
 #### البريد الصادر {/* #outbox */}
@@ -346,9 +346,9 @@ Tella Web لا يحتفظ بأي معلومات حول تنزيلات الموا
 - يعرض لسان المُرسَل التقارير التي تم إرسالها بنجاح إلى خادم Tella Web.
 - في علامة لسان المُرسَل، يمكنك عرض ومراجعة التقارير المُرسَلة.
 
-<Admonition type="info">
+<Info>
 إذا انقطع الاتصال بالانترنت، ستنتقل التقارير إلى لسان البريد الصادر وستحتاج إلى استئناف الإرسال يدويا.
-</Admonition>
+</Info>
 
 
 ### الميزات المتقدمة {/* #advanced-features */}
@@ -359,9 +359,9 @@ Tella Web لا يحتفظ بأي معلومات حول تنزيلات الموا
 
 يمكن تفعيل التقرير التلقائي من شاشة تحرير الاتصال.
 
-<Admonition type="info">
+<Info>
 يمكن تفعيل التقرير التلقائي لمشروع واحد فقط في كل مرة
-</Admonition>
+</Info>
 
 #### الحذف التلقائي {/* #auto-delete */}
 
