@@ -1,14 +1,14 @@
 ---
-name: "Production deploy to tella-app.org"
+name: "Testing deploy to beta.tella-app.org"
 on:
   push:
     branches:
-    - "main"
+    - "development"
 jobs:
   deploy:
     runs-on: "ubuntu-latest"
     env:
-      PRODUCTION_URL: "https://tella-app.org/"
+      PRODUCTION_URL: "https://beta.tella-app.org/"
     steps:
     - uses: "actions/checkout@v7"
     - run: "npm install"
@@ -20,5 +20,5 @@ jobs:
         remote_path: "/"
         remote_host: "tella-app.org"
         remote_port: 22
-        remote_user: "tella-app--org"
-        remote_key: "${{ secrets.PRIVATE_KEY }}"
+        remote_user: "beta--tella-app--org"
+        remote_key: "${{ secrets.BETA_PRIVATE_KEY }}"
