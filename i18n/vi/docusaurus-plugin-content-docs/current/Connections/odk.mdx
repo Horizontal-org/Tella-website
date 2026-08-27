@@ -38,7 +38,7 @@ We are work closely with the Kobotoolbox team. If you are interested in using th
 Có sẵn các ứng dụng tương thích với ODK khác, như [Ona](https://ona.io/home/) hoặc [Đám mây ODK](https://https://getodk.org/index.html). Tella có thể hoạt động với bất kỳ ứng dụng nào trong số này.
 
 
-### When to Use ODK {/* #when-to-use-odk */}
+### Khi nào nên sử dụng ODK {/* #when-to-use-odk */}
 
 Chúng tôi khuyến nghị dùng ODK cho những tổ chức cần người dùng thu thập dữ liệu tại thực địa một cách có cấu trúc như điền biểu mẫu. Chúng tôi cũng khuyến nghị cho các tổ chức không có khả năng kỹ thuật để cài đặt và duy trì máy chủ, và muốn sử dụng phiên bản đám mây sẵn có. Nếu bạn sử dụng phiên bản đám mây, hãy nhớ rằng tổ chức lưu trữ phiên bản ODK của bạn sẽ có quyền truy cập vào dữ liệu của bạn. Đây là một yếu tố quan trọng cần xem xét khi quyết định tự lưu trữ hoặc sử dụng dịch vụ đám mây.
 
@@ -48,11 +48,11 @@ ODK và KoboToolbox được sử dụng rộng rãi, có tài liệu hướng d
 If you need help figuring out if ODK is best for your use-case, [read our guide](/for-organizations) or [contact us](/contact-us)!
 </Tip>
 
-## Model Your Data {/* #model-your-data */}
+## Mô hình dữ liệu của bạn {/* #model-your-data */}
 
 KoboToolbox cung cấp hướng dẫn chi tiết về cách tạo dự án và thêm câu hỏi vào biểu mẫu của bạn cũng như cách triển khai chúng để người dùng tại thực địa có thể sử dụng [tại đây](https://support.kobotoolbox.org/overview_of_creating_a_project.html).
 
-## Connect Tella to an ODK Instance to Collect Data {/* #connect-tella-to-an-odk-instance-to-collect-data */}
+## Kết nối Tella với phiên bản ODK để Thu thập Dữ liệu {/* #connect-tella-to-an-odk-instance-to-collect-data */}
 
 Trong tài liệu này, chúng tôi tập trung vào cách thu thập dữ liệu bằng Tella. Có những ứng dụng di động thay thế có thể sử dụng để thu thập dữ liệu trên ODK, bao gồm cả ứng dụng ODK Collect Android. Bạn có thể so sánh các lựa chọn thay thế này [tại đây](/faq#how-is-tella-different-from-other-documentation-apps).
 
@@ -60,12 +60,12 @@ Trong tài liệu này, chúng tôi tập trung vào cách thu thập dữ liệ
 The ODK connection is not available for Tella iOS.
 </Info>
 
-### Connect to an ODK Server {/* #connect-to-an-odk-server */}
+### Kết nối với Máy chủ ODK {/* #connect-to-an-odk-server */}
 Sau khi tạo và triển khai Biểu mẫu bằng bất kỳ máy chủ nào tương thích với ODK, trong Tella, hãy vào **Cài đặt** > **Kết nối** > **+** > **Bộ Công cụ Dữ liệu mở (ODK)**. Điền vào các thông tin sau:
 - **Tên máy chủ**: Một cái tên mô tả cho máy chủ của bạn trong Tella. Tên mà bạn lựa chọn chỉ hiển thị trong ứng dụng và không ảnh hưởng đến kết nối ODK.
 - **URL máy chủ**: URL máy chủ của bạn. Ví dụ, `kc.kobotoolbox.org` nếu bạn đang sử dụng máy chủ công cộng KoboToolbox.
 
-### Fill forms {/* #fill-forms */}
+### Điền biểu mẫu {/* #fill-forms */}
 
 Sau khi kết nối thành công với phiên bản ODK, bạn sẽ thấy một thẻ mới có tên "Biểu mẫu" trong phần **Kết nối** trên màn hình chính của Tella.
 
@@ -74,7 +74,7 @@ Sau khi vào phần **Biểu mẫu**, bạn sẽ thấy danh sách Biểu mẫu 
 Bạn có thể nhấn vào mỗi biểu mẫu trống để bắt đầu điền vào.
 
 
-#### Submit forms {/* #submit-forms */}
+#### Gửi biểu mẫu {/* #submit-forms */}
 
 Khi bạn thu thập dữ liệu và điền vào biểu mẫu, bạn sẽ có các tùy chọn sau:
 - Gửi: gửi biểu mẫu đã điền đến máy chủ ODK.
@@ -86,7 +86,7 @@ Khi bạn thu thập dữ liệu và điền vào biểu mẫu, bạn sẽ có c
 - Tạm dừng/Tiếp tục gửi: bạn có thể bấm tạm dừng và tiếp tục gửi khi sẵn sàng.
 - Tự động tạm dừng gửi khi ngoại tuyến: các biểu mẫu sẽ được gửi đến tab Hộp thư đi nếu quá trình gửi không thành công do sự cố kết nối.
 
-### Supported Question Types {/* #supported-question-types */}
+### Các Loại Câu hỏi được Hỗ trợ {/* #supported-question-types */}
 Dưới đây là tổng quan về các loại câu hỏi ODK được hỗ trợ trong Tella Android. Nếu có loại câu hỏi nào không được Tella hỗ trợ mà điều đó lại quan trọng đối với quy trình làm việc của bạn, vui lòng [liên hệ với chúng tôi](/contact-us).
 
 | **Question type**                                  | **Tella Android** |
@@ -119,7 +119,7 @@ Dưới đây là tổng quan về các loại câu hỏi ODK được hỗ tr�
 | Phạm vi                                            | Không             |
 | XML Bên ngoài                                      | Không             |
 
-### Supported Features {/* #supported-features */}
+### Các Tính năng được Hỗ trợ {/* #supported-features */}
 
 Dưới đây là tổng quan các tính năng ODK được hỗ trợ trong Tella Android. Nếu có một tính năng nào đó quan trọng đối với quy trình làm việc của bạn mà chưa được Tella hỗ trợ, vui lòng [liên hệ với chúng tôi](/contact-us).
 
