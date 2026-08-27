@@ -9,7 +9,7 @@ import {Tip, Danger, Info} from '@site/src/components/Admonitions';
 
 # Nextcloud Connection
 
-[Nextcloud](https://nextcloud.com/) is a fully open source collaboration platform. You can self-host Nextcloud on your server or pay a [Nextcloud trusted provider](https://nextcloud.com/providers/) to host your Nextcloud instance. 
+[Nextcloud](https://nextcloud.com/) is a fully open source collaboration platform. You can self-host Nextcloud on your server or pay a [Nextcloud trusted provider](https://nextcloud.com/providers/) to host your Nextcloud instance.
 
 Tella allows users to sign in to their Nextcloud account directly from Tella and upload files directly to it.
 
@@ -17,13 +17,13 @@ Similarly to other server connections (like [Tella Web](/tella-web), [Google Dri
 
 1. Permettant aux utilisateurs et utilisatrices de collecter des données directement dans le conteneur crypté de Tella.
 2. Ensuring that data is sent directly from Tella to Nextcloud, without needing to install the Nextcloud app on the device or sending the data through a third-party app.
-3. Allowing users to back up their data to a remote server, to lower the risk that data is discovered on their mobile device.
+3. Permettant aux utilisateurs et utilisatrices de sauvegarder leurs données sur un serveur externe, pour réduire le risque que leurs données soient découvertes sur leur appareil mobile.
 4. Assurant que les organisations peuvent conserver les informations importantes même en cas de saisie ou de destruction d'appareils, et les organiser à des fins de recherche, de plaidoyer ou de processus de responsabilisation.
 
 Submissions to Nextcloud take the form of "reports" which include a title, a text description, and files like photos, videos and audio recordings.
 
 <Danger>
-Even though data is transferred to the server securely (SSL), anyone with access to the Nexctloud account can view the files. If you need encrypted file transfers, explore [Nearby Sharing](/nearby-sharing).
+Even though data is encrypted (SSL) when transferred to your Nextcloud account, anyone with access to the Nextcloud account or server can view the files.
 </Danger>
 
 ## When to Use Nextcloud {/* #when-to-use-Nextcloud */}
@@ -31,9 +31,8 @@ Even though data is transferred to the server securely (SSL), anyone with access
 The Nextcloud connection may be particularly well-suited for:
 - Organizations that already use Nextcloud.
 - Organizations that want to use open-source software.
-- Organizations that have the technical capacity to self-host Nextcloud on their servers or can pay a [Nextcloud trusted provider](https://nextcloud.com/providers/) to host Nextcloud for them. If you partner with a Nextcloud provider, remember that the provider will be able to access your data. 
+- Organizations that have the technical capacity to self-host Nextcloud on their servers or can pay a [Nextcloud trusted provider](https://nextcloud.com/providers/) to host Nextcloud for them. If you partner with a Nextcloud provider, remember that the provider will be able to access your data.
 - Users who will be sending mostly media files, with some text and don't need structured data collection like forms or surveys.
-
 
 <Tip>
 If you need help figuring out if Nextcloud is best for your use-case, [check out this guide](/for-organizations#selecting-the-right-type-of-server) or [contact us](/contact-us)!
@@ -54,10 +53,9 @@ In order to connect to Nextcloud:
 * Enter your Nextcloud username and password.
 * Choose a name for the folder where all your Tella submissions will be saved.
 
-
 ## Manage the Nextcloud connection {/* #manage-the-Nextcloud-connection */}
 
-* In **Settings ⚙️** > **Connections** >  **Nextcloud** > **⫶** you can:
+* In **Settings ⚙️** > **Connections** > **Nextcloud** > **⫶** you can:
   - Delete the connection
 
 For the moment it is not possible to sign in to multiple Nextcloud accounts at the same time. If you want to sign-in to another Nextcloud instance, delete your Nextcloud connection and create a new one.
@@ -69,13 +67,13 @@ For the moment it is not possible to sign in to multiple Nextcloud accounts at t
 * The main Nextcloud screen allows navigation between the Drafts, Outbox, and Submitted tabs.
 * Tap the "New report" button at the bottom of the screen to create a new report to Nextcloud.
     * On the "New report" screen you can fill in the report's details, including title, description, and optional attachments of photos, videos and audio recordings.
-* Use the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft without leaving the "New report" screen. 
+* Utilisez le bouton « Enregistrer le brouillon » (en haut à droite de l'écran) pour enregistrer le rapport en tant que brouillon sans quitter l'écran "Nouveau rapport".
     * Afin de pouvoir enregistrer le rapport en tant que brouillon, vous devez au moins saisir son titre
     * Un message apparaîtra à l’écran pour confirmer que le brouillon a bien été enregistré.
-* The "Submit later" button ⏱️ saves the report to the Outbox for manual submission.
-    * The "Outbox" tab is often used when data collectors don’t have access to the internet or if the connection is not stable.
+* Le bouton "Soumettre plus tard" enregistre le rapport dans la boîte d'envoi pour une soumission manuelle.
+    * L'onglet Boîte d'envoi est souvent utilisé lorsque les collecteurs et collecteuses de données n'ont pas accès à Internet ou si la connexion n'est pas stable.
 * The “Submit” button sends the report to the Nextcloud immediately.
-    * If submission fails due to connectivity issues, the report goes to the “Outbox" tab.
+    * Si la soumission échoue en raison de problèmes de connectivité, le rapport est dirigé vers l'onglet "Boîte d'envoi".
     * If the report is submitted correctly, it goes to the “Submitted” tab and a new folder will be created in Nextcloud with the title you selected. All attachments will be added to the folder and the description will be added as a text file inside the folder.
 
 <Info>
@@ -86,14 +84,13 @@ On Android, [a known Nextcloud issue](https://help.Nextcloud.com/t/cant-upload-f
 
 A Draft report is a report that was created and saved but not yet submitted. Drafts reports are useful to save work in progress that can be editted later on. It allows users to create reports offline or over a long period of time before finalizing and sending them. This is especially useful in low-connectivity areas or when a user needs to gather information in multiple stages.
 
-Reports in the Draft tab can be edited.
+Les rapports dans l'onglet Brouillon peuvent être modifiés.
 
-* On the "New report" screen, tap the "Save draft" button 💾 (on the top right of the screen) to save the report as a draft.
+* Sur l'écran "Nouveau rapport", appuyez sur le bouton "Enregistrer le brouillon" pour enregistrer le rapport en tant que brouillon.
     * Un message de confirmation s'affichera et vous pourrez continuer à travailler sur le rapport ou quitter pour y revenir plus tard.
 * Si vous essayez de quitter un rapport sans sauvegarder votre travail, il vous sera demandé de confirmer si vous êtes sûr de quitter sans enregistrer le rapport.
 * Dans l'onglet Brouillon, vous pouvez afficher et gérer les brouillons de rapports. Ouvrez un brouillon de rapport pour continuer à travailler dessus et soumettez-le.
 * You can delete a draft report by tapping on **⫶** > **Delete** or by entering the report and tapping the Delete button.
-
 
 #### Submit a Report to Nextcloud {/* #submit-a-report-to-Nextcloud */}
 
@@ -104,7 +101,7 @@ Reports in the Draft tab can be edited.
 * Sortir d'un rapport n'affecte pas l'état du chargement. Si le rapport est en cours de chargement, le processus continue.
 
 <Info>
-After a report has been uploaded to Nexcoud, it is not possible to delete it on Nextcloud from the Tella mobile app. Deleting a submitted report will only delete the local version of it, not the report on the server. 
+After a report has been uploaded to Nexcoud, it is not possible to delete it on Nextcloud from the Tella mobile app. Deleting a submitted report will only delete the local version of it, not the report on the server.
 </Info>
 
 <Info>
@@ -112,25 +109,25 @@ Deleting a report in the middle of submission will cancel the upload of the file
 </Info>
 
 
-#### Boîte d'envoi {/* #boîte d'envoi */}
-The Outbox tab contains reports that are finalized and have been saved for later submission. Reports in the Outbox are ready to be submitted once the device reconnects to the internet or when the user chooses to manually send them.
+#### Boîte d'envoi {/* #outbox */}
+L'onglet Boîte d'envoi contient les rapports qui ont été finalisés et sauvegardés pour une soumission ultérieure. Les rapports dans la Boîte d'envoi sont prêts à être soumis une fois que l'appareil se reconnecte à Internet ou lorsque l'utilisateur choisit de les envoyer manuellement.
 
-Reports in the Outbox tab cannot be edited.
+Les rapports dans l'onglet Boîte d'envoi ne peuvent pas être modifiés.
 
-To send a report to the Outbox, use the Submit later button (⏱️), at the bottom left of the Submit Report screen.
+Pour envoyer un rapport dans la Boîte d'envoi, utilisez le bouton Soumettre plus tard (⏱️), en bas à gauche de l'écran Soumettre le rapport.
 
-The Outbox contains:
+La Boîte d'envoi contient :
 
 * Soumissions suspendues
 * Envois de rapports interrompus en raison de problèmes de connectivité.
 * Rapports marqués comme « Soumettre plus tard »
 
 <Tip>
-If you need a fully offline way to share files with others, consider exploring [Nearby Sharing](/nearby-sharing).
+If you need to share files with others without an internet connection, check out [Nearby Sharing](/nearby-sharing).
 </Tip>
 
 
-#### Rapports soumis {/* #submit-reports */}
+#### Submitted Reports {/* #submitted-reports */}
 
 - The Submitted tab displays reports that have been successfully submitted to the Nextcloud server.
 - Dans l'onglet Soumis, vous pouvez afficher et examiner les rapports soumis.

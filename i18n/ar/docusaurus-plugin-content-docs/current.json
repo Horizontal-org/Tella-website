@@ -7,24 +7,17 @@
     "message": "المجتمع",
     "description": "The label for category Community in sidebar generalSidebar"
   },
-  "sidebar.generalSidebar.category.اكتشف Tella": {
-    "message": "اكتشف Tella",
-    "description": "The label for category 'اكتشف Tella' in sidebar 'generalSidebar'"
-  },
   "sidebar.generalSidebar.category.index": {
     "message": "index",
     "description": "The label for category 'index' in sidebar 'generalSidebar'"
   },
-  "sidebar.generalSidebar.category.بدء الاستخدام": {
-    "message": "بدء الاستخدام",
-    "description": "The label for category 'بدء الاستخدام' in sidebar 'generalSidebar'"
+  "sidebar.generalSidebar.category.Get Started": {
+    "message": "بدء الاستخدام"
   },
-  "sidebar.generalSidebar.category.شبكات الاتصال": {
-    "message": "شبكات الاتصال",
-    "description": "The label for category 'شبكات الاتصال' in sidebar 'generalSidebar'"
+  "sidebar.generalSidebar.category.Connections": {
+    "message": "اتصالات"
   },
-  "sidebar.generalSidebar.category.المجتمع": {
-    "message": "المجتمع",
-    "description": "The label for category 'المجتمع' in sidebar 'generalSidebar'"
+  "sidebar.generalSidebar.category.Discover Tella": {
+    "message": "اكتشف Tella"
   }
 }
