@@ -10,5 +10,14 @@
   "sidebar.generalSidebar.category.index": {
     "message": "index",
     "description": "The label for category 'index' in sidebar 'generalSidebar'"
+  },
+  "sidebar.generalSidebar.category.Get Started": {
+    "message": "بدء الاستخدام"
+  },
+  "sidebar.generalSidebar.category.Connections": {
+    "message": "اتصالات"
+  },
+  "sidebar.generalSidebar.category.Discover Tella": {
+    "message": "اكتشف Tella"
   }
 }
