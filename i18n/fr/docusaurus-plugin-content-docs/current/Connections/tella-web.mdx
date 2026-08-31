@@ -84,7 +84,7 @@ Admins of the Tella Web space can enable or disable system-wide settings dependi
     - If disabled Tella Web won't store the IP, won't calculate location nor ping any third party service.
 - Retour d'information
     - When enabled, Tella Web shows a feedback box that allow users to send an anonymous note to the Tella team on any feedback request or bug reports that they might find. It doesn't contain any information about the user or the Tella Web instance.
-    - :::info La seule information que nous recevrons est le contenu que vous ajouterez spécifiquement sur le formulaire de commentaires. Si vous souhaitez demander de l'aide ou un suivi avec vous, vous devez nous fournir un moyen sécurisé de vous contacter. :::
+    - To ensure user privacy and anonymity, only essential data is transmitted to our Feedback server through HTTPS POST requests. Logs containing user information (IP address, date and time, and user-agent) are automatically deleted weekly.
     - On the Feedback server database, we only store a copy of the text sent by users in the feedback form and which platform it came from (in this case from "Tella Web" without specifying which server installation).
 
 #### Backup your space {/* #backup-your-space */}
