@@ -11,12 +11,12 @@ import {Note, Tip, Danger, Info} from '@site/src/components/Admonitions';
 
 Tella allows users to sign in to their Google account directly from Tella and to upload files directly to Google Drive.
 
-Similarly to other server connections (like [Tella Web](/tella-web), [Uwazi](/uwazi), [Dropbox](/dropbox), [Nextcloud](/nextcloud) or [Open Data Kit](/odk)), connecting to a Google Drive server enhances the security of data collected on Tella by:
+Tương tự như bất kỳ kết nối máy chủ nào khác (như [Tella Web](/tella-web) hoặc [Uwazi](/uwazi)), việc kết nối với máy chủ ODK sẽ tăng cường tính bảo mật của dữ liệu được thu thập trên Tella bằng cách:
 
 
 1. Cho phép người dùng thu thập dữ liệu trực tiếp trong kho lưu trữ được mã hóa của Tella.
 2. Ensuring that data is sent directly from Tella to Google Drive, without needing to install the Google Drive app on the device or sending the data through a third-party app.
-3. Allowing users to back up their data on a remote location, to lower the risk that data is discovered on their mobile device.
+3. Cho phép người dùng sao lưu dữ liệu của họ trên máy chủ từ xa, giảm thiểu rủi ro dữ liệu bị phát hiện trên thiết bị di động của họ.
 4. Đảm bảo rằng các tổ chức có thể lưu giữ thông tin quan trọng ngay cả trong trường hợp thiết bị bị thu giữ hoặc phá hủy và có thể sắp xếp dữ liệu đó cho quá trình nghiên cứu, vận động hoặc giải trình trách nhiệm.
 
 The Google Drive connection is a an option to collect photos, videos and audios from users in the ground, when there is no technical capacity to install a self-hosted server(like [Tella Web server](/tella-web)) and there is no risk on using a commercial tool like Google.
@@ -32,7 +32,7 @@ The Google Drive connection may not work on [Huawei devices released after May 2
 </Note>
 
 <Danger>
-Even though data is encrypted (SSL) when transferred to your Google Drive account, anyone with access to the Drive account can view the files.
+:::danger Even though data is transferred to the server securely (SSL), anyone with access to the Google Drive account can view the files. If you need encrypted file transfers, explore [Nearby Sharing]{1}. :::
 </Danger>
 
 ## When to Use Google Drive {/* #when-to-use-google-drive */}
@@ -48,19 +48,19 @@ If you need help figuring out if Google Drive is best for your use-case, [read o
 </Tip>
 
 
-## Connect to Google Drive {/* #connect-to-google-drive */}
+## Reconnect Google Drive {/* #connect-to-google-drive */}
 
-In order to connect to a Google Drive:
+Để kết nối với máy chủ Tella Web:
 
 * Khi chế độ tự động báo cáo được bật, bạn có thể bật tính năng xóa tự động, tính năng này sẽ tự động xóa các báo cáo và các tệp liên quan khỏi thiết bị của bạn sau khi chúng được tải lên thành công trên Tella Web. Điều này giúp bạn quản lý dung lượng lưu trữ của thiết bị và đảm bảo rằng dữ liệu nhạy cảm không bị giữ lại một cách vô tình.
-* Select "Google Drive" from the list of available server types.
+* Chọn "Tella Web" từ danh sách các loại máy chủ có sẵn.
 * Login to your Google account using the Google login flow on the web view.
 * Grant Tella permissions to modify your Google Drive (we need this permission to be able to upload files to your drive and create folders in your behalf).
 * Choose a name for the folder where all your Tella submissions will be saved.
 
 ## Manage the Google Drive connection {/* #manage-the-google-drive-connection */}
 
-* In **Settings ⚙️** > **Connections** > **Google Drive** > 3-dots, you can:
+* Trong **Cài đặt ⚙️** > **Kết nối** > **[Tên Dự án]** > 3-chấm, bạn có thể:
   - Delete the connection
 
 For now, it is not possible to sign in to multiple Google accounts at the same time. If you want to sign-in to your Google Drive using a different email, delete your Google Drive connection and create a new one.
@@ -69,15 +69,15 @@ For now, it is not possible to sign in to multiple Google accounts at the same t
 ## Submit to Google Drive {/* #submit-to-google-drive */}
 
 * Once connected, a "Google Drive" card will appear in the "Connections" section of the homescreen. Tap on this card to start submitting to Google Drive.
-* The main Google Drive screen allows navigation between the Drafts, Outbox, and Submitted tabs.
-* Tap the "New report" button at the bottom of the screen to create a new report to Google Drive.
+* Màn hình báo cáo chính cho phép điều hướng giữa các tab Thư nháp, Hộp thư đi và Đã gửi.
+* Nhấn vào nút "Báo cáo mới" ở cuối màn hình để tạo báo cáo mới.
     * On the "New report" screen you can fill in the report's details, including title, description, and optional attachments of photos, videos and audio recordings.
 * Sử dụng nút "Lưu bản nháp" 💾 (ở phía trên bên phải màn hình) để lưu báo cáo dưới dạng bản nháp mà không cần rời khỏi màn hình "Báo cáo mới".
     * Để có thể lưu dưới dạng bản nháp, ít nhất bạn phải nhập tiêu đề của báo cáo.
     * Một thông báo sẽ xuất hiện trên màn hình để xác nhận bản nháp đã được lưu.
 * Nút "Gửi sau" ⏱️ lưu báo cáo vào Hộp thư đi để gửi thủ công.
     * Tab hộp thư đi thường được sử dụng khi người thu thập dữ liệu không có kết nối Internet hoặc nếu kết nối không ổn định.
-* The “Submit” button sends the report to Google Drive immediately.
+* Nút "Gửi" sẽ gửi báo cáo đến dự án Tella Web ngay lập tức.
     * Nếu gửi không thành công do sự cố kết nối, báo cáo sẽ chuyển đến "tab Hộp thư đi".
     * If the report is submitted correctly, it goes to the “Submitted” tab and a new folder will be created in Gooogle Drive with the title you selected and the description you entered. All attachments will be added to the folder.
 
@@ -102,11 +102,11 @@ Reports in the Draft tab can be edited.
 * Việc thoát một báo cáo không ảnh hưởng đến trạng thái tải lên. Nếu báo cáo đang được tải lên thì quá trình này vẫn tiếp tục.
 
 <Info>
-After a report has been uploaded to Google Drive, it is not possible to delete it on Google Drive from the Tella mobile app. Deleting a submitted report will only delete the local version of it, not the report on the server.
+:::info Sau khi báo cáo đã được tải lên Tella Web, bạn không thể xóa báo cáo đó khỏi Tella Web từ ứng dụng di động Tella. Việc xóa một báo cáo đã gửi chỉ xóa phiên bản cục bộ của nó, chứ không xóa báo cáo trên máy chủ. :::
 </Info>
 
 <Info>
-Deleting a report in the middle of submission will cancel the upload of the files that haven’t been uploaded yet, but submitted files and partially submitted files that are already on Google Drive won’t be deleted.
+:::info Việc xóa một báo cáo đang gửi sẽ hủy quá trình tải lên của các tệp chưa được tải, nhưng các tệp đã được gửi và các tệp gửi một phần đã có trên Tella Web sẽ không bị xóa. :::
 </Info>
 
 
@@ -131,7 +131,7 @@ If you need a fully offline way to share files with others, consider exploring [
 
 #### Submitted Reports {/* #submitted-reports */}
 
-- The Submitted tab displays reports that have been successfully submitted to Google Drive.
+- Tab "Đã gửi" hiển thị các báo cáo đã được gửi thành công đến máy chủ Tella Web.
 - Trong tab "Đã gửi", bạn có thể xem và đánh giá lại các báo cáo đã được gửi.
 
 <Info>
