@@ -11,12 +11,12 @@ import {Note, Tip, Danger, Info} from '@site/src/components/Admonitions';
 
 Tella allows users to sign in to their Google account directly from Tella and to upload files directly to Google Drive.
 
-Similarly to other server connections (like [Tella Web](/tella-web), [Uwazi](/uwazi), [Dropbox](/dropbox), [Nextcloud](/nextcloud) or [Open Data Kit](/odk)), connecting to a Google Drive server enhances the security of data collected on Tella by:
+အခြားဆာဗာချိတ်ဆက်မှု ([Tella ဝဘ်](/tella-web) သို့မဟုတ် [Uwazi](/uwazi)) ကဲ့သို့ပင် ODK ဆာဗာသို့ ချိတ်ဆက်ခြင်းသည် Tella တွင် စုဆောင်းထားသော ဒေတာလုံခြုံရေးကို တိုးမြှင့်ပေးသည်-
 
 
 1. အသုံးပြုသူများအား Tella ၏ ကုဒ်ဝှက်ထားသော ကွန်တိန်နာအတွင်း ဒေတာ တိုက်ရိုက်စုဆောင်းခွင့်ပြုခြင်း။
 2. Ensuring that data is sent directly from Tella to Google Drive, without needing to install the Google Drive app on the device or sending the data through a third-party app.
-3. Allowing users to back up their data on a remote location, to lower the risk that data is discovered on their mobile device.
+3. အသုံးပြုသူများအား ၎င်းတို့၏ မိုဘိုင်းစက်ပစ္စည်းပေါ်တွင် ဒေတာရှာဖွေတွေ့ရှိနိုင်ခြေကို လျှော့ချရန် အဝေးထိန်းဆာဗာတွင် ၎င်းတို့၏ဒေတာကို အရန်သိမ်းခွင့်ပြုခြင်း
 4. စက်ပစ္စည်း သိမ်းဆည်းခံရသည့် သို့မဟုတ် ဖျက်ဆီးခံရသည့် အခြေအနေများတွင်ပင် အဖွဲ့အစည်းများသည် အရေးကြီးအချက်အလက်များကို ထိန်းသိမ်းထားနိုင်ပြီး သုတေသန၊ စည်းရုံးရေး သို့မဟုတ် တာဝန်ခံမှုလုပ်ငန်းစဉ်များအတွက် အသုံးပြုရန် ၎င်းကို စီမံခန့်ခွဲနိုင်စေသည်။
 
 The Google Drive connection is a an option to collect photos, videos and audios from users in the ground, when there is no technical capacity to install a self-hosted server(like [Tella Web server](/tella-web)) and there is no risk on using a commercial tool like Google.
@@ -32,7 +32,7 @@ The Google Drive connection may not work on [Huawei devices released after May 2
 </Note>
 
 <Danger>
-Even though data is encrypted (SSL) when transferred to your Google Drive account, anyone with access to the Drive account can view the files.
+:::danger Even though data is transferred to the server securely (SSL), anyone with access to the Google Drive account can view the files. If you need encrypted file transfers, explore [Nearby Sharing]{1}. :::
 </Danger>
 
 ## When to Use Google Drive {/* #when-to-use-google-drive */}
@@ -48,19 +48,19 @@ If you need help figuring out if Google Drive is best for your use-case, [read o
 </Tip>
 
 
-## Connect to Google Drive {/* #connect-to-google-drive */}
+## Reconnect Google Drive {/* #connect-to-google-drive */}
 
-In order to connect to a Google Drive:
+Tella ဝဘ်ဆာဗာသို့ ချိတ်ဆက်ရန်အတွက် -
 
 * ရရှိနိုင်သော ဆာဗာအမျိုးအစားများ စာရင်းမှ "Uwazi" ကို ရွေးချယ်ပါ။
-* Select "Google Drive" from the list of available server types.
+* ရရှိနိုင်သော ဆာဗာအမျိုးအစားများ စာရင်းမှ "Tella ဝဘ်" ကို ရွေးချယ်ပါ။
 * Login to your Google account using the Google login flow on the web view.
 * Grant Tella permissions to modify your Google Drive (we need this permission to be able to upload files to your drive and create folders in your behalf).
 * Choose a name for the folder where all your Tella submissions will be saved.
 
 ## Manage the Google Drive connection {/* #manage-the-google-drive-connection */}
 
-* In **Settings ⚙️** > **Connections** > **Google Drive** > 3-dots, you can:
+* တည်းဖြတ်ရန်- ပရောဂျက်အမည်၊ URL နှင့် သင့်အသုံးပြုသူအမည်တို့ကို ကြည့်ရှုနိုင်ပြီး အဆင့်မြင့်အင်္ဂါရပ်များကို တည်းဖြတ်နိုင်သည့် "ဆာဗာ တည်းဖြတ်ရန်" စခရင်ကို ဖွင့်ပေးသည်။
   - Delete the connection
 
 For now, it is not possible to sign in to multiple Google accounts at the same time. If you want to sign-in to your Google Drive using a different email, delete your Google Drive connection and create a new one.
@@ -69,15 +69,15 @@ For now, it is not possible to sign in to multiple Google accounts at the same t
 ## Submit to Google Drive {/* #submit-to-google-drive */}
 
 * Once connected, a "Google Drive" card will appear in the "Connections" section of the homescreen. Tap on this card to start submitting to Google Drive.
-* The main Google Drive screen allows navigation between the Drafts, Outbox, and Submitted tabs.
-* Tap the "New report" button at the bottom of the screen to create a new report to Google Drive.
+* ပင်မအစီရင်ခံစာ စခရင်သည် မူကြမ်းများ၊ အထွက်ပုံးနှင့် တင်သွင်းပြီး တဘ်များအကြား ရွေ့လျားမှုကို ခွင့်ပြုသည်။
+* အစီရင်ခံစာအသစ်တစ်ခု ဖန်တီးရန် စခရင်အောက်ခြေရှိ "အစီရင်ခံစာအသစ်" ခလုတ်ကို နှိပ်ပါ။
     * On the "New report" screen you can fill in the report's details, including title, description, and optional attachments of photos, videos and audio recordings.
 * "အစီရင်ခံစာအသစ်" စခရင်မှ မထွက်ဘဲ အစီရင်ခံစာကို မူကြမ်းအဖြစ် သိမ်းဆည်းရန် "မူကြမ်း သိမ်းဆည်းရန်" (စခရင်၏ ညာဘက်အပေါ်ရှိ) ခလုတ်ကို အသုံးပြုပါ။
     * မူကြမ်းအဖြစ် သိမ်းဆည်းနိုင်ရန် အနည်းဆုံး အစီရင်ခံစာ ခေါင်းစဉ်ကို ထည့်သွင်းရန် လိုအပ်သည်။
     * မူကြမ်းကို သိမ်းဆည်းထားကြောင်း အတည်ပြုရန် စခရင်တွင် မက်ဆေ့ဂျ်တစ်ခု ပေါ်လာပါမည်။
 * "နောက်မှတင်ပြရန်" ခလုတ်သည် အစီရင်ခံစာကို ကိုယ်တိုင်တင်ပြရန်အတွက် အထွက်ပုံးသို့ သိမ်းဆည်းပေးသည်။
     * ဒေတာစုဆောင်းသူများသည် အင်တာနက်အသုံးပြုခွင့်မရှိသည့်အခါ သို့မဟုတ် ချိတ်ဆက်မှုမတည်ငြိမ်သည့်အခါ အထွက်ပုံးတက်ဘ်ကို မကြာခဏ အသုံးပြုသည်။
-* The “Submit” button sends the report to Google Drive immediately.
+* "တင်သွင်းရန်" ခလုတ်သည် အစီရင်ခံစာကို Tella Web ပရောဂျက်ထံ ချက်ချင်း ပေးပို့သည်။
     * ချိတ်ဆက်မှုဆိုင်ရာ ပြဿနာများကြောင့် တင်ပြမှု ပျက်ကွက်ပါက အစီရင်ခံစာသည် "အထွက်ပုံး တဘ်" သို့ ရောက်သွားပါမည်။
     * If the report is submitted correctly, it goes to the “Submitted” tab and a new folder will be created in Gooogle Drive with the title you selected and the description you entered. All attachments will be added to the folder.
 
@@ -102,11 +102,11 @@ Reports in the Draft tab can be edited.
 * အစီရင်ခံစာမှ ထွက်ခြင်းသည် ၎င်း၏ အပ်လုဒ်အခြေအနေအပေါ် သက်ရောက်မှုမရှိပါ။ အစီရင်ခံစာကို လောလောဆယ် အပ်လုဒ်လုပ်နေပါက လုပ်ငန်းစဉ်ကို ဆက်လက်လုပ်ဆောင်ပါမည်။
 
 <Info>
-After a report has been uploaded to Google Drive, it is not possible to delete it on Google Drive from the Tella mobile app. Deleting a submitted report will only delete the local version of it, not the report on the server.
+:::info အစီရင်ခံစာတစ်ခုကို Tella ဝဘ်သို့ အပ်လုဒ်လုပ်ပြီးသည်နှင့် ၎င်းကို Tella မိုဘိုင်းအက်ပ်မှ ဝဘ်သို့ သွား၍ ဖျက်မရပါ။ တင်သွင်းပြီးသော အစီရင်ခံစာကို ဖျက်ခြင်းသည် ဆာဗာပေါ်ရှိ အစီရင်ခံစာမဟုတ်ဘဲ အသုံးပြုသူ စက်အတွင်းရှိ မိတ္တူကိုသာ ဖျက်ပစ်ပါမည်။ :::
 </Info>
 
 <Info>
-Deleting a report in the middle of submission will cancel the upload of the files that haven’t been uploaded yet, but submitted files and partially submitted files that are already on Google Drive won’t be deleted.
+:::info အစီရင်ခံစာကို တင်သွင်းနေချိန်တွင် ဖျက်ပါက အပ်လုဒ်မလုပ်ရသေးသော မည်သည့်ဖိုင်ကိုမဆို အပ်လုဒ်လုပ်ခြင်း ရပ်သွားပါမည်။ သို့သော် Tella ဝဘ်သို့ တင်သွင်းပြီးသော သို့မဟုတ် တစ်စိတ်တစ်ပိုင်း တင်သွင်းထားသော ဖိုင်များကို ဖျက်မည်မဟုတ်ပါ။ :::
 </Info>
 
 
@@ -131,7 +131,7 @@ If you need a fully offline way to share files with others, consider exploring [
 
 #### Submitted Reports {/* #submitted-reports */}
 
-- The Submitted tab displays reports that have been successfully submitted to Google Drive.
+- အင်တာနက်ချိတ်ဆက်မှု မကောင်းခြင်း သို့မဟုတ် အခြားအကြောင်းများကြောင့် တင်သွင်းမှု ပြတ်တောက်ပါက Tella သည် အစီရင်ခံစာကို အထွက်ပုံးတဘ်သို့ ပေးပို့မည်ဖြစ်ပြီး အင်တာနက်ချိတ်ဆက်မှု တည်ငြိမ်သွားသည်နှင့် အပ်လုဒ် အလိုအလျောက် လုပ်ဆောင်ပါမည်။
 - တင်သွင်းပြီးသော အစီရင်ခံစာများကို တင်သွင်းပြီး တက်ဘ်တွင် ကြည့်ရှုစစ်ဆေးနိုင်ပါသည်။
 
 <Info>
