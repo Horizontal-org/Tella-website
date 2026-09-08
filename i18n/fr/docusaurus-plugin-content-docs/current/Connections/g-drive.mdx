@@ -11,12 +11,12 @@ import {Note, Tip, Danger, Info} from '@site/src/components/Admonitions';
 
 Tella allows users to sign in to their Google account directly from Tella and to upload files directly to Google Drive.
 
-Similarly to other server connections (like [Tella Web](/tella-web), [Uwazi](/uwazi), [Dropbox](/dropbox), [Nextcloud](/nextcloud) or [Open Data Kit](/odk)), connecting to a Google Drive server enhances the security of data collected on Tella by:
+De la même manière que toute autre connexion au serveur (comme [Tella Web](/tella-web) ou [Uwazi](/uwazi)), la connexion au serveur ODK améliore la sécurité des données collectées sur Tella en :
 
 
 1. Permettant aux utilisateurs et utilisatrices de collecter des données directement dans le conteneur crypté de Tella.
 2. Ensuring that data is sent directly from Tella to Google Drive, without needing to install the Google Drive app on the device or sending the data through a third-party app.
-3. Allowing users to back up their data on a remote location, to lower the risk that data is discovered on their mobile device.
+3. Permettant aux utilisateurs et utilisatrices de sauvegarder leurs données sur un serveur externe, pour réduire le risque que leurs données soient découvertes sur leur appareil mobile.
 4. Assurant que les organisations peuvent conserver les informations importantes même en cas de saisie ou de destruction d'appareils, et les organiser à des fins de recherche, de plaidoyer ou de processus de responsabilisation.
 
 The Google Drive connection is a an option to collect photos, videos and audios from users in the ground, when there is no technical capacity to install a self-hosted server(like [Tella Web server](/tella-web)) and there is no risk on using a commercial tool like Google.
@@ -32,7 +32,7 @@ The Google Drive connection may not work on [Huawei devices released after May 2
 </Note>
 
 <Danger>
-Even though data is encrypted (SSL) when transferred to your Google Drive account, anyone with access to the Drive account can view the files.
+:::danger Even though data is transferred to the server securely (SSL), anyone with access to the Google Drive account can view the files. If you need encrypted file transfers, explore [Nearby Sharing]{1}. :::
 </Danger>
 
 ## When to Use Google Drive {/* #when-to-use-google-drive */}
@@ -48,19 +48,19 @@ If you need help figuring out if Google Drive is best for your use-case, [read o
 </Tip>
 
 
-## Connect to Google Drive {/* #connect-to-google-drive */}
+## Reconnecter Google Drive {/* #connect-to-google-drive */}
 
-In order to connect to a Google Drive:
+Pour vous connecter à un serveur Tella Web:
 
 * Utilisez le bouton **Actualiser** en haut à droite pour extraire de nouvelles ressources de l’espace de votre organisation.
-* Select "Google Drive" from the list of available server types.
+* Sélectionnez "Tella Web" dans la liste des types de serveurs disponibles.
 * Login to your Google account using the Google login flow on the web view.
 * Grant Tella permissions to modify your Google Drive (we need this permission to be able to upload files to your drive and create folders in your behalf).
 * Choose a name for the folder where all your Tella submissions will be saved.
 
 ## Manage the Google Drive connection {/* #manage-the-google-drive-connection */}
 
-* In **Settings ⚙️** > **Connections** > **Google Drive** > 3-dots, you can:
+* Dans **Paramètres ⚙️** > **Connexions** > **[Nom du projet]** > 3 points, vous pouvez :
   - Delete the connection
 
 For now, it is not possible to sign in to multiple Google accounts at the same time. If you want to sign-in to your Google Drive using a different email, delete your Google Drive connection and create a new one.
@@ -69,15 +69,15 @@ For now, it is not possible to sign in to multiple Google accounts at the same t
 ## Submit to Google Drive {/* #submit-to-google-drive */}
 
 * Once connected, a "Google Drive" card will appear in the "Connections" section of the homescreen. Tap on this card to start submitting to Google Drive.
-* The main Google Drive screen allows navigation between the Drafts, Outbox, and Submitted tabs.
-* Tap the "New report" button at the bottom of the screen to create a new report to Google Drive.
+* L'écran principal des rapports permet de naviguer entre les onglets Brouillons, Boîte d'envoi et Soumis.
+* Appuyez sur le bouton "Nouveau rapport" en bas de l'écran pour créer un nouveau rapport.
     * On the "New report" screen you can fill in the report's details, including title, description, and optional attachments of photos, videos and audio recordings.
 * Utilisez le bouton « Enregistrer le brouillon » (en haut à droite de l'écran) pour enregistrer le rapport en tant que brouillon sans quitter l'écran "Nouveau rapport".
     * Afin de pouvoir enregistrer le rapport en tant que brouillon, vous devez au moins saisir son titre
     * Un message apparaîtra à l’écran pour confirmer que le brouillon a bien été enregistré.
 * Le bouton "Soumettre plus tard" enregistre le rapport dans la boîte d'envoi pour une soumission manuelle.
     * L'onglet Boîte d'envoi est souvent utilisé lorsque les collecteurs et collecteuses de données n'ont pas accès à Internet ou si la connexion n'est pas stable.
-* The “Submit” button sends the report to Google Drive immediately.
+* Le bouton "Soumettre" envoie immédiatement le rapport au projet Tella Web.
     * Si la soumission échoue en raison de problèmes de connectivité, le rapport est dirigé vers l'onglet "Boîte d'envoi".
     * If the report is submitted correctly, it goes to the “Submitted” tab and a new folder will be created in Gooogle Drive with the title you selected and the description you entered. All attachments will be added to the folder.
 
@@ -102,7 +102,7 @@ Les rapports dans l'onglet Brouillon peuvent être modifiés.
 * Sortir d'un rapport n'affecte pas l'état du chargement. Si le rapport est en cours de chargement, le processus continue.
 
 <Info>
-After a report has been uploaded to Google Drive, it is not possible to delete it on Google Drive from the Tella mobile app. Deleting a submitted report will only delete the local version of it, not the report on the server.
+:::info Une fois qu'un rapport a été chargé sur Tella Web, il n'est plus possible de le supprimer partir de l'application mobile Tella. La suppression d'un rapport soumis supprimera uniquement la version locale de celui-ci, pas le rapport sur le serveur. :::
 </Info>
 
 <Info>
@@ -131,7 +131,7 @@ If you need a fully offline way to share files with others, consider exploring [
 
 #### Submitted Reports {/* #submitted-reports */}
 
-- The Submitted tab displays reports that have been successfully submitted to Google Drive.
+- Lorsque la soumission en arrière-plan est activée, quelle que soit votre activité dans Tella ou la fermeture de l'application, le processus de téléchargement se poursuivra sans interruption. Il fonctionnera également si les rapports automatiques sont activés et que vous fermez l'application après avoir collecté les informations.
 - Dans l'onglet Soumis, vous pouvez afficher et examiner les rapports soumis.
 
 <Info>
