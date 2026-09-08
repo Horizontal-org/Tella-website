@@ -7,13 +7,13 @@ slug: /nextcloud
 
 import {Tip, Danger, Info} from '@site/src/components/Admonitions';
 
-# Nextcloud Connection
+# اتصل بنا إذا كنت بحاجة إلى مساعدة
 
 [Nextcloud](https://nextcloud.com/) is a fully open source collaboration platform. You can self-host Nextcloud on your server or pay a [Nextcloud trusted provider](https://nextcloud.com/providers/) to host your Nextcloud instance.
 
 Tella allows users to sign in to their Nextcloud account directly from Tella and upload files directly to it.
 
-Similarly to other server connections (like [Tella Web](/tella-web), [Google Drive](/g-drive), [Dropbox](/dropbox), [Uwazi](/uwazi) or [Open Data Kit](/odk)), connecting to a Nextcloud server enhances the security of data collected on Tella by:
+كما هو الشأن مع أي اتصال آخر بخادم (مثل [Tella Web](/tella-web) أو [Google Drive](/g-drive) أو [Dropbox](/dropbox) أو [Nextcloud](/uwazi) أو [Uwazi](/odk))، يعزّز الاتصال بخادم ODK أمن البيانات المُجمَّعة على Tella من خلال:
 
 1. السماح للمستخدمين بجمع البيانات مباشرة داخل حاوية Tella المُعمّاة.
 2. Ensuring that data is sent directly from Tella to Nextcloud, without needing to install the Nextcloud app on the device or sending the data through a third-party app.
@@ -23,7 +23,7 @@ Similarly to other server connections (like [Tella Web](/tella-web), [Google Dri
 Submissions to Nextcloud take the form of "reports" which include a title, a text description, and files like photos, videos and audio recordings.
 
 <Danger>
-Even though data is encrypted (SSL) when transferred to your Nextcloud account, anyone with access to the Nextcloud account or server can view the files.
+:::danger Even though data is transferred to the server securely (SSL), anyone with access to the Nexctloud account can view the files. If you need encrypted file transfers, explore [Nearby Sharing]{1}. :::
 </Danger>
 
 ## When to Use Nextcloud {/* #when-to-use-Nextcloud */}
@@ -43,12 +43,12 @@ For now, we don't support two-factor authentication (2FA) for Nextcloud connecti
 </Tip>
 
 
-## Connect to Nextcloud {/* #connect-to-Nextcloud */}
+## Go to Nextcloud {/* #connect-to-Nextcloud */}
 
 In order to connect to Nextcloud:
 
 * حدد "Nextcloud" من قائمة أنواع الخوادم المتاحة.
-* Select "Nextcloud" from the list of available server types.
+* اختر "Tella Web" من قائمة أنواع الخوادم المتاحة.
 * Type the URL of your Nextcloud server.
 * Enter your Nextcloud username and password.
 * Choose a name for the folder where all your Tella submissions will be saved.
@@ -64,15 +64,15 @@ For the moment it is not possible to sign in to multiple Nextcloud accounts at t
 ## Submit to Nextcloud {/* #submit-to-Nextcloud */}
 
 * Once connected, a "Nextcloud" card will appear in the "Connections" section of the homescreen. Tap on this card to start submitting to Nextcloud.
-* The main Nextcloud screen allows navigation between the Drafts, Outbox, and Submitted tabs.
-* Tap the "New report" button at the bottom of the screen to create a new report to Nextcloud.
+* تسمح الشاشة الرئيسية للتقارير بالتنقل بين ألسنة المُسوَّدات والبريد الصادر ولسان المُرسَل.
+* المس زر "تقرير جديد" في أسفل الشاشة لإنشاء تقرير جديد.
     * On the "New report" screen you can fill in the report's details, including title, description, and optional attachments of photos, videos and audio recordings.
 * استخدم زر "حفظ المُسوَّدة" (في أعلى يمين الشاشة) لحفظ التقرير كمُسوَّدة دون مغادرة شاشة "تقرير جديد".
     * لكي تتمكن من الحفظ كمُسوَّدة، ستحتاج على الأقل إلى إدخال عنوان للتقرير.
     * ستظهر رسالة على الشاشة لتأكيد حفظ المُسوَّدة.
 * يحفظ زر "الإرسال لاحقا" التقرير إلى البريد الصادر للإرسال اليدوي.
     * غالبا ما يتم استخدام لسان البريد الصادر عندما لا يكون لدى جامعي البيانات اتصال بالانترنت أو إذا كانت الاتصال غير مستقر.
-* The “Submit” button sends the report to the Nextcloud immediately.
+* يرسل زر "إرسال" التقرير إلى مشروع Tella Web فورا.
     * إذا فشل الإرسال بسبب مشاكل في الاتصال، يذهب التقرير إلى لسان "البريد الصادر".
     * If the report is submitted correctly, it goes to the “Submitted” tab and a new folder will be created in Nextcloud with the title you selected. All attachments will be added to the folder and the description will be added as a text file inside the folder.
 
@@ -101,11 +101,11 @@ Reports in the Draft tab can be edited.
 * لا يؤثر الخروج من التقرير على حالة التحميل. إذا كان يتم تحميل التقرير بنشاط، ستستمر العملية.
 
 <Info>
-After a report has been uploaded to Nexcoud, it is not possible to delete it on Nextcloud from the Tella mobile app. Deleting a submitted report will only delete the local version of it, not the report on the server.
+:::info بعد تحميل التقرير نحو Tella Web، فلا يمكن حذفه من Tella Web باستخدام تطبيق Tella المحمول. إن حذف التقرير المُرسَل سيؤدي فقط إلى حذف النسخة المحلية منه، وليس التقرير على الخادم. :::
 </Info>
 
 <Info>
-Deleting a report in the middle of submission will cancel the upload of the files that haven’t been uploaded yet, but submitted files and partially submitted files that are already on Nextcloud won’t be deleted.
+:::info إن حذف التقرير خلال عملية الإرسال سيؤدي إلى إلغاء تحميل الملفات التي لم يتم تحميلها بعد، لكن لن يتم حذف الملفات المُرسَلة والملفات المُرسَلة جزئيا التي وصلت بالفعل إلى Tella Web. :::
 </Info>
 
 
@@ -129,7 +129,7 @@ If you need to share files with others without an internet connection, check out
 
 #### Submitted Reports {/* #submitted-reports */}
 
-- The Submitted tab displays reports that have been successfully submitted to the Nextcloud server.
+- يعرض لسان المُرسَل التقارير التي تم إرسالها بنجاح إلى خادم Tella Web.
 - في علامة لسان المُرسَل، يمكنك عرض ومراجعة التقارير المُرسَلة.
 
 <Info>
