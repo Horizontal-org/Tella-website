@@ -13,7 +13,7 @@ import {Tip, Danger, Info} from '@site/src/components/Admonitions';
 
 Tella allows users to sign in to their Nextcloud account directly from Tella and upload files directly to it.
 
-Similarly to other server connections (like [Tella Web](/tella-web), [Google Drive](/g-drive), [Dropbox](/dropbox), [Uwazi](/uwazi) or [Open Data Kit](/odk)), connecting to a Nextcloud server enhances the security of data collected on Tella by:
+Da mesma forma para todas as outras conexões de servidor([Tella Web](/tella-web), [Google Drive](/g-drive), [Nextcloud](/dropbox), [Dropbox](/uwazi), and [Open Data Kit](/odk)), conectando para Uwazi aumenta a segurança dos dados coletados Tella por:
 
 1. Permitir aos usuários coletar dados diretamente de dentro do contêiner criptografado do Tella.
 2. Ensuring that data is sent directly from Tella to Nextcloud, without needing to install the Nextcloud app on the device or sending the data through a third-party app.
@@ -23,7 +23,7 @@ Similarly to other server connections (like [Tella Web](/tella-web), [Google Dri
 Submissions to Nextcloud take the form of "reports" which include a title, a text description, and files like photos, videos and audio recordings.
 
 <Danger>
-Even though data is encrypted (SSL) when transferred to your Nextcloud account, anyone with access to the Nextcloud account or server can view the files.
+:::danger Even though data is transferred to the server securely (SSL), anyone with access to the Nexctloud account can view the files. If you need encrypted file transfers, explore [Nearby Sharing]{1}. :::
 </Danger>
 
 ## When to Use Nextcloud {/* #when-to-use-Nextcloud */}
@@ -48,7 +48,7 @@ For now, we don't support two-factor authentication (2FA) for Nextcloud connecti
 In order to connect to Nextcloud:
 
 * Navegue para: ** Configurações ⚙️** > **Conexões** > **+**
-* Select "Nextcloud" from the list of available server types.
+* Selecione "Tella Web" da lista de tipos de servidores disponíveis.
 * Type the URL of your Nextcloud server.
 * Enter your Nextcloud username and password.
 * Choose a name for the folder where all your Tella submissions will be saved.
@@ -64,15 +64,15 @@ For the moment it is not possible to sign in to multiple Nextcloud accounts at t
 ## Submit to Nextcloud {/* #submit-to-Nextcloud */}
 
 * Once connected, a "Nextcloud" card will appear in the "Connections" section of the homescreen. Tap on this card to start submitting to Nextcloud.
-* The main Nextcloud screen allows navigation between the Drafts, Outbox, and Submitted tabs.
-* Tap the "New report" button at the bottom of the screen to create a new report to Nextcloud.
+* A tela principal de relatórios permite a navegação entre as abas Rascunhos, Caixa de Saída e Submetidos.
+* Toque no botão "Novo relatório" na parte inferior da tela para criar um novo relatório.
     * On the "New report" screen you can fill in the report's details, including title, description, and optional attachments of photos, videos and audio recordings.
 * Use o botão "Salvar rascunho" 💾 (na parte superior direita da tela) para salvar o relatório sem deixar a tela de "Novo relatório".
     * Para ser capaz de salvar como um rascunho, você precisa ao menos inserir o título do relatório.
     * Uma mensagem será exibida na tela para confirmar que o rascunho foi salvo.
 * O botão "Submeter mais tarde" ⏱️ salva o relatório na Caixa de Saída para submissão manual.
     * A aba caixa de saída é frequentemente usada quando os coletores de dados não possuem acesso à internet ou se a conexão não estiver estável.
-* The “Submit” button sends the report to the Nextcloud immediately.
+* O botão “Submeter” envia o relatório para o projeto Tella Web imediatamente.
     * Caso a submissão falhe devido a problemas de conectividade, o relatório irá para a aba “Caixa de Saída”.
     * If the report is submitted correctly, it goes to the “Submitted” tab and a new folder will be created in Nextcloud with the title you selected. All attachments will be added to the folder and the description will be added as a text file inside the folder.
 
@@ -101,11 +101,11 @@ Reports in the Draft tab can be edited.
 * Sair de um relatório não afeta o status do carregamento. Se o relatório está ativamente sendo carregado, o processo continua.
 
 <Info>
-After a report has been uploaded to Nexcoud, it is not possible to delete it on Nextcloud from the Tella mobile app. Deleting a submitted report will only delete the local version of it, not the report on the server.
+:::info Após um relatório ser carregado no Tella Web, não é possível excluí-lo no Tella Web por meio do aplicativo Tella em dispositivos móveis. Excluir um relatório submetido somente irá excluir a versão local dele, não o relatório no servidor. :::
 </Info>
 
 <Info>
-Deleting a report in the middle of submission will cancel the upload of the files that haven’t been uploaded yet, but submitted files and partially submitted files that are already on Nextcloud won’t be deleted.
+:::info Excluir um relatório durante a submissão cancelará o carregamento dos arquivos que ainda não foram carregados, mas os arquivos submetidos e os parcialmente submetidos que já estão no Tella Web não serão excluídos. :::
 </Info>
 
 
@@ -129,7 +129,7 @@ If you need to share files with others without an internet connection, check out
 
 #### Submitted Reports {/* #submitted-reports */}
 
-- The Submitted tab displays reports that have been successfully submitted to the Nextcloud server.
+- A aba Submetidos exibe relatórios submetidos com sucesso no servidor Tella Web.
 - Na aba Submetidos, você pode visualizar e revisar os relatórios submetidos.
 
 <Info>
