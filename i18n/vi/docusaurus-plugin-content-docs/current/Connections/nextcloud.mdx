@@ -13,7 +13,7 @@ import {Tip, Danger, Info} from '@site/src/components/Admonitions';
 
 Tella allows users to sign in to their Nextcloud account directly from Tella and upload files directly to it.
 
-Similarly to other server connections (like [Tella Web](/tella-web), [Google Drive](/g-drive), [Dropbox](/dropbox), [Uwazi](/uwazi) or [Open Data Kit](/odk)), connecting to a Nextcloud server enhances the security of data collected on Tella by:
+Tương tự như bất kỳ kết nối máy chủ nào khác (như [Tella Web](/tella-web) hoặc [Uwazi](/g-drive)), việc kết nối với máy chủ ODK sẽ tăng cường tính bảo mật của dữ liệu được thu thập trên Tella bằng cách:
 
 1. Cho phép người dùng thu thập dữ liệu trực tiếp trong kho lưu trữ được mã hóa của Tella.
 2. Ensuring that data is sent directly from Tella to Nextcloud, without needing to install the Nextcloud app on the device or sending the data through a third-party app.
@@ -23,7 +23,7 @@ Similarly to other server connections (like [Tella Web](/tella-web), [Google Dri
 Submissions to Nextcloud take the form of "reports" which include a title, a text description, and files like photos, videos and audio recordings.
 
 <Danger>
-Even though data is encrypted (SSL) when transferred to your Nextcloud account, anyone with access to the Nextcloud account or server can view the files.
+:::danger Even though data is transferred to the server securely (SSL), anyone with access to the Nexctloud account can view the files. If you need encrypted file transfers, explore [Nearby Sharing]{1}. :::
 </Danger>
 
 ## When to Use Nextcloud {/* #when-to-use-Nextcloud */}
@@ -43,12 +43,12 @@ For now, we don't support two-factor authentication (2FA) for Nextcloud connecti
 </Tip>
 
 
-## Connect to Nextcloud {/* #connect-to-Nextcloud */}
+## Go to Nextcloud {/* #connect-to-Nextcloud */}
 
 In order to connect to Nextcloud:
 
 * Khi chế độ tự động báo cáo được bật, bạn có thể bật tính năng xóa tự động, tính năng này sẽ tự động xóa các báo cáo và các tệp liên quan khỏi thiết bị của bạn sau khi chúng được tải lên thành công trên Tella Web. Điều này giúp bạn quản lý dung lượng lưu trữ của thiết bị và đảm bảo rằng dữ liệu nhạy cảm không bị giữ lại một cách vô tình.
-* Select "Nextcloud" from the list of available server types.
+* Chọn "Tella Web" từ danh sách các loại máy chủ có sẵn.
 * Type the URL of your Nextcloud server.
 * Enter your Nextcloud username and password.
 * Choose a name for the folder where all your Tella submissions will be saved.
@@ -64,15 +64,15 @@ For the moment it is not possible to sign in to multiple Nextcloud accounts at t
 ## Submit to Nextcloud {/* #submit-to-Nextcloud */}
 
 * Once connected, a "Nextcloud" card will appear in the "Connections" section of the homescreen. Tap on this card to start submitting to Nextcloud.
-* The main Nextcloud screen allows navigation between the Drafts, Outbox, and Submitted tabs.
-* Tap the "New report" button at the bottom of the screen to create a new report to Nextcloud.
+* Màn hình báo cáo chính cho phép điều hướng giữa các tab Thư nháp, Hộp thư đi và Đã gửi.
+* Nhấn vào nút "Báo cáo mới" ở cuối màn hình để tạo báo cáo mới.
     * On the "New report" screen you can fill in the report's details, including title, description, and optional attachments of photos, videos and audio recordings.
 * Sử dụng nút "Lưu bản nháp" 💾 (ở phía trên bên phải màn hình) để lưu báo cáo dưới dạng bản nháp mà không cần rời khỏi màn hình "Báo cáo mới".
     * Để có thể lưu dưới dạng bản nháp, ít nhất bạn phải nhập tiêu đề của báo cáo.
     * Một thông báo sẽ xuất hiện trên màn hình để xác nhận bản nháp đã được lưu.
 * Nút "Gửi sau" ⏱️ lưu báo cáo vào Hộp thư đi để gửi thủ công.
     * Tab hộp thư đi thường được sử dụng khi người thu thập dữ liệu không có kết nối Internet hoặc nếu kết nối không ổn định.
-* The “Submit” button sends the report to the Nextcloud immediately.
+* Nút "Gửi" sẽ gửi báo cáo đến dự án Tella Web ngay lập tức.
     * Nếu gửi không thành công do sự cố kết nối, báo cáo sẽ chuyển đến "tab Hộp thư đi".
     * If the report is submitted correctly, it goes to the “Submitted” tab and a new folder will be created in Nextcloud with the title you selected. All attachments will be added to the folder and the description will be added as a text file inside the folder.
 
@@ -101,11 +101,11 @@ Reports in the Draft tab can be edited.
 * Việc thoát một báo cáo không ảnh hưởng đến trạng thái tải lên. Nếu báo cáo đang được tải lên thì quá trình này vẫn tiếp tục.
 
 <Info>
-After a report has been uploaded to Nexcoud, it is not possible to delete it on Nextcloud from the Tella mobile app. Deleting a submitted report will only delete the local version of it, not the report on the server.
+:::info Sau khi báo cáo đã được tải lên Tella Web, bạn không thể xóa báo cáo đó khỏi Tella Web từ ứng dụng di động Tella. Việc xóa một báo cáo đã gửi chỉ xóa phiên bản cục bộ của nó, chứ không xóa báo cáo trên máy chủ. :::
 </Info>
 
 <Info>
-Deleting a report in the middle of submission will cancel the upload of the files that haven’t been uploaded yet, but submitted files and partially submitted files that are already on Nextcloud won’t be deleted.
+:::info Việc xóa một báo cáo đang gửi sẽ hủy quá trình tải lên của các tệp chưa được tải, nhưng các tệp đã được gửi và các tệp gửi một phần đã có trên Tella Web sẽ không bị xóa. :::
 </Info>
 
 
@@ -129,7 +129,7 @@ If you need to share files with others without an internet connection, check out
 
 #### Submitted Reports {/* #submitted-reports */}
 
-- The Submitted tab displays reports that have been successfully submitted to the Nextcloud server.
+- Tab "Đã gửi" hiển thị các báo cáo đã được gửi thành công đến máy chủ Tella Web.
 - Trong tab "Đã gửi", bạn có thể xem và đánh giá lại các báo cáo đã được gửi.
 
 <Info>
