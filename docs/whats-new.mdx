@@ -35,18 +35,20 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 
 
 
-### iOS: Tella 3.2.0 (153) - Released on August 10, 2026 {/* #ios-tella-320153---released-on-aug-10-2026 */}
-- Uwazi connection improvements:
-    - Primary Documents' field now allow PDF selection from both the Tella Vault or the device.
-    - Supporting Documents can now include all types of file selection from the Tella Vault or the device.
-    - Draft, Outbox and New entity templates update when pressing the "Refresh Templates" button.
-- All translation management is now done on Weblate. Please considering contributing by helping us [localize Tella](/translating-tella).
+### iOS: Tella 3.3.0 (159) - Released on September 14, 2026 {/* #ios-tella-330159---released-on-sep-14-2026 */}
+- Improvements to the Tella [Camera](/features#camera-photos-and-videos):
+    - Added zoom when taking photos or recording videos.
+    - Added automatic flash mode: the flash can now be set to on, off or auto.
+- Added the possibility to zoom in on images and videos while previewing them.
+- Added support for the Geolocation property in the [Uwazi](/uwazi) connection.
+- Added a warning when users try to delete a file from their Tella vault that is pending submission (in Drafts or Outbox) in one of their connections.
+- Loaded volunteer translations from Ukrainian and Arabic.
 - Bug fixes and minor improvements:
-    - Fixed a crash that happened during concurrent large video imports.
-    - Refactored the format of all the app's strings to maximize translation memory usage.
-    - Improved error messages for incorrect PIN in Nearby Sharing's manual connection.
-    - Fixed "Welcome to Tella" screen that was shown briefly before the Lock screen.
-    - UX fixes for smaller screens.
+    - Added a visual indicator (green check) when a file is successfully sent through Nearby Sharing.
+    - Fixed a visual bug in the background activity tray on older iPhones.
+    - Added a confirmation prompt when users try to go back while waiting to receive files in Nearby Sharing.
+- Technical improvements:
+    - Raised the minimum supported iOS version to [iOS 15](/faq#what-phones-support-tella), as required by Apple.
 
 
 
@@ -428,6 +430,19 @@ Also in this update:
 
 ### iOS {/* #ios-previous */}
 
+#### iOS: Tella 3.2.0 (153) - Released on August 10, 2026 {/* #ios-tella-320153---released-on-aug-10-2026 */}
+- Uwazi connection improvements:
+    - Primary Documents' field now allow PDF selection from both the Tella Vault or the device.
+    - Supporting Documents can now include all types of file selection from the Tella Vault or the device.
+    - Draft, Outbox and New entity templates update when pressing the "Refresh Templates" button.
+- All translation management is now done on Weblate. Please consider contributing by helping us [localize Tella](/translating-tella).
+- Bug fixes and minor improvements:
+    - Fixed a crash that happened during concurrent large video imports.
+    - Refactored the format of all the app's strings to maximize translation memory usage.
+    - Improved error messages for incorrect PIN in Nearby Sharing's manual connection.
+    - Fixed "Welcome to Tella" screen that was shown briefly before the Lock screen.
+    - UX fixes for smaller screens.
+
 #### iOS: Tella 3.1.0 (150) - Released on July 15, 2026 {/* #ios-tella-310150---released-on-jul-15-2026 */}
 - Implemented security fixes detected by our most recent [security audit](/security-and-privacy#security-audits)
     - Moved encryption keys to the Keychain. 
@@ -437,7 +452,7 @@ Also in this update:
     - Added an Unlock button when authenticating with Password.
     - Improved error messaging for failed Uwazi submissions: the app now shows a specific error when the failure is caused by an unsupported field marked as required.
 
-### iOS: Tella 3.0.0 (144) - Released on May 20, 2026  {/* #ios-tella-300-144---released-on-may-20-2026 */}
+#### iOS: Tella 3.0.0 (144) - Released on May 20, 2026 {/* #ios-tella-300-144---released-on-may-20-2026 */}
 - Implemented [Nearby Sharing](/nearby-sharing): Nearby Sharing lets users securely share files in physical proximity. Nearby Sharing is fully offline, available across platforms and devices, and assures end-to-end encryption. 
 - Implemented security fixes detected by our most recent security audit (to be published soon!).
 - New languages support: Ukrainian.
