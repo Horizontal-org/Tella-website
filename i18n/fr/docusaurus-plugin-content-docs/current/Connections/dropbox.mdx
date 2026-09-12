@@ -1,21 +1,21 @@
 ---
-id: dropbox
-title: Dropbox 
-description: Tella allows users to conveniently upload photos, videos and audio recordings to Dropbox.
-slug: /dropbox
+id : dropbox
+title : Dropbox 
+description : Tella permet à ses utilisateurs de facilement importer des photos, vidéos et enregistrements audios sur Dropbox.
+slug : /dropbox
 ---
 
 import {Note, Tip, Danger, Info} from '@site/src/components/Admonitions';
 
-# Dropbox Connection
+# Connexion à Dropbox
 
-[Dropbox](https://www.dropbox.com/) is commercial file hosting service that offers free and paid plans.
+[Dropbox](https://www.dropbox.com/) est un service commercial de stockage de fichiers en ligne qui propose des offres gratuites et payantes.
 
-Tella allows users to sign into their Dropbox account directly from Tella and upload files directly to it.
+Tella permet à ses utilisateurs de se connecter à leur compte Dropbox directement depuis Tella et d'y ajouter des fichiers.
 
-Similarly to other server connections (like [Tella Web](/tella-web), [Google Drive](/g-drive), [Nextcloud](/nextcloud), [Uwazi](/uwazi) or [Open Data Kit](/odk)), connecting to a Dropbox server enhances the security of data collected on Tella by:
+Comme les autres connexions à un serveur (comme [Tella Web](/tella-web), [Google Drive](/g-drive), [Nextcloud](/nextcloud), [Uwazi](/uwazi) ou [Open Data Kit](/odk)), se connecter à un serveur Dropbox augmente la sécurité des données stockées dans Tella en:
 
-1. Permettant aux utilisateurs et utilisatrices de collecter des données directement dans le conteneur crypté de Tella.
+1. Permettant aux utilisateurs et utilisatrices de collecter des données directement dans le conteneur chiffré de Tella.
 2. Ensuring that data is sent directly from Tella to Dropbox, without needing to install the Dropbox app on the device or sending the data through a third-party app.
 3. Permettant aux utilisateurs et utilisatrices de sauvegarder leurs données sur un serveur externe, pour réduire le risque que leurs données soient découvertes sur leur appareil mobile.
 4. Assurant que les organisations peuvent conserver les informations importantes même en cas de saisie ou de destruction d'appareils, et les organiser à des fins de recherche, de plaidoyer ou de processus de responsabilisation.
@@ -30,7 +30,7 @@ Even though data is encrypted (SSL) when transferred to your Dropbox account, an
 The Dropbox connection is not available in Tella Android FOSS, because it uses closed-sourced libraries.
 </Note>
 
-## When to Use Dropbox {/* #when-to-use-dropbox */}
+## Quand utiliser Dropbox {/* #when-to-use-dropbox */}
 
 The Dropbox connection may be particularly well-suited for:
 - Organizations that already use Dropbox.
@@ -43,27 +43,27 @@ The Dropbox connection may be particularly well-suited for:
 If you need help figuring out if Dropbox is best for your use-case, [check out this guide](/for-organizations#selecting-the-right-type-of-server) or [contact us](/contact-us)!
 </Tip>
 
-## Connect to Dropbox {/* #connect-to-dropbox */}
+## Se connecter à Dropbox {/* #connect-to-dropbox */}
 
-In order to connect to Dropbox:
+Prêt à se connecter à Dropbox:
 
 * Utilisez le bouton **Actualiser** en haut à droite pour extraire de nouvelles ressources de l’espace de votre organisation.
 * Select "Dropbox" from the list of available server types.
 * A new page will automatically open in your phone's web browser and direct you to Dropbox.
-* Login your Dropbox account in your web browser.
+* Connectez-vous à votre compte Dropbox dans votre navigateur.
 * Grant Tella permissions to modify your Dropbox account (we need this permission to be able to upload files to your drive and create folders on your behalf).
 
-## Manage the Dropbox connection {/* #manage-the-dropbox-connection */}
+## Gérer la connexion à Dropbox {/* #manage-the-dropbox-connection */}
 
-* In **Settings ⚙️** > **Connections** > **Dropbox** > **⫶** you can:
-  - Delete the connection
+* Sous **Paramètres ⚙️** > **Connexions** > **Dropbox** > **⫶** vous pouvez:
+  - Supprimer la connexion
 
 For the moment it is not possible to sign into multiple Dropbox accounts at the same time. If you want to sign-in with another account, delete your Dropbox connection and create a new one.
 
 
 ## Submit to Dropbox {/* #submit-to-dropbox */}
 
-* Once connected, a "Dropbox" card will appear in the "Connections" section of the homescreen. Tap on this card to start submitting to Dropbox.
+* Une fois connecté, une fenêtre "Dropbox" va apparaître dans la partie "Connections" de l'écran d'accueil. Appuyez sur cette.
 * The main Dropbox screen allows navigation between the Drafts, Outbox, and Submitted tabs.
 * Tap the "New report" button at the bottom of the screen to create a new report to Dropbox.
     * On the "New report" screen you can fill in the report's details, including title, description, and optional attachments of photos, videos and audio recordings.
