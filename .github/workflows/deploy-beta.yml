@@ -1,5 +1,5 @@
 ---
-name: "Testing deploy to beta.tella-app.org"
+name: "Testing deploy to beta.tella.app"
 on:
   push:
     branches:
@@ -8,7 +8,7 @@ jobs:
   deploy:
     runs-on: "ubuntu-latest"
     env:
-      PRODUCTION_URL: "https://beta.tella-app.org/"
+      PRODUCTION_URL: "https://beta.tella.app/"
     steps:
     - uses: "actions/checkout@v7"
     - run: "npm install"
