@@ -13,9 +13,12 @@ jobs:
     - uses: "actions/checkout@v7"
     - run: "npm install"
     - run: "npm run build"
+    - run: "apt install -y rmlint"
+    - run: "rmlint -c sh:hardlink build"
+    - run: "./rmlint.sh -d"
     - uses: "burnett01/rsync-deployments@v9"
       with:
-        switches: "-av --delete-after"
+        switches: "-av --delete-after -H"
         path: "build/"
         remote_path: "/"
         remote_host: "tella-app.org"
