@@ -262,7 +262,7 @@ const config = {
     [
       '@docusaurus/plugin-pwa',
       {
-        debug: true,
+        debug: false,
         offlineModeActivationStrategies: [
           'appInstalled',
           'standalone',
@@ -272,7 +272,27 @@ const config = {
           {
             tagName: 'link',
             rel: 'icon',
+            type: 'image/svg+xml',
             href: '/img/logo.svg',
+          },
+          {
+            tagName: 'link',
+            rel: 'icon',
+            type: 'image/png',
+            sizes: '192x192',
+            href: '/img/pwa/icon-192.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            sizes: '180x180',
+            href: '/img/pwa/apple-touch-icon.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'mask-icon',
+            href: '/img/pwa/safari-pinned-tab.svg',
+            color: '#2c6c97',
           },
           {
             tagName: 'link',
@@ -283,6 +303,26 @@ const config = {
             tagName: 'meta',
             name: 'theme-color',
             content: '#2c6c97',
+          },
+          {
+            tagName: 'meta',
+            name: 'mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: 'default',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-title',
+            content: 'Tella Docs',
           },
         ],
       },

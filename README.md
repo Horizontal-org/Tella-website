@@ -56,7 +56,17 @@ This command starts a local development server and opens up a browser window. Mo
 ### Build {#build}
 
 ```
-$ yarn build
+$ PRODUCTION_URL='http://localhost' yarn build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+`PRODUCTION_URL` is required: it sets the site `url` (and the `og:url` meta tag), and the build fails config validation if it is empty. Use the real domain when producing a deployable build (`PRODUCTION_URL='https://tella.app/'`). The deploy workflows in `.github/workflows/` set it themselves, so this only matters when building by hand.
+
+### Translation files {#translation-files}
+
+```
+$ NODE_ENV=production PRODUCTION_URL='http://localhost' yarn write-translations --locale <locale>
+```
+
+This regenerates the JSON translation files under `i18n/<locale>/`. `NODE_ENV=production` matters: some strings (for example the PWA reload popup) only exist in production builds and are skipped otherwise.
