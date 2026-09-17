@@ -10,7 +10,7 @@
         "description": "Horizontal supports frontline defenders, activists, and journalists through digital security and tool development. \n\nWe empower grassroots communities to use technology effectively and to operate safely from surveillance, censorship, and repression. We are the developers and maintainers of Tella. \n\nHorizontal is a registered 501(c)(3) nonprofit",
         "webpageUrl":
         {
-            "url": "https://tella-app.org/"
+            "url": "https://tella.app/"
         }
     },
     "projects":
@@ -21,7 +21,7 @@
             "description": "Tella for Android is a mobile app designed to help activists, journalists, human rights defenders (and people in general!) safely capture and organize sensitive data in high-risk environments. It includes features like encrypted photo, video, and audio capture, a hidden gallery, in-app file editing, camouflage mode to disguise the app, and quick delete for rapid data removal. Users can organize data in folders and share information using tools like Tella Web, ODK, Uwazi, Google Drive, Nextcloud, or Dropbox. Tella also collects verifiable metadata to ensure documentation integrity. \n\nTella Android has over 22,000 monthly active users in countries like India, Nigeria, Myanmar, and many others. Tella is available in 21 languages.\n\n",
             "webpageUrl":
             {
-                "url": "https://tella-app.org/"
+                "url": "https://tella.app/"
             },
             "repositoryUrl":
             {
@@ -52,7 +52,7 @@
             "description": "Tella for iOS is a mobile app designed to help activists, journalists, human rights defenders (and people in general!) safely capture and organize sensitive data in high-risk environments. It includes features like encrypted photo, video, and audio capture, a hidden gallery, in-app file editing, and quick delete for rapid data removal. Users can organize data in folders and share information using tools like Tella Web, Uwazi, Google Drive, Nextcloud, or Dropbox.",
             "webpageUrl":
             {
-                "url": "https://tella-app.org/"
+                "url": "https://tella.app/"
             },
             "repositoryUrl":
             {
@@ -83,7 +83,7 @@
             "description": "Tella FOSS is the fully Free and Open Source version of Tella for Android that doesn't contain any closed-source or proprietary library or dependency. It includes all core features—secure media capture, encrypted storage, camouflage mode, file organization, and integration with open platforms like ODK and Tella Web.\n\nWe are in the process of merging Tella Android and Tella FOSS into a single codebase.",
             "webpageUrl":
             {
-                "url": "https://tella-app.org/"
+                "url": "https://tella.app/"
             },
             "repositoryUrl":
             {
