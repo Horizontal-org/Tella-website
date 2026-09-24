@@ -11,7 +11,7 @@ import {Note, Info} from '@site/src/components/Admonitions';
 # Tella - Privacy Policy
 
 <Note>
-Last updated on 25 February 2025.
+Last updated on 5 October 2026.
 </Note>
 
 <Info>
@@ -74,13 +74,15 @@ When you download or use this App, it may collect information that is about you 
 
 When you access and use the App while Verification Mode is activated, Tella automatically collects certain information.
 
-Tella collects information associated with the files you create through, or import into, the App. This may include, for example, file name, file path on the device, date and time the file was last modified, date and time the metadata was generated, and hash value of the file. Collectively, this data is known as “File Metadata”.
+Tella collects information associated with the files you create through, or import into, the App. This may include, for example, file name, the folder where the file is stored in the App, date and time the file was created and last modified in the App, and hash value of the file. Collectively, this data is known as “File Metadata”.
 
-Tella also collects information about your mobile device and internet connection, including device manufacturer, hardware, device ID, screen size, language, locale, connection status, network time, mobile data type, wireless network MAC address, and internet protocol data. Collectively, this data is known as “Device Metadata.”
+Tella also collects information about your mobile device and internet connection, including device manufacturer, hardware, device ID (a unique identifier of the device provided by the operating system, which remains the same if the App is reinstalled), screen size, language, locale, connection status, network type, mobile data type, wireless network MAC address, and internet protocol (IP) addresses. Collectively, this data is known as “Device Metadata.”
 
-Tella also collects information that helps identify the location of the device when a file was captured. This includes location (including latitude, longitude, accuracy, and altitude), location provider, location speed, and cell towers that your device is connected to. Collectively, this data is known as “Location Metadata”.
+Tella also collects information that helps identify the location and environment of the device when a file was captured. This includes location (including latitude, longitude, accuracy, altitude, and the time of the location reading), location provider, location speed, cell towers detected by your device, names of the Wi-Fi networks detected near your device, and, when available on the device, ambient light and temperature. Collectively, this data is known as “Location Metadata”.
 
-File, device and location metadata are only collected if you opt-in by turning on Verification Mode or Import EXIF Metadata in your App settings. If you do not want Tella to collect this information, do not activate Verification Mode nor Import EXIF Metadata.
+File, device and location metadata are stored encrypted in the App on your device and are not sent to the Company. They are only shared with others if you choose to do so, for example by sharing or exporting a file together with its verification information, or by sending it to a Deploying Organization (see Information you send through the App).
+
+File, device and location metadata are only collected if you opt-in by turning on Verification Mode or Preserve metadata when importing (EXIF metadata) in your App settings. If you do not want Tella to collect this information, do not activate Verification Mode nor Preserve metadata when importing.
 
 
 ### Information Collection Technologies {/* #information-collection-technologies */}
@@ -94,6 +96,7 @@ The technologies we use for automatic information collection may include:
 -   Device gyroscope.
 -   Device light-sensor.
 -   Device barometer.
+-   Device temperature sensor.
 
 ## 4. Information you send through the App {/* #4-information-you-send-through-the-app */}
 
@@ -142,10 +145,10 @@ We may disclose personal information and data that we collect or you provide:
 Through the settings menu of Tella Android you can opt-out of:
 
 -   Bug reports and default usage analytics.
--   Metadata collection either in whole or in part by disabling “Verification Mode” in your app settings.
 
 Through the settings menu of Tella Android and Tella FOSS, you can opt-in to:
 - Share usage analytics using our privacy-preserving system [Divvi Up](/security-and-privacy#analytics).
+- Metadata collection by enabling “Verification Mode” in your app settings. You can limit what is collected by not granting Tella access to your device's location, including approximate location (without it, location, cell tower and Wi-Fi information are not collected).
 
 
 ## 7. Accessing and Correcting Your Personal Information {/* #7-accessing-and-correcting-your-personal-information */}
