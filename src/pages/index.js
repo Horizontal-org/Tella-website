@@ -83,7 +83,7 @@ export default function Home() {
                   <ThemedImage
                     alt={translate({
                       id: 'homepage.screenshotAlt',
-                      message: 'Screenshot of the Tella app on Android. Showing Connections to Tella Web Uwazi and the folder structure showing that within Tella users can record and save Images, Videos and Audios securely and encripted.',
+                      message: 'Screenshot of the Tella app on Android. Showing Connections to Uwazi, Nextcloud and Nearby Sharing and the folder structure showing that within Tella users can record and save Images, Videos and Audios securely and encripted.',
                     })}
                     className="screen"
                     sources={{

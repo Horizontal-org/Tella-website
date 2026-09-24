@@ -1,41 +1,65 @@
 {
-  "background_color": "#ffffff",
-  "description": "In challenging environments, with limited or no internet connectivity or in the face of repression, Tella makes it easier and safer to document human rights violations and collect data.",
-  "dir": "ltr",
-  "display": "standalone",
+  "id": "/",
   "name": "Tella Documentation Platform",
-  "orientation": "any",
-  "scope": "/",
   "short_name": "Tella Docs",
+  "description": "In challenging environments, with limited or no internet connectivity or in the face of repression, Tella makes it easier and safer to document human rights violations and collect data.",
+  "lang": "en",
+  "dir": "ltr",
   "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
   "theme_color": "#2c6c97",
   "categories": [
     "security",
     "utilities"
   ],
-  "screenshots": [],
   "icons": [
     {
-      "src": "/img/favicon.ico",
+      "src": "/img/pwa/icon-192.png",
+      "sizes": "192x192",
       "type": "image/png",
-      "sizes": "500x500"
+      "purpose": "any"
+    },
+    {
+      "src": "/img/pwa/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/pwa/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/img/pwa/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     },
     {
       "src": "/img/logo.svg",
+      "sizes": "any",
       "type": "image/svg+xml",
-      "sizes": "512x512"
-    },
-    {
-      "src": "/img/logo.svg",
-      "type": "image/png",
-      "sizes": "500x500"
+      "purpose": "any"
     }
   ],
   "shortcuts": [
     {
-      "name": "features",
-      "url": "/features ",
-      "description": "A detailed description of Tella features."
+      "name": "Features",
+      "short_name": "Features",
+      "url": "/features",
+      "description": "A detailed description of Tella features.",
+      "icons": [
+        {
+          "src": "/img/pwa/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
     }
   ]
 }
