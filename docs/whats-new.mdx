@@ -17,21 +17,23 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 
 
 
-### Android: Tella 3.3.0 (250) - Released on August 21, 2026 {/* #android-tella-330250---released-on-aug-21-2026 */}
-- All translation management is now done on Weblate. Please consider contributing by helping us [localize Tella](/translating-tella).
-- Updated the onboarding flow and the advanced configuration options, including camouflage.
-- Multiple improvements to the Uwazi connection:
-    - Implemented count indicators to show the number of entities in each tab (Drafts, Outbox and Submitted).
-    - Reviewed and improved copy and wording.
-    - Added the possibility to swipe between tabs.
-    - Improved UX to make it more accessible, including updated fonts, colors and sizes.
-    - Unified and reused existing components.
-    - Added Server URL validation: Tella now shows an error message if the URL is invalid or does not correspond to a valid Uwazi instance.
-    - Added a warning when users try to delete a media file from their Tella vault that is pending submission in one of their Uwazi entities.
-    - Added confirmation snackbars for destructive actions.
+### Android: Tella 3.4.0 (257) - Released on October 5, 2026 {/* #android-tella-340257---released-on-oct-5-2026 */}
+- Improvements to [Verification mode](/features#verification-mode):
+    - Redesigned the Verification information screen: information is now organized in categories (File, Device, Network, Location and Other), each with a help screen explaining what every field means. 
+    - Added the option to save verification information as a CSV file inside Tella so it can be attached to reports and connections like any other file. 
+    - Tella now asks to enable GPS before recording videos and audio (not only before taking photos), and uses network-based location in addition to GPS, so a location can be found faster, especially indoors.
+    - Tella no longer keeps waiting for Wi-Fi information when there are no Wi-Fi networks around or Wi-Fi is turned off (for example when offline or in airplane mode): the file is saved as soon as the location is found.
+    - Reviewed the verification fields: added a "File created" field, and the Device ID now uses the identifier provided by Android, which stays the same if Tella is reinstalled. See the [full list of fields and what they mean](/features#what-information-is-collected).
+- Improvements to Connections:
+    - Made delete confirmations and server URL error messages consistent across all connections.
 - Bug fixes and minor improvements:
-    - Fixed a crash and an incorrect error message ("problem creating folder") that appeared after sending the first report to a Google Drive Connection.
-
+    - Fixed a bug where choosing "Share files only" from the file viewer still included the verification information.
+    - Fixed verification fields that were empty or showed wrong values, including the file path, the date the file was last modified, and Wi-Fi information missing from the CSV when no cell information was available.
+    - Fixed several issues with verification mode prompts and messages, including when recording audio.
+    - Text fields (for example when renaming files or creating folders) now get focus automatically and open the keyboard.
+    - Removed an unnecessary lock timeout warning when taking a photo to send through Nearby Sharing. 
+    - Fixed minor UI issues, including the "no internet" message in reports being hidden behind the keyboard and the color of the delete action in the files list.
+- Updated translations. Please consider helping us [localize Tella](/translating-tella).
 
 
 
@@ -52,7 +54,39 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 
 
 
-### Android: Tella FOSS 3.3.0 (251) - Released on August 26, 2026 {/* #android-tella-foss-330251---released-on-august-26-2026 */}
+### Android: Tella FOSS 3.4.0 (257) (based on Android 3.4.0) - Released on October 5, 2026 {/* #android-tella-foss-340257-based-on-android-340---released-on-oct-5-2026 */}
+- Improvements to [Verification mode](/features#verification-mode):
+    - Redesigned the Verification information screen: information is now organized in categories (File, Device, Network, Location and Other), each with a help screen explaining what every field means. 
+    - Added the option to save verification information as a CSV file inside Tella so it can be attached to reports and connections like any other file. 
+    - Tella now asks to enable GPS before recording videos and audio (not only before taking photos), and uses network-based location in addition to GPS, so a location can be found faster, especially indoors.
+    - Tella no longer keeps waiting for Wi-Fi information when there are no Wi-Fi networks around or Wi-Fi is turned off (for example when offline or in airplane mode): the file is saved as soon as the location is found.
+    - Reviewed the verification fields: added a "File created" field, and the Device ID now uses the identifier provided by Android, which stays the same if Tella is reinstalled. See the [full list of fields and what they mean](/features#what-information-is-collected).
+- Improvements to Connections:
+    - Made delete confirmations and server URL error messages consistent across all connections.
+- Bug fixes and minor improvements:
+    - Fixed a bug where choosing "Share files only" from the file viewer still included the verification information.
+    - Fixed verification fields that were empty or showed wrong values, including the file path, the date the file was last modified, and Wi-Fi information missing from the CSV when no cell information was available.
+    - Fixed several issues with verification mode prompts and messages, including when recording audio.
+    - Text fields (for example when renaming files or creating folders) now get focus automatically and open the keyboard.
+    - Removed an unnecessary lock timeout warning when taking a photo to send through Nearby Sharing. 
+    - Fixed minor UI issues, including the "no internet" message in reports being hidden behind the keyboard and the color of the delete action in the files list.
+- Updated translations. Please consider helping us [localize Tella](/translating-tella).
+
+A detailed list of features available on each platform is [available here](/features).
+
+
+
+## Previous versions {/* #previous-versions */}
+
+### Android {/* #android-previous */}
+
+#### Android: Tella 3.3.2 (254) - Released on August 27, 2026 {/* #android-tella-332254---released-on-aug-27-2026 */}
+- Hotfix: Fixed "Move to folder" when the destination folder is empty, and prevented moving a folder into itself.
+
+#### Android: Tella 3.3.1 (252) - Released on August 26, 2026 {/* #android-tella-331252---released-on-aug-26-2026 */}
+- Hotfix: Fixed a bug that made files stored inside folders also appear at the top level of "All files" after updating, so they looked duplicated.
+
+#### Android: Tella 3.3.0 (250) - Released on August 21, 2026 {/* #android-tella-330250---released-on-aug-21-2026 */}
 - All translation management is now done on Weblate. Please consider contributing by helping us [localize Tella](/translating-tella).
 - Updated the onboarding flow and the advanced configuration options, including camouflage.
 - Multiple improvements to the Uwazi connection:
@@ -64,15 +98,9 @@ To receive  updates on new features and improvements to Tella and stay up to dat
     - Added Server URL validation: Tella now shows an error message if the URL is invalid or does not correspond to a valid Uwazi instance.
     - Added a warning when users try to delete a media file from their Tella vault that is pending submission in one of their Uwazi entities.
     - Added confirmation snackbars for destructive actions.
+- Bug fixes and minor improvements:
+    - Fixed a crash and an incorrect error message ("problem creating folder") that appeared after sending the first report to a Google Drive Connection.
 
-
-A detailed list of features available on each platform is [available here](/features).
-
-
-
-## Previous versions {/* #previous-versions */}
-
-### Android {/* #android-previous */}
 
 #### Android: Tella 3.2.0 (248) - Released on July 16, 2026 {/* #android-tella-320248---released-on-jul-16-2026 */}
 - Implemented security fixes detected by our most recent [security audit](/security-and-privacy#security-audits)
@@ -672,7 +700,25 @@ Also in this update:
 
 ### Android FOSS {/* #android-foss-previous */}
 
-#### Android: Tella FOSS 3.2.0 (248) (based on Android 3.2.0) - Released on July 88, 2026 {/* #android-tella-foss-320248-based-on-android-320---released-on-jul-18-2026 */}
+#### Android: Tella FOSS 3.3.2 (254) (based on Android 3.3.2) - Released on August 28, 2026 {/* #android-tella-foss-332254-based-on-android-332---released-on-aug-28-2026 */}
+- Hotfix: Fixed a bug that made files stored inside folders also appear at the top level of "All files" after updating, so they looked duplicated.
+- Hotfix: Fixed "Move to folder" when the destination folder is empty, and prevented moving a folder into itself.
+- Hotfix: Updated the French success message shown after submitting a form.
+
+#### Android: Tella FOSS 3.3.0 (251) - Released on August 26, 2026 {/* #android-tella-foss-330251---released-on-august-26-2026 */}
+- All translation management is now done on Weblate. Please consider contributing by helping us [localize Tella](/translating-tella).
+- Updated the onboarding flow and the advanced configuration options, including camouflage.
+- Multiple improvements to the Uwazi connection:
+    - Implemented count indicators to show the number of entities in each tab (Drafts, Outbox and Submitted).
+    - Reviewed and improved copy and wording.
+    - Added the possibility to swipe between tabs.
+    - Improved UX to make it more accessible, including updated fonts, colors and sizes.
+    - Unified and reused existing components.
+    - Added Server URL validation: Tella now shows an error message if the URL is invalid or does not correspond to a valid Uwazi instance.
+    - Added a warning when users try to delete a media file from their Tella vault that is pending submission in one of their Uwazi entities.
+    - Added confirmation snackbars for destructive actions.
+
+#### Android: Tella FOSS 3.2.0 (248) (based on Android 3.2.0) - Released on July 18, 2026 {/* #android-tella-foss-320248-based-on-android-320---released-on-jul-18-2026 */}
 - Implemented security fixes detected by our most recent [security audit](/security-and-privacy#security-audits)
     - Implemented mTLS and enforced certificate pinning for both the sender and receiver in Nearby Sharing. This is a mitigation for man-in-the-middle attacks.
 - Bug fixes and minor improvements:

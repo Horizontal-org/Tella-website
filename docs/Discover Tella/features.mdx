@@ -203,6 +203,7 @@ In Tella, users can:
     - Create folders and subfolders.
     - Move files into folders and from one folder to another.
 * Export files to their device. Once saved on their device outside of Tella, files are no longer encrypted and can be accessed by anyone searching the device.
+* Save the [verification information](#saving-and-sharing-verification-information) of a file as a CSV file, stored in the same folder as the original file.
 * Import files from their device. Files are automatically encrypted when imported into Tella. 
 
 <Danger>
@@ -310,43 +311,92 @@ On iOS, it is not possible to shut down an app from inside the app itself. Tappi
 
 ## Verification mode {/* #verification-mode */}
 
-In the Tella settings, users can activate "Verification Mode" ✅
+When activated, every time a user takes a photo or a video, or records audio, Tella automatically captures verification information (file metadata). This verification information can be used to corroborate evidence, cross-check with other facts known about the event or about the area where it was captured.
 
-When activated, every time a user takes a photo or a video, or records audio, Tella automatically captures verification information (file metadata). This verification information can be used to corroborate evidence, cross-check with other facts known about the event or about the area where it was captured. The verification information will be included as a separated file when saving the file to the device or when sharing it through third-party apps. The file format is .CSV with the metadata information included in columns. This file can be open with any spreadsheets app (like Excel, Google Spreadsheets, or OpenOffice). 
+To turn it on, go to **Settings ⚙️ > General > Verification mode**. Tella will ask for permission to access the device's location. Verification information is only collected for files captured with Tella's camera and audio recorder while verification mode is on. It is not collected for files imported from the device.
 
-<Info title="Contact us">
-If you need help to better understand Verification Mode, feel free to contact us 😊
+<Warning>
+Verification information can identify the user and their device (for example their location, IP addresses or device ID). Only share it if doing so will not put you or others at risk.
+</Warning>
+
+### Viewing verification information {/* #viewing-verification-information */}
+
+To see the verification information of a file, open the file's options menu (⋮), either from a folder or while viewing the file, and select **Verification information**. While viewing the file, it can also be opened by tapping the verification information button (🛡️) in the top bar. This option is only available for files that have verification information.
+
+
+### Saving and sharing verification information {/* #saving-and-sharing-verification-information */}
+
+Verification information is stored as a CSV file, with one column per field. It can be opened with any spreadsheet app (like Excel, Google Sheets or LibreOffice). The CSV file has the same name as the original file (for example, `photo.jpg` → `photo.csv`).
+
+- **Save it inside Tella**: on the Verification information screen, tap **Save as CSV**. The CSV is saved, encrypted, in the same folder as the original file, and can be attached to reports and connections like any other file. The CSV stays linked to the original file: if the original file is deleted, its CSV is deleted too.
+- **Share it or export it to the device**: when sharing or exporting files that have verification information, Tella asks whether to include it. Choose **Share files + verification information** to include the CSV, or **Share files only** to leave it out. When exporting to the device with verification information, Tella also saves the CSV inside Tella, if it wasn't saved before.
+
+### What information is collected {/* #what-information-is-collected */}
+
+**File** 📂
+
+| Field | What it means | Where it comes from |
+|---|---|---|
+| File name | The file's name in Tella. | Tella. |
+| File path | The folder where the file is stored in Tella, for example `/Evidence/March`, or `/` if it is not in a folder. | Tella's folder structure. |
+| File hash | A unique alphanumeric sequence (a SHA-256 hash) that identifies the file's exact content. | Calculated by Tella from the original, unencrypted file when it is saved. |
+| File created | The date and time the file was saved in Tella. | Tella. |
+| File modified | The date and time the file was last renamed or moved in Tella. | Tella. |
+
+**Device** 📱
+
+| Field | What it means | Where it comes from |
+|---|---|---|
+| Manufacturer | The name of the device manufacturer. | Android system information. |
+| Hardware | The manufacturer and model of the device. | Android system information. |
+| Device ID | A unique identifier of the device. It stays the same if Tella is deleted and reinstalled, and it is different for Tella and Tella FOSS on the same device. | Provided by Android (Android ID). |
+| Screen size | The size of the screen's diagonal, in inches. | Calculated from the screen's resolution and pixel density, so it may differ slightly from the manufacturer's specification. |
+| Wi-Fi MAC (WiFi MAC) | The hardware identifier of the device's Wi-Fi connector. | Android. On recent Android versions apps can no longer access this value, so this field can be empty. |
+| Language | The language used by Tella: the language selected in Tella's settings or, if none was selected, the language of the device. | Tella and Android language settings. |
+| Locale | The country or region the device is set to, as a country code. | Android region settings. |
+
+**Network** 📶
+
+Permissions: Cell info requires location permission (precise or approximate). Wi-Fi info requires precise location permission and location turned on. Without them, these fields are not available.
+
+| Field | What it means | Where it comes from |
+|---|---|---|
+| Connection status (Network) | Whether the device had a network connection. | Android connectivity information. |
+| Network type | Whether the device was connected through Wi-Fi or mobile data. | Android connectivity information. |
+| Data type | If the device was connected through mobile data, the type of mobile network (for example, LTE or 3G). Empty when connected through Wi-Fi. | Android telephony information. |
+| IPv4 / IPv6 | The IP addresses assigned to the device's network connections. These are usually local addresses (for example, assigned by the Wi-Fi router or a VPN), not the public IP address seen on the internet. | The device's network interfaces. |
+| Cell info (Cells) | The identifiers (country code, network code and cell ID) of the cell towers detected by the device. | Android telephony information. |
+| Wi-Fi info (WiFis) | The names of the Wi-Fi networks detected near the device. | A Wi-Fi scan made by Tella. |
+
+**Location** 📍
+
+Permissions: requires precise location permission and location turned on. Without them, these fields are not available.
+
+| Field | What it means | Where it comes from |
+|---|---|---|
+| Location provider | How the location was obtained: GPS (satellites) or network (Wi-Fi and cell towers, usually less accurate). | Android location services. |
+| Latitude / Longitude | The coordinates of the device, in degrees. | Android location services. |
+| Altitude | The altitude of the device, in meters. | Android location services. |
+| Accuracy (Location accuracy) | The estimated accuracy of the location, in meters. The smaller the number, the more precise the location. | Android location services. |
+| Location speed | The speed at which the device was moving, in meters per second. | Android location services. |
+| Timestamp of GPS reading (Location timestamp) | The date and time the location was measured. | Android location services. |
+
+**Other** 🌡️
+
+| Field | What it means | Where it comes from |
+|---|---|---|
+| Ambient temperature | The temperature around the device. | The device's temperature sensor. |
+| Light | The level of light around the device, in lux. | The device's light sensor. |
+
+<Info>
+Some fields may not be available depending on the device, the permissions that you have chosen to give Tella, the device settings and the location circumstances. For example, the location may not be available indoors, and many devices don't have a temperature sensor.
+
+On the Verification information screen, fields without a value show **Not Available**. In the CSV, they are left empty, and if there is no location, cell or Wi-Fi information, those columns are not included.
 </Info>
 
-Below is a list of each piece of metadata captured by Tella:
-
-**Information about the file**
-
-* File path: where the file was located in the Tella directory 📂
-* File hash: a unique number to identify the file 🔍
-* File modified: the date and time the file was last modified on the device 📅
-
-**Information about the device**
-
-* Manufacturer: the name of the device manufacturer 📱
-* Hardware: the exact model of the device 💻
-* Device ID: a unique number identifying the Android device 🆔
-* Screen size: the exact screen size of the device 📏
-* Language: the language the device's operating system is set to 🌐
-* Locale: the geographic region the device is set to 🌍
-* Connection status: whether the device is connected or disconnected to the internet 📶
-* Network type: if the device is connected to the internet, specifies whether it is to a WiFi network or to a cellular network 📲
-* Wi-Fi MAC: a unique identifier to the device's Wi-Fi connector 🔍
-* IPv4: a unique address identifying the device's internet connection 🔗
-* IPv6: a more recent identifier to a device's internet connection 🔗
-
-**Information about the environment where the file was captured**
-
-* Location: the exact location of the device, include latitude and longitude coordinates, altitude in meters, the accuracy of the measurement in meters, and the time 🌍
-* Location provider: how device location is determined 📍
-* Location speed: the speed at which the device is traveling 🚀
-* Cell info: the identifying numbers of all the cell towers the device is connected to 📡
-* WiFi info: the name of all WiFi networks in the vincinity of the device 🔍
+<Info title="Contact us">
+If you need help to better understand Verification Mode, feel free to [contact us](/contact-us) 😊
+</Info>
 
 ## Connecting to servers {/* #connecting-to-servers */}
 
@@ -380,6 +430,8 @@ This feature is available on Tella Android, Tella iOS, and Tella Desktop.
 
 ## Share button {/* #share-button */}
 To share information with other apps, users can select the file or files they want to share and press the Share button. Tella will prompt the list of available apps on the phone and users can choose the app they want to share the file(s) with. 
+
+If any of the selected files has [verification information](#verification-mode), Tella asks whether to include it as a CSV file or to share only the files.
 
 <Danger>
 Tella will share the files unencrypted and the history of exchanged files might be visible on the app you used. We recommend using disappearing messages or deleting the messages after the other person receives them when using messaging apps (for example WhatsApp or Signal).
