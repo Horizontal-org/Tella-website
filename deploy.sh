@@ -65,4 +65,4 @@ npm install
 
 npm run build
 
-rsync -av --delete-after ./build/ root@tella-app.org:/var/www/${PRODUCTION_URL%https://}/
+rsync -av --delete-after ./build/ root@tella-app.org:/var/www/${PRODUCTION_URL#https://}/
