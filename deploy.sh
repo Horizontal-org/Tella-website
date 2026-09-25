@@ -65,4 +65,12 @@ npm install
 
 npm run build
 
-rsync -av --delete-after ./build/ root@tella-app.org:/var/www/${PRODUCTION_URL#https://}/
+domain="${PRODUCTION_URL#https://}"
+user="${domain//\./--}"
+
+if [ -z "${domain}" ] ; then
+  echo "Couldn't get domain name from ${PRODUCTION_URL}"
+  exit 1
+fi
+
+rsync -av --delete-after --chown ${user}:www-data ./build/ root@tella-app.org:/var/www/${domain}/
