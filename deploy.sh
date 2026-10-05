@@ -7,10 +7,9 @@ Help()
    # Display Help
    echo "deploy docusaurus"
    echo
-   echo "Syntax: deploy.sh -b branch_name -u url"
+   echo "Syntax: deploy.sh -b branch_name"
    echo "options:"
    echo "b     add branch name [REQUIRED]"
-   echo "u     website URL [REQUIRED]"
    echo "h     Print this Help."
    echo
 }
@@ -34,8 +33,6 @@ while getopts ":hb:u:" option; do
          exit;;
       b)
          Branch=$OPTARG;;
-      u)
-         export PRODUCTION_URL=$u;;
      \?) # Invalid option
          echo "Error: Invalid option"
          exit;;
@@ -51,8 +48,11 @@ fi
 
 if [ -z "$PRODUCTION_URL" ]
 then
-  echo "Error: needs a URL"
-  exit 1
+  if [ "$Branch" = "main" ]; then
+    export PRODUCTION_URL=https://tella.app
+  else
+    export PRODUCTION_URL=https://beta.tella.app
+  fi
 fi
 
 echo "Deploying $Branch with $PRODUCTION_URL"
@@ -65,4 +65,12 @@ npm install
 
 npm run build
 
-rsync -av --delete-after ./build/ root@tella-app.org:/var/www/${PRODUCTION_URL%https://}/
+domain="${PRODUCTION_URL#https://}"
+user="${domain//\./--}"
+
+if [ -z "${domain}" ] ; then
+  echo "Couldn't get domain name from ${PRODUCTION_URL}"
+  exit 1
+fi
+
+rsync -av --delete-after --chown ${user}:www-data ./build/ root@tella-app.org:/var/www/${domain}/
