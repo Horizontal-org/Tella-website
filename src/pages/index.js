@@ -224,7 +224,7 @@ export default function Home() {
                           </Translate>
                         </span>{' '}
                         <Translate id="homepage.protectData.item5.rest">
-                          choose your preferred method to send your files with other Tella users or to a remote location, like a drive or server.
+                          choose your preferred method to send your files to other Tella users or to a remote location, like a drive or server.
                         </Translate>
                       </li>
                     </ul>
@@ -315,7 +315,7 @@ export default function Home() {
                             Offline-first:
                           </Translate>
                         </span>{' '}
-                        <Translate id="homepage.collectEvidence.item3a.rest">
+                        <Translate id="homepage.collectEvidence.item3a.rest2">
                           collect data offline and submit it only when you reach a reliable internet connection, or
                         </Translate>{' '}
                         <Link to="/nearby-sharing">
@@ -383,7 +383,7 @@ export default function Home() {
                           </Translate>
                         </span>{' '}
                         <Translate id="homepage.scenarios.shutdowns.before">
-                          send files to another Tella users without internet, using
+                          send files to other Tella users without internet, using
                         </Translate>{' '}
                         <Link to="/nearby-sharing">
                           <Translate

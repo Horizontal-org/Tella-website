@@ -421,16 +421,13 @@
     "message": "Get Tella on F-Droid"
   },
   "homepage.screenshotAlt": {
-    "message": "Screenshot of the Tella app on Android. Showing Connections to Uwazi, Nextcloud and Nearby Sharing and the folder structure showing that within Tella users can record and save Images, Videos and Audios securely and encripted."
+    "message": "Screenshot of the Tella app on Android. Showing Connections to Uwazi, Nextcloud and Nearby Sharing and the folder structure showing that within Tella users can record and save Images, Videos and Audios securely and encrypted."
   },
   "homepage.whyTella.title": {
     "message": "Why Tella?"
   },
   "homepage.whyTella.imageAlt": {
     "message": "Why Tella illustration"
-  },
-  "homepage.whyTella.intro": {
-    "message": "If you are an activist, journalist, human rights defender, or anyone who documents injustice, you can use Tella to:"
   },
   "homepage.protectData.title": {
     "message": "1. Protect your data",
@@ -442,10 +439,6 @@
   "homepage.protectData.cta": {
     "message": "Learn about Tella features"
   },
-  "homepage.collectEvidence.title": {
-    "message": "2. Collect evidence of human rights violations",
-    "description": "The leading '2.' is part of the translatable text."
-  },
   "homepage.collectEvidence.imageAlt": {
     "message": "Notepad illustration"
   },
@@ -453,14 +446,10 @@
     "message": "Pick the platform"
   },
   "homepage.collectEvidence.item3b.linkText": {
-    "message": "fully offline feature to transfer files to nearby devices"
+    "message": "transfer files to nearby devices without any internet connection at all."
   },
   "homepage.collectEvidence.cta": {
     "message": "Read how organizations are using Tella"
-  },
-  "homepage.openSource.title": {
-    "message": "3. Tella is free, multilingual, and open-source",
-    "description": "The leading '3.' is part of the translatable text."
   },
   "homepage.openSource.item2.linkText": {
     "message": "available",
@@ -540,7 +529,7 @@
     "message": "change the look of Tella to hide it from people searching your phone."
   },
   "homepage.protectData.item5.rest": {
-    "message": "choose one of the secure methods to share your files with other Tella vault or to a server."
+    "message": "choose your preferred method to send your files to other Tella users or to a remote location, like a drive or server."
   },
   "homepage.collectEvidence.item1.rest": {
     "message": "take photos, record videos and audio directly in Tella so that your files are immediately encrypted and hidden in the app."
@@ -554,15 +543,6 @@
   },
   "homepage.collectEvidence.item2b.after": {
     "message": "that best suits your needs and share data directly from Tella."
-  },
-  "homepage.collectEvidence.item3a.rest": {
-    "message": "in areas with limited or no internet connection, you can save your data and submit it when you reach a reliable internet connection."
-  },
-  "homepage.collectEvidence.item3b.before": {
-    "message": "Tella also offers a"
-  },
-  "homepage.collectEvidence.item3b.after": {
-    "message": "using Tella."
   },
   "homepage.openSource.item1.rest": {
     "message": "Tella is designed for those whose safety is at risk. It is free to download and use, and will remain free forever."
@@ -630,10 +610,10 @@
     "description": "The ARIA label for close button of PWA reload popup"
   },
   "homepage.meta.title": {
-    "message": "Secure app to collect, hide and share sensitive data"
+    "message": "Safely collect, hide and share sensitive data"
   },
   "homepage.meta.description": {
-    "message": "Free, open-source app to collect, encrypt and hide sensitive files, work offline and share securely — for activists, journalists and teams at risk."
+    "message": "Tella is a free, open-source app to safely collect, encrypt, hide, and share sensitive files, online or offline — for activists, journalists and at-risk teams."
   },
   "homepage.whyTella.intro2": {
     "message": "If you are an activist, journalist, human rights defender, or anyone who needs to keep sensitive information safe, you can use Tella to:"
@@ -649,7 +629,7 @@
     "message": "Hand clicking illustration"
   },
   "homepage.collectEvidence.title2": {
-    "message": "2. Collect evidence and send it securely",
+    "message": "2. Collect and share evidence safely",
     "description": "The leading '2.' is part of the translatable text."
   },
   "homepage.scenarios.title": {
@@ -675,13 +655,16 @@
     "message": "keep sensitive files in your Tella vault to protect them from device searches."
   },
   "homepage.scenarios.protests.description": {
-    "message": "take photos and videos using Tella's camera and share them with a nearby phone with Tella, even when mobile networks are down."
+    "message": "take photos and videos using Tella's camera and share them with a nearby phone, even when mobile networks are down."
   },
   "homepage.scenarios.shutdowns.before": {
-    "message": "send files from one Tella to another without internet, using"
+    "message": "send files to other Tella users without internet, using"
   },
   "homepage.scenarios.shutdowns.linkText": {
     "message": "Nearby Sharing",
     "description": "Nearby Sharing is a feature name."
+  },
+  "homepage.collectEvidence.item3a.rest2": {
+    "message": "collect data offline and submit it only when you reach a reliable internet connection, or"
   }
 }
