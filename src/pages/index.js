@@ -25,11 +25,11 @@ export default function Home() {
     <Layout
       title={translate({
         id: 'homepage.meta.title',
-        message: 'Secure app to collect, hide and share sensitive data',
+        message: 'Safely collect, hide and share sensitive data',
       })}
       description={translate({
         id: 'homepage.meta.description',
-        message: 'Free, open-source app to collect, encrypt and hide sensitive files, work offline and share securely — for activists, journalists and teams at risk.',
+        message: 'Tella is a free, open-source app to safely collect, encrypt, hide, and share sensitive files, online or offline — for activists, journalists and at-risk teams.',
       })}>
       <main className="container container--fluid margin-vert--lg">
         <div className="row page-row-centered">
@@ -92,7 +92,7 @@ export default function Home() {
                   <ThemedImage
                     alt={translate({
                       id: 'homepage.screenshotAlt',
-                      message: 'Screenshot of the Tella app on Android. Showing Connections to Uwazi, Nextcloud and Nearby Sharing and the folder structure showing that within Tella users can record and save Images, Videos and Audios securely and encripted.',
+                      message: 'Screenshot of the Tella app on Android. Showing Connections to Uwazi, Nextcloud and Nearby Sharing and the folder structure showing that within Tella users can record and save Images, Videos and Audios securely and encrypted.',
                     })}
                     className="screen"
                     sources={{
@@ -224,7 +224,7 @@ export default function Home() {
                           </Translate>
                         </span>{' '}
                         <Translate id="homepage.protectData.item5.rest">
-                          choose one of the secure methods to share your files with other Tella vault or to a server.
+                          choose your preferred method to send your files with other Tella users or to a remote location, like a drive or server.
                         </Translate>
                       </li>
                     </ul>
@@ -254,7 +254,7 @@ export default function Home() {
                   <Translate
                     id="homepage.collectEvidence.title2"
                     description="The leading '2.' is part of the translatable text.">
-                    2. Collect evidence and send it securely
+                    2. Collect and share evidence safely
                   </Translate>
                 </h3>
                 <div className="columns">
@@ -316,19 +316,13 @@ export default function Home() {
                           </Translate>
                         </span>{' '}
                         <Translate id="homepage.collectEvidence.item3a.rest">
-                          in areas with limited or no internet connection, you can save your data and submit it when you reach a reliable internet connection.
-                        </Translate>{' '}
-                        <Translate id="homepage.collectEvidence.item3b.before">
-                          Tella also offers a
+                          collect data offline and submit it only when you reach a reliable internet connection, or
                         </Translate>{' '}
                         <Link to="/nearby-sharing">
                           <Translate id="homepage.collectEvidence.item3b.linkText">
-                            fully offline feature to transfer files to nearby devices
+                            transfer files to nearby devices without any internet connection at all.
                           </Translate>
                         </Link>{' '}
-                        <Translate id="homepage.collectEvidence.item3b.after">
-                          using Tella.
-                        </Translate>
                       </li>
                     </ul>
                   </div>
@@ -369,7 +363,7 @@ export default function Home() {
                           </Translate>
                         </span>{' '}
                         <Translate id="homepage.scenarios.protests.description">
-                          take photos and videos using Tella's camera and share them with a nearby phone with Tella, even when mobile networks are down.
+                          take photos and videos using Tella's camera and share them with a nearby phone, even when mobile networks are down.
                         </Translate>
                       </li>
                       <li>
@@ -389,7 +383,7 @@ export default function Home() {
                           </Translate>
                         </span>{' '}
                         <Translate id="homepage.scenarios.shutdowns.before">
-                          send files from one Tella to another without internet, using
+                          send files to another Tella users without internet, using
                         </Translate>{' '}
                         <Link to="/nearby-sharing">
                           <Translate
