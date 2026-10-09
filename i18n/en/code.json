@@ -628,5 +628,60 @@
   "theme.PwaReloadPopup.closeButtonAriaLabel": {
     "message": "Close",
     "description": "The ARIA label for close button of PWA reload popup"
+  },
+  "homepage.meta.title": {
+    "message": "Secure app to collect, hide and share sensitive data"
+  },
+  "homepage.meta.description": {
+    "message": "Free, open-source app to collect, encrypt and hide sensitive files, work offline and share securely — for activists, journalists and teams at risk."
+  },
+  "homepage.whyTella.intro2": {
+    "message": "If you are an activist, journalist, human rights defender, or anyone who needs to keep sensitive information safe, you can use Tella to:"
+  },
+  "homepage.scenarios.cta": {
+    "message": "See scenarios of use"
+  },
+  "homepage.openSource.title2": {
+    "message": "4. Tella is free, multilingual, and open-source",
+    "description": "The leading '4.' is part of the translatable text."
+  },
+  "homepage.scenarios.imageAlt": {
+    "message": "Hand clicking illustration"
+  },
+  "homepage.collectEvidence.title2": {
+    "message": "2. Collect evidence and send it securely",
+    "description": "The leading '2.' is part of the translatable text."
+  },
+  "homepage.scenarios.title": {
+    "message": "3. Be prepared for high-risk situations",
+    "description": "The leading '3.' is part of the translatable text."
+  },
+  "homepage.scenarios.borders.emphasis": {
+    "message": "Crossing borders:"
+  },
+  "homepage.scenarios.protests.emphasis": {
+    "message": "Protests:"
+  },
+  "homepage.scenarios.raids.emphasis": {
+    "message": "Raids:"
+  },
+  "homepage.scenarios.raids.description": {
+    "message": "delete your files in seconds."
+  },
+  "homepage.scenarios.shutdowns.emphasis": {
+    "message": "Internet shutdowns or monitored networks:"
+  },
+  "homepage.scenarios.borders.description": {
+    "message": "keep sensitive files in your Tella vault to protect them from device searches."
+  },
+  "homepage.scenarios.protests.description": {
+    "message": "take photos and videos using Tella's camera and share them with a nearby phone with Tella, even when mobile networks are down."
+  },
+  "homepage.scenarios.shutdowns.before": {
+    "message": "send files from one Tella to another without internet, using"
+  },
+  "homepage.scenarios.shutdowns.linkText": {
+    "message": "Nearby Sharing",
+    "description": "Nearby Sharing is a feature name."
   }
 }

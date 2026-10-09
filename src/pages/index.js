@@ -11,6 +11,7 @@ import whyTellaImg from '@site/static/img/why-tella.png';
 import vaultImg from '@site/static/img/vault.png';
 import dataImg from '@site/static/img/data.png';
 import openSourceImg from '@site/static/img/open-source.png';
+import contactImg from '@site/static/img/contact.png';
 
 export default function Home() {
   // .svg assets are transformed into React components on import in Docusaurus,
@@ -123,8 +124,8 @@ export default function Home() {
                   </div>
                   <div className="column" id="section-column2">
                     <p>
-                      <Translate id="homepage.whyTella.intro">
-                        If you are an activist, journalist, human rights defender, or anyone who documents injustice, you can use Tella to:
+                      <Translate id="homepage.whyTella.intro2">
+                        If you are an activist, journalist, human rights defender, or anyone who needs to keep sensitive information safe, you can use Tella to:
                       </Translate>
                     </p>
                     <ul>
@@ -251,9 +252,9 @@ export default function Home() {
               <div className="section">
                 <h3>
                   <Translate
-                    id="homepage.collectEvidence.title"
+                    id="homepage.collectEvidence.title2"
                     description="The leading '2.' is part of the translatable text.">
-                    2. Collect evidence of human rights violations
+                    2. Collect evidence and send it securely
                   </Translate>
                 </h3>
                 <div className="columns">
@@ -340,17 +341,106 @@ export default function Home() {
                   </Translate>
                 </Link>
               </div>
-
               <div className="section">
                 <h3>
                   <Translate
-                    id="homepage.openSource.title"
+                    id="homepage.scenarios.title"
                     description="The leading '3.' is part of the translatable text.">
-                    3. Tella is free, multilingual, and open-source
+                    3. Be prepared for high-risk situations
                   </Translate>
                 </h3>
                 <div className="columns">
                   <div className="column" id="section-column1">
+                    <ul>
+                      <li>
+                        <span className="emphasis">
+                          <Translate id="homepage.scenarios.borders.emphasis">
+                            Crossing borders:
+                          </Translate>
+                        </span>{' '}
+                        <Translate id="homepage.scenarios.borders.description">
+                          keep sensitive files in your Tella vault to protect them from device searches.
+                        </Translate>
+                      </li>
+                      <li>
+                        <span className="emphasis">
+                          <Translate id="homepage.scenarios.protests.emphasis">
+                            Protests:
+                          </Translate>
+                        </span>{' '}
+                        <Translate id="homepage.scenarios.protests.description">
+                          take photos and videos using Tella's camera and share them with a nearby phone with Tella, even when mobile networks are down.
+                        </Translate>
+                      </li>
+                      <li>
+                        <span className="emphasis">
+                          <Translate id="homepage.scenarios.raids.emphasis">
+                            Raids:
+                          </Translate>
+                        </span>{' '}
+                        <Translate id="homepage.scenarios.raids.description">
+                          delete your files in seconds.
+                        </Translate>
+                      </li>
+                      <li>
+                        <span className="emphasis">
+                          <Translate id="homepage.scenarios.shutdowns.emphasis">
+                            Internet shutdowns or monitored networks:
+                          </Translate>
+                        </span>{' '}
+                        <Translate id="homepage.scenarios.shutdowns.before">
+                          send files from one Tella to another without internet, using
+                        </Translate>{' '}
+                        <Link to="/nearby-sharing">
+                          <Translate
+                            id="homepage.scenarios.shutdowns.linkText"
+                            description="Nearby Sharing is a feature name.">
+                            Nearby Sharing
+                          </Translate>
+                        </Link>.
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="column" id="section-column2">
+                    <img
+                      className="home-illustrations"
+                      src={contactImg}
+                      alt={translate({
+                        id: 'homepage.scenarios.imageAlt',
+                        message: 'Hand clicking illustration',
+                      })}
+                    />
+                  </div>
+                </div>
+                <Link
+                  to="/scenarios"
+                  className="clean-btn center button button--primary">
+                  <Translate id="homepage.scenarios.cta">
+                    See scenarios of use
+                  </Translate>
+                </Link>
+              </div>
+
+              <div className="section">
+                <h3>
+                  <Translate
+                    id="homepage.openSource.title2"
+                    description="The leading '4.' is part of the translatable text.">
+                    4. Tella is free, multilingual, and open-source
+                  </Translate>
+                </h3>
+                <div className="columns">
+                  <div className="column" id="section-column1">
+                    <img
+                      className="home-illustrations"
+                      src={openSourceImg}
+                      alt={translate({
+                        id: 'homepage.openSource.imageAlt',
+                        message: 'Open source illustration',
+                      })}
+                    />
+                  </div>
+                  <div className="column" id="section-column2">
                     <ul>
                       <li>
                         <span className="emphasis">
@@ -414,16 +504,6 @@ export default function Home() {
                         </Translate>
                       </li>
                     </ul>
-                  </div>
-                  <div className="column" id="section-column2">
-                    <img
-                      className="home-illustrations"
-                      src={openSourceImg}
-                      alt={translate({
-                        id: 'homepage.openSource.imageAlt',
-                        message: 'Open source illustration',
-                      })}
-                    />
                   </div>
                 </div>
               </div>
