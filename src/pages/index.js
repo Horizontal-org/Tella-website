@@ -21,7 +21,15 @@ export default function Home() {
   const homeWhite = useBaseUrl('/img/home-white.svg');
 
   return (
-    <Layout>
+    <Layout
+      title={translate({
+        id: 'homepage.meta.title',
+        message: 'Secure app to collect, hide and share sensitive data',
+      })}
+      description={translate({
+        id: 'homepage.meta.description',
+        message: 'Free, open-source app to collect, encrypt and hide sensitive files, work offline and share securely — for activists, journalists and teams at risk.',
+      })}>
       <main className="container container--fluid margin-vert--lg">
         <div className="row page-row-centered">
           <div className="col col--8">
