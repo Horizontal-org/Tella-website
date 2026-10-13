@@ -75,13 +75,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       metadata: [
-        {name: 'keywords', content: 'security, privacy, human rights, encryption, documentation, tool, open source'},
-        {name: 'twitter:card', content: require.resolve('./static/img/feature.png')},
-        {name: 'og:title', content: "Tella Document & Protect"},
-        {name: 'og:description', content: "Tella is a secure documentation platform designed for individuals facing challenging environments (repression and survailance) and limited internet connectivity. Tella simplifies the process to document human rights violations and collect crucial data, ensuring your information is shielded from both physical and digital threats. Whether you're an activist, journalist, or human rights defender, Tella enables you to create high-quality, censorship-resistant documentation vital for research, advocacy, and transitional justice. "},
-        {name: 'og:url', content: process.env.PRODUCTION_URL},
-        {name: 'og:type', content: "website, app, documentation"},
-        {name: 'og:image', content:  require.resolve('./static/img/tella.png')},
+        {name: 'keywords', content: 'encrypted vault, hide files, app camouflage, quick delete, offline data collection, offline file sharing, internet shutdown, border crossing, protest safety, human rights, journalists, ODK, Uwazi, open source'},
+        {name: 'twitter:card', content: 'summary_large_image'},
+        {property: 'og:type', content: 'website'},
       ],
       image: 'img/tella.png',
       navbar: {
