@@ -5,7 +5,7 @@ description: The Uwazi server connection is available for organizations looking 
 slug: /uwazi
 ---
 
-import {Tip, Danger, Info} from '@site/src/components/Admonitions';
+import {Note, Tip, Danger, Info} from '@site/src/components/Admonitions';
 
 # Uwazi Connection
 
@@ -103,6 +103,10 @@ In order to connect to an Uwazi server:
     *  **Public Access:**  if the server is configured to accept anonymous submissions.
 * If the server requires two-factor authentication, enter the one-time code.
 * Choose the **Language** in which you want to display templates.
+
+<Note>
+To submit to whitelisted templates using **Public Access**, make sure the **Allow captcha bypass** option is turned on in the Uwazi collection settings (it is off by default). Otherwise, the CAPTCHA will block submissions from Tella. [Learn more in Uwazi's documentation](https://docs.uwazi.io/docs/reference/collection-settings/#forms-and-email-configuration).
+</Note>
 
 <Info>
 You can watch [this video](/video-tutorials#uwazi) on how to connect to an Uwazi server from the Tella.
