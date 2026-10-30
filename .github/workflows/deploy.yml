@@ -18,7 +18,7 @@ jobs:
         switches: "-av --delete-after"
         path: "build/"
         remote_path: "/"
-        remote_host: "tella-app.org"
+        remote_host: "tella.app"
         remote_port: 22
         remote_user: "tella--app"
         remote_key: "${{ secrets.PRIVATE_KEY }}"

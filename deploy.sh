@@ -73,7 +73,7 @@ if [ -z "${domain}" ] ; then
   exit 1
 fi
 
-rsync -av --delete-after ./build/ root@tella-app.org:/var/www/${domain}/
-ssh root@tella-app.org chown -R ${user}:www-data /var/www/${domain}/
-ssh root@tella-app.org rmlint -c sh:hardlink /var/www/${domain}/
-ssh root@tella-app.org ./rmlint.sh -d
+rsync -av --delete-after ./build/ root@${domain}:/var/www/${domain}/
+ssh root@${domain} chown -R ${user}:www-data /var/www/${domain}/
+ssh root@${domain} rmlint -c sh:hardlink /var/www/${domain}/
+ssh root@${domain} ./rmlint.sh -d
