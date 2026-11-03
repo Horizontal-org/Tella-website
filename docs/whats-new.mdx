@@ -22,20 +22,25 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 
 
 
-### iOS: Tella 3.3.0 (156) - Released on September 16, 2026 {/* #ios-tella-330156---released-on-sep-16-2026 */}
+### iOS: Tella 3.4.0 (163) - Released on November 9, 2026 {/* #ios-tella-340163---released-on-nov-9-2026 */}
 - Improvements to the Tella [Camera](/features#camera-photos-and-videos):
-    - Added zoom when taking photos or recording videos.
-    - Added automatic flash mode: the flash can now be set to on, off or auto.
-- Added the possibility to zoom in on images and videos while previewing them.
-- Added support for the Geolocation property in the [Uwazi](/uwazi) connection.
-- Added a warning when users try to delete a file from their Tella vault that is pending submission (in Drafts or Outbox) in one of their connections.
-- Loaded volunteer translations from Ukrainian and Arabic.
+    - Redesigned the camera, to make it more accessible and useful 
+    - Added photo aspect ratio options: 3:4, 9:16, 1:1 and Full.
+    - Improved zoom: zoom presets, a zoom dial, and at least 5x zoom on supported devices. The zoom level is kept when switching between photo and video.
+    - Photos are now taken at the highest resolution supported by the device (for example 24 or 48 MP on recent iPhones). Higher resolution photos take more space and take longer to upload.
+- Improvements to Connections:
+    - For connections that only allow one account (Uwazi, Google Drive, Dropbox and Nextcloud), Tella now explains why a new one can't be added instead of hiding the option.
+    - Added a confirmation screen after successfully connecting to [Dropbox](/dropbox).
+    - [Uwazi](/uwazi) languages are now shown with their native name and their name in the app's language.
+    - Made delete confirmations and server URL screens consistent across all connections.
 - Bug fixes and minor improvements:
-    - Added a visual indicator (green check) when a file is successfully sent through Nearby Sharing.
-    - Fixed a visual bug in the background activity tray on older iPhones.
-    - Added a confirmation prompt when users try to go back while waiting to receive files in Nearby Sharing.
+    - Text fields, including the lock password, now accept any keyboard language (for example Arabic or Cyrillic).
+    - Updated the tab bar for iOS 27.
+    - Fixed some incorrect Arabic translations.
+    - Fixed [Uwazi](/uwazi) geolocation coordinates not being shown correctly in some languages.
+- Updated translations. Please consider helping us [localize Tella](/translating-tella).
 - Technical improvements:
-    - Raised the minimum supported iOS version to [iOS 15](/faq#what-phones-support-tella), as required by Apple.
+    - Updated third-party libraries and how they are managed in the app.
 
 
 
@@ -445,6 +450,21 @@ Also in this update:
 
 
 ### iOS {/* #ios-previous */}
+
+#### iOS: Tella 3.3.0 (156) - Released on September 16, 2026 {/* #ios-tella-330156---released-on-sep-16-2026 */}
+- Improvements to the Tella [Camera](/features#camera-photos-and-videos):
+    - Added zoom when taking photos or recording videos.
+    - Added automatic flash mode: the flash can now be set to on, off or auto.
+- Added the possibility to zoom in on images and videos while previewing them.
+- Added support for the Geolocation property in the [Uwazi](/uwazi) connection.
+- Added a warning when users try to delete a file from their Tella vault that is pending submission (in Drafts or Outbox) in one of their connections.
+- Loaded volunteer translations from Ukrainian and Arabic.
+- Bug fixes and minor improvements:
+    - Added a visual indicator (green check) when a file is successfully sent through Nearby Sharing.
+    - Fixed a visual bug in the background activity tray on older iPhones.
+    - Added a confirmation prompt when users try to go back while waiting to receive files in Nearby Sharing.
+- Technical improvements:
+    - Raised the minimum supported iOS version to [iOS 15](/faq#what-phones-support-tella), as required by Apple.
 
 #### iOS: Tella 3.2.0 (153) - Released on August 10, 2026 {/* #ios-tella-320153---released-on-aug-10-2026 */}
 - Uwazi connection improvements:
