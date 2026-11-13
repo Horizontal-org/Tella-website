@@ -250,7 +250,22 @@ On **Settings** > **Security** users have the option to Preserve or delete the f
 Android users can opt-in to share analytics to improve Tella. All information is anonymous, agregated and can never be linked to individual usres. For technical information about what system do we use and what metrics to we collect, visit the [Analytics section of the Security and Privacy page](/security-and-privacy#analytics).
 
 ## Open files in Tella {/* #open-files-in-tella */}
-Images, videos, PDFs and audios can be visualized inside Tella. 📱📄
+Any type of file can be imported into Tella and stored encrypted. The following file types can also be opened inside Tella: 📱📄
+
+| Type | Android | iOS |
+|---|---|---|
+| Images | JPG, PNG, GIF, BMP, WEBP | JPG, PNG, GIF, HEIC |
+| Videos | MP4, MOV, M4V, 3GP, MKV, WEBM, AVI, MPEG | MP4, MOV |
+| Audio | MP3, M4A, AAC, WAV, AMR, FLAC, OGG | MP3, M4A, WAV |
+| Documents | PDF | PDF, Word, Excel, PowerPoint, Pages, Numbers, Keynote, text, CSV |
+
+<Info>
+On iOS, Tella uses the viewers built into iOS, so other formats supported by iOS may also open. Whether a video or audio file plays can also depend on how it was encoded and on the device.
+</Info>
+
+<Warning>
+For file types that cannot be opened in Tella, your device may automatically prompt you to open the files in a third-party app. Opening it with a third-party app may save the file outside of Tella's encrypted container and undermine Tella's protection of the file. 
+</Warning>
 
 ## Camouflage {/* #camouflage */}
 
@@ -337,23 +352,27 @@ Verification information is stored as a CSV file, with one column per field. It 
 
 | Field | What it means | Where it comes from |
 |---|---|---|
-| File name | The file's name in Tella. | Tella. |
-| File path | The folder where the file is stored in Tella, for example `/Evidence/March`, or `/` if it is not in a folder. | Tella's folder structure. |
-| File hash | A unique alphanumeric sequence (a SHA-256 hash) that identifies the file's exact content. | Calculated by Tella from the original, unencrypted file when it is saved. |
-| File created | The date and time the file was saved in Tella. | Tella. |
-| File modified | The date and time the file was last renamed or moved in Tella. | Tella. |
+| File name | The name of the file. | Tella. |
+| Size | The size of the file. | Tella. |
+| Format | The format of the file (for example, JPEG or MP4). | Tella. |
+| Created | The date and time when the file was first created on the device. | Tella. |
+| Last modified | The date and time the file was last modified on the device. | Tella. |
+| Resolution | The exact number of pixels that make up the image or video, for example `1920 x 1080px`. | Read by Tella from the file. |
+| Folder | Where the file is located in the Tella directory, for example `All files > Evidence > March`. | Tella's folder structure. |
+| File hash | A unique number generated from the content of the file (a SHA-256 hash). | Calculated by Tella from the original, unencrypted file when it is saved. |
+| Verification info created | The date and time when the verification information was created on the device. | Tella. |
 
 **Device** 📱
 
 | Field | What it means | Where it comes from |
 |---|---|---|
 | Manufacturer | The name of the device manufacturer. | Android system information. |
-| Hardware | The manufacturer and model of the device. | Android system information. |
+| Model | The exact model of the device, including the manufacturer's name. | Android system information. |
 | Device ID | A unique identifier of the device. It stays the same if Tella is deleted and reinstalled, and it is different for Tella and Tella FOSS on the same device. | Provided by Android (Android ID). |
 | Screen size | The size of the screen's diagonal, in inches. | Calculated from the screen's resolution and pixel density, so it may differ slightly from the manufacturer's specification. |
-| Wi-Fi MAC (WiFi MAC) | The hardware identifier of the device's Wi-Fi connector. | Android. On recent Android versions apps can no longer access this value, so this field can be empty. |
+| Wi-Fi MAC address | A unique identifier for the device's Wi-Fi connector. | Android. On recent Android versions apps can no longer access this value, so this field can be empty. |
 | Language | The language used by Tella: the language selected in Tella's settings or, if none was selected, the language of the device. | Tella and Android language settings. |
-| Locale | The country or region the device is set to, as a country code. | Android region settings. |
+| Region | The country or region the device is set to, as a country code. | Android region settings. |
 
 **Network** 📶
 
@@ -361,12 +380,12 @@ Permissions: Cell info requires location permission (precise or approximate). Wi
 
 | Field | What it means | Where it comes from |
 |---|---|---|
-| Connection status (Network) | Whether the device had a network connection. | Android connectivity information. |
-| Network type | Whether the device was connected through Wi-Fi or mobile data. | Android connectivity information. |
-| Data type | If the device was connected through mobile data, the type of mobile network (for example, LTE or 3G). Empty when connected through Wi-Fi. | Android telephony information. |
-| IPv4 / IPv6 | The IP addresses assigned to the device's network connections. These are usually local addresses (for example, assigned by the Wi-Fi router or a VPN), not the public IP address seen on the internet. | The device's network interfaces. |
-| Cell info (Cells) | The identifiers (country code, network code and cell ID) of the cell towers detected by the device. | Android telephony information. |
-| Wi-Fi info (WiFis) | The names of the Wi-Fi networks detected near the device. | A Wi-Fi scan made by Tella. |
+| Connection status | Whether the device was connected to the internet. | Android connectivity information. |
+| Connected to | Whether the device was connected through Wi-Fi or a cellular network (mobile data). | Android connectivity information. |
+| Mobile network type | If the device was connected through mobile data, the type of mobile network (for example, LTE or 3G). | Android telephony information. |
+| IPv4 address / IPv6 address | The IP addresses assigned to the device's network connections. These are usually local addresses (for example, assigned by the Wi-Fi router or a VPN), not the public IP address seen on the internet. | The device's network interfaces. |
+| Nearby cell towers | The identifiers (country code, network code and cell ID) of the cell towers detected by the device. | Android telephony information. |
+| Nearby Wi-Fi networks | The names of the Wi-Fi networks detected near the device. | A Wi-Fi scan made by Tella. |
 
 **Location** 📍
 
@@ -377,16 +396,16 @@ Permissions: requires precise location permission and location turned on. Withou
 | Location provider | How the location was obtained: GPS (satellites) or network (Wi-Fi and cell towers, usually less accurate). | Android location services. |
 | Latitude / Longitude | The coordinates of the device, in degrees. | Android location services. |
 | Altitude | The altitude of the device, in meters. | Android location services. |
-| Accuracy (Location accuracy) | The estimated accuracy of the location, in meters. The smaller the number, the more precise the location. | Android location services. |
-| Location speed | The speed at which the device was moving, in meters per second. | Android location services. |
-| Timestamp of GPS reading (Location timestamp) | The date and time the location was measured. | Android location services. |
+| Accuracy | The estimated accuracy of the location, in meters. The smaller the number, the more precise the location. | Android location services. |
+| Speed | The speed at which the device was moving, in meters per second. | Android location services. |
+| Location recorded at | The date and time the location was measured. | Android location services. |
 
-**Other** 🌡️
+**Environment** 🌡️
 
 | Field | What it means | Where it comes from |
 |---|---|---|
 | Ambient temperature | The temperature around the device. | The device's temperature sensor. |
-| Light | The level of light around the device, in lux. | The device's light sensor. |
+| Light level | The amount of light around the device detected by its light sensor, in lux. | The device's light sensor. |
 
 <Info>
 Some fields may not be available depending on the device, the permissions that you have chosen to give Tella, the device settings and the location circumstances. For example, the location may not be available indoors, and many devices don't have a temperature sensor.
