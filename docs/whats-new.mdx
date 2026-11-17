@@ -17,30 +17,67 @@ To receive  updates on new features and improvements to Tella and stay up to dat
 
 
 
-### Android: Tella 3.4.1 (260) - Released on October 21, 2026 {/* #android-tella-341260---released-on-oct-21-2026 */}
-- Hotfix: Restored access to vault files for users who first installed Tella before July 2024.
-
-
-
-### iOS: Tella 3.3.0 (156) - Released on September 16, 2026 {/* #ios-tella-330156---released-on-sep-16-2026 */}
-- Improvements to the Tella [Camera](/features#camera-photos-and-videos):
-    - Added zoom when taking photos or recording videos.
-    - Added automatic flash mode: the flash can now be set to on, off or auto.
-- Added the possibility to zoom in on images and videos while previewing them.
-- Added support for the Geolocation property in the [Uwazi](/uwazi) connection.
-- Added a warning when users try to delete a file from their Tella vault that is pending submission (in Drafts or Outbox) in one of their connections.
-- Loaded volunteer translations from Ukrainian and Arabic.
+### Android: Tella 3.5.0 (264) - Released on November 16, 2026 {/* #android-tella-350264---released-on-nov-16-2026 */}
+- Improvements to [Verification mode](/features#verification-mode):
+    - Updated the Verification information screen with new fields and clearer names and help texts. See the [full list of fields and what they mean](/features#what-information-is-collected).
+    - Fixed sharing files with verification information to Signal. Signal can't receive the files and their verification information (CSV) in the same share, so Tella now sends them together in a single ZIP file.
+- Added support for OGG audio files, which can now be played inside Tella. See which [file types can be opened in Tella](/features#open-files-in-tella).
+- Added a specific icon for CSV files.
+- Security and privacy fixes:
+    - Made sure the time spent in Tella is only sent to the [privacy-preserving analytics](/security-and-privacy#analytics) when the user has opted in.
+    - Added a filter that removes sensitive information from crash reports to Crashlytics before they are sent. Minimized the cases sent as crash reports.
+    - Made each [Quick Delete](/features#quick-delete) step (deleting files, connections, forms and settings) run independently, so if one step fails, the others are still completed.
+    - Made sure Quick Delete deletes all connection data, including temporary copies of files created when sharing.
+- Lock timeout fixes:
+    - Fixed background uploads and auto-reports changing the lock timeout setting: Tella now stays unlocked only while reports are being uploaded in the background, and then goes back to the [lock timeout](/features#lock-timeout-configuration) chosen in Settings.
+    - Fixed the temporary lock timeout used when leaving Tella (for example to open a link or grant a permission) not going back to the lock timeout chosen in Settings.
+- Fixed [auto-report](/tella-web#auto-report) adding files collected within 1 hour to the same report, instead of 30 minutes.
 - Bug fixes and minor improvements:
-    - Added a visual indicator (green check) when a file is successfully sent through Nearby Sharing.
-    - Fixed a visual bug in the background activity tray on older iPhones.
-    - Added a confirmation prompt when users try to go back while waiting to receive files in Nearby Sharing.
+    - Fixed crashes related to translations, links and menus.
+    - Updated the icon shown when there are no Tella Web reports, and made minor UI improvements to the file information and Quick Delete screens.
+- Updated translations. Please consider helping us [localize Tella](/translating-tella).
+
+
+
+### iOS: Tella 3.4.0 (163) - Released on November 20, 2026 {/* #ios-tella-340163---released-on-nov-20-2026 */}
+- Improvements to the Tella [Camera](/features#camera-photos-and-videos):
+    - Redesigned the camera, to make it more accessible and useful 
+    - Added photo aspect ratio options: 3:4, 9:16, 1:1 and Full.
+    - Improved zoom: zoom presets, a zoom dial, and at least 5x zoom on supported devices. The zoom level is kept when switching between photo and video.
+- Improvements to Connections:
+    - For connections that only allow one account (Uwazi, Google Drive, Dropbox and Nextcloud), Tella now explains why a new one can't be added instead of hiding the option.
+    - Added a confirmation screen after successfully connecting to [Dropbox](/dropbox).
+    - [Uwazi](/uwazi) languages are now shown with their native name and their name in the app's language.
+    - Made delete confirmations and server URL screens consistent across all connections.
+- Bug fixes and minor improvements:
+    - Text fields, including the lock password, now accept any keyboard language (for example Arabic or Cyrillic).
+    - Updated the tab bar for iOS 27.
+    - Fixed some incorrect Arabic translations.
+    - Fixed [Uwazi](/uwazi) geolocation coordinates not being shown correctly in some languages.
+- Updated translations. Please consider helping us [localize Tella](/translating-tella).
 - Technical improvements:
-    - Raised the minimum supported iOS version to [iOS 15](/faq#what-phones-support-tella), as required by Apple.
+    - Updated third-party libraries and how they are managed in the app.
 
 
 
-### Android: Tella FOSS 3.4.1 (260) (based on Android 3.4.1) - Released on October 25, 2026 {/* #android-tella-foss-341260-based-on-android-341---released-on-oct-25-2026 */}
-- Hotfix: Restored access to vault files for users who first installed Tella before July 2024.
+### Android: Tella FOSS 3.5.0 (264) (based on Android 3.5.0) - Released on November 16, 2026 {/* #android-tella-foss-350264-based-on-android-350---released-on-nov-16-2026 */}
+- Improvements to [Verification mode](/features#verification-mode):
+    - Updated the Verification information screen with new fields and clearer names and help texts. See the [full list of fields and what they mean](/features#what-information-is-collected).
+    - Fixed sharing files with verification information to Signal. Signal can't receive the files and their verification information (CSV) in the same share, so Tella now sends them together in a single ZIP file.
+- Added support for OGG audio files, which can now be played inside Tella. See which [file types can be opened in Tella](/features#open-files-in-tella).
+- Added a specific icon for CSV files.
+- Security and privacy fixes:
+    - Made sure the time spent in Tella is only sent to the [privacy-preserving analytics](/security-and-privacy#analytics) when the user has opted in.
+    - Made each [Quick Delete](/features#quick-delete) step (deleting files, connections, forms and settings) run independently, so if one step fails, the others are still completed.
+    - Made sure Quick Delete deletes all connection data, including temporary copies of files created when sharing.
+- Lock timeout fixes:
+    - Fixed background uploads and auto-reports changing the lock timeout setting: Tella now stays unlocked only while reports are being uploaded in the background, and then goes back to the [lock timeout](/features#lock-timeout-configuration) chosen in Settings.
+    - Fixed the temporary lock timeout used when leaving Tella (for example to open a link or grant a permission) not going back to the lock timeout chosen in Settings.
+- Fixed [auto-report](/tella-web#auto-report) adding files collected within 1 hour to the same report, instead of 30 minutes.
+- Bug fixes and minor improvements:
+    - Fixed crashes related to translations, links and menus.
+    - Updated the icon shown when there are no Tella Web reports, and made minor UI improvements to the file information and Quick Delete screens.
+- Updated translations. Please consider helping us [localize Tella](/translating-tella).
 
 A detailed list of features available on each platform is [available here](/features).
 
@@ -49,6 +86,9 @@ A detailed list of features available on each platform is [available here](/feat
 ## Previous versions {/* #previous-versions */}
 
 ### Android {/* #android-previous */}
+
+#### Android: Tella 3.4.1 (260) - Released on October 21, 2026 {/* #android-tella-341260---released-on-oct-21-2026 */}
+- Hotfix: Restored access to vault files for users who first installed Tella before July 2024.
 
 #### Android: Tella 3.4.0 (258) - Released on October 6, 2026 {/* #android-tella-340258---released-on-oct-6-2026 */}
 - Improvements to [Verification mode](/features#verification-mode):
@@ -446,6 +486,21 @@ Also in this update:
 
 ### iOS {/* #ios-previous */}
 
+#### iOS: Tella 3.3.0 (156) - Released on September 16, 2026 {/* #ios-tella-330156---released-on-sep-16-2026 */}
+- Improvements to the Tella [Camera](/features#camera-photos-and-videos):
+    - Added zoom when taking photos or recording videos.
+    - Added automatic flash mode: the flash can now be set to on, off or auto.
+- Added the possibility to zoom in on images and videos while previewing them.
+- Added support for the Geolocation property in the [Uwazi](/uwazi) connection.
+- Added a warning when users try to delete a file from their Tella vault that is pending submission (in Drafts or Outbox) in one of their connections.
+- Loaded volunteer translations from Ukrainian and Arabic.
+- Bug fixes and minor improvements:
+    - Added a visual indicator (green check) when a file is successfully sent through Nearby Sharing.
+    - Fixed a visual bug in the background activity tray on older iPhones.
+    - Added a confirmation prompt when users try to go back while waiting to receive files in Nearby Sharing.
+- Technical improvements:
+    - Raised the minimum supported iOS version to [iOS 15](/faq#what-phones-support-tella), as required by Apple.
+
 #### iOS: Tella 3.2.0 (153) - Released on August 10, 2026 {/* #ios-tella-320153---released-on-aug-10-2026 */}
 - Uwazi connection improvements:
     - Primary Documents' field now allow PDF selection from both the Tella Vault or the device.
@@ -687,6 +742,9 @@ Also in this update:
 
 
 ### Android FOSS {/* #android-foss-previous */}
+
+#### Android: Tella FOSS 3.4.1 (260) (based on Android 3.4.1) - Released on October 25, 2026 {/* #android-tella-foss-341260-based-on-android-341---released-on-oct-25-2026 */}
+- Hotfix: Restored access to vault files for users who first installed Tella before July 2024.
 
 #### Android: Tella FOSS 3.4.0 (258) (based on Android 3.4.0) - Released on October 6, 2026 {/* #android-tella-foss-340258-based-on-android-340---released-on-oct-6-2026 */}
 - Improvements to [Verification mode](/features#verification-mode):
