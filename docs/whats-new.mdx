@@ -79,6 +79,31 @@ To receive  updates on new features and improvements to Tella and stay up to dat
     - Updated the icon shown when there are no Tella Web reports, and made minor UI improvements to the file information and Quick Delete screens.
 - Updated translations. Please consider helping us [localize Tella](/translating-tella).
 
+
+
+### Tella Web 1.5.0 - Released on November 20, 2026 {/* #tella-web-150---released-on-nov-20-2026 */}
+- **Server administrators:** this version requires changes to the server configuration. Please read the [release notes on GitHub](https://github.com/Horizontal-org/tellaweb/releases) before updating.
+- Implemented security fixes for the issues found in our most recent [security audit](/security-and-privacy#security-audits). We recommend that every organization using Tella Web update to this version.
+    - Reviewed and fixed bugs related to [user roles and permissions](/tella-web#understanding-user-roles). 
+    - Fixes on [two-factor authentication and security codes](/tella-web#account-security). 
+    - Tella Web now limits repeated login attempts, to protect accounts against password guessing.
+    - Tella Web now checks uploaded files more strictly. [Resources](/tella-web#creating-resources-to-the-space) must be valid PDF files of up to 20 MB.
+    - Emails sent by Tella Web, such as suspicious login alerts, now always use an encrypted connection.
+    - Updated the software libraries Tella Web is built on, and fixed other security issues.
+- The Admin Center now shows how much storage space is available on the server before you [generate a backup](/tella-web#backup-your-space). 
+- Improvements to Tella Web UX:
+    - Tella Web now shows when it is loading or working on something, and lets you know when a download starts.
+    - When there are no projects, reports or resources yet, Tella Web now provides guidance on what to do.
+    - Fixed pagination and sorting in all tables.
+    - Clearer error messages.
+    - Added a link to the [user roles](/tella-web#understanding-user-roles) help page when assigning roles.
+    - The "Name" column for reports is now called "Title", to make it consistent with the app's UX.
+- Bug fixes and minor improvements:
+    - Fixed menus and dialogs that didn't open correctly.
+    - Fixed text overflowing in fields, and character limits when editing users and resources.
+    - Fixed the search bar getting stuck after searching for a project that doesn't exist.
+    - Delete buttons are now red everywhere, and removed buttons that did nothing.
+
 A detailed list of features available on each platform is [available here](/features).
 
 
