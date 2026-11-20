@@ -79,6 +79,35 @@ To receive  updates on new features and improvements to Tella and stay up to dat
     - Updated the icon shown when there are no Tella Web reports, and made minor UI improvements to the file information and Quick Delete screens.
 - Updated translations. Please consider helping us [localize Tella](/translating-tella).
 
+
+
+### Tella Web 1.5.0 - Released on November 20, 2026 {/* #tella-web-150---released-on-nov-20-2026 */}
+- **Server administrators:** this version requires changes to the server configuration. Please read the [release notes on GitHub](https://github.com/Horizontal-org/tellaweb/releases) before updating.
+- Fixed all the Extreme, High and Moderate issues, and some of the Low issues, found by Radically Open Security in their [security audit of Tella Web](/security-and-privacy#security-audits). The auditors have not yet verified these fixes. We recommend that every organization using Tella Web update to this version.
+- Security and privacy improvements:
+    - Each user can now see and do only what their role allows, as described in [Understanding user roles](/tella-web#understanding-user-roles). For example, Editors can now add resources to their projects, and users only see their own projects when searching.
+    - Made [two-factor authentication](/tella-web#account-security) more secure. You now need to enter your password to see your backup codes.
+    - Backups and report files can now only be downloaded from Tella Web, so two-factor authentication protects them when it's enabled.
+    - Tella Web now limits repeated login attempts, to protect accounts against password guessing. [Suspicious login detection](/tella-web#configure-spaces-settings) is also more reliable.
+    - Tella Web now checks uploaded files more strictly. [Resources](/tella-web#creating-resources-to-the-space) must be valid PDF files of up to 20 MB.
+    - Emails sent by Tella Web, such as suspicious login alerts, now always use an encrypted connection.
+    - Updated the software libraries Tella Web is built on, and fixed other security issues.
+- The Admin Center now shows how much storage space is available on the server before you [generate a backup](/tella-web#backup-your-space). Downloaded backup files are now named with the date they were created.
+- Easier to use:
+    - Tella Web now shows when it is loading or working on something, and lets you know when a download starts.
+    - When there are no projects, reports or resources yet, Tella Web now explains what to do.
+    - Fixed pagination and sorting in all tables. Some lists used to stop after 25 items.
+    - Clearer error messages, for example for a wrong email or password, resources larger than 20 MB, or a project name or URL that already exists.
+    - Added a link to the [user roles](/tella-web#understanding-user-roles) help page when assigning roles.
+    - The "Name" column for reports is now called "Title".
+- Bug fixes and minor improvements:
+    - Fixed downloading files and "Download all", which now also shows its progress.
+    - Fixed menus and dialogs that didn't open correctly, such as the three-dots menu, project settings and deleting files.
+    - Fixed the confirmation messages for generating and deleting a backup.
+    - Fixed text overflowing in fields, and character limits when editing users and resources.
+    - Fixed the search bar getting stuck after searching for a project that doesn't exist.
+    - Delete buttons are now red everywhere, and removed buttons that did nothing.
+
 A detailed list of features available on each platform is [available here](/features).
 
 
