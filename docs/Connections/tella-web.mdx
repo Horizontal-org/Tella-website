@@ -50,7 +50,7 @@ If you need help figuring out if Tella Web is best for your use-case, [read our 
 
 This step consists of installing and configuring Tella Web on the server your organization will be using. This step needs to be completed by the person who is going to be responsible for the system administration (a developer or a system administrator). Technical instructions can be found on [our Github](https://github.com/Horizontal-org/tellaweb).
 
-You can check Tella Web release notes [here](https://github.com/Horizontal-org/tellaweb/releases).
+You can check what's new in each version of Tella Web in our [release notes](/releases). Server administrators can find the technical release notes and update instructions on [GitHub](https://github.com/Horizontal-org/tellaweb/releases).
 
 
 <Info>
@@ -81,7 +81,7 @@ Admins of the Tella Web space can enable or disable system-wide settings dependi
 - Suspicious login detection: 
     - If enabled Tella Web will record location for each login IP and approximate location based on IP. If the user is connecting from an unusual location Tella Web will block the login attempt to prevent any unauthorized sign-in and send an email to the user to confirm if was a legitimate login attempt. 
     - We use a [third party service](https://ipinfo.io/) to calculate the country of the IP. 
-    - Tella Web requires an SMTP server to be properly configured and working for this feature to work. 
+    - Tella Web requires an SMTP server to be properly configured and working for this feature to work. The connection to the SMTP server must be encrypted.
     - If disabled Tella Web won't store the IP, won't calculate location nor ping any third party service.
 - Feedback:
     - When enabled, Tella Web shows a feedback box that allow users to send an anonymous note to the Tella team on any feedback request or bug reports that they might find. It doesn't contain any information about the user or the Tella Web instance.
@@ -90,7 +90,7 @@ Admins of the Tella Web space can enable or disable system-wide settings dependi
 
 #### Backup your space {/* #backup-your-space */}
 
-Admins of the Tella Web instance can export all data out of Tella Web by generating a backup. Backups can be used to port the data to another location, including a computer, a USB flash drive, an external disk or a remote server.  The action to generate the backup runs in the background and, if triggered, an email notification will be sent to the person who generated the backup when it is ready to download. However, all backups are accessible in the Admin Center to all users with admin access.
+Admins of the Tella Web instance can export all data out of Tella Web by generating a backup. Backups can be used to port the data to another location, including a computer, a USB flash drive, an external disk or a remote server.  The action to generate the backup runs in the background and, if triggered, an email notification will be sent to the person who generated the backup when it is ready to download. However, all backups are accessible in the Admin Center to all users with admin access. Before generating a backup, the Admin Center shows how much storage space is available on the server.
 
 The backup is a full export of everything in the space: including all Projects, Reports, Users and Resources, plus all metadata. The export is a zip file including a collection of CSVs and folders with the uploaded media. For now, there is no way to import the backup back into a Tella Web instance from the Admin Center, but each backup includes a .sql file that advanced users can use to import the data to the database directly. 
 
@@ -209,6 +209,16 @@ After selecting the users to add to the project, click the "Add" button to save 
 The full list of users who can submit reports to the project includes the users listed on this section plus all the server administrators.
 </Info>
 
+#### Account security {/* #account-security */}
+
+Tella Web includes several protections for user accounts:
+- Two-factor authentication (2FA): each user can enable 2FA for their own account in the **Settings** screen. With 2FA enabled, logging in to Tella Web requires the password and a 6-digit code from an authentication app.
+    - To enable 2FA, enter your password, scan the QR code with your authentication app (or enter the code manually in the app), and enter the 6-digit code that the app shows.
+    - Backup codes let you log in if you lose access to your authentication app. To see them, go to **Settings**, edit two-factor authentication and select "Show codes". You need to enter your password to see the codes. Keep them somewhere safe but accessible.
+    - To disable 2FA, go to **Settings**, edit two-factor authentication and select "Disable". You need to enter your password and a code from your authentication app or a backup code.
+- Login attempts limit: to protect accounts against password guessing, Tella Web allows up to 10 login attempts per minute, and up to 10 two-factor codes per minute for each account.
+- [Suspicious login detection](/tella-web#configure-spaces-settings): if enabled, Tella Web blocks logins from unusual locations and asks the user to confirm them by email.
+
 ### Managing resources {/* #managing-resources */}
 
 Tella Web allows organizations to securely disseminate resources and materials to their
@@ -216,7 +226,7 @@ users directly within Tella’s encrypted container. Resources can be used to su
 
 #### Creating resources to the space {/* #creating-resources-to-the-space */}
 
-Admins can create resources to the space by navigating to the **Resources** left hand sidebar. For the moment resources can be created by uploading PDFs. We recommend keeping those smaller than 20MB to make sure users can download those even if internet is slow.
+Admins can create resources to the space by navigating to the **Resources** left hand sidebar. For the moment resources can be created by uploading PDF files of up to 20 MB. Files must be valid PDFs. Keeping resources small helps users download them even if their internet connection is slow.
 
 Resources are shared within the space. Keep in mind that resources are only available to users after adding those to specific projects. 
 
